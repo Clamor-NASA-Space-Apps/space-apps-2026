@@ -1,0 +1,16 @@
+# secrets
+.env.local
+.env*.local
+# separate repos (agent-forge-3d, storm-night-lighthouse, and the hackathon game from Nov 14)
+tooling/
+storm-night-lighthouse/
+outpost-gale/
+# downloaded zips are already unpacked next to them
+assets-cache/**/*.zip
+node_modules/
+__pycache__/
+# three.js only needs GLB/glTF; the other Kenney formats stay on disk but out of git
+assets-cache/kenney/*/Models/DAE format/
+assets-cache/kenney/*/Models/FBX format/
+assets-cache/kenney/*/Models/OBJ format/
+assets-cache/kenney/*/Models/STL format/

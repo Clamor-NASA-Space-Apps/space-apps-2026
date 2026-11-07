@@ -1,0 +1,432 @@
+49th International Conference on Environmental Systems
+7-11 July 2019, Boston, Massachusetts
+
+ICES-2019-181
+
+The Mars Global Dust Storm of 2018
+Michael D. Smith1 and Scott D. Guzewich.1
+NASA Goddard Space Flight Center, Greenbelt, MD 20771
+Mars is a dusty planet. Wind often lifts dust from the surface into the air forming clouds
+of dust at different locations across Mars. These dust storms typically last up to a couple
+days and grow to a few hundred km in size. However, once in a long while when conditions
+are just right, localized dust storms can interact in a way that optically thick suspended dust
+covers nearly the entire planet remaining aloft for weeks to months. These global-scale dust
+storms are the most dramatic of all weather phenomena on Mars, greatly altering the
+thermal structure and dynamics of the Martian atmosphere and significantly changing the
+global distribution of surface dust. Such a global-scale dust storm occurred during the
+summer of 2018, the first such event since 2007. The global dust storm was observed by an
+international fleet of spacecraft in Mars orbit and on the surface of Mars providing an
+unprecedented view of the initiation, growth, and decay of the storm as well as the physical
+properties of the dust during the storm's evolution. The 2018 global-scale dust storm was
+observed to grow from several localized dust-lifting centers with wind-blown dust suspended
+in the atmosphere encircling Mars after about two weeks of activity. Dust column optical
+depths recorded by the Opportunity and Curiosity rovers on the surface were the highest
+ever recorded on Mars. Peak global intensity of the dust storm was reached in early July
+2018. Over the next couple months, the dust settled out and the atmosphere returned to its
+climatological average. Only a small number of global-scale dust storms have been observed
+on Mars, and so detailed analysis of the observations of this storm will provide important
+new insight into how these events occur and their effect on the current Mars climate.
+
+Nomenclature
+Ls
+
+t
+
+T
+
+= areocentric solar longitude, a measure of the season on Mars
+= dust column-integrated optical depth
+
+I. Introduction
+
+HE presence of dust is ubiquitous on Mars and it has long been recognized to play a crucial role in the current
+Martian climate1-6. Observations of dust suspended in the Mars atmosphere go back to early telescopic records
+of “yellow clouds” that would sometimes obscure the familiar surface markings7. These clouds of dust typically
+measure up to a several hundreds of km in size, and most of the time these clouds are observed to form, evolve, and
+then dissipate over the course of a few days. During the portion of the year near perihelion when there is maximum
+solar input to drive atmospheric motions, there is usually a succession of many of these “local-scale” dust storms,
+the combination of which can generate enough suspended dust to create a regional-scale pall of dust covering a
+continent-sized portion of the globe. The visible-wavelength optical depth of the dust can exceed unity in the regions
+where dust clouds are thickest. In this nominal case the gravitational settling of dust soon overcomes the raising of
+new dust from the surface, and the overall dust loading of the atmosphere begins to fall. As the season progresses
+and Mars recedes from the Sun, the amount of dust raising further subsides and eventually an equilibrium is reached
+where gravitational settling of the dust is balanced by a background of small-scale local dust storms and dust devils
+with the optical depth of dust typically around t=0.48.
+In rare cases, however, conditions are just right for an interaction between the local- and regional-scale dust
+storms that prolongs the growth of dust lifting and incites new centers of dust lifting to form at a number of different
+sites around Mars. As this chain reaction of dust injection into the atmosphere occurs, winds aloft distribute the dust
+around the planet over a timescale of a week or two so that a thick blanket of airborne dust encircles the planet. This
+is a so-called “global dust storm9.” Such a global dust storm occurred during the summer of 201810. Figure 1 shows
+1
+
+NASA Goddard Space Flight Center, Code 693, Greenbelt, MD 20771.
+
+images taken from Mars orbit before and during the global dust storm11. Surface features that are easily recognizable
+before the global dust storm were no longer apparent during the storm. These global storms can nearly completely
+obscure the planet with the dust optical depth reaching t=5 or more over a global scale, with localized values
+measured at t=10 or even higher. Eventually, new dust lifting subsides and the dust slowly falls out of the
+atmosphere, but this process can take months until the atmospheric dust loading has returned to nominal
+climatological levels once again.
+
+Figure 1. A view of Mars before (left) and during (right) the global dust storm of 2018 as imaged by the Mars
+Color Imager (MARCI) on-board the Mars Reconnaissance Orbiter. The image at left was taken 28 May
+2018 (Ls=183°), just before the beginning of the global dust storm. The image at right was taken 1 July 2018
+(Ls=203°) at the height of the dust storm. Suspended dust from the storm completely obscures surface
+markings apparent in the image at left. Image Credit: NASA/JPL-Caltech/MSSS.
+As mentioned earlier, Mars has distinct seasons. Seasons on Mars are described in terms of the areocentric
+longitude, or Ls, of Mars in its orbit around the Sun. The value Ls=0° is defined by the Northern Hemisphere vernal
+equinox. Likewise, in the Northern Hemisphere Ls=90° marks the date of summer solstice, Ls=180° is the date of the
+autumnal equinox, and Ls=270° is the date of the winter solstice. In the current epoch, Mars perihelion (its closest
+approach to the Sun) is at Ls=251°. This is important because the relatively large eccentricity of the Martian orbit
+(0.09) means that Mars receives roughly 40% more solar flux at perihelion than it does at aphelion, its furthest point
+from the Sun. At low latitudes, this drives seasons that are aligned more with the difference between perihelion and
+aphelion than the summer vs. winter seasons that are familiar from terrestrial experience. Very roughly, the Martian
+year can be divided between a relatively warm and dusty “perihelion season” between Ls=180° and 360°, and a
+relatively cool and less dusty “aphelion season” between Ls=0° and 180°. Because the seasonal date of perihelion
+(Ls=251°) is close to the summer solstice in the Southern Hemisphere (Ls=270°), the orbital seasons
+(perihelion/aphelion) and obliquity seasons (summer/winter) align causing a greater annual variation in temperatures
+than in the north12,13.
+While there is some amount of dust suspended in the Martian atmosphere during all seasons12, the activity that
+raises dust from the surface to form dust storms is far more common during the perihelion season when solar input is
+larger. And, the occurrence of global dust storms appears to be restricted solely to the perihelion season. Figure 2
+shows the seasonal date of all observed global dust storms on Mars over the past 100 years7,14,15. To differentiate
+2
+International Conference on Environmental Systems
+
+between different Martian years, a consensus has arisen16 to label Mars Years (MY), beginning with MY 1 defined
+as the Mars Year with the first global dust storm observed in the modern age in 1957. The beginning of a new Mars
+Year is defined by Ls=0°, and thus, Mars Year 1 (MY 1) began on 11 April 1955. The global dust storm from
+summer 2018 occurred in MY 34, and the current Mars Year is 35, which began on 23 March 2019.
+In Fig. 2, it is apparent that every
+observed global storm has occurred during
+the perihelion season within the range of
+seasonal dates Ls=185° to 315°, or within
+about 65° of the perihelion date. With only
+11 recorded global dust storms it is difficult
+to draw any firm conclusions about the
+distribution within that period, but there
+appear to be three clusters or groups, with
+one group having an early onset before
+Ls=220°, a second group clustered near
+perihelion at Ls=250°–270°, and a third
+group occurring late in the interval near
+Ls=310°.
+The physical mechanism behind the
+growth of local and regional scale dust
+storms into a global scale storm is still not
+well understood6. Indeed, it appears likely
+that it is a combination of many different
+phenomena with complex positive and
+negative feedbacks that leads to the growth
+and evolution of a global scale storm. It is
+apparent from a quick look at the Mars
+Years listed in Fig. 2 that global dust storms
+do not happen every Mars Year. Indeed, the Figure 2. The timing of observed global dust storms on Mars is
+occurrence of global storms is stochastic concentrated in the season near perihelion. The global dust storm
+with the probability for a global storm of 2018 (MY 34) occurred early in the seasonal window where
+being roughly 25% for any given Mars such storms have been observed to occur.
+Year. Global storms can happen on two
+consecutive years (e.g., MY 9 and 10), and there has even been one occurrence of two global storms happening
+during the same Mars Year (MY 12), which was observed in 1977 by the Viking orbiters and landers17. More
+common is a gap of several Mars Years between global storms. In fact, the last global dust storm before the 2008
+(MY 34) storm occurred in 2007, six Mars Years previously (MY 28). It is still a matter of intense active research to
+determine the root cause for this intermittent and seemingly random behavior in the occurrence of global dust
+storms. It may be that some reservoir of surface dust needs time to be replenished before another global storm can
+occur. Others have suggested that the phasing of a spin-orbit coupling forcing term may explain much of the
+variation from one Mars Year to the next15. We are only beginning to fully appreciate the complexity of the Mars
+system and the intricate and complex interactions between atmospheric dust, clouds, dynamics, and photochemistry,
+and it is likely that the observed interannual variation in the size and occurrence of dust storms is caused by a
+number of interacting phenomena.
+Figure 3 further illustrates and summarizes the points made in this introduction. Here is shown daytime
+atmospheric temperatures at about 25 km altitude as retrieved from thermal infrared observations made by the
+Thermal Emission Spectrometer (TES), which was on-board the Mars Global Surveyor (MGS) orbiter, and the
+Thermal Emission Imaging System (THEMIS), which is on-board the currently operating Mars Odyssey orbiter.
+Together, observations from TES18 (MY 24-26) and THEMIS19 (MY 26-present) now span more than 10 Mars
+Years, which allows the annual patterns and the interannual variations to be easily seen. At low latitudes, the cool
+aphelion (Ls=0°-180°) contrasts with the warmer perihelion (Ls=180°-360) season. It is also apparent that the
+interannual variation from one Mars Year to the next is confined mostly to the perihelion season. This is primarily
+driven by interannual variation in the amount of dust loading in the atmosphere. Dust suspended in the atmosphere
+absorbs solar radiation warming the atmosphere. A greater optical depth of dust directly leads to higher observed
+atmospheric temperatures at local time and altitude of these observations. In Fig. 3 we can see that the three most
+3
+International Conference on Environmental Systems
+
+recent global storms have occurred during MY 25, 28, and 34, which are Earth years 2001, 2007, and 2018. Those
+three Mars Years have significantly higher atmospheric temperatures than the other Mars Years. It is also interesting
+that no two Mars Years are alike. The seasonal date of the MY 28 storm was much later than the MY 25 and 34
+storms. And, even those Mars Years without a global scale storm show significant differences in the timing and
+strength of the regional scale storms that produce the warmings shown in this plot.
+
+Figure 3. Daytime atmospheric temperature on Mars at ~25 km altitude as observed by the TES and
+THEMIS instruments over a time period of 10 Mars Years. Global dust storms are indicated by the large
+thermal response observed during Mars Years 25, 28, and 34. Other Mars Years had smaller, regional-scale
+dust storms, but no global storm.
+For the remainder of this paper, we will focus on a description of spacecraft observations of the most recent
+global dust storm, which occurred in MY 34, or the summer of 2018. This storm was observed by a number of
+different spacecraft, both from orbit and from rovers on the surface giving us an unprecedented view of the
+initiation, growth and decay of one of these rare events.
+
+II. Observations of the 2018 global dust storm
+A. Overview and Narrative of the storm’s evolution
+As with all Mars global dust storms, the global storm of 2018 began as a series of typical local-scale dust
+storms10,20. In the earliest stages of development, it is never obvious whether a given dust event will grow to global
+scale covering nearly the entire planet or remain at the more typical regional scale of up to a couple thousand km. At
+the beginning of the perihelion season (Ls=180°), dust activity is typically just beginning to increase in frequency
+and intensity, and the global average dust loading, or optical depth, also begins to increase. As is common during
+this season, at the end of May 2018 (MY 34, Ls=185°) the daily global observations performed from orbit by the
+MARCI instrument showed the formation of a local dust storm on the edge of the seasonally growing north polar ice
+cap20. Because of the strong thermal contrast between regolith and ice-covered surfaces, small-scale dust storms
+often arise along the edge of the seasonal polar ice caps in both hemispheres21.
+The local dust storms that form along the edge of the northern polar cap in this season are often transient events
+lasting no longer than a day or two. However, conditions were right for this particular storm to intensify and grow in
+areal extent as prevailing winds carried it southward along a “storm track” toward lower latitudes. By 2 June 2018,
+the storm had reached the Mars Exploration Rover “Opportunity” located in Meridiani Planum near the equator. The
+storm continued to intensify and spread to the east. The optical depth as measured by Opportunity spiked, increasing
+from the nominal seasonal value of somewhat less than t~1 to a lower limit of t>10.7, the highest ever dust optical
+depth measured at Mars22. Ultimately, this proved fatal to the solar powered Opportunity rover, which entered a
+low-power fault condition and was never heard from again.
+The dust storm, which had now attained regional scale stalled over the Opportunity site and continued to slowly
+grow in size and evolve23. New centers of dust lifting arose to replace others that dissipated. Airborne dust was
+advected eastward by the prevailing winds with the effect that the dust cloud slowly grew to cover additional
+regions. On 12 June 2018 (Ls=192°) the edge of the growing dust storm reached the longitude of the Mars Science
+4
+International Conference on Environmental Systems
+
+Laboratory (MSL) “Curiosity” rover, also located near the equator but 180° in longitude away from Opportunity.
+Figure 4 shows the rapid increase in dust optical depth as measured by direct imaging of the Sun by the Mast
+Camera on-board the Curiosity rover10. Over the course of approximately a week the dust optical depth increased by
+an order of magnitude reaching a maximum value of t=8.5. Because Curiosity is nuclear powered it was able to
+survive the dust storm and provide a wealth of meteorological data throughout the growth and decay of the storm.
+
+Figure 4. The column dust optical depth at 880 nm wavelength observed by direct solar imaging by the Mars
+Science Laboratory (“Curiosity” rover) Mast Camera. The dust optical depth at Gale Crater jumped rapidly
+once the cloud of dust spread over the Curiosity rover site. The optical depth subsequently decayed back to
+nominal values as dust gravitationally settled out of the atmosphere.
+Active dust lifting spread into the Southern Hemisphere and the cloud of airborne dust was advected further
+eastward. On 20 June 2018 (Ls=197°) the dust cloud completed its circumnavigation of Mars so that the storm now
+encircled the globe and could be officially called a global-scale dust storm. The peak dust optical depth at any given
+location on Mars varies, but observations from orbit24 show that the peak global dust loading occurred shortly after
+Ls=200°, at which time new active dust lifting began to abate and the long process of the dust gravitationally settling
+out of the atmosphere began to outpace new lifting of dust. As can be seen in Fig. 4, the micron-sized dust particles,
+which may be lofted more than 50 km into the atmosphere during a global storm25, take weeks or months to settle
+out. Here, 20° of Ls is just over one month of Earth time. The decrease in dust optical depth observed by Curiosity
+(Fig. 4) is well represented by an exponential decay with a time scale of 43 sols (length of a day on Mars) or 44
+Earth days10. By mid-September 2018 (Ls=250°) atmospheric dust optical depth and temperatures had returned to
+nominal climatological values16 for that season, marking the end of the 2018 global dust storm.
+B. Effects of the Global Dust Storm on the Martian Atmosphere
+The injection of that quantity of dust into the atmosphere has a profound effect on the dynamics and meteorology
+of the Mars atmosphere6. For example, Fig. 5 shows a few of the observations during the global dust storm taken by
+the Rover Environmental Monitoring Station (REMS) on-board the Curiosity rover10. A set of upward-looking
+5
+International Conference on Environmental Systems
+
+photodiodes monitors the levels of UV radiation reaching the rover. Shown in the top panel of Fig. 5 is the daily
+maximum intensity of UV radiation observed at the rover. As the cloud of dust moved over the rover and intensified,
+the observed UV radiation dropped
+by 97% mirroring the increase in
+dust optical depth shown in Fig. 4.
+Images taken by the rover (not
+shown here) became increasingly
+dark and the visibility of distant
+objects became reduced to the point
+where normal imaging campaigns
+were suspended until after the storm.
+Suspended dust in the atmosphere
+absorbs sunlight that otherwise
+would have reached the surface
+thereby increasing atmospheric
+temperatures and decreasing surface
+temperatures during daytime hours.
+The opposite occurs during the night
+as radiation from the warm
+atmosphere keeps the surface
+warmer than it would be without the
+dust. This is illustrated in the bottom
+panel of Fig. 5, which shows the
+minimum and maximum daily
+surface temperatures recorded by
+REMS. The diurnal range of surface
+temperature rapidly dropped from a
+value of almost 100 K, typical of this
+location and season, to about 40 K
+during the peak of the storm. The
+diurnal range of near-surface
+atmospheric temperatures observed
+by REMS was also observed to
+decrease by about 40 K at the arrival
+of the global storm at Gale Crater.
+Other effects caused by the dust
+storm that were observed by the
+Curiosity rover included an increase
+in the effective radius of dust
+particles above the rover, a pause in
+dust devil activity during the dustiest Figure 5. The amount of UV radiation (top) and the daily surface
+portion of the storm, and a strong temperature minima and maxima (bottom) as observed by the REMS
+enhancement in the amplitude of instrument on the MSL Curiosity rover. The abrupt onset of the global
+atmospheric tides10. All of this storm is seen by a 97% reduction in the amount of UV radiation and a
+occurred despite there being no drastic reduction in the range of surface temperatures observed over
+evidence of active local dust lifting the diurnal cycle. Suspended dust blocks sunlight during the day
+at the Curiosity site in Gale Crater cooling the surface, but re-radiates during the night warming the
+surface.
+itself during the storm.
+The global reach of the effects of
+this dust storm is illustrated in Fig. 6. Shown in the figure is the year-over-year difference in daytime atmospheric
+temperature (at ~25 km altitude) caused by the 2018 global storm as a function of season (Ls) and latitude as
+observed by the THEMIS instrument on the Mars Odyssey orbiter26. The temperature difference is given by the
+temperature during MY 34 (the year of the global dust storm) minus the temperature during MY 33 (a year without a
+global dust storm). Before the onset of the global storm (Ls earlier than 185°) and after conditions had returned to
+seasonal norms (Ls later than about 250°) the temperature difference is essentially zero, as expected. During the
+6
+International Conference on Environmental Systems
+
+global dust storm, the THEMIS observations show that temperatures increased on a global scale by more than 20 K,
+reaching a peak value around Ls=205°. At some latitudes in the Southern Hemisphere the observed temperature
+increase was more than 40 K. This
+warming is a combination of the direct
+solar heating through the absorption of
+sunlight by the dust and heating caused by
+a change and intensification of patterns in
+the global circulation. Even before dust
+spreads to all latitudes, the dust near the
+equator (for example) will intensify the
+strength of the Hadley circulation leading
+to an increase in the dynamical heating
+associated with the downward motions of
+the Hadley cell at latitudes far from the
+dusty region6. This effect can be seen in
+Fig. 6 by the greater temperature changes at
+60° north and south latitude (the latitude of
+the descending branch of the Hadley
+circulation) than at tropical latitudes where
+the dust optical depth was observed to be
+greatest. This effect happens even during
+years without a global dust storm13. Figure 6. The year-over-year change in daytime atmospheric
+Recalling Fig. 2, we see a similar effect temperature observed by THEMIS. Shown is the MY 34 (global
+(although of lesser amplitude) nearly every dust storm) temperature minus the MY 33 (no global dust storm)
+Mars Year regardless of whether there was temperature. The presence of dust significantly affects the
+a global dust storm or not. This is perhaps overall thermal structure of the atmosphere. The local time of
+most clearly seen for a non-global dust these observations is about 7:15 PM.
+storm year in MY 24.
+The temperature differences shown in Fig. 6 are for a local time of about 7:15 PM, or shortly after sunset.
+Observations by THEMIS at 7:15 AM local time reveal that the temperature difference caused by the global dust
+storm had a somewhat smaller amplitude (~15–25 K) that was greatest at low northern latitudes26. This difference in
+the thermal effect of the dust storm at different local times (and at different altitudes) is caused by the relative phase
+of the solar atmospheric tides.
+The effect of the global dust storm on the surface temperatures retrieved from THEMIS observations are a bit
+more difficult to interpret since the 7:15 AM/PM local time of observation is very near the thermal crossover time
+between the expected daytime cooling and nighttime warming of the surface from the overlying dust. Indeed, there
+is only a slight warming (<~10 K) of the surface observed at 7:15 PM, mostly at low northern latitudes. The
+morning (7:15 AM) observations show ~15 K cooling in the Southern Hemisphere, but little change in the Northern
+Hemisphere26.
+
+III. Conclusion
+Global dust storms are among the most dramatic weather events observed at Mars. The global dust storm
+observed during the summer of 2018 (Mars Year 34) provides an excellent example of one of these rare events. Dust
+storms with this global scale profoundly affect all aspects of the atmosphere state of Mars, and these effects last for
+more than a month. Only a handful of global dust storms has ever been observed and each one is unique in its
+seasonal timing and in the particular way in which it initiates and grows to global scale. We are fortunate that a large
+number of spacecraft were in place to observe this storm, both from orbit and from the surface. Detailed analysis of
+these observations is currently underway and promises to provide new and important insights into the physical
+processes that drive these storms.
+
+Acknowledgments
+The authors gratefully acknowledge financial support from the Mars Science Laboratory Participating Scientist
+program and the Mars Odyssey Participating Science program.
+7
+International Conference on Environmental Systems
+
+References
+1
+
+Gierasch, P., and Goody, R., “The Effect of Dust on the Temperature of the Martian Atmosphere,” J. Atmos. Sci., Vol. 29,
+1971, pp. 400-402.
+2
+Conrath, B. J., “Thermal Structure of the Martian Atmosphere During the Dissipation of the Dust Storm of 1971,” Icarus,
+Vol. 24, 1975, pp. 36-46.
+3
+Haberle, R. M., Leovy, C. B., and Pollack J. B., “Some Effects of Global Dust Storms on the Atmospheric Circulation on
+Mars,”, Icarus, Vol. 50, 1982, pp. 322-367.
+4
+Newman, C. E., Lewis, S. R., Read, P. L., and Forget, F., “Modeling the Martian Dust Cycle: 1. Representations of Dust
+Transport Processes,” J. Geophys. Res., Vol. 107 (E12), L04203, 2002, doi:10.1029/2002JE001910.
+5
+Smith, M. D., Conrath, B. J., Pearl, J. C., and Christensen, P. R., “Thermal Emission Spectrometer Observations of the
+Martian Planet-Encircling Dust Storm 2001A,” Icarus, Vol. 157, 2002, pp. 259-263.
+6
+Kahre, M. A., Murphy, J. R., Newman, C. E., Wilson, R. J., Cantor, B. A., et al., “The Mars Dust Cycle”, Chapter 10 in The
+Atmosphere and Climate of Mars, Cambridge University Press, Cambridge, UK, 2017.
+7
+McKim, R., “Telescopic Martian Dust Storms: A Narrative and Catalogue,” Memoirs Brit. Astron. Assoc., Vol. 44, 1999, pp.
+1-168.
+8
+Forget, F., and Montabone, L., “Atmospheric Dust on Mars: A Review,” 47th International Conference on Environmental
+Systems, Charleston, SC (USA), July 2017, ICES-2017-175, http://hdl.handle.net/2346/72982.
+9
+Montabone, L., and Forget, F., “On Forecasting Dust Storms on Mars,” 48th International Conference on Environmental
+Systems, Albuquerque, NM (USA), July 2018, ICES-2018-281, http://hdl.handle.net/2346/74226.
+10
+Guzewich, S. D., Lemmon, M., Smith, C. L., Martínez, G., de Vicente-Retortillo, Á, et al., “Mars Science Laboratory
+Observations of the 2018/Mars Year 34 Global Dust Storm,” Geophys. Res. Lett., Vol. 46, 2019, doi:0.1029/2018GL080839.
+11
+NASA Jet Propulsion Laboratory Press Release PIA22487, “Mars Before and After Dust Storm,” 19 July 2018,
+https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA22487.
+12
+Smith, M. D., “Spacecraft Observations of the Martian Atmosphere,” Annu. Rev. Earth Planet. Sci., Vol 36, 2008, pp. 191219.
+13
+Smith, M. D., Bougher, S. W., Encrenaz, T., Forget, F., Kleinbôhl, A., “Thermal Structure and Composition,” Chapter 4 in
+The Atmosphere and Climate of Mars, Cambridge University Press, Cambridge, UK, 2017.
+14
+Martin, L. J., and Zurek, R. W., “An analysis of the History of Dust Activity on Mars,” J. Geophys. Res., Vol. 98, 1993, pp.
+3221-3246.
+15
+Shirley, J. H., Newman, C. E., Mischna, M. A., Richardson, M. I., “Replication of the Historic Record of Martian Global
+Dust Storm Occurrence in an Atmospheric General Circulation Model,” Icarus, Vol. 317, 2019, 197-208.
+16
+Clancy, R. T., Sandor, B. J., Wolff, M. J., Christensen, P. R., Smith, M. D., et al., “An Intercomparison of Ground-Based
+Millimeter MGS TES and Viking Atmospheric Temperature Measurements: Seasonal and Interannual Variability of
+Temperatures and Dust Loading in the Global Mars Atmosphere,” J. Geophys. Res., Vol. 105 (E4), 2000, pp. 9553-9571.
+17
+Martin, T. Z., and Richardson, M. I., “New Dust Opacity Mapping from Viking Infrared Thermal Mapper Data,” J.
+Geophys. Res., Vol. 98, 1993, pp. 10941-10949.
+18
+Smith, M. D., “Interannual Variability in TES Atmospheric Observations of Mars During 1999-2003,” Icarus, Vol. 167,
+2004, pp. 148-165.
+19
+Smith, M. D., “THEMIS Observations of Mars Aerosol Optical Depth From 2002-2008,” Icarus, Vol. 202, 2009, pp. 444452.
+20
+Malin, M. C., Cantor, B. A., and Britton, A. W., “MRO MARCI Weather Report for the Week of 28 May 2018-3 June
+2018,” Malin Space Science Systems Captioned Image Release, MSSS-533, 6 June 2018, http://www.msss.com/msssimages/2018/06/06.
+21
+Wang, H., Richardson, M. I., Wilson, R. J., Ingersoll, A. P., Toigo, A. D., and Zurek, R. W., “Cyclones, Tides, and the
+Origin of a Cross-Equatorial Dust Storm on Mars,” Geophys. Res. Lett., Vol. 30, 2003, doi:10.1029/2002GL016828.
+22
+NASA Jet Propulsion Laboratory, “Martian Dust Storm Grows Global; Curiosity Captures Photos of Thickening Haze,” 20
+June 2018, https://www.jpl.nasa.gov/news/news.php?feature=7164.
+23
+Malin, M. C., Cantor, B. A., and Britton, A. W., “MRO MARCI Weather Report for the Week of 4 June 2018-10 June
+2018,” Malin Space Science Systems Captioned Image Release, MSSS-534, 13 June 2018, http://www.msss.com/msssimages/2018/06/13.
+24
+Smith, M. D., “THEMIS Observations of Martian Planet-Encircling Dust Storm 2018,” J. Geophys. Res. (submitted for
+publication).
+25
+Clancy, R. T., Wolff, M. J., Whitney, B. A., Cantor, B. A., Smith, M. D., et al., “Extension of Atmospheric Dust Loading in
+High Altitudes During the 2001 Mars Dust Storm: MGS TES Limb Observations,” Icarus, Vol 207, 2010, pp. 98-109.
+26
+Smith, M. D., “THEMIS Observations of Martian Planet-Encircling Dust Storm 2018,” Abstract P43J-3865, Fall 2018
+Meeting
+of
+the
+American
+Geophysical
+Union,
+Washington
+DC,
+10-14
+December
+2018,
+https://agu.confex.com/agu/fm18/meetingapp.cgi/Paper/448231.
+
+8
+International Conference on Environmental Systems
+
+

@@ -1,0 +1,167 @@
+National Aeronautics and Space Administration
+
+Multi-Mission Radioisotope
+Thermoelectric Generator (MMRTG)
+Space exploration missions require safe, reliable,
+long-lived power systems to provide electricity
+and heat to spacecraft and their science instruments. A flight-proven capable source of power
+is the Radioisotope Thermoelectric Generator
+(RTG)–essentially a nuclear battery that reliably
+converts heat into electricity.
+NASA and the Department of Energy (DOE)
+have developed a new generation of such
+power systems that could be used for a variety
+of space missions. The newest RTG, called a
+Multi-Mission Radioisotope Thermoelectric
+Generator (MMRTG), has been designed to
+operate on Mars and in the vacuum of space.
+The MMRTG has a flexible modular design
+capable of meeting the needs of a wide variety
+of missions, as it generates electrical power in
+smaller increments than previous generations
+of RTGs, about 110 watts at launch. The design
+goals for the MMRTG included optimizing power
+levels over a minimum lifetime of 14 years and
+ensuring a high degree of safety.
+Heat Source Liner
+
+Thermal Insulation
+
+Cooling Tubes
+
+Housing
+
+Mounting Interface
+
+An artist impression of Voyager 1
+
+How RTGs Work
+Heat
+Distribution
+Block
+8 GPHS
+Module Stack
+
+Thermoelectric
+Modules
+
+counting. The Apollo missions to the moon,
+the Viking and Curiosity missions to Mars, and
+the Pioneer, Voyager, Ulysses, Galileo, Cassini
+and Pluto New Horizons missions to the outer
+Solar System all used RTGs. The RTGs for the
+Pioneer 10 spacecraft operated flawlessly for
+three decades until the spacecraft signal was
+finally too weak to detect in 2003. The spectacular Voyager 1 and 2 missions, operating
+on RTG power since launch in 1977, continue
+to function, with Voyager 1 just having reached
+interstellar space.
+
+Fin
+Thermal Insulation
+
+MMRTG Model
+
+History of RTGs in Space
+First launched into Earth orbit in 1961, RTGs
+have flown on 27 space missions involving
+46 RTGs. RTGs have enabled NASA to explore the Solar System for four decades and
+
+RTGs work by converting heat from the natural
+decay of radioisotope materials into electricity.
+RTGs consist of two major elements: a heat
+source that contains plutonium-238 (Pu-238)
+and solid-state thermocouples that convert the
+plutonium’s decay heat energy to electricity.
+Conversion of heat directly into electricity is
+a scientific principle discovered 150 years
+ago by German scientist Thomas Johann
+Seebeck. He observed that an electric voltage
+is produced when two dissimilar, electrically
+conductive materials are joined in a closed
+circuit and the two junctions are kept at
+different temperatures. Such pairs of junctions
+are called thermoelectric couples (or thermocouples).
+
+The power output from such thermocouples is a combination of the temperature of each junction and the
+properties of the thermoelectric materials. The thermocouples in RTGs use heat from the decay of Pu-238 to
+heat the hot side of the thermocouple, and the cold of
+space or a planetary atmosphere to produce a low
+temperature at the cold side.
+“N” Leg Cold Shoe
+
+“P” Leg Cold Shoe
+
+GPHS Module Illustration provided by DOE
+
+PbTe
+
+TAGS
+
+PbSnTe
+Hot Shoe
+
+Mars Science Laboratory
+The first NASA mission to carry an MMRTG is the
+Curiosity Mars rover, which was launched in November
+2011 and landed successfully on the Red Planet on
+August 6, 2012. Curiosity, the largest and most capable
+rover ever sent to another planet, has already achieved its
+main goal of determining that its landing site, Gale Crater,
+could have supported life in the ancient past.
+
+MMRTG Thermoelectric Couple
+
+Safety and Design of RTGs
+The MMRTG is designed to use a heat source composed
+of eight General Purpose Heat Source (GPHS) modules.
+These GPHS modules are the basic building block of
+safety for Radioisotope Power Systems. While RTGs have
+never been the cause of a spacecraft accident, they have
+been on board three space missions that failed for other
+reasons. In all three cases, the RTGs performed precisely
+as designed.
+The MMRTG contains a total of 10.6 pounds (4.8 kilograms) of plutonium dioxide (including Pu-238) that initially
+provides approximately 2,000 watts of thermal power and
+110 watts of electrical power when exposed to deep
+space environments. The thermoelectric materials
+(PbSnTe, TAGS, and PbTe) have demonstrated extended
+lifetime and performance capabilities, and are the same
+as those used for the two Viking spacecraft that landed on
+Mars in 1976. The MMRTG generator is about 25 inches
+(64 centimeters) in diameter (fin-tip to fin-tip) by 26 inches
+(66 centimeters) tall and weighs about 94 pounds
+(45 kilograms)
+
+The Curiosity rover took this self portrait on
+the surface of Mars, with its MMRTG power
+source visible at the rear.
+
+In just its first year on
+Mars, Curiosity provided
+more than 190 gigabits
+of data; returned more
+than 36,700 full images
+and 35,000 thumbnail
+images; fired more than
+75,000 laser shots to
+investigate the composition of numerous
+geologic targets; collected and analyzed
+sample material from
+two Mars rocks; and
+drove more than one
+mile (1.6 kilometers).
+
+For more information about NASA’s use of Radioisotope Power
+Systems, see: rps.nasa.gov or email rps@nasa.gov
+Department of Energy contact:
+Ryan Bechtel
+(301) 903-1167
+Ryan.Bechtel@nuclear.energy.gov
+
+www.nasa.gov
+October 2013
+
+NASA Facts
+
+
