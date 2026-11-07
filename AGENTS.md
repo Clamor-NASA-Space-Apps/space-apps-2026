@@ -66,7 +66,7 @@
 | Dust storms | global about every 3 Mars years (~5.5 Earth years); dust settles over months | NASA |
 | Landing | "seven minutes of terror" | NASA |
 | Gale sunset | looks blue near the Sun | NASA |
-| Moon dose 1,369 µSv/d; Earth background 2.4 mSv/yr | ⚠️ reported only | — |
+| Moon dose 1,369 µSv/d; Earth background 2.4 mSv/yr | ⚠️ reported only | press / research agent |
 
 ## Where things are
 | Path | Contents |
