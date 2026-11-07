@@ -1,0 +1,133 @@
+# AGENTS.md: NASA Space Apps 2026 workspace
+
+`CLAUDE.md` is a symlink to this file. Claude Code also loads it in every sub-folder, including the nested repos, so the rules here apply everywhere. Nested repos add only their own specifics.
+
+## Mission
+- **Team:** 4 beginners (Ravindu = Commander, drives Claude), NASA Space Apps 2026, Colombo local event, **14–15 Nov 2026**.
+- **Challenge:** "Build a Junior Astronaut Mission Trainer". Kids aged 7–12 run a Moon/Mars outpost and learn real trade-offs: life support, radiation shielding, power, food, communication delay.
+  - Full text: `research/junior-astronaut/challenge.txt`.
+  - Author video transcript: `research/junior-astronaut/video-subtitles.txt`.
+- **Our answer:** a **three.js browser game, "Outpost Gale"** (working title). A base in Gale crater on Mars, 30 sols, 3 meters, PG "mission lost" + replay of the 3 choices that caused it.
+  - Full design: Docmost page "Game design and story".
+- **Plan:** `plan.md`. **Checklist:** `roadmap.md`. Tick roadmap items when done.
+
+## Hard rules (breaking these can disqualify us or mislead kids)
+1. **No Mars-game code or art before the hackathon starts (14 Nov).** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." Before then:
+   - Allowed: research, docs, generic tooling, the rehearsal game.
+   - The team accepted the grey area of writing design docs early.
+2. **Never copy anything from `storm-night-lighthouse/` into the hackathon repo.** Only `tooling/` (agent-forge-3d) is shared.
+3. **Every number shown to players has a source** in `research/junior-astronaut/factcheck.md`. ❌ claims never ship.
+4. **Never present archived data as live.** Every data value is labelled LIVE (fetched now) or ARCHIVED + date.
+5. **No NASA logos** (meatball, worm, seal), and nothing that implies NASA endorsement. Text credit "Data: NASA" is fine.
+6. **AI ("SI") use must be described** in the submission. AI images/videos need a visible "AI-generated" watermark. AI audio (Piper voices) and code are acknowledged in text.
+7. **Cite every source and asset.** Keep `assets-cache/CREDITS.md` current. Original work is open source (Apache-2.0).
+8. **Under-18s:** no photos, video or voices of minors in the project or the demo.
+9. **Secrets:** the api.nasa.gov key lives only in `.env.local` (gitignored, chmod 600).
+   - Never print it.
+   - Never commit it.
+   - Never ship it in browser JS.
+   - Live in-game data comes from NOAA (no key).
+10. **Offline first.** The venue network may be slow. The game must run with the network unplugged. Download before the event, never during.
+
+## Judging (2025 guide; the 2026 guide lands 13 Nov, so re-check then)
+- **Criteria:** Impact, Creativity, Validity, Relevance, Presentation.
+- **Submit:** project page, a 30 s video with English subtitles (or ≤7 slides), a public no-login game link, sources, and the SI-use paragraph.
+- **Deadline:** 23:59 local on day 2. Our target is 18:00.
+- **What the brief rewards:**
+  - No free choice: every option costs something.
+  - 2–3 core resources.
+  - Plain language, with terms explained in context.
+  - Real data credited in-game.
+  - Replayability.
+  - Real space weather tied to choices.
+
+## Verified facts (✅ = seen in the source; full table and URLs in `research/junior-astronaut/factcheck.md`)
+| Fact | Value | Source |
+|---|---|---|
+| Trip Earth→Mars | 203 d (Perseverance) to 253 d (Curiosity), about 7 months, **not 9**. It does **not** pass the Moon or the ISS | NASA, SwRI |
+| Launch windows | every 779.94 d (~26 months) | NSSDC |
+| Sol / Mars year | 24 h 39 min / 687 Earth d = 669.6 sols | NSSDC, NASA |
+| Gravity | Mars 0.38 g; Moon 0.166 g | NSSDC |
+| Air pressure | 6.36 mb (Earth 1013); ±25% seasonal at Gale | NSSDC, JPL |
+| Gale air temp | +15.9 °C to −100 °C | JPL (REMS) |
+| Sunlight | 586.2 W/m², 43% of Earth's | NSSDC |
+| Radio delay | 3–22 min one way; NASA: "up to 20 minutes"; conjunction blackout about 2 weeks | NSSDC, NASA |
+| Opportunity | storm spotted 30 May 2018, tau 10.8, last signal 10 Jun 2018, >1,000 recovery commands, ended 13 Feb 2019 | JPL |
+| InSight | last contact 15 Dec 2022, dusty panels, "dead bus" | NASA |
+| MMRTG | ~110 W electric, ~2,000 W heat, 4.8 kg PuO₂ | NASA |
+| Fission Surface Power | up to 10 kW for ≥10 years | NASA |
+| O₂ per person | 0.84 kg/d (0.895 long-mission); CO₂ out 1.085 kg/d; water 3.217 kg/d | NASA BVAD 2022 |
+| ISS water recycling | 98% (2023) | NASA |
+| MOXIE | 122 g total, 16 runs, best 12 g/h, ≥98% pure | JPL |
+| Veggie lettuce | 33 d harvest (64 d cut-and-come-again) | NASA NTRS |
+| Radiation | cruise 1.8 mSv/d; Gale surface 0.67 mSv/d; 1 Sv ≈ +5% fatal cancer risk | SwRI (RAD) |
+| Solar storm at Mars | 20 May 2024, X12: 8,100 µGy at Curiosity = "30 chest X-rays", not deadly | JPL |
+| Storm shelter | built "within an hour" of a warning, stay up to 24 h, from bags of food and water | NASA (Orion) |
+| Dust storms | global about every 3 Mars years (~5.5 Earth years); dust settles over months | NASA |
+| Landing | "seven minutes of terror" | NASA |
+| Gale sunset | looks blue near the Sun | NASA |
+| Moon dose 1,369 µSv/d; Earth background 2.4 mSv/yr | ⚠️ reported only | — |
+
+## Where things are
+| Path | Contents |
+|---|---|
+| `research/junior-astronaut/` | `pages/` (saved sources), `sources.md`, `factcheck.md`, `browser-excerpts.md` |
+| `assets-cache/nasa-3d/` | Perseverance, Ingenuity, Astronaut, Base Station, Habitat Demo Unit GLBs; Curiosity landing-site STL (real Gale terrain); Mars/Moon/Earth textures |
+| `assets-cache/kenney/` | Space Kit (153 GLB: domes, corridors, generators, dishes, rover, rocket parts, platforms, rocks; **no solar panels**), Space Station Kit, Sci-fi + Interface sounds. All CC0 |
+| `assets-cache/data-snapshots/` | NOAA flares + Kp, Curiosity weather (4,745 sols). DONKI was down on 7–8 Nov; retry |
+| `assets-cache/CREDITS.md` | Every asset's source, licence and credit line |
+| `tooling/` | Separate repo **agent-forge-3d**: Blender asset forge + capture-view. Will be public |
+| `storm-night-lighthouse/` | Separate repo: the rehearsal game (9–10 Nov). Throwaway |
+| `outpost-gale/` | Created on 14 Nov: the hackathon game. Separate repo |
+
+**Remotes** (Gitea, SSH works): `git@100.108.184.127:ravindu644/{nasa-space-apps-2026,agent-forge-3d,storm-night-lighthouse}.git`. GitHub mirrors come later. Ravindu decides when, because his GitHub is widely watched.
+
+## Machine and tools (one laptop runs everything)
+| Tool | Where / notes |
+|---|---|
+| Blender 5.2.2 LTS | `/usr/bin/blender`. Headless: `blender -b -P recipe.py`. Fedora build logs an OCIO 2.5 vs 2.4.2 error, so previews use raw colour. Use Cycles CPU, not EEVEE |
+| Browser | Brave `/usr/bin/brave-browser`. There's no Chrome binary. playwright-core uses `executablePath` + SwiftShader |
+| Node | 22. npm cache is warm: three 0.187, vite 8.3, @gltf-transform/cli 4.5, playwright-core 1.65, postprocessing, n8ao, three-bvh-csg, @fontsource-variable/{lexend,fredoka} |
+| Piper TTS | `~/opt/piper/bin/piper -m ~/opt/piper/voices/en_US-kristin-medium.onnx -f out.wav`. `kristin` = public domain; `libritts_r` = CC BY 4.0. Never use `lessac`/`amy`/`hfc_female` (licences). ffmpeg → Opus ~14 KB/line |
+| three.js skills | `~/.claude/skills/threejs-*` (13, CloudAI-X, r186). Give agents `https://threejs.org/docs/llms.txt` (5 KB), not llms-full |
+| Design skills | design-taste-frontend, antislop (HUD/UI), ponytail (keep code minimal) |
+
+## Docmost (team docs, space slug `NASA`)
+- Site: https://docmost.ravindu644.dpdns.org/s/NASA. The page tree mirrors the plan: Start here, Mars survival 101 (4 pages), Moon vs Mars?, Trade-off cards, NASA data, Game design and story, How we build it with AI, Judging checklist, References and fact-check, Research Plan.
+- Method: `~/Documents/Prompts/docmost-via-chrome.md` + `~/Documents/Prompts/tools/docmost-browser.js`. Drive the logged-in tab via Claude in Chrome; `fetch('/api/...')` POST.
+- **Gotchas:**
+  - Navigating wipes `window.dm`, so paste the helpers again.
+  - JS results that look like cookies or URLs get blocked.
+  - Edit page text through JSON text-node replacement so hand edits survive.
+  - `pages/move` takes a 5–12 char `position` key. Order is lexicographic.
+  - **Never fetch from localhost inside the Docmost tab.** It froze Brave with a local-network prompt.
+- **Writing style for docs:**
+  - A friend explaining things.
+  - Numbered headings with one emoji.
+  - At most one callout per section.
+  - A TL;DR, plus "kid version" lines.
+  - No em dashes.
+  - Banned words: leverage, robust, seamless, comprehensive, streamline, ensure, utilize, delve, crucial, powerful, simply, just.
+  - Absolute dates.
+
+## Research method (for any new claim)
+1. Save the source to `research/junior-astronaut/pages/`. JPL, Spaceflight Now and Kenney block curl, so read those in the browser and save excerpts. Never spoof user agents.
+2. Confirm it with `python3 -I ~/Documents/Prompts/tools/kwic.py page.html "regex"`.
+3. Mark it ✅ / ⚠️ / ❌ in `factcheck.md`, and add the source to `sources.md`. Use the source's wording ("recognised" ≠ "winner").
+
+## Build approach (details in `plan.md`)
+- **Stack:** vanilla three.js + Vite, HTML/CSS HUD overlay, pure-JS sim in its own folder with `node --test`.
+- **Assemble, don't model.** Use the first option that works:
+  1. Real NASA data/models.
+  2. Kenney CC0.
+  3. three.js built-ins.
+  4. Code for effects only.
+  5. Forge recipe (Blender).
+- **The scene is data** (`world.json`). One `applyHouseStyle()` for all GLBs. One `gltf-transform optimize` per asset.
+- **Test hooks:** `window.advanceTime(ms)`, `window.render_game_to_text()`, `window.capture.setView(name)`. Check with `tooling/tools/capture-view.mjs`.
+- **Budgets:** assets <15 MB, first frame <3 s, <150 draw calls, 60 fps on a school laptop.
+- **Kid UX:** icons first, ≤8 words per card, every line also spoken, targets ≥48 px, colour never the only signal.
+
+## Git
+- Commit messages end with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+- Don't force-push. Fix forward.
