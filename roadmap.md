@@ -9,7 +9,11 @@ Key dates: rehearsal Nov 9–10 · Resources tab and 2026 guides open Nov 13 · 
 - [x] Fact-check table (`factcheck.md`, 56 claims)
 - [x] Rebuild the Docmost space `NASA`: 11 new pages, existing pages corrected and moved
 
-## Phase A+: pictures in the Docmost pages 🖼️ (to do)
+## Phase A+: pictures in the Docmost pages 🖼️ (14 of 15 done, 9 Nov)
+- [x] 14 NASA pictures on Power, Life support, Radiation, Weather, Landing and Intro cinematic, each under its heading with a caption and credit (`research/junior-astronaut/images/credits.md`)
+- [x] How: NASA Images API to find → curl + ffmpeg (≤1400 px) → Claude-in-Chrome `file_upload` into a temporary file input → `POST /api/files/upload` → image node inserted via JSON. (Fetching NASA files directly in the tab fails: `~orig.jpg` has no CORS header)
+- [ ] Moon vs Mars? already has 3 of Ravindu's pictures; add a NASA side-by-side only if the team wants
+- [ ] Game design and story: add our own screenshots after 14 Nov
 Goal: every page gets 1–3 pictures under the right heading, so a beginner sees what is described.
 
 **Rules**
