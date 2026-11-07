@@ -62,7 +62,11 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [x] `tooling/forge/lib.py` + `smoke_crate.py`: GLB + 3 previews in about 15 s (Blender 5.2, Cycles CPU)
 - [x] `tooling/tools/capture-view.mjs`: headless Brave + SwiftShader, preset views, state dump, error gate (smoke test passes)
 - [ ] Fedora's Blender logs an OCIO 2.5 vs 2.4.2 mismatch, so previews use raw colour. Fine for shape checks; check final colours in three.js
-- [ ] Publish `tooling/` as a public GitHub repo before Nov 14 (cite it in the submission)
+- [x] `tooling/` pushed to Gitea as `agent-forge-3d` (git@100.108.184.127:ravindu644/agent-forge-3d.git)
+- [ ] Mirror `agent-forge-3d` to public GitHub before Nov 14 (Ravindu decides when; cite it in the submission)
+- [x] Rehearsal repo `storm-night-lighthouse` created on Gitea (README with the no-reuse rule)
+- [x] Workspace repo initialised in `~/Documents/NASA-Space-apps` (plan, roadmap, research, asset cache; the two repos above are ignored)
+- [ ] Workspace repo: add a Gitea remote and push
 - [x] Personal api.nasa.gov key → `.env.local` (chmod 600, gitignored). Use it only for snapshot fetching on our machine. **Never ship it in the game's JS**: anything in a browser game is public. Live data in the game comes from NOAA (no key needed)
 - [x] Piper TTS in `~/opt/piper` with two openly licensed voices: `en_US-kristin-medium` (public domain) and `en_US-libritts_r-medium` (CC BY 4.0, many speakers). 1.6 s per line, about 14 KB per line as Opus via ffmpeg. Skipped `lessac`, `amy`, `hfc_female` (restricted or unclear licences)
 - [x] Fonts cached in npm: `@fontsource-variable/lexend` (designed for easier reading), `@fontsource-variable/fredoka` (headings), both OFL-1.1
