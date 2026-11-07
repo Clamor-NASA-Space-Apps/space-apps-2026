@@ -76,6 +76,11 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [x] Fonts cached in npm: `@fontsource-variable/lexend` (designed for easier reading), `@fontsource-variable/fredoka` (headings), both OFL-1.1
 - [x] `gltf-transform optimize` tested: Perseverance 4.99 MB → 2.0 MB in 2 s
 
+## Team call: 9 Nov, 10 PM
+- [x] "Decisions for the team" section added to Game design and story: 9 taste items (A), 7 story problems with recommended fixes (B), 6 fixed rules (C). Sub-pages have ✏️ notes; page names are links everywhere
+- [ ] Before the call: check all 4 teammates can edit the `NASA` space (Settings → Members)
+- [ ] After the call ("decisions are in"): apply the decisions to the design pages, the facts, `plan.md` and `AGENTS.md`; fact-check any new science goal
+
 ## Phase C: rehearsal "Storm Night Lighthouse" (Nov 9–10)
 - [ ] Two timed sessions, the same length as the hackathon days
 - [ ] Log time per lane, tokens, stuck points, screenshot loops, fps on the weakest team laptop

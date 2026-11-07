@@ -101,6 +101,18 @@
   - Edit page text through JSON text-node replacement so hand edits survive.
   - `pages/move` takes a 5–12 char `position` key. Order is lexicographic.
   - **Never fetch from localhost inside the Docmost tab.** It froze Brave with a local-network prompt.
+  - **Pictures:**
+    - Find them with the NASA Images API (`images-api.nasa.gov`, CORS ok).
+    - Download with curl and shrink with ffmpeg (≤1400 px) into `research/junior-astronaut/images/<page>/`.
+    - Pass them to the tab with Claude in Chrome `file_upload` on a temporary `<input type=file>`.
+    - Upload with `POST /api/files/upload` (FormData: `pageId` first, then `file`).
+    - Insert `{type:'image', attrs:{src:'/api/files/<id>/<fileName>', alt, align:'center', attachmentId}}` plus an italic caption with the credit.
+    - Log each one in `images/credits.md`.
+    - Don't fetch NASA `~orig.jpg` in-page: it has no CORS header.
+  - **Links, not page names:** whenever a page is mentioned, link it (`/s/NASA/p/<slugId>`).
+  - **Inserting a section mid-page:** append the markdown, then move the new nodes in the JSON to the right index.
+  - **Long loops in one `javascript_tool` call time out at 45 s.** The script keeps running; wait, then check the result.
+  - **Open team decisions** live in "Decisions for the team" at the top of [Game design and story](https://docmost.ravindu644.dpdns.org/s/NASA/p/Zn6Pf5rXby). Read it before changing the game design.
 - **Writing style for docs:**
   - A friend explaining things.
   - Numbered headings with one emoji.
