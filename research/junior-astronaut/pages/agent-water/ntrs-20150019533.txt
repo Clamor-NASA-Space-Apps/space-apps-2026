@@ -1,0 +1,483 @@
+45th International Conference on Environmental Systems                                                                   ICES-2015-133
+12-16 July 2015, Bellevue, Washington
+
+
+
+
+                         Upgrades to the ISS Water Recovery System
+
+                          Jennifer M. Pruitt1, Layne Carter2, Robert M. Bagdigian3 and Matthew J. Kayatin4
+                                                 NASA Marshall Space Flight Center
+
+
+                      The ISS Water Recovery System (WRS) includes the Water Processor Assembly (WPA)
+                  and the Urine Processor Assembly (UPA). The WRS produces potable water from a
+                  combination of crew urine (first processed through the UPA), crew latent, and Sabatier
+                  product water. The WRS has been operational on ISS since November 2008, producing over
+                  21,000 L of potable water during that time. Though the WRS has performed well during this
+                  time, several modifications have been identified to improve the overall system performance.
+                  These modifications can reduce resupply and improve overall system reliability, which is
+                  beneficial for the ongoing ISS mission as well as for future NASA manned missions. The
+                  following paper lists these modifications, how they improve WRS performance, and a status
+                  on the ongoing development effort.
+
+
+
+
+                                                         I. Introduction
+
+        T   he International Space Station (ISS) Water Recovery and Management (WRM) System insures availability of
+            potable water for crew drinking and hygiene, oxygen generation, urinal flush water, and payloads as required. To
+        support this function, waste water is collected in the form of crew urine, humidity condensate, and Sabatier product
+        water, and subsequently processed by the Water Recovery System (WRS) to potable water. This product water is
+        provided to the potable bus for the various users, and is stored in water bags for future use when the potable bus needs
+        supplementing. The WRS is comprised of the Urine Processor Assembly (UPA) and Water Processor Assembly
+        (WPA), which are located in two International Standard Payload Racks (ISPRs) named WRS#1 and WRS#2. This
+        hardware was delivered to ISS on STS-126 on November 14, 2008 and initially installed in the US Lab module. On
+        February 18, 2010, the racks were transferred to their permanent home in the Node 3 module.
+
+                                   II. Description of the ISS Water Recovery System
+            The ISS WRS provides the capability to receive the waste water on ISS (crew urine, humidity condensate, and
+        Sabatier product water), process the waste water to potable standards via the WRS, and distribute potable water to
+        users on the potable bus. A conceptual schematic of the WRS is provided in Figure 1. The waste water bus receives
+        humidity condensate from the Common Cabin Air Assemblies (CCAAs) on ISS, which condenses water vapor and
+        other condensable contaminants and delivers the condensate to the bus via a water separator. In addition, waste water
+        is also received from the Carbon Dioxide Reduction System. This hardware uses Sabatier technology to produce water
+        from carbon dioxide (from the Carbon Dioxide Removal Assembly (CDRA)) and hydrogen (from the electrolysis
+        process in the Oxygen Generation System). Waste water is typically delivered to the WPA Waste Tank, though the
+        Condensate Tank located in the US Laboratory Module is available in the event the WPA Waste Tank is disconnected
+        from the waste bus.
+
+
+
+
+        1
+            ISS UPA Design Lead, Marshall Space Flight Center
+                                                  Water Recovery System
+                         Pretreated Urine         (WRS)
+                                                      URINE PROCESSOR
+USOS CABIN                                                ASSEMBLY (UPA)
+                                                          Vapor Compression
+CREW
+   -   drinking                                            Distillation (VCD)
+   -   hygiene
+   -   urine                                              Distillate
+       flush                 Crew latent
+
+                                                         WATER PROCESSOR
+                                                        ASSEMBLY (WPA)
+                                                        - Rotary Gas Separator
+                                                        - Particulate Filter
+                                                        - Multifiltration Beds                                 Water
+                                                        - Catalytic Oxidation Reactor
+                             Potable water
+
+
+                                                              Oxygen Generation System (OGS)
+                                                       OXYGEN GENERATOR                 Hydrogen      CO2 REDUCTION
+                                                        ASSEMBLY (OGA)                                 SYSTEM (CRS)
+                                                      • Solid Polymer
+ BIOLOGICAL                                             Electrolysis (SPE)                         • Sabatier Reactor
+   PAYLOADS                   Oxygen
+                                                                                                               methane
+
+                            Carbon Dioxide
+                                                                                                            overboard
+                  Figure 1. Water Recovery and Management Architecture for the ISS US Segment
+
+
+     The layout of the two WRS racks is shown in Figure 2, along with the OGS. The WPA is packaged in WRS Rack
+  #1 and partially in WRS Rack #2, linked by process water lines running between the two racks. The remaining portion
+  of WRS Rack #2 houses the UPA.
+
+
+
+
+                                                          2
+    International Conference on Environmental Systems
+                        Figure 2. International Space Station Regenerative ECLSS Racks
+
+A. Water Processor Assembly Overview
+
+    A simplified schematic of the WPA is provided in Figure 3. The WPA is packaged into 16 Orbital Replacement
+Units (ORU), and occupies WRS#1 and the right half of WRS#2. Wastewater delivered to the WPA includes
+condensate from the Temperature and Humidity Control System, distillate from the UPA, and Sabatier product water.
+This wastewater is temporarily stored in the Waste Water Tank ORU. The Waste Water Tank includes a bellows that
+maintains a pressure of approximately 5.2 – 15.5 kPa (0.75 to 2.25 psig) over the tank cycle, which serves to push
+water and gas into the Mostly Liquid Separator (MLS). Gas is removed from the wastewater by the MLS (part of the
+Pump/Separator ORU), and passes through the Separator Filter ORU where odor-causing contaminants are removed
+from entrained air before returning the air to the cabin. Next, the water is pumped through the Particulate Filter ORU
+followed by two Multifiltration (MF) Beds where inorganic and non-volatile organic contaminants are removed. Once
+breakthrough of the first bed is detected, the second bed is relocated into the first bed position, and a new second bed
+is installed. The Sensor ORU located between the two MF beds determines when the first bed is saturated based on
+conductivity. Following the MF Beds, the process water stream enters the Catalytic Reactor ORU, where low
+molecular weight organics not removed by the adsorption process are oxidized in the presence of oxygen, elevated
+temperature, and a catalyst. A regenerative heat exchanger recovers heat from the catalytic reactor effluent water to
+make this process more efficient. The Gas Separator ORU removes excess oxygen and gaseous oxidation by-products
+from the process water and returns it to the cabin. The Reactor Health Sensor ORU monitors the conductivity of the
+reactor effluent as an indication of whether the organic load coming into the reactor is within the reactor’s oxidative
+capacity. Finally, the Ion Exchange Bed ORU removes dissolved products of oxidation and adds iodine for residual
+microbial control. The water is subsequently stored in the Water Storage Tank prior to delivery to the ISS potable
+water bus. The Water Delivery ORU contains a pump and small accumulator tank to deliver potable water on demand
+to users. The WPA is controlled by a firmware controller that provides the command control, excitation, monitoring,
+and data downlink for WPA sensors and effectors.
+
+
+
+
+                                                           3
+  International Conference on Environmental Systems
+                                                          to Node 3                  Particulate Filter
+                             Wastewater                     cabin                        (removes                 Multifiltration Beds
+                               Tank                                                    particulates)         (remove dissolved contaminants)
+
+                                                                     Filter
+
+          from                                                                Pump                                         C
+         Node 3
+        wastewater
+           bus                                                Mostly
+                                                              Liquid                             To Node 3 cabin                                       Heat
+                                        Microbial             Separator                                                                              Exchanger
+                                      Check Valve             (removes air)                                                                           to/from
+                                                                                                          Gas/Liquid
+                                (provides isolation)                                                                                                  Node 3
+                                                                                                          Separator
+                     Product                                                                              (removes                                     MTL
+                      Water     Reject Line                                                               oxygen)
+                      Tank      (allows reprocessing)
+
+                                             O2
+                                            from                                           Preheater        Regen. HX
+                                           Node 3        Reactor                           (heats water     (recovers
+                  Delivery                                                                 to 275F)         heat)
+                                                         (oxidizes                                                             C Reactor Health
+                  Pump
+                                                         organics)                                                               Sensor
+                                                                                                                                 (verifies reactor
+                                                                                                                                 is operating w/n
+                                   C
+                                                                                                                               C limits)
+                  Accumulator
+
+                                                                                     Ion Exchange Bed (removes reactor by-products)
+           to
+        Node 3
+        potable
+         water
+          bus
+
+
+                                                        Figure 3. WPA Simplified Schematic
+
+B. Urine Processor Assembly Overview
+
+    A simplified schematic of the UPA is shown in Figure 4. The UPA is packaged into 7 ORUs, which take up 60%
+of the WRS Rack #2. Pretreated urine is delivered to the UPA either from the USOS Waste and Hygiene Compartment
+(outfitted with a Russian urinal) or via manual transfer from the Russian urine storage container (called an EDV). In
+either case, the composition of the pretreated urine is the same, including urine, flush water, and a pretreatment formula
+containing chromium trioxide and sulfuric acid to control microbial growth and the reaction of urea to ammonia.
+
+
+
+
+                                               Figure 4. Urine Processor Assembly Schematic
+
+    Urine enters the UPA and is temporarily stored in the Wastewater Storage Tank Assembly (WSTA) until enough
+has accumulated to automatically initiate a process cycle. The Fluids Control and Pump Assembly (FCPA) is a four-
+tube peristaltic pump that moves urine from the WSTA into the Distillation Assembly (DA), recycles the concentrated
+waste from the DA into the Advanced Recycle Filter Tank Assembly (ARFTA) and back to the DA, and pumps
+product distillate from the DA to the wastewater interface with the WPA. The DA is the heart of the UPA, and consists
+of a rotating centrifuge where water from the waste urine stream is evaporated at low pressure. The water vapor is
+compressed and subsequently condensed on the opposite side of the evaporator surface to conserve latent energy. A
+rotary lobe compressor provides the driving force for the evaporation and compression of water vapor. Waste brine
+resulting from the distillation process is stored in the ARFTA, which is a bellows tank that can be filled and drained
+on ISS. The ARFTA has less capacity (approximately 22 L) than the previously used Recycle Filter Tank Assembly
+(RFTA) (41 L), but the capability to fill and drain the ARFTA on ISS avoids the costly resupply penalty associated
+with launching replacement RFTAs. When the brine is concentrated to the required limit, the ARFTA is emptied into
+an EDV, a Russian Rodnik tank on the Progress vehicle, a Temporary Urine and Brine Stowage System (TUBSS)
+bag, or into the water tanks on the ATV vehicle. The ARFTA is later refilled with pretreated urine, which allows the
+process to repeat. The Pressure Control and Pump Assembly (PCPA) is another four-tube peristaltic pump which
+
+                                                                                       4
+  International Conference on Environmental Systems
+provides for the removal of non-condensable gases and water vapor from the DA. Liquid cooling of the pump housing
+promotes condensation, thus reducing the required volumetric capacity of the peristaltic pump. Gases and condensed
+water are pumped to the Separator Plumbing Assembly (SPA), a hydrophobic membrane liquid/gas separator which
+returns water from the purge gases to the product water stream and vents air back into the cabin. A Firmware Controller
+Assembly (FCA) provides the command control, excitation, monitoring, and data downlink for UPA sensors and
+effectors.
+
+    The UPA was designed to process a nominal load of 9 kg/day (19.8 lbs/day) of wastewater consisting of urine and
+flush water, this is the equivalent of a 6-crew load on ISS. Product water from the UPA has been evaluated on the
+ground to verify it meets the requirements for conductivity, pH, ammonia, particles, and total organic carbon. The
+UPA was designed to recover 85% of the water content from the pretreated urine, though issues with urine quality
+encountered in 2009 have required the recovery to be dropped to a maximum of 75%. These issues and the effort to
+return to 85% recovery are addressed in the discussion on UPA Status.
+
+
+                                              III. WPA Upgrades
+    The WPA has been a reliable system on ISS that has consistently met potable water quality requirements. However,
+the WPA has experienced several anomalies that must be addressed for future systems. First, biomass growth in the
+WPA waste tank has accumulated over time, and is periodically sloughed into the process water as the waste tank
+bellows is filled and emptied. This effect resulted in a clogged solenoid valve in 2010, and is now mitigated with a
+mechanical filter downstream of the tank that must be periodically replaced. The next generation WPA must address
+this event by either controlling the growth of biomass or designing the waste water plumbing and valves to
+accommodate biomass.
+    Second, the WPA process pump has failed twice due to mechanical binding. The first failure occurred due to a
+design issue that allowed the internal radius of the gears to loosen on the shaft, eventually causing the gears to contact
+the pump housing and bind. The second failure occurred because the alumina gears formed an oxide that prevented
+pump operation when initially installed on ISS. These failures are discussed in more detail elsewhere [1], but illustrate
+reliability concerns with this pump design. Though the WPA engineering team believe the gear pump is viable for
+long-term manned missions, it is desirable to evolve the WPA to a system that can implement a more reliable pump
+design. The current pump design is driven by the fact that the WPA Catalytic Reactor operates at a temperature of 267
+ºF, which requires a pressure of approximately 60 psig to avoid boiling. A viable system upgrade would be the
+development of catalyst that can effectively oxidize the influent organic load at a temperature less than 212 ºF,
+allowing the system to operate at ambient pressure. This would eliminate the high pressure pump and allow the
+implementation of a pump design that is inherently more reliable. The development of catalyst to support this objective
+is discussed in more detail below.
+    Third, the WPA MF Beds require a significant resupply mass to support WPA operation. This resupply penalty is
+even greater at this point on ISS because of the emergence of dimethylsilanediol (DMSD) in the WPA waste water,
+which is not readily removed by the WPA and therefore requiring replacement of both MF Beds more frequently than
+the expected nominal replacement of a single MF Bed. There is an ongoing effort to address DMSD, after which the
+WPA engineering team will consider extending operational life of the MF Beds based on allowing the initial ionic
+breakthrough products to pass through the MF Beds and be removed by the Catalytic Reactor. This operational concept
+is discussed in more detail below.
+
+C. Extending Operation Life of the Multifiltration Beds
+     The in-flight MF Bed performance has displayed unexpected ionic breakthrough behavior characterized by an
+approximate 10 µmho/cm increase in conductivity after 3,200 L throughput which was then sustained for the
+remaining MF Bed life (typically approximately 5,000 L due to TOC breakthrough of dimethylsilanediol, a separate
+issue [2]). This behavior contrasts the expected sharp ionic breakthrough curve observed in ground tests, characteristic
+of normal bed performance. Furthermore, post-flight ground testing of ISS MF beds found only 40% mineral
+utilization of the ion exchange resin. Both of these observations indicate that a better understanding of the MF Bed
+performance is warranted and necessary to reduce resupply costs and increase ORU lifetime.
+     Previous MF Bed ground test results indicated initial ionic breakthrough was due to the bicarbonate ion (HCO3-).
+It is hypothesized that significantly more MF bed life can be achieved by allowing this contaminant to saturate both
+MF beds. This operational change would introduce bicarbonate to the downstream Catalytic Reactor where it is already
+a by-product of the reactor’s oxidation process. Likewise, it is believed that the next ionic breakthrough product will
+
+                                                            5
+  International Conference on Environmental Systems
+be acetate (C2H3O2-), which is also a by-product of the reactor’s oxidation process. Finally, the last breakthrough
+product is expected to be ammonium (NH4+), for which the Catalytic Reactor may have sufficient removal capacity.
+A proof-of-concept ground test of the flight catalyst was previously performed to show that the expected bicarbonate
+and acetate levels in the saturated MF Bed effluent were well within the reactor’s oxidation capacity and that
+ammonium was also removed to acceptable levels without impacting overall reactor performance. [3] These results
+indicate that extending the operational lifetime of the MF Beds is feasible.
+  To fully evaluate this operational concept, two developmental MF (devMF) Beds were built at one-half scale of the
+total ISS flight MF Bed media volume. Each devMF Bed consisted of three series-plumbed, aggregate beds built using
+custom modified water filter housing canisters, as shown by Figure 5. Internal bed media retention and swell was
+accommodated by custom mobile media entrainment pucks. In this configuration, devMF Bed #1 and devMF Bed #2
+were compromised of canister 1 - 3 and 4 - 6, respectively. The first canister in each devMF Bed was filled with a
+candidate carbon adsorbent media Ambersorb® 4652 (Dow) previously identified to replace the obsolete Barnebey-
+Cheney 580-26 activated charcoal for heavy VOC removal. [4] These beds are currently being challenged daily with
+Ersatz water representing the ISS waste water stream, including specific organic and inorganic constituents at flight-
+like conductivity and TOC content, as developed under ISS Program Office Change Request (CR) 013322. The
+breakthrough products will be characterized (sequence of conductivity breakthrough) to determine both the viability
+and operational approach for allowing bicarbonate, acetate, and ammonium to saturate both MF Beds prior to bed
+replacement.
+
+
+
+
+                               a)                             b)
+
+      Figure 5. Developmental MF Beds showing a) top and b) side view of the test stand configuration.
+
+D. Development of a Low Temperature Catalyst
+    The WPA Catalytic Reactor utilizes a thermal wet oxidation catalyst developed by Hamilton Sundstrand (now
+UTC Aerospace Systems, UTAS) in the early 2000s. This catalyst operates at 131 C and approximately 410 kPa to
+meet performance objectives. The objective of this task is to develop a catalyst that will support reactor operation at
+reduced temperature and ambient pressure to simplify process design and eases reliability concerns. In addition, a low
+temperature catalyst will address ongoing ISS issues with limited life of reactor seals at the current operating
+temperature and pressure. Unfortunately, operation at reduced temperature and pressure also decreases the
+effectiveness of the oxidation process. Specifically, temperature induced losses in oxidation rate kinetics can be
+expected. Furthermore, based on the proposed reduction in operating pressure, the oxygen solubility within the process
+water can be expected to decrease by an order of magnitude. However, in the approximately 15 years since the flight
+catalyst formulation development, it is not unreasonable to think that these potential losses in performance could be
+offset by implementation of state-of-the-art catalyst technology. These include, but are not limited to, advanced
+catalyst support materials, advances in the material science of catalytic materials and processing, and the
+implementation of new characterization methods. In any case, a robust material with an increase in catalytic activity
+is required to mitigate operating condition performance losses.
+    In response to a competitive RFP released in April 2014 titled “ISS Water Processor Assembly Ambient Catalytic
+Reactor Catalyst Development,” contracts were awarded to two contractors: UTAS and Umpqua Research Company.
+A development effort for a new catalyst is currently underway and set to be delivered to MSFC in early 2016 for
+                                                          6
+  International Conference on Environmental Systems
+rigorous testing and evaluation. Performance goals for effluent TOC and a required ersatz water definition were
+provided for benchmarking catalyst activity.
+
+                                             IV. UPA Upgrades
+    As of May 1, 2015, the UPA had generated 20,049 lbs (9,094 kg) of distillate from crewmember urine since
+becoming operational in 2008. A total ORU mass of 4,143 lbs (1,879 kg) has operated in the UPA over the past 7
+years. This includes initial hardware installation, replacements of failed ORUs, and improved hardware like the
+ARFTA. Overall, the UPA hardware replacement rate is currently 0.21 lbs of hardware per 1 lbs of distillate that has
+produced. In the pursuit to reduce replacement rates further by improving robustness and durability, several candidate
+upgrades are being explored. Some design features being investigated have not contributed to on-orbit failures, but
+would extend life or improve manufacturability. Advanced materials have also become available since the initial
+design and development of the UPA have suggested opportunities to increase the durability of key components. Once
+developed, these upgrades will be incorporated into ISS UPA ORUs to collect extended performance demonstration
+in an operational flight environment. Successful demonstrations will provide tangible life cycle cost benefits to the
+ISS over its remaining operational life and increase confidence that the UPA design can meet demanding exploration
+mission needs.
+
+
+A. Parametric Test and Thermal Model
+    The development of the VCD technology primarily occurred at Life Systems International (LSI) in the 1980’s
+based on an empirical test effort. Though the VCD technology has operated well on ISS, the UPA engineering team
+believes performance can be improved by optimizing the system operation. To improve the overall understanding of
+the system operation, a parametric test is underway to evaluate multiple operational parameters of the VCD. These
+parameters include the system pressures and temperatures, motor currents, production rate, and distillate conductivity
+and quality. In addition to the standard pressure and temperature instrumentation, the DA was also outfitted with
+remote temperature sensors installed inside the evaporator and stationary bowl to provide insight into the thermal
+transients during VCD operation.
+    In parallel with this effort, the MSFC Thermal Modeling Branch (EV34) is developing a fluids and thermal model
+of the VCD using Comsol modeling package to demonstrate and predict VCD performance. The model will be
+correlated using data from the parametric test and ultimately used to identify the optimal operating conditions for the
+VCD. In addition, the model will be used to predict if the DA size can be reduced (either length or diameter) while
+maintaining production rate and distillate quality. If viable, this information may be used to manufacture a smaller
+DA that is more advantageous for future manned missions in which available mass and volume is limited. An initial
+model of the DA is shown below in Figure 6.
+
+
+
+
+                                          Figure 6. DA Parametric Model
+
+                                                          7
+  International Conference on Environmental Systems
+B. FCPA and PCPA Valve Design
+    There are 3 valves that change fluid direction on the FCPA manifold. These valves undergo an iterative assembly
+process to incrementally achieve proper packing preload. This iterative process takes approximately 10 days per
+iteration with a minimum of two iterations to achieve the desired preload. The current design includes a static preload
+that has been found to decay during thermal cycle environmental testing, requiring more manufacturing time required.
+    The new design has been implemented starting in FCPA SN002-R2, which was brought up to ISS on the SpaceX
+6 flight in April. Belleville washers have been added, to keep a dynamic preload on the valve packing. Removing the
+iterative nature of the FCPA valve packing process will save MSFC manufacturing time and make the packing more
+reliable against cold flow.
+
+C. FCPA and PCPA Drive Train
+    FCPA life has decreased drastically in UPA ISS operation, compared to the originally predicted life that was
+determined based on peristaltic tubing wear out. The majority of FCPA failures have been attributed to a variety of
+issues found in the drive train of the FCPAs. FCPAs and PCPA both have the same drive train design, but operate at
+different speeds. PCPA SN001 and SN002 have failed with tube rupture signature, the expected failure for the
+peristaltic pumps. It is unclear why the drive train issues have been seen so frequently in the FCPA, but not in the
+PCPA.
+    The currently Mean Time Between Failures (MTBF) of an FCPA is 600 operating hours, which is currently about
+3 or 4 months on ISS processing from both the US and Russian segment. To increase the life of the FCPA back up to
+the expected 8760 hours, a drive train redesign is currently being tested in the MSFC ground UPA developmental test
+bed FCPA and PCPA.
+    The new design moves away from the current harmonic drive design to a planetary gear drive system. The
+harmonic drive is designed for precision, but the planetary gear is a better design for power transfer. Once there is
+enough run time in the developmental ground test to prove that the planetary gear drive will work in our peristaltic
+pumps, MSFC will pursue the new design for the flight units. The development testing must run four times longer
+than the expected MTBF before it can be installed for flight; the 2400 hours will be reached with the FCPA in the
+summer of 2015.
+
+D. DA Compressor and Centrifuge Bearings
+    The first DA failure on-orbit was due to a loss of press fit in the centrifuge bearing after 114 operating hours. There
+are two types of bearings in the DA: the centrifuge bearings made of hastelloy and the compressor bearings made of
+cronidur 30. These materials were chosen for their strength in handling the heavy DA rotational loads, and were shown
+to be corrosive resistance to the harsh DA environment. (See Figure 7 for previous corrosion found during testing
+from nominal operation.) The hastelloy bearings were found to be soft enough that they lost their press fit after multiple
+installations on to the shaft. After this failure, procedures were updated to restrict use of bearings to one installation
+with no reuse permitted. Concern of the press fit loss extended to the cronidur bearings as well to cover the uncertainty
+of a similar future failure in the compressor.
+    Other materials with similar strength and corrosive resistance as bearings were pursued, and led the team to nitinol
+bearings created out of Goddard Research Center (GRC). Nitinol centrifuge bearings were tested in the development
+DA, but were found to be cracked after 253 hours of operation. After the damage was found, the nitinol bearings were
+replaced with the hastelloy bearings, and further testing was suspended to allow MSFC to carry out parametric testing.
+
+
+
+
+                                                            8
+  International Conference on Environmental Systems
+                                     Figure 7. Corroded DA Centrifuge Bearing
+
+E. DA O-ring Belt
+    Rotation of the DA is currently driven by an O-ring belt (Figure 8), but with the smooth belt in a steam
+environment, there is a risk of the belt slipping during operation. The risk is greatest at the beginning of a process run,
+since the steam has time to condense as the DA cools between processing, and this is something that has been see
+infrequently in ISS UPA data. To lessen the risk of slipping, a belt with teeth, such as gates of v-type belt, would
+increase reliability. The design change was evaluated with the new belt and required addition of a tensioner, but the
+concept was shelved due to limited space available for the tensioner location. Incorporation of this technology would
+drive an enlargement of the DA, which is considered unacceptable for the DA upgrades.
+
+
+
+
+                                               Figure 8. DA O-ring Belt
+
+F. DA Liquid Level Sensor
+    The current design of the liquid level sensor (see Figure 9) is not adequate for microgravity operation. The sensor
+is installed pointing towards the DA wall with the purpose to alert and shutdown the UPA if the DA fluid layer
+becomes too thick, thereby preventing a flooding event. False high liquid level readings are regularly seen in the
+microgravity environment, and the UPA ignores this pass/fail sensor on ISS since the readings are misleading. False
+positives can be seen when splashing occurs and droplets get on the sensor. Also, if the fluid dries and scales over the
+sensor tip, it will show a false negative. A redesign of the sensor tip is in work to quickly let fluid slip off so sensor
+readings are consistent.
+                                                            9
+   International Conference on Environmental Systems
+                                        Figure 9: DA Liquid Level Sensor
+
+G. DA Compressor Gears
+    The compressor gears are the current life-limiter of the DA, shown in Error! Reference source not found.. There
+are two gears, one 316L stainless steel and one vespel, with the vespel designed to wear throughout use. The expected
+life of the DA is 4380 operating hours. DA SN001R, recently replaced at the end of April 2015, reached 123% of its
+expected life and was installed for 5 years. For the last year of operation with DA SN001R, gear wear was observed
+by rising compressor temperature and lower production rate in ISS UPA data. The decision was made to replace it
+with SN002R, an on-orbit spare, because the production rate dropped from its nominal 3.5 lbs/hour to 2.5 lbs/hour
+over those years. This drop extended processing time by a third, therefore accelerating wear of other ORUs. Extending
+the life of the gears, and therefore the life of the DA, will be advantageous for deep space human missions.
+    Exploring alternate materials led to assessment of two zylan-coated nitinol gears from GRC that were tested in the
+development ground DA. The coating on these gears wore off upon first operation at MSFC, and further development
+was halted.
+
+
+
+
+                                        Figure 10. DA Compressor Gears
+
+
+                                                V. Conclusion
+    Though the initial operation of the WPA and UPA on ISS has been acceptable, improvements are highly desirable
+to optimize their performance on ISS and position them for use on future missions. The WPA improvements focus on
+reducing the resupply penalty for the WPA MF Beds and improving system reliability through the use of an improved
+catalyst that can operate at ambient pressure. UPA improvements are solely focused on improving system reliability
+by addressing known design issues currently identified from operation on ISS and manufacturing processes.
+Successful implementation of these upgrades will position the WPA and UPA technologies for optimum performance
+on ISS and execution in future manned mission beyond ISS.
+
+
+
+                                                         10
+  International Conference on Environmental Systems
+                                              Acknowledgments
+    The authors would like to acknowledge the design and test engineers at MSFC that are developing and evaluating
+the hardware upgrades addressed in this paper.
+
+
+
+
+                                                       11
+  International Conference on Environmental Systems
+                                                  References
+
+[1] D. L. Carter, J. Pruitt, C. Brown, R. Schaezler and L. Bankers, "Status of ISS Water Management and Recovery,"
+    in Paper #073 presented at the 45th International Conference on Environmental Systems, Bellevue, WA, July
+    2015.
+[2] D. L. Carter, E. M. Bowman, M. E. Wilson and T. J. Rector, "Investigation of DMSD Trend in the ISS Water
+    Processor Assembly," in 43rd International Conference on Environmental Systems, 2014.
+[3] D. L. Carter, "WRS-TPS-13-106," Marshall Space Flight Center, 2013.
+[4] T. Rector, C. Metselaar, B. Peyton, S. John, W. Michalek, E. M. Bowman, M. Wilson, D. Gazda and L. Carter,
+    "An Evaluation of Technology to Remove Problematic Organic Compounds from the International Space Station
+    Potable Water," in 44th International Conference on Environmental Systems, Tuscon, 2014.
+
+
+
+
+                                                       12
+ International Conference on Environmental Systems
+

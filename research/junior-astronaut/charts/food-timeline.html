@@ -1,0 +1,22 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="style.css"><script src="bars.js"></script>
+<div id="card">
+  <h1>Sol 1 to sol 30: what is on the plate?</h1>
+  <p class="sub">Sols from planting to the first harvest (a sol is a Mars day, 24 h 39 min). The dashed line is the end of our mission.</p>
+  <div id="chart"></div>
+  <p class="src">Sources: NASA BVAD 2022 Table 4-89 (radish 25 days, lettuce 28; seedlings cut lettuce to ~14); NASA Veggie (red romaine 33 days on the ISS); NASA/TM-20250001897 (microgreens 7 to 18 days); NASA BVAD (salad gives under 1% of food energy). Days converted to sols. Fact-check rows 112 to 122.</p>
+</div>
+<script>
+const sol = d => +(d / 1.0275).toFixed(1);
+bars(document.getElementById('chart'), {
+  max: 35, right: 150, ticks: [0, 5, 10, 15, 20, 25, 30, 35],
+  series: { 'Packed food from Earth (all the calories)': 'var(--machine)', 'Grown on Mars (vitamins and a treat)': 'var(--s3)' },
+  refLine: { value: 30, label: 'mission ends, sol 30' },
+  rows: [
+    { label: 'Packed food, every sol', value: 30, text: '', series: 'Packed food from Earth (all the calories)' },
+    { label: 'Microgreens', value: sol(7), text: 'from about sol 7', series: 'Grown on Mars (vitamins and a treat)' },
+    { label: 'Lettuce from seedlings', value: sol(14), text: 'about sol 14', series: 'Grown on Mars (vitamins and a treat)' },
+    { label: 'Radish', value: sol(25), text: 'about sol 24', series: 'Grown on Mars (vitamins and a treat)' },
+    { label: 'Lettuce from seed (ISS)', value: sol(33), text: 'sol 32: too late', series: 'Grown on Mars (vitamins and a treat)' },
+  ],
+});
+</script>

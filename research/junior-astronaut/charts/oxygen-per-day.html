@@ -1,0 +1,20 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="style.css"><script src="bars.js"></script>
+<div id="card">
+  <h1>Oxygen per day: what 4 astronauts breathe vs what machines make</h1>
+  <p class="sub">Kilograms of oxygen in one day</p>
+  <div id="chart"></div>
+  <p class="src">Sources: NASA BVAD 2022 (0.84 kg per person per day). NASA MOXIE (best about 12 g per hour; it only ever ran about an hour at a time). NASA ICES-2015-115 (ISS Oxygen Generation Assembly). Fact-check rows 57, 75.</p>
+</div>
+<script>
+bars(document.getElementById('chart'), {
+  unit: 'kg', max: 10, ticks: [0, 2, 4, 6, 8, 10],
+  series: { 'What the crew needs': 'var(--need)', 'What a machine makes': 'var(--machine)' },
+  refLine: { value: 3.36, label: "the crew's need" },
+  rows: [
+    { label: '4 astronauts breathe', value: 3.36, text: '3.4 kg', series: 'What the crew needs' },
+    { label: 'MOXIE, if it ran all day', value: 0.29, text: '0.3 kg', series: 'What a machine makes' },
+    { label: 'ISS oxygen maker, normal', value: 5.4, text: '5.4 kg', series: 'What a machine makes' },
+    { label: 'ISS oxygen maker, flat out', value: 9.2, text: '9.2 kg', series: 'What a machine makes' },
+  ],
+});
+</script>

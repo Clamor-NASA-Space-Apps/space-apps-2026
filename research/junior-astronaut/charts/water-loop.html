@@ -1,0 +1,36 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<div id="card">
+  <h1>How the space station gets 98% of its water back</h1>
+  <p class="sub">One astronaut, one day. Arrows show where the water goes.</p>
+  <div id="d"></div>
+  <p class="src">Sources: NASA BVAD 2022 Table 3-31 (drink 2 kg, food 0.5 kg; breath and sweat 2.9 kg, urine 1.4 kg a day); NASA ICES-2026-425 (condensing heat exchangers, Urine Processor 87%, Brine Processor since March 2021, 98+% with the Brine Processor); NASA ICES-2015-133 (Water Processor). Fact-check rows 123 to 127.</p>
+</div>
+<script>
+const W = 790, H = 400, bw = 170, bh = 80, cx = [20, 210, 400, 590], ry = [20, 150, 280];
+const box = (c, r, color, title, lines) => {
+  const x = cx[c], y = ry[r];
+  return `<rect x="${x}" y="${y}" width="${bw}" height="${bh}" rx="10" fill="#242422" stroke="${color}" stroke-width="2"/>`
+    + `<text x="${x + 12}" y="${y + 26}" fill="#f0efec" font-size="15" font-weight="700">${title}</text>`
+    + lines.map((l, i) => `<text x="${x + 12}" y="${y + 47 + i * 17}" fill="#c3c2b7" font-size="12.5">${l}</text>`).join('');
+};
+const arrow = (d, label, lx, ly) => `<path d="${d}" fill="none" stroke="#8f8e86" stroke-width="2" marker-end="url(#a)"/>`
+  + (label ? `<text x="${lx}" y="${ly}" fill="#8f8e86" font-size="12">${label}</text>` : '');
+const you = 'var(--need)', machine = 'var(--machine)', water = 'var(--s3)';
+let s = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8f8e86"/></marker></defs>`;
+s += arrow('M190,60 H208') + arrow('M380,60 H398') + arrow('M570,60 H588');
+s += arrow('M675,100 V148') + arrow('M295,100 V148') + arrow('M380,190 H398') + arrow('M570,190 H588');
+s += arrow('M485,230 V278', 'salty leftover', 492, 262);
+s += arrow('M675,230 V385 H105 V102', 'clean water back to the tank', 130, 378);
+s += `<path d="M570,320 H775" stroke="#1a1a19" stroke-width="10"/>`;
+s += arrow('M570,320 H775 V60 H762', 'into the air', 585, 312);
+s += box(0, 0, water, 'Clean water tank', ['drink, food, washing']);
+s += box(1, 0, you, 'You', ['drink 2 kg', 'eat 0.5 kg in food']);
+s += box(2, 0, you, 'Breath and sweat', ['about 2.9 kg a day', 'goes into the air']);
+s += box(3, 0, machine, 'Air conditioner', ['cools the air and', 'catches the drops']);
+s += box(1, 1, you, 'Urine', ['about 1.4 kg a day']);
+s += box(2, 1, machine, 'Urine Processor', ['boils it at low pressure,', 'gets 87% back']);
+s += box(3, 1, machine, 'Water Processor', ['filters, a hot reactor,', 'iodine to stay clean']);
+s += box(2, 2, machine, 'Brine Processor', ['dries the last salty', 'leftovers (since 2021)']);
+document.getElementById('d').innerHTML = s + '</svg>';
+</script>

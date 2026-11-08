@@ -1,0 +1,115 @@
+National Aeronautics and Space Administration
+
+
+
+
+Environmental Control and
+Life Support System (ECLSS)
+Earth’s natural life support system provides the air we
+breathe, the water we drink and other conditions that sup-             The ENVIRONMENTAL CONTROL AND LIFE SUPPORT SYSTEM (ECLSS)
+port life. For deep space missions of the future, it is essential      for the space station performs several functions:
+to preserve as many natural resources as possible. Quick               • Provides oxygen for breathing
+resupply of air and water is not possible during deep space            • Removes carbon dioxide from the cabin air
+missions, given the distances involved. NASA’s Marshall                • Recovers and recycles oxygen from carbon dioxide to resupply
+Space Flight Center in Huntsville, Alabama, is responsible               the crew
+for the design, construction and testing of regenerative life          • Filters particulates and microorganisms from the cabin air and maintains
+support hardware for the International Space Station, known              cabin pressure, temperature and humidity levels
+as the Environmental Control and Life Support System.                  • Removes volatile organic trace gases, such as ethanol, that are color-
+                                                                         less, odorless and can build up over time
+Providing Clean Water and Air                                          • Distributes cabin air between each room, or module, of the station;
+ECLSS includes three key components — the Water Recov-                 • Provides potable water for consumption, food preparation and
+ery System, the Air Revitalization System and the Oxygen                 hygiene
+Generation System. These systems were jointly designed                 • Purifies recycled water from multiple sources back to potable water
+and tested by the Marshall Center and industry partners
+including UTC Aerospace Systems, formerly Hamilton Sund-
+strand Space Systems International, Boeing, Lockheed                 the hydration system inside crew members’ Extra Vehicular
+Martin, and Honeywell, Inc. They are packaged into four              Activity suits. The recovered water must meet stringent
+refrigerator-sized racks in the U.S. Tranquility module on           purity standards before it can be used to support crew,
+the station. A second Air Revitalization System is in the            extravehicular and payload activities.
+U.S. Destiny Laboratory.
+                                                                     Water produced by the urine processor is combined with
+The Water Recovery System provides clean water by                    all other wastewaters and delivered to the water processor
+reclaiming wastewater (including water from crew mem-                for treatment. The water processor sends the water through
+bers’ urine), cabin humidity condensate, and water from              a series of multifiltration beds and a catalytic oxidizer for
+                                                                     purification. The water purity is checked by electrical con-
+                                                                     ductivity sensors in the systems. Unacceptable water is
+                                                                     reprocessed, and clean water is sent to a storage tank,
+                                                                     ready for the crew to use. Currently, the Water Recovery
+                                                                     System is capable of recovering and recycling about
+                                                                     90 percent of the water on station.
+
+                                                                     Each astronaut needs about a gallon of water per day for
+                                                                     consumption, food preparations and hygiene — brushing
+                                                                     teeth and shaving.
+
+European Space Agency astronaut Frank De Winne exchanges the         The Air Revitalization System is dedicated to cleaning
+Distillation Assembly of the Urine Processor Assembly on the         the circulating cabin air. This involves removing trace con-
+International Space Station which was designed and built at NASA’s
+                                                                     taminants produced by electronics, plastics and human
+Marshall Space Flight Center. This device helps filter and purify
+crew waste in space, conserving more water and reducing the          off-gassing, including carbon dioxide exhaled by the crew
+amount of resupply the astronauts require from Earth. (NASA)         during normal respiration. Trace contaminants are removed
+   ECLSS Facts
+   • The Environmental Life Support System for water recycling has been
+     operating on the space station since 2008.
+   • Astronauts need to drink a half gallon of water each day — we all do!
+   • Oxygen on the ISS comes from a process called “electrolysis,” which
+     involves using an electrical current generated from the station’s solar
+     panels to split water molecules into hydrogen and oxygen gas.
+   • ECLSS reclaims 90 percent of all astronaut sweat and urine.
+   • This technology has been adapted on Earth to aid remote locations or
+     places devastated by natural disaster that do not have access to clean
+     drinking water.
+
+
+
+by flowing cabin air through three separate units including an                 NASA astronaut Kjell Lindgren brews a cup of coffee using the
+                                                                               Capillary Beverage Cup on the International Space Station. The
+activated charcoal bed, a catalytic oxidizer and a lithium hydrox-
+                                                                               Environmental Control and Life Support System on the orbiting
+ide bed. Carbon dioxide is removed using molecular sieves,                     laboratory helps recycle the precious commodities to sustain life
+materials that separate and capture gases based on their size.                 in space, including air to breathe and water to make coffee and
+                                                                               for other uses on the station. (NASA)
+The Oxygen Generation System produces oxygen for the
+crew to breathe. The system consists of the oxygen gener-
+ation assembly and the carbon dioxide reduction assembly.
+The oxygen generation assembly is composed of the cell
+stack, which electrolyzes, or breaks apart, water provided by
+the Water Recovery System, yielding oxygen and hydrogen as
+byproducts. The oxygen is delivered to the cabin atmosphere
+while the hydrogen is either vented into space or fed to the
+carbon dioxide reduction assembly. The assembly uses that
+hydrogen along with carbon dioxide exhaled by the crew in a
+Sabatier reactor. The byproducts of that process are methane
+(which is released into space) and water for use by the crew.
+
+Future
+Deep space missions in the future will not be able to waste
+                                                                               European Space Agency astronaut Samanta Cristoforetti exercises
+any resources. It will not be possible to resupply air and
+                                                                               on the Cycle Ergometer with Vibration Isolation and Stabilization
+water due to the distances involved, nor will there be room                    (CEVIS) on the International Space Station. Sweat and carbon diox-
+to take it along on a spacecraft due to the volume and                         ide generated by crew members in space is recycled into usable
+mass of consumables required for a voyage of months or                         water and breathable air by the Environmental Control and Life
+                                                                               Support System. (NASA)
+years. We are also improving the efficiency and reliability
+of the current system so we do not have to send as many
+spare parts. Marshall and other NASA centers are working
+to develop regenerative life support hardware to maximize
+recycling of water and oxygen that will sustain life and allow
+humans to travel deeper into space than ever before.
+
+
+National Aeronautics and Space Administration
+George C. Marshall Space Flight Center
+Huntsville, AL 35812
+www.nasa.gov/marshall
+
+www.nasa.gov
+
+
+
+
+FL-2017-08-23-MSFC
+G-281237
+

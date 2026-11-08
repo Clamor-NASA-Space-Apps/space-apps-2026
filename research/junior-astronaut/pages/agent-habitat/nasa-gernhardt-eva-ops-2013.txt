@@ -1,0 +1,636 @@
+                                                                      Author
+5.4                                                                   Michael L. Gernhardt
+                                                                      Joseph P. Dervay
+Extravehicular                                                        James M. Waligora
+                                                                      Daniel T. Fitzpatrick
+Activities                                                            Johnny Conkin
+
+
+
+
+Introduction
+
+The space shuttle was designed to provide crew and cargo              external life support hoses, which could reduce mobility,
+transit from Earth to low-Earth orbit and back for conducting         present snag hazards, and reduce overall reliability. The
+a wide variety of scientific experiments; deploying and cap-          shuttle EMU also was designed to incorporate modular
+turing of satellites and scientific spacecraft; and providing a       gloves and boots, and the boots were designed to be
+means by which to transfer crew and equipment to and from             compatible with foot restraints to support working in
+future space stations. Space shuttle extravehicular activities        microgravity.
+(EVAs) were initially anticipated to be used only for contin-
+gencies and, thus, were focused on addressing a variety of mal-       The Apollo suits were designed to operate at the lowest
+functions associated with the deployment of radiators and             reasonable pressure to minimize differences in pressure
+antennas and the closing and latching of the payload bay doors.       across the suit and to permit optimal crew member mobility
+                                                                      and dexterity for performing EVA tasks. They also provided
+                                                                      protection against decompression sickness (DCS) and
+Evolution of the Extravehicular                                       hypoxia under nominal and off-nominal conditions by using
+Activity Suits                                                        lower-pressure secondary oxygen system regulators. The
+                                                                      current U.S. spacesuit system, the shuttle/International Space
+                                                                      Station (ISS) EMU, has a nominal operating pressure of 30
+The shuttle spacesuit system, formally called the extrave-            kPa (4.3 psia). The atmosphere in both the shuttle and the
+hicular mobility unit (EMU), was derived from the advanced            ISS resembles that on Earth, at a pressure of 100 kPa (14.5
+Apollo suit configuration. In the Apollo Program, most                psia) and a composition of 79% nitrogen and 21% oxygen.
+EVAs took place on the lunar surface, where suit durability,          This atmosphere represents a major departure from the low-
+integrated liquid cooling garments, and low suit operating            pressure, high-oxygen-concentration environments aboard
+pressures (25.8 kilopascals [kPa] or 3.75 pounds per square           previous spacecraft. This combination of cabin atmosphere
+inch absolute [psia]) were required to facilitate relatively          and suit pressures required the development of special
+lengthy EVAs that included ambulation and significant                 protocols to protect against DCS, which can result when a
+physical workloads. Metabolic rates during those EVAs                 crew member shifts rapidly from the relatively high-pressure
+averaged 1000 BTU/hour, with peaks of up to 2200                      cabin to a low-pressure suit without sufficient time for
+BTU/hour.8 The Apollo spacesuit, which had more than 15               denitrogenation (the elimination of nitrogen in lungs and
+components, included a biomedical belt for capturing and              tissues via breathing pure oxygen). DCS can result from gas
+transmitting biomedical data, urine and fecal containment             phase separation and bubble growth in various tissues.
+systems, a liquid cooling garment, a communications cap, a            Depending on the location and degree of gas phase
+modular portable life support system, a boot system, thermal          separation, DCS symptoms can range from minor joint
+overgloves, and a bubble helmet with eye protection. The              discomfort to serious cardiopulmonary or central
+Apollo astronauts left a 34.4-kPa (5-psia) 100% oxygen envi-          neurological symptoms that can result in physical disability
+ronment in the lunar lander to perform as many as 3 EVAs              or loss of life.
+per mission on the lunar surface. The shuttle EMU incorp-
+orated many of the same components as the Apollo suit                 In addition to the risk of DCS, several other environmental
+system, but, like the shuttle vehicle, the suit was designed to       and physiological stresses must be addressed or controlled
+be reusable.                                                          for crew members to safely undertake EVAs. These include,
+                                                                      but are not limited to: thermal extremes that range from -
+The shuttle EMU incorporated a hard upper torso design with           120°C to +120°C, depending on whether the crew member is
+a range of arm and leg sizing elements that allowed the suits         working during the day or at night; the need to provide
+to be resized for a variety of crew members of different body         sources of energy (as much as 200 kcal/hour) to keep up with
+sizes; the Apollo suits, by comparison, were custom fitted.           the metabolic energy expenditure on spacewalks, which can
+The hard upper torso design also eliminated the need for              last 8 hours or longer; the need to provide hydration (as much
+                                                                  1
+2                                                                    Michael L. Gernhardt, Joseph P. Dervay, James M. Waligora,
+                                                                                        Daniel T. Fitzpatrick, and Johnny Conkin
+
+
+as 1 liter/hour) and appropriate waste management systems;       metabolic rates as high as 1600 BTU/hour, but the previous
+and the need to provide protection from the radiation,           DCS trials had been conducted at work rates of
+micrometeoroid, and orbital debris environments. The             approximately 800 BTU/hour that accurately simulated
+operating pressure of the suits, as noted above, is 29.6 kPa     average EVA work rates. The pilot study had a crossover
+(4.3 psi), or approximately the same inflation pressure as a     design between normal simulated EVA activity and an
+basketball; this also produces biomechanical constraints in      activity profile that included 1 hour of 1600 BTU/hour. Work
+mobility and dexterity that can result in significant suit-      performed during the second hour consisted of nominal
+induced trauma to the shoulders, wrists, and fingernails as      activities. The high-intensity exercise protocol was a zero-
+well as trauma from point contact loads as the crew member       prebreathe protocol with a final suit pressure of 44.8 kPa (6.5
+moves within the stiff, pressurized suit.                        psi); it resulted in the same R value as the space shuttle
+                                                                 protocols without engendering the need for the time-intensive
+                                                                 oxygen prebreathe. The hypothesis was that high-intensity
+Preventing the Development of                                    exercise would increase symptoms and bubbles; however, the
+Decompression Sickness                                           only remarkable finding of that crossover study was that the
+                                                                 last 2 high-intensity exercise runs done on consecutive days
+                                                                 resulted in Type II symptoms, causing the tests to be
+Protecting against DCS has critical operational implications     terminated. Subsequent analyses suggest that a zero-pre-
+because of the time needed for oxygen breathing to facilitate    breathe protocol starting at a pressure of 1 atmosphere (atm)
+nitrogen elimination before an EVA can be safely performed,      may make subjects particularly susceptible to Type II DCS
+and because of the medical and operational consequences of       because the nitrogen elimination half-time of the brain and
+a DCS episode should one occur.                                  spinal cord is 5 to 7 minutes; hence, an oxygen prebreathe
+                                                                 would quickly desaturate the neurological tissues and
+The shuttle decompression protocols were developed based         eliminate the autochthonous bubble formation that produces
+on findings from several hundred decompression trials that       central nervous system symptoms of DCS. The zero-
+had been performed over a 10-year period. Two protocols          prebreathe protocols, in contrast, would begin with supersat-
+were accepted for shuttle flight operations based on an “R”      uration in the brain and spinal cord, even with R values
+value of 1.65. (The R value is the ratio between the nitrogen    equivalent to those of protocols that incorporated some
+tension in a 360-minute half-time tissue compartment and the     degree of oxygen prebreathe.
+spacesuit pressure.) These protocols consisted of either a 4-
+hour oxygen “prebreathe” performed while wearing a suit pres-    Crews and flight planners preferred to use the 70.2 kPa (10.2
+surized to 101.2 kPa (14.7 psia), or a staged decompression      psia) staged decompression protocol for operational timeline
+protocol. In the staged decompression protocol, the crew         reasons; consequently, all but 4 EVAs from the space shuttle
+members “prebreathe” oxygen for 1 hour before the cabin is       used this protocol. Also, for operational reasons, the time
+depressurized to 70.2 kPa (10.2 psia) with 26.5% oxygen.         spent at 70.2 kPa (10.2 psia) was typically far in excess of the
+The entire crew remains at 70.2 kPa (10.2 psia) for a mini-      tested 12-hour exposure. Figure 5.4-1 shows the distribution
+mum of 12 hours, and then the EVA crew members complete          of the duration at 70.2 kPa (10.2 psia) during the space
+another 75 minutes of oxygen prebreathe in the suit before       shuttle missions that involved EVAs; it is apparent from this
+performing the EVA. The final in-suit prebreathe times are a     figure that the average time spent at this pressure was over 40
+function of the time spent at 70.2 kPa (10.2 psia) and can be    hours.
+as short as 40 minutes, if 36 hours or more have been spent at
+the reduced 70.2-kPa (10.2-psia) cabin pressure. Shirtsleeve,    Equilibration of tissue nitrogen tensions at a given ambient
+ground-based altitude chamber testing of these protocols         pressure is generally considered to require 36 hours; there-
+resulted in a DCS incidence rate of 23.7%,414,15 with most of    fore, longer in-flight times spent at 70.2 kPa (10.2 psia) would
+the symptoms being minor joint pain. DCS has never been          be expected to mitigate the decompression stress. Figure 5.4-2
+reported during more than 140 space EVAs in which these          illustrates predicted bubble growth for 12- to 36-hour exposures
+protocols were used, and the DCS rate has been less than         at 70.2 kPa (10.2 psia);7 these theoretical calculations suggest
+1.5% during more than 300 ground-based vacuum chamber            that decompression stresses are very low after spending 24
+tests, which were conducted while the subjects wore EMU          hours at 70.2 kPa (10.2 psia).
+garments.
+                                                                 In addition to the increased exposure time at 70.2 kPa (10.2
+Work Rates and Risk of Decompression                             psia), the suit itself provides some protection against decom-
+                                                                 pression because suited crew members have additional oper-
+Sickness                                                         ational oxygen prebreathe time and higher metabolic rates
+                                                                 during prebreathe than do the resting test subjects in the
+Physical activity during EVA is a significant contributor to     laboratory trials. During space flight, a series of configuration
+the risk of DCS.4 A pilot study was conducted in 1990 to ad-     and leak checks is performed after the crew member dons the
+dress the implications of high work rates during EVA. The        suit, followed by an 8- to 12-minute purge cycle before the pre-
+EMU environmental control system was designed to handle
+5. Multisystem Issues and Countermeasures –                                                                                              3
+Extravehicular Activities
+
+
+
+
+    Figure 5.4-1 The duration of exposure at 70.2 kPa (10.2 psia) of individual crew members before performing EVA in a 29.6-kPa
+    (4.3-psia) suit. Note: The EVA crew is notated by the STS flight number or International Space Station increment number, followed
+    by the crew member’s designation (eg, EV no.) for those instances in which more than 1 crew member is possible on that
+    particular flight or mission. (EVA = extravehicular activity; EV = extravehicular; STS = Space Transportation System).
+    (Reprinted from Katuntsev VP, Osipov YuYu, Gernhardt ML. Space Biology and Medicine, Vol V, p. 205, © 2004.
+    With permission of the American Institute of Aeronautics and Astronautics.)
+
+
+breathe clock is started. Then, during depressurization to               and limited logistics support of the ISS precluded its cabin
+vacuum, the suit pressure is set by positive pressure relief             pressure from being reduced to 70.2 kPa (10.2 psia). This
+valves that keep the suit at 34.4 kPa (5 psia) over the ambient          was a major constraint because the crew members with the
+pressure; this results in more oxygen prebreathe time before             most current Space Station Remote Manipulator System
+the tissues become supersaturated. The combined effect of                (SSRMS) training to support the EVA construction were
+these operations is that the suited crew member spends an                space shuttle crew members who would need to remain in the
+additional 20 to 30 minutes of prebreathing at elevated                  space shuttle if the hatches were closed. Further, because the
+oxygen concentration levels. The metabolic rates of crew                 hatches between the 2 vehicles were closed, time-intensive
+members “resting in the suit” have also been measured at 6.8             logistics transfers between the shuttle and the ISS could not
+mL•kg-1•min-1; by comparison, the typical resting metabolic              be done while EVAs were being performed. The required 4-
+rate is approximately 3.8 mL/kg-min. Recent research has                 hour in-suit prebreathe times were not compatible with the
+shown that even small increases in metabolic rate can de-                EVA timelines and the crew scheduling constraints necessary
+crease the incidence of DCS, presumably through increased
+nitrogen washout.2,5,9 The combination of all suit-related
+operational effects reduces decompression stress on crew
+members relative to shirtsleeve laboratory subjects and offers
+an explanation as to why the incidence of DCS in suited,
+ground-based vacuum chamber tests and space flight EVAs
+is much lower than the initial laboratory trials used to de-
+velop these decompression protocols.
+
+
+International Space Station Assembly and
+the Prebreathe Reduction Program
+As space shuttle crews began EVAs in support of assembling              Figure 5.4-2 Theoretical bubble growth during a 6-hour EVA
+the ISS, a series of new challenges arose. The standard shuttle-        after spending 12, 16, 20, or 24 hours at an atmosphere of 70.2
+based 70.2-kPa (10.2-psia) staged decompression procedure               kPa (10.2 psia) with 26.5% oxygen. (EVA = extravehicular activity).
+                                                                        (Reprinted from Katuntsev VP, Osipov YuYu, Gernhardt ML. Space
+became limiting because it required that the hatch between              Biology and Medicine, Vol V, p. 205, © 2004. With permission of
+the space shuttle and the ISS remain closed, as the large volume        the American Institute of Aeronautics and Astronautics.)
+4                                                                      Michael L. Gernhardt, Joseph P. Dervay, James M. Waligora,
+                                                                                          Daniel T. Fitzpatrick, and Johnny Conkin
+
+
+to assemble and maintain the ISS. To circumvent these con-         until the crew member could be re-pressurized in the airlock,
+straints, a baseline “overnight campout” protocol in which         and the possibility that the presence of sub-symptomatic
+crew members were to stay in the ISS airlock, pressurized to       venous gas emboli (VGE) could increase the risk of Type II
+70.2 kPa (10.2 psia), was planned for future ISS EVA               DCS in crew members with patent foramen ovale. For these
+operations. However, that protocol also had significant            reasons, the incidence of DCS and Grade IV VGE (on the
+limitations, including high oxygen use and exposure to 70.2        Spencer scale) were set to be below a threshold at which
+kPa (10.2 psia) during sleeping periods, when crew mem-            Type II DCS had never been reported in a large database of
+bers’ metabolic rates were low, in addition to lack of comfort     altitude-decompression studies by NASA, the U.S. Air Force,
+and isolation of the crew members in the airlock. It thus          and others.
+became clear that a new prebreathe protocol would be needed
+to support shuttle crew EVAs during the early ISS assembly         The requirement of having a 95% probability that 2 of 3 crew
+phase. The Prebreathe Reduction Program (PRP) was initiated        members would be available for EVA throughout the ISS
+in 1997. This program had 4 objectives: (1) to prospectively       Program, in combination with these additional medical/oper-
+define acceptable DCS risk levels based on a combination of        ational considerations, led to the following accept/reject limits
+mission success parameters and medical operational consider-       for trials of the reduced prebreathe protocols:
+ations; (2) to develop, test, and validate a 2-hour prebreathe
+protocol from saturation at 101.2 kPa (14.7 psia) in time to          Accept: DCS ≤ 15% and Grade IV VGE ≤ 20%, at
+support the first EVA from the ISS on assembly flight 7A;             95% confidence interval
+(3) to develop further time reductions in prebreathe proto-           Reject: DCS > 15% or Grade IV VGE > 20%, at
+cols, if safely possible; and (4) to develop predictive models        70% confidence interval
+that would allow DCS risk to be estimated across a range of           Reject: Any case of Type II DCS
+operational circumstances, including different saturation
+pressures, prebreathe times, exercise levels, and breaks in the    These criteria were more conservative than any previous
+prebreathe period.                                                 prebreathe ground trial, including the operational space
+                                                                   shuttle and Russian Orlan protocols and a 6-hour resting pre-
+                                                                   breathe protocol.
+Risk Estimation
+
+To develop prospective criteria for acceptable DCS risk, the       Countermeasures to Reduce Prebreathe Time
+impact on missions of different DCS symptoms needed to be
+assessed against well-defined mission success criteria. A well-    A decade of research suggested 2 countermeasures that were
+defined DCS disposition policy was then developed to sup-          operationally feasible and had the potential to reduce pre-
+port the necessary statistical analyses. To summarize, the DCS     breathe time: exercise during oxygen prebreathe and (for Earth-
+disposition policy stated that if a crew member had 1 Type I       based subjects) microgravity simulation.
+(pain only) DCS incident that resolved completely during re-
+pressurization to cabin pressure, that crew member would be        The exercise countermeasure involved exercising during the
+allowed to perform another EVA within 72 hours. If a crew          oxygen prebreathe period according to a protocol developed
+member had 2 incidents of Type I DCS on the same mission,          at the U.S. Air Force School of Aerospace Medicine: 10-minute
+he or she would not be permitted to perform EVAs until after       dual-cycle ergometry exercise at 75% VO2 peak, with 88% of
+return to Earth and clearance by the NASA Aerospace                the workload in the lower body and 12% of the workload in
+Medical Board. Also, if a crew member had a single incident        the upper body. In ground-based tests of 40 subjects, just 10
+of Type II DCS (central neurological or cardiopulmonary            minutes of exercise during a 1-hour prebreathe cut the
+DCS), that crew member would not be permitted to perform           incidence of DCS by 50% relative to a control group who
+EVA until cleared by the NASA Aerospace Medical Board.             rested during the 1-hour prebreathe; the incidence of DCS
+This policy was considered conservative and generally              was approximately equivalent to that after a 4-hour resting
+consistent with the policies developed by the U.S. Air Force.      prebreathe (Figure 5.4-3).16
+This DCS disposition policy was applied to Monte Carlo
+simulation results of the entire assembly and to the               The other countermeasure, microgravity simulation, required
+maintenance model of the ISS (484 EVAs) to define the              the test subjects to refrain from walking for 4 hours before
+highest DCS risk consistent with a 95% probability that 2 of       and during the simulated EVA. Tests performed at the NASA
+3 crew members would always be available to perform EVA            Johnson Space Center, tests constituting the Argo series,3,11,12
+throughout the life of the ISS. That analysis revealed the         and tests at Duke University13 suggested that non-ambulating
+highest acceptable risk of DCS to be 21%.                          subjects had lower decompression stress than ambulating
+                                                                   subjects. Figure 5.4-4 shows the results of a crossover study
+These mission-success-based DCS risk estimates were fur-           performed at Duke University13 in which a group of subjects
+ther reduced to account for other medical operational consid-      remained semi recumbent for 4 hours before and during simu-
+erations such as limitations in on-orbit treatment capabilities,   lated EVA at 29.6 kPa (4.3 psia) and the control group was
+a 30- to 45-minute delay from the appearance of symptoms           ambulatory. This protocol included a 3.5-hour oxygen pre-
+5. Multisystem Issues and Countermeasures –                                                                                                 5
+Extravehicular Activities
+
+
+
+
+Figure 5.4-3 Results of 10 minutes of 75% VO2 peak exercise                Figure 5.4-4. DCS episodes noted in ambulatory and
+in a 1-hour prebreathe protocol before performing simulated                nonambulatory subjects performing simulated EVAs at
+EVA at 29.6 kPa (4.3 psia). (EVA = extravehicular activity; O2 =           29.6 kPa (4.3 psia) after a 3.5-hour oxygen prebreathe. (DCS =
+oxygen; DCS = decompression sickness). (Reprinted from                     decompression sickness; EVA = extravehicular activity).
+Katuntsev VP, Osipov YuYu, Gernhardt ML. Space Biology                     (Reprinted from Katuntsev VP, Osipov YuYu, Gernhardt ML.
+and Medicine, Vol V, p. 228, © 2004. With permission of the                Space Biology and Medicine, Vol V, p. 229, © 2004. With
+American Institute of Aeronautics and Astronautics.)                       permission of the American Institute of Aeronautics and
+                                                                           Astronautics.)
+
+
+
+breathe. Results showed a significantly lower incidence of                  minutes of “resting prebreathe.” The final depressurization
+DCS (Fisher’s exact test p = 0.0008) in the legs of the non-                from 101.2 kPa (14.7 psia) to the 29.6 kPa (4.3-psia) suit
+ambulatory subjects.                                                        pressure took place over a 30-minute period. The pressure
+                                                                            and breathing gas profiles were identical during all 4
+Although this research suggested that prebreathe efficiency                 protocols tested; only the exercise dose was changed. Results
+could be improved, the observed rates of DCS in these experi-               of these tests are illustrated in Figure 5.4-6.
+ments were still higher than the prospectively defined
+“accept” criteria for validation of the ISS prebreathe
+protocols. Thus, these 2 countermeasures, exercise
+prebreathe and microgravity simulation, were
+integrated to develop an operationally viable
+prebreathe protocol consistent with ISS assembly and
+maintenance EVA timelines. A multicenter sequential
+testing program was initiated and led by the NASA
+Johnson Space Center with decompression testing
+occurring at Duke University, the University of Texas
+Hermann Health Science Center, and the Canadian
+Defense and Civil Institute for Environmental
+Medicine.6                                                   Figure 5.4-5 PRP Phase I to IV 2-hour oxygen prebreathe exercise
+                                                                   protocols. Exercise varied from the 10 minutes of heavy exercise at 75%
+Four different protocols were tested using various                 VO2 peak, to 95 minutes of light activity (5.8 mL•kg-1•min-1) that was
+combinations of high-intensity activities (75% VO2                 measured during the normal EVA preparations of configuring and donning
+                                                                   the suit. (PRP = Prebreathe Reduction Program; EVA = extravehicular
+peak) and “light activities” (VO2 of 5.8 mL•kg-1•min-1).           activity). (Reprinted from Katuntsev VP, Osipov YuYu, Gernhardt ML.
+All of the protocols included 2 hours of oxygen pre-               Space Biology and Medicine, Vol V, p. 229, © 2004. With permission of the
+breathe time, but each involved exercise at different              American Institute of Aeronautics and Astronautics.)
+times and different intensities during that period. An
+overview of the protocols is shown in Figure 5.4-5.
+                                                                            The initial test of the U.S. Air Force exercise prebreathe
+All 4 protocols incorporated a 2-hour oxygen prebreathe as                  protocol (“Phase I”) during a 2-hour oxygen prebreathe
+well as a depress to 70.2 kPa (10.2 psia) and 26.5% oxygen                  resulted in a DCS rate of 19%. Two other protocols that
+after the initial exercise to avoid the uptake of nitrogen when             incorporated only light exercise resulted in DCS rates of 22%
+donning the spacesuit. After the 30-minute simulated suit-                  (“Phase III” protocol) and 14% DCS (“Phase IV” protocol).
+donning period, the pressure was increased to 101.2 kPa                     Only the Phase II protocol met the accept conditions for
+(14.7 psia), where the subjects completed an additional 40                  operational use (ie, DCS ≤ 15% and Grade IV VGE ≤ 20% at
+6                                                                            Michael L. Gernhardt, Joseph P. Dervay, James M. Waligora,
+                                                                                                Daniel T. Fitzpatrick, and Johnny Conkin
+
+
+
+
+                       Figure 5.4-6 Observed episodes of DCS and Grade IV VGE during testing of each
+                       of the 4 Prebreathe Reduction Program protocols (“phases”). Bars indicate the
+                       upper bound of the 95% confidence limits. The black dashed line depicts the
+                       “accept” level for the number of episodes of DCS (ie, ≤15%); the grey dotted line
+                       depicts the “accept” level for the number of episodes of VGE (ie, ≤ 20%). (DCS =
+                       decompression sickness; VGE = venous gas emboli). (Reprinted from Katuntsev
+                       VP, Osipov YuYu, Gernhardt ML. Space Biology and Medicine, Vol V, p. 229, ©
+                       2004. With permission of the American Institute of Aeronautics and Astronautics.)
+
+
+
+
+95% confidence interval). That protocol incorporated a 10-              to meet the certification requirements for operating in the
+minute 75% VO2 peak exercise period coupled with 40                     100% oxygen environment of the suit, the decision was made
+minutes of intermittent light exercise at 5.8 mL•kg-1•min-1,            to add a further 20 minutes of oxygen prebreathe time while
+followed by a 30-minute suit donning period at 70.2 kPa                 in the suit. These procedures were finalized and used to
+(10.2 psia), and 26.5% oxygen, followed by a 40-minute                  perform the first EVA from the ISS, during STS-104, ISS
+resting prebreathe period at 101.2 kPa (14.7 psia). Tests of            assembly Flight 7A (Figure 5.4-7).
+that protocol resulted in no cases of DCS and 6 cases of
+Grade IV VGE among 45 subjects. Because these results met               The exercise prebreathe protocol had several operational
+the prospectively defined accept criteria, this protocol was            advantages, including more efficient EVA preparation time-
+accepted for flight operations. Neither heavy nor light                 lines and the ability to leave the hatches open between the
+exercise by itself was sufficient to protect against DCS at             shuttle and the ISS while the shuttle vehicle was docked to
+acceptable levels. However, the combination of heavy                    the ISS. When this chapter was written, the exercise pre-
+exercise followed by light exercise and then a resting pre-             breathe protocol had been used on 42 EVAs from the ISS and
+breathe met the accept conditions. Recent research also                 had played an important role in the success of the early
+suggests that depressurization to 70.2 kPa (10.2 psia)                  shuttle-based assembly flights. Table 5.4-1 presents data
+followed by re-pressurization to 101.2 kPa (14.7 psia) and              from the early uses of the protocol. The actual prebreathe
+additional oxygen prebreathe contributes significantly to               times for each phase of the protocol are longer than the
+reducing decompression stress.5,6,10                                    required times. In practice, crews never spend less time
+                                                                        prebreathing 100% oxygen than is required and often spend
+Detailed flight procedures were then developed together with            more, which, in combination with the additional “operational
+special exercise and breathing equipment (prebreathe mask,              prebreathe time” associated with configuration, communica-
+hose, and regulators) that would provide the high ventilation           tions, leak checks, and oxygen purges, plus the increased
+rates necessary to support the 10-minute heavy exercise                 metabolic rates associated with these suited activities (Table
+period for very fit EVA crew members. An in-flight DCS vali-            5.4-2), adds another degree of conservatism relative to ground-
+dation program also was developed that included the use of              based laboratory trials.
+an in-suit Doppler bubble detector. When this detector failed
+5. Multisystem Issues and Countermeasures –                                                                                                   7
+Extravehicular Activities
+
+
+
+
+Figure 5.4-7 The first in-flight use of the exercise prebreathe protocol (left) and the first EVA from the U.S. airlock “Quest” during STS-104,
+ISS assembly flight 7A (right). (EVA = extravehicular activity; ISS = International Space Station). (Reprinted from Katuntsev VP, Osipov
+YuYu, Gernhardt ML. Space Biology and Medicine, Vol V, p. 230, © 2004. With permission of the American Institute of Aeronautics and
+Astronautics.)
+
+
+
+Medical Management of Potential
+Decompression Sickness Incidents
+
+As part of defining acceptable levels of risk of DCS for the                from the U.S. Navy and the U.S. Air Force. The DCS treatment
+ISS era, the methods by which DCS is treated were revisited                 literature and DCS databases were extensively reviewed. One
+by a multidisciplinary team established at the NASA Johnson                 of the key findings from this effort was the recognition of the
+Space Center to formulate a DCS Contingency Plan. This                      need for an operational classification system for various
+team included representatives from Medical Operations, the                  degrees of DCS symptoms, together with the responses
+Astronaut Office, flight controllers, the EVA support team,                 necessary for efficient re-pressurization of affected crew
+and Mission Operations Directorate as well as representatives               members in the airlock while simultaneously maintaining the
+
+
+   Table 5.4-1 Early uses of the exercise prebreathe protocol, showing actual prebreathe times for each phase of the protocol vs. the
+   nominal required times. Actual time always exceeds the required time for a variety of operational reasons. (Reprinted from Katuntsev
+   VP, Osipov YuYu, Gernhardt ML. Space Biology and Medicine, Vol V, p. 230, © 2004. With permission of the American Institute of
+   Aeronautics and Astronautics.)
+      Nominal time             80 minutes             20 minutes             30 minutes             60 minutes              30 minutes
+         Actuals               80-124 (88)            20-45 (30)             42-104 (61)            60-64 (60.3)            35-70 (39)
+                                                 70.2-kPa (10.2-psia)     Time @ 70.2 kPa
+         Mission           Mask Prebreathe                                                       In-suit Prebreathe      Depressurization
+                                                  Depressurization           (10.2 psia)
+        STS-104-1                 97                      45*                    59                      60                 70*********
+          110-1                   95                      30                     45                      60                     40
+          110-2                   80                      26                     63                      60                     43
+          110-3                   80                      23                     46                      60                     40
+          110-4                   124                     74                     32                      60                     41
+          111-1                   82                      24                     81                      60                     41
+          111-2                   87                      34                     70                      60                     39
+          111-3                   80                      25                     61                      87                     33
+          112-1                   102                     29                     87                      60                     43
+          112-2                   80                      25                     62                      60                     42
+          112-3                   80                      24                     53                      61                     38
+          113-1                   94                      25                     60                      60                     35
+          113-2                   81                      21                     49                      60                     37
+          113-3                   80                      25                     104                     60                     42
+         Exp-4-1                  85                      20                     42                      60                     59
+          Exp-6                   87                      29                     63                      64                     57
+8                                                                            Michael L. Gernhardt, Joseph P. Dervay, James M. Waligora,
+                                                                                                Daniel T. Fitzpatrick, and Johnny Conkin
+
+                   Table 5.4-2 Average and maximum metabolic rates and EVA durations associated with
+                   representative ISS assembly tasks. (Reprinted from Katuntsev VP, Osipov YuYu, Gernhardt ML.
+                   Space Biology and Medicine, Vol V, p. 231, © 2004. With permission of the American Institute of
+                   Aeronautics and Astronautics.)
+                        Mission          EVA                 Metabolic Rate (kcal/hour)              EVA Duration
+                                                      Maximum                   Average
+                        STS-104            1            788.01          230.4      ±      105.2           5:59
+                                           2            492.51          193.4      ±       80.0           6:29
+                                           3            492.51          229.0      ±       79.4           4:02
+                        STS-110            1            472.81          224.8      ±       69.7           7:48
+                                           2            866.81          198.7      ±       74.2           7:30
+                                           3            433.41          198.6      ±       67.5           6:27
+                                           4            394.01          199.3      ±       59.9           6:37
+                        STS-111            1            394.01          191.5      ±       61.7           7:14
+                                           2            374.31          191.9      ±       66.9           5:00
+                                           3            510.42          195.7      ±       67.4           7:17
+                        STS-112            1            610.71          254.9      ±       86.0           7:01
+                                           2            476.83          233.8      ±       73.3           6:04
+                                           3            394.01          215.7      ±       66.7           6:36
+                        STS-113            1            965.32          228.2      ±       89.1           6:45
+                                           2            453.11          213.6      ±       73.2           6:10
+                                           3             N/A                      N/A                     7:00
+                         Exp-4             1            413.71          203.2      ±      68.0            5:49
+
+
+space shuttle in a safe configuration for reentry. The op-              (pain-only) symptoms (96%). For this reason, the decision
+erational DCS classification system was integrated with the             was made to initially leave the crew member pressurized in the
+EVA malfunction checklist, which EVA crew members wear                  suit at 29.6 kPa (4.3 psi) over cabin pressure while breathing
+on their forearms. This EVA “cuff classification” system rep-           100% oxygen. Another tenet of treatment involves treating
+resents an “operational” classification of DCS symptoms. A              not just symptoms but also gas bubbles, and for this reason as
+crew member experiencing symptoms during an EVA                         many as 2 more hours of breathing oxygen was recom-
+verbally reports to Mission Control a “cuff class” number               mended after symptom resolution. A significant percentage
+based on symptoms and level of interference with per-                   of Type II (serious) symptoms also are anticipated to
+formance. A preestablished response plan is then followed               improve with return to ambient pressure. However,
+that may include termination or abort of an EVA with appro-             procedures and hardware were developed to be able to install
+priate “safing” activities of the shuttle/ISS EVA worksite, as          the bends treatment unit while the suit was pressurized and
+required. By establishing predetermined operational                     while the crew member was breathing oxygen, which pro-
+responses, this standard system for communicating symp-                 vided the capability to increase suit pressure if more serious
+toms to the Mission Control team is designed to maximize                symptoms did not respond to compression to 29.6 kPa (4.3
+the health and safety of crew members. The cuff classifica-             psi) above cabin pressure. Unless an affected crew member is
+tion system also serves as the basis for formulating simulated          severely compromised, he or she would remain in the suit
+DCS scenarios for the Mission Control flight team and EVA               during the initial phases of treatment, with the spacesuit
+crew members to rehearse during pre-mission training.                   serving as the treatment vessel. Many technical aspects must
+                                                                        be considered when addressing the challenges of treating a
+Algorithms or decision trees were then developed for the                suited crew member, including communications, EMU and
+treatment of DCS based on the general concepts of diving                vehicle configuration, suit consumables, and airlock re-pres-
+treatment tables. The principal tenets of treatment include             surization procedures. Treatment outlines were subsequently
+oxygen and pressure over time, with fluids and medications              converted into malfunction procedures that follow the
+used as adjuncts. In the previous version of space DCS                  checklist format and decision trees that astronauts are
+treatment, crew members were returned to cabin pressure as              accustomed to using.
+soon as possible, after which the suit was depressurized to
+cabin pressure. After this the crew member breathed cabin air           As described in detail elsewhere in this book, medical kits
+for approximately 30 minutes. A “bends treatment apparatus”             were flown on the space shuttle and are being flown on the
+was installed on the suit providing the capability to increase          ISS. Although these kits are necessarily constrained in terms
+the suit pressure to up to 57.2 kPa (8.3 psi) above cabin               of size and weight, they are designed to address a broad
+pressure. Database analysis suggested that the return to cabin          range of medical conditions based on prior space flight
+pressure from the 29.6 kPa (4.3-psia) hypobaric environment             experience and anticipated illnesses and injuries. Medical
+of the spacesuit would be sufficient to treat most Type I               treatment procedures after the suit is doffed (removed)
+5. Multisystem Issues and Countermeasures –                                                                                   9
+Extravehicular Activities
+
+includes the administration of oral or intravenous hydration      to support the high frequency of EVAs anticipated in future
+and additional oxygen by facemask. The shuttle medical kits       Exploration Class missions, which includes a requirement for
+contained 3.1 L of normal saline (0.9% NaCl); and 12.1 L of       a work efficiency index greater than 3.0.
+normal saline are available aboard the ISS. At present, no
+other adjunct medications are currently flown for the specific
+support of DCS treatment.                                         Approach to Extravehicular Activity
+                                                                  Medical Monitoring
+A simple DCS neurological examination that can be per-
+formed on an EVA crew member by a nonphysician astro-
+naut was developed as a tool to assess signs and symptoms         Before flight, Flight Surgeons coordinate with members of
+over time. This examination assesses chiefly motor and            the Astronaut Conditioning, Strength, and Rehabilitation
+neurological functions, and can be used to evaluate crew          team to ensure that all EVA crew members have a well-
+members who are either fully suited or with the suit doffed.      balanced exercise regimen. Emphasis is placed on upper-
+                                                                  extremity strength and endurance because EVAs require
+“Flight rules” are preestablished procedures developed for        intensive use of hands and arms.
+the Flight Control Team in Mission Control to respond to a
+variety of potential mechanical and operational scenarios         During flight, all EVAs are preceded and followed by
+throughout all phases of flight. The purpose of flight rules is   assessments of medical fitness. The primary focus of a pre-
+to avoid miscommunications across disciplines and to maxi-        EVA medical evaluation is to identify any medical issues that
+mize effective decisions. Flight rules developed for EVA          would constrain or potentially harm crew members during
+deal with “oxygen payback” ratios for air breaks in pre-          EVA. Post-EVA medical evaluations aim to ensure continued
+breathe periods; they also specify deorbit requirements to        crew member health and identify potential suit-related health
+designated worldwide Primary Hyperbaric Care sites, and           issues. On the day before an EVA was to take place, the
+address resolved and unresolved “cuff class” symptoms.            Flight Surgeon held private medical conferences with each
+Expertise both within and outside NASA has been leveraged         shuttle EVA crew member to assess his or her rest, hydration,
+to create and implement a system that is now in place to more     and nutrition status as well as any physical issues that might
+effectively address potential cases of DCS on orbit.              have affected his or her EVA performance. For ISS missions,
+                                                                  medical clearance and certification are based on medical
+                                                                  assessment, which includes a review of recent counter-
+Extravehicular Activity Frequency                                 measures performed to ensure adequate aerobic capacity and
+                                                                  strength. This medical evaluation, which is completed 24
+and the Work Efficiency Index                                     hours before a scheduled EVA, consists of a review of
+                                                                  physiological systems by the Flight Surgeon, a brief skin and
+The actual EVA is part of a long workday that includes pre-       extremity examination by the on-board Crew Medical
+EVA preparation, suit donning, prebreathe, airlock decom-         Officer, and a urinalysis to ensure proper hydration status.
+pression, conducting an EVA that can last more than 8 hours,      On the day of the EVA, the crew member’s vital signs (blood
+reentering and securing the airlock, re-compressing the           pressure, body temperature) are measured and the Flight
+airlock, and doffing the spacesuit. Thus, back-to-back days of    Surgeon may direct further medical examination based on
+EVA would be overly fatiguing. To quantify the time               results from the previous review of systems.
+required for each of these functions, an EVA work efficiency
+index was created and is defined as EVA time/total time for       The Surgeon Console position in Mission Control is staffed
+EMU and airlock preparation + prebreathe time + airlock           by both a Flight Surgeon and a biomedical engineer during
+depressurization + airlock re-pressurization + total after-EVA    EVAs to provide medical support as needed. Additional EVA
+activities. Table 5.4-3 shows work efficiency indices for         medical and physiological experts are available on call to
+shuttle and ISS EVA operations. Clearly significant amounts       assist the console surgeon should further consultation be
+of time are required to prepare all of the individual elements    required. Biomedical monitoring is undertaken to provide
+of the suit and airlock: from configuring the biomedical          feedback to the Flight Director. Monitoring includes
+monitoring system to filling and installing the in-suit drink     electrocardiography and heart rate, suit pressure, suit carbon
+bag to configuring and checking out the suits and airlocks.       dioxide partial pressure, and estimated metabolic rate. During
+The work efficiency index ranges from approximately 0.39 to       EVAs, the crew members have access to an in-suit drink bag
+0.51, meaning that more than twice as much time goes into         that contains 0.95 L (32 oz) of water, and they wear a
+preparing for an EVA than is spent actually performing the        maximum-absorbency garment for urine absorption as
+EVA. Significant improvements in this index will be required      needed.
+10                                                                                      Michael L. Gernhardt, Joseph P. Dervay, James M. Waligora,
+                                                                                                           Daniel T. Fitzpatrick, and Johnny Conkin
+
+             Table 5.4-3 Work Efficiency Index (EVA time [based on a 6.5-hour EVA] per the overhead associated with
+             pre- and post-EVA preparations of the suit and airlock systems). (Reprinted from Katuntsev VP, Osipov YuYu,
+             Gernhardt ML. Space Biology and Medicine, Vol V, p. 208, © 2004. With permission of the American Institute of
+             Aeronautics and Astronautics.)
+                                                          Shuttle Staged
+                                                                                                                       ISS CEVIS Exercise
+                    Prebreathe Protocol               Decompression (12 hours              ISS: 4 hours in Suit
+                                                                                                                         (Using ISS O2)
+                                                       @ 70.2 kPa [10.2 psia])
+                 EVA Overhead Activities                    Time in Minutes                  Time in Minutes             Time in Minutes
+             Suit checkout                                         115                              185                          185
+             REBA-powered hardware
+                                                                   25                                25                          25
+             checkout
+             SAFER checkout                                        30                                30                          30
+             Airlock configuration                                 95                                90                          90
+             Consumables preparation                               60                               120                          120
+             EVA preparation – prebreathe
+                                                                   60                                0                           80
+             related
+             EVA preparation – EMU related                       30                               30                           30
+             Suit donning and leak check                         60                               60                           60
+                                                           Completed during                 Completed during             Completed during
+             SAFER donning
+                                                             prebreathe                       prebreathe                   prebreathe
+             Purge                                                8                               12                           12
+             Prebreathe                                          75                              240                           60
+             Airlock depressurization                            15                               30                           40
+             Airlock egress                                      15                               15                           15
+             Airlock ingress                                     15                               15                           15
+             Airlock re-pressurization                           15                               15                           15
+             Suit doffing                                        25                               25                           25
+             SAFER doffing and stow                              10                               10                           10
+             Post-EVA processing                                105                               90                           90
+             Total                                              758                              992                          902
+
+             EVA Work Efficiency Index                            0.51                             0.39                         0.43
+            *Abbreviations: CEVIS = Cycle Ergometer with Vibration Isolation System; REBA = rechargeable EVA battery assembly; SAFER =
+            simplified aid for EVA rescue.
+
+
+Typically the maximum duration of EVAs as currently                                neutral buoyancy pool or in a microgravity environment.
+planned is 6.5 hours. However, EVAs can and have been                              Another factor contributing to problems with suit fit is the
+extended to meet mission objectives if suit consumables are                        significant increase over time in spinal column dimensions in
+available and if the Flight Surgeon concurs that the crew mem-                     a microgravity environment. Moreover, the hard upper torso
+bers’ physiological parameters are within acceptable limits.                       design partially restricts scapulothoracic motion, which can
+                                                                                   result in shoulder rotator cuff impingement during some arm
+                                                                                   maneuvers.
+Extravehicular-activity-induced
+Injuries                                                                           The padding and harnesses used, the suit humidity
+                                                                                   (particularly that over the hands and feet), fitting and sizing,
+                                                                                   anthropometric factors and the crew member’s physical
+The extensive ISS construction tasks performed during EVAs                         conditioning, the ranges of motion and force required for
+have been associated with crew member injuries, both during                        various tasks, the repetition of those tasks, and recovery
+Neutral Buoyancy Laboratory training and during actual                             times between EVAs all influence the likelihood and
+space flight EVAs. In addition to the EVA tasks themselves,                        prevalence of EVA injuries. Training with heavy tools,
+the spacesuit design and sizing, foot restraints, suit humidity                    prolonged inversion, and overhead arm operations all can
+control, EVA duration, and repetition factors all influence the                    increase the probability of injury during training in the
+likelihood of crew member injury.                                                  Neutral Buoyancy Laboratory at the NASA Johnson Space
+                                                                                   Center, and tasks are typically performed multiple times
+As noted at the beginning of this section, the U.S. spacesuit                      during training in preparation for one such event during an
+has a hard upper torso design, and sizing is determined using                      actual EVA. Although the combination of the crew member,
+a computer algorithm developed from previous use of such                           his or her tools, and the EMU during simulations may
+suits. Because the fitting process takes place at 1g, an injury-                   collectively be neutrally buoyant, the crew member is not
+free fit is not necessarily ensured when the suit is used in a                     weightless within the suit, and hard-point contact and range-
+5. Multisystem Issues and Countermeasures –                                                                                          11
+Extravehicular Activities
+
+of-motion limitations can and do result, particularly when the      References
+crew member is working in the inverted position.
+
+In a small survey of 22 EVA astronauts at the NASA                  1.   Conkin J. Preventing Decompression Sickness Over Three
+Johnson Space Center, 14 reported an EVA-related shoulder                Decades of Extravehicular Activity. Houston, Tex: Lyndon B.
+                                                                         Johnson Space Center; 2011. NASA/TP-2011-216147.
+injury and 10 had experienced a previous shoulder injury. Of
+those who had experienced pain or injury, 56% experienced           2.   Conkin J, Gernhardt ML, Powell MR, Pollock N. A Probability
+shoulder pain or injury during EVA mission training and                  Model of Decompression Sickness at 4.3 psia After Exercise
+18% did so during actual EVA. All 14 subjects experienced                Prebreathe. Houston, Tex: Lyndon B. Johnson Space Center;
+right shoulder pain, and 68% were affected in both shoulders.            2004. NASA TP-2004-213158.
+Two of the 14 astronauts required surgical repair after injury.
+Most of the incidents associated with EVA training were             3.   Conkin J, Powell MR. Lower body adynamia as a factor to
+classified as minor and resolved within 48 to 72 hours.                  reduce the risk of hypobaric decompression sickness. Aviat
+                                                                         Space Environ Med. 2001;72:202-214.
+Injuries of the hands and feet associated with EVAs and EVA
+                                                                    4.   Conkin J, Waligora JM, Horrigan DJ Jr, Hadley AT III. The
+training also have been reported. One NASA study of 770                  Effect of Exercise on Venous Gas Emboli and Decompression
+suited training test events involved 352 reported symptoms.              Sickness in Human Subjects at 4.3 psia. Houston, Tex: Lyndon
+Of these symptoms, 47% involved hands, 21% involved                      B. Johnson Space Center; 1987. NASA TM-58278.
+shoulders, 11% involved feet, 6% involved arms, 6% in-
+volved legs, 6% involved the neck, and 3% involved the              5.   Gernhardt ML, Conkin J, Vann RD, Pollock NW, Feiveson
+trunk. Hand symptoms were primarily fingernail delamina-                 AH. DCS risks in ground-based hypobaric trials vs. extravehic-
+tion (loss), thought to be secondary to excess moisture in the           ular activity. Undersea Hyperb Med. 2004;31(3):338.
+EVA gloves, and axial loading of the fingertips. Also present
+                                                                    6.   Gernhardt ML, Conkin J, Vann RD , Powell MR. Design of a
+were abrasions, contusions, and 2 cases of peripheral nerve
+                                                                         2-hour prebreathe protocol for space walks from the
+impingements related to glove fit and hard-point contact                 International Space Station (abstract 43). Paper presented at:
+compressions. Crew members in microgravity and on the                    71st Annual Scientific Meeting of the Aerospace Medical
+lunar surface have often noted significant hand fatigue re-              Society. May 14-18, 2000; Houston, Tex.
+lated to glove resistance during grasping motions.
+                                                                    7.   Gernhardt ML. Development and Evaluation of a Decom-
+Pain and injury to the feet, chiefly of the dorsal surface of the        pression Stress Index Based on Tissue Bubble Dynamics
+foot and distal toes, were commonly associated with boot-fit             [dissertation]. Philadelphia, Pa: University of Pennsylvania;
+problems, compression in foot restraints, or pressure from               1991.
+folds in the foot bladder. Elbows were the most common site
+                                                                    8.   Horrigan DJ, Waligora JW, Bredt JH. Extravehicular activities.
+of pain or injury in the arms, as were knees in the legs.                In: Nicogossian AE, Huntoon CL, Pool SL, eds. Space
+Neutral-buoyancy EVA training is often intense as a mission              Physiology and Medicine. 2nd ed.. Philadelphia, Pa: Lea and
+launch date approaches; fingernail delamination and shoulder             Febiger; 1989:121-135.
+injuries may be related to the frequent and large numbers of
+training sessions. Mitigations targeting the causal factors are     9.   Morgenthaler GW, Fester DA, Coolfy CG. An assessment of
+being progressively implemented and incorporated into the                habitat pressure, oxygen fraction, and EVA suit design for
+designs of the next-generation spacesuits.                               space operations. Acta Astronautica. 1994;32(1):39-49.
+
+                                                                    10. Pollock NW, Natoli MJ, Vann RD, Conkin J, Gernhardt ML.
+Conclusions                                                             Comparison of V-4 and V-5 exercise/oxygen prebreathe
+                                                                        protocols to support extravehicular activity in microgravity
+                                                                        (abstract). Paper presented at: Annual Scientific Meeting of the
+As of March 2011, 186 EVAs had been conducted by crew                   Undersea and Hyperbaric Medical Society. June 14-16, 2007;
+members wearing U.S. spacesuits. All EVAs were successful,              Maui, Hawaii. Available at: http:www.uhms.org. Accessed
+and all crew members returned safely and in good health.1 The           September 23, 2011.
+successful assembly of the ISS, using EVAs originating from
+                                                                    11. Powell MR, Waligora JM, Norfleet WT, Kumar KV. Project
+the space shuttle, has been one of the most significant                 ARGO – Gas Phase Formation in Simulated Microgravity.
+accomplishments in the history of NASA. This success is due             Houston, Tex: NASA Lyndon B. Johnson Space Center; 1993.
+in large part to the care and dedication of the physiological           NASA TM-104762.
+research and medical personnel overseeing virtually every
+aspect of EVA: from the development of procedures and               12. Powell MR, Horrigan DJ Jr, Waligora JM, Norfleet WT.
+countermeasures to personnel selection and training and                 Extravehicular activities. In: Nicogossian AE, Huntoon CL, Pool
+finally through providing real-time and post-flight medical             SL, eds. Space Physiology and Medicine. 3rd ed. Philadelphia,
+support of EVA crews.                                                   Pa: Lea & Febiger; 1994:128-140.
+12                                                                       Michael L. Gernhardt, Joseph P. Dervay, James M. Waligora,
+                                                                                            Daniel T. Fitzpatrick, and Johnny Conkin
+
+13. Vann RD, Gerth WA. Is the risk of DCS in microgravity less       15. Waligora JM, Pepper LJ. Physiological experience during
+    than on earth? (abstract 45). Paper presented at: 68th Annual        shuttle EVA. Paper presented at: 25th International Conference
+    Scientific Meeting of the Aerospace Medical Association. May         on Environmental Systems. July 10-13, 1995; San Diego,
+    11-15, 1997; Chicago Ill,                                            Calif. SAE Technical Series. No. 951592.
+
+14. Waligora JM, Horrigan DJ, Conkin J, Hadley AT. Verification      16. Webb JT, Fisher MD, Heaps CL, Pilmanis AA. Prebreathe
+    of an Altitude Decompression Sickness Protocol for Shuttle           enhancement with dual-cycle ergometry may increase decom-
+    Operations Utilizing a 10.2 psia Pressure Stage. Houston, Tex:       pression sickness protection. Aviat Space Environ Med.
+    NASA Lyndon B. Johnson Space Center; 1984. NASA TM-                  1996;67:618-624.
+    58259.
+

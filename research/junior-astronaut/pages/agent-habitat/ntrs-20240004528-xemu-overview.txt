@@ -1,0 +1,669 @@
+53rd International Conference on Environmental Systems                                                              ICES-2024-219
+21-25 July 2024, Louisville, Kentucky
+
+
+         Exploration Extravehicular Mobility Unit (xEMU) Chamber
+           B Thermal Vacuum “Suit 2” Pressure Garment System
+                         Hardware and Test Design
+                                                          Benjamin Swartout1
+                                                 Jacobs Technology, Houston, TX, 77058
+
+                                                                 and
+
+                                                         David Westheimer2
+                                            NASA Johnson Space Center, Houston, TX, 77058
+
+                   NASA’s Exploration Extravehicular Mobility Unit (xEMU) is the government reference next-
+         generation space suit design and is engineered to protect astronauts from extreme lunar environmental
+         temperatures. To evaluate the xEMU hardware thermal requirements, the xEMU Testing Team invented,
+         designed, and executed a dual-suit, uncrewed thermal vacuum (TVAC) test at Johnson Space Center’s (JSC)
+         Chamber B. This paper details the test hardware design and test methodology for the “Suit 2” Pressure
+         Garment System (PGS) test article. The uncrewed “Suit 2” PGS test article consisted of a full PGS assembly
+         with simulated Portable Life Support System (PLSS) functionality provided by test equipment, including a
+         ventilation loop and two distinct thermal control loops. This paper will discuss in depth the test hardware
+         design, including internal suit thermal boundary simulation, sensor quantity and placement, test support
+         equipment rigs for gas flow, water flow, and power. Custom hardware designed to add additional penetrations
+         to the suit or provide additional interfaces for sensors will also be discussed. This paper will also address the
+         assembly and integration sequence for the test article. In addition to test hardware design, this paper will
+         provide insights into the test methodology for this test article, including a discussion of thermal steady-state
+         testing, simultaneous dual suit thermal vacuum testing, and hazard mitigation and controls.
+
+                                                           Nomenclature
+         xEMU = Exploration Extravehicular Mobility Unit
+         TVAC = Thermal Vacuum
+         JSC = Johnson Space Center
+         PGS = Pressure Garment System
+         PLSS = Portable Life Support System
+         q = Heat Transfer
+         U = Coefficient of Heat Transfer
+         A = Heat Transfer Area
+         dT = Temperature Delta
+         T = Temperature
+         cDAQ = Compact Data Acquisition System
+         SxEMU = Short Exploration Extravehicular Mobility Unit
+         DCU = Display and Control Unit
+         σ = Stefan-Boltzmann Constant
+
+
+
+
+         1
+          Pressure Garment Test Engineer, Jacobs Technology, 2101 NASA Parkway, Mail Code EC5.
+         2
+          Engineering, Spacesuit and Crew Survival System Branch, 2101 NASA Parkway, Mail Code EC5.
+         Trade names are used in this presentation for identification only. Their usage does not constitute an official
+         endorsement, either expressed or implied, by the National Aeronautics and Space Administration.
+                                                  I. Introduction
+
+T     HE Exploration Extravehicular Mobility Unit (xEMU) is the government reference design next-generation lunar
+      spacesuit. After over a decade of development of xEMU technologies, the xEMU project performed a Design
+Verification Testing (DVT) phase in 2021, 2022, and 2023, culminating in thermal-vacuum (TVAC) testing of the
+xEMU spacesuit at Johnson Space Center’s (JSC) Chamber B. The xEMU thermal-vacuum test include two test
+articles: a short-xEMU (SxEMU) including the Exploration Portable Life Support System (xPLSS), and “Suit 2” a
+full Exploration Pressure Garment System (xPGS). While both test articles were simultaneously exposed to thermal-
+vacuum conditions, the test was designed such that the two test articles and their respective thermal environments
+were able to be independently controlled. Reference 1 provides a top level overview of the test.
+                                                                This paper will focus on the xPGS test article, aptly
+                                                           named “Suit 2” as it was the second test article added to
+                                                           the test. Figure 1 and Figure 2 picture the Suit 2 test
+                                                           article installed inside of a custom heater cage at JSC’s
+                                                           Chamber B2. The Suit 2 test article included a composite
+                                                           Hard Upper Torso, Helmet/Extravehicular Visor
+                                                           Assembly (EVVA), Liquid Cooling Ventilation
+                                                           Garment (LCVG), Arms, Phase VI Gloves, Waist-Brief
+                                                           Hip, Legs, and Boots. Additional instrumentation was
+                                                           installed inside the suit to collect thermal and audio data.
+                                                           Test support equipment was also developed to simulate
+                                                           the life-support functional nominally provided by the
+                                                           PLSS. In particular, this paper will examine the test
+                                                           design and hardware developed to perform uncrewed
+                                                           thermal-vacuum testing of the xPGS test article.
+                                                           Considerations included the simulation of the thermal
+                                                           load nominally provide by the astronaut in crewed
+                                                           testing, hazard mitigation to minimize catastrophic risks,
+Figure 1. Suit 2 xPGS Test Article.                        and design of test support equipment with readily
+                                                           available parts. Reference 3 provides test results from the
+                                                           Suit 2 test article.
+
+                                                                          II. Test Objectives
+                                                        The primary objective of the Suit 2 test article was to gather
+                                                      system-level data on the thermal performance of the xPGS in a
+                                                      high-fidelity simulated space environment. Secondary
+                                                      objectives included: performing dual-suit audio testing of the
+                                                      integrated communication system (ICS) at sub-ambient
+                                                      pressures4, testing performance of the Exploration Informatics
+                                                      Lighting Band (xInfoBand)5, characterizing performance of the
+                                                      Liquid-Crystal Display (LCD) screen on the Display and
+                                                      Control Unit (DCU)6, and evaluating component-level thermal
+                                                      performance of the lunar boots, composite Hard Upper Torso
+                                                      (cHUT), and Helmet/EVVA. In addition to the primary and
+                                                      secondary technical objectives, a priority for the Suit 2 test
+                                                      article was to be designed in a way such that all catastrophic
+                                                      hazards were mitigated. Any failure of the Suit 2 test system
+                                                      could not lead to a re-pressurization of the vacuum chamber and
+                                                      early termination of the simultaneous SxEMU thermal vacuum
+                                                      test.
+                                                        The xEMU spacesuit was designed for both low-earth orbit
+                                                      (LEO) and lunar extravehicular activities (EVAs). With the
+                                                      lunar temperatures encompassing the LEO thermal
+                                                      environments, the xEMU thermal requirements ranged from
+Figure 2. Suit 2 xPGS Test Article.                   93K (-292°F) for a cold location at the lunar South Pole and up
+
+                                                         2
+                                International Conference on Environmental Systems
+to 378K (+220°F) for a hot crater location at the lunar Equator. Perhaps the most demanding thermal requirement for
+the xEMU is a two-hour exposure time duration in a lunar Permanently Shadowed Region (PSR) where temperatures
+are estimated to be 40K (-387°F) in a shadowed polar crater. Heat leak data from historic Extravehicular Mobility
+Unit (EMU) EVAs indicate radiative heat flux with the LEO environment is logarithmic and does not significantly
+change lower than ~144K (-200°F). Figure 3 shows these trends. However, a unique aspect of lunar EVAs is the
+thermal conduction pathway present between the bottom of the xPGS boots and the lunar surface. With a linear
+relationship between conductive heat flux and temperature, entering a PSR is expected to substantially impact the heat
+leak though the lunar boots.
+
+
+
+
+ Figure 3. Comparison Between Apollo, EMU, and xEMU (Modeled) Heat Leak Rates
+  Johnson Space Center’s Chamber B utilizes liquid-nitrogen chilled cold panels on the walls and floor of the chamber
+to provide cold environments. It was anticipated prior to the test that the minimum cold environment provided by
+Chamber B would not reach the 93K (-292°F) environment. For the hot environments, a custom heater cage was
+designed to surround Suit 2, with independently controllable heater zones. By testing various thermal profiles and
+allowing the test article internal and external temperatures to steady state with the environment temperature, the
+thermal performance of the xPGS can be characterized and relevant test data can be used to validate xEMU thermal
+models.
+
+                                        III. Test Article Configuration
+     The Suit 2 test article was comprised of spacesuit hardware built during the Design Verification Testing phase of
+the xEMU project. This hardware was intended to be the final set of hardware built prior to assembling flight-fidelity
+hardware. The Suit 2 test article was a full xPGS with simulated life-support functions provided by test support
+equipment because it did not include a Portable Life Support System (PLSS). It was located inside of a custom heater
+cage to provide control of the thermal environments during the test and, unable to be accessed once the main vacuum
+chamber was depressurized.
+
+
+
+
+                                                         3
+                                International Conference on Environmental Systems
+                                              A. Helmet/EVVA Configuration
+                                                   As there was no access to the Suit 2 test article once the chamber
+                                              was depressurized, a single visor/shade configuration had to be chosen.
+                                              Figure 4 shows the helmet and EVVA. For this test, the visors/shades
+                                              were stowed for the duration of the test. At the time of this test, the
+                                              current plan for Artemis III is to land near the lunar south pole, where
+                                              cold environments (particularly in permanently shadowed regions ) will
+                                              be more extreme than hot environments. Keeping the visor and shades
+                                              stowed was more thermally stressful for the helmet and more
+                                              operationally representative of an expected visor/shade configuration in
+                                              a cold/dark environment than a visor/shades deployed configuration. For
+                                              these reasons, the visor/shades were stowed during this test to improve
+                                              the fidelity of the data collected in the cold case. While in a hot case it is
+                                              operationally expected to deploy the visor/shades, again it is more
+                                              thermally stressful to stow the visor/shades and stowing the visor/shades
+                                              provides the opportunity to better test the thermal performance of the
+                                              helmet bubble.
+                                              B. Hard Upper Torso Material
+                                                    The xEMU project developed Hard Upper Torsos (HUT) with two
+Figure 4. Helmet/EVVA Configuration
+                                               different options for the HUT shell material: aluminum or an S-glass
+                                               composite     material.
+While identical in design, the two different material types of HUTs
+have unique thermal characteristics. The aluminum 6061-T6 HUT
+will distribute better than the thermally insulative S-glass material.
+The difference in thermal conductivities between two different HUT
+shell materials specifically affects the behavior of the HUT shell
+when interfacing with exposed metallic components. Components
+such as the HUT-mounted purge valve and Negative Pressure Relief
+Valve (NPRV) are intentionally not covered with Environmental
+Protection Garment (EPG) and consequently are high heat-leak
+locations. Thermal modeling completed prior to the test estimates
+that the aluminum HUT shell will pull heat away from these exposed
+metallic components in a hot environment and lead to higher, but
+more evenly distributed temperature across the interior HUT shell.
+Conversely, the composite HUT shell thermally insulates the
+exposed metallic components and in a hot case leads to lower HUT
+shell temperatures with much higher temperatures on exposed
+                                            metallic     components.
+                                            The      xEMU      project
+                                            intended       for      the
+                                            composite HUT to be the
+                                            flight material and for
+                                            that reason the composite Figure 5. Composite HUT.
+                                            HUT was chosen to be
+                                            tested on the Suit 2 test article that saw much higher thermal extremes than
+                                            the PGS-side of the SxEMU test article. Figure 5 shows the populated
+                                            composite HUT used for Suit 2.
+                                           C. xINFO Camera Thermal Simulator
+                                              The Suit 2 test article included an xINFO Lighting Band, however, did
+                                           not include a camera. The camera nominally has a USB harness running
+                                           from the camera to the xPLSS. However, the Suit 2 test article did not
+                                           include an xPLSS. Prior testing of the camera found a harness-length
+                                           limitation of ~10 feet. With the Suit 2 test article located more than 10 feet
+Figure 6. Camera Thermal Simulator         away from the vacuum chamber penetration plate, it was decided not to
+
+                                                          4
+                                 International Conference on Environmental Systems
+include a real xINFO camera, as telemetry could not be received from the
+camera and the xINFO camera had prohibitive thermal limits. A camera
+thermal simulator was developed with a simple resistor setup to generate
+a similar amount of heat as the real xINFO camera to provide high fidelity
+thermal loading of the Helmet/EVVA from the camera. Figure 6 shows the
+camera simulator.
+D. Boot Thermal Insert
+      One of the unique aspects of the Suit 2 test article was the ability to
+have the spacesuit boots in contact with the liquid-nitrogen chilled
+chamber floor, simulating having the boots in contact with the lunar
+surface. The xEMU boots are designed for contacting a 40K (-387°F) lunar
+regolith-ice mixture in a PSR at the lunar south pole. However, due to
+uncertainties in thermal modeling and a lack of thermal test data on the
+xEMU boots, a second thermal insert was installed between the bottom of
+the boot outsoles and the liquid-nitrogen chilled chamber floor to slow the
+conductive heat transfer. It was anticipated that the boot temperatures and
+thermal time constants observed during thermal vacuum testing will be Figure 7. Extra Boot Thermal Inserts.
+significantly affected by the additional thermal insert. It is important to
+note that once the effective thermal conductivity of the boots is calculated with test data, the boot thermal model can
+be updated with that data and make predictions of boot temperatures without the additional thermal insert. Figure 7
+shows the boot set up with inserts as installed in the chamber.
+E. Electrical Passthrough Adapter
+      To power and receive data from the internal instrumentation
+located inside of the test article, a custom electrical passthrough was
+designed. The part utilizes a KF-40 Tee with a potted ethernet and
+potted DB-9 connector. To interface with the Hard Upper Torso
+(HUT), a custom part was designed to interface between the bolt hole
+pattern for the NPRV, located on the crew-left side of the HUT, and a
+KF-40 flange. Additionally, a strut was manufactured to help support
+the weight of the KF-40 Tee that interfaced with the body seal closure
+at the nominal oxygen line clamp location. Figure 8 shows this
+assembly as installed on Suit 2. Simplified structural analysis was
+performed by hand to assess a loading case where a kick load is applied
+at the end of the electrical passthrough adaptor while the suit/adaptor
+is pressurized. A custom EPG piece was manufactured to cover the
+electrical passthrough adapter to avoid leaking heat from the part into
+the HUT.
+F. LCVG Modifications
+      As this was an uncrewed test, the thermal load of a crewmember
+was not present, and a modified Liquid Cooling and Ventilation
+Garment (LCVG) was designed and installed into the xPGS for this Figure 8. Electrical Passthrough Adapter
+test. This modified LCVG included fluid passages in the hands and feet
+of the suit to control the thermal conditions in the extremities, as shown in Figure 9. The water which was pumped
+through this LCVG was held to approximately 75°F to simulate a suited crewmember inside the test article. The
+Auxiliary Thermal Loop (ATL) was not used.
+      This temperature setpoint is derived from a simplified assumed average of a nominal LCVG water temperature
+of 50°F supplied by the PLSS and a core body temperature of ~100°F. Plastic pellet was used to fill the volume of the
+comfort gloves and socks to ensure contact between the tubing and the glove/boot bladders. The LCVG extensions
+were optimized around minimizing pressure drop, assembly complexity, and flow rate. The flow rate was intentionally
+kept low to increase the temperature delta of the water across the LCVG to reduce uncertainty in resistance temperature
+device (RTD) measurements while concurrently providing sufficient heat flux to maintain internal suit temperatures
+within safe limits. RTDs were located at the entry/exit of the Primary Thermal Loop (PTL) fluid lines in the hatch to
+capture the temperature delta across the PTL. A third RTD was located at the outlet of the LCVG, upstream of the
+
+
+
+                                                         5
+                                International Conference on Environmental Systems
+LCVG extension lines running to
+the gloves and boots, to capture
+component-level data on the heat
+flux of the LCVG isolated from
+the LCVG extensions.
+     Three RTDs were used to
+measure       and     control    the
+temperatures in the PTL. S2-
+RTD-130 was nominally at the
+inlet of the gloves and boots. S2-
+RTD-120 was located before the
+water flowed into the LCVG and
+                                       Figure 9. LCVG Extensions.
+was controlled to 75°F (24°C) for
+all of the cold test points. Finally, S2-RTD-110 was in the return line prior to the water leaving the suit and returning
+to the chiller. All cold test points were performed in this configuration. It meant that the simulated hands and feet
+were slightly warmer than the LCVG. This is consistent with simulating a person wearing a LCVG because the hands
+and feet are not covered with tubing normally and would be closer to a human’s body temperature. However, the
+flow direction of the water in the PTL was reversed halfway through the test to perform the hot cases. In these test
+points flow went to the LCVG first, via S2-RTD-110. Water temperatures at S2-RTD-110 were controlled to 75°F
+(24°C), which was the inlet to the suit and the LCVG in this configuration. Because these were hot environment tests,
+the water flowing through the LCVG would pick up heat from the environment and would end up slightly warmer
+than the LCVG in the gloves and boots, again providing a good simulation of the temperature distribution a human
+                                            would impart into a spacesuit.
+                                            G. Backplate Assembly
+                                               The Suit 2 test article did not include a Portable Life Support System
+                                            (PLSS), rather the internal atmosphere and temperature were controlled by
+                                            test system equipment external to the chamber (see Section IV). A weight
+                                            relief plate was installed onto the hatch to assist in off-loading the test article
+                                            in the vacuum chamber. Offloading the test article using the weight-relief
+                                            plate eliminated the need
+                                            for a custom test stand to
+                                            be built. An added
+                                            benefit of using the
+                                            weight-relief plate to
+                                            fixture the test article in
+                                            the vacuum chamber is
+                                            that the plate does not
+                                            block radiation heat
+Figure 10. Backplate Assembly.              transfer between heater
+                                               cage/liquid-nitrogen
+shrouds and the test article as a traditional donning stand would.
+   Heat-exchangers were then mounted to the weight relief plate to
+provide a similar thermal boundary as the xPLSS backplate
+nominally provides to the back of the PGS. A PLSS Interface Pad
+was installed on the hatch to provide fluid and gas line interfaces
+between test support equipment and the suit. The weight relief
+plate was covered with a custom EPG piece with seven layers of
+mylar to provide thermal protection. Figures 10 and 11 show the
+weight relief plate and how it was integrated into the Suit 2 test
+article.
+
+
+
+
+                                                                          Figure 11. Custom EPG Covering Backplate
+
+
+                                                            6
+                                   International Conference on Environmental Systems
+                                         H. Audio
+                                              During testing both Suit 2 and SxEMU had internal microphones and
+                                         speakers which allowed for testing at ambient and sub-ambient conditions for
+                                         the Integrated Communication System (ICS). Similar to the SxEMU, a manikin
+                                         head that housed audio equipment (microphones and a speaker) was installed in
+                                         the Helmet’s cavity to support the audio test objectives. This is shown in Figure
+                                         12. The internal audio instrumentation also included a measurement microphone
+                                         that was connected to the audio test equipment for Suit 2 that was located outside
+                                         the chamber. The audio equipment installed supported suit-to-suit
+                                         communication which allowed for speech intelligibility assessments to simulate
+                                         suited crewmembers speaking to each other. More detail on the audio equipment
+                                         integral to the test articles used as part of this test series are contained in
+Figure 12. Audio Manikin Head. Reference 4.
+                                         I. Display and Control Unit
+      The Suit 2 test article used a DCU, shown in Figure 13, constructed with
+an Ultem body as opposed to an aluminum body. The Ultem housing was
+prototyped as a mass consideration assessment, however, was not chosen as
+the flight design. By having both an aluminum DCU (SxEMU test article) and
+an Ultem DCU (Suit 2) both tested during the same thermal vacuum test, a
+direct comparison of thermal performance could be carried out post-test. This
+Ultem DCU had a Liquid Crystal Display (LCD) which interfaced with the
+test system, as well has having fluid interfaces with the PLSS-simulating fluid
+loop to control temperature in the DCU. It should be noted that the internal
+electronics which would normally be present in the DCU were not all powered
+for this component. A modified SCC was machined that mimicked the
+geometry of the flight Service and Cooling Connection (SCC) design, Figure 13. Suit 2 DCU.
+however replaced the custom quick disconnect mechanics with straight
+threads where off-the-shelf fluid fittings can be interfaced. A jumper was constructed to join the vehicle supply and
+return lines.
+J. Internal Instrumentation
+     To collect data during the test, a variety of sensors were installed on the inside of the test article. 48 internal Type-
+T thermocouples were placed at critical locations, affording the ability to assess the internal touch temperatures of the
+suit. Also heat transfer at specific locations was evaluated by stacking thermocouples at key locations from the inside
+of the suit, exterior of the suit, and exterior of the EPG. Figure 14 shows some of the thermocouple locations.
+Thermocouples were secured to the suit hardware with either Kapton tape or 3M 4411N Sealing tape. In addition to
+thermocouples, 7 RTDs were used to measure the temperature delta between the supply and return of the primary
+thermal loop, vehicle loop, and gas loop. Custom hardware was developed to interface the RTDs with the water and
+
+
+
+
+Figure 14. EPG, External Boot, and Internal Upper Torso Thermocouple Locations
+
+                                                           7
+                                  International Conference on Environmental Systems
+gas loops. A manikin was also used to provide volume to the LCVG and to position the LCVG inside the suit in a
+more realistic fashion. A compact data acquisition system (cDAQ) was installed inside the hollow torso of the manikin
+to provide an interface for the thermocouples and RTDs. The cDAQ consolidated the number of electrical penetrations
+needed though the suit pressure barrier. Figure 15 shows more of the internal instrumentation as it was built up in the
+manikin.
+
+
+
+
+Figure 15. Internal Instrumentation.
+
+                                         IV. Test Support Equipment
+A. Vent Loop Cart
+     To simulate the gas-flow though the spacesuit nominally
+provided by the xPLSS, a vent loop cart was developed. It drew
+air from the ambient environment in the building through the
+suit in the chamber at vacuum and then back outside of the
+chamber using two small scroll vacuum pumps. The flow rate
+was set by a flow controller and the internal pressure of the
+spacesuit was controlled manually though a needle valve
+during chamber depressurization and repressurization.
+     Pressure transducers were included on both the inlet and
+outlet gas lines to monitor suit pressure. The pressure drop of
+the gas lines between the pressure transducers outside the
+vacuum chamber and the spacesuit was tested and found to be
+negligible. A flow meter was also located on the return gas line
+for redundancy. The internal pressure of the spacesuit was set
+at 4.3PSIA during vacuum operations and the flowrate was Figure 16. Vent Loop Cart.
+maintained at 6ACFM. Figure 16 shows the Vent Loop Cart.
+B. Chiller Carts
+     The Suit 2 test article used two separate chiller carts,
+shown in Figure 17, to independently flow water though
+two separate thermal loops. The first chiller cart flowed
+water though the primary thermal loop, including the
+LCVG and LCVG extensions in the gloves and boots. The
+second chiller cart flowed water though the vehicle
+thermal loop, including the heat exchangers on the weight
+relief plate and the DCU. Both chiller carts were developed
+prior to this thermal vacuum test and the assemblies
+remained unmodified. Flow meters were added to the
+supply lines, downstream of each respective chiller cart, to
+collect flow rate data. Each chiller cart could control the
+flow rate and temperature of the water.
+                                                             Figure 17. Chiller Carts.
+
+                                                         8
+                                International Conference on Environmental Systems
+C. Data Acquisition System
+     The xEMU Thermal Vacuum Test LabVIEW-based test system software was responsible for collecting data from
+many independent sources, presenting that data to the test team, and logging that data to a file. Data sources include
+National Instruments data acquisition devices with many sensor input types both inside and outside of the vacuum
+chamber, serial instrumentation inside and outside of the chamber, and Open Platform Communication (OPC) tag data
+from the facility data acquisition system. The LabVIEW software also streams test data over the network so that
+engineers spread across the facility (and across the country) could view live test data.
+     The facility data acquisition system was responsible for monitoring chamber pressure, external thermocouples on
+Suit 2, and coupon temperatures. This data was streamed on the network via OPC tags, and the xEMU Thermal
+Vacuum Test LabVIEW-based test system software was configured to read these OPC tags and add this data to the
+overall data stream. Thus, the LabVIEW software was able to display any test parameter in the system, and the data
+files produced by the software contained all pertinent data in one file.
+
+                                                V. Test Methodology
+A. Hazard Mitigation
+     While the SxEMU test article performed simulated EVAs, traversing in and out of main chamber on the Crew
+Transport System (CTS), the Suit 2 test article remained inside the chamber for the duration of the test. Consequently,
+the Suit 2 test article performed a single, 116-hour long EVA, continuously exposed to thermal vacuum conditions.
+As re-pressurizing the main chamber was time intensive and expensive, the test matrix and test support equipment for
+the Suit 2 test article needed to be designed in such a way that any failure of the suit or test support equipment would
+not require re-pressurizing the main chamber in order to safe the hardware. Primary failure modes considered are: 1)
+failure of the rigging offloading the test article, 2) major water leak from either water loop, 3) loss of gas pressure
+control in the test article, 4) loss of internal or external instrumentation, 5) loss of heater cage control.
+     1) Rigging Failure – The Suit 2 test article was offloaded from a weight-relief plated installed onto the exterior
+          of the hatch. A structural failure of the rigging would cause the Suit 2 test article to no longer be suspended
+          and collapse onto the chamber floor. Not only would the impact potentially cause damage to the spacesuit
+          hardware, but the test article could also contact the heater cage and the liquid-nitrogen chilled floor
+          underneath the test article. A conduction pathway either to the heater bars or liquid-nitrogen panel could
+          cause extensive damage to the test article. If this failure were to take place, the chamber would need to be re-
+          pressurized to secure the safety of the spacesuit hardware. While the likelihood of a structural failure of the
+          rigging was low, the consequence of a failure was high. Therefore, an independent, secondary rigging system
+          was installed. All rigging was load tested and certified prior to installation of the test article.
+     2) Major Water Leak – The Suit 2 test article flowed water though two separate thermal loops inside of the
+          spacesuit from two chiller carts located outside of the vacuum chamber. The failure mode of loss of control
+          of these water loops and/or a major water leak into the suit was considered. Should either a loss of control or
+          a major water leak be realized, the effect would be partial or total loss of heat injection/removal from the suit.
+          In that event, the heater cage could be adjusted to maintain a safe internal suit temperature. If a major water
+          leak was discovered, there is the potential to damage the internal instrumentation electronics inside the
+          spacesuit, however this was deemed as a non-catastrophic hazard. The effects of free water inside the suit
+          due to a water leak were discussed extensively. Specifically in a cold environment, should the internal suit
+          temperatures reach below the freezing point of water, it is probable that the free water could freeze on the
+          inside of the suit. Ultimately, no failure mode due to freezing water inside the suit was theorized.
+     3) Loss of Gas Pressure Control – The Suit 2 test article flowed atmospheric air though the spacesuit gas loop.
+          A loss of pressure control could either over-pressurize or depressurize the test article. In the over-
+          pressurization case, a positive pressure relief valve set at 8.8 pounds per square inch differential (PSID) was
+          installed onto the test article. In the depressurization case, a negative pressure relief valve was installed onto
+          the return gas line from the suit, outside the chamber, and set to crack at 2.0 PSID. The gas loop test support
+          equipment utilized two small vacuum pumps to suck gas out of the suit and locating the negative pressure
+          relief valve outside of the chamber, upstream of the vacuum pumps had the effect of pulling gas though the
+          RV from the atmosphere and through the vacuum pumps, rather than pulling gas out of the suit. Finally, a
+          separate negative pressure relief valve was installed onto the test article to protect the test article from
+          deleterious pressure gradients during chamber depressurization and re-pressurization. Flow rate calculations
+          were performed for all relief valves to verify in a full-open configuration, the relief valves would protect the
+          test article.
+
+
+                                                           9
+                                  International Conference on Environmental Systems
+     4) Loss of Internal or External Instrumentation – The external thermocouple data was collected though the
+          facility data system, whereas the internal instrumentation data was collected though a separate data system
+          developed for this test. It was determined so long as one set of data was received, either the external or
+          internal thermocouples, the safety of the hardware could be ensured. In the event both data systems failed,
+          the heater cage would be adjusted to maintain safe temperatures on the interior and exterior of the spacesuit.
+     5) Loss of heater cage control – As aforementioned, the xEMU was designed for a lunar cold temperature down
+          to 93K (-292°F) for indefinite exposure. The minimum environmental temperature provided by the chamber
+          was ~152K (-185°F). With significant margin between the cold thermal limit of the spacesuit and the
+          minimum environmental temperature the chamber can provide, should the heater cage fail, the spacesuit can
+          survive an indefinite cold soak.
+     In summary, the only failure scenario that would cause a re-pressurization of the chamber and early termination
+of the simultaneous SxEMU thermal vacuum test was a structural failure of two independent rigging systems. The
+realization of that scenario was exceedingly unlikely. All other failure modes, while might cause a premature end to
+useful data collection for the Suit 2 test article, would not require the chamber to be re-pressurized. In all other cases,
+the Suit 2 test article can be returned to a safe configuration while remaining at vacuum conditions, and the SxEMU
+thermal vacuum test could continue.
+B. Test Matrix
+     The custom heater cage for the Suit 2 test article was designed with 14 independently controllable heater zones.
+Combined with the liquid-nitrogen shrouds in the chamber, it allowed for testing a variety of thermal profiles,
+including both maximum thermally stressful environments and expected thermal environments from different
+potential lunar EVA scenarios. During the Suit 2 thermal vacuum test, 11 unique thermal profiles were test, detailed
+in Table 1. A driving consideration in generating this test matrix was the lack of historical data for the time constant
+for an uncrewed spacesuit to reach thermal steady state with the environment temperature. Due to this uncertainty, 14
+thermal test profiles were planned, however only 11 were tested. As seen in Table 1, the duration of many of the
+thermal test profiles exceeded the traditional 8-hour EVA time duration. The Suit 2 test article maintained each thermal
+profile until thermal engineers determined in real time that the test article had reached thermal steady state with the
+environment. The general test approach was to begin the test with cold environments and move towards hot
+environments in such a way that intermediate EVA operationally expected thermal profiles (or mixed environments)
+could be tested during the transition from maximum cold to maximum hot environments. Additional variables able to
+be changed included turning the xINFO lights and camera thermal simulator on/off and turning off liquid-nitrogen
+flow to the floor beneath the Suit 2 test article. Detailed below is the rationale behind each test point.
+     1) Test Point 1: Chamber Cooling – The Suit 2 thermal vacuum test began concurrently with chamber
+          depressurization.
+          Chamber B employs                                       Table 1. Suit 2 Test Points.
+          liquid-nitrogen     cooled Number                Profile Name            xINFO Floor LN2           Duration
+          panels on the walls of the
+          chamber        for    cryo-        1            Chamber Cooling            On          On         4 Hr 40 Min
+          pumping to increase the
+          vacuum quality of the              2                  Cold                 On          On        14 Hr 25 Min
+          chamber. This also has             3      Cold (Warming Front of Suit) On              On         5 Hr 38 Min
+          the effect of beginning to
+          cool the environment and           4      Cold (Warming Front of Suit) Off             On         5 Hr 52 Min
+          test article inside the
+          chamber.         It    was         5               Max Cold                On          On        11 Hr 46 Min
+          anticipated             that       6               Max Cold                Off         On         8 Hr 20 Min
+          interesting thermal data
+          would be collected during          7        Heating Front Top Half         On          On        14 Hr 25 Min
+          this period as the test
+                                             8             Heating Front             Off         Off       11 Hr 56 Min
+          article    experience      a
+          combination of both                9        Max Hot (Bubble 220F)          On          Off        9 Hr 45 Min
+          radiation and convective
+          cooling. Notably, the             10         Max Hot (Even 200F)           On          Off        9 Hr 36 Min
+          EPG on the spacesuit
+                                            11       Chamber Warming/Repress         Off         Off       12 Hr 16 Min
+          only provides protection
+          from      radiative    heat
+
+                                                         10
+                                 International Conference on Environmental Systems
+     transfer. This test point will allow not only the study of the effects of convective cooling on the spacesuit,
+     but also provide a data point to infer the safety of depressurizing a thermal vacuum chamber with a suited
+     test subject.
+2)   Test Point 2: Cold - This test point was the first cold test point. The start time of this test point was chosen
+     by thermal engineers during the test as the rate of change of the environment temperature began to slow. A
+     majority of the test article was allowed to steady state during this thermal profile. The xINFO components
+     were powered on to characterize their performance in a cold environment and also to slightly warm the
+     Helmet/EVVA.
+3)   Test Point 3: Cold (Warming Front of the Suit) – After cold soaking for nearly 20 hours, concern was
+     developed for certain components on the spacesuit, including the Helmet/EVVA and boots. To stabilize the
+     test article and provide time to verify the material temperature limits of these components, the front of suit
+     was slightly warmed by turning on individual heater zones.
+4)   Test Point 4: Cold (Warming Front of the Suit) – For this test point, the xINFO lights and camera thermal
+     simulator were powered off.
+     Keeping all other variables
+     constant, this test point allowed
+     for characterization of the
+     thermal effects of the lights and
+     camera on the Helmet/EVVA.
+5)   Test Point 5: Max Cold – With
+     previous spacesuit material
+     temperature limit concerns
+     resolved and the chamber
+     providing the maximum cold
+     environment possible, the Suit 2
+     test article was allowed to
+     thermally steady state in a
+     maximum cold environment.
+     The xINFO components were
+     powered on for this test point to
+     slightly          warm          the
+     Helmet/EVVA and provide
+     heating to the electronics of the Figure 18. Suit 2 Thermal Image, Test Point 6 – Max Cold
+     xINFO components.
+6)   Test Point 6: Max Cold – For this test point, the xINFO components were powered off. The test article
+     remained in a maximum cold environment. The was the most thermally stressful cold environment tested for
+     the test article. Figure 18 shows infrared images of Suit 2 during this test point.
+7)   Test Point 7: Heating Front Top Half – This test point imagines the scenario where the astronaut has been in
+     a cold environment for a period of time, for example in a crater at the lunar south pole, and then positions the
+     spacesuit such that the front top-half of the spacesuit (from the waist up) is heated. The lower torso and back
+     of the spacesuit remain exposed to a cold environment. Perhaps the astronaut is standing behind a large bolder
+     or is performing geology tasks at the crest of a crater. An environment temperature of 338K (150°F) was
+     chosen as the target temperature for the front top-half of the spacesuit.
+
+
+
+
+                                                     11
+                             International Conference on Environmental Systems
+   8) Test Point 8: Heating Front – This test point imagines the scenario where the astronaut emerges after a period
+       of time in a cold environment to an orientation where the front of the suit is facing the sun. Perhaps the
+       astronaut is returning from working in a crater at the lunar south pole and is facing the sun during the trip
+       back to the vehicle. An environment temperature of 338K (150°F) was chosen as the target temperature for
+       the front of the spacesuit. The thermal engineers made real-time adjustments to the power settings for the
+       heater zones to get an even temperature across the front of the test article. Additionally, the liquid-nitrogen
+       flow though the floor
+       beneath the test article was
+       turned off.
+   9) Test Point 9: Max Hot
+       (Bubble 220°F) – The
+       thermal requirements for
+       the xEMU give a 377K
+       (220°F) bounding hot
+       environment temperature,
+       which was the target
+       temperature on the center of
+       the Helmet bubble for this
+       thermal test profile. It was
+       found to be difficult to
+       reach an average 377K
+       (220°F) temperature across
+       the test article without
+       exceeding           material
+       temperature limits due to
+       overlapping view-factors of
+       the independent heater cage Figure 19. Suit 2 Thermal Image, Test Point 9 – Max Hot (Bubble 220°F)
+       zones. Figure 19 shows test
+       point 9.
+   10) Test Point 10: Max Hot (Even 200°F) – For this thermal profile, the heater cage power settings were adjusted
+       to evenly heat the spacesuit to 366K (200°F) on all side of the test article.
+   11) Test Point 11: Chamber Warming/Repress – After the conclusion of test point 10, the high-voltage heater
+       cage was powered off to avoid a discharge as the chamber pressure passed though the Corona arcing range.
+       With the chamber walls still cold from liquid-nitrogen flowing through them, shutting off the heater cage
+       surrounding the test article and beginning to slowly repressurize the chamber had the effect of rapidly
+       decreasing the temperature of the spacesuit. As aforementioned, the EPG on the spacesuit only provides
+       protection against radiation heat transfer, and repressurizing the chamber induces convective cooling (due to
+       the chamber shrouds still being cold) that bypasses the thermal protection of the spacesuit. Interesting thermal
+       data was collected.
+
+
+
+
+Figure 20. Suit 2 Heater Cage
+
+
+
+
+                                                       12
+                               International Conference on Environmental Systems
+                                                   VI. Conclusion
+     The uncrewed “Suit 2” xPGS test article was designed to collect unique steady-state thermal data in a variety of
+maximumly stressful and operationally expected thermal test profiles. The test article also collected data on the
+integrated communication system (ICS), xINFO lighting band, display and control unit (DCU), lunar boots, hard upper
+torso (HUT), and Helmet/EVVA. The Suit 2 TVAC test met these objectives while also designing the test such that
+no failure of the test article or test system would impact the simultaneous SxEMU thermal vacuum test. While there
+are many lessons learned from pursuing an uncrewed approach to xPGS spacesuit thermal vacuum testing, this test
+provided unique datasets that cannot be obtained through a crewed testing methodology. These datasets will provide
+insights into future spacesuit development. Reference 3 provides several analyses of the data produced from the Suit
+2 test article.
+
+                                                        References
+   1Westheimer, D., Rodriggs, L., Falconi, E., Swartout, B., and Lewandowski, M., “xEMU Thermal Vacuum Testing Overview,”
+
+International Conference on Environmental Systems, ICES, Louisville, KY, 2024.
+    2Sladek, C., Lewandowski, M., Andersen, N., and Westheimer, D., “Planning and Implementation of Extreme Thermal
+
+Environments in NASA JSC’s Chamber B,” International Conference on Environmental Systems, ICES, Louisville, KY, 2024
+    3Swartout, B., “Exploration Extravehicular Mobility Unit (xEMU) Chamber B Thermal Vacuum “Suit 2” Pressure Garment
+
+System Test Article Results,” International Conference on Environmental Systems, ICES, Louisville, KY, 2024.
+    4Smith, S., and Turner, A., “xEMU Suit Integrated Audio Communications System: Ambient and EVA Pressure Testing System
+
+Performance,” International Conference on Environmental Systems, ICES, Louisville, KY, 2024.
+    5Luty, R, “Exploration EMU (xEMU) Informatics Thermal Vacuum Performance,” International Conference on Environmental
+
+Systems, ICES, Louisville, KY, 2024.
+    6Hargove, S., Sladek, C., and Thornton, C., “Display and Control Unit (DCU) Thermal Vacuum Testing Performance,”
+
+International Conference on Environmental Systems, ICES, Louisville, KY, 2024.
+
+
+
+
+                                                         13
+                                 International Conference on Environmental Systems
+

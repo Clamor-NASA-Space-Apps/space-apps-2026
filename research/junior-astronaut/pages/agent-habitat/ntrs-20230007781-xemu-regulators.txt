@@ -1,0 +1,792 @@
+52nd International Conference on Environmental Systems                                                             ICES-2023-027
+16-20 July 2023, Calgary, Canada
+
+
+
+
+            Space Suit Portable Life Support System Oxygen Regulator
+                     History, Development, & Testing Results
+
+                                              Ryan Ogilvie1 and Colin Campbell2
+                                       NASA Johnson Space Center, Houston, Texas, 77058
+
+                                      Ioannis Hatziprokopiou3, Robert Walz4, James Rogers5
+                      Mission Systems Division, EATON, 10 Cobham Drive, Orchard Park, New York, 141276
+
+
+                    An oxygen regulator has been in development for the Exploration Extravehicular Mobility
+                Unit (xEMU) Portable Life Support System (PLSS). The regulator provides the necessary
+                oxygen pressure control for the crew member during prebreathe, Extra-Vehicular Activity
+                (EVA), post EVA airlock operations, and Decompression Sickness (DCS) treatment. It has
+                been over four decades since a new spacesuit oxygen regulator has been designed. The
+                regulator and EMU that is presently used on the International Space Station (ISS) was
+                developed for the space shuttle program without any significant changes made throughout its
+                service life. The xEMU spacesuit oxygen regulator is based on the previous EMU Secondary
+                Oxygen Pack (SOP). The new design integrates numerous improvements and changes
+                including an innovative approach to regulator architecture, a more robust first stage pressure
+                sensing mechanism, digital actuation control, and electronic pressure sensing. These upgrades
+                replace manual control linkages, physical gauges, and enable infinitely variable pressure set
+                points. The new setpoints can decrease prebreathe time and make in suit DCS treatment
+                possible. Throughout its four iterations design concerns have been addressed, safety features
+                have been added, and the envelope of the regulator designed to fit inside the xEMU PLSS
+                package. This paper will review the history, design, testing, and lessons learned during the
+                development of the xEMU PLSS Oxygen Regulator.
+
+
+                                                         Nomenclature
+        DCS       =   Decompression Sickness
+        DP        =   Delta Pressure
+        DVT       =   Design Verification Test
+        EMU       =   Extravehicular Mobility Unit (current/previous generation – Shuttle/ISS)
+        EVA       =   Extravehicular Activity
+        ISS       =   International Space Station
+        IVA       =   Intra-Vehicular Activity
+        MEOP      =   Maximum Expected Operating Pressure
+        NVR       =   Non-Volatile Residue
+        O2        =   Oxygen
+        OCA       =   Oxygen Compatibility Assessment
+        OPS       =   Oxygen Purge System (Apollo Secondary Oxygen Supply)
+        ORU       =   On-orbit Replacement Unit (ORU)
+        PLSS      =   Portable Life Support System
+
+        1
+          PLSS Development Engineer, Space Suit and Crew Survival Systems Branch, NASA JSC
+        2
+          PLSS Team Lead, Space Suit and Crew Survival Systems Branch, NASA JSC
+        3
+          Senior Mechanical Design Engineer, Mission Systems Division, EATON
+        4
+          Program Manager, Mission Systems Division, EATON
+        5
+          Senior Mechanical Design Engineer, Mission Systems Division, EATON
+        6
+          Cobham Mission Systems is now EATON Mission Systems Division, and originally Carleton Technologies, Inc.
+
+        Trade names and trademarks and company names are used in this report for identification only. Their usage does not
+        constitute an official endorsement, either expressed or implied, by the National Aeronautics and Space
+        Administration.
+POR        =   Primary Oxygen Regulator
+PRV        =   Pressure Regulating Valve (POR/SOR)
+RV         =   Relief Valve
+SOR        =   Secondary Oxygen Regulator (xEMU)
+SOP        =   Secondary Oxygen Pack (Shuttle/ISS EMU Secondary Oxygen Supply)
+WSTF       =   White Sands Test Facility
+xEMU       =   Exploration Extravehicular Mobility Unit (next generation)
+
+                                                   I. Introduction
+
+T    HE exploration External Mobility Unit (xEMU) Portable Life Support System (PLSS) is designed to provide all
+     the necessary functions to keep the crewmember alive. One of the most critical functions is providing a
+pressurized Oxygen (O2) environment in the suit for metabolic consumption. A Primary O2 Regulator (POR) and
+Secondary O2 Regulator (SOR) provide pressurized oxygen to the crewmember sourced from separate O2 tanks for
+each regulator. The POR is designed to provide variable pressure setpoints for the crewmember for Extravehicular
+Activity (EVA) operations, prebreathe, leak checks, and DCS treatment. The SOR is a backup that provides
+pressurization support, carbon dioxide washout/removal, trace contaminant removal, and limited convective cooling
+in case of power failure, suit leaks, system failure, or POR failure via an open loop operating mode where one of the
+suit purge valves is opened and flowing to space. The regulators are designed to operate in vacuum and provide
+pressure at 4.3 psia for nominal EVA operations. This lower pressure is made possible by providing 100% O2 instead
+of the typical 21% in ambient in the normal Earth atmosphere.
+
+A. Regulator Design Safety
+    One of the most critical design points of these regulators is O2 safety. 100% O2 is extremely reactive and has
+caused multiple failures at NASA including Apollo 1, Apollo 13, and a fire during laboratory testing of the Shuttle
+External Mobility Unit (EMU). It is critical to learn from these failures to not repeat mistakes of the past. The most
+relevant failure to the regulator was from laboratory testing during the original development of the EMU for shuttle
+in 1980. The regulator failed and caused a catastrophic fire destroying the unmanned EMU. The probable causes were
+‘dead end” particle impact in aluminum passages, adiabatic compression, and compression heating or rupture of thin
+aluminum sections(8). This led to design changes that can still be seen in the latest evolution of O2 regulators, changing
+material of the high-pressure regulator body from aluminum to Monel, removing dead end passages and thin sections,
+eliminating rapid actuation upstream pressure valves, and specific inspection and finishing standards which remove
+burrs and other features which provide a high surface area to volume ratio.
+         The regulator, to provide needed reliability, includes a two-stage design. Two stage setup refers to the fact that
+this regulator is composed of two regulators tied together in series so that the outlet from the first stage is feeding the
+inlet to the second stage. This two-stage regulator is designed such that if the first stage fails, the second stage functions
+meet all functional requirements and if the second stage fails, suit regulation for the specific regulator assembly is lost
+but the first stage limits the flow such that the suit relief valve prevents over-pressurization and subsequent suit rupture.
+    Lastly, the regulator must incorporate re-compression safety into its design. To prevent damage to ear drums and
+lungs the regulator pressure must not increase at a faster rate than 13.5psi/min (NASA-STD-3001 V2 6007)
+
+B. Prebreathe and Decompression Sickness (DCS) Treatment [6]
+    The regulator must also consider decompression sickness (DCS) safety while regulating pressure. To obtain a suit
+working pressure of 4.3 psia setpoint, the crewmember must go through prebreathe protocols which slowly acclimates
+the body to the lower pressure at 100% O2. Depending on the vehicle pressure, this can vary from no time (Apollo
+with 100% O2) to four hours when transitioning from a 14.7 psia 21% O2 cabin. The prebreathe period with pure O2
+ensures that enough nitrogen is purged from the crewmember’s body before the suit pressure is reduced to the 4.3 psia
+setpoint to reduce the risk that the crewmember will experience DCS, like the phenomenon deep sea divers experience
+when ascending to the surface of the ocean too rapidly and experience release of nitrogen gas from the bloodstream.
+For space suits, the risk of DCS occurs during the initial depress before initiating EVA and increases the longer the
+exposure at low pressure. For the ISS EMU, DCS is treated by taking the suit to 8 psid above a 14.7 psia cabin to
+provide an in-mission hyperbaric treatment. With a variable regulator capable of setting the suit pressure to 8.2 psid
+during the EVA, DCS treatment can begin immediately and continue through repress to full cabin pressure.
+
+
+
+                                                           2
+                                  International Conference on Environmental Systems
+                                                   II. History
+    To contextualize the current design, it is useful to reflect on the history to understand the beginning and evolution
+of regulator design. There are only a handful of regulators designed for Apollo, EMU, and now xEMU in the United
+States and additional ones used in the Russian Orlan suits. Table 1 below shows a comparison between these
+regulators.
+
+A. Apollo Regulators [2][6][14]
+    The Apollo mission had two regulators: a primary O2 regulator and Oxygen Purge System (OPS) regulator. The
+primary O2 system operated at a lower pressure during EVA at 3.85 +/- 0.15 psid and a tank pressure of 1,410 psia
+with a maximum flowrate of 0.5-0.62 pph. The OPS, which acts as a secondary O2 supply loop, provides either a 4
+pph or 8 pph purge flow at 3.7 +/- 0.3 psid with a 5,880 psia tank pressure and must be manually enabled by the
+crewmember in case of a primary failure. This purge flowrate is much higher than its successors which is advantageous
+for maintaining pressure with larger leaks and necessary for addressing thermal control for the 1,200 BTU/hr design
+metabolic rate during an EVA abort. Both the primary and the OPS regulator are single stage. Apollo also had a longer
+purge duration requirement at 1.25 hrs to return to the vehicle in case of a lunar rover failure in which case a Buddy
+Secondary Life Support System (BLSS) could connect to another suit through an umbilical for auxiliary cooling. The
+Apollo command capsule operated in a 5 psia 100% O2 environment which meant prebreathe was not required for
+EVA, however this increased the cabin flammability risk as experienced in the fire with Apollo 1. In addition to this,
+manual actuation of the OPS imposed high risk if the crewmember loses consciousness before it can be enabled. In
+lieu of these challenges, future missions and suits have adopted a lower percentage O 2 operating pressure with higher
+vehicle pressures and a staged supply pressure. This enables a scenario in which the secondary regulator can take over
+in case of primary failure or depletion without the risk of causing hypoxia.
+                                    Table 1. Historical Regulator Comparisons
+                                    Apollo               EMU (Shuttle/ISS)    Orlan-M              xEMU
+ Nominal EVA Pressure (psid)        3.85                 4.3                  5.8                  4.3 nominal EVA
+                                                                                                   (0-8.2 variable)
+ Secondary/Emergency                3.7                    3.7                       3.9           3.6
+ Pressure (psid)
+ Primary MEOP (psia)                1,410                  1,080                     6,172         3,750
+ Secondary MEOP (psia)              5,880                  7,400                     6,172         3,750
+ Regulator Stages (Pri.)            1                      1                         3             2
+ Regulator Stages (Sec.)            1                      2                         2             2
+ Max Flowrate Available (pph)       8                      5.6                       4.4           5.6
+ Time to return to vehicle with     30                     30                        30            54
+ purge (min)                        75 (with BSLSS)
+ Vehicle Pressure (psia) / %O2      5.0/100% (Apollo)      10.2/26.5% (shuttle)      14.7/21%      14.7/21% (ISS)
+                                    5.0/72% (Skylab)       14.7/21% (ISS)                          8.2/34% (Artemis)
+
+B. ISS EMU Regulators [1][2][3]
+    The Shuttle/ISS extravehicular mobility unit (EMU) includes a primary & secondary O2 system. The primary
+regulator is composed of two single stage mechanical regulators which share a common housing. One regulator
+pressurizes the feedwater circuit commonly referred to as the water regulator while the other regulator pressurizes
+the ventilation loop and is commonly referred to as the dual mode regulator. The primary regulator assembly has an
+inlet operating pressure range from 45 to 1080 psia of pure O2. The water regulator has an outlet pressure of 14.75 –
+15.55 psid with flow rates between 0.01 to 0.04 pph. At flow rates above 0.04 pph, pressure is maintained at 15.55
+psid or less. The dual mode regulator has two different regulation setpoints based on the operational mode required.
+The first, denoted as Intravehicular Activity (IVA) mode, has an outlet setpoint of 0.4 - 1.4 psid while the second,
+denoted as EVA mode, has an outlet setpoint of 4.2 – 4.4 psid. IVA mode can support flows from 0.02 to 0.33 pph
+from 0.4 – 0.9 psid with flows up to 5.6 pph at 0.2 – 0.9 psid above ambient, while EVA mode can support flows
+from 0.02 to 0.33 pph. The IVA mode is used for crewmember prebreathe in the airlock prior to starting the EVA as
+well as depress/repress operations. Mode changes are performed using two sets of mechanical springs. When IVA
+mode is required, the inner spring is lifted off the Belleville spring via a cam actuator driven by a cable and slide
+actuator on the front of the spacesuit.
+
+                                                          3
+                                 International Conference on Environmental Systems
+    The secondary O2 system is commonly referred to as the Secondary O2 Pack (SOP). The active component of the
+SOP is a two-stage mechanical regulator known as the secondary O2 pressure regulator assembly. The first stage
+outlet and second stage inlet area are known as the interstage. Inlet operating pressures range from 365 to 7,400 psia
+of pure O2. The first stage regulator reduces inlet pressure to 220 +/- 60 psia into the interstage. The second stage
+regulator further reduces this inlet pressure to 3.45 – 3.8 psid for flow requirements from 0.02 to 5.6 pph.
+
+C. Orlan-M [15][16]
+    The Orlan-M suit has identical primary and secondary O2 tanks at 6,172 psia with identical pressure reducing
+valves on each tank. Each reducing valve is a two-stage regulator with the first stage reducing to 176 psia and the
+second stage reducing to 64 psia. The O2 is then fed from the primary tank and reducing valve to two identical third
+stages, a primary and a backup. The Orlan is set to an operating pressure of 5.8 psid nominal with a maximum flowrate
+of 0.56 pph. If the pressure drops below 3.9 psid, a second higher flow setting is automatically engaged to supply flow
+up to 3.4 pph within the third stage regulator. In the event a backup or purge is needed, there is either a backup injector
+setting or an emergency supply setting. For the backup injector setting, flow continues to use the primary supply but
+bypasses the third stage regulator directly into an injector and opens a dump valve. The emergency supply setting
+sources oxygen from the secondary O2 tank and reducing valve then flows into both the injector and a separate
+dedicated backup port that enters the helmet through a calibrated orifice.
+
+                               III. Advanced Regulator Design & Analysis
+
+A. xEMU Regulator Advancements and Architecture
+
+
+
+
+                                 Figure 1. PLSS O2 Assemblies Pneumatic Diagram
+
+    Since the development of the EMU there have been many new technologies and advancements that have
+contributed to the current regulator design. Two major advancements emerged from a better understanding of
+prebreathe and DCS treatment in conjunction with more modern actuator design and avionics. Modern actuator
+capabilities allow a user settable regulator that can be electronically and safely controlled to provide more outlet
+pressure setpoints for improved prebreathe and DCS treatment. Prebreathe protocol has drastically evolved over the
+evolution of the spaceflight program and can vary depending on vehicle atmosphere makeup. A user settable regulator
+allows for the flexibility to adjust setpoints based on mission requirements and helps reduce prebreathe time. A linear
+actuator drives the regulator setpoints and enables a fly-by-wire system that eliminates the need for mechanical
+linkages currently used on the EMU which have been the source of multiple failures(3). The implementation of the
+linear actuator approach to vary the compression on a traditional mechanical regulator load spring enables the
+variability of the set-pressure while also enabling the continued regulation even with loss of power or controller
+function. Other technologies such as Pulse Width Modulated (PWM) proportional solenoid valves and solenoid valve-
+
+                                                          4
+                                 International Conference on Environmental Systems
+piloted regulators were evaluated prior to selecting this approach, however both had limited ability to meet regulation
+function during loss of power.
+
+
+
+
+                                       Figure 2. Regulator External Diagram
+
+   The Pressure Regulating Valve (PRV) design for both the POR & SOR is based primarily on the EMU SOP
+regulator system. Figure 1 shows a pneumatic diagram of the xEMU regulator design while Figure 2 shows the external
+model of the regulator with key areas indicated. Several design elements were inherited from the SOP regulator and
+customized based on the new xEMU suit requirements and lessons learned from review of the failure history for the
+Shuttle EMU Program(3). Some critical design features include:
+    1) Maximum Expected Operating Pressure (MEOP): The xEMU regulator is designed to handle 3,750 psia
+         MEOP despite being charged to only 3,000 psia nominally. This MEOP was selected for several reasons:
+              a. As oxygen pressure is increased, more ignition mechanisms become active and/or more vigorous
+                   such as flow friction heating which has been found to ignite non-metallics via leakage across the
+                   seal.
+              b. There were multiple 3,000 psia charging system possibilities available in vehicle planning cascading
+                   down from either a 4,000-5,000 psia tank or from separation and compression via a multistage low
+                   speed compressor.
+              c. The adiabatic compression heat during in-situ recharge and Joule-Thomson cooling of the gas during
+                   discharge could be tolerated within the design packaging and fluid requirements for moisture and
+                   hydrocarbon content.
+           A driving objective for the xEMU was to limit logistical impacts historically imposed by previous suit
+           designs that included non-rechargeable high-pressure secondary gas supply (~6,000 psia). The MEOP
+           chosen represnets a compromise between packaging into a selected PLSS volume/mass while limiting the
+           impact on the required vehicle interfaces to enable that in-situ recharge. Hence, the xEMU POR and SOR
+           allow tanks to be recharged on orbit; a shift from the EMU design which requires the SOP to be charged
+           on Earth and transported to orbit and then tracked and managed as a logistics item. This approach works
+           for short duration missions with available up-mass/volume or for ISS with a number of cargo resupply
+           vehicles feeding the system, but one that does not trade well for long term exploration missions or ones
+           with a greater number of EVAs.
+    2) Flowrate: During any purge event, the regulator can reliably provide a flowrate of up to 5.6 pph while
+         maintaining constant regulation pressure within tolerance. The flowrate is limited to no more than 7.49 pph
+         in a failed open second stage regulator condition such that it does not exceed the suit relief valve flowrate.
+    3) Fill Port & Check Valve: Inlet pressure can be supplied from the fill port (when refilling the O2 tank) or
+         directly from the tank inlet fitting. The check valve on the fill port allows for charging and serves as a control
+
+                                                          5
+                                 International Conference on Environmental Systems
+    for external leakage through that port. For the xEMU a secondary control is the recharge poppet in the Display
+    and Control Unit (DCU) Service and Cooling Connector (SCC).
+4) Pressure Monitoring: Pressure transducers are located on the inlet, interstage and outlet (differential pressure
+    transducer) to monitor these areas for regulator function. The inlet and interstage transducers are 6,000 psia
+    rated, while a 15 psid differential sensor is located on the outlet which connects to the xEMU ventilation
+    loop.
+5) Two Stage Regulator Design: The regulator is designed with two stages to prevent over pressurization as in
+    the EMU SOP. The first stage acts as a knock-down style regulator which reduces the inlet pressure from
+    3,750 to 250 psia down to interstage pressure of 200 +/- 40 psia. The second stage regulates further down to
+    0-8.2 psid. This two-stage design allows the second stage regulator to maintain a very tight regulation band
+    by utilizing a large sensing area with low hysteresis.
+6) First Stage Failure Tolerant: The second stage can regulate to a slightly deteriorated regulation band while
+    still meeting the system level requirements for maintaining life-sustaining pressure and flow requirements if
+    the first stage regulator fails open.
+7) Balance Bar Feature: The balance bar acts as a force multiplier in the case of a first stage failure to reduce
+    the effects of inlet pressure acting on the second stage regulator seat assembly and helps keep the regulation
+    band tight for all inlet pressures. It essentially reduces the proportional stroke of the seat to compensate for
+    the increased gas density in the interstage during this operating condition.
+8) Second Stage Failure Tolerant: If the second stage fails open, the suit RV is designed to keep the pressure to
+    a maximum pressure of 10.1 psid at maximum flowrate of 7.49 pph. The maximum flowrate is limited to the
+    orifice size in the failed open regulator seat assembly at the maximum possible 240 psia interstage pressure.
+    The flowrate for the RV is set to 7.49 pph at 10.1 psid. The suit design uses a 10.6 psid MDP to provide
+    margin over this condition. If either stage fails closed, the SOR is designed to take over and crew returns to
+    airlock.
+9) Linear Actuator & Potentiometer: The linear actuator works to control the spring mechanism in the second
+    stage of the regulator to accurately vary the setpoint desired from 0 to 8.2 psid. A linear potentiometer acts
+    to provide position feedback and failure detection.
+10) Stroke Limiter: The use of stroke limiter contained within the second stage spring assembly provides two
+    key design features. The first is to prevent overtravel past a lower RV cracking pressure of 8.6 psid. The
+    second is to prevent damage to the second stage pressure sensing elements due to an overtravel condition
+    caused by either proof pressure testing or back pressuring the second stage sensing area through the outlet.
+11) On / Off Shutoff Feature – The regulator does not contain an upstream shutoff valve or isolation valve. It
+    remains pressurized the entire time upstream pressure is applied to the inlet. When there is a lack of
+    downstream demand, shut off is achieved by holding the second stage in lock-up. Seat leakages are low
+    enough that an EMU SOP charged on Earth is expected to remain above the minimum pre-EVA charge
+    pressure for a minimum of 2 years. This consistenly demonstrated feature of the EMU SOP regulator design
+    was well-suited to enable several potential mission operation plans for cis-lunar and mars missions while
+    incorporating the lessons learned from the EMU fire, by avoidance of an upstream shutoff valve potentially
+    adding an adiabatic compression heating failure mode at the regulator first stage.
+12) Oxygen Compatible Material Selection – Oxygen compatibility has been maximized in the selection of
+    materials when possible. Components chosen were selected to be non-flammable under operating conditions.
+    This included the use of materials such as Monel body and features, Ni-Cu filters, SS springs, etc. For certain
+    components comprising of materials such as Vespel, Silicon, and PTFE, there were no equivalent non-
+    flammable materials available that could perform the itended function, so the focus then became
+    identification and control of the active ignition mechanisms in the design.
+13) Filtration: There are numerous 25-micron absolute filters which can be found in critical areas of the regulator.
+    These protect against contamination which could lead to catastrophic functional failure or O2 hazards.
+
+
+
+
+                                                     6
+                            International Conference on Environmental Systems
+B. xEMU Controls & Setpoints [6]
+    Since the regulator setpoints are controlled by a stepper-
+based linear actuator, a motor controller is required. This                    Table 2. Regulator Setpoints
+provides flexibility to control the exact setpoints and rate of     Setpoint    Purpose
+change of pressure. Furthermore, it allows for the                  (psid)
+programming of safety lock outs so the crewmember cannot            0.9         POR - Purge/prebreathe (IVA)
+inadvertently set the regulator to unsafe conditions.               3.6         SOR – nested backup pressure (EVA)
+    The controller setpoints showed in Table 2 are                  4.3         POR - Nominal EVA pressure (EVA)
+programmed in the controller as predetermined step counts           5.0         POR - Reduced prebreathe (EVA)
+and are paired with each serial number regulator for maximum        6.2         POR - Reduced prebreathe (EVA)
+accuracy. At present the long-term plan is to have regulators       8.2         POR – Reduced prebreathe and DCS
+and controllers that are interchangeable without the need to                    treatment (EVA/IVA)
+lower crew over-head for ORU change-outs. The setpoints are
+shown in the table with their purpose. Many of the setpoints are used for prebreathe and allow adaptability depending
+on the type of mission. While the ISS is maintained at nominal 14.7 psia with 21% O 2, the lander for the lunar Artemis
+mission could use a lower 8.2 psia at 34% O2. The lower pressure and higher oxygen content could significantly
+decrease the prebreathe time. Should the need to adjust these be required in the future, the controller mapping can be
+updated without physical changes. A notional EVA prebreathe logic using this regulator would be as follows (21):
+     1) Set the POR to 0.9 +/- 0.2 psid to initiate suit pressurization.
+     2) Set the SOR to ON to further increase the suit pressure to 3.6 +/- 0.1 psid.
+         NOTE: The SOR pressure is set to 3.6 +/- 0.1 psid such that it sits in stand-by if the POR fails or the tank is
+         empty the SOR will take over at a lower pressure.
+     3) Set the POR to 4.3 psid to pressurize the suit to nominal EVA pressure ahead of the leakage check.
+     4) Set the SOR to OFF
+     5) Set the POR to 0.9 psid to start the pressure decay leakage check
+     6) Set the POR back to 4.3 psid (it will have dropped only a few tenths of a psi if it passes the leakage check)
+         to support purge
+     7) Open the suit purge valve for 10-12 minutes to transition cabin mixed gas to >95% O2
+     8) Set the POR to 0.9 psid
+     9) Close the suit purge valve as the suit pressure drops to regulation band
+     10) Prebreathe at ~ 0.9 psid
+     11) Start airlock depress with a stop at 5.0 psia
+     12) Open the secondary suit purge valve to drop suit pressure to 4-5 psid and check the secondary purge valve
+         operation, then perform a second suit leakage check
+     13) Upon completion of suit leakage check, Set SOR to ON
+     14) Set the POR to 4.3 psid
+     15) Depress down to <0.5 psia with EV hatch opening and then vacuum
+     16) The suit pressure will decay down to the regulation set point
+     17) Perform the EVA
+     18) Return to airlock and repressurize to nominal vehicle pressure
+    Depending on the vehicle pressure schedule of 14.7 psia, 10.2 psia or 8.2 psia and associated transition timing for
+crew, the prebreathe protocol will vary. To enable the start of EVA earlier within the scope of a given prebreathe
+protocol, the suit pressure can be set to 5.0 psid, 6.2 psid, and 8.2 psid at EVA start, ramping down during the EVA
+to the nominal EVA pressure. If at any point, indication of DCS is observed or felt by the crewmember, the regulator
+can increase to 8.2 psid to start treatment.
+
+C. Internal Operation
+    Both the first and second stage regulator seat assemblies are pressure closing designs which utilize ball and seat
+poppet geometry shown in Figure 3. The first stage regulator design can be traced back to the POR 2.0 phase. This is
+a standard spherical poppet design and utilizes a piston style sensing area. The second stage regulator utilizes the
+same spherical poppet design but makes use of a bellows pressure sensing area to reduce the frictional effects that
+influence the regulator tolerance bands. The regulator outlet setpoint is controlled by using a linear actuator to change
+the main helical spring height which in turn changes the outlet pressure. The force of the spring load balances the load
+placed on the regulator sensing area by the pressure acting within the sensing cavity. The variability in spring
+compression provided by the linear actuator can increase or decrease the force output from the spring on the pressure
+                                                           7
+                                 International Conference on Environmental Systems
+sensing area which changes the outlet set point pressure accordingly. A Belleville spring is placed in series with the
+main helical spring to create a net zero effective spring rate over the poppet stroke required to achieve full flow. This
+design also utilizes the balance bar feature found on the SOP EMU regulator which helps maintain the tight regulation
+bandwidth across all inlet pressures.
+
+
+
+
+   Figure 3. Internal Cross Section: EMU SOP regulator (Left) to PRV 4.0 Regulator (Right) Comparison
+
+    The balance bar used in the second stage is a beam soldered between two fingers of the Belleville spring. It rests
+on top of the second stage poppet stem and head of a small balance pin. The balance pin is subject to the same interstage
+pressure which acts on the balance bar. As interstage pressure increases, the force required to push the ball off the
+seat increases and the force exerted onto the balance bar from the balance pin also increases. This balance pin force
+is multiplied through the balance bar fulcrum and acts upon the poppet stem. The balance bar thus acts as a lever arm
+to multiply the force acting to open the poppet stem which reduces the interstage pressure closing effects seen at the
+second stage.
+
+D. Oxygen Compatibility Analysis [9]
+    For high-pressure O2 systems such as this regulator assembly, an Oxygen Compatibility Assessment (OCA) is
+conducted to analyze all the ignition mechanisms associated with the pressurization, material choices, and geometry
+of the regulator. The assessment concluded that the possibility of ignition remained remotely possible. The concerns
+that could cause ignition are leaking, chatter in the valve due to vibrations, and rapid pressurization during testing
+when there is no O2 tank. Additionally, it was noted that Non-Volatile Residue (NVR) was found in the previous EMU
+SOP regulator upon inspection. Since the inception of the development of this regulator design, there has been a
+requirement levied on the design for “contamination tolerance” based on the EMU SOP fleet-wide failure that occurred
+in 2000(10). The only mechanism for adiabatic compression of the interstage results from a failure of the first stage
+regulator. This failure was simulated with rapid pressurization of the interstage dry and contaminated with > 100
+mg/ft2 dodecane using POR 2.0.
+
+E. Finite Element Analysis Summary
+    A Finite Element Analysis (FEA) was performed on the POR and SOR assemblies to evaluate the response of the
+structure under environmental loads expected to be encountered during normal operation conditions. ANSYS
+simulation software was utilized for Finite Element Method (FEM) model generation, preprocessing, solving and post
+processing. A Margin of Safety (MOS) calculation using equation 1 for each component within the assembly was
+generated using Metallic Materials Properties Development and Standardization (MMPDS) material allowables,
+applied Temperature Reduction Factors (TRF) and applicable Safety Factors (SF). TRF percentages were found using
+maximum and minimum temperatures obtained from environmental loads. In equation 1, the yield limit loading is
+based on the von-Mises yield criterion while the ultimate limit loading is the maximum of the von Mises equivalent
+stress, or the maximum principal stress calculated from the eigenvalues of the stress tensor.
+                                                 (𝑌𝑖𝑒𝑙𝑑 𝑜𝑟 𝑈𝑙𝑡𝑖𝑚𝑎𝑡𝑒 𝑇𝑒𝑛𝑠𝑖𝑙𝑒 𝑆𝑡𝑒𝑛𝑔𝑡ℎ) ∗ 𝑇𝑅𝐹
+                        𝑀𝑂𝑆𝑌𝑖𝑒𝑙𝑑 𝑜𝑟 𝑈𝑙𝑡𝑖𝑚𝑎𝑡𝑒 =                                               −1                      (1)
+                                                   𝐿𝑖𝑚𝑖𝑡 𝐿𝑜𝑎𝑑𝑖𝑛𝑔(𝑌𝑖𝑒𝑙𝑑 𝑜𝑟 𝑈𝑙𝑡𝑖𝑚𝑎𝑡𝑒) ∗ 𝑆𝐹
+
+   The static loads applied to the FEM model consisted of operating pressure, ambient pressure – non-operational,
+decreasing – non-operational, inadvertent contact load during maintenance, and minimum and maximum operating
+                                                         8
+                                International Conference on Environmental Systems
+temperatures. After applying a maximum operating pressure of 3,750 psi, proof pressure of 5,630 psi and burst
+pressure of 9,375 psi to the internal passages and wetted surfaces of the regulator, the POR showed positive MOS for
+all components. In addition to the operating pressures, an ambient pressure of 18.8 psi was applied to the outside
+surfaces of the regulator. Finally, an inadvertent contact load of 25 lbs was applied to the most extreme locations
+accessible to the crew during maintenance, as well as external temperatures ranging from 35°F to 125°F and gas
+temperatures extremes from charging or purge ranging from -50°F to 250°F. After applying these static loads, all
+components of the POR assembly showed positive MOS.
+    The dynamic loads applied encompass a 9.3 g worst case landing acceleration, a 9.47 grms xEMU launch package
+input random vibration profile – both applied to all 3 axes individually, and a modal analysis to determine the natural
+frequency and the participation factors of the entire regulator assembly. The results of the modal analysis indicated
+the POR to have fundamental frequencies above 50 Hz, as well as showing positive MOS for the applied acceleration
+and random vibration loads. For the random vibration analysis, a conservative transmissibility factor of Q=15, or
+damping of 3% was used and 3 sigma stresses evaluated to calculate MOS. The results of both the static and dynamic
+analysis showed positive MOS for all environmental conditions. The PRV has been designed with acceptable stress
+margins and will be validated with rigorous testing.
+
+F. Sensor Selection
+    The tank and interstage sensors are rated to 6,000 psia operating pressures enabling them to operate within nominal
+allowable conditions during processing such as proof pressure testing at 5,625 psia (1.5 x MEOP). Pressures
+significantly above the MDP of the sensor, even if only at proof pressure could cause the sensor reading to skew and
+require re-calibration. Additionally, the higher margin allows for potential future increase in MEOP if the stress
+margins allow for it. While the interstage sensor will only typically read ~200 psia which is significantly lower than
+the sensor full-scale range, the higher-pressure detection capability is needed so it can detect and still operate in the
+event of a first stage regulator failure.
+
+G. Stroke Limiter
+    The stroke limiter utilizes a mechanical hard stop to prevent the maximum set point pressure of the regulator to
+exceed the suit RV cracking pressure and draining the supply tanks prematurely. Due to the RV cracking at 8.6 to 8.8
+psid and the 8.2 psid setpoint having an accuracy of +0.2/ -0.4 the stroke limiter needs to be machined to 8.5 +/- 0.1
+psid. This poses a manufacturing challenge since a 0.1 psid change in outlet setpoint pressure corresponds to
+approximately 0.005” of travel in the stroke limiter position requiring very precise machining. To compound this, the
+stepper motor resolution lacks the appropriate amount of fidelity to determine the precise value of machining of the
+stroke limiter. Finally, at 8.5 psid, the regulator pressure sensing components behave in a nonlinear manner due to
+that setpoint being approximately 0.2 psid higher than the linear region of the spring rate which was designed to 8.2
+psid outlet pressure. Some initial machining attempts overshot the target hard stop set point pressure, therefore the 2nd
+stage spring had to be shimmed 0.005” to increase it by 0.1 psid. An easier methodology that has been formulated but
+not yet attempted is to predict the outlet pressure at a lower pressure (8.35 or 8.4 psid) and shim the 2 nd stage spring
+to produce the final hard stop target outlet pressure.
+
+H. Filters
+     Filters reduce the amount of particulates within the O 2 path
+and help mitigate the risk of failure or fire within the O2 system.
+There are a total of four filters inside each of the regulators: One
+in the fill port check valve, one in the tank inlet fitting, and one
+filter inside each of the regulator seat assemblies. Each of these
+provide critical filtration to enable precise function and control
+particulate size for the particle impact ignition mechanism. The         Figure 4. Pleated Mesh Filter (Left/Middle)
+filters are sized for 25-micron absolute and 10-micron nominal.                Diffusion Bonded Filter (Right)
+     The pleated filters shown in Figure 4 were originally
+manufactured using a nickel 200 mesh crimped and electron beam welded inside a Monel body. Nickel is chosen as
+an O2 compatible material, and the filter is pleated to increase area and decrease pressure drop. Historically, pleated
+filters have a very low first pass yield with only 2 out of 60 passing the 25-micron requirement bubble point acceptance
+test criteria. An investigation revealed the pleating process was the likely cause of the filters not meeting this
+requirement as well as the electron beam and crimping process. These root causes were investigated as potential to
+
+                                                          9
+                                 International Conference on Environmental Systems
+create voids in the pleated mesh, however resolutions to the manufacturing challenges revealed only minor
+improvements.
+    An alternative supplier was approached that offered diffusion bonded (sintered) nickel 200 filters which have been
+used in high pressure O2 breathing applications, space probes, and rovers. These filters do not require additional
+crimping, pleating, or welding, making them an ideal alternative. Using the same housings, a powder is pressed into
+the filter and sintered. Testing was performed on different powder particle sizes and it was found that the 5-micron
+powder was able to meet the 25-micron bubble point acceptance test with a higher first past yield. The new filters also
+met the same pressure drop requirement.
+
+I. Temperature During Discharge/Purge
+    An important consideration in the design of the regulator is the significant temperature decrease that occurs in the
+regulator due to Joule-Thomson expansion cooling during discharge or suit purge operations. During purge, the
+expansion cooling drops the gas temperature and if allowed long enough conducts to the seals and body. As the
+expansion cooling begins in the tank, the inlet temperature to the regulator further decreases prior to expansion across
+the first stage down to ~200 psia. An analysis estimated that the O2 tank gas temperature could be as low as -42 °F
+with the regulator expansion dropping the gas temperature further (17). The cooler operating temperature range affects
+seal selection with the use of Silicone vs Viton.
+
+                                IV. xEMU Evolution of Design & Testing
+
+
+
+
+            PVR 1.0                         POR 2.0                  POR 3.0                         POR 4.0
+           (PLSS 1.0)                      (PLSS 2.0)               (PLSS 2.5)                     (xEMU DVT)
+                                    Figure 5. PRV Regulator Design Evolution
+
+A. PVR 1.0 – (2008-2009)
+    PVR (Primary Variable Regulator) 1.0 shown in Figure 5 was designed primarily on the existing SOP regulator
+that is currently employed on the US space suits. The first stage of the regulator was replicated from the SOP, with
+the second stage seat and balance beam/piston based on the SOP second stage but modified with an extended bellows
+assembly and spring with engagement of a stepper based linear actuator to enable the multi-set point capability. The
+goal of this first iteration was to allow for a minimum of five outlet pressure setpoints, while being continuously
+variable across the outlet pressure range of 0.4 to 8.2 psid. For this first prototype, nitrogen was selected as the
+working fluid enabling the use of a simplified aluminum body, with a COTS actuator and instrumentation to reduce
+the cost of manufacturing and fabrication time. The Inlet pressure range was between 250 to 3,750 psia.
+    PVR 1.0 demonstrated that the regulator could provide expected flowrates and pressure setpoints (1). It successfully
+demonstrated setpoints from 0.4 to 8.2 psid and maintained pressure tolerances for flowrates up to 5.6 pph with
+nitrogen pressures up to 3,750 psia. The regulator performance curves for each setpoint typically followed the notional
+graph in Figure 6 during testing. PVR 1.0 was tested at component level and assembled into PLSS 1.0(20). After
+completion of testing for this regulator, the design was then updated (POR 2.0) with lessons learned and further
+
+
+                                                         10
+                                 International Conference on Environmental Systems
+evolved to meet the next higher level of fidelity in
+requirements including oxygen compatibility, reduced
+mass/volume, and other requirements towards space flight
+implementation.
+
+B. POR 2.0 – (2011-2012)
+     POR 2.0 was the next evolution of the PVR 1.0 design
+with higher fidelity oxygen compatible materials selections
+and flight packaging/mass reductions, with lessons learned
+from PVR 1.0. Several design modifications were made
+during this iteration. The first stage was updated from the
+heritage diaphragm sensing style design to a more robust
+piston style design based on review of the failure history of           Figure 6. Regulator Performance Curve
+the SOP Regulator in the Shuttle EMU Program (there were
+failures of this diaphragm during the early 1990’s) (3). This simplification of the design also offered the benefit of
+reducing the manufacturing time required to set up the first stage assembly. A POR specific fill valve was developed
+to meet the evolving requirements of the POR specification. A Monel K500 body was designed and machined for O 2
+compatibility as it is non-flammable under operating conditions. The body geometry was optimized for mass
+reduction. The low-cost COTS (large) pressure transducers were replaced with reduced form factor transducers. A
+second stage reference/vacuum port was added to support potential implementation of SuitPort for the suit system
+architecture and also offered easier access for testing. The linear potentiometer and associated supports were removed
+based on inconsistencies found in testing with PVR 1.0 which had used a spring-loaded potentiometer that would
+frequently bind and no longer represent actuator position. The intent at this time was to use pressure feedback which
+is somewhat of a fallacy for a suit system with multiple potential means to change the connected ventilation loop
+pressure of the regulator (the potentiometer will return on future versions but with better integration).
+     In addition to functional and environmental tests(12) such as operating vibration(11), POR 2.0 was assessed for
+oxygen compatibility via an Oxygen Compatibility Assessment (OCA) per ASTM Manual 36 and then tested at the
+White Sands Test Facility (WSTF) with 60 dry impacts as well as two sets of five impacts wetted with 100 mg/ft2 of
+dodecane(10). During testing, the regulator operated nominally meeting specification and was subsequently
+disassembled post-test for inspection. Carbon was identified in the second stage inlet filter and witness residue on the
+first stage seat noting that the dodecane combusted in the interstage during testing but without propagation. Evidence
+of combustion was also found on the sapphire ball which had a carbon witness mark and a small amount of carbon on
+the filter only visible using a Scanning Electron Microscope (SEM). One other finding discovered during disassembly
+was a partially cut O-ring and extruded back up ring. This demonstrated a lesson learned in previous high pressure
+system designs with dual seals in which the pressure cycling between proof and depress enable the internal seal to be
+pressurized in the reverse direction from the intended design, extruding the seal into the regulator. The previous
+designs used a single seal to address this issue however the xEMU was being held to a dual seal requirement. The
+seals were then redesigned to use a primary metallic internal seal and secondary elastomeric seal which mitigates the
+experienced failure mode.
+     Environmental and vibrational testing was also conducted on the POR 2.0 regulator using nitrogen (11). The
+regulator was tested for sensitivity to gravitational field orientations, temperatures, external vacuum, and up to 3.3
+GRMS while operating. Additional testing exposed the regulator to variations in temperature and relative humidity. The
+POR generally performed as expected and met most requirements. It was found however the regulator did not maintain
+differential pressure at the highest demand flowrates (5.6 pph) for many cases tested. The regulator experienced
+slightly degraded performance at high environmental temperatures (125°F), especially at the higher flowrate demand.
+Operation with a lunar rover while moving was required by the SuitPort mission concept but the rover design and
+mission were not mature enough to provide roving vibration requirements. Hence, the POR 2.0 design was tested to
+determine the operational limits of the regulator design to tolerate vibration while functioning in a regulation mode
+(i.e., ball off the seat flowing GN2 rather than firmly held into the seat off position) to develop the suit side of this
+possible requirement. Testing revealed that while the POR operates properly at the 2.0 G RMS test case, the 3.3 GRMS
+test indicated a failed open second stage in some cases. Despite the failures and degraded performance at highest
+design envelope, the POR returned to normal performance after being subjected to these conditions.
+
+
+
+                                                         11
+                                 International Conference on Environmental Systems
+C. POR 3.0 – (2014-2015)
+     POR 3.0 continued to build on the lessons learned from the previous iterations. New transducers replaced the
+previous ones used on the 2.0 configuration to match updated requirements. A new linear potentiometer design was
+added back to the overall assembly as a secondary method of tracking motor position (stroke length verification). The
+potentiometer was also redesigned to improve the measurement linearity from +/- 1% to +/- .5%, and its housing was
+modified to directly install on the linear actuator using three bolt mounting pattern. This hole pattern was drilled and
+tapped directly onto the motor body with the potentiometer directly threading into the aft of the linear actuator drive
+screw for direct mechanical coupling. This helped reduce the overall height envelope of the new assembly when
+compared to the PVR 1.0 configuration and resolved the position divergence issues noted. The regulator interface
+fittings (fill port, inlet port, and outlet port) were changed from a tube stub configuration to a 37° flared style fitting
+which utilized copper conical flare seals to provide a primary metallic seal with a secondary elastomeric seal (dual
+seal) applied to this design iteration. With a primary metallic seal, the need for the secondary elastomeric seal has
+been eliminated for future iterations.
+     The POR 3.0 was tested before integration with the PLSS 2.5 prototype(12). This was a much less in-depth test than
+what was executed during the POR 2.0 testing due to the timing of the development program. There was a transition
+from early development to the start of the xEMU ISS Demonstration which quickly pivoted the PLSS design team
+towards the DVT design of the regulator. This testing consisted of mapping the regulator then testing leakage which
+passed requirements of 25 sccm leakage rate. The regulated flow test evaluated the POR at different supply pressures,
+outlet setpoints, and flowrates to determine a curve for regulation and flow and the maximum flowrates for each. At
+the highest supply pressure, most cases were able to meet the maximum flow rate of 5.6 pph. The lower supply
+pressures however had lower than expected maximum flowrates especially for the highest outlet setpoint 8.2 psid case.
+In some cases, the outlet pressure at the maximum flowrate dropped below the setpoint accuracy required. The 0.4
+and 0.9 psid case tested did not achieve the maximum supply rate required at only ~2 pph and ~4 pph respectively.
+For the final dynamic flow regulation, the suit was tested with varying flowrates for a range of activities, metabolic
+rates, and suit purges. The 4.3 psid pressure set point showed consistent levels for nominal operation and drooped
+slightly to about 4.2 psid during a 3.08 pph purge.
+
+D. POR 4.0 – (2019-2023)
+    POR 4.0 continued to build upon the lessons
+learned from previous design iterations, while
+adapting to meet new specification requirements.
+An effort was undertaken to create commonality
+between drawings in respective systems. A new
+outlet manifold was designed which placed the
+regulator outlet and fill port inlet on the same
+common plane to facilitate On-orbit Replacement
+Unit (ORU) interfaces to the PLSS backplate.
+Monel elbows were designed to move the inlet and
+interstage pressure transducers to meet new
+packaging constraints. Provisions were made to
+allow orientation of the pressure transducers to be
+independent of the retaining nuts. A more rigorous
+development test plan was implemented to further
+validate the POR / SOR designs prior to formal                    Figure 7. POR 4.0 Pressure vs. Half Steps
+qualification. Testing environmental situations
+like hot and cold performance, pre and post vibration testing, and O2 compatibility were included to identify any
+performance related issues prior to a qualification effort. Strain relief provisions were added to the linear
+potentiometer and motor cables resulting from cracking issues that occurred during the POR 3.0 builds. A new spring
+seat and stroke limiter was implemented to prevent the linear actuator from exceeding a maximum distance (resulting
+in over pressurization) due to motor failure or runaway controller.
+    Before being delivered to NASA, Pre-Delivery Acceptance (PDA) tests are performed on every regulator including
+the POR 4.0(13). Preliminary testing of the latest POR 4.0 design (second set of regulators) in PDA is yielding higher
+droop at the required mass flow rate of >5.6 pph. This behavior was not seen when the unit was initially tested with
+an inlet pressure of 3,750 psia at the same outlet set point. It appears that the filter changes are having a compounded
+
+                                                         12
+                                 International Conference on Environmental Systems
+impact on the integrated performance such that the regulator seat design is being further evaluated for modification to
+bring the droop back into compliance.
+     The first set of POR 4.0 regulators were tested on the Suit Regulator GN2 Test Rig before integrating into the
+xEMU DVT PLSS design. This evaluated limited operation at ambient lab pressures with pressure output vs actuator
+commanded position mapping to aid with integration. Figure 7 plots the response curve of the regulator. The flat line
+zero output pressure response from ~800 steps down to zero (home) highlights the separation between the OFF and
+regulating positions. Figure 7 superimposes both increasing and decreasing regulation data indicating very little
+hysteresis. The regulator mapping resulted in ~725 steps/psi.
+     During the initial testing of this first regulator set, the setpoint on the upper end (8.2 psid) appeared to slip steps
+noting hysteresis on the setpoint pressure vs step count while returning to lower pressures. This was identified as a
+risk early in DVT as this COTS actuator does not presently meet NASA-STD-5017 force margins for this application.
+It is especially sensitive to the commutation scheme for force output. This application requires a force output of ~60
+lbf with most of the COTS units offering force outputs in the mid-40 lbf range. The subject actuator was found to be
+providing ~36 lbf (marginal vs requirement). Forward work remains with improving the force margin and mitigation
+of jamming with the actuator design given the challenging application that the regulator presents.
+     After component mapping, the regulators were assembled with the respective Primary Oxygen Vessel (POV) or
+Secondary Oxygen Vessel (SOV) to create the respective Primary O2 Assembly (POA) or Secondary O2 Assembly
+(SOA). Figure 8 depicts a Primary Oxygen Assembly.
+
+
+
+
+                                        Figure 8. Primary O2 Assembly (POA)
+
+    The POA and SOA are very similar in design with a larger wetted volume for the SOA and additional ambient
+pressure sensing for the POA. The first regulator set has been installed into the xEMU DVT PLSS assembly where it
+has completed PLSS level Pre-Installation Acceptance Testing (PIA) and vacuum performance testing and xEMU
+level ambient functional testing. The full xEMU system functional is shown in Figure 9. Testing as part of the Short
+xEMU (xEMU without a lower torso) Ambient Functional and Thermal Vacuum (TVAC) performance testing is
+planned for the remainder of FY23.
+    During the PLSS PIA and Chamber C integrated testing, the risk of jamming
+known with this current actuator was realized on multiple occasions resulting in
+the need to vary motor drive currents and commutation speeds to free the
+actuator. The actuator was then rebuilt with a different drive lubricant which has
+been shown to reduce the risk of jamming and has not repeated during
+subsequent integrated PLSS testing.
+    One other anomaly that occurred during integrated testing during vacuum
+was that the SOR failed to come out of lock-up and regulate the suit pressure to
+3.6 +/- 0.1 psid as the POR drooped into the SOR range when the supply was
+depleted. The SOR failed to come out of lock-up until the suit pressure reached
+2.4 psid. The first ship set of the regulator design was not tested at vacuum during
+component functional testing due to meeting integrated testing schedule
+requirements for the xEMU project. This was noted as a risk as the regulator
+would not have been tuned or verified for this function. The second shipset of
+regulators will be tested during component acceptance at the vacuum reference Figure 9. xEMU Suit Assembly
+condition to verify function.
+
+
+                                                          13
+                                  International Conference on Environmental Systems
+                                                 V. Future Work
+   The regulators have made progressive improvement in maturity as the iterations have evolved from the initial
+prototype to the DVT phase of the design. The DVT design is presently undergoing testing and updates to refine the
+design to one that fully meets all flight requirements heading into a CDR level maturity for what will become the
+qualification effort. For xEMU, much of this work ceased with termination of the project and transition to the
+commercialization approach for EVA. The work that remains includes but is not limited to:
+   1) The refinement of the flow performance with the new filter design (in-process with second shipset of
+        regulators).
+   2) Completion of sub ambient performance and tuning of the regulator to meet regulation performance at vacuum
+        reference conditions (in-process with the second shipset of regulators).
+   3) Design updates to fully address linear actuator jamming under all conditions with force margins compliant to
+        NASA-STD-5017 along with testing to confirm compliance (not currently in-work).
+   4) Component level launch vibration testing with both full charge and pad pressure to validate there are no issues
+        with leakage in lock-up at the reduced pressures. This is only necessary if a particular program plans to fly
+        the system with pad pressure. The risk for failure with full pressure is low given the leveraging of SOP
+        regulator design, certification, and heritage use, but is still a risk that needs mitigation with xEMU no longer
+        performing this testing.
+
+                                                  VI. Conclusion
+     The variable oxygen regulator has evolved through multiple iterations increasing fidelity and refining the design
+to flight performance requirements. The regulator began with leveraging the success of the EMU SOP and extending
+its capability via addition of a motor settable second stage. This extended capability is an enabling technology for both
+LEO and lunar exploration and beyond usage by providing flexibility to address varied vehicle pressure schedules,
+varied prebreathe protocols, enable treatment of DCS during EVA and IVA, and resolve the issues both in fabrication
+and operation with the tightly toleranced mechanical linkage used in the current Shuttle/ISS EMU. This is in addition
+to improving the safety of the regulator to tolerate loss of cleanliness control (contamination) and preclude
+faulty/unsafe pressure command inputs during an exploration mission to cis-lunar and beyond. Some of these
+improvements included a piston sensed first stage, better protection of soft goods within the assembly, lower operating
+pressure from the SOP and integration of sintered nickel filters to replace the nickel mesh filters. Finally, stroke
+limitation was implemented to preclude a forced failure or overshoot on setpoint pressure with a controllable interface
+that can include a setpoint pressure lock-out as currently implemented with xEMU to preclude inadvertent setting of
+the commanded pressure below habitable pressures and uninhabitable environmental pressures (< 4 psia).
+     The regulator design has been tested throughout development for operating performance during vibration, thermal,
+vacuum, oxygen adiabatic compression testing with contamination, and has integrated progressively with the maturing
+PLSS design. This regulator is expected to satisfy requirements for applications in suits designed for ISS missions,
+Artemis missions, and other future missions.
+
+                                                       References
+   1Mosher, M. and Campbell, C., "Design and Testing of a Variable Pressure Regulator for a Flexible Space Suit Architecture,"
+
+AIAA 2010-6064. 40th International Conference on Environmental Systems. July 2010.
+   2Campbell, C., “Advanced EMU Portable Life Support System (PLSS) and Shuttle/ISS EMU Schematics a Comparison” AIAA
+
+2012-3411. 42nd International Conference on Environmental Systems. July 2012
+   3Campbell, C., “Shuttle/ISS EMU Failure History and the Impact on Advanced EMU Portable Life Support System (PLSS
+
+Design)” ICES-2015-327, 45th Conference on Environmental Systems. July 2015.
+   4Campbell, C., “Subsystem Specification for the Exploration EMU Portable Life Support Subsystem,” NASA CTSD-ADV-
+
+780 Rev B. 2020
+   5Ogilvie, R., “Oxygen Regulator (PRV-113/PRV-213) End Item Specification,” NASA CTSD-ADV-1613 Rev B, 2022
+   6 “Exploration Extravehicular Activity (EVA) Prebreathe Primer”, Extravehicular Activity (EVA) Office. NASA EVA-EXP-
+
+0065, September 2021
+   7“NASA Extravehicular Mobility Unit (EMU) LSS/SSA Data Book”, Rev AA, UTC Aerospace Systems, September 2019
+   8 “Extravehicular Mobility Unit (EMU) Evolution Book Revision C”, One EVA Program Office, Feb. 2017
+   9
+     Rosales, K., Tylka, J., and Mathe, Steven. “xEMU xPLSS Primary and Secondary Oxygen Regulator (POR/SOR) 4.0, Tanks,
+Manifolds, and Recharge/Supply Lines.”, NASA WSTF OXHAZ/FAIL.0487.A, September 2022.
+
+
+
+                                                          14
+                                  International Conference on Environmental Systems
+     10Campbell, C., Cox, M., Meginnis, C., Falconi, E., Barnes, B., and Conger, B., “Oxygen Compatibility and Challenge Testing
+
+of the Portable Life Support System Variable Oxygen Regulator for the Advanced Extravehicular Mobility Unit”, ICES-2017-369,
+47th International Conference on Environmental Systems. July 2017.
+     11Cox, M., Lynch, W., Vonau, W., and Hanford A., “PRV-113/PRV-213 Oxygen Regulator Environmental and Vibrational
+
+2015 Test Report. “Jacobs, JETS-JE33-19-TAED-DOC-0051. July 2019
+     12Cox, M. and Falconi, E., “Primary Oxygen Regulator (POR) 3.0 S/N 002 Acceptance Testing” NASA EM-PEM-17-0010.
+
+Nov. 2017
+     13Ameno, N. and Taylor T., “Development Test Data Package for NASA Primary Oxygen Regulator, Cobham Mission System
+
+Orchard Park Inc.” CRD-7738. October 2021
+     14 “Apollo PLSS Training”, Hamilton Standard Training School, June 1968.
+     15Abramov, I. and Albats, Eu., “Orlan-M Familiarization Course”, Hamilton Standard, September 1998
+     16 “Orlan-M EVA System Life Support System (LSS), Space Suit Assembly (SSA), and On-Orbit Support Equipment
+
+Databook”, Hamilton Standard, January 1998.
+     17Sturtz, R. and Barrett, L., “Validate the Ventilation Loop Temperature Limit for Open Loop Purge [PLSS-ANAL-159]”,
+
+Jacobs, JETS-JE33-19-TAED-DOC-0021. August 2019.
+     18Baryakova, T. “Integrated In-Situ Charing Thermal Analysis [in support of PLSS-ANAL-054 within CTSD-ADV-1107]”
+
+Jacobs, JETS-JE33-19-TAED-DOC-0022, July 2019.
+     19
+        “Contamination Control Requirements Manual”, JSC Safety & Mission Assurance Directorate, NASA 5322.1H, Nov. 2020
+     20C. Watts, C. Campbell, M. Vogel, and B. Conger, “Space Suit Portable Life Support System Test Bed (PLSS 1.0)
+
+Development and Testing Jacobs Engineering,” AIAA 2012-3458, 42th International Conference on Environmental Systems. July
+2012.
+     21Campbell C., “Schematics and Behavioral Description for the Advanced EMU (AEMU) Portable Life Support Subsystem
+
+(PLSS)” NASA CTSD-ADV-959 Rev A. October 2017
+
+
+
+
+                                                           15
+                                   International Conference on Environmental Systems
+

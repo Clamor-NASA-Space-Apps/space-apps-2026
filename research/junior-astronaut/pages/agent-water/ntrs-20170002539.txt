@@ -1,0 +1,448 @@
+ National Aeronautics and Space Administration
+
+
+
+
+Benefits of Mars ISRU Regolith Water Processing:
+A case study for the NASA Evolvable Mars Campaign
+
+
+
+ Julie Kleinhenz, NASA Glenn Research Center
+ Aaron Paz, NASA Johnson Space Center
+ Robert Mueller, NASA Kennedy Space Center
+Motivation
+
+ • ISRU of Mars resources was baselined in 2009 Design Reference
+   Architecture (DRA) 5.0, but only for Oxygen production using
+   atmospheric CO2
+     – The Methane (LCH4) needed for ascent propulsion of the Mars Ascent
+        Vehicle (MAV) would need to be brought from Earth
+ • HOWEVER: Extracting water from the Martian Regolith enables the
+   production of both Oxygen and Methane from Mars resources
+     – Water resources could also be used for other applications including: Life
+        support, radiation shielding, plant growth, etc
+     – Water extraction was not baselined in DRA5.0 due to perceived
+        difficulties and complexity in processing regolith
+ • The NASA Evolvable Mars Campaign (EMC) requested studies to look at
+   the quantitative benefits and trades of using Mars water ISRU
+     – Phase 1: Examined architecture scenarios for regolith water retrieval.
+        Completed October 2015
+     – Phase 2: Deep dive of one architecture concept to look at end-to-end
+        system size, mass, power of a LCH4/LO2 ISRU production system
+
+                                                                               2
+Approach
+• Water bearing regolith is retrieved using a
+  mobile excavator and delivered to a
+  centralized ISRU processing plant.                                                Atmosphere Processor
+
+                                                                                    Water Electrolysis
+
+
+
+• ISRU processing plant is co-located with                                          Water Processor
+
+                                                                                    Regolith Processor
+
+
+
+  the Lander and MAV.                                         100-5000 m
+
+
+
+• Use current EMC projections to define Phase-I
+                                       Case Study
+  ISRU production needs
+• Generate a system model to roll up mass &                    100-5000 m
+
+
+  power of a full ISRU system and enable
+  parametric trade studies.
+    – Use previous studies and technology           <5000 m
+                                                                            100 m
+       development programs to select baseline      KW
+
+                                        Phase-II
+       subsystems/components for thisCase Study
+                                         study
+    – Use existing hardware with
+       mass/power/performance to provide a                     100-5000 m
+
+
+
+       basis for subsystem level trades in future
+       studies
+    – Whenever possible used reference-able
+       (published) numbers for traceability, as
+                                                                                     3
+       opposed to ‘real-time’ working numbers.
+ Top level production requirements
+
+• Propellant mass needs taken from most recently published MAV study:
+     – Polsgrove, T. et al. (2015), AIAA2015-4416
+• MAV engines operate at mixture ratios (oxygen:methane) between 3:1 and
+  3.5:1, whereas the Sabatier reactor produces at a 4:1 ratio. Therefore:
+     – Methane production is the driving requirement
+     – Excess Oxygen will be produced
+• Production rate based on a
+  mission timeline of 480                                              Rate at 480days
+                                                   Total mass needed
+                                                                     continuous operation
+  days (16 months)
+    – ISRU system arrives one     .
+                                      Requirement:   CH4    6978 kg                 0.61 kg/hr
+      launch opportunity ahead of
+      humans                          Reactants
+    – MAV must be fully fueled before needed to             15701 kg                1.36 kg/hr
+                                                     H2 O
+      human departure from earth                            (785,050 kg 2% soil)    (68.2 kg/hr soil@2%)
+                                      meet
+26 month launch opportunity          requirement:    CO2    19190 kg                1.67 kg/hr
+– 9 month transit time
+– 1 month margin                                            27912 kg total
+                                                            (22728 kg propellant,
+16 months                            Results in:     O2                             2.43 kg/hr
+                                                            1906 kg Life support,
+                                                            3278 kg leftover)                      4
+ Assumptions
+
+• Production Rate driver: 6978 kg of Methane needed + 0.5% margin
+      – Methane is the driver since excess oxygen will be produced using Sabatier process
+• Time of ISRU production: 480 day operation, 24hr/day
+• Soil Water resource (baseline): Water from surface regolith = hydrates Ubiquitous (location
+  independent), Available in surface material (subsurface excavation not required), Lower resource yield
+  is more of a worse case for water extraction system
+• Liquefaction: Takes place in the MAV tanks. ISRU system only includes mass/power for crycoolers
+  needed to liquefy. MAV responsible for tanks and zero boil-off systems
+• Power Source: Not part of ISRU system. Assumes a fission reactor will be needed for human
+  presence, ISRU will use reactor when humans are not present. (TBD- negotiations to occur as power needs are identified)
+• Radiators: Not part of ISRU system. ISRU will be packed on lander.
+• System:
+
+
+
+
+                                                                                                                 5
+Subsystem Selection for this study
+Subsystem         Components                               Heritage
+Excavation        RASSOR 2.0 excavator concept prototype   KSC hardware (2015 Phase 1)
+Soil Processing   Size Sorter / Auger Conveyor reactor     JSC design concept (2015 Phase)
+
+                  Soil hopper/Size Sorter prototype        KSC hardware –sized & tested
+                  Vapor cleanup                            Nafion, COTS
+                  Water collection: Coldtrap               JSC design concept
+CO2 Acquisition   Cryocooler                               Cryotel GT, COTS, KSC cold head
+Sabatier          Microchannel Sabatier                    Battelle PNNL (SRP study)
+                  CH4/H2O separator                        -sized-
+                  CH4/H2 separator                         Hamilton Sunstrand (MIST)
+Electrolysis      PEM electrolysis stack, Cathode feed     Giner Inc., COTS (HESTIA)
+                  Deionizer                                GE, COTS
+                  H2/H2O separator                         -sized-
+                  Inlet pump                               Micropump, COTS
+                  Regenerative Gas drier, desiccant        JSC hardware
+Liquefaction      Cryocooler                               Cryotel GT, COTS
+                                                                                          6
+                  Tanks                                    -sized-
+ Sizing: LO2 and LCH4 ISRU System
+
+ Approach: Production requirement met by 3 independent ISRU systems including:
+ 3 Propellant production (atmosphere   3 mobile RASSOR excavators   3 regolith processing (water
+ processing/water electrolysis)                                     production) modules
+ modules
+
+*Liquefaction takes
+place in the
+MAV/Lander tanks
+
+*Working with MAV
+team for current
+packaging
+
+
+
+
+                                                                                                   7
+ Total ISRU system (3 modules)
+Baseline case, Assumptions:
+3 independent ISRU systems each producing 40% of the needed products, 15% mass added for
+structure, 20% margin added to power and mass, Garden variety (common globally on Mars surface)
+regolith with 1.26wt% water processed at 300C
+
+
+
+
+                                                                                            Thermal *
+
+
+
+
+                                                 * Large thermal energy requirement may create an
+                                                 opportunity to link with FSP for heat recuperation
+                                                                                                      8
+             Total Mass: 1708 kg                                Total Power: 52 kW
+     Regolith needs for Baseline case
+
+                                                     Amount                                                                 Delivery
+                                                     needed                       Amount                                   capabilities
+                       Total
+                                                       per                         needed                                  per Rassor
+                     needed for
+                                                     module                      per module                                 per day*
+                      mission                         (assuming 3
+                                                     independent
+                                                                                   per day                                  (using baseline
+                                                                                                                             assumptions)
+                                                       modules)
+
+    Mass of         1500 MT                       500 MT                        1.04 MT                              2.3 MT
+    Regolith
+                                                                                                        compare
+    # of            14797                         4932                          11 batches                           23 batches
+    Rassor          batches                       batches
+    batches
+Using the current assumptions 1 Rassor excavator per module is more than sufficient to meet
+                                    production needs.
+    (If assumptions are changed, the system model is designed to adjust the number of excavators needed and this would be
+                                                  reflected in mass/power)
+*Assumptions:
+•     Conops: 5 hrs = 5 batches + battery recharge (Assuming the resource is 100m away, the rover travels at 0.26 m/s, and
+      excavation time from laboratory tests.)
+•     Each Rassor batch delivers 9.7% of the needed regolith per day per module. (Based on volumetric capacity of
+      Rassor bucket and regolith bulk density of 1.9g/cc as suggested by MWIP team, Rassor can delivery 100kg per batch)
+                                                                                                                                        9
+ Comparison to Oxygen-Only ISRU plant
+• Assumptions: 3 independent ISRU systems each producing 40% of the needed
+  products, 15% mass added for structure, 20% margin added to power and mass.
+• O2-only system assumes a cryofreezer for CO2 extraction and Solid Oxide Electrolysis for conversion
+
+
+            1708 kg
+                                               52 kW
+
+
+
+                                                              37 kW
+                          1030 kg
+
+
+
+
+   66% higher mass                     42% higher power                   17% more waste heat
+                                                                                           10
+    M-WIP - Definition of Reference Reserve Cases
+                                                                                      Deposit Type
+                                                                        B. Poly-hydrated                        D. Typical
+                Essential Attribute                        A. Ice            Sulfate             C. Clay      Regolith (Gale)
+Depth to top of deposit (stripping ratio)                   3m                 0m                    0m             0m
+geometry, size                                              bulk               bulk                  bulk           bulk
+Mechanical character of overburdern                         sand                NA                   NA              NA
+Concentration and state of water-bearing phase
+within the minable volume
+                                                                                                               23.5% basaltic
+     –Phase 1                                             90% ice         40% gypsum1         40% smectite2
+                                                                                                                   glass3
+   –Phase 2                                                  --          3.0% allophane4    3.0% allophane4   3.0% allophane4
+                                                                                         5
+                                                                                                                                  1. ~20 wt% water, 100-150°C
+   –Phase 3                                                  --         3.0% akaganeite    3.0% akaganeite5 3.0% akaganeite5
+                                                                                                                                  2. ~4 wt% water, 300°C
+   –Phase 4                                                  --           3.0% smectite2   3.0% akaganeite5   3.0% bassanite6     3. ~1 wt% water, >500°C
+   –Phase 5                                                  --                 --                 --          3.0% smectite2     4. ~20 wt% water, 90°C
+Geotechnical properties                                                                                                           5. ~12 wt% water, 250°C
+   –large-scale properties (“minability”), e.g.                                                                                   6. ~6 wt% water, 150°C
+                                                     competent--hard        sand--easy         sand--easy        sand--easy
+   competence, hardness
+   –fine-scale properties (“processability”) , e.g.
+                                                    no crushing needed no crushing needed no crushing needed no crushing needed
+   competence, mineralogy
+                                                         variation in        ±30% in            ±30% in           ±30% in
+The nature and scale of heterogeneity                     impurities       concentration      concentration     concentration
+Distance to power source                                    1 km               1 km               1 km             100 m
+The   M-WIP
+Distance         (Mars plant
+          to processing   Water ISRU Planning) study1 km is lead by1 SMD/Mars
+                                                                       km            Program
+                                                                                      1 km      office100and
+                                                                                                           m     involves
+academy      and
+Amenability of     industry
+                the terrain      members. The ISRU
+                            for transportation         team has flat
+                                                 flat terrain      been    workingflat terrain
+                                                                      terrain        closely with flat
+                                                                                                    these
+                                                                                                        terrain team to identify
+Presence/absence of deleterious impurities     dissolved   salts     none             none         perchlorate?
+impacts     of Mars resources and their location,
+First order power requirements                       TBD
+                                                            and the data
+                                                                     TBD
+                                                                            still needed
+                                                                                      TBD
+                                                                                           to best define
+                                                                                                       TBD
+                                                                                                               them.
+•Not Considered
+      The MWIP(relevant
+                      team report       is projected
+                               for Earth,   but maybefor released March 31,2016
+•not Mars)
+      Information from the MWIP team has been incorporated into this study and visa/versa
+• Other
+ political stability of the locality
+              information       from / license to
+                                         the MWIP   team thatNAwill be leveraged
+                                                                              NA for future work
+                                                                                             NA includes NA
+ operate
+         Distance of resource versus excavation efficiency and Depth of resource versus overburden removal (trade)
+•    This slide shows the reference case resource possibilities. Case D was baselined in this Lox/LCH4
+     study. The following trades show the impact of Case B (best case granular deposit)                11
+ Trade: higher yield regolith
+• The MWIP team has identified Reference cases for soil-water resources. The best case is
+  that of a Gypsum deposit which has 8 wt% water releasing at 150C.
+     – The percentages on the graphs show the increase over the LOX-only case
+     – Targeting water-Rich deposits offers marginal mass improvement, but significant power
+        reduction
+
+
+                           66% >
+             54% >                 1708 kg                              42% >
+                 1590 kg                                                        52 kW
+
+
+                                                         4% >
+                                                                38 kW
+                                                                                        37 kW
+                                             1030 kg
+
+
+
+
+                                                                                                12
+Trade: higher yield regolith
+
+• The real benefit of targeting higher yield regolith is the power saving
+    – Less regolith to heat
+    – Heating at a lower temperature
+
+
+
+
+                                                                            13
+Human Mission Mars Soil Excavation for Water
+
+                     Garden Variety Regolith (1.26 wt% water)
+
+
+                               Smectite (1.60 wt% water)
+
+                                Gypsum (8.00 wt% water)
+
+
+
+
+            Surface area required per mobile excavator with the following assumptions:
+                                   •    3 mobile excavators used
+                        •   Each excavator provides 40% of required water
+                               •    Excavation depth = ~5cm ( 2.0 in)
+ Mass comparisons
+
+                            ISRU system                                                           Landed Mass Comparison
+                          Mass Comparison                                                  35000
+
+
+The ISRU system leverages the power and radiator systems that are pre-positioned by the    30000
+      lander for human systems. So these are not explicitly part of the ISRU system.
+
+                                                                                           25000
+                                              Total Mass,            Ratio: Propellant
+                          Hardware                mt                 produced per kg
+                          Mass, mt           (ISRU Hardware +                              20000
+                                            Propellant from Earth)   of landed mass
+                                                                                          Kg
+                                                                                           15000
+    Case 1
+ ISRU for LO2 &               1.6                   1.6                    22.1
+ LCH4: Sulfates                                                                            10000
+
+
+    Case 2
+                                                                                               5000
+ ISRU for LO2 &               1.7                   1.7                    20.5
+ LCH4: Regolith
+                                                                                                 0
+     Case 3                                         8.0                                                 LOX &       LOX only     No ISRU
+ISRU for LO2 only             1.0           (1mt hardware + 7mt             3.1
+   (no water)                                    Methane)                                               LCH4:                  (propellant
+                                                                                                       Baseline                   only)
+     Case 4                                         31.6
+ Propellant only              NA            (24mt Oxygen + 7mt              NA
+   (no ISRU)                                     Methane)                                             ISRU Plant total   LCH4       Lox
+  Conclusions
+
+For every kilogram of landed mass
+(hardware mass + including terrestrial propellants):
+
+• A LO2/LCH4 ISRU system can produce 20 kg of propellant
+• A LO2-only ISRU system can produce 3 kg of propellant
+
+Harnessing the Mars regolith water for ISRU offers a 6x improvement over Mars
+ISRU atmosphere processing alone.
+• These calculations only account for the mass of the propellant that is needed in the MAV. They do not
+  account for the additional propellant mass which would be required to deliver that MAV propellant to Mars
+  from LEO. Thus the advantage of a combined ISRU LOX/Methane production system would be greater than
+  indicated.
+• Component/Technology trades in the ISRU end-to-end system may also offer an improvement
+
+
+This results in about mass savings in LEO on the order of 10kg for every kg of mars
+produced propellant
+
+Targeting Water-rich landing sites (eg Gypsum deposits) offers only a marginal mass
+benefit, but reduces the power such that it is comparable to the LO2-only case (30%
+less power than the baseline regolith case).
+                                                                                                      16
+Back up
+
+
+
+
+          17
+   Operational Assumptions
+Liquefaction: (CH4 liquefaction, O2 liquefaction)            Driers: (CH4 drier, O2 drier)
+The ISRU liquefaction system only accounts for cryocoolers   Regenerative desiccant systems remove excess water prior to
+needed to liquefy the propellants. Liquefaction is assumed   liquefaction. Some product is lost during regeneration, but
+to occur in MAV ascent tanks so Tank mass and liquid         this margin accounted for in production rate.
+maintenance is accounted for in MAV.
+O2 at 60K 15psi, CH4 at 100K 50psi                                                    Electrolysis: (DeIonizer, PEM stack,
+                                                                                      pumps, H2/H2O separator tank)
+Atmospheric processing: (CO2 cyrofreezer,                                             Cathode feed PEM stack feed by
+Sabatier reactor, gas separators)                                                     regolith water and water from
+CO2 acquisition is a batch process so 2                                               Sabatier reactor.
+systems operate in parallel so one is freezing                                        PEM: 1 stack (+1 spare) per
+CO2 while the other is heating & venting to                                           module, 71 cells, baseline
+the Sabatier. The Sabatier is an exothermic                                           operation at 1.8V
+reaction so one time power draw then self-
+sustaining. Products go through 2 separation                                         Regolith processing: (hoppers,
+systems to remove water product and excess                                           reactor, water vapor cleanup, water
+H2…both are recycled back to Sabatier.                                               capture)
+Cryocoolers for CO2 capture 4per module,                                             Rovers deliver to hopper/size sorter
+CO2 gas at 50psia to drive system.                                                   which meters regolith to the screw
+                                                                                     conveyor reactor to maintain
+                                                                                     continuous reaction. Water vapor
+Excavator: (rovers only)
+                                                                                     periodically builds pressure to
+Rovers operate 24/7 to maintain needed
+                                                                                     20psia and vents to condenser for
+H2O production rate: battery recharge time
+                                                                                     capture as liquid.
+and traverse time included in rate calcs.
+                                                                                     Reactor: 1 per module
+Rassor, 1 per module, Traveling 100m at
+                                                                                     Water condenser w/ passive cooling
+0.26m/s,
+                                                                                     at operation saturation temp18(300K)
+Capacity 0.05m3 per batch (80kg)
+

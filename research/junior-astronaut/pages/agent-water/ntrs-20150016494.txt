@@ -1,0 +1,866 @@
+45th International Conference on Environmental Systems                                                         ICES-2015-115
+12-16 July 2015, Bellevue, Washington
+
+
+
+
+             Advancing the Oxygen Generation Assembly Design to
+            Increase Reliability and Reduce Costs for a Future Long
+                                Duration Mission
+
+                                                     Kevin C. Takada1
+                                NASA, Marshall Space Flight Center, Huntsville, AL, 35812, USA
+
+                                                     Ahmed E. Ghariani2
+                                         GeoControl Systems, Inc., Houston, TX, 77087
+
+                                                             and
+
+                                                     Steven Van Keuren3
+                                     Anadarko Industries, L.L.C., Houston, TX, 77058, USA
+
+
+                     The state-of-the-art Oxygen Generation Assembly (OGA) has been reliably producing
+                 breathing oxygen for the crew aboard the International Space Station (ISS) for over eight
+                 years. Lessons learned from operating the ISS OGA have led to proposing incremental
+                 improvements to advance the baseline design for use in a future long duration mission.
+                 These improvements are intended to reduce system weight, crew maintenance time and
+                 resupply mass from Earth while increasing reliability. The proposed improvements include
+                 replacing the cell stack membrane material, deleting the nitrogen purge equipment,
+                 replacing the hydrogen sensors, deleting the wastewater interface, replacing the hydrogen
+                 dome and redesigning the cell stack power supply. The development work to date will be
+                 discussed and forward work will be outlined. Additionally, a redesigned system architecture
+                 will be proposed.
+
+
+                                                         Nomenclature
+
+        ECLSS     =   Environmental Control and Life Support Systems
+        EVA       =   Extra Vehicular Activity
+        ISS       =   International Space Station
+        LFL       =   Lower Flammability Limit
+        NASA      =   National Aeronautics and Space Administration
+        OGA       =   Oxygen Generation Assembly
+        OGS       =   Oxygen Generation System
+        ORU       =   Orbital Replacement Unit
+        PSM       =   Power Supply Module
+        RSA       =   Rotary Separator Accumulator
+        SOA       =   State of the Art
+
+
+
+
+        1
+          Aerospace Engineer, Space Systems Dept., NASA-MSFC/ES62.
+        2
+          OGS Subsystem Manager, Life Support Systems Branch, Mail Code EC3.
+        3
+          ECLS Systems SME, BETS Contract, 91-51 MC HB2-30.
+                                         I. History of the ISS OGA
+
+A     FTER more than a decade of development, the U.S. Regenerative (Regen) Environmental Control and Life
+      Support Systems’ (ECLSS) Oxygen Generation System (OGS) rack delivery was accelerated, and it was
+launched within the Shuttle cargo bay to the International Space Station (ISS) in July 2006 and installed in the US
+Laboratory (Lab) Module. The integrated Regen ECLSS three rack systems (see diagram in Figure 1) also include
+the     Water     Recovery      System,
+comprised of the Water Processor
+Assembly (WPA) and the Urine
+Processor Assembly (UPA) which
+launched later in 2008 and together,
+enabled the ISS to expand its crew size
+from three to six crewmembers.
+    All three Regen ECLSS racks were
+originally intended to be installed in
+ISS Node 3, but the ISS program
+management desired an early check-
+out of Regen systems within US Lab
+prior to the Node 3 launch on Shuttle
+flight 20A. Regen rack modification
+kits were launched and installed within
+the US Lab in 2007 to provide the
+Regen systems’ power, data, coolant,
+nitrogen, water, and space vacuum Figure 1 - ISS US Regen ECLSS Diagram.
+interfaces. The Regen ECLSS racks
+were subsequently relocated from the US Lab to Node 3 in February 2010.
+    The UPA distills the collected urine to evaporate and extract the water, which is fed into the WPA. The WPA
+combines the distillate with the humidity condensate collected from the ISS air conditioners into a waste water
+accumulator. The WPA system then purifies the waste water through resin based Multi Filtration Beds, Particulate
+Filters and a Catalytic Reactor before passing the recycled purified water through an Ion Exchange resin bed to
+release low levels of iodine as a microbial growth inhibitor. The WPA potable water is stored within an
+accumulator. The WPA provides potable water to the crew for consumption and the OGS for electrolysis.
+    The OGS rack (see Figure 4) includes the Oxygen Generation Assembly (OGA), Sabatier Carbon Dioxide
+Reduction Assembly (Sabatier CRA), the Power Supply Module (PSM), Avionics Air Assembly, Remote Power
+Controller Module, Rack Smoke Detector, Rack Power Switch, coldplates, flexhoses, power / data cabling, acoustic
+foam, and rack structure. The Sabatier CRA was launched separately and integrated into the OGS rack October
+2010. The OGA utilizes cathode feed electrolysis to produce both oxygen for the crew to breathe, and hydrogen
+which is sent to the Sabatier CRA or optionally, out through the vent to space vacuum.
+    The Sabatier CRA utilizes a heated, catalyst reactor bed to combine hydrogen from the OGA and compressed
+carbon dioxide from the ISS Node 3 Carbon Dioxide Removal Assembly (CDRA) to produce water and methane.
+The separated methane gas is vented into space through the shared, OGA hydrogen / nitrogen sub-ambient vent line
+while the water is fed into the ISS wastewater bus for reprocessing through the WPA. The OGS rack contains
+accumulator tanks for compressed carbon dioxide storage. As of February 22, 2015 the Sabatier CRA has reclaimed
+over 1,000 lbm of water.
+    After a year of early checkout, the OGA was first activated for electrolysis in July 2007 by utilizing a temporary
+rack mounted Water Delivery System which pumped feedwater to the OGA from Payload Water Reservoirs
+containing shuttle fuel cell water. After the WPA and ISS Potable Water Bus were made operational in 2008, the
+OGS received Feedwater from the ISS potable bus and no longer required the WDS which was dismantled and
+stowed.
+
+
+                                      II. Description of the ISS OGA
+    As of March 1, 2015, the OGA has produced over 8200 lbm of oxygen and 1000 lbm of hydrogen. The OGA
+cell stack has accumulated a total operating time of 31,980 hours (including 133 hours of ground testing). See
+Figure 2 for a plot of oxygen produced over time.
+
+
+                                                         2
+                                International Conference on Environmental Systems
+    A simplified schematic of the OGA is shown in Figure 3. Feed water from the ISS potable water bus enters the
+assembly through the Water Assembly Orbital Replacement Unit (ORU) and flows through an Inlet Deionizing Bed,
+which serves as an iodine remover and as a coalescer for any gas bubbles that may be present in the feedwater. If
+gas bubbles are detected by the gas sensor
+downstream of the DI bed, the feedwater is rejected
+by a three-way valve to the waste water bus. This
+serves to prevent any oxygen that may be present in
+the feedwater from mixing with the generated
+hydrogen. Water is electrolyzed into oxygen and
+hydrogen in the Hydrogen Dome ORU, which
+contains the electrolysis cell stack, sensors, valves
+and a Rotary Separator Accumulator (RSA). The
+RSA separates the cathode side product gaseous
+hydrogen from the water which is recirculated by
+the positive displacement Pump ORU.               The
+hydrogen dome provides a multiple leakage barrier
+protection in the event of a failure. The hydrogen
+dome is maintained at low pressure by venting to
+space vacuum. Separated hydrogen gas is sent Figure 2 - Total Oxygen Produced by the OGA.
+either to the Sabatier CRA or optionally out to space through the vacuum vent. Oxygen produced by the cell stack
+passes through the Oxygen Outlet ORU containing a water absorber, which protects the downstream hydrogen
+sensors from liquid moisture. The Hydrogen Sensor ORU monitors the product oxygen for the presence of
+hydrogen, which would indicate leakage within the cell stack and signal the OGA Process Controller to quickly shut
+down the OGA. The Nitrogen Purge ORU stores a pressurized volume of nitrogen gas from the ISS distribution line
+to purge the OGA cell stack upon shutdowns. Nitrogen is utilized to mitigate the safety hazards associated with the
+mixing of oxygen and hydrogen within the cell stack or the dome. The nitrogen can also be used to inert the dome
+environment during extended periods of non-operation. The Process Controller ORU is responsible for OGA
+system command/control and communication with the ISS. The OGA sensors are used for fault detection and fault
+isolation purposes. In addition, sensor data can be used to indicate that an ORU should be scheduled for changed-out
+with a pre-positioned, on-orbit spare ORU. The PSM ORU provides power to the OGA electrolysis cell stack. The
+PSM ORU provides 10-55 amps of current to the OGA cell stack during Process mode and 1.0 amps during Standby
+mode (2% oxygen production rate). The PSM is designed for 60,000 process/standby cycles, and a 10-year life.
+
+
+
+
+Figure 3 - OGA Simplified Schematic.
+
+
+
+                                                        3
+                               International Conference on Environmental Systems
+    The OGA is designed to generate oxygen at a nominal rate of 5.4 kg/day (12 lbm/day) when operated on
+day/night orbital cycles (53 minutes at 100% production, 37 minutes in standby which produces 0.44 lbm/day of
+oxygen), and also at a selectable rate between 2.3 and 9.2 kg/day (5.1 and 20.4 lbm/day) or 22 to 100% oxygen
+production rate when operated continuously. At the nominal rate, the OGA can support oxygen needs for 4 crew,
+biological specimens, and atmosphere leakage, while at the maximum rate it can support 7 crew, biological
+specimens, and atmosphere leakage. The product oxygen meets quality specifications for temperature, free water,
+dew point, and hydrogen content. The OGA is packaged into eight ORUs, residing in the OGS rack. Most of the
+OGA ORUs are run to failure except for the calibration life limited Hydrogen Sensor ORU and the mixed-resin
+containing ORUs (Inlet DI Bed and ACTEX) which are trended for water throughput and return water quality to
+determine the Preventative Maintenance (PM) replacement intervals.
+
+
+
+
+Figure 4 – OGS Rack.
+
+
+                                 III. Lessons Learned from ISS OGA
+    The OGS has been on-orbit for over 8 years. Significant lessons have been learned through OGS operational
+experiences, both nominal and off-nominal workarounds. Figures 5 and 6 detail significant OGA events.
+    The major lesson learned is to have a mixed resin deionization bed always installed within the OGA water
+recirculation loop to maintain near neutral pH and minimize corrosion product contamination and maximize cell
+stack life. The OGA was initially launched without a deionization bed. After the cell stack failure (described in
+later in this section), a deionization bed was retrofitted in the recirculation loop in 2011.
+
+
+
+
+                                                        4
+                               International Conference on Environmental Systems
+    Monitoring the health of
+the       dead-ended         OGA
+recirculation water loop for
+any increasing concentration
+of anionic and cationic
+chemical species including
+Total Organic Carbon (TOC)
+is key to gaining an early
+warning insight to potential
+poisoning of the Membrane
+Electrode              Assemblies
+(MEAs) within the cell stack.
+The OGA team conducts
+periodic          cell        stack
+polarization scans, which
+step-up the current density to
+the cell stack membranes and
+plot      the      corresponding
+voltage to determine if any
+curve shifts are evident at the
+highest      production       rates Figure 5 - OGA History of Major Events 7/2006 - 4/2012.
+which is indicative of contamination within the MEAs.
+    Recirculation loop water samples are periodically returned to the ground for chemical, particulate and microbial
+analysis. From this analysis the team determines when TOC remediation should be implemented to avoid risk of
+irreversible contamination damage to the MEAs, confirms loop pH is near neutral, ensures no flow channel bypass,
+validates effective ion exchange, monitors non-ionic loading and identifies microbial counts/species to quantify risk
+for biofouling.
+    A new capability to periodically refresh the recirculation loop water would automatically lower any increasing
+TOC contaminant concentrations. To retrofit this feature into the ISS OGA on-orbit would require significant cost
+to redesign and reanalysis of safety hazards. In 2015, the OGA team is planning to ground test a rack mounted
+effluent bag which will
+allow for a one liter per
+hour maximum bleed off of
+the recirculation loop water
+while the OGA is in
+Standby.          This bleed
+procedure        will     safely
+remove approximately 80%
+of ionic contaminants from
+the recirculation loop over
+a 40 hour period.
+    There        should        be
+improvements to system
+and ORU reliability which
+would result in decreased
+crew       time      for     PM
+replacements          and       a
+reduction       in      logistics
+requirements. An example
+is the limited calibration Figure 6 - OGA History of Major Events 5/2012 - 11/2014.
+life of the Hydrogen Sensor
+ORU resulting in replacement and dry oxygen purge every 150 operational days. Once removed, the sensor must be
+returned to the ground for recalibration. There are seventeen Hydrogen Sensor ORUs within the fleet to allow for a
+minimum of three on-orbit prepositioned spares and to ensure adequate lead times for ground recalibrations and
+processing for loading on launch vehicles. Alternative technologies for hydrogen detection may not be susceptible
+
+                                                         5
+                                International Conference on Environmental Systems
+to sensor drift, calibration life limitations, and could be a run to failure ORU which would eliminate the need for PM
+replacements.
+    During OGA failure troubleshooting or attempts to implement workarounds to regain system functionality, the
+team is limited by the OGA Independent Shutdown Monitor (ISM) hard-wired function that can not be disabled or
+overridden to new limits. The OGA ISM function provides automatic, hard-wired limit protection from system
+hazards by the removal of power to all system effectors. The ISM function is implemented with hardware which is
+fully independent of the OGA Process Controller software. There could be more operational flexibility if the ISM
+function could be disabled temporarily.
+    Another significant lesson learned is to minimize the use of filters within any future system and locate them such
+that they are easily inspected and replaceable or cleaned. Typical OGA ORUs with imbedded filters require the
+replacement of the entire ORU if a filter becomes occluded.
+    The OGA Hydrogen Dome Assembly ORU cannot be disassembled on-orbit by the crew to perform
+maintenance on the internal components (cell stack, RSA, valves, and sensors). The large stainless steel dome
+covering the ORU as fracture control protection is not removable by the crew. Future system redesigns should
+attempt to employ alternative hazard controls and methods that could eliminate the need for a dome.
+    It would be desirable to design thermal expansion capability into all water filled ORUs and to use only fluid
+flexhose types that can adequately accommodate water expansion due temperature increases. This capability is
+required when ORUs and flex hoses are disconnected for maintenance. On ISS, additional crew time must be used to
+find and install compatible thermal expansion devices to preclude exceeding Maximum Design Pressure (MDP)
+limits of the hardware.
+    The ability to disable keying of the fluid Quick Disconnects (QDs) will allow for more flexibility when the crew
+needs to respond to on-orbit OGS contingency cases.
+
+
+A. Cell Stack Failure in 2010
+    On July 5, 2010, after approximately 233 days of cumulative operation, the first installed OGA Hydrogen Dome
+ORU’s cell stack had a high voltage failure. The ORU rated life is five years. The ORU was replaced with an on-
+orbit spare and the failed ORU was returned in March 2011 to the ground for failure investigation. Prior to the ORU
+failure, the upstream recirculation loop filters were clogging. In addition, analysis determined that the filters were
+partially loaded with metallic corrosion products and the recirculation loop water pH was 4.1. The desired
+recirculation loop pH level is between 6 to 7. At the time of the high voltage cell stack failure it was unclear what, if
+any, relationship existed between the recirculation loop high delta pressure, low pH of the returned water samples
+and the cell stack’s high voltage failure. Initially, the team believed blockage of cell stack water flow passages
+caused water starvation resulting in an increase in cell resistance and voltage.
+    Hardware tear-down after the failure showed no evidence of restrictions within the cell stack water flow
+passages. Published literature for fuel cell technology identified that there is a known chemical degradation of the
+cell membrane polymer chain end groups during normal operation. In the case of cathode feed electrolysis, this
+degradation resulted in the formation and release of hydrofluoric and sulfuric acid into the recirculation loop water
+on the cathode side of the cell. This lowered the recirculation loop water pH to the point of corroding the normally
+corrosion resistant metals in the wetted loop. These corrosion products became the source of cations that
+contaminated the cell membranes. This reduced the water transport and proton conductivity of the cell membranes
+resulting in a rapid increase in cell resistance driving the voltage up to the high shutdown limit.
+    The original design of OGA included a recirculation loop deionization bed, but it was eliminated due to safety
+concerns of hydrogen gas build-up within it. The OGA was launched in 2006 without a deionization bed in the
+recirculation loop. The crew installed a mixed resin deionization bed (ACTEX) in the recirculation loop on
+5/26/2011 as recurrence control. Subsequently, the recirculation loop pH returned to near neutral pH values. This
+bed removes the electrolysis generated acid, balances the pH & removes cationic contaminants responsible for
+accelerated membrane degradation. The OGA team instituted periodic polarization scans and recirculation loop
+water samples. The team recommended using long term Standby instead of Shutdown (to maintains loop water
+recirculation through the ACTEX). If shutdown of the OGA is necessary then use of a newly developed cell
+discharge procedure is required to ensure most reactants are recombined locally at the cell membranes to minimize
+zones of low pH.
+
+
+
+
+                                                          6
+                                 International Conference on Environmental Systems
+B. Hydrogen Sensor Drift
+    The OGA is required to be
+two fault tolerant to preventing
+a cell stack hydrogen leak into
+the oxygen delivery line from
+creating a catastrophic hazard
+(e.g.     hazardous      hydrogen
+release to ISS cabin). To meet
+this safety requirement, the
+three hydrogen sensors must
+provide two independent means
+for detecting hydrogen and
+shutting down the OGA system
+after a cell stack hydrogen
+leakage failure. Upon an OGA
+shutdown, redundant oxygen
+isolation valves close to prevent
+a hazardous hydrogen release to
+the ISS cabin. The hydrogen
+sensors are required to be one
+fault tolerant to detecting a fault Figure 7 - Drifting Sensors Requiring Flight Rule Inhibits.
+and shutting down the OGA
+system.
+    The Hydrogen Sensor ORU consists of three separate sensors dies. The current sensor calibration life is 150 days
+of “powered-on” time. Exposure of the dies to hydrogen gas changes the electrical output of the circuit in proportion
+to the partial pressure of hydrogen in the gas phase.
+    Five of the last ten installed Hydrogen Sensor ORUs have exhibited an unexplained, upwards drift (conservative
+direction towards high shutdown limit) in at least one of three sensor channels, requiring a ground commanded
+inhibit of that sensor to prevent system shutdown (see Figure 7). Sensors that exhibit this drift are diverging and
+rising upwards at different rates. Flight rules were established to inhibit a high drifting sensor when it exceeds the
+other two sensors within the ORU by 280 Pascals, and the remaining two are below 250 Pascals and also above -30
+Pascals. The Flight rule ensures only one sensor is failed and the remaining two sensors are credible.
+    Sensor output increases (conservative direction towards high shutdown limit) as inert nitrogen gas displaces
+oxygen at the sensor’s active sites. During a normal shutdown or a nitrogen purge, the oxygen (anode) side of the
+cell stack is filled with nitrogen. Upon restart, the nitrogen is pushed out to the hydrogen sensors and a temporary
+biasing of the sensors occurs. The hydrogen sensors recover to their normal values after oxygen is being produced
+and the nitrogen is purged from the line out to the ISS cabin.
+    There are both known and unknown cross-contaminant chemical species that can influence the sensor’s electrical
+output. Sensor output is depressed by increasing amounts of water vapor and was quantified in sensor qualification
+life testing on nine sensor dies. Humidity is compensated for in the sensor’s ground calibration.
+    If a powered sensor die were to be exposed to liquid water, electrolysis reactions can occur on the die surfaces,
+causing destructive loss of the sensor’s functionality. To protect against this occurrence, die surface temperatures are
+maintained above the gas-phase dew point via local heaters whenever the OGA is powered. In the event that the
+system is unpowered, residual water vapor within the hydrogen sensor manifold can condense as internal ORU
+temperatures drop to cabin ambient. If the hydrogen sensor were to be re-powered with condensed water on the
+dies, damaging electrolysis reactions may occur and result in a shift in sensor output voltage. In order to preclude
+such an occurrence during either planned or unplanned OGA shutdowns, the crew is required to perform a dry
+oxygen purge of Hydrogen Sensor ORU. The crew uses ISS oxygen distribution lines connected to a Portable
+Breathing Apparatus hose and the Hydrogen Sensor ORU Purge Adaptor, to purge residual water vapor from the
+hydrogen sensor manifold. After the purge, the hydrogen sensor will be left in a dry condition from which it can
+safely be re-powered.
+    The OGA team believes the increasing response trend is due to a sensor drift issue (unknown cause) and is not
+due to incipient cell stack hydrogen leakage (from the cathode side across the cell membrane(s) to the oxygen anode
+side) for the following reasons: a) Periodic cell stack polarization scans indicate nominal voltage values for each 5
+amp step increase in current, indicating a healthy cell stack with no cross-cell leakage. Any H2 leakage to the anode
+side would recombine with oxygen in the presence of catalyst and cause cell voltage increases. b) When the OGA
+                                                          7
+                                 International Conference on Environmental Systems
+has remained in long term Standby with mostly water in the two-phase cathode side recirculation loop, no RSA
+water quantity decreases have been detected. c) Common occurrence since drift has been seen on at least half of the
+ORUs installed on-orbit with typically one sensor drifting upwards more rapidly than the other two.
+
+C. Need for Day/Night Cycling
+    Given that the OGA is one of the major ISS power draws, there were initially constraints to its operations while
+ISS was power limited, prior to assembly complete. The OGA is designed to operate on day/night orbital cycles (53
+minutes at 100% production, 37 minutes while in Standby) to minimize power consumption and battery draw during
+night portions of the ISS orbit. The OGA total maximum steady-state power consumption while in process mode is
+3955 W. In Standby, the total maximum steady-state power consumption is 497 W. The ISS electrical system uses
+eight Solar Array Wings to directly convert sunlight to 120 volts DC electricity for equipment in the U.S. segment.
+The ISS power storage system consists of battery assemblies. A fourth and final set of solar arrays and batteries
+arrived in March in 2009 and allowed for continuous OGS oxygen production without having to employ the power
+saving day / night cycling. Since then, there has been minimal day / night cycling operations.
+
+                    IV. Requirements for a Long Duration Exploration Mission
+    A future OGA system for exploration should logically be based on the state of the art (SOA) ISS OGA. Since
+the ISS OGA has proven to be extremely safe and reliable over eight years of operation, it will provide an excellent
+foundation for the design of a future system. However, certain incremental improvements based on lessons learned
+should be considered. These will aim to reduce system mass, improve reliability and reduce the need for logistics
+resupply.
+    The general requirements for a future long duration exploration mission will likely be different from those that
+influenced the ISS OGA design. ISS OGA was originally designed to support a crew of 6 and a compliment of
+research laboratory animals. In addition, oxygen generation was constrained to only the daylight portion of the
+orbit. Therefore, the ISS OGA maximum production rate was required to be 20.4 lb/day. ISS benefits from frequent
+logistics resupply missions to provide spare parts to replace failed components.
+    Future exploration missions are expected to include 4 crewmembers and continuous power availability is
+assumed. Also, extravehicular activities (EVA’s) are expected to be infrequent. Therefore, a much lower maximum
+oxygen production rate is envisioned for a future exploration mission. It is assumed that a future OGA system for
+exploration will only be required to generate 9.6 lb/day of oxygen, or less than half of the ISS OGA capability.
+Also, there are expected to be no (or very infrequent) logistics resupply missions.
+    There are certain areas of the ISS OGA design which might be considered overly conservative, leading to
+increased system mass/complexity and reduced maintainability. These areas of the design relate to managing
+hydrogen and oxygen. Over the many years of operating the ISS OGA, valuable experience and understanding has
+been gained relating to the safe management of hydrogen and oxygen. Through careful analysis and testing, some
+of the conservatism in the design can be reduced without adding appreciable risk. The benefit will be decreased
+system mass, complexity and logistics resupply from Earth.
+
+                                V. Proposed Incremental Improvements
+
+   Table 1 lists each of the proposed incremental improvements to the baseline design.
+
+Table 1. Proposed Improvements.
+Improvement                Reason                        Description
+Cell stack membrane        SOA membrane is               Replace obsolete Nafion membrane with
+replacement                obsolete                      chemically stabilized Nafion membrane
+Delete the nitrogen purge  Reduce system mass            Delete nitrogen purging of the cell stack
+equipment                  and complexity                anode during shutdowns and startups
+Replace hydrogen sensors   Reduce crew                   Replace hydrogen sensors with a more
+                           maintenance time              reliable technology that requires less crew
+                                                         intervention
+Delete the wastewater           Reduce system mass       Allow oxygen gas that may be in the
+interface                       and complexity           feedwater into the RSA rather than being
+                                                         rejected to the wastewater bus
+Replace the hydrogen dome       Allow crew               Baseline dome design does not allow
+                                                        8
+                               International Conference on Environmental Systems
+                              maintenance of cell    crew access to the internal dome
+                              stack and RSA          components for maintenance
+Downsize the PSM              Reduce system          SOA PSM is oversized for a future
+                              mass/volume            mission
+
+    The safety and operational implications of
+implementing the proposed upgrades will be carefully
+analyzed by the OGA Team in 2015. The upgrades will
+be demonstrated on the developmental OGA (dev-OGA)
+located at NASA Marshall Space Flight Center. The
+dev-OGA is functionally equivalent to the ISS OGA. It
+contains a flight like cell stack, RSA, pump and PSM.
+Other components such as valves and sensors are
+commercial items. A picture of the dev-OGA is shown
+in Figure 8. Two of the proposed upgrades (nitrogen
+purge deletion and replacing the hydrogen sensors) have
+already been incorporated into the dev-OGA and over
+100 hours of safe operation have been demonstrated to
+date. The rest of the upgrades will be incorporated into
+the dev-OGA in 2015. Then the next logical step over
+the coming years will be to incorporate some of these
+upgrades into the ISS OGA and demonstrate safe
+                                                         Figure 8 - Dev-OGA.
+operation in microgravity.
+
+D. Replacing the Cell Stack Membrane
+    The ISS OGA cell stack is a cathode feed design, with 28 cells to
+electrolyze water to generate oxygen and hydrogen. Each cell contains a
+cathode compartment and an anode compartment, separated by a Nafion
+membrane (manufactured by DuPont). Thin layers of catalyst are applied on
+each side of the membrane to form the anode and cathode electrodes of the
+cell. In this design, feed water is circulated on the cathode side of the cells,
+where hydrogen is generated. Excess water carries away the produced
+hydrogen and process heat. The membrane’s high water permeability allows
+sufficient water transport to the anode, where the electrolysis actually takes
+place. Oxygen is generated at the anode, where it is virtually free of liquid
+water.
+    The original Nafion membrane material used in the ISS OGA cell stack is
+obsolete. DuPont now offers “chemically stabilized” Nafion, which has a Figure 9 - Single Cell with CS-Nafion.
+much lower fluoride release rate. This chemically stabilized Nafion has not
+been incorporated into the ISS OGA cell stack or any
+spares. Another consideration is that the ISS OGA cell
+stack vendor, United Technologies Aerospace Systems
+(UTAS), no longer manufactures cell stacks.
+    The buildup of hydrofluoric acid within the
+recirculation loop was the cause of the ISS OGA cell
+stack failure in 2010.        Incorporating chemically
+stabilized Nafion, with its lower fluoride release rate,
+should improve system reliability.
+    Thus, there is a need to qualify a new cell stack
+design from a new vendor now for future long duration
+missions. This process involves three steps:
+
+    - Build and endurance test newly designed single
+cells
+    - Build and acceptance test a newly designed 28- Figure 10 - Single Cell Test Stand.
+cell stack
+                                                      9
+                             International Conference on Environmental Systems
+    -   Integrate the new cell stack into the dev-OGA and verify system performance
+
+   In 2014, NASA contracted with Giner, Inc. to build three single cells. These single cells were of the same
+design as the ISS OGA cells (same physical dimensions, active area, and current density), except that the newer
+chemically stabilized Nafion was used for the membranes. A single cell is shown in Figure 9.
+   These single cells were operated in the same manner as is done on ISS: cathode water feed configuration and
+0.73 lb/day of ambient pressure oxygen production.
+   The testing was configured as follows:
+
+    - The first cell was operated continuously for four
+    months
+    - The second cell was operated cyclically for four months
+      (five days on, two days off, with shutdown nitrogen
+      purging and shutdown cell discharging; as done on ISS)
+    - The third cell was operated cyclically for ten months
+      (five days on, two days off, without shutdown nitrogen
+      purging or shutdown cell discharging)
+
+    Figure 10 shows the test stand for one of the single cells.
+Essentially no cell voltage degradation (i.e. increase in cell
+voltage over time) was noted for any of the cells over the
+four month and ten month period. Figure 11 shows the cell
+voltage of the third cell over a period of 10 months of
+operation.                                                      Figure 11 - Cell Voltage Trend Over 10
+    After all endurance testing was completed, the three Months.
+single cell passed health checks, as shown in Table 2.
+
+
+
+Table 2 - Post-Endurance Test Health Check.
+Post	  Test	  Health	  Check	   Pass?	            Comment	  
+Polarization	  Scan	              Yes	              No	   indication	   of	   water	   transport	   limitation	   at	   maximum	  
+                                                       current	  density	  
+Resistance	  Measurement	                Yes	       No	  appreciable	  increase	  in	  resistance	  after	  endurance	  test	  
+Short	  Test	                            Yes	       	  
+Cross	  Cell	  Leak	  Test	            Yes	       	  
+Overboard	  Leak	  Test	                Yes	       	  
+Oxygen	  Purity	                         Yes	       0.01%	  H2	  detected	  
+Catalyst	  Shedding	                     Yes	       Nearly	   undetectable	   amount	   of	   catalyst	   detected	   in	  
+                                                       downstream	  water	  filter	  
+
+
+    Based on these excellent single cell test results, a newly designed cell stack should meet or exceed the 5 year life
+of the heritage cell stack.
+    A complete 28 cell stack with chemically stabilized Nafion membranes will be built in 2015. The intent will be
+to build a “drop-in replacement” stack, compatible with the ISS OGA balance of plant. The cell construction will be
+the same as the three single cells. The non-repeating hardware (such as the end plates) will not be required to be the
+same as the heritage ISS design. Once the cell stack is assembled and passes acceptance testing, it will be delivered
+to NASA (expected in November 2015). The new cell stack will be integrated into the dev-OGA at MSFC, and the
+long term performance of the new cell stack will be compared to the heritage OGA cell stack.
+
+
+E. Deleting the Nitrogen Purge Equipment
+   The ISS OGA requires an external source of nitrogen, provided by the ISS
+vehicle. The ISS OGA has approximately 50 lb of equipment to handle the storage
+
+                                                            10
+                                    International Conference on Environmental Systems
+                                                                                                      Figure 12 - Nitrogen Purge of
+                                                                                                      Anode.
+and distribution of nitrogen. Nitrogen is used for two purposes. The first is to purge the cell stack anode upon
+system shutdown and startup (see Figure 12).
+     During prolonged shutdowns, hydrogen in the cathode compartment will migrate through the membrane to the
+anode compartment, which contains oxygen. A nitrogen purge will replace the oxygen with nitrogen, preventing a
+mixture of hydrogen and oxygen in the anode. The second purpose is to fill the hydrogen dome prior to removal
+from the system with nitrogen to create an inert condition for transportation. If the hydrogen dome is deleted, as
+proposed in this paper, the need for inerting the dome will be obviated.
+     The benefit of deleting the nitrogen purging
+equipment is a reduction in system complexity and
+weight. In addition, the vehicle design will be
+simplified since it will not be required to supply
+nitrogen to OGA.
+     Deleting nitrogen purging during the shutdown
+process will mean that oxygen in the anode will not
+be removed. It will also mean that the cathode
+pressure will be higher than the anode pressure, and
+that hydrogen will permeate through the membrane
+to the anode, where oxygen is. The hydrogen and
+oxygen should safely combine to form water, in the
+presence of catalyst.
+     Deleting nitrogen purging during the startup
+process will mean that any hydrogen that has
+permeated through the membrane during periods of Figure 13 - Cathode and Anode Pressure After
+dormancy could be vented out the oxygen outlet Shutdown.
+after startup. However, if hydrogen and oxygen
+combine to form water, then there should be very little hydrogen exiting out the oxygen outlet.
+     During the single cell testing (described in the previous section) at Giner, one of the cells was operated safely
+without any nitrogen purging for ten months. No safety issues or change in functional performance occurred. At
+UTAS, flight ISS OGA cell stacks are operated safely without nitrogen purging during ground testing.
+     The dev-OGA was modified in Feb 2014 to operate without nitrogen purging of the anode during shutdown and
+startup. To date, the dev-OGA has operated for 135 hours safely without any nitrogen purging.
+     Figure 13 shows the cathode/hydrogen (red line) and anode/oxygen (blue line) pressure after a shutdown of the
+dev-OGA without performing a nitrogen purge.
+After about 12 hours it can be seen that both sides of
+the cells equalize fairly closely in pressure (within 1
+psi). The decrease in hydrogen pressure (red line)
+indicates that hydrogen is permeating across the
+membrane from the cathode to the anode. The
+initial decrease in oxygen pressure (blue line) to
+sub-ambient pressure (10.5 psia) indicates that
+hydrogen permeating across to the anode and safely
+combining with oxygen to form water and not
+creating a hazardous condition.
+     Figure 14 shows the percent hydrogen present in
+the product oxygen (blue line) and the cell stack
+current (red line) during a startup without nitrogen
+purging. Once oxygen production begins (cell stack
+current increases to 23 Amps), the percent hydrogen Figure 14 - Percent Hydrogen in Oxygen and Cell
+in the oxygen outlet rises to 0.3 – 0.35% (blue line), Stack Current on Startup.
+still well below the lower flammability limit (LFL)
+of 4.0%. Table 3 shows the percent hydrogen in oxygen measured during other system startups without nitrogen
+purging. In all cases, the percent hydrogen in oxygen at startup is well below the LFL.
+
+
+
+
+                                                        11
+                                International Conference on Environmental Systems
+Table 3 - Percent Hydrogen in Oxygen on Startup.
+Date	       Percent	   Hydrogen	   in	   Oxygen	   Comment	  
+             During	  Startup	  
+2/25/14	    0.2%	                                     Startup	  after	  being	  shut	  down	  for	  1	  day	  
+3/3/14	     0.45%	                                    Startup	  after	  being	  shut	  down	  for	  3	  days	  
+6/26/14	    0.3%	                                     Startup	  after	  being	  shut	  down	  for	  112	  days	  
+7/1/14	     0.3%	                                     Startup	  after	  being	  shut	  down	  for	  5	  day	  
+
+   Safe operation of the dev-OGA without shutdown or startup nitrogen purging has been demonstrated in 2014.
+The dev-OGA will continue to be operated with nitrogen purging disabled in the future.
+   When nitrogen purging is deleted, liquid water is present in the oxygen outlet during startup. An average of 125
+mL of water is pushed out of the cell stack during each startup. A method for handling this liquid water in
+microgravity will need to be implemented.
+   One special case will need further analysis if nitrogen purging is deleted. In the event of a cross cell leak failure,
+where hydrogen and water could enter into the anode, no nitrogen purging will occur at shutdown.
+
+F. Replacing the Hydrogen Sensors with a Recombiner
+    The ISS OGA contains three independent hydrogen sensors to monitor
+for hydrogen in the product oxygen prior to being released into the ISS cabin
+atmosphere. The process controller shuts down the OGA if any of the
+sensors detect more than one percent hydrogen in oxygen. The presence of
+hydrogen in the product oxygen indicates a cross cell leak within the cell
+stack. The hydrogen sensors are sensitive to moisture. Condensation on the
+hydrogen sensor dies while being powered will cause permanent damage.
+To prevent condensation, heaters maintain the temperature above the dew
+point of the oxygen coming from the cell stack. After every system
+shutdown, the crew must connect the hydrogen sensors to a dry oxygen
+source to remove condensation. The hydrogen sensors must be returned to
+earth every 150 days for recalibration.
+    A recombiner is proposed as a replacement to the existing hydrogen
+sensors in the oxygen outlet line. A recombiner (aka catalytic reactor) is a
+simple device: a metal housing containing catalyst with integral
+thermocouples, as shown in Figure 15. An external heater is wrapped around Figure 15 - Recombiner Cross
+the housing to heat the catalyst, as shown in Figure 16. This will always Section.
+keep the catalyst temperature above the dew point of the incoming oxygen
+and prevent condensation on the catalyst. Exposed, unsheathed thermocouples are used for fastest response.
+    If hydrogen is present in the product oxygen stream, it will
+combine with the oxygen in the presence of the catalyst and release
+heat. The integral thermocouples will detect a temperature increase
+and the system can be safely shutdown. For adequate safety
+margin, 1% and greater hydrogen in oxygen will need to be
+detectable.
+    There are several benefits to replacing the current hydrogen
+sensors with a recombiner. The recombiner should be able to
+remain installed for years without the need for periodic removal and
+ground calibration. It will not require dry oxygen purging by the
+crew after every system shutdown.
+    Deactivation or poisoning of the catalyst is a long term concern Figure 16 - Recombiner with Heater.
+which will require further investigation in 2015.
+    A recombiner from Resource Systems, Inc. was tested under a range of conditions that would be seen in system
+operation: flow rates from 1.2 lpm to 4.5 lpm and dew points from 60 F to 85 F. The hydrogen in oxygen
+concentration was varied from 0 – 3.5% to simulate a cross cell leak in the cell stack.
+
+
+
+                                                                 12
+                                         International Conference on Environmental Systems
+    The response of the recombiner to 3.5%
+hydrogen in oxygen is shown in Figure 17 for the
+case of 4.5 lpm flow and 85 F dew point. In less
+than 10 seconds, a rapid increase in the inlet
+temperature (blue line) is seen. OGA system
+software can be configured to immediately
+shutdown the system once a rapid temperature
+increase is detected. Another positive point is that
+most of the hydrogen is removed by the
+recombiner. The measured amount of hydrogen in
+oxygen at the outlet (green line) is less than 0.5%
+(compared to 3.5% at the inlet). Table 4 shows
+the time for the recombiner temperature to reach
+130 F with 3.5% hydrogen in oxygen input, at
+various flow rates and dew points.
+
+                                                        Figure 17 - Recombiner Temperature
+                                                        Response to 3.5% H2/O2.
+
+
+
+Table 4 - Recombiner Response Time to 3.5% H2/O2.
+                     	   60	  F	  dew	  point	          72.5	  F	  dew	  point	     85	  F	  dew	  point	  
+1.2	  lpm	  flow	      6	  s	                           6	  s	                        8	  s	  
+4.5	  lpm	  flow	      4	  s	                           4	  s	                        5	  s	  
+
+    If a shutdown limit of 130 F for the recombiner temperature is in place, then the system will be shut down in 8
+seconds or less in the event of a cross cell leak. In all cases, the amount of hydrogen at the outlet is less than 0.5%.
+With a smaller cross cell leak, such as one resulting in 1% hydrogen in oxygen, the recombiner response time will
+be longer (on the order of 2 to 3 minutes), but should be acceptable since very little hydrogen allowed out to the
+cabin.
+
+G. Deleting the Wastewater Interface
+    Feed water is batch supplied to the ISS OGA to replace water consumed by electrolysis. Feed water flows
+through an inlet deionizing bed to remove iodine. Oxygen in the feedwater can coalesce in the inlet deionizing bed
+and oxygen bubbles will be released periodically out of the bed. Two gas sensors will detect this release and a
+three-way valve will divert the feed water to the wastewater bus and prevent oxygen gas bubbles from entering the
+RSA where it could mix with hydrogen gas. Once the feed water is clear of oxygen bubbles, the three-way valve is
+repositioned to allow water flow into the RSA. The system is protected from waste water back flow by physical
+and microbial check valves.
+    After eight years of operation, gas bubbles in the feed water have been detected occasionally. There are six
+known events (8/21/09, 11/14/09, 4/14/10, 12/19/13, 7/30/14, 8/12/14) where the feed water was diverted to the
+wastewater bus due to gas detected in the feed water. On 12/19/13, oxygen gas was detected in the feed water and
+allowed to go into the RSA (because the gas was detected
+downstream of the 3-way valve, it was not possible to send
+this oxygen bubble to the wastewater bus). After this
+event, the OGA continued to operate nominally.
+    If the wastewater interface were to be deleted from a
+future design, oxygen bubbles from the inlet deionizing
+bed would always be allowed to go into the RSA (where
+there is hydrogen and water) and not be diverted out of the
+system. There is a concern that there could be a
+deflagration within the RSA.
+    To understand the effect of allowing oxygen into the
+RSA, ground testing is proposed for 2015. A RSA test
+article was manufactured in 2014 and is shown in Figure
+                                                         13 Figure 18 - RSA Test Article.
+                                International Conference on Environmental Systems
+18.
+    The proposed test configuration is shown in
+Figure 19. The initial test condition of the RSA                                    RSA$Simulator$Test$Conﬁgura4on$
+will be as it is on-orbit: filled with the same ratio
+                                                                                                                            N2&
+of water and hydrogen. Next, oxygen will be
+introduced into the RSA.            The oxygen in
+hydrogen mixture will be gradually increased                            H2&                     CV& IsolaIon& FR&                       Water&
+from 0% to 100%, changing from the upper                                                             valve&
+                                                                                                                           Water&
+flammability limit to the lower flammability limit.                        CV&
+                                                                                                                           Tank&
+                                                           O2&                                3@way&valve&
+A stoichiometric mixture of hydrogen and oxygen                     CV&
+                                                                           CV& FR&
+                                                                                    Pressure&
+within the RSA will be tested. Cell stack catalyst                                  Sensor&
+
+will be introduced into the RSA, since there is a                       N2&
+                                                                                       Two&Phase&In&
+                                                                                                                             Regulator&
+concern that the catalyst could shed from the cell                                                              H2&sensor&
+                                                                                                                             30&psia&
+stack and collect in the RSA where it could                                                     Gas&Out&                                 Vent&
+
+promote an ignition. The RSA will be monitored                 Motor/&
+                                                               Pulley&
+                                                                                              Drain&port&
+
+for signs of deflagration throughout the test                                      RSA&Simulator&
+period. In the event that no ignition occurs, a
+stoichiometric mixture of hydrogen and oxygen
+(along with water) in the RSA will be purposely Figure 19 - RSA Test Schematic.
+ignited to determine the structural capability of
+the RSA.
+    If it can be shown that a detonation in the RSA is not credible when oxygen bubbles are allowed in from the feed
+water, then the wastewater interface will be deleted from the design.
+
+
+H. Replacing the Hydrogen Dome with a Shroud
+     The ISS OGA hydrogen dome encloses all hydrogen containing components: cell stack, RSA, valves, sensors
+and connecting tubing. The dome is connected to space vacuum and is maintained at a vacuum. The purpose of the
+dome is to detect hydrogen leakage out of the cell stack or RSA (via a pressure rise in the dome), contain hydrogen
+leakage and contain any possible
+detonation event.
+     There are commercial and military cell
+stacks that operate safely for thousands of                         Metering$
+hours without a dome. During ground                                 Valve$
+testing, the ISS OGA cell stacks are                                          Hydrogen$sensor$
+
+regularly operated safely without a dome.
+The dome was incorporated into the ISS                                        High$Flow$       Flow$        Module$
+                                                                              Recombiner$      Meter$
+OGA design out of an abundance of safety
+                                                                               T"      T"
+conservatism. The disadvantage of the                                                                 Blower$
+dome is that the internal components (cell
+stack, RSA, valves, sensors, etc.) are                            H2$
+                                                                  Leakage$
+                                                    Shroud$
+inaccessible to the crew for maintenance.                    Cell$
+If one of the components fails (such as a                    Stack$
+valve), the entire dome assembly (275 lb)                     RSA$
+will need to be replaced. In over eight
+years of operation on ISS and on the               Air$
+                                                   from$
+ground, no external leakage out of the cell        module$
+stack or RSA has occurred.
+     A removable shroud concept is
+proposed as a replacement to the dome for Figure 20 - Shroud Configuration.
+the dev OGA in 2015. The concept is depicted in Figure 20. Air, at a flow rate of 240 lpm, is forced over the cell
+stack and RSA. This air is then routed through a hydrogen sensor and recombiner. Hydrogen leakage will be
+detected via a temperature increase of the recombiner catalyst and the hydrogen sensor reading and the system will
+be safely shut down. The air flow rate is high enough so that even at the maximum hydrogen leakage rate (out of
+the cell stack or RSA), the mixture is below the lower flammability limit of 4%. Therefore, the shroud configuration
+still allows for external leakage detection while allowing crew maintenance of the internal components. Analysis
+                                                               14
+                                       International Conference on Environmental Systems
+and testing is proposed for 2015 to show that the cell stack and RSA will not credibly support an internal detonation
+that would lead to accelerated shrapnel that could be a crew hazard. Liquid water will also likely leak, along with
+the hydrogen. The effect of water possibly being ingested by the recombiner will need to be analyzed.
+
+
+I. Downsizing the Power Supply Module (PSM)
+    The ISS OGA PSM is a constant current power
+supply for the cell stack. It is able to provide over
+3800 Watts of power for electrolysis. The PSM is a
+modular design, containing 4 power converter units
+along with filter boards, control board, relay, etc. The
+internal configuration is shown in Figure 21. The
+PSM has a weight of 100 lb.
+    Since the oxygen production rate for a future OGA
+system will likely be less than one half of that of the
+ISS OGA, the output current of a future PSM design
+can be reduced by at least one half. A redesigned PSM
+could have two of the four power converters removed
+for weight savings (of about 30 lb). The remaining
+boards could be reoriented parallel to the converters
+for volume savings. Currently, there is no funding Figure 21 - PSM Internal Configuration.
+available to redesign the PSM in 2015.
+
+
+                          VI. Proposed Next Generation OGA Architecture
+    A proposed schematic for a
+next generation OGA is shown
+in Figure 22. The ISS OGA
+design is used as the basis, but
+with certain improvements
+incorporated.      The system
+includes a 28-cell stack with
+chemically stabilized Nafion
+membrane material.           The
+cathode feed configuration is
+retained, along with the RSA.
+No     nitrogen    purging     or
+wastewater       interface     is
+included.     A recombiner is
+shown in the oxygen outlet. A
+shroud with forced air flow over
+the cell stack and RSA is shown
+as a replacement to the vacuum
+dome. This air flow is routed
+through a recombiner for leak
+detection. By the end of 2015,
+the dev-OGA will be configured
+as shown in the proposed Figure 22 - Proposed Schematic for a Future OGA.
+schematic. Subsequently, the
+upgrades will be proposed for incorporation into the ISS OGA. Deleting the nitrogen purge and the wastewater
+interface could be easily implemented in the ISS OGA, with software changes and without launching new hardware.
+The other upgrades can be implemented, but would require the launching of new hardware.
+
+
+
+
+                                                        15
+                                International Conference on Environmental Systems
+                                                     References
+   1
+      B. Erickson, J. Howe, G. Kulp, and S. Van Keuren “International Space Station United States Orbital Segment Oxygen
+Generation System On-Orbit Operational Experience,” SAE 2008-01-1962, 38th International Conference on Environmental
+Systems, San Francisco, CA, July 2008.
+    2
+      R. Bagdigian, K. Prokhorov, “On-Orbit Checkout and Activation of the ISS Oxygen Generation System,” SAE 2007 2007-
+01-3182, 37th International Conference on Environmental Systems, Chicago, IL, July 2007.
+    3
+      R. Bagdigian, D. Cloud, and J. Bedard, “Status of the Regenerative ECLSS Water Recovery and Oxygen Generation
+Systems”, SAE 2006-01-2057, 36th International Conference on Environmental Systems, Norfolk, VA, July 2006.
+
+
+
+
+                                                         16
+                                 International Conference on Environmental Systems
+

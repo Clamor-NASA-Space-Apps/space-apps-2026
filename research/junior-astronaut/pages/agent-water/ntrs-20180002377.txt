@@ -1,0 +1,510 @@
+Extraction of Water from Martian Regolith Simulant via Open Reactor Concept
+Andrew J. Trunek 1, Diane L. Linne 2, Julie E. Kleinhenz 3, Steven W. Bauman 4
+1
+ NASA, Materials and Structures Division, 21000 Brookpark Rd,
+Cleveland OH, 44135; email: Andrew.J.Trunek@nasa.gov
+2
+ NASA, Propulsion Division, 21000 Brookpark Rd, Cleveland OH, 44135;
+email: Diane.L.Linne@nasa.gov
+3
+ NASA, Propulsion Division, 21000 Brookpark Rd, Cleveland OH, 44135;
+email: Julie.E.Kleinhenz@nasa.gov
+4
+ NASA, Materials and Structures Division, 21000 Brookpark Rd,
+Cleveland OH, 44135; email: Steven.W.Bauman@nasa.gov
+
+
+
+
+ABSTRACT
+To demonstrate proof of concept water extraction from simulated Martian regolith, an
+open reactor design is presented along with experimental results. The open reactor
+concept avoids sealing surfaces and complex moving parts. In an abrasive environment
+like the Martian surface, those reactor elements would be difficult to maintain and
+present a high probability of failure. A general lunar geotechnical simulant was
+modified by adding borax decahydrate (Na2B4O7·10H2O) (BDH) to mimic the ~ 3
+percent water content of hydrated salts in near surface soils on Mars. A rotating bucket
+wheel excavated the regolith from a source bin and deposited the material onto an
+inclined copper tray, which was fitted with heaters and a simple vibration system. The
+combination of vibration, tilt angle and heat was used to separate and expose as much
+regolith surface area as possible to liberate the water contained in the hydrated
+minerals, thereby increasing the efficiency of the system. The experiment was
+conducted in a vacuum system capable of maintaining a Martian like atmosphere.
+Evolved water vapor was directed to a condensing system using the ambient
+atmosphere as a sweep gas. The water vapor was condensed and measured. Processed
+simulant was captured in a collection bin and weighed in real time. The efficiency of
+the system was determined by comparing pre- and post-processing soil mass along with
+the volume of water captured.
+
+
+Paper Content
+I. Introduction
+The concept of using local resources to reduce, supplement, and replace essential items
+required but not transported to an area of interest is not new. When those resources are
+tailored for the production of propellant and life-sustaining consumables, it is termed
+in-situ resource utilization (ISRU). NASA’s plans for human exploration of Mars have
+considered ISRU early on in mission development, Drake (2009). The Mars Design
+Reference Architecture 5.0 (DRA 5.0) called for the production of oxygen from the
+
+
+
+                                           1
+Mars atmosphere as enabling technology, Drake (2010). However, the harvesting of
+water from soil for life support and fuel production was recognized as offering
+additional mission benefits, but considered too immature to be included in the baseline.
+Since that 2009 DRA report, additional robotic and orbital missions to Mars have
+greatly increased our knowledge about near surface water. It has been confirmed that
+globally, near surface regolith contains anywhere from 2-10 percent water by mass,
+Abbud-Madrid (2016), Mouginis-Mark (1987), Vaniman (2004). Thus, the focus on
+concepts for the extraction and harvesting of water from the surface of Mars, for its
+importance as fuel and life sustaining capabilities, has accelerated. Near surface is
+accepted to mean up to one meter in depth. This water is present is in the form of frost,
+ice, or bound to other materials like smectites (clays) and poly-hydrated sulfates
+(gypsum), and other hydrated minerals. Near-infrared spectroscopy mapping has
+confirmed the presence of H2O and OH- at the surface (~100 μm) from 3-13 percent as
+described by Audouard (2014). A recent planning study revisited the potential and
+challenges of water-based ISRU on Mars, Abbud-Madrid (2016), with a specific focus
+on harvesting the water in the near-surface materials like smectites. Smectites and clays
+are of interest as they tend to have a good amount of water content and fairly low
+decomposition temperature, Abbud-Madrid (2016). Therefore, it should be easier to
+exploit this resource versus other materials. This paper focuses on a unique method for
+water extraction from hydrated materials.
+Even with the strong evidence for the presence of water, extraction of that resource is
+not trivial and is compounded by low temperatures and low atmospheric pressure,
+Leovy (2001). ISRU concepts for extraction and capture methodologies in a Martian
+environment need to be developed and evaluated. The Martian atmosphere, albeit thin
+at ~7 Torr, should be
+sufficient to support an
+open reactor design
+according      to    Linne
+(2016). While an open
+reactor might sacrifice in
+overall          extraction
+efficiency, its simplicity
+may lead to a very robust
+system. An open reactor
+eliminates              the
+requirement for reusable,
+high-temperature seals
+that must survive in a
+harsh,            abrasive
+environment. In one
+embodiment, a reactor
+mounted on a rover
+would          continually
+                            Figure 1: Working design model for open reactor concept.
+harvest water from the
+
+
+
+                                           2
+Martian regolith as the rover/excavator roams the surface using the Martian atmosphere
+as a sweep gas. This paper discusses test results of the extraction of water from Martian
+regolith utilizing an open reactor design in partially simulated Martian environment,
+figure 1.
+II. Experimental
+General
+The design of the test system focused on evaluation of several key concepts in a
+simulated Martian environment:
+         Utilize the native atmosphere as a sweep gas for water vapor transport in an
+          open reactor design
+         Simulate the excavation of soil using a transverse bucket wheel
+         Efficiently separate, heat, and transport soils employing a vibrating tray
+         Evaluate the efficiency of a chilled condenser’s ability to extract and collect
+          the water vapor.
+This ISRU concept employed an open reactor design that relied solely on the thin, low-
+pressure Martian atmosphere to transport (i.e., sweep gas) evolved water vapor to a
+chilled condensing system. A transverse bucket wheel was employed in the design to
+excavate soil and deposit it on a flat tray. While in actual operation the bucket wheel
+would be mounted on a moving excavator, to mimic this robotic approach in a static
+environment, simulant was loaded in a source bin that was continuously raised into the
+bucket wheel to provide a source of fresh simulant. Previous tests showed that a
+transverse bucket wheel excavator works well in low-gravity as the excavator wheels
+or tracks provide sufficient counter-force for the digging motion, Skonieczny (2011).
+
+
+
+
+           Figure 2: The MACS system with cover on and simulated image
+           of the system. All ISRU runs were conducted in this system.
+
+
+
+
+                                           3
+The transverse bucket wheel delivered the soil to an inclined (10°) tray where the soil
+was simultaneously heated, distributed, and transported to a collection bin. Water vapor
+baked out of the hydrated simulant was transported to an external condenser through a
+ducted fan configuration and collected. The Martian Atmospheric Chemistry Simulator
+(MACS) was used to maintain a Martian-like environment (7 Torr CO2) for the water
+extraction demonstrations, figure 2.
+
+
+Regolith Excavation and Depositing
+The system was scaled to fit within
+the MACS system, which is 61 cm
+in diameter and 61 cm in height. A
+scaled bucket wheel utilized 3D-
+printed plastic scoops fastened to
+an aluminum hub, figure 3. The
+number of buckets, tilt angle of the
+buckets, and rotating speed of the
+wheel could all be varied to Figure 3: Bucket wheel design model and soil
+maximize initial soil distribution deposition during initial test setup.
+across the leading edge of the tilt
+tray. The scoop angle was set to achieve the most uniform distribution of soil onto the
+vibe tray during the upper crossing arc. Each scoop has a nominal capacity of 13 cm3.
+The rotational speed of the bucket wheel was controlled by a variable speed motor with
+gear reduction (216:1) allowing for 0-12 RPM operation. Because this is a stationary
+system, and one of the concepts to be evaluated is the simulation of a rover excavating
+regolith, the soil source bin was moved instead. Tension springs moved the bin upwards
+into engagement with the bucket wheel, and continued this feed motion as the test
+progressed.
+Separation, heating and transport of regolith
+ The heart of the reactor is the inclined copper vibration tray
+(tilt tray), figure 4. Copper was chosen for its high thermal
+conductivity. The rectangular plate was configured such that
+the leading edge of the tray fit very close to the scoop wheel.
+This minimized loss of soil as it was dumped on the tilt tray
+from the bucket wheel. The tilt tray was supported by four
+springs that allow for vibratory motion. Vibration was
+generated by a single small DC motor turning an off-set           Figure 4: Copper tilt
+weight. The combination of vibration, tilt angle, and gravity     tray with uniform soil
+transported the soil down the length of the tilt tray to the      distribution. Heaters
+collection bin. Rapid vibration helped distribute the soil.       are mounted on the
+The depth of the soil varied, with most of the soil being less    backside.
+
+
+
+                                             4
+than 0.5-cm thick as it travelled down the tray, although there were isolated regions
+where soil accumulated in little mounds and approached 1-cm in depth. The thin soil
+layer encouraged rapid heating of the regolith via conduction to maximize the heat
+transfer efficiency of the system.
+Heating of the vibe tray and ultimately the soil was accomplished by two commercially
+available adhesive-backed electric resistance heaters attached to the underside of the
+tilt tray. High temperature insulation covered the heaters to minimize heat loss. The tilt
+tray temperature was set at 150 °C such that the soil on the tilt tray should reach the
+target temperature of 100 °C. After some experimentation in air, the tray angle was set
+at 10° to allow sufficient residence time for the soil to reach the 100 °C target
+temperature. At the end of the tilt tray, processed soil dropped into a collection bin
+where a load cell provided real time weighing of the soil.
+
+
+Sweep gas and Condenser
+A flow of simulated Martian atmosphere is
+directed over the heated soil particles to transport
+the liberated water vapor to the condenser. The
+condenser is a double walled tube; the water vapor
+flows through the outer tube, which is sealed to the
+chamber, while coolant flows through the inner
+wall. Condensed water collects in a drip line
+consisting of a graduated cylinder, figure 5. The
+dry gas is returned to the chamber to complete a
+closed loop, which is required to maintain the low
+Mars atmospheric pressure, figure 6. Two pressure
+transducers monitored the inlet and outlet
+                                                        Figure 5: External condenser
+pressures. The sweep flow is generated with two
+                                                        collection tube. Scale assists
+small fans located at the inlet and outlet of the with estimating volume.
+condenser line. The first fan pulls the sweep gas Graduated cylinder used for
+down the tilt tray and pushes it into the condenser, accurate volume measurements.
+while a second fan pulls the sweep gas through the
+condenser and pushes it back into the chamber. A shroud fits over the tilt tray to
+minimize the cross sectional area above the heated soil, increasing the efficiency of the
+sweep gas. As the soil drops into the collection bin, the moisture saturated sweep gas
+is ducted into the condenser line through the first fan. A small raised metal lip separates
+the soil path from the sweep gas. No filters were used to mitigate ingestion of dust into
+the condenser. However, the collected water was analyzed to assess filtration needs for
+future designs. The condenser was maintained at 0° C for all experimental runs.
+
+
+
+
+                                            5
+Hydrated Regolith Simulant
+                                                              Transport and heat soil
+Since this initial test program was a proof of
+concept, a low fidelity soil simulant was used.
+A good hydrated Mars regolith simulant for
+future testing is still being determined. Lunar
+regolith simulant GRC-3 was used for this
+testing since it was a readily available, low cost
+granular material. It has also been well
+characterized, He (2011), Zimmerman (2016).                 External condenser
+
+Borax decahydrate (Na2B4O7·10H2O) (BDH) Figure 6: Circular sweep gas
+was added to the simulant to provide a hydrated flow path.
+mineral for water release. The heating system
+used in this testing could not achieve the temperatures needed to dehydrate the Mars
+hydrates in reference materials in Abbud-Madrid (2016). Borax was chosen because it
+contains a substantial amount of water and dehydrates at temperatures that can be
+reasonably attained in this proof of concept design.
+Baseline measurements
+Three baseline measurement tests were conducted. The first was to determine the
+maximum efficiency of the condensing system using liquid water. The second baseline
+measurement determined the efficiency of water removal from borax, while the third
+was to determine how much, if any, moisture might be contributed by the soil simulant
+GRC-3, e.g. from adsorbed water.
+The condenser capability was tested using an initial volume of 68 ml of water. The
+liquid was placed in heated petri dish inside the MACS. The MACS pressure was
+reduced from ambient to ~7 Torr. The water temperature was monitored by
+thermocouple. In order to keep the water from freezing due to adiabatic cooling, heaters
+on the petri dish maintained the water temperature above 0 °C. Once the system
+attained 7 Torr the fans were turned on to direct water vapor to the condenser. This
+condition was maintained for a period of one hour and 58 ml of water was recovered
+in the condenser, leaving 10 ml unrecovered. It is assumed that most of the lost volume
+can be attributed to the pump down stage, where the vacuum pump would have
+expelled water vapor to the vent line. The efficiency of the system was calculated to be
+85.3 percent.
+
+
+
+
+                                           6
+The next baseline measurement focused on the efficiency of water extraction from
+BDH. The goal would be to reduce the BDH to anhydrous borax (Na2B4O7). However,
+of the ten water molecules, two of the water molecules exist as hydroxyl groups and
+can only be liberated by molecular decomposition at much higher temperatures.
+Therefore, only eight loosely bound water molecules were targeted. BDH can be
+transformed to borax pentahydrate (Na2B4O7.5H2O) starting at temperatures of 59 °C,
+as described by Sahin (2002). BDH experiences a physical transformation as water is
+evolved from the molecule. It puffs up substantially with a noticeable increase in
+volume and decrease in density, figure 6. The change in physical appearance provides
+a good visual indicator if water is indeed being evolved through heating. The tray was
+blocked such that all of the BDH remained stationary on the tray for the duration of the
+
+
+
+
+  BEFORE                                       AFTER
+
+   Figure 7: Changes to borax provide physical evidence of water extraction.
+test. Once the system was evacuated down to 7 Torr pressure, the heaters and fans
+where turned on. The test was performed with 200 g of lab grade BDH, which consists
+of 75.6 g water available for release. The BDH was heated to the target temperature of
+150 °C and maintained at a minimum of 150 °C for 21.8 min. The borax weighed 180
+g, post run indicating that 20 g of H2O, or 26.5 percent of the available water, had
+evolved. The condenser captured a total of 13.5 g of water. In this case the efficiency
+of the system is 67.5 percent and is in sharp contrast to the 85.3 percent attained with
+liquid water. The reason for the difference in efficiencies is undetermined.
+The final baseline measurement was to determine the amount of water that might be
+evolved from the GRC-3 itself. Being a high surface area material it is possible water
+molecules may be attached to GRC-3 particulates. Because the GRC-3 material was
+not being stored in a dry box or other controlled environment, it had the potential to
+adsorb water molecules. GRC-3 is known to hold about 0.4 percent water by mass at
+standard room conditions. To duplicate the conditions that were used with the water
+extraction runs, 2200 g of GRC-3 was loaded into the source soil bin. The system was
+brought to the starting pressure of 7 Torr and 400 g of GRC-3 was processed at a tilt
+tray temperature of at least 150 °C. The condenser had almost no moisture in the
+
+
+
+                                           7
+collection tube and was estimated to be 8 drops. Therefore, any water contribution from
+the GRC-3 was considered negligible.
+Experimental Runs
+For each run, BDH was added to GRC-3 soil and thoroughly mixed to achieve a
+uniform distribution with a 4.2 percent water content by mass. All of the runs used
+2000 g of GRC-s and 200 g of BDH. The simulant mixture was placed into the source
+soil bin and the system sealed and evacuated to 7 Torr. In order to replicate the Martian
+atmosphere CO2 was introduced into the chamber at a flow rate of 100 sccm’s
+beginning at atmospheric pressure and continuing until the set point pressure of 7 Torr
+is achieved. Once steady state conditions were achieved (7 Torr pressure, tilt tray
+≥150°) the CO2 flow and vacuum valves were closed. The bucket rotation was turned
+on with a rotation speed of 5 rpm, which at room conditions achieved a good
+distribution of soil on the heated tray to allow sufficient soil residence time to achieve
+desired heating. However, soil transport down the tilt tray was significantly faster under
+vacuum conditions so the soil temperature failed to reach the target temperature by at
+least 50 °C. A small amount (< 2 cc’s) of water was liberated but volume was too small
+to measure accurately.
+ In the remaining runs the bucket wheel rotation was operated in a stop and go motion
+to regulate the amount of soil on the tilt tray and maintain a tray temperature of 150 °C
+or greater. Although the source soil bin is capable of holding more than 2 kg of material
+the bucket wheel’s efficiency dropped off markedly as the soil was depleted, and
+therefore the remaining runs were terminated when approximately one-fourth of the
+loaded simulant was processed.
+Results
+Four runs were conducted with an average post-processed soil mass of 469 g of soil
+processed and an average of 8.3 cc of water captured. An accurate determination of the
+efficiency of the system was complicated by the difficulty in measuring the exact
+amount of soil and BDH processed, coupled with widely different results from baseline
+measurements. Assuming that the BDH was uniformly distributed within the GRC-3
+       Table 1: Potential water mass and recovery efficiency
+       calculated from post processed mass only.
+
+                  Processed Potential  Water        Estimated
+                   mass, g  water, g collected, g Efficiency , %
+
+                      446         15.3           7             45.6
+                      488         16.8           9             53.6
+                      444         15.3           9             58.9
+                      497         17.1           8             46.8
+          Avg        468.8        16.1          8.3            51.2
+
+
+
+                                            8
+and that the processed material was uniformly heated, the system efficiency based on
+post processed soil mass, could be calculated as shown in Table 1. A more accurate
+approach would be to calculate the total potential releasable water in the soil, and from
+that, the water extraction efficiency however this requires knowing the initial
+(unreacted) soil mass. An estimate was made for the initial soil mass by adding the
+mass of water captured to the post-processed soil mass, Table 2. This estimated initial
+soil mass does not account for water that was released but not captured in the
+condenser, and therefore has a bias error lower than the actual initial mass. Water
+extraction efficiency for the system, defined by dividing the captured water by the total
+potential water in the initial soil, is also listed in the table, and represents a slight
+positive bias from actual efficiency (bias error estimated to be less than 0.5 percent).
+             Table 2: Potential water mass and recovery
+             efficiency assuming all water was recovered.
+
+                       Pre-Processed Potential      Estimated
+                       mass estimate, g water , g Efficiency , %
+                             453          15.6          44.9
+                             497          17.1          52.6
+                             453          15.6          57.8
+                             505          17.4          46.1
+
+               Ave           477.0        16.4           50.3
+                     Table 3: ICP-AES analysis of extracted water.
+                        ICP-AES Analysis of extracted water
+              concentration               concentration               concentration
+    Element       µg/mL        Element        µg/mL        Element       µg/mL
+        Al               0.06      Al                0.06     P                   0.1
+        B                  3.2     Ca               17.71     S                   1.0
+        Ba              0.044      Na                  9.1    Si                  6.3
+        Ca              17.71      Si                  6.3    Sr               0.057
+        Cu               0.03      B                   3.2    Ti               0.001
+        Fe               0.01      K                   1.9    Mo                0.04
+        K                  1.9     S                   1.0    Cu                0.03
+        Mg               0.97      Mg                0.97     Fe                0.01
+        Mn              0.002      P                   0.1    Mn               0.002
+        Mo               0.04      Sr               0.057     Ti               0.001
+        Na                 9.1     Ba               0.044
+Future work to better calibrate the efficiency of the condensation system would allow
+a more precise calculation of initial mass and therefore overall system water extraction
+efficiency. The average water collection efficiency for the system was slightly better
+than 50 percent, with a range from 45 to 58 percent over the four runs. The water
+
+
+
+
+                                           9
+collected was analyzed by two separate methods; inductively coupled plasma atomic
+emission spectroscopy ICP-AES and x-ray photoelectron spectroscopy (XPS), which
+are shown in Table 3 and Table 4 respectively. There was excellent agreement between
+both methods. Calcium, sodium, silicon, potassium and boron were the primary
+elements detected. The absolute quantities differed as each method uses different
+techniques. However, the rankings of the elements were similar. ICP-AES did detect
+small amounts of other elements (Mg, Mn, Sr, S). In this study no filtering of the gas
+stream into the condenser was performed and it is likely microscopic dust particles
+from the GRC-3 is the major source of the elemental contamination.
+
+
+
+                      Table 4: XPS analysis of extracted water
+                XPS Analysis of Evaporated Water on Glass Slide
+                                 Atomic Concentrations (at.%)
+     Area        O     C   Si   Na Al Mg N Ca Cl B                    K    F     S
+   Reference
+    Glass 1      44   33   15   4.9 0.3 0.2 1.3 0.9 0.1 <.1 <.1
+   Reference
+    Glass 2      43   34   14   6.3 0.3 0.3 1.3 0.8 <.1 <.1 <.1
+   Reference
+    Glass 3      48   25   16    7    0.6 0.6 1.6 0.9 <.1 <.1 <.1
+
+    Water
+   Residue 1     45   32   11   5.1 0.4 0.4 2.6 1.4 0.6 1.4 0.3
+    Water
+   Residue 2     45   35   13   1.7 0.9 0.3 2.1 1.9 0.1 0.9 0.1
+    Water
+   Residue 3     40   37   10   4.5 0.5 0.3 2.2 0.8 0.3 1.6 0.1 2.4 0.4
+    Water
+   Residue 4     47   31   16   2.2 0.5 0.2      2   0.8 0.1 0.4 0.1
+
+Conclusions
+A set of experiments tested performance of a conceptual water extraction system for
+use on Mars hydrated regolith. The open reactor concept uses the Mars atmosphere as
+a sweep gas to transport evolved water vapor to a collection system. The tests have
+shown that at an atmospheric pressure of 7 Torr CO2 there is sufficient molecular gas
+density to allow the native Martian atmosphere to be used as an effective sweep gas.
+The water recovery efficiency of the initial breadboard hardware system was
+approximately 50 percent, with greater efficiency possible upon design iteration. The
+system concept was predicated on sacrificing efficiency for the ruggedness offered by
+eliminating the need for high temperature seals in the dusty, abrasive environment.
+
+
+
+                                         10
+With 50 percent collection efficiency as a lower bound for what is achievable, this
+concept shows considerable promise.
+Further testing and design improvement will include refinement of the soil transport
+along the heated tray. The vibratory motion, the angle of the tray, the speed of the
+bucket wheel, and the bucket dimensions can be examined to increase residence time
+and soil distribution along the tray. During this test program the tray configuration
+actually transported the material too efficiently at low pressure, preventing the soil
+from being sufficiently heated. The fact that this tray configuration was selected based
+upon performance in one atmosphere of air and terrestrial gravity highlights the
+importance of testing these types of systems in relevant environments.
+The condensed water exhibited a substantial amount of calcium, sodium, silicon and
+boron present. These elements give clear evidence of dust particle contamination of the
+sweep gas as it is being directed into the condenser. This information regarding
+contamination will feed into the design of the downstream ISRU systems including the
+water capture and clean up systems. Kleinhenz (2016) illustrates how a water extraction
+system like this one may be used in a larger Mars ISRU system.
+Continued testing of this open reactor concept is on-going under the NASA Advanced
+Exploration Systems ISRU Technology Development Project. Currently the data
+presented here is feeding into modeling efforts, which will help identify parameter
+optimization and design improvements.
+References
+    1. Abbud-Madrid, A., D.W. Beaty, D. Boucher, B. Bussey, R. Davis, L.
+       Gertsch, L.E. Hays, J. Kleinhenz, M.A. Meyer, M.Moats, R.P. Mueller, A.
+       Paz, N. Suzuki, P. van Susante, C. Whetsel, E.A. Zbinden, 2016, Report of
+       the Mars Water In-Situ Resource Utilization (ISRU) Planning (M-WIP)
+       Study; 90 p, posted April, 2016 at http://mepag.nasa.gov/reports.cfm.
+    2. Audouard, Joachim, et al. "Water in the Martian regolith from
+       OMEGA/Mars Express." Journal of Geophysical Research: Planets 119.8
+       (2014): 1969-1989.
+    3. Drake, Bret G., editor, “Human Exploration of Mars Design Reference
+       Architecture 5.0,” NASA-SP-2009-566, July 2009.
+    4. Drake, Bret G., Stephen J. Hoffman, and David W. Beaty. "Human
+       exploration of Mars, design reference architecture 5.0." Aerospace
+       Conference, 2010 IEEE. IEEE, 2010
+    5. He, Chunmei, Xiangwu Zeng, and Allen Wilkinson. "Geotechnical
+       properties of GRC-3 lunar simulant." Journal of Aerospace Engineering 26.3
+       (2011): 528-534.
+    6. Kleinhenz, Julie, and Diane L. Linne. Preparation of a frozen regolith
+       simulant bed for ISRU component testing in a vacuum chamber. National
+       Aeronautics and Space Administration, Glenn Research Center, 2013.
+
+
+
+
+                                          11
+7. Kleinhenz, J.E. and Paz, A. An ISRU Propellant Production System to Fully
+    Fuel a Mars Ascent Vehicle. AIAA SciTech Forum 2017. American Institute
+    for Aeronautics and Astronautics. AIAA-2017-0423
+8. Leovy, Conway. "Weather and climate on Mars." Nature 412.6843 (2001):
+    245.
+9. Linne, Diane L., et al. "Extraction and Capture of Water from Martian
+    Regolith Experimental Proof-of-Concept." (2016).
+10. Mouginis-Mark, Peter J. "Water or ice in the Martian regolith? Clues from
+    rampart craters seen at very high resolution." Icarus 71.2 (1987): 268-286.
+11. Sahin, Omer, and A. Nusret Bulutcu. "Dehydration behaviour of borax
+    pentahydrate to anhydrous borax by multi-stage heating in a fluidized."
+    Turkish Journal of Chemistry 26.1 (2002): 89-96.
+12. Skonieczny, Krzysztof, et al. "Advantageous bucket-wheel configuration for
+    lightweight planetary excavators." (2011).
+13. Vaniman, David T., et al. "Magnesium sulphate salts and the history of water
+    on Mars." Nature 431.7009 (2004): 663-665.
+14. Zimmerman, Yuru Li. Developing a Lightweight Martian Simulant and a
+    Miniature Triaxial Device for Lunar and Martian Soils. Diss. Case Western
+    Reserve University, 2016.
+
+
+
+
+                                    12
+

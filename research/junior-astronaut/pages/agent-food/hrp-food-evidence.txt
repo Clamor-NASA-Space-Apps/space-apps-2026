@@ -1,0 +1,1635 @@
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+Evidence Report:
+
+Risk of Performance Decrement and Crew Illness
+Due to an Inadequate Food System
+
+Michele Perchonok, Ph.D.          NASA Johnson Space Center
+
+Grace Douglas, Ph.D.              NASA Johnson Space Center
+
+Maya Cooper, M.S.                 Lockheed Martin
+
+
+
+
+Human Research Program
+Space Human Factors and Habitability Element
+
+
+Approved for Public Release: June 26, 2012
+
+
+National Aeronautics and Space Administration
+Lyndon B. Johnson Space Center
+Houston, Texas
+
+
+                                                                                        1
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+Table of Contents
+
+I. PRD RISK TITLE: Risk of Performance Decrement and Crew Illness Due to an
+Inadequate Food System ………………………………………………………………...…                                     3
+II. EXECUTIVE SUMMARY ……………………………………………………………..                                         3
+III. INTRODUCTION ……………………………………………………………………..                                          3
+IV. SAFETY ………………………………………………………………………………...                                            6
+       A. Space Food Safety Background
+       B. Evidence for Inadequate Food Safety During Spaceflight and from Ground-
+          based Testing
+       C. Inadequate Food Safety in Context of Exploration Missions
+V. NUTRITION …………………………………………………………………………….                                             8
+       A. Space Food Nutrition Background
+       B. Evidence of Inadequate Nutritional Content of Food and Intake During
+          Spaceflight
+       C. Inadequate Nutritional Content of Food and Intake in Context of
+          Exploration Missions
+       D. Evidence of Inadequate Nutritional Content of Food and Intake for
+          Exploration Missions – Ground and Spaceflight Research
+VI. ACCEPTABILITY ……………………………………………………………………..                                          15
+       A. Space Food Acceptability Background
+       B. Evidence of Inadequate Acceptability During Spaceflight
+       C. Inadequate Acceptability of Food in Context of Exploration Missions
+       D. Evidence of Inadequate Acceptability of Food for Exploration Missions –
+          Ground and Spaceflight Research
+VII. RESOURCE UTILIZATION ………………………………………………………...                                      22
+       A. Space Food System Resource Utilization Background
+       B. Resource Use During Spaceflight
+       C. Constraining Food System Resource Use in Context of Exploration Missions
+       D. Evidence of Constraining Food System Resource Use for Exploration
+          Missions – Ground and Spaceflight Research
+VIII. CONCLUSION ……………………………………………………………………….                                           27
+IX. REFERENCES …………………………………………………………………………                                             28
+X. TEAM …………………………………………………………………………………….                                               32
+XI. LIST OF ACRONYMS ………………………………………………………………...                                        33
+
+
+
+
+                                                                                            2
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+I.    PRD Risk Title: Risk of Performance Decrement and Crew Illness Due to an
+Inadequate Food System (AFT)
+
+    Description: Performance is critical for mission success. If the food system is not safe,
+nutritious, and acceptable, then crew health and performance and the overall mission may be
+adversely affected. Furthermore, careful attention must be paid to the resources allocated to
+sustain an adequate food system in order to avoid unduly depriving other systems of essential
+resources.
+
+II.    Executive Summary of Evidence for Risk
+
+         NASA is preparing for long duration manned missions beyond low-Earth orbit that will
+be challenged with long-term exposure to the space environment and very limited resupply.
+Productive, reliable, and safe human space exploration depends on an adequate food system to
+provide the crew with safe, nutritious, and acceptable foods for up to 5 years with minimal
+impact to mission resources.
+         The food system is the sole source of nutrition to the crew. A significant loss in nutrition,
+either through loss of nutrients in the food during processing and storage or inadequate food
+intake due to low acceptability, variety, or usability, may significantly compromise crew health
+and performance. Recent research has indicated that the current food system will not meet the
+nutrition, acceptability, or resource requirements of a long duration mission beyond low-Earth
+orbit. The current shelf life is only 1.5 years and several key nutrients degrade in many foods
+prior to the targeted 5 year shelf life. Additionally mass, volume, waste, and disposal issues
+presented by the current packaging must be addressed.
+         Alternative provisioning strategies, such as inclusion of a bioregenerative system, reduce
+initial resource use and add fresh foods that may benefit crew health but also increase
+infrastructure and crew time requirements. A bioregenerative system also introduces the
+possibility of food borne illness and food scarcity, which may compromise mission success.
+Current preflight procedures and the use of prepackaged provisions have ensured food safety so
+far, but there is currently no technology to enable efficient testing of a bioregenerative system in
+a resource constrained environment.
+         Current research is investigating strategies to increase the shelf life of a prepackaged food
+system, decrease use of vehicle resources, and determine the most effective way to balance
+resource use with provisioning of an adequate food system. The paramount importance of the
+food system in a long-duration manned exploration mission must not be underestimated. The
+food system provides not only the nutrients needed for the survival of the crew, but also
+enhances their psychological well being by being a familiar element in an unfamiliar and hostile
+environment. This document presents the evidence for the Risk of Performance Decrement and
+Crew Illness Due to an Inadequate Food System and the gaps that remain.
+
+III.   Introduction
+
+       The primary goal of the Advanced Food Technology Project (AFT) is to develop
+requirements and technologies that will enable NASA to provide an adequate food system
+characterized by the provision of safe, nutritious, and acceptable food to the crew. The
+requirements of the food system must balance with available vehicle resources such as mass,
+
+                                                                                                    3
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+volume, waste, and crew time during exploration missions. AFT is a project within the Space
+Human Factors and Habitability (SHFH) Element with the Human Research Program (HRP)
+objective of developing capabilities and technologies in support of human space exploration,
+focusing on mitigating the highest risks to crew health and performance. Further details on HRP
+can be found at http://humanresearch.jsc.nasa.gov/about.asp.
+        The space program food system must advance in preservation and packaging
+technologies in order for mission lengths to increase. With the exception of Skylab, there has not
+been a refrigerator or freezer on board dedicated for food storage. Therefore, the food must be
+shelf-stable. This requires inactivation of the microorganisms in the food during ground
+processing before flight. While processing the packaged foods to commercial sterility provides a
+safe food system, this level of processing can reduce the nutrition and acceptability of the food.
+
+   The different forms in which food has been provided include the following:
+
+   1.      Thermostabilized - This process, also known as the retort process, heats food to a
+   temperature that renders it free of pathogens, spoilage microorganisms and enzyme activity.
+   Food items are placed into cans or pouches and then heat processed with steam-overpressure
+   or water-overpressure to remove excess air/oxygen for specified times and temperatures to
+   render the food commercially sterile.
+
+   2.      Irradiated - Irradiation is not typically used to process foods to commercial sterility.
+   However, NASA has special dispensation from the Food and Drug Administration (FDA) to
+   prepare nine irradiated meat items to commercial sterility (FDA, 2011b). Irradiation involves
+   the use of gamma rays, x rays, or electrons, and uses energy levels that assure negative
+   induction of radioactivity in the irradiated product. It controls naturally occurring processes
+   such as ripening or senescence of raw fruits and vegetables, and is effective for inactivation
+   of spoilage and pathogenic microorganisms.
+
+   3.     Rehydratable - A number of technologies are available that allow for the drying of
+          foods.
+   Examples of these technologies are drying with heat, osmotic drying, and freeze drying.
+   These processes reduce the water activity of foods, which results in the inability of
+   microorganisms to thrive.
+
+   4.      Natural form - Natural form foods are commercially available, shelf-stable foods.
+           The
+   moisture of the foods may range from low moisture (such as almonds and peanuts) to
+   intermediate moisture (such as brownies and dried fruit). These foods rely on reduced water
+   activity in order to prevent microbial activity.
+
+   5.     Extended shelf-life bread products - Items such as scones, waffles, and dinner rolls
+          can be
+   formulated and packaged to give them a shelf life up to 18 months.
+
+   6.      Fresh Food - Foods such as fresh fruit, vegetables, and tortillas that have a short shelf
+           life
+
+                                                                                                   4
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+   are provided on a limited basis, more for psychological support than as a part of meeting
+   dietary requirements.
+
+
+   7.       Beverages - The beverages currently used on the International Space Station (ISS) are
+   either freeze dried beverage mixes (such as coffee or tea) or flavored drinks (such as
+   lemonade or orange drink). The drink mixes are prepared and vacuum sealed inside a
+   beverage pouch. In the case of coffee or tea, sugar or powdered cream can be added. Empty
+   beverage pouches are also provided for drinking water.
+
+        A prepackaged food system has been used for each NASA space program, including the
+current 6-month ISS missions. This food system, with some fresh food supplementation, has
+been enabled by periodic resupply opportunities that are possible in low Earth orbit. ISS
+crewmembers have subsisted on this food system, but a nutritional issue is indicated by post-
+flight vitamin analysis of crew blood, plasma, and urine samples (Smith et al., 2005). The
+probability that the current food system will be inadequate increases with mission length and
+distance from Earth, especially without the benefit of fresher foods and produce from resupply.
+Missions to an asteroid or Mars may be 1-3 years in length and will require technologies to be
+developed so that the crew is more self-sufficient and less dependent on resupply missions. The
+complete supply of food will need to be transported for the entire mission duration, which will
+heavily constrain available upmass.
+        The high mass and volume of a prepackaged food system may require the food to be
+shipped separately from the crew. Pre-positioned food may be 3-5 years old at the time of
+consumption. Currently, NASA’s prepackaged foods have a stated shelf life of 1.5 years, far
+short of the 5 years required for Mars missions. Shelf-life criteria include safety, nutrition, and
+acceptability, any of which can be the limiting factor. In addition, once out of low Earth orbit
+space radiation increases, the nutritional content and acceptability of the foods may be reduced.
+In order to provide an adequate food system, all possible provisioning strategies must be
+considered, including incorporation of a bioregenerative system and packaging scenarios that
+protect the food and reduce mass, volume, and waste. The research that AFT conducts focuses
+on gaps in the ability of the space program to provide an adequate food system for long duration
+missions. The following are gaps for this risk identified in the HRP Integrated Research Plan:
+
+
+AFT1: How can the food system deliver the required level of nutrition throughout the mission?
+
+AFT2: How can the nutrition and acceptability of the food system be maintained throughout the
+mission?
+
+AFT3: How can the acceptability of the food system be maintained throughout the mission?
+
+AFT4: What technologies can be developed that will efficiently balance appropriate vehicle
+resources such as mass, volume, and crewtime during exploration missions with the safety,
+nutrition, and acceptability requirements?
+
+
+
+
+                                                                                                  5
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+       This report defines food safety, nutrition, and acceptability criteria, and addresses
+concerns with vehicle resources. Evidence is presented for the gaps in current food system
+scenarios that create the Risk of Performance Decrement and Crew Illness Due to an Inadequate
+Food System. The type of evidence provided is labeled according to HRP’s Categories of
+Evidence:
+
+Evidence Category I: At least one randomized, controlled trial.
+
+Evidence Category II: At least one controlled study without randomization, including cohort,
+case-control, or subject operating as own control.
+
+Evidence Category III: Non-experimental observations or comparative, correlation, and case or
+case-series studies.
+
+Evidence Category IV: Expert committee reports or opinions of respected authorities based on
+clinical experiences, bench research, or “first principles.”
+
+IV.    Safety
+       A. Space Food Safety Background
+
+       Food safety is defined by the absence of a health risk due to physical, chemical and
+microbiological contamination. The food system must be designed to ensure that the initial
+provisions are shelf stable, safe from contamination, and are packaged to remain safe for the
+mission duration in a range of environmental conditions. Microbiological contamination of food
+can negatively affect crew health and possibly compromise crew survival.
+       Microbiological safety is currently ensured through processing with the Hazard Analysis
+and Critical Control Points (HACCP) system, and Good Manufacturing Practices (GMPs).
+HACCP is a systematic and preventive approach to food safety that was developed by NASA,
+the United States Army Laboratory, and the Pillsbury Company in the 1960’s. GMPs include
+employee qualifications and training, sanitation, recordkeeping, process validation, and facilities
+and equipment maintenance and verification (FDA, 2011a).
+       The use of thermostabilization, irradiation, and drying (rehydratables) provide shelf stable
+foods and prevent a health risk from microbial contamination. After processing, the
+thermostabilized and irradiated food items are tested for pouch integrity and for swelling to
+determine whether adequate heat was applied to the food to produce commercial sterility
+(Evidence Category IV). Safe rehydratable foods depend on high quality ingredients and clean
+surfaces with minimal microorganism contamination at the beginning of the process. However,
+there still can be viable microorganisms in the food. Therefore, rehydratable foods and natural
+form foods are tested for viable microorganisms before flight. Food microbiological safety is
+monitored by the Johnson Space Center’s (JSC) Microbiology Laboratory to ensure that
+preparation and packaging procedures result in products that conform to established microbial
+standards for flight foods. Table 1 lists the items tested and the associated limits (NASA, 2011).
+
+Table 1. Microbiological Testing for Flight Food Production
+Area/Item                       Microorganism Tolerances
+Food Production Area            Samples Collected*                  Limits
+
+                                                                                                  6
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+Surfaces                         3 surfaces sampled per day       3 CFU/cm2
+Packaging Film                   Before use                       (Total aerobic count)
+Food Processing Equipment        2 pieces sampled per day
+Air                              1 sample of 320 liters           113 CFU/320 liters
+                                                                  (Total aerobic count)
+Food Product                     Factor                           Limits
+                                 Total aerobic count              20,000 CFU/g for any single
+                                                                  sample (or if any two samples
+                                                                  from a lot exceed 10,000
+                                                                  CFU/g)
+                                 Coliform                         100 CFU/g for any single
+                                                                  sample (or if any two samples
+                                                                  from a lot exceed10 CFU/g)
+                                 Coagulase positive               100 CFU/g for any single
+Non-thermostabilized**           Staphylococci                    sample (or if any two samples
+                                                                  from a lot exceed10 CFU/g)
+                                 Salmonella                       0 CFU/g for any single sample
+                                 Yeasts and molds                 1000 CFU/g for any single
+                                                                  sample (or if any two samples
+                                                                  from a lot exceed 100 CFU/g
+                                                                  or if any two samples from a
+                                                                  lot exceed 10 CFU/g
+                                                                  Aspergillis flavus)
+Commercially Sterile Products No sample submitted for             100% inspection for package
+(thermostabilized and         microbiological analysis            integrity
+irradiated)
+
+*Samples collected only on days that food facility is in operation
+** Food samples that are considered “finished” product that require no additional
+repackaging are only tested for total aerobic counts
+
+
+       B. Evidence for Inadequate Food Safety During Spaceflight and from Ground-
+          based Testing
+
+       Incidences of gastrointestinal distress have been recorded by crewmembers during
+missions, but none of these cases have been attributed to a food borne illness (Crucian et al.,
+2009; Hawkins and Zieglschmid, 1975). Instances of spoiled food packages on orbit have been
+recorded once a year on average and have not been documented to result in food borne illness
+(Evidence Category III). The crew is trained to identify bloated packages or spoiled foods and
+they are instructed to discard them. Passage of this inspection does not ensure that the food is
+safe.
+       There have been instances where rehydratable foods did not pass microbiological
+specifications due to contamination from mold, yeast, or bacterial pathogens detected during
+preflight testing. Dr. C. Mark Ott from the JSC Microbiology Laboratory reported that 51 out of
+7221 products failed to meet the microbiological specifications (Table 1) between 2007 to 2011
+
+                                                                                               7
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+and hence were not approved for Shuttle and ISS flights. Though only a small number of the
+samples failed, even one contaminated food lot can result in crew illness and possibly death
+during a mission (Evidence Category I). The use of HACCP, good manufacturing practices,
+standard operating procedures, and finished product testing of processed and prepackaged foods
+should prevent food borne illness events during space missions, but the rare occurrence of
+spoiled food on ISS suggests that there is always a small risk of food borne illness during flight.
+
+       C. Inadequate Food Safety in Context of Exploration Missions
+
+        Safety issues may become more important for prepackaged foods during long-duration
+exploration missions. If prepackaged foods are prepositioned on the Mars surface, then the food
+packages may be compromised prior to the crews’ arrival. The possibility of food borne illness
+will also increase with the implementation of a bioregenerative food system on an extraterrestrial
+surface. Fresh food, bulk ingredients, processing and meal preparation will provide the crew
+with more variety and the potential for increased quality and nutrition, but food safety and
+availability will no longer be ensured as it is through ground-based processing, packaging, and
+safety testing (Evidence Category IV). It is necessary to reach a certain temperature/time
+combination to ensure safety. Heat and mass transfer are affected by partial gravity and reduced
+atmospheric pressure. Consideration must be given to the changes in environment and the
+processing equipment and procedures that will be required to ensure safe food processing on an
+extraterrestrial surface.
+        If fresh fruits and vegetables are consumed without a heating (cooking) step, there is
+potential for microbial contamination, food borne illness, and death, as demonstrated by the
+commercial produce-related Escherichia coli outbreaks in recent years (Aruscavage et al., 2006;
+Bielaszewska et al., 2011) (Evidence Category III). The possibility of produce contamination
+followed by illness in a closed environment with carefully controlled procedures has not yet been
+evaluated. It is essential to identify sources of contamination during food production,
+processing, and preparation in a controlled closed loop system, and determine safety procedures
+and testing methods to prevent possible food borne illness. Mission loss or major impact to crew
+health would likely occur if this risk is not quantified and reduced.
+        Recent evidence indicates that consumption of probiotic bacteria promotes human health
+(Azcarate-Peril et al., 2011; Clancy et al., 2006; Leyer et al., 2009; Ohland and Macnaughton,
+2010) (Evidence Category I). Investigations into the effects of probiotic strains on human
+immunity during spaceflight might lead to incorporation of some strains into the space food
+system. If probiotics are incorporated, protocols will be required to ensure pure bacteria cultures
+are safely added and meet shelf life requirements (Cooper et al., 2011b).
+
+V.     Nutrition
+
+      A. Space Food Nutrition Background
+
+       Adequate nutrition has two components – 1) necessary nutrients and 2) caloric energy
+(protein, carbohydrate, and fat). It is possible to consume sufficient calories without adequate
+nutritional intake, resulting in deficiency diseases that diminish health, impact performance and
+in extreme cases lead to loss of life. Therefore, it is essential that the crewmembers are provided
+
+
+
+                                                                                                      8
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+with the required level of each nutrient throughout their missions. Table 2 summarizes the
+nutritional requirements (NASA, 2011).
+
+
+
+Table 2. Nutrition Composition Breakdown
+Nutrients                                        Daily Dietary Intake
+Protein                                          0.8 g/kg
+                                                 And ≤ 35% of the total daily energy intake
+                                                 And 2/3 of the amount in the form of animal
+                                                 protein and 1/3 in the form of vegetable protein
+Carbohydrate                                     50-55% of the total daily energy intake
+Fat                                              25-35% of the total daily energy intake
+Ω-6 Fatty Acids                                  14 g
+Ω-3 Fatty Acids                                  1.1 - 1.6 g
+Saturated fat                                    <7% of total calories
+Trans fatty acids                                <1% of total calories
+Cholesterol                                      < 300 mg/day
+Fiber                                            10-14 grams/4187 kJ
+Fluid                                            ≥ 2000 mL
+Vitamin A                                        700-900 μg
+Vitamin D                                        25 μg
+Vitamin K                                        Women: 90 μg
+                                                 Men: 120 μg
+Vitamin E                                        15 mg
+Vitamin C                                        90 mg
+Vitamin B12                                      2.4 μg
+Vitamin B6                                       1.7 mg
+Thiamin                                          Women: 1.1 μmol
+                                                 Men: 1.2 μmol
+Riboflavin                                       1.3 mg
+Folate                                           400 μg
+Niacin                                           16 mg NE
+Biotin                                           30 μg
+Pantothenic Acid                                 30 mg
+Calcium                                          1200 - 2000 mg
+Phosphorus                                       700 mg
+                                                 And ≤ 1.5 x calcium intake
+Magnesium                                        Women: 320 mg
+                                                 Men: 420 mg
+                                                 And ≤ 350 mg from supplements only
+Sodium                                           1500 - 2300 mg
+Potassium                                        4.7 g
+Iron                                             8 - 10 mg
+Copper                                           0.5 - 9 mg
+
+                                                                                               9
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+Nutrients                                         Daily Dietary Intake
+Manganese                                         Women: 1.8 mg
+                                                  Men: 2.3 mg
+Fluoride                                          Women: 3 mg
+                                                  Men: 4 mg
+Zinc                                              11 mg
+Selenium                                          55 - 400 μg
+Iodine                                            150 μg
+Chromium                                          35 μg
+
+      B. Evidence of Inadequate Nutritional Content of Food and Intake During
+         Spaceflight
+
+       The importance of nutrition in the adaptation of astronauts to weightlessness has been
+recognized since the Gemini program (Rambaut et al., 1975). Nutritional data from past
+missions indicate the health risk of inadequate caloric and nutrient intake, especially as mission
+length increases. Crewmembers often experienced reduced appetite, possibly due to a
+combination of effects such as fluid shifts, pressure changes, nausea, and work load (Rambaut,
+Smith et al., 1975; Smith, Zwart et al., 2005). Throughout Mercury, Gemini, and the Apollo
+missions, weight losses were noticed with few exceptions (Smith et al., 1975). Caloric intake
+during these missions was consistently below quantities necessary to maintain body weight.
+Although the National Academy of Sciences National Research Council Recommended Daily
+Dietary Allowance (RDA) is 2,870 kcal/day, the mean energy intake during these missions was
+only 1,880 +/- 415 kcal/day. The inadequacy of specific nutrients in the Apollo diet
+compounded the issues from insufficient caloric intake. Apollo food provided only marginal
+amounts of nicotinate, pantothenate, thiamine, and folic acid (Rambaut, Smith et al., 1975). The
+occurrence of arrhythmias in Apollo 15 astronauts was attributed to a potassium deficiency in the
+space food system (Smith, Heidelbaugh et al., 1975). The potassium deficiency in this short-
+term mission was mitigated in later missions through potassium supplementation. (Evidence
+Category III)
+       Longer term effects of space travel on nutritional profiles of astronauts have been
+documented through physiological changes during the 3 to 6-month long Mir and ISS
+Expeditions (Smith et al., 1999; Smith, Zwart et al., 2005). Body mass and nutrient contents in
+urine, blood, plasma, and serum were measured post-flight in some ISS crew members and
+statistically compared to preflight baselines. Of particular concern were the decreased levels of
+several vitamins and minerals in the urine, blood, plasma, and serum. For example, Vitamin D
+levels, antioxidant capacity, γ-tocopherol levels, and folate levels were all significantly lower
+post-flight, creating malnutrition concerns during ISS Expeditions. The reduced caloric intake
+on ISS Expeditions (around 80% of recommended intake during space flight), as documented in
+2005, led to an average weight decrease of 5%, potentially explaining some of the measured
+nutrient decreases (Smith, Zwart et al., 2005). Body mass losses in some ISS and Mir
+crewmembers have been measured as high as 10-15% (Lane et al., 2007; Smith, Wastney et al.,
+1999; Smith et al., 2009). (Evidence Category II)
+       The recorded body mass losses are particularly concerning considering that a study on
+hunger strikers estimated that body mass losses around 30% resulted in death (Leiter and
+Marliss, 1982). It has been suggested that the inadequate nutritional profiles of astronauts in
+
+                                                                                               10
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+most space missions confound all other medical data interpretation (Smith, Zwart et al., 2009).
+The Skylab crews, who were required to eat enough to meet their caloric needs, preserved body
+mass (Thornton and Ord, 1975). More information on inadequate nutrition can be found in the
+Evidence Report for the Risk Factor of Inadequate Nutrition (Smith, Zwart et al., 2009).
+
+      C. Inadequate Nutritional Content of Food and Intake in Context of Exploration
+         Missions
+
+        Crews on long duration missions may only have access to foods that have been stored for
+5 years by the end of their mission. Preliminary results indicate that current space food
+technology is not adequate to maintain the nutritional content of the food for 5 years. Inadequate
+delivery of a single nutrient or insufficient caloric intake may result in reduced cognitive
+function and physical capability (Friedl and Hoyt, 1997), limiting crew ability to complete
+mission critical tasks. Extended periods of malnutrition could result in crew illness and possibly
+death. Inadequate nutritional content of the food could delay a long duration mission beyond
+low-Earth orbit even if all other mission elements are ready.
+
+      D. Evidence of Inadequate Nutritional Content of Food and Intake for Exploration
+         Missions – Ground and Spaceflight Research
+
+         Food loses nutrients through processing and during storage, and may not have the
+expected nutritional content when consumed. Changes in vitamin content of certain processed
+foods stored at various temperatures for 2 years demonstrates the potential for significant
+degradation (Kamman et al., 1981; Kim et al., 2000; Kramer, 1974; Lund, 1975; Pachapurkar
+and Bell, 2005). Canned fruits and vegetables stored for 2 years at 80°C showed losses in
+ascorbic acid, riboflavin, and thiamin as high as 58%, while the same products held at 50°F only
+showed maximum losses of 38% (Cameron et al., 1955) (Evidence Category I). Currently, the
+commercial food industry does not require foods with shelf lives of more than 2 years (Evidence
+Category III), so little research exists past this point.
+         Nutrient changes during processing and throughout the shelf life of processed foods
+include isomerization of vitamins or vitamin precursors, changes in bioavailability of amino
+acids and vitamins as the food structure is broken down, and nutrient degradation, including
+oxidation of several vitamins and amino acids (Chen et al., 1995; Dewanto et al., 2002; Graziani
+et al., 2003; Gregory, 1996; Rock et al., 1998; Seybold et al., 2004). Bioavailability of vitamins
+may be more important than overall quantity in a food, as other components in the diet and the
+form of the vitamin may influence absorption and function. Bioavailability of vitamins in
+individual foods may vary, making the knowledge of nutrient availability as critical as overall
+quantity (Gregory, 1996) (Evidence Category I).
+         The ability of the food to meet the nutritional requirements and its potential for use
+during long duration missions can only be determined when the nutritional profile of the entire
+space food system is known at the time when the food is consumed. Until recently, there was
+limited empirical nutritional data for flight foods. Macronutrients and some minerals were
+determined chemically at the JSC Water and Food Analytical Laboratory (WAFAL) but many
+micronutrients were only calculated with a computerized nutrient database (Genesis R&D)
+developed by the USDA and the food industry. The level of processing required for shelf stable
+food safety, followed by storage at ambient temperature can reduce the nutritional quality of the
+
+                                                                                                11
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+food. Additionally, environmental conditions, such as the higher radiation levels expected
+during planetary missions, may contribute to nutrient losses. While lower storage temperatures
+would increase nutritional stability, exploration vehicles will not likely have the available mass
+or power to provide cold storage for food (Perchonok and Bourland, 2002) (Evidence Category I
+and IV). In the absence of empirical nutrient data specific to the space food system it is
+unknown whether the processing, storage, and environmental effects are accurately reflected in
+the computerized nutrient database, or whether these processed foods would be nutritionally
+adequate if consumed after 5 years of storage.
+         It is critical to accurately measure the degradation rate of nutrients in each flight food
+over the required shelf life, identify foods where degradation is a concern, and determine
+mitigation strategies in order to prevent deficiencies on these missions. All foods provided in the
+flight food system must be nutritionally stable through the end of long duration missions to
+prevent nutrient deficiencies associated with individual crewmember food choice. Nutrient
+degradation due to deep space radiation must also be determined in order to accurately resolve
+nutritional inadequacies.
+         Extensive extravehicular activities (EVA) and emergency contingency for extended crew
+time in pressurized suits (over 100 hours) will increase the risk of inadequate nutrition. EVAs
+will require no less than an additional 200 kilocalories above nominal metabolic intake, similar
+in nutrient composition to the rest of the diet, per EVA hour (NASA, 2011) (Evidence Category
+II). Currently, there is no effective delivery method for providing nutrition to the crew during
+extended time in a pressurized suit. This would be especially concerning over a multiple day
+event in which crewmembers are expected to be cognitively functioning and physically capable
+of performing tasks required for safe return. The insufficient nutritional delivery capabilities and
+lack of accurate nutrient data create one of the gaps for this risk.
+
+AFT1: How can the food system deliver the required level of nutrition throughout the mission?
+
+        Several recent projects have analyzed the adequacy of the nutritional availability in some
+spaceflight foods (Cooper et al., 2011a). Currently, 24 vitamins and minerals are being measured
+in each NASA food item one month, one year, and three years post-processing (Evidence
+Category I). The foods in this study are processed according to current space readiness protocol
+and then stored at 72°F for up to three years. Results one month after processing demonstrate
+that computer generated nutrient estimates are not always accurate predictions of post-processing
+nutrient profiles (Figure 1) (unpublished data) (Cooper, 2012a).
+
+
+
+
+                                                                                                 12
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+
+
+                                       300.00
+
+
+
+
+      Average Calories per 100 grams
+                                       250.00                                                      Cereals/
+                                                                                                    Breads
+
+                                       200.00                     Desserts
+
+
+                                       150.00                                     Entrées
+                                                            Starches/
+                                                   Dairy     Lentils
+                                       100.00                     Fruits
+
+                                                                  Soups    Vegetables
+                                        50.00
+
+                                         0.00
+                                                0.00       2.00            4.00             6.00              8.00   10.00
+                                          Relative nutrient density (18 vitamins & minerals) per 100
+                                                              grams consumed
+        Figure 1. Analytical nutritional profile (solid circles) compared to estimated nutritional
+profile (dotted circles) of 87 NASA space food items. Nutritional profiles were generally
+underestimated by the Genesis R&D computer software.
+
+        The food subsets that have currently been tested one month post-processing indicate that
+empirically measured nutritional profiles are often superior to predicted profiles, likely due to the
+use of high quality ingredients in spaceflight foods. However, degradation of Vitamins A and C,
+and folic acid is significant in several products, with losses as high as 100% (Cooper, 2012a).
+        Specific food matrices and some forms of vitamins used for fortification seem to offer
+protection against losses during heat processing and subsequent oxidation during storage
+(Cooper, 2012a) (Evidence Category III). Vitamin A concentrations decreased significantly in
+food matrices susceptible to oxidation, such as split French-style green beans, but increased in
+other products, such as carrot coins. Vitamin A stability was attributed to oxidation protection
+provided in specific food matrices, coupled with vacuum packaging. The elevated Vitamin A
+concentrations measured in some products is likely due to increased extractability of carotenoids
+as the products age (Rickman et al., 2007). Vitamin C is especially susceptible to oxidation, and
+was unstable in many food items. Vitamin C was shown to be stable in fortified products when
+
+                                                                                                                             13
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+added in a form compatible with processing, and in foods with matrices similar to those that
+provided Vitamin A stability.
+        Thiamin appears to be present and relatively stable at low levels in several foods, but
+most of these foods are not a good thiamin source. Bread products are a good source of thiamin
+even after one year of storage. Folate stability was product specific, with some fortified foods
+exhibiting greater stability than natural sources with similar matrices. Alternatively, riboflavin
+was less stable in fortified products compared to foods where it was present naturally.
+Riboflavin and niacin degradation did not appear to be a concern in most products after one year
+of storage. Other vitamins demonstrated sufficient stability across the food system and
+deficiency is not likely after one year as long as a variety of foods are consumed (Cooper,
+2012a).
+        After one year of storage fortified beverage powders demonstrated superior stability in
+many nutrients including Vitamins A and C, thiamin, and folate. The stability of the fortified
+nutrients can be attributed to 1) their addition after the drying step, 2) the inhibition of chemical
+reactions due to the low a w and, 3) the packaging of dried powders in high barrier foil pouches
+under vacuum (Cooper, 2012a).
+        Vitamin D is not present consistently in the space food system, even one-month post-
+processing. The deficit of Vitamin D, due largely to lack of exposure to sunlight, has always
+been mitigated with a supplement on ISS.
+         Currently, only a small subset of foods has been analyzed at the three year time point.
+For most products, nutrient stability or degradation continued in a similar pattern to what was
+observed after one year (Cooper, 2012a), although further nutrient degradation kinetic
+measurements are required to confirm a pattern. This indicates that many foods consumed three
+years post-processing do not provide the expected nutritional content. The promising
+preliminary evidence of nutrient stability of several fortified products and the indication that
+specific food matrices offer protection from oxidation suggest that further studies with food
+formulation, matrices, and process improvement may enable a prepackaged food system to
+provide adequate nutrients over a long duration mission.
+        Ground-based studies have provided the bulk of nutrient degradation data for spaceflight
+foods, but it is critical to understand how the space environment will impact nutrition over
+storage. Cost and mass constraints have limited the available food nutritional data after exposure
+to spaceflight. Currently, nutritional profiles have only been measured for five food items
+exposed to low Earth orbit (Evidence Category I). These foods received a cumulative radiation
+dose of 74.53 mGy over 880 days on ISS, which did not cause a significant decrease in the 30
+nutrients measured. However, folic acid, thiamin, and Vitamins K and C decreased and lipid
+peroxidation increased over the 880 days in orbit similarly to samples stored on Earth (Zwart et
+al., 2009), providing further evidence for the loss of nutrients from the space food system over
+long duration storage.
+        While radiation in low Earth orbit did not compromise the nutrition in this limited test
+sample, the effects of continual exposure to mixed types of radiation in deep space are unknown
+(Zwart, Kloeris et al., 2009). Mitigation strategies, which may include the addition of
+antioxidants to the food, may help prevent the formation of free radicals that contribute to food
+spoilage (Gandolph et al., 2007; Wilson et al., 2007). In the case of a bioregenerative food
+system, radiation may affect the plants’ ability to germinate and grow or affect resulting
+functionality in the absence of sufficient protection (Wilson, Perchonok et al., 2007).
+
+
+
+                                                                                                  14
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+         Further research and innovative technologies might enable shelf stable food to provide
+nutrition for long duration missions, but the ability to deliver this nutrition during contingency
+operations requiring a pressurized spacesuit in a hypobaric, microgravity environment is
+currently not possible. The importance of effective in-suit nutrition delivery in an emergency
+event, such as depressurization of the crew vehicle, becomes critical depending on the length of
+time.
+         Preliminary concept and hardware analysis addressing in-suit nutrition delivery supports
+the use of a liquid product capable of meeting the kinematic and dynamic viscosity range
+compatible with potential delivery interfaces (unpublished data, Evidence Category IV) (Catauro
+and Glass, 2011). A product must be identified or developed that meets nutritional, sensory, and
+suit waste requirements. Currently, no commercial product has been identified that meets all
+spaceflight requirements. In fact some options would supply toxic levels of several nutrients if
+enough of the product were provided to be the only source of nutrition.
+         Preliminary glove box tests utilizing a liquid product were unsuccessful due to challenges
+with food behavior in the absence of pressure and under differential pressure during entry of a
+spacesuit (unpublished data) (Catauro and Glass, 2011). Issues with powder solubility, trapped
+air leading to vapor pressure buildup, ineffective dispensing of liquid through the pressure
+differential created by the pressurized suit, and potential microbial concerns must be resolved.
+Although several mechanical designs were proposed to enable liquid to be dispensed into the
+suit, funding for the project was terminated due to changes in agency direction (Catauro and
+Glass, 2011). Further development of a dispensing system and identification or development of
+a nutritional, acceptable liquid product is critical to prevent malnutrition during suited
+contingency operations.
+
+VI.    Acceptability
+
+      A. Space Flight Acceptability Background
+
+       Food acceptability can be defined and determined in several ways. First is in terms of
+sensory acceptability, including appearance, flavor, texture, aroma, and serving temperature.
+Currently, flight foods are evaluated for sensory acceptability by a panel of 30 or more
+consumers. The sensory attributes of the products are rated using a 9.0-point Hedonic Scale,
+where 9 is the highest acceptability score (Chambers and Wolf, 1996). Food products must
+receive an overall score of 6.0 or higher to be included in the space food system. Similarly, prior
+to their mission, crewmembers evaluate the foods, and those scored 6.0 or higher are included in
+their personal preference containers. Second, food system variety and usability are factors in
+defining acceptability. A large variety of food is recommended to provide the crew choices and
+to avoid menu fatigue. If the food is difficult to prepare or eat, then the overall acceptability of
+the food is reduced (Smith, Heidelbaugh et al., 1975). Finally, food acceptability can be affected
+by the social context and timing of meals. Food and mealtimes can play a primary role in
+psychological-social benefits by promoting unity and reducing the stress and boredom of
+prolonged space missions.
+
+      B. Evidence of Inadequate Acceptability During Spaceflight
+
+      The acceptability of the food system has been linked to caloric intake and associated
+
+                                                                                                 15
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+nutritional benefits. If the food is not acceptable to the crew, then the crew will not eat an
+adequate amount and will be compromised nutritionally. Large improvements and advances in
+the space food system were achieved during the Apollo food program with the addition of
+thermostabilized and irradiated foods (Perchonok and Bourland, 2002). Nevertheless, the
+majority of Apollo astronauts did not consume sufficient nutrients and experienced loss of body
+weight, fluids, and electrolytes with few exceptions (Smith, Heidelbaugh et al., 1975).
+        A historical database reviewing the Apollo experience was generated based on 14
+surviving Apollo astronauts’ responses to 285 questions (Scheuring et al., 2007). The
+identification of medical issues during Apollo 7 through 17 provided evidence to modify medical
+requirements for future exploration missions (Scheuring, Jones et al., 2007). The astronauts
+answered 28 questions in 11 categories relating to food and nutrition, providing 76 responses and
+8 recommendations. It was reported that reduced food consumption may be partially attributed to
+a combination of physiological effects such as fluid shifts, pressure changes, nausea, issues
+preparing food, issues with the water system, and work load, but acceptability and familiarity of
+the food were also critical to consumption (Rambaut, Smith et al., 1975; Scheuring, Jones et al.,
+2007). Changes in the sensory perception of the food were noted between ground-based taste
+tests and Apollo and Shuttle missions, making it important to understand the effect of pressure
+and fluid shifts on sensory perception. Apollo crewmembers have also stated that the cabin
+temperature was cold and having hot water for hot drinks was important, and provided a
+psychological boost (for example, having coffee in the morning) (Scheuring, Jones et al., 2007).
+(Evidence Category III)
+        Consistently during ISS crew debriefs, the crews have stated that their food preferences
+change from preflight to flight (documents not published due to confidentiality). Similar to
+Apollo and Shuttle, the crews have also noted that their tastes for certain foods change in
+microgravity and they may crave different foods on orbit compared to on Earth. (Evidence
+Category III)
+        ISS crews have noted in crew debriefs that they would prefer more food variety for
+the length of the missions and they tire of certain foods over 6 months. When the menu
+cycle repeated after only 8 days (as opposed to the current 16-day menu cycle for ISS
+missions), the crews noted that there was not enough variety in the menu (document not
+available externally due to confidentiality). Since the diets of the crewmembers during a
+mission are limited to just those items available, the long-term acceptability of some items may
+decrease.
+        Currently, food resupply on ISS is dependent on allotment of cargo space and crew size
+predictions. Food stowage is not allotted on every resupply vehicle so food may be sent into
+orbit months in advance of a crew’s arrival. Sudden reductions in crew size result in extra food
+on orbit that must be consumed. This results in consumption of some foods after three years of
+storage, which decreases acceptability and intake. ISS crews have recently consumed some
+foods three years post-processing, necessitated by resupply schedules and changes in crew size.
+Crewmembers have reported that these foods have decreased in acceptability, some to the point
+where they are no longer consumed (Evidence Category III).
+
+      C. Inadequate Acceptability of Food in Context of Exploration Missions
+
+      Crews on long duration missions may only have access to foods that have been stored for
+5 years towards the end of their mission. Current space food technology is not adequate to
+
+                                                                                              16
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+maintain food acceptability for 5 year missions. Inadequate food acceptability decreases food
+consumption, and may affect crew nutrition and psychosocial health, limiting crew ability to
+complete mission critical tasks (Friedl and Hoyt, 1997). Inadequate acceptability of the food
+could delay a long duration mission beyond low-Earth orbit even if all other mission elements
+are ready.
+
+      D. Evidence of Inadequate Acceptability of Food for Exploration Missions – Ground
+         and Spaceflight Research
+
+        Sensory acceptability can be affected by factors such as serving temperature, product age
+and formulation, storage environment, variety, and place of consumption. Food acceptability
+may also indicate nutritional degradation. Food quality (color, texture, etc.) may provide a
+general indication of nutritional loss of the food (Lund, 1988). There are two acceptability gaps
+contributing to this risk. One gap (AFT2) combines tasks that simultaneously address nutrition
+and food quality through processing, packaging, and storage environment. A second gap (AFT3)
+addresses the physiological and psychological aspect of food acceptability. AFT has conducted
+several HRP studies to address these gaps over the past few years.
+
+AFT 2: How can the nutrition and acceptability of the food system be maintained throughout the
+mission?
+
+      Changes in food, whether nutritional or quality, occur through chemical reactions. All
+chemical reactions in food adhere to the simple general rate equation of
+
+                                             d A          n
+                                                    k A
+                                              dT
+where A is the quality attribute being measured, T is the time, k is the rate constant, and n is the
+reaction order (Labuza and Schmidl, 1985). After testing confirms which chemical reaction in a
+food will determine the ultimate shelf life endpoint, reactions rates are calculated. These
+reactions can serve as models to theoretically determine shelf life in similar foods.
+        Most quality reactions in food are zero or first order. Zero order reactions have a
+constant change in quality over time. Typical zero order reactions (n = 0) are enzymatic
+browning, non-enzymatic browning, and lipid oxidation. Typical first order reactions (n = 1) are
+protein and most vitamin deterioration, and microbial growth. Although not many reactions in
+food are second order (n = 2), it has been reported that in limited oxygen, the degradation of
+Vitamin C is second order (Labuza, 1982).
+        The Q10 is a measure of how the rate changes for every 10°C change in temperature.
+Q10 is defined as
+
+                                Q10 = Shelf life at temperature T°C
+                                      Shelf life at temperature (T°C + 10)
+
+       If a reaction that changes the product color happens in half the time at 10°C higher
+temperature, then the Q10 = 2 (Perchonok, 2002).
+       Since food is not a model system, it is not simple to estimate Q 10; however, typical
+Q10 values are shown in Table 3. Table 3 shows that there is no definitive Q10 for a given
+
+                                                                                                  17
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+category of food and that each type must be tested to determine its own Q 10. A food may have
+several Q10 values, each contributed by different reactions, such as lipid oxidation and Maillard
+browning (Perchonok, 2002).
+        With Q10 values calculated, product shelf life can be projected using the formula:
+
+                                              ts = t0e-aT
+       where:
+       ts = shelf life desired
+       t0 = shelf at a reference temperature
+       a = slope of the line equal to lnQ10/10
+       T = temperature difference between temperature at which the shelf life, ts, is desired
+and the reference temperature
+
+                    Table 3. Q10 values for various food preservation methods
+                       Food Preservation Method               Q10
+                       Thermally Processed                    1–4
+                       Dehydrated                             2 – 10
+                       Frozen                                 3 – 40
+
+        Shelf life information may be collected at a faster rate using accelerated shelf-life
+testing (ASLT) and the Q10 value. ASLT requires three storage temperatures 1) a control
+temperature where no changes are expected to occur through shelf life, 2) the expected storage
+temperature, and 3) an elevated temperature to accelerate reactions rates. The reaction rates and
+resulting shelf life at the elevated temperature can be used to determine the shelf life at the
+current temperature using the Q10 value (Perchonok, 2002). However, the elevated temperature
+may cause changes that would not normally occur in foods at regular storage temperature, such
+as melting, protein denaturation, and increased water activity (Labuza and Schmidl, 1985).
+These changes must be considered when analyzing shelf-life data.
+        The complexities of food structure and variety of components make food a dynamic
+system, which increases the difficulty in quantifying changes with kinetic models. The loss of
+vitamins to leaching, whether the vitamins are consumed in the leach liquid, the loss of nutrients
+during thermal processing, and the potential for increases in nutrient bioavailability as the food
+matrix is broken down during processing create an ambiguous picture of the actual nutritional
+content of processed foods. While the literature attempts to quantify the changes in nutritional
+content, the answers are not always obvious.
+        Kinetic data have previously been determined for the loss of several nutrients under pre-
+determined processing and storage conditions, but the rate constants provided are specific to the
+food and the testing parameters (Evans et al., 1981; Feliciotti and Esselen, 1957; Kamman,
+Labuza et al., 1981; Kirk et al., 1977; Lathrop and Leung, 1980; Mulley et al., 1975; Rao et al.,
+1981) (Evidence Category I). Use of these models would only provide a rough estimate of
+remaining nutrition if kinetic models were prepared using this data.
+        A recent study evaluated changes in thirteen representative thermostabilized spaceflight
+foods using ASLT to assess the potential of the current food system for use during long duration
+missions. The sensory, quality, and nutrition of each product was determined at regular intervals
+over three years of storage at 40°F (control), 72°F (storage temperature of actual flight food), and
+95°F (accelerated temperature) (Catauro and Perchonok, 2011) (Evidence Category I). Egg
+
+                                                                                                 18
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+products did not respond adequately to the thermostabilization process, and were found
+unsuitable immediately after production. There were considerable losses in folic acid and B and
+C vitamins, often correlating with unacceptable changes in flavor or color. Other vitamins
+appeared to be maintained throughout shelf life. Low temperature storage (40°F) maintained
+product quality throughout the study. The changes in quality and nutrition were used to
+determine the shelf life of each item (Catauro and Perchonok, 2011).
+        The shelf life values were extrapolated to NASA’s 65 thermostabilized items (Figure 2).
+Meat products and other entrées were projected to maintain sensory quality the longest, over 3
+years, without refrigeration. Fruit products and dessert products followed with 1.5 -5 years, then
+starches and vegetable side dishes with 1-4 years. Approximately 10% of the 65
+thermostabilized items are estimated to have a shelf life of 5 years or more and 45% of the
+products are estimated to have a shelf life of more than 3 years. In general, the major
+determinants of shelf life appear to be the development of off-flavor and off-color over time.
+Analysis of these 13 thermostabilized products suggests that new processing and storage
+technologies must be investigated in order to improve initial quality and extend shelf life of food
+products for use in long-duration missions (Catauro and Perchonok, 2011).
+
+
+                                70
+
+
+
+
+        # of Acceptable Items
+                                60   65      64
+                                50                          55
+                                40
+
+                                30
+
+                                20                               27
+                                10
+                                                                            7
+                                 0
+                                     1 Yr   1.5 Yr      2 Yr     3 yr      5 yr
+
+                                                     Time
+
+       Figure 2: Number of acceptable thermostabilized space foods decreases by 90% over 5
+year shelf life.
+
+        Besides processing and storage, food packaging significantly contributes to product shelf
+life. The effect of relative humidity and oxygen on dry and high lipid products varies
+significantly in different types of packaging under various storage conditions (Catauro and
+Oziomek, 2011b). The superior barrier properties offered by aluminum foil containing laminates
+prevent oxidation and water activity increases that may be destructive to vitamins, alter texture,
+flavor, and aroma profiles, and in the worst cases enable the growth of microorganisms. The data
+suggests that at high relative humidity (50-75%) products packaged without an aluminum layer
+equilibrated with the storage conditions, resulting in unacceptable levels of oxidation and
+increases in water activity (unpublished data, Evidence Category I) (Catauro and Oziomek,
+2011b). Unfortunately, the foil layer presents several challenges that are considered under
+Section VII, Resource Utilization, requiring further research into product packaging to find
+alternatives with superior barrier qualities.
+
+                                                                                                 19
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+         The residual oxygen in the final package of dry foods causes oxidation, leading to off-
+flavors. The methods used to remove oxygen from the food packages by flushing with nitrogen
+were inefficient and sealed in a significant amount of oxygen. An improved method of vacuum
+hold and longer flush cycles was developed to decrease the amount of oxygen entrapped in the
+food package (unpublished data, Evidence Category II) (Oziomek and Cooper, 2010).
+         These shelf life findings, preliminary NASA food nutritional degradation results, and the
+comparative packaging study indicate that in order to achieve a food system with a 3-5 year shelf
+life, a combination of factors will be required. These studies determined that nutritional content,
+flavor, color, and texture are affected by the high heat treatments used for processing, the
+residual oxygen and ingress of oxygen and moisture into food packages, and the storage
+conditions (temperature, relative humidity).
+         The integration of optimized processes, storage environment, packaging, and products to
+increase food quality and nutrition and ultimately extend shelf life is currently being investigated
+(Cooper and Glass, 2012). There are some emerging processing technologies that have
+demonstrated potential to provide higher quality commercially sterile products. It is expected
+that these higher quality products will have extended nutritional stability. The two technologies
+with most promise are High Pressure Processing (HPP) and Microwave Sterilization.
+         Microwave sterilization is a high-temperature, short-time process that shortens the
+thermal treatment to 10 minutes at 265°F (Release, 2004). HPP is a nonthermal pasteurization
+process in which food is subjected to elevated pressures (up to 135,000 psi, which is
+approximately 900 MPa or 9,000 atm), to inactivate vegetative cells and enzymes. The pressure
+causes only small product temperature increases around 3-9°C/100 MPa (Patterson, 2005).
+Pressure-assisted thermal sterilization (PATS) is a variation of HPP combining pressure with a
+reduced sterilization temperature to inactivate spores and produce commercially sterile products
+(Wimalaratne and Farid, 2008). PATS processing is currently being compared to
+thermostabilization for initial production of higher quality NASA foods with extended shelf life
+(Cooper and Glass, 2012).
+         Low temperature storage options are currently being identified as part of the integration
+approach to maintain food quality. Mass, volume, and power constraints reduce the possibility
+of refrigeration on the vehicle. Therefore, the possibility of storing food in the ultra -cold
+conditions beneath the Martian surface, protected from the planet’s extreme temperature shifts, is
+being evaluated (Cooper and Glass, 2012). The quality of NASA food items stored for up to a
+year at ultra-cold temperatures (-80°C) compared to items stored at -4°C, 21°C, and 30°C will be
+determined. The integrity of current packages and seals during ultra-cold storage will be
+assessed. The integration approach will also investigate alternative high-barrier packaging,
+moisture scavengers, and the use of blast freezing in an effort to increase shelf life for long
+duration missions (Cooper and Glass, 2012).
+         The effect of space radiation on nutrition and acceptability is another concern for long
+duration missions. Although radiation has not been shown to reduce nutritional content in low
+Earth orbit (Zwart, Kloeris et al., 2009), the ability of galactic cosmic rays and solar flares to
+initiate unacceptable changes to food quality and reduce nutritional content in deep space is
+unknown. Galactic cosmic rays doses are expected to be at cGy levels, with solar flares adding
+unknown amounts over long duration missions (Hu et al., 2009; Townsend et al., 2011). This
+may not seem concerning considering that some foods are irradiated with gamma photons or
+electrons to provide commercial sterility or decrease bacterial content. However, the effect that
+particulate radiation present in galactic cosmic rays and solar particle events will have on food is
+
+                                                                                                 20
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+unknown (Hu, Kim et al., 2009), and must be quantified to ensure development of a nutritious
+and acceptable food system. Additionally, individual foods react differently to radiation, and
+studies with soybeans have demonstrated that doses as low as 1 Gy can lead to oxidized flavors
+and reduce production yields (Wilson, Perchonok et al., 2007).
+
+AFT3: How can the acceptability of the food system be maintained throughout the mission?
+
+         Current data suggests that in addition to meeting physical requirements, a familiar and
+acceptable food system will be important to psychological well-being during long duration
+missions. The food quality, variety, environment, and social setting surrounding eating
+experiences were all shown to influence unity and morale in extraterrestrial analog Antarctic
+expeditions (Hunter et al., 2003; Leon et al., 2000). Shared food preparation and food
+familiarity have been found to be important to relieve anxiety and promote bonding (Locher et
+al., 2005). Studies conducted by the armed forces in the 1950’s showed that most foods
+decreased in acceptability when repeatedly consumed. The degree of loss of acceptability
+depended on the specific food (Vickers, 1999). (Evidence Category III)
+        Food acceptability and psychological importance is not currently included in calculations
+used to assess different food systems for next generation NASA and commercial space vehicle
+concepts. These vehicles are considerably smaller than the Shuttle and ISS and resource
+constraints have eliminated provisioning of a food warmer or hot water on some planned
+missions. A study conducted at JSC’s Space Food Systems Laboratory in 2006 measured the
+acceptability of ambient temperature food that would normally be consumed hot. The study
+showed that the food lost about 20% of its acceptability when consumed at room temperature
+and about 17% of the food items were determined to be unacceptable (unpublished data,
+Evidence Category I). Previous studies have shown that decreased acceptability reduces
+consumption and leads to weight loss and deterioration of health (Friedl and Hoyt, 1997).
+        Reducing overall initial sensory acceptability is particularly concerning in spaceflight due
+to individualized alterations in sensory perception of foods experienced by many astronauts and
+cosmonauts in microgravity (Evidence Category III). The contradictory results obtained from in-
+flight and analog studies investigating flavor alterations were likely complicated by unknown
+contributions from physiological and psychological stresses experienced during spaceflight,
+including nasal congestion, bodily fluid redistribution, space sickness, and isolation (Olabi et al.,
+2002). Insufficient food acceptability contributed to inadequate caloric and nutritional intake in
+past missions, and will be more detrimental as mission length and distance from Earth increases.
+        The effects that changes in sensory perception, menu fatigue, and personal control have on
+appetite, acceptability, and crew mood, are currently being investigated (Hunter et al., 2011).
+Restricted olfactory acuity and its affect on aroma identification and appetite will be analyzed
+using bed rest subjects, with measurements taken over time to incorporate effects of menu
+fatigue. Additional subjects will be provided with prepackaged food and ingredients for food
+preparation to determine the influence that choice and personalized menu preparation has on
+acceptability, mood, and menu fatigue. Insight into the factors contributing to reduced sensory
+acceptability and food consumption will enable effective countermeasures to be implemented.
+Resource cost comparisons using Equivalent Systems Mass (ESM; explained in Section VII) will
+quantify the resource use of both prepackaged and bulk supply systems.
+        The ability of food and surrounding experiences to influence stress, mood, and resultant
+health will be further investigated in order to develop optimal eating experiences for long
+
+                                                                                                  21
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+duration space missions (Vickers et al., 2011). It is expected that moods will improve, stress will
+decrease, and more food will be consumed by subjects with some control over meal details and
+preparation and who are able to eat in groups.
+       These studies will indicate the psychological benefits derived from systems involving
+some bioregenerative and bulk supply foods as opposed to purely prepackaged foods. The data
+will suggest the appropriate balance generated by the cost of crew time usage and the benefits of
+decreased stress and improved food acceptability, mood, and crew unity.
+
+VII.   Resource Utilization
+
+   A. Spaceflight Food System Resource Utilization Background
+
+       During the development of a space flight food system, several resources have to be
+considered including mass, volume, power, crew time, water use, and waste disposal capacity.
+Ineffective use of vehicle resources will decrease the possibility of mission success. Resource
+constraints on each space vehicle drove several food system requirements and modifications as
+mission lengths increased. The lack of refrigeration required foods to be shelf stable. The
+production of byproduct water from fuel cells on the Shuttle drove the development of freeze-
+dried foods, reducing initial launch mass and volume. The hard plastic spoon bowls designed for
+freeze-dried and low moisture foods during the Apollo era were reduced to a clear, flexible
+plastic laminate. Instead of rigid cans, a flexible laminate with an aluminum foil layer was used
+for thermostabilized foods. The flexibility of these packages reduced mass and volume
+requirements during stowage (Perchonok and Bourland, 2002).
+         Food packaging is a major contributor to mass, volume, and waste allocations for
+NASA missions. Packaging is integral to maintaining the safety, nutritional adequacy,
+and acceptability of food, protecting it from foreign material, microorganisms, oxygen, light,
+moisture, and other modes of degradation. Higher packaging barrier properties equate to greater
+food protection from oxygen and water ingress. Oxygen ingress can result in oxidation of the
+food and loss of quality or nutrition. Water ingress can result in quality changes such as
+difficulty in rehydrating the freeze-dried foods and increased enzymatic and microbiological
+activity.
+         Currently, a clear, flexible, plastic laminate is used for freeze-dried and natural form
+foods, enabling visual product inspection. Additionally, the clear plastic is able to be
+thermoformed and thermosealed without flex cracks that are common with foil laminates.
+However, the clear packaging does not have adequate oxygen and moisture barrier properties to
+allow for an 18-month shelf life for ISS. Foods are overwrapped with a second opaque foil-
+containing package that has higher barrier properties. The packaging materials used for the
+thermostabilized, irradiated, and beverage items contain a foil layer that protects the food from
+oxygen and moisture beyond the required 18-month shelf life.
+         Tables 4 and 5 list the oxygen and water vapor permeability of the current NASA
+food packaging materials.
+
+       Table 4. Oxygen Permeability of Packaging Materials (CC/100IN 2/DAY)
+                                               73.4ºF@100% Relative Humidity
+       Overwrap                                0.0065
+       Thermostabilized and Irradiated pouch <0.0003
+
+                                                                                                22
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+       Rehydratable Lid and Natural Form         5.405
+       Rehydratable bottom (heat formed)         0.053
+
+
+
+       Table 5. Water Vapor Permeability of Packaging Materials (G/100IN 2/DAY)
+                                               100ºF@100% Relative Humidity
+       Overwrap                                <0.0003
+       Thermostabilized and Irradiated pouch 0.0004
+       Rehydratable Lid and Natural Form       0.352
+       Rehydratable bottom (heat formed)       0.1784
+
+
+   B. Resource Use During Spaceflight
+
+    A significant resource concern lies with the mass of the system. The mass of the food is
+dependent on the type of food and the quantity required per crewmember. The Apollo 7 food
+system provided 0.82 kg of food per person per day (Smith, Heidelbaugh et al., 1975). Starting
+in 1968 thermostabilized foods were included in the food system and were preferred to freeze-
+dried options, justifying the weight increase. By Apollo 14, the mass of the food averaged 1.1 kg
+per person per day (Smith, Heidelbaugh et al., 1975). The Apollo food system still contained a
+significant number of freeze-dried foods since water from the fuel cells was available for food
+rehydration (Evidence Category III).
+    Current ISS crewmembers receive about 1.8 kg of food plus packaging per person per day.
+Compared to the Apollo missions a higher percentage of the food is thermostabilized, as a result
+of crew preference, contributing to the weight increase. Since ISS uses solar panels for a power
+source, and not fuel cells that produce water as a by-product, there is little mass advantage to
+using freeze-dried foods. Furthermore, the average number of calories is now based on the actual
+caloric needs of each crewmember according to body weight and height. This results in an
+average caloric requirement of 3,000 kcal as opposed to the 2,500 kcal provided to the Apollo
+crews, and a corresponding food weight increase (Evidence Category III).
+         Food packaging produces a significant amount of waste. In confidential crew debriefs,
+the NASA Mir crewmembers stated that the overwrapped foods created a trash management
+problem since there were two food packages per food item for the rehydratables and natural form
+foods. Even though the foods were not overwrapped on Shuttle missions, the trash was still
+significant. Around 60% of the waste mass on STS-99 was generated from the food system
+(including food, drinks, and packaging). The food system generated 86% of the waste mass on
+STS-101 (Lee, 2000). An analysis of the food waste on STS-51D showed a total trash mass of
+23 kg that included 12.2 kg of uneaten food and 10.8 kg of food packaging. Eighty–five percent
+of the trash by volume on STS-29 and STS-30 was food packaging and 7% was food (Wydeven
+and Golub, 1991). (Evidence Category III)
+
+   C. Constraining Food System Resource Use in Context of Exploration Missions
+
+   The provisioning of a safe, nutritious, and acceptable food system must be balanced with
+available resources on each specific mission. For two-day missions between Earth and ISS it
+
+                                                                                              23
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+may be decided that food acceptability must be compromised to accommodate the small vehicle
+volume, eliminating hot water and a food warmer. While the decrease in food acceptability may
+be tolerated for short two-day missions, the balance between resources and food will need to be
+reassessed with each mission length increase to prevent inadequate caloric intake and nutritional
+deficiency.
+        There is a risk that the food system mass and volume will be too constraining as mission
+lengths extend to 3-5 years. In the event of a bioregenerative system, there is a risk that
+acceptable food may not grow as expected due to radiation, reduced gravity, or different
+atmospheric pressures. Infrastructure required to grow crops extraterrestrially will increase mass
+and volume constraints (Perchonok et al., 2011). There is the potential risk of equipment not
+working or water quantities being inadequate for food hydration, processing, or preparation.
+There is also the risk that the bioregenerative food system could require too much crew time.
+        Resource constraints on the system could delay a Mars mission even if all other elements
+of the mission were ready. The risks increase with the increased length of the Mars mission,
+longer term effects of radiation, especially during transit, and the lack of resupply during the
+mission.
+
+   D. Evidence of Constraining Food System Resource Use for Exploration Missions –
+      Ground and Spaceflight Research
+
+      Recent research has demonstrated that the mass of the current food system can be reduced
+by taking advantage of new packaging techniques and adjusting product formulations
+(unpublished data, Evidence Category IV) (Catauro and Perchonok, 2011). However, even
+without packaging it is estimated that the mass of food required to be launched for six
+crewmembers on a three year mission will be nearly 11,000 kg. Based on this constraining
+resource use, and the inadequate nutrition and acceptability of the current prepackaged food
+system, mass reduction options and alternative food systems for long duration missions must be
+considered. The tasks in the final AFT gap address technologies that may decrease resource use
+while enabling provisioning of a safe, nutritious, and acceptable food system.
+
+AFT4: What technologies can be developed that will efficiently balance appropriate vehicle
+resources such as mass, volume, and crewtime during exploration missions with the safety,
+nutrition, and acceptability requirements?
+
+        Packaging is about 15-17% of the mass of the total food system. The bulk overwrap
+currently used to protect freeze-dried and low moisture foods from oxygen and moisture is a
+significant contributor to food system mass and waste. It was determined that around 3% of
+prepackaged foods would be left in the package if an attempt was made to eat everything
+(Duffield, 2008). It would therefore be expected that, at a minimum, 18% of the rehydrated food
+system would become waste (Levri et al., 2001). (Evidence Category I)
+        Researchers recently evaluated the use of a single, large overwrap to contain and preserve
+one ship container of food items within a high barrier, flexible material (unpublished data,
+Evidence Category II) (Catauro and Oziomek, 2011a). These ship containers have recently been
+implemented into the ISS food system, replacing the rigid collapsible food containers and saving
+the International Space Station around 15-17% in upmass.
+
+
+
+                                                                                                24
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+         Another path to reduce packaging waste could be the use of an alternative packaging
+material. Alternative packaging would ideally provide moisture and oxygen protection similar to
+the current packaging without a foil layer. While the current foil packaging provides an
+excellent barrier, the tendency for flex cracks limit its use with thermoforming equipment and it
+is not compatible with some emerging technologies that may be used to produce higher quality
+commercially sterile foods. In addition, foil packaging complicates plans to incinerate
+trash at an extraterrestrial base, as it will not incinerate completely and will leave some ash
+(Wydeven and Golub, 1991). Food system wet waste materials must be properly disposed of to
+limit microbial contamination to the crew.
+         A recent study compared the effectiveness of a flexible aluminum-oxide coated laminate
+(Tolas®) against the current primary clear laminate (Combitherm®) and a material similar to the
+current aluminum foil and plastic laminate overwrap (Technipaq®). Analysis of barrier
+properties indicated that the Combitherm® material does not provide a sufficient barrier and
+requires overwrap, while the Technipaq® and Tolas® materials each appear to maintain
+adequate barriers independently (unpublished data, Evidence Category I) (Catauro and Oziomek,
+2011b). Successful performance of the Tolas® material might allow optimization of the current
+ISS packaging system by reducing it to a single package.
+         The identification of a capable packaging material lends itself to other packaging
+reductions. A gusseted pouch design for rehydratable foods would be easier to produce and
+would minimize mass, volume, and waste compared to the current thermoformed rehydratable
+package (unpublished data, Evidence Category II) (Oziomek and Cooper, 2010). The gusseted
+pouch reduces the production process from three pieces of packaging equipment to one and the
+packaging from two pouches to one, decreasing the total amount of packaging mass by
+approximately 66%.
+         Significant reductions in food system mass are also possible with further menu
+development. In one analysis overall calories were maintained but the caloric density of menu
+items were increased by adding more fat and reducing moisture. The increase in caloric density
+reduced system mass by 321 g per crew member per day, or 22% (unpublished data) (Stoklosa,
+2009). In another analysis, the substitution of standard menu items with meal replacement bars
+at a frequency of one bar per crew member per day resulted in a mass reduction of 240 g, or 17%
+(Stoklosa, 2009). If both approaches were combined, the mass of the food system can be
+reduced by as much as 529 g, or 36% (Evidence Category I). Work is ongoing to develop high
+caloric density meal replacement bars and drinks that meet long duration space food system
+requirements (unpublished data) (Cooper, 2012b).
+         Hydroponically grown produce is a viable path to reducing food system mass and adding
+variety to the menu. Several studies have been conducted to determine the effect of a
+bioregenerative food system on an extraterrestrial mission, with an attempt to balance mass,
+volume, crew time, and power requirements with nutrition and acceptability. In one trade study
+five menus were evaluated (Table 6) using Equivalent System Mass (ESM) (Levri, Ewert et al.,
+2001). ESM converts mass, volume, power, cooling, and sometimes crew time requirements, into
+one mass value. The volume, power, cooling, and crew time requirements are converted to mass
+using equivalency factors. These equivalency factors are based on mission length and location.
+
+Table 6. Food System Options (Levri, Ewert et al., 2001)
+ Case           Food System                Packaging Approach                 Crop Growth
+ 1       ISS Assembly Complete        Individual Servings                 Salad
+
+                                                                                              25
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+         (some frozen food)
+  2      Shuttle Training Menu           Individual & Multiple Servings   Salad
+  3      Shuttle Training Menu           Individual Servings              Salad & White Potato
+  4      Shuttle Training Menu           Individual Servings              Salad
+  5      Shuttle Training Menu           Individual Servings              Salad
+         w/reduced water content
+
+        The Shuttle Training menu was a menu similar to the Shuttle and ISS food system.
+The various cases supplemented the Shuttle Training menu with frozen foods, bulk packaged
+snack foods and/or salad and/or potatoes. The salad and potatoes would be grown on the Mars
+surface. If only ESM was considered in choosing a menu, either case 2, case 4, or case 5 would
+have been chosen (Table 7). However, non-quantifiable aspects (with respect to ESM), such as
+food palatability and psychological benefits of plant-crew interaction were not able to be
+included and would need to be considered when evaluating food systems (Levri, Ewert et al.,
+2001) (Evidence Category I).
+
+Table 7. Non-crew time ESM , Crew time ESM and Total ESM (Levri et al., 2001)
+       ESM      1(frozen) 2(multiple 3(potato) 4 (indiv) 5 (reduced
+                            serving)                   water content)
+      ESMNCT * 27,587 23,246           27,198 23,324 23,351
+      ESMCT ** 4,398 3,635             4,848 3,650 3,654
+      ESMTOTAL 31,984 26,881           32,047 26,974 27,005
+        * non-crew time
+        ** crew time
+
+        During the Lunar Mars Life Support Test Project simulation in a closed chamber, a four-
+person crew tested a 10-day vegetarian diet based on crops expected to be grown during long
+duration missions. The crops were processed into ready-to-use ingredients outside of the
+chamber, leaving general cooking activities and cleanup to the crew. The general preparation and
+cleaning activities required 4.6 crew hours total per day. The amount of waste, mostly from
+leftovers, ranged between 20-80%. This experience demonstrated a need for automated
+processes, a diverse menu, and improvements in recipe scaling based on crew size (Kloeris et al.,
+1998) (Evidence Category II).
+        Preliminary studies determined that food preparation would require about 3 active hours
+and 6 passive hours of crew time per day for a crew of six (unpublished data, Evidence Category
+II) (Perchonok, 2006). Passive time was defined as the preparation time that did not require a
+crewmember to constantly watch over the process, such as baking. Currently, only 30 minutes is
+set aside for crew to prepare a meal on ISS missions.
+        Additional limitations and benefits of a bioregenerative system are being determined
+compared to a prepackaged system for a three year mission, where resupply is defined as
+ingredients that are either prepositioned or shipped with the crew at the start of the mission
+(Cooper and Catauro, 2012). The study is evaluating five food systems for a crew of six, with
+each scenario incorporating different levels of a bioregenerative system (Table 8). Fresh fruits
+and vegetables (farm edible), such as spinach, lettuce, tomatoes, carrots, bell peppers, onions,
+potatoes, and strawberries could be grown hydroponically in environmentally-controlled
+chambers. In addition, baseline crops such as wheat, rice, peanuts, and dried beans could be
+
+                                                                                              26
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+grown on the surface or launched in bulk from Earth. These crops would be processed into edible
+ingredients and used in preparing meals in a galley. Mass assumptions for each food system do
+not include packaging due to continuing packaging development that will likely change mass
+numbers over time.
+
+
+
+Table 8. Food and equipment mass for five different food system scenarios. Shipping masses
+include small scale processing equipment when required (unpublished data).
+                                                                 Edible Crop       Ship
+                           Food System
+                                                                     (kg)          (kg)
+1   Farm edible, grow wheat/rice/beans/peanuts                     12058.2        2041.3
+2   Farm edible, ship wheat flour/rice/beans/peanut oil             7651.3        4854.4
+3   Farm with prepackaged food and resupply                         9650.5        3103.0
+4   Farm, bulk, prepackaged, and resupply                           6266.0        5271.5
+5   Prepackaged food only                                              0          10765
+
+       While food items prepared from ingredients included in the bioregenerative system
+received an average acceptance score of a 7.45 on a 9.0 Hedonic scale, almost two hours of
+active crew time is required per meal (unpublished data, Evidence Category II) (Cooper and
+Catauro, 2012). The crew time and mass requirements are constraining the available resources
+on long duration missions. Additionally, dependence on the processing and preparation of
+bioregenerative and bulk commodity foods presents unique risks for these missions, including
+the risk of food scarcity from failed crop production.
+       Providing ease of use (preparation difficulty and time) and a constant supply of food with
+respect to crew scheduling will be necessary to prevent inadequate caloric intake and associated
+nutritional and psychological issues. Excess food preparation time also impacts the time
+available for scientific and maintenance endeavors (Evidence Category III). However, current
+studies are determining the benefits that a fresh food system and the food preparation experience
+will provide the crew on long duration missions (Hunter, Halpern et al., 2011). Aspects of a
+bioregenerative system may provide enough benefit to balance out crew time and mass costs
+when crewmembers must live and work in an extreme extraterrestrial environment for several
+years. A food metric value assessment will enable inclusion of factors such as nutrition,
+palatability, variety, and psychological benefit in the ESM comparison to ensure provisioning of
+an adequate food system for long duration missions (Cooper and Catauro, 2012; Cruthirds et al.,
+2002).
+
+VIII. Conclusion
+
+    The current space food system is inadequate for long duration missions beyond low Earth
+orbit. Without extensive research and development to increase the adequacy of the food system,
+the crew’s health and performance will be compromised during these missions. It is clear that in
+developing future NASA food systems, a balance must be maintained between use of resources
+(such as power, mass and crew time), and the safety, nutrition and acceptability of the food
+system. Nutrition, acceptability, and resource utilization may take on different priorities based
+on mission duration and distance from earth. Incorporation of fresh foods, and/or food
+
+                                                                                               27
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+processing and food preparation during long-duration missions may increase the probability of
+safety and resource utilization issues, but may provide a psychosocial boost and decrease the
+possibility of inadequate nutrition and acceptability issues.
+
+
+
+
+IX.    References
+
+Aruscavage D, Lee K, Miller S, LeJeune JT. Interactions affecting the proliferation and control
+       of human pathogens on edible plants. Journal of food science; 2006 71:R89-99.
+Azcarate-Peril MA, Sikes M, Bruno-Barcena JM. The intestinal microbiota, gastrointestinal
+       environment and colorectal cancer: a putative role for probiotics in prevention of
+       colorectal cancer? American journal of physiology. Gastrointestinal and liver physiology;
+       2011 301:G401-424.
+Bielaszewska M, Mellmann A, Zhang W, Kock R, Fruth A, Bauwens A, Peters G, Karch H.
+       Characterisation of the Escherichia coli strain associated with an outbreak of haemolytic
+       uraemic syndrome in Germany, 2011: a microbiological study. Lancet Infectious
+       Diseases; 2011 3099:70166-70169.
+Cameron EJ, Clifcorn LE, Esty JR, Feaster JF, Lamb FC, Monroe KH, Royce R, eds. "Retention
+       of Nutrients During Canning," pp. 1-79-82 Research Laboratories. National Canners
+       Association; 1955.
+Catauro P, Glass J Suited Contingency Operations. Food. In "NASA Advanced Capabilities
+       Division Research & Technology Task Book", Washington, DC; 2011
+       https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+       ent&TASKID=8453. Feb 13. 2012.
+Catauro P, Oziomek T Bulk overwrap packaging. In "NASA Advanced Capabilities Division
+       Research & Technology Task Book", Washington, DC; 2011a
+       https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+       ent&TASKID=8202. Feb 13, 2012.
+Catauro P, Oziomek T Comparative packaging study. In "NASA Advanced Capabilities Division
+       Research & Technology Task Book", Washington, DC; 2011b
+       https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+       ent&TASKID=8536. Feb 13, 2012.
+Catauro PM, Perchonok MH. Assessment of the long-term stability of retort pouch foods to
+       support extended duration spaceflight. Journal of food science; 2011 77:S29-39.
+Chambers E, Wolf MB, ed. Sensory Testing Methods. ASTM International, West
+       Conshohocken, PA; 1996.
+Chen BH, Peng HY, Chen HE. Changes of carotenoids, color, and vitamin A contents during
+       processing of carrot juice. Journal of Agricultural and Food Chemistry; 1995 43:1912-
+       1918.
+Clancy RL, Gleeson M, Cox A, Callister R, Dorrington M, D'Este C, Pang G, Pyne D, Fricker P,
+       Henriksson A. Reversal in fatigued athletes of a defect in interferon gamma secretion
+       after administration of Lactobacillus acidophilus. British journal of sports medicine; 2006
+       40:351-354.
+
+
+
+                                                                                                28
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+Cooper M Effect of processing and subsequent storage on nutrition. In "NASA Advanced
+        Capabilities Division Research & Technology Task Book", Washington, DC; 2012a
+        https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+        ent&TASKID=8449. Feb 13, 2012.
+Cooper M Packaged food mass reduction technology development. In "Human Research
+        Program Annual Reports"; 2012b
+Cooper M, Catauro P Food processing vs. packaged food system trade study. In "NASA
+        Advanced Capabilities Division Research & Technology Task Book", Washington, DC;
+        2012
+        https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+        ent&TASKID=8507. Feb 13, 2012.
+Cooper M, Douglas G, Perchonok M. Developing the NASA food system for long-duration
+        missions. Journal of food science; 2011a 76:R40-48.
+Cooper M, Glass J Integration of product, package, process, and environment: A food system
+        optimization. Advanced Food Technology Annual Reports. In "NASA Advanced
+        Capabilities Division Research & Technology Task Book", Washington, DC; 2012
+        https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+        ent&TASKID=8502. Feb 13, 2012.
+Cooper M, Oubre C, Elliott T, Catauro P Development of Spaceflight Foods with High
+        Microbial Concentrations In "NASA Advanced Capabilities Division Research &
+        Technology Task Book", Washington, D. C.; 2011b
+        https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+        ent&TASKID=8504. Feb 13, 2012.
+Crucian B, Stowe RP, Ott CM, Becker JL, Haddon R, McMonigal KA, Sams CF. Risk of crew
+        adverse health event due to altered immune response. In "Human Research Program
+        Evidence Book". NASA, Washington, DC; 2009.
+Cruthirds J, Kloeris V, Perchonok M. Mathematical modeling of food systems for long-term
+        space missions. SAE Technical Papers; 2002 02ICES-26.
+Dewanto V, Wu X, Adom KK, Liu RH. Thermal processing enhances the nutritional value of
+        tomatoes by increasing total antioxidant activity. Journal of Agricultural and Food
+        Chemistry; 2002 50:3010-3014.
+Duffield BE, ed. "Exploration Life Support Baseline Values and Assumptions Document, JSC
+        64367," NASA, Houston, TX, 2008.
+Evans SR, Gregory III JF, Kirk JR. Thermal degradation kinetics of pyridoxine hydrochloride in
+        dehydrated model food systems. Journal of food science; 1981 46:555-558.
+FDA. 21CFR110. Current Good Manufacturing Practice in Manufacturing, Packing or Holding
+        Human Food. Code of Federal Regulations; 2011a.
+FDA. 21CFR179. Irradiation in the production, processing and handling of food. In "Code of
+        Federal Regulations "; 2011b.
+Feliciotti E, Esselen WB. Thermal destruction rates of thiamine in pureed meats and vegetables.
+        Food Technology; 1957 11:77-84.
+Friedl KE, Hoyt RW. Development and biomedical testing of military operational rations.
+        Annual review of nutrition; 1997 17:51-75.
+Gandolph J, Shand A, Stoklosa A, Ma A, Weiss I, Alexander D, Perchonok M, Mauer LJ. Foods
+        for a mission to Mars: Investigations of low-dose gamma radiation effects. In "The World
+
+
+
+                                                                                             29
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+        of Food Science", Vol. 2. Institute of Food Technologists and the International Union of
+        Food Science and Tech; 2007.
+Graziani G, Pernice R, Lanzuise S, Vitaglione P, Anese M, Fogliano V. Effect of peeling and
+        heating on carotenoid content and antioxidant activity of tomato and tomato-virgin olive
+        oil systems. European Food Research and Technology; 2003 216:116-121.
+Gregory JF. Vitamins. In "Food Chemistry" (Fennema OR, ed.). Marcel Dekker, Inc., New
+        York; 1996.
+Hawkins WR, Zieglschmid JF. Clinical aspects of crew health. In "Biomedical Results of
+        Apollo" (Johnston RS, Dietlein LF and Berry CA, eds.). NASA, Washington, DC; 1975.
+Hu S, Kim MY, McClellan GE, Cucinotta FA. Modeling the acute health effects of astronauts
+        from exposure to large solar particle events. Health Physics; 2009 96:465-476.
+Hunter J, Halpern B, Binsted K. Effects of retronasal smelling, variety and choice on appetite
+        and satiety. NASA Research Announcement Proposal #09-2-NASA_09-0033; 2011.
+Hunter JB, Emanuel J, Drysdale AE. Food service and food system logistics at the South Pole:
+        Lessons for a Lunar/Martian planetary surface mission. SAE Technical Papers; 2003
+        2003-01-2365.
+Kamman JF, Labuza TP, Warthesen JJ. Kinetics of thiamin and riboflavin loss in pasta as a
+        function of constant and variable storage conditions. Journal of food science; 1981
+        46:1457-1461.
+Kim Y-S, Strand E, Dickmann R, Warthesen JJ. Degradation of Vitamin A palmitate in corn
+        flakes during storage. Journal of food science; 2000 65:1216-1219.
+Kirk J, Dennison D, Kokoczka P, Heldman D. Degradation of ascorbic acid in a dehydrated food
+        system. Journal of food science; 1977 42:1274-1279.
+Kloeris V, Vodovotz Y, Bye L, Stiller CQ, Lane E. Design and implementation of a vegetarian
+        food system for a closed chamber test. Life Support and Biospehere Science; 1998 5:231-
+        242.
+Kramer A. Storage retention of nutrients. Food Technology; 1974 28:50-60.
+Labuza TP. "Shelf-Life Dating of Foods," Food and Nutrition Press, Inc., Trumbull, CT, 1982.
+Labuza TP, Schmidl MK. Accelerated shelf-life testing of foods. Food Technology; 1985 39:57-
+        62.
+Lane H, Kloeris V, Perchonok M, Zwart S, Smith SM. Food and nutrition for the moon base:
+        What we have learned in 45 years of spaceflight. Nutrition Today; 2007 42:100-108.
+Lathrop PJ, Leung HK. Rates of ascorbic acid degradation during thermal processing of canned
+        peas. Journal of food science; 1980 45:152-153.
+Lee WC. "Interim report: Advanced life support systems modeling and analysis project: Solid
+        waste handling trade study," NASA, Washington, DC, 2000.
+Leiter LA, Marliss EB. Survival during fasting may depend on fat as well as protein stores.
+        JAMA; 1982 248:2306-2307.
+Leon GR, Ones DS, Shelton J. A one year polar scientific expedition analog to a Mars Mission.
+        Proceedings of the Human Factors and Ergonomics Society Annual Meeting; 2000 44:2-
+        792-2-795.
+Levri J, Ewert M, Kloeris V, Perchonok M, Peterson L, Swango B, Toerne ME, Vittadini E.
+        Food system trade study for an early Mars mission. SAE Technical Papers; 2001 ICES
+        2001-01-2364.
+Leyer GJ, Li S, Mubasher ME, Reifer C, Ouwehand AC. Probiotic effects on cold and influenza -
+        like symptom incidence and duration in children. Pediatrics; 2009 124:e172-179.
+
+                                                                                             30
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+Locher JL, Yoels WC, Maurer D, van Ells J. Comfort foods: An exploratory journey into the
+        social and emotional significance of food. Food and Foodways; 2005 13:273-297.
+Lund D. Effects of commercial heat processing on nutrients. In "Nutritional Evaluation of Food
+        Processing" (Harris RS and Karmas E, eds.), pp. 319-354. The AVI Publishing Company,
+        Inc., Westport, CT; 1988.
+Lund DB. "Effects of commercial processing and storage on nutrients," 2/Ed. The AVI
+        Publishing Company, Inc., Westport, CT, 1975.
+Mulley EA, Stumbo CR, Hunting WM. A new method for studying reaction rates in model
+        systems and food products at high temperatures. Journal of food science; 1975 40:985-
+        988.
+NASA. NASA Spaceflight Human-System Standard 3001, Vol 2. In "Human Factors
+        Habitability and Environmental Health". NASA, Washington, DC; 2011.
+Ohland CL, Macnaughton WK. Probiotic bacteria and intestinal epithelial barrier function.
+        American journal of physiology. Gastrointestinal and liver physiology; 2010 298:G807-
+        819.
+Olabi AA, Lawless HT, Hunter JB, Levitsky DA, Halpern BP. The effect of microgravity and
+        space flight on the chemical senses. Journal of food science; 2002 67:468-478.
+Oziomek T, Cooper M Total systems approach. In "NASA Advanced Capabilities Division
+        Research & Technology Task Book", Washington, DC; 2010
+        https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+        ent&TASKID=7581. Feb 13, 2012.
+Pachapurkar D, Bell LN. Kinetics of thiamin degradation in solutions under ambient storage
+        conditions. Journal of food science; 2005 70:c423-426.
+Patterson MF. Microbiology of pressure-treated foods. Journal of applied microbiology; 2005
+        98:1400-1409.
+Perchonok M Bulk ingredient-based menu development. In "NASA Advanced Capabilities
+        Division Research & Technology Task Book", Washington, DC; 2006
+        http://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_conte
+        nt&TASKID=3790. Feb 13, 2012.
+Perchonok M. Shelf-life considerations and techniques. In "Food Product Development Based on
+        Experience" (Sides C, ed.), pp. 59-73. Iowa State Press, Ames, IO; 2002.
+Perchonok M, Bourland C. NASA food systems: past, present, and future. Nutrition; 2002
+        18:913-920.
+Perchonok MH, Cooper MR, Catauro PM. Mission to Mars: Food Production and Processing for
+        the Final Frontier. Annual review of food science and technology; 2011.
+Rambaut PC, Smith MC, Wheeler HO. Nutritional studies. In "Biomedical Results of Apollo "
+        (Johnston RS, Dietlein LF and Berry CA, eds.). NASA, Washington, DC; 1975.
+Rao MA, Lee CY, Katz J, Cooley HJ. A kinetic study of the loss of vitamin C, color, and
+        firmness during thermal processing of canned peas. Journal of food science; 1981
+        46:636-637.
+Release S-NP. Microwaves improve processed food quality. US Army Soldiers System Center
+        (Natick); 2004.
+Rickman JC, Bruhn CM, Barrett DM. Nutritional comparison of fresh, fozen, and canned fruits
+        and vegetables II. Vitamin A and carotenoids, vitamin E, minerals and fiber. Journal of
+        the Science of Food and Agriculture; 2007 87:1185-1196.
+
+
+
+                                                                                            31
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+Rock CL, Lovalvo JL, Emenhiser C, Ruffin MT, Flatt SW, Schwartz SJ. Bioavailability of beta-
+       carotene is lower in raw than in processed carrots and spinach in women. Journal of
+       Nutrition; 1998 128:913-916.
+Scheuring RA, Jones JA, Polk JD, Gillis DB, Schmid J, Duncan JM, Davis JR, Novak JD. The
+       Apollo medical operations project: Recommendations to improve crew health and
+       performance for future exploration missions and lunar surface operations, NASA/TM–
+       2007–214755. (NASA, ed.). NASA, Lyndon B. Johnson Space Center, Houston, TX;
+       2007.
+Seybold C, Frohlich K, Bitsch R, Otto K, Bohm V. Changes in contents of carotenoids and
+       vitamin E during tomato processing. Journal of Agricultural and Food Chemistry; 2004
+       52:7005-7010.
+Smith MC, Heidelbaugh ND, Rambaut PC, Rapp RM, Wheeler HO, Huber CS, Bourland CT.
+       Apollo food technology. In "Biomedical Results of Apollo " (Johnston RS, Dietlein LF
+       and Berry CA, eds.). NASA, Washington, DC; 1975.
+Smith SM, Wastney ME, Morukov BV, Larina IM, Nyquist LE, Abrams SA, Taran EN, Shih C,
+       Nillen JL, Davis-Street JE, Rice BL, Lane HW. Calcium metabolism before, during, and
+       after a 3-mo spaceflight: kinetic and biochemical changes. Am J Physiol Regul Integr
+       Comp Physiol; 1999 277:R1-10.
+Smith SM, Zwart SR, Block G, Rice BL, Davis-Street JE. The nutritional status of astronauts is
+       altered after long-term space flight aboard the International Space Station. Journal of
+       Nutrition; 2005 135:437-443.
+Smith SM, Zwart SR, Kloeris V, Heer M. "Nutritional Biochemistry of Spaceflight," Nova
+       Science Publishers, Inc., New York, 2009.
+Stoklosa A Packaged food mass reduction trade study. In "NASA Advanced Capabilities
+       Division Research & Technology Task Book", Washington, DC; 2009
+       https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_cont
+       ent&TASKID=7369. Feb 13, 2012.
+Thornton WE, Ord J. Physiological mass measurements in Skylab. In "Biomedical Results of
+       Skylab". NASA, Washington, DC; 1975.
+Townsend LW, PourArsalan M, Cucinotta FA, Kim MY, Schwadron NA. Transmission of
+       galactic cosmic rays through Mars atmosphere. Space Weather; 2011 9.
+Vickers Z. Long-term acceptability of limited diets. Life Support and Biospehere Science; 1999
+       6:29-33.
+Vickers Z, Mann T, Redden J. Factors contributing to food acceptability and consumption,
+       mood, and stress on long-term space missions. NASA Research Announcement 2011.
+Wilson LA, Perchonok MH, French SJ. Influence of low level irradiation of soybeans on the
+       quality of soyfoods during Mars missions. In "The World of Food Science", Vol. 2.
+       Institute of Food Technologists and the International Union of Food Science and Tech;
+       2007.
+Wimalaratne SK, Farid MM. Pressure assisted thermal sterilization. Food and Bioproducts
+       Processing; 2008 84:312-316.
+Wydeven T, Golub MA. Waste streams in a crewed space habitat. Waste Management and
+       Research; 1991 9:91-101.
+Zwart SR, Kloeris VL, Perchonok MH, Braby L, Smith SM. Assessment of nutrient stability in
+       foods from the space food system after long-duration spaceflight on the ISS. Journal of
+       food science; 2009 74:H209-217.
+
+                                                                                            32
+Risk of Performance Decrement and Crew Illness Due to an Inadequate Food System (AFT)
+
+
+
+X.    Team
+
+      Michele Perchonok, Ph.D. NASA Johnson Space Center
+      Grace Douglas, Ph.D.     NASA Johnson Space Center
+      Maya Cooper, M.S.        Lockheed Martin
+
+
+XI.   List of Acronyms
+
+AFT          Advanced Food Technology
+ESM          Equivalent System Mass
+GMP          Good Manufacturing Practice
+HACCP        Hazard Analysis Critical Control Point
+HPP          High Pressure Processing
+HRP          Human Research Program
+ISS          International Space Station
+JSC          Johnson Space Center
+PATS         Pressure Assisted Thermal Sterilization
+SHFH         Space Human Factors and Habitability
+
+
+
+
+                                                                                        33
+

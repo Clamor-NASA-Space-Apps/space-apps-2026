@@ -1,0 +1,602 @@
+46th International Conference on Environmental Systems                                                          ICES-2016-265
+10-14 July 2016, Vienna, Austria
+
+
+
+
+             Hydrogen Purification and Recycling for an Integrated
+                    Oxygen Recovery System Architecture
+
+                                   Morgan B. Abney1, Zachary Greenwood 2, and Terry Wall3
+                                   NASA Marshall Space Flight Center, Huntsville, AL 35812
+
+                                                      Mononita Nur4
+                                   NASA Marshall Space Flight Center, Huntsville, AL 35812
+
+                                                  Richard R. Wheeler, Jr.5
+                                      Umpqua Research Company, Myrtle Creek, OR 97457
+
+                                                             and
+
+                                               Joshua Preston6 and Trent Molter7
+                                     Sustainable Innovations, LLC, East Hartford, CT 06108
+
+
+                     The United States Atmosphere Revitalization life support system on the International
+                 Space Station (ISS) performs several services for the crew including oxygen generation,
+                 trace contaminant control, carbon dioxide (CO 2) removal, and oxygen recovery. Oxygen
+                 recovery is performed using a Sabatier reactor developed by Hamilton Sundstrand, wherein
+                 CO2 is reduced with hydrogen in a catalytic reactor to produce methane and water. The
+                 water product is purified in the Water Purification Assembly and recycled to the Oxygen
+                 Generation Assembly (OGA) to provide O 2 to the crew. This architecture results in a
+                 theoretical maximum oxygen recovery from CO 2 of ~54% due to the loss of reactant
+                 hydrogen in Sabatier-produced methane that is currently vented outside of ISS. Plasma
+                 Pyrolysis Assembly (PPA) technology, developed by Umpqua Research Company, provides
+                 the capability to further close the Atmosphere Revitalization oxygen loop by recovering
+                 hydrogen from Sabatier-produced methane. A key aspect of this technology approach is the
+                 need to purify the hydrogen from the PPA product stream which includes acetylene,
+                 unreacted methane and byproduct water and carbon monoxide. In 2015, four sub-scale
+                 hydrogen separation systems were delivered to NASA for evaluation. These included two
+                 electrolysis single-cell hydrogen purification cell stacks developed by Sustainable
+                 Innovations, LLC, a sorbent-based hydrogen purification unit using microwave power for
+                 sorbent regeneration developed by Umpqua Research Company, and a LaNi4.6Sn0.4 metal
+                 hydride produced by Hydrogen Consultants, Inc. Here we report the results of these
+                 evaluations to-date, discuss potential architecture options, and propose future work.
+
+
+
+
+        1
+          Lead Aerospace Engineer, ECLSS Development Branch, MSFC, AL 35812.
+        2
+          ECLSS Design Engineer, ECLSS Development Branch, MSFC, AL 35812.
+        3
+          ECLSS Test Engineer, ECLSS Development Branch, MSFC, AL 35812.
+        4
+          Pathways Intern, ECLSS Development Branch, MSFC, AL 35812.
+        5
+          Senior Research Engineer, R&D Division, rwheeler@urcmail.net, 125 Volunteer Way /P.O. Box 609.
+        6
+          Advanced Technology Manager, Joshua.preston@sustainableinnov.com, 111 Roberts Street, Suite J, East Hartford,
+        CT 06108.
+        7
+          President & CEO, trent.molter@sustainableinnov.com, 111 Roberts Street, Suite J, East Hartford, CT 06108.
+                                                                1
+                                       International Conference on Environmental Systems
+46th International Conference on Environmental Systems                                                                 ICES-2016-265
+10-14 July 2016, Vienna, Austria
+
+
+
+
+                                                          Nomenclature
+
+
+        AR        =   Atmosphere Revitalization                        H2        =   Hydrogen
+        C2H2      =   Acetylene                                        H2O       =   Water
+        C2H4      =   Ethylene                                         ISS       =   International Space Station
+        C2H6      =   Ethane                                           OGA       =   Oxygen Generation Assembly
+        CDRA      =   Carbon Dioxide Removal Assembly                  PPA       =   Plasma Pyrolysis Assembly
+        CH4       =   Methane                                          SI        =   Sustainable Innovations, LLC
+        CM        =   Crew Member                                      SmLPM     =   Standard milliliters per minute
+        CO        =   Carbon Monoxide                                  V         =   Volts
+        CO2       =   Carbon Dioxide                                   W         =   Watts
+
+
+
+                                             I. Introduction and Background
+
+        L    IFE support is a critical function of any manned space vehicle or habitat. Atmosphere revitalization (AR)
+             technology on the International Space Station (ISS) provides a breathable atmosphere and comfortable living
+        environment for the crew. Prior to 2011, operational functions of the AR system included temperature and humidity
+        control, oxygen generation, trace contaminant control, and carbon dioxide (CO2) removal. The CO2 removed from
+        ISS was vented overboard resulting in a loss of 92% of the required respiratory O 2. To resupply this O2, water was
+        delivered from Earth and electrolyzed in the Oxygen Generation Assembly (OGA). In 2009, a Sabatier CO2
+        Reduction system was launched to ISS and became fully operational in June 2011. The Sabatier system interfaces
+        with the OGA and the CO2 Removal Assembly (CDRA). Carbon dioxide from the CDRA is compressed and stored
+        in tanks until the Sabatier is ready for operation. Hydrogen is produced during the electrolysis of water in the OGA.
+        When the OGA is operational and CO2 is available in the storage tanks, the Sabatier system is activated and
+        produces methane and water via the Sabatier reaction shown in Eq 1.
+
+        Sabatier Reaction                       CO 2 + 4H2 ↔ 2H2O + CH4                                                  (1)
+
+        The water is condensed, separated, and purified in the Water Processing Assembly and recycled to the OGA to
+        continue producing O2 for the crew. The CH4, saturated with water vapor from the condensation process, is vented
+        overboard as a waste product. The addition of the Sabatier reactor to the AR system results in a theoretical recovery
+        of ~54% O2 from CO2 and is limited only by the loss of H2 in the form of vented CH4 and the loss of uncondensed
+        water vapor in the CH4 stream. The Sabatier reactor serves to reduce the required water resupply from Earth from
+        ~0.891 kg H2O/crew member(CM)-day to ~0.459 kg H2O/CM-day. For long-duration missions beyond Low Earth
+        Orbit, such as Martian transit and surface missions, even more recovery is needed to limit the cost and logistics of
+        resupply. NASA is currently targeting technologies that achieve 75-90% O2 recovery from metabolic CO2.1 One
+        approach to achieve additional recovery is to recycle hydrogen by adding a methane post-processor to the Sabatier-
+        based architecture. NASA has been exploring the Plasma Pyrolysis Assembly (PPA) for this purpose 2,3. The PPA
+        uses a magnetron to generate an H2/CH4 plasma targeting Sabatier CH4 conversion to hydrogen and acetylene
+        (C2H2) as shown in Eq. 2. Secondary reactions with CH4, as shown in Eqs. 3-5, and reactions with residual water
+        vapor as shown in Eqs 6-7, also occur in the PPA resulting in an effluent mixture containing H2, unreacted CH4,
+        product C2H2, and trace quantities of H2O, carbon monoxide (CO), ethylene (C2H4), ethane (C2H6), and solid carbon
+        (C).
+
+        Targeted PPA Reaction                         2CH4 ↔ 3H2 + C2H2                                                  (2)
+        CH4 Conversion to Ethane                      2CH4 ↔ H2 + C2H6                                                   (3)
+        CH4 Conversion to Ethylene                    2CH4 ↔ 2H2 + C2H4                                                  (4)
+        CH4 Conversion to Solid C                      CH4 ↔ 2H2 + C(s)                                                  (5)
+        CO Production                           C(s) + H2O ↔ CO + H2                                                     (6)
+        CO Production                           CH 4 + H2O ↔ CO + 3H2                                                    (7)
+
+
+                                                                 2
+                                        International Conference on Environmental Systems
+When the H2 recovered in the PPA product is recycled back to the Sabatier, and the Sabatier is operated at an
+H2:CO2 ratio of 4.25, a theoretical O2 recovery of 91.3% from CO2 is possible. This further reduces the required
+water resupply to 0.141 kg H2O/CM-day. However, in order to recycle H2 back to the Sabatier, the hydrocarbon
+byproducts must be removed to prevent fouling of the Sabatier catalyst. In 2015, four sub-scale hydrogen separation
+systems were delivered to NASA for evaluation for this purpose. These included two electrolytic single-cell
+hydrogen purification cell stacks developed by Sustainable Innovations, LLC (SI), a sorbent-based hydrogen
+purification unit using microwave power for sorbent regeneration developed by Umpqua Research Company
+(Umpqua), and a LaNi4.6Sn0.4 metal hydride produced by Hydrogen Consultants, Inc.
+    Two of these technology options have been tested at NASA Marshall Space Flight Center and evaluated for
+relative H2 purification performance, durability, and complexity. Here we report the results of these evaluations,
+discuss potential architecture options, and propose future work.
+
+                                  II. Hardware and Test Configuration
+   Four systems were delivered to NASA MSFC for evaluation in an Oxygen Recovery test stand. Two have these
+have been tested to-date including the SI Basic Cell Stack and the SI Advanced Cell Stack. A description of the
+hardware and the testing configuration is provided below.
+
+A. Hardware
+
+1. Sustainable Innovations Electrochemical H2 Separation
+     The SI cell stacks are both electrochemical H2 separation cell
+stacks. Electrochemical hydrogen separation provides a means of
+selectively isolating hydrogen from a mixture of gases. In
+electrochemical separation, hydrogen is electro-oxidized to
+protons and electrons, and the resulting protons are electro-
+reduced in another chamber, combining them with the electrons,
+thus producing purified hydrogen. The basic technology is well
+developed, but prior to 2014, was not directly applicable to the
+PPA product stream due to the relatively significant concentration
+of carbon monoxide in the product stream. At typical operating
+temperatures, the carbon monoxide would preferentially adsorb on
+the catalytic electrodes in the cell, and interfere with their ability
+to oxidize hydrogen. The carbon monoxide would desorb from the
+electrodes at temperatures above 150°C, but the acidic polymer
+that it typically uses as the electrolyte is not serviceable at this
+temperature. Through a Phase I and Phase III Small Business
+Innovative Research contract, Sustainable Innovations worked to
+identify and develop electrolyte materials tolerant to operating at
+temperatures that are adequate to thermally desorb the carbon
+                                                                       Figure 1. Sustainable Innovations Basic
+monoxide—thus enabling electrochemical hydrogen separation to
+                                                                       Cell Stack.
+effectively purify the hydrogen in the PPA product stream. During
+this effort, two single-cell stacks were developed using unique materials: a Basic Cell Stack, shown in Figure 1, and
+an Advanced Cell Stack. The materials and design for each are proprietary and will not be discussed in detail here.
+However, both were covered in Omega heat wrap and insulated using Unifrax (Tonawanda, NY) Fiberfrax S
+insulation to control stack temperature. The stack was operated using a Sorensen DCS20-60 DC power supply.
+
+B. Test Configurations
+1. Stand-Alone Operation
+   Of the four technology options, only the metal hydride involved stand-alone operations. Other metal hydrides,
+such as LiH4 and MgH25, have been shown to react with acetylene to form metal-carbides under certain conditions.
+Given the unstable nature of acetylene, and the lack of available literature data on effects of C 2H2 exposure on the
+LaNi4.6Sn0.4 metal hydride, a stand-alone safety test was conducted. A test stand was prepared at NASA MSFC’s
+Explosives Testing Facility. This area was designed for explosives and propellant testing and provided the necessary
+isolated operation and safety controls to mitigate any violent decomposition event that might occur during testing.
+
+                                                         3
+                                International Conference on Environmental Systems
+The metal hydride was first charged with H2 and regenerated to demonstrate nominal thermal and pressure profiles.
+The metal hydride was then exposed to a gas mixture containing 7% C 2H2, 1% CH4, and 92% H2. This composition
+represents a “worst case” C2H2 exposure the metal hydride would see during operation with the PPA. Vessel
+temperatures and pressures were monitored to compare with the baseline H 2 adsorption data.
+2. PPA + H2 Purification Operation
+    Each cell stack was integrated with the 2nd Generation PPA for initial evaluation. During this testing, the PPA
+was operated using compressed ultra-high purity CH4 and H2. The PPA was operated at a 1-CM rate of CH4
+production and an H2:CH4 ratio of 4:1. The reactor was maintained at ~52 torr with an applied microwave power of
+550W. This resulted in a PPA effluent containing H2, C2H2, unreacted CH4, ethylene, and ethane. Operation in this
+manner was notably devoid of CO and water vapor. During testing, 100 standard milliliters per minute (SmLPM)
+slip stream of the PPA effluent was diverted to the stack with flow controlled using a mass flow controller. The
+resulting H2 product was evaluated for purity and the process effluent was tested to identify vented composition
+3. SDU + PPA + H2 Purification Operation
+   Following PPA + H2 Purification testing, a Sabatier Development Unit (SDU), designed by Precision
+Combustion, Inc., was integrated upstream of the PPA. The SDU was operated such that 350 SmLPM CH 4 was
+produced with no unreacted CO2. This resulted in a methane product containing 80 mol% (dry basis) hydrogen.
+Water vapor content was maintained at a dew point of 31°C. The PPA was operated identically to PPA + H2
+Purification testing. Because the PPA was fed CH4 containing water vapor, the resulting effluent contained all
+previously indicated components. Gas composition data were taken as in the PPA + H2 Purification testing.
+
+                                       III. Results and Discussion
+    Two of the four H2 purification systems were tested at NASA MSFC in 2015 and early 2016. Each technology
+was evaluated when integrated with the PPA alone, and when integrated with both an SDU and the PPA. The results
+of this testing and a discussion of its relevance are provided below.
+    Sustainable Innovations, LLC delivered two cell stacks to NASA MSFC in 2015: the SI Basic Cell Stack and the
+SI Advanced Cell Stack. A key finding of all testing was that the H2 purified by the stacks was found to contain no
+contaminants within the measurable limits of the µGC. This level of purity is highly desirable for recycling to a
+Sabatier system or PPA with minimal concern for contamination. Differences in performance were observed based
+on the stack membrane materials themselves, the temperature at which the stack was operated, and the presence of
+water vapor and CO in the stack inlet gas stream.
+
+A. Basic versus Advanced Cell Stack H2 Separation Performance
+    Several data points were taken
+during operation of each cell
+stack. These data points varied
+gas feed from the PPA to the
+stacks, stack temperature, inlet
+composition, and applied voltage.
+For six of the collected data
+points, the Basic and Advanced
+cell stacks were held under
+identical conditions. Percentage
+of H2 separation was calculated
+based on the measured H2 at the
+cathode versus the known H2 feed
+to the cell stack anode. As can be
+seen in Figure 2, the Basic cell
+stack demonstrated a greater
+percentage of H2 separation than
+the Advanced cell stack in all
+cases. This data correlates well
+with that reported by the cell
+stack      vendor,     Sustainable
+Innovations, LLC where the Basic      Figure 2. H2 separation performance comparison between Basic and
+                                      Advanced cell stack.
+                                                         4
+                                International Conference on Environmental Systems
+stack demonstrated better H2 separation performance than the Advanced stack. SI attributed this observed difference
+in performance to the relative effectiveness of the membrane material used in each cell stack.
+
+B. Process Effluent Composition
+    In addition to measuring H2
+separation across each stack, gas
+composition data was taken for
+the anode inlet (feed from the
+PPA), anode outlet (H2 lean) and
+the cathode outlet (separated H2
+product). As mentioned above,
+the separated H2 product was
+pure beyond the evaluation
+means of the GC. The anode
+inlet composition varied for
+several reasons. First, when the
+PPA operates, the outlet
+composition changes slightly
+over time due to byproduct
+carbon formation in the PPA
+reactor. High reflected power
+within the PPA reactor is an
+indicator of excessive carbon
+build-up. When this occurs, the
+PPA is regenerated. However,          Figure 3. Stack inlet (PPA effluent) composition as a function of level of
+several hours of operation occur      integration.
+between regenerations. This
+provides several hours over which the PPA outlet composition changes. The PPA outlet composition will also vary
+based on integration with the Sabatier. When Sabatier effluent is fed to the PPA, the PPA effluent can vary further
+due to the presence of water vapor and CO in the gas feed. Average PPA effluent compositions are shown in Figure
+3. As can be seen from the graph, the presence of water and CO in the PPA feed results in high CO concentration
+and inhibits C2H2 production from CH4.
+    Given these variations in inlet composition, the effluent from the anode would be expected to mirror the relative
+compositions of the gases with the exception of H2. However, during testing of both the Basic and Advanced cell
+stacks, the outlet composition from the anode was considerably different than anticipated. In all cases, high levels of
+C2H4 and C2H6 were observed with minimal or no C2H2. The overall chemistry of formation of C2H4 and C2H6 from
+CH4 is shown in equations 3 and 4 above. However, the actual process of producing these hydrocarbons involves
+free radical intermediates. As shown in Eq. 8, CH4 forms CH3* free radicals which then recombine to form C2H6.
+Similarly, C2H6 is converted to C2H4 and C2H4 is converted to C2H2. The reverse reactions also occur providing a
+mechanism for hydrogenation of C2H2 to the other hydrocarbons.
+
+Ethane Formation from CH4         CH4 + CH4 ↔ CH3* + CH3* + H* + H* ↔ C2H6 + H2                                   (8)
+
+While hydrogenation of C2H2 does not pose any safety concerns, it is highly detrimental to a proposed Sabatier +
+Plasma Pyrolysis Assembly architecture. Conversion of metabolic CO 2 to C2H2 results in a theoretical maximum of
+~86% O2 recovery from CO2, conversion of CO2 to C2H4 results in a theoretical maximum of only ~72%, and
+conversion to C2H6 results in a theoretical maximum of only ~61.5%. In order to meet NASA’s mission targets, a
+minimum of 75% O2 recovery is required. Conversion to C 2H4 or C2H6 will not meet this target, making a Sabatier +
+PPA architecture inadequate for future long-duration manned missions. Thus, in order to be considered for the
+architecture, the cell stacks must not hydrogenate C2H2.
+    Hydrogenation products from C2H2 were observed in the effluent of both cells. Three theories were proposed as
+possible causes of the observed phenomenon in the stacks. First, in previous testing, the cell stacks were shown to
+produce byproducts at lower temperatures. If this were the case, raising the temperature of the stack could decrease
+the hydrogenation reactions. Second, it was possible that excess H2 was available during separation. Insufficient
+voltage to move the H2 across the membrane would result in a net H2 surplus at the surface of the membrane. This
+localized H2 combined with the voltage applied to the cell could have been contributing to the hydrogenation of the
+                                                         5
+                                International Conference on Environmental Systems
+C2H2. Finally, platinum was used for electrodes within the cell stack. Platinum has been shown to catalyze the
+hydrogenation of C2H2 under vastly different circumstances, but the presence of the metal under the conditions may
+have contributed to the observed results.
+    Testing was first conducted
+to determine the effect of stack
+temperature on the relative
+hydrogenation of C2H2. Figure
+4 shows the results of data
+points collected on the
+Advanced cell stack. All
+conditions for each data point
+were identical with the
+exception of temperature. As
+can be seen, the higher
+temperatures resulted in both
+more hydrogenation of the
+C2H2 and of the production of
+more hydrogen-rich molecules
+(e.g. CH4). Operation of the
+stacks at temperatures lower
+than 160°C might result in a
+marked          decrease       in
+hydrogenation             effects.
+However, the high temperature
+is critical for the H2 separation      Figure 4. Effect of temperature on C2H2 hydrogenation.
+technology due to the CO in
+the effluent stream. At lower temperatures, CO poisons the membrane and H 2 separation is compromised. This
+makes operation at a lower temperature unfeasible for a long-term solution.
+    Testing was then conducted to explore the effect of overvoltage on hydrogenation based on the theory that
+excess H2 at the surface of the membrane was contributing to the conversion of the C 2H2. For this test, the total flow
+of PPA effluent to the cell stack anode was limited to very low flow rates to achieve near 100% H 2 separation (69
+SmLPM, 60 SmLPM, and 48 SmLPM) and the voltage varied (0.00V, 0.16V, 0.30V, 0.46V, and 0.60V). The results
+show an interesting phenomenon. First, regardless of the flow rate and the voltage tested, all of the C2H2 was
+hydrogenated to some degree,
+resulting in no measurable
+C2H2 in the stack outlet stream.
+Second, regardless of the flow
+rate and the voltage tested, the
+total     quantity    of    C2H2
+converted to CH4 did not
+change, as seen in Figure 5.
+The voltage did, however,
+appear to have an effect on the
+degree to which C2H2 was
+converted to C2H4 and C2H6 as
+can be seen in Figure 6 and
+Figure 7, respectively, but was
+independent of flow rate. An
+increase in voltage reduced the
+total      hydrogenation       as
+evidenced by the increase in
+C2H4 and relative decrease in
+C2H6 as voltage increased.
+While this would be a
+promising result if the goal           Figure 5. Acetylene conversion to methane in Advanced cell stack as a
+were to simply decrease                function of voltage and anode feed rate.
+                                                             6
+                                   International Conference on Environmental Systems
+hydrogenation, the fact that all of the C2H2 is still being converted in the process implies that an overvoltage alone
+will not eliminate the problem.
+    A third possibility is that the
+Pt catalyst in the stack is
+causing        the        observed
+hydrogenation. If this were the
+case, two options might be
+taken to reduce or eliminate the
+problem. First, the catalyst
+material could be changed.
+Unfortunately, other catalysts
+known to be H+ conductors
+including Palladium and Silver
+are not viable options for this
+application. Palladium, like Pt,
+is a known hydrogenation
+catalyst. Silver, on the other
+hand, is known to react
+violently with C2H2. The second
+option would be to limit the
+mass transport of C2H2 to the
+catalyst surface. This might be
+accomplished through the use           Figure 6. Acetylene conversion to ethylene in Advanced cell stack as a
+of a gas diffusion layer of            function of voltage and anode feed rate.
+greater thickness. The thicker
+layer would limit mass transport
+of the larger molecules (e.g.
+C2H2) to the surface, while
+allowing the smaller molecules
+(e.g. H2) ready access to the
+catalyst surface. In an effort to
+further      understand         the
+phenomenon, the Basic Cell
+Stack was returned to SI for
+evaluation and refurbishment
+with a thicker gas diffusion
+layer.
+    Finally, during the course of
+testing, it was discovered that
+the presence of H2O and/or CO
+in the gas stream limited
+hydrogenation of C2H2. This
+can be seen in Figure 8, where
+residual C2H2 was observed
+when water and CO were
+present in the feed stream.            Figure 7. Acetylene conversion to ethane in Advanced cell stack as a
+While it is not yet clear what is      function of voltage and anode feed rate.
+causing this phenomenon, it is
+possible that CO, known to adsorb to the catalyst surface, blocks reaction sites that would otherwise be used to
+hydrogenate C2H2. If this is the case, one could assume that H 2 separation would also decrease with the reduced
+reaction sites. This is, in fact, what was observed. If water vapor plays a role in this phenomenon, it is unlikely that
+water is electrolyzed at the catalyst surface given the low voltages. However, protons are known to be generated at
+the anode, and if water is present, hydronium ions (H3O+) are likely formed and surrounded by other water
+molecules. In this scenario, there is no driving force to reduce C2H2 or any other species. This may help explain the
+relatively lower C2H2 hydrogenation.
+
+                                                          7
+                                 International Conference on Environmental Systems
+                      Figure 8. Effect of water vapor and CO on hydrogenation of C 2H2.
+
+
+                                            IV. Architectural Options
+    Three primary options for hydrogen separation technology to be used in conjunction with the PPA are being
+considered. These options include the Sustainable Innovations electrochemical cell stacks, the Umpqua sorbent
+based H2 separation system, and a system based on metal hydrides. The system architectural requirements for these
+three systems are discussed below.
+
+A. Sustainable Innovations Basic and Advanced Cell Stacks
+    Figure 9 shows the general system architecture required to incorporate an electrochemical hydrogen separation
+cell stack into the PPA system architecture. This is by far the simplest system architecture since the cell stack would
+operate continuously, in contrast to the batch-processing necessary for a sorbent or metal hydride based system.
+
+
+       CO2 from          CRA                   CH4+ H2                                     PPA
+                                                                 Flow
+        crew                                                     Meter
+
+
+                                                                                Flow
+                                                                              Controller
+
+                                                H2         Flow
+                                                         Controller             Accumulator        Carbon
+                                                                                   Tank            Capture
+
+             H2O
+                                    Flow
+                                    Meter                                H2
+                                                                                                  H2+C2H2+
+                                                                                                  H2O+CH4...
+
+
+         O2 to           OGA                                                                      C2H2+CH4+H2O
+         crew                                                                   Electrochemical      to space
+                                                                                   Cell Stack
+     Figure 9. Electrochemical cell stack system architecture.
+
+Continuous operation would eliminate the valves necessary for cycling the sorbent or metal hydride beds. Also,
+since the cell stack would be capable of sourcing hydrogen at pressures well above the minimum required by the
+CRA and PPA no compressor is necessary in the system. The cell stack membranes are compatible with the water
+vapor in the PPA effluent stream, and in fact require a trace amount of water vapor for proper operation, so would
+
+                                                         8
+                                International Conference on Environmental Systems
+not require a desiccant stage. The use of which would, of course, mean that some water vapor would be lost to
+space.
+
+B. Umpqua Sorbent-Based H2 Purification
+    Figure 10 shows the general architecture required for a sorbent-based hydrogen separation architecture. A set of
+two sorbent beds, one adsorbing and one thermal/vacuum desorbing, would be required for continuous operation.
+The Umpqua concept uses microwaves instead of conventional heaters to speed heating of the sorbents during
+regeneration. Zeolite sorbents would capture acetylene and allow hydrogen and any residual methane to pass into the
+recycle loop. The passage of residual methane is actually beneficial since it would allow for the re-processing of any
+methane that was not converted to acetylene during the first pass through the PPA. A sorbent-based architecture
+would require a pressure controller to maintain pressure in the sorbent bed during operation, an accumulator tank to
+act as a buffer volume to balance process flows, and a compressor to provide sufficient pressure in the sorbent beds
+for adequate adsorption.
+
+    CO2 from          CRA                   CH4+H2                                             PPA
+                                                               Flow
+     crew                                                      Meter
+
+
+                                                                                    Flow
+                                                                                  Controller
+
+                                    H2+ residual CH4     Flow
+                                                       Controller                   Accumulator      Carbon
+                                                                                       Tank          Capture
+
+          H2O
+                                  Flow
+                                  Meter                                                              H2+C2H2+
+                                                                         H 2+                        H2O+CH4...
+                                                                       residual                      Compressor
+                                                                         CH4
+
+
+                                                                                          Sorbent
+      O2 to           OGA                                                                              C2H2 to
+      crew                                                                                             space
+                                                                                          Sorbent
+
+  Figure 10. Sorbent-based H2 separation architecture.
+    Additionally, since zeolite sorbents have a high affinity for water vapor, a desiccant stage would be needed
+upstream of the zeolite beds. This desiccant stage could be integrated into the inlet side of the zeolite beds, which
+would add minimal complexity to the system architecture but would cause a net loss of water vapor since it would
+be desorbed to space vacuum when the beds were regenerated. The desiccant stage could also be designed as
+separate beds, which would add system and operational complexity but would allow for water vapor to be returned
+to the cabin during regeneration.
+    It should also be considered that a dual swing sorbent bed system has considerable valving challenges, which are
+not shown schematically in Figure 10. Manifolds and valves must be provided to effectively isolate and cycle the
+beds between operation and regeneration modes. The dust produced by swing-bed sorbent systems can be a
+significant operational issue for valves as can be seen in the operational history of the Carbon Dioxide Removal
+Assembly.
+
+
+C. Metal Hydride H2 Purification and Storage
+    Figure 11 shows the general architecture required for a metal hydride based hydrogen purification architecture.
+In a metal hydride architecture PPA effluent would flow to a metal hydride bed that would capture hydrogen and
+allow all other constituents to flow out to space vacuum. A second bed would be heated to supply hydrogen to the
+hydrogen recycle loop. A third bed would be exposed to space vacuum at elevated temperatures to condition the bed
+for further hydrogen processing3. A buffer volume would still likely be necessary in this architecture but the volume
+could be smaller and lower pressure than the volume needed in the sorbent-based architecture. No compressor would
+be needed since the thermal desorption of hydrogen from a metal hydride can supply hydrogen at the pressure
+necessary for the operation of the PPA and CRA. Valve and manifold complexity would be similar to the sorbent
+system, however, it is unlikely that there would be dusting issues from the metal hydrides. Heating and cooling the
+metal hydrides would be less challenging than sorbents due to their higher thermal conductivity and lower volume.
+
+                                                         9
+                                International Conference on Environmental Systems
+   The presence of water vapor present in the PPA effluent stream must still be addressed in metal hydride
+architecture. Water-tolerant metal hydrides may be available and would simplify the system architecture but would
+
+
+      CO2 from         CRA                    CH4+ H2                                       PPA
+                                                                 Flow
+       crew                                                      Meter
+
+
+                                                                                 Flow
+                                                                               Controller
+
+                                                H2         Flow
+                                                         Controller              Accumulator         Carbon
+                                                                                    Tank             Capture
+
+           H2O
+                                    Flow
+                                    Meter                                 H2
+                                                                                                    H2+C2H2+
+                                                                                                    H2O+CH4...
+
+
+                                                                         Metal Hydride               C2H2 + CH4
+        O2 to          OGA                                                                            to space
+        crew                                                                      Metal Hydride
+
+                                                                         Metal Hydride             Space
+                                                                                                  Vacuum
+    Figure 11. Metal hydride separation architecture.
+allow water vapor loss to space vacuum. A separate desiccant system could be incorporated up-stream of the metal
+hydride system, which would allow water vapor to be returned to the cabin albeit at the cost of power and system
+complexity.
+
+                                                V. Future Work
+    Four technologies were identified as potential solutions for H 2 separation and recycling in a Sabatier post-
+processing O2 recovery architecture. Two of these technologies have been tested. Future work will include a
+comparable evaluation of the Umpqua H2 Separation system and the metal hydride. Initial findings of the
+Sustainable Innovations, LLC cell stacks show the capability to separate nearly 100% of the H 2 fed to the stack and
+extremely high H2 product purity. However, the stacks also demonstrate hydrogenation of PPA product C2H2
+yielding a lower architectural O2 recovery efficiency. Ongoing efforts will seek to identify methods to reduce or
+eliminate the hydrogenation of C2H2 while maintaining H2 separation and product purity.
+
+                                                 Acknowledgments
+    The authors would like to acknowledge Kenny Bodkins, Tom Williams, and Jeff Richardson for their technical support in
+maintaining the test facility and software. This work was funded with Small Business Innovative Research contracts and the
+Human Exploration and Operations Mission Directorate’s Advanced Exploration Systems Program’s Life Support Systems
+Project.
+
+                                                        References
+1
+  NASA Technology Roadmaps TA 6: Human Health, Life Support, and Habitation Systems Section 6.1.1.2 (2015).
+2 Wheeler, R.R., Hadley, N.M., Wambolt, S.R., Abney, M.B., "Third Generation Advanced PPA Development," 45th
+International Conference on Environmental Systems, ICES-2014-034, Tucson, AZ, 2014.
+3 Greenwood, Z.W., Abney, M.B., Perry, J.L., Miller, L.A., Dahl, R.W., Wambolt, S.R., Wheeler, R.R., " Increased Oxygen
+
+Recovery from Sabatier Systems Using Plasma Pyrolysis Technology and Metal Hydride Separation," 45th International
+Conference on Environmental Systems, ICES-2015-120, Bellevue, WA, 2015.
+4 Smith, R.L., Miser, J.W., “Compilation of the Properties of Lithium Hydride,” NASA Technical Memorandum X-483,
+
+December 21, 1972.
+5 Shahi, R.R., Raghubanshi, H., Shaz, M.A., Srivastava, O.N., “Studies on the de-/re-hydrogenation characteristics of
+
+nanocrystalline MgH2 admixed with carbon nanofibers,” Applied Nanoscience, vol. 2, pgs 195-201, 2012.
+
+
+
+
+                                                         10
+                                 International Conference on Environmental Systems
+

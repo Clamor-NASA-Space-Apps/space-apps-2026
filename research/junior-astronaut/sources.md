@@ -66,3 +66,7 @@
 | https://www.nasa.gov/?p=73868 | NASA Marshall: 4-Bed CO₂ Scrubber ships, Jun 2021 | pages/co2/nasa-marshall-ships-*.html |
 | https://nasa.gov/image-article/apollo-13-lunar-module-mail-box | Apollo 13 "mail box" (AS13-62-8929) | pages/co2/nasa-apollo-13-lunar-module-mail-box.html |
 | https://en.wikipedia.org/wiki/Carbon_dioxide_scrubber | CO₂ scrubber overview (secondary, user's find) | pages/co2/wiki-co2-scrubber.html |
+| (agent) | agent-water sources: see files and NTRS ids in factcheck rows 101–143 | pages/agent-water/ |
+| (agent) | agent-food sources: see files and NTRS ids in factcheck rows 101–143 | pages/agent-food/ |
+| (agent) | agent-oxygen sources: see files and NTRS ids in factcheck rows 101–143 | pages/agent-oxygen/ |
+| (agent) | agent-habitat sources: see files and NTRS ids in factcheck rows 101–143 | pages/agent-habitat/ |

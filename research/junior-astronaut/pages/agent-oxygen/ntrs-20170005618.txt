@@ -1,0 +1,671 @@
+                                                                               National Aeronautics and
+                                                                                   Space Administration
+
+
+
+
+                                                                  Habitation Systems
+
+                                                                         An HEOMD SBIR Topic
+                                                                                    Presenter: Daniel Barta
+                                                                                                MD: HEOMD
+                                                                                            Date: 06/27/2017
+                                                                                          TIME: 1:00 pm PST
+
+
+
+
+  I N N O V A T I O N     |   P A R T N E R S H I P           |    C O M M E R C I A L I Z A T I O N
+SMALL   BUSINESS   INNOVATION RESEARCH   (SBIR)   &   SMALL   BUSINESS   TECHNOLOGY       TRANSFER        (STTR)
+Habitation Systems - Topic Overview
+
+
+• Environmental Control and Life Support
+   o Atmosphere Revitalization
+   o Water Recovery
+   o Waste Management
+   o Environmental Monitoring and Control
+   o Fire Protection
+   o Thermal Control Systems
+• Habitation - Human Accommodations
+   o Habitat Outfitting
+   o Logistics Reduction                     Expedition 43 crewmembers Scott
+                                            Kelly and Terry Virts service the CO2
+   o Food Systems / Food Production              removal system on the ISS
+
+                                                                                    2
+Mission Considerations for Habitation Systems
+                                                              2030s
+                                                        Leaving the Earth-
+                                                        Moon System and
+                                 2020s
+                                                         Reaching Mars
+                           Operating in the                   Orbit
+       Now                  Lunar Vicinity
+     Using the
+   International
+   Space Station
+
+
+
+
+         Earth Reliant                   Proving Ground               Earth Independent
+      Length: 6 to 12 months     Mission Length: 1 to 12 months    Mission Length: 2 to 3 years
+          Return: Hours                   Return: Days              Return: Months to Years
+        Resupply: frequent        Resupply: costly and difficult     Resupply: not possible
+     Sample Analysis on Earth       Sample return is difficult     In-flight analysis capability
+    Waste burns up on re-entry           Waste storage                Planetary Protection
+Environmental Control and Life Support Systems (ECLSS)
+Considerations for Long Duration Deep Space Missions
+
+Long Distances from Earth Prohibit
+Resupply and Ground Support
+• A spacecraft will require a higher level of self
+  sufficiency and autonomy.
+• Sample analysis will be limited to capability
+  within the vehicle, driving the need for greater
+  on board analytical monitoring capability.
+Recycling Life Support Consumables is
+Enabling for Long Duration Missions
+• For example, a 1000 day mission for a crew of 4
+  will require over 12 metric tons of potable        Astronaut Susan J. Helms in front of Contingency
+                                                           Water Containers (CWCs) on the ISS
+  water for drinking and hygiene.
+• To save mission and launch costs, recycling air,
+  water & solid wastes, and reducing other
+  logistical needs will be essential.
+Planetary Surface Missions are Unique
+• Systems may need to process water derived
+  from in situ planetary resources.
+• Planetary protection requirements will need to
+  be met, including controls and processes to
+  prevent forward and backward contamination.
+                                                                                                        4
+Environmental Control and Life Support (ECLSS)
+
+• Environmental Control and Life Support (ECLSS) contains many subsystems with
+  common interfaces, interdependencies and synergies.
+
+
+
+
+                                                                                 5
+ISS Regenerative ECLSS: The Point of Departure for
+an Exploration ECLSS
+ • ISS ECLSS is not fully “closed”, i.e., not all consumables are fully recycled
+
+
+
+
+                                                                                   Waste Brine
+
+
+
+
+                                                                                                 6
+ISS ECLSS is not fully “closed”
+
+      Notional Mass Balance, Crew of 3, One Year Mission
+
+
+
+
+   • There are opportunities for improvements
+     – Improved sorbents and catalysts for trace contaminants
+     – New technologies for water recovery from wastewater brines
+     – New technologies for water recovery from solid waste
+     – On board environmental monitoring for water and wastewater
+     – Simpler, more robust, serviceable subsystems and processors   7
+   Current ISS Capabilities and Challenges/Needs:
+   Atmosphere Management
+• Circulation
+  – ISS: Fans (cabin & intermodule), valves, ducting, mufflers,
+    expendable HEPA filter elements
+  – Challenges: Quiet fans, filters for surface dust
+• Remove CO2 and contaminants
+  – ISS: Regenerative zeolite CDRA, supports ~2.3 mmHg ppCO2
+    for 4 crew. MTBF <6 months. Obsolete contaminant sorbents.
+  – Challenges: Bed & valve reliability, ppCO2 <2 mmHg, sorbents,
+    replace obsolete sorbents w/ higher capacity; siloxane removal
+• Remove humidity
+  – ISS: Condensing heat exchangers with anti-microbial hydrophilic
+    coatings requiring periodic dryout, catalyze siloxane compounds.
+  – Challenge: Durable, inert, improved anti-microbial coatings
+• Supply O2
+  – ISS: Oxygen Generation Assembly (H2O electrolysis, ambient
+    pressure); high pressure stored O2 for EVA
+  – Challenge: Smaller, alternate H2 sensor, high pressure 3,000 psi
+    O2 for EVA replenishment; contingency medical oxygen
+• Recovery of O2 from CO2
+  – ISS: Sabatier process reactor, recovers 42% O2 from CO2
+  – Challenge: >75% recovery of O2 from CO2
+Success Stories – Carbon Dioxide Reduction
+
+• Umpqua Research Company, Myrtle Creek, Oregon
+  – X12.01-9587 (SBIR 2005-2) “Hydrogen Recovery by ECR Plasma Pyrolysis of Methane”
+  – X3.01-9783 (SBIR 2010-1) “Regenerative Bosch Reactor”
+• Description
+  – Two unique technologies were developed
+     that allow for improved recovery of
+     oxygen from carbon dioxide over the
+     state of the art
+  – Both have received Phase III funding
+  – Both are under consideration for selection
+     for a flight demonstration and possible            Plasma
+     use for an advanced regenerative ECLSS             Pyrolysis
+                                                        Reactor
+• Continuous Bosch Reactor                                                 Continuous Bosch Reactor
+
+  – Catalytic reduction of carbon dioxide by hydrogen, resulting in solid carbon and water. Would
+    replace the SOA ISS Sabatier. Potential O2 Recovery from CO2: ≈95%
+• Methane Pyrolysis of Methane
+  – Decomposition of methane (originating from the Sabatier) to hydrogen and acetylene.
+    Returns hydrogen to the Sabatier for further CO2 reduction. Potential O2 Recovery: ≈70%           9
+   Current ISS Capabilities and Challenges/Needs:
+   Water Management
+• Water Storage & Biocide
+ – ISS: Bellows tanks, collapsible bags, iodine for microbial
+   control
+ – Challenges: Common silver biocide with on-orbit dosing,
+   dormancy survival
+• Urine Processing
+ – ISS: Urine Processing Assembly (vapor
+   compression distillation), currently recovers
+   85% of water (brine is stored for disposal)
+ – Challenges: 85-90% recovery (expected with
+   alt pretreat formulation just implemented);
+   reliability; recovery of urine brine water
+• Water Processing
+ – ISS: Water Processor Assembly (filtration, adsorption, ion
+   exchange, catalytic oxidation, gas/liquid membrane
+   separators),100% recovery, 0.11 lbs consumables +
+   limited life hw/lb water processed.
+ – Challenges: Reliability (ambient temp, reduced pressure
+   catalyst), reduced expendables, dormancy survival
+Success Stories - Ionomer Water Processor for
+Water Recovery from Brines
+• Paragon Space Development Corporation, Tucson, Arizona
+  – X3.01-9280 (SBIR 2010-1) “Employing Ionomer Membrane Technology to Extract Water from Brine”
+    (SBIR 2010-2) “Ionomer-membrane Water Processor System Design and EDU Demonstration”
+
+• NASA’s Problem
+  – Production of brine wastewater by
+    the ISS Urine Processor Assembly
+    results in a considerable loss of
+    water on a yearly basis.
+  – The brine is highly toxic.
+  – Consumable containers are used
+    to dispose of the brine, which adds
+    significant consumable mass.            Flight hardware concept. Hardware delivery is expected
+                                            in November 2018, with a flight demonstration in 2019.
+• Paragon’s Solution:
+  – Membrane pair forms a bag or bladder to contain brine and transmit water vapor
+  – Cabin air sweep gas delivers recovered water vapor to cabin where it enters the cabin
+    condensing heat exchanger and the vehicle water processing system
+  – Recovers 80-90% of residual water in brine, boosting urine water recovery to 98%                 11
+  Current ISS Capabilities and Challenges/Needs:
+  Environmental Monitoring
+• Water Monitoring
+  – ISS: On-line conductivity; Off-line total organic carbon, iodine; Samples returned to
+    earth for full analysis
+  – Challenge: On-orbit identification and quantification of specific organics & inorganics
+• Microbial
+  – ISS: Culture-based plate count, no identification, 1.7 hrs crew time/sample, 48 hr
+    response time; samples returned to earth.
+  – Challenge: On-orbit, non culture-based monitor with species identification &
+    quantification, faster response time and minimal crew time
+• Atmosphere
+  – ISS: Major Constituent Analyzer (mass spectrometry – 6 constituents); COTS
+    Atmosphere Quality Monitors (GC/DMS) measure ammonia and some additional
+    trace gases; remainder of trace gases via grab sample return
+  – Challenges: Smaller, more reliable major constituent analyzer, in-flight trace gas
+    monitor (no ground samples), targeted gas (event) monitor
+• Particulate
+  – ISS: N/A
+  – Challenge: On-orbit monitor for respiratory particulate hazards & planetary dust
+• Acoustic
+  – SOA: Hand held sound level meter, manual crew assays
+  – Challenge: Continuous acoustic monitoring with alerting
+  Environmental Monitoring - Spacecraft Maximum
+  Allowable Concentrations (SMACs) for Airborne
+  Contaminants
+Considerations                             Selected Chemicals
+                                          (list is not complete) 1 hr
+                                                                                Concentration (ppm)*
+                                                                           24 hrs 7 days 30 d 180 d 1000 d
+ – Set in cooperation with the National   Acetaldehyde               10           6      2      2        2    NS
+   Research Council Committee on          Acetone                   500        200     22     22       22     NS
+   Toxicology.                            Ammonia                    30         20       3      3        3      3
+                                          Benzene                    10           3    0.5    0.1    0.07  0.013
+ – Consider unique factors such as        Carbon dioxide*        20,000     13,000 7,000 7,000     7,000   5,000
+   space-flight stress on human           Carbon monoxide           425        100     55     15       15     15
+   physiology, uniform good health of     Benzene                    10           3    0.5    0.1    0.07  0.013
+   astronauts, absence of pregnant        Ethanol                 5,000      5,000 1,000 1,000     1,000   1,000
+   and very young individuals.            Ethylene glycol            25         25       5      5        5    NS
+                                          Formaldehyde               0.8        0.5    0.1    0.1      0.1    0.1
+ – Spaceflight relevant chemicals         Freon 21                   50         50     15     12         2    NS
+ – Consider exposure durations critical   Glutaraldehyde           0.12       0.04 0.006 0.003 0.0006         NS
+   for spaceflight                        Hydrazine                    4        0.3  0.04 0.02     0.004      NS
+                                          Mercury                  0.01      0.002 0.001 0.001     0.001      NS
+Exposure Groups                           Methane                 5,300      5,300 5,300 5,300     5,300      NS
+ – Short-term (1 & 24 hr) SMACs are       Methanol                  200         70     70     70       70     23
+   set to manage accidental releases      Methyl ethyl ketone        50         50     10     10       10     NS
+   and permit risk of minor, reversible   Methyl hydrazine         .002       .002   .002 .002       .002     NS
+                                          Propylene glycol           32         17       9      3      1.5    1.5
+   effects, such as mild irritation.
+                                          Toluene                    16         16       4      4        4      4
+ – Long-term SMACS are set to fully       Xylene                     50         17     17     17       8.5    1.5
+   protect healthy crewmembers from       Spacecraft Maximum Allowable Concentrations for Airborne Contaminants,
+   adverse effects                        JSC-20584, 2008                        *NS = Value Not Set
+                                          *SMAC likely to be reduced. Interim working value for R&D = 2,600 ppm
+                                                                                                                    13
+  Environmental Monitoring - Spacecraft Water Exposure
+  Guidelines (SWEGs) for Potable Water
+
+Considerations                                 Selected Chemicals
+                                              (list is not complete)   1 day
+                                                                                Concentration (mg/L)
+                                                                                 10 days 100 days 1000 days
+ – Protection of Crew Health              Acetone                         3500      3500       150        15
+ – Strengths & susceptibilities of        Alkylamines (di)                  0.3       0.3       0.3      0.3
+   astronauts                             Ammonia                             5         1         1        1
+                                          Antimony (soluble salts)            4         4         4        4
+ – Spaceflight relevant chemicals         Barium (salts), soluble           21        21         10       10
+ – Consider exposure durations critical   Benzene                           21          2      0.07     0.07
+   for spaceflight                        Cadmium (salts), soluble          1.6       0.7       0.6   0.022
+                                          Caprolactam                      200       100       100      100
+ – Account for higher drinking water      Chloroform                        60        60         18      6.5
+   consumption rates                      Di-n-butyl phthalate            1200       175         80       40
+ – These drive design goals for water     Dichloromethane                   40        40         40       15
+   recycling, but are purposefully not    Ethylene glycol                  270       140         20        4
+   so stringent to cause over-design      Formaldehyde                      20        20         12       12
+                                          Formate                       10,000      2500      2500     2500
+ – Total Organic Carbon is the sum of     Manganese (salts), soluble        14        5.4       1.8      0.3
+   contributions of individual            Mercaptobenzothiazole            200        30         30       30
+   constituents                           Methanol                          40        40         40       40
+                                          Methyl Ethyl Ketone              540        54         54       54
+Exposure Groups                           Nickel                            1.7       1.7       1.7      0.3
+ – Acute Exposure – for contingencies     Phenol                            80          8         4        4
+                                          Silver                              5         5       0.6      0.4
+ – Prolonged Consumption - drives         Zinc soluble compounds            11        11          2        2
+   requirements for water processor        Spacecraft Water Exposure Guidelines (SWEGs), JSC-63414, 2008
+   design
+                                                                                                               14
+Fire Safety Needs
+
+       Function                                       Capability Gaps
+                         ECLSS-compatible and rechargeable fire suppression. Compatible
+Fire Suppression
+                         with small cabin volumes.
+                         Single filtering cartridge mask (fire, ammonia, toxic spill),
+Emergency Crew Mask
+                         compatible with small cabin volumes (no O2 enrichment).
+                         Contingency air monitor for relevant chemical markers of post-fire
+Combustion Product
+                         cleanup; CO, CO2, HF, HCl, HCN; battery-operated; hand-held
+Monitoring
+                         calibration duration 1-5 years; survives vacuum exposure.
+Low- and partial-gravity
+                         Identify material flammability limits in low-g environment
+material flammability
+                         Contingency air purifier for post-fire and leak cleanup. Reduce
+Post-fire
+                         incident response time by 75% compared to getting in suits and
+cleanup/smoke eater
+                         purging atmosphere.
+Fire Scenario Modeling
+                         Definition of a realistic spacecraft fire to size.
+and Analysis
+Fire Detection           Early fire detection. Particle size discrimination (false alarms).
+                                                                                              15
+Spacecraft Fire Safety Demonstration
+(Saffire)
+Objectives
+• Determine low-g flammability limits for spacecraft materials
+• Investigate/define realistic fires for exploration vehicles
+    – Fate of a large-scale spacecraft fire
+• Demonstrate spacecraft fire detection, monitoring, and cleanup
+  technologies in a realistic fire scenario
+• Characterize fire growth in high O2/low pressure atmospheres
+• Provide data to validate models of realistic spacecraft fire
+
+Saffire Description                                                              Dates     Cygnus
+        Assess flame spread of large-scale microgravity fire (spread rate,
+   I                                                                            Jun 2016    OA-6
+        mass consumption, heat release)
+   II   Verify oxygen flammability limits in low gravity                        Nov 2016    OA-5
+  III   Same as Saffire-I but at different flow conditions                      Jun 2017    OA-7
+        Assess flame spread of large-scale microgravity fire in exploration
+  IV atmospheres; demonstrate post-fire monitoring and cleanup                  Jul 2019   CRS2-1
+        technologies
+        Evaluate fire behavior on realistic geometries; demonstrate post-fire
+  V                                                                             Feb 2020   CRS2-2
+        monitoring and cleanup technologies
+        Assess existing material configuration control guidelines;
+  VI                                                                            May 2020   CRS2-3
+        demonstrate post-fire monitoring and cleanup technologies                                  16
+Success Stories - Spacecraft Fire Safety
+Demonstration
+Saffire Description                                                               Dates      Cygnus
+        Assess flame spread of large-scale microgravity fire in exploration
+  IV atmospheres; demonstrate post-fire monitoring and cleanup                   Jul 2019    CRS2-1
+        technologies
+        Evaluate fire behavior on realistic geometries; demonstrate post-fire
+   V                                                                            Feb 2020     CRS2-2
+        monitoring and cleanup technologies
+        Assess existing material configuration control guidelines;
+  VI                                                                            May 2020     CRS2-3
+        demonstrate post-fire monitoring and cleanup technologies
+
+An Advanced Smoke-Eater for Post-Fire Cabin Atmosphere Cleanup
+ – H3.02-9398 (SBIR 2014-2), TDA Research, Inc., Wheat Ridge, CO
+ – Demo in Saffire-IV-VI will only include CO catalyst. Sized for the
+   Cygnus vehicle and anticipated fire in Saffire
+
+Advanced Fire Detector for Space Applications
+ – X3.04-9258 (SBIR 2007-2), Vista Photonics, Inc., Las Cruces, NM
+ – To be demonstrated in Saffire-IV-VI
+ – Also under development for ISS/Orion flight hardware
+                                                                                Vista Photonics
+                                                                                                  17
+Success Stories – Fine Water Mist Fire Extinguisher
+
+• ADA Technologies, Littleton, Colorado
+  – X12.03-8217 (SBIR 2005-2) “Fine Water Mist Fire Extinguisher for Spacecraft”
+  – X2.05-9375 (SBIR 2008-2) “Advanced Portable Fine Water Mist Fire Extinguisher for Spacecraft”
+
+• NASA’s Problem
+  – A replacement for gaseous carbon
+    dioxide (CO2) portable fire extinguishers
+    (PFE) was necessary.
+  o They are not compatible with spacecraft
+     ECLSS or small cabin volumes
+  o They are not rechargeable inflight
+                                                    Microgravity Aircraft
+                                                        Evaluations
+• ADA Technology’s Solution:
+  – Leverages the unique thermal properties of micro-atomized
+    water droplets.                                                           ISS Fine Water Mist
+  – Environmentally safe - uses only water and nitrogen, the                     Portable Fire
+                                                                                 Extinguisher
+    technology does not pose a health or environmental hazard.                  Engineering Unit
+  – Can be used in any orientation
+                                                                                                    18
+Overview – Habitation
+
+• Habitation
+ – To enable highly effective crew accommodations and optimization of logistical mass to support
+   exploration class missions of increasing length and distance from earth
+ – Habitation is discrete crew hardware and logistics as well as integrated systems required to utilize
+   vehicle systems and to maintain crew productivity
+ – Does not include the habitat module itself,
+   ECLSS, medical, science or robotic hardware,
+   but may include interfaces to these systems
+
+
+
+
+            Astronaut Chris Hatfield
+               in Crew Quarters                                                                           19
+Habitation - Notional Hardware/System Breakout
+
+                                                Habitation Domain
+
+Human Sys. Integration – Habitable Volume                  Housekeeping
+Habitation systems                                                                      Wipes, cleaners, vacuum
+                        Hab Sys Interior Architecture        Cleaning
+  performance,
+ Human Factors                                                                         Trash stowage/monitoring,
+     Analysis           Human Systems Integration            Trash Management              processing, jettison,
+                                                                                           ECLSS ORU disposal,
+                                                                                         biological waste stowage
+   Prime structures,          Habitable Structures          Maintenance/Repair
+ secondary structures                                                                     Tools, tool caddies and
+                            Vehicle Structure                Repair Equipment                stowage, power
+  Crew Quarters,                                                                                provisions,
+ Waste and Hygiene                                                                           portable lighting
+   Compartment,             Crew Structures                  Diagnostics Instruments
+ Galley, Restraints &                                                                          Basic kits,
+    Mobility Aids             Integrated Outfitting          Maintenance Work Area          specialized kits,
+                                                                                            L2L kits, additive
+                            Lighting-vehicle                 Subsystem Spares               manufacturing
+  Fans, dampening,
+     adsorption             Acoustic Control                Logistics            Bags, stowage structures, cold
+                                                                                  stowage, inventory mgmt.,
+                                                             Stowage Systems          packaging materials
+                            Odor Control
+                                                                                   Clothing, recreation,
+                            Radiation Protection             Crew Provisions     personal items, hygiene,
+                                                                                 office supplies, survival
+                                                                                   kit, food & nutrition   18
+Overview – Logistics reduction
+
+• Logistics
+ – As with spacecraft and subsystem mass and volume, mission architects strive to minimize
+   the amount of “logistics” or consumables required to support human exploration missions.
+ – As mission duration increases, logistics reduction, as well as dealing with the associated
+   waste products, becomes increasingly important.
+• Definition - Logistics:
+ – Crew Consumables (food, clothing, water, gasses, etc.)
+ – Maintenance and Spares
+ – Packaging and Overhead (e.g. cargo transfer bags)
+ – Waste products may include:
+   o Wet and dry trash
+   o Empty containers and packaging
+   o Human metabolic wastes
+                                                                               Used wipes
+                                                                               and clothing
+                      Reduce
+                       Reuse
+                      Recycle!
+                                              Cargo Transfer Bags
+                                                                                              21
+Logistics and Waste Masses
+
+       1,000 day mission w/ crew of 4
+
+
+
+
+                                        22
+  Current ISS Capabilities and Challenges/Needs:
+  Waste Management
+
+• Trash
+ – ISS: Gather & store; dispose (in re-entry craft)
+ – Challenge: Compaction, stabilization, resource
+   recovery
+
+• Metabolic Waste
+ – ISS: Russian Commode, sealed canister,
+   disposal in re-entry craft
+ – Challenge: Long-duration stabilization, volume
+   and expendable reduction, potential resource
+   recovery
+
+• Logistics Waste (packaging, containers, etc.)
+ – ISS: Gather & store; dispose (in re-entry craft)
+ – Challenge: Reduce &/or repurpose
+Habitation and Logistics Reduction Goals/Needs
+
+• Automatic and autonomous logistics tracking to reduce crew time and support crew autonomy
+  during time delay missions
+                                                                   Brown = Logistics Reduction goals
+• Common waste collection hardware
+• Reduce fecal consumable mass and volume <0.1 kg/crew-day
+• Reduce packaging material mass and volume
+• Reuse or repurpose logistical packaging for crew outfitting and crew items
+• Reduce trash/waste volume by >85%
+• Waste stabilization and long term stowage
+• Waste processing to produce useful mission resources
+• >90% water recovery from metabolic waste and trash
+                                                                                  Heat Melt Compactor
+• Robust contingency metabolic waste collection
+• Logistics systems that enable robotic reconfiguration in un-crewed or crewed mission phases.
+• Increase food nutritional stability to ensure crew performance during mission phases
+• Reduce clothing and towel mass for exploration missions <0.06 kg/crew-day
+• Acoustic noise attenuation >25 dB for quiet crew cabin volumes
+• Reduce required tools and maintenance kit mass                                   Advanced
+                                                                               Clothing Systems     24
+Bioregenerative Loop Life Support & In Situ Food
+Production
+• Space Exploration and Plant Growth
+ – Atmosphere revitalization via photosynthesis
+ – Water recycling through transpiration
+ – In situ production of food
+• Capability Needs
+ – Cultivation and growth systems
+ – Dwarf highly productive cultivars
+ – Nutrient recycling and reusable media
+ – Greenhouse films and efficient lighting
+
+
+                                                    Astronaut
+                                                      Shane
+                                                   Kimbrough
+                                                   harvesting
+                                                  lettuce from
+                                                   the Veggie
+                                                  plant growth
+                                                   system on
+                                                     the ISS
+
+                                                                 25
+Guidance for SBIR Solicitation Responses
+
+• Technical content in the solicitation will vary year to year. Different technical areas may be
+  combined into a single subtopic. A technical area may rotate year to year and be skipped.
+• Check the subtopic descriptions carefully. A proposal must address content requested in the
+  current solicitation to be considered for award, otherwise it may be judged non-responsive.
+• The proposed research and development plan should focus on the core technology or innovation.
+  Don’t dilute the effort building commonly available supporting hardware.
+• Show an understanding of the state of the art. Objectively state the advantages of the proposed
+  technology over it. Include estimates for mass, power, volume and thermal requirements.
+• Spend adequate time building the requested summary charts. These are used by NASA and if
+  poorly written or too general they have limited value.
+• Phase I – Focus should be to demonstrate proof of concept and feasibility of the technical
+                 approach.
+             – Focus on questions that need to be answered and risks that need to be addressed to
+                 develop a more informed Phase II proposal with reduced technical risk.
+• Phase II – Contracts should lead to development and evaluation of prototype breadboard
+                 hardware for delivery to NASA.
+             – Consider NASA safety and other standards in design and fabrication of the hardware
+                 intended for delivery to NASA. Delivered hardware needs to meet pressure systems,
+                 oxygen safety and other standards to be tested at NASA facilities.
+                                                                                                     26
+    Past Solicitations - Role of Small Businesses
+
+• Small businesses bring innovative solutions to address challenges and gaps faced by ECLSS and
+  Habitation Systems, and have been effective in moving ideas from concept to technical maturity.
+ Year Titles of Subtopics from Past Solicitations                                     # of Awards
+     H3.01 Atmosphere Revitalization
+2012 H3.02 Environmental Monitoring & Fire Protection for Spacecraft Autonomy         12 Phase I
+2013 H3.03 Crew Accommodations and Water Recovery                                     5 Phase II
+     H3.04 Thermal Control Systems
+     H3.01 Thermal Control for Future Human Exploration Vehicles
+     H3.02 Atmosphere Revitalization and Fire Recovery                                18 Phase I
+2014
+     H3.03 Human Accommodations and Habitation Systems                                6 Phase II
+     H3.04 Treatment Technologies and Process Monitoring for Water Recovery
+     H3.01 Environmental Monitoring                                                   14 Phase I
+2015 H3.02 Bioregenerative Technologies
+     H3.03 Spacecraft Cabin Atmospheric Quality and Thermal Management                5 Phase II
+
+       H3.01 Environmental Monitoring                                                 11 Phase I
+2016
+       H3.02 Environmental Control and Life Support for Spacecraft and Habitats       4 Phase II
+     H3.01 Habitat Outfitting
+     H3.02 Environmental Monitoring
+2017                                                                                  12 Phase I
+     H3.03 Environmental Control and Life Support
+     H3.04 Logistics Reduction
+Summary: Deep Space Habitation Systems
+Objectives
+                                                                                     TODAY                          FUTURE
+    Habitation Systems Elements                                                                                     Deep Space
+                                                                                      ISS
+LIFE SUPPORT
+
+                                                                             42% O2 Recovery from CO2
+                                                                                                              75%+ O2 Recovery from CO2
+
+                                                                             90% H2O Recovery
+          Atmosphere                Waste                                                                     98%+ H2O Recovery
+          Management              Management
+                           Water
+                         Management                                           < 6 mo mean time before
+                                                                                                              >30 mo mean time before failure
+                                                                              failure (for some components)
+ENVIRONMENTAL MONITORING
+
+                                                                               Limited, crew-intensive         On-board analysis capability
+                                                                               on-board capability             with no sample return
+
+              Pressur      Moisture   Particles Microbes Chemicals   Sound     Reliance on sample return       Identify and quantify species and
+              eO2 & N2                                                                                         organisms in air & water
+                                                                               to Earth for analysis
+
+FIRE SAFETY
+                                                                             Large CO2 Suppressant Tanks         Water Mist portable fire
+                                                                                                                 extinguisher
+                                                                              2-cartridge mask                   Single Cartridge Mask
+           Detection      Suppression                                         Obsolete combustion prod.          Exploration combustion
+                  Protection        Cleanup                                   sensor                             product monitor
+
+                                                                              Only depress/repress clean-up       Smoke eater
+
+HABITATION & LOGISTICS
+                                                                              Manual scans, displaced items      Automatic, autonomous RFID
+
+                                                                                                                 Long-wear clothing/laundry
+                                                                              Disposable cotton clothing
+                                                                                                                 Bags/foam repurposed
+               Tracking        Packaging                                      Packaging disposed                 w/3D printer
+                       Clothing          Trash                                                                   Resource recovery, then
+                                                                              Bag and discard                    disposal
+Resources
+
+• NASA SBIR/STTR 2017 Program Solicitation SBIR Research Topics by Focus Area
+    – https://sbir.nasa.gov/solicit/58007/detail?data=ch9&s=58000
+• ECLSS and Habitation Systems
+    – Schneider, W., et. al. (2016) “NASA Environmental Control and Life Support (ECLS)
+      Technology Development and Maturation for Exploration: 2015 to 2016 Overview”, 46th
+      International Conference on Environmental Systems, Paper # ICES-2016-40
+    – Anderson, Molly S., et. al. (2017) “NASA Environmental Control and Life Support (ECLS)
+      Technology Development and Maturation for Exploration: 2016 to 2017 Overview”, 47th
+      International Conference on Environmental Systems, Paper # ICES-2017-226
+    – Anderson, Molly S., Ewert, Michael K., Keener, John F., Wagner, Sandra A. (2015) “Life
+      Support Baseline Values and Assumptions Document” NASA/TP-2015–218570
+• Trace Contaminant Exposure Guidelines
+    – https://www.nasa.gov/feature/exposure-guidelines-smacs-swegs
+    – John T. James and J. Torin McCoy (2008) “Spacecraft Water Exposure Guidelines (SWEGs)”,
+      JSC-63414
+    – John T. James and Toxicology Group (2008) Spacecraft Maximum Allowable Concentrations
+      for Selected Airborne Contaminants, JSC-20584
+                                                                                               29
+Acknowledgements
+
+• Gary Ruff, NASA Glenn Research Center
+
+• Molly Anderson, Mike Ewert and Jim Broyan, NASA Johnson Space Center
+
+• Robyn Gatens and Jitendra Joshi, NASA Headquarters
+
+• Walter Schneider, NASA Marshall Space Flight Center
+
+• Laura Kelsey and Barry Finger, Paragon Space Development Corporation
+
+• William Michalek and Ray Wheeler, Umpqua Research Company
+
+
+
+
+                                                                         30
+Questions?
+
+
+
+
+In future solicitations we may begin to consider technologies for
+use during human planetary surface missions                         31
+

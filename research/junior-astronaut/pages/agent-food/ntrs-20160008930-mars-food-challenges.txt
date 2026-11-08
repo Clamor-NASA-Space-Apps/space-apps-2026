@@ -1,0 +1,395 @@
+                  The Challenges of Developing a
+                  Food System for a Mars Mission
+
+
+
+                                                         Michele Perchonok, Ph.D.
+                                      Manager, Program Science Management Office
+                                                   NASA Human Research Program
+
+
+
+
+Layers at the Base of Mount Sharp (taken by Curiosity)
+Human Research Program
+            Human Research Program
+                                              Human Research Program
+
+
+
+The goal of HRP is to provide human
+health and performance countermeasures,
+knowledge, technologies, and tools to
+enable safe, reliable, and productive
+human space exploration.
+
+
+
+
+                                          Example of a study on the effects of
+                                           center of gravity on performance
+
+
+                                                                                 3
+         HRP Integrated Path to Risk Reduction
+                                                                                                               Human Research Program
+
+
+
+
+                                                                                                                                        Accepted
+                                                                                                                                          Risks
+
+                                                                                                                                        Concerns
+
+
+   ISS Required            Milestones Requires ISS    ISS Mission Milestone   Anticipated Milestone Shift   End ISS
+   ISS Not Required        Ground-based Milestones    Mission Milestone
+
+
+
+Hi LxC        Mid LxC   Low LxC          Optimized   Insufficient Data
+
+                                                                                                                                        4
+     Ultimate goal is to provide a food system that supports
+                  all aspects of a Mars mission
+                                                       Human Research Program
+
+
+
+• Develop a food system that is
+                               and
+• Efficiently balances appropriate vehicle resources such as:
+     volume, mass, waste, water, power, cooling, air, crew time
+
+
+
+
+       Example: To maintain an adequate food system may require
+      more packaging mass which conflicts with minimization of mass.
+                                                                                5
+     Evolution of the Space Food System
+                                                 Human Research Program
+
+
+
+Mercury   • Highly engineered foods (Meal in a
+            Pill concept) – cubes, tubes
+
+
+
+Gemini    • Highly engineered food with new
+            introductions
+            (Pudding, Chicken and Vegetables)
+
+
+
+Apollo    • Thermostabilized food, spoon bowl,
+            natural form foods
+
+
+
+
+                                                                          6
+         Evolution of the Space Food System
+                                                       Human Research Program
+
+
+
+Skylab          •   Freeze-dried, thermostabilized,
+                    natural form and frozen foods
+                •   No resupply – all food stored at
+                    the time of launch
+
+Shuttle / MIR   •   Higher quality food in lighter
+                    packaging
+                •   Assignment of 9-month shelf life
+                    on food
+
+International   •   Irradiated items (meats) through
+Space Station       special FDA allowance.
+                •   Aluminum film overwraps allow
+                    12-18 month shelf life for most
+                    food.
+
+
+                                                                                7
+        Current Space Food System – 130 options
+                                                                 Human Research Program
+
+
+
+
+  Natural
+   Form
+  Foods                                                                       Beverages
+
+
+
+
+Rehydratable
+   Foods
+
+
+                                                                              Irradiated &
+Intermediate                                                                    Thermo-
+  Moisture                                                                      stabilized
+   Foods                                                                          Foods
+
+       Not pictured: Extended shelf-life breads and fresh food (limited basis)
+                                                                                             8
+              Food System Considerations
+                                                    Human Research Program
+
+
+
+
+ International Space Station:          Mars Expedition Scenario:
+• 6 month microgravity missions      • 32 month mission; microgravity
+                                       and reduced gravity
+• No refrigerators or freezers for
+                                     • Possibility of refrigerators or
+   food storage, all food
+                                       freezers for food storage
+   processed and prepackaged
+                                     • No resupply; food may be
+• Regularly scheduled resupply         prepositioned to accommodate
+• Eight to eleven day standard         high mass and volume
+   menu cycle augmented by           • Radiation impact is unknown
+   crew preference foods             • Current food system is mass
+                                       constraining and will not
+                                       maintain nutrition/acceptability
+                                                                             9
+                        Prepackaged Food – 5 Year Challenge
+               Focus on nutritional stability, acceptability, health promotion, and mass reduction
+                                                                                    Human Research Program
+
+
+                                                                                                     Closed
+  Formulation             Processing              Packaging             Environment
+                                                                                                     System
+
+
+
+                                                                                       21°C
+
+
+
+
+                                                                                       -80°C
+                        Pressure Assisted
+                       Thermal Sterilization        Improve
+                             (PATS)                  barrier
+   Fortification                                                         Atmosphere
+                                                     Mass                                              Variety
+  Food Matrix              Lyophilization                                                            Limitations
+                                                   reduction             Temperature
+                           Improvement
+Functional Foods                                                           Radiation             Psychosocial
+                            Microwave                In Suit
+Meal Replacement                                    Delivery                                       support
+                            Sterilization                                Microgravity
+     Variety                                        System                                       Physiological
+                        3D Printing (SBIR)                              Partial Gravity
+                                                                                                   impacts
+                                                                                                                   12
+            Psychology of Food
+                                              Human Research Program
+
+
+There are psychological benefits of the food system
+  • Socialization during mealtimes.
+  • Food quality, variety and acceptability are important.
+    Highly acceptable food is a familiar element in an
+    unfamiliar and hostile environment.
+
+
+
+
+                                                                       11
+      Taste Changes in Microgravity
+                                                         Human Research Program
+
+There are anecdotal reports that food does not taste the same in space
+  • 85 – 90% of what you taste is what you smell
+  • Hot air (volatiles) does not rise in microgravity
+  • Food is not heated to very hot temperatures
+  • Food is eaten out of packages with small openings
+  • Fluid shifts in the body result in a feeling of congestion in the nasal
+    passages
+
+
+
+
+                                                                                  12
+            Nutrition and Acceptability Impacts of
+                 Room Temperature Storage
+                                                                        Human Research Program
+
+
+
+
+                                                      30
+
+                                    % Vitamin Loss
+• Critical micronutrients show                        20
+  concerning degradation in                           10
+
+                                   Across 109 Foods
+  space food system after 1                            0
+  year of storage.                                         Thiamin
+                                                            (B1)
+                                                                     Cobalamin Vitamin C
+                                                                       (B12)
+                                                                                           Vitamin K
+
+
+
+
+• Only 7 out of 65
+  thermostabilized foods are
+  expected to be palatable after
+  5 years of storage.
+  (Catauro. JFS. 2011)
+
+
+                                                                                                       13
+               Mass Reduction Opportunities
+                                                                  Human Research Program
+
+Current mass requirement for 3000 kcal per crewmember per
+day is 1.83 kg. Total mass for a Mars scenario (6 crewmembers,
+1095 days) is 12,023 kg.
+
+
+Orion has challenged the food system to a 25% mass reduction
+•   Four Meal Replacement Bars enabling 10% reduction in
+    mass developed through Natick (NSRDEC); acceptability
+    testing underway in four 2016 HERA missions; stability
+    testing through 2018
+•   In the event of cabin depressurization, crewmembers may be
+    required to don pressurized suits and will require nutrition
+    during contingency operations
+    •   Guidelines were determined for contingency beverages that
+        meet macro-nutritional requirements, a minimum one-year shelf
+        life, and compatibility with the delivery hardware. These
+        beverages could reduce mass for nominal operations
+                                                                                           14
+                  Integrate Bioregenerative Foods
+                                             Human Research Program
+
+
+International Space Station
+Supplement prepackaged with
+“Pick and Eat” beginning with
+Veggie chamber
+
+Mars Scenario
+Optimize mission specific phased
+implementation and balance with
+prepackaged foods – based on
+nutrition, acceptability, resources
+
+Research gaps
+Infrastructure, resource use,
+radiation effects, safe handling/
+micro procedures, system
+integration, crew time usage
+                                                                      15
+          Potential Exploration Food Systems
+                                                  Human Research Program
+
+
+                  Prepackaged
+
+   Less Infrastructure     Nutrient Degradation
+   Reduced Micro Risk          Quality Loss
+     Less Crew Time       High Mass and Volume
+ No Risk of Food Scarcity   No customization
+
+
+
+
+                Bioregenerative
+Lower Food Stowage Mass     High Crew Time
+      Agri-Therapy       Microbiological Risk
+ Higher Nutrient Density     Infrastructure
+      Fresher Food       Risk of Food Scarcity
+ Variety / Customization
+
+
+
+
+                                                                           16
+          Possible Bioregenerative Food System
+                                                        Human Research Program
+
+
+
+
+Greenhouse Crops
+Lettuce                Tomato                    Peas
+Spinach                Strawberry                Snap Beans
+Celery                 Radish                    Sweet Potato
+Green Onion            Bell Pepper               White Potato
+Carrot                 Mushrooms                 Dwarf Plum
+
+
+Bulk Ingredients
+Rice               Peanuts / Peanut Oil             Soybeans
+Dry Beans          Wheat Berries / Wheat Flour
+
+
+
+
+                                                                                 17
+   Food Preparation Current to Future
+                                                 Human Research Program
+
+
+
+
+ Food                                                      Potable Water
+Warmer                                                      Dispenser
+
+
+
+
+                     B                       From top left: A) Pressure
+             A                           E   cooker, (B) Juicer, (C)
+                             C       D
+                                             Soymilk Maker, (D)
+                                             Dehydrator, (E) Stand
+                                             Mixer, (F) Pasta press, (G)
+                     H
+         F       G       I       J           Immersion blender, (H)
+                                             Tofu mold, (I) Grain mill, (J)
+                                             Induction burner
+                                                                          18
+Thanks to current and former HRP
+                         Human Research Program
+
+
+
+
+Advanced Food Technology Team
+Members!
+
+
+
+
+                                                  19
+                        Human Research Program
+
+
+
+
+Questions?
+
+
+Mars Explorers Wanted Poster
+http://mars.nasa.gov/multimedia/resources/mars-
+posters-explorers-wanted/
+
+                                                  20
+

@@ -1,0 +1,468 @@
+                                                                 National Aeronautics and
+                                                                     Space Administration
+
+
+
+
+Environmental Control and Life Support
+(ECLS) System Options for Mars Transit
+and Mars Surface Missions
+NASA Marshall Space Flight Center (MSFC)
+Zach Bryant and Andrew Choate (Jacobs Space Exploration Group)
+David Howard (NASA/ES62)
+
+
+                                                                              NASA STRIVES ID: 20230009095
+Date: July 16, 2023                                                                          ICES-2023-265
+   Objective
+
+• Overview of Crewed Mars Mission
+• Overview of Mars Transit Habitat (TH)
+• Notional Mars TH ECLS
+• Overview of Mars Surface Habitats
+• Notional Mars Surface Habitats ECLS
+• Conclusion
+Overview of Crewed Mars Mission
+• 4 crew
+• Up to a 1,200 day mission
+• ~50 sols in Mars orbit
+   • 2 crew on Mars surface for 30 sols
+• No resupply
+• Abort times of 300+ days
+• Mass constrained
+• Communication delays and blackouts
+Moon2Mars Integration & CONOPS Phases
+
+
+    Launch, Outfitting & Mars Analogs
+
+
+
+
+                                        Crewed Mars Transit
+
+
+
+
+                                                              Refurbishment & Return
+
+
+
+
+                                                                                       4
+Notional CONOPS                               MDV/MAV
+                                                                  Mars Surface
+                                                                                                     MDV/MAV docking to DST
+                                             Pre-deployed                                            via TH for crew transfer
+Mars
+Orbit
+                                                                                          DST in loiter orbit during
+                                                                                          ~30-sol surface mission
+                          Gateway+TH+Orion
+
+                                                                  Deep Space Transport2
+                                                                         (DST)
+
+NRHO
+
+
+
+
+                                              Mars Propulsion
+                                              System1 (MPS)
+
+
+
+HEO
+
+MEO
+
+                                                                                                                                1 MPS notionally shown as NEP/Chem. SEP/Chem,
+
+                                                                                                                                NTP, all-Chem also in trade space
+                                                                                                                                2 DST shown as notional MPS/TH configuration
+
+
+
+
+                                                Earth Surface
+
+        Outfitting & Mars Analogs                               Crewed Mars Transit                       Refurbishment & Return
+Moon2Mars Exploration Element Concepts
+TH Overview
+• Hybrid inflatable-metallic habitat with dry mass (26.4
+  metric tons) capable of being launched commercially
+  and supplied with logistics in cis-lunar orbit
+• Support 4-crew during Lunar-Mars Analog missions
+  leading up to a 700-1110-day Mars mission
+• Dock w/ an interim propulsion bus or Gateway for first
+  ~5 years until Mars Propulsion System (MPS) elements
+  available
+• Extends Gateway operations beyond 60 days
+• 10.2 psia (26.5% O2) atmosphere for Gateway ops
+• 14.7 psia (21% O2) atmosphere for transit and analog
+  missions
+• Contingency Airlock and EVA capability
+• Planned reuse for multiple missions over 15-year
+  lifetime
+• Builds on ISS and commercial investment in deep
+  space habitation
+• Mid-2030s launch with late 2030s Mars Departure
+Notional Mars TH
+TH Concept Pressurized Volume
+             TH Overall Pressurized Volume: ~400 m3
+
+
+Metallic                                                                     Soft Goods
+Volume                                                                         Volume
+(~35m3)                                                                       (~365m3)
+
+
+
+
+                                           15.90 m
+
+
+
+
+                                  Similar to: 1700 ft2 home
+                      ISS Pressurized Volume: ~1000 m3 (~390 m3 habitable)
+    TH Concept OML Features
+                                                 Deployable                   TH Overall Pressurized Volume: ~400 m3
+  Deployable                                                                       Inflatable: ~365 m3, Metallic: ~35 m3
+   radiators:                                    solar arrays:
+                                                 2.76m x 17.83m
+  2x4m panels (7)
+                                                    ROSA (2)
+                                                                                  Internal hatch                       Integrated
+                        Radial EVA docking                                                                              Windows
+                          port & Trash A/L
+
+
+
+
+                                                           Reaction Control
+                                                            System (RCS)
+                                                              Thrusters
+ Comm.
+Antennas
+                                       Three                 Axial docking                  External
+                                partitioned levels             hatches                    Robotic Arm
+ Radial Docking Hatch
+     TH Concept Interior Features
+ Level 1 – Galley, Command & Control,               Level 2 – Crew Quarters, Sub-      Storage – Cargo        Level 3 – Exercise,
+Medical, Hand Washing Station, Toilet (1           Systems, Maintenance Stations     Transfer Bags (CTB)     Utilization, Toilet (2 of
+  of 2), Logistics Management, Trash                                                lining the outer wall,    2), Hygiene Station
+              Management                                                              additional storage
+                                                                                        below Level 1
+
+
+                                           Floor Heights
+
+                                               ~2.5m
+
+
+
+
+                                             ~2.65m
+
+
+
+
+                                            ~2.55m
+
+
+
+                                              ~0.8m
+Notional Mars TH ECLS
+• Closed loop system based on an evolution/upgrade of legacy ISS systems
+• O2 generation
+    • H2O electrolysis system like Oxygen Generation Assembly (OGA)
+    • High pressure O2 (> 3,600 psi) to allow for EVA suit recharge
+• CO2 removal
+    • Four Bed CO2 scrubber like system
+• H2O recycling/recovery
+    • Crew urine recovery via a Urine Processing Assembly (UPA) like system
+    • Water from brine via a brine processing system
+    • Potable water processing using a Water Processor Assembly (WPA) like system
+• H2O generation
+    • Utilize captured CO2 and waste H2 in a SABATIER like system
+    • Possibility for further generation through SABATIER post processing
+    • Additional H2O generation may not be necessary depending on amount of water content in food supply
+Notional Mars TH ECLS
+• Atmosphere control
+    • Tanked supply of O2 and N2 will help to control atmosphere needs beyond OGA
+        • Trash jettisons, vehicle dockings, science/utilization, etc.
+    • Tanked O2 will support contingency EVAs
+    • Cabin pressure changes for various mission phases (nominal flight, docked to Gateway, etc.)
+• Temperature and humidity control
+    •   Use of a condensing heat exchanger for temperature control
+    •   Allows for humidity control and water recovery
+    •   Air movement/ventilation
+    •   Air scrubbing (dust, FOD, trace gasses)
+• Emergency equipment
+    • Fire suppression/recovery
+    • Breathing masks
+ Notional Mars TH ECLS
+                                                                                                                                                                                                                                                                                       O2/Air
+                                                                                                                                                                                                                                                                                         H2
+                                                                                                                                                                                                                                                                                        CO2
+                                                                                                                                                                                                                                                                                         CH4
+                         Transit Habitat [3427] [3095]                                                                                                                                                                                                                                  Water
+                                                                                                                                                                                                                                                                                     Solid Waste
+         To EVA                                                                                                                                                                                                                                                                     Liquid Waste
+                                                To
+                                     O2        Cabin                                                                                                H2O
+                                                                                                                                                      Gray Water                                                  Brine Processor                                                    Undecided
+                                                                                                                Water Processor                                           Urine Processor          Brine                                     H2O Vapor to Cabin
+                                                                                                                                                         Tank                                                         [2914]                                                         Gray Water
+                                                                            Potable H2O                                                                                                                                                                                         [xxxx] GapID
+                                          Oxygen Generator
+                                                                  H2O         Storage          H2O
+          HPO 2                             [2903] [3620]
+                                                                               [2933]                                                                                                                               Brine Solids
+         Storage
+                                                                                                                                                                               Urine
+
+                                                                                                                                                                             Commode                                 Waste
+     High Pressure O2                                                                                                                                                                              Solids
+                                O2                                                                                  Crew Hygiene H2O Return                                   [2931]                               Management
+          [2956]                                                   Potable H 2O           Crew Hygiene
+                                                                    Dispenser                 H2O
+                                                                     [2918]
+                                                                                                          H2O from Sabatier
+                                                                                                                      HEPA                               Condensate
+                                                                                                                     [2962]
+                                                                                                                                                            CHX                                                                     Conditioned Air to Cabin
+                                                                                              Cabin Air
+                                                                                                                                                           [2960]
+
+O2         N2                                                                                                                                                                                                                                                      Communications
+                                                                                                                                                                                                              Registers
+                                                                                            Trace Contaminate                                              ITCS LTL
+                                                                           Cabin Air              Control
+                        Atmosphere                                                                [2898]                          Processed
+                                                                                                                                                                          Conditioned Air
+                          Monitor                                                                                                    Air
+                        O2, N 2, CO 2           H2                                                                                                                                                                                                                     Power
+  Total
+Pressure
+ Sensor
+                                                                                          Sabatier
+                                                                                       Carbon Dioxide                                                    Carbon Dioxide
+                                                                                                           CO2
+                                                                                         Reduction                                                          Removal
+                                                                                          Assembly                                            CO2                                           Fire Detection/
+                        Air To Cabin                                                                                                                         [2896]                          Suppression/           Air Quality Monitor      Particulate Monitor
+                                                                                            CH4                  CO2 Accumulator                                                                Cleanup                   [2899]                    [2900]
+                                                                                                                                                                                                 [2935]
+
+                                                                                                                                                                                                                    Major Constituent           Water Quality
+                                                             H2                             PPA                                                              ITCS LTL                   Microbial Monitor
+                                                                                                                                                                                                                        Analyzer                  Monitor
+                                                                                                                                                                                             [2901]                                               [2902]
+                                                                                                                                                                                                                         [2899]
+
+
+
+                                                 C2H2 To External Vent                                              To External Vent
+Moon2Mars Exploration Element Concepts
+Overview of Mars Surface Habitats
+• Habitation elements will reflect surface mission
+  objective and architecture
+• Proposed Initial Missions:
+    • Mobile habitation (via Pres. Rover)
+        • Small, power limited, little space
+        • 8.2 psia atmosphere
+    • Short term stay
+        • Up to 30 sols
+• Subsequent Missions
+    • Larger more permanent type habitat
+        • Similar to lunar surface habitats
+        • 8.2 psia atmosphere
+    • Longer stays
+        • 30+ sols
+Notional Mars Descent Vehicle and Pressurized Rover
+Notional Lunar Surface Habitat
+Notional Mars Surface Habitats ECLS
+• Initial Missions
+    • Open loop
+    • Tanked O2 and N2
+         • >3,600 psi for EVA suit recharge
+         • Ability to support multiple EVAs (depress/repress events)
+    • Tanked water
+         • Used water will most likely be stored for planetary protection
+    • Urine storage
+    • Small CO2 scrubber
+         • Amine type system similar to the Orion capsule
+    • Filtration/ventilation/humidity control
+         • Effectively remove toxic Martian dust
+         • Humidity control through membrane system or in conjunction with CO2 scrubbing amine system
+Notional Mars Surface Habitats ECLS
+• Subsequent Missions
+   • Closed loop
+   • Regen systems
+       • Similar to systems from the Transit Hab
+       • Minimize Martian dust in the condensate
+   • High pressure O2 generation
+       • >3,600 psi for EVA suit recharge
+   • 3/8g compatibility
+   • Martian atmosphere at ~5 torr
+       • Could cause longer vent/bakeout times if vacuum access required
+Notional Mars Surface Habitats ECLS
+• In-Situ Resource Utilization (ISRU)
+    • No immediate plans
+        • Could be utilized on longer term missions
+    • Water from ice deposits that can be processed through the regen system
+    • Martian atmosphere is 95% CO2
+        • Recover O2 as proven by NASA MOXIE hardware on the Mars
+          Perseverance rover
+• Dormancy
+    • Hardware will experience significant dormancy periods
+    • No set time between missions, optimal Mars departures every ~2 years
+    • Systems will need to be able to be brought online out of dormancy with
+      goal to minimize crew time/interaction required
+    • Wetted systems will be difficult
+Conclusion
+• TH will utilize and leverage legacy ISS systems
+    • Closed loop regen systems
+• Mars Surface Habitats will build off Lunar surface designs
+    • Open loop for initial short term missions
+    • Closed loop for longer subsequent missions
+         • ISRU as a future capability
+Authors & Contributors
+ NASA Marshall Space Flight Center – Habitation Systems Development Office
+
+
+
+                  Andrew Choate                                    Zach Bryant
+                  Transit Habitat Technical Lead                   Habitation SE&I
+
+
+
+
+                                           David Howard
+                                           Habitation ECLS
+
+
+
+
+                                                                    Special Thanks!
+                                                                      Paul Kessler, James Johnson
+Questions
+Backup
+Key Mission &
+Functional Challenges
+• No spares resupply chain during transit
+• Impact on propulsion element size
+• Waste and trash management in transit/loiter orbits
+• Logistics storage capacity for mission
+• Human health and performance for long duration
+  missions
+• Long duration shakedown
+• Radiation & Micrometeoroid/Orbital Debris (MMOD)
+  protection
+• Communication delays/blackouts
+• Ability to recover from major habitation failures
+
+
+                                                      26
+Ground Rules & Assumptions
+Significant GRs:                                                    Significant Assumptions:
+• 4 crew for up to 1,200-day Mars Transit mission duration          • Near-Rectilinear Halo Orbit (NRHO) via Commercial Launch
+• 26.4 mt target dry mass (including mass growth allowance            Vehicle(s)(CLV). Options for SLS cargo delivery are possible but
+  (MGA) and margin)                                                   should feed cost assessments.
+• Autonomous operation when uncrewed                                • Early 2030’s launch with Mars mission in late 2030’s
+• Max uncrewed dormancy of up to 3 years                            • Replenishable Reaction Control System (RCS) through docking
+• Minimum of 2 axial and 1 radial docking ports                       or Gateway interface between mission phases (analogs, Mars
+                                                                      Propulsion System (MPS) shakedown, Mars transit)
+• Performs a series of up to ~180d Mars Analog missions while
+  docked at Gateway                                                 • Contingency EVA airlock
+• Self-sufficient habitat once fully deployed at orbits up to 1.0   • Trash/waste removal (11.6 kg/day avg)
+  Astronomical Unit (AU), capable of receiving power from Mars
+  propulsion system beyond 1.6 AU                                   • Accommodate 1000 kg of science and utilization payloads
+• 14.7 psia 21% O2 atmosphere nominal, capable of 10.2 psia
+  26.5% O2 during Gateway docked open-hatch ops
+• Safe Haven and Solar Proton Event (SPE) Shelter
+• 15-year life with multiple missions of increasing duration
+• TH Sparing and Maintenance - Manifested to achieve 99%
+  system availability
+
+
+
+              M2M Habitation Considerations Technical Memo.pdf                                                                    27
+      TH Concept Interior Features
+        Logistics    Vertical Access                                                      Hand washing
+        Stowage     (above & below)                                                          station
+                                       Private Medical
+                                             Area
+
+
+                                                  Waste
+                                                Management
+Computer &
+  Avionics
+                                                 Logistics
+                                                Management                                        UWMS
+
+
+   2 ISPRs
+(Thermal &
+ Additional                                                                                      Open space
+  Systems)                                                                                      above Systems
+                                                                                                  & UWMS/
+                                                                                                 Hygiene for
+                                                                                                    Pipes
+
+
+
+
+ Galley &                                   Computer Station:     Open Area (open to
+  Meals                  Food                 Command &         second level above) for
+                      Processing                                                                    28
+                                                Control         Group Recreation, etc.
+      TH Concept Interior Features
+                       Vertical Access
+Crew Quarters –
+    open to
+passageway in
+    middle                                    Maintenance
+                                                 Area
+
+
+
+
+                                              Open to level 1
+                                               & 3 to provide
+                                              additional space
+
+
+
+
+       Radiation                          Area for sub-
+    protection from                       systems and
+  logistics and sub-                     maint. clearance        29
+       systems
+     TH Concept Interior Features
+                      Exercise Area            Space above
+                                               UWMS/Hygiene
+                                               for Piping/Ducts
+  UWMS
+
+                             Open to
+                             Levels 1 & 2
+
+
+
+
+                                 Utilization
+
+
+
+Vertical
+Access
+
+
+   Hygiene
+   Station                                            30
+

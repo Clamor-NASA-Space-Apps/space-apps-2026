@@ -1,0 +1,1075 @@
+!
+!CONTENTS
+
+
+
+
+p. 1       The Workshop
+   2       Saturday Dec. 13
+   3       Sunday Dec. 14
+   4-5     Logistics & Maps
+   6       Table Sessions
+   7-15    Speaker Abstracts & Bios
+   16-19   Panelist Bios
+   20      Host Bios
+   21      Acknowledgments
+!PERCHLORATE                     ON      MARS
+ IMPLICATIONS FOR HUMAN EXPLORATION AND ASTROBIOLOGY
+
+
+
+
+THE WORKSHOP:                                OUTCOME:
+!                                            !
+Several Mars missions have confirmed the     ‣ Networking with NASA scientists,
+presence of high concentrations of             university professors, etc.
+perchlorate in the Martian regolith. For     ‣ Open access workshop report with
+human exploration of Mars, perchlorate         abstracts and presentations.
+may pose a significant hazard but may also   ‣ Pu b l i c a t i o n o p p o r t u n i t y i n t h e
+be a resource. The origin, threat and          International Journal of Astrobiology.
+opportunity of perchlorate are at the core   !
+of this workshop.                            LOCATION:
+!                                            !
+The perchlorate phenomenon will be           NASA Research Park, Building #152,
+addressed via three core sessions:           Moffett Field, California 94035
+Perchlorate on Earth, Perchlorate on Mars,   !
+and Implications for Human Exploration       POINT OF CONTACT:
+and Astrobiology. These sessions will        !
+cover the origin and distribution on Earth   Victor A. Panchenko
+and Mars; chemistry, biochemistry and        victor.panchenko@nasa.gov
+microbiology; toxicology and human           (650) 604 1757
+health issues; and the detection,            !
+protection and remediation of perchlorate.   Jamie Drew
+!                                            jamie.drew@nasa.gov
+The workshop structure will consist of       (650) 604 1178
+presentations, panel discussions, and        !
+breakout sessions with subject matter        SPONSORED BY:
+experts focused on examining the             !
+presence of perchlorate on Mars and its      The Office of the Chief Scientist
+implications.                                NASA Ames Research Center
+!                                            Moffett Field, California
+
+
+                                                                                           1
+AGENDA SATURDAY
+              ! DEC. 13
+8:00 am    Registration                                         !
+8:30       Introduction                                         Jacob Cohen - NASA Ames
+
+8:40       Welcome remarks                                      S. Pete Worden - NASA Ames
+
+8:50       Keynote: Oxychlorine Phases (Perchlorates) in        Doug Ming - NASA JSC
+           Sedimentary Deposits, Gale crater, Mars
+
+9:20       Session One: Perchlorate on Earth                    Lynn Rothschild - NASA Ames
+
+9:30       Terrestrial Perchlorate and Chlorate: Origin and     Andrew Jackson - Texas Tech
+           Production
+
+9:50       Terrestrial Perchlorate: Distribution and Isotopic   Neil Sturchio - Univ. of Delaware
+           Composition
+
+10:10      Phylogeny and Physiology of (Per)chlorate            Charlotte Carlström - UC Berkeley
+           Reducing Bacteria
+
+10:30      Perchlorate Toxicology: Lessons Learned from         Todd Anderson - Texas Tech
+           Studies on Wildlife
+
+10:50      Current Practices for the Detection and              Todd Webster - Envirogen Technologies
+           Treatment of Perchlorate
+
+11:10      Break                                                !
+11:30      Session One Table Discussion
+
+12:30 pm   Lunch Break
+
+1:30       Session Two: Perchlorate on Mars                     Chris McKay - NASA Ames
+
+1:40       The Origin of Perchlorate on Mars                    Megan Smith - Univ. of Washington
+
+2:00       Evidence for Distribution of Perchlorates on Mars    Ben Clark - Space Science Institute
+
+2:20       Martian Perchlorate Chemistry                        Richard Quinn - NASA Ames
+
+2:40       Human Health Concerns of Perchlorate on Mars         David Loftus - NASA Ames
+
+3:00       State of Knowledge of Detecting Oxychlorine          Brad Sutter - NASA JSC
+           Species on Mars and Possible Remediation
+
+3:20       Can Mars Exploration be Powered by Pee and           Jonathan Trent - NASA Ames
+           Perchlorate?
+
+3:40       A Roadmap for Perchlorate Utilization on Mars        Lee Cronin - University of Glasgow
+
+4:00       Break                                                !
+4:10       Session Two Table Discussion                         !
+5:00       Concluding remarks                                   Jacob Cohen - NASA Ames
+
+6:00       Dinner - Moffett Field Golf Course
+                                                                                                2
+AGENDA SUNDAY!DEC. 14
+8:30 am    Welcome Remarks                                Jacob Cohen - NASA Ames
+
+8:40       Keynote: Perchlorate and Long Term Planetary   Chris McKay - NASA Ames
+!          Ecosynthesis on Mars
+
+9:10       Panel One: Implications for Mars exploration   Alfonso Davila - NASA Ames
+
+!          !                                              Doug Archer - NASA Ames
+
+!          !                                              John Hogan - NASA Ames
+                                                          Digby MacDonald - UC Berkeley
+!                                                         Michelle Rucker - NASA JSC
+
+10:10
+           !
+           Break
+
+10:30      Panel Two: Implications for Astrobiology       Rocco Mancinelli - NASA Ames
+
+!          !                                              John Coates - UC Berkeley
+                                                          Max Coleman - NASA JPL
+!          !                                              Kosuke Fujishima - NASA Ames
+!          !                                              Ronald Oremland - USGS
+
+
+11:30      Break                                          !
+11:40      Summary of table sessions                      Monica Ebert - NASA Ames
+
+11:50      Conclusion and path forward                    Jacob Cohen - NASA Ames
+
+12:00 pm   Adjourn
+
+
+
+
+                                                                                         3
+LOGISTICS
+!
+FOOD
+Lunch will be delivered to the workshop at 12:30pm on Saturday. Dinner will be held at the
+Moffett Field Golf Club at 6:00pm on Saturday. Payment for meals will be collected during
+registration.
+
+
+
+
+ENTRY
+A government-issued photo ID is required for entry into the NASA Research Park. Driver’s
+must present their driver’s license to guards at the Main Gate circled in blue. Non-US
+citizens are required to bring a passport and/or permanent residency documents (i.e. Green
+Card).
+
+
+
+
+MAP
+Workshop Building #152 is circled in yellow.
+
+
+
+
+                                                                                       4
+ GOLF COURSE
+! The Moffett Field Golf Course is circled in blue and the workshop building #152 is circled in
+  yellow. Follow Macon Road around the airfield until you see the golf course and T-1 Bar and
+  Grill on your right. Be prepared to show your driver’s license and provide your name to the
+  security guard at the Macon Gate.
+
+
+
+
+                                                                                          5
+TABLE SESSIONS                                                  !
+On the backside of your name tag is your workshop number and assigned room for each table
+discussion session. Workshop numbers below correspond to the rooms for your table discussion.
+
+
+    #     Session One       Session Two              #      Session One       Session Two
+
+    1     Curiosity         Curiosity                49     Phoenix           Curiosity
+    2     Curiosity         Curiosity                50     Phoenix           Pathfinder
+    3     Curiosity         Pathfinder               51     Phoenix           Pathfinder
+    4     Curiosity         Spirit                   52     Phoenix           Spirit
+    5     Curiosity         Spirit                   53     Phoenix           Prop-M
+    6     Curiosity         Prop-M                   54     Phoenix           Prop-M
+    7     Curiosity         Phoenix                  55     Phoenix           Phoenix
+    8     Curiosity         Phoenix                  56     Phoenix           Opportunity
+    9     Curiosity         Opportunity              57     Phoenix           Opportunity
+    10    Curiosity         Viking                   58     Phoenix           Viking
+    11    Curiosity         Viking                   59     Phoenix           Polar Lander
+    12    Curiosity         Polar Lander             60     Phoenix           Polar Lander
+    13    Pathfinder        Curiosity                61     Opportunity       Curiosity
+    14    Pathfinder        Curiosity                62     Opportunity       Pathfinder
+    15    Pathfinder        Pathfinder               63     Opportunity       Pathfinder
+    16    Pathfinder        Spirit                   64     Opportunity       Spirit
+    17    Pathfinder        Spirit                   65     Opportunity       Prop-M
+    18    Pathfinder        Prop-M                   66     Opportunity       Prop-M
+    19    Pathfinder        Phoenix                  67     Opportunity       Phoenix
+    20    Pathfinder        Phoenix                  68     Opportunity       Opportunity
+    21    Pathfinder        Opportunity              69     Opportunity       Opportunity
+    22    Pathfinder        Viking                   70     Opportunity       Viking
+    23    Pathfinder        Viking                   71     Opportunity       Polar Lander
+    24    Pathfinder        Polar Lander             72     Opportunity       Polar Lander
+    25    Spirit            Curiosity                73     Viking            Curiosity
+    26    Spirit            Curiosity                74     Viking            Pathfinder
+    27    Spirit            Pathfinder               75     Viking            Pathfinder
+    28    Spirit            Spirit                   76     Viking            Spirit
+    29    Spirit            Spirit                   77     Viking            Prop-M
+    30    Spirit            Prop-M                   78     Viking            Prop-M
+    31    Spirit            Phoenix                  79     Viking            Phoenix
+    32    Spirit            Phoenix                  80     Viking            Opportunity
+    33    Spirit            Opportunity              81     Viking            Opportunity
+    34    Spirit            Viking                   82     Viking            Viking
+    35    Spirit            Viking                   83     Viking            Polar Lander
+    36    Spirit            Polar Lander             84     Viking            Polar Lander
+    37    Prop-M            Curiosity                85     Polar Lander      Curiosity
+    38    Prop-M            Curiosity                86     Polar Lander      Pathfinder
+    39    Prop-M            Pathfinder               87     Polar Lander      Pathfinder
+    40    Prop-M            Spirit                   88     Polar Lander      Spirit
+    41    Prop-M            Spirit                   89     Polar Lander      Prop-M
+    42    Prop-M            Prop-M                   90     Polar Lander      Prop-M
+    43    Prop-M            Phoenix                  91     Polar Lander      Phoenix
+    44    Prop-M            Phoenix                  92     Polar Lander      Opportunity
+    45    Prop-M            Opportunity              93     Polar Lander      Opportunity
+    46    Prop-M            Viking                   94     Polar Lander      Viking
+    47    Prop-M            Viking                   95     Polar Lander      Polar Lander
+
+
+                                                                                                6
+    48    Prop-M            Polar Lander             96     Polar Lander      Polar Lander
+SPEAKER ABSTRACTS & BIOS
+                         Todd Andersson
+                                                                                   !
+                                                                     7 times.   In 2005, he was elected Fellow of the
+                         Pe r c h l o r a t e To x i c o l o g y :   American Association for the Advancement of
+                         Lessons Learned from Studies                Science. His collaborative research on the natural
+                         on Wildlife                                 occurrence of perchlorate received an editor’s award
+                                                                     from Environmental Science & Technology as the
+                      ABSTRACT: Thyroid hormones                     Environmental Science Paper of the Year (2005), and
+                      (TH) act on multiple systems in                was selected as the SERDP Environmental Restoration
+the body, which are ultimately critical for metabolism               Research Project of the Year (2007).
+and growth.      A wealth of data exists on thyroid
+function (particularly in mammals) and the
+                                                                                           !
+consequences of a disruption in TH synthesis.
+                                                                                            Charlotte Carlström
+Perchlorate (ClO4-) exerts its adverse biological effects                                   Phylogeny and Physiology of
+by blocking iodide (I-) uptake by the thyroid gland.                                        ( Pe r ) c h l o r a t e R e d u c i n g
+The potency with which ClO4- blocks I- uptake has                                           Bacteria
+made it a useful experimental tool for exploring basic
+                                                                                            ABSTRACT: Microorganisms have
+thyroid function as well as a historical clinical tool for
+                                                                                            e v o l v e d t h at c a n g ro w b y
+treating thyroid gland disorders. Thus, risks from ClO4-
+                                                                     respiring perchlorate (ClO4-) and chlorate (ClO3-)
+exposure can largely be predicted from several
+                                                                     [collectively denoted (per)chlorate] in the absence of
+decades of these clinical and laboratory research
+                                                                     oxygen. These microorganisms, known as dissimilatory
+results. In addition, some of the more subtle adverse
+                                                                     (per)chlorate reducing bacteria (DPRB), are
+effects of TH disruption (development,
+                                                                     metabolically and phylogenetically diverse.
+thermoregulation) from ClO4- exposure can be
+                                                                     Approximately 80 strains of DPRB in 24 genera have
+gleaned from laboratory and field studies on wildlife.
+                                                                     been isolated, with most belonging to the
+Information on the potential pathways of ClO4-
+                                                                     Betaproteobacteria, Alphaproteobacteria, and
+exposure, as well as the mechanisms and effects of
+                                                                     Gammaproteobacteria classes. Many of these isolates
+ClO4- will be presented.
+                                                                     have been obtained from freshwater, mesophilic,
+BIO: Todd Anderson is a professor in the Department                  neutral pH environments, and as a result, few tolerate
+of Environmental Toxicology and The Institute of                     high salinities or extreme temperatures.
+Environmental and Human Health (TIEHH) at Texas                               Nearly all DPRB reduce (per)chlorate to the
+Tech University. He currently serves as the Chair of the             toxic intermediate chlorite (ClO2-) using perchlorate
+Department and the Interim Director of TIEHH. He                     reductase (Pcr), which is then detoxified into Cl- and
+received his M.S. and Ph.D. from the University of                   molecular oxygen by chlorite dismutase (Cld). Genes
+Tennessee, Knoxville under Dr. Barbara Walton at Oak                 encoding the key enzymes Pcr (pcrABCD) and Cld
+R i d g e N at i o n a l L a b o rat o r y ( O R N L ) ; h e d i d   (cld) have been shown to be part of a 10-25 kb
+postdoctoral research in pesticide toxicology at Iowa                perchlorate reduction island (PRI) that is horizontally
+State University with Dr. Joel Coats.               He has co-       transferred across phylogenetic boundaries. Because
+authored 170 peer-reviewed journal articles, including               oxygen is produced from chlorite dismutation, DPRB
+4 “citation classics” (journal articles cited more than              display a high level of metabolic versatility and can act
+400 times) according to Google Scholar.                              as either aerobes or anaerobes while growing on
+          At Texas Tech, Dr. Anderson has received the               (per)chlorate. Unlike other DPRB, the archaeon
+President’s Excellence in Teaching Award, the                        Archaeoglobus fulgidus VC-16 does not rely on Pcr or
+Chancellor’s Council Distinguished Research Award,                   Cld and instead uses NarG-type nitrate reductase to
+and was named a Provost’s Integrated Scholar in 2014.                reduce ClO4- to ClO2-, which is abiotically detoxified
+In addition, he has received the department’s                        by reacting with sulfide.
+Outstanding Faculty Award (by graduate student vote)                 BIO: Charlotte Carlström is a microbiology graduate
+!                                                                    student at UC Berkeley, focusing on the isolation
+
+
+
+                                                                                                                                7
+and characterization of novel dissimilatory perchlorate                satellite experiments, he provided radiation
+reducing bacteria.            She earned her Bachelor of               instrument clusters for two Gemini flights.          He
+Science degree in Biology from Emory University in                     completed a PhD in Biophysics from Columbia
+2009, and will receive her PhD this month under the                    University, and has since concentrated on research in
+guidance of Dr. John Coates.                    Her research has       planetary geochemistry and astrobiology.             He
+focused on the physiological and phylogenetic                          developed the inorganic analyzer on Viking and is a
+diversity of marine perchlorate reducing bacteria. Of                  member of Science Teams for the rovers named Spirit,
+the 24 genera containing perchlorate reducing                          Opportunity and Curiosity. He also is a Co-I for the
+isolates, her work is responsible for the discovery of                 PIXL micro-XRF on the future Mars 2020 Rover.
+five of them, including the only perchlorate reducing                  Specializing in geochemical analysis using x-ray
+bacterium in the Epsilonproteobacteria in pure                         fluorescence and LIBS data, he employs correlation
+culture. As a graduate student, she has received                       and trends analysis to infer mineralogies from
+s e v e ra l a w a rd s , i n c l u d i n g t h e U C B e r ke l e y   elemental chemistry results, and compares those with
+Chancellor's Fellowship and the National Science                       other circumstantial evidence on mineralogical
+Foundation's Graduate Research Fellowship.                             makeup of rocks, sediments and soils. He is interested
+                         !                                             in sulfur and chlorine chemistry in soils, rocks and on
+                          Ben Clark                                    rock surfaces, and how they and other elemental
+                                                                       enrichments or depletions are indicative of past
+                          Evidence for distribution of
+                                                                       aqueous alteration, the diversity of such activity, and
+                          perchlorates on Mars
+                                                                       how they may have influenced prebiotic chemistry and
+                       ABSTRACT: The first in situ                     the evolution of life. He also studies comets, and how
+                       measurements on Mars                            their accretion to the planets may have created
+                       discovered the high sulfur and                  habitable environments as well.
+chlorine content of global-scale soils at two widely                                       !
+separated landing sites. A variety of circumstantial                                        Lee Cronin
+evidence led to the conclusion that soil S is in the form                                   A roadmap for perchlorate
+of sulfate, and the Cl is probably chloride. An early
+                                                                                            utilization on Mars
+hypothesis postulates that these volatiles are emitted
+as gases from magmas, and quickly react with the                                              ABSTRACT: The high abundance
+surfaces of dust particles, soil grains, and exposed                                          of perchlorates on Mars offers a
+rocks. Wet chemistry analyses by the high latitude                                            great deal of potential for its
+Phoenix mission discovered not only chloride but also                  exploitation as a feedstock that could be crucial for
+perchlorate and possibly chlorate in soils. MSL’s SAM                  colonization. For instance perchlorates could be used
+data now also implicate perchlorate at low latitudes.                  as food to grow microbes, in microbial fuel cells for
+When exposed to liquid water, Phoenix samples                          power, and as oxygen producing candles, and as
+released electrolytes, indicating that the soils have not              propellant. However perchlorates in high
+been subsequently leached by rain or fresh                             concentrations represent an explosion hazard. In this
+groundwater.      Some chloride deposits, have now                     talk I will outline a possible roadmap for the safe use
+been discovered by remote sensing. Landed missions                     perchlorates in a range of technologies, as well as a
+have discovered Cl-enrichments and ferric, Mg, Ca                      discussion of the underlying electrochemistry that will
+and more complex sulfates in a variety of modalities.                  govern the construction of technologies suitable for
+Virtually all Cl-salts produce extreme depression of                   use on Mars including the use of 3D printed
+freezing point which should have mobilized Cl to                       electrochemical cells. Finally I will outline some
+produce concentrated evaporite sequences. Whether                      speculative ideas for the use of redox-mediators to
+brines are habitable depends on the relative                           safely couple perchlorate chemistry to other systems
+abundance of liquid H2O and the panoply of salts                       that could lead to the emergence of Martian-
+therein.                                                               Perchlorate-Economy.
+BIO: Ben Clark became involved in space exploration                    BIO: Lee Cronin FRSE. Professional Career: 2013-
+in 1961, soon after Sputnik. In addition to numerous                   Regius Professor of Chemistry. Alexander von
+
+
+
+                                                                                                                          8
+Humboldt research fellow (Uni. of Bielefeld);               non-O3 photochemical pathways. Heterogeneous
+1997-1999: Research fellow (Uni. of Edinburgh); 1997:       photochemical reactions may also occur at the Earth’s
+Ph.D. Bio-Inorganic Chemistry, Uni. of York; 1994 BSc.      surface, although their overall significance is unclear.
+Chemistry, First Class, Uni. of York. Prizes include 2013   Lab studies have demonstrated the production of
+BP/RSE Hutton Prize, 2012 RSC Corday Morgan, 2011           ClO4- by both UV- and O3-mediated oxidation of Cl-,
+RSC Bob Hay Lectureship, a Wolfson-Royal Society            HOCl/OCl-, ClO2-, and ClO2, but not ClO3-. In systems
+Merit Award in 2009, Election to the Royal Society of       with available water, ClO3- production is much greater
+Edinburgh in 2009. The focus of Cronin’s work is            than that of ClO4-, whereas in dry systems, (e.g.,
+understanding and controlling self-assembly and self-       oxidation of solid phase NaCl), ClO4- and ClO3-
+organisation in Chemistry to develop functional             production is roughly equal. Stable isotopic
+molecular and nano-molecular chemical systems               composition of experimentally produced ClO4- is
+(including solar fuel systems); linking architectural       consistent with the observed variations in natural
+design with function and recently engineering system-       isotopic composition, although extreme negative δ37Cl
+level functions (e.g. coupled catalytic self-assembly,      values of Atacama ClO4- have not been experimentally
+emergence of inorganic materials and fabrication of         reproduced, and post-depositional O exchange has
+inorganic cells that allow complex cooperative              not been excluded.
+behaviours). Much of this work is converging on             BIO: Andrew Jackson is a Professor of Civil and
+exploring the assembly and engineering of emergent          Environmental Engineering at Texas Tech University.
+chemical systems aiming towards ‘inorganic biology’.        Dr. Jackson received his B.S. degree in Biology from
+This work has been presented in over 300 papers and         Rhodes College and a M.S. and Ph.D. from Louisiana
+250 lectures worldwide. It is also worth pointing out       State University in Engineering Science with an
+that the expertise in the Cronin group (which numbers       emphasis in Environmental Engineering. Dr. Jackson is
+over 50 people and > £10 M in funding) is unique            very active in the general area of fate of contaminants
+bringing together inorganic / synthetic chemists,           in natural environments, along with development of
+chemical engineers, complex system modelling,               methods to study these processes at appropriate
+evolutionary theory, robotics and AI.                       scales. His group has also been instrumental in
+                     !                                      advancing the understanding of sources, fate, and
+                      Andrew Jackson                        impacts of perchlorate in the environment. His group
+                      Terrestrial Perchlorate and           led the earliest quantification of perchlorate exposures
+                                                            unrelated to military/industrial point sources,
+                      Chlorate: Origin and
+                                                            including those from low level natural occurrences,
+                      Production
+                                                            edible plants, trophic transfer, and in situ production
+                       ABSTRACT: (W. Andrew Jackson,        by oxidants and corrosion protection systems. His
+                       J.K. Böhlke, N. C. Sturchio,         group has significantly contributed to our current
+Alfonso Davila, P. B. Hatzinger, and B. Gu). Perchlorate    understanding of the production and occurrence of
+(ClO4-) and chlorate (ClO3-) are ubiquitous throughout      natural perchlorate and chlorate and survey of natural
+the terrestrial surface environment at trace                perchlorate stable isotopic composition.
+concentrations, but can accumulate to near percent          !
+levels in hyper-arid areas. In arid regions, the ClO3-
+concentration is typically 1-10 X the ClO 4 -               !
+concentration. The occurrence of both ClO4- and ClO3-       !
+is significantly correlated to the occurrence of NO3-.
+This strong correlation is likely related to a common
+                                                            !
+atmospheric production mechanism as well as similar         !
+biogeochemical stability in areas largely devoid of
+plants. ClO4- and ClO3- are deposited in both wet and
+                                                            !
+dry deposition. ClO4- isotopic composition supports a       !
+stratospheric source including variable involvement of
+O3-mediated oxidation reactions and perhaps other
+                                                            !
+
+                                                                                                                9
+                      David Loftus                          planetary materials, and making recommendations for
+                                                            experimental work needed to support ESA plans for
+                      Human Health Concerns of
+                                                            lunar exploration. Dr. Loftus earned M.D. and Ph.D.
+                      Perchlorate on Mars
+                                                            (Molecular Biology—Biophysics) degrees from the
+                      ABSTRACT: (David J. Loftus, Jon       Medical Scientist Training Program at Washington
+                      C. Rask, and Dale W. Porter).         University, and completed medical training in internal
+                      Widespread distribution of            medicine and hematology at Stanford.
+perchlorate in the surface regolith of Mars raises a                              !
+number of important health concerns that NASA must                                Chris McKay
+address in order to plan for human exploration of                                 (Session Two Chair)
+Mars. For example, perchlorate anion has long been
+recognized as an inhibitor of iodide uptake in the                                Perchlorate and long term
+thyroid gland.      Although the effect is reversible,                            planetary ecosynthesis on
+chronic exposure to perchlorate can lead to                                       Mars
+hypothyroidism, a complex illness with widespread
+metabolic consequences. A more recently recognized                               ABSTRACT: The evidence that
+issue with perchlorate is the potential to cause            Mars was habitable in the past is important in two
+pulmonary inflammation and fibrosis after inhalation        ways to the question of planetary ecosynthesis. First, it
+exposure. In the context of Mars exploration, lung          provides a proof in principle that Mars can support a
+exposure to perchlorate could potentially take place        habitable state on timescales that, while short over the
+via inhalation of respirable size particles of Mars         age of the solar system, are long in human terms.
+regolith containing perchlorate. With this scenario in      Second, past habitability suggests that the
+mind, both the intrinsic mineral constituents of Mars       compounds necessary to build a biosphere, water,
+regolith (silica and other metal oxides) as well as the     carbon dioxide, and nitrogen, may still be present on
+perchlorate component could potentially contribute to       Mars is quantities adequate to restore habitability. The
+inflammatory and fibrogenic processes.        Skin and      transformation of chlorine on the surface of Mars to
+ocular effects may be pertinent as well. The discussion     perchlorate provides at once both an obstacle to
+of the health effects of perchlorate will incorporate       future habitability and an resource for energy and
+“lessons learned” from NASA’s evaluation of the             oxygen.
+potential health effects of lunar dust, and will include    BIO: Chris McKay is a research scientist with the
+recommendations for ground-based studies that are           NASA Ames Research Center. His research focuses on
+needed to pave the way for human missions to Mars.          the evolution of the solar system and the origin of life.
+BIO: David J. Loftus, M.D. Ph.D. is a physician scientist   He is also actively involved in planning for future Mars
+at NASA Ames Research Center, with extensive                missions including human exploration. Chris been
+experience in studies of biological systems and their       involved in research in Mars-like environments on
+response to novel materials, including lunar dust, lunar    Earth, traveling to the Antarctic dry valleys, Siberia, the
+soil and other planetary material analogs. Dr. Loftus       Canadian Arctic, and the Atacama, Namib, & Sahara
+led the NASA Ames component of the Lunar Airborne           deserts to study life in these Mars- like environments.
+Dust Toxicity Assessment Group (LADTAG) studies that        He was a co-investigator on the Huygens probe to
+examined the biological effects of authentic Apollo 14      Saturn’s moon Titan in 2005, the Mars Phoenix lander
+lunar dust and soil. This work involved studies of the      mission in 2008, and the current Mars Science
+toxic response to chemically reactive lunar dust in the     Laboratory mission, launched in 2012.
+lungs, examined in rodents, carried out in                  !
+collaboration with NASA Johnson Space Center and            !
+the National Institute of Occupational Safety and           !
+Health. Dr. Loftus is a member of the Topical Team for      !
+the Toxicity of Lunar Dust, a European Space Agency
+(ESA) advisory group charged with identifying critical
+                                                            !
+scientific issues related to lunar dust and other           !
+                                                                                                                 10
+                     Doug Ming                              Wet Chemistry Laboratory (WCL) on Phoenix and most
+                                                            recently the Sample Analysis at Mars (SAM) and
+                     Oxychlorine Phases
+                                                            Chemistry and Mineralogy (CheMin) instruments on
+                     (Perchlorates) in Sedimentary
+                                                            MSL. He led tactical science operations on Phoenix in
+                     Deposits, Gale crater, Mars            the role of Science Lead and he currently leads tactical
+                      ABSTRACT: (D. W. Ming, P. D.          science operations for MSL as a Science Operations
+                      Archer, Jr., B. Sutter, and the MSL   Working Group Chair. Doug received a Ph.D. in Soil
+Science Team). The Mars Science Laboratory rover            Science from Texas A&M University in 1985. He is an
+Curiosity has successfully explored Gale crater for over    expert in Mars surface chemistry and mineralogy.
+2 Earth years. Curiosity has discovered fine-grain          Doug has published over 165 peer-reviewed journal
+sedimentary deposits that appear to have been               articles and book chapters, including the lead author
+deposited in ancient lake environments. These fine-         of a paper in the journal Science that describes the
+grained sediments contain clay minerals, sulfides,          detection of oxychlorine compounds in a sedimentary
+amorphous materials and oxychlorine phases along            rock examined by Curiosity in Gale crater.
+with primary igneous minerals. Oxychlorine phases                                    !
+(i.e., perchlorate and chlorate) were inferred phases                                 Richard Quinn
+based on evolved O2 from thermal decomposition of                                     Martian Perchlorate Chemistry
+perchlorate or chlorate salts, analogy with other
+analyses on Mars, bulk compositions of the                                              ABSTRACT: (R. C. Quinn, B. L.
+sedimentary deposits, timing of chlorinated                                             Carrier, R. V. Gough, S. P.
+hydrocarbon and HCl releases, and on laboratory                                         Kounaves, B. A. Parkinson, B.
+experiments with perchlorate salts. Perchlorate was                                     S u tt e r, J . D. To n e r ) . Th re e
+definitively identified in soil at the Mars Phoenix         decades after the results of Viking biology
+landing site, and O2 releases from Gale crater              experiments indicated the presence of oxidants on
+sediments during Sample Analysis at Mars (SAM)              Mars, the Wet Chemistry Laboratory (WCL), a
+thermal/evolved gas analyses are roughly consistent         c o m p o n e n t i n s t r u m e n t o f t h e M i c r o s c o p y,
+with the thermal decomposition of perchlorate and/or        Electrochemistry, and Conductivity Analyzer (MECA)
+chlorate. Oxychlorine phases have been identified in        on the Mars Phoenix Lander, revealed that the surface
+a windblown deposit (Rocknest) and four sedimentary         material contained high levels of perchlorate. More
+deposit drill samples (John Klein, Cumberland,              recently, samples that have been collected by the
+Windjana, and Confidence Hills) in Gale crater. The         Mars Science Laboratory (MSL) and analyzed using the
+presence of oxychlorine compounds has complicated           Sample Analysis at Mars (SAM) instrument contain
+the search for organic materials. Although organic          perchlorate and these results suggest that there are
+compounds such as chlorinated hydrocarbons have             significant differences in sample chlorine chemistry,
+been detected in SAM analyses, the C source for the         even between samples collected in close proximity
+chlorinated hydrocarbons is not definitively of martian     (e.g., MSL John Klein and Cumberland samples).
+origin.                                                     Additionally, perchlorate and chlorate have been
+                                                            found in the EETA79001 Mars meteorite. In this
+BIO:   Doug Ming is the Chief Scientist for the
+                                                            presentation, some of the current research related to
+Astromaterials Research and Exploration Science
+                                                            chemical aspects of perchlorates and related species
+Division at NASA Johnson Space Center. He has
+                                                            on Mars will be overviewed. Aspects of martian
+participated on the science teams (Co-Investigator/
+                                                            perchlorate chemistry that will be discussed include:
+Participating Scientist) for the Mars Polar Lander (MPL),
+                                                            perchlorate parent salts, perchlorate formation and
+Mars Exploration Rovers (MER), Mars Phoenix Scout,
+                                                            decomposition including the formation of reactive
+and Mars Science Laboratory (MSL) missions. Doug
+                                                            intermediates, and perchlorate deliquescence and
+has been involved in the development, testing, and
+                                                            brine formation.
+operations of numerous flight instruments including
+the Thermal Evolved Gas Analyzer on MPL, the                BIO: Richard Quinn is a Principal Scientist with Leiden
+Mössbauer and Alpha Particle X-ray Spectrometers on         Measurement Technology (San Carlos, CA), and a
+MER, the Thermal Evolved Gas Analyzer and MECA              Principal Investigator with the SETI Institute (Mountain
+
+
+
+                                                                                                                         11
+View, CA) working in the Planetary Sciences Branch at      of Mars, astrobiology and biodegradable drones. Her
+NASA Ames Research Center. He received his B.S. in         lab is working on expanding the use of synthetic
+chemistry from the George Washington University and        biology for NASA with projects as diverse as
+his Ph.D. in chemistry from Leiden University,             recreating the first proteins de novo to biomining to
+Netherlands. His research interests include the study      using synthetic biology to precipitate calcite and
+of biomarker preservation potential in planetary and       produce glues in order to make bricks on Mars or the
+space environments, modeling of chemical processes         Moon. Rothschild is a Fellow of the Linnean Society of
+occurring on planetary surfaces, and the development       London, the California Academy of Sciences and the
+of technologies for in-situ planetary exploration. His     Explorers Club.
+experience includes instrument and sensor
+development for NASA and ESA space missions,
+                                                                                !
+nanosatelites, and the International Space Station.
+                                                                                 Meg Smith
+Currently, he is developing solid phase extraction                               The origin of perchlorate on
+technology for in-situ chemical analysis under a NASA                            Mars
+Small Business Innovative Research contract (Leiden                                ABSTRACT: Perchlorate has been
+Measurement Technology) and developing the                                         detected at the Phoenix and
+ORganic Exposure in Orbit (OREOcube) experiment                                    Curiosity sites and is inferred at
+for the International Space Station with funding from      the Viking sites. This suggests a globally distribution of
+the NASA Astrobiology Science Technology and               perchlorate on Mars’ surface. The origin and
+Instrument Development program (SETI Institute).
+                     !                                     distribution of perchlorate has implications for
+                                                           atmospheric chemistry, aqueous history, and
+                     Lynn Rothschild                       habitability on Mars; however, despite its significance,
+                     (Session One Chair)                   the formation mechanism of perchlorate remains
+                                                           uncertain. A handful of studies have investigated the
+                     BIO: Lynn Rothschild has been a       origin of perchlorate since its initial detection by the
+                       leader of     NASA’s efforts in     Phoenix lander. Laboratory investigations have shown
+                       synthetic biology since 2010.       that irradiation of natural semiconductors in chlorine-
+                       She is an evolutionary biologist/   bearing solutions produce perchlorate, and more
+astrobiologist at NASA Ames, and Professor (Adjunct)       recently, the irradiation of CO2-rich chlorine-bearing
+at Brown University and the University of California       ice has been shown to release chlorine volatiles.
+Santa Cruz. She has broad training in biology, with        Theoretical investigations into the origin of
+degrees from Yale, Indiana University, and a Ph.D. from    perchlorate point towards an atmospheric origin,
+Brown University in Molecular and Cell Biology, and a      similar to the atmospheric perchlorate formation on
+love for protistan evolution. Since arriving at NASA       Earth. However, results from recent 1-D photochemical
+Ames in 1987, her research has focused on how life,        modeling have challenged the efficacy of purely gas-
+particularly microbes, has evolved in the context of the   phase atmospheric perchlorate formation and
+physical environment, both here and potentially            perhaps point to gas-solid chemistry that is, as yet,
+elsewhere, and how we might tap into “Nature’s             unknown.
+toolbox” to advance the field of synthetic biology.        BIO: Meg Smith is currently a graduate student at the
+Field sites range from Australia to Africa to the Andes,   University of Washington, working on completing her
+from the ocean to 100,000 feet on a balloon. In the        PhD with Prof. David Catling. She received her
+last few years Rothschild has brought her expertise in     bachelor's degree in Meteorology from Penn State
+extremeophiles and evolutionary biology to the field       University, where her research focused on radiative
+of synthetic biology, addressing on how synthetic          cooling of early Mars by elemental sulfur aerosols. Her
+biology can enhance NASA’s missions. Since 2011 she        current research focuses on the photochemistry of
+has been the faculty advisor of the Brown-Stanford         early Mars and Earth, as well as the redox evolution of
+award-winning iGEM team, which has pioneered the           Earth over time. She authored a paper earlier this year
+use of synthetic biology to accomplish NASA’s              about the formation of perchlorates, sulfates, and
+mission, particularly focusing on the human settlement     nitrates in the atmosphere of Mars. This work
+
+
+
+                                                                                                               12
+challenges the hypothesis that perchlorates could                  processes. He received his PhD in Earth and Planetary
+have formed through the gas-phase reaction of                      Sciences from Washington University in St. Louis, MO,
+volatile chlorine and oxygen-bearing compounds.                    where his dissertation focused on the geology,
+                     !                                             petrology, and geochronology of a key
+                     Neil Sturchio                                 Neoproterozoic terrane in the central Eastern Desert
+                                                                   of Egypt. His first professional appointment was with
+                     Te r r e s t r i a l Pe r c h l o r a t e :
+                                                                   Argonne National Laboratory (1983-2000), where his
+                     Distribution and Isotopic
+                                                                   research focused on trace element and isotopic
+                     Composition                                   re d i s t r i b u t i o n i n g ro u n d w at e r a q u i f e r s a n d
+                        ABSTRACT: (N. C. Sturchio, J.K.            geothermal systems, stable isotope methods for
+                        Böhlke, W. Andrew Jackson, P. B.           investigating chlorinated solvent behavior in
+Hatzinger, and B. Gu). Perchlorate (ClO4-) is widely               groundwater aquifers, and synchrotron X-ray
+distributed throughout the near-surface terrestrial                scattering studies of mineral-water interfaces.
+environment. Concentrations of ClO4- in temperate                  Following this, he moved to the University of Illinois at
+soils are typically 1 – 10 ng/g, but may be much higher            Chicago (2000-2014), where he established the
+in hyperarid soils (e.g., Atacama Desert, Antarctica Dry           Environmental Isotope Geochemistry Laboratory. His
+Valleys). The concentration range of ClO4- in surface              research team developed and applied methods for
+waters and groundwaters in temperate regions is 0.1 –              stable isotopic analysis of perchlorate and RDX in
+1.0 ng/g, but higher in arid regions and in locations              groundwaters, as well as methods for sampling and
+where groundwater is contaminated by                               purification of Kr from groundwaters and geothermal
+anthropogenic activity (e.g., aerospace, agriculture,              fluids for laser atom-trap analysis of the radiokrypton
+road flares, pyrotechnics). Rainfall ClO4- concentration           isotopes. Prof. Sturchio is a Fellow of the Geological
+ranges from <0.01 – 0.1 ng/g. Plants are commonly                  Society of America and was the first elected Secretary
+enriched in ClO4- through bioaccumulation from soil,               of the Geochemical Society.
+precipitation, and groundwater.                                                               !
+         Isotopic compositions of Cl and O were                                               Brad Sutter
+measured for natural ClO4- in soils, groundwaters, and                                        The state of knowledge of
+surface waters from four continents, and for synthetic                                        detecting oxychlorine species
+ClO4- products. Natural and synthetic ClO4- samples                                           on Mars and possible
+are isotopically distinct. Natural ClO4- has elevated                                         o x y c h l o r i n e re m e d i a t i o n
+17O abundance (Δ17O up to +18 per mil), whereas
+                                                                                              strategies.
+synthetic ClO4- has Δ17O = 0.0 +/- 0.1 per mil. Natural
+ClO4- δ37Cl ranges from –4 to +6 per mil, with the                 ABSTRACT: (B. Sutter, D.W. Ming, R.C. Quinn, D.A.
+exception of Atacama Desert ClO4-, which ranges from               Archer, P.R. Mahaffy, W.V. Boynton, and R.V. Morris).
+-20 to -10 per mil, whereas synthetic ClO4- δ37Cl                  Oxychlorine (e.g, perchlorate, chlorate) species have
+ranges from 0 to +2 per mil. Values of δ18O and Δ17O               been detected in the sediments of the Northern Plains
+are correlated in natural ClO4- extracted from arid soils          (Phoenix Lander) and Gale Crater [Mars Science
+and caliches. Recently formed (e.g., Late Pleistocene)             Laboratory, (MSL)]. Perchlorate (up to 0.6 wt.%) was
+natural ClO4- has elevated 36Cl abundance, with 36Cl/              detected in the Phoenix landing site soil solutions by
+Cl ratios ranging from about 3 x 10-12 to 3 x 10-11,               the Wet Chemistry Laboratory (WCL) Hofmeister anion
+whereas synthetic ClO4- has much lower 36Cl/Cl ratios              selective electrode. Thermal analytical techniques
+ranging from 1 – 40 x 10-15.                                       [Phoenix Lander, Thermal Evolved Gas Analyzer
+                                                                   (TEGA) and MSL Sample Analysis at Mars (SAM)] have
+BIO:   Neil C. Sturchio is currently Professor and                 also detected oxychlorine phases (up to 1.5 wt. %) in
+Chairperson of the Department of Geological                        Mars sediments. Sediments were heated at a constant
+Sciences at the University of Delaware. His principal              rate from ambient up to ~1000ºC and evolved oxygen
+research interests are in environmental                            was detected by a mass spectrometer at temperatures
+biogeochemistry, tracer applications of radioactive                consistent with the thermal decomposition of
+and stable isotopes, and mineral-water interfacial                 perchlorates and in some cases chlorates. Evolved HCl
+
+
+
+                                                                                                                                   13
+has been detected in the SAM data further supporting                             Jonathan Trent
+the presence of an oxychlorine phase. The interaction
+                                                                                 Can Mars exploration be
+of Fe phases (e.g., hematite, poorly crystalline Fe-
+                                                                                 powered by pee and
+oxides) present in the Mars sediments can lower the
+thermal decomposition temperature of oxychlorine
+                                                                                 perchlorate?
+phases, which can complicate the identification of                                ABSTRACT: (H. Kagawa and J.
+oxychlorine species present. The Chemistry and                                    Trent). The ubiquitous presence
+Mineralogy (CheMin) x-ray diffraction instrument           of magnesium and calcium perchlorate in the Mars
+aboard MSL has not detected any oxychlorine phases         regolith is a challenge for human exploration
+but has potential for such a detection. Higher             (perchlorate is toxic) but it is also an opportunity for in
+oxychlorine concentrations (~2 wt.%) may be required       situ resource utilization for making fuel. Fuel can be
+for detection by CheMin.                                   made from ammonium perchlorate, but while the
+         Techniques can be employed to minimize            perchlorate is abundant on Mars, the ammonium is
+exposure of humans and plants to oxychlorine phases        not. Ammonium can be made however, from the
+and other soluble salts. Soil or sediment used as a        urine (pee) produced by the Mars explorers. Pee is
+medium for enclosed crop growth can be leached             95% water, which will presumably be recovered and
+with water to remove soluble oxychlorine phases and        recycled on Mars.          Urea(CH4N2O) is the most
+other salts that may cause salinity problems for plants.   abundant solute in pee at approximately 9.3 grams/
+The leached solution can be collected and either           liter and it is possible to convert urea into ammonia
+boiled or freeze dried to separate the water from the      using enzymes called ureases. These enzymes are
+salts. Strategies already being planned to minimize        produced by bacteria on the human body.                We
+dust and soil from entering enclosed living and            evaluated the bacteria in the urine obtained from men
+operations habitats should be able to contend with         and women and the relative rates of urea conversion
+any issues related to airborne oxychlorine toxicity to     into ammonia, using agar plates containing urea and
+astronauts.                                                pH indicator dye. These plates were incubated at
+BIO: Brad Sutter is a soil scientist at NASA Johnson       body temperatures. The practical aspects of using
+Space Center where he researches the geochemistry          waste products and microbes from astronaut/Mars
+and mineralogy of Mars soils and sediments. He holds       explorers and converting perchlorate into fuel will be
+undergraduate and graduate degrees in soil science         discussed.
+from UC Davis and Texas A&M and has been working           BIO: Jonathan Trent. After earning a Ph.D. in marine
+at NASA for 14 years. Past work include evaluating         biology at Scripps Institution of Oceanography,
+hyper-arid Atacama Desert soil formation processes as      Jonathan did postdoctoral research at the Max Planck
+analogs to processes that may occur on Mars. He was        Institute for Biochemistry in Germany, the University of
+part of the Phoenix Lander’s Thermal Evolved Gas           Copenhagen in Denmark, and the University of Paris in
+Analysis (TEGA) team evaluating carbonates as the          France. He returned to the USA to work at the Boyer
+source of CO2 releases detected by TEGA. He is             Center for Molecular Medicine at Yale Medical School
+currently a team member of the Sample Analysis at          and then Argonne National Laboratory before moving
+Mars instrument which is aboard the Mars Science           to NASA Ames Research Center in 1998. In addition
+Laboratory, Curiosity rover. His duties involve making     to working at NASA, Jonathan is an adjunct professor
+contributions to determining what volatile bearing         at UC Santa Cruz and a fellow of the California
+minerals are present as indicated by the evolved gas       Academy of Sciences. Jonathan’s research has ranged
+(e.g., H2O, CO2, SO2, O2) releases from sediments          from marine biology to molecular medicine, from
+analyzed by SAM. Specifically he has been leading          astrobiology to nanotechnology. He recently started a
+laboratory studies that are assessing the source of the    grass-roots movement called “Global Research into
+O2 releases detected by SAM.                               Energy and the Environment at NASA (GREEN) and
+!                                                          has a long-standing interest in Mars exploration.
+!                                                          !
+!                                                          !
+                                                           !
+                                                                                                                14
+                     Todd Webster                           treatment facility in the world located in Nevada, as
+                                                            well as the first biological perchlorate treatment
+                     Current Practices for the
+                                                            system to produce potable water in the United States.
+                     Detection and Treatment of
+                     Perchlorate
+                                                            !
+                      ABSTRACT: The presence and
+                      subsequent treatment of
+perchlorate on Earth has only been documented for a
+relatively short period of time. Since the late 20th
+Century, improvements in analytical technologies and
+methodologies have allowed for the detection of
+perchlorate at concentrations in the low µg/L to ng/L
+range. These improvements in detection limits have
+uncovered numerous areas on earth where
+perchlorate was previously unknown to exist, often
+requiring extensive remediation efforts to protect
+sensitive habitats and drinking water aquifers. Since
+the number of perchlorate contaminated areas has
+increased, so has the need for cost-effective, efficient
+treatment technologies. Traditional technologies such
+as carbon adsorption, reverse osmosis membranes,
+and single pass ion exchange have found a niche in
+the treatment arena for low levels of perchlorate in the
+presence of other oxyanions and lower total dissolved
+solids (TDS).      For areas of higher contaminant
+concentrations and TDS, technologies such as
+regenerable ion exchange and biological treatment
+have proven to be better applied treatment
+methodologies. Using case studies, a focus of this
+discussion will be to expound on the methods used to
+detect perchlorate and define the most promising
+treatment technologies available for remediation on
+earth, along with their potential applicability for Mars.
+BIO: Todd Webster is the Western Regional Vice
+President for Envirogen Technologies, Inc., based out
+of Rancho Cucamonga, California. He obtained his
+Ph.D. in Civil/Environmental Engineering from the
+University of Southern California in 1996 and is
+registered Professional Civil Engineer in the State of
+California.    Dr. Webster has been with Envirogen
+Technologies for 17 years and involved in all aspects
+of perchlorate treatment system design, installation,
+and operation.      His background in research and
+modelling has allowed Dr. Webster to bring
+remediation strategies for perchlorate from
+conceptual design at the laboratory bench-scale level
+to the full-scale implementation in the field. Over the
+past decade, he has spearheaded the design,
+installation and operation of the largest perchlorate
+
+
+
+                                                                                                           15
+!PANELIST BIOS !!
+!               !
+                           Doug Archer                                      (SSPB); a member of the Energy Biosciences Institute
+
+                           !                                                Executive Committee; Chairman of the joint UC
+                                                                            Berkeley-LBNL/BP committee on oil reservoir souring
+                           BIO:     Doug Archer is a Mars                   cause and control; a member of the Scientific Advisory
+                      research scientist who currently                      Committee, University of Montréal GenoRem
+                      focuses on detecting and                              program; and a member of the Scientific Advisory
+                      i d e n t i f y i n g v o l at i l e - b ea r i n g   Committee, Universal Bio Mining, LLC.
+minerals through evolved gas analysis.                          These                He obtained an Honors B.Sc. in Biotechnology
+minerals, including perchlorate, provide a windows                          in 1986 from Dublin City University, Ireland and his
+into past and present environmental conditions on                           Ph.D. in Microbiology in 1991 from University College
+Mars. Doug holds a B.S. in Physics from Brigham                             Galway, Ireland. His major area of interest is
+Young University in Provo, UT and a PhD in Planetary                        geomicrobiology applied to environmental problems.
+Science from the University of Arizona in Tucson, AZ.                       Specific interests include diverse forms of anaerobic
+Doug was a science team member on the Phoenix                               microbial metabolism such as microbial perchlorate
+Mars Scout Mission, the mission that discovered                             reduction, microbial iron oxidation and reduction, and
+perchlorate on the martian surface. He is currently a                       microbial humic substances redox cycles.          Other
+member of the Mars Science Laboratory science team                          interests include early Earth and evolution, alternative
+and a member of the Sample Analysis at Mars (SAM)                           renewable energies, bioremediation of toxic metals,
+instrument team. Through evolved gas analysis, SAM                          radionuclides, and organics.       He has won several
+has detected oxychlorine species and Doug is                                awards for research and mentorship including the
+involved in identifying the particular species present.                     1998 Oak Ridge Ralph E. Powe Young Faculty
+One of his roles in analyzing SAM data is to convert                        Enhancement Award, the 2001 DOD SERDP Program
+the evolved gas signal into a molar abundance in                            Project of the Year award, and the 2002 SIUC College
+order to establish the concentration of perchlorate                         of Science Researcher of the Year Award. He has given
+(and other minerals) in martian samples. Doug is also                       more than 150 invited presentations at national and
+interested in how the presence of perchlorate can                           international meetings. He has authored and co-
+affect the decomposition of other minerals as well as                       authored more than 120 peer-reviewed publications
+its impact on the UV photolysis of organic molecules.                       and book chapters. He has published one book and
+
+                           !                                                has 12 patent submissions based on technologies
+                                                                            developed in his lab several of which have been
+                           John Coates                                      applied commercially. He has been on the editorial
+                           !                                                boards of the journals Frontiers in Microbiology,
+                                                                            Applied and Environmental Microbiology, and Applied
+                           BIO:      J o h n D. Co at e s i s a             Microbiology and Biotechnology. He is an editorial
+                      Professor of Microbiology at                          scientist for the Faculty 1000 review database and is a
+                      University of California, Berkeley.                   member of the American Society for Microbiology, the
+                      He also holds a joint                                 American Chemical Society, the American Geophysical
+appointment as a Geological Scientist Faculty in the                        Union, and the International Humic Substances
+Earth Sciences Division at the Lawrence Berkeley                            Society. In addition to his traditional teaching at UC
+National Laboratories. He was co-founder and Board                          Berkeley, Dr. Coates is continuously involved in various
+Member of BioInsite LLC a company geared towards                            outreach programs supporting high school and
+the use of microorganisms for solutions to                                  community college students. He has mentored many
+environmental contaminant problems. He is Director                          high school students and science projects in his
+of the UC Berkeley Energy Biosciences Institute                             laboratory and was a recipient of the University of
+microbial enhanced hydrocarbon recovery (MEHR)                              California Berkeley Summer Research Opportunity
+program; Director of the UC Berkeley Energy                                 Program Recognition award for mentorship.
+Biosciences Institute soured systems biology program
+
+
+                                                                                                                              16
+                         Max Coleman                                 Environments on Earth. Alfonso's research interests
+                                                                     are broad, spanning from planetary habitability,
+                         !                                           geology and geochemistry, to the origin and evolution
+                         BIO:   Max Coleman's training               of life on Earth, and the origin and evolution of the
+                        combined chemistry, geology                  Solar System. He is particularly interested in the
+                        and isotope geochemistry at                  geologic, geochemical, and climatic evolution of Mars,
+                        London and Leeds Universities,               and how this evolution affected the habitability of the
+but he found that he needed to encompass                             planet from its origins and up to the present. He is also
+microbiology too when studying sedimentary rocks.                    interested in comparing the evolution of Mars and
+He has applied multidisciplinary fundamental scientific              Earth through field research in Mars Analog
+research to elicit solutions to practical problems in                Environments such as the Antarctic Dry Valleys, the
+petroleum exploration and production, environmental                  high Arctic, or the Atacama Desert, combined with
+pollution, radioactive waste storage and forensic                    laboratory work, numerical modeling, and the analysis
+science. He now uses the same approaches to search                   of remote sensing data. He is currently working in
+for life on other planets. After ten years at the British            several international science and engineering projects
+Geological Survey, where he ran a national isotope                   in the field of planetary sciences. Alfonso has been a
+analysis facility, he joined BP Research to start a new              guest speaker in international conferences and a
+geochemical research group. He then moved to the                     guest lecturer in universities and research institutes in
+University of Reading in 1995 as Professor of                        the US, Canada, South America and Europe, and has
+Sedimentology. Prof. Coleman was enticed to join the                 published more than 50 scientific papers and book
+NASA Jet Propulsion Lab, Caltech, in 2003, to be                     chapters in these fields.
+Director of the Center for Life Detection and Leader of              !
+the Astrobiology Research Group. In the last few years,
+                                                                                          John Hogan
+he spent sabbatical periods in Paris where he worked
+on aspects of capture and storage of carbon dioxide,                                      !
+related to climate change research. This led to his                                       BIO: John A. Hogan Ph.D. is an
+developing the concept of using attenuation of the
+                                                                                          environmental scientist working
+cosmic ray muon flux to monitor subsurface storage of
+                                                                                          in the Bioengineering Branch at
+carbon dioxide. He returned to JPL to focus again on
+                                                                                          NASA Ames Research Center,
+looking for life outside the Earth by developing
+                                                                     Moffett Field, CA. His research supports NASA’s Life
+mineral biosignature approaches and instruments to
+                                                                     Support Program and involves the development of
+detect them.
+                                                                     sustainable systems for extended extraterrestrial
+!                                                                    human habitation. Major areas of research and
+                         Alfonso Davila                              technology development have included integrated
+                         !                                           biological and physico-chemical technologies for
+                                                                     regenerative air, water and solid waste treatment
+                         BIO:   Alfonso F. Davila is an              systems, plant growth, systems analysis and
+                      A s t ro b i o l o g i s t a t t h e S E T I   integration, planetary protection, and data systems
+                      Institute and NASA Ames                        development. His interests also include investigating
+                      Research Center in California. As              how NASA systems engineering principles may be
+an undergraduate in Spain, he studied marine                         applied to large-scale terrestrial operations. Prior to
+sciences and was trained in marine biology, chemistry,               joining NASA, Dr. Hogan was research faculty at
+geology and physics, with a later focus in marine                    Rutgers, The State University of New Jersey in the
+geology and physics for his Masters degree. He                       Department of Environmental Sciences. At Rutgers, he
+obtained a PhD in Germany studying bio-geophysics,                   participated in a NASA funded, multidisciplinary
+and the interactions between the Earth's magnetic                    NSCORT program developing biologically-based,
+field and biological systems. His Post-Doc at NASA                   sustainable systems for long-term planetary bases.
+Ames in California, brought him to work on the                       !
+habitability of Mars through the study of Mars Analog
+
+
+
+                                                                                                                        17
+                      Kosuke Fujishima                       Uhlig Award from The Electrochemical Society; the U.
+                                                             R. Evans Award from The Institute of Corrosion, UK;
+                      !                                      t h e 2 0 t h K h w a r i z m i I n t e r n at i o n a l Aw a rd i n
+                      BIO:   K osuke Fujishima is a          fundamental science in 2007; The Faraday Gold Medal
+                      Synthetic biologist and an             from SAEST in India in 2010; the Gibbs Award from
+                      Astrobiologist working at Lynn         IAPWS in 2013, and the Frumkin Medal for the
+                      Rothschild lab at NASA Ames            International Society of Electrochemistry in 2014. He
+Research Center. He received his Ph.D degree in              is an elected fellow of NACE-International; The
+Systems Biology from Keio University, Japan in 2009.         Electrochemical Society; the Royal Society of Canada;
+His current research focuses on using Synthetic              the Royal Society of New Zealand; ASM International;
+biology as a toolkit to tackle various topics in the field   the World Innovation Foundation; the Institute of
+of Astrobiology; from understanding the functions of         Corrosion (UK); and the International Society of
+abiotic peptides for origins of life, developing new         Electrochemistry.         From 1993 to 1997 he was a
+analytical methods for detecting extraterrestrial            member of the US Air Force Science Advisory Board
+biosignatures, and to support future human settlement        with the protocol rank of Lieutenant General. He was
+on Mars by creating genetically engineered                   awarded the US Air Force Medal for Meritorious
+microorganisms. He is currently working closely with a       Civilian Service in 1997. Dr. Macdonald was a Trustee
+Japanese visiting scholar Toshitaka Matsubara from           of ASM International and has recently been inducted
+Tokyo Tech University to turn salt-loving halophiles         Doctuer Honoris Causa by INSA-Lyon, Lyon, France.
+into a model organism for human support on Mars,             He was a recent recipient of the Lee Hsun Research
+given their natural resistance towards radiation,            Award of the Chinese Academy of Sciences. Dr.
+desiccation and high salinity.                               Macdonald has published more than 900 papers in
+!                                                            peer-reviewed scientific journals, books, and
+                                                             conference proceedings, plus four books, one of
+                      Digby Macdonald                        which ("Transient Techniques in Electrochemistry")
+                      !                                      established an important area of electrochemical
+                       BIO: Digby D. Macdonald. Born         research, and has 10 patents and numerous invention
+                       in Thames, New Zealand,               disclosures credited to his name. Finally, under his
+                       December 7 1943, Professor in         tutelage, more than 150 students have graduated with
+                       Residence Macdonald gained his        advanced degrees in Chemistry and Materials Science
+                       BSc and MSc degrees in                and Engineering over the past four decades.
+Chemistry at the University of Auckland, New Zealand,                                !
+and his Ph.D. degree in Chemistry from the University                                  Ronald Oremland
+of Calgary in Canada. He has served as Director and
+Professor of the Fontana Corrosion Center, Ohio State
+                                                                                       !
+University, Vice President, Physical Sciences Division,                                BIO: Ronald Oremland received
+SRI International, Menlo Park, California and has been                             his BS in Biology from Rensselaer
+Professor and later Distinguished Professor of                                     Polytechnic Institute in 1968. He
+Materials Science and Engineering at Pennsylvania                                  briefly attended graduate school
+State University since 1991, before joining UC               at the Institute of Marine Sciences of the University of
+Berkeley in 2013. Professor Macdonald has received           Miami, FL (1968 - 1969), but this was interrupted by
+numerous awards and honors, including the 1991 Carl          military service. He was commissioned an ensign in
+Wagner Memorial Award from The Electrochemical               the US Navy in November 1969 and thence graduated
+Society; the 1992 Willis Rodney Whitney Award from           the Naval School of Diving and Salvage, serving in the
+The National Association of Corrosion Engineers for          capacity of a ship's diving and salvage officer aboard
+“contributions to the science of corrosion”; the W. B.       the USS Utina (ATF-163). He was released from active
+Lewis Memorial Lecture from Atomic Energy of                 duty at the end of 1971.
+Canada, ltd., for his “contributions to the development               He returned to grad school in Miami, receiving
+of nuclear power in the service of mankind”; the H. H.       his PhD in marine sciences from the Rosenstiel School
+
+
+
+                                                                                                                          18
+of Marine & Atmospheric Sciences in 1976. Dr.                                    Michelle Rucker
+Oremland did a brief postdoc at the NASA Ames
+Research Center (1976 - 1977), after which he began                              !
+working at the US Geological Survey in Menlo Park,                               BIO: Michelle A. Rucker is a 28-
+CA where he is still employed as a Senior Scientist. He                           year veteran of NASA. She began
+has adjunct faculty appointments at University of                                 her engineering career
+Miami and University of California Santa Cruz, and is a                           designing down-hole oil field
+Fellow of the American Academy of Microbiology, the         sensors in Houston, while pursuing Bachelor’s and
+American Geophysical Union, and of the International        Master’s degrees in Mechanical Engineering from Rice
+Society for Environmental Biogeochemistry.                  University. Michelle joined NASA in the aftermath of
+         Dr. Oremland works with anaerobes, chemo/          the space shuttle Challenger accident, supporting the
+photo-autotrophs, and extremophiles, especially those       investigation team by conducting booster material test
+that metabolize gases or toxic metalloids (e.g., As, Se,    and analysis at NASA’s White Sands Test Facility.
+Te, Sb). He is particularly fond of Mono Lake, California   During her 12-year service at White Sands, Michelle
+as a research site.                                         managed a range of projects, from failure analysis and
+!                                                           subsequent recovery of the Gamma Ray Observatory
+                     Rocco Mancinelli                       propulsion system, to developing two-stage light gas
+
+                     !                                      guns for use in hypervelocity impact research. In 1998
+                                                            Michelle transferred back to NASA’s Houston facility to
+                     BIO:   Rocco L. Mancinelli is a        serve as Deputy Subsystem Manager for the
+                      Senior Research Scientist with the    International Space Station’s (ISS) environmental
+                      Bay Area Environmental Research       control and life support system. After tours of duty as
+                      Institute. He obtained his B.A        deputy branch chief for the EVA and spacesuit
+from the University of Colorado Boulder in Molecular ,      systems branch, and deputy system manager for the
+Cellular and Developmental Biology, and his Ph.D.           ISS exercise equipment, Michelle joined the
+from the Department of Environmental, Population            Constellation Program where she worked on both the
+and Organismic Biology also from the University of          Orion and Altair projects. She currently works in the
+Colorado, Boulder. His research interests are broad,        Exploration Integration and Science Directorate,
+encompassing ecology, physiology, and                       developing crewed Mars mission concepts. Michelle
+biogeochemistry.      Specifically he studies microbe-      holds two U.S. patents and has received numerous
+environment interactions with emphasis on the               NASA awards.
+environmental limits in which organisms can live. He        !
+currently uses three systems in these studies:        1)
+Halophiles in evaporitic salt crusts that form along the
+marine intertidal and in salterns; 2) Microbial mats
+inhabiting diverse environments (e.g., the intertidal
+area of the Baja coast, and the alkaline and acid hot
+springs of Yellowstone National Park); and 3) The
+space environment in Earth orbit.          He has flown
+organisms aboard the European Space Agency’s
+BioPan facility, NASA’s GeneSat and O/OREOS as well
+as the International Space Station. In addition, he has
+written extensively on the potential for the origin and
+evolution of life on Mars.
+!
+!
+!
+!
+                                                                                                             19
+HOST BIOS                                                                   !
+                                                                            !
+                      S. Pete Worden                          Agency (DARPA) on space-related issues. In 2004, he
+                                                              worked as a Congressional Fellow and chief advisor to
+                      Director, NASA Ames
+                                                              the Chairman of the US Senate Subcommittee on
+                      Research Center
+                                                              Science and Space regarding NASA and space issues.
+                                                                       Worden retired in 2004 after 29 years of active
+                      BIO:    Simon P. Worden (Brig.
+                                                              service in the United States Air Force. His final position
+                         Gen., USAF, ret.) is the center
+                                                              was Director of Development and Transformation,
+                         director at NASA Ames Research
+                                                              Space and Missile Systems Center, Air Force Space
+Center where he leads a staff of nearly 2,500 civil
+                                                              Command, Los Angeles Air Force Base, CA.
+servants and contractors and oversees an annual
+budget of approx. $800 million providing the critical
+                                                                                    !
+R&D support that makes NASA's and the nation's                                      Jacob Cohen
+aeronautics and space missions possible. In just three                              Chief Scientist, NASA Ames
+years, Worden has completely transformed Ames,                                      Research Center
+reinvigorating the center's workforce and taking a
+leadership role in important, cost-effective small                                  BIO: Jacob Cohen is currently
+satellite mission                                                                    the Chief Scientist at NASA Ames
+          Worden has also put Ames on the critical path                             Research Center. In this capacity,
+for all major NASA space exploration missions through         Dr. Cohen provides advice and oversight for research
+effective use of the center's unique wind tunnels, arc        programs and serves as the principal Center official in
+jets, intelligent systems and supercomputer facilities        the administration of long term, high risk, and
+and capabilities. Worden's 'GreenSpace' initiative has        creative/inventive research programs. Dr. Cohen
+brought Ames' remote sensing capabilities to bear on          evaluates proposals for new programs, keeps abreast
+air traffic safety, fighting forest fires, and the study of   of ongoing work, and establishes priorities to assure
+climate change. And Ames' new Sustainability Base             that Center research programs contribute effectively
+facility will serve as a model for future eco-friendly,       to national aerospace and scientific objectives. Dr.
+high-performance federal buildings. In recognition of         Cohen serves as the chief advisor to the Center
+these outstanding achievements, Worden was named              Director on all areas affecting the science at the
+the Federal Laboratory Consortium's Laboratory                Center. As part of his interest in the utilization of space
+Director of the Year for 2009.                                and aeronautics for scientific and technology
+          Prior to becoming Ames' director, Worden was        advancements, Dr. Cohen facilitates and develops
+a Research Professor of Astronomy, Optical Sciences           international, inter agency, academic and commercial
+and Planetary Sciences at the University of Arizona           collaborations to sustain new research initiatives. Dr.
+where his primary research direction was the                  Cohen serves as the Center representative to the
+development of large space optics for national                Agency Chief Scientist and the NASA Research
+security and scientific purposes and near-earth               Council and is the conduit for the Agency Office of the
+asteroids. Additionally, he worked on topics related to       Chief Scientist at the Center. Dr. Cohen received his
+space exploration and solar-type activity in nearby           Doctorate from New York University in the area of
+stars. He is a recognized expert on space issues - both       molecular evolution. He then completed a
+civil and military. He has authored or co-authored            postdoctoral fellowship at Cedars-Sinai Medical
+more than 150 scientific technical papers in                  Centerʼs Ophthalmology Research Laboratories in the
+astrophysics, space sciences, and strategic studies.          area of viral host relationships. Dr. Cohen has held
+Moreover, he served as a scientific co-investigator for       various research and management positions both in
+two NASA space science missions.                              industry and government. For his numerous
+          In addition to his former position with the         contributions, Dr. Cohen has received various NASA
+University of Arizona, Worden previously served as a          and external awards and honors. Mentoring, teaching
+consultant to the Defense Advanced Research Projects          and inspiring the next generation of scientists and
+!                                                             managers are continuous roles Dr. Cohen pursues.
+
+
+
+                                                                                                                   20
+ACKNOWLEDGMENTS
+ORGANIZING COMMITTEE
+Pete Worden
+Jacob Cohen
+Victor Panchenko
+Omar Hatamleh
+Monica Ebert
+Jamie Drew
+Debra Reiss-Bubenheim
+Creon Levit
+John Cumbers
+Darlene Wiedemann
+James Schalkwyk
+!
+TECHNICAL ADVISORY COMMITTEE
+Alfonso Davila
+Richard Quinn
+Chris Mckay
+Rocco Mancinelli
+Jonathan Trent
+Lynn Rothschild
+David Loftus
+Jon Rask
+Jacob Cohen
+Omar Hatamleh
+Victor Panchenko
+
+FACILITATORS
+Monica Ebert
+Jamie Drew
+Debra Reiss-Bubenheim
+James Schalkwyk
+Kosuke Fujishima
+Luke Idziak
+Jon Rask
+John Cumbers
+
+
+                               21
+

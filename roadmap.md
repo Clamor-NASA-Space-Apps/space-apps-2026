@@ -102,3 +102,8 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [x] MOXIE power (300 W, user's find confirmed on NASA's page), habitat power ranking, ISS air machine power, plants for air, soil depth, plastic vs water, science goal source. Fact-check rows 57–91; Docmost Power, Life support, Radiation, Game design (B7), NASA data, References updated
 - [ ] Still open: ISS water recycler power (no NASA number); a plain NASA "X cm of Mars soil cuts dose by Y%"; Röstel 2020 primary (Wiley blocks curl, read in browser); CDRA 1,000 W from an NTRS copy
 - [ ] Optional: new Trade-off cards from these (oxygen maker vs night power; water tanks as shield)
+
+## Survival deep dive (8 Nov) ✅
+- [x] Mars survival 101 + Life support + Weather + Power + Radiation rebuilt in place: oxygen budget, CO₂ (Sabatier), water loop (CCAA, UPA, WPA, BPA), Mars water (soil, ice), food (sol-1 menu, shelf life, pick-and-eat timeline), pressure, suits, airlocks/suitports, perchlorate dust. 4 charts + 23 NASA photos. Fact-check rows 92–143
+- [ ] Team call: the game design should use NASA's own first-mission plan (30 sols, tanks) as the backbone; oxygen maker = water splitter, MOXIE only as a "future tech" upgrade
+- [ ] Still open: habitat heating power; current water-recycler power (only 2005 estimates)

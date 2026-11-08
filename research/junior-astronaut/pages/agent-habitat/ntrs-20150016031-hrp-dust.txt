@@ -1,0 +1,2570 @@
+Evidence Report:
+
+
+
+
+Risk of Adverse Health & Performance Effects
+of Celestial Dust Exposure
+
+
+
+
+       Human Research Program
+       Space Human Factors and Habitability (SHFH) Element
+       Approved for Public Release: August 4, 2015
+       National Aeronautics and Space Administration
+       Lyndon B. Johnson Space Center
+       Houston, Texas
+
+
+
+
+                                                     	  
+	  
+       CURRENT CONTRIBUTING AUTHORS:
+
+       Robert R. Scully, Ph.D.    Wyle
+
+       Valerie E. Meyers, Ph.D.   NASA, Johnson Space Center
+
+
+
+       PREVIOUS CONTRIBUTING AUTHORS:
+
+       John T. James, Ph.D.       NASA, Johnson Space Center
+
+       Noreen Kahn-Mayberry       NASA, Johnson Space Center
+
+
+
+
+                                         	  
+	  
+Table of Contents
+
+I 	           RISK OF ADVERSE HEALTH & PERFORMANCE EFFECTS OF
+               CELESTIAL DUST EXPOSURE ........................................................ 1 	  
+II 	          EXECUTIVE SUMMARY .................................................................. 1 	  
+III 	         INTRODUCTION .............................................................................. 2 	  
+IV 	          EVIDENCE ....................................................................................... 4 	  
+A	            Spaceflight Evidence .......................................................................................................... 4	  
+B	            Ground-based Evidence ...................................................................................................... 7	  
+           1.	   Evidence from Human Exposures during Industrial Operations ..................................... 8	  
+           2.	   Evidence from Animal and Human Exposure to Urban Air Pollution ............................ 8	  
+           3.	   Evidence from Humans and Laboratory Animals Exposed to Volcanic Ash .................. 9	  
+           4.	   Evidence from Animal and Human Exposure to Airborne Desert Sand........................ 11	  
+           5.	   Evidence from Laboratory Animals Exposed to Authentic Lunar Dust ........................ 12	  
+               a. Dermal Effects of Exposure to Lunar Dust ................................................................ 12
+               b. Ocular Effects of Exposure to Lunar Dust ................................................................. 13
+               c. Pulmonary Effects of Exposure to Lunar Dust ........................................................... 14
+           6.	   Evidence of Potential Risks to Other Organ Systems .................................................... 17	  
+           7.	   Evidence from Properties of Dusts Associated with Toxicity and Understandings of
+                  Mechanisms of Toxicity – Implications for Assessing Potential Toxicity of Celestial
+                  Dusts. ............................................................................................................................. 24	  
+V 	           COMPUTER-BASED SIMULATION INFORMATION ...................... 26 	  
+VI 	          RISK IN CONTEXT OF EXPLORATION MISSION OPERATIONAL
+               SCENARIOS ................................................................................... 26 	  
+VII 	         GAPS .............................................................................................. 27 	  
+VIII 	   CONCLUSION ................................................................................ 31 	  
+IX 	          REFERENCES ................................................................................ 32 	  
+X 	           TEAM ............................................................................................. 50 	  
+XI 	          ACRONYMS ................................................................................... 53 	  
+
+
+
+
+                                                                                	  
+	  
+I      RISK OF ADVERSE HEALTH & PERFORMANCE EFFECTS OF
+       CELESTIAL DUST EXPOSURE
+
+II     EXECUTIVE SUMMARY
+        Crew members can be directly exposed to celestial dust in several ways. After crew
+members perform extravehicular activities (EVAs), they may introduce into the habitat dust that
+will have collected on spacesuits and boots. Cleaning of the suits between EVAs and changing of
+the Environmental Control Life Support System filters are other operations that could result in
+direct exposure to celestial dusts. In addition, if the spacesuits used in exploration missions
+abrade the skin, as current EVA suits have, then contact with these wounds would provide a
+source of exposure. Further, if celestial dusts gain access to a suit’s interior, as was the case
+during the Apollo missions, the dust could serve as an additional source of abrasions or enhance
+suit-induced injuries. When a crew leaves the surface of a celestial body and returns to
+microgravity, the dust that is introduced into the return vehicle will “float,” thus increasing the
+opportunity for ocular and respiratory injury.
+        Because the features of the respirable fraction of lunar dusts indicate they could be toxic
+to humans, NASA conducted several studies utilizing lunar dust simulants and authentic lunar
+dust to determine the unique properties of lunar dust that affect physiology, assess the dermal
+and ocular irritancy of the dust, and establish a permissible exposure limit for episodic exposure
+to airborne lunar dust during missions that would involve no more than 6 months stay on the
+lunar surface. Studies, with authentic lunar soils from both highland (Apollo 16) and mare
+(Apollo17) regions demonstrated that the lunar soil is highly abrasive to a high fidelity model of
+human skin. Studies of lunar dust returned during the Apollo 14 mission from an area of the
+moon in which the soils were comprised of mineral constituents from both major geological
+regions (highlands and mares regions) demonstrated only minimal ocular irritancy, and
+pulmonary toxicity that was less than the highly toxic terrestrial crystalline silica (Permissible
+Exposure Limit [PEL] 0.05 mg/m3) but more toxic than the nuisance dust titanium dioxide
+(TiO2 [PEL 5.0 mg/m3]). A PEL for episodic exposure to airborne lunar dust during a six-month
+stay on the lunar surface was established, in consultation with an independent, extramural panel
+of expert pulmonary toxicologists, at 0.3 mg/m3.
+        The PEL provided for lunar dust is limited to the conditions and exposure specified
+therefore additional research remains to be accomplished with lunar dust to further address the
+issues of activation, address other areas of more unique lunar geology (Glotch et al., 2010;
+Greenhagen et al., 2010), examine potential toxicological effects of inhaled or ingested dust upon
+other organ systems, such cardiovascular, nervous systems, and examine effects of acute
+exposure to massive doses of dust such as may occur during off-nominal situations. Work to
+support the establishment of PELs for Martian dust and dusts of asteroids remains to be
+accomplished.
+        The literature that describes health effects of exposure to toxic terrestrial dusts provides
+substantial basis for concern that prolonged exposure to respirable celestial dust could be
+detrimental to human health. Celestial bodies where a substantial portion of the dust is in the
+respirable range or where the dusts have large reactive surface areas or contain transition metals
+
+                                                 1	  
+	  
+or volatile organics, represent greater risks of adverse effects from exposure to the dust. It is
+possible that in addition to adverse effects to the respiratory system, inhalation and ingestion of
+celestial dusts could pose risks to other systems.
+
+III    INTRODUCTION
+        NASA has adopted a multi-destination human exploration strategy and is developing a
+core set of capabilities that will allow increasingly complex missions to near-Earth asteroids, the
+Moon, and Mars and its moons (NASA 2011). It is anticipated that a return to the Moon or
+missions to Mars will involve construction of habitats on the surface in order to support long-
+duration human habitation and research. Therefore the potential opportunities for exposure of
+crews to celestial dusts, which could be returned to habitats after surface activities, would far
+exceed those occasioned by the limited number and duration of extravehicular activities (EVA)
+that occurred during the Apollo lunar landings. Therefore the risk of exposure to celestial dusts
+and the potential risk of adverse health effects will be elevated well beyond that experienced by
+the Apollo crews. During the Apollo missions, lunar dust, which had adhered to space suits
+during EVAs, gained entry to the interior of the lunar modules where, after becoming dislodged,
+it became airborne with the loss of lunar gravity upon ascent of the vehicle from the surface. The
+airborne dust irritated the eyes and throats of Apollo crews (Wagner, 2006). A flight surgeon,
+who was exposed to lunar dust during post-mission handling of EVA suits, reported symptoms
+consistent with an allergic response, which worsened with each exposure (Scheuring et al.,
+2008). During the Apollo era, this anecdotal evidence of the possible toxicity of lunar dust was
+followed by an effort to experimentally assess its toxicity, but the effort produced little useful
+information because interpretation was complicated by spontaneous pathology in control animals
+(Holland and Simmonds, 1973). Later studies (Batsura, et al., 1981; Kustov et al., 1974 and
+1989) also suffered from limitations that compromised the quality of the toxicity assessments
+they provided. These assessments ranged from no effects (Kustov et al, 1974), when indices
+were assessed after animals were exposed to air that had passed over lunar dust, to findings of
+fibrosis after intratracheal instillation of massive amounts (50 mg) of dust (Kustov et al., 1989).
+Therefore at the time that new missions to the moon were being planned, the toxicity of lunar
+dust remained to be determined.
+        The importance of particulates in air as a hazard to health has received increasing
+attention since the time of the Apollo missions. During the 1980s and ’90s, understanding of the
+mechanisms involved in the hazards posed to humans by exposures to the silicate mineral
+asbestos matured. There was tremendous concern when large-scale epidemiological studies,
+which had become feasible with advances in methods for processing large data sets,
+demonstrated the relationships between airborne particulate matter (PM) and impacts on human
+health (Bhatnagar, 2006; Cassee, 2007; Maynard, 2015). A substantial volume of research was
+begun that contributed to paradigms, which continue to evolve, that relate physiochemical
+characteristics of particulates to pulmonary toxicity. Prominent among the physiochemical
+features of mineral dusts that affect or may affect toxicity are size, morphology (shape, sharp
+edges, fractured surfaces, surface defects), surface area, surface reactivity, and solubility
+(Castranova et al.,1996; Donaldson and Borm 1998; Donaldson et al., 2001; Fenoglio et al.,
+2000; Fubini 1998, 2002; Ghaizza et al., 2010; Gutherie, 1997; Jones and BéruBé 2007;
+                                                2	  
+	  
+Kajiwara et al., 2007; Napierska et al., 2010; Ovrevik et al., 2005; Pauluhn 2011, 2012; Sager et
+al., 2008; Schoonen et al., 2006; Schwarze et al., 2007; Warheit et al., 2006. 2007).
+        Unlike Earth, on which atmospheric and water erosion of the surface has caused most
+rock to be formed by sedimentation, these processes are absent on the moon. Rather, the lunar
+rocks are volcanic in origin (igneous). The lunar surface is comprised principally of two
+geological regions, the mares and highlands regions. The mares region is composed of dark
+basalts, which form from rapid cooling of molten rock from massive lava flows. The highlands
+region is composed mostly of anorthosite that forms when igneous cools more slowly than
+basalts. These regions comprise 17 and 83%, respectively, of the exposed crust of the lunar
+surface. The vast majority of the mares are on the near side (Pieters, 1986). Evidence from the
+Lunar Reconnaissance Orbiter Diviner Lunar Radiometer Experiment revealed the presence of
+highly evolved, silica-rich lunar soils in kilometer-scale and larger exposures, which indicates
+that the moon has experienced a diverse set of igneous processes (Glotch et al., 2010;
+Greenhagen et al., 2010). Recent results, reviewed by Jaumann et al. (2012) also indicate OH-
+and H2O are formed and retained even outside of polar regions. H2O and OH- are thought to be
+formed “by solar wind protons interacting with oxygen-rich rock surfaces produced during
+micrometeorite impact on lunar soil particles” (Jaumann et al., 2012).
+        Lunar regolith is the layer of unconsolidated rocks, pebbles, and dust over lunar bedrock
+(Colwell et al., 2007). Lunar dust, defined as particles less than 20 microns (µm) (Liu and
+Taylor, 2011) comprises about 20%, by weight of the lunar soil (Park et al., 2008). The
+respirable fraction of the dust (less than 2.5 µm) comprises 1-3% of the mass fraction of mature
+lunar soil (Cooper et al., 2010; McKay et al., 2015). Lunar dust possesses properties that have
+been associated with toxicity of mineral dusts. The native shape of lunar dust is a complicated
+morphology with glassy beads and irregular, sharp particles with extensive surface area (Liu et
+al., 2008). The surface of dust on the moon is likely to be reactive due to broken, dangling
+chemical bonds resulting from commutation due to micrometeoroid bombardment, proton
+bombardment from the solar wind, and ultraviolet and intergalactic radiation (Liu and Taylor,
+2011). Further, nanophase metallic iron (Fe0), which can catalyze the formation of hydroxyl
+radicals in solution via the Fenton reaction, is present in lunar dust particles (Taylor et al., 2001).
+The fraction of total iron present as Fe0 increases as the particle size diminishes (Taylor et al
+2011), at least as size decreases to 2 µm (McKay et al, 2015). These features suggested that lunar
+dust may be toxic. Data from recent studies in rodents (James et al., 2013; Lam et al., 2013)
+confirm that lunar dust is toxic to the respiratory system, but fortunately, these characteristics do
+not confer toxicity that exceeds that of quartz obtained here on Earth.
+        Large portions of the surfaces of carbonaceous asteroids are covered in dust (Murdoch et
+al., 2015). On these celestial bodies the processes that operate on the lunar surface to produce
+dust and affect its properties (space weathering) are also effective and produce particles with
+rims containing Fe0 (Matsumoto et al., 2014). However, on asteroids of less than 1 km in
+diameter, dust produced by comminution resulting from micro meteor impacts likely attains
+escape velocities and is lost (Delbo et al., 2014). On these bodies thermal fatigue by temperature
+cycling is likely the more important process for dust formation (Delbo et al., 2014). On these
+small asteroids, vibrations from impacts, thermal fluctuations, and electrostatic lifting of surface
+
+                                                  3	  
+	  
+particles (Garcia et al., 2015; Renno and Kok, 2008) cause the smallest particles to migrate to
+gravitationally stable areas so that dust ponds, craters with flat floors filled with dust, result from
+migration of fine particles to low areas. Near sunset, oscillating canopies of dust will form over
+negatively charged craters on surfaces of airless bodies (Collier et al., 2012). On asteroids such
+as Vesta that are located where impact velocities of micrometeors are significantly less than they
+are at one astronomical unit from the sun (on the moon), shock dominates over melting and
+vaporization, and “regolith does not accumulate detectible nanophase opaque particles on rims of
+grains” (Pieters et al., 2012).
+        On Mars, measurements made by the Spirit rover identified differences between the
+textures of surface and subsurface particles in Gusev crater. Wind alters the grain size
+distribution, angular shapes, and agglutinates caused by comminution in grains on the surface.
+Therefore, among grains ~ 100 µm (detection limit for Spirit), the agglutinates that are typical of
+lunar soils in this particle size range are absent, and most grains are rounded (McGlynn et al.,
+2011). The fine-grained surficial dust, because of global mixing by wind (Yen et al., 2005), is
+very similar at the various landing sites (Schuerger et al., 2012). Indeed, “chemical analyses
+conducted with the Alpha Particle X-ray Spectrometer on the rover Curiosity corroborate the
+earlier compositional measurements of fine-grained wind-transported materials”, and confirm the
+remarkably homogeneous chemical composition of the dust (Downs, 2015). It is highly oxidized
+and contains basaltic materials, nanophase iron oxides (npOx), and extremely high salts levels
+(e.g., MgCl2, NaCl, FeSO4, and MgSO4 [Morris et al., 2006]), high concentrations of heavy
+metals and perchlorate, and is likely acidic (Schuerger et al., 2012). The perchlorate content,
+which ranges between 0.5 and 1%, is 3 to 4 orders of magnitude greater than in soils on Earth
+(Davila et al., 2013). On Mars large-scale electrostatic fields generated by charged sand and dust
+in the dust devils and storms, as well as during normal saltation, can induce production of H2O2,
+which can condense, precipitate and be adsorbed into the regolith (Atreya et al., 2006). These
+features suggest that the Martian dust is likely toxic.
+        Because evidence with which to assess the toxicity of lunar dust was unavailable when
+the planning of crewed missions to the moon was resumed in the last decade, NASA recognized
+a risk of adverse health effects associated with exposure to lunar dust and identified gaps in our
+knowledge about features of the dust and its toxicity that needed to be filled in order to establish
+safe exposure limits that would inform the design of habitats and vehicles so that exposures of
+crews to lunar dust would be limited to safe levels. Because the human exploration strategy now
+envisions multiple destinations, the scopes of these gaps have been extended beyond lunar dust
+to include the need to obtain evidence with which to assess the toxicity of dusts that will be
+encountered at other celestial destinations.
+
+IV     EVIDENCE
+
+A      Spaceflight Evidence
+       All spaceflight evidence pertaining to the effect of lunar dust on astronauts is anecdotal
+(Category III). The post-flight debriefing reports of the Apollo astronauts serve as a base of
+evidence (Armstrong et al., 1969; Cernan et al., 1973; Conrad et al, 1969; Scott et al., 1971;
+
+                                                  4	  
+	  
+Shepard et al., 1971; Young et al, 1972). In these reports, the Apollo crews provided several
+accounts of problems associated with their exposure to lunar dust. The following are excerpts
+from the reports of their debriefings:
+       1. During Apollo 11, despite attempts by each astronaut to remove dust from his suit
+          and equipment before entering the lunar module (LM) a large amount of lunar dust
+          and grains was brought into the cabin. When the crew removed their helmets, they
+          noticed a distinct, pungent odor, like that of gunpowder, emanating from the lunar
+          material. Both crewmen discovered after they removed their helmets, overshoes, and
+          gloves that they were very dirty. One grain of material got into the Commander's eye,
+          but was easily removed and caused no problem. Crewmembers reported sleeping with
+          their helmets on, in part, so they “wouldn’t be breathing all that dust” (Armstrong et
+          al, 1969; Sheehan, 1975). The concern that particles remaining in the lunar module
+          would float in the cabin atmosphere at zero-g after ascent caused the crew to wear
+          their helmets to prevent eye and breathing contamination. Precautions were taken to
+          prevent the command module (CM) from becoming contaminated with dust contained
+          in the LM. Despite these precautions some dust entered the CM. The CM was cleaned
+          during the return to earth at 24-hour intervals using the vacuum brush and towels. In
+          addition, the circulation of the cabin atmosphere through the lithium hydroxide filters
+          continued to remove traces of particulate material (Armstrong et al., 1969).
+       2. During Apollo 12, the crew members reported that both LM and CM were
+          contaminated with lunar dust; “The LM was filthy dirty and had so much dust that
+          when I took my helmet off, I was almost blinded. Junk immediately got into my
+          eyes”; and “[t]he whole thing was just a cloud of fine dust floating around in there.”
+          After the LM docked to the CM, dust infiltrated the CM. Crewmembers gave the
+          following account of this period of contamination: “On the way back in the CM the
+          system could not handle the dust, so it was continuously spread inside the spacecraft
+          by the system”; “[w]e chose to remain in the suit loop as much as possible because of
+          the dust and debris floating around”; and “[t]o keep our eyes from burning and our
+          noses from inhaling these small particles, we left our helmet sitting on top of our
+          heads”; “When you took your helmet off, you could smell the lunar dirt. It smelled
+          like – the nearest analogy I can think of is gunpowder.” The dust was so fine that it
+          was not removed by the filters “the system is not doing the cleaning, the dust is too
+          fine” (Conrad et al., 1969).
+       3. By contrast, the Apollo 14 crewmembers stated: “The cabin dust kind of swirled
+          around. A lot of that went out through the relief valve at that point, which might have
+          reduced it somewhat”. Dust was not a problem for us in the cabin”; and the dust
+          control procedures were effective; we got very little dust back in the command
+          module; I thought the command module was remarkably clean”; “there was no loose
+          dust coming off the suits”; “We felt the procedures… certainly reduced the dust to a
+          minimum” (Shepard et al., 1971). (It should be noted, however, that in the Apollo 14
+          mission the crew did not experience any interference by dust with visualization of the
+          surface during approach as was the case in earlier and later missions. This may have
+
+                                               5	  
+	  
+          been due in part to the Apollo 14 landing site being intrinsically less dusty than other
+          Apollo landing sites, (Shepard et al., 1971)).
+       4. The Apollo 15 crewmembers stated: “Our legs from about thigh down were just about
+          completely covered with dirt”; “Cabin smelled like gunpowder when we first
+          came into LM from EVA”; “you could see particulate matter floating around”; the
+          vacuum cleaner did a good job of clearing the dust from the LM”; “When we woke
+          up the next morning, I was surprised how clean the spacecraft was. I think most of the
+          dust had been removed”; “Yes, the ECS (Environmental Control System) does a
+          pretty good job of cleaning the place out. The smell was gone” (Scott et al., 1971).
+       5. Apollo 16 crewmembers provided the following accounts: “The LM was extremely
+          clean until the first EVA and then it was extremely dirty”; “I question whether the
+          vacuum cleaner ever worked properly”; and “I thought it was quite a hazard over
+          there floating through the LM with all the dust and debris. A number of times I got
+          my eyes full of dust and particles. I felt like my right eye was scratched slightly once”
+          (Young et al., 1972; Wagner, 2006).
+       6. The Apollo 17 crewmembers recalled: “After the first EVA, we found out what the
+          dust problem really was”; “Really, the dust was so deep and soft...”; “Probably the
+          most difficult job of all the closeouts was trying to dust the suits”; “I had the sinus
+          irritation on the surface”; “As soon as we were hard docked, the commander took off
+          his helmet”. “…because of the dust debris in the LM spacecraft, I’m sorry I did. I
+          could have left the helmet on, and I would have had a lot less eye and mouth type of
+          irritation”. “You knew [that] you were in a very heavily infiltrated atmosphere in the
+          LM because of the lunar dust”; “[t]he dust clearing was remarkable considering the
+          amount of dust we had”; “[a]lthough there was a lot of irritation to my sinuses and
+          nostrils soon after taking the helmet off, by 2 hours that had decreased considerably”;
+          “I did all the transfer with my helmet off and I am sorry I did because the dust really
+          bothered my eyes and throat. I was tasting it and eating it”; and “[w]hen I climbed in
+          the tunnel I could tell there was a lot of dust in the LM and you could smell it”
+          (Cernan et al., 1973). “You have to live with it but you're continually fighting the dust
+          problem both outside and inside the spacecraft. Once you get inside the spacecraft, as
+          much as you dust yourself, you start taking off the suits and you have dust on your
+          hands and your face and you're walking in it. You can be as careful in cleaning up as
+          you want to, but it just sort of inhabits every nook and cranny in the spacecraft and
+          every pore in your skin. Although I didn't have any respiratory problems, I think the
+          LMP (lunar module pilot) which he can comment on later, had some definite local
+          respiratory problem immediately after the EVAs due to the dust in the cabin”.
+          “Almost immediately upon removing my helmet, I started to pick up the symptoms
+          that you might associate with hay fever symptoms. I never had runny eyes or runny
+          nose. It was merely a stuffiness in the nose and maybe in the frontal sinuses that
+          affected my speech and my respiration considerably. After about 2 hours within the
+          cabin, those symptoms gradually disappeared. By morning of the next day, they were
+          gone completely. After the second and third EVAs, although I'm sure the dust was
+
+                                                6	  
+	  
+                        comparable, the symptoms were not nearly as strong as after the first EVA. That was
+                        as if I either developed a mucous protection of the affected areas or had some way or
+                        another very quickly developed an immunity to the effects of the dust” (Cernan et al.,
+                        1973).
+       Although no substantive evidence exists that astronaut performance was impaired by
+lunar dust (Wagner, 2006), one can imagine that if a crew member were “almost blinded” and
+had to “remain in the suit loop as much as possible because of the dust and debris floating
+around,” the dust did have some impact on performance.
+        Dust from the lunar soil that was carried into the spacecraft during the Apollo missions
+proved to be a significant, intermittent problem. With the return to the moon and planned long-
+duration stays on the lunar surface, contamination problems and toxicity of the dust are
+potentially much more serious than those that were experienced during the Apollo missions.
+Gravity at one-sixth that of the gravitational force of the Earth increases the time in which dust
+remains airborne, thereby increasing the probability that these dust particles will be inhaled.
+Some examples of lunar dust grains are provided in Figure 1.
+
+
+	  
+
+
+
+
+Figure	  1.	  Examples	  of	  lunar	  dust	  grains.	  –	  LEFT:	  Scanning	  electron	  microscope	  (SEM)	  image	  of	  a	  typical	  lunar	  agglutinate.	  Note	  the	  sharp	  
+edges,	  reentrant	  surfaces,	  and	  microcraters.	  Smaller	  grains,	  which	  are	  less	  than	  1	  µm	  in	  diameter,	  are	  attached	  to	  this	  particle,	  and	  are	  also	  
+seen	  as	  loose	  grains	  in	  the	  upper	  portion	  of	  the	  image.	  RIGHT:	  SEM	  image	  of	  a	  lunar	  agglutinate	  fragment	  that	  was	  removed	  from	  the	  outer	  
+surface	  of	  Harrison	  Schmitt’s	  EVA	  suit.	  	  
+
+
+B               Ground-based Evidence
+         Humans are typically exposed to respirable dust “of minerals and geomaterials during
+activities such as mining, quarrying, and sandblasting, building demolition, and natural processes
+such as volcanic ash eruption and dust storms” (Hurowitz et al., 2007). Ground-based evidence
+includes data that are derived from people who are exposed occupationally to mineral dusts in
+industrial settings, from people who live in close proximity to active volcanoes and have been
+exposed to volcanic ash, people who have live in regions exposed to windborne dusts from
+deserts, and from controlled laboratory experiments performed with humans, animals and cells.
+Mechanistic insights also guide our thinking concerning the potential toxicity of celestial dusts.
+
+
+                                                                                                         7	  
+	  
+       1.      Evidence from Human Exposures during Industrial Operations
+        Workers in the mining industry are often exposed to dust from freshly fractured mineral
+deposits. When these workers do not utilize respiratory protection or use inadequate protection
+the consequences are devastating. A prime example of this is the Hawks Nest mining disaster
+that occurred in West Virginia. In 1927, during the boring of a tunnel, deposits of silica were
+identified and mined; however, the workers did not use respiratory protection during the
+operations. Estimates of the proportion of workers who died, many within a few years of the
+exposure, are typically about 30% of the 2000 exposed workers (Cherniack, 1986). Silicosis has
+also caused fatalities among sandblasters (Abraham and Wiesenfeld, 1997). This rapidly lethal
+form of silicosis, “acute silicosis,” is characterized by alveolar proteinosis and interstitial
+inflammation (Driscoll and Guthrie, 1997). The respiratory effects are not exactly like those one
+would expect from simple or chronic silicosis, a disease that usually requires decades to develop
+after prolonged exposure to lower concentrations of silica dust. The latter disease is characterized
+by silicotic nodules that are clearly distinct from surrounding tissue and often surrounded by an
+inflammatory response (Driscoll and Guthrie, 1997).
+         In addition to increased risk of silicosis, individuals with detectable exposure to
+crystalline silica (CS) were found by Calvert (Calvert et al., 2003) to have significantly increased
+risk for silicosis, chronic obstructive pulmonary disease, pulmonary tuberculosis, and rheumatoid
+arthritis. Although the International Agency for Research on Cancer released a monograph in
+1997 (IRAC 1997) that classified crystalline silica as a carcinogen, the dose-risk relationship,
+pathogenic mechanisms and the carcinogenic role of silica per se in absence of silicosis remains
+unclear (Erren et al., 2009; Pelucchi et al., 2006). However, substantial empirical evidence
+reviewed by Cox et al. (2011) supports an exposure-response relation between CS and risk of
+chronic inflammation, silicosis, fibrosis, and lung cancer, in a scenario in which exposures
+provoke inflammation, which produces increased reactive oxygen species (ROS) and reactive
+nitrogen species (RNS), pro-inflammatory mediators such as TNF-alpha, and eventual damage to
+lung tissue and epithelial hyperplasia, resulting in fibrosis and increased lung cancer risk among
+silicotics.
+
+       2.      Evidence from Animal and Human Exposure to Urban Air Pollution
+        Urban air pollution is comprised of a mixture of contaminants. These include PM, ozone,
+carbon monoxide, nitrous oxides, sulfur oxides, heavy metals like lead and mercury, polycyclic
+aromatic hydrocarbons, and toxic chemicals. PM is a mixture of solid particles and liquid
+droplets that vary in size, shape, surface area, chemical composition, solubility and origin (Pope
+and Dockery, 2006). The size distribution of PM in air is trimodal within aerodynamic size
+ranges that are related to inhalation and depth of penetration within the respiratory system.
+Coarse particles, having aerodynamic diameters 10 – 2.5 µm (PM10 – PM 2.5), are derived
+primarily from dusts of soil, crustal materials, produced by farming, mining, windstorms,
+volcanos, as well as sea salts, pollen, mold, and spores. Fine particles (PM2.5 – PM0.1) are
+derived primarily from abrasive wear from tires and brakes, combustion processes, industrial
+processes, (e.g., smelters, cement plants, paper mills, and steel mills), and sulfate and nitrate
+particles generated by conversion from primary sulfur and nitrogen oxide emissions and
+
+                                                 8	  
+	  
+secondary organic aerosol from volatile organic compound emissions (Gasser et al., 2009; Pope
+and Dockery, 2006; Schettler, 2005). Ultrafine or nanoparticles are those with aerodynamic
+diameter < 0.1 µm (PM0.1). They are derived from abrasive wear from tires and brakes,
+combustion sources and atmospheric photochemical reactions and usually persist for minutes to
+hours before coagulating or condensing to form larger complex aggregates in the range of fine
+particles (Gasser et al., 2009; Pope and Dockery, 2006; Schettler, 2005).
+        Shins et al. (2004) found PM10 from a rural setting produced greater inflammatory
+effects in rat lungs than PM2.5 from an industrial area and attributed the response to endotoxins
+or related contaminants. Others, however, have demonstrated that coarse particles have a
+toxicological capacity equivalent to fine particles on a mass basis (Sandstrom et al., 2005). The
+oxidative reactivity (OR) of size segregated PM was tested at a traffic site (Price et al., 2014).
+PM2.5 and PM0.1 caused more DNA damage than coarse PM10. PM exhibited more OR
+compared to manufactured carbon black particles. Size, surface area and metals (Zn and Fe) are
+important particle characteristics for OR (Price et al., 2014; Verma et al., 2010). On the other
+hand, Miller et al. (2012) claim that unpublished data demonstrate that “clean carbon particles
+with significantly lower levels of the surface chemicals and metals can generate similar, if not
+greater, levels of free radicals than that of urban particulates of a similar size”. Miller et al.,
+(2012) argue that surface components alone may not be able to predict the toxicity of different
+PM and that in biological systems PM induce the cells/tissues to synthesize biologically-derived
+free radicals, adding to that produced directly by PM. There are several mechanisms by which
+different components of PM can generate free radicals and contribute to oxidative stress in
+biological systems. The pathways underlying effects on the cardiovascular (CV) system are
+complex and remain to be fully elucidated; however, PM-induced oxidative stress (Ayres et al.,
+2008; Donaldson et al., 2013; Miller et al., 2012), and local and systemic inflammation
+(Donaldson et al., 2013) repeatedly emerge as potential mechanisms in all detrimental effects of
+PM on the CV system. Therefore, although the particulate constituents of urban air pollution are
+largely derived from anthropogenic sources, while those of celestial dusts are naturally
+occurring, the relevance of the finding of studies of the former to assessments of toxicity of the
+latter is to direct attention to features of celestial dusts that indicate that they may induce
+oxidative stress and inflammation. Indeed, Rowe (2000, 2007, 2013) suggested that exposure to
+lunar dust, in susceptible individuals, may lead to cardiovascular effects that are similar to those
+produced through exposure to air pollution.
+
+       3.      Evidence from Humans and Laboratory Animals Exposed to Volcanic Ash
+        Volcanic ash originates from processes resulting in explosive eruptions into the
+atmosphere or pyroclastic flows from the surface and discharging ash as they cool, or some
+combination thereof. Basic (e.g. basaltic) eruptions produce no crystalline silica (e.g., quartz),
+and contain mafic minerals such as calcium-rich feldspar, pyroxenes and olivine, whereas acidic
+(e.g. rhyolitic) eruptions produce silica-rich (> 69% wt) ash with high concentrations of felsic
+minerals such as quartz, potassium-rich feldspar and silica glass (Derbyshire et al., 2012). The
+particle size, mineral composition, and form of the minerals vary considerably from volcano to
+volcano as well as from one eruption to another eruption of the same volcano. Analysis of 63 ash
+
+                                                 9	  
+	  
+samples from around the world showed that the fraction <4 µm varied from 0–17 vol% (Horwell,
+2007). Usually, the ash will have had hours to days to react with the oxygen and water vapor of
+the atmosphere to passivate surfaces before being inhaled by humans.
+         Shortly after Mount St. Helens erupted in 1980, a number of experts began to investigate
+the effects of volcanic ash on those who had been exposed to the dust (Bernstein et al., 1986).
+The crystalline silica content of this dust ranged from 3% to 7%. The primary acute effects were
+re¬flected in increased emergency room visits for asthma, bronchitis, and eye discomfort (Baxter
+et al., 1981). The ash was noted to exacerbate chronic respiratory conditions. The increase in
+hospital admissions lasted approximately 3 weeks (Nania and Bruya, 1982), and immune
+parameters were affected even 1 year later (Olenchock et al., 1983). The British West Indian
+Montserrat volcano began erupting in 1995, causing an ash fall from pyroclastic flows that
+contained 10% to 24% crystalline silica (Baxter et al., 1999). Recorded incidences of childhood
+wheezing increased as a result of relatively intense exposures to the ash (Forbes et al., 2003).
+There was a positive association between exposure to volcanic ash from the 2002 eruption of
+Mount Etna, (Sicily, Italy) and acute health effects in the Catania residents. Similarly, Icelanders
+exposed to volcanic ash from Eyjafjallajökull had increased prevalence of respiratory symptoms,
+specifi¬cally asthma and chronic bronchitis, com¬pared with a control population in northern
+Iceland (Carlsen et al. 2012). Sustained long-term health effects have not been reported in
+association with exposures to volcanic ash, although there is speculation that the high cristobalite
+content of the Montserrat ash could lead to silicosis many years later (Baxter, 1999).
+        Animal studies that focused on the biological effects of chronic inhalation exposure to
+Mount St. Helens volcanic ash or quartz, under controlled laboratory conditions, indicate
+significant dose-response to both materials (Wehner et al., 1986). The quartz that came from the
+volcano was found to be markedly toxic and fibrogenic; by contrast, the volcanic ash was much
+less toxic (Martin et al., 1984; 1986). Similar results were noted in other animal studies (Beck et
+al., 1981; Raub et al., 1985; Wiester et al., 1985), suggesting that quartz is a much more potent
+pulmonary toxicant than volcanic ash (Beck et al., 1981; Martin et al., 1986; Raub et al., 1985).
+However, the presence of volcanic ash in the inhaled air did increase the “histamine sensitivity”
+of the epithelial irritant receptors (Wiester et al., 1985) as well as inhibit the ability of alveolar
+macrophages to protect against infection (Vallyathan et al., 1995). Ash from Eyjafjallajökull
+disrupted pathogen-killing and inflammatory responses of macrophages, increased bacterial
+replication, and decreased bacterial killing by antimicrobial peptides (Monick et al., 2013).
+        The toxicity of volcanic ashes has been evaluated in rats that were dosed once by
+intratracheal instillation (Lam et al., 2002a,b; Latch et al., 2008). Ashes that were obtained from
+the San Francisco volcano field in Arizona (lunar dust simulant) and from a Hawaiian volcano
+(Martian dust simulant) were compared to the toxicity of TiO2 and quartz. Lungs of mice that
+have been harvested 90 days after receiving a dose of 1 mg of lunar simulant showed chronic
+inflammation, septal thickening, and some fibrosis. No changes were seen at the low dose of 0.1
+mg/mouse (Lam et al., 2002a,b). The Martian dust simulant elicited a response that was similar
+to that of the lunar simulant, except that there was an inflammatory and fibrotic response even at
+a dose of 0.1 mg/mouse. The response of the mouse lungs to 0.1 mg quartz was comparable to
+the response to the Martian dust simulant. In another study, the effect of these same simulants
+
+                                                 10	  
+	  
+was assessed on human alveolar macrophages (Latch et al., 2008). The lunar dust simulant was
+comparable in cell viability reduction and apoptosis induction to the TiO2 (negative control).
+Both were less toxic than the quartz positive control. Both simulants showed a dose-dependent
+increase in cytotoxicity. Recently, studies by Cervini-Silva et al. (2014) demonstrated that
+allophane, the main component of respirable dust derived from aged volcanic soils derived from
+ash and larger sized clasts (Horwell et al., 2015) that was collected from New Zealand, Japan,
+and Ecuador, induces lipid peroxidation in cell membranes, and cytotoxicity in murine
+monocyte/macrophage cells. The lipid peroxidation was controlled by, but not restricted to,
+structural or surface-bound Fe3+. The reactivity of Fe3+ soluble species originating from
+surface-bound Fe3+ or small-sized Fe3+ refractory minerals in allophane surpassed that of
+structural Fe3+ located in tetrahedral or octahedral sites of phyllosilicates or bulk iron oxides.
+Thus the study suggests an adverse effect of dust from volcanic solids may be mediated by
+oxidation.
+         Ash samples from Monserrat, Eyjafjallajökull, and Grímsvötn displayed little ability to
+lower levels of lung antioxidants, caused little haemolysis and low acute cytotoxicity in human
+alveolar type-1 like epithelial cells (Horwell et al., 2013). However, cellular mediators MCP-1,
+IL-6, and IL-8 showed chronic pro-inflammatory responses to ash samples from all three
+volcanos, despite substantial differences in the sample mineralogy and eruptive styles (Horwell
+et al., 2013). Cell-free tests showed substantial hydroxyl radical generation in the presence of
+hydrogen peroxide for Grímsvötn samples, as expected for basaltic, Fe-rich ash (Horwell et al.,
+2013). “The value of the pro-inflammatory profiles in differentiating the potential respiratory
+health hazard of volcanic ashes remains uncertain” (Horwell et al., 2013).
+
+       4.      Evidence from Animal and Human Exposure to Airborne Desert Sand
+        The Chinese desert margins experience high atmospheric dust levels, and
+pneumoconiosis is thought to affect several million people in these regions (Derbyshire 2001).
+Nonindustrial silicosis or desert lung syndrome has been recognized in North Africa, the Middle
+East, China, and India (Morman and Plumlee, 2013). Episodic exacerbation of allergenic
+respiratory inflammation by sand dust that originates in Asia or Arizona has been observed in
+East China, the Korean Peninsula, Japan and the United States (Ichinose et al., 2008). Mallone et
+al. (2011) reported finding increases in mortality for cardiovascular, circulatory and respiratory
+causes in Rome related to increases in Saharan dust even when the data were adjusted for ozone
+and temperature. A study in the Canary Islands demonstrated an association with heart and
+respiratory mortality and both indicators of PM in the inhalable size range (PM10), which is the
+fraction of airborne material which enters the nose and mouth during breathing, and respirable
+fraction (PM2.5), which is the fraction that can reach the alveoli, and found rates of respiratory
+mortality increased 4.9% for each increase of 10 µg/m3 in PM10 (Lopez-Villarrubia et al.,
+2010). Morman and Plumlee (2013) recently reviewed epidemiological studies that have
+identified associations between far-traveled inorganic mineral dusts from primary sources and
+increased morbidity and mortality in Europe and Asia. Interestingly, effects of PM2.5–10 were
+stronger than those of PM2.5 on cardiac and circulatory mortality during Saharan dust episodes
+(Mallone et al., 2011; Tobias et al., 2011).
+
+                                               11	  
+	  
+         Direct exposures of "Imprinting Control Region" (ICR; [expression of a gene occurs only
+from one of the two alleles]) mice to sand dusts from Asia (Tengger Desert in north central
+China) and from Arizona via intratracheal instillation (ITI) have been reported to aggravate
+ovalbumin-associated eosinophilic lung inflammation (Ichinose et al., 2008). The aggravating
+effects of the two dusts differed and were related to the mineral content, mainly SiO2 of the dusts
+(Inchinose et al., 2008). In other studies, in which ICR mice were exposed by ITI to sand dusts
+collected from the Tengger Desert or from the atmosphere in Japan, after they had been hot air
+sterilized to remove adhering biological and chemicals substances, Naota et al., (2010) reported
+finding localized accumulation of dust particles in the bronchioles and the alveoli; acute
+inflammatory changes characterized by infiltration of macrophages and neutrophils; degenerated
+alveolar walls and bronchial epithelial cells, as well as a weakened positive immunolabeling for
+laminin, at 24 hours after a single exposure. Positive immunolabelings for interleukin-6, tumor
+necrosis factor–α, inducible nitric oxide synthase, and superoxide dismutase were observed
+mainly in the inflammatory cells in the lesions. Naota et al., (2010) interpreted the results as
+indicating that sand dust particles caused damage to the lung tissue through a direct physical
+effect, and cytokines and oxidative stress generated in the lesion contributed to acute toxicity.
+When the study was repeated and effects observed at longer intervals after exposure it was found
+that the acute inflammation subsided from one week to one month after installation and at 2 and
+3 months after instillation focal infiltration of lymphocytes and accumulation of epithelioid
+macrophages and formation of some granulomas were observed.
+         The principal mineral component of windborne desert dusts Asian and North African dust
+is silica, 61 and 63%, respectively, in the form of feldspar and quartz (<20 – 60% of total mineral
+content) (Derbyshire, 2007; Naota et al., 2010). In addition to mineral content these dusts may
+carry bacteria, fungi, and endotoxins, as well as toxic metals and other toxins derived from both
+natural and anthropogenic sources that adversely affect health (Morman and Plumlee 2013).
+Therefore determination of specific effects of a particular constituent of these dusts would be
+difficult. During the Great American Dust Bowl of the 1930s, excessive and prolonged
+inhalation of dust resulted in inflammation of the alveoli, dust pneumonia, and death.
+Characterization of the dusts found high silica content, on average greater than 72%, but no
+pathogenic organisms (Morman and Plumlee 2013). On the other hand, airborne dust samples
+collected for a year from 15 sites across the Middle East showed that at all sites the WHO
+guidelines for maximum ambient PM exposure were exceeded. All silicate mineral particles
+were thinly coated with a silicon-aluminium-magnesium layer and quartz particles were partly
+rounded, without fractured surfaces, and coated with clay minerals and iron oxides; no asbestos
+fibers were found (Engelbrecht et al., 2009). These findings would suggest the toxicity of the
+collected dusts is low but, as noted earlier, the incidence of desert lung syndrome in the Middle
+East is a health concern.
+
+       5.      Evidence from Laboratory Animals Exposed to Authentic Lunar Dust
+               a.    Dermal Effects of Exposure to Lunar Dust
+     Crew members can be directly exposed to celestial dust in several ways. After crew
+members perform extravehicular activities (EVAs), they may, as Apollo astronauts did, introduce
+
+                                                12	  
+	  
+into the habitat dust that will have collected on spacesuits and boots. Cleaning of the suits
+between EVAs and changing of the Environmental Control Life Support System (ECLSS) filters
+are other operations that could result in direct exposure to celestial dusts. In addition, if the
+spacesuits used in exploration missions abrade the skin, as current EVA suits have, then contact
+with these wounds would provide a source of exposure. Further, if celestial dusts gain access to
+the suits’ interiors, as was the case during the Apollo missions, the dust could serve as an
+additional source of abrasions or enhance suit-induced injuries. Severe abrasion could
+compromise the protective barrier provided by the skin and thereby increase the risk of infection
+and the risk of fluid loss. The abrasive effect of lunar dust on skin has been evaluated with a
+transdermal-impedance technique that measured changes in resistivity of pig-skin, a high fidelity
+surrogate for human skin, after abrasion with lunar soil simulant (JSC-1A), as well as with
+authentic lunar dust (Jones et al., 2009). The transdermal-impedance technique measures damage
+to the stratum corneum, the dry, outermost layer, which is important for the barrier function of
+the skin. The results of these studies show that JSC-1A is abrasive as commercial sandpaper and
+that authentic lunar dust is similarly abrasive. Classical skin toxicology studies, including
+chemical irritancy evaluation and sensitization tests remain to be performed (Jones et al., 2009).
+               b.      Ocular Effects of Exposure to Lunar Dust
+        In accord with recommendations of the Organization for Economic Cooperation
+Development, the Lunar Dust Toxicity Research Portfolio (LDTRP) group utilized a two-step
+approach to assess ocular toxicity of lunar dust. In the first step a 100 mg sample of the
+respirable-sized, jet-milled dust, which had been maintained in dry nitrogen until use, or negative
+or positive control dusts, were applied to the surface of cultured human keratinocytes and
+viability was assessed at 3, 30, and 60 minutes after application of the dust (EpiOcularTM Test).
+As judged by the number of viable cells remaining at each sampling time after exposure, only
+minimal irritancy was demonstrated by this assay for lunar dust (Meyers et al., 2012).
+        Because only a minimal irritancy for the dust was demonstrated by the EpiOcularTM
+Test, lunar dust was not expected to be exceptionally irritating if applied in a study in vivo, and
+therefore testing was performed, in rabbits, to assess acute irritation in the intact eye (Meyers et
+al., 2012). In this study 70 mg of non-respirable dust particles (mass mean diameter of 51 µm)
+were applied to the right eyes and the left eyes served as control. Only slight redness and
+swelling of the conjunctiva was observed at the first (1-hour) observation time and no adverse
+effects were noted in the cornea, iris, or conjunctiva at any of the subsequent observation times
+(24, 48, and 72 hours) (Meyers et al. 2012). The maximum average irritation rating observed at
+1-hour corresponded to the Draize scale rating of minimally irritating (Meyers et al. 2012).
+        In addition to the mechanical irritation, it is possible that the cornea could be adversely
+effected by molecular changes induced by chronic exposure to low levels of dust that possess
+surface features that could facilitate oxidative damage. Therefore, to assess this possibility,
+Theriot et al. (2014), isolated ribonucleic acid (RNA) from corneas of rats that were collected at
+1 day and 7 days after exposure expose to filtered air (controls) or 20, or 60 mg/m3 jet mill
+prepared respirable sized lunar dust for a total of 120 hours (Lam et al., 2103). Microarray
+analysis performed using the Affymetrix system identified dose-dependent increases in gene
+
+                                                13	  
+	  
+expression in dust-exposed animals in pathways related to oxidative stress response,
+mitochondrial dysfunction, fibrosis, epithelial healing, TGF-­‐ß signaling, and extracellular matrix
+remodeling (Theriot et al., 2014). Genes affecting processes related to cell migration, cellular
+proliferation, and eye development were also found to be altered by exposure to lunar dust. The
+findings suggest that exposure to lunar dust for 120 hours at a concentration as low as 20 mg/m3
+is sufficient to elicit a molecular response in the cornea. As noted by these investigators,
+“additional studies are required to fully assess the risk of vision impairment and the mechanistic
+responses initiated in cornea exposed to lunar dust as well as the potential for long-­‐term effects
+to astronaut health”.
+               c.      Pulmonary Effects of Exposure to Lunar Dust
+        Early efforts to assess the toxicity of lunar dust produced little useful information. In one
+study interpretation was complicated by spontaneous pathology in control animals (Holland &
+Simmonds, 1973). Other studies (Batsura et al., 1981; Kustov et al., 1974, 1989) were also
+inadequate and the range of findings extended from no effects (Kustov et al., 1974) to fibrosis
+(Kustov et al., 1989). Therefore, when new missions to the moon were being planned in the last
+decade the toxicity of lunar dust remained to be determined. This deficiency imposed a critical
+challenge to those responsible for designing ECLSS of the vehicles and habitats that would be
+used in the lunar exploration missions. This deficiency was addressed by the NASA Office of the
+Chief Health and Medical Officer who requested “…recommendations for defining risk criteria
+for human lunar dust exposure and a plan for the subsequent development of a lunar dust
+permissible exposure limit.” The multi-center Lunar Airborne Dust Toxicology Assessment
+Group (LADTAG) was formed to respond to this request. The LADTAG was comprised of
+technical experts in lunar geology, inhalation toxicology, biomedicine, cellular chemistry, and
+biology from within the agency as well as other leading U.S. experts in these fields from other
+federal agencies, academia, and industry. In an initial LADTAG workshop that was held in 2005,
+the experts noted that they were unable to reconcile individual expert opinions to set an
+inhalation standard based on existing data. The array of opinions from these experts spanned a
+300-fold range (i.e., 0.01 to 3 mg/m3). The members of the LADTAG concluded that research
+was necessary to narrow this wide uncertainty range, the lower end of which could not be met by
+known methods of environmental control, and that there was an urgency to determine the
+standard so that environmental systems for the then-planned lunar vehicles and habitats could be
+appropriately designed. Therefore, gaps in knowledge needed to determine the characteristics of
+lunar dust that contribute to its toxicity, to determine the toxicity of lunar dust to the respiratory
+system, to the skin and to the eyes, and to establish a permissible exposure limit for airborne
+lunar dust, were formally documented by the Human Research Program (HRP). Studies to
+address these gaps were solicited and funded, and a multidisciplinary LDTRP group, consisting
+of teams of toxicologists, geologists, and chemists, was engaged to conduct studies needed to
+address the gaps.
+        It was anticipated that exposures of lunar exploration crews to dust would occur during
+an interval lasting no more than six hours, which would begin when dust was introduced into a
+habitat by crewmembers returning from surface activities and end when high efficiency
+particulate air (HEPA) filters re-established low, baseline, levels of dust. The work schedule of
+
+                                                 14	  
+	  
+crews was expected to follow a typical work week with 5 days that included surface activity and
+2 days of rest which required no activity outside the habitat, and therefore no introduction of dust
+into the habitats on those days. Therefore studies were designed to obtain data that would support
+a recommendation for an exposure limit based upon a time weighted average exposure, as is the
+basis for an Occupational Safety and Health Administration PEL, and account for episodic
+exposures to airborne lunar dust for missions involving no more than six months duration.
+         The sample of authentic lunar dust used to assess toxicity was acquired from the Curation
+and Analysis Planning Team for Extraterrestrial Materials at the Johnson Space Center (JSC).
+The sample obtained, 14003,96, had been collected by the Apollo 14 crew. Although in the lunar
+highlands, the soil at the landing site was comprised of mineral constituents from both major
+geological regions (Meyer et al., 2011), the highlands and mares regions. Respirable size
+(PM2.5) lunar dust aliquots for use in toxicological assessments were obtained from the parent
+14003,96 sample in several ways by the Geology Team. These are described in detail by McKay
+et al. (2015). A cyclonic separation method, which utilizes an air vortex and gravity to separate
+particulates was utilized to separate a few grams of native respirable-size dust from the parent
+sample. Because of damage to seals of containers caused by the dust when it was collected, it
+was expected that the surface reactivity of the native dust would have been passivated by
+exposure to atmosphere during the many years the archived samples were stored (Gaier, 2007).
+To address this concern, other methods involved grinding a cyclonic-separated fraction by ball
+mill or jet mill and then separating the respirable sized particles from the ground dusts with the
+cyclone system, were employed. Grindings and separations were conducted in a dry nitrogen
+environment to minimize any loss of surface reactivity generated in the dusts by grinding.
+Grinding was expected to generate silicon- or oxygen-based radicals (“dangling bonds”) and
+expose reduced iron, both of which can react with water to produce ROS (Wallace et al., 2009).
+Grinding therefore served as a surrogate for processes that activate lunar dust in situ. The
+volumetric mean diameters of the respirable-size dusts were 1.8, 2.1, and 2.5 µm for the ball-
+milled, native, and jet-milled dusts, respectively. Fe0 is present in lunar dust particles and the
+fraction of total iron present as Fe0 increases as the particle size diminishes, at least to 2 µm
+(Taylor et al 2011). Therefore respirable dust produced by grinding of larger particles contained
+lower amounts of Fe0 than the native respirable-sized lunar dust. Otherwise, the mineral
+compositions of the three lunar dusts preparations were similar. (McKay et al., 2015).
+        Assessment of pulmonary toxicity of lunar dust by LDTRP was accomplished in two
+phases that utilized different methods of exposure and several systems of analysis. Both phases
+utilized rats (Fisher 334) for exposure assessment. Rats were chosen because they are more
+responsive to inhaled particles than other rodents (Bermudez et al., 2004; Maudley, 1997); the rat
+and human lung responses to inhaled particles are, qualitatively, quite similar (Castranova,
+2000); carcinogenesis and risk of tumor from exposure to quartz are similar in man and rats
+(Kuempel, 2009; Roller, 2009). In the first phase, animals were exposed by ITI to three
+respirable-sized lunar dusts (one native, and two that had been produced by grinding) and two
+standard dusts of well-established and widely different toxicities, quartz (PEL = 0.1 mg/m3) and
+TiO2 (PEL = 5.0 mg/m3) at dosages of 0, 1, 2.5 or 7.5 mg/rat. Cellular and biochemical markers
+of toxicity were assayed in bronchoalveolar lavage fluid (BALF) collected from lungs at 1 and 4
+
+                                                15	  
+	  
+weeks after instillation (James et al., 2013). Comparative benchmark dose analysis was utilized
+in which the effects of the various dusts on responsive markers of toxicity were scaled to those of
+the dusts of know toxicity. The basis of comparison among sensitive biomarkers was the amount
+of dust predicted from the dose-response curves generated by the Benchmark Dose software (US
+EPA) that would be required to effect a change equivalent to 1 standard deviation from the
+control mean. On this basis, the derived PELs for the lunar dust preparations were 1.3 ± 0.4
+mg/m3 (jet-milled dust), 1.0 ± 0.5 mg/m3 (ball-milled dust) and 0.9 ± 0.3 mg/m3 (unground,
+natural dust). This approach indicated that the toxicities of the three preparations of lunar dust
+were of indistinguishable toxicity and that lunar dust is more toxic than the nuisance dust TiO2
+but less toxic than quartz. The lowest PELs among the various endpoints modeled were 0.5
+mg/m3 and the average was approximately 1 mg/m3. Therefore, James et al (2013) concluded
+that a PEL in the range of 0.5 to 1 mg/m3 “was reasonable for the episodic exposures expected
+inside a lunar habitat during a prolonged mission on the lunar surface”.
+        ITI studies have the benefit that they require far less material than inhalation studies, a
+very important consideration when the material to be studied is in very limited supply and
+extremely precious, as is the case with lunar dust, and in this regard is a valuable tool with which
+to determine the approximate dose range that may be appropriate for later inhalation studies
+(Driscoll, 2000). As a result, the ITI study was used to facilitate choices of doses for use in an
+inhalation study, the lower of which was expected to result in a no-observable-adverse-effect
+level (NOAEL). However, there are a number of widely held concerns with ITI as a means of
+assessing pulmonary toxicants. The toxicant is introduced to the target organ (lung) in a dose or
+at a dose rate that substantially exceeds that which would have occurred during inhalation. The
+toxicant is introduced via an invasive mechanism that may result in a distribution of the instilled
+material within the respiratory tract that will likely differ from that resulting from inhalation. The
+vehicle within which the toxicant is suspended or dissolved could influence the distribution,
+affect the lung directly, or modify the effect of the instilled toxicant. Finally, the anesthetic
+utilized during the installation could alter the initial effects of the inhaled material (Driscoll,
+2000).
+        Cognizant of the merits and limitation of ITI, the LDTRP conducted a second phase of
+toxicity in animal studies that involved exposures by nose-only inhalation and where the
+selection of the dose of the initial exposures was informed by the results of the ITI study (Lam et
+al., 2013). In phase 2, rats were exposed by nose-only inhalation, for six hours per day, five days
+per week for four weeks to jet mill ground respirable size lunar dust. Jet milled dust was utilized
+because ITI studies had demonstrated no significant differences among the toxicities of the lunar
+dusts preparation and this preparation was available in quantities required for the study. BALF,
+lungs and lymph nodes (left tracheobronchial and parathymic) were collected at 1 day, 1 week, 4
+weeks and 13 weeks post-exposure. Two inhalation sessions were performed. Based on the
+results of the ITI experiments, animals were exposed to room air or to 21 or 61 mg/m3 respirable
+sized lunar dust. Slight effects were observed in lungs of rats exposed to 21 mg/m3 and mild to
+moderate pulmonary toxicity was evident in the group exposed to 61 mg/m3. Because mild
+effects were observed in the lower-dose group, a NOAEL was not available from this study, and
+a second inhalation study was conducted, 1 year after the first, which targeted exposure doses of
+
+                                                 16	  
+	  
+2 and 7 mg/m3 (Lam et al, 2013). BALF showed concentration-dependent changes in total cell
+and neutrophil counts (evidence of inflammation), total protein concentrations (a sign of tissue
+damage), and several cellular enzymes (indicators of cell death) in animals exposed to the two
+higher concentrations but no significant difference were found in biomarkers measured in BALF
+of control animals and those exposed to the two lower concentrations of lunar dust. Likewise,
+inflammation, septal thickening, fibrosis and granulomas were observed in the lungs of animals
+exposed at the two higher concentrations, but no lesions were detected in rats exposed to the
+lower doses. Therefore, 6.8 mg/m3 was the highest NOAEL observed in rats after four weeks of
+intermittent exposure (Lam et al., 2013). Applying an uncertainty factor of 3 for extrapolation
+from rats to humans and a factor of 6 for extrapolating from 1 to 6 month exposure provided an
+estimated PEL of 0.4 mg/m3 (Lam et al., 2013).
+         Although it is a well-recognized method for establishing toxicity factors, a NOAEL has
+several known limitations. These include the fact that it is highly dependent upon the design of
+the study. It is influenced by the concentration intervals, the endpoints examined, and limited to
+the doses actually tested. An alternative to the traditional NOAEL approach is the application of
+benchmark dose (BMD) analysis (Crump, 1984). The availability of the BMD analysis provided
+an opportunity to (1) compare and contrast the level of toxicity of lunar dust assessed with this
+method to that assessed using a NOAEL as a point of departure, and (2) contrast the assessment
+of toxicity obtained from the inhalation studies with assessments obtained by BMD analysis of
+dose responses to lunar dust in the ITI study. When BMD was applied to responsive biomarkers
+and BMDs were extrapolated to humans, using a species factor of 3 and extrapolated from a 1-
+month exposure to an anticipated 6-month lunar surface exposure (Scully et al., 2013), PELs
+were 0.6 and 0.9 mg/m3, when less or more restrictive data sets were used, respectively. The less
+restrictive data set included non-normally distributed data that were successfully modeled. This
+range was very similar to PEL range (0.5–1.0 mg/m3) derived from the ITI study (James et al.,
+2013) and to the PEL (0.4 mg/m3) determined from a NOAEL from the same inhalation studies
+(Lam et al., 2013).
+        Taken together the results of the ITI and inhalation studies led the JSC Toxicology Group
+to recommend 0.5 mg/m3 as a safe concentration for periodic exposures during a 6-month
+mission on the lunar surface. The Group noted that their recommendation was likely to be
+conservative but it should not be applied to dust from regions of the moon, such as the poles or
+the dark side, until those dusts are studied to determine their similarity to mare and highland
+dusts. The results and recommended PEL were presented to the Office of Chief Health and
+Medical Officer’s (OCHMO) staff and to an external Review Committee organized through
+NASA's Research and Education Support Services in December 2013. The Review Committee
+produced a report and recommendations in late January 2014. The original recommendation was
+revised based on input from the Review Committee, and a final 6-month episodic exposure limit
+for airborne lunar dust of 0.3 mg/m3 was presented to the Medical Policy Board in April 2014
+and accepted for incorporation into NASA Standard 3001 (NASA Human Research Roadmap,
+2015).
+
+       6.      Evidence of Potential Risks to Other Organ Systems
+
+
+                                               17	  
+	  
+        The harmful effects to tissues directly exposed to lunar dust (lung, cornea, skin) have
+been examined, as described above, but an extensive and growing body of literature (for
+examples, see the epidemiological studies in the sections on effects of exposure to particulate
+components of urban air pollution (Section B2) and to airborne desert sands (Section B4)) raises
+substantial concern that exposure to celestial dust could have harmful effects on other directly, or
+indirectly, exposed tissues. The risk of adverse effects caused by inhalation of celestial dusts to
+the nose, pharynx, trachea, and larger air conducting areas of the respiratory system and irritation
+or damage to the mucosa of the gastrointestinal system by ingested dust remains to be assessed.
+The risk of adverse effects of celestial dusts on systems such as the cardiovascular, nervous
+systems and immune systems that may be secondarily, or indirectly affected by inhaled or
+ingested dusts also remains to be characterized.
+        The residence time of particles depositing in the upper respiratory system, nose, pharynx,
+trachea, and larger air conducting areas are typically very short due to mechanical clearance
+provided by nose blowing, sneezing, or the mucociliary escalator (Lippmann et al., 1980). Most
+particles are removed from the tracheobronchial region within 24 hours. However ultrafine
+particles may submerge into the mucus of the airway fluid, which may result in their prolonged
+retention in this region (Schürch et al., 1990; Stahlhofen et al. 1995). Local deposition is
+important and build-up of concentration on some surfaces can be sufficiently high that the
+capacity for clearance can be exceeded. Local retentions could account for nasal cancers in
+furniture workers and for laryngeal cancers in cigarette smokers (Lippmann et al., 1980). Dietz et
+al. (2004) demonstrated that occupational exposures to cement dust is a risk factor for laryngeal
+carcinoma. Cement dust contains a mixture of heavy metals that are known human carcinogens
+(Ogunbileje et al., 2013). These findings are concerning given that Martian dusts contain
+substantial amounts of heavy metals (Schuerger et al., 2012). The finding of a weak association
+between silica or silicosis and laryngeal cancer (Chen et al., 2012) also raises concern of possible
+adverse effects of inhaled celestial dusts in the upper portions of the respiratory system.
+        Particles cleared from the respiratory tract move to the oropharynx and are then
+swallowed and thereby transferred from the respiratory system to the gastrointestinal (GI) system
+(Kreyling and Scheuch, 2000; Lippmann et al., 1980). Thus, ingestion, indirectly by transfer
+from the respiratory system, or directly, provides another potential route of exposure to celestial
+dusts. Therefore, potential risk of adverse effects of ingested dust upon the GI system must be
+considered. A “borderline” association between exposure to dust and the diffuse form of stomach
+cancer has been found for miners and quarry workers (Santibañez et al., 2012). Lin et al. (2014)
+recently reported evidence for the association between exposure to chrysotile (white asbestos)
+mining dust and excess mortality from cancers of the stomach, esophagus, and liver among
+workers with high cumulative exposure to this mineral dust. García-Pérez, et al. (2015) found
+excess cancer mortality (colorectal cancer) in the vicinity of Spanish facilities that produce
+cement. A meta-analysis of studies of occupational exposure to asbestos found that exposure is
+associated with a moderate increased risk of stomach cancer (Fortunato and Rushton, 2015). The
+durations of occupational exposures in the studies related above far exceed the acute exposures
+that are likely to be experienced by crews exploring celestial bodies, but these finding will take
+
+
+
+                                                18	  
+	  
+on greater significance and relevance when extended habitation on celestial bodies increases the
+extent of exposures.
+         In addition to the consequences to tissues directly exposed to a toxicant, other tissues
+may be secondarily affected by translocation of the toxicant from the site of initial contact, or by
+adverse effects propagated to remote tissues by reactions produced in tissue in contact with the
+toxicant. The American Heart Association (AHA) in 2004 released its first scientific statement
+on “Air Pollution and Cardiovascular Disease” and concluded that exposure to PM air pollution
+contributes to cardiovascular morbidity and mortality. Pope and Dockery (2006) reviewed the
+literature published between 1997 and 2006 and concluded there is “persuasive evidence that
+exposure to fine particulate air pollution has adverse effects on cardiopulmonary health”. In a
+subsequent statement on this topic the AHA, as noted by Brook et al. (2010), identified several
+new conclusions:
+
+       “Exposure to PM 2.5 µm in diameter (PM2.5) over a few hours to weeks can trigger
+       cardiovascular disease–related mortality and nonfatal events; longer-term exposure
+       (e.g., a few years) increases the risk for cardiovascular mortality to an even greater
+       extent than exposures over a few days and reduces life expectancy within more highly
+       exposed segments of the population by several months to a few years; reductions in PM
+       levels are associated with decreases in cardiovascular mortality within a time frame as
+       short as a few years”
+
+       According to the World Health Association approximately 3.7 million premature deaths
+worldwide in 2012 were attributable to urban outdoor air pollution and PM affects more people
+than any other pollutant (WHO, 2014). Increased acute mortality that is associated with particle
+“events” is attributed to CV disease (NRC, 2004). PM in air pollution has been shown to impair
+vascular function, increase blood pressure, promote thrombosis and impair fibrinolysis,
+accelerate the development of atherosclerosis, increase the extent of myocardial ischemia,
+decrease heart rate variability, and increase susceptibility to myocardial infarction (Miller et al.,
+2012; Mills et al., 2007, 2009; Scapellato and Lotti, 2007). The most severe of these effects are
+found among susceptible populations with preexisting cardiovascular diseases, diabetes, obesity,
+hypertension or advanced age (Bhatnagar, 2006), but PM could also promote systemic
+inflammation in young, healthy individuals (Allen et al., 2011; Rich et al., 2012; Riediker et al.,
+2004; Schaumann et al. 2004; Wu et al., 2012). The association of airborne PM with
+cardiovascular disease is also evident from observation that in cases of sudden and marked
+reductions in air pollution (e.g., sudden changes in policy or strikes leading to cessation of
+emissions), there have been clear reductions in hospital admissions for cardiopulmonary diseases
+and deaths (Maynard, 2015) and acute reductions in biomarkers of pulmonary and systemic
+inflammation, oxidative stress, and hemostasis and improvements in measures of cardiovascular
+physiology in healthy, young adults (Zhang et al., 2013).
+       In the case of “overloading”, where the amount of dust entering the lung exceeds the
+capacity of the lung to clear (eliminate) the inhaled dust, the movement of inhaled particles from
+lungs to the lymph nodes has been observed (Dodson et al, 2007; Oberdorster et al., 1988).
+
+                                                 19	  
+	  
+Particles that gain access to the post-nodal lymph have the potential to reach any organ of the
+body (Dodson et al., 2007). Ultrafine particles (UFP) or nanoparticles (NP) with a largest
+dimension less than 0.1 µm, can transit from the lungs and reach other organs via the lymphatics,
+by the blood circulatory system (Choi et al., 2010; Geiser and Kreyling, 2010; Nel et al., 2006;
+Oberdorster et al., 2004), or enter sensory nerve endings embedded in airway epithelia and from
+there be translocated to structures of the central nervous system (CNS) (Elder et al., 2006;
+Oberdorster et al., 2005; Sarkozi et al., 2009; Wang et al., 2008). Nakane (2012) performed a
+systematic review of the literature on translocation of inhaled particles and used categorical
+regression to relate route of exposure, particle size, particle material, and animal species to the
+site of particle translocation. His analysis demonstrated “effects for particle size and particle
+material were large, while the effects for animal species and exposure route were relatively
+small” (Nakane, 2012). A broad relationship between particle size and site of translocation was
+demonstrated: <10 µm for translocation in lung tissue, <1 µm for translocation to the blood, and
+< 50 nm for translocation to the brain and remote organs (Nakane 2012). NP composed of heavy
+metals and salts, metal oxides, inorganic carbons, and plastics have been observed to translocate
+from the respiratory system to adjacent lymph nodes and organs beyond the lungs. When NP
+were found in the brain this was almost invariably subsequent to exposure by inhalation or
+intranasal administration (detected in 8 of 10 studies) and only once (1 of 6 studies) following
+intratracheal instillation. The later observation, is consistent with the mechanisms observed by
+others (Elder et al., 2006; Oberdorster et al., 2005; Sarkozi et al., 2009: Wang et al., 2008) that
+NP deposited in the nasal mucosa are taken up the axons of the olfactory bulb and transported to
+the brain.
+        Studies conducted with NP composed of polystyrene or diesel exhaust particles (DEP)
+injected into the blood of hamsters demonstrate that translocation of NP from the lungs to the
+blood may increase vascular inflammation, clotting, and the risk of myocardial infarct (Nemmar,
+2004). Studies with cultured endothelial cells demonstrated that iron translocated to blood
+vessels could damage endothelium by increasing its permeability through the production of ROS
+and remodeling of microtubules (Apopa et al., 2009). DEP-produced ROS caused oxidative
+stress, which reduced the bioavailability of endothelium-derived nitric oxide, and thereby
+antagonized acetylcholine-mediated relaxation in exposed preparations of rat aorta (Miller et al.,
+2009). A number of in vitro studies with a variety of cell types demonstrate that metallic
+nanoparticles (gold, magnetite) cause dose-dependent disruption of cytoskeleton and defects in
+the lysosome function that, together, can promote autophagy (Cohignac et al., 2014). Because of
+the epidemiological association of air pollution with increased morbidity and mortality, and the
+very rapid rise in use of nanomaterials in the nascent nanotechnology industry, studies of the
+toxicity of UFP or NP have been conducted with particles of anthropogenic origin, such as
+combustion-derived NPs (CDNPs), which are carbon centered and derived principally from
+traffic (Donaldson et al, 2013) and with engineered nanoparticles, such as gold, silver, TiO2,
+iridium, polystyrene, etc. (Simko et al., 2010). The translocation of these nanoparticles is low; no
+more than 5% of the particles move from the lungs to remote organs (Donaldson et al., 2013;
+Simko et al., 2010). The significance of this small translocation fraction to progression of disease
+at remote sites has been questioned (Donaldson and Poland, 2013). If NP mass is the effective
+determinant of toxicity in the organs to which they translocate, then it would seem unlikely that
+
+                                                20	  
+	  
+sufficient mass would be accumulated remotely to be effective. However, if NP number and
+reactive surface area are the principle determinants of toxicity, then chronic exposure to NP may
+be hazardous (Geiser and Kreyling, 2010; Kreyling et al., 2006; Tran 2000). CDNPs, which
+include coal fly ash, diesel exhaust particles, welding fumes, and carbon black, contain large
+surface areas on which catalytic chemistry produce free radicals that promote oxidative stress
+and inflammation (Donaldson et al., 2005). Nanoparticles, because they contain substantially
+more surface area than the same mass of fine particles, have a greater capacity than fine particles
+to induce inflammation and are generally more toxic than larger particles of the same chemistry
+(Bermudez et al., 2004).
+        The possibility that ingested dust particles, as with inhaled particles, may be translocated
+from the site of initial deposition to remote organs has been investigated. While most studies,
+using TiO2, have found no, or negligible, translocation of nanoscale or pigment grade TiO2 from
+the gut to the systemic circulation (Warheit and Donner, 2015), a few studies have observed
+movement of particles from the gut to other organs. After administering nanoparticles of TiO2 (5
+mg/kg) by gavage to adult mice Wang et al. (2007) found, two weeks after administration, that
+particles had translocated from the gut and were principally deposited in the liver, spleen, lungs,
+and kidneys. Inflammation and hepatic necrosis, and nephrotoxicity were observed but no
+abnormal changes were seen in the heart, lung, testicle, ovary, and spleen. Tassanari et al. (2014)
+reported histopathological effects in the thyroid, adrenals, ovaries, uterus, testes, and spleen in
+mice after oral administration of 1-2 mg/kg body weight for 5 days. On the other hand,
+MacNicoll et al. (2015) found that “5 mg/kg body weight of TiO2 nano- or larger particles did
+not lead to any significant translocation of TiO2 (measured as titanium) either to blood, urine or
+to various organs in rat at any of the time intervals studied over a 96 h post-administration
+period”. Jones et al. (2015) found that “very little titanium dioxide is absorbed gastrointestinally
+at 4 days after an oral challenge”. The issue of translocation of ingested nanoparticles remains
+unsettled.
+        The relevance of the finding of potential adverse effects caused by anthropogenic
+nanoparticles translocated from the respiratory system to remote organs to risk of adverse health
+effects from exposure to celestial dusts depends upon the composition and abundance of
+nanoparticles present in the celestial dusts. On small asteroids where gravity is insufficient to
+retain small particle formed by comminution resulting from micro meteor impacts, UF particles
+may be few. On the moon 2% of the soil is comprised on respirable size lunar dust and a size-
+distribution study of an Apollo 14 sample showed that the most frequent particle size was in the
+0.1 to 0.2 µm range and “there is a smooth decrease in particle size down to 10s of nanometers”
+(McKay et al., 2015). The presence of nanoparticles and the abundance of highly reactive
+nanophase iron spheres in lunar dust suggests that risks to other organs from translocation of
+inhaled dust cannot be completely discounted. The risk posed by translocation of Martian dusts
+is not assessable because the size distribution of dusts in the UF, NP range at the Martian surface
+is unknown.
+        The risk to other organs posed by inhaled toxicants does not require that the particles
+leave the respiratory system in order to exert adverse effect in other systems. Pulmonary derived
+mediators (Seaton, 1995) or activation of sensory nerve fibers (C fibers) in response to ingested
+
+                                                21	  
+	  
+toxicants could produce effects at sites beyond the lungs. Seaton et al. (1995) proposed that
+deposition of particles in the lung provokes a low-grade alveolar inflammation with a secondary
+systemic inflammatory response emanating from “spill over” release of cytokines and other
+mediators from the lungs resulting in adverse cardiovascular effects in susceptible individuals.
+Many finding have been consistent with this hypothesis. Exposure to PM10 was associated with
+changes in plasma viscosity (Peters et al., 1997), elevated levels of fibrinogen (Ulrich et al.,
+2002; Gilmour et al., 2005), platelet activation (Nemmar et al., 2003), bone marrow stimulation
+and an increase in circulating neutrophils (PMN) and monocytes (Bai et al., 2013; Brook 2010),
+and PMN adhesion with myeloperoxidase deposition and local oxidative stress in systemic
+venules (Nurkiewicz et al., 2006). While there is ample evidence to demonstrate that PM causes
+inflammation that could spread from the lung to the circulation there is some uncertainty as to
+how closely pulmonary and systemic inflammation are related and under what conditions and to
+what extent systemic inflammation contributes to acute or chronic clinical events observed in
+compromised or healthy individuals exposed to high levels of PM (Bhatnagar et al., 2006).
+While large panel studies show increased plasma fibrinogen and C-reactive protein levels and
+viscosity that correlated with PM exposures, controlled exposure studies have failed to
+demonstrate concurrent changes of pro-inflammatory mediators in lung and blood (Scapellato et
+al., 2007). The converse has also been observed – proinflammatory systemic effects occur in the
+absence of significant pulmonary inflammation (Araujo and Nel, 2009). In the latter case, it is
+possible that “activation of inflammatory molecular pathways could have occurred without
+histological evidence of overt pulmonary inflammation” (Araujo, 2011). Variations in the
+strength and the consistency of the association between PM exposure and systemic inflammation
+likely reflects differences in PM chemistry, duration and intensity of exposures, and differences
+in susceptibility of subject populations (Brook et al., 2010). The potential for systemic
+inflammation in response to inhaled celestial dusts could be expected to be affected by the same
+variables, except that spaceflight crews are uniformly more robustly healthy than the general
+population.
+        Studies of silicosis with animals have regularly found that silica induces pulmonary
+inflammation (Castranova, 2004). These studies have typically utilized instillation or inhalation
+exposures that model acute silicosis (Langley et al., 2011). Therefore, extrapolations from
+findings of studies of human response to airborne PM, and from the vast majority of studies of
+silicosis conducted with animals, may inform expectations of the consequences of acute
+exposures of celestial dust that are sufficient to produce pulmonary inflammation. However, in
+humans, acute silicosis is exceedingly rare and chronic silicosis, which manifests after long term
+exposure to occupational doses, is the greater hazard (Chong et al. 2006). In studies in which rats
+were exposed by inhalation to occupationally relevant doses of silica granulomas developed
+many months after silica inhalation was ended, as in humans (Greenberg et al., 2007), and the
+granulomas resembled human silicotic granulomas in their structure and histopathology (Langley
+et al., 2011). However, the granuloma formation was not associated with significant
+inflammation, cell death or lung injury in early stages but only at late stages (Langley et al. 2004;
+2010). In a toxigenomic study of rats exposed to occupationally relevant doses of silica the
+prototypic proinflammatory cytokines TNFα, IL1β, IL6, and IFNγ did not appear to be
+significantly involved in the granuloma formation (Langley et al., 2011). These finding are
+
+                                                 22	  
+	  
+consistent with those of others who reported that proinflammatory cytokines may not be
+necessary for fibrosis (Giordano et al. 2010; Lo Re et al. 2010). The finding that silicotic
+granulomas in humans cannot be prevented with corticosteroids further raises uncertainly about
+the association of inflammation with that silica-induced endpoint. Therefore, in occupationally
+relevant exposures to toxic silicates, processes other than inflammation likely contribute more
+substantially to the biologically significant endpoints. Such processes may be relevant to chronic
+low levels of exposures to celestial dusts during prolonged periods of habitation on surfaces of
+celestial bodies.
+        Oxidative stress is associated with the development of both acute and chronic silicosis
+(Castranova 2004; Cox et al., 2011; Shi et al. 1998), and oxidative burden has been shown to
+progressively rise even after exposures to silica were ended and the lungs had cleared most of the
+silica (Fubini and Hubbard 2003; Rimal et al. 2005). Systemic oxidative stress could be induced
+by inspired PM if organic chemicals and transition metals are released from the lung to the
+systemic circulation, or cause release of ROS from the lung secondary to pulmonary
+inflammation (Araujo et al., 2008; Mills et al., 2007). PM has also been shown to lead to
+enhanced lipid peroxidation in the lungs resulting in increased levels in the BALF of oxidized
+phospholipids (Kampfrath et al., 2011). PM can increase lipid peroxidation in the plasma,
+resulting in low density lipoprotein particles that are either more oxidized or more susceptible to
+oxidation, and high density lipoproteins with dysfunctional anti-oxidant and anti-inflammatory
+properties (Yin et al., 2013). These effects may occur in parallel with or function as pro-
+atherosclerotic effects (Araujo and Rosenfeld, 2015). Because oxidative stress and inflammatory
+processes are linked, investigating the effect of PM on oxidative stress, per se, in humans, is
+difficult. Only a few studies have directly investigated the occurrence of systemic oxidative
+stress in humans in response to exposure to ambient PM (Brook et al., 2010). Studies of young
+adults conducted in Denmark demonstrated elevations in biomarkers of protein, lipid, or DNA
+oxidation in relation to PM exposure from traffic sources (Brauner et al., 2007; Sorensen et al.,
+2003; Vinzents et al., 2005), and in studies conducted in Taiwan, also performed on young
+adults, increased levels of 8-hydroxy-2-deoxyguanosine adducts in DNA were found after short-
+term elevations in ambient PM (Chaung et al., 2007). Increases in plasma homocysteine, a
+circulating mediator of oxidative stress have been seen after exposure to ambient PM (Baccarelli
+et al., 2007; Park et al., 2008). Systemic oxidative response to elevated air pollutants among
+elderly women in Mexico City was moderated by supplementing diet with antioxidant omega-3
+polyunsaturated fatty acids (Romieu et al., 2008). Systemic oxidative stress is a mechanism by
+which inhaled toxic celestial dusts could affect other organs.
+        A role of the central nervous system in mediating effects of PM10 on the cardiovascular
+system has been identified in numerous studies (Bai et al., 2007). PM can stimulate vagal
+afferents and enhance the sensitivity and reactivity of neural reflexes that can promote local
+and/or systemic inflammation and the release of inflammatory mediators and increase heart rate
+and reduce heart rate variability (Bai et al., 2007). Reduced heart rate variability is associated
+with increased risk for cardiac events (Ghelfi, 2011; Kleiger et al., 1987; Tsuji et al., 1996). A
+review of the literature that implicates the autonomic nervous system in the mediation of
+cardiovascular effects of PM concluded that “the evidence for this link is relatively consistent for
+
+                                                23	  
+	  
+effects upon the heart”, such as decreased heart rate variability but the relevancy to vascular
+effects is less clear (Donaldson et al., 2013). Therefore a potential for inspired celestial dust to
+affect pulmonary afferent nerve fibers, which produce effects at sites beyond the lungs, should be
+included in considerations of the potential toxicity of these dusts.
+         In addition to the adverse effects upon respiratory and cardiovascular systems air
+pollution negatively affects the brain and central nervous system (Costa et al., 2014).
+Epidemiological studies and studies with animals have shown that exposure to air pollution may
+lead to oxidative stress and neuroinflammation, damage to the brain parenchyma and
+vasculature, and disruption of the blood–brain barrier, (Block e al., 2012; Calderon-Garciduenas
+et al., 2008; Costa et al., 2014). Effects upon the CNS, could have secondary health consequence
+if altered CNS functions affect modulation of the pulmonary, cardiovascular and immune
+systems (Block et al., 2012; Perez et al., 2015). The observation that the effects of the PM on the
+CNS are attributable to its metallic components (Block and Calderon-Garciduenas, 2009;
+Calderon-Garciduenas et al., 2013) may be relevant to assessing risks posed by inhalation of
+celestial dusts containing heavy or transitions metals.
+
+       7.     Evidence from Properties of Dusts Associated with Toxicity and
+       Understandings of Mechanisms of Toxicity – Implications for Assessing Potential
+       Toxicity of Celestial Dusts.
+         Much effort has been expended in attempts to determine the relationships between
+various physiochemical characteristics of mineral dusts and other particulates and their toxicities
+in order to elucidate the mechanism(s) that produce their toxic effects. Unfortunately despite
+much effort, a complete understanding of the mechanism remains elusive. Studies have
+examined size, shape, density, charge, crystallinity, chemical composition, and dissolution rate,
+and each of these properties has been shown to affect toxicity (Braakhuis et al., 2014; Brom et
+al., 2011; Fubini et al., 2007). Physical properties such as size, shape, density, and charge
+determine a particle’s deposition and distribution in the pulmonary system; clearance and
+translocation are affected by their size, shape and surface characteristics and ability to induce
+inflammation and oxidative stress is related to surface characteristics (Braakhuis et al., 2014;
+Brom et al., 2011; Fubini et al., 2007) and these conditions lead to adverse biological endpoints
+that can include histopathology, granulomas, fibrosis, and cancer (Braakhuis et al., 2014; Brook
+et al., 2010; Gray et al., 2015; Zhang et al., 2013) in the pulmonary system as well as vascular
+damage in other systems (Burn and Varner, 2015; Scapellato et al., 2007). The importance of
+surface properties in driving processes important to the toxicity of the particle is demonstrated
+convincingly by the repeated observations that “surface modifying agents, such as
+polyvinylpyridine-N-oxide (PVPNO) and aluminum lactate, inhibit most adverse reactions to
+silica in vivo and also decrease the generation of ROS and DNA damage caused by silica”
+(Fubini et al., 2007). Masking reactive surfaces would facilitate clearance of particles and
+decrease effects due to activation of macrophage, and PVPNO also scavenges particle-generated
+hydroxyl radicals (Fubini et al., 2007). However, data from inhalation studies conducted with
+lunar dust having different surface reactivity characteristics indicate little to no difference in all
+measures of toxicity (unpublished data).
+
+                                                 24	  
+	  
+        The importance of surface features to particle toxicity is also illustrated by the finding
+that inhalation of freshly ground quartz, when compared to inhalation of aged quartz, results in a
+significant increase in animal lung injury (Lam et al., 2002a,b; Shoemaker et al., 1995). Freshly
+ground quartz has increased reactive silicon-based oxygen radicals, and animals that are exposed
+to freshly ground quartz have been found to have decreased concentrations of antioxidant
+enzymes (Dalal et al., 1990; Vallyathan et al., 1995). Activated quartz particles decay with age in
+ambient air (Dalal et al., 1990). Quartz dusts containing surface iron as an impurity have been
+shown to deplete cellular glutathione, contributing to the oxidative damage that is caused by
+particle and cell-derived reactive oxygen species (Fenoglio et al., 2003). Castranova et al. (1997)
+suggest that freshly ground quartz dust that is contaminated with trace levels of iron may be
+more pathogenic than quartz dust alone. The enhancement of toxicity in quartz by freshly
+fractured surfaces has been consistently observed in animal and cellular systems (Castranova,
+2004; Ding et al., 1999; Porter et al., 2002; Vallyathan et al., 1991). Fracturing silica cleaves the
+Si-O bonds, leaving Si· and SiO· radicals, which, in turn, produce ·OH radicals in an aqueous
+environment. Aged crystalline silica still produces radicals, but at a much lower level, perhaps by
+the Fenton reaction that occurs between iron and H2O2 that is generated by macrophage
+phagocytosis of the particles (Castranova, 2004).
+         Crystalline silica exposure studies indicate that the generation of oxidants and nitric
+oxide, that play an important role in the initiation of silicosis (Castranova et al., 2002), has been
+shown to cause pulmonary inflammation in rats (Porter et al., 2002). Other studies indicate that
+the mode of action of cytotoxicity and pathogenicity lies in the ability of the mineral to induce
+lipid peroxidation and protein oxidation and DNA damage (Cerevini-Silva et al., 2014;
+Vallyathan, 1994). Respiratory exposure to freshly ground silica causes greater generation of
+ROS from macrophages than exposure to aged silica, which demonstrates that freshly fractured
+silica is more toxic than aged silica (Porter et al., 2002; Vallyathan et al., 1988).
+        Since surface activation, which is produced primarily by grinding, is known to increase
+the toxicity of various mineral dusts, it is essential to ask how quickly surface activation
+disappears once the dust encounters an oxygen and water vapor rich environment. Vallyathan et
+al. (1988) demonstrated a bimodal decay by measuring the rate of disappearance of hydroxyl
+radical formation in an aqueous medium from silicon-based radicals on the surface of ground
+silica, when that ground silica was kept in air until the time of assay. The half-life of the fast
+decay was approximately 30 hours, whereas even after 4 weeks approximately 20% of the
+original activity that was induced by grinding was present on the surface of the quartz. This is
+similar to the ability of the 24-hour half-life in air of freshly fractured quartz to produce ·OH
+radicals (Castranova, 2004). Implicating particle-generated ROS in toxicity requires the
+reconciliation of the relatively brief half-life of this ROS generating reactivity to the lengthy time
+course of the progression of silicosis. The brevity of the time course is inconsistent with a typical
+catalyst that is not consumed in the reaction that it facilitates. Fubini and Hubbard (2003)
+postulate that serial progressions of cellular ingestion cycles, accompanied by a continuous
+recruitment of alveolar macrophages, PMN, and lymphocytes, as the cause of the sustained and
+chronic inflammation elicited by silica. During the sustained inflammation, bronchiolar and
+alveolar epithelial cells are affected by products of oxidatively stressed cells and the particle,
+
+                                                 25	  
+	  
+resulting in activation and/or cell death. Particle-derived ROS may also react with cell-derived
+ROS and RNS yielding new toxic moieties, e.g., peroxynitrite (ONOO-) from nitric oxide (NO)
+and superoxide anion (O2 •-) (Fubini and Hubbard 2003). This postulate is consistent with
+findings that free radicals and ROS play key roles in the induction of oxidative stress that
+contributes substantially to the toxicity of the particle (Borm et al., 2011).
+        It has been recently proposed that an exposure metric that captures the ability of a particle
+to cause oxidative stress may offer advantages over traditional mass concentration measurements
+(Weichenthal et al., 2013). While it has been noted that there is little epidemiological evidence is
+currently available to evaluate the potential benefits of such an approach.” and that the
+conditions of oxidative defenses would need to be taken into account (Weichenthal et al., 2013)
+assessment of the ability of a high fidelity simulant of a celestial dust to induce oxidative stress
+in cells and animals may be a more useful step in assessing its toxicity than projections based
+upon physical features alone. In this regard, however it is important to adhere to the advice
+offered by Donaldson et al. (2009) to be careful in interpretation of in vitro studies. These
+investigators noted that “three different conventional pathogenic particle types, PM10, asbestos
+and quartz, which cause diverse pathological effects, have been reported to cause very similar
+oxidative stress effects in cells in culture” Donaldson et al. (2009). With this admonition in mind,
+oxidative stress remains a common effect of pathogenic particles of various types, which cause
+diverse pathological effects, and in vitro methods may still serve as useful screening tools to
+refine and reduce animal testing.
+
+V      COMPUTER-BASED SIMULATION INFORMATION
+       This section is not applicable to this risk.
+
+VI     RISK IN CONTEXT OF EXPLORATION MISSION OPERATIONAL
+       SCENARIOS
+        Multiple probable scenarios exist in which crew members could be exposed to celestial
+dust during both surface sortie and surface outpost missions. Further, there are opportunities for
+crew members to be directly exposed to celestial dust after they perform EVAs. Post EVA, crew
+members will introduce into the habitat and surface lander the dust that has collected on their
+spacesuits and boots if these items are brought into habitat rather than remaining on a suit port
+exterior to the habitat or vehicle. Cleaning of the suits between EVAs may also directly expose
+crew members to celestial dust. For crew members, changing of ECLSS filters is yet another
+potential route of direct exposure to dusts. These episodic periods of increased dust exposure
+must be taken into account when long-term exposure limits are calculated. As missions become
+longer, the greater dose and/or duration of dust exposure will increase the potential human health
+risk. When a crew returns to microgravity, if dust is introduced into the crew return vehicle, there
+will be an increased opportunity for ocular exposure if particles of dust are floating throughout
+the cabin. EVA activities cause dermal injuries when suits that are based on the current design
+are used, and the introduction of celestial dusts may enhance injuries that will be sustained from
+contact with the EVA suit. In addition, NASA is considering the use of a rover design that will
+allow shirtsleeve operation of the vehicle. Thus, the rover, which must be kept in an interior
+
+
+                                                  26	  
+	  
+space to be entered without a spacesuit, may also bring dust into the habitat, which then may be
+inhaled or ingested if food or water are contaminated.
+        The site at which various sizes of particles are deposited is critical to an understanding of
+any aspect of their toxic action. Normally, for any dust particles between 10 and 1 µm, the
+portion of particles that is deposited in the upper airways falls off from 80% to 20% as size
+decreases, whereas the pulmonary deposition increases from near zero to about 20%. Pulmonary
+deposition, after falling off near 1 µm, peaks again near 40% for particles of 0.03 µm, whereas
+upper airway deposition remains low until a new peak deposition is found at less than 0.01 µm.
+The portion and pattern of deposition can be modified under conditions of reduced gravity. Data
+collected from humans during flights of the gravity research aircraft show that particles in the 0.5
+to 1 µm range are deposited less in the respiratory system at lunar gravity than at Earth gravity.
+This finding is consistent with the reduced sedimentation of the particles when the gravity is less.
+However, a larger portion of the particles is deposited peripherally (in the alveoli) in reduced
+gravity (Darquenne and Prisk, 2008, Darquenne et al., 2014).
+
+VII        GAPS
+   AEH 1 - What are the unique properties of lunar dust that affect physiology? (Closed)
+       Lunar dust particles are unlike terrestrial dusts. Lunar dusts are known to have a high
+surface area and other distinctive shape and chemical characteristics.
+           The following tasks have been completed:
+       •   Lunar Dust - Geology - Geology, Geochemistry and Lithology Science Support
+           Activities
+       •   Lunar Dust - Cell - Study of Lunar Dust and Lunar Simulant Activation, Monitoring,
+           Solution and Cellular Toxicity Properties
+AEH 2 - What is the toxicity of lunar dust in the respiratory system?
+        During the Apollo missions, anecdotal evidence of respiratory effects of lunar dust were
+reported by crewmembers. However, there is no scientifically defensible data with which to
+assess the toxicity of inhaled lunar dusts. The data to be obtained from the studies described
+below are therefore essential to determining risk criteria and establishing a permissible exposure
+limit for airborne lunar dust.
+         Pulmonary toxicity of lunar will be assessed in rodents by intratracheal/intrapharyngeal
+instillation (ITI / IPI) studies and by inhalation studies. In the ITI / IPI studies, groups of rodents
+will be instilled with suspensions of lunar dust and reference dusts (TiO2 and quartz). BALF will
+be assayed for biomarkers of toxicity, and lung tissues will be examined microscopically for
+histopathological lesions. The results of the instillation studies will provide information on the
+toxicity of lunar dust relative to reference dusts whose toxicities are known, and for which
+industrial exposure limits have been established. The ITI / IPI data will also be useful for guiding
+the choice of exposure concentrations for the inhalation study in which markers of toxicity in
+BALF, and histopathology specimens, will be examined.
+
+
+
+                                                  27	  
+	  
+       Epidemiological evidence has established associations between exposure to specific types
+of mineral dusts and particular pulmonary pathologies. A common pathway by which exposure
+to mineral dusts leads to pathology involves inflammation and fibrosis. ROS are important
+mediators of inflammation. Therefore cellular toxicity of activated and passivated lunar dusts
+will be evaluated in studies that examine the ability of the respirable size particles to induce
+formation and release of ROS by cells of the respiratory system and to affect secretion of
+mediators of inflammation, such as interleukins 6 and 8 and Tumor Necrosis Factor Alpha, by
+cultured lung cells. Various assays of cell viability will also be utilized.
+           The following tasks have been completed:
+       •   Lunar Dust D/O - Cellular Studies to Support Pulmonary Toxicology Evaluation of
+           Lunar Dust, Dermal Studies of Lunar Dust and Ocular Studies of Lunar Dust
+       •   Lunar Dust-ITI - Pulmonary Toxicity Studies of Lunar Dust in Mice and Rats
+       •   Lunar Dust - Cell - Study of Lunar Dust and Lunar Simulant Activation, Monitoring,
+           Solution and Cellular Toxicity Properties
+       •   Human Lung Low g - Clearance of Particles Depositing in the Human Lung in Low-
+           Gravity
+   AEH 4 - What is the dermal and ocular toxicity of lunar dust? (Closed)
+        During the Apollo missions crews reported irritation of skin and eyes after exposure to
+lunar dust. However, there are no data with which to establish the dermal and ocular toxicity of
+lunar dusts. The determination of the dermal and ocular hazards of lunar dust is necessary to
+predict and prevent any consequence that could result from insults to the integument or cornea
+originating from contact with lunar dust during mission operations.
+           The following task has been completed:
+       •   Lunar Dust D/O - Cellular Studies to Support Pulmonary Toxicology Evaluation of
+           Lunar Dust, Dermal Studies of Lunar Dust and Ocular Studies of Lunar Dust
+   AEH 5 - What are the permissible exposure limits for inhalation of lunar dust? (Closed)
+        Data collected from AEH Gaps 1and 2 will be analyzed to develop a time-based
+concentration exposure limit for airborne lunar dust. The standard will cover 6-month episodic
+exposures, but may include other time-based exposure limits (acute and chronic) contingent upon
+the availability of data.
+           The following tasks have been completed:
+       •   Lunar Dust D/O - Cellular Studies to Support Pulmonary Toxicology Evaluation of
+           Lunar Dust, Dermal Studies of Lunar Dust and Ocular Studies of Lunar Dust
+       •   Lunar Dust - Geology - Geology, Geochemistry and Lithology Science Support
+           Activities
+       •   LDHS - LADTAG Lunar Dust Health Standard
+
+
+                                                    28	  
+	  
+       •   Lunar Dust-ITI - Pulmonary Toxicity Studies of Lunar Dust in Mice and Rats
+       •   Lunar Dust - Cell - Study of Lunar Dust and Lunar Simulant Activation, Monitoring,
+           Solution and Cellular Toxicity Properties
+       •   Human Lung Low g - Clearance of Particles Depositing in the Human Lung in Low-
+           Gravity
+   AEH 11 - What is the potential for acute or chronic cardiovascular toxicity of lunar dust?
+           This gap has been superseded by the gap DUST 11
+   DUST-11 - What is the potential for acute toxicity of lunar dust (all relevant endpoints), and
+   acute/chronic cardiovascular toxicity of lunar dust?	  	  
+        Extensive research was performed to establish a permissible exposure limit (PEL) for
+average exposure to lunar dust over the course of a 6-month mission. The gap that remains is to
+determine the acceptable short-term excursions that do not violate the average but may cause
+acute toxicity.
+        Specifically, much evidence has been accumulated that demonstrates that the respiratory
+system is not the only system that experiences deleterious effects as a result of inhalation of PM.
+A link between PM in air and cardiovascular morbidity and mortality has been firmly established
+(Pope et al, 2004; Scapellato et al, 2007; Walker and Mouton, 2008). Pope (2008)) reported that
+long-term exposures to PM were most strongly associated with mortality attributable to ischemic
+heart disease, dysrhythmias, heart failure, and cardiac arrest. Oxidative stress initiated in
+response to inhaled particles is thought to lead to inflammation which in turn stimulates release
+from lungs into the circulation of pro-inflammatory mediators that promote systemic
+inflammation that exacerbates or establishes conditions that promote pathology at sites beyond
+the lungs (Seaton et al, 1995). More recently, studies with nanoparticles have indicated that
+effects distal to the lungs may originate locally in response to inhaled PM that has translocated
+from the lungs (Oberdorster et al., 2002, 2004; Nemmar et al., 2004; Borm et al., 2006;
+Mossman et al., 2007; Rothen-Ruthishauser et al., 2007), or by PM affecting respiratory reflexes
+or the autonomic nervous system (Gwin et al., 2006). The observation that inhalation of PM
+produces adverse effects at sites distal to the lungs, and the possibility that some of these effects
+may be caused by translocation of PM, particularly ultrafines, from the lungs, suggests additional
+gaps in the knowledge that we will require to fully assess the risk of adverse health effects posed
+by lunar dust.
+        In the LADTAG final report of February 7, 2014 cardiovascular risks were highlighted as
+an area for further risk assessment/research. This assessment was seconded by a recommendation
+received from the Standing Review Panel that AEH include a new gap to assess the potential for
+acute or chronic cardiovascular toxicity of lunar dust. Gap Dust 11 acknowledges those
+recommendations.
+       In addition, there is evidence to suggest that celestial dusts have potential allergenic
+properties that may be exacerbated by spaceflight. Several recent studies have provided evidence
+of immune dysregulation during spaceflight (Mehta et al., 2007, 2013; Crucian et al., 2008,
+2009, 2011, 2013), which may contribute to an increased potential for acute hypersensitivity
+
+                                                  29	  
+	  
+reactions. Symptoms suggestive of an allergic response, which worsened with each exposure,
+were documented in a flight surgeon, who was exposed to lunar dust during post-mission
+handling of EVA suits (Scheuring et al., 2008).
+           The following task is Planned-Unfunded:
+       •   Acute LD Tox - Acute Lunar Dust Toxicology
+DUST-12: We need to determine if technologies are available or need to be developed to evaluate
+celestial dust toxicity and/or volatile composition in situ.
+         The current toxicology evaluations for spaceflight use traditional technologies to identify
+toxicants associated with the spaceflight environment. In the toxicology field there are emerging
+“organ on a chip” methodologies that may have merit as a tool in addressing materials toxicity
+(e.g., at the location of an asteroid or on the surface of Mars) rather than in returning samples.
+These new technologies will be critical for the evaluation of spaceflight environments
+exploration class missions provided increased technology with decreased time and mass. If
+sample return is possible, these technologies may also be employed as a relative toxicity
+screening tool to help guide the research needed to establish a PEL and possibly reduce the scope
+of animal testing.
+           The following tasks are Planned-Unfunded:
+       •   Robotic Precursor - Robotic Precursor
+       •   Organ on a chip - Organ on a chip (Pilot)
+DUST-13: We need to determine if there are significant differences in respiratory, cardiovascular,
+ocular, or dermal toxicity of dusts from different exploration targets or if existing permissible
+exposure limits can be applied.
+       Previous research and data mining efforts have focused on the development of the Lunar
+Dust Permissible Exposure Limit (PEL). The Lunar Dust PEL is not meant to be broadly
+applicable to dusts/surface materials at other exploration targets. Once these targets are identified
+and exposure conditions are understood, a risk assessment will likely be required to more fully
+assess how inherent toxicity/exposure conditions necessitate a different PEL (if a PEL is
+determined to be necessary for that location).
+           The following tasks are Planned-Funded:
+              •   Dust Data Mining - Dust Data Mining
+              •   Martian Dust TIM - Martian Dust Technical Interchange Meeting (TIM)
+           The following tasks is Planned-Unfunded:
+              •   Celestial Dust Ground - Celestial Dust Ground
+DUST-14 - If relative toxicity is unknown and/or significant differences in toxicity do exist, we need
+to understand the acute and chronic toxicities of the celestial dust and/or volatiles in order to
+establish permissible exposure limit.	  
+
+
+
+
+                                                  30	  
+	  
+        The applicability of the Lunar Dust permissible exposure limits (PEL) will be evaluated
+for each mission scenario. If the lunar dust PEL is not appropriate for the mission then a
+comprehensive risk assessment work (potentially on the scale of Lunar Airborne Dust Toxicity
+Advisory Group - LADTAG) may be warranted if significant potential differences in toxicity
+exist such that a target-specific PEL is necessitated.
+       There are no tasks currently planned for this gap.
+        Addressing these Gaps in our knowledge about features of the dust and its toxicity, will
+allow NASA to establish safe exposure limits to inform the design of habitats and vehicles so
+that exposures of crews to celestial dusts would be limited to safe levels.
+
+VIII CONCLUSION
+        The evidence literature provides substantial basis for concern that prolonged exposure to
+respirable celestial dust could be detrimental to human health. Celestial bodies where a
+substantial portion of the dust is in the respirable range or where the dusts have large reactive
+surface areas or contain transition metals or volatile organics, represent greater risks of adverse
+effects from exposure to the dust. It is possible that in addition to adverse effects to the
+respiratory system, inhalation and ingestion of celestial dusts could pose risks to other systems.
+
+
+
+
+                                                31	  
+	  
+IX     REFERENCES
+
+Abraham JL, Wiesenfeld SL. (1997) Two cases of fatal PMF in an ongoing epidemic of
+accelerated silicosis in oilfield sandblasters: lung pathology and mineralogy. Annal Occup Hyg
+41:440-447
+
+Allen RW, Carlsten C, Karlen B, Leckie S, Eeden SV, Vedal S, Wong I, Brauer M. (2011) An
+air filter intervention study of endothelial function among healthy adults in a woodsmoke-
+impacted community. American J Resp Crit Care Med 183(9):1222-1230
+
+Apopa P, Qian Y, Shao R et al. (2009) Iron oxide nanoparticles induce human microvascular
+endothelial cell permeability through reactive oxygen species production and microtubule
+remodeling Part Fibre Toxicol 6(1):1-14
+
+Araujo J. (2011) Particulate air pollution, systemic oxidative stress, inflammation, and
+atherosclerosis. Air Qual Atmos Health 4:79-93
+
+Araujo JA, Barajas B, Kleinman M, et al. (2008) Ambient particulate pollutants in the ultrafine
+range promote early atherosclerosis and systemic oxidative stress. Circ Res 102(5):589-596
+
+Araujo JA, Nel AE. (2009) Particulate matter and atherosclerosis: role of particle size,
+composition and oxidative stress. Part Fibre Toxicol 6(1):24-42
+
+Araujo, J. A., & Rosenfeld, M. E. (2015). Air Pollution, Lipids and Atherosclerosis. In: Nadadur
+SS, Hollingsworth, JW (eds) Air Pollution and Health Effects. Springer, London, pp. 241-267
+
+Atreya SK, Wong AS, Renno NO, Farrell WM, Delory GT, Sentman DD, Catling DC. (2006)
+Oxidant enhancement in martian dust devils and storms: implications for life and habitability.
+Astrobiol 6(3):439-450
+
+Armstrong NA, Aldrin EA, Collins M. (1969) Apollo 11 Technical Crew Debriefing, NASA
+Johnson Space Center, Houston, TX, pp 81
+
+Ayres JG, Borm P, Cassee FR, et al. (2008) Evaluating the toxicity of airborne particulate matter
+and nanoparticles by measuring oxidative stress potential-a workshop report and consensus
+statement. Inhal Toxicol 20(1):75-99
+
+Baccarelli A, Zanobetti A, Martinelli I, Grillo P, Hou L, Lanzani G, Mannucci PM, Bertazzi PA,
+Schwartz J. (2007) Air pollution, smoking, and plasma homocysteine. Environ Health Perspect
+115:176-181
+
+Bastacky J, Lee CYC, Goerke J, et al. (1995) Alveolar lining layer is thin and continuous: Low-
+temperature scanning electron microscopy of rat lung. J Appl Physiol 79:1615-1628
+
+Batsura YD, Kruglikov GG, Arutyunov VD. (1981) Morphology of experimental
+pneumoconiosis following inhalation of lunar soil. Bull Exp Biol Med 92(3):1294-1297
+
+                                                32	  
+	  
+Baxter PJ, Ing R, Falk H, French J, Stein GF, Bernstein RS, Merchant JA, Allard J. (1981)
+Mount St Helens eruptions, May 18 to June 12, 1980. An overview of the acute health impact. J
+Am Med Assoc 246:2585-2589
+
+Baxter PJ, Bonadonna C, Dupree R, Hards VL, Kohn SC, Murphy MD, Nichols A, Nicholson
+RA, Norton G, Searl A, Sparks RSJ, Vickers BP. (1999) Cristobalite in volcanic ash of the
+Soufriere Hills Volcano, Montserrat, British West Indies. Science 283:1142-1145
+
+Beck BD, Brain JD, Bohannon DE. (1981) The pulmonary toxicity of an ash sample from the
+Mt. St. Helens Volcano. Exp Lung Res 2:289-301
+
+Bermudez E, Mangum JB, Wong BA, Asgharian B, Hext PM, Warheit DB, Everitt JI. (2004)
+Pulmonary responses of mice, rats, and hamsters to subchronic inhalation of ultrafine titanium
+dioxide particles. Toxicol Sci 77(2):347-357
+
+Bernstein RS, Baxter PJ, Falk H, Ing R, Foster L, Frost F. (1986) Immediate public health
+concerns and actions in volcanic eruptions: lessons from the Mount St. Helens eruptions. Am J
+Publ Health 76:25-37
+
+Bhatnagar A. (2006) Environmental cardiology studying mechanistic links between pollution
+and heart disease. Circ Res 99(7):692-705
+
+Block ML, Calderon-Garciduenas L. Air pollution: mechanisms of neuroinflammation and CNS
+disease. Trends Neurosci 32:506-16
+
+Borm PJ, Tran L, Donaldson K. (2011) The carcinogenic action of crystalline silica: a review of
+the evidence supporting secondary inflammation-driven genotoxicity as a principal mechanism.
+Crit Rev Toxicol 41(9):756-770
+
+Braakhuis HM, Par, MV, Gosens I, De Jong WH, Cassee FR. (2014) Physicochemical
+characteristics of nanomaterials that affect pulmonary inflammation. Part Fibre Toxicol
+11(18):1-25
+
+Brauner EV, Forchhammer L, Møller P, Simonsen J, Glasius M, Wåhlin P, Raaschou-Nielsen O,
+Loft S. (2007) Exposure to ultrafine particles from ambient air and oxidative stress-induced
+DNA damage. Environ Health Perspect 115:1177-1182
+
+Burn BR, Varner KJ. (2015) Environmentally persistent free radicals (EPFRs) compromise left
+ventricular function during ischemia/reperfusion injury. Am J Physiol - Heart Circ Physiol
+ajpheart-00891. http://ajpheart.physiology.org/content/early/2015/02/09/ajpheart.00891.2014
+
+Calderon-Garciduenas L, Solt AC, Henriquez-Roldan C, Torres-Jardon R, Nuse B, Herritt L et
+al. (2008) Long-term air pollution exposure is associated with neuroinflammation, an altered
+innate immune response, disruption of the blood-brain barrier, ultrafine particulate deposition,
+
+
+                                                33	  
+	  
+and accumulation of amyloid beta-42 and alpha-synuclein in children and young adults. Toxicol
+Pathol 36: 289-310
+
+Calderon-Garciduenas L, Serrano-Sierra A, Torres-Jardón R, et al. (2013) The impact of
+environmental metals in young urbanites’ brains. Exp Toxicol Pathol 65(5):503-511
+
+Calvert GM, Rice FL, Boiano JM, Sheehy JW, Sanderson WT. (2003) Occupational silica
+exposure and risk of various diseases: an analysis using death certificates from 27 states of the
+United States. Occup Environ Med 60(2):122-129
+
+Carlsen HK, Hauksdottir A, Valdimarsdottir UA, et al. (2012) Health effects following the
+Eyjafjallajökull volcanic eruption: a cohort study. BMJ Open 2:e001851; doi:10.1136/ bmjopen-
+2012-001851
+
+Cassee FR. (2007) Foreword. In: Donaldson K, Borm P, eds. Particle Toxicology. Boca Raton,
+FL: CRC Press Taylor and Francis Group
+
+Castranova V. (2000) From coal mine dust to quartz: mechanisms of pulmonary pathogenicity.
+Inhal Toxicol 3:7-14
+
+Castranova V. (2004) Signaling pathways controlling the production of inflammatory mediators
+in response to crystalline silica exposure: Role of reactive oxygen/nitrogen species. Free Radic
+Biol Med 37:916-925
+
+Castranova V, Pailes WH, Dalal ND, et al. (1996) Enhanced pulmonary response to the
+inhalation of freshly fractured silica as compared with aged dust exposure. Appl Occup Environ
+Hyg 11(7):937-941
+
+Castranova V, Porter D, Millecchia L, Ma JY, Hubbs AF, Teass A. (2002) Effect of inhaled
+crystalline silica in a rat model: time course of pulmonary reactions. Mol Cell Biochem
+234(1):177-184
+
+Castranova V, Vallyathan V, Ramsey DM, McLaurin JL, Pack D, Leonard S, Barger MW,
+Ma JY, Dulal NS, Teass A. (1997) Augmentation of pulmonary reactions to quartz inhalation by
+trace amounts of iron containing particles. Environ Health Perspect 105:1319-1324
+
+Cernan AE, Schmitt HH, Evans RE. (1973) Apollo 17 Technical Crew Debriefing, NASA
+Johnson Space Center, Houston, TX, pp 10-2; 10-6; 10-14; 13-1; 19-11; 27-28; 27-29; 27-47
+
+Cervini-Silva, J, Gomez-Vidales V, Ramirez-Apan MT, Palacios E, Montoya A, Kaufhold S,
+Abidin Z, Theng BK (2014) Lipid peroxidation and cytotoxicity induced by respirable volcanic
+ash. J Hazard Matl 274:237-246
+
+Chen W, Liu Y, Wang H, et al. (2012) Long-term exposure to silica dust and risk of total and
+cause-specific mortality in Chinese workers: a cohort study. PLoS Med 9(4):e1001206
+
+                                                34	  
+	  
+Cherniack, M. (1986) The Hawk’s Nest incident: America’s worst industrial disaster. Yale
+University Press, New Haven, Conn.
+
+Choi HS, Ashitate Y, Lee JH, et al. (2010) Rapid translocation of nanoparticles from the lung
+airspaces to the body. Nat Biotechnol 28:1300-1303
+
+Chuang KJ, Chan CC, Su TC, Lee CT, Tang CS. (2007) The effect of urban air pollution on
+inflammation, oxidative stress, coagulation, and autonomic dysfunction in young adults. Am J
+Respir Crit Care Med 176:370-376
+
+Cohignac V, Landry MJ, Boczkowski J, Lanone, S. (2014) Autophagy as a possible underlying
+mechanism of nanomaterial toxicity. Nanomaterials 4(3):548-582
+
+Chong S, Lee KS, Chung MJ, Han J, Kwon OJ, Kim TS. (2006). Pneumoconiosis: comparison of
+imaging and pathologic findings. Radiographics 2006:26:59-77
+
+Collier MR, Farrell WM, Stubbs TJ. (2013) The lunar dust pendulum. Adv Space Res 52(2):251-
+261
+
+Conrad C, Gordon Jr RF, Bean AL. (1969) Apollo 12 Technical Crew Debriefing, NASA
+Johnson Space Center, Houston, TX, pp 10-27; 12-25; 13-8; 13-7
+
+Cooper BL, McKay DS, Riofrio LM, Taylor LA, Gonzalez CP (2010). Sub-10-micron and
+respirable particles in lunar soils. 41st Lunar and Planetary Science Conference, March 1-5,
+2010, The Woodlands, TX
+
+Colwell JE, Batiste S, Horányi, M, Robertson S, Sture S. (2007). Lunar surface: Dust dynamics
+and regolith mechanics. Rev Geophys, 45 45, RG2006, doi:10.1029/2005RG000184
+
+Costa LG, ColeTB, Coburn J, Chang YC, Dao, K, Roque P. (2014) Neurotoxicants are in the air:
+convergence of human, animal, and in vitro studies on the effects of air pollution on the brain.
+BioMed Res Int http://dx.doi.org/10.1155/2014/736385
+
+Cox LAT Jr. (2011) An Exposure-­‐Response Threshold for Lung Diseases and Lung Cancer
+Caused by Crystalline Silica. Risk Analysis 31(10):1543-1560
+
+Dalal NS, Shi XL, Vallyathan V. (1990) ESR spin trapping and cytotoxicity investigations of
+freshly fractured quartz: mechanism of acute silicosis. Free Radic Res Comm 9:259-266
+
+Darquenne C, Borja MG, Oakes JM, Breen EC, Olfert IM, Scadeng M, Prisk GK. (2014)
+Increase in relative deposition of fine particles in the rat lung periphery in the absence of gravity.
+J Appl Physiol 117(8):880-886
+
+Darquenne C, Prisk GK. (2008) Deposition of inhaled particles in the human lung is more
+peripheral in lunar gravity than in normal gravity. Eur J Appl Physiol 103:687-695
+
+
+                                                  35	  
+	  
+Davila AF, Willson D, Coates JD, McKay CP. (2013) Perchlorate on Mars: a chemical hazard
+and a resource for humans. Int J Astrobiology 12(04):321-325
+
+Delbo M, Libourel G, Wilkerson J, Murdoch N, Michel P, Ramesh KT, Ganino C, Verati C,
+Marchi, S. (2014) Thermal fatigue as the origin of regolith on small asteroids. Nature,
+508(7495):233-236
+
+Derbyshire E. (2001) Geological hazards in loess terrain, with particular reference to the loess
+regions of China. Earth Sci Rev 54(2001):231-260
+
+Derbyshire, E. (2007) Natural minerogenic dust and human health. AMBIO 36(1):73-77
+
+Derbyshire E, Horwell CJ, Jones TP, Tetley TD. (2012) Airborne particles. In: Plant JA,
+Voulvoulis N, Ragnarsdottir KV (eds) Pollutants, Human Health and the Environment: A Risk-
+Based Approach, 1st edn. Wiley, New York, pp 255-286
+
+Dietz A, Ramroth H, Urban T, Ahrens W, Becher H. (2004) Exposure to cement dust, related
+occupational groups and laryngeal cancer risk: Results of a population based case-­‐control study.
+Int J Cancer 108(6):907-911
+
+Ding M, Shi X, Dong Z, Chen F, Lu Y, Castranova V, Vallyathan V. (1999) Freshly fractured
+crystalline silica induces activator protein-1 activation through ERKs and p38 MAPK. J Biol
+Chem 274(43):30611-30616
+
+Dodson RF, Shepherd S, Levin J, Hammar SP. (2007) Characteristics of the asbestos
+concentration in the lung as compared to asbestos concentration in various levels of lymph nodes
+that collect drainage from the lung. Ultrastruct Pathol 31:95-133
+
+Donaldson K, Borm P. (1998) The quartz hazard: a variable entity. Ann Occup Hyg 42(5):287-
+294
+
+Donaldson K, Duffin R, Langrish JP et al. (2013) Nanoparticles and the cardiovascular system: a
+critical review. Nanomed 8(3):403-423
+
+Donaldson K, Poland CA. (2013) Nanotoxicity: challenging the myth of nano-specific toxicity.
+Curr Opin Biotech, 24(4):724-734
+
+Donaldson K, Stone V, Duffin R, Clouter A, Schins R, Borm P. (2001) The quartz hazard:
+effects of surface and matrix on inflammogenic activity. J Environ Pathol Toxicol Oncol. 20
+Suppl 1:109-118
+
+Downs, R. T. (2015). Determining Mineralogy on Mars with the CheMin X-Ray Diffractometer.
+Elements, 11(1), 45-50.
+
+
+
+
+                                                36	  
+	  
+Driscoll KE, Costa DL, Hatch G, Henderson R, Oberdorster G, Salem H, Schlesinger RB. (2000)
+Intratracheal instillation as an exposure technique for the evaluation of respiratory tract toxicity:
+uses and limitations. Toxicol Sci 55(1):24-35
+
+Driscoll K, Guthrie G. (1997) Crystalline silica and silicosis. In: Comprehensive Toxicology,
+Vol. 8. Toxicology of the Respiratory System. Sipes I, McQueen C, Gandolfi A, Roth R (Eds.).
+Elsevier Science Inc, N.Y., pp 373-391
+
+Elder A, Gelein R, Silva et al. (2006) Translocation of inhaled ultrafine manganese oxide
+particles to the central nervous system. Environ Health Perspect 114:1172-1178
+
+Erren TC, Glende CB, Morfeld P, Piekarski C. (2009) Is exposure to silica associated with lung
+cancer in the absence of silicosis? A meta-analytical approach to an important public health
+question. Int Arch Occup Environ Health 82:997-1004
+
+Fenoglio I, Fonsato S, Fubini B. (2003) Reaction of cysteine and glutathione (GSH) at the
+freshly fractured quartz surface: a possible role in silica-related diseases. Free Radic Biol Med
+35(7):752-762
+
+Fenoglio I, Martra G, Prandi L, Tomatis M, Coluccia S, Fubini B. (2000) The role of
+mechanochemistry in the pulmonary toxicity caused by particulate minerals. J Material Syn Proc
+8(3/4):145-153
+
+Forbes L, Jarvis D, Pots J, Baxter P. (2003) Volcanic ash and respiratory symptoms in children
+on the island of Montserrat, British West Indies. Occup Environ Med 60:207-211
+
+Fortunato L, Rushton L. (2015) Stomach cancer and occupational exposure to asbestos: a meta-
+analysis of occupational cohort studies. Brit J Cancer doi:10.1038/bjc.2014.599
+
+Fubini B. (1998) Surface chemistry and quartz hazard. Ann Occup Hyg 42(8):521-530
+
+Fubini B. (2002) V. Chemical reactivity of the quartz surface in relation to its toxicity and
+genotoxicity. In Schneider WD. 2002 Quarz. Einstufung, Dosis-Wirkungs-Beziehungen.
+Workshop vom 07./08. März 2002 in Berlin. Dortmund/Berlin/Dresden
+http://www.baua.de/cae/servlet/contentblob/697144/publicationFile/46888/
+
+Garcia RF, Murdoch N, Mimoun D. (2015) Micro-meteoroid seismic uplift and regolith
+concentration on kilometric scale asteroids. Icarus 253:159-168
+
+García-Pérez J, López-Abente G.,Castelló A, González-Sánchez M, Fernández-Navarro, P.
+(2015) Cancer mortality in towns in the vicinity of installations for the production of cement,
+lime, plaster, and magnesium oxide. Chemosphere 128:103-110
+
+
+
+
+                                                 37	  
+	  
+Gasser M, Riediker M, Mueller L, Perrenoud A, Blank F, Gehr, P, Rothen-Rutishauser B. (2009)
+Toxic effects of brake wear particles on epithelial lung cells in vitro. Part Fibre Toxicol 6(30):1-
+13
+
+Geiser M, Kreyling WG. (2010) Deposition and biokinetics of inhaled nanoparticles. Part Fibre
+Toxicol, 7(2):1-17
+
+Ghelfi E. (2011) Air pollution, reactive oxygen species (ROS), and autonomic nervous system
+interactions modulate cardiac oxidative stress and electrophysiological changes. INTECH Open
+Access Publisher.
+
+Ghiazza M, Polimeni M, Fenoglio I, Gazzano E, Ghigo D, Fubini B. (2010). Does vitreous silica
+contradict the toxicity of the crystalline silica paradigm? Chem Res Toxicol 23:6.
+
+Gilmour PS, Morrison ER, Vickers MA, Ford I, Ludlam CA, Greaves M, Donaldson K, MacNee
+W (2005) The procoagulant potential of environmental particles (PM10). Occup Environ Med
+62:164 -171
+
+Glotch TD, Lucey PG, Bandfield JL, et al. (2010) Highly silicic compositions of the moon.
+Science 329:1510-153
+
+Gray DL, Wallace LA, Brinkman MC, Buehler SS, La Londe C. (2015) Respiratory and
+Cardiovascular Effects of Metals in Ambient Particulate Matter: A Critical Review. In: Whitacre,
+DR (ed) Reviews of environmental contamination and toxicology, Springer International
+Publishing, Cham, Heidelberg, New York, Dordrecht, London, pp. 135-203
+
+Greenhagen BT, Lucey PG, Wyatt MB et al. (2010) Global silicate mineralogy of the Moon
+from the Diviner Lunar Radiometer. Science 329(5998):1507-1509
+
+Gutherie Jr GD. (1997) Mineral properties and their contributions to particle toxicity. Environ
+Health Perspect 105 (Suppl5):1003-1011
+
+Gwinn MR, Vallyathan V. (2006) Nanoparticles: health effects: pros and cons. Environ Health
+Perspect 114:1818-1825
+
+Holland JW, Simmonds RC. (1973) The mammalian response to lunar particulates. Space Life
+Sci 4:97-109
+
+Horwell CJ. (2007) Grain-size analysis of volcanic ash for the rapid assessment of respiratory
+health hazard. J Environ Monit 9:1107-1115
+
+Horwell, CJ, Baxter PJ, Hillman SE, et al. (2013) Physicochemical and toxicological profiling of
+ash from the 2010 and 2011 eruptions of Eyjafjallajökull and Grímsvötn volcanoes, Iceland
+using a rapid respiratory hazard assessment protocol. Environ Res 127:63-73
+
+
+
+                                                 38	  
+	  
+Horwell CJ, Damby DE, Hillier S. (2015) Respirable volcanic ash is distinct mineralogically,
+physicochemically and toxicologically from soils originating from weathered volcanic products.
+A comment on Cervini-Silva et al. (2014)" Lipid peroxidation and cytotoxicity induced by
+respirable volcanic ash" J Hazard Matl 285:366-377
+
+Ichinose T, Yoshida S, Sadakane K, et al. (2008) Effects of Asian sand dust, Arizona sand dust,
+amorphous silica, and aluminum oxide on allergic inflammation in the murine lung. Inhal
+Toxicol 20:685-694
+
+International Agency for Research on Cancer. (1997) IARC Monographs on the Evaluation of
+Carcinogenic Risks to Humans, Vol. 68, Silica, some silicates, coal dust and para-aramid fibrils.
+Lyon: International Agency for Research on Cancer.
+
+James JT, Lam C-W, Santana P, Scully RR. (2013) Estimate of safe human exposure levels for
+lunar dust based on comparative benchmark dose modeling. Inhal. Toxicol. 25:243-256
+
+Jaumann R, Hiesinger H, Anand M, et al. (2012). Geology, geochemistry, and geophysics of the
+Moon: Status of current understanding. Planet Space Sci 74(1):15-41
+
+Jones K, Morton J, Smith I, Jurkschat K, Harding AH, Evans G. (2015) Human in vivo and in
+vitro studies on gastrointestinal absorption of titanium dioxide nanoparticles. Tox Lett 233(2):95-
+101
+
+Jones L, Jacques S, Tranfield S, Rask J, Kerschmann, R, Loftus D, Taylor L. (2009) NASA
+Human Research Program Investigators' Workshop, Feb 2-4, League City, TX
+
+Jones T, BéruBé K. (2007) Chapter 2. Mineralogy and structure of pathogenic particles. In:
+Donaldson K, Borm P, eds. Particle Toxicology. CRC Press Taylor and Francis Group, Boca
+Raton, FL pp 13-45
+
+Kajiwara T, Ogami A, Yamato H, Oyabu T, Morimoto Y, Tanaka I. (2007). Effect of particle
+size of intratrachaeally instilled crystalline silica on pulmonary inflammation. J Occup Health
+49:88-94
+
+Kampfrath T, Maiseyeu A, Ying Z, et al. (2011) Chronic fine particulate matter exposure induces
+systemic vascular dysfunction via NADPH oxidase and TLR4 pathways. Circ Res 108(6):716-
+726
+
+Kendall M, Brown L, Trought K. (2004) Molecular adsorption at particle surfaces: A PM
+toxicity mediation mechanism. Inhal Toxicol 16(Suppl.1):99-105
+
+Khan-Mayberry NN (2008). The lunar environment: Determining the health effects of exposure
+to moon dusts. Acta Astronaut 63 (7-10):1006-1014
+
+
+
+
+                                                39	  
+	  
+Kleiger RE, Miller JP, Bigger JT Jr., Moss AJ. (1987) Decreased heart rate variability and its
+association with increased mortality after acute myocardial infarction. Am J Cardiol 59, 256-262
+
+Kuempel ED, Smith RJ, Dankovic DA, Stayner LT. (2009) Rat-and human-based risk estimates
+of lung cancer from occupational exposure to poorly-soluble particles: a quantitative evaluation.
+J Physics: Conf Series 151 (1):012011. doi:10.1088/1742-6596/151/1/012011
+
+Kreyling WG, Scheuch G. (2000) Chapter 7: Clearance of Particles Deposited in the Lungs. In:
+Gehr P, Heyder J, (eds) Particle-Lung Interactions, Marcel Dekker, Inc., New York -Basel, pp
+323-376
+
+Kreyling WG, Semmler-Behnke M, Möller W. (2006) Ultrafine particle-lung interactions: does
+size matter? J Aerosol Med 19(1):74-83
+
+Kustov VV, Ostapvenko OF, Petrukhin VG. (1974) [Research on the biological effect of a fine
+fraction of lunar soil sent to Earth by the unmanned station Luna-16]. In: [Lunar Soil from the
+Sea of Fertility]. Moscow: M. Nauka, 592
+
+Kustov VV, Belkin VI, Kruglikov GG. (1989) [Biological effects of lunar soil]. [Problems in
+Space Biology] 61:1-146
+
+Lam CW, James JT, McCluskey R, Cowper S, Balis J, Muro-Cacho C. (2002a) Pulmonary
+toxicity of simulated lunar and Martian dusts in mice: I. Histopathology 7 and 90 days after
+intratracheal instillation. Inhal Toxicol, 14:901-916
+
+Lam CW, James JT, Latch JN, Hamilton RF Jr, Holian, A. (2002b). Pulmonary toxicity of
+simulated lunar and Martian dusts in mice: II. Biomarkers of acute responses after intratracheal
+instillation. Inhal Toxicol 14(9):917-928
+
+Lam CW, Scully RR, Zhang Y, et al. (2013). Toxicity of lunar dust assessed in inhalation-
+exposed rats. Inhalation Toxicol 25:661-678
+
+Langley RJ, Kalra R, Mishra NC, Hahn FF, Razani-Boroujerdi S, Singh SP, Benson JM, Pena-
+
+Philippides JC, Barr EB, Sopori ML. (2004) A biphasic response to silica: I. Immunostimulation
+is restricted to the early stage of silicosis in Lewis rats. Am J Respir Cell Mol Biol 30:823-829
+
+Langley RJ, Mishra NC, Pena-Philippides JC, Hutt JA, Sopori ML. (2010) Granuloma formation
+induced by low-dose chronic silica inhalation is associated with an anti-apoptotic response in
+Lewis rats. J Toxicol Environ Health A. 73:669-683
+
+Langley RJ, Mishra NC, Peña-Philippides JC, Rice BJ, Seagrave JC, Singh SP, Sopori ML.
+(2011) Fibrogenic and redox-related but not proinflammatory genes are upregulated in Lewis rat
+model of chronic silicosis. J Toxicol Environ Health A 74(19):1261-1279
+
+
+
+                                               40	  
+	  
+Latch JN, Hamilton Jr RF, Holian A, Lam C, James JT. (2008) Toxicity of lunar and Martian
+dusts simulants to alveolar macrophages isolated from human volunteers. Inhal Toxicol 20:1-9
+
+Lippmann M, Yeates, DB, Albert RE. (1980). Deposition, retention, and clearance of inhaled
+particles. Br J Indust Med 37(4):337-362
+
+Liu Y, Park J, Schnare D, Hill E, Taylor LA. (2008) Characterization of lunar dust for
+toxicological studies. II: Texture and shape characteristics. J Aerosp Eng 21(4):272-279
+
+Liu Y, Taylor LA. (2011) Characterization of lunar dust and a synopsis of available lunar
+simulants. Planet Space Sci 59(14):1769-1783
+
+López-Villarrubia E, Ballester F, Iñiguez C, Peral N. (2010) Air pollution and mortality in the
+Canary Islands: a time-series analysis. Environ Health 9(8):1-11
+
+Lo Re S, Dumoutier L, Couillin I, et al. (2010) IL-17A-producing γδ T and Th17 lymphocytes
+mediate lung inflammation but not fibrosis in experimental silicosis. J Immunol 184:6367-6377
+
+MacNicoll A, Kelly M, Aksoy H, Kramer E, Bouwmeester H, Chaudhry Q. (2015). A study of
+the uptake and biodistribution of nano-titanium dioxide using in vitro and in vivo models of oral
+intake. J Nanopart Res 17(2):1-20
+
+Mallone S, Stafoggia M, Faustini A, Paolo Gobbi G, Marconi A, Forastiere F. (2011) Saharan
+dust and associations between particulate matter and daily mortality in Rome, Italy. Environ Hlth
+Perspect 119(10):1409-1414
+
+Martin TR, Ayars G, Butler J, Altman LC. (1984) The comparative toxicity of volcanic ash and
+quartz. Effects on cells derived from the human lung. Am Rev Respir Dis 130(5):778-78
+
+Martin TR, Wehner AP, Butler J. (1986) Evaluation of physical health effects due to volcanic
+hazards: the use of experimental systems to estimate the pulmonary toxicity of volcanic ash. Am
+J Publ Health 76:59-65
+
+Matsumoto T, Tsuchiyama A, Miyake A, et al. (2014) Surface Micromorphologies of Regolith
+Particles from Asteroid Itokawa and Its Implication to Space Weathering. LPI Contributions,
+1800, 5130.
+
+Mauderly JL. (1997) Relevance of particle-induced rat lung tumors for assessing lung
+carcinogenic hazard and human lung cancer risk. Environmental Health Perspectives, 105(Suppl
+5):1337-1346
+
+Maynard RL. (2015) The effects on health of ambient particles: time for an agonizing
+reappraisal? Cell Biol Toxicol DOI 10.1007/s10565-015-9296-7
+
+
+
+
+                                                41	  
+	  
+McGlynn IO, Fedo CM, McSween HY. (2011) Origin of basaltic soils at Gusev crater, Mars, by
+aeolian modification of impact-­‐generated sediment. J Geophys Res116:E00F22,
+doi:10.1029/2010JE003712.
+
+McKay DS, Cooper BL, Taylor LA, James JT, Thomas-Keprta K, Pieters C M, Wentworth SJ,
+Wallace WT, Lee, T. S. (2015). Physicochemical properties of respirable-size lunar dust. Acta
+Astro 107:163-176
+
+Meyer C. (2011) Lunar soil compendium. Available at:
+http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20090041867.pdf
+
+Meyers VE, Garcia HD, Monds K, Cooper BL, James JT. Ocular toxicity of authentic lunar dust.
+BMC Ophthalmol 12:26-33
+
+Miller MR, Borthwick SJ, Shaw CA, et al. (2009) Direct impairment of vascular function by
+diesel exhaust particulate through reduced bioavailability of endothelium-derived nitric oxide
+induced by superoxide free radicals. Environ Health Perspect 117(4):611-6
+
+Miller MR, Shaw CA, Langrish JP. (2012) From particles to patients: oxidative stress and the
+cardiovascular effects of air pollution. Future Cardiol 8(4):577-602
+
+Mills NL, Törnqvist H, Robinson SD, Gonzalez MC, Söderberg S, Sandström T, Blomberg A,
+Newby DE, Donaldson, K. (2007) Air pollution and atherothrombosis. Inhal Toxicol, 19(S1):81-
+89
+
+Monick MM, Baltrusaitis J, Powers LS, et al. (2013) Effects of Eyjafjallajokull volcanic ash on
+innate immune system responses and bacterial growth in vitro. Environ Hlth Perspect (6):691-
+698
+
+Morman SA, Plumlee GS. (2013) The role of airborne mineral dusts in human disease. Aeolian
+Res 9:203-212
+
+Morris RV, Klingelhofer G, Schroder C, et al. (2006). Mineralogy of rock, soil, and dust at
+Meridiani Planum, Mars: opportunity’s journey across sulfate-rich outcrop, basaltic sand dust,
+and hematite lag deposits. J Geophy Res 111:E12S15, doi:10.1029/2006JE002791
+
+Morrow PE. (1988). Possible mechanisms to explain dust overloading of the lungs. Fundam
+Appl Toxicol 10(3):369-84
+
+Murdoch N, Sanchez P, Schwartz SR, Miyamoto H. (2015) Asteroid Surface Geophysics. arXiv
+preprint arXiv:1503.01931
+
+Nania, J, Bruya TE. (1982) In the wake of Mount St. Helens. Ann Emerg Med 11:184-191
+
+Nathan CF. (1987) Neutrophil activation on biological surfaces. Massive secretion of hydrogen
+peroxide in response to products of macrophages and lymphocytes. J Clin Invest 80:1550-1560
+                                               42	  
+	  
+National Aeronautics and Space Administration (2011) Voyages Charting the Course for
+Sustainable Human Space Exploration. NP-2011-06-395-LaRC. Accessed 11-March-2015 at
+http://www.nasa.gov/sites/default/files/files/ExplorationReport_508_6-4-12.pdf
+
+National Aeronautics and Space Administration (2015) Human Research Roadmap. Accessed
+28-April-2015 at http://humanresearchroadmap.nasa.gov/Gaps/gap.aspx?i=295
+
+National Research Council (NRC). (1998) Research Priorities for Airborne Particulate Matter,
+Vol. I. National Academy Press, Washington, D.C.
+
+Napierska D, Thomassen LCJ, Lison D, Martens JA, Hoet PH. (2010) The nanosilica hazard:
+another variable entity. Particle Fibre Toxicol 7:39
+
+Nel A, Xia T, Mädler L, Li N. (2006) Toxic potential of materials at the nanolevel. Science
+311:622-627
+
+Nemmar A, Hoylaerts MF, Hoet PH, Nemery B (2004) Possible mechanisms of the
+cardiovascular effects of inhaled particles: systemic translocation and prothrombotic effects.
+Toxicology letters 149(1) 243-253
+
+National Research Council. (2004) Research Priorities for Airborne Particulate matter, Vol. IV.
+National Academy Press, Washington, D.C.
+
+Nurkiewicz TR, Porter DW, Barger M, et al. (2006) Systemic microvascular dysfunction and
+inflammation after pulmonary particulate matter exposure. Environ Hlth Perspect 114:412-419
+
+Oberdorster G, Morrow PE, Spurny K. (1988) Size dependent lymphatic short-term clearance of
+amosite fibers in the lung. Ann Occup Hyg 32(suppl. 1):149-156
+
+Oberdorster G, Oberdorster E, Oberdorster J. (2005) Nanotoxicology: An emerging discipline
+evolving from studies of ultrafine particles. Environ Health Perspect 113:823-839
+
+Oberdörster G, Sharp Z, Atudrei V, et al. (2002) Extrapulmonary translocation of ultrafine
+carbon particles following whole-body inhalation exposure of rats. J Toxicol Environ Health A
+65:1531-1543
+
+Oberdörster G, Sharp Z, Atudrei V, et al. (2004) Translocation of inhaled ultrafine particles to
+the brain. Inhal Toxicol 16:437-445
+
+Occupational Safety & Health Administration. Permissible exposure limits available at
+https://www.osha.gov/dsg/annotated-pels/tablez-1.html Accessed 12 March 2015
+
+Ogunbileje JO., Sadagoparamanujam VM, Anetor JI, Farombi EO, Akinosun OM, Okorodudu
+AO. (2013) Lead, mercury, cadmium, chromium, nickel, copper, zinc, calcium, iron, manganese
+
+                                                43	  
+	  
+and chromium (VI) levels in Nigeria and United States of America cement dust. Chemosphere,
+90(11):2743-2749
+
+Olenchock SA, Mull JC, Mentnech MS, Lewis DM, Bernstein RS. (1983) Changes in humoral
+immunologic parameters after exposure to volcanic ash. J Toxicol Environ Health 11:395-404
+
+Ovrevik J, Myran T, Refsnes M, Låg, M, Becher R, Hetland RB, Schwarze PE. (2005) Mineral
+particles of varying composition induce differential chemokine release from epithelial lung cells:
+importance of physico-chemical characteristics. Ann Occup Hyg, 49(3), 219-231
+
+Park J, Liu Y, Kihm KD, Taylor LA. (2008) Characterization of lunar dust for toxicological
+studies. I: Particle size distribution. J Aerosp Eng 21(4):266-271
+
+Park SK, O’Neill MS, Vokonas PS, Sparrow D, Spiro A 3rd, Tucker KL, Suh H, Hu H, Schwartz
+J. (2008) Traffic-related particles are associated with elevated homocysteine: the VA normative
+aging study. Am J Respir Crit Care Med 178:283-289
+
+Pauluhn J. (2011) Poorly soluble particulates: searching for a unifying denominator of
+nanoparticles and fine particles for DNEL estimation. Toxicology 279(1):176-188
+
+Pauluhn J. (2012) Subchronic inhalation toxicity of iron oxide (magnetite, Fe3O4) in rats:
+pulmonary toxicity is determined by the particle kinetics typical of poorly soluble particles. J
+Appl Toxicol 32(7):488-504
+
+Pelucchi C, Pira E, Piolatto G, Coggiola M, Carta P, La Vecchia C. (2006). Occupational silica
+exposure and lung cancer risk: a review of epidemiological studies 1996-2005. Annal Oncol
+17(7):1039-1050
+
+Perez CM, Hazari MS, Farraj AK. (2015) Role of autonomic reflex arcs in cardiovascular
+responses to air pollution exposure. Cardiovasc Toxicol 15:69-78
+
+Pieters CM. (1986) Composition of the lunar highland crust from near-infrared spectroscopy.
+Rev Geophys 24(3):557-578
+
+Pieters CM, Ammannito E, Blewett DT, et al. (2012) Distinctive space weathering on Vesta from
+regolith mixing processes. Nature 491:79-82
+
+Porter DW, Barger M, Robinson VA, Leonard SS, Landsittel D, Castranova V. (2002)
+Comparison of low doses of aged and freshly fractured silica on pulmonary inflammation and
+damage in the rat. Toxicol 175:63-71
+
+Pope CA, Burnett RT, Thurston GD, Thun MJ, Calle EE, Krewski D, Godleski JJ. (2004).
+Cardiovascular mortality and long-term exposure to particulate air pollution epidemiological
+evidence of general pathophysiological pathways of disease. Circulation 109(1):71-77
+
+
+
+                                                 44	  
+	  
+Pope CA, Dockery DW. (2006) Health effects of fine particulate air pollution: lines that connect.
+J Air Waste Manage Assoc 56:709-42
+
+Pope CA, Renlund DG, Kfoury AG, May HT, Horne BD (2008) Relation of heart failure
+hospitalization to exposure to fine particulate air pollution. Am J Cardiol 102(9):1230-1234
+
+Price HD, Jones TP, BéruBé KA. (2014) Resolution of the mediators of in vitro oxidative
+reactivity in size-segregated fractions that may be masked in the urban PM 10 cocktail. Sci Total
+Environ 485:588-595
+
+Raub JA, Hatch GE, Mercer RR, Grady M, Hu PC. (1985) Inhalation studies of Mt. St. Helens
+volcanic ash in animals. II. Lung function, biochemistry, and histology. Environ Res 37:72-83
+
+Renno NO, Kok JF. (2008) Electrical activity and dust lifting on Earth, Mars, and beyond. In
+Planetary Atmospheric Electricity. Springer, New York, pp. 419-434
+
+Rich DQ, Kipen HM, Huang W et al. (2012) Association between changes in air pollution levels
+during the Beijing Olympics and biomarkers of inflammation and thrombosis in healthy young
+adults. JAMA, 307(19):2068-2078
+
+Riediker M, Cascio WE, Griggs TR, Herbst MC, Bromberg PA, Neas L, Williams RW, Devlin
+RB. (2004) Particulate matter exposure in cars is associated with cardiovascular effects in
+healthy young men. Am J Respir Crit Care Med 169:934 -940
+
+Roller M. (2009) Carcinogenicity of inhaled nanoparticles. Inhal Toxicol 21(S1):144-157
+
+Romieu I, Garcia-Esteban R, Sunyer J, Rios C, Alcaraz-Zubeldia M, Velasco SR, Holguin F.
+(2008) The effect of supplementation with omega-3 polyunsaturated fatty acids on markers of
+oxidative stress in elderly exposed to PM(2.5). Environ Health Perspect 116:1237-1242
+
+Rowe WJ. (2007). Moon dust may simulate vascular hazards of urban pollution. J British
+Interplanet Soc 60:133-136
+
+Rowe, WJ. (2013). Moon walkers and urban pollution. Am J Med 126(7):e1-e2
+
+Rothen-Rutishauser B, Muhlfeld C, Blank F, Musso C, Gehr P (2007) Translocation of particles
+and inflammatory responses after exposure to fine particles and nanoparticles in an epithelial
+airway model. Part Fibre Toxicol 4(9) doi:10.1186/1743-8977-4-9
+
+Sager TM, Kommineni C, Castranova V. (2008) Pulmonary response to intratracheal instillation
+of ultrafine versus fine titanium dioxide: role of particle surface area. Part Fibre Toxicol 5:17
+doi:10.1186/1743-8977-5-17
+
+Sarkozi L, Horvath E, Konya Z, Kiricsi I, Szalay B, Vezer T, Papp A. (2009) Subacute
+intratracheal exposure of rats to manganese nanoparticles: Behavioral, electrophysiological, and
+general toxicological effects. Inhal Toxicol 21:83-91
+                                               45	  
+	  
+Scapellato ML, Lotti M. (2007) Short-term effects of particulate matter: an inflammatory
+mechanism? CRC Crit Rev Toxicol 37(6):461-487
+
+Schaumann F, Borm PJ, Herbrich A, et al. 2004 Metal-rich ambient particles (particulate matter
+2.5) cause airway inflammation in healthy subjects. Am J Respir Crit Care Med 170:898-903
+
+Schettler T. (2005). Heart Disease and the Environment. Accessed 21-April-2015 at
+http://www.healthandenvironment.org/cardiovascular
+
+Scheuring RA, Jones JA, Novak JD, Polk JD, Gillis DB, Schmid, J, Duncan JM, Davis JR.
+(2008) The Apollo Medical Operations Project: Recommendations to Improve Crew Health and
+Performance for Future Exploration Missions and Lunar Surface Operations. Acta Astronaut
+63:980-987
+
+Schlesinger RB, Kunzli N, Hidy GM, et al. (2006) The health relevance of ambient particulate
+matter characteristics: Coherence of toxicological and epidemiological inferences. Inhal Toxicol
+18:95-125
+
+Schoonen MA, Cohn CA, Roemer E, Laffers R, Simon SR, O’Riordan T. (2006) Mineral-
+induced formation of reactive oxygen species. Rev Minerol Geochem 64(1):179-221
+
+Schuerger, AC, Golden D C, Ming DW. (2012) Biotoxicity of Mars soils: 1. Dry deposition of
+analog soils on microbial colonies and survival under Martian conditions. Planet Space Sci
+72(1):91-101
+
+Schürch S, Gehr P, Hof VI, Geiser M, Green F. 1990. Surfactant displaces particles toward the
+epithelium in airways and alveoli. Resp Physiol 80:17-32
+
+Schwarze PE, Ovrevik J, Hetland RB, Becher R, Cassee FR, Låg M, Refsnes M. (2007)
+Importance of size and composition of particles for effects on cells in vitro. Inhal Toxicol
+19(S1):17-22
+
+Scott DR, Irwin JB, Worden AM. (1971) Apollo 15 Technical Crew Debriefing, NASA Johnson
+Space Center, Houston, TX, pp 10-18; 10-21; 10-22
+
+Scully RR, Lam C-W, James JT. (2013) Estimating safe human exposure levels for lunar dust
+using benchmark dose modeling of data from inhalation studies in rats. Inhal Toxicol
+25(14):785-793
+
+Simkó M, Mattsson MO. (2010). Risks from accidental exposures to engineered nanoparticles
+and neurological health effects: a critical review. Part Fibre Toxicol 7(42):1-8
+
+Sheehan, T. (1975) Apollo Program Summary Report. JSC-09423, NASA Johnson Space Center,
+Houston.
+
+
+
+                                                46	  
+	  
+Shepard AB, Mitchell ED, Roosa SA (1971). Apollo 14 Technical Crew Debriefing NASA
+Johnson Space Center, Houston, TX, pp 9-17; 10-60; 13-3; 13-4
+
+Shoemaker DA, Pretty JR, Ramsey DM, McLaurin JL, Khan A, Teass AW, Castranova V, Pailes
+WH, Dalal NS, Miles PR. (1995) Particle activity and in vivo pulmonary response to freshly
+milled and aged alpha quartz. Scand J Work Environ Health 21:15-18
+
+Sørensen M, Daneshvar B, Hansen M, Dragsted LO, Hertel O, Knudsen L, Loft S. (2003)
+Personal PM2.5 exposure and markers of oxidative stress in blood. Environ Health Perspect
+111:161-166
+
+Stahlhofen W, Scheuch G, Bailey MR. (1995) Investigations of retention of inhaled particles in
+the human bronchial tree. Rad Protect Dos 60 (4):311-319
+
+Surface Properties of the moon. Accessed 13-March-2015 at
+http://csep10.phys.utk.edu/astr161/lect/moon/moon_surface.html
+
+Tassinari R, Cubadda F, Moracci G, Aureli F, D'Amato M, Valeri M, Maranghi F. (2014) Oral,
+short-term exposure to titanium dioxide nanoparticles in Sprague-Dawley rat: focus on
+reproductive and endocrine systems and spleen. Nanotoxicol 8(6):654-662
+
+Taylor LA, Pieters CM, Keller LP, Morris RV, McKay DS. (2001) Lunar mare soils: Space
+weathering and the major effects of surface-correlated nanophase Fe. J Geophys Res 106
+E11:27985-27999
+
+Taylor LA, Pieters C, Patchen A, Taylor DHS, Morris RV, Keller LP, McKay DS. (2010)
+Mineralogical and chemical characterization of lunar highland soils: insights into the space
+weathering of soils on airless bodies, J. Geophys. Res. 115
+
+Theriot CA., Glass A, Lam CW, James J, Zanello SB. (2014) Chronic Lunar Dust Exposure on
+Rat Cornea: Evaluation by Gene Expression Profiling. NASA Human Research Program
+Investigators' Workshop, Feb 12-13, Galveston, TX
+
+Tobías A, Pérez L, Díaz J, Linares C, Pey J, Alastruey A, Querol X. (2011) Short-term effects of
+particulate matter on total mortality during Saharan dust outbreaks: a case-crossover analysis in
+Madrid (Spain). Sci Total Environ 412:386-389
+
+Tran CL, Buchanan D, Cullen RT, Searl A, Jones AD, Donaldson K. (2000) Inhalation of poorly
+soluble particles. II. Influence of particle surface area on inflammation and clearance Inhal
+Toxicol 12(12):1113-1126
+
+Tsuji H, Venditti FJ Jr, Manders ES, Evans JC, Larson MG, Feldman CL., Levy D. (1994)
+Reduced heart rate variability and mortality risk in an elderly cohort. The Framingham Heart
+Study. Circulation 90:878−883
+
+
+                                                47	  
+	  
+US EPA. (2015). Benchmark Dose Software. Available from: http://www.epa.gov/ncea/bmds/
+accessed 27 Apr 2015
+
+Vallyathan V. (1995) Generation of oxygen radicals by minerals and its correlation to
+cytotoxicity. Environ Health Perspect 102:111-115
+
+Vallyathan V, Shi XL, Dalal NS, Irr W, Castranova V. (1988) Generation of free radicals from
+freshly fractured silica dust: Potential role in acute silica-induced lung injury. Am Rev Respir
+Dis 138:1213-1219
+
+Vallyathan V, Kang JH, Van Dyke K, Dalal NS, Castranova V. (1991) Response of alveolar
+macrophages to in vitro exposure to freshly fractured versus aged silica dust: The ability of
+Prosil 28, an organosilane material, to coat silica and reduce its biological reactivity. J Toxicol
+Environ Health 33:303-315
+
+Vallyathan V, Castranova V, Pack D, Leonard S, Shumaker J, Hubbs AF, Shoemaker DA,
+Ramsey DM, Pretty JR, McLaurin JL. (1995) Freshly fractured quartz inhalation leads to
+enhanced lung injury and inflammation. Potential role of free radicals. Am J Respir Crit Care
+Med 152:1003-1009
+
+Verma V, Shafer MM. Schauer JJ, Sioutas C. (2010) Contribution of transition metals in the
+reactive oxygen species activity of PM emissions from retrofitted heavy-duty vehicles.
+Atmospheric Environment, 44(39):5165-5173
+
+Vinzents PS, Møller P, Sørensen M, Knudsen LE, Hertel O, Jensen FP, Schibye B, Loft S.
+(2005) Personal exposure to ultrafine particles and oxidative DNA damage. Environ Health
+Perspect 113:1485-1490
+
+Wagner SA. (2006) The Apollo Experience Lessons Learned for Constellation Lunar
+Dust Management. TP-2006-213726, Johnson Space Center, Houston, Available on line at:
+http://ston.jsc.nasa.gov/collections/TRS/_techrep/TP-2006-213726.pdf
+
+Walker B Jr, Mouton CP. (2008) Environmental influences on cardiovascular health. J Natl Med
+Assoc. 100(1):98-102
+
+Wallace WT, Taylor LA, Liu Y, Cooper BL, McKay DS, Chen B, Jeevarajan AS. (2009) Lunar
+dust and lunar simulant activation and monitoring. Meteorit Planet Sci 44:961-970
+
+Wang J, Liu Y, Jiao F, et al. (2008) Time dependent translocation and potential impairment on
+central nervous system by intranasally instilled TiO(2) nanoparticles. Toxicol 254:82-90
+
+Wang J, Zhou G, Chen C, et al. (2007). Acute toxicity and biodistribution of different sized
+titanium dioxide particles in mice after oral administration. Tox Lett 168(2):176-185
+
+
+
+
+                                                 48	  
+	  
+Warheit DB, Donne EM. (2015) How meaningful are risk determinations in the absence of a
+complete dataset? Making the case for publishing standardized test guideline and ‘no effect’
+studies for evaluating the safety of nanoparticulates versus spurious ‘high effect’ results from
+single investigative studies. Sci Technol Adv Matrl 16(3): 034603
+
+Warheit DB, Webb TR, Sayes CM, Colvin VL, Reed KL. (2006) Pulmonary instillation studies
+with nanoscale TiO2 rods and dots in rats: toxicity is not dependent upon particle size and
+surface area. Toxicol Sci 91(1):227-236
+
+Warheit DB, Webb TR, Colvin VL, Reed KL, Sayes CM. (2007) Pulmonary bioassay studies
+with nanoscale and fine-quartz particles in rats: toxicity is not dependent upon particle size but
+on surface characteristics. Toxicol Sci 95(1):270-280
+
+Wehner AP, Dagle GE, Clark ML, Buschbom RL. (1986) Lung changes in rats following
+inhalation exposure to volcanic ash for two years. Environ Res 40:499-517
+
+Weichenthal SA, Godri-Pollitt K, Villeneuve PJ. (2013) PM2. 5, oxidant defence and
+cardiorespiratory health: a review. Environ Health 12(40):10-1186
+
+Wiester MJ, Setzer CJ, Barry BE, Mercer RR, Grady MA. (1985) Inhalation studies of Mt.
+St. Helens volcanic ash in animals: respiratory mechanics, airway reactivity and deposition.
+Environ Res 36:230-240
+
+World Health Organization. (2014) Accessed 20-April-2015 at:
+http://www.who.int/mediacentre/factsheets/fs313/en/
+
+Wu S, Deng F, Wei H, et al. (2012) Chemical constituents of ambient particulate air pollution
+and biomarkers of inflammation, coagulation and homocysteine in healthy adults: A prospective
+panel study. Part Fibre Toxicol 9:49
+
+Yen AS, Gellert R, Schroder, et al. (2005) An integrated view of the chemistry and mineralogy
+of Martian soils. Nature, 436(7047):49-54
+
+Yin F, Lawal A, Ricks J, Fox JR, Larson T, Navab M, Fogelman AM, Rosenfeld ME, Araujo JA.
+
+(2013) Diesel exhaust induces systemic lipid peroxidation and development of dysfunctional
+pro-oxidant and pro-inflammatory high-density lipoprotein. Arterioscler Thromb Vasc Biol
+33(6):1153-1161
+
+Young JW, Mattingly TK, Duke Jr CM. (1972). Apollo 16 Technical Crew Debriefing NASA
+Johnson Space Center, Houston, TX, pp 10-17; 13-5
+
+Zhang J, Zhu T, Kipen H, et al. (2103) Cardiorespiratory biomarker responses in healthy young
+adults to drastic air quality changes surrounding the 2008 Beijing Olympics. Res Rep Health Eff
+Inst 174:5-1
+
+                                                 49	  
+	  
+X      TEAM
+
+Current Authors
+
+       Robert R. Scully, Ph.D. Wyle
+
+               Cell Biologist, member of the pulmonary toxicity assessment team. Together with
+               CWL performed the inhalation studies, analyzed data of the inhalation and ITI
+               studies and co-authored several publications from the pulmonary studies (lead
+               author on one). Coordinated meetings of LADTAG and prepared reports of
+               LADTAG meetings. Together with JTJ and CWL presented evidence to support
+               a recommendation for a PEL for episodic exposure to airborne lunar dust to
+               extramural panel of expert toxicologists (EPET) that was convened by OCHMO
+               to review the recommendation, and assisted VEM and TM with providing
+               responses to EPET and formulating their final recommendation to OCMO for the
+               PEL.
+
+       Valerie E. Meyers, Ph.D. NASA
+
+               Toxicologist and lead investigator for studies of ocular effects of airborne lunar
+               dust and coauthor of several publications resulting from the lunar dust toxicity
+               studies (lead author on one), currently NASA’s lead toxicologist; principally
+               responsible, in collaboration with Environmental Sciences Branch Chief, for
+               responding to the recommendations of the EPET and formulating the final
+               recommendation to OCHMO for the PEL for airborne lunar dust.
+
+Past Authors
+
+       John T. James, Ph.D. NASA (Retired)
+
+               Principle Investigator, LDTRP, responsible for leading and integrating the efforts
+               of all research teams. Chaired meeting of LADTAG, co-authored several
+               publications (lead author on one). Responsible for providing the recommendation
+               of PEL for airborne lunar dust to EPET.
+
+       Noreen Khan-Mayberry, Ph.D. NASA
+
+               Toxicologist, in collaboration with JTJ, responsible for managing project during
+               its early phases.
+
+Lunar Dust Pulmonary Toxicity Team
+
+       Chiu-wing Lam, Ph.D. Wyle
+
+               Toxicologist and pulmonary toxicity team lead, principally responsible for
+               establishing the inhalation exposure laboratory at JSC. Performed ITI and
+               inhalation studies, analyzed data and co-authored several publications from the
+               studies (lead author on one). Together with JTJ and RRS presented evidence to
+
+                                                50	  
+	  
+              support a recommendation for a PEL for episodic exposure to airborne lunar dust
+              to EPET and assisted VEM and Environmental Sciences Branch Chief with
+              providing responses to EPET and formulation of final recommendation to
+              OCHMO for PEL.
+
+       Stephanie Bassett, Wyle
+
+              Animal Care Facility Manager, responsible for providing care for all experimental
+              animals. Assisted in collection of tissue samples.
+
+Geology Team
+
+       David S. McKay, Ph.D. NASA (Deceased)
+
+              Geologist and team lead, primarily responsible for providing the respiratory size
+              lunar dust needed for the toxicity studies. Performed particle size distribution and
+              other physical characterizations of the lunar dust, lead author of a publication that
+              describes physicochemical properties of respirable-size lunar dust.
+
+       Bonnie Cooper, Ph.D. Oceaneering (now Hanyang University, South Korea)
+
+              Geologist, principally responsible for the development of new techniques that
+              allowed respirable sized dust particles to be separated from the bulk sample by a
+              dry method, which insured that the properties of the dust would not be affected by
+              the isolation method. Coauthor of publication that resulted from these efforts.
+
+Dermal Toxicity/Cell Biology Team
+
+       David Loftus, M.D. Ph.D., NASA
+
+              Performed preliminary dermal abrasion studies with lunar dust and together with
+              JR performed functional assessments of cells obtained from lungs of animals
+              exposed to lunar dust
+
+       John Rask, NASA
+
+              Performed, with DL, functional assessments of cells obtained from lungs of
+              animals exposed to lunar dust
+
+Chemistry Team
+
+       Antony Jeevarajan, Ph.D., NASA
+
+              Physical Chemist, former Chemistry team Lead, current Deputy Chief of the
+              Biomedical Research and Environmental Sciences Division, coauthor of
+              publications that describe activation of lunar dust simulants and authentic lunar
+              dust, and characterization of nanophase iron-enhanced chemical reactivity of
+              ground lunar dust.
+
+                                               51	  
+	  
+       William T. Wallace, Ph.D. Wyle
+
+               Physical Chemist – Surface Chemistry, performed activation and dissolution
+               physiochemical characteristics of lunar dust.
+
+Molecular Biology Team
+
+       Ye Zhang, Ph.D. Wyle
+
+               Molecular Biologist, NASA Core Lab Lead, performed studies to profile gene
+               expression in lungs of rats exposed to lunar dust, principle author of publications
+               that are in preparation.
+
+Pathologists
+
+       Roger Renne, D.V.M., ToxPath Consulting Inc
+
+       Richard A. McCluskey, M.D., Naval Hospital Pensacola, Pensacola, FL
+
+Final Recommendation for PEL
+
+       Torin McCoy, NASA
+
+               Toxicologist, Chief of NASA’s Environmental Sciences Branch, together with
+               VEM principally responsible for providing response to the recommendations of
+               the EPET and formulating the final recommendation to OCHMO for the PEL for
+               airborne lunar dust.
+
+Lunar Airborne Dust Toxicity Assessment Group – Non NASA Members
+
+       Vince Castranova, Ph.D, NIOSH (now University of West Virginia), Toxicologist
+
+       Bean Chen, Ph.D, NIOSH, Toxicologist
+
+       Kevin Driscoll, Ph.D., Proctor and Gamble, Toxicologist
+
+       Don Gardner, Ph.D. (Deceased), Independent Inhalation Toxicologist
+
+       Robert Hunter, M.D., Univ. Texas Health Science Center at Houston, Pathologist
+
+       Roger McClellan, Ph.D. Independent Toxicologist
+
+       Harrison Schmidt Ph.D. Geologist NASA Apollo 17 crewmember.
+
+       Larry Taylor, Ph.D. University of Tennessee, Lunar Geologist
+
+
+
+
+                                                52	  
+	  
+XI     ACRONYMS
+
+BALF      Bronchoalveolar Lavage Fluid
+
+BMD       Benchmark Dose
+
+CDNPs     Combustion-derived Nanoparticles
+
+CM        Command Module
+
+CNS       Central Nervous System
+
+CS        Crystalline Silica
+
+CV        Cardiovascular
+
+DEP       Diesel Exhaust Particle
+
+ECLSS     Environmental Control Life Support System
+
+EPA       Environmental Protection Agency
+
+EVA       Extravehicular activities
+
+Fe0       Nanophase metallic iron
+
+GI        Gastrointestinal
+
+HEPA      High Efficiency Particulate Air
+
+HRP       Human Research Program
+
+ICR       Imprinting Control Region
+
+IPI       Intrapharyngeal instillation
+
+IRAC      International Agency for Research on Cancer
+
+ITI       Intratracheal Instillation
+
+JSC       Johnson Space Center
+
+LADTAG    Lunar Airborne Dust Toxicology Assessment Group
+
+LDTRP     Lunar Dust Toxicity Research Portfolio
+
+LM        Lunar Module
+
+LMP       Lunar Module Pilot
+
+
+                                            53	  
+	  
+NASA    National Aeronautic and Space Administration
+
+NO      Nitric Oxide
+
+NOAEL   No-Observable-Adverse-Effect Level
+
+NP      Nanoparticle
+
+npOx    anophase iron oxides
+
+NRC     National Research Council
+
+O2      Superoxide anion
+
+ONOO-   Peroxynitrite
+
+OCHMO   Office of Chief Health and Medical Officer
+
+OR      Oxidative Reactivity
+
+PEL     Permissible Exposure Limit
+
+PM      Particulate Matter
+
+PMN     Polymorphonuclear leukocytes (neutrophils)
+
+PVPNO   Polyvinylpyridine-N-oxide
+
+RNA     Ribonucleic Acid
+
+RNS     Reactive Nitrogen Species
+
+ROS     Reactive Oxygen Species
+
+SEM     Scanning Electron Microscope
+
+SHFH    Space Human Factors and Habitability Element
+
+TIM     Technical Interchange Meeting
+
+TiO2    Titanium dioxide
+
+UFP     Ultrafine particle
+
+µm      Micron
+
+
+
+
+                                        54	  
+	  
+

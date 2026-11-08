@@ -65,6 +65,12 @@
 | Shielding | thin soil barely helps (dose peaks ~30 cm down), ~1–1.6 m for <100 mSv/yr; hydrogen-rich water/polyethylene beat aluminium; 5.3 cm water halves a deep-space storm dose | NASA TP 1991/2013, Zhang 2022, Walker 2013 |
 | Science goal at Gale | was Mars ever able to support microbial life; ancient lake "held all the ingredients necessary for life"; organics "not necessarily indicators of life" (never say life was found) | NASA Curiosity, release 18-050 |
 | Veggie lettuce | 33 d harvest (64 d cut-and-come-again) | NASA NTRS |
+| **NASA's first Mars stay** | ≥2 crew, **30 sols**, O₂ and pressure from tanked gas, all water brought as a consumable and not recycled (2023). Our 30-sol game matches a real NASA plan | ICES-2023-265 |
+| Where O₂ really comes from | ISS: splitting water (≈1.1 kg water per kg O₂), 5.4 kg/day for 4 crew; tanks as backup (~36 kg O₂ each). MOXIE flat out ≈ 1/12 of 4 crew's need, it was a demo | NASA fact sheet 2025, ICES |
+| Water per person | 3.2 kg/day = drink 2 + food 0.5 + exercise sweat 0.7; early Mars base 4.5 kg/day with a shower; out: breath+sweat 2.9, urine 1.4. ISS loop 98% with the Brine Processor (since Mar 2021) | BVAD, ICES-2026-425 |
+| Food per person | ~3,000 kcal, 2.39 kg packed/day; ISS food lasts 1.5–2 yr, Mars needs 5 (still a gap); vitamin C gone in ~1 yr; plants = "pick and eat" supplement (<1% of energy); microgreens 7–18 d, radish 25 d | BVAD, HRP, NASA TM 2025 |
+| 4 crew × 30 sols | ≈ 397 kg water, 295 kg packed food, 104 kg O₂ (no recycling) | our maths from BVAD |
+| Pressure / suits / dust | below 47 mmHg body water boils (Mars ~5 mmHg); suit 30 kPa pure O₂, 6.5–8 h; habitat air 57 kPa 34% O₂ (proposed); Mars dust 0.5–1% perchlorate, "likely toxic" | NASA JSC, EVA chapter, BVAD, HRP |
 | Radiation | cruise 1.8 mSv/d; Gale surface 0.67 mSv/d; 1 Sv ≈ +5% fatal cancer risk | SwRI (RAD) |
 | Solar storm at Mars | 20 May 2024, X12: 8,100 µGy at Curiosity = "30 chest X-rays", not deadly | JPL |
 | Storm shelter | built "within an hour" of a warning, stay up to 24 h, from bags of food and water | NASA (Orion) |
@@ -76,7 +82,7 @@
 ## Where things are
 | Path | Contents |
 |---|---|
-| `research/junior-astronaut/` | `pages/` (saved sources), `sources.md`, `factcheck.md`, `browser-excerpts.md` |
+| `research/junior-astronaut/` | `pages/` (saved sources), `sources.md`, `factcheck.md` (rows 1–143), `browser-excerpts.md`, `charts/` (chart HTML → PNG via `tooling/tools/html-to-png.mjs`), `images/` |
 | `assets-cache/nasa-3d/` | Perseverance, Ingenuity, Astronaut, Base Station, Habitat Demo Unit GLBs; Curiosity landing-site STL (real Gale terrain); Mars/Moon/Earth textures |
 | `assets-cache/kenney/` | Space Kit (153 GLB: domes, corridors, generators, dishes, rover, rocket parts, platforms, rocks; **no solar panels**), Space Station Kit, Sci-fi + Interface sounds. All CC0 |
 | `assets-cache/data-snapshots/` | NOAA flares + Kp, Curiosity weather (4,745 sols). DONKI still down on 8 Nov (503 upstream timeout, even with our key); retry |

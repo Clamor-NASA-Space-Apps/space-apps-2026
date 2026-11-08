@@ -1,0 +1,609 @@
+    Carbon dioxide Control System for a Mars Space Suit Life
+                       Support System
+
+                    Gokhan Alptekin 1, Ambalavanan Jayaraman 2, Robert Copeland 3 and Amanda Parker 4
+                                        TDA Research, Inc.,Wheat Ridge,CO,80033
+
+                                                           and
+
+                                                    Heather L. Paul 5
+                                      NASA Johnson Space Center, Houston, TX, 77058
+
+
+                  Carbon dioxide (CO2) control during Extravehicular Activities (EVAs) on Mars will be
+               challenging. Lithium hydroxide (LiOH) canisters have impractical logistics penalties, and
+               regenerable metal oxide (MetOx) canisters weigh too much. Cycling bed systems and
+               permeable membranes that are regenerable in space vacuum cannot vent on Mars due to the
+               high partial pressure of CO2 in the atmosphere. Although sweep gas regeneration is under
+               investigation, the feasibility, logistics penalties, and failure modes associated with this
+               technique have not been fully determined. TDA Research, Inc. is developing a durable, high-
+               capacity regenerable adsorbent that can remove CO2 from the space suit ventilation loop.
+               The system design allows sorbent regeneration at or above 6 torr, eliminating the potential
+               for Martian atmosphere to leak into the regeneration bed and into the ventilation loop.
+               Regeneration during EVA minimizes the amount of consumables to be brought from Earth
+               and makes the mission more affordable, while providing great operational flexibility during
+               EVA. The feasibility of the concept has been demonstrated in a series of bench-scale
+               experiments and a preliminary system analysis. This paper presents the latest results from
+               these sorbent and system development efforts.
+
+
+                                                      Nomenclature
+PCO2            =   partial pressure of CO2
+Tads. (avg.)    =   average adsorption temperature
+Tdes. (avg.)    =   average desorption temperature
+GHSV            =   gas hourly space velocity
+ACFM            =   actual cubic feet per minute
+
+                                                     I. Introduction
+  The extravehicular mobility unit (EMU) is a self-sustained spaceship, equipped with a compact life support
+system providing oxygen, pressure control, removal of waste heat, and control of carbon dioxide and moisture.
+Whether designed for orbital operations or planetary surface exploration, the EMU must provide high performance
+while maintaining safe and reliable operation. The selection of technologies for evolutionary International Space
+Station or planetary (lunar or Martian) EMU are strongly driven by the system volume and weight as well as life
+cycle costs.
+  Early EMU designs relied on a Contaminant Control Cartridge to absorb trace contaminants and the metabolic
+CO2 from the astronaut’s space suit ventilation loop (Prouty et al., 1991). This sorbent canister used a small amount
+
+1
+  Senior Project Manager, TDA Research, Inc., 12345 W. 52nd Avenue.
+2
+  Senior Engineer, TDA Research, Inc., 12345 W. 52nd Avenue.
+3
+  Senior Engineer, TDA Research, Inc., 12345 W. 52nd Avenue.
+4
+  Engineer, TDA Research, Inc., 12345 W. 52nd Avenue.
+5
+  Space Suit PLSS Project Engineer, Space Suit and Crew Survival Systems Branch, Crew and Thermal Systems
+Division, 2101 NASA Parkway, Mail code EC5.
+                                                        1
+                                American Institute of Aeronautics and Astronautics
+of charcoal along with lithium hydroxide (LiOH) to purify ventilation gases. LiOH has provided reliable CO2
+removal since the Mercury program of the early 1960s, but it cannot be practically regenerated and must be replaced
+after each EVA. Although this was not considered a major logistics penalty due to relatively short on-orbit stay of
+the shuttle (7 to 14 days) and the low number of EVAs per mission (3 to 8 contingency and/or planned), it represents
+an unacceptable consumable burden for planetary explorations.
+  The regenerable MetOx canister was developed to reduce the logistics burden during ISS operations. The MetOx
+system practically removes all CO2 generated during the EVA, is thermally regenerated inside the spacecraft driving
+off the CO2 in an oven after each EVA. This system has been successfully used for several years, but it is relatively
+heavy for high gravity planetary explorations and the use of on-space craft regeneration requirement limits the EVA
+duration. The advanced space suit design under consideration uses a continuously regenerable CO2/H2O removal
+system based on a rapidly cycling amine swing bed. This system relies on two alternating beds of solid amine beads
+to remove CO2 and H2O from the ventilation loop and will regenerate cyclically during the EVA using space
+vacuum. Unfortunately, its regeneration capability in environments like Mars is compromised, because the martian
+atmosphere contains CO2 at a partial pressure that is near or above the values that are acceptable in the space suit
+breathing atmosphere.
+  Mars has a very thin atmosphere made mostly of CO2. The surface pressure on Mars is only about 0.7% of the
+average surface pressure at sea level on Earth (7 millibars). Under these conditions, desorption or transport
+processes which are partial pressure driven will not be capable of stripping adsorbed CO2 from a sorbent to a level
+that will produce a breathable atmosphere in the suit. Typical regenerable technologies use pressure swing to collect
+and then reject the metabolically-produced CO2, however, an appropriate stripping pressure is not available on Mars
+since its environment has a CO2 partial pressure of 3 to 6.8 torr. Temperature swing adsorption processes (TSA)
+may be used; removing CO2 at ambient temperatures and then use higher temperature to reject the CO2. This heat
+up “cost” makes most of the TSA systems impractical for Portable Life Support System (PLSS) applications. It
+could be possible to modify TSA operation, and reduce the CO2 adsorption temperature lower than the standard
+PLSS operating temperature and use metabolic heat load given at 24 to 31oC for regeneration. The adsorption at
+low temperature and regeneration at 31oC (max) could provide a viable driving force to remove and concentrate the
+CO2, and regenerate the sorbent at relatively high CO2 partial pressures. This idea was in fact first brought up by
+Paragon Space Development Corporation; the Metabolic heat regenerated Temperature Swing Adsorption (MTSA)
+technology is being developed as a solution to address the Martian challenge (Iacomini, 2009).
+  The Paragon system uses a Molecular Sieve NaX zeolite for reversible CO2 removal. While the sorbent works
+well and achieves a high capacity, to remove significant amounts of CO2, the adsorbent must be cooled to cryogenic
+temperatures (-79oC). Operating the TSA system over a large temperature differential makes thermal management
+challenging. The heating and cooling times also impact how fast the beds can be cycled and hence drive the size of
+the system.
+
+                                              II. TDA’s System
+   TDA is developing a compact, regenerable sorbent-based system to remove CO2 from the space suit ventilation
+loop. The system uses two alternating sorbent beds operated in a cyclic manner; one bed absorbs CO2 from the
+ventilation loop, while the other regenerates by rejecting CO2. The regeneration is carried out under vacuum, but
+above 6 torr to ensure that no Martian atmosphere could diffuse into the regenerating bed or into the ventilation
+loop. The CO2 is removed and concentrated on the sorbent at 5oC (41oF) at 3 to 7.6 torr range, while the regeneration
+is carried out at 22oC (72oF) at high pressure. Upstream of the sorbent bed, the humidity will be removed by a
+condenser (from 18.5 torr to ~6 torr). The removal of the moisture is not required for operating the sorbent (i.e., the
+sorbent will not be poisoned), but to prevent water release to the environment (if desired). The sorbent can be
+modified with specific surface functional groups or an additional sorbent bed could be located upstream if the
+removal of trace contaminants such as ammonia is desired. The sorbent canister design also includes fine particle
+filters to prevent any migration of particulate matter away from the bed.
+     Both the adsorption and regeneration beds are thermally integrated with the cooling water loop circulated in the
+cooling garment. Figure 1 shows the sorbent beds integrated with the cooling loop and the valve positions that
+allow coolant flow in the same direction for both beds. In this design we use two pumps to circulate warm and cold
+water to each sorbent bed to promote regeneration and adsorption, respectively. We use the water from the cooling
+loop for the garment at 72oF and feed it to the bed under regeneration to increase its temperature. We will use all the
+water available in the garment (~240 lb/hr). The heat used to warm the sorbent bed and to support the CO2 release
+will cool the water temperature to 70.9oF. A small fraction of the water coolant (20.5 lb/hr) is separated and sent to
+a water or CO2 evaporator, while the remainder of the coolant is sent back to the garment and then recycled back to
+
+                                                         2
+                                 American Institute of Aeronautics and Astronautics
+garment temperature control system. Before the evaporator, the small water flow is mixed with the water loop
+recycled from the cold bed. Following the evaporator, the 260.5 lb/h flow is introduced to the adsorbing bed cooling
+its temperature to 41oF. As it warms up to 42oF at the bed exit, it is sent back to the evaporator for heat rejection.
+An additional liquid pump and separate loops are used to ensure the highest comfort to the astronaut.
+
+
+
+
+     Figure 1. Schematic of TDA’s system.
+
+                                             III. TDA's Sorbent
+     The key to the successful operation of TDA’s
+                                                                 6
+TSA-based CO2 removal system is a highly active,
+high capacity and very durable sorbent. The sorbent
+                                                                 5
+for our application (and in fact for any rapidly
+regenerable CO2 removal process) must require only
+
+
+                                                           -∆ H kcal/mol CO2
+                                                                 4
+a modest heat input for regeneration. TDA’s sorbent
+relies on CO2 adsorption similar to that of the zeolite          3
+sorbents, however, the interaction between our
+sorbent and CO2 is much weaker than in the                       2
+conventional alkali sorbents and zeolites.         We
+measured the heat of CO2 adsorption on our sorbent               1
+in a differential scanning calorimeter (DSC) at
+different temperatures (Figure 2). The heat of                   0
+adsorption for CO2 over the sorbent varied between                    30     60     120 180 240 300
+4.5 to 5.6 kcal/mol CO2 adsorbed with the average of                           T emperature, oC
+heat of adsorption being -∆Hads = 4.9± 0.4 kcal/mol Figure 2. Heat of adsorption of CO as measured in DSC.
+                                                                                            2
+CO2. The heat of adsorption remained constant across
+a large temperature range. The interaction is strong
+enough to enable CO2 adsorption on the surface even at 3 torr CO2. Because no true bond has been formed, the heat
+input to regenerate our sorbent is low. The energy required to regenerate our sorbent is also only half of the zeolite
+type adsorbents. This significantly decreases the heat load on the heat integration loop compared to zeolites.
+
+A. Test System
+          TDA’s test system included two jacketed beds that can be cooled down to adsorption temperature (sub
+ambient conditions) or heated to desorption temperature (close to metabolic temperatures) using two separate
+circulating baths. The system has valves that direct either the hot fluid or the cold fluid through the bed jackets to
+maintain the sorbent beds at metabolic temperatures or the sub ambient temperatures. Similarly we have valves on
+
+
+                                                        3
+                                American Institute of Aeronautics and Astronautics
+either side of the two beds to direct either the
+adsorption gas flow (7.6-16 torr CO2 in air) through
+the bed or apply vacuum for desorption.
+          Foam-Bed Reactors: We used a pancake
+style reactor assembly (i.e, with L/D ratio less than 1
+to minimize the diffusion bed length for the desorbed
+CO2). It had reticulated foam from ERG, a
+commercial supplier as heat transfer medium in the
+sorbent bed (Figure 3). The sorbent particles were
+loaded in the voids of the reticulated foam similar to
+the way Hamilton Sundstrand’s solid amine sorbent
+dispersed into a thermally conductive metal foam.
+          Thin-walled Aluminum Reactors: Even
+though the metal foam provided better heat transfer
+through the sorbent bed, because of the large mass of
+the foam and the housing that supported it, it took
+more than 20 minutes to reach the target temperature. Figure 3. Picture of TDA’s reticulated foam reactor.
+This will not be a problem in a large unit where mass of the reactor housing mass will be
+relatively smaller than that of the sorbent. To expedite the cycling time and provide good
+heat transfer we also carried out bench-scale evaluations in a jacketed aluminum reactor.
+It had a polyethylene jacket around the thin walled aluminum reactor (wall thickness
+0.028”) with an aspect ratio (L/D) of 4.65. The outer polyethylene jacket minimized the
+heat loss to the outside. Thin wall aluminum reactor tube provided high conductivity and
+low thermal mass relative to sorbent bed to promote rapid thermal cycling. Figure 4
+shows the schematics of the thin walled aluminum reactor assembly. Figure 5 compares
+the temperature profiles during a typical cycle achieved over the jacketed foam bed
+reactor and the thin walled aluminum reactor at bench scale. The thin walled aluminum
+reactor reached the target temperature in 10 minutes, which allows us to carry out rapid
+temperature swing of the sorbent beds.
+
+B. Multiple Cycle Test Results
+     We carried out a total of 1102 cycles with our sorbent. The cycles 1 through 540
+were carried out using the foam bed reactor and for the cycles 541 through 1102 we used
+the thin walled aluminum reactor. We transferred the same sorbent to a different reactor
+to continue cycling. During these tests, we varied the operating parameters to study their
+impact on sorbent performance, and also carried out more than 1,100 cycles to
+demonstrate its long-term performance and durability. The sorbent maintained a stable Figure 4. Thin walled
+capacity of over 1.45% wt. CO2 over the 1,100+                                             Aluminum Reactor.
+cycles.
+         We cycled our CO2 sorbent in the two-bed
+foam reactor system at an adsorption pressure of 212
+torr (PCO2 = 7.6 to 19 torr) and desorption at vacuum
+(less than 1.0 torr). We varied the space velocity,
+temperature and inlet CO2 concentration. The
+summary of the results is provided in Figure 6. Even
+though the two sorbent beds are almost identical, we
+observed that some slight difference in the CO2
+removal capability of one of the beds was slightly
+lower, presumably due to the difference in the heat
+losses from the beds. Our measurements indicate
+that Bed #2 has better heat transfer (16.8 kW)
+compared to Bed #1 (12.3 kW); calculations were
+based on the temperature increase (or decrease) on
+the coolant supplied to the two reactors. All the CO2
+breakthrough profiles and the capacity calculations
+were carried out while taking the system dead Figure 5. Heat transfer comparison between the two reactors.
+                                                          4
+                                  American Institute of Aeronautics and Astronautics
+volume into account. The system has a
+dead volume of 400 mL, which takes about
+5.7 minutes to sweep through at the
+baseline flow rate of 70 sccm.
+          When tested in the foam bed
+reactors, TDA’s CO2 sorbent showed a
+stable performance over 540 cycles and
+achieved capacities in excess of 1.47% wt.
+CO2 and reduced the CO2 concentration
+from 16 torr to less than 1.0 torr (on
+average less than 4 torr) with max CO2
+level of 12 torr at the bed exit. Figure 7
+shows the CO2 breakthrough at a CO2
+partial pressure of 7.6 torr. The CO2
+concentration in the gas exiting the sorbent
+bed was at 0.2 torr at the beginning of the Figure 6. Summary of multiple cycle test results on TDA’s CO2
+adsorption step and slowly climbed up to Sorbent in the foam bed reactors. Cycles 1 through 540.
+4.2 torr at the end of the adsorption
+experiment.       The      average      CO2          6
+
+
+
+
+                                               Outlet CO2 Partial Pressure (torr)
+                                                          Cycle 11
+concentration in the gas exiting the bed is               Cycle 20
+about 2.0 torr. Figure 8 shows the CO2               5    Cycle 30
+breakthrough at a CO2 partial pressure of                 Cycle 40
+
+16 torr. The CO2 concentration in the gas            4
+exiting the sorbent bed was at 0.6 torr at
+                                                     3
+the beginning of the adsorption step and
+slowly climbed up to 12.0 torr at the end            2
+of the adsorption experiment. The average
+CO2 concentration in the gas exiting the             1
+bed is about 6.0 torr.
+          After 540 cycles we reloaded the           0
+sorbent from the foam bed reactors in the              0        10       20            30      40 50       60
+jacketed thin walled aluminum reactor and                                        Time (min)
+carried out further cycling experiments Figure 7. CO2 breakthrough profiles at inlet CO2 = 7.6 torr, GHSV =
+                                                  -1                o                      o
+under rapid thermal cycles at an 37 h ; Tads. (avg.) = 4.2 C, Tdes. (avg.) = 19.3 C.
+adsorption pressure of 212 torr and
+desorption at vacuum (less than 8 to 27
+torr). We varied the cycle time, space
+velocity, and temperature. The summary
+of the results are provided in Figure 9.
+With the aluminum reactors and
+polyethylene jackets we eliminated the
+differences between the two beds under
+rapid cycling conditions.
+          A typical CO2 breakthrough
+profile obtained under rapid cycling
+conditions with the thin walled aluminum
+reactor is provided in Figure 10. The CO2
+concentration was reduced from 7.6 torr to
+less than 1 torr at the beginning of the
+adsorption step and stayed less than 0.2 Figure 8. CO2 breakthrough profiles at inlet CO2 = 16 torr, GHSV =
+torr before breaking through at 8 minutes 37 h-1; Tads. (avg.) = 4.2oC, Tdes. (avg.) = 19.3oC.
+and increasing to inlet level of 7.6 torr.
+The sorbent maintained stable capacity of 1.45% between cycles 640-720 and cycles 1040-1,102 under identical
+operating conditions as shown in Figure 9. In the cycles between 720 and 1,040 we varied the regeneration pressure,
+space velocity, cycle time, ∆T and also studied the impact of moisture on the sorbent capacity.
+
+                                                        5
+                                American Institute of Aeronautics and Astronautics
+Figure 9. Summary of multiple cycle test results on                           Figure 10. Typical breakthough profile under rapid
+TDA’s CO2 Sorbent in the thin walled aluminum                                 cycling with thin walled aluminum reactor.
+reactors. Cycles 541 through 1,102.
+
+C. Impact of Space Velocity
+    Figure 11 shows the impact of space velocity on the sorbent performance with the foam bed reactor. The
+sorbent capacity for CO2 increased at higher space velocities. This increase was attributed to higher amount of CO2
+provided to the sorbent bed (with presumably high un-utilized capacity). When the space velocity doubled,
+however, the corresponding capacity increase was less than two times since at lower space velocities the sorbent
+achieved a much lower CO2 leakage. The average CO2 concentration in the exit gas was 0.2 torr and the maximum
+CO2 concentration in the exit gas was 1.8 torr. At even higher space velocities (GHSV = 210 h-1) with the thin
+walled aluminum reactor TDA’s CO2 sorbent achieved higher capacities of 1.48% and 1.95% at half-cycle time of
+10 min and 20 min respectively with an average CO2 leakage of 0.2 torr and maximum CO2 leakage of 0.9 torr (the
+space velocity is calculated based on the overall volume of sorbent and the foam).
+                                                                                                 6
+
+
+
+
+                                                            Outlet CO2 Partial Pressure (torr)
+                                                                                                                           GHSV (1/h) = 37
+                                                                                                 5
+                                                                                                                           GHSV (1/h) = 18
+
+                                                                                                 4
+
+                                                                                                 3
+
+                                                                                                 2
+
+                                                                                                 1
+
+                                                                                                 0
+                                                                                                     0                                            10        20       30      40   50   60
+                                                                                                                                                                  Time (min)
+ Figure 11. Impact of space velocity on CO2 breakthrough – foam bed reactor. Inlet CO2 = 7.6 torr, Tads. (avg.) = 4oC,
+ Tdes. (avg.) = 19.6oC.                                          10
+
+
+
+
+                                                                                                         Outlet CO2 Partial Pressure (torr)
+                                                                                                                                                       Inlet CO2 = 7.6 torr
+                                                                                                                                              9        Inlet CO2 = 16 torr
+                                                                                                                                              8
+D. Impact of CO2 Partial Pressure
+                                                                                                                                              7
+     Figure 12 shows the impact of higher CO2 partial                                                                                         6
+pressures in the inlet gas on the CO2 breakthrough. The                                                                                       5
+maximum CO2 in the exit gas increases from 4.2 torr to 8.8                                                                                    4
+torr but the sorbent capacity also increases from 0.52% wt.                                                                                   3
+CO2 to about 1.47% wt. CO2.                                                                                                                   2
+                                                                                                                                              1
+E. Impact of Temperature                                            0
+   Figure 5 shows the typical temperature profile in the bed          0       10    20         30     40  50 60
+during adsorption and desorption steps in the foam bed                                    Time (min)
+
+reactor. The bed transitions from the adsorption temperature Figure 12. Impact of higher levels of CO2 in the   -1
+(about 0oC) to desorption temperature (about 25oC), with inlet gas on CO       o
+                                                                                 2 breakthrough. GHSV = 38 h ,
+                                                                                                      o
+average temperature differential of 19.6 C maintained during Tads. (avg.) = 4.3 C, Tdes. (avg.) = 19.5 C.
+                                        o
+
+                                                        6
+                                American Institute of Aeronautics and Astronautics
+                                                                                            10
+
+
+
+
+                                                               Outlet CO2 Partial Pressure (torr)
+                                                                                                            Tads (avg.) = 0.1 deg. C
+                                                                                                    9       Tads (avg.) = 4.4 deg. C
+                                                                                                    8
+                                                                                                    7
+                                                                                                    6
+                                                                                                    5
+                                                                                                    4
+                                                                                                    3
+                                                                                                    2
+                                                                                                    1
+                                                                                                    0
+                                                                                                        0       10         20      30      40   50   60
+                                                                                                                                Time (min)
+Figure 13. Impact of adsorption temperature on CO2 breakthrough. Inlet CO2=16 torr, GHSV=37 h-1.
+regenerations and an average temperature of 4.0oC during adsorptions. This transition took about 40 minutes to get
+to 95% of the target temperature indicating that the experimental system was heat transfer limited. To overcome this
+problem we isolated the reactors after adsorption and desorption steps and waited for the temperature to reach target
+values before starting the adsorption gas flow or the vacuum desorption. Cycles 51 through 56 were carried out in
+this manner. The sorbent showed better removal efficiency in the initial part of the cycle as shown in Figure 13. The
+sorbent capacity improved significantly as the adsorption temperature is decreased from 12oC to 4oC but did not
+improve as much when the adsorption temperature is further decreased to 0oC most probably due to slower diffusion
+rates at lower temperatures.
+
+F. Impact of Desorption Pressure
+     We carried out desorption at different
+pressures to simulate the Martian atmosphere.
+Figure 14 and Figure 15 shows the impact of
+desorption pressure on CO2 breakthrough and the
+CO2 capacity at low space velocity (GHSV=11 h-
+1
+ ). We observed that the CO2 leakage
+concentration increased and the capacity decreased
+as the desorption pressure increased due to the
+reduction in driving force. At higher space velocity
+the contact time is lower while the linear velocity
+is higher and the solid (sorbent) diffusion rate
+increases with contact time while gas phase
+diffusion rate increases with the linear velocity.
+We also carried out desorption at 13 torr at high Figure 14. Impact of desorption pressure on the CO2
+space velocity (GHSV=210 h-1) and observed that breakthrough. GHSV = 11 h-1; ∆T = 25oC; PCO2 = 19.2 torr.
+the leakage concentration was less than 2 torr
+while the capacity was increased to 0.96% wt.
+CO2. This shows that gas phase diffusion, which
+will be low at sub ambient temperatures, controls
+the CO2 adsorption on our sorbent under the Mars
+space suit EMU operating conditions. These
+experiments under high CO2 partial pressure
+suggest that we could make a practical device that
+operates well above the pressure of the Martian
+atmosphere.
+
+G. Impact of Moisture
+    We evaluated TDA’s CO2 sorbent using
+moisture laden air. We carried out experiments at
+two different moisture levels of 1,750 (dew point Figure 15. Impact of desorption pressure on the CO2 capacity.
+of –17.5o) and 13,850 ppmv (dew point of 22oF F). GHSV = 11 h-1; ∆T = 25oC; P = 19.2 torr.
+                                                                               CO2
+
+                                                        7
+                                American Institute of Aeronautics and Astronautics
+We observed that our sorbent has limited capacity for water
+(Figure 16) but is still selective to CO2 and retains most of its
+CO2 capacity as seen in Figure 16 and Figure 17.
+     Zeolites on the other hand could interact with water very
+strongly and needs a larger ∆T of the order of few hundred
+degrees for desorption. We carried out cycling experiments with
+moisture laden air (13,850 ppmv) using commercial zeolite –
+13X (NaX). Figure 18 shows the impact of moisture on the CO2
+capacity of the zeolite –13X. We see that the sorbent loses much
+of its capacity on exposure to moisture and does not regain the
+lost capacity back on returning to cycling under dry conditions.
+TDA’s CO2 sorbent maintains its selectivity in the presence of
+moisture, retains more than 90% of its capacity and regains the Figure 16. Water breakthrough on TDA’s
+lost capacity back on returning to cycling under dry conditions. Sorbent. H2O = 13,850 ppmv.
+At higher space velocity TDA’s CO2 sorbent had a capacity of
+0.96% wt. CO2 in the presence of moisture at a desorption
+pressure of 13 torr.
+
+
+
+
+Figure 17. Impact of moisture on TDA’s Sorbent. Figure 18. Impact of moisture on Zeolite-13X (NaX)
+Pdes=22 torr.                                   Sorbent. Pdes=17 torr.
+
+
+                                             IV. System Design
+     Based on the test data we carried out a preliminary system analysis to estimate the size and weight of the CO2
+control system. Based on sorbent capacity and optimized operating conditions (primarily temperature of adsorption
+and regeneration) we have estimated the amount of sorbent needed to provide life support. We have then proceeded
+with the design of the sorbent reactors using three additional operating criteria to minimize:
+     1. Heat transfer limitations across the sorbent bed
+     2. Pressure drop across the bed during adsorption (this also helped us with reducing the bed depth that the
+         CO2 must diffuse through during vacuum regeneration)
+     3. Oxygen loss (we assumed a 3 bed design to allow pressure equalization and reduce the amount of oxygen
+         loss during vacuum desorption)
+     The boundary of the system analysis problem and some of the assumptions we used in the system design are
+summarized in Table 1. We carried out the design for an average metabolic rate of 850 Btu/hr to remove an average
+0.17 lb/hr CO2. As used in the bench-scale experimental tests, we assumed a suit pressure of 4.1 psia with oxygen
+flow rate in the PLSS circulation loop of 6 ACFM (5.28 ACFM of oxygen flow rate after accounting for 7.6 and 6.5
+torr maximum CO2 and H2O at the entrance of the CO2 removal device). For our system, we selected a full cycle
+time of 15 minutes (with adsorption step time of 5 min for each bed) and a CO2 capacity of 1% wt. (lb of CO2 per lb
+of sorbent). At this capacity, using a 3 bed design (selected for reducing potential oxygen loss during regenerations)
+we estimated that 1.42 lb of sorbent will be used in each bed, corresponding to an overall carbon sorbent volume of
+118 in3 (1.94 L) in each of the 3 beds. We also estimated the volume of the reticulated aluminum metal foam to
+support the sorbent as 131.5 in3 (2.15 L).
+     The three sorbent beds are incorporated into a single module with proper manifolding for the distribution of the
+gases to supply the beds with the circulation loop gases and expose the beds to vacuum (e.g., Martian atmosphere
+                                                           8
+                                  American Institute of Aeronautics and Astronautics
+through a proper vent). It has been conceptualized that these Table 1. Mars CO2 Removal System Sizing.
+beds are all connected to a multi-port flow selection valve to Average metabolic Rate (btu/hr)               850
+control the bed function similar to the spool valve used in
+HSC’s amine swing bed design. These beds are thermally Average CO2 rate (lb/hr)                             0.17
+insulated with minimal thermal linking in between the O2 flow rate (42.4 slpm = lb/h)                          8
+reactor and with the environment. Each bed is integrated                                  o
+with the liquid cooling garment, with separate inlet and exit             At 4.3 psia, 41 F
+streams for water from the LCVG.                                Air flow rate (with 6.5 torr H2O &          5.28
+    Figure 19 provides a schematic of a three-bed sorbent
+assembly. The valves used for the switch/selection of the           7.6 torr CO2 ACFM)
+gas and water flow is not shown to provide clarity. The Full cycle time (min)                                 15
+beds will have 11.5” x 11.5” cross-sectional area at 1”
+thickness in the air flow direction to minimize pressure drop
+                                                                Adsorption time (min)                          5
+across the bed. The overall sorbent module will fit into an Sorbent CO2 loading                              1%
+envelope of 12”x12”4.3” envelope excluding the external                                 3
+manifolds (but including the internal insulation).              Sorbent density (lb/ft )                    20.7
+     As used in the bench-scale test setup, we selected a 10 CO2 flow rate into bed (lb/h)                  0.40
+ppi aluminum metal foam to house the sorbent and provide a
+thermal pathway to provide cooling and heating during the
+                                                                CO2 flow out of bed (lb/h)                  0.23
+adsorption and regeneration steps. In the selection of metal CO2 out of bed (torr)                          4.45
+foam properties we used the guidelines provided on the ERG
+                                                                   (with 6.5 torr H2O)
+DuoCell website (both for pore volume properties and the
+thermal properties of the foam). This foam has a 0.1” TDA Sorbent per bed (lb)                            1.4167
+diameter open cell area.                                        TDA Sorbent volume (L per bed)              1.94
+     In order to maximize the heat transfer from the water Al foam volume (L per bed)                       2.15
+side to the sorbent material we will use 12 stainless steel                        -1
+tubes that pass through the aluminum foam at 1” spacing. Space Velocity (h )                               1,312
+These will be ¼” diameter tubes and manifolded together at
+each end of the bed. Figure 20 shows a cross-section
+of the bed design with the water tubing embedded
+into the metal foam.                                                                      Bed 1
+     Thermal modeling was performed on the heat                                           (adsorpition)
+transfer through the metal foam and sorbent with this                                       Bed 2
+design approach using an isothermal model                                                   (regeneration)
+                                                                                             Bed 3
+(however, the real conditions will be constant heat
+                                                                                             (transition)
+flux). We took a section of the foam where a ¼” SS
+tube passes through a 1” square piece of foam and
+sliced that section into 1/10” slices. Next, we found a
+circular section having the same area as the square to
+be able to treat each slice as a circular fin in the
+thermal calculations. Since the amount of aluminum
+                                                                                                  Cold Water
+and carbon is the same in each of the 1,360 cells in
+                                                                                                  Warm Water
+one bed, we can calculate the temperature
+distribution around each tube. We calculated the fin                                              Air/Oxygen
+efficiency of the aluminum to be 88.2% with a                                                     CO2 Out
+nominal 1.7oF temperature difference between the
+aluminum and carbon. The weighted average
+temperature difference for the assumed circular cross
+section is 24.9oF (13.9oC).
+     The overall volume of the aluminum foam with
+bed dimensions of 11.5” x 11.5” x 1” is 132 in3.
+Since this is a 10% density foam this allows a sorbent
+volume of 118 in3. With a density of aluminum of
+0.01 lb/ft3 there is 1.32 lbs aluminum per bed. The Figure 19. Three bed reactor system showing the gas and
+carbon sorbent has a density of 20.7 lb/ft3 which cooling water flows.
+allows a sorbent loading of 1.42 lbs/bed. The total heat load can be calculated from the sum of the individual heat
+                                                        9
+                                American Institute of Aeronautics and Astronautics
+loads of the sorbent, the heat of reaction, and the
+aluminum foam. For the sorbent, the heat load is then
+6 BTU per ½ cycle, or 72.4 BTU/hr. For the
+aluminum foam, the heat load is 6.9 BTU per ½
+cycle, or 83.2 BTU/hr. The heat of reaction is given
+as 221 BTU/lb CO2 therefore requiring 12.5 BTU per
+½ cycle, or 75.2 BTU/hr. The total heat load is then
+230.8 BTU/hr.
+     In the preliminary system analysis we estimated Figure 20. Crosss-section of two beds (third bed is inactive
+that 5.8 L (1.8 kg) of the sorbent must be used in the and used for transitions).
+Martian PLSS. The overall size of the CO2 control
+system excluding the external manifolds for a 3-bed system is estimated to be 12” x 12” x 4.3” weighing less than
+3.7 kg (8.2 lb). We also estimated that at 6 ACFM gas circulation rate the unit will produce no more that 5.3 inH2O
+pressure drop and the parasitic loss associated with the water circulation and overcome the pressure drop in the gas
+loop will be less than 67.6 W (230.8 BTU/hr). The system uses multiple beds to achieve continuous CO2 removal.
+We have selected a 3 bed design to allow proper pressure equalization during the bed transitions to ensure minimal
+loss of O2 to space (e.g., the bed just came out of the vacuum is connected to the bed that will be exposed to vacuum
+to reduce its pressure to half, effectively cutting down the amount of gas to be vented by half). We estimated the
+oxygen loss to be less than 0.03 lbs for an 8 hr. Although no significant attempts were made to optimize the number
+of sorbent beds used in the system, we found that a 2 bed design without proper pressure equalization had an oxygen
+loss below 0.06 lb during an 8 hr EVA. Hence a simple two-bed design may be advantageous in this case since it
+reduces the system weight and size significantly (12” x 12” x 3.4” envelope weighing less than 2.7 kg (5.3 lbs)
+compared to oxygen savings.
+
+                                                 V. Conclusion
+    We demonstrated the feasibility of our concept in a series of bench-scale experiments and by conducting a
+preliminary system analysis. We carried out extensive evaluations with our CO2 Sorbent in a bench-scale test setup,
+simulating the operation of the sorbent beds in the ventilation loop under highly representative conditions (i.e.,
+adsorption and regeneration under sub-atmospheric pressures across the desired temperature differential). We
+showed that the sorbent regeneration can be accomplished with a temperature swing of just 17oC, while regenerating
+the sorbent at 13 torr (well above either the pressure of Martian atmosphere or the martian CO2 partial pressure).
+We showed that the CO2 adsorption capacity could exceed 2.1% wt. (lb of CO2 removed per lb of sorbent) under
+representative conditions. Although this is lower than that achieved by the molecular sieves adsorbents, the lower
+temperature differential used for the sorbent regeneration allows rapid cycling of the bed and better utilization of the
+sorbent. In addition our sorbent is tolerant to moisture, maintaining its cyclic capacity even in the presence of
+humidified gas with 5oC dew point (under the same conditions the molecular sieve adsorbent degrades within 30
+cycles). We explored reactor designs to best integrate the sorbent with engineered structures that allow us rapid heat
+transfer to achieve short cycles times, demonstrating reasonably high working capacity in full cycle times as short as
+10 minutes. We performed 1,100 adsorption/regeneration cycles to demonstrate its life and durability; the sorbent
+maintained a stable capacity throughout the multiple cycle tests with no signs of degradation in performance.
+    Finally, we carried out a detailed engineering analysis to assess the technical viability of the concept. We
+estimated that for a three-bed system 5.8 L (1.8 kg) of the sorbent must be used in the Martian PLSS. The overall
+size of the CO2 control system excluding the external manifolds will fit into a 12” x 12” x 4.3” envelope weighing
+less than 3.7 kg (8.2 lb). We estimate that at 6 ACFM gas circulation rate the unit will produce no more that 5.3 in
+H2O pressure drop. The parasitic loss associated with the water circulation and overcome the pressure drop in the
+gas loop will be less than 67.6 W (230.8 BTU/hr). Although no significant attempts were made to optimize the
+number of sorbent beds used in the system, we found that a 2 bed design without proper pressure equalization had an
+oxygen loss below 0.06 lb during an 8 hr EVA. Hence a simple two-bed design may be advantageous in this case
+since it reduces the system weight and size significantly (12” x 12” x 3.4” envelope weighing less than 2.7 kg (5.3
+lbs) compared to oxygen savings.
+
+                                                Acknowledgments
+   We would like to thank NASA for their financial support to this project (Contract Number: NNX10CF24P ).
+
+
+
+                                                         10
+                                 American Institute of Aeronautics and Astronautics
+                                                References
+Iacomini, C., Powers, A., Speight, G., Padilla, S., & Paul, H. L. (2009). Transient Modeling and Analysis of a
+   Metabolic Heat-Regenerated Temperature Swing Adsorption (MTSA) System for a PLSS. Houston: NASA
+   Technical Reports Server.
+
+B.R. Prouty, R.C. Wilde, M. Gan, Evolution of the extravehicular mobility unit for future missions, 21st
+   International Conference on Environmental Systems, SAE SP-872, 1991, pp. 49–60.
+
+
+
+
+                                                      11
+                              American Institute of Aeronautics and Astronautics
+

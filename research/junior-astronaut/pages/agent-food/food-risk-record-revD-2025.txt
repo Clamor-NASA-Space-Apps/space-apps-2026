@@ -1,0 +1,1728 @@
+Risk of Inadequate Food and Nutrition Causing Decrements in In-Mission
+Health and Performance and Long-term Health (Food and Nutrition Risk)
+                                 Revision D
+
+
+            Human System Risk Board                    Risk Custodian Team
+
+                                                       SF/Grace L. Douglas, Ph.D.
+               HSRB CR SA-C20023
+                                                       SK/Scott M. Smith, Ph.D.
+               Approved: 6/9/2025
+                                                       SF/Xulei Wu, M.S.
+               Out of Board                            SD/Samuel A. Jacobs, Ph.D.
+                                                       QA/Kimberley-Michelle P. Lowe
+
+
+
+
+Purpose
+    To preview updates to the Risk of Performance Decrement and Crew Illness Due to
+     Inadequate Food and Nutrition via Change Request (CR) SA-C20023
+
+   This revision:
+      Did not change the Likelihood x Consequence (LxC) scores assessed against updated Design
+         Reference Missions (DRMs) and the 5x5 Risk Matrix
+      Provides updated evidence that supports current LxCs.
+
+
+
+This information was previously reviewed/dispositioned at:
+Meeting                Date              Outcomes/Direction
+HSEICB              3/26/2025          Agreement to present to the HSRB
+
+
+
+
+                                                   1
+Contents
+1. Risk Title and Risk Statement ............................................................................................................................ 3
+2. Risk History........................................................................................................................................................ 3
+3. Executive Summary ........................................................................................................................................... 4
+4. Food and Nutrition Risk Directed Acyclic Graph ................................................................................................ 6
+5. Risk Summary (With Proposed Changes) .......................................................................................................... 9
+6. LxC Quick Look ................................................................................................................................................. 11
+7. HSRB Risk Likelihood x Consequence Matrix .................................................................................................. 12
+8. Risk Postures ................................................................................................................................................... 13
+9. Overall Assessment of the Evidence ............................................................................................................... 24
+10. State of Knowledge – New Evidence ............................................................................................................ 25
+11. Metrics .......................................................................................................................................................... 26
+12. Risk Mitigation Framework - Color Changes ................................................................................................. 27
+13. Risk → Standard → Requirements Flow ....................................................................................................... 28
+14. Proposed Standard Updates ......................................................................................................................... 29
+15. High Value Risk Mitigation Targets ............................................................................................................... 29
+16. Conclusions ................................................................................................................................................... 30
+17. Recommendations ........................................................................................................................................ 30
+18. Acronyms and Abbreviations......................................................................................................................... 31
+19. Reference Materials ...................................................................................................................................... 32
+   Appendix - Existing Evidence Base .................................................................................................................. 33
+       Existing Evidence — Rev C .......................................................................................................................... 33
+       Existing Evidence — Rev B .......................................................................................................................... 35
+       Existing Evidence — Rev A and Baseline ..................................................................................................... 44
+
+
+
+
+                                                                                   2
+1. Risk Title and Risk Statement
+    Risk Title
+     Risk of Inadequate Food and Nutrition Causing Decrements in In-Mission Health and
+     Performance and Long-term Health (Food and Nutrition Risk)
+
+    Risk Statement
+     Given that there is a constrained ability to supply adequate food in spaceflight missions,
+     there is a possibility that inadequate nutrition will result in performance decrement, crew
+     illness, and long-term health effects.
+
+
+
+
+2. Risk History
+Meeting                            Date        Outcome/Direction
+HSRB Risk Presentation             6/9/2025    Decisional – CR SA-C20023, Update Risk Record, Approved
+                                               Out-of-Board, Rev D
+HSRB Risk Presentation             4/10/2025   Informational – CR SA-C20023 Update Risk Record, Rev D
+CMB Status Update                  9/13/2023   Concurrence.
+HSRB Risk Presentation             7/21/2022  Decisional – CR Approved with Mods. Approve Risk Rev C
+Risk Evaluated via CR              4/14/2022  CR evaluation period closed on 4/29/2022
+HSRB Risk Presentation             4/14/2022  Informational - Content reviewed by the HSRB for release on
+                                              CR
+HSRB Risk Presentation             1/13/2022 Decisional - Approved to close CR: SA-04518 HSRB - Updates
+                                              to Risk’s Directed Acyclic Graphs (DAGs) and to update the
+                                              DAG and DAG narrative in the Risk Records
+HSRB Risk Presentation             2/20/2020 Decisional – CR Approved with Mods. Approve Risk Rev B
+Risk Evaluated via CR              9/25/2019 CR evaluation period closed on 11/19/2019
+HSRB Risk Presentation             9/19/2019 Informational - Content reviewed by the HSRB. Approval for
+                                              release via CR
+Risk Evaluated via CR (Released)   8/28/2015 Decisional – CR Approved as Written (format) – Rev A
+Action Item Closure                5/4/2015   Decisional – % values were transposed in LxC driver section:
+                                              Approved out-of-board
+HSRB Risk Presentation             12/17/2014 Decisional – CR Approved with Mods. Approve risk baseline
+Risk Evaluated via CR              12/1/2014 Decisional – Provide integrated risk (food & nutrition) based
+                                              on new risk process (JSC 66705)
+HSRB Risk Presentation             10/15/2014 Decisional – Action Item closure - integrated plan to provide
+                                              better nutritional food systems for flight crews – Team
+                                              working details with ISS & CB.
+HSRB Risk Presentation             9/25/2014 Informational – Content to integrate both risks into one was
+                                              reviewed by the HSRB
+HSRB Risk Presentation             8/29/2012 Decisional – Partially approve CR for Mars DRM only – tabled
+                                                    3
+                                                for other missions (Food Risk)
+Risk Evaluated via CR              8/21/2012    Decisional – Likelihood x Consequence (LxC) Assessment for
+                                                the Food Risk
+Risk Evaluated via CR              3/25/2009    Decisional – Approved with Mods 04/20/2009 (Nutrition
+                                                Risk)
+Risk Evaluated via CR              3/11/2009    Decisional – Approved with Mods 04/02/2009 (Food Risk)
+HSRB Risk Presentation             3/10/2009    Informational – Content reviewed by the HSRB. Approval for
+                                                release via CR regarding “Risk of Performance Decrement
+                                                and Crew Illness Due to an Inadequate Food System
+HSRB Risk Presentation             2/24/2009    Informational – Content reviewed by the HSRB. Approval for
+                                                release via CR regarding “Risk Factor of Inadequate
+                                                Nutrition”
+
+
+
+
+3. Executive Summary
+      Food and nutrition – the first line of defense to both physical and behavioral health as well as
+      performance decrements.
+       International Space Station (ISS) food system currently meets operational needs, but has many
+         features that will go away with more stringent logistics in future missions
+         ─ ISS examples include fresh fruits and vegetables, care packages, preference foods
+
+         Data from ISS Food Intake Tracker (ISS FIT) Application suggest that crew are not within
+          acceptable longer-term nutritional bounds in several categories.
+          ─ Continuing to see weight loss from crews not eating enough (data from Gemini, Apollo,
+             Shuttle, ISS)
+          ─ Continuing to see dehydration inflight, which requires IV saline post flight.
+
+        Increased likelihood of nutritional deficiencies or toxicities on exploration missions where food
+         will be more constrained (prepositioning, no fresh fruits/vegetables).
+       Human Exploration Research Analog (HERA) data show that reduced variety and acceptability
+         further impact consumption.
+       Do not have a food system that can get us to Mars and back with the quality and acceptability
+         sufficient to maintain appropriate caloric and nutritional intake.
+      Given increased food restrictions on upcoming                                    Must Fit within
+      missions the impacts to crew health and                                       Mission Resources
+      performance could be significant but are                                         Constraints
+      currently unknown.
+                                                                                          Must be
+       Drivers include constrained mass and
+                                                                                  Safe, Nutritious, and
+          volume and / or prepositioning, Design                                       Acceptable
+          Reference Mission (DRM) category changes
+
+                                                      4
+Food and nutrition are still a red risk for Mars
+ Both the known capability gaps and the
+   unknown health and performance impacts
+   from the limitations of food and nutrition
+   is a Mars Long Pole, already
+   acknowledged by the HSRB.
+   LxC risk postures have been set based on
+    consideration for known risk and unknown
+    impacts to crew health and performance
+    that generates uncertainty for upcoming
+    missions.
+
+
+
+
+                                                   5
+4. Food and Nutrition Risk Directed Acyclic Graph
+
+
+
+
+                                                    6
+Directed Acyclic Graph – DAG Narrative
+    The primary hazard for the Food and Nutrition Risk is distance from Earth due to feasibility to
+    resupply and limited food shelf life.
+    The central issue in the Food and Nutrition Risk encompasses six nodes in the center of the
+    diagram that highlight the contribution of food to human health and performance.
+     Energy (Calories) - this is the amount of energy that food supplies to crew to enable them to
+        live and perform. Insufficient energy in the diet leads to body mass loss, muscle loss, bone loss,
+        oxidative stress, and cardiovascular deconditioning, and ultimately starvation and death.
+     Nutrients - this includes macro and micronutrients that are a critical part of our diet and
+        without which we develop nutrient deficiency diseases and other pathophysiologies. The
+        term nutrition also encompasses thousands of phytochemicals that when sufficient can
+        provide anti-inflammatory, anticarcinogenic, and other benefits. Some nutrients degrade with
+        storage duration, which may be impacted either positively or negatively by storage
+        conditions. There is some evidence that nutrients may be degraded by radiation but the few
+        studies to date have used higher levels and different sources of radiation than expected in
+        human spaceflight. The dotted line indicates the low amount of evidence in this area.
+     Hydration – hydration status is determined by total water intake and exit from the body.
+        Dehydration can affect multiple other risks, including cardiovascular, renal stone,
+        cognition, performance, fatigue, and more.
+     Food Acceptability – if food is not acceptable it does not matter if it has the required
+        nutrition – they may not consume enough to get adequate nutrition. This is affected by
+        storage duration and conditions and by Individual Factors such as food preferences and
+        allergies which are part of the Immune (Risk). Astronaut Selection affects the extent of
+        those factors present in a given crew.
+     Food Variety – variety is part of acceptability – a nutritional variety of foods needs to prevent
+        menu fatigue and provide choice to prevent risk of underconsumption and undernutrition
+     Food Safety – if food is not safe it does not matter if it has the required nutrition – it will be a major
+        risk to crew health and loss of mission.
+      In conflict with this is another critical concept - resources. To date, nutrition, energy,
+      acceptability, and variety have been cut by programs, regardless of unknown risk, when
+      resources are not available. Mass/volume and power are limited by the Vehicle Design, Crew
+      Health, and Performance System, and highly dependent on Distance from Earth as well as the
+      EIHSO (Risk). This is also dependent on Resupply.
+      Resources also impact:
+      Food Preparation includes items such as a water dispenser, water heater, food warmer,
+          and other equipment that can determine the amount of time that preparation activities
+          add to the schedule as well as the acceptability and safety of the food for the astronauts.
+          This is key to acceptability. Food and preparation equipment must be compatible with
+          Altered Gravity and Hostile Closed Environment.
+      Food Storage Conditions includes refrigeration and packaging of food and exposure to
+          temperatures and pressures outside of acceptable ranges. This is key to nutrition and
+          acceptability and is affected by Pre-Mission Food Storage Time which historically has ranged
+          from weeks to years. Refrigeration and packaging must be compatible with Hostile Closed
+          Environment.
+      Food Production which, if designed into the system may include necessary equipment for
+
+                                                      7
+   growing food and ensuring safety, and capability such as salad crops may be critical for
+   acceptability on long duration missions with no resupply of fresh provisions. There is
+   some evidence that Radiation may affect seed viability and nutrition of produce. Dotted
+   line indicates the low amount of evidence in this area.
+ Recycling primarily includes water.
+In order to mitigate risk, crew must intake an appropriate amount of Energy (Calories),
+Nutrients, and Hydration. The system must provide the necessary food quality meeting Food
+Acceptability, Food Variety, and Food Safety requirements that supports adequate intake.
+Nutrition, acceptability, and safety must be maintained through the mission duration (adequate
+shelf life). Too little of these and Nutrient Deficiencies, Starvation, or medical conditions such
+as dehydration can occur. Excess nutrient intake may cause Nutrient Toxicities or other medical
+conditions such as polydipsia, hyponatremia, etc. Optimal nutrition can provide additional
+benefits, including anti-inflammatory (Immune Risk) and anticarcinogenic effects (Radiation
+Carcinogenesis Risk), which can be a key countermeasure to prevent disease on long duration
+missions. This balance affects other risks listed below that all contribute to non-optimal
+Individual Readiness, Crew Capability and through that affect Task Performance. Through the
+Medical (Risk) or through Starvation, Nutrient Toxicities or Nutrient Deficiencies these can also
+affect the likelihood of other Mission Level Outcomes including Loss of Mission, Loss of
+Mission Objective, Loss of Crew Life, and Long-Term Health Outcomes.
+Food system (including nutrient deficiencies and/or toxicities) directly affects the likelihood of other
+risks listed below:
+ Behavioral (Risk) Prolonged isolation and confinement can be a contributing factor to
+   inadequate food and nutrition intake, and an inadequate food system / inadequate
+   nutrition will adversely impact mood, cognition, and performance, serving as an
+   additional stressor in the exploration environment.
+ Muscle and Aerobic (Risks) fitness levels including stamina and strength can be affected.
+ Sleep (Risk) affects factors such as physiological health, behavioral health, and cognitive function.
+ Microhost, Renal Stone, and Bone Fracture (Risks) – all have nutritional underpinnings and
+   can lead to specific medical conditions occurring in mission.
+ Immune (Risk) system dysregulation can occur as a result of inadequate energy and
+   nutrient intake. This also includes hypersensitivity reactions like food allergies which are
+   affected by Individual Factors.
+ Cardiovascular (Risk) function and SANS (Risk) through vitamin issues or other single nutrient
+   deficiencies.
+ Nutrient Toxicities occur when too much of a required nutrient is ingested. These can include
+   vitamin and mineral toxicities if astronauts consume too much in-mission and affect Long-
+   Term Health Outcomes (e.g., liver damage from Vitamin A overconsumption; neuropathy
+   from excess B-vitamin or manganese intakes)
+ Nutrient Deficiencies occur when too little of a required nutrient is ingested. Scurvy from
+   a lack of vitamin C or rickets from a lack of vitamin D are historic examples that can lead
+   to Long-Term Health Outcomes.
+ Antioxidants and other nutrients may play a role in affecting Radiation Carcinogenesis
+   likelihood and Long-Term Health Outcomes for long missions.
+Surveillance enables us to detect Long-Term Health Outcomes and better characterize the risk as we
+gather more evidence.
+
+
+
+
+                                               8
+5. Risk Summary
+Primary Hazard:
+Distance from Earth
+
+Secondary Hazard(s):
+Isolation and Confinement
+Radiation
+Altered Gravity
+Hostile Closed Environment
+
+
+Countermeasures in use:
+Prevention
+Validated nutrition requirements and acceptability standards, pre-packaged balanced/optimized food with
+stable nutrition, processing and packaging standards, microbial standard; astronaut selection
+
+Monitoring
+Dietary intake, track medical conditions and performance metrics, care team approach
+
+Intervention
+Dietary prescription as feasible
+
+
+Contributing Factors
+Mission design; changing nutritional requirements over long duration missions; no crew preference; food
+safety; food acceptability; nutritional stability of food; compromised storage, packaging, or handling of food;
+food preparation capability (e.g., heating, hot water, refrigeration) immune system function during
+spaceflight; spaceflight microbial environment; vehicle design for food storage including
+temp/pressure/mass/volume.
+
+State of Knowledge
+Much is known about the basic nutrition required to maintain performance and health during spaceflight.
+Standards/controls exist to maintain food safety during spaceflight. Ground data indicates that dehydration
+and “quicker than usual” weight loss in physically fit individuals will impact cognition and performance.
+Adequate nutrition and safe food have been demonstrated for 6-month missions and limited 1-year missions
+that have resupply. Ground data indicates that optimizing food/nutrient intake will likely benefit multiple
+systems, will drive nutrient requirement definitions, and food provisions. There is an uncharacterized risk
+during LO and LOS missions due to resource restrictions, high storage temperatures, potential pressure
+changes, and increased EVAs resulting in risk to food stability, and reduced food provisioning and
+preparation capability compared to ISS. Mass and volume restrictions on food will result in higher energy and
+lower nutrient densities (i.e., less fruits and vegetables). This will increase health and performance risks. The
+capability to provide safe pre-packaged food with a 5-year shelf life that provides adequate nutrition content,
+acceptability, safety, and variety is a gap. Some countermeasures (CMs) being investigated are:
+Bioregenerative supplementation and alternative processing, packaging, and storage. The impact of both the
+current and proposed exploration food systems on cognition, performance, behavior, and many other
+aspects of health is not adequately understood. Potential health impacts include 1) reductions in crew
+                                                        9
+performance (loss of endurance, cognition); 2) crew illness (loss of bone and muscle mass, immune function,
+cardiovascular performance, gastrointestinal function, severe dehydration, nausea, diarrhea, endocrine
+function, ocular, psychological health, and the ability to mitigate oxidative damage); 3) long term health
+effects (cancer, bone, cardio, etc.), 4) interactions with other systems/countermeasures (e.g., drug/nutrient
+interactions, environment influences on oxidative stress, exercise-induced alterations in energy reqs.).
+
+
+General Assumptions
+             •     Assume current requirements specific to each vehicle have been met (these meet a subset of
+                   the NASA Standards 3001 for food and nutrition)
+             •     Based on the HSRB LxC Matrix and the HSRB DRM Categories
+
+DRM              Mission Type
+                                 Assumptions
+Categories       and Duration
+                 Short
+                                 Regular resupply
+Low Earth        (<30 days)
+Orbit (LEO) Long
+                                 Regular resupply
+            (30 d-1 yr.)
+                                 Assumes there are no EVAs. No crew personalization. Current food
+                 Short
+                                 provisioning and preparation capability for Lunar Orbital missions do not
+                 (<30 days)
+Lunar                            meet NASA Standard 3001
+Orbital                          Assumes there are no EVAs. No crew personalization. Current food
+                 Long
+                                 provisioning and preparation capability for Lunar Orbital missions do not
+                 (30 d-1 yr.)
+                                 meet NASA Standard 3001
+                                 No crew personalization. Current food provisioning and preparation
+                 Short
+                                 capability for Lunar Orbital + Surface missions do not meet NASA Standard
+Lunar            (<30 days)
+                                 3001.
+Orbital +
+Surface                          No crew personalization. Current food provisioning and preparation
+                 Long
+                                 capability for Lunar Orbital + Surface missions do not meet NASA Standard
+                 (30 d-1 yr.)
+                                 3001.
+                                 No resupply, prepositioned food system, no crew personalization, expect
+                 Preparatory
+                                 food provisioning and preparation capability to meet NASA Standard 3001
+                 (<1 year)
+                                 but there is currently a shelf-life capability gap
+Mars
+                                 No resupply, prepositioned food system, no crew personalization, expect
+                 Planetary (730-
+                                 food provisioning and preparation capability to meet NASA Standard 3001
+                 1224 days)
+                                 but there is currently a shelf-life capability gap
+
+
+
+
+                                                       10
+6. LxC Quick Look
+
+
+               Previous (Approved July 2022)                                             Current (no changes)
+   DRM        Mission Type LxC        Risk      LxC     Risk                DRM        Mission Type LxC        Risk      LxC     Risk
+ Categories   and Duration OPS Disposition LTH Disposition                Categories   and Duration OPS Disposition LTH Disposition
+                   Short          Accepted with                                             Short          Accepted with
+                              2x2               1x1 Accepted                                           2x2               1x1 Accepted
+  Low Earth     (<30 days)         Monitoring                              Low Earth     (<30 days)         Monitoring
+ Orbit (LEO)       Long           Accepted with     Accepted with         Orbit (LEO)       Long           Accepted with     Accepted with
+                              5x2               3x2                                                    5x2               3x2
+               (30 d - 1 yr.)     Optimization       Monitoring                         (30 d - 1 yr.)     Optimization       Monitoring
+                   Short          Accepted with     Accepted with                           Short          Accepted with     Accepted with
+                              5x2               3x2                                                    5x2               3x2
+Lunar Orbital (<30 days)          Optimization       Monitoring          Lunar Orbital (<30 days)          Optimization       Monitoring
+     (LO)          Long             Requires          Requires                (LO)          Long             Requires          Requires
+                              5x3               4x2                                                    5x3               4x2
+               (30 d - 1 yr.)       Mitigation        Mitigation                        (30 d - 1 yr.)       Mitigation        Mitigation
+                   Short            Requires        Accepted with                           Short            Requires        Accepted with
+Lunar Orbital                 5x3               3x2                      Lunar Orbital                 5x3               3x2
+                (<30 days)          Mitigation       Monitoring                          (<30 days)          Mitigation       Monitoring
+  + Surface                                                                + Surface
+                   Long             Requires          Requires                              Long             Requires          Requires
+    (LOS)                     5x4               4x3                          (LOS)                     5x4               4x3
+               (30 d - 1 yr.)       Mitigation        Mitigation                        (30 d - 1 yr.)       Mitigation        Mitigation
+               Preparatory          Requires          Requires                          Preparatory          Requires          Requires
+                              5x4               5x3                                                    5x4               5x3
+                 (<1 year)          Mitigation        Mitigation                          (<1 year)          Mitigation        Mitigation
+    Mars         Planetary                                                   Mars         Planetary
+                                    Requires          Requires                                               Requires          Requires
+                (730-1224 5x5                   5x3                                      (730-1224 5x5                   5x3
+                                    Mitigation        Mitigation                                             Mitigation        Mitigation
+                   days)                                                                    days)
+
+
+
+
+                                                                    11
+7. HSRB Risk Likelihood x Consequence Matrix
+   Current
+
+                                        Ops: LO (Long); LOS (Short)        Ops: LOS (Long);
+                                        LTH: Mars Prep; Mars Planetary     Mars Prep;            Ops: Mars Planetary
+
+                                           Ops: LEO (Long); LO (Short)
+
+
+                                                       LTH: LO (Long)
+
+
+                                           LTH: LOS (Short); LO (Short);
+                                           LEO (Long)
+
+
+                                                       Ops: LEO (Short)
+
+
+                                                       LTH: LEO (Short)
+                                                                               LTH: LOS (Long)
+
+
+
+
+                                                       12
+8. Risk Postures
+Low Earth Orbit (< 30 Days)                                  2x2         Accepted with Monitoring
+  Operations
+   •   LxC Drivers for Likelihood: (Low) <0.1% probability of inadequate nutrition due to short
+       duration of mission.
+
+   •   LxC Drivers for Consequence: (Minor impact) – In these short duration missions with regular
+       resupply, any potential weight loss and inadequate nutrition are likely associated with only
+       minor health and performance decrements
+
+   •   Rationale for Risk Disposition: Risk is Accepted with Monitoring. Dietary intake and body mass
+       must be monitored to meet MedB, regular resupply at the required upmass as defined in the
+       NASA STD 3001, and with galley infrastructure as defined in NASA STD 3001. Optimization of
+       food system is desired.
+
+   •   DRM Specific Assumptions: Regular resupply
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Low Earth Orbit (< 30 Days)
+                                                             1x1                  Accepted
+  Long Term Health
+   •   LxC Drivers for Likelihood: (Low) Mass and infrastructure limitations on short duration missions
+       increase the likelihood of reduced intake and post-flight nutritional deficiencies that fail to
+       satisfy standards, but qualitatively remains a low risk
+
+   •   LxC Drivers for Consequence: (Temporary impact) Mission conditions may exacerbate post-
+       flight recovery of food and nutrition deficits and impacts, including other risks/consequences
+       (e.g., cancer risk, musculoskeletal risks) but are short term with no long-term impact on quality
+       of life
+
+   •   Rationale for Risk Disposition: Risk is Accepted, No anticipated LTH impact on quality of life for
+       DRM
+
+   •   DRM Specific Assumptions: Regular resupply
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Low Earth Orbit (30 d – 1 yr)                                5x2        Accepted with Optimization
+  Operations
+                                                   13
+   •   LxC Drivers for Likelihood: (Very High) >10%. Although adequate nutrition/safe food is possible
+       in 6m missions, empiric and historical evidence of the ISS program has shown >10% of long
+       duration crew have lost weight or been dehydrated. 40% of ISS crews were dehydrated using
+       urine osmolality and American College of Sports Medicine (ACSM) guidelines, and >8% were
+       clinically dehydrated, and serum sodium > 145 nmol/L. Hydration data 2006-2018, n=65.
+       Previous research showed 34% of crews lost more than 5% of body weight from 2000 to 2017
+       (E1-E57). Medical data from pre- and in-flight weight measures showed 25% of crew from 2000-
+       2024 (E1-E72) lost more than 5% of body mass while in flight.
+
+   •   LxC Drivers for Consequence: (Minor Impact) For these long LEO missions with regular resupply
+       and with adequate ground assets on landing for recovery, the dehydration and weight loss have
+       led to minor mission impacts.
+
+   •   Rationale for Risk Disposition: Risk is Accepted with Optimization of food system. Crew is
+       frequently required to consume food past it’s best if used-by-date. We have yet to fly a food
+       system that meets the nutritional requirements (e.g., insufficient fruits and vegetables,
+       insufficient omega-3 sources, insufficient choline, excess fat and cholesterol, sodium, and iron).
+       Crew preference and food choices impact nutritional intake. Data shows that astronauts make
+       better food choices as the system improves.
+
+   •   DRM Specific Assumptions: Regular resupply
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Low Earth Orbit (30 d – 1 yr)                                3x2        Accepted with Monitoring
+  Long Term Health
+   •   LxC Drivers for Likelihood: Terrestrial evidence indicates that inadequate nutritional intake can
+       impact many physiological systems within days to weeks. In missions up to a year it has been
+       shown that muscle and bone have been impacted and nutrition contributes to these. This
+       likelihood has been assessed to be moderate for 30d-1yr LEO. Other risks assume adequate
+       food/nutrition, this accounts for excess LTH risk due to lack of adequate food system during
+       DRM.
+
+   •   LxC Drivers for Consequence: (Minor Impact) Mission conditions may exacerbate post-flight
+       recovery of food and nutrition deficits and impacts, including other risks/consequences (e.g.,
+       Radiation Carcinogenesis Risk, SANS Risk, musculoskeletal risks, etc.) but are short term with
+       manageable long-term impact on quality of life. Other risks assume adequate food/nutrition,
+       this accounts for excess LTH risk due lack of adequate food system during DRM.
+
+   •   Rationale for Risk Disposition: Accepted with monitoring of clinical nutritional status of crew
+       post-flight. We have no data from flight that would allow us to know what the physiological
+       decrements would be compared to an optimal food system. Immune, Cardio, Muscle, Bone,
+       etc... are all known to be impacted by inadequate caloric intake, let alone because of limited
+
+                                                   14
+       food choices.
+
+   •   DRM Specific Assumptions: Regular resupply
+
+   •   DRM Specific Evidence/Level of Evidence:
+
+
+
+
+Lunar Orbital (< 30 Days)                                   5x2       Accepted with Optimization
+   Operations
+   •   LxC Drivers for Likelihood: (Very High) >10%. There are more constraints on the food system
+       (mass & volume, storage conditions, food warmer, water dispensing), prepositioning of food,
+       lack of preference) than on previous missions with this duration and the impacts have not been
+       evaluated. 40% of ISS crews were dehydrated using urine osmolality and American College of
+       Sports Medicine (ACSM) guidelines, and >8% were clinically dehydrated, and serum sodium >
+       145 nmol/L. Hydration data 2006-2018, n=65. Previous research showed 34% of crews lost more
+       than 5% of body weight from 2000 to 2017 (E1-E57). Medical data from pre- and in-flight weight
+       measures showed 25% of crew from 2000-2024 (E1-E72) lost more than 5% of body mass while
+       in flight.
+
+   •   LxC Drivers for Consequence: (Minor Impact) For a <30 day mission with no EVAs and with
+       adequate ground assets on landing for recovery, the dehydration and weight loss should have
+       minor mission impacts. The consequence may increase due to unpredicted changes in nutritional
+       needs, increased radiation exposure, and behavioral health issues.
+
+   •   Rationale for Risk Disposition: Risk is Accepted with Optimization due to short duration, but
+       validation of requirements is needed, and optimization of food system is required. We have yet
+       to fly a food system that meets the nutritional requirements (e.g., insufficient fruits and
+       vegetables, insufficient omega-3 sources, insufficient choline, excess fat and cholesterol,
+       sodium, and iron). Mass and volume restrictions on food will result in higher energy and lower
+       nutrient densities (i.e., less fruits and vegetables). This will increase health and performance
+       risks (e.g., cognitive, behavioral, immune due to decrease in micronutrients and bioactive
+       compounds). Vehicles are currently planning to store food outside of temperature limits and
+       potentially include depressurization events, and the risk to nutrition is currently unknown.
+
+   •   DRM Specific Assumptions: Assumes there are no EVAs. If there are planned EVAs, posture
+       would have to be re-evaluated. No crew personalization. Current food provisioning and
+       preparation capability for Lunar Orbital missions do not meet NASA Standard 3001.
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Lunar Orbital (< 30 Days)
+                                                            3x2        Accepted with Monitoring
+   Long Term Health
+
+                                                  15
+   •   LxC Drivers for Likelihood: (Moderate) Terrestrial evidence indicates that inadequate nutritional
+       intake can impact many physiological systems within days to weeks. In missions up to a year it
+       has been shown that muscle and bone have been impacted and nutrition contributes to these.
+       This likelihood has been assessed to be moderate for missions less than 30 days beyond LEO.
+       Other risks assume adequate food/nutrition, this accounts for excess LTH risk due to lack of
+       adequate food system during DRM. Likelihood same as 30d-1 yr LEO due to food system
+       constraints and possibility of inadequate intake.
+
+   •   LxC Drivers for Consequence: (Minor Impact) Mission conditions may exacerbate post-flight
+       recovery of food and nutrition deficits and impacts, including other risks/consequences (e.g.,
+       Radiation Carcinogenesis Risk, SANS Risk, musculoskeletal risks, etc.) but are short term with
+       manageable long-term impact on quality of life. Other risks assume adequate food/nutrition,
+       this accounts for excess LTH risk due to lack of adequate food system during DRM.
+
+   •   Rationale for Risk Disposition: Accepted with monitoring of clinical nutritional status of crew
+       post-flight. We have no data from flight that would allow us to know the long-term health
+       implications of inadequate nutrition during high radiation lunar orbital missions.
+
+   •   DRM Specific Assumptions: Assumes there are no EVAs. If there are planned EVAs, posture
+       would have to be re-evaluated. No crew personalization. Current food provisioning and
+       preparation capability for Lunar Orbital missions do not meet NASA Standard 3001.
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Lunar Orbital (30 d – 1 yr)                                  5x3           Requires Mitigation
+   Operations
+
+   •   LxC Drivers for Likelihood: In-mission (Ops) (Very High) >10%. There are more constraints on
+       the food system (mass & volume, storage conditions, food warmer, water dispensing),
+       prepositioning of food, lack of preference than on previous missions with this duration and the
+       impacts have not been evaluated. 40% of ISS crews were dehydrated using urine osmolality and
+       ACSM guidelines and >8% were clinically dehydrated, and serum sodium > 145 nmol/L,
+       Hydration data 2006-2018, n=65. Previous research showed 34% of crews lost more than 5% of
+       body weight from 2000 to 2017 (E1-E57). Medical data from pre- and in-flight weight measures
+       showed 25% of crew from 2000-2024 (E1-E72) lost more than 5% of body mass while in flight.
+
+   •   LxC Drivers for Consequence: (Significant) and severe consequence (respectively) of inadequate
+       nutrition and illness and unknown consequence to performance (error rate and ability to meet
+       mission objectives) with inadequate nutrition. Fluid intake, which is intertwined with food intake
+       is critical for health and performance. Dehydration is known to be associated with performance,
+       cognition, cardiovascular function, and thermoregulation. ISS astronauts have documented
+       higher core temps during flight, especially after exercise. The consequence may increase due to
+       unpredicted changes in nutritional needs, increased radiation exposure, and behavioral health
+       issues.
+
+
+                                                  16
+   •   Rationale for Risk Disposition: Requires Mitigation Duration of mission, prepositioning with the
+       potential for crew changes and other vehicle delays, as well as resource constraints resulting in
+       food restrictions such as reduced caloric provisioning, less time for crew to eat, and no or
+       limited food preparation infrastructure accompanied by limited or no resupply are all in lunar
+       trade space. Mass and volume restrictions on food will result in higher energy and lower
+       nutrient densities (i.e., less fruits and vegetables). This will increase health and performance
+       risks (e.g., cognitive, behavioral, immune due to decrease in micronutrients and bioactive
+       compounds). Vehicles are currently planning to store food outside of temperature limits and
+       potentially include depressurization events, and the risk to nutrition is currently unknown.
+
+   •   DRM Specific Assumptions: This includes the assumption that there are no EVAs. If so, posture
+       would have to be re-evaluated. No crew personalization. Current food provisioning and
+       preparation capability for Lunar Orbital missions do not meet NASA Standard 3001.
+
+   •   DRM Specific Evidence/Level of Evidence: 1-Strong
+
+
+
+
+Lunar Orbital (30 d – 1 yr)                                 4x2            Requires Mitigation
+   Long Term Health
+   •   LxC Drivers for Likelihood: (Moderate) Terrestrial evidence indicates that inadequate nutritional
+       intake can impact many physiological systems within days to weeks. In missions up to a year it
+       has been shown that muscle and bone have been impacted and nutrition contributes to these.
+       Other risks assume adequate food/nutrition, this accounts for excess LTH risk due to lack of
+       adequate food system during DRM. Higher likelihood than LEO due to food system constraints
+       and possibility of inadequate intake over longer time period.
+
+   •   LxC Drivers for Consequence: (Minor Impact) Mission conditions may exacerbate post-flight
+       recovery of food and nutrition deficits and impacts, including other risks/consequences (e.g.,
+       cancer risk, SANS, musculoskeletal risks) but are short term with manageable long-term impact
+       on quality of life
+
+   •   Rationale for Risk Disposition: Requires Mitigation Inadequate food and nutrition in higher
+       radiation environment on these missions will increase risk of carcinogenesis, along with
+       potential long-term impacts to cardiovascular, ocular, and bone health risks. We have no data
+       from flight that would allow us to know the long-term health implications of inadequate food
+       intake and nutritional status during high radiation lunar orbital missions
+
+   •   DRM Specific Assumptions: This includes the assumption that there are no EVAs. If so, posture
+       would have to be re-evaluated. No crew personalization. Current food provisioning and
+       preparation capability for Lunar Orbital missions do not meet NASA Standard 3001.
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+                                                  17
+Lunar Orbital + Surface(< 30 Days)                            5x3            Requires Mitigation
+   Operations
+   •   LxC Drivers for Likelihood: (Very High) >10%. There are more constraints on the food system
+       (mass & volume, storage conditions, food warmer, water dispensing), prepositioning of food,
+       lack of preference) than on previous missions with this length of time and EVA tempo and the
+       impacts have not been evaluated. 40% of ISS crews were dehydrated using urine osmolality and
+       ACSM guidelines, and >8% were clinically dehydrated, and serum sodium > 145 nmol/L.
+       Hydration data 2006-2018, n=65. Previous research showed 34% of crews lost more than 5% of
+       body weight from 2000 to 2017 (E1-E57). Medical data from pre- and in-flight weight measures
+       showed 25% of crew from 2000-2024 (E1-E72) lost more than 5% of body mass while in flight.
+
+   •   LxC Drivers for Consequence: : Significant and severe consequence (respectively) of inadequate
+       nutrition and illness and unknown consequence to performance (error rate and ability to meet
+       mission objectives) with inadequate nutrition. Fluid intake, which is intertwined with food intake
+       is critical for health and performance. Dehydration and caloric intake are known to be
+       associated with performance, cognition, cardiovascular function, and thermoregulation. ISS
+       astronauts have documented higher core temps during flight, especially after exercise. EVAs (>5)
+       expect high performance. The consequence may increase due to unpredicted changes in
+       nutritional needs, increased radiation exposure, and behavioral health issues.
+
+   •   Rationale for Risk Disposition: (Requires Mitigation) An adequate food system is needed.
+       Prepositioning with the potential for crew changes and other vehicle delays, as well as resource
+       constraints resulting in food restrictions such as reduced caloric provisioning, less time for crew
+       to eat, and no or limited food preparation infrastructure accompanied by limited or no resupply
+       with increased extravehicular activity (EVA) frequency and caloric expenditure, are all in lunar
+       trade space. Mass and volume restrictions on food will result in higher energy and lower
+       nutrient densities (i.e., less fruits and vegetables). This will increase health and performance
+       risks (e.g., cognitive, behavioral, immune due to decrease in micronutrients and bioactive
+       compounds). Vehicles are currently planning to store food outside of temperature limits and
+       potentially include depressurization events, and the risk to nutrition is currently unknown.
+
+   •   DRM Specific Assumptions: No crew personalization. Current food provisioning and preparation
+       capability for Lunar Orbital + Surface missions do not meet NASA Standard 3001
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Lunar Orbital + Surface (< 30 Days)                           3x2        Accepted with Monitoring
+   Long Term Health
+   •   LxC Drivers for Likelihood: (Moderate) Terrestrial evidence indicates that inadequate nutritional
+       intake can impact many physiological systems within days to weeks. In missions up to a year it
+       has been shown that muscle and bone have been impacted and nutrition contributes to these.
+       This likelihood has been assessed to be moderate for missions less than 30 days beyond LEO.
+       Other risks assume adequate food/nutrition, this accounts for excess LTH risk due lack of
+
+                                                   18
+       adequate food system during DRM. Likelihood same as 30d-1 yr LEO due to food system
+       constraints and possibility of inadequate intake.
+
+   •   LxC Drivers for Consequence: (Minor Impact) Mission conditions may exacerbate post-flight
+       recovery of food and nutrition deficits and impacts, including other risks/consequences (e.g.,
+       cancer risk, SANS, musculoskeletal risks) but are short term with manageable long-term impact
+       on quality of life
+
+   •   Rationale for Risk Disposition: Accepted with monitoring of clinical nutritional status of crew
+       post-flight. We have no data from flight that would allow us to know the long-term health
+       implications of inadequate nutrition during high radiation lunar orbital missions.
+
+   •   DRM Specific Assumptions: No crew personalization. Current food provisioning and preparation
+       capability for Lunar Orbital + Surface missions do not meet NASA Standard 3001
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Lunar Orbital + Surface (30 d – 1 yr)                         5x4            Requires Mitigation
+   Operations
+   •   LxC Drivers for Likelihood: (Very High) >10%. There are more constraints on the food system
+       (mass & volume, storage conditions, food warmer, water dispensing), prepositioning of food,
+       lack of preference) than on previous missions with this length of time and EVA tempo and the
+       impacts have not been evaluated. 40% of ISS crews were dehydrated using urine osmolality and
+       ACSM guidelines, and >8% were clinically dehydrated, and serum sodium > 145 nmol/L.
+       Hydration data 2006-2018, n=65. Previous research showed 34% of crews lost more than 5% of
+       body weight from 2000 to 2017 (E1-E57). Medical data from pre- and in-flight weight measures
+       showed 25% of crew from 2000-2024 (E1-E72) lost more than 5% of body mass while in flight.
+
+   •   LxC Drivers for Consequence: Significant and severe consequence (respectively) of inadequate
+       nutrition and illness and unknown consequence to performance (error rate and ability to meet
+       mission objectives) with inadequate nutrition. Fluid intake, which is intertwined with food intake
+       is critical for health and performance. Dehydration and caloric intake are known to be
+       associated with performance, cognition, cardiovascular function, and thermoregulation. ISS
+       astronauts have documented higher core temps during flight, especially after exercise. EVAs (>5)
+       expect high performance. The consequence may increase due to unpredicted changes in
+       nutritional needs, increased radiation exposure, and behavioral health issues.
+   •
+
+   •   Rationale for Risk Disposition: An adequate food system is needed. Duration of mission,
+       prepositioning with the potential for crew changes and other vehicle delays, as well as resource
+       constraints resulting in food restrictions such as reduced caloric provisioning, less time for crew
+       to eat, and no or limited food preparation infrastructure accompanied by limited or no resupply
+       with increased extravehicular activity (EVA) frequency and caloric expenditure, are all in lunar
+       trade space. Mass and volume restrictions on food will result in higher energy and lower
+
+                                                   19
+       nutrient densities (i.e., less fruits and vegetables). This will increase health and performance
+       risks (e.g., cognitive, behavioral, immune due to decrease in micronutrients and bioactive
+       compounds). Vehicles are currently planning to store food outside of temperature limits and
+       potentially include depressurization events, and the risk to nutrition is currently unknown.
+
+   •   DRM Specific Assumptions: No crew personalization. Current food provisioning and preparation
+       capability for Lunar Orbital + Surface missions do not meet NASA Standard 3001
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Lunar Orbital + Surface (30 d – 1 yr)                         4x3            Requires Mitigation
+   Long Term Health
+   •   LxC Drivers for Likelihood: (High) Terrestrial evidence indicates that inadequate nutritional
+       intake can impact many physiological systems within days to weeks. In missions up to a year it
+       has been shown that muscle and bone have been impacted and nutrition contributes to these.
+       Other risks assume adequate food/nutrition, this accounts for excess LTH risk due to lack of
+       adequate food system during DRM. Higher likelihood than Lunar Orbital due to food system
+       constraints and possibility of inadequate intake
+
+   •   LxC Drivers for Consequence: (Moderate) Mission conditions may exacerbate post-flight
+       recovery of food and nutrition deficits and impacts, including other risks/consequences (e.g.,
+       cancer risk, SANS, musculoskeletal risks) but are short term with manageable long-term impact
+       on quality of life. Higher consequence than Lunar Orbital due to food system constraints, and
+       possibility of inadequate intake.
+
+   •   Rationale for Risk Disposition: Requires Mitigation Inadequate food and nutrition in higher
+       radiation environment on these missions will increase risk of carcinogenesis, along with
+       potential long-term impacts to cardiovascular, ocular, and bone health risks. We have no data
+       from flight that would allow us to know the long-term health implications of inadequate food
+       intake and nutritional status during high radiation lunar orbital missions.
+
+   •   DRM Specific Assumptions: No crew personalization. Current food provisioning and preparation
+       capability for Lunar Orbital + Surface missions do not meet NASA Standard 3001
+
+   •   DRM Specific Evidence/Level of Evidence: 2-Moderate
+
+
+
+
+Mars Preparatory (<1 yr.)                                     5x4            Requires Mitigation
+  Operations
+   •   LxC Drivers for Likelihood: (Very High) >10%. There are expected to be more constraints on the
+       food system (mass & volume, food warmer, water dispensing), prepositioning of food, lack of
+       preference) than on previous missions with this length of time and the impacts have not been
+
+                                                   20
+       evaluated. 40% of ISS crews were dehydrated using urine osmolality and ACSM guidelines, and
+       >8% were clinically dehydrated, and serum sodium > 145 nmol/L. Hydration data 2006-2018,
+       n=65. Previous research showed 34% of crews lost more than 5% of body weight from 2000 to
+       2017 (E1-E57). Medical data from pre- and in-flight weight measures showed 25% of crew from
+       2000-2024 (E1-E72) lost more than 5% of body mass while in flight.
+
+   •   LxC Drivers for Consequence: (Severe) Significant and severe consequence (respectively) of
+       inadequate nutrition and illness and unknown consequence to performance (error rate and
+       ability to meet mission objectives) with inadequate nutrition. Fluid intake, which is intertwined
+       with food intake is critical for health and performance. Dehydration and caloric intake are
+       known to be associated with performance, cognition, cardiovascular function, and
+       thermoregulation. ISS astronauts have documented higher core temps during flight, especially
+       after exercise. Assumes requiring re-supply is major loss of mission objectives. The consequence
+       may increase due to unpredicted changes in nutritional needs, increased radiation exposure, and
+       behavioral health issues.
+
+   •   Rationale for Risk Disposition: Mitigation is required to provide a food system. Risks would
+       generally be similar to lunar orbital long missions, although increased stress of comm delays,
+       increased autonomy and dependence on equipment, and further constrained food system
+       including lack of resupply could further increase stress and schedule constraints. All of this could
+       impact dietary intake and nutritional status. Further characterization related to
+       performance/mission objectives is also needed.
+
+   •   DRM Specific Assumptions: No resupply, prepositioned food system, no crew personalization,
+       expect food provisioning and preparation capability to meet NASA Standard 3001 but there is
+       currently a shelf-life capability gap
+
+   •   DRM Specific Evidence/Level of Evidence: 1-Strong
+
+
+
+
+Mars Preparatory (<1 yr.)
+                                                              5x3            Requires Mitigation
+  Long Term Health
+
+   •   LxC Drivers for Likelihood: Terrestrial evidence indicates that inadequate nutritional intake can
+       impact many physiological systems within days to weeks. In missions up to a year it has been
+       shown that muscle and bone have been impacted and nutrition contributes to these. Other risks
+       assume adequate food/nutrition, this accounts for excess LTH risk due lack of adequate food
+       system during DRM. Higher likelihood than Lunar Orbital due food system constraints and
+       possibility of inadequate intake.
+
+   •   LxC Drivers for Consequence: Mission conditions may exacerbate post-flight recovery of food
+       and nutrition deficits and impacts, including other risks/consequences (e.g., cancer risk, SANS,
+       musculoskeletal risks) but are short term with manageable long-term impact on quality of life.
+       Higher consequence than Lunar Orbital due to food system constraints, and possibility of
+       inadequate intake.
+
+
+                                                   21
+  •   Rationale for Risk Disposition: (Requires Mitigation) Inadequate food and nutrition in higher
+      radiation environment on these missions will increase risk of carcinogenesis, along with
+      potential long-term impacts to cardiovascular, ocular, and bone health risks. We have no data
+      from flight that would allow us to know the long-term health implications of inadequate food
+      intake and nutritional status during high radiation lunar orbital missions.
+
+  •   DRM Specific Assumptions: No resupply, prepositioned food system, no crew personalization,
+      expect food provisioning and preparation capability to meet NASA Standard 3001 but there is
+      currently a shelf-life capability gap
+
+  •   DRM Specific Evidence/Level of Evidence: 1-Strong
+
+
+
+
+Mars Planetary (730-1224 d)                                    5x5             Requires Mitigation
+  Operations
+  •   LxC Drivers for Likelihood: (Requires Mitigation) Inadequate food and nutrition in higher
+      radiation environment on these missions will increase risk of carcinogenesis, along with
+      potential long-term impacts to cardiovascular, ocular, and bone health risks. We have no data
+      from flight that would allow us to know the long-term health implications of inadequate food
+      intake and nutritional status during high radiation lunar orbital missions.
+
+  •   LxC Drivers for Consequence: (Loss of Mission Objectives/Death) Lack of adequate food system
+      (nutrition, acceptability, variety, and safety) and food shelf life will lead to significant nutritional
+      deficiency and ultimately death. Food variety standards and refrigeration and freezing standards
+      are not currently in 3001 and would need to be defined and added. The situation improves with
+      adequate cold stowage. The food system mass may also exceed resource capabilities.
+
+  •   Rationale for Risk Disposition: (Requires Mitigation) Mitigation is required to provide a food
+      system that can maintain nutritious, acceptable, and safe food for five years and promotes
+      health within resource restrictions (reduced mass/volume). In addition to food system
+      constraints and lack of resupply, increased stress of comm delays, increased autonomy and
+      dependence on equipment will all add to risks of impact on dietary intake and nutritional status,
+      as well as failure of nutrition to support other systems (e.g., cardiovascular, musculoskeletal,
+      behavioral, ocular, immune). Risk related to performance/mission objectives requires further
+      characterization.
+
+  •   DRM Specific Assumptions: No resupply, prepositioned food system, no crew personalization,
+      expect food provisioning and preparation capability to meet NASA Standard 3001 but there is
+      currently a shelf-life capability gap
+
+  •   DRM Specific Evidence/Level of Evidence: 1-Strong
+
+
+
+
+Mars Planetary (730-1224 d)                                    5x3             Requires Mitigation
+
+                                                    22
+Long Term Health
+•   LxC Drivers for Likelihood: (Very high) Terrestrial evidence indicates that inadequate nutritional
+    intake can impact many physiological systems within days to weeks. In missions up to a year it
+    has been shown that muscle and bone have been impacted and nutrition contributes to these.
+    Greater than 1 in 10.
+
+•   LxC Drivers for Consequence: (Moderate) Mission conditions may exacerbate post-flight
+    recovery of food and nutrition deficits and impacts, including other risks/consequences (e.g.,
+    cancer risk, SANS, musculoskeletal risks) but are short term with manageable long-term impact
+    on quality of life. Higher consequence than Lunar Orbital due to food system constraints and
+    deficiencies, and possibility of inadequate intake. Unknown consequence of Premature
+    Death/Permanent Disability. Some evidence in historical accounts on exploration missions with
+    significant food restrictions, even after return and recovery.
+
+•   Rationale for Risk Disposition: (Requires Mitigation) Inadequate food and nutrition in higher
+    radiation environment on these missions could increase risk of carcinogenesis, along with
+    potential long-term impacts to cardiovascular, ocular, and bone health risks. We have no data
+    from flight that would allow us to know the long-term health implications of inadequate food
+    intake and nutritional status during high radiation lunar orbital missions.
+
+•   DRM Specific Assumptions: No resupply, prepositioned food system, no crew personalization,
+    expect food provisioning and preparation capability to meet NASA Standard 3001 but there is
+    currently a shelf-life capability gap
+
+•   DRM Specific Evidence/Level of Evidence: 1-Strong
+
+
+
+
+                                               23
+9. Overall Assessment of the Evidence
+    The risk of impacts due to increased food system restrictions in spaceflight is not yet quantified, and yet
+    supported by evidence that:
+       High-performing individuals told that they need to eat to maintain health and performance may not eat
+        enough if they do not like what is available.
+        ─   Supporting evidence - ISS and analog debriefs.
+       Crewmembers self-selecting or avoiding foods / food categories causes strife among crew.
+        ─   Supporting evidence - ISS debriefs.
+
+
+     Extensive terrestrial evidence that a healthy diet can mitigate disease state, but
+
+      ISS Food System:
+
+        ─  Does not Provide enough foods generally considered as part of a healthy diet
+        ─ Does not meet nutritional requirements
+        ─ Should include:
+          • More fruits and vegetables
+
+          • More sources of omega-3 fatty acids
+
+          • Lower sodium and iron
+
+          • Adequate energy, protein, calcium, and potassium
+
+
+
+    Extensive terrestrial evidence that food and nutrition effect health and performance
+
+      Scant spaceflight evidence of how the spaceflight diet or increasing food system restrictions impact health and
+        performance
+
+
+
+
+                          Artemis cross-program risk
+
+                              Despite lack of evidence on health and performance
+                              impacts, the Artemis food system will be limited due
+                              to vehicle and equipment capability limitations,
+                              reduction in calories, reduction in variety and
+                              beverage options. The food system will likely be
+                              exposed to vehicle environment parameters outside
+                              of the current certification range.
+
+
+
+
+                                                         24
+10. State of Knowledge – New Evidence
+Summary
+
+Nutritional Requirements were reviewed by an extramural panel of experts
+
+Nutritional Requirements for Exploration Missions up to 365 days developed including Estimated energy
+requirements (EERs) calculated with activity factor, age, body mass (kg), and height (m)
+
+Crew receive foods on ISS that they may not receive on exploration missions
+    Personal preference items augment the nominal food system and supplement micronutrients
+    Fresh fruits and vegetables received with almost every visiting vehicle, approximately once per quarter
+    Up to 25% of current food choices come from preference and fresh foods.
+
+Despite the variety and preference available on ISS, the food system is shelf-stable and limited in variety and choice
+due to logistical constraints
+    Is consistently under-consumed in most human spaceflight programs to date, which has contributed to weight
+        loss and muscle and cardiovascular deconditioning even over short durations, and bone loss over longer
+        missions
+
+Current food system does not meet nutrition and acceptability requirements to support Mars missions or extensive
+prepositioning for lunar missions
+
+Detailed dietary intake data document nutritional limitations of the ISS food system and the potential impacts on
+health and performance.
+             Inadequate food (energy) and fluid intake – body mass loss, dehydration
+             Excess protein intake – increased renal stone risk
+             Excess iron intake – increased oxidative stress/DNA damage, bone loss
+             Excess sodium intake – effects on bone and other systems
+             Insufficient fruit and vegetable intake – impact on nutrient intakes: phytochemicals (carotenoids,
+                flavonoids, etc.)
+             Inadequate fiber intake – effects on gastrointestinal (GI) health and microbiome
+             Excess cholesterol and saturated fat intake and effects on lipids and cardiovascular health
+             Insufficient omega-3 fatty acid intakes
+
+Body mass loss is associated with bone and muscle loss, impaired cardiovascular fitness, increased stone risk,
+increased oxidative stress, etc.
+
+The current Food and Nutrition system is suboptimal. The ISS Food System does not meet ISS or Exploration mission
+requirements.
+            The risk posture is increasing – our starting point for food and nutrition will be worse than ever as we
+               move from ISS to Lunar/Gateway, and then to Exploration missions, as resources become more
+               constrained.
+            Has not been evaluated for impacts to cognitive, performance, and most health outcomes in
+               spaceflights, although decrements are expected based on ground and military data
+
+Longer missions, without preference foods, without cargo deliveries of fresh fruits/vegetables, with stricter mass and
+volume constraints, and longer prepositioning will increase risk of clinical issues
+
+Optimizing the food system may offer a countermeasure to mitigate health risks on long-duration exploration
+                                                           25
+missions and reduce the burden to a constrained medical system
+            Increasing fruit and vegetable intake, sources of omega-3 fatty acids, and balancing other nutrients is
+               critical for crew health and performance, demonstrated by analog subjects with lower cholesterol levels,
+               lower stress (i.e. cortisol levels), better cognitive speed, accuracy, and attention, and a more stable
+               microbiome and metatranscriptome than subjects consuming the standard ISS diet (study done 2017).
+            Terrestrial data demonstrate that adequacy of diet/nutrition can mitigate (or exacerbate) disease states,
+               including cardiovascular, cancer, sarcopenia, osteoporosis, etc. Although data for the spaceflight food
+               system for these lengths of time does not exist, we expect the same to be true for spaceflight.
+
+
+
+New Evidence
+
+Food Needs Are Risk Driver when Mission Profiles Change
+   •   Recent unexpected increase in number of crew on ISS resulted in greater need for food resupply
+   •   Food resupply replaced science payloads; science mission objectives are at risk
+   •   Mission objectives, crew loss, and mission loss risk increase if there is food loss or inadequate food available
+   •   Mission plans will change due to crew food needs
+
+
+
+11. Metrics
+                                                      Body Mass
+
+
+
+
+                                                            26
+                                                                    Serum Sodium
+
+
+
+
+Fig top: Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and Nutrition, 2nd edition (NP-2021-03-003-JSC). Houston, TX:
+National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 2021.
+
+Watso and Farquhar, Nutrients 2019. © 2019 The Authors. This is an open access article under the terms of the Creative Commons Attribution License (CC BY).
+
+
+
+
+12. Risk Mitigation Framework - Color Changes
+          How do we know when we go from red  yellow?
+             Demonstrate food system can provide adequate nutrition, safety, and acceptability for the mission
+              duration
+             Ability to validate crew are consuming adequate nutrition from the available diet
+              ─   Monitor nutritional status of crews in-flight and clinical status in-flight and post-flight
+          How do we know when we go from yellow  green?
+             Demonstrate nutritional requirements are optimized to serve as a countermeasure for other health
+              and performance risks
+              ─    Examples include cardiovascular, musculoskeletal, immune, behavioral health and cognition.
+
+             Validate that flight and analog crews consuming those requirements exhibit improvements in markers
+              of other health risks.
+
+
+
+
+                                                                                27
+13. Risk → Standard → Requirements Flow
+
+
+
+
+                                          28
+14. Proposed Standard Updates
+Recommendation for requirement addition to NASA-STD-3001 to include food variety availability for
+crew.
+    • OCHMO Standards Team will review suggestions and other received comments that could
+      impact Food and Nutrition Risk in the next revision of NASA-STD-3001.
+
+Need to add temperature and pressure requirements.
+
+Note:
+Since last CR, additions have been made to NASA-STD-3001 that support this risk, which include:
+    • [V2 7110] Food and Impacts to Environmental Systems
+    • [V2 7111] Food Safety
+    • [V2 7112] Food Production Facility
+
+
+
+
+15. High Value Risk Mitigation Targets
+        1. Determine the:
+            Interaction of food and nutrition with other human health risks – e.g., impact
+             of nutrition on sleep, behavioral health, cognition, cardiovascular and
+             immune health, physical performance, etc. – in all mission scenarios (HRP)
+           Impacts of food system restrictions on food intake, mission objectives, health, and
+            performance, including cognitive outcomes in both ground analogs and spaceflight
+            (HRP, MCO, Space Biology, Gateway, Orion, HLS, EHP all have a part)
+             Exploration food systems with preparation limitations and less variety and
+               choice (e.g., Gateway due to prepositioning, Mars due lack of resupply) could
+               lead to an increased risk to both physical and psychological health and
+               performance as a result of:
+              – Prolonged inadequate intake and nutritional deficiencies
+              – Social conflict and crew cohesion issues
+             Test platforms:
+              – Ground analog – Crew Health and Performance Exploration Analog (CHAPEA)
+              – In-Flight – ISS
+       **This information is needed to determine human health and performance risk trades
+       with food system resources to define food system requirements and validate the food
+       system plan for exploration missions.
+
+       2. Determine the requirements, methods, and technologies that can provide a food system
+           that is safe, nutritious, and acceptable for at least five years, within resource limitations. This
+           includes understanding the impact of the space environment on the food system, including
+           on seeds/plants, ingredients, etc. (HRP, MCO, Space Biology, Gateway, Orion, HLS, EHP all
+           have a part)
+       **Storage condition impacts on nutrition and acceptability across the food system (whether
+       packaged or crops) is needed to determine food system resource requirements, such as cold
+       storage, and validate the food system plan for exploration missions. Validation will occur with
+
+                                                     29
+     nutrition, acceptability, safety, variety, and preparation requirements in the given vehicle
+     conditions and schedule of the mission.
+
+     3. Add requirements on temperature and pressure and on food variety to NASA-3001
+        (OCHMO).
+
+     4. Establish dietary tracking on all vehicles for both crew and ground monitoring (MCO).
+
+
+
+
+16. Conclusions
+   No changes to LXC
+   Updates were made to include new risk from high temperature and potential pressure changes
+    on Artemis vehicles
+   Operational data added in addition to research data that similarly supports risk posture
+   Minor edits were included throughout
+
+
+
+
+17. Recommendations Accepted
+   The revisions:
+       • Did not change the Likelihood x Consequence (LxC) scores assessed against
+           updated Design Reference Missions (DRMs) and the 5x5 Risk Matrix
+       • Provide updated evidence that supports current LxCs.
+
+
+
+
+                                                 30
+18. Acronyms and Abbreviations
+     ACD                   Artemis Campaign Development
+     Aerobic Risk          Risk of Reduced Physical Performance Capabilities Due to Reduced Aerobic
+                           Capacity ASCM American College of Sports Medicine
+     Behavioral Risk       Risk of Adverse Cognitive or Behavioral Conditions and Psychiatric Disorder
+     Bone Fracture Risk    Risk of Bone Fracture due to Spaceflight-induced Changes to Bone
+     Cardiovascular Risk   Risk of Cardiovascular Adaptations Contributing to Adverse Mission
+                           Performance and Health Outcomes
+     CHAPEA                Crew Health and Performance Exploration Analog
+     CMs                   Countermeasures
+     CR                    Change Request
+     DAG                   Directed Acyclic Graph
+     DRM                   Design Reference Mission
+     EER                   Estimated energy requirements
+     EVA                   Extravehicular Activity
+     GFE                   Government Furnished Equipment
+     GI                    gastrointestinal
+     HERA                  Human Exploration Research Analog
+     HLS                   Human Landing System
+     HSEICB                Human Systems Engineering & Integration Control Board
+     HSIA Risk             Risk of Adverse Outcome Due to Inadequate Human Systems Integration
+                           Architecture
+     HSRB                  Human System Risk Board
+     Immune Risk           Risk of Adverse Health Event Due To Altered Immune Response
+     ISS                   International Space Station
+     ISS FIT               ISS Food Intake Tracker
+     kg                    kilogram
+     LEO                   Low Earth Orbit
+     LETS                  Lunar Exploration Transportation Services
+     LM                    Logistics Module
+     LO                    Lunar Orbital
+     LOE                   Levels of Evidence
+     LOS                   Lunar Orbital + Surface
+     LTH                   Long-Term Health
+     LxC                   Likelihood and Consequence
+     m                     meter
+     MedB                  JSC-28913 Medical Requirements Integration Documents Medical
+
+                                                31
+                                Evaluation Documents Volume B
+       Medical Risk             Risk of Adverse Health Outcomes & Decrements in Performance due to
+                                Inflight Medical Conditions
+       Microhost Risk           Risk of Adverse Health Effects Due to Host-Microorganism Interactions
+       Muscle Risk              Risk of Impaired Performance Due to Reduced Muscle Size, Strength &
+                                Endurance nmol/L nanomoles per liter
+       Ops                      Operations
+       Pharm Risk               Risk of Ineffective or Toxic Medications During Long-Duration Exploration
+                                Spaceflight
+       Radiation Carcinogenesis Risk of Radiation Carcinogenesis
+       Renal Stone Risk         Risk of Renal Stone Formation
+       SD                       Space Medicine Operations Division (Division Code)
+       SF                       Human Systems Engineering & Integration Division (Division Code)
+       SK                       Biomedical Research and Environmental Sciences Division (Division Code)
+       Sleep Risk               Risk of Performance Decrements and Adverse Health Outcomes Resulting
+                                from Sleep Loss, Circadian Desynchronization, and Work Overload
+       Team Risk                Risk of Performance and Behavioral Health Decrements Due to Inadequate
+                                Cooperation, Coordination, Communication, and Psychosocial Adaptation
+                                within a Team
+       VTE Concern              Concern of Venous Thromboembolism
+
+
+
+19. Reference Materials
+Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and
+Nutrition, 2nd edition (NP-2021-03-003-JSC). Houston, TX: National Aeronautics and Space Administration
+Lyndon B. Johnson Space Center; 2021.
+
+Watso JC, Farquhar WB. Hydration status and cardiovascular function. Nutrients. 2019 Aug
+11;11(8):1866. https://doi.org/10.3390/nu11081866
+
+Wittbrodt MT, Millard-Stafford M. Dehydration impairs cognitive performance: a meta-analysis. Med Sci
+Sports Exerc. 2018 Nov 1;50(11):2360-8. DOI: 10.1249/MSS.000000000000168
+
+
+
+
+                                                   32
+Appendix - Existing Evidence Base
+       Existing Evidence — Rev C
+
+Stacking the Risks
+Despite these known limitations, mass and resource challenges have driven additional food
+system cuts in each vehicle program. The food system across Artemis is more restricted than any
+vehicle since Gemini, despite that:
+    The entire Artemis mission may be several weeks longer than Gemini
+    Crew is expected to perform at very high levels, both cognitively and physically, even
+     during periods with the greatest food system limitations
+    Crew will be in small vehicles with few health and performance capabilities (e.g.,
+     exercise and medical support)
+    Each program is levying expectations on other programs that have not been
+     communicated or agreed to [e.g., they will eat better on Gateway & Orion, so they can
+     take the cuts on Human Landing System (HLS)]
+
+
+
+
+                                                 33
+Varied Requirements Across Vehicles (New Evidence)
+Artemis Campaign Development (ACD) Risks for Inadequate Food and Nutrition Artemis II-V
+Orion (up to 21 days)             HLS Option A / Lunar
+ No hot or cold potable water     Exploration                  We cannot extrapolate
+                                  Transportation Services      from ISS to define the
+ Wide “ambient” potable water
+                                  (LETS) (Up to 8 days)        potential health and
+ temp range Cumbersome water      Optional Government          performance risks on these
+ dispense method                  Furnished Equipment          Artemis missions
+ No refrigeration                 (GFE)
+ Volume and power limitations for Unknown preparation
+ food warmer                      capabilities
+                                                                        Due to prepositioning and
+ Long food prep time              Potential higher fat                   meal restrictions, food /
+ Reduced calories & flavored      meals (no prior
+                                                                          beverage preferences,
+ beverages                        spaceflight data)
+                                                                          food allergies or food
+Gateway (up to 25 days)           Potential restricted                    restrictions cannot be
+                                  EVA-day mealtimes                          accommodated
+ Hot water TBD
+                                  (30mins x 2)
+ Food warmer capability TBD
+                                  xEVA
+ Delayed Galley ops if Logistics
+ Module (LM) not available        No current capability to
+                                  provide in-suit
+ Prepositioned food shelf         nutrition (though reqt
+ life No cold storage,             exists)
+ even 30+ days                     Optional GFP for EVAs
+General
+ Program requirements
+ tailored, do not always
+ align across programs or
+ to established NA DRM
+ category changes
+ exacerbate requirement
+ deviations
+
+
+
+
+                                                34
+          Existing Evidence — Rev B
+
+      1912 Antarctic expedition – food lost in a crevasse. Ate dog meat as dogs perished.100 g of
+       husky liver
+      >>1000000 IU vitamin A… vitamin A toxicity killed several explorers.
+      “As many expeditions failed due to vitamin C deficiency as due to vitamin A toxicity”
+      In 1753, Lind found that lemons prevent scurvy. Some expeditions failed b/c they brought limes
+       instead (1/2 the
+      amount of vitamin C).
+      Scurvy was considered to have been eliminated. Except on Franklin's last arctic exploration,
+       despite providing 1 ounce lemon juice/d. It is possible that the lemon juice began to ferment
+       and was boiled to prevent this—destroying the ascorbic acid.
+      Lead poisoning due to the soldering of the cans that
+       contained the preserved meats. The technology
+       canning meat was new, patented in 1811, sealing cans
+       with a solder of tin and lead.
+      It is believed that some died from beri beri (thiamine
+       deficiency) due to the baking powder in the biscuits –
+       which destroys thiamine and that was likely their only
+       source.
+
+
+
+
+ Nutrient                Toxicity Symptoms
+ Niacin                  UL= 35 mg. Flushing, itching, headaches, increased intracranial blood flow
+Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and Nutrition, 2nd edition (NP-2021-03-003-JSC).
+Houston, TX: National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 2021.
+
+
+
+
+                                                                    35
+Nutritional Requirements Review
+     In July 2016, an extramural panel of experts to reviewed all of our work and helped establish an
+      updated set of nutritional requirements.
+     The panel had extensive experience with National Academy of Medicine (NAMs) Food and
+      Nutrition Board (FNB), i.e., the group that sets the Daily Recommended Intake (DRIs), including
+      the Chair of the FNB.
+     Based largely on the panel’s recommendation, and evaluation of existing DRIs and Dietary
+      Guidelines for Americans [U.S. Department of Health and Human Services (USDHHS) and United
+      States Department of Agriculture (USDA)], we have developed the Nutritional Requirements for
+      Exploration Missions document.
+
+
+
+
+Estimated energy requirements (EERs) are based on calculations from the NAM Dietary Reference Intake
+(DRI) reports, for Orion using an activity factor of 1.11 (“low active”; higher for ISS and Gateway, lower
+for lunar) along with age, body mass (kg), and height (m) in the following calculations:
+Men:             EER = 622 – 9.53 × Age [y] + 1.11 × (15.9 × Mass [kg] + 539.6 × Height [m])
+Women:           EER = 354 – 6.91 × Age [y] + 1.11 × (9.36 × Mass [kg] + 726 × Height [m])
+
+
+
+
+                                                   36
+Nutritional Requirements for Exploration Missions up to 365 Days (JSC-67378) Houston, TX: National Aeronautics and Space Administration
+Lyndon B. Johnson Space Center; 2020.
+
+
+
+
+                                                                    37
+ISS Standard Food System
+
+
+
+
+ISS Food and Nutrition
+    Crew receive foods on ISS that they may not receive on an exploration mission.
+        • Crew on ISS augment the nominal food system with personal preference items (many of
+            which supplement micronutrients or are too high in fat and sodium).
+        • Crew on ISS receive fresh fruits and vegetables with almost every visiting vehicle,
+            approximately once per month.
+        • Up to 25% of current food choices come from preference and fresh foods.
+                – Many crews comment on the importance of these foods in particular, and the
+                    increased importance of food in general during flight.
+
+Known Limitations/Capability Gaps
+    Despite the variety and preference available on ISS, it’s still a limited system:
+         • Body mass loss still averages >5%.
+         • Crew often comment that they tire of the available variety over six months
+         • Stuster Journals: food in top 10 of most discussed topics
+         • Expedition 56 Top 4 comment: “Given increasing mission duration… fresh fruit and
+             vegetables should no longer be viewed as a luxury”
+    The current food system does not meet ISS nutrition requirements
+         • Sodium, iron, fat, fiber, etc.
+         • Not enough fruits/vegetables, sources of omega-3s
+    The current food system does not meet nutrition and acceptability requirements to support
+     Mars missions or extensive prepositioning for Gateway/lunar missions.
+
+Military and Terrestrial Evidence
+    Terrestrial and military data demonstrate that there are links between food/nutrition intake and
+     other risks, including:
+         • Cardiovascular
+
+                                                38
+           • Musculoskeletal
+           • Behavioral health
+           • Cognition
+           • Immune health
+           • Sleep
+           • Physical performance
+      The military limits the use of Meal Ready to Eat (MREs) to 21 consecutive days to prevent health
+       and performance impacts due to inadequate food consumption.
+
+Findings
+      Data obtained from ISS FIT App document limitations of the food system and the potential
+       impacts on health and performance.
+           • Inadequate food (energy) and fluid intake – body mass loss, dehydration
+           • Excess protein intake – increased renal stone risk.
+           • Excess iron intake – increased oxidative stress/DNA damage, bone loss
+           • Excess sodium intake – effects on bone and other systems
+           • Insufficient fruit and vegetable intake – impact on nutrient intakes: phytochemicals
+                (carotenoids, flavonols, etc.)
+                    – could provide antioxidant protection, Gastrointestinal (GI) and cardiovascular
+                        health, improve behavioral performance/morale
+           • Inadequate fiber intake – effects on GI health and microbiome
+           • Excess cholesterol and saturated fat intake and effects on lipids and cardiovascular
+                health
+           • Insufficient omega-3 fatty acid intakes
+                    – could benefit cardiovascular and bone health, radiation protection
+      Insufficient choline intake – associated with increased oxidative stress
+
+
+
+
+Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and Nutrition, 2nd edition (NP-2021-03-003-JSC).
+Houston, TX: National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 2021.
+
+
+
+
+                                                                    39
+Renal Stone Risk
+
+
+
+
+Image at top left - Smith et al., Nutrients, 2012.© 2012 The Authors. Open-access article distributed under the terms of the Creative Commons
+Attribution License (CC BY).
+Images top right and lower - Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and Nutrition, 2nd
+edition (NP-2021-03-003-JSC). Houston, TX: National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 2021.
+
+
+
+
+Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and Nutrition, 2nd edition (NP-2021-03-003-JSC).
+Houston, TX: National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 2021.
+
+
+
+
+                                                                     40
+Diet effects on bone heath and renal stone risks are significant.
+Terrestrial data document that hydration affects cardio, performance/cognition, etc.
+
+
+
+
+Cholesterol and Saturated Fat Intakes
+
+
+
+                                                                                                          “…Consumption
+                                                                                                          of…cholesterol should be
+                                                                                                          as low as possible, …not
+                                                                                                          to exceed 300 mg/d.”
+
+
+
+
+Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and Nutrition, 2nd edition (NP-2021-03-003-JSC).
+Houston, TX: National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 2021.
+
+
+
+
+                                                                                                            “…Consumption of
+                                                                                                            saturated fat…should
+                                                                                                            be as low as possible,
+                                                                                                            …not to exceed 10% of
+                                                                                                            kcals,”
+
+
+
+
+Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and Nutrition, 2nd edition (NP-2021-03-003-JSC).
+Houston, TX: National Aeronautics and Space Administration Lyndon B. Johnson Space Center; 2021.
+
+
+
+
+                                                                    41
+Vitamin D: Case Study
+This case is to be included in a review article that is in preparation for submission to a journal.
+The case shows that Vitamin D intake can facilitate absorption of inorganic elements. Elevated serum
+copper is associated with headaches, etc.
+
+Insufficient
+    The ISS Food System fails to meet many nutrient requirements, including:
+         • fiber, iron, choline, fat (saturated fats, cholesterol, omega-3 fatty acids), sugar,
+             phosphorus, etc.
+    The ISS Food System does not provide enough foods considered part of a healthy diet:
+         • More fruits and vegetables
+                 – Will increase flavonoid, lycopene, and carotenoid intakes
+         • More sources of omega-3 fatty acids
+         • Lower sodium and iron intakes
+         • Adequate energy, protein, calcium, and potassium intakes
+    Longer missions, without preference foods, without cargo deliveries of fresh fruits/vegetables,
+     and longer prepositioning will increase risk of clinical issues
+
+Exploration Food and Nutrition: Optimization
+    Diet/Nutrition can mitigate (or exacerbate) disease states, including cardiovascular, cancer,
+     sarcopenia, osteoporosis, etc.
+    Optimizing the food system may offer a countermeasure to mitigate health risks on long-
+     duration exploration missions and reduce the burden on a constrained medical system.
+         • Increasing fruit and vegetable intake (along with the thousands of phytonutrients they
+             provide), and omega-3 fatty acid intake, is critical for crew health and performance.
+         • Recent HERA testing and ISS testing that is currently underway will evaluate the effects
+             of improved food and nutrition intake on health and performance.
+         • Initial project data are shown on the following charts.
+    Longer missions, without preference foods, without cargo deliveries of fresh fruits/vegetables,
+     and longer prepositioning will increase risk of clinical issues
+
+Food Physiology Study: Enhanced Diets
+
+
+
+
+                                                  42
+Conditioned Storage Study
+
+
+Initial look:
+Beta-Carotene and Color Change of Dried Apricots after One Year of Storage at 21°C, 4°C, or -20°C
+
+
+
+
+Vitamin C in Apricot Cobbler after One Year of Storage at 21°C, 4°C, or -20°C
+
+
+
+
+                                                      43
+      Existing Evidence — Rev A and Baseline
+
+Current Status
+    The capability of the current shelf stable space food system to meet nutrition and acceptability
+     requirements over a 5 year duration is currently being investigated.
+    Micro-nutritional analysis indicates that several key nutrients may not be adequately sustained to
+     meet daily intake requirements in the food system for the duration of a Mars mission or are only
+     sustained in a restrictive number of foods.
+    Quality analysis indicates that food acceptability may not be adequately sustained for the duration of
+     a Mars mission. Military, Apollo mission and ISS mission data demonstrate that if the food system is
+     not acceptable, it may not be adequately consumed, and crew may not receive adequate nutrition.
+    The following nutrition
+     slides from ISS crew
+     indicate that under
+     consumption and
+     inadequate micro-
+     nutrition in a variety of
+     foods over mission
+     duration is measurable
+     in crew biomarkers.
+
+
+
+
+    Operational and
+     Research protocols on
+     ISS have expanded our
+     understanding of the
+     role of nutrition in crew
+     health, before, during,
+     and after flight.
+         • Data
+              summarized
+              here (details in
+              backup charts)
+              highlight
+              incidence of
+              several
+              nutritional issues for
+              ISS (USOS) crews.
+
+
+
+
+                                                    44
+       •   These data highlight the complex relationship between food and nutrition requirements, as some
+           of these nutrients (e.g., vitamin B12 and vitamin E) are provided in the food system but may
+           reflect altered requirements.
+
+
+
+
+Ongoing Research
+     We are investigating countermeasures that will improve the nutritional stability and acceptability of
+        the food system over time:
+            • Processing: Pressure assisted thermal sterilization (PATS); microwave sterilization; bulk
+                automated processing; and lyophilization process improvements
+            • Packaging: Novel commercial high barrier packaging compatible with novel processing;
+                prototype development for in-suit delivery
+            • Formulation: Health promoting ingredients; stabilizing food matrices; fortification
+            • Variety: Analog evaluations
+            • Storage conditions: Temperature; vacuum; radiation
+            • Bioregenerative: In-flight plant chambers with pick-and-eat vegetable and fruits
+***Even if we determine how to provide stable nutrition, we cannot provide adequate nutrition until
+exploration requirements are fully developed***
+     We are investigating mass reduction strategies:
+            • Meal replacements: Nutrient dense, nutritionally balanced, shelf stable, sensory, and
+                psychosocial acceptability
+            • Reformulation: Reduce moisture or increase fat (already at saturated fat limit)
+            • Trades: Packaging and storage conditions
+
+    We are investigating dietary ability to mitigate negative effects of space flight on physiology and
+     nutritional health
+         • Pro K (diet/bone)
+    We are evaluating nutritional role and relationship with VIIP
+         • One Carbon Metabolism study
+    We are monitoring the role of nutrition in other systems (e.g., Cardio, Bone, Muscle, Immune,
+     Radiation) with the Biochem Profile project.
+    This will help identify gaps in current food system relative to physiological systems and changes in
+     nutritional requirements in flight, which will inform/help define exploration requirements.
+                                                     45
+    ESA studies ongoing to evaluate long-duration energy requirements.
+    We are not currently evaluating the role of nutrition and BHP or Pharm risks, which remain critical
+     gaps
+
+
+
+
+Forward Work
+Collaborative cross-Element effort between Space Food Systems and Nutritional Biochemistry to Focus on
+Promotion of Crew Health through Food Countermeasures
+Nutrition SRP 2013 Executive Summary: “The SRP considers the planned Integrated Nutrition task to be an
+important and necessary strategic part of the research plan.”
+
+Planned work with CA/CB and OC to implement the HRP approved project to meet multiple interests.
+       • Food upmass a critical issue
+       • HRP suggesting this should be approached operationally, and not as research
+       • Looking for direction from HSRB
+
+
+
+
+                                                    46
+References
+Chen, Y. M., Ho, S. C., & Woo, J. L. (2006). Greater fruit and vegetable intake is associated with increased bone
+mass among postmenopausal Chinese women. British journal of nutrition, 96(4), 745-751.
+
+Sahni, S., Hannan, M. T., Blumberg, J., Cupples, L. A., Kiel, D. P., & Tucker, K. L. (2009). Protective effect of total
+carotenoid and lycopene intake on the risk of hip fracture: a 17‐year follow‐up from the Framingham
+Osteoporosis Study. Journal of Bone and Mineral Research, 24(6), 1086-1094.
+
+Mackinnon, E. S., Rao, A. V., Josse, R. G., & Rao, L. G. (2011). Supplementation with the antioxidant lycopene
+significantly decreases oxidative stress parameters and the bone resorption marker N-telopeptide of type I
+collagen in postmenopausal women. Osteoporosis International, 22(4), 1091-1101.
+
+Nutritional Requirements for Exploration Missions up to 365 Days (JSC-67378) Houston, TX: National
+Aeronautics and Space Administration Lyndon B. Johnson Space Center; 2020.
+
+Smith, S. M., McCoy, T., Gazda, D., Morgan, J. L., Heer, M., & Zwart, S. R. (2012). Space flight calcium:
+implications for astronaut health, spacecraft operations, and Earth. Nutrients, 4(12), 2047-2068.
+
+Smith SM, Zwart SR, Douglas GL, Heer M. Human Adaptation to Spaceflight: The Role of Food and
+Nutrition, 2nd edition (NP-2021-03-003-JSC). Houston, TX: National Aeronautics and Space Administration
+Lyndon B. Johnson Space Center; 2021.
+
+Virtanen, J. K., Mozaffarian, D., Cauley, J. A., Mukamal, K. J., Robbins, J., & Siscovick, D. S. (2010). Fish
+consumption, bone mineral density, and risk of hip fracture among older adults: the cardiovascular health
+study. Journal of Bone and Mineral Research, 25(9), 1972-1979.
+
+
+
+
+                                                          47
+

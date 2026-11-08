@@ -1,0 +1,19 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="style.css"><script src="bars.js"></script>
+<div id="card">
+  <h1>What 4 astronauts use in 30 sols</h1>
+  <p class="sub">Kilograms, if nothing is recycled. That is NASA's plan for the first 30-sol stay on Mars: bring it all in tanks and packs.</p>
+  <div id="chart"></div>
+  <p class="src">Maths: 4 people × 30 sols (30.8 Earth days) × NASA's daily numbers. Water 3.217 kg (drink 2, food 0.5, sweat from exercise 0.7; washing not included). Packed food 2.39 kg, packaging included. Oxygen 0.84 kg. Sources: NASA BVAD 2022; NASA ICES-2023-265 (first Mars missions). Fact-check rows 112, 123, 132.</p>
+</div>
+<script>
+bars(document.getElementById('chart'), {
+  max: 400, right: 90, ticks: [0, 100, 200, 300, 400],
+  series: { 'kg': 'var(--machine)' },
+  rows: [
+    { label: 'Water', value: 4 * 30.825 * 3.217, text: '397 kg', series: 'kg' },
+    { label: 'Packed food', value: 4 * 30.825 * 2.39, text: '295 kg', series: 'kg' },
+    { label: 'Oxygen', value: 4 * 30.825 * 0.84, text: '104 kg', series: 'kg' },
+  ],
+});
+document.querySelector('.legend').remove();
+</script>

@@ -1,0 +1,560 @@
+. L .
+
+
+
+
+                                                                                                 2005-01-2779
+
+        Status of the International Space Station Regenerative ECLSS
+                     Water Recovery and Oxygen Generation Systems
+
+                                                                                          Robert M. Bagdigian
+                                                                                NASA, Marshall Space Flight Center
+
+
+                                                                                                      Dale Cloud
+                                                             Hamilton Sunds rand Space Systems International Inc.
+
+
+ Copyright 0 2005 Society of Automotive Engineers, Inc.
+
+
+
+
+ABSTRACT                                                   between the two racks. The remaining portion of WRS
+                                                           rack #2 houses the UPA. The OGS rack, or rack #3,
+ NASA is developing three racks containing regenerative    contains the OGA, PSM, and a scar for the CRA
+water recovery and oxygen generation systems (WRS          consisting of fluid and electrical interfaces and a carbon
+and OGS) for deployment on the lnfernafional Space         dioxide accumulator packaged in the bottom of the rack.
+ Station (ISS). The major assemblies included in these     Orbital Replacement Units (ORUs) designated with an
+racks are the Water Processor Assembly (WPA), Urine        “H” in Figure 1 are provided by Hamilton Sundstrand
+Processor Assembly (UPA), Oxygen Generation                Space Systems International (HSSSI); while ORUs
+Assembly (OGA), and the Power Supply Module (PSM)          designated with an “M” are provided by NASA Marshall
+supporting the OGA. The WPA and OGA are provided           Space Flight Center (MSFC). HSSSI has integrated
+by Hamilton Sundstrand Space Systems International         their WPA and OGA hardware into flight racks 1 and 3,
+(HSSSI), Inc., while the UPA and PSM are developed in-     and MSFC is integrating rack 2 and is completing rack 3
+house by the Marshall Space Flight Center (MSFC).          integration with the PSM and common hardware
+The assemblies have completed the manufacturing            (avionics air assembly, smoke detector, rack power
+phase and are in various stages of testing and             switch).
+integration into the flight racks. This paper summarizes
+the status as of April 2005 and describes some of the      The Regenerative ECLSS racks were originally planned
+technical challenges encountered and lessons learned       to be integrated and operated exclusively in the ISS
+over the past year.                                        Node 3 module. However, in order to take advantage of
+                                                           an opportunity for early on-orbit checkout, provisions are
+                                                           being made in the U.S. Laboratory module to integrate
+INTRODUCTION                                               and operate the racks prior to the Node 3 launch. A
+                                                           summary of the U.S. Laboratory module modifications
+The U.S. regenerative Environmental Control and Life       that are currently being developed to support
+Support Systems (ECLSS) are being developed to             Regenerative ECLSS functions is provided in reference
+enable the ISS to expand its crew size from three to six   1.
+crewmembers. These regenerative systems include the
+Water Recovery System (WRS), comprised of the Urine        The following sections provide a description of the WRS
+Processor Assembly (UPA) and Water Processor               and OGS, give current status, and describe issues and
+Assembly (WPA). The Oxygen Generation System               lessons learned during the past year. For the prior
+(OGS) includes the Oxygen Generation Assembly              years’ status, see references 2-5.
+(OGA), the Power Supply Module (PSM) that supports
+the OGA, and scars to accommodate the later addition       WATER RECOVERY SYSTEM
+of a Sabatier Carbon Dioxide Reduction Assembly
+(CRA).                                                     WATER PROCESSOR ASSEMBLY OVERVIEW - A
+                                                           simplified schematic of the WPA is shown in Figure 2.
+The layout of the various assemblies in the three          Wastewater delivered to the WPA is temporarily stored
+Regenerative ECLSS racks is shown in Figure 1. The         in the wastewater ORU. Gas is removed from the
+WPA is packaged entirely in WRS rack #1 and partially      wastewater by the Mostly Liquid Separator (MLS) (part
+in WRS rack #2, linked by process water lines running
+of the Pump/Separator ORU), and passes through the                   Separator Filter ORU where odor-causing contaminants
+
+  Reserved volume      Deionizer Bed (H)                              Urine Processor Firmware Controller (M)
+                                                       Particulate
+                                      Reactor Health   Filter (H)
+
+
+
+
+                                                                                                                   Filtration
+          Oxygen Generation                    Water Recovery                        Water Recovery Beds (WM)
+            System Rack                        System Rack #1                        System Rack #2
+              (Rack #3)
+                                                                                (H) =Hamilton Sundstrandprovided hardware
+                                                                                (M) = MSFC provided hardware
+
+
+
+
+Figure 1. Regenerative ECLSS Rack Configurations
+
+                                                                     process are oxidized in the presence of oxygen,
+                                                                     elevated temperature, and a catalyst. A regenerative
+                                                                     heat exchanger recovers heat from the catalytic reactor
+                                                                     effluent water to make this process more efficient. The
+                                                                     gadliquid separator ORU removes excess oxygen and
+                                                                     gaseous oxidation by-products from the process water
+                                                                     and returns it to the cabin. The reactor health sensor
+                                                                     ORU monitors the conductivity of the reactor effluent as
+  I            02
+                                                                     an indication of whether the organic load coming into the
+                                                                     reactor is within the reactor's oxidative capacity. Finally,
+                                                                     the ion exchange bed ORU removes dissolved products
+                                                                     of oxidation and adds iodine for residual microbial
+                                                                     control before the water is stored in the product water
+                                                                     tank prior to delivery to the station potable water bus.
+                                                                     The water delivery ORU contains a pump and small
+                                                                     accumulator tank to deliver potable water on demand to
+Figure 2. WPA Simplified Schematic                                   users. The WPA is controlled by a firmware controller.
+                                                                     The WPA operates in batch mode, consuming an
+are removed from entrained air before returning the air              average of 343W when processing and 163W in
+to the cabin. Next, the water is pumped through the                  standby.
+particulate filter ORU followed by two multifiltration beds
+where non-volatile organic and inorganic contaminants                WATER PROCESSOR ASSEMBLY (WPA) CURRENT
+are removed. Once breakthrough of the first bed is                   STATUS AND INTEGRATION CHALLENGES - Over
+detected, the second bed is relocated into the first bed             the course of the last year, integrated functional
+position, and a new second bed is installed. The sensor              performance testing of the WPA was completed. A
+ORU located between the two MF beds helps to                         photograph of the WPA flight hardware after the
+determine when the first is saturated based on                       completion of integrated testing is shown in Figure 3. In
+conductivity. Following filtration, the process water                addition, performance qualification testing of the WPA's
+stream enters the catalytic reactor ORU, where low                   expendable filtration beds was completed using human-
+molecular weight organics not removed by the filtration              generated wastewater.
+                                                                                      I
+
+
+                                                                                      I                      lnlct S w n p Gar
+                                                                                                             Pnrl - (4) plvrrr
+
+
+
+
+                                                                                      1I                      Inkt Tuhc
+
+                                                                                                              OuUct Tuhc
+
+
+
+
+                                                              Figure 4. WPA Gas/Liquid Separator Redesign
+
+                                                              identify the optimum control thermocouple locations and
+                                                              relative input water and air temperatures are also
+Figure 3. Water Processor Assembly                            continuing. Vertical (normal and inverted) and horizontal
+                                                              tests are being conducted to characterize the internal
+A significant amount of effort has been spent over the        convection effects in order to assess expected
+ last year developing and implementing design                 performance in microgravity.
+modifications necessary to correct an internal
+condensation problem within the GasILiquid Separator           In addition to the modifications to the GLS itself,
+(GLS) ORU reported last year (5). Performance test            supporting modifications have been implemented to the
+data indicated that water vapor was condensing within         WPA Controller and Catalytic Reactor ORUs as part of
+the gas-side of the GLS's sweep gas system. The               the integrated effort to resolve the GLS condensation
+potential for condensed liquid to block airflow through       issue. Controller modifications were incorporated to
+the relatively narrow valve manifold passages and thus,       accommodate the addition of heaters to the GLS. As
+over time, shutdown the GLS's gas removal function            part the redesign, two solenoid valves were eliminated
+necessitated measures to reduce the likelihood of             from the GLS ORU; the deletion of these effectors
+condensation and to enhance the tolerance to                  allowed two valve driver circuits within the Controller to
+condensation if it should so occur. Redesign features         be converted to heater driver circuits with a minimum
+
+    ..
+that have been incorporated into the GLS include:
+        improved sealing of the GLS thermal enclosure
+        warming of air flows through the enclosure
+                                                              amount of effort. The regenerative heat exchanger
+                                                              within the Catalytic Reactor ORU was replaced with a
+                                                              new unit that provided slightly cooler two-phase input
+        (required for oxygen leakage hazard control)          fluid to the GLS as part of the approach to lower the
+
+    .   and through the membrane bundles
+        introduction of dilution air to reduce the dewpoint
+                                                              overall operating temperature of the assembly.
+
+
+    .   of exhaust gas from the membrane modules
+        increase air flowrate through the membrane
+                                                               During the integrated performance test of the WPA, a
+                                                               high organic challenge of the Catalytic Reactor ORU
+
+    .   modules
+        improved thermal isolation of the GLS and
+        plumbing
+                                                              was conducted in order to verify the response of the
+                                                               Reactor Health Sensor (RHS). The RHS design concept
+                                                              originally incorporated a slip stream of GLS effluent
+
+    .   zoned heater configuration
+        enlarging small diameter passageways to
+                                                              water that was routed through solid phase pH adjuster
+                                                              beds and monitored for high conductivity that would be
+
+    .   reduce liquid blockage risk
+        optimize plumbing layout to eliminate water
+        traps in 1-g testing
+                                                              indicative of high organic input loads to the reactor that
+                                                              could exceed its oxidation capacity. The pH adjustment
+                                                              was implemented in order to drive the equilibrium of
+                                                              inorganic oxidation by-products towards carbonate and
+A comparison of the GLS configuration before and after        bicarbonate species to maximize conductivity response.
+the redesign activity is shown in Figure 4. At the time of    Routing the slip stream from downstream of the GLS
+this writing, the GLS was undergoing ORU-level                was necessary to avoid the two-phase fluid conditions in
+performance testing.       Data to date indicates the         the reactor effluent itself that would pose a risk to gas-
+presence of internal convection and thermal gradients         binding the small diameter flow passages of the RHS
+within the GLS assembly. Data also indicates greater          that were necessary to minimize the flow through, and
+than predicted conductive heat losses through the GLS         maximize the life of, the RHS's pH adjuster beds.
+structural attach points. Circuit changes to boost the        During integrated testing, the RHS did not display the
+heat input into the modules to compensate for thermal         expected conductivity response when the reactor was
+losses are being incorporated. Parametric tests to            being over-challenged with organics.         Investigation
+                                                              indicated that the dissolved inorganic oxidation by-
+products were being lost, presumably as carbon dioxide,        Wastewater Storage Tank Assembly (WSTA). The
+through the membranes of the GLS upstream of the               Fluids Control and Pump Assembly (FCPA) is a four-
+sidestream tap leading to the RHS. The result was that        tube peristaltic pump that moves urine into the
+although the reactor's conductivity was elevated as            Distillation Assembly (DA), concentrated waste from the
+expected during high organic input loads, the inorganic        DA into the Recycle Filter Tank Assembly (RFTA), and
+reaction by-products were removed from the process             product water to the interface with the WPA. The DA is
+stream before the RHS conductivity sensors could detect       the heart of the UPA, and consists of a rotating
+them.     Fortunately, the reactor effluent contained         centrifuge where the waste urine stream is evaporated at
+sufficient concentrations of ionic inorganic anions            low pressure and condensed on the opposite side of the
+(acetate in particular) that direct conductivity              surface thus conserving latent energy. A rotary lobe
+measurement without pH adjustment was found to                compressor provides the driving force for the
+provide adequate responsiveness for monitoring reactor        evaporation and compression of water vapor. Waste
+performance. The RHS design concept was therefore             brine resulting from the distillation process is stored in
+greatly simplified by incorporating conductivity sensors      the RFTA. The Pressure Control and Pump Assembly
+(suitable for two phase fluid conditions) directly in the     (PCPA) is another four-tube peristaltic pump, which
+reactor effluent. The two pH adjuster beds and                provides for the removal of non-condensable gases and
+associated selector valves were eliminated from the           non-condensed water vapor from the DA. These gases
+WPA design. This issue demonstrated the importance            are pumped to the Separator Plumbing Assembly (SPA),
+of integrated component effects on the performance of         which recovers and returns water from the purge gases
+chemical processing technologies.                             to the product water stream. A Firmware Controller
+                                                              Assembly (FCA) provides the command control,
+A performance qualification test of the WPA's                 excitation, monitoring, and data downlink for UPA
+ expendable multifiltration beds, particulate filter, ion     sensors and effectors.
+ exchange bed, and microbial check valve was
+conducted at the Marshall Space Flight Center. The test
+served to verify the chemical performance of the test
+articles under high fidelity wastewater challenge
+conditions over their expected useful operational
+ lifetimes.    During the test, human test subjects
+contributed to the generation of high fidelity wastewater
+that was supplemented as needed based on previous
+analyses of ISS humidity condensate samples. The
+testing was conducted with an average of 20-30 test
+subject participants per day in order to maximize the
+amount of wastewater throughput that was available for
+processing each day, thereby providing accelerated
+performance data compared to expected on-orbit
+wastewater quantities for six crew. The overall test
+duration was 137 days, of which the 1' 112 days were
+dedicated to evaluating overall water purification
+performance and expendable life under expected
+wastewater conditions.        During the 112 days of
+performance testing, the WPA expendable qualification
+test articles processed a total of 14,480 Ib of wastewater.
+The first multifiltration bed processed 7280 Ib of            Figure 5. Urine Processor Assembly Schematic
+wastewater (equivalent to 158 on-orbit days) before
+becoming expended while the second bed processed              The UPA is designed to process a nominal load of 8.4
+6800 Ib of wastewater while in the 1' position. Product       kg/day (18.6 Ibs/day) of wastewater consisting of urine,
+water met the 0.5 mg/l total organic carbon maximum           flush water, and a small amount of waste from
+allowable concentration.      With the exception of one       Environmental Health System water samples. At a
+sample collected on the second day of testing, product        maximum load, the UPA can process 13.6 kg (30 Ibs) of
+water met the 1 CFU/lOOml microbiological maximum             wastewater over an 18-hour period per day. Like the
+allowable concentration. A detailed review of the WPA         WPA, it operates in a batch mode, consuming 424 W
+expendables qualification test is provided in reference       when processing, and 108 W during standby (current
+(6).                                                          projections). Product water from the UPA must meet
+                                                              specification quality requirements for conductivity, pH,
+URINE PROCESSOR ASSEMBLY OVERVIEW - A                         ammonia, particles, and total organic carbon. It must
+simplified schematic of the UPA is shown in Figure 5.         recover a minimum of 85% of the water content in the
+Urine is delivered to the UPA either from the Node 3          specified wastewater stream.
+Waste and Hygiene Compartment (currently scarred
+only) or it can be supplied via manual transfer from the      The UPA is packaged into 7 ORUs, which take up
+Russian EDV. The urine is temporarily stored in the           slightly more than half of the WRS Rack #2. The RFTA
+is the only expendable ORU, designed for a 30-day           caused by elevated temperatures occurring during
+changeout.                                                  extended DA operation. The relatively short duration
+                                                            functional checkout tests conducted to verify DA
+URINE PROCESSOR ASSEMBLY CURRENT STATUS                     operability after vibration and thermal cycles tests were
+AND CHALLENGES - Over the last year, all the UPA            too short to get the gears to their full operating
+ORUs      underwent    stand-alone functional       and     temperatures and therefore this dimensional sensitivity
+environmental performance tests.         These tests        went undetected until the extended runtime of the
+uncovered several technical issues that are discussed       vibration emissions test. Once uncovered, the backlash
+below and which have been resolved. By April 2005,          required to compensate for thermal expansion was
+integrated UPA functional and performance testing in a      determined, the gears were reworked and backlash was
+benchtop configuration was underway. A photograph of        dimensionally verified as an assembled pair, and the DA
+the UPA integrated benchtop test configuration is shown     was reassembled and retested. Extended runtime since
+in Figure 6.                                                then has shown stable DA motor currents.
+
+                                                            The Power Module (PM) portion of the UPA’s Firmware
+                                                            Controller Assembly (FCA) experienced a functional
+                                                            failure during a powered vibration test. A transformer
+                                                            within the PM that had been mounted and remounted
+                                                            during PM assembly experienced a failed lead. Close
+                                                            inspection of the transformer after the failure detected
+                                                            tooling marks in the vicinity of the break, suggesting that
+                                                            a defect introduced onto the lead during the remounting
+                                                            operation led to ultimate failure of the lead during vibe.
+                                                            The failed transformer was replaced and the PM
+                                                            completed its functional acceptance testing.
+
+                                                            At the time of this writing, an intermittent FCA reboot
+                                                            anomaly remains unexplained.            The infrequent
+                                                            unexplained reboots have yet to occur while the FCA
+                                                            has been instrumented specifically to look for data that
+                                                            might suggest a root cause.
+Figure 6. UPA Benchtop Test Configuration
+                                                            Also at the time of this writing, leakage has been
+Leakage problems with manifold mounted ball valves          discovered during UPA benchtop performance testing
+installed within the FCPA were again encountered after      across the FCPA’s peristaltic pump.           Insufficient
+change out of the seat materials reported previously (5).   occlusion of the pump’s internal Norprene tubes appears
+The balls, originally fabricated by the government based    to be the cause. Investigation is continuing in order to
+on a commercial design that was unavailable in the          confirm whether the lack of occlusion is due to fatigue
+requisite material needed for pretreated urine              aging of the Norprene tubes with usage or whether any
+compatibility, were being used in tandem with               mechanical misalignments or tolerance stackups may be
+commercially-procured seats. However, the achieved          contributingfactors.
+tolerances between the balls and seats that were
+necessary to ensure pristine sealing surfaces after         OXYGEN GENERATION SYSTEM
+repeated valve cycling were inadequate and leakage
+occurred with continued valve usage. Fortunately, by        OXYGEN GENERATION ASSEMBLY OVERVIEW A                  -
+the time this cycle life issue appeared, compatible balls   simplified schematic of the OGA is shown in Figure 7.
+made of Hastelloy became commercially available with        Feed water from the potable water bus enters the
+valve seat materials as matched sets. The availability of   assembly through the Water ORU and flows through an
+matched sets of balls and seat components resolved the      Inlet Deionizing Bed, which serves as an iodine remover
+valve cycle leakage problem.                                as well as a coalescer for any gas bubbles that may be
+                                                            present in the feed water. If gas bubbles are detected
+During extended run time of the DA necessary to collect     by the gas sensor downstream of the DI bed, the feed
+vibration emissions data, motor current rises were seen     water is rejected to the waste water bus. This serves to
+that had not been evident during any of the functional      prevent any oxygen that may be present in the feed
+testing done to that point. The root cause of the           water from mixing with generated hydrogen. Water is
+anomalous transient behavior was an inadequate              electrolyzed into oxygen and hydrogen in the Hydrogen
+amount of backlash between the DA’s stainless steel         ORU, which contains the electrolysis cell stack. Oxygen
+drive and Vespel driven gears. Although the dimensions      produced by the cell stack passes through the Oxygen
+of the individual stainless and Vespel gears were           Outlet ORU containing a water absorber, which protects
+marginally within dimensional tolerances, the resulting     the downstream hydrogen sensors from liquid moisture.
+backlash between teeth in the assembled gear pair was       The Hydrogen Sensor ORU monitors the product oxygen
+inadequate to tolerate the amount of material expansion     for the presence of hydrogen, which would indicate a
+problem with the cell stack and signal the controller to    is with the dome removed to illustrate the complexity of
+shut down the OGA. The Rotary Separator Accumulator         the ORU.
+(RSA) within the H2ORU separates the product gaseous
+hydrogen from the water which is re-circulated by the         Table 2. Oxygen Generation Assemblyrrest Status
+Pump ORU. The Nitrogen Purge ORU serves to purge
+system lines upon shutdown with nitrogen, and the
+Process Controller ORU is responsible for OGA System                                                Testing Status
+command/control and communication with the ISS
+Multiplexer/Demultiplexer (MDM).                                                                    Complete
+
+
+                                                            Inlet            Complete               Complete
+                                                            Deionizing
+                                                            Bed
+                                                            Hydrogen         Cell Stack resistor    Complete During
+                                                            ORU              modification in        System Test
+                                                                             process.
+                                                            Oxygen Outlet    Complete               Complete
+                                                            ORU
+                                                            Hydrogen         Complete               Complete
+                                                            Sensor ORU
+                                                            Nitrogen         Complete               Complete
+                                                            Purge ORU
+                                                            Pump ORU        1 Complete             I Complete
+                                                            Process          Complete               Complete
+Figure 7. OGA Simplified Schematic                          Controller
+
+The OGA is designed to generate oxygen at a maximum
+                                                            System          I Complete             I ECDJune05
+nominal rate of 5.4 kg/day (12 Ib/day) when operated on
+daylnight orbital cycles, and also at a selectable rate
+between 2.3 and 9.2 kg/day (5.1 and 20.4 Ib/day) when       The OGA recirculating pump has a specified operating
+operated continuously. At the nominal rate, the OGA         life of 1200 on/off cycles and 21,700 hours of continuous
+can support oxygen needs for 4 crew, biological             operation. During pump testing the pump experienced
+specimens, and atmosphere leakage, while at the             degraded performance. Troubleshooting revealed wear
+maximum rate it can support 7 crew, biological              between the zirconia gears and an alumina oxide
+specimens, and atmosphere leakage. The assembly             coating on the pump housing.             The pump was
+consumes 3573 W when processing, and 382 W during           redesigned to minimize the axial thrust load onto the
+standby.       The product oxygen meets quality             pump's driven gear. An additional change to replace the
+specifications for temperature, free water, dewpoint, and   alumina oxide coating with a zirconia wear plate was
+hydrogen content.                                           unsuccessful. The investigation has not determined if
+                                                            the problem is a wear couple or geometry issue,
+The OGA is packaged into 8 ORUs, residing in the OGS        however, the degradationjwear of the alumina surface
+Rack #3. These ORU's have a combined weight of 786          seems to diminish with operating time. A continuous
+pounds. The Hydrogen Sensor ORU requires a regular          operation "break-in period" will be performed on all spare
+90-day changeout for recalibration.                         pumps during pump and subsequent ORU testing. A
+                                                            "temporary" Pump ORU that performed successfully
+OXYGEN GENERATION ASSEMBLY CURRENT                          during OGA system level testing in January through May
+STATUS AND CHALLENGES - Table 2 gives the                   04 was upgraded and re-designated as the flight
+current   status    of    OGA      assemblies through       configuration. A pump of the same configuration is
+manufacturing and test. Currently, 7 of the ORUs are        being assembled and will be subjected to a series of
+complete through protoflight testing. The Hydrogen          qualification tests. The results of these tests will be used
+ORU was partially disassembled to correct a design          to determine the cycle life and continuous operation life
+issue dealing with the cell stack resistive washers. The    of the Pump.
+OGA was initially assembled and tested from January to
+May 2004. However, several problems (relief valves,
+design pressure, resistive washers) required the
+disassembly and modification of hardware items in the
+Hydrogen ORU. Figure 8 shows photos of some of the
+OGA ORUs. The photograph of the Hydrogen (H2)ORU
+                                                                 verify that the drift phenomenon does not exist with
+                                                                 these alternate materials. If successful, the flight units
+                                                                 will be re-manufacturedusing these alternate materials.
+
+                                                                 The Hydrogen Sensor ORU consists of three
+                                                                 independent hydrogen sensors housed in an in-line flow
+                                                                 manifold and an enclosure that contains the power and
+                                                                 sensor processor circuit boards. Through testing of
+                                                                 development and flight hardware, issues were identified
+                                                                 with accuracy, response time, and a shift in performance
+                                                                 (due to exposure to water). Changes were made to the
+                                                                 sensor element screening process, hydrogen sensor
+                                                                 calibration process, temperature compensation process,
+                                                                 and test rig to address the accuracy and response time
+                                                                 issues. Two flight units completed acceptance testing
+                                                                 which validated these changes. The sensor elements
+                                                                 can be exposed to water as a result of condensation
+                                                                 after loss of power. Physical damage to the sensor
+                                                                 element die can occur from electrolysis if liquid water is
+                                                                 on the sensor element die when power is applied.
+                                                                 Options preventing the element from being exposed to
+                                                                 water and for drying out the sensor after exposure to
+                                                                 water are being evaluated. Also, NASA Glenn Research
+                                                                 Center and Case Western Reserve University are
+                                                                 evaluating product improvements to the die to address
+                                                                 this condition. In addition, testing with a qualification unit
+                                                                 and a development unit is being performed to evaluate
+                                                                 the calibration cycle of the sensor, which is currently
+                                                                 estimated to be 90 days. A more detailed description of
+                                                                 the Hydrogen Sensor is provided in reference 7.
+
+                                                                 During the first half of 2004, HSSSl completed the
+                                                                 assembly       and     test    of   the    OGA     ORU’s,
+                                                                 installation/integration of these ORU’s into the OGA flight
+                                                                 rack, and integration of the OGA with the HSSSI test rig.
+                                                                 Once completed, HSSSI performed over 1000 hours of
+                                                                 system operation in electrolysis.          System testing
+                                                                 included verifying the performance of the OGA during
+                                                                 continuous operation and daylnight cycle operation.
+                                                                 HSSSI verified that the quality of the product oxygen and
+                                                                 hydrogen meets the specified requirements. System
+                                                                 testing also provided the opportunity to evaluate the
+                                                                 OGA software.            Changes were defined and
+                                                                 implemented, as required, based on system dynamics.
+                                                                 Electromagnetic Interference (EMI) testing identified a
+Figure 8. Oxygen Generation Assembly Flight Hardware             problem with the interface between the OGA Controller
+                                                                 and the MSFC Power Supply Module (PSM). This
+The OGA uses a number of pressure sensors in the                 problem was corrected by changing the “value” of some
+system. The most sensitive is a 0.6 psia sensor used in          transorbs in the OGA Controller. HSSSI also modified
+the hydrogen dome to determine if sufficient vacuum is           the configuration of the OGA to temporarily route product
+being maintained for safety control.               Downward      hydrogen into the oxygen outlet line upstream of the
+measurement drift was observed in these sensors during           Hydrogen Sensors. This demonstrated the function of
+vendor testing. This sensor was specified to have an             the sensors, as installed in the Oxygen Outlet ORU, to
+operational life of 10 years, however, based on data             monitor the product oxygen and shutdown the OGA
+collected to date, this drift will effectively reduce the life   when the hydrogen concentration exceeded one
+to 4 years.      An extensive investigation identified           percent.
+outgassing in the vacuum reference chamber from the
+lnconel 625 used in the sensor as the most likely cause          During system level testing in May 2004, the nitrogen
+of the drift. The vendor has recently manufactured two           pressure was observed to decay upon completion of a
+development pressure sensor gauge sub-assemblies                 purge through relief valves in the Hydrogen ORU. The
+using SS321 for the housing and A286 for the                     cause of the leak was an inadequate bond on the valve
+diaphragm. Stability test data is being evaluated to             seat’s nonmetallic poppet. HSSSI worked with the
+vendor to define and implement improvements to the              issue and complete EM1 CSOl and power quality testing.
+bonding process. During the investigation, HSSSI also           In parallel with this effort, HSSSI and MSFC will continue
+observed contamination adjacent to the valve seat. To           with the Functional Configuration Audit.             Upon
+mitigate the potential for a contamination induced failure,     completion of HSSSI testing and the audit, the OGA will
+a lower micron rating filter was installed on the inlet to      be shipped to MSFC for integration with the MSFC PSM
+the relief valve.                                               and additional testing.
+
+During the review of documentation in support of the            POWER SUPPLY MODULE OVERVIEW - A
+OGA Functional Configuration Audit (FCA), it was                photograph of the PSM is shown in Figure 9. The PSM
+determined that design pressures for several OGA                provides 10-55 amps current to the OGA cell stack
+assemblies were understated due to an increase in the           during Process mode and 1.0+/-0.2 amps during
+volume/quantity of hydrogen “on-board’’ the OGA at any          Standby mode, with a minimum efficiency of 91% in
+given time. This “finding” required HSSSI to reassess           Process mode. The PSM is designed for 60,000
+the predicted single and double fault conditions to re-         process/standby cycles, and a 10-year life.
+identify the new worst case failure scenarios that could
+result in the maximum explosion pressure. The resultant
+explosion pressures are used to derive the proof, leak
+and burst pressures for the affected hardware. The
+increase in the volume of hydrogen drove an increase in
+the design pressure for the Hydrogen ORU, which then
+required HSSSI to redesign the hydrogen dome tie rods
+to accommodate the higher pressure. Software changes
+were also defined and implemented to change the
+operation of the OGA to minimize the severity of
+potential hazards. These changes reduce the hydrogen
+volume, explosion initiation pressures, and prevent
+combustible mixtures from forming in the OGA during
+normal operation and faulted conditions. Throughout
+this process, HSSSI consulted with NASA White Sands
+Test Facility and a NASA Johnson Space Center
+Structures group to develophefine the method for
+applying the standard factors for calculating proof and
+burst pressures to the explosion pressures.
+
+Voltage taps are located on each of the twenty-eight            Figure 9. Power Supply Module Flight Hardware
+cells of the cell stack in the Hydrogen ORU for the
+purpose of monitoring the health of each cell. Resistive        POWER SUPPLY MODULE CURRENT STATUS AND
+elements in the shape of a washer were installed                CHALLENGES - Manufacturing and assembly of the
+between the individual cell terminating separator sheets        PSM has been completed and the box successfully
+at each voltage tap. The function of the resistive washer       passed toxicity, EMI, power quality, and acoustics
+is to limit the current in the wiringkircuit between the        testing. However, component failures during powered
+voltage tap and the voltage monitoring circuit in the           vibration testing necessitated that the box be partially
+Controller in the event of a short to ground in this            disassembled and that some structural enhancements
+wiring/circuit. During system testing in February 2005          be added to the box to minimize baseplate and board
+the OGA shut down when a cell voltage measurement               dynamic deflections that likely contributed to the
+exceeded the upper limit shutdown of 3.0 volts. The             component failures. At the time of this writing, the
+subsequent investigation isolated the cause of the              structural enhancements have been completed, the
+apparent over-voltage to resistive washers that had             failed components have been replaced, and the box is
+failed open. Due to this and a previous failure (reference      ready for functional regression testing. The PSM is
+5), HSSSI decided to replace the resistive washers with         expected to be ready for integration into the OGS rack in
+hermetically sealed resistors wired in-line in a harness        May 2005.
+inside the Hydrogen ORU. This redesign required the
+development of a procedure to solder nickel-plated wire         INTEGRATED RACK              MANUFACTURING         AND
+(solder, flux, temperature) and selection of a resistor         ASSEMBLY - Significant progress has been made on all
+value so as not to impact the Controller voltage monitor        three Regenerative ECLSS racks this past year. WRS
+circuit. This modification to the cell stack current limiting   rack #1 is fully integrated has been shipped from
+resistors is currently in process.                              Hamilton Sundstrand to MSFC with the exception of the
+                                                                WPA GLS and controller which were retained for
+HSSSI is in process of reassembling the Hydrogen ORU            modifications to resolve the GLS condensation issue..
+with the new in-line resistor harness. Once completed           The integration of shelves, hoses, and cables into WRS
+the OGA will be put back on test to evaluate the new            rack #2 has been completed. The OGA was integrated
+software changes that resulted from the design pressure         into the OGS rack by Hamilton Sundstrand. Integration
+..
+of additional OGS rack resident hardware such as the      Fabrication of the faceplates for all three racks has been
+carbon dioxide tank farm (part of the OGS scar for        completed at MSFC.          Photographs of the recent
+carbon dioxide reduction), avionics air assembly, smoke   configurations of each of the three racks are shown in
+detector, and rack power switch were completed by         Figure 10.
+MSFC in parallel with activities to correct OGA issues.
+
+
+
+
+Figure 10. Water Recovery Racks #1 and #2 and Oxygen Generation System Rack
+..
+REFERENCES
+
+1.   Link, D.E., "Integration of Regenerative ECLSS Functions
+     into the International Space Station U S . Laboratory
+     Element", SAE 2005-01-2780, 3!jih International
+     Conference on Environmental Systems, Rome Italy, July
+     2005.
+
+2. Reuter, J.L., and Reysa, R.P., "International Space Station
+   Environmental Control and Life Support System Status:
+   2000-2001", SAE 2001-01-2386; 31" International
+   Conference on Environmental Systems; Orlando, Florida,
+   July 2001.
+3. Williams, D.E., Lewis, J., Carrasquillo, R.L., Reysa, R.,
+   and Gentry, G.,           "International Space       Station
+   Environmental Control and Life Support System Status:
+   2001-2002", SAE 2002-01-2494; 32"d International
+   Conference on Environmental Systems; San Antonio,
+   Texas, July 2002.
+4. Carrasquillo, R.L., "'Status of the Node 3 Regenerative
+   ECLSS Water Recovery and Oxygen Generation
+   Systems", SAE 2003-01-2590; 33'd International
+   Conference on Environmental Systems; Vancouver, B.C.,
+   July 2003.
+5. Carrasquillo, R.L., Cloud, D., and Kundrotas, R., "Status of
+   the Node 3 Regenerative ECLSS Water Recovery and
+   Oxygen Generation Systems," SAE 2004-01-2385, 34ih
+   International Conference on Environmental Systems, tbd,
+   July 2004.
+6. Carter, D.L., D. Tabb, J.D. Tatara, and R. Mason,
+   "Performance Qualification Test of the ISS Water
+   Processor Assembly (WPA) Expendables", SAE 2005-01-
+   xxx, International Conference on Environmental Systems,
+   Rome, July 2005.
+
+7.   M'Sadoques, G., Makel, D., "Flight Hydrogen Sensor for
+     Use in the ISS Oxygen Generator Assembly," SAE 2005-
+     01-xxxx, 35'h International Conference on Environmental
+     Systems, Rome, July 2005.
+

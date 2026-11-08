@@ -1,0 +1,759 @@
+                               Volatile, Isotope, and Organic Analysis of Martian Fines with the Mars
+                               Curiosity Rover
+                               L. A. Leshin et al.
+                               Science 341, (2013);
+                               DOI: 10.1126/science.1238937
+
+
+
+                               This copy is for your personal, non-commercial use only.
+
+
+
+
+             If you wish to distribute this article to others, you can order high-quality copies for your
+
+
+
+
+                                                                                                                      Downloaded from www.sciencemag.org on September 27, 2013
+             colleagues, clients, or customers by clicking here.
+             Permission to republish or repurpose articles or portions of articles can be obtained by
+             following the guidelines here.
+
+             The following resources related to this article are available online at
+             www.sciencemag.org (this information is current as of September 27, 2013 ):
+
+             Updated information and services, including high-resolution figures, can be found in the online
+             version of this article at:
+             http://www.sciencemag.org/content/341/6153/1238937.full.html
+             Supporting Online Material can be found at:
+             http://www.sciencemag.org/content/suppl/2013/09/25/341.6153.1238937.DC1.html
+             http://www.sciencemag.org/content/suppl/2013/09/26/341.6153.1238937.DC2.html
+             A list of selected additional articles on the Science Web sites related to this article can be
+             found at:
+             http://www.sciencemag.org/content/341/6153/1238937.full.html#related
+             This article cites 43 articles, 9 of which can be accessed free:
+             http://www.sciencemag.org/content/341/6153/1238937.full.html#ref-list-1
+             This article has been cited by 3 articles hosted by HighWire Press; see:
+             http://www.sciencemag.org/content/341/6153/1238937.full.html#related-urls
+
+
+
+
+Science (print ISSN 0036-8075; online ISSN 1095-9203) is published weekly, except the last week in December, by the
+American Association for the Advancement of Science, 1200 New York Avenue NW, Washington, DC 20005. Copyright
+2013 by the American Association for the Advancement of Science; all rights reserved. The title Science is a
+registered trademark of AAAS.
+                                                                                                                     RESEARCH ARTICLE
+                                                                                                                                     provide information about the average compo-
+                                                                                                                                     sition of the martian crust (6).
+                                                                                                                                         The Sample Analysis at Mars (SAM) instru-
+Volatile, Isotope, and Organic                                                                                                       ment suite onboard the Mars Science Laboratory
+                                                                                                                                     (MSL) rover Curiosity provides diverse analyt-
+Analysis of Martian Fines                                                                                                            ical capabilities for exploring martian materials,
+                                                                                                                                     including volatile and isotopic compositions, and
+
+with the Mars Curiosity Rover                                                                                                        a search for organic compounds, whether of abiotic
+                                                                                                                                     or biological origin (7). Traces of organic com-
+                                                                                                                                     pounds have been found in martian meteorites
+L. A. Leshin,1* P. R. Mahaffy,2 C. R. Webster,3 M. Cabane,4 P. Coll,5 P. G. Conrad,2 P. D. Archer Jr.,6                              (8–12), but previous landed missions, most nota-
+S. K. Atreya,7 A. E. Brunner,2,8 A. Buch,9 J. L. Eigenbrode,2 G. J. Flesch,3 H. B. Franz,2,10                                        bly Viking, did not find definitive evidence of
+C. Freissinet,2 D. P. Glavin,2 A. C. McAdam,2 K. E. Miller,11 D. W. Ming,6 R. V. Morris,6                                            martian organic material (13).
+R. Navarro-González,12 P. B. Niles,6 T. Owen,13 R. O. Pepin,14 S. Squyres,15 A. Steele,16                                                Curiosity’s first sampling campaign took place
+J. C. Stern,2 R. E. Summons,11 D. Y. Sumner,17 B. Sutter,6,18 C. Szopa,4 S. Teinturier,4                                             at Rocknest, an aeolian sand shadow. The rover
+M. G. Trainer,2 J. J. Wray,19 J. P. Grotzinger,20 MSL Science Team†                                                                  ingested fine-grained Rocknest material into its
+                                                                                                                                     two analytical instruments: Chemistry and Miner-
+                                                                                                                                     alogy (CheMin), for x-ray diffraction, and SAM,
+Samples from the Rocknest aeolian deposit were heated to ~835°C under helium flow and evolved
+                                                                                                                                     for analysis of volatiles. Both SAM and CheMin
+gases analyzed by Curiosity’s Sample Analysis at Mars instrument suite. H2O, SO2, CO2, and
+                                                                                                                                     sampled portions from scooped materials that
+O2 were the major gases released. Water abundance (1.5 to 3 weight percent) and release
+                                                                                                                                     were sieved to contain grain sizes <150 mm. Min-
+temperature suggest that H2O is bound within an amorphous component of the sample.
+                                                                                                                                     eralogical and chemical results summarized in a
+Decomposition of fine-grained Fe or Mg carbonate is the likely source of much of the evolved CO2.
+                                                                                                                                     companion paper (14) indicate bulk composition
+Evolved O2 is coincident with the release of Cl, suggesting that oxygen is produced from thermal
+                                                                                                                                     similar to martian fines analyzed by previous mis-
+decomposition of an oxychloride compound. Elevated dD values are consistent with recent
+                                                                                                                                     sions. Plagioclase, olivine, augite, pigeonite, and
+atmospheric exchange. Carbon isotopes indicate multiple carbon sources in the fines. Several simple
+                                                                                                                                     minor magnetite are the major igneous minerals
+organic compounds were detected, but they are not definitively martian in origin.
+                                                                                                                                     (15). Minor anhydrite and hematite are the only
+                                                                                                                                     nonigneous minerals detected. Along with these
+        he exchange of materials between a planet’s                   aeolian fines, form an important record of these               crystalline phases, the chemical and mineralogical
+
+T       interior, surface, and atmosphere drives the
+        composition of mineral and chemical consti-
+tuents that can create habitable environments on
+                                                                      material exchanges. Martian surface fines are es-
+                                                                      pecially interesting because previous chemical
+                                                                      studies by the Viking landers, Pathfinder, Spirit,
+                                                                                                                                     analyses indicate that almost half of the <150-mm
+                                                                                                                                     fraction comprises amorphous material (14). SAM
+                                                                                                                                     performs evolved gas analysis (EGA) with the
+the terrestrial planets. Surface deposits, including                  and Opportunity (1–4) show that the bulk chem-                 quadrupole mass spectrometer (QMS) and iso-
+                                                                      ical composition of these materials is relatively              tope measurements of evolved gases using both
+                                                                      constant at widely spaced locations across the                 the QMS and the tunable laser spectrometer (TLS),
+1
+  Department of Earth and Environmental Sciences and School           planet. This can result from a combination of                  the latter being sensitive to isotopes of CO2 and
+of Science, Rensselaer Polytechnic Institute, Troy, NY 12180,         mechanical mixing on global scales and a sim-                  H2O. Organic analyses can be performed with the
+USA. 2Planetary Environments Laboratory, NASA Goddard                 ilarity in the chemical composition of bedrock                 QMS alone or when it is coupled to the gas chro-
+Space Flight Center, Greenbelt MD 20771, USA. 3Jet Propul-
+sion Laboratory, California Institute of Technology, Pasadena,
+                                                                      and sediments on regional to global scales (5).                matograph (GC). SAM analyzed four separate
+CA 91109, USA. 4LATMOS, UPMC Univ. Paris 06, Université               The finer-grained fractions, in particular, may                portions from the fifth scooped sample at Rocknest
+Versailles St-Quentin, UMR CNRS 8970, 75005 Paris, France.
+5
+ LISA, Univ. Paris-Est Créteil, Univ. Paris Diderot and CNRS,
+94000 Créteil, France. 6Astromaterials Research and Explora-
+tion Science Directorate, NASA Johnson Space Center, Houston,         Table 1. Experiment parameters for four analyses of Rocknest fines. All evolved gases were
+TX 77058, USA. 7Department of Atmospheric, Oceanic and Space          analyzed by the QMS; temperature (T ) range of gases that were then sent to the GC and TLS are shown.
+Sciences, University of Michigan, Ann Arbor, MI 48109–2143,
+USA. 8Department of Astronomy, University of Maryland, Col-                                                Sample T range Sample T range
+lege Park, MD 20742, USA. 9Laboratoire Génie des Procédés et                                 Sol
+                                                                      Rocknest run                          of gas sent to of gas sent to                             Rationale
+Matériaux, Ecole Centrale Paris, 92295 Chatenay-Malabry, France.                        (mission day)
+10
+   Center for Research and Exploration in Space Science and Tech-                                              GC (°C)        TLS (°C)
+nology, University of Maryland Baltimore County, Baltimore, MD                                                                                         GC: Low-T organics
+21250, USA 11Department of Earth, Atmospheric and Planetary
+Sciences, Massachusetts Institute of Technology, Cambridge, MA        Run 1                    93               146–533               547–702*         TLS: Predicted T for thermal
+02139, USA. 12Instituto de Ciencias Nucleares, Universidad Nacional                                                                                      decomposition of carbonates
+Autónoma de México, Ciudad Universitaria, México D.F. 04510,
+Mexico. 13Institute for Astronomy, University of Hawaii, Honolulu,                                                                                     GC: Low-T organics below SO2
+HI 96822, USA. 14School of Physics and Astronomy, University of                                                                                          evolution T
+Minnesota, Minneapolis, MN 55455, USA. 15Department of As-            Run 2                    96               98–425                440–601          TLS: Target CO2 from suspected
+tronomy, Cornell University, Ithaca, NY 14853, USA. 16Geophys-                                                                                           carbonate peak
+ical Laboratory, Carnegie Institution of Washington, Washington,
+DC 20015, USA. 17Department of Geology, University of California,                                                                                      GC: High-T organics
+Davis, CA 95616, USA. 18Jacobs, Houston, TX 77058, USA. 19School      Run 3                    99               533–822               234–425          TLS: Low-T CO2 and H2O evolution
+of Earth and Atmospheric Sciences, Georgia Institute of Tech-
+nology, Atlanta, GA 30332, USA. 20Division of Geological and                                                                                           GC: Narrow T cut for organics
+Planetary Sciences, California Institute of Technology, Pasadena,
+                                                                                                                                                         below O2 evolution T
+CA 91125, USA.                                                        Run 4                   117               251–289               350–443
+                                                                                                                                                       TLS: Narrow T cut targeting
+*Corresponding author. E-mail: leshin@rpi.edu
+†MSL Science Team authors and affiliations are listed in the                                                                                             suspected carbonate
+supplementary materials.                                              *Due to the low volume of gas released by Rocknest in this temperature range, isotope data were not obtained for this run.
+
+
+
+                                                  www.sciencemag.org                SCIENCE          VOL 341         27 SEPTEMBER 2013                                           1238937-1
+Curiosity at Gale Crater
+ (see Table 1 and Materials and Methods). The ex-        at abundances less than the 1 to 2% detectable by     sition of nanophase magnesite, because nano-
+ act mass of each Rocknest portion delivered to SAM      CheMin, or whether these volatiles are also hosted    phase carbonates decompose at temperatures at
+ is not measured by Curiosity, but tests on Earth        in amorphous materials in the <150-mm fraction.       least 100°C lower than 2- to 50-mm-sized particles
+ are consistent with 50 T 8 mg per portion (16).         However, the release temperatures of the gases sug-   (17, 20). Calcite is not a likely candidate because
+                                                         gest fine-grained and/or poorly crystalline ma-       its decomposition begins at 685°C, a temperature
+ Results and Discussion                                  terials as the hosts, as discussed below.             substantially higher than that of the vast majority
+                                                             The CO2 released from all four Rocknest           of CO2 released from the Rocknest <150-mm
+ Volatile Release                                        runs comprises two major peaks, at ~400° and          fraction. A third possibility is that the two major
+ The volatile compounds observed in EGA typ-             ~510°C, and a lower-temperature shoulder, which       CO2 peaks correspond to CO2 chemically evolved
+ ically reflect a combination of processes including     can be fit as two discrete releases at ~225° and      from two mineral phases, such as siderite and
+ desorption of trapped volatiles, mineral thermal        ~295°C (Fig. 3). The two major CO2 peaks to-          magnesite, by reaction with HCl (18), which is
+ decomposition, and chemical reaction during             gether comprise >70% of the CO2 released. The         observed in the Rocknest EGA (Fig. 1B), likely
+ heating of the samples (17, 18). Pure minerals and      highest-temperature CO2 release is consistent with    from decomposition of a perchlorate salt (see be-
+ chemicals produce volatile products at predict-         the thermal decomposition of siderite (19). If this   low). Most likely, all three factors (grain size, min-
+ able temperatures; however, in natural mixtures,        peak is due entirely to siderite decomposition, it    eralogy, and reaction with HCl) contribute to the
+ these temperatures can be strongly shifted by           would imply ~1 wt % siderite in the Rocknest          two major CO2 peaks.
+ physical characteristics of the samples (e.g.,          <150-mm fraction. A second possibility is that            The concurrent evolution of CO2 and O2 from
+ grain size) and by interactions between min-            this release evolved from the thermal decompo-        Rocknest suggests that organic carbon (i.e., C con-
+ eral and chemical components (17).
+      All four Rocknest analyses yielded H2O, SO2,                               7
+ CO2, and O2, in descending order of average abun-                        6x10
+ dance (Fig. 1 and Table 2). H2O, CO2, and O2                                        A             H2O                                       Rocknest 1
+ abundances are relatively consistent from run to                             5                                                              Rocknest 2
+ run and track each other within experimental un-                                                                                            Rocknest 3
+ certainty, whereas SO2 abundance is variable from                                                                                           Rocknest 4
+ run to run. Repeated observation of H2O, CO2,                                4
+ and O2 gas abundances with similar values sug-
+
+
+                                                              counts/s
+ gests that differences in sample mass cannot ex-
+ plain the heterogeneity in SO2 abundance, and thus                           3
+ the variability must be due to variation in the abun-
+ dance of S-bearing minerals in different portions.
+      The H2O observed in Rocknest EGA com-                                   2
+ prises a broad peak centered at ~300°C. Abun-                                                             CO2
+                                                                                                                                              SO2
+ dance estimates are ~1.5 to 3 weight percent
+ (wt %) H2O in the <150-mm fraction. The peak
+                                                                              1
+ temperature and breadth of the H2O release is
+                                                                                                               O2
+ most consistent with bound H2O in amorphous                                  0
+ phases. Specifically, adsorbed H2O, H2O bound                                   5
+ to amorphous phases (e.g., amorphous alumino-                           1.2x10
+                                                                                                   HCN
+ silicate materials, nanophase ferric oxides and                                     B
+ oxyhydroxides), interlayer H2O from phyllosili-                            1.0                                                              Rocknest 4
+ cates, dehydration of several salts, and dehydration
+ of ferric oxyhydroxides could have contributed
+ to the lower-temperature H2O release (Fig. 2).                             0.8
+                                                                                                                                                   H2S
+
+                                                              counts/s
+ Higher-temperature H2O could result from more
+ tightly bound structural H2O and/or OH in mi-                                             CH3Cl
+                                                                            0.6            (x10)
+ nor minerals present below the CheMin detec-                                                                                          HCl
+ tion limit, as well as H2O occluded in minerals and
+ glasses. However, if the water detected was re-                            0.4
+ leased from a single host mineral, CheMin should
+ have detected that host mineral. The lack of ob-
+ served hydrous crystalline phases in the <150-mm                           0.2
+ fraction (15) implies that H2O/OH is derived from
+ the amorphous component. H2O concentrations                                0.0
+ in the amorphous component are estimated to be
+ 3 to 6 wt % H2O.                                                                    100     200     300       400      500       600        700         800
+      Unlike the situation for H2O, calculated abun-                                                  Sample Temperature (°C)
+ dances of carbonate inferred from CO2 released,         Fig. 1. Gases released from heated Rocknest aliquots. Relative abundance of molecular ions
+ sulfate minerals from SO2, and oxychloride com-         diagnostic of specific gases evolved over the 75° to 835°C pyrolysis temperature ramp. (A) The four
+ pounds (e.g., chlorate or perchlorate) from O2          most abundant gases evolved from the four Rocknest portions delivered to SAM. Major molecular ions
+ would all be at or below the detection limits of        that saturated the QMS detector were estimated on the basis of other isotopologs of that species. (B)
+ CheMin, affirming the complementarity of SAM            Traces for m/z 27, 34, 36, and 52, reflecting four minor gases from the Rocknest run 4. Gas species that
+ and CheMin on Curiosity. The data do not allow          constitute the greatest input to the traces are labeled (27 = HCN, 34 = H2S, 36 = HCl, and 52 = CH3Cl),
+ specific determination of whether host materials        as are any scaling factors used. Minor contributions from other species are possible (e.g., the low-
+ for these evolved gases exist as crystalline phases     temperature peak of the “H2S” trace reflects a contribution from 16O18O).
+
+
+1238937-2                               27 SEPTEMBER 2013                  VOL 341    SCIENCE       www.sciencemag.org
+                                                                                                                                                              RESEARCH ARTICLE
+tained in molecules having C, H, O, N, and/or S)                    bis(1,1-dimethylethyl)-1,1,3,3-tetramethyldisiloxane,           SO2 at temperatures consistent with Rocknest ob-
+oxidized within SAM is another potential CO2                        respectively). These sources are discussed below                servations. Mg- and Ca-sulfates, including the an-
+source. Such reduced carbon might be indigenous                     in conjunction with d13C measurements and or-                   hydrite observed in Rocknest <150-mm fraction by
+to Mars, delivered from space in the form of inter-                 ganic molecular analyses.                                       CheMin (15), have SO2 evolution temperatures
+planetary dust particles and micrometeorites,                           Although the intensity and shape of traces at-              too high to explain the observed SO2. The high-
+or part of the instrument background. Molecular                     tributable to SO2 vary between the Rocknest sam-                temperature tail of O2 peak at ~460°C is coinci-
+fragments from a reagent carried to Mars for use in                 ples, overall, the EGA traces indicate that SO2                 dent with the initial rise of SO2. This observation
+a SAM wet chemistry experiment, MTBSTFA (N-                         evolves from ~450° to 800°C. Two main peaks are                 and SAM EGA detections of small amounts of
+methyl-N-tert-butyldimethylsilyl-trifluoroacetamide),               observed, at ~500° to 550°C and ~700° to 750°C                  H2S, OCS, and CS2 evolved at temperatures close
+have been identified in both empty-cup blank and                    (Fig. 1). Possible sources of the evolved SO2 in-               to the higher-temperature SO2 release (Fig. 1) sup-
+Rocknest runs. A small fraction of CO2 (<10% of                     clude the thermal decomposition of sulfates and/or              port the hypothesis that oxidative reactions of re-
+the total CO2 observed) from combustion of these                    sulfites, oxidation of sulfides, and S adsorbed onto            duced sulfur phases during heating also contributed
+organics is suggested by the amount of the most                     particle surfaces, which can persist to relatively high         to the evolved SO2.
+abundant MTBSTFA-related products, mono- and                        temperatures (21). Laboratory EGA under SAM-                        The onset of release of O2 correlates with the
+bi-silylated H2O (tert-butyldimethylsilanol and 1,3-                like conditions shows that iron sulfates produce                release of chlorinated hydrocarbons (Fig. 1), sug-
+                                                                                                                                    gesting that an oxychloride compound, such as a
+                                                                                                                                    chlorate or perchlorate, is the source of the oxygen
+Table 2. Abundance of major species released upon heating of Rocknest as measured with
+                                                                                                                                    and chlorinated volatiles. Laboratory evaluation of
+the SAM QMS. Errors reported for molar abundances are the 2s SD from the mean of calculations
+                                                                                                                                    various perchlorates and chlorates has not identi-
+done with different m/z values for the same species. Weight % values were calculated with an
+estimated sample mass of 50 T 8 mg (2s), with errors propagated including the uncertainty in                                        fied an unequivocal match to the SAM Rocknest
+molar abundance (14).                                                                                                               data, but Ca-perchlorate provides the most reason-
+                                                                                                                                    able match, with Fe- and Mg-bearing perchlorate,
+                                               Molar abundances (mmol)                                                              various chlorates, and mixtures with other min-
+                                                                                                                                    erals that may affect decomposition temperatures
+                               Run 1                         Run 2                         Run 3                      Run 4
+                                                                                                                                    (22–24) as other possibilities.
+CO2                          8.3 T 2.0                    10.8 T 2.6                    10.1 T 2.4                 10.4 T 2.5
+                                                                                                                                        The likely detection of an oxychloride com-
+SO2                          2.9 T 0.2                    13.7 T 1.9                    21.7 T 2.9                 10.5 T 1.4
+                                                                                                                                    pound by SAM is consistent with perchlorate ob-
+H2O                         43.3 T 10.7                   66.5 T 16.2                   54.5 T 9.9                 55.9 T 11.9
+                                                                                                                                    served in samples analyzed by the Wet Chemistry
+O2                           3.0 T 0.4                     5.1 T 0.6                     3.7 T 0.4                  3.7 T 0.5
+                                                                                                                                    Laboratory (WCL) and the Thermal and Evolved
+                                                                                                                                    Gas Analyzer (TEGA) instrument on the Phoenix
+                                                      Sample weight %
+                                                                                                                                    lander (25), which observed a similar O2 release
+                               Run 1                        Run 2                           Run 3                     Run 4
+                                                                                                                                    during analysis of a soil sample. On the basis of
+CO2                          0.7 T 0.2                    1.0 T 0.3                       0.9 T 0.3                 0.9 T 0.3
+                                                                                                                                    WCL results, Phoenix soils were calculated to
+SO3 equiv.                   0.5 T 0.1                    2.2 T 0.5                       3.5 T 0.7                 1.7 T 0.3
+                                                                                                                                    contain 0.4 to 0.6 wt % ClO4– (25). If all of the
+H2O                          1.6 T 0.5                    2.4 T 0.7                       2.0 T 0.5                 2.0 T 0.5
+                                                                                                                                    oxygen detected by SAM resulted from perchlo-
+ClO4 equiv.                  0.3 T 0.1                    0.5 T 0.1                       0.4 T 0.1                 0.4 T 0.1
+                                                                                                                                    rate decomposition, the estimated ClO4– abun-
+                                                                                                                                    dance in the Rocknest <150-mm fraction (Table 2)
+      6x10
+           7                                                                                                                        would be comparable to the abundances ob-
+                                                                                                                                    served by Phoenix. This abundance does not
+                                                                                                                                    account for all of the chlorine detected by Cu-
+                                                                                                                                    riosity’s Alpha Particle X-ray Spectrometer (APXS)
+           5
+                                                                                             Rocknest 1
+                                                                                                                                    (14), implying the presence of other chlorine-
+                                                                                             Rocknest 2                             bearing species at Rocknest.
+                                                                                             Rocknest 3                                 Chlorine has been detected in every soil ever
+                                                                                             Rocknest 4
+           4                                                                                                                        analyzed on Mars—in situ at the equatorial and
+                                                                                                                                    mid-latitude sites of the two Viking landers (2)
+                                                                                                                                    and from equator to mid-latitude by remote sens-
+
+counts/s
+           3
+                                                                                                                                    ing from Mars Odyssey spacecraft (26). The
+               Allophane                                                                                                            process of perchlorate formation is believed to
+                                                                                                                                    start with the oxidation of chlorine in gas-phase
+                                            Epsomite
+                              Bassanite                                                                                             reactions in the atmosphere (27), various chlorine
+           2                                                                                                                        oxides produced by energetic electrons from ga-
+                                                         Goethite
+                                                                                        H-Jarosite                                  lactic cosmic-ray interaction with the surface ice
+                           Gypsum                      Schwertmannite                                 Montmorillonite
+                                                                                                                         Saponite   (28), heterogeneous mineral-catalyzed photo-
+           1                                          Ca-perchlorate                                                                oxidation of surface chlorides (29), or on airborne
+                                     Mg-perchlorate             Kieserite                                                           dust. The global presence of chlorine, and the de-
+                                                                    Kaolinite                                                       tection of perchlorate in fines at two very differ-
+                                                                       Nontronite                                                   ent locations (Phoenix and Curiosity landing
+                  Ca-perchlorate                                                    Mg-perchlorate
+           0
+                                                                                                                                    sites), support the hypothesis that perchlorates
+                100            200            300            400           500              600           700            800        are globally distributed in the regolith of Mars.
+                                                        Sample Temperature (°C)                                                     Perchlorates can be a sensitive marker of past cli-
+Fig. 2. Water release from Rocknest compared to laboratory measurements of mineral break-                                           mate and a potential terminal electron acceptor
+down. Water release versus temperature for Rocknest <150-mm fraction measured by the SAM QMS.                                       for martian biota. They may also form liquid brines
+Arrows indicate temperatures of water-release peaks determined by laboratory analysis for select hy-                                under current martian conditions and contribute
+drous minerals phases under conditions similar to that in SAM (17).                                                                 to the oxidation and transformation of martian
+
+
+                                              www.sciencemag.org                    SCIENCE           VOL 341           27 SEPTEMBER 2013                                 1238937-3
+Curiosity at Gale Crater
+ organic matter when exposed to ionizing radia-           crater with SAM TLS (30) and QMS (34), with                    The Rocknest d13C values suggest a hint of
+ tion at or near the surface or during analytical pro-    an average d13C value measured to date of ~+46‰.           13
+                                                                                                                       C enrichment, consistent with d13C values ob-
+ cessing. Thus, a widespread presence of perchlorate      Unlike hydrogen, however, the CO2-bearing phases           served in martian meteorite carbonates. Specif-
+ salts, spatially and temporally, would have an im-       in Rocknest soil do not fully reflect this 13C-            ically, the data from run 4, which most closely
+ portant bearing on understanding habitability, or-       enriched atmospheric value. Rather, d13C values            capture the largest CO2 peak, has a d13C value
+ ganic matter preservation potential, and organic         of CO2 evolved from Rocknest and analyzed                  of +20 T 10‰, which is similar to carbonate
+ biosignature detection on Mars.                          by TLS range from –6 to +20‰ (Table 3), and                measured in the Nakhla meteorite (35). This value
+                                                          estimates of d13C over the two major CO2 peaks             is lower than would be expected for carbonate
+ Isotopes                                                 using QMS data average ~+18 T 10‰, consistent              formed from the modern atmosphere as measured
+ The results of the TLS isotopic analyses at Rocknest     with the TLS results. These values overlap with            by SAM TLS (30). It is possible that this CO2 re-
+ are summarized in Table 3. The strategy for the          d13C values from both carbonates and refractory/           lease is a mixture of carbonate-derived CO2 with
+ different temperature ranges of evolved gas sent         reduced carbon in martian meteorites (Fig. 5).             a high d13C value and CO2 depleted in 13C and
+ to the TLS was developed with the EGA data               Consistent with the above discussion of sev-               thus does not reflect the true carbon isotopic
+ to iteratively design experiments that selectively       eral possible CO2 sources in SAM analyses of               composition of the carbonate. It is also possible
+ focused on various gas releases. For example,            Rocknest, the d13C compositions likely reflect             that the carbonate does have low d13C values as
+ run 3 captured the bulk of the H2O peak, and             mixing of multiple carbon sources. The concurrent          observed in some of the martian meteorites, sug-
+ run 4 focused on the first of the two large CO2          evolution of CO2 and O2 from Rocknest suggests             gesting that the atmosphere has changed through
+ peaks. The EGA data were also used to con-               that partial combustion of reduced carbon could            time (36). Overall, the data support a minor amount
+ strain the isotopic composition of C in CO2              contribute to evolved CO2. d13C associated with            of carbonate in martian soil derived from atmo-
+ and S in SO2.                                            the CO2 release between 250° and 450°C might               sphere interaction with only transient water (37).
+      Hydrogen in all Rocknest samples is highly          reflect some contribution from this combusted                  The sulfur isotopic composition of SO2 re-
+ enriched in deuterium compared to terrestrial            carbon. Previous studies of martian meteorites             leased during run 4 was determined from QMS
+ materials (Fig. 4), with dD values ranging from          have shown that reduced carbon is present either           data at a mass-to-charge ratio (m/z) of 64, 65, and
+ ~+3900 to +7000 per mil (‰). Run 3 should be             as an indigenous component or from exogenous               66. The Rocknest <150-mm fraction, including
+ most representative of the “bulk” of the water in        meteoritic input (8, 10–12).                               analyses of both of the major SO2 evolution peaks,
+ Rocknest, with a value of ~ +7000‰. However,
+ significant variation in the dD value with temper-
+ ature is observed, with the lower-temperature cut
+
+                                                          Residual
+                                                                      1
+ having the highest dD value and the highest-                         0
+ temperature cut having the lowest.                                  -1
+      The dD values measured in the Rocknest                         -2
+ <150-mm fraction are consistent with the SAM                    -3x104                                            Peak 3
+ TLS measurements of water in the martian atmo-
+ sphere taken before Rocknest, which show a
+ dD value of +5000 T 1000‰ (30). In addition,               1.6x105                                                                                  mass45
+                                                                                                                                                     fit-mass45
+ the Rocknest dD values are within the range of                          1.4                                                                         Res-mass45
+ values observed by remote-sensing analysis of the                                                                              Peak 4
+                                                                                                        Peak 2
+ martian atmosphere (31), where telescopic mea-                          1.2
+ surements from Earth have previously suggested
+ a reservoir enriched in D by a factor of ~5 over
+
+                                                              counts/s
+                                                                         1.0
+ terrestrial values. The D-enriched values in a martian
+ soil are also consistent with D-enriched H2O ob-                        0.8
+                                                                                             Peak 1
+ served in both bulk (32) and single grains (33)
+ in martian meteorites.                                                  0.6
+      The close match between the dD values from
+ H2O in both atmospheric gas and Rocknest sug-                           0.4
+ gests that the H2O-rich phases in the amorphous
+ material were formed either in direct contact                           0.2
+ with the atmosphere or through interaction with
+                                                                         0.0
+ volatiles derived from it. The variation of dD
+ value with temperature may either record long-                                    100       200        300         400     500           600        700         800
+ term variation of D/H through time or repre-                                                                    Temperature (ºC)
+ sent seasonal variations reflecting changes in
+ the water cycle. It is likely that the water evolved     Fig. 3. Deconvolution of CO2 release from Rocknest. Rocknest run 2 CO2 (mass 45) versus temper-
+ at the lowest temperatures represents water in           ature (red). Gray peaks are Gaussian fits to overall CO2 release that sum to mass 45 fit (blue line). CO2
+ active exchange with the present atmosphere,             fractions in each of the four peaks are 0.07, 0.22, 0.41, and 0.30, respectively.
+ whereas the higher-temperature releases could
+ represent water from a more ancient time. Tele-
+                                                          Table 3. Isotopic composition of volatiles released upon heating of Rocknest as measured with
+ scopic measurements suggest that there could
+                                                          the SAM TLS. Blank cup corrections have been applied as described in materials and methods.
+ be large variations in atmospheric dD value with
+ water content of the atmosphere and season               Rocknest run                   T range sampled (°C)               d13C in CO2 (‰)            dD in H2O (‰)
+ (31), and such variations may be reflected in the
+                                                          Run 3                               234–425                          –6 T 14                     7010 T 66
+ Rocknest results.
+                                                          Run 4                               350–443                          20 T 10                     4250 T 60
+      Like hydrogen in H2O, 13C-enriched CO2 has
+                                                          Run 2                               440–601                           3T9                        3870 T 60
+ also been observed in the atmosphere at Gale
+
+
+1238937-4                                27 SEPTEMBER 2013                     VOL 341    SCIENCE      www.sciencemag.org
+                                                                                                                                  RESEARCH ARTICLE
+have d34SVCDT of 0 T 10‰, consistent with sulfur    in runs 1, 2, and 4 were at ~nanomole levels and        The abundances measured by SAM are higher
+isotopic compositions measured in martian me-       above SAM background. Run 3 produced lower         than the picomole levels (up to 40 parts per bil-
+teorites (38, 39).                                  abundances of chloromethanes (typically observed   lion) for chloromethane and dichloromethane
+                                                    at <300°C) because only a high-temperature cut     previously measured by the Viking pyrolysis gas
+Organic Matter                                      of evolved gases were transferred to the GC. Mi-   chromatography–mass spectrometry (GC-MS) in-
+Chlorohydrocarbons comprising chloromethane         nor amounts of HCN, CH3Cl, CH2Cl2, and CHCl3       struments after heating the samples of scooped
+(CH3Cl), dichloromethane (CH2Cl2), trichlorometh-   are also observed in SAM EGA data (Fig. 1B). The   fines up to 500°C (13). Biemann et al. (13) at-
+ane (CHCl3), and chloromethylpropene (C4H7Cl)       abundance of these species is more than two or-    tribute the Viking results to chlorohydrocarbons
+were detected during SAM GC-MS analyses (Fig. 6     ders of magnitude lower than that of the most      derived from cleaning solvents used on the instru-
+and Table 4). Chloromethanes detected by SAM        abundant volatile released—H2O.                    ment hardware, not from the martian samples them-
+                                                                                                       selves. Recently, Navarro-González et al. (40)
+                                                                                                       suggested that these chlorohydrocarbons may
+Fig. 4. Tunable laser spec-                                                                            have formed by oxidation of indigenous organic
+trometer data showing hy-                                                                              matter during pyrolysis of the soil in the pres-
+drogen isotope enhancement                                                                             ence of perchlorates, but Biemann and Bada (41)
+in Rocknest. Section of a sin-                                                                         disagree with this conclusion.
+gle spectrum (60 s integration)                                                                             The absence of detectable chlorohydrocarbons
+downloaded from Curiosity                                                                              in the SAM blank run indicates that the chlorohy-
+(black) for the Rocknest 3 sam-                                                                        drocarbons measured at Rocknest are not directly
+ple run, showing large HDO                                                                             attributable to the SAM instrument background
+line depth compared to calcu-                                                                          signal. However, the associated release of chloro-
+lated HITRAN spectrum (red)                                                                            methanes, O2, and HCl strongly suggests that
+based on terrestrial SMOW wa-
+                                                                                                       these chlorohydrocarbons are being produced
+ter isotope ratios. The HDO
+                                                                                                       within SAM by chlorination reactions involv-
+line is ~4 times the depth of
+that predicted for SMOW, so                                                                            ing an oxychloride compound in the Rocknest
+that the D/H ratio is ~8 times                                                                         <150-mm fraction and an organic carbon pre-
+that of SMOW, corresponding                                                                            cursor (23). Three sources for the organic carbon
+to a dD value of ~7000‰, as                                                                            of this reaction are possible: (i) terrestrial sources
+reported.                                                                                              within the SAM instrument or the Curiosity sam-
+                                                                                                       ple chain; (ii) exogenous carbon in the martian
+                                                                                                       surface materials derived from infalling meteor-
+                                                                                                       itic carbon; and (iii) martian indigenous organic
+                                                                                                       matter. A feasible explanation involves terrestrial
+                                                                                                       carbon derived from the MTBSTFA, whose reac-
+                                                                                                       tion products were identified in both the blank
+                                                                                                       and soil EGA and GC analyses. On the basis of
+                                                                                                       laboratory pyrolysis GC-MS experiments, pyro-
+                                                                                                       lytic reaction of martian Cl with organic carbon
+                                                                                                       from MTBSTFA in SAM can explain the pres-
+                                                                                                       ence of the chloromethanes and chloromethyl-
+                                                                                                       propene detected by SAM. However, we cannot
+                                                                                                       rule out the possibility that traces of organic carbon
+                                                                                                       of either martian or exogenous origin contributed
+                                                                                                       to some of the chlorohydrocarbons measured by
+                                                                                                       SAM at Rocknest.
+                                                                                                            Overall, SAM analyses indicate that martian
+                                                                                                       fines contain a number of materials with bound
+                                                                                                       volatiles that can be released upon heating. These
+                                                                                                       volatile-bearing materials are likely very fine-
+                                                                                                       grained and associated with the amorphous com-
+                                                                                                       ponent of martian regolith. The fines could be a
+                                                                                                       good source of water, CO2, and other volatiles to
+                                                                                                       be leveraged by future human explorers on Mars.
+                                                                                                       Isotopic compositions support an atmospheric
+                                                                                                       source of the water and possibly CO2, consistent
+                                                                                                       with previously proposed formation mechanisms
+                                                                                                       for carbonate and perchlorate in the fines that in-
+                                                                                                       volve interaction with the atmosphere. Although
+                                                                                                       martian organic matter was not definitively detected,
+                                                                                                       the presence of materials that produce substantial
+                                                                                                       amounts of oxygen upon heating suggests that
+                                                                                                       detection of such compounds in martian soils will
+Fig. 5. Carbon isotopes in relevant solar system reservoirs. Carbon isotopic composition of ma-        be difficult with pyrolysis techniques. The fines on
+terials from Mars (44–46), Earth (47), and carbonaceous chondrite meteorites (48) for comparison the   Mars reveal a complex history, reflecting global,
+values measured in Rocknest and the martian atmosphere (30) by the Mars Curiosity Rover.               regional, and local-scale processes.
+
+
+                                    www.sciencemag.org         SCIENCE       VOL 341      27 SEPTEMBER 2013                                   1238937-5
+Curiosity at Gale Crater
+ Materials and Methods                                  chemical reactions among chemical components           and carbon isotopes in CO2 were analyzed in the
+                                                        (18). When organic materials are present in solid      bulk gases. Evolved gases from a different selected
+ SAM Instrument Overview and Operations                 samples, they might be desorbed at low temper-         temperature range sent to the GC were first cap-
+ The SAM instrument suite supports the MSL              atures (usually below 320°C), as is the case for       tured on the hydrocarbon trap held at 5°C. The trap
+ mission and sits inside the Curiosity rover at         small individual molecules; undergo pyrolysis          was subsequently heated to ~300°C under He flow,
+ Gale crater on Mars. The SAM instruments are           (i.e., thermal bond cleavage) at higher tempera-       and the desorbed gases were sent to a GC chan-
+ a QMS, a TLS, and a six-column GC with ther-           tures; or contribute to thermochemical reactions       nel (composed of an injection trap, MXT-CLP
+ mal conductivity detectors (TCDs) (7). These           (at all temperatures) (42).                            column, and TCD) suited for the analysis and
+ three instruments share a solid sample- and gas-            SAM performs EGA with the QMS and iso-            separation of volatile organic compounds. The
+ processing system to generate complementary            tope measurements of evolved gases with both           TCD and QMS provide detection and identifica-
+ compositional and isotopic observations on each        the QMS and the TLS, with the latter being sen-        tion of the chemical molecules eluted from the GC.
+ sample delivered by the rover’s Sample Acquisi-        sitive to CO2, water, and methane (methane de-
+ tion, Sample Processing and Handling (SA/SPaH)         tection capability was not used during Rocknest        Solid Sample Analysis Details
+ hardware to a SAM solid sample inlet tube or           runs). Organic analyses can be performed with          At Rocknest, fines from scoop #5 were delivered
+ ingested directly through a gas inlet. Before each     the QMS alone or when it is coupled to the GC.         to SAM four times and placed in separate quartz-
+ analysis, the oven for solid samples, gas-processing   SAM heated each Rocknest sample to ~835°C at           glass cups. The sample in each cup was flushed
+ system, and instruments are purged with helium         a rate of 35°C/min with a He carrier gas flow rate     with pure helium (99.999%) at ~ 25 mbar at ~0.77
+ and heated to release any residual volatiles in the    of ~0.77 standard cm3 per minute and at an oven        standard cm3 per minute and heated at ~75°C
+ system to, in effect, precondition and clean SAM.      pressure of ~25 mbar. The SAM QMS analyzed             for 15 min to release water adsorbed on mineral
+     Scooped, sieved <150-mm-particle-size frac-        abundances of gases across the entire tempera-         surfaces and minimize saturating the system
+ tion, and portioned (<76 mm3) sediments of the         ture range, while selected temperature ranges of       with excess water. This early gas release was di-
+ Rocknest aeolian drift were heated to thermally        the evolved gases in each run were sent to the         rectly measured by the QMS. Each cup was
+ evolve gases for processing and analysis. These        TLS and GC for analysis (Table 1). For each por-       heated in SAM oven #1 at a rate of ~35°C min−1
+ volatiles are the result of the following processes    tion ingested by SAM (called runs 1 through 4),        to ~835°C, where the final temperature varied
+ often happening concurrently: (i) desorption of        the gases evolved across the selected range of         slightly due to different ambient Mars environ-
+ surface-adsorbed volatiles and anions, (ii) min-       temperatures were accumulated inside the TLS           mental conditions. All evolved gases from the
+ eral thermal decomposition, and (iii) thermo-          Herriott cell, where hydrogen isotopes in water        75° to 835°C range were sampled by the QMS
+
+
+
+
+ Fig. 6. Blank run and Rocknest gas chromatograph data. SAM gas chro-               the Rocknest figure) were identified above measured background levels:
+ matograph separation of volatile compounds released during the pre-Rocknest        2, carbon dioxide; 3, sulfur dioxide; 4, hydrogen cyanide; 5, hydrogen sulfide;
+ blank (left) and Rocknest run 1 (right). See materials and methods for an-         6, chloromethane; 7, dichloromethane; 9, trichloromethane; 11, chloromethyl-
+ alytical protocols. The top plots in blue show the relative intensity of the TCD   propene; 15, chlorobenzene. The following peaks are consistent with mea-
+ signal versus GC retention time. The traces shown on the bottom plot repre-        sured background levels: 1, carbon monoxide; 8, acetone; 10, acetonitrile;
+ sent peak intensities of four different scans over the specified m/z ranges in     12, benzene; 13, toluene; 14, tert-butyldimethylsilanol; 16, phenylethyne;
+ counts per second (cps) versus GC retention time. Key compounds (numbered)         17, styrene; 18, 1,3-bis(1,1-dimethylethyl)-1,1,3,3-tetramethyldisiloxane; 19,
+ were identified by comparison to National Institute of Standards and Tech-         trimethylsilylborate; and 20, biphenyl. See Table 4 for discussion of possible
+ nology mass spectral references. The following peaks (marked in red in             origins of each peak.
+
+
+1238937-6                               27 SEPTEMBER 2013             VOL 341       SCIENCE       www.sciencemag.org
+                                                                                                                                         RESEARCH ARTICLE
+through a capillary flow restrictor. This experi-       peaks are used to quantify the contributions from      its. To quantify the abundance of CO2, m/z 12 (C+),
+ment is referred to as evolved gas analysis and         each release event to the total abundance of evolved   m/z 22 (CO22+), and m/z 45 and 46 (isotopologs
+produced data in the form of pyrograms for in-          CO2. Although it is not possible to assign defin-      of CO2) were used instead of m/z 44. The num-
+dividual ions defined by their m/z ratios. The main     itively specific species to each of the four peaks,    ber of moles of CO2 evolved from Rocknest sam-
+split of evolved gas was then passed through gas        oxidized organics (terrestrial or martian) and sev-    ples was determined by taking an average of the
+manifolds heated at 135°C to either the hydrocarbon     eral types are carbonate are discussed in the text     total areas calculated for each m/z listed above.
+trap for GC analysis or the TLS Herriot cell for        as likely contributing to the CO2 peaks, especially    The error was calculated as 2s SD from the mean.
+isotopic and mixing-ratio measurements of H2O,          the two major peaks.                                   For H2O, m/z 19 and 20 were used because m/z
+CO2, or O2, or vented to Mars. For each analyt-                                                                17 and 18 were saturated, in both Rocknest and
+ical run, different temperature cuts of gas were        Methods for Molar Abundance Calculations               earlier laboratory calibration runs. To calculate SO2
+selected to go to the GC or TLS, but in no case was     Molar abundances were primarily computed by            abundances, m/z 66 and 50 were used (isotopologs
+the gas sent to both at the same time. Temperature      referencing measurements on Mars to pre-launch         of SO2 and SO) because m/z 64 and 48 saturated
+cuts for the GC and TLS are listed in Table 1.          SAM calibration runs of quantified samples of          in calibration runs.
+    Figures 2 and 3 show detailed analyses of the       calcite (CaCO3) and a hydrated iron sulfate                 There are two additional complications en-
+H2O and CO2 releases, respectively. The plot of         (FeSO4·4H2O) (6). A calibration factor [counts         countered when calculating H2O abundances.
+H2O release in Fig. 2 is generated with the QMS         per second (cps)/mol] was determined for the           First, FeSO4·4H2O begins to lose H2O as soon it
+data from m/z 20, because the molecular ion for         relevant m/z value in laboratory standard runs         is exposed to lower pressures, which is before the
+H2O (m/z 18) is saturated in these runs. The re-        by integrating under the evolved gas curve and         QMS begins monitoring gas evolution. Fortu-
+lease temperatures of various hydrous mineral           dividing by the number of moles evolved from           nately, there is a very distinct and repeatable H2O
+phases marked on the plot are derived from lab-         the sample, assuming complete decomposition.           release at slightly higher temperatures (~200°C)
+oratory measurements performed under condi-                 Under nominal SAM operating conditions,            with a measurable mass loss. This H2O release
+tions similar to those for the EGA in SAM. These        the most abundant ion of major species (e.g., m/z      was used to calibrate Rocknest data. Second, Mars
+were typically determined for single minerals,          18 for H2O) often saturates the detector. Given a      has a much higher D/H ratio than Earth, which
+and mineral mixtures and grain-size effects can         fixed detector range, this makes the instrument        can affect peak integration values, especially for
+change these values. Nonetheless, the broad H2O         more sensitive to low-abundance materials. To          m/z 19 (HDO). We corrected for this effect when
+release peak is not clearly indicative of any one       quantify amounts with high abundances, doubly          calculating the water abundances on Mars using
+mineral phase. Figure 3 shows evolved CO2 (m/z          ionized molecules, ion fragments, and isotopes         QMS data during EGA. The differences in the
+45) as a function of temperature for Rocknest           were used to calculate evolved gas abundances.         d18O, d13C, and d34S isotopic values between Earth
+run #2, for which four discrete peaks can be fit        For example, m/z 44 (CO2+) saturated the de-           and Mars are small compared to the other un-
+to Gaussian peak shape to model the summed              tector for most of the Rocknest runs because the       certainties involved in these abundance calcula-
+CO2 release. The integrated areas for the fitted        amount of CO2 evolved exceeded detector lim-           tions and, therefore, were not included.
+                                                                                                                    Oxygen abundance values were calculated
+                                                                                                               in a slightly different way because none of the
+Table 4. Inorganic and organic volatile species detected by the SAM GC-MS upon heating of                      minerals run during prelaunch testing released
+Rocknest and their possible origins. MTBSTFA (N-tert-butyldimethylsilyl-N-methyltrifluoroacetamide)            O2. However, a separate prelaunch characteriza-
+and DMF (dimethylformamide) are both carried within SAM for future derivatization experiments.                 tion run was done with an equimolar gas mix of
+Tenax TA is a porous polymer adsorbent resin used to concentrate organic compounds on the SAM                  O2, CO2, Ar, and N2. These data were used to
+hydrocarbon traps. Those sources that are known to be terrestrial in origin are shown in italics.
+                                                                                                               determine relative calibration factors for the major
+Compounds in bold are observed above measured background levels.
+                                                                                                               atmospheric species, as discussed in Mahaffy et al.
+Peak no. from                                                                                                  (34). Such calibration factors yield a value for rel-
+                                Compound                                   Possible origin(s)                  ative ionization rates for O2 and CO2 at equivalent
+  Fig. 6
+                                                                                                               abundances, which were applied to the EGA data
+1                    Carbon monoxide                          Unknown
+                                                                                                               to determine calibration factors for O2 in cps/mol.
+                                                              Martian carbonates/carbon?,
+2                    Carbon dioxide
+                                                                MTBSTFA or DMF                                 Isotope Data Reporting Convention
+3                    Sulfur dioxide                           Martian S-bearing minerals
+                                                                                                               All isotope results are presented in standard delta
+                                                              MTBSTFA + perchlorate or high-T
+4                    Hydrogen cyanide                                                                          notation (dD, d13C, d34S) with respect to Vienna
+                                                                martian source?
+                                                                                                               standard mean ocean water (VSMOW) for hy-
+5                    Hydrogen sulfide                         Product of S-bearing minerals
+                                                                                                               drogen, Vienna Pee Dee belemnite (VPDB) for
+6                    Chloromethane                            MTBSTFA or martian carbon? + perchlorates
+                                                                                                               carbon, and Vienna Cañon Diablo troilite (VCDT)
+7                    Dichloromethane                          MTBSTFA or martian carbon? + perchlorates
+                                                                                                               for sulfur. Here, d(‰) = [Rmeas/Rstd – 1] × 1000,
+8                    Acetone                                  MTBSTFA or DMF
+                                                                                                               where Rmeas is the measured isotope ratio (heavy/
+9                    Trichloromethane                         MTBSTFA or martian carbon? + perchlorates
+                                                                                                               light), and Rstd is the ratio of the relevant refer-
+10                   Acetonitrile                             MTBSTFA or DMF
+                                                                                                               ence standard.
+11                   Chloromethylpropene                      MTBSTFA + perchlorates
+12                   Benzene                                  Tenax TA                                         TLS Operational Conditions
+13                   Toluene                                  Tenax TA                                         and Data Reduction
+14                   tert-Butyldimethylsilanol                MTBSTFA + water
+                                                                                                               TLS is a two-channel tunable laser spectrometer
+15                   Chlorobenzene                            HCl + Cl2 + Tenax TA
+                                                                                                               that uses direct and second harmonic detection
+16                   Phenylethyne                             Tenax TA
+                                                                                                               of infrared laser light absorbed after multipass-
+17                   Styrene                                  Tenax TA
+                                                                                                               ing a sample cell. For the results reported here,
+                     1,3-bis(1,1-dimethylethyl)-              MTBSTFA + water
+18                                                                                                             the sample cell path length is 43 passes of a
+                        1,1,3,3-tetramethyldisiloxane
+                                                                                                               ~19.5-cm cell length, or 840 cm. TLS scans over
+19                   Trimethylsilylborate                     MTBSTFA + glass beads
+                                                                                                               individual rovibrational lines in two spectral re-
+20                   Biphenyl                                 Tenax TA
+                                                                                                               gions near 2.78 mm; one centered at 3590 cm−1 for
+
+
+                                      www.sciencemag.org            SCIENCE        VOL 341       27 SEPTEMBER 2013                                    1238937-7
+Curiosity at Gale Crater
+ CO2 isotopes, and a second centered at 3594 cm−1       determined from m/z 45 and 46, with correction          patterns to the NIST11 library. The abundances
+ for both CO2 and H2O isotopes. The lines used in       for oxygen contributions based on the most rele-        of the chlorohydrocarbon compounds (~10−2 to
+ both regions have no discernable interferences.        vant TLS measurements of the oxygen isotopic            1 nmol) were determined by comparing the fitted
+ In the 3594-cm−1 region, the CO2 and H2O lines         composition in CO2. The values of d13C given            peaks in the Rocknest data to those of known
+ used interleave across the spectrum without inter-     in the main text were computed on the basis of          amounts of hexane measured during preflight
+ ference, allowing determination of isotope ratios      an estimated d18O value of –28‰, as determined          calibration runs on SAM GC, corrected for differ-
+ across widely varying CO2 and H2O abundances in        by the TLS for CO2 released during Rocknest 4,          ences in ionization efficiency (34). These abun-
+ both atmospheric and evolved gas experiments. For      because the gas sample sent to TLS during this          dances are also corrected for the gas fraction sent
+ carbon isotopes, the values given are the weighted     run was the most representative of the peak CO2         to the hydrocarbon trap with EGA data (Table 1).
+ means of two separate pairs of lines, one pair from    release from Rocknest samples. The carbon
+ each region. Further data-processing details and       isotopic composition of CO2 during these runs           EGA, GC-TCD, and GC-MS
+ calibration are described in the supplementary ma-     cannot be calculated from the more typical pairs        Background Measurements
+ terials accompanying Webster et al. (30). Figure 4     of m/z 12-13 or 44-45 because of interference           Within SAM, there are several common sources
+ is a good example of a TLS flight spectrum used        from MTBSTFA background at m/z 13 and de-               of organic molecules that are typical of sim-
+ for isotope ratio measurement, showing the large       tector saturation at m/z 44.                            ilar, nonflight instruments. These include (i) wet
+ enhancement of the HDO line over that expected              For SO2, the 34S/32S ratio is computed from        chemistry reagents used for derivatization (i.e.,
+ (HITRAN database) for terrestrial water.               m/z 64-66, with correction for oxygen contribu-         MTBSTFA and DMF) and thermochemolysis
+     The TLS sample cell (Herriott cell) is first       tions (assumed d18O of 50 T 5‰) based on TLS            [i.e., tetramethylammonium hydroxide in metha-
+ pumped out by using the SAM turbomolecular             measurements of the oxygen isotopic composi-            nol (TMAH)] and their breakdown products; (ii)
+ pump with empty cell pressures of CO2 and              tion of both CO2 and H2O in the martian atmo-           the Tenax TA, a porous, 2.6-diphenylene oxide
+ H2O that are insignificant compared to either          sphere. For both CO2 and SO2, 17O contributions         polymer resin adsorbant that slowly degrades with
+ EGA or “blank cup” runs. At some predeter-             were estimated from the assumed d18O on the             use into benzene, toluene, tropylium ion, biphenyl,
+ mined time during either the four EGA or single        basis of a D17O of 0.32‰, the average for martian       and other single–aromatic ring structures; and (iii)
+ blank cup runs, temperature cuts of evolved            silicates (43).                                         the polymer films inside the capillary columns that
+ gas are sent to the TLS (Table 1), where they                                                                  promote selective molecular separation. The mol-
+ produced Herriott cell pressures of 4 to 9 mbar        GC-TCD and GC-MS Operational Conditions                 ecules from these sources are known and make
+ of principally helium, with evolved water and          The SAM GC hydrocarbon trap consists of three           up what is referred to as instrument background
+ carbon dioxide as minor components. Before             layers: nonporous silica beads, Tenax TA adsorbant      signal, which is expected to change over the course
+ the Rocknest EGA runs reported here, a blank           (porous 2.6-diphenylene oxide polymer resin),           of the SAM instrument’s lifetime and is continu-
+ cup run was conducted under the identical con-         and Carbonsieve G adsorbant (graphitized car-           ously monitored by analysis of empty sample
+ ditions (He flow, temperature cut, pressure, etc.)     bon) (7). Gases were passed through the hydro-          cup or “blanks.” Contributions of aromatics from
+ but without solid sample in the pyrolysis oven.        carbon trap that had been cooled to 5°C and             the Tenax TA traps to TCD and QMS (post-GC)
+ Resulting signals (abundances) for CO2 and             selectively condensed onto glass beads or adsorbed      data have been determined on the basis of their
+ H2O were not large compared to the Rocknest            on the basis of volatility, molecular size, and chem-   absence in EGA data. The blank analysis run be-
+ abundance values, and isotope values are sim-          istry. Thermal desorption at 300°C for 4 min under      fore Rocknest fines was the first analysis per-
+ ilar to those of the samples, but nonetheless it       He (0.5 standard cm3 per minute, 0.9 bar) re-           formed since prelaunch testing, and it showed the
+ is appropriate to make a correction. This cor-         leased analytes from the hydrocarbon trap in the        presence of DMF, MTBSTFA products, Tenax TA
+ rection was weighted by the relative abundance         opposite direction. Analytes then collected on a        products, and terrestrial water (Table 4). TLS mea-
+ of the gas of interest. Specifically, the H2O          Tenax TA injection trap of the GC. The injection        surements of D/H in water indicated that further
+ abundances in the blank were ~3% of the total          trap was then flash heated to 300°C. All four           heating and purging of the system largely elimi-
+ water measured, and the CO2 abundances were            Rocknest GC analyses used the MTX-CLP col-              nated the terrestrial water.
+ ~5 to 10% of the total CO2 measured in Rocknest        umn (30-m length, 0.25-mm internal diameter,
+ aliquots. Blank cup values for measured d13C in        0.25-mm film thickness), which has a polydime-
+ CO2 was –80‰ and dD in H2O was 3880‰. The              thylsiloxane with phenyl and cyanopropyle film              References and Notes
+ TLS measured results are therefore the combi-          (7) and is designed for separating mid–molecular         1. J. Brückner, G. Dreibus, R. Rieder, H. Wanke, Refined
+                                                                                                                    data of Alpha Proton X-ray Spectrometer analyses of soils
+ nation of an underlying background (blank cup)         weight hydrocarbons. The column temperature was             and rocks at the Mars Pathfinder site: Implications for
+ contribution and the Rocknest sample contribu-         programmed from 50° to 220°C at 10°C min−1                  surface chemistry. J. Geophys. Res. Planets 108, 8094
+ tion in proportions dependent on the relative          and He carrier gas was held at a constant column            (2003). doi: 10.1029/2003JE002060
+ abundances of water and carbon dioxide from            inlet pressure of 0.9 bar. Gases eluting from the        2. B. C. Clark et al., Chemical composition of Martian fines.
+                                                                                                                    J. Geophys. Res. 87, 10059 (1982). doi: 10.1029/
+ each. Because the blank cup abundances of these        GC were nondestructively detected by the TCD
+                                                                                                                    JB087iB12p10059
+ gases is much smaller than those evolved from          and then ionized by electron impact at 70 eV in          3. R. Gellert et al., Chemistry of rocks and soils in Gusev
+ the Rocknest samples, the corrections to the mea-      the QMS source, which fragmented molecules in               Crater from the alpha particle x-ray spectrometer. Science
+ sured isotope ratios are usually small. Given the      a predictable fashion. The QMS scanned for ions             305, 829–832 (2004). doi: 10.1126/science.1099913;
+ small abundance of H2O and CO2 in the blank,           in a m/z range of 2 to 535 using the Smart Scanning         pmid: 15297665
+                                                                                                                 4. H. Wänke, J. Bruckner, G. Dreibus, R. Rieder, I. Ryabchikov,
+ the blank isotope values have relatively large un-     algorithm previously described (7). The GC-TCD              Chemical composition of rocks and soils at the pathfinder
+ certainties, and these are propagated through the      result is shown as a single chromatogram for all de-        site. Space Sci. Rev. 96, 317–330 (2001). doi: 10.1023/
+ correction calculation. The results given in Table 3   tected molecules in which the retention time (x axis)       A:1011961725645
+ are the Rocknest sample isotope ratios after cor-      is normalized to the GC retention time. GC-MS re-        5. A. S. Yen et al., An integrated view of the chemistry
+                                                                                                                    and mineralogy of martian soils. Nature 436, 49–54
+ rection for the blank cup values.                      sults are given as individual ion chromatograms             (2005). doi: 10.1038/nature03637; pmid: 16001059
+                                                        and mass spectra for isolated peaks, in which the        6. S. R. Taylor, S. M. McLennan, Planetary Crusts: Their
+ QMS Isotope Value Calculations                         mass spectra were generated with a custom data-             Composition, Origin and Evolution (Cambridge Univ.
+ Isotope ratios from QMS data obtained through          processing program.                                         Press, Cambridge, 2009).
+                                                                                                                 7. P. R. Mahaffy et al., The Sample Analysis at Mars
+ EGA of solid samples are computed from the                  The identification of the chlorohydrocarbons           Investigation and Instrument Suite. Space Sci. Rev.
+ time-integrated signal at isotopologs for the com-     in the GC-MS data was based on the retention                170, 401–478 (2012). doi: 10.1007/s11214-
+ pounds of interest. For CO2, the 13C/12C ratio is      times and comparisons of the mass fragmentation             012-9879-z
+
+
+
+1238937-8                               27 SEPTEMBER 2013            VOL 341       SCIENCE         www.sciencemag.org
+                                                                                                                                                                         RESEARCH ARTICLE
+ 8. M. M. Grady, A. B. Verchovsky, I. P. Wright, Magmatic               the Rocknest aeolian deposit in Gale Crater. J. Geophys.       38. J. Farquhar, J. Savarino, T. L. Jackson, M. H. Thiemens,
+    carbon in Martian meteorites: Attempts to constrain the             Res. Planets (2013). doi: 10.1002/jgre.20127                       Evidence of atmospheric sulphur in the martian regolith
+    carbon cycle on Mars. Int. J. Astrobiol. 3, 117–124             24. M. M. Markowitz, D. A. Boryta, The differential thermal            from sulphur isotopes in meteorites. Nature 404, 50–52
+    (2004). doi: 10.1017/S1473550404002071                              analysis of perchlorates. VII. Catalytic decompositions            (2000). doi: 10.1038/35003517; pmid: 10716436
+ 9. A. Steele et al., Comprehensive imaging and Raman                   of the alkali metal perchlorates by manganese dioxide.         39. J. P. Greenwood, L. R. Riciputi, H. Y. McSween Jr.,
+    spectroscopy of carbonate globules from Martian                     J. Phys. Chem. 69, 1114–1123 (1965). doi: 10.1021/                 Sulfide isotopic compositions in shergottites and
+    meteorite ALH 84001 and a terrestrial analogue from                 j100888a005                                                        ALH84001, and possible implications for life on Mars.
+    Svalbard. Meteorit. Planet. Sci. 42, 1549–1566 (2007).          25. M. H. Hecht et al., Detection of perchlorate and the               Geochim. Cosmochim. Acta 61, 4449–4453 (1997).
+    doi: 10.1111/j.1945-5100.2007.tb00590.x                             soluble chemistry of martian soil at the Phoenix lander            doi: 10.1016/S0016-7037(97)00246-9
+10. A. Steele et al., A reduced organic carbon component in             site. Science 325, 64–67 (2009). pmid: 19574385                40. R. Navarro-González, E. Vargas, J. de la Rosa,
+    martian basalts. Science 337, 212–215 (2012).                   26. J. M. Keller et al., Equatorial and midlatitude distribution       A. C. Raga, C. P. McKay, Reanalysis of the Viking
+    doi: 10.1126/science.1220715; pmid: 22628557                        of chlorine measured by Mars Odyssey GRS. J. Geophys.              results suggests perchlorate and organics at
+11. L. Becker, B. Popp, T. Rust, J. L. Bada, The origin of              Res. 111, E03S08 (2006). doi: 10.1029/2006je002679                 midlatitudes on Mars. J. Geophys. Res. 115, E12010
+    organic matter in the Martian meteorite ALH84001.               27. D. C. Catling et al., Atmospheric origins of perchlorate on        (2010). doi: 10.1029/2010JE003599
+    Adv. Space Res. 24, 477–488 (1999). doi: 10.1016/                   Mars and the Atacama. J. Geophys. Res. 115, E00E11             41. K. Biemann, J. L. Bada, Comment on “Reanalysis of the
+    S0273-1177(99)00090-3; pmid: 11543335                               (2010). doi: 10.1029/2009JE003425                                  Viking results suggests perchlorate and organics at
+12. M. A. Sephton et al., High molecular weight organic             28. Y. S. Kim, K. P. Wo, S. Maity, S. K. Atreya, R. I. Kaiser,         midlatitudes on Mars” by Rafael Navarro-González et al.
+    matter in martian meteorites. Planet. Space Sci. 50,                Radiation-induced formation of chlorine oxides and their           J. Geophys. Res. 116, E12001 (2011). doi: 10.1029/
+    711–716 (2002). doi: 10.1016/S0032-0633(02)00053-3                  potential role in the origin of Martian perchlorates. J. Am.       2011JE003869
+13. K. Biemann et al., The search for organic substances                Chem. Soc. 135, 4910–4913 (2013). doi: 10.1021/                42. S. C. Moldoveanu, Analytical Pyrolysis of Natural Organic
+    and inorganic volatile compounds in the surface of Mars.            ja3122922; pmid: 23506371                                          Polymers (Elsevier, Amsterdam, 1998), pp. 496.
+    J. Geophys. Res. 82, 4641–4658 (1977). doi: 10.1029/            29. J. D. Schuttlefield, J. B. Sambur, M. Gelwicks,                43. I. A. Franchi, I. P. Wright, A. S. Sexton, C. T. Pillinger,
+    JS082i028p04641                                                     C. M. Eggleston, B. A. Parkinson, Photooxidation of                The oxygen-isotopic composition of Earth and Mars.
+14. D. F. Blake et al., Curiosity at Gale crater, Mars:                 chloride by oxide minerals: Implications for perchlorate           Meteorit. Planet. Sci. 34, 657–661 (1999).
+    Characterization and analysis of the Rocknest sand                  on Mars. J. Am. Chem. Soc. 133, 17521–17523 (2011).                doi: 10.1111/j.1945-5100.1999.tb01371.x
+    shadow. Science 341, 1239505 (2013).                                doi: 10.1021/ja2064878; pmid: 21961793                         44. A. J. T. Jull, C. J. Eastoe, S. Cloudt, Isotopic composition
+15. D. L. Bish et al., X-ray diffraction results from Mars          30. C. R. Webster et al., Isotope ratios of H, C, and O in             of carbonates in the SNC meteorites, Allan Hills 84001
+    Science Laboratory: Mineralogy of Rocknest at Gale                  CO2 and H2O of the martian atmosphere. Science 341,                and Zagami. J. Geophys. Res. Planets 102, 1663 (1997).
+    crater. Science 341, 1238932 (2013).                                260–263 (2013). doi: 10.1126/science.1237961;                      doi: 10.1029/96JE03111
+16. R. C. Anderson et al., Collecting samples in Gale Crater,           pmid: 23869013                                                 45. P. B. Niles, L. A. Leshin, Y. Guan, Microscale carbon
+    Mars; an overview of the Mars Science Laboratory Sample         31. R. E. Novak, M. J. Mumma, G. L. Villanueva, Measurement            isotope variability in ALH84001 carbonates and a
+    Acquisition, Sample Processing and Handling System.                 of the isotopic signatures of water on Mars; Implications          discussion of possible formation environments.
+    Space Sci. Rev. 170, 57–75 (2012). doi: 10.1007/                    for studying methane. Planet. Space Sci. 59, 163–168               Geochim. Cosmochim. Acta 69, 2931–2944 (2005).
+    s11214-012-9898-9                                                   (2011). doi: 10.1016/j.pss.2010.06.017                             doi: 10.1016/j.gca.2004.12.012
+17. D. L. Bish, C. J. Duffy, in Thermal Analysis in Clay Science,   32. L. A. Leshin, S. Epstein, E. M. Stolper, Hydrogen isotope      46. I. P. Wright, R. H. Carr, C. T. Pillinger, Carbon abundance
+    J. W. Stucki, D. L. Bish, Eds. (Clay Minerals Society,              geochemistry of SNC meteorites. Geochim. Cosmochim.                and isotopic studies of Shergotty and other shergottite
+    Boulder, CO, 1990), vol. 3, pp. 95–189.                             Acta 60, 2635–2650 (1996). doi: 10.1016/0016-7037                  meteorites. Geochim. Cosmochim. Acta 50, 983–991
+18. K. M. Cannon, B. Sutter, D. Ming, W. V. Boynton,                    (96)00122-6                                                        (1986). doi: 10.1016/0016-7037(86)90379-0
+    R. C. Quinn, Perchlorate induced low temperature                33. L. A. Leshin, Insights into martian water reservoirs           47. J. Hoefs, Stable Isotope Geochemistry (Springer-Verlag,
+    carbonate decomposition in the Mars Phoenix Thermal and             from analyses of martian meteorite QUE94201.                       Heidelberg, Germany, ed. 2, 1980).
+    Evolved Gas Analyzer (TEGA). Geophys. Res. Lett. 39,                Geophys. Res. Lett. 27, 2017–2020 (2000).                      48. M. A. Sephton, Organic compounds in carbonaceous
+    L13203 (2012).                                                      doi: 10.1029/1999GL008455                                          meteorites. Nat. Prod. Rep. 19, 292–311 (2002).
+    doi: 10.1029/2012GL051952                                       34. P. R. Mahaffy et al., Abundance and isotopic composition           doi: 10.1039/b103775g; pmid: 12137279
+19. B. Sutter et al., The detection of carbonate in the martian         of gases in the martian atmosphere from the Curiosity
+    soil at the Phoenix Landing site: A laboratory                      rover. Science 341, 263–266 (2013). doi: 10.1126/              Acknowledgments: NASA provided support for the development
+    investigation and comparison with the Thermal and                   science.1237966; pmid: 23869014                                and operation of SAM, and for the SAM Science Team, led out of
+    Evolved Gas Analyzer (TEGA) data. Icarus 218, 290–296           35. I. P. Wright, M. M. Grady, C. T. Pillinger, Chassigny and      NASA’s Goddard Space Flight Center. The GC-TCD subsystem for SAM
+    (2012). doi: 10.1016/j.icarus.2011.12.002                           the nakhlites: Carbon-bearing components and their             was developed in France, with the support of CNES. The TLS
+20. H. V. Lauer Jr., P. D. Archer, B. Sutter, P. B. Niles,              relationship to martian environmental conditions.              subsystem for SAM was developed at the Jet Propulsion Laboratory,
+    D. M. Ming, in Lunar Planet. Sci. 43 (2012), abstr. 2299.           Geochim. Cosmochim. Acta 56, 817–826 (1992).                   California Institute of Technology, under a contract with NASA. Data
+21. B. C. Clark, A. K. Baird, Is the Martian lithosphere sulfur         doi: 10.1016/0016-7037(92)90100-W                              from the SAM experiment are archived in the Planetary Data
+    rich? J. Geophys. Res. 84, 8395 (1979). doi: 10.1029/           36. P. B. Niles, W. V. Boynton, J. H. Hoffman, D. W. Ming,         System (pds.nasa.gov). The SAM development, operations, and
+    JB084iB14p08395                                                     D. Hamara, Stable isotope measurements of martian              testbed teams provided essential contributions to the successful
+22. R. Furuichi, T. Ishii, K. Kobayashi, Phenomenological               atmospheric CO2 at the Phoenix landing site.                   operation of SAM on Mars and the acquisition of these data.
+    study of the catalytic thermal decomposition of potassium           Science 329, 1334–1337 (2010). doi: 10.1126/
+    perchlorate by iron(II) oxides with different preparing             science.1192863; pmid: 20829484
+                                                                                                                                       Supplementary Materials
+                                                                                                                                       www.sciencemag.org/content/341/6153/1238937/suppl/DC1
+    histories. J. Therm. Anal. 6, 305–320 (1974).                   37. J. L. Bandfield, T. D. Glotch, P. R. Christensen,
+                                                                                                                                       MSL Science Team Author List
+    doi: 10.1007/BF01950062                                             Spectroscopic identification of carbonate minerals in
+23. D. P. Glavin et al., Evidence for perchlorates and the              the martian dust. Science 301, 1084–1087 (2003).               9 April 2013; accepted 2 August 2013
+    origin of chlorinated hydrocarbons detected by SAM at               doi: 10.1126/science.1088054; pmid: 12934004                   10.1126/science.1238937
+
+
+
+
+                                                www.sciencemag.org                 SCIENCE           VOL 341           27 SEPTEMBER 2013                                                 1238937-9
+

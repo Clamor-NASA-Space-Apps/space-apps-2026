@@ -1,0 +1,582 @@
+55th International Conference on Environmental Systems                                                          ICES-2026-425
+12-16 July 2026, Rio Grande, Puerto Rico
+
+
+
+
+                         Status of ISS Water Management and Recovery
+
+                                            Jill Williamson1 and Jonathan P. Wilson2
+                                      NASA Marshall Space Flight Center, Huntsville, AL 35812
+
+                                                           Hieu Luong3
+                                              The Boeing Company, Houston, TX 77058
+
+                                                           Leon Chen4
+                                           The Aerospace Corporation, Houston, TX 77058
+
+
+                      Water management on ISS is responsible for the provision of water to the crew for
+                  drinking water, food preparation, and hygiene, to the Oxygen Generation System (OGS) for
+                  oxygen production via electrolysis, to the Waste & Hygiene Compartment (WHC) for flush
+                  water, and for experiments on ISS. This paper summarizes water management activities on
+                  the ISS US Segment as of March 2026 and provides a status of the performance and issues
+                  related to the operation of the Water Processor Assembly (WPA), Urine Processor Assembly
+                  (UPA), and Brine Processor Assembly (BPA).
+
+
+                                                           Nomenclature
+     1       ARFTA =     Advanced Recycle Filter Tank Assembly     24   IX   =    Ion Exchange
+     2       АСУ =       Russian Urinal                            25   MCV =     Microbial Check Valve
+     3       ACTEX =     Activated Carbon and Ion Exchange         26   MLS  =    Mostly Liquid Separator
+     4       Cartridge                                             27   MF   =    Multifiltration
+     5       BPA     =   Brine Processor Assembly                  28   ORU =     Orbital Replacement Unit
+     6       CHX =       Condensing Heat Exchangers                29   OGA =     Oxygen Generation Assembly
+     7       CWC =       Contingency Water Container               30   PCPA =    Pressure Control and Pump Assembly
+     8       CCAA =      Common Cabin Air Assembly                 31   PTU  =    Pre-Treated Urine
+     9       CV      =   Check Valve                               32   PWD =     Potable Water Dispenser
+    10       DA      =   Distillation Assembly                     33   PWR =     Potable Water Reservoir
+    11       ECLS =      Environment Control and Life Support      34   RST  =    Resupply Tank
+    12       ECLSS =     Environment Control and Life Support      35   SPA  =    Separator Plumbing Assembly
+    13       System                                                36   UPA =     Urine Processor Assembly
+    14       EFA     =   External Filter Assembly                  37   UTS  =    Urine Transfer System
+    15       EMU =       Extravehicular Mobility Unit              38   UWMS =    Universal Waste Management System
+    16       ЕДВ     =   Russian Water Container                   39   WHC =     Waste & Hygiene Compartment
+    17       FCA     =   Firmware Controller Assembly              40   WRM =     Water Recovery and Management
+    18       FCPA =      Fluids Control and Pump Assembly          41   WPA =     Water Processor Assembly
+    19       GLS     =   Gas Liquid Separator                      42   WRS =     Water Recovery System
+    20       CWC-I =     Contingency Water Container           –   43   WRT =     Water Resupply Tank
+    21       Iodinated                                             44   WSS  =    Water Storage System
+    22       ISS     =   International Space Station               45   WSTA =    Wastewater Storage Tank
+    23       ISPR =      International Standard Payload Rack       46   WWT =     Waste Water Tank
+                                                                   47   xPWD =    eXploration Potable Water Dispenser
+
+
+
+
+         1
+           ISS Water Subsystem Manager, NASA MSFC ES62.
+         2
+           ISS Urine Processor Sustaining Lead, NASA MSFC ES62.
+         3
+           ISS Water Recovery and Management Team Lead, The Boeing Company.
+         4
+           ISS Water GFE Subsystems Manager, NASA JSC EC3
+                                                I. Introduction
+
+T   he International Space Station (ISS) Water Recovery and Management (WRM) System ensures the availability
+    of potable water for crew drinking and hygiene, oxygen generation, urinal flush water, and payloads as required.
+To support this function, wastewater is collected in the form of crew urine, humidity condensate, and Sabatier product
+water, and subsequently processed by the Water Recovery System (WRS) into potable water. This product water is
+provided to the potable bus for the various users and may be stored in water bags for future use when the potable bus
+needs supplementing. The WRS is comprised of the Urine Processor Assembly (UPA) and Water Processor Assembly
+(WPA), which are located in two International Standard Payload Racks (ISPR) named WRS#1 and WRS#2. This
+hardware was delivered to ISS on November 14, 2008, and is located in the ISS Node 3 module.
+
+                II. Description of the ISS Water Recovery and Management System
+    A conceptual schematic of the WRM is provided in Figure 1 and displays the inlets and outlets to both the WRS
+and OGS since both systems are highly interconnected. Crew urine is collected in the Waste & Hygiene Compartment
+(WHC) [1], which consists of a Russian Urinal system (referred to as the ACY). To maintain chemical and microbial
+control of the urine and hardware, the urine is treated with an oxidizer and an inorganic acid. The pretreated urine is
+delivered to the UPA to produce urine distillate and brine. In addition, pretreated urine collected in the Russian
+Segment may also be manually transferred in Russian fluid containers (called ЕДВs) and transferred to the UPA. The
+installation of the technology demonstration Brine Processor Assembly (BPA) has allowed further processing of the
+urine brine, achieving >95% water recovered [2].
+
+
+
+
+                 Figure 1. Water Recovery and Management Architecture for the ISS US Segment
+
+
+    Condensate is collected from the cabin air by the Common Cabin Air Assembly (CCAA) Condensing Heat
+Exchangers (CHXs). Urine distillate, humidity condensate and Sabatier product water are delivered to the WPA Waste
+Tank for further processing. However, the Sabatier reactor has not been in service since October 2017 due to a failure
+of the reactor, though replacement hardware is intended to be delivered to return this capability.
+    Makeup water from Resupply Tanks (RSTs) launched from the ground is added to the WPA waste tank as required
+to maintain the water balance. A separate Condensate Tank located in the US Laboratory Module is available as a
+back-up in the event the WPA Waste Tank is unavailable for waste water collection.
+
+                                                         2
+                                International Conference on Environmental Systems
+     After the waste water is processed by the WRS, it is delivered to the potable bus. The potable bus is maintained at
+a pressure of approximately 230 to 280 kPa (19 to 26.5 psig) so that water is available on demand for the various
+users. Users of potable water from the bus include the Oxygen Generation Assembly (OGA), the WHC (for flush
+water), the Potable Water Dispenser (PWD) and eXploration PWD (xPWD) for crew consumption, the Extravehicular
+Mobility Unit (EMU) sublimator and Payloads. Finally, a reserve of a minimum of 818 L (1803 lbs) of potable water
+is stored on ISS in Contingency Water Containers - Iodinated (CWC-Is), Water Storage System (WSS) Storage Tanks
+(plumbed directly into the potable bus) and Water Resupply Tanks (RSTs) to maintain ISS operations in response to
+contingency scenarios.
+     Historically, the ISS Water Reserves threshold has been maintained at 818 liters to accommodate potable water to
+crew, EVA, and oxygen generation during periods of water recovery outages. However, in early 2026, the ISS Program
+has agreed to increase this reserve to 1413 liter in preparation for enhanced contingency vehicle cooling capabilities
+arriving later this year. This system is called Supplemental Heat Rejection Evaporative Cooler (SHREC). This new
+capability would require significant access to water to provide active cooling within the ISS Cabin. Therefore, to
+reduce risk during an outage of the water management system while this contingency cooling capability is active, the
+amount of reserved stored water must be increased.
+
+                          III. Description of the ISS Water Recovery System
+   The layout of the two WRS racks is shown in Figure 2, along with the OGS Rack. The WPA is packaged in WRS
+Rack #1 and partially in WRS Rack #2, linked by process water lines running between the two racks. The remaining
+portion of WRS Rack #2 houses the UPA.
+
+
+
+
+                        Figure 2. International Space Station Regenerative ECLSS Racks
+
+
+    The following section provides a description of the WRS, current operational status, and describes issues and
+lessons learned during the past year. For the prior years’ status, see references [1,3-6].
+
+A. Urine Processor Assembly
+    A simplified schematic of the UPA is shown in Figure 3. Pretreated urine is delivered to the UPA either from the
+US Segment WHC (outfitted with a Russian urinal) or via manual transfer from the Russian ЕДВ. In either case, the
+composition of the pretreated urine is crew urine, flush water, and a pretreatment formula containing chromium
+trioxide and an inorganic acid to inhibit microbial growth and the conversion of urea to ammonia. In the Russian
+segment, the inorganic acid is sulfuric acid. In the US Segment, the inorganic acid has been switched to phosphoric
+acid to address precipitation issues with calcium sulfate. The pretreated urine is pumped from the Waste Storage Tank
+Assembly (WSTA) into the UPA recycle loop by the Fluids Control and Pump Assembly (FCPA). In the recycle loop,
+the pretreated urine is recirculated through the Distillation Assembly (DA), the Advanced Recycle Filter Tank
+Assembly (ARFTA), a brine filter, and back to the DA. Distillate produced in the DA is pumped to the WPA Waste
+Water Tank. The DA consists of a rotating centrifuge where the waste urine stream is evaporated at low pressure. The
+                                                            3
+                                  International Conference on Environmental Systems
+vapor is compressed and condensed on the opposite side of the evaporator surface to conserve latent energy. A rotary
+lobe compressor provides the driving force for the evaporation and compression of water vapor. Waste brine resulting
+from the distillation process is stored in the ARFTA, which is a bellows tank that can be filled and drained on ISS.
+When the brine is concentrated to the required limit, the ARFTA is emptied into an ЕДВ or offloaded into the BPA.
+The urine brine for disposal is delivered into available expendable containers (ex: empty Resupply Tanks, or expiring
+ЕДВs) or into the Russian Rodnik tank on the Progress vehicle for disposal. The ARFTA is refilled with pretreated
+urine to initiate a new concentration cycle. The Pressure Control and Pump Assembly (PCPA) is four-tube peristaltic
+purge pump which provides for the removal of non-condensable gases and water vapor from the DA. Liquid cooling
+of the pump housing promotes condensation, thus reducing the required volumetric capacity of the peristaltic pump.
+Gases and condensed water are pumped to the Separator Plumbing Assembly (SPA), which recovers and returns water
+from the purge gases to the product distillate stream. A Firmware Controller Assembly (FCA) provides the command
+control, excitation, monitoring, and data downlink for UPA sensors and effectors.
+
+
+
+
+                                 Figure 3. Urine Processor Assembly Schematic
+
+    The UPA was designed to process a nominal load of 9 kg/day (19.8 lbs/day) of wastewater consisting of urine and
+flush water. This is the expected quantity for a 6-crew load on ISS. The UPA was designed to recover 85% of the
+water content from the pretreated urine, though issues with urine quality encountered in 2009 required the recovery to
+be dropped to 75% for the US Segment and 70% for urine collected in the Russian Segment. Implementation of a
+phosphate-based urine pretreatment [7] in early 2016 allowed the UPA to return to a minimum of 85% recovery of
+urine collected in the US Segment, though urine recovery from urine collected in the Russian Segment remains at 70%
+because no changes have been made to the pretreatment in the Russian Segment. Continued assessments of returned
+brine filter samples have allowed incremental increases of water recovery from US pretreated urine from 85% to 87%.
+Targeted final percent recovery from US pretreated urine in the UPA is planned for 90%; however, further analysis
+of returned samples is required.
+
+B. Water Processor Assembly Overview
+    An updated simplified schematic of the WPA is provided in Figure 4. The WPA feed water includes humidity
+condensate, distillate from the UPA, and Sabatier product water when available. Wastewater first passes through a
+300 micron External Filter Assembly (EFA) to capture any biofilm from the Waste Water Tank (WWT). The water is
+initially degassed by the Mostly Liquid Separator (MLS), and then pumped through a 0.5 micron particulate filter
+followed by a Multifiltration (MF) Bed containing adsorbent and ion exchange media. Prior to 2019, the WPA used
+
+                                                         4
+                                International Conference on Environmental Systems
+two MF beds in series but switched to a single MF bed in July 2019. Volatile organics not effectively removed by the
+MF bed are oxidized in the Catalytic Reactor at elevated temperature, which also removes microbial contamination.
+Excess oxygen and gaseous oxidation by-products are removed by the Gas Liquid Separator (GLS). Dissolved and
+soluble reaction byproducts are removed by the Ion Exchange Bed, which also adds iodine to the product water as a
+biocide. Product water is stored in the Water Storage Tank prior to delivery to the ISS potable water bus.
+
+
+
+
+                                       Figure 4. WPA Simplified Schematic
+
+                             IV. Water Recovery and Management Status
+    Between February of 2024 and February 2026, WPA has produced approximately 17,900 L (39,000 lbs) of product
+water. In addition, 2,558 L (5,640 lbs) of total ISS potable water is currently stored on ISS for resupply water and in
+reserve to protect for contingencies. Management of the water mass balance has improved with the delivery of the
+Water Storage System (WSS) in the US Segment. This surplus of water in the US Segment is expected to shift with
+the installation of a replacement distiller for the Russian Segment Urine Processor and a most recent delivery of an
+additional urine processor in the Multipurpose Laboratory Module (MLM). Installation of the first Urine Processor
+was completed in 2018, but the distiller failed during initial checkout. Recovery of the system was achieved; however,
+only for a limited time. Hardware failures and system vacuum leaks have been ongoing challenges for both systems
+and only recently one of the distillers has shown progress in successful urine processing. Distillate from the Russian
+Urine Processors are planned to be used for flush water, feed water to the Russian Elektron, and feed water to their
+condensate processor pending successful results from analysis of distillate samples returned to the ground.
+
+    1. Further Water Management Expansions
+    Several additional modifications to the ISS water system have been delivered and installed, including a Urine
+Transfer System (UTS), a Universal Waste Management System (UWMS), and a Brine Processor Assembly (BPA).
+The BPA increases the total water recovery of water from urine brine generated by the UPA to beyond 95%. Thus
+when combined with the efficiencies of the Water Processor Assembly, the total water recovery aboard the ISS is
+98+% when BPA is in operation. The UWMS, also known as “Toilet,” for ISS applications, is a US-designed toilet.
+With increased crew sizes on the ISS, providing additional waste management has been a critical path to ensure crew
+comfort as well as management the current Waste and Hygiene Compartment (WHC). These systems play a critical
+role to understand advanced technologies necessary for next generation exploration missions. The UWMS is a new
+toilet designed by Collins Aerospace. This hardware is planned for use in the Orion vehicle, and full demonstration of
+the hardware on ISS is being pursued.
+
+                                                         5
+                                International Conference on Environmental Systems
+   UWMS, “Toilet”
+
+    The ISS saw its first US designed toilet arrive and installed in December 2020. As with most new technology
+installations, there were notable issues seen with the UWMS “Toilet” installation and activation [8]. Since February
+2022, the Toilet has seen several more restart attempts and limited check-outs to further realize technology
+demonstrations and Artemis perspective test objectives. The lack of direct monitoring pretreat dose quality and
+reported fluid release internal to the Toilet operations have been notable, thus, limiting crew use. Further details are
+provided in publication [9]. At this time, Toilet is in a stand-down configuration due to a new failed dose pump and
+unexpected controller failure. The system will remain dormant until hardware replacement can be supplied later in
+2026.
+
+   Brine Processor Assembly (BPA)
+
+    The BPA has been installed on the ISS since March 2021. The BPA has been operating on ISS as a Technology
+Demonstration for NASA Exploration missions for the first three (3) years of installation. BPA has processed brine
+generated by the UPA to further remove water to add to that recovered by the Distillation Assembly and thereby
+achieve ~98% water recovery. The system utilizes a specially designed membrane-based bladder that allows water
+vapor to pass through (via membrane distillation) with the aid of heated forced convection. The final water reclamation
+is achieved by established humidity control systems aboard the ISS. The system was delivered to NASA by Paragon
+Space Development and has since completed 81 dewatering cycles since first activation in early 2021. Since February
+2024, the BPA has completed 43 dewatering cycles, yielding approximately 946 liters of urine brine. Of that, it is
+estimated ~780 liters of water have been returned back to humidity condensate, a significant cost saving in potential
+resupply mass. In 2024, BPA also processed 1 bladder of pretreated urine (PTU) providing additional data for future
+potential BPA-like hardware to perform urine processing. Teams also got another opportunity to process another batch
+of PTU via BPA, leveraging nominal ARFTA flush operations that would have otherwise disposed of this volume. In
+anticipation of these operations, ground testing at the NASA Marshall Space Flight Center (MSFC) validated
+successful operations and further insights for bladder reuse configurations [10]. Processing PTU via BPA would allow
+an alternate option for processing urine directly if the UPA has an extended downtime period. Moreover, the BPA has
+provided a significant reduction in trash management and logistics by reducing the total volume of brine for disposal
+(trashing off the ISS vehicle). Further details on BPA operation and accomplishments can be found in separate
+conference papers [2,12]. A successful demonstration of this technology is considered a critical step prior to future
+manned missions beyond ISS (i.e., a mission to Mars) because of the necessity to recover as much water as reasonably
+possible due to the launch costs for water and the absence of resupply capability. With continued success, NASA will
+continue to use the technology on ISS to reduce the water resupply requirement from earth.
+    In 2025 the BPA received new outlet exhaust hardware: 1) A new, dedicated ducting 2) A new exhaust outlet,
+addressing sealing concerns from a previously 3D printed component, and 3) new humidity and flow velocity sensors
+integrated into the new exhaust ducting. An initial activation of the sensors confirmed viability in giving ground
+engineering teams direct insights to the humid air exiting a BPA throughout a dewatering cycle. The timing was such
+that the teams could assess baseline brine dewatering with the PTU run to capture conservative high and conservative
+low water impartment loads into the cabin.
+    Some unexpected anomalies were observed in 2024 and 2025 in the thermal responses associated with a specific
+inlet temperature switch located on the BPA heater assembly. Despite these anomalies, the most significant milestone
+was achieved in terms of overall water recovery and the progress of the technology demonstration. Refer to
+publications [13, 14] for more details.
+
+
+
+
+                                                          6
+                                 International Conference on Environmental Systems
+   eXploration Potable Water Dispenser (xPWD)
+
+     For exploration missions beyond Low Earth Orbit, there are expectations that these missions will enter periods of
+uncrewed, dormant phases. These exploration missions will also be challenged with minimizing upmass and
+consumables. The Potable Water Dispenser (PWD) is the point at which crew receives potable water for food, water,
+and even payload operations. For crew consumption purposes, there needs to be assurance that quality water is
+maintained. For the PWD operations, the use of a microbial filter at point of use is required to prevent the passage of
+microbes to the crew. Moreover, the use of the activated carbon and ion exchange cartridge (ACTEX) is deployed to
+filter out the total iodine (biocide of choice for US water recycling) for crew health concerns. The baseline designs of
+the PWD had some early challenges due to identified dead-legs within the internal water loops and bypasses that
+caused microbial disruptions during initial stowage duration. To that end, in the pursuit of exploration mission
+objectives and enhancing dormancy success on PWD while also upgrading capabilities and functionalities, an
+eXploration Potable Water Dispenser (xPWD) was funded and activated on the ISS September 2023. The full status
+of the ISS xPWD can be found in a concurrent publication [15].
+
+2. Water Transfers and ACTEX Throughput
+    Over the last several years there has been an increase in requests for US water transfers to the Russians due to
+prioritization of manifest hardware and agreed-to Protocols between the US and RS. This has led the USOS to
+routinely deliver potable water to RS EDVs. For the foreseeable future, this support is expected to continue. Because
+RS ECLSS hardware requires de-iodinated water, each USOS-to-RS potable water transfer must include Activated
+Carbon/Ion Exchange (ACTEX) treatment to remove iodine/iodide for RS compatibility. Historically, there have been
+two primary delivery methods to fill EDVs from the USOS. The first is to launch RSTs prefilled with iodinated potable
+water, then transfer via a fluid transfer pump through an ACTEX; however, if no RSTs are available alternate means
+have been utilized. The second method is to supply from the Water Storage System (WSS) potable tanks, which, by
+established WSS operations to protect against stagnate potable water in Shuttle style tanks with susceptibility to
+leachates, requires the use of an internal ACTEX cartridge + MCV resign that re-iodinates the potable water.
+Therefore, for this particular water transfer mode simultaneously adds throughput through two ACTEX unnecessarily
+(one on the WSS outlet and one at point of use for the offload) and therefore imposes a heavy burden on ACTEX
+spares and throughput margins. The currently installed and utilized ACTEXs are with a configuration that uses
+Ambersorb sorbent. It has a wetted service life of four years or a throughput limit of approximately 6,750 lb (3,062
+L) of water. Increased RS water transfer demand has accelerated ACTEX usage, necessitating more frequent Remove
+and Replace (R&R) actions to remain within these limits. Given finite logistics and the importance of maintaining de-
+iodination capability for both WHC and RS support, reducing unnecessary ACTEX throughput is a priority. To address
+these constraints, water transfers to the RS with de-iodinated water from the PWD method was implemented to support
+RS EDV fills using WPA product water with a single external ACTEX. This approach bypasses the WSS potable tank
+pathway and eliminates the need to run two ACTEX cartridges in parallel. By relying on one external ACTEX to de-
+iodinate WPA product water before transfer, the method significantly reduces overall ACTEX throughput demand
+while meeting RS water quality requirements. The rationale for adopting this method is threefold. First, it leverages
+an established procedure, offering operational simplicity and straightforward execution. Second, it minimizes RS crew
+training burden, which is expected to be limited and manageable. Third, it avoids wasteful simultaneous exhaustion
+of two ACTEX cartridges inherent in WSS method, preserving scarce On-Orbit spares. This conservation is critical:
+if ACTEX logistic is not able to meet such high throughput demand, the USOS would be unable to provide de-
+iodinated water to the RSOS. Consequently, curbing unnecessary usage, particularly on the WSS outlet ACTEX, is
+warranted.
+    This PWD configuration, although is convenient from the items above, a third option is actively being looked into
+to re-assess the established WSS procedures for use of its internal ACTEX + MCV cartridges as the potable water in
+these tanks are being cycled much more frequently than originally designed; therefore, risk of leachates are
+significantly reduced. Moreover, as the success of the xPWD continues, there could be Programmatic decision points
+to allow the legacy PWD to retire, thus omitting access to a by-pass port for these particular water transfer activities.
+
+                               V. Urine Processor Assembly Current Status
+1. Highlights
+   The UPA produced 8,907 L (19,637 lbs) of distillate at 70% (Russian urine treated with baseline pretreatment) to
+87% recovery (US urine treated with alternate pretreatment) from February 2024 to February 2026, completing 87
+
+                                                          7
+                                 International Conference on Environmental Systems
+ARFTA concentration cycles during that time. A graphical summary of UPA water produced and upmass required for
+ISS operations is provided in Figure 5. As of February 2026, UPA surpassed 100,000 lbs of distillate produced since
+operations began in 2008. From 2023 to 2024, several PCPA units had to be installed to recover UPA operations. The
+circumstances, challenges and recoveries behind these events are further explored in a concurrent publication [16]. In
+the past two years, 17 brine filters (concurrent with expected loading estimates) have been replaced to maintain
+nominal UPA operations.
+    To the credit of upgraded hardware successfully incorporated into UPA, most significantly within the DA [11],
+the UPA has maintained a high level of performance during the increase of crew size and continued processing of
+Russian urine. UPA has seen significantly more operational run time (>30% increase) in a given year since 2020. A
+comparison of UPA operations from 2020 through 2025 is presented in Table 1. Despite this increase duty cycle on
+UPA, there have been limited issues to report at this time. Moreover, in 2025, the longest operating FCPA reached
+10,054 operational hours. This was just over 250% of the predicted operational life of 4,000 hours for a 1 st generation
+planetary drive. The FCPA was replaced due to a failed pump motor drive train, with a new FCPA with a 1st generation
+planetary drive. The DA has also reached over a phenomenal 15,000 operational hours, at over 300% of its predicted
+operational life of 4,387 hours and 3 times longer than the previous fleet leader in runtime hours. The SPA and Purge
+Filter have operated nominally throughout the past 2 years after having been replaced when the PPSA tech demo
+hardware was removed in November 2023.
+
+
+
+
+                                    Figure 5. UPA Production and Upmass on ISS
+
+                          Table 1. UPA Metrics Comparing Last Six Years of Operations
+
+              Avg ISS        Process    Concentration     Processing      Total Urine Pounds      Total Pounds Brine
+  Year
+             Crew Size        Runs         Cycles           Hours           Processed (lbs)        Generated (lbs)
+  2020       5 (max: 6)        245          25               1657                5355                    1197
+  2021      7 (max: 11)        326          34               2544                8296                    1627
+  2022      7 (max: 11)        345          44               2786                9,278                   2105
+  2023      7 (max: 11)        359          47               2964               10,486                   2249
+  2024      8(max: 12)         382          46               3160               10,752                   2201
+  2025       7(max:11)         343          43               2700                8,945                   2085
+
+                                                          8
+                                 International Conference on Environmental Systems
+2. FrankenPump
+    As alluded above, end of 2023 into 2024 was a challenging period for PCPA performance. In November 2023, the
+first 2nd generation planetary drive PCPA was installed. This ORU experienced a premature failure of the pump
+motor drive train. In Feb 2024, this PCPA was replaced with an older, legacy design harmonic drive PCPA, with
+expected limited remaining operational life for peristaltic tube install. This PCPA operated for 4 additional months
+before failing due to ruptured peristaltic tubing. At this point, on orbit, there was a PCPA with failed motor, viable
+pump ‘body’, and a failed ‘body’ but working motor. Ground teams devised a plan to perform Intermediate-level (I-
+level) maintenance to take components from the two (2) non-functioning ORUs. A working motor was removed from
+the PCPA with the failed peristaltic tubing and was installed into the PCPA with a failed motor. This level of
+maintenance was never designed to be performed on ISS in microgravity but was performed flawlessly by
+crewmembers. This newly created PCPA was named “FrankenPump”. The circumstances, challenges and recoveries
+behind these events are further explored in a concurrent publication [17]. This FrankenPump PCPA operated for a
+couple of weeks and provided enough time for a pristine spare to arrive on ISS, installed after FrankenPump
+experienced a motor failure. The new, pristine spare PCPA is a 1 st generation planetary drive. This ORU (the fifth
+since November 2023) is still installed and performing nominally with a current runtime of 2,381 hours, 99% of the
+predicted operational life.
+
+3. Urine Back-Log Management
+    The Purge Pump issues and failures seen this year during UPA operations created multiple down times with the
+UPA in a non-functional state. During these down times, extra PTU was collected that could not be processed. In order
+to not throw away potential good potable water, this PTU was stowed in containers and saved to be processed when
+UPA was back operating nominally. Approximately 300 L of PTU was collected during the various times UPA was
+not operating. This stored PTU required a Flight Rule waiver so that it’s storage time would not expire while waiting
+to be processed. As PTU ages, the formation of solids increases and pH increases (while still remaining in the acidic
+range) can also occur within the storage containers. The waiver allowed additional time for the PTU to remain in a
+stowage container and stipulated that before being processed it will be filtered through the urine filter hose nominally
+used only for Russian Segment PTU. Historically, when the UPA has processed bad PTU with excessive biological
+growth, there has been degraded performance and failures within the system. Once the UPA was fully operational
+again, all of the backlog of PTU was successfully processed and no PTU had to be disposed. Roughly 180 L of PTU
+exceeded the original expiration date and required the additional time allowed by the Flight Rule waiver on expiration
+time. UPA data reviews were able to determine that this PTU processed through the UPA nominally. Having this
+additional data regarding aged PTU provides additional insight to compare with the under-treated PTU problems
+experienced last year that led to issues with UPA processing ability.
+
+                              VI. Water Processor Assembly Current Status
+    The WPA has processed increasing amounts of wastewater as average crew sizes continue to increase on the ISS.
+Despite the increased throughput, the WPA continues to operate well. Since February of 2024, the WPA saw several
+major ORU replacements where all but one were replaced due to expected end of life performance. Since last reporting,
+the WPA required replacement of the Wastewater Filter (informally known as the EFA), Particulate Filter, two
+catalytic reactors, and the Ion Exchange (IX) Bed ORU. In addition, since last reporting the installed MF Bed has
+since reached the first ionic breakthrough at 8,000 lbs. Teams will continue to monitor for the second and third ionic
+breakthrough, estimated around 12,500 lbs and 27,000 lbs respectively, but the intent is to keep this MF bed installed
+until such breakthrough occurs even if throughput surpasses 27,000 lbs.
+
+1. Particulate Filter ORU
+    The overall size of this filter allows for extended installed operation within an ISS architecture. The baselined
+design life was listed at 3 years of operation before requiring a replacement ORU. There have only been two
+replacements of this filter: one in 2013 after 4 years of operation, and the second this year after an incredible 4251
+days (11.6 years). For some background, the first particulate filter was replaced in 2013 after available telemetry
+suggested this filter to be the cause of some highly variable differential pressure (dP) readings across the filter. When
+the filter was replaced with a pristine filter, the variability slightly improved but did not resolve. It was later determined
+that a faulty check valve (CV) upstream of the filter was the primary culprit. After removal of this CV, the high
+variability dP response fully resolved, thus indicating the original particulate filter did not need to be removed in 2013.
+                                                           9
+                                  International Conference on Environmental Systems
+Given that the original particulate filter was already well past its 3-year design life when the initial issue occurred, the
+filter did not need to be reinstalled and was allowed to be returned to ground for refurbishment. Fast forward to Fall
+2024 – dP readings across the particulate filter began to rise with secondary performance impacts to the upstream
+Pump Separator, which was having to push harder (operate more) against this filter loading. It was recommended that
+this particular filter be replaced. Not only had it been installed for close to 12 years, it had also processed a total of
+141,500 lbs of wastewater. Figure 6 below shows the dP profile across all particulate filters and highlights the system
+response once the filters or the upstream CV was replaced.
+
+
+
+
+                   Figure 6. The delta Pressure profile across all three installed particulate filters.
+
+2. Catalytic Reactor ORUs
+    Over the last two years since previous reporting, the WPA saw multiple catalytic reactor replacements. The first
+was for Catalytic Reactor SN007, a legacy design with elastomeric seals. This failure was a result of expected end-of-
+life external water leakage, common for a legacy design catalytic reactor. All legacy design catalytic reactors exhibit
+a degree of external leakage isolated to the end cap seals of the catalyst cylinders, causing the WPA to fault due to
+water accumulation on critical electronics. At the time of the SN007 failure (May 2024), the Upgraded Catalytic
+Reactor SN001 was on board and ready to be installed. Also onboard were two legacy cat reactors, (legacy) SN001
+and SN006, but they were not the ideal replacement units, as there was a desire among the ISS engineering teams to
+install the upgraded unit and obtain valuable runtime data for exploration assessments.
+    Although Program and Project agreement was in place to install the Upgraded Catalytic Reactor SN001,
+unfortunately, Catalytic Reactor SN006 was installed by mistake. Furthermore, the unit was already powered up, had
+reached required system temperatures, and was in the process of completing a flush with wastewater through the unit
+before teams realized this installation error. Engineering requested that the Upgraded Catalytic Reactor SN001 be
+installed immediately so that the engineering teams would not need to wait for ~2 years for SN006 to fail, and would
+not have to limit the Tech Demo period and assessment of the upgraded refurbishment processes (which have not yet
+demonstrated an ability to prevent a recurrence of a previous failure of the Demo Catalytic Reactor).
+    It was agreed to do the swap of SN006 to the Upgraded Catalytic Reactor SN001. Before that could be completed,
+preparation of the SN006 was required as unsterilized wastewater had entered the unit and there was a risk that
+biofouling could have occurred while in storage. To best prepare the catalytic reactor for stowage and against the
+effects of exposure to unsterilized wastewater, the unit had been allowed to reach its thermal stabilization temperature
+to achieve sterility and allowed to cool before its removal from the ISS rack. This was a procedure developed from
+prior experience: it had been established that thermal cycles and time at high temperature contribute significantly to
+the degradation of elastomeric seals that led to the legacy catalytic reactor failure modes. This procedure may have
+adversely affected its time of expected end of life but the magnitude of the impact, if any, the limited accidental
+installed time has done to the SN006 lifespan is unclear.
+    The Upgraded Catalytic Reactor SN001 was finally installed and successfully activated. There were some expected
+operational misbehaviors due to a known and accepted (prior to launch) failed thermocouple but overall, the unit was
+holding pressure and temperature and was generating appropriate quality water. Unfortunately, approximately two
+weeks into operations, the catalytic reactor exhibited severe external water leakage. Telemetry suggested the water
+leakage was located within the catalytic reactor cylinders; thus it is assumed that this was yet another recurrence to
+                                                          10
+                                  International Conference on Environmental Systems
+the previous development test objective (DTO) leakage with the new metal seal upgrades. To recover WPA operation,
+the unit was removed and replaced with the already wetted SN006 and the system was able to recover back to nominal
+operations. The failed upgraded catalytic reactor has since been returned to the ground testing teams and is awaiting
+ground investigation to determine cause of failure.
+    The SN006 catalytic reactor operated for 419 days and processed over 23,000 lbs of water, showing intermittent
+loss of pressures throughout the install, failing once sustained loss of pressure due to external water leakage occurred.
+The (legacy) Catalytic Reactor SN001 was then installed in July 2025, showing occasional decay in pressure
+management but not impacting nominal operations. These intermittent decay in pressure profiles that do not fault
+WPA are suspected to be internal water leakage through downstream regulators and not due to external water leakage.
+
+3. Ion Exchange Bed ORU
+    As discussed in a previous report, the removed and replaced Ion Exchange (IX) Bed had become the fleet leader
+for the amount of water processed while active in WPA. As a reminder, this bed is the final scrubber for the WPA that
+removes the remaining byproducts from the catalytic reactor and imparts iodine to the clean water. The IX bed has
+been sized such that the predicted end of life signature can be monitored in real time from a downstream conductivity
+sensor, the data from which can indicate ionic breakthrough. However, the amount and levels of the iodine cannot be
+monitored in real time and requires taking water samples for offline monitoring. The increased crew size and the
+activation of the Brine Processor Assembly have added more available water to be reclaimed and recycled through
+the WPA in an accelerated rate compared to historical WPA production rates. The amount of water processed in the
+IX bed has correspondingly increased but remains within the originally planned preventative maintenance of three
+years of service life. Therefore, engineering teams requested additional iodine samples to increase the data resolution
+of measured iodine depletion in order to update the estimated projected life in a way that can reflect the increased
+throughput. The updated estimates provided the much-needed confidence to allow the IX bed to continue operation
+past the average throughput limit. In May 2024, the IX bed was preemptively removed and replaced before seeing an
+ionic breakthrough, but after the IX bed reached just over 50,000 lbs of throughput.
+
+                                    VII. Conclusion and Future Work
+     Since the 2024 reporting period, the WRS has continued to provide the ISS crew with potable water, the Oxygen
+Generation System with water to electrolyze, the Waste & Hygiene Compartment with flush water, water for crew
+hygiene, and water for use on payloads. During this time, the WPA required the MF bed to be replaced after reaching
+its anticipated end of life signature and has seen a new milestone in IX bed operation with processing the most water
+in a given installation with no issues in imparting proper iodine levels. With the use of the legacy catalytic reactors,
+it was expected that every 1.5+ years the external water leakage through the elastomeric seals would recurred. To that
+end, over the course of this current reporting periods, two catalytic reactors were replaced to due the legacy failure
+mode and one additional failure, prematurely, on the Upgraded Catalytic Reactor – likely stemming from continued
+metal seal design and integration challenges. The root cause will be unclear until the unit enters its ground
+investigation. Until then, the next line of catalytic reactor spares will selectively target other available upgrades to
+strike a balance between exploration checkouts on orbit and critical sparing posture risks.
+     The UPA has seen historical operational runtime hours on the Distillation Assembly and Fluids Control and Pump
+Assembly, reaching well over 300% of predicted runtime each. This is a testament to years of dedicated upgrades
+work that addressed a series of challenges within each ORU. In contrast, the UPA has also seen several purge pump
+failures from a variety of failure causes [16]. Despite the higher number for purge pump ORU R&Rs, only one
+premature failure mode was exhibited on “Criticality 1” level hardware. The UPA continues to see increases in
+operational runtime hours overall due to increased crew sizes and continued processing of Russian urine. Despite this
+increased duty cycle, the UPA has continued operating with no apparent issues related to throughput increase.
+     The increase in water transfers from the US to the RS found increased throughput of the on-orbit ACTEXs driving
+changes in planned activities, transitioning RS water transfers to the PWD-based procedure with a single external
+ACTEX. This maintains de-iodination performance while materially reducing ACTEX throughput and sparing
+consumption. This strategy sustains ongoing cross-segment water support, aligns with hardware life constraints, and
+strengthens logistics resilience for continued RS transfer operations.
+     The ELCSS communities continue to look to future exploration missions. Critical paths of challenging the next
+generation ELCSS technologies in the relevant space environment are finally being realized. The upgraded MF beds,
+BPA, UTS, and UPA’s DA and planetary gears (as found in the fluids and purge pumps) have all been integrated on
+the ISS and are showing exceptional performance. The xPWD ISS operation and runtime with enhanced UV light
+
+                                                         11
+                                 International Conference on Environmental Systems
+technology are actively showing success. The added flexibility xPWD brings for ground commanding and enhanced
+telemetry insight is further cause for celebration.
+
+                                                     Acknowledgments
+    The authors wish to acknowledge the effort of the many engineers at NASA, Boeing, Collins, and the on-board
+ISS astronauts and cosmonauts that have performed excellent work in the last year toward the operation,
+troubleshooting, and recovery of the Water Management System hardware on ISS.
+
+                                                          References
+
+[1] Carter, D.L. D. Riggle, S. Walker, P. Andreychuk, G. Karaseva, A. Zheleznyakov, L. Bobe, A. Kochetkov, N. Rykhlov, A.
+    Gleich, C. Zahner, K. Spicer, M. Berrill “Operation of the Urine Collection and Pretreatment System in the ISS US Segment
+    Waste & Hygiene Compartment (WHC), presented at the 50th International Conference on Environmental System, July 2021.
+[2] Boyce, S.P., Molina, S.,Pasadilla, P., Tewes, P., Joyce, C.J., Harrington, W., et al., “Closing the Water Loop for Exploration:
+    2021-2022 Status of Brine Processor Assembly”, Paper # 2022-317, 51st International Conference on Environmental Systems,
+    St. Paul, Minnesota, July 2022.
+[3] Carter, D.L, J. Williamson, C. Brown, J. Bazley, D. Gazda, R. Schaezler, F. Thomas, S. Molina “Status of ISS Water
+    Management and Recovery”, Paper # 2019-036, presented at the 49th International Conference on Environmental Systems,
+    Boston MA, July, 2019.
+[4] Carter, D.L, J. Williamson, C. Brown, J. Bazley, D. Gazda, R. Schaezler, F. Thomas, “Status of ISS Water Management and
+    Recovery”, Paper # 2018-088, presented at the 48th International Conference on Environmental Systems, Albuquerque New
+    Mexico, July, 2018.
+[5] Williamson, J., Wilson, J.P., and Gleich, A. Status of ISS Water Management and Recovery. 51st International Conference on
+    Environmental Systems. (2022) p. ICES-2022-098. St. Paul, MN, July 2022.
+[6] Williamson, J., Wilson, J.P., Robinson, K., and Luong, H., Status of ISS Water Management and Recovery. 52nd International
+    Conference on Environmental Systems. (2023) p. ICES-2023-097. St. Paul, MN, USA: ICES
+[7] Muirhead, Dean, Evaluation of Alternative Pretreatment Formulations for Minimizing the Risk of Mineral Precipitation During
+    Distillation of Urine, ESCG-4106-12-CHLSS-DOC-0002, January 2012.
+[8] McKinely, M., Broyan Jr., J.L., Matty, C., Borrego, M., Williamson, J., Garcia, J., “NASA Universal Waste Management
+    System and Toilet Integration Hardware Operations on ISS – Issues, Modifications and Accomplishment”, 51st International
+    Conference on Environmental Systems, St. Paul, Minnesota, July 2022.
+[9] McKinley, M., Borrego, M., Walker, M., Williamson, J., Darmetko, J. “NASA Exploration Toilet On-orbit Results and Impact
+    on Future Missions”, Paper # 2024-071, 53rd International Conference on Environmental Systems, Louisville, Kentucky, 2024
+[10] Davis, M.B., Williamson, J., “Assembly and Integration Status of a High Fidelity Ground Test Bed for the Water Processor
+    Assembly”, Paper # 2026-420, presented at the 55th International Conference on Environmental Systems, Rio Grande, Puerto
+    Rico, July 2026.
+[11] Williamson, J.P., Carter, L., Hill, J., Brown, A., “Upgrades to the International Space Station Urine Processor Assembly”,
+    presented at the 50th International Conference on Environmental Systems, Virtual. July, 2021.
+[12] Aponte-Mendez, N., Williamson, J., Richeson, J., “Brine Processor Assembly Ground Testing for ISS Contingency Planning
+    and Exploration Reliability Assessments”, Paper # 2026-193, presented at the 55th International Conference on Environmental
+    Systems, Rio Grande, Puerto Rico, July 2026.
+[13] Boyce, S., et al., “Closing the Water Loop for Exploration: 2023-2024 Status of the Brine Processor Assembly”, Paper # 2024-
+    62, 53rd International Conference on Environmental Systems, Louisville, Kentucky, 2024.
+[14] Joyce, C.J., Pasadilla, P., Brandon, B., Palmer, T., Wilson, J.P., Williamson, J., Toon, K., “The Path to Recovering a Metric
+    Ton of Water from Urine-Brine with the Brine Processor Assembly”, presented at the 54th International Conference on
+    Environmental Systems, Prague, Czechia. July 2025.
+[15] Williamson, J., Chen, L., Drake, D., Johnson, M., “The eXploration Potable Water Dispenser Aboard the ISS: Exploration
+    Technology Demonstration Status Review”, Paper # 2026-424, presented at the 55th International Conference on
+    Environmental Systems, Rio Grande, Puerto Rico, July 2026.
+[16] Williamson, J., Wilson, J.P., “The ISS Urine Processor Assembly (UPA) Purge Pump Performance Recovery”, Paper # 2026-
+    426, presented at the 55th International Conference on Environmental Systems, Rio Grande, Puerto Rico, July 2026.
+[17] Williamson, J., Wilson, J.P., Duenas, C., “Successful Build of a Viable UPA Purge Pump on the ISS for Two Failed Pumps”,
+       Paper # 2026-429, presented at the 55th International Conference on Environmental Systems, Rio Grande, Puerto Rico, July
+       2026.
+
+
+
+
+                                                            12
+                                    International Conference on Environmental Systems
+

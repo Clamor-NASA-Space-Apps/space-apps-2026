@@ -1,0 +1,380 @@
+National Aeronautics and Space Administration
+
+
+
+
+            ISRU Technology Development for
+             Extraction of Water from the Mars
+                           Surface
+
+                          J. Kleinhenz: NASA Glenn Research Center
+                            J. Collins: NASA Johnson Space Center
+                          M. Barmatz: NASA Jet Propulsion Laboratory
+                          G. Voecks: NASA Jet Propulsion Laboratory
+                           S. Hoffman: NASA Johnson Space Center
+
+                                                                   www.nasa.gov   1
+National Aeronautics and Space Administration
+
+
+                                                NASA ISRU project
+Scope: Develop and demonstrate, in ground demonstrations, the component,
+subsystem, and system technology to enable production of mission
+consumables from regolith and atmospheric resources at a variety of
+destinations
+       • Initial focus
+            – Critical technology gap closure
+            – Component development in relevant environment (TRL 5)
+       • Interim goals
+            – ISRU subsystems tests in relevant environment (Subsystem TRL 6)
+       • End goals
+            – End-to-end ISRU system tests in relevant environment (System TRL 6)
+            – Integrated ISRU-Exploration elements demonstration in relevant
+              environment
+                                                 Overall Project Goals
+
+   System-level TRL 6 to support future flight demonstration missions
+
+   Provide Exploration Architecture Teams with validated, high-fidelity
+         answers for mass, power, and volume of ISRU Systems
+                                                                         www.nasa.gov   2
+National Aeronautics and Space Administration
+
+
+                                                NASA ISRU project
+
+
+
+
+                                                                    www.nasa.gov   3
+ National Aeronautics and Space Administration
+
+                                          HEOMD Advanced Exploration Systems
+                                             ISRU Program Exec – N. Suzuki
+
+
+                                                 In-Situ Resource Utilization Project
+                                                      Project Manager – D. Linne
+
+
+
+                                                      4.0 Component & Subsystem
+                                                        Technology Development
+
+   2.0 Systems Engineering                       4.1 Atm Carbon Dioxide          4.2 Oxygen           5.0 System Validation &
+        & Integration                             Collection Subsystem      Production Subsystem                Test
+
+2.1 Requirements /        2.2 System             4.3 Methane Production     4.4 Water Electrolysis           5.1             5.2 Simulants
+ Arch Definition          Modeling &                   Subsystem                 Subsystem            Environmental          Development
+                           Analysis                                                                  Test Infrastructure
+                                                      4.5 Mobility             4.6 Prospecting
+2.3 System Level           2.4 ISRU-                   Subsystem                 Subsystem                  5.3             5.4 Mars Atm-
+   Integration          Surface Systems                                                               Regolith/Water-       Based System
+                          Integration                                                                  Based System
+                                                     4.7 Excavation          4.8 Soil Processing
+                                                       Subsystem                 Subsystem                 5.5 ISRU-Surface Systems
+                                                                                                           Integrated Demonstrations
+                                                             4.9 Product Storage and
+                                                             Distribution Subsystem
+
+
+
+                                                                                                                           www.nasa.gov
+National Aeronautics and Space Administration
+
+
+
+
+                         ISRU Project working requirements
+    • ISRU products: Propellant for Mars Ascent Vehicle
+      defined in the Evolvable Mars Campaign
+            – 6976 kg Methane, 22728 kg Oxygen
+    • Production time: 434 days @ 24 hr/day operations
+            – Based on 26 month launch window. ISRU fuel produced prior to
+              next mission landed.
+            – Margin included for: setup, dust storm, failure, reserves
+    • Fault Tolerance: 3 modules operating at 50%
+    • Environmental Conditions:
+            – For hydrated minerals: Jezero Crater
+            – For Ice: Viking 2
+    • Production rate:
+            – 1.5 kg/hr water → 0.67 kg/hr CH4 and 2.68 kg/hr O2
+
+                                                                     www.nasa.gov   5
+National Aeronautics and Space Administration
+
+
+
+
+                          Soil Processing Element: Overview
+ • Goals:
+         – Develop technologies to extract water from planetary regolith considering
+           production rate vs:
+                • Energy/Power consumption (efficiency, yield, heat recuperation options)
+                • Mass and sizing: modularity, batch sizes, soil feed options ,etc
+                • Ruggedness in terms of soil, environmental, and operational parameters; seals
+                  and component wear; etc
+                • Removal of product and disposal of spent material
+ • Approach
+         – With multiple architectures still on the table, several technology options are
+           being advanced. Several options at a higher TRL will keep the project
+           flexible to options such as:
+                •   Mobile vs Fixed soil processing
+                •   Resource target and Landing site
+                •   Power source & location
+                •   Raw material delivery (e.g. excavator type)
+         – Note that the technologies covered here are the in-house efforts only.
+         – Goal is to advance toward a down-select in 2020 for the integrated
+           subsystem test. Down-select based on project level considerations and
+           results of other element technologies.
+         – All technologies include both breadboard testing and model development
+                                                                                            www.nasa.gov   6
+National Aeronautics and Space Administration
+
+
+
+
+                     Soil Processing Element Technologies
+• Hydrated mineral resources
+       – Auger Dryer: Granular material is continuously conveyed through a
+         closed, heated auger assembly. The varying pitch of the auger
+         flutes, along with a regolith head in the hopper, seal the system so
+         that the evolved water vapor is pressure fed to the condenser.
+       – Microwave: Granular material is fed into a resonant cavity where
+         the water is released via microwave radiation. A porous regolith
+         vessel will used to facilitate water release and collection such that a
+         continuous feed of regolith can be processed.
+       – Open air: A bucket wheel is used to retrieve granular material from
+         a hopper, or from the surface itself, and dump it onto a inclined
+         heated tray. Atmospheric gas is blown over the tray (duct not shown)
+         to sweep water vapor into the condenser. Vibration conveys material
+         down the heated tray.
+• Subsurface Ice
+       – Rodriquez Well (“Rodwell”): This terrestrial concept is currently in
+         use at Antarctic field stations. The ice sheet is accessed via a
+         borehole and a heat probe is used to melt and maintain a liquid ‘well’
+         within the ice. Water is pumped out of the well for use.
+
+
+                                                                           www.nasa.gov   7
+National Aeronautics and Space Administration
+
+                                                Auger Dryer
+• Background:
+      – Based on terrestrial design for granular material dryers in
+        pharmaceutical, agriculture, food industries, etc
+      – Concept baselined in the 2016 EMC campaign ISRU system model
+        study. Terrestrial system equations were modified and incorporated
+        into model for scaling.
+• Year 1 goals
+      – Design, build, and test a breadboard system for Mars application
+        (simulants, pressures) based scaling parameters in model
+      – Examine con-ops and performance that will feed into subsequent
+        design iterations.
+      – Validate model performance parameters and empirical
+        assumptions; improve auger model for application into ISRU
+        system model
+
+
+                                                                            Plug seal example by
+                                                                           Conveyor Engineering &
+                                                                               Manufacturing
+
+
+
+
+                                                                                  www.nasa.gov   8
+National Aeronautics and Space Administration
+
+
+
+
+                                                Auger Dryer
+• Status
+       – Breadboard has been designed and fabrication complete. Test setup in progress
+              • Phase 1 is with a plastic casing for material flow observations
+              • Phase 2 will be a metal casing with heater and water condenser for water evolution
+                studies including, energy efficiency, yield (residence time, temperature, etc)
+                    – Designed to allow for full or partial production flow rates: zoned heaters and fluid ports
+       – Soil hopper with soil column for pressure seal will be tested at various
+         operational pressures
+
+                                 MAX
+
+
+
+
+                                  Configuration 1
+
+
+                                                                                                         www.nasa.gov   9
+National Aeronautics and Space Administration
+
+
+
+
+                                                Microwave
+• Background:
+       – Earlier efforts using microwave heating of lunar simulants for reactor and
+         construction purposes
+       – Internal R&D funds in 2017 to look at Mars application using various
+         hydrated minerals was the direct predecessor to this work
+• Year 1 Goals:
+    – Advance breadboard to accommodate
+      hydrated regolith simulants and continuous
+      throughput
+    – Examine power efficiencies
+       • Reflected power & soil temperatures
+       • Solid state amplifier versus magnetron
+          with adjustable cavity: resonant frequency
+          optimization
+    – Evaluate porous tube properties
+       • Pore size vs efficiency in soil flow and
+          water removal
+    – Design of continuous soil feed system
+       • Estimate soil flow rate versus applied
+          power
+                                                                          www.nasa.gov   10
+National Aeronautics and Space Administration
+
+
+
+
+                                                Microwave
+• Status
+       – Testing in progress with porous tube at vacuum conditions
+              • Preliminary results with 5um pore tube are promising
+              • Thermal Model validation of soil temperatures shows good agreement
+       – Fabrication complete of adjustable magnetron cavity
+       – Examination of dielectric constant of Mars soil simulants: Range for
+         operations
+       – Fiberoptic thermometer in cavity for temperature measurement of soil
+       – Soil feed system and condenser are being developed
+
+
+
+
+                                                                                www.nasa.gov   11
+National Aeronautics and Space Administration
+
+
+
+
+                                                Open Air Processor
+• Background
+       – Internal R&D award in 2016 to examine proof of concepts
+              • Roto-tiller concept in 2016, Bucket wheel concept in 2017
+              • All proof-of-concept hardware tested at Mars environmental conditions
+                (pressure, gas, simulant)
+       – Concepts to avoid need for high temperature, dust tolerant seals
+
+• Year 1 Goals
+       – Using hardware developed
+         in 2017, run parametric
+         studies to develop and
+         validate a model
+       – Use model for scaling and
+         improvements for hardware
+         redesign to meet full
+         production rate and
+         improve yield efficiency
+
+                                                                                   www.nasa.gov   12
+National Aeronautics and Space Administration
+
+
+
+
+                                                Open Air Processor
+• Status
+       – Re-work of the vibration driver for the inclined tray to get repeatable
+         flow results
+       – Additional sensors including
+              • Accelerometer for flow characterization
+              • Improved accuracy load cell, vibration isolated
+              • Additional thermocouples for better soil measurement
+       – Initial model development completed
+       – Room pressure testing for soil flow studies complete; techniques
+         validated
+       – Mars environment testing currently underway
+
+
+
+
+                                                                            www.nasa.gov   13
+National Aeronautics and Space Administration
+
+
+
+
+                                                        Rodwell
+• Background:
+       – Rodwells are in use terrestrially (Antarctic field stations) for water generation from
+         subsurface ice sheets.
+              • Subsurface Glaciers have been identified on Mars, as shallow as 1m deep (Dundas, 2018)
+       – CRREL (Cold Regions Research and Engineering Laboratory) has generated a
+         numeric model for Rodwell design. This model has been leveraged to develop a
+         ISRU Mars Rodwell system to:
+              • Estimate mass & power for Mars relevant hardware
+              • Examine Concept of Operations of Rodwell for various operating conditions (production
+                rates, location, etc)
+              • Initial trade study results to be published at AIAA Space 2018.
+
+
+
+
+             C.M. Dundas, et al., Exposed massive
+             ground ice in the Martial mid-latitudes,
+             Science Vol. 359.
+                                                                                           www.nasa.gov   14
+National Aeronautics and Space Administration
+
+
+
+
+                                                Rodwell
+• Year 1 Goals:
+       – Modify existing Rodwell model developed by CRREL to accommodate Mars
+         environmental conditions
+       – Examine impact of Mars environment on Rodwell efficacy and con-ops
+          • Mars environmental conditions including: thermal parameters, pressure
+             effects (sublimation), etc
+          • Mars surface conditions including: impurities in ice, depth to ice,
+             overburden composition, etc
+       – Experimentally measure need parameters in a thermal vacuum environment
+         for model application
+ • Status:
+         – Agreement in place with CRREL
+           to help modify existing model
+         – Experimental study in
+           formulation to obtain parameters
+           needed for Mars adaptation of
+           model
+               • Thermal properties,
+                 sublimation/phase conditions,
+                 etc
+               • Currently identifying which are
+                 driving parameters for the model
+                                                                         www.nasa.gov   15
+National Aeronautics and Space Administration
+
+
+
+
+                                                Summary
+        • Technology development is underway for several
+          ISRU water extraction hardware concepts for Mars
+          application.
+                – Hydrated minerals (Auger dryer, Microwave, Open Air)
+                – Subsurface Ice (Rodwell)
+        • Models are developed with experimental and
+          breadboard efforts for use in larger ISRU system
+          models
+        • Each effort consists of a 3 year development plan,
+          with the goal of integrating into a larger subsystem
+          test in 2020.
+                – Concurrent technology advance allows for flexibility in
+                  system design; depending on architecture decisions and
+                  progress of associated subsystems
+                                                                            www.nasa.gov   16
+

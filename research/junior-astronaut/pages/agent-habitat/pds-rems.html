@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en"><head><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" --><!-- InstanceBeginEditable name="doctitle" --><title>Rover Environmental Monitoring Station Data</title><!-- InstanceEndEditable -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="https://pds-atmospheres.nmsu.edu/atmospage_files/mars.css" type="text/css" rel="stylesheet" media="all">
+<script language="JavaScript" src="https://pds-atmospheres.nmsu.edu/oodt/js/lastMod.js"></script>
+<script src="https://pds-atmospheres.nmsu.edu/atmospage_files/jquery-1.js" type="text/javascript"></script>
+<script src="https://pds-atmospheres.nmsu.edu/atmospage_files/email.js" type="text/javascript"></script>
+<script language="JavaScript" src="https://pds-atmospheres.nmsu.edu/oodt/js/color.js">
+</script>
+<script type="text/javascript">
+$(fixEmail);
+</script><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --><!-- InstanceParam name="menu_section" type="text" value="data" --><!-- InstanceParam name="menu_item" type="text" value="" --><!-- InstanceParam name="left_sidebar" type="boolean" value="true" --><!-- InstanceParam name="standard_sidebar" type="boolean" value="true" --><!-- InstanceParam name="standard_page_content" type="boolean" value="true" --><!-- InstanceParam name="custom_page_class" type="text" value="" --><link href="https://pds.nasa.gov/pds-app-bar/pds-app-bar.css" type="text/css" rel="stylesheet"><link href="https://pds.nasa.gov/pds-app-bar/pds-app-bar.css" type="text/css" rel="stylesheet"><script src="https://pds.nasa.gov/pds-app-bar/pds-app-bar.js" type="text/javascript"></script><link href="https://pds.nasa.gov/pds-app-bar/pds-app-bar.css" type="text/css" rel="stylesheet"><link href="https://pds.nasa.gov/pds-app-bar/pds-app-bar.css" type="text/css" rel="stylesheet"><script src="https://pds.nasa.gov/pds-app-bar/pds-app-bar.js" type="text/javascript"></script></head><body class="sidebar menu_data menu_item_">
+<!--[if IE]>
+<div id="IE">
+<![endif]--> 
+
+<!-- Header -->
+<div id="header">
+<!--
+<div class="nonvisual">
+  <h2>Menu: Skip within this page</h2>
+  <ul>
+    <li><a href="#mainContent">Skip to main content</a></li>
+    <li><a href="#mainMenu">Skip to menu</a></li>
+  </ul>
+</div>
+-->
+<p id="logo">
+  <a href="https://pds.nasa.gov/index.shtml" onclick="this.blur()"><img src="https://pds-atmospheres.nmsu.edu/atmospage_files/nasa-logo.gif" alt="NASA logo" border="0" height="50" width="60">&nbsp;PDS: The Planetary Atmospheres Node</a><!--<span style="position: relative; left: -3em; bottom: -1em; color: rgb(255, 51, 51); font-size: 90%; font-family: 'Arial Black';">BETA</span> -->
+</p>
+
+<!--    
+<form id="dummyForm" action="/" method="get"></form>
+<script type="text/javascript">
+function setSearchAction(form, actionSelector) {
+    var baseAction = document.getElementById("dummyForm").action;
+    form.action = baseAction + actionSelector.value;
+    return true;
+}
+</script>-->
+<form id="search" action="https://atmos.nmsu.edu/cgi-bin/retrieve_lines" method="post" enctype="application/x-www-form-urlencoded">
+<input name="q" value="" type="hidden">
+<input name="facet" value="" type="hidden">
+<input name="in" value="all" type="hidden">
+<label for="searchPhrase">Search for:</label><br>
+<input id="searchPhrase" class="text" size="30" name="DATA_SET" type="text"> <input class="submit" value="Go" type="submit"><br>
+</select>
+</form>
+<h2 class="nonvisual">Menu: Help Links</h2>
+<ul id="nasaLinks">
+  <li><a href="https://www.nasa.gov/">NASA Portal</a></li>
+  
+</ul>
+<ul id="nasaLinks">
+<img src="https://atmos.nmsu.edu/images/PDS_Planets_comet.jpg" border="0" width="100" alt="pds logo">
+</ul>
+
+<div class="clear"></div>
+
+</div>
+<!-- Main menu -->
+
+<div id="menu">
+
+<a class="nonvisual" name="mainMenu"></a>
+
+<h2 class="nonvisual">Main menu</h2>
+<ul>
+  <li id="home"><a href="https://pds-atmospheres.nmsu.edu/">Home</a></li>
+  <li id="about"><a href="https://pds-atmospheres.nmsu.edu/about_t_node/about_t_node.htm">About Us</a></li>
+  <li id="data"><a href="https://pds-atmospheres.nmsu.edu/data_and_services/data_and_services.htm">Data and Services</a></li>
+  <li id="education"><a href="https://pds-atmospheres.nmsu.edu/education_and_outreach/education_and_outreach.htm">Education</a></li>
+  <li id="contact"><a href="https://pds-atmospheres.nmsu.edu/contact_us/contact_us.htm">Contact Us</a></li>
+  
+  <li id="external"><a href="https://pds-atmospheres.nmsu.edu/other_i_sites/other_i_sites.htm">External Links</a></li>
+
+</ul>
+
+<div class="clear"></div>
+</div>
+
+
+<div id="submenu">
+<div id="submenu">
+<div id="submenu_data_and_services">
+<h2 class="nonvisual">Home submenu</h2>
+<ul>
+<li id="data_catalog"><a href="https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/catalog.htm">Data Catalog</a>
+
+
+<li id="home_ads"><a href="https://ui.adsabs.harvard.edu//">ADS NASA Astrophysics Data System</a>
+<li id="home_nrs"><a href="https://nspires.nasaprs.com/external/solicitations/solicitations.do?method=open&stack=push">NASA Research Solicitations</a>
+<li id="home_abstracts"><a href="https://nspires.nasaprs.com/external/solicitations/solicitations.do?method=past&stack=push">Abstracts of Funded NASA Proposals</a>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+
+<!-- <ul id="submenu_standards"><li>&nbsp;</li></ul> -->
+
+<div class="clear"></div>
+</div>
+
+<!-- Sidebar -->
+
+<div id="sidebar">
+
+					<div class="sidebarSection">
+						<h2>Atmospheres data and related services</h2>
+						<ul>
+                                                        <li><a href="https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/atmospheres_data.htm">Atmospheres data</a></li>
+							<li><a href="https://pds-atmospheres.nmsu.edu/data_and_services/software/software.htm">Software</a></li>
+
+						</ul>
+					</div>
+					<div class="sidebarSection">
+						<h2>PDS Nodes</h2>
+						<ul>
+                                                        <li><a href="https://pds.nasa.gov/">PDS</a></li>
+							<li><a href="https://pds-atmospheres.nmsu.edu/">Atmospheres</a></li>
+							<li><a href="https://pds-geosciences.wustl.edu/">Geosciences</a></li>
+							<li><a href="https://pds-imaging.jpl.nasa.gov/">Cartography and Imaging</a></li>
+							<li><a href="https://naif.jpl.nasa.gov/naif/">Navigation &amp; Ancillary Information Facility&nbsp;(NAIF)</a></li>
+							<li><a href="https://pds-ppi.igpp.ucla.edu/">Planetary Plasma Interactions&nbsp;(PPI)</a></li>
+							<li><a href="https://pds-rings.seti.org/">Ring-Moon Systems</a></li>
+							<li><a href="https://pds-smallbodies.astro.umd.edu/">Small Bodies</a></li>
+						</ul>
+					</div>
+                                        <!-- InstanceBeginEditable name="leftSidebar" -->
+                                        <div class="sidebarSection2">
+                                        <h2><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/data_archive.html">Mars Summary Page</a></h2>
+                                         <ul class="news">
+                                         <li>&nbsp;<big>Mars Orbiter</big></li>
+                                         <div id="indenttext">
+                                         <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/mariner9.html">Mariner 9</a></li>
+                                         <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/vikingorbiter1.html">Viking Orbiter 1</a></li>
+                                         <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/vikingorbiter2.html">Viking Orbiter 2</a></li>
+                                         <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/mgs.html">Mars Global Surveyor</a></li>
+                                         <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/mars_odyssey.html">Mars Odyssey</a></li>
+                                         <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/mars_express.html">Mars Express</a></li>
+                                         <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/mars_reconnaissance_orbiter.html">Mars Reconnaissance Orbiter</a></li>
+<li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MAVEN/maven_main.html">MAVEN</a></li>
+
+                                         </div>
+                                         <li>&nbsp;<big>Mars Lander</big></li>
+                                         <div id="indenttext">
+                                           <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/viking/viking_lander.html">Viking Lander</a></li>
+                                           <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/pathfinder/pathfinder.html">Mars Pathfinder</a></li>
+                                           <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/MER/mer.html">Mars Exploration Rover</a></li>
+                                           <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/phoenix/phoenix.html">Mars Phoenix Lander</a></li>
+                                           <li><a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/MARS/curiosity/curiosity.html">Mars Science Laboratory - Curiosity</a></li>
+                                           <li><div id="indenttext"><a href="mission_goals.html">Mission Goals and Objectives</a></div></li>
+                                            <li><div id="indenttext"><a href="rems.html">Rover Environmental Monitoring Station</a></div></li>
+                                            <li><div id="longindenttext"><a href="rems_wind.html">Wind</div></li>
+                                            <li><div id="longindenttext"><a href="rems_temperature.html">Temperature</div></li>
+                                            <li><div id="longindenttext"><a href="rems_uv.html">UV Flux Data</div></li>
+                                            <li><div id="longindenttext"><a href="rems_humidity.html">Humidity Data</div></li>
+                                            <li><div id="longindenttext"><a href="rems_pressure.html">Pressure Data</div></li>
+                                            <li><div id="indenttext"><a href="atm_struc.html">Atmospheric Structure During Descent</a></div></li>
+                                            <li><div id="indenttext"><a href="sam.html">Sample Analysis at Mars</a></div></li>
+                                            <li><div id="indenttext"><a href="mastcam.html">MastCam</a></div></li>
+
+                                            <li><div id="indenttext"><a href="chemcam.html">ChemCam</a></div></li>
+                                            <li><div id="indenttext"><a href="dan.html">Dan</div></li>
+                                            <li><div id="indenttext"><a href="dust_devils.html">Dust Devils</div></li>
+                                          </ul>
+                                          </div>
+                                          </div>
+
+				<!-- InstanceEndEditable -->
+</div>
+
+
+<!-- Main content -->
+<div id="content">
+<a name="mainContent"></a>
+<div>
+<!-- InstanceBeginEditable name="content" -->
+                                                <div style="border-top: 1px solid white; position: relative;">
+
+
+<!-- main content begin -->
+<h1><!-- InstanceBeginEditable name="pageTitle" --></h1><ul>
+  <img src="images/curiosity_pic.png" style="top:10px; left:30px; position: absolute;" width="190">
+
+<br><br>
+<div id="banholder">
+ <div id="banner">
+    <div id="bannertext" style="font-family: Tahoma, Geneva">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the Mars Science Laboratory Archive
+    </div>
+  </div>
+  <div id="banner2">
+    <div id="bannertext3" style="font-family: Tahoma, Geneva">
+    &nbsp;&nbsp;Rover Environmental Monitoring Station Data - CERTIFIED
+    </div>
+  </div>
+</div>
+<!--
+<img src="images/Main_Banner.jpg" width="850" alt="Main Banner" align="left">
+-->
+<div id="date_line">
+Aug 7, 2012 (Sol 1, Ls 151.0, MY 31) to March 22, 2025 (Sol 04488, Ls 60.1, My 38)[ongoing]
+</div>
+<br><br><br><br><br>
+<div id="phxpic">
+<a href="images/rover_env.png"><img src="images/rover_env.png" width="350" alt="Rover pic" align="left" border="0"></a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<small>Artistic view of Curiosity, where the position of the REMS Booms (containing the wind, temperature, humidity and pressure sensors) and the Ultraviolet Sensor can be seen. (Credit: NASA/JPL-Caltech) 
+</small>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+<div id="limittext">
+The Rover Environmental Monitoring Station (REMS) is MSL's primary meteorological instrument.  It has been designed to record six atmospheric parameters: wind speed/direction, pressure, relative humidity, air temperature, ground temperature and ultraviolet radiation. All sensors are located around three elements: two booms attached to the rover Remote Sensing Mast (RSM), the Ultraviolet Sensor (UVS) assembly located on the rover top deck, and the Instrument Control Unit (ICU) inside the rover body.  For more information regarding these parameters, see the links below.
+<br><br>
+<div id="longindenttext">
+	<a href="rems_wind.html"><b>Wind Data Graphical Display Example</b></a><br>
+	<a href="rems_temperature.html"><b>Temperature Data Graphical Display Example</b></a><br>
+	<a href="rems_uv.html"><b>UV Flux Data Graphical Display Example</b></a><br>
+	<a href="rems_humidity.html"><b>Humidity Data Graphical Display Example</b></a><br>
+	<a href="rems_pressure.html"><b>Pressure Data Graphical Display Example</b></a>
+</div>
+<br>
+REMS has a measurement cadence of 1 Hz and typically takes 5 minute samples every hour as well as additional 60 minute samples distributed through each sol.
+<br><br>
+<div id="bigheader">Useful Documents</div>
+<div id="longertext2">
+<!--<div id="clear_box">
+CERTIFIED
+</div>-->
+ <div id="indenttext">
+ <b><a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/REMS_INST.CAT">Instrument Description Document</a></b><br>
+ <b><a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/calibration/"><b>Calibration Information Files</a></b><br>
+ <b><a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/MSL_REMS_EDR_SIS.PDF">Raw Data (EDR) Software Interface Specification (SIS) Document</a></b><br>
+ <b><a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/MSL_EDR_VOLSIS.PDF">Raw Data (EDR) Archive Volume Software Interface Specification (VOLSIS) Document</a></b><br>
+ <b><a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/REMS_RDR_SIS.PDF">Reduced Data (RDR) Software Interface Specification (SIS) Document</a></b><br>
+ <b><a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/REMS_RDR_VOLSIS.PDF">Reduced Data (RDR) Archive Volume Software Interface Specification (VOLSIS) Document</a></b><br>
+ <b><a href="https://atmos.nmsu.edu/PDS/data/mslrem_1001/CATALOG/REMS_REF.CAT">References</a></b><br>
+ <b><a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/">Documents</a></b><br>
+</div>
+<br>
+<div id="bigheader">Archive Volumes</div>
+<br>
+
+<a href="https://atmos.nmsu.edu/PDS/dataPDS4/msl_rems_bundle/document/REMS_EDRDS.CAT"><b>Data Set Description Document</b></a><br><br>
+<a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/"><b>REDUCED DATA</b></a></b> - Volume Directory containing the RDR data files for sols 1-4843 (pressures in pascals, temperature in Kelvin, etc.)<br><br>
+<div id="indenttext2">
+<a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/REMS_ADR_DS.CAT"><b>ADR Data Set Description Document</b></a> - The REMS ADR data set contains ancillary data used in the processing of REMS data.<br>
+</div>
+<div id="indenttext2">
+<a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/REMS_TELRDR_DS.CAT"><b>TEL Data Set Description Document</b></a> - The REMS TELRDR data set contains processed REMS data where the counts given by the analog/digital converters from the instrument sensors have been converted to their corresponding thermal and electrical values.<br>
+</div>
+<div id="indenttext2">
+<a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/REMS_ENVRDR_DS.CAT"><b>ENV Data Set Description Document</b></a> - The REMS ENVRDR data set contains processed REMS data converted to environmental magnitudes.<br>
+</div>
+<div id="indenttext2">
+<a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/REMS_MODRDR_DS.CAT"><b>MOD Data Set Description Document</b></a> - The REMS MODRDR data set contains processed REMS data converted to environmental magnitudes and corrected by factors having an influence in the measurements.
+</div>
+<div id="indenttext2">
+<a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/document/REMS_UVRDR_DS.CAT"><b>UVRDR (Corrected UV Fluxes RDR)</a></b>: This RDR contains only data coming from the UV Sensor, using an alternative processing to data found in the MODRDR. This alternative processing corrects UV fluxes for dust deposition over the sensor and inaccuracies in the original calibration function for solar zenith angles < 55.
+</div>
+<br>
+<a href="https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_raw/"><b>RAW DATA</b></a> - Volume Directory containing the EDR data files for sols 1-4843.<br>
+</div> <!-- longindenttext -->
+</div>
+<div class="clear"></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- main content end -->
+						</div>
+					<!-- InstanceEndEditable -->
+</div>
+</div>
+
+
+
+<div id="footer" style="color: black; background: #CCCCCC; vertical-align: middle;">
+  <a href="https://www.nasa.gov/"><img class="left" src="https://pds-atmospheres.nmsu.edu/atmospage_files/usa-gov.gif" alt="Link to www.usa.gov" border="0"></a>
+
+  <p class="left">
+<a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy</a> / <a href="https://www.jpl.nasa.gov/imagepolicy/">Copyright</a><br />
+<a href="https://www.hq.nasa.gov/office/pao/FOIA/">Freedom of Information Act</a>
+  </p>
+  
+  <p class="right">
+Curator: <a href="mailto:lhuber@nmsu.edu">Lyle Huber</a><br />
+ATM Mgr: <a href="mailto:nchanove@nmsu.edu">Nancy Chanover</a><br />
+Last updated:
+<script>
+  document.write(lastMod());
+</script>
+ 
+  </p>
+  
+  <img class="right" src="https://pds-atmospheres.nmsu.edu/atmospage_files/nasa-logo-small.gif" alt="Small NASA logo">
+  
+  <div style="clear: both;"></div>
+</div>
+
+
+    <!--[if IE]>
+    </div>
+    <![endif]--> 
+  <!-- InstanceEnd --></body></html>

@@ -1,0 +1,98 @@
+                                                                                    National Aeronautics and
+                                                                                       Space Administration
+
+
+
+
+  Marshall Space Flight Center
+
+  Environmental Control and Life Support System
+
+Earth’s natural life support system provides the air we          Each astronaut needs about a gallon of water per day for
+breathe, the water we drink and other conditions that support    consumption, food preparations and hygiene — brushing
+life. For missions in space, it is essential to preserve as      teeth and shaving.
+many natural resources as possible. Quick resupply of air
+and water is not possible, given the distances involved.
+To mitigate this problem, a regenerative life support                The Environmental Control and Life Support
+system that mimics Earth’s natural processes is needed               System performs several functions:
+aboard spacecraft. NASA’s Marshall Space Flight Center               • Provides oxygen for breathing
+in Huntsville, Alabama, is responsible for most of the design,
+                                                                     • Removes carbon dioxide from the cabin air
+construction and testing of this regenerative life support
+hardware for the International Space Station, known as the           • Recovers and recycles oxygen from carbon dioxide
+Environmental Control and Life Support System (ECLSS).                 to resupply the crew
+                                                                     • Filters particulates and microorganisms from the
+ECLSS is a life support system that provides or controls
+                                                                       cabin air and maintains cabin pressure, temperature
+atmospheric pressure, fire detection and suppression, oxygen
+                                                                       and humidity levels
+levels, proper ventilation, waste management and water
+supply. ECLSS includes three key components — the Water              • Removes volatile organic trace gases, such as
+Recovery System, the Air Revitalization System and the                 ethanol, that are colorless, odorless and can build
+Oxygen Generation System. These systems were jointly                   up over time
+designed and tested by the Marshall Space Flight Center and          • Distributes cabin air between each room, or
+industry partners. They are packaged into four refrigerator-           module, of the station;
+sized racks in the U.S. Tranquility module on the station.           • Provides potable water for consumption, food
+The Water Recovery System provides clean water by                      preparation and hygiene
+reclaiming wastewater (including water from crew members’            • Purifies recycled water from multiple sources back
+urine), cabin humidity condensate, and water from the                  to potable water
+hydration system inside crew members’ Extra Vehicular
+Activity suits. The recovered water must meet stringent
+purity standards before it can be used to support crew,          The Air Revitalization System is dedicated to cleaning
+extravehicular and payload activities.                           the circulating cabin air. This involves removing trace
+                                                                 contaminants produced by electronics, plastics and human
+Water produced by the urine processor is combined with           off-gassing, including carbon dioxide exhaled by the crew
+all other waste waters and delivered to the water processor      during normal respiration. Trace contaminants are removed
+for treatment. The water processor sends the water through       by flowing cabin air through three separate units including
+a series of multi-filtration beds and a catalytic oxidizer       an activated charcoal bed, a catalytic oxidizer and a lithium
+for purification. The water purity is checked by electrical      hydroxide bed. Carbon dioxide is removed using molecular
+conductivity sensors in the systems. Unacceptable water is       sieves, materials that separate and capture gases based on
+reprocessed, and clean water is sent to a storage tank, ready    their size.
+for the crew to use. Currently, the Water Recovery System is
+capable of recovering and recycling about 98 percent of the      The Oxygen Generation System produces oxygen for
+water on station.                                                the crew to breathe. The system consists of the oxygen
+                                                                 generation assembly and the carbon dioxide reduction
+                                                                 assembly. The oxygen generation assembly is composed
+                                                                 of the cell stack, which electrolyzes, or breaks apart, water
+provided by the Water Recovery System, yielding oxygen
+and hydrogen as byproducts. The oxygen is delivered to
+the cabin atmosphere while the hydrogen is either vented
+into space or fed to the carbon dioxide reduction assembly.
+The assembly uses that hydrogen along with carbon dioxide
+exhaled by the crew in a Sabatier reactor. The byproducts of
+that process are methane (which is released into space) and
+water for use by the crew.
+
+
+    ECLSS Facts
+    • The Environmental Life Support System for water
+      recycling has been operating on the space station
+      since 2008.
+    • Astronauts need to drink a half gallon of water
+      each day — we all do!
+    • Oxygen on the ISS comes from a process called
+      “electrolysis,” which involves using an electrical
+      current generated from the station’s solar panels
+      to split water molecules into hydrogen and oxygen
+      gas.
+    • ECLSS reclaims 98 percent of all astronaut sweat
+      and urine.
+    • This technology has been adapted on Earth to aid
+      remote locations or places devastated by natural
+      disaster that do not have access to clean drinking
+      water.
+
+
+
+
+  National Aeronautics and Space Administration
+                                                               Doing Business With MSFC
+  Marshall Space Flight Center
+  Huntsville, AL 35812
+  www.nasa.gov/center/marshall
+
+  www.nasa.gov/
+
+
+  MSFC-02-2025-G-657270 (59)
+
