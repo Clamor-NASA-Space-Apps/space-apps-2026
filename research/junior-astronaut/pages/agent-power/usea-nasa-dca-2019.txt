@@ -1,0 +1,393 @@
+   NASA CO2 Removal
+           July 24, 2019
+          Washington, DC
+
+              Darrell Jan, PhD
+Life Support Systems CO2 Removal Co-Lead
+       NASA Ames Research Center
+3
+Some comparisons
+
+
+
+
+                   5
+6
+Space-specific challenges
+
+
+
+
+ • Liquid drops and solid particles don’t fall
+ • Bubbles don’t rise
+                                                 7
+Apollo 11 50th Anniversary
+
+                             It takes a lot
+                             of rocket to
+                             get a small
+                                              Reducing mass (or
+                             spacecraft       things that result
+                             to the
+                             moon!            in reducing mass*)
+                                              is important to
+                                              reducing launch
+                                              costs!
+
+
+                                                *lower power,
+                                                lower volume,
+                                                higher reliability,
+                                                less crewtime
+
+
+
+                                                                      8
+9
+Calculations:
+• 4 crew members produce about 4 kg/day CO2
+• To maintain 2500 ppm CO2, we need to
+  process at least 20 cubic feet per minute,
+  continuously.
+• At 1000 ppm, this increases to 50 cfm.
+
+
+
+
+                                               10
+11
+• 5A
+  Molecular
+  Sieve
+
+
+
+
+              12
+                                                                                                                         H2
+                                                                                                        Sabatier
+
+
+                                                                                                           H2O + CH4
+
+                                                                                                      O2
+
+Knox, J. C.; Campbell, M.; Miller, L. A.; Mulloth, L. M.; Varghese, M.; Luna, B., “Integrated Test and Evaluation of a 4-Bed
+Molecular Sieve, Temperature Swing Adsorption Compressor, and Sabatier Engineering Development Unit”. In International
+Conference on Environmental Systems, SAE: Norfolk, 2006, 2006-01-2271.
+                                                                                                                               13
+                         Carbon Dioxide Utilization
+                                           ISS Systems
+
+
+Cabin              Carbon                             Discard
+              H2O Dioxide              CO2                                                   Return to
+Air               Removal          Management                                                cabin
+• ~ 0.25%                            System                CH4
+  CO2             Assembly
+• ~50%                       CO2                CO2               H2 O                  O2
+  Humidity
+                CDRA                 CMS               Sabatier          Electrolysis
+
+                                                                                 H2
+
+
+
+
+             • Current technology does not completely
+               close the loop
+Potential additional options for CO2 usage
+
+Improved Oxygen recovery:
+    Plasma Pyrolysis
+    Bosch reaction
+CO2 for plant or algal growth - photosynthesis
+CO2 as a source for fuel production – methane, hydrocarbon liquid fuels
+CO2 as a feedstock for either direct utilization or through conversion to
+organic substrates (Microbial substrates, fish food, etc) biomanufacturing
+CO2 as a compressed gas for compressed gas cleaning or propulsion
+CO2 as a carbon and oxygen feedstock for the physicochemical synthesis of
+chemicals (plastics, pharmaceuticals, adhesives, etc.)
+CO2 as a cleaning solution or switchable polarity solvent
+
+
+
+
+                                                                             15
+Carbon Dioxide Removal Assembly
+History
+
+• Adsorbent bed media containment failures
+• Rapid pressure drop increases
+• Limited bed life
+• Bed heater shorts
+
+
+Current design addresses fixes
+
+                                             16
+Future CO2 Removal
+
+
+
+
+                     17
+                                                                         • Updated
+                                                                           Sorbent Bed
+                                                                           Geometry
+                                                                         • Updated
+                                                                           Heater
+                                                                           Geometry
+                                                                         • Change in
+                                                                           Sorbent
+                                                                           Material
+
+
+
+
+“4BMS-X Design and Test Activation,” W. T. Peters and J. D. Knox, 47th
+International Conference on Environmental Systems, ICES-2017-240.
+                                                                                         18
+Mini Scrubber
+
+
+
+
+https://www.nasa.gov/sites/default/files/thumbnails/image/dynetics-nextstep.png
+                                                                                  19
+Carbon Dioxide Removal by Freezing
+
+
+
+
+“Spacecraft Carbon Dioxide Deposition Subscale System Design and Test,” G.
+Belancik, D. Jan, R. Huang, 49th International Conference on Environmental
+Systems, ICES-2019-041.
+                                                                             20
+Carbon Dioxide Deposition by Freezing, cont’d
+
+                                            • May be particularly
+                                              advantageous for deep
+                                              space missions.
+                                            • Can also condense out
+                                              volatiles from the air.
+
+
+                                               ~2mm thick layer of
+                                               frozen transparent
+                                               CO2
+
+
+
+“Analysis of Spacecraft Cabin Carbon Dioxide Capture via Deposition,” G.
+Belancik, D. Jan, R. Huang, 48th International Conference on Environmental
+Systems, ICES-2018-228.
+                                                                             21
+Liquid Thermal Amine Microgravity Control
+                    •   Submarines spray liquid amines to
+                        remove CO2.
+                    •   Microgravity environment requires
+                        methods to control liquid behavior to
+                        use liquid amines in the space
+                        environment.
+
+
+
+
+                                                                22
+     Recent work reported at the 49th
+International Conference on Environmental
+            Systems, July 2019.
+
+
+
+
+                                            23
+• Versions of 13x have
+  exceptional attrition
+  resistance.
+
+
+
+
+                          24
+• Aqueous
+  diglycolamine.
+
+
+
+
+                   25
+• Uses solid amine
+  sorbent.
+
+
+
+
+                     26
+• Uses countercurrent
+  membrane contactor
+• Humidity control
+  approach TBD
+
+
+
+
+                        27
+• Uses cold surfaces
+  to condense CO2
+  out of the air
+
+
+
+
+                       28
+• Electrochemical
+  regeneration of
+  potassium
+  carbonate to
+  potassium
+  hydroxide.
+• Funded in part by
+  ARPA-E
+
+
+
+
+                      29
+• Strontium
+  exchanged silico-
+  alumino-
+  phosphate (Sr-
+  SAPO-34) zeolite.
+
+
+
+
+                      30
+• Informal discussions with
+  Geoff Holmes and others of
+  Carbon Engineering, and
+  Eric Rasmussen and Dennis
+  Schnell of SPX. SPX sent
+  samples of cooling tower
+  fill.
+
+
+
+
+                               31
+   Carbonic Anhydrase
+
+
+
+
+“…Increase in thermostability and alkali tolerance translates to a 4,000,000-
+fold improvement over the natural enzyme.”
+
+Directed Evolution task underway at NASA Ames.
+                                                                                32
+NASA Early Career Faculty (ECF) awards
+Metal Organic Frameworks (MOF) and Ionic Liquids/Membrane Technologies for
+Advanced CO2 Removal Applications
+
+Jeffrey Alston
+North Carolina Agricultural & Technical State University, Greensboro
+“Novel CO2 Removal with Magnetocaloric Pumping Augmentation of Hybrid
+Paramagnetic Ionic Liquid - SLMs”
+Matthew Green
+Arizona State University, Tempe
+“Scalable Membrane-supported IL CO2 capture and removal systems”
+Burcu Gurkan
+Case Western Reserve University, Cleveland
+“Poly(ionic liquid)-ionic liquid membranes reinforced by graphene sheets for CO2
+capture and conversion in microgravity”
+Casey Wade
+The Ohio State University, Columbus
+“Biomimetic strategies for selective carbon dioxide capture with metal-organic
+frameworks”
+                                                                                   33
+Backup slides
+
+
+
+
+                34
+35
+Carbon Dioxide Removal Assembly
+CDRA Mass: 450 pounds
+CDRA Power: 1000 watts
+CDRA volume: 19 cubic feet
+CDRA Heat rejection: 620 watts to TCS and 500 watts to Avionics Air
+
+CO2 removal performance:
+4.16 kg/day assuming crew of 4
+ppCO2 at 2.0 mmHg
+-> ~ 26 CFM air flow
+
+Expected Mean Time Between Failure: 3+ years.
+
+_________________________
+“Evaluation Criteria for CO2 Removal System Technological Assessment (FY17),” NASA.
+https://nspires.nasaprs.com/external/viewrepositorydocument/cmdocumentid=565739/solicitationI
+d=%7B21E0270C-BC1F-EFC4-3D87-
+30713B5FF373%7D/viewSolicitationDocument=1/CO2%20Removal%20System%20Technological%2
+0Assessment%20Requirements.pdf [cited 25 April 2017].                                           36
+Value to NASA Missions
+• As noted earlier, these are valuable characteristics:
+   • Reduction in mass and power compared to current
+      systems
+   • Improved reliability over current systems
+
+Improvements must be manifested over the complete
+system
+
+                                            CO2 Removal(c)
+Hypothetical       CO2           CO2            CMS
+Comparison:     Removal(a)    Removal(b)
+                                                TCC
+
+
+                  CMS            CMS
+                                 TCC       machinery
+                   TCC
+
+                                                             37
+Related topics
+
+
+
+
+                 38
+Sorbent characterization
+
+
+
+
+Huang, R., Belancik, G., Jan, D., Cmarik, G., Ebner, A. D., Ritter, J., and Knox, J. C. "CO2 Capacity Sorbent Analysis
+using Volumetric Measurement Approach," 47th International Conference on Environmental Systems. Charleston,
+2017, ICES-2017-116.
+
+                                                                                                                         39
+ISS Carbon Dioxide Management System (CMS)
+
+
+
+
+“A Trade-off Study of the Spacecraft Carbon Dioxide Management System using the
+Analytical Hierarchy Process,” T.J. Richardson and D.L. Jan, 48th International
+Conference on Environmental Systems, ICES -2018-332.
+                                                                                  40
+  Sorbent-based CO2 management systems
+
+
+
+
+  Air Cooled (AC) and Thermally Coupled (TC) Temperature Swing Adsorbent
+  Compression (TSAC) system give considerable mass and power savings.
+
+“A Trade-off Study of the Spacecraft Carbon Dioxide Management System using the Analytical
+Hierarchy Process,” T.J. Richardson and D.L. Jan, 48th International Conference on Environmental
+Systems, ICES -2018-332.
+                                                                                                   41
+

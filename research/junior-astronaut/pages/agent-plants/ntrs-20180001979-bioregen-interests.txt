@@ -1,0 +1,692 @@
+    NASA’s Interests in
+Bioregenerative Life Support
+
+                  Raymond M. Wheeler
+  NASA Exploration Research and Technology Directorate
+          Kennedy Space Center, Florida, USA
+
+
+
+       University of Guelph, March 2018
+            Human Life Support Requirements:
+
+            Inputs                                             Outputs
+
+
+            Daily      (% total
+                                                               Daily     (% total
+            Rqmt.       mass)
+                                                                          mass)
+Oxygen      0.83 kg     2.7%
+                                                  Carbon 1.00 kg         3.2%
+Food        0.62 kg     2.0%
+                                                  dioxide
+Water       3.56 kg    11.4%
+ (drink and                                       Metabolic 0.11 kg      0.35%
+  food prep.)                                      solids
+Water       26.0 kg    83.9%                      Water     29.95 kg     96.5%
+ (hygiene, flush                                   (metabolic / urine     12.3%)
+  laundry, dishes)                                 (hygiene / flush       24.7%)
+                                                   (laundry / dish        55.7%)
+                                                   (latent                 3.6%)
+
+
+     TOTAL 31.0 kg                                        TOTAL 31.0 kg
+
+
+
+          Source: NASA SPP 30262 Space Station ECLSS Architectural Control Document
+          Food assumed to be dry except for chemically-bound water.
+     International Space Station Life Support Systems
+Source: Reuter and Reysa, 2001                 All are Based on
+                                              Physico-Chemical
+                     Atmosphere Gas Bottles     Technologies                                                                                  MPLM
+                                                                                                                                                                                                  HTV
+                                                                    Atmosphere and
+                                                                    User Gas Bottles                         Airlock
+                                                                                                                                                                                                             JEM
+                                                                                                                                                                                         Node 3 Nadir         PM
+           Progress Module
+                                                                                                                                                                               Metal Oxide
+
+
+
+            Service Module                                                                                                                                                          Laboratory Module
+                                                   Functional Cargo
+                                                                            Node 1                                                                                                                                              Node 2
+                                                     Module (FGB)
+
+                                   P
+
+
+                                                                                                                                                                                                                                CAM (Zenith)
+                                                                                                                                                                                                                                Not Shown
+                                                                                                                                             Node 3
+                                                                                                                                                                                     Habitation Module
+                                              UDM             DSM
+      Carbon Dioxide Removal                                                                                                       This image cannot currently be displayed.
+
+
+
+
+                                                     ATV
+                                                                                       This image cannot currently be displayed.
+
+
+
+
+      Trace Contaminant Control
+
+     Oxygen Generation                                                                                                             P/H
+                                                                                                                                                                                  Full Body
+      Major Constituent Analyzer
+                                                                                                                                                                                  Cleanser
+      Sabatier                                                                                                                             (scar)
+
+     Water Storage                                                                                                                                                                                           ESA
+                                         Nitrogen Storage
+                                                                               CRV (not shown)                                                                                                               COF
+     Water Processing
+     (P=Potable; H=Hygiene)             Oxygen Storage
+
+     Urine Processing                   O2 Compressor
+                                                                        LEGEND
+     Personal Hygiene                                                                                                                                                             Primary Temperature         Miscellaneous Equip:
+     Facility                                                                                                                                                                     and Humidity Control        Fans, Valves, Filters,
+                                        Air Save Compressor                                                                                                                                                   Smoke Detectors, Portable
+                                                                                                                                                                                             Vacuum System    Fire Extinguishers
+      Galley                                                    Pressure Control Assembly
+     Plants for Life Support
+                                   Metabolic
+                     HUMANS         Energy
+
+       food
+      (CH2O) + O2              CO2 + H2O
+
+       Clean Water            Waste Water
+
+                                    Light
+
+
+
+
+    (CH2O) + O2*+ H2O           CO2 + 2H2O*
+
+       Clean Water            Waste Water
+
+                      PLANTS
+
+Inedible Biomass
+                               Wheeler et al., 2001. In: Tako et al. (Eds.) Proc. IES CEEF.
+          Bioregenerative Life Support
+Early references:
+
+• Greg, P. 1880. Across the zodiac. (recently reprinted by BiblioBazaar,
+  2006).
+• Tsiolkovsky, K.E. 1926. Exploration of world space with rockets.
+  Kaluga (In Russian).
+• Ley, W. 1948. Rockets and space travel. The future of flight beyond
+  the stratosphere. The Viking Press, New York, NY, US. 374 pages.
+• Specht, H. 1952. Toxicology of travel in the aeropause. In: C.S. White
+  and O.O. Benson (eds.) Physics and Medicine of the Upper
+  Atmosphere, University of New Mexico Press, Albuquerque.
+• Bowman, N.J. 1953. The food and atmosphere control problem on
+  space vessels. II. The use of algae for food and atmospheric control.
+  J. British Interplanetary Soc. 12:159-167.
+• Myers, J. 1954. Basic remarks on the use of plants as biological gas
+  exchanges in a closed system. J. Aviation Medicine 25:407-411.
+      Joseph Priestley--1772
+             “Patron Saint” of
+       Bioregenerative Life Support
+
+“I have been so happy as by accident to hit
+   upon a method of restoring air, which
+   has been injured by the burning of
+   candles and I have discovered at least
+   one of the restoratives...it is vegetation”
+
+  “...when I first put a sprig of mint into a
+  glass jar standing inverted in a vessel of
+  water; it had continued growing for some
+  months [and] I found that the air would
+  neither extinguish a candle, nor was it at
+  all inconvenient to a mouse...”
+  Bioregenerative Life Support Testing
+          Around the World
+1960                       1980                                     2000
+ US Military
+
+USSR Military
+
+                     Russia- Inst. for Biomedical Problems--IMPB (Moscow)
+
+
+                  Russia - Inst. of Biophysics--IBP (Krasnoyarsk, Siberia)
+
+
+        US NASA                       NASA (CELSS) NASA (ALS)          NASA (LSHS) AES/HDU
+
+                                           Japan Aerosp. Lab.; Inst. Env. Sci. (IES); JAXA Chofu
+
+                                France Cadarache          European Space Agency MELISSA
+
+
+                                                                     Canada Univ. Guelph / CSA
+
+
+                   University Studies (US, Europe, Japan, Canada)
+
+
+                                                                             China Natl. Space Ag.
+    Crop Considerations for Space
+• High yielding and nutritious (CHO, protein, fat)
+  – Secondary Metabolites—e.g., antioxidants, lutein,
+    zeaxanthin, Vit. C, Vit. B1, Vit. K.
+• High harvest index (edible / total biomass)
+• Dwarf or low growing types
+• Environmental considerations
+  – lighting, temperature, mineral nutrition, CO2
+• Horticultural considerations
+  – planting, watering, harvesting, pollination,
+    propagation
+• Processing requirements
+                Some Crops for Life Support
+Hoff, Howe, and           Salisbury and              Crops Used in                      Tako et al                Waters et al. e
+                a                       b                           c                              d
+Mitchell (NASA)           Clark (NASA)              BIOS-3 (Russia)                   CEEF (Japan)              (ESA / Canada)
+
+
+      Wheat                   Wheat                           Wheat                           Rice                     Lettuce
+      Potato                   Rice                           Potato                        Soybean                 Wheat
+     Soybean               Sweetpotato                        Carrot                        Peanut                  Potato
+       Rice                  Broccoli                     Radish                        Sweetpotato               Sweetpotato
+     Peanut                    Kale                           Beet                         Sugar Beet                   Rice
+     Dry Bean                 Lettuce                   Nut Sedge                            Carrot                     Bean
+     Tomato                   Carrot                          Onion                                                     Beet
+                                                                                            Tomato
+      Carrot                  Canola                     Cabbage                                                   Cabbage
+                                                                                            Spinach
+      Chard                  Soybean                      Tomato                                                       Broccoli
+                                                                                           Shungiku
+     Cabbage                  Peanut                           Pea                                                Cauliflower
+                                                                                     Chinese Cabbage
+                             Chickpea                          Dill                                                    Carrot
+                                                                                              Pea
+                               Lentil                    Cucumber                                                       Kale
+                                                                                        Onion/Leek
+                              Tomato                    Salad spp.                                                      Onion
+                              Onion                                                     Komatsuna
+
+                           Chili Pepper                                                     Pepper
+
+
+ a                                      b                                        c
+     Hoff, Howe, and Mitchell (1982);       Salisbury and Clark (1996);              Gitelson and Okladnikov (1994).
+                                    d                           e
+                                        Tako et al. (2010);         Waters et al. (2002)
+Targeted Crop Selection and Breeding for
+     Space at Utah State University
+                                   Photos courtesy of Bruce Bugbee, Utah State Univ.
+           Selection of Existing           Bugbee et al., 1997. Crop Science
+           Rice Genotypes
+
+
+
+
+           Targeted Wheat
+           Breeding
+
+
+
+
+                                   ‘Apogee’ Wheat               ‘Perigee’ Wheat
+                   Genetic Engineering Tools
+
+
+
+
+Early Flowering and Fruit Set                                                             No Dormancy Requirements
+
+
+  Overexpression of FT flowering gene in plums (ARS researchers) resulted in dwarf growth habit and early flowering
+
+                         Srinivasan et al., 2012, PLOS ONE; Graham et al., 2015 Grav. Space Research
+            Water and Nutrients for Growing Crops
+                     Recirculating Hydroponics
+
+
+
+                                                                           Sweetpotato
+                     Soybean                                                Tuskegee
+                      KSC
+
+
+
+
+                                                               Conserve Water & Nutrients
+                                                                 Eliminate Water Stress
+                                                                Optimize Mineral Nutrition
+Wheat / Utah State                                                Facilitate Harvesting
+
+                                               Rice / Purdue
+
+
+                         Wheeler et al. 1999. Acta Hort.
+                                                                          Root Zone Crops
+                                                                           in Nutrient Film
+                                                                              Technique
+                                                                                (NFT)
+
+
+
+
+Wheeler et al., 1990. Amer. Potato J. 67:177-187; Mackowiak et al. 1998. HortScience 33:650-651
+              Watering Systems for Weightlessness
+                     -- Special Challenges
+
+
+                                          Porous Ceramic
+                                          Tubes to Contain
+                                             the Water
+
+
+
+
+                                                             Porous Ceramic
+Dreschel and Sager. 1989. HortScience
+                                                              to Sub-irrigate
+Morrow and Crabb. 2000. Adv. Space Res.                       Growing Media
+                                                    Fig. 7
+
+       Evapotranspiration from Plant Stands (potato)
+                                → Dealing with the water requirements for CEA
+                           12
+                                                                              Second Study
+                           10                                              865 µmol m-2 s-1 PAR
+
+
+
+
+   Water Use (L m-2 d-1)
+                           8
+
+
+                           6
+
+
+                           4
+
+                                                                      First Study
+                           2                                      655 µmol m-2 s-1 PAR
+
+
+                           0
+                                0      20      40            60            80            100
+
+                                               Days After Planting
+
+Wheeler. 2006. Potato Research 49:67-90.
+                                               Waste Water
+                                            Treatment Systems
+
+
+                                                 Plants for
+                                                 Purifying
+                                                Gray Water
+
+
+
+
+                         Bioreactors
+                          for Water
+                         Processing
+
+Morales et al. 1996. FEMS Microbial Ecol.
+  Rector et al. 2007. J. Membrane Sci
+ NASA’s Biomass Production Chamber (BPC)
+                                                                      Control Room
+
+External View - Back
+
+
+
+
+  20 m2 growing area; 113 m3 vol.; 96 400-W HPS Lamps;
+      400 m3 min-1 air circulation; two 52-kW chillers
+
+                       Wheeler. 1992. HortScience        Hydroponic System
+NASA’s Biomass Production Chamber (BPC)
+        …an early example of a Vertical Agriculture Systems
+                        Wheat
+                     (Triticum aestivum)
+
+
+
+
+planting
+
+
+
+
+           harvest
+Soybean
+(Glycine max)
+Lettuce
+(Lactuca sativa)
+   Potato
+(Solanum tuberosum)
+Canopy CO2 Uptake / O2 Production
+         (20 m2 Soybean Stand)
+
+
+
+
+     Wheeler. 1996. In: H. Suge (ed.) Plants in Space Biology.
+                                             CO2 Exchange Rates of Soybean Stands
+                                                   Real-time physiological tracking of CEA systems
+
+                                   50
+                                                          Canopy Lodged
+                                                                                                                       Net Photosynthesis
+
+
+
+
+CO2 Exchange Rate (µmol m-2 s-1)
+                                   40
+
+                                                                                                                         815 µmol m-2 s-1
+                                   30                                                                                      HPS Lamps
+                                             Incomplete
+                                             Ground
+                                             Cover                                                                                      Harvest
+                                   20
+
+
+
+                                   10
+                                                                                                      477 µmol m-2 s-1
+                                                                                                        MH Lamps
+                                    0
+
+
+
+                                   -10
+                                                                                High Temp                                Night Respiration
+                                                                                   Event
+                                   -20
+                                         0        10        20       30       40          50         60           70        80        90          100
+
+                                                                                   Time (days)
+                                                                          Wheeler et al., 2004. EcoEngineering.
+                             The Importance of Light for Crop Yield
+                             50                                               Earth
+                                                                  Bright
+                                                                  Sunny
+                                       Includes:                                              Total
+                             40                                    Day
+                                                                                            Biomass
+
+
+
+
+    Crop Yield (g m-2 d-1)
+                                       Wheat (4)
+                                      Soybean (4)
+                                       Potato (4)
+                             30       Lettuce (3)
+                                       Tomato(2)
+
+                             20                                                              Edible
+                                                                                            Biomass
+
+
+                             10
+
+
+                             0
+                                  0    10        20      30       40      50      60       70    80
+                                            Photosynthetically Active Radiation (mol m-2 d-1)
+
+Wheeler et al. 1996. Adv. Space Res.
+                                                                      LED Studies
+                                                              Red...photosynthesis
+                                                              Blue...photomorphogenesis
+                                                              Green...human vision
+
+
+
+
+                                                             North American Patent for Using LEDs to
+                                                            Grow Plants Developed with NASA Funding
+Goins et al. 1997. J. Ex. Bot.; Kim et al. 2004 Ann. Bot.      at University of Wisconsin – WCSAR
+Solar Collector / Fiber Optics For Plant Lighting
+
+
+
+                                       Up to 400 W light delivered to chamber
+                                              (40-50% of incident light)
+                                     Takashi Nakamura, Physical Sciences Inc.
+
+
+
+
+     2 m2 of collectors on solar
+    tracking drive (NASA KSC)
+
+
+
+
+  Nakamura et al. 2010. Habitation
+Some other Benefits of Plants in Space
+
+                                                          Fresh Foods
+                                                               Colors
+                                                               Texture
+                                                               Flavor
+                                                               Nutrients
+
+                                                          Bright Light
+
+                                                          Aromas
+
+                                                          Gardening
+                                                            Activity
+
+
+
+
+         Kliss et al. 2000. Advances in Space Research
+Plant Chamber at US South Pole Station
+ Plants and Human Well-Being—Biophilia Concept? (E.O. Wilson)
+
+
+
+
+                    Photo courtesy of Phil Sadler, Univ. of Arizona
+Current Plant Testing on the International
+Space Station—VEGGIE Plant Chamber
+
+
+
+
+             Passive Capillary Watering
+Sequential Development for Space Agriculture
+
+VEGGIE 0.15 m2
+
+
+                                            Surface
+                                             System
+                                         Food Production
+                                         Module (20 m2)
+
+
+
+
+                                         MPLM or
+                                        Cygnus-like
+                                          Module
+                                          (10 m2)
+
+
+
+
+         “Salad Machine”
+        Growth Unit (2.0 m2)
+   Kliss et al. 2003, Adv. Space Res.
+Some Collaborations Between NASA and
+         University of Guelph
+
+
+
+
+                                   32
+                               Empirical Wet Bulb Measurements versus Atmospheric Pressure
+                   25
+                            Dry Bulb Temp. = 25°C
+                                                                                              y = 0.826 Ln(x) + 16.64
+                                                                                                      2
+                                                                                                    R = 0.722
+                            70% RH
+                   20
+
+
+                                                                                               y = 1.593 Ln(x) + 10.23
+
+
+
+
+Temperature (ºC)
+                                                                                                       2
+                                                                                                     R = 0.976
+                   15
+
+
+                            50% RH                                                            y = 3.002 Ln(x) + 1.349
+                                                                                                      2
+                                                                                                    R = 0.993
+                   10
+
+
+
+
+                   5        30% RH
+                                                         Filled symbols represent our Wet Bulb measurements.
+
+                                                         Open symbols are theoretical adiabatic saturation temperatures
+                                                         from Shallcross (1997, 2005) and Ren (2004) (red triangles).
+
+                   0
+                        0            20             40       60                80              100               120
+                                                         Pressure (kPa)
+                                                              Phase Change of Water
+                   70
+
+
+
+                   60                                   Vapour
+
+
+                   50
+
+
+
+
+Temperature (°C)
+                   40       Plants Held
+                             Here for
+                               30 min
+                   30
+                                                                              Liquid
+
+                   20          ♦
+                                          Triple Point of Water
+                   10                     0.01°C and 0.6 kPa
+
+
+                   0
+                        0          2      4         6        8    10    12   14       16     18        20        22        24
+
+                                                                   Pressure (kPa)
+                                                                                           Wheeler et al. 2011. Adv. Space Res.
+       Some Lessons Learned from NASA
+               CEA Research
+• 20-25 m2 of crops could provide all the O2 for one person, and 40-50
+  m2 all of the food (dietary calories)
+• Better adapted crops are needed—short growth, high harvest index,
+  improved nutrition
+• Energy efficient lighting is key to sustaining high yields
+• CEA systems require large quantities of water (e.g., 50 L m-2) and this
+  water must be recycled.
+• Up to 90 kg of fertilizer would needed per person per year,
+  emphasizing the need for recycling nutrients.
+• Plants can provide psychological benefits to humans—this needs
+  further study.
+• The use of agriculture for space life support will likely evolve
+  sequential, as mission infrastructures expand.
+     High Yields from NASA Sponsored Studies
+
+
+                              Wheat - 3-4 x World Record
+                               Potato - 2 x World Record
+                             Lettuce-Exceeded Commercial
+                                      Yield Models
+
+
+                                                                                         Wisconsin Biotron
+
+
+
+
+NASA Kennedy
+ Space Center
+                                                 Utah State
+                                                   Univ.
+
+                Bubgee, B.G. and F.B. Salisbury. 1988. Plant Physiol. 88:869-878.
+                Wheeler, R.M., T.W. Tibbitts, A.H. Fitzpatrick. 1991. Crop Sci. 31:1209-1213.
+ Technologies from
+“Space” Agriculture
+LEDs for growing plants--
+patented through NASA
+ funded center at Univ.
+ of Wisconsin, ca. 1990
+
+
+
+
+                            Potatoes in NFT at NASA KSC 1992, ↑
+                               and at commercial “seed potato”
+                             facility (Sklarczyk Farms, MI) 2016 ↓
+Impact of Plants on Life Support Options Depends on
+                       Mission
+  Short Duration                         Longer Durations                  Autonomous Colonies
+    Missions
+
+
+
+
+                         Stowage and Physico-Chemical
+
+
+
+
+                                           Bioregenerative
+
+
+ Supplemental Food                “More” Food, Partial O2, CO2 removal   Most Food, all O2, all CO2 removal
+ 0.5 – 5 m2 plant area            5 – 25 m2 plant area                   25 – 50 m2 plant area
+
+                                       Wheeler. 2004 Acta Hort.
+Kennedy Space Center Advanced Life
+       Support Group 2003
+One of Kennedy Space Center’s
+ Hard-Working Researchers!
+
+
+
+
+                  Dr. Tom Graham with USDA Deputy
+               Secretary Krysta Harden and 4-H Students
+

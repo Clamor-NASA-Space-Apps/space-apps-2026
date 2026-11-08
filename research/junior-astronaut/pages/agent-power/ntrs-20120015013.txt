@@ -1,0 +1,559 @@
+             Status of ISS Water Management and Recovery
+
+                                                Layne Carter1
+                             NASA Marshall Space Flight Center, Huntsville, AL 35812
+
+                                                 Barry Tobias2
+                                  NASA Johnson Space Center, Houston, TX 77058
+
+                                                 Nicole Orozco3
+                                     The Boeing Company, Houston, TX 77058
+
+
+            Water management on ISS is responsible for the provision of water to the crew for
+         drinking water, food preparation, and hygiene, to the Oxygen Generation System (OGS) for
+         oxygen production via electrolysis, to the Waste & Hygiene Compartment (WHC) for flush
+         water, and for experiments on ISS. This paper summarizes water management activities on
+         the ISS US Segment, and provides a status of the performance and issues related to the
+         operation of the Water Processor Assembly (WPA) and Urine Processor Assembly (UPA).
+         This paper summarizes the on-orbit status as of June 2012, and describes the technical
+         challenges encountered and lessons learned over the past year.
+
+
+
+
+                                                I. Introduction
+
+T    he International Space Station (ISS) Water Recovery and Management (WRM) System insures availability of
+     potable water for crew drinking and hygiene, oxygen generation, urinal flush water, and payloads as required.
+To support this function, waste water is collected in the form of crew urine, humidity condensate, and Sabatier
+product water, and subsequently processed by the Water Recovery System (WRS) to potable water. This product
+water is provided to the potable bus for the various users, and is stored in water bags for future use when the potable
+bus needs supplementing. The WRS is comprised of the Urine Processor Assembly (UPA) and Water Processor
+Assembly (WPA), which are located in two ISPR racks, named WRS#1 and WRS#2. This hardware was delivered
+to ISS on STS-126 on November 14, 2008 and initially installed in the US Lab module. On February 18, 2010, the
+racks were transferred to their permanent home in the Node 3 module.
+
+                II. Description of the ISS Water Recovery and Management System
+    The ISS WRM provides the capability to receive the waste water on ISS (crew urine, humidity condensate, and
+Sabatier product water), process the waste water to potable standards via the WRS, and distribute potable water to
+users on the potable bus. A conceptual schematic of the WRM is provided in Figure 1. The waste water bus
+receives humidity condensate from the Common Cabin Air Assemblies (CCAAs) on ISS, which condenses water
+vapor and other condensable contaminants and delivers the condensate to the bus via a water separator. In addition,
+waste water is also received from the Carbon Dioxide Reduction System. This hardware uses Sabatier technology to
+produce water from carbon dioxide (from the Carbon Dioxide Removal Assembly (CDRA)) and hydrogen (from the
+electrolysis process in the Oxygen Generation System). Waste water is typically delivered to the WPA Waste Tank,
+though the Condensate Tank located in the US Laboratory Module is available in the event the WPA Waste Tank is
+
+1
+  Life Support Design Team Lead, NASA MSFC ES62.
+2
+  ISS ECLSS Officer, NASA JSC DI52 Mission Operations Directorate.
+3
+  ISS Water Recovery and Management Team Lead, The Boeing Company.
+                                                      1
+                              American Institute of Aeronautics and Astronautics
+disconnected from the waste bus. If this is required, the crew must manually connect the Condensate Tank to the
+waste water bus. Once the WPA Waste Tank is online again, the crew will disconnect the Condensate Tank from
+the waste water bus. Condensate collected in this scenario must subsequently be offloaded into a Contingency Water
+Container (CWC). The CWC can then be emptied into the WPA waste tank via a pump, transferred to the Russian
+Segment for processing by the Russian Condensate Processor (referred to as the SRV-K) or vented overboard
+(though venting is highly discouraged due to the loss of water consumables and use of propellant required to
+maneuver the ISS into an acceptable attitude).
+    Crew urine is collected in the Waste & Hygiene Compartment (WHC), which includes a Russian Urinal (referred
+to as the ACY) integrated for operation in the US Segment. To maintain chemical and microbial control of the urine
+and hardware, the urine is treated with chemicals and flush water. The pretreated urine is then delivered to the Urine
+Processor Assembly (UPA) for subsequent processing. The UPA produces urine distillate, which is pumped directly
+to the WPA Waste Water Tank, where it is combined with the humidity condensate from the cabin and Sabatier
+product water, and subsequently processed by the WPA. A detailed description of the UPA and WPA treatment
+process is provided in Section III.
+    After the waste water is processed by the WRS, it is delivered to the potable bus. The potable bus is maintained
+at a pressure of approximately 230 to 280 kPa (19 to 26.5 psig) so that water is available on demand from the
+various users. Users of potable water on the bus include the Oxygen Generation System (OGS), the WHC (for flush
+water), the Potable Water Dispenser (PWD) for crew consumption, and Payloads.
+
+
+
+
+   Figure 1. Water Recovery and Management Architecture for the ISS US Segment
+
+                          III. Description of the ISS Water Recovery System
+    The layout of the two WRS racks is shown in Figure 2, along with the OGS. The WPA is packaged in WRS
+Rack #1 and partially in WRS Rack #2, linked by process water lines running between the two racks. The
+remaining portion of WRS Rack #2 houses the UPA.
+    The following section provides a description of the WRS, current operational status, and describes issues and
+lessons learned during the past year. For the prior years’ status, see references 1-4.
+
+
+
+
+                                                        2
+                                American Institute of Aeronautics and Astronautics
+Figure 2. International Space Station Regenerative ECLSS Racks
+
+A. Water Processor Assembly Overview
+
+    A simplified schematic of the WPA is provided in Figure 3. Wastewater delivered to the WPA includes
+condensate from the Temperature and Humidity Control System and distillate from the UPA. This wastewater is
+temporarily stored in the Waste Water Tank Orbital Replacement Unit (ORU). The Waste Water Tank includes a
+bellows that maintains a pressure of approximately 5.2 – 15.5 kPa (0.75 to 2.25 psig) over the tank cycle, which
+serves to push water and gas into the Mostly Liquid Separator (MLS). Gas is removed from the wastewater by the
+MLS (part of the Pump/Separator ORU), and passes through the Separator Filter ORU where odor-causing
+contaminants are removed from entrained air before returning the air to the cabin. Next, the water is pumped
+through the Particulate Filter ORU followed by two Multifiltration (MF) Beds where inorganic and non-volatile
+organic contaminants are removed. Once breakthrough of the first bed is detected, the second bed is relocated into
+the first bed position, and a new second bed is installed. The Sensor ORU located between the two MF beds helps
+to determine when the first bed is saturated based on conductivity. Following the MF Beds, the process water
+stream enters the Catalytic Reactor ORU, where low molecular weight organics not removed by the adsorption
+process are oxidized in the presence of oxygen, elevated temperature, and a catalyst. A regenerative heat exchanger
+recovers heat from the catalytic reactor effluent water to make this process more efficient. The Gas Separator ORU
+removes excess oxygen and gaseous oxidation by-products from the process water and returns it to the cabin. The
+Reactor Health Sensor ORU monitors the conductivity of the reactor effluent as an indication of whether the organic
+load coming into the reactor is within the reactor’s oxidative capacity. Finally, the Ion Exchange Bed ORU removes
+dissolved products of oxidation and adds iodine for residual microbial control. The water is subsequently stored in
+the Water Storage Tank prior to delivery to the ISS potable water bus. The Water Delivery ORU contains a pump
+and small accumulator tank to deliver potable water on demand to users. The WPA is controlled by a firmware
+controller that provides the command control, excitation, monitoring, and data downlink for WPA sensors and
+effectors.
+
+                                                        3
+                                American Institute of Aeronautics and Astronautics
+                                                   to Node 3                  Particulate Filter
+                       Wastewater                    cabin                        (removes               Multifiltration Beds
+                         Tank                                                   particulates)       (remove dissolved contaminants)
+
+                                                              Filter
+
+   from                                                                Pump                                       C
+  Node 3
+ wastewater
+    bus                                                Mostly
+                                                       Liquid                           To Node 3 cabin                                       Heat
+                                  Microbial            Separator                                                                            Exchanger
+                                Check Valve            (removes air)                                                                         to/from
+                                                                                                 Gas/Liquid
+                          (provides isolation)                                                                                               Node 3
+                                                                                                 Separator
+              Product                                                                            (removes                                     MTL
+               Water      Reject Line                                                            oxygen)
+               Tank       (allows reprocessing)
+
+                                       O2
+                                      from                                        Preheater        Regen. HX
+                                     Node 3       Reactor                         (heats water     (recovers
+            Delivery                                                              to 275F)         heat)
+                                                  (oxidizes                                                           C Reactor Health
+            Pump
+                                                  organics)                                                             Sensor
+                                                                                                                        (verifies reactor
+                                                                                                                        is operating w/n
+                             C
+                                                                                                                      C limits)
+            Accumulator
+
+                                                                              Ion Exchange Bed (removes reactor by-products)
+     to
+  Node 3
+  potable
+   water
+    bus
+
+
+Figure 3. WPA Simplified Schematic
+
+B. Urine Processor Assembly Overview
+
+    A simplified schematic of the UPA is shown in Figure 4. Pretreated urine is delivered to the UPA either from
+the USOS Waste and Hygiene Compartment (outfitted with a Russian urinal) or via manual transfer from the
+Russian urine container (called an EDV). In either case, the composition of the pretreated urine is the same,
+including urine, flush water, and a pretreatment formula containing chromium trioxide and sulfuric acid to control
+microbial growth and the reaction of urea to ammonia. The urine is temporarily stored in the Wastewater Storage
+Tank Assembly (WSTA). When a sufficient quantity of feed has been collected in the WSTA, a process cycle is
+automatically initiated. The Fluids Control and Pump Assembly (FCPA) is a four-tube peristaltic pump that moves
+urine from the WSTA into the Distillation Assembly (DA), recycles the concentrated waste from the DA into the
+Recycle Filter Tank Assembly (RFTA) and back to the DA, and pumps product distillate from the DA to the
+wastewater interface with the WPA. The DA is the heart of the UPA, and consists of a rotating centrifuge where the
+waste urine stream is evaporated at low pressure. The vapor is compressed and subsequently condensed on the
+opposite side of the evaporator surface to conserve latent energy. A rotary lobe compressor provides the driving
+force for the evaporation and compression of water vapor. Waste brine resulting from the distillation process is
+stored in the RFTA, which has a capacity of approximately 41 L. When the brine is concentrated to the required
+limit, the RFTA is replaced with an empty RFTA, which allows the process to repeat. The full RFTA was designed
+to be returned on the Shuttle for refurbishment so it could be returned to ISS for another cycle. However, the RFTA
+will be replaced in the next year with the Advanced RFTA (ARFTA), which is a bellows tank that can be filled and
+drained on ISS. The ARFTA capacity is only 22 L, but the capability to fill and drain the ARFTA on ISS avoids the
+costly resupply penalty associated with launching each RFTA. The Pressure Control and Pump Assembly (PCPA)
+is another four-tube peristaltic pump which provides for the removal of non-condensable gases and water vapor
+from the DA. Liquid cooling of the pump housing promotes condensation, thus reducing the required volumetric
+capacity of the peristaltic pump. Gases and condensed water are pumped to the Separator Plumbing Assembly
+(SPA), which recovers and returns water from the purge gases to the product water stream. A Firmware Controller
+
+                                                                  4
+                                          American Institute of Aeronautics and Astronautics
+Assembly (FCA) provides the command control, excitation, monitoring, and data downlink for UPA sensors and
+effectors.
+    The UPA was designed to process a nominal load of 9 kg/day (19.8 lbs/day) of wastewater consisting of urine
+and flush water. This is the equivalent of a 6-crew load on ISS, though in reality the UPA typically processes only
+the urine generated in the US Segment. Product water from the UPA has been evaluated on the ground to verify it
+meets the requirements for conductivity, pH, ammonia, particles, and total organic carbon. The UPA was designed
+to recover 85% of the water content from the pretreated urine, though issues with urine quality encountered in 2009
+have required the recovery to be dropped to 70%.
+
+                                                                   Purge Pump
+                                                               (removes gases from
+                                                                 Distillation Assy.)              Coolant
+                                                                                          (pro motes condensation
+                                                                                            within purge pu mp)
+
+
+                   Distillation Assembly (DA)
+                       (Distills wastewater)
+
+                                                                                                     Purge Gas
+                                                                                                     to Node
+                                                                                                     3 cabin
+
+
+                                                                                                 Separator
+                                                   Flui ds                                    (separates water
+                                                   Pump                                      fro m purge gases)
+
+     Wastewater
+                                                            Product water
+     Tank
+                                                            to Water Processor Assembly
+
+
+
+
+Urine
+fro m                Recycle Filter Tank Assy.
+Node 3         (accumu lates & stores brine for disposal)
+Figure 4. Urine Processor Assembly Schematic
+
+    The UPA is packaged into 7 ORUs, which take up slightly more than half of the WRS Rack #2. The RFTA is
+the only expendable ORU, sized for a 30-day replacement schedule when processing the daily urine load from 6
+crewmembers.
+
+                               IV. Water Recovery and Management Status
+    In the last year, 3480 L of potable water have been supplied to the US Segment potable bus for crew use and for
+the OGS. Since the US Segment occasionally produces more water than is used by the crew, periodically excess
+potable water must be transferred to a CWC-I. A CWC-I is a CWC compatible with the iodine used as a biocide in
+the US potable water. As described previously1, a tee hose and manual shutoff valve were installed on ISS in 2010
+to allow potable water to be transferred from a CWC-I back to the WPA Water Storage tank. This capability
+provided greater operational flexibility for maintaining the ISS water balance in the US Segment. However, in
+2011, this capability impacted the potable bus due to the introduction of free gas from CWC-Is.
+    Free gas is a significant issue in micro-gravity, since it cannot be removed from the water without a gas
+separator. Since the WPA is designed to deliver water that contains zero free gas, the capability to remove free gas
+was not developed for the potable bus. Previously, free gas has caused issues on the potable bus when emptying a
+CWC-I onto the bus. This primarily affected the Potable Water Dispenser (PWD), as free gas would bind up the
+microbial filter in the PWD and require crew time to vent the gas or replace the filter. In addition, free gas can
+                                                           5
+                                   American Institute of Aeronautics and Astronautics
+accumulate in the WHC flush water tank. When this free gas is fed to the WHC urinal, instrumentation detects that
+the pretreatment quality is unacceptable and informs the crew with an LED signal in the WHC rack. As a result,
+further use of the WHC is halted while the crew clears the free gas. In March 2011, a significant quantity of free gas
+was inadvertently transferred from a CWC-I to the WPA Storage Tank due to a leaking CWC-I. This occurred due
+to a 0.033 cm (0.013 inch) hole in the CWC-I, which was too small to leak water externally and was thus not
+detected by the crew prior to mating the CWC-I to the tee hose. However, when the CWC-I was emptied of water,
+free gas was pulled through the hole and into the Water Storage Tank. As a result of this event, several liters of free
+gas were transferred to the WHC flush tank and urinal operations were significantly impacted. Eventually the flush
+tank was replaced before nominal operations could be restored. Though most of the free gas was fed to the WHC,
+the PWD was also impacted when the free gas occluded the microbial filter. However, the crew was able to recover
+PWD operation by performing multiple dispenses. In response to this issue, a microbial filter was added to the
+CWC-I transfer operation, between the CWC-I and the tee hose that feeds the Water Storage Tank. This Microbial
+Removal Filter (MRF) was originally designed to filter microbial contaminants when transferring potable water
+from CWC-Is. However, the MRF can also address the free gas issue because the 0.2 micron filtration will stop free
+gas at the available pressure drop. This filter also has a unique design feature, in that it has a vent on the inlet
+housing that can be used to vent free gas as it accumulates. This allowed the CWC-I transfer operations to be
+simplified by eliminating the crew effort to degas a CWC-I prior to the transfer, while also insuring no free gas is
+passed on to the potable bus. To degas a CWC-I, the crew spins the CWC-I to coalesce the gas in one location, and
+then manipulating the bag to move the free gas to the CWC-I outlet port, where it can be vented into the cabin.
+Rather than spending up to an hour degassing a CWC-I prior to transfer, the crew theoretically just mates the CWC-I
+to the MRF inlet, and purges the free gas as it builds up in the housing during the water transfer. Despite this
+improvement, the MRF is limited. If a significant quantity of free gas is present in the CWC-I, the crew is required
+to vent the housing multiple times. Onboard execution has found that crew time is minimized by initially removing
+the bulk of free gas by degassing the CWC-I, and then subsequently using the MRF to transfer water while
+preventing any free gas from entering the potable bus. Engineering personnel are looking at modifications to this
+hardware to address this shortcoming.
+    Finally, the water mass balance in the US Segment has created an issue due to an excess of water. This problem
+has occurred for several reasons. First, initial projections for WRS reliability were established at 90% for UPA and
+WPA. Though these systems have experienced failures, the overall availability has exceeded expectations due to
+availability of spare ORUs on ISS, as well as on-orbit recovery of operations using the crew to repair hardware.
+Also, approximately 700 L of potable water was delivered on the last Shuttle (ULF7) in July of 2011, which was not
+factored into the mass balance projections because of the uncertainty associated with the final Shuttle flight. Finally,
+the Sabatier has consistently delivered approximately 1 L/day of water. Since Sabatier is not a baseline system, the
+planners could not assume it would consistently deliver water. As a result, the US Segment currently has
+approximately 1700 liters of stored potable water in CWC-Is on ISS. Though this is a positive benefit in terms of
+supporting various failure scenarios on ISS, it creates stowage problems in the crowded US Segment. Furthermore,
+CWC-Is are currently only certified to contain potable water for 3 years. After 3 years, if the water has not been
+removed from the CWC-I, the bag is downgraded to waste water (condensate) grade. To reclaim the water, the crew
+must transfer the contents of the CWC-I into the WPA Waste Water Tank, where it can be reprocessed to potable
+water. However, the CWC-I itself is downgraded and its use on ISS is severely limited. To extend the life of these
+CWC-Is, a shelf life test is being performed on the ground in parallel with ISS operations. During this test, samples
+are taken every 6 months to certify the CWC-I for a longer storage life. This has been an operational challenge over
+the last year as shelf life testing to extend the CWC-I certification was ongoing. Numerous CWC-Is would expire
+under their current certified life, only to be recertified as the shelf life testing results on the ground showed
+acceptable water quality. These bags became known as “zombie” bags as they would regularly expire, and then
+return to life based on the shelf life test results. The operations team had a challenge to use these zombie bags
+during the short window when they were recertified prior to reaching the next expiration date (which would then be
+extended yet again as testing continued). Due to only so much control over water balance onboard ISS, a number of
+these bags could not be used and were downgraded. Various solutions are currently being developed to address
+these issues, including extending the duration of the shelf life test on the ground, returning CWC-Is from ISS on
+SpaceX and assessing water quality, and developing additional means to transfer water for use in the Russian
+Segment.
+
+
+
+
+                                                         6
+                                 American Institute of Aeronautics and Astronautics
+                              V. Urine Processor Assembly Current Status
+    The UPA was initially activated on November 20, 2008. In the last year, the UPA has produced 1300 L (2870
+lb) of distillate at 70% recovery, cycling through 10 RFTAs and 8 ARFTA cycles during that time. As of June 21,
+2012, the total UPA production on ISS is at 4130 L (9110 lb) of distillate. A graphical summary of UPA production
+rate and upmass required for ISS operations is provided in Figure 5. The UPA experienced no significant anomalies
+on ISS in the last year.
+    As reported previously2, Distillation Assembly (DA) S/N 02 failed on October 24, 2009 due to accumulation of
+solids in the Distillation Assembly. The root cause of the anomaly was due to the precipitation of calcium sulfate in
+the urine brine at the target recovery of 85%. Calcium is present in the urine primarily due to bone loss from the
+crew, whereas sulfate is present primarily due to the use of sulfuric acid in the urine pretreatment. Calcium levels
+on ISS are elevated compared to ground urine due to the absence of gravity. During ground testing, the UPA was
+proven to have no issues with recovering 85% of the water from pretreated urine. However, at 85% recovery on
+ISS, the higher concentration of calcium resulted in calcium sulfate exceeding its solubility limit. The initial
+response to this failure was to reduce the recovery to 70%.
+
+
+
+
+Figure 5. UPA Production and Upmass on ISS
+
+    In parallel with this modification to on-orbit operations, NASA personnel have investigated options for returning
+UPA to 85% recovery. A significant research effort was performed at JSC to evaluate various technology options,
+ultimately identifying several viable concepts for achieving 85% recovery, including ion exchange resin, alternate
+pretreatment, and a calcium sensor.
+    Ion Exchange would work by removing calcium from the pretreated urine before it is delivered to the UPA.
+Calcium is a divalent cation (+2 charge), and can thus be selectively removed with resin tailored for divalent cations.
+Though an Ion Exchange Bed will require significant resupply in this application, there is an overall benefit due to
+the additional water reclaimed by returning UPA to 85% recovery (which doubles the distillate production). In
+summary, the current estimate is that 25 kg/year of resupply would enable the UPA to reclaim an additional 242
+kg/year of water. Furthermore, another resin has been identified that may allow the annual resupply to be reduced to
+14 kg, though this resin is pending further tests to verify its performance. However, the Ion Exchange approach
+                                                            7
+                                  American Institute of Aeronautics and Astronautics
+adds approximately 3.4 kPa (0.5 psid) of pressure drop between the WHC urinal and the UPA, where limited
+pressure drop is available to deliver the pretreated urine to the UPA. Engineering personnel are pursuing
+modifications to the components between the WHC and UPA to insure sufficient pressure drop is available for
+implementing the Ion Exchange Bed concept.
+    Engineering and science personnel are also investigating modifications to the pretreatment formula that would
+eliminate or reduce the sulfate concentration, thus preventing calcium sulfate precipitation 5. This approach also has
+significant risk, as the pretreatment formula is critical for maintaining microbial and chemical control in the
+pretreated urine. The primary objective has been on replacing sulfuric acid while maintaining a pH of 2.0 in the
+pretreated urine. Three other acids were tested, including hydrochloric acid, nitric acid, and phosphoric acid.
+Hydrochloric acid and nitric acid are no longer being pursued because of corrosion concerns and storage hazards.
+Phosphoric acid is a viable alternative to sulfuric acid, though more acid is required to maintain the desired pH level.
+This would require a modification to the Russian pump that adds the pretreatment to the pretreated urine. Scientists
+at JSC have also investigated reducing the concentration of chromium trioxide to the original dose established by
+David Putnam6. The concentration of chromium trioxide and sulfuric acid has been increased by a factor of 4 in the
+Russian urinal to address issues with microbial growth observed during ground tests and on the MIR Space Station.
+However, research at JSC has indicated that the increase in chromium trioxide concentration was not required, and
+can be returned to its original concentration. These potential changes to the pretreatment will be evaluated in the
+next year to verify proper microbial and chemical control of the pretreated urine while not causing precipitation of
+any salts at 85% recovery in the UPA. Furthermore, materials in the WHC and UPA will be evaluated to verify
+compatibility with the modified pretreatment.
+    Finally, another concept under consideration is a sensor that could monitor the calcium concentration in the brine
+or the pretreated urine as it is delivered to the UPA. If proven reliable, a calcium sensor would allow the UPA to
+concentrate the urine based on the actual calcium concentration, instead of requiring a conservative % recovery that
+accounts for statistical variation in the calcium concentration. This approach would only allow the UPA to achieve
+approximately 80% recovery on average, and would therefore only be economically viable if the other approaches
+cannot be implemented. However, this concept may eventually support 85% recovery if the ISS medical personnel
+can develop additional measures (through diet, medication, and exercise routine) to reduce astronaut bone loss.
+    Since October 2009 (after the failure of DA S/N 02), the UPA has only processed urine collected in the US
+Segment WHC. This decision was made based on the analysis of pretreated urine collected in the Russian Segment
+in early 2010. This pretreated urine had an elevated pH of 2.46, and also contained non-viable biomass. These
+observations indicated there may be operational differences with the urinal in the Russian segment that could impact
+urine quality and subsequently UPA performance. Engineering personnel determined that additional analysis of
+urine collected in the Russian segment must be performed to provide confidence that the previous result was an
+aberration. A method was thus developed to sample pretreated urine from the EDVs used to collect urine in the
+Russian segment. Ten samples were collected and returned to ground for subsequent analysis. A review of this
+analysis has concluded that the quality of pretreated urine collected in the Russian Segment is statistically no
+different than that collected in the US Segment. Therefore, engineering personnel have approved processing of
+Russian urine through the UPA. However, there are no plans to begin this on ISS, due to the issues mentioned
+previously related to the surplus of water in the US Segment mass balance. Currently, processing urine from the
+Russian segment would only exacerbate the current problem with excess potable water storage on ISS.
+    A significant operational change for the UPA in 2011 was the integration of the Advanced RFTA (ARFTA).
+This hardware replaces the current RFTA with a bellows assembly that can be drained and emptied on ISS. Though
+ARFTA operation requires more crew time to fill and drain each tank, it provides a significant savings in launch
+mass (avoiding approximately 200 kg annually for launching RFTAs). The ARFTA implements a bellows that
+operates at a slight subambient pressure to support filling the tank from the UPA Waste Tank, which operates at a
+slight positive pressure. This is similar to the approach used to fill the RFTA, except that the RFTA provides more
+pressure drop for fluid flow in this configuration because it is launched and delivered to ISS at vacuum pressure.
+Once the ARFTA tank is full, the UPA completes a nominal concentration cycle, with the exception that the UPA
+can only process 49 L (108 lb) of pretreated urine at 70% recovery due to the reduced operating volume of the
+ARFTA tank. In contrast, the UPA processes 95 L for each RFTA at 70% recovery. When the concentration cycle
+is complete, the ARFTA tank is removed from the rack. A compressor is then used to pressurize the gas side of the
+bellows, collapsing the bellows and thus emptying the brine into a Russian EDV, the Progress Rodnik tank, ATV
+water tanks, or a Temporary Urine Brine Storage System (TUBSS). TUBSS is a collapsible bag currently in
+development, and will provide ISS with a NASA-provided container for storing pretreated urine or brine. Figure 6
+provides a simplified schematic of the drain configuration. Two ARFTA tanks were delivered on Shuttle flight
+ULF7 for use on ISS. Each tank was cycled 4 times to verify successful operation on ISS. Initial operation on ISS
+                                                         8
+                                 American Institute of Aeronautics and Astronautics
+was inconsistent, due to differences between the actual versus estimated tank capacity, uncertainty with the quantity
+of fluid loaded into each tank for launch, and errors associated with filling the tanks on ISS. However, these issues
+were eventually resolved with additional tank cycles, and sufficient consistency was established over the 4 tank
+cycles to convince engineering personnel that the tanks could reliably be used for their intended function. Once this
+effort was complete, the ARFTA tanks were removed from the UPA and the system was reconfigured to use the
+remaining 8 RFTAs on ISS. The RFTAs require significantly less crew time on ISS compared to the ARFTA, and
+therefore it is desirable to use the RFTAs already on ISS once the ARFTA checkout was complete. Once these
+RFTAs are consumed, the UPA will be reconfigured for ARFTA for the remainder of ISS operations.
+    A final modification to the UPA/ARFTA concept is currently in development. This modification will allow the
+crew to fill and drain the ARFTA without removing the tank from the rack. This modification is desirable because
+approximately 45 minutes of crew time is required to removal/install the ARFTA following each concentration
+cycle. Therefore, this modification would save approximately 12 hours of crew time each year, which is desirable
+due to the limited crew time available for maintenance tasks on ISS.
+
+
+
+
+   Figure 6. Drain Configuration for the ARFTA Tank
+
+                            VI. Water Processor Assembly Current Status
+    The WPA was initially activated on November 22, 2008. As of June 20, 2012, the WPA has produced
+approximately 10,640 kg (23,470 lb) of product water, including 3480 kg (7680 lb) in the last year.
+    Three anomalies have occurred to the WPA in the past year on ISS. First, the WPA process pump experienced
+numerous faults in which the pump appeared to seize, always within the first 25 minutes of a WPA process cycle.
+Engineering analysis of this anomaly indicated the fault could be due to an obstruction in the pump gears or an
+intermittent failure of the motor controller. Since the pump was always able to operate after the anomaly, no further
+troubleshooting was performed on ISS, and eventually the anomalous faults ceased.
+    Second, the WPA experienced another increasing trend in the Total Organic Carbon (TOC) concentration in
+early 2012 (see Figure 7), similar to the anomaly observed in 2010 1,2. This trend began after approximately 4200 L
+                                                        9
+                                American Institute of Aeronautics and Astronautics
+of MF Bed throughput, which was also consistent with the trend observed in 2010. Before on-orbit troubleshooting
+could be pursued, the Catalytic Reactor failed due to a leaking o-ring. This failure had the same root cause as the
+leak in 20102, and was not unexpected after two years of operation on ISS. The current reactor includes new o-rings
+that are compatible with the operating environment, and are designed to support the 5-year life of this hardware.
+Along with replacing the reactor, both MF Beds were also replaced to insure the new reactor was not degraded with
+any organic contaminants. After this maintenance activity, the product water TOC continued to rise, consistent with
+the trend after replacement of both MF Beds (but not the Catalytic Reactor) in 2010. To provide additional
+understanding of the root cause for the TOC trend, the Ion Exchange Bed was replaced in April 2012 while the
+product water TOC was still increasing. Subsequently, the product water TOC returned to nominal levels. Samples
+were taken of the condensate, waste water, MF Bed effluent (before and after the new MF Beds were installed), and
+product water for return on the Soyuz and subsequent ground analysis. Analysis of the product water confirmed that
+the source of the TOC rise is dimethylsilanediol (DMSD), consistent with the TOC trend in 2010. DMSD is a
+common by-product of the degradation of polydimethylsiloxanes (PDMS), which are common compounds present
+in various products, including caulks, adhesives, lubricants, and hygiene products. Various PDMS compounds are
+prevalent on ISS, and analysis of the current and previous condensate samples from ISS also indicates that DMSD
+has been present in the WPA waste water since WPA operations began on ISS. In addition, 41.9 mg/L of DMSD
+was detected in a sample of the MF Bed effluent taken before the beds were replaced on July 29. This result is
+consistent with the sample of the MF Bed effluent in 2010 prior to bed changeout, in which the DMSD was detected
+at 37 mg/L. An additional sample of the MF Bed effluent was taken approximately two weeks after replacement of
+the MF Bed. Analysis of this sample showed no DMSD detected above the detection limit of 0.4 mg/L. This is also
+consistent with the sample in 2010 taken after MF Bed changeout, in which DMSD was reported as <0.4 mg/L.
+These results indicate the MF Beds are initially removing the DMSD, but eventually the DMSD saturates the
+adsorbent and ion exchange resin in each bed and is in the reactor influent at a concentration of approximately 40
+mg/L. To determine the effect of DMSD on reactor performance, a flight-like reactor is being challenged with the
+contaminant level expected on ISS (including DMSD). Preliminary results indicate the reactor is consistently
+removing approximately 70% of the DMSD, resulting in approximately 10 mg/L of DMSD in the reactor effluent.
+If this ground test accurately represents reactor performance on ISS, the DMSD is being initially removed by the Ion
+Exchange Bed, given the fact that DMSD has a slight ionic charge. Eventually, the Ion Exchange Bed is saturated
+with the DMSD, which results in a breakthrough curve consistent with the TOC trend observed from the ISS TOC
+Analyzer (see Figure 7). Additional tests will evaluate this theory by challenging the resin in the Ion Exchange Bed
+with DMSD, and verifying the TOC trend observed on ISS.
+    To gain a better understanding of the MF Bed performance on ISS, the MF Bed removed from the first position
+in 2010 was returned to the ground and analyzed in late 2011. A detailed review of this investigation and results can
+be found elsewhere7. However, a key finding was that several polydimethylsiloxanes (PDMS) had saturated the
+adsorbent and ion exchange resin. This is inconsistent with the MF Bed design concept, which was to insure that
+ionic breakthrough of the MF Bed occurred before organics saturated the adsorbents. Unfortunately, the various
+PDMSs are not effectively removed by the adsorbent, and may therefore be saturating the second MF Bed and
+subsequently reaching the catalytic reactor. In this scenario, they would degrade reactor performance and result in
+incomplete oxidation of the volatile load entering the reactor, and subsequently causing the TOC trend shown in
+Figure 7. Analysis of the second MF Bed will be performed later in 2012 to determine if the PDMSs are actually
+saturating both beds and therefore entering the reactor on ISS. Based on this analysis and the aforementioned Ion
+Exchange Bed test with DMSD, engineering personnel will develop a new design of the MF Bed that removes
+problematic organics and therefore insures effective operation of the Catalytic Reactor.
+
+
+
+
+                                                        10
+                                American Institute of Aeronautics and Astronautics
+Figure 7. WPA TOC Trend8
+
+     Previous papers (see Reference 1 and 2) have addressed the issue with increased pressure drop between the
+waste tank and the Mostly Liquid Separator (MLS). This anomaly occurred due to growth of biomass in the
+plumbing between the waste tank and the MLS, specifically in the two solenoid valves that have smaller clearances
+that the rest of the nominal plumbing. In 2010, after the Pump/Separator ORU was replaced, a filter was installed
+upstream of the MLS’s inlet solenoid valve. In March 2011, the Waste Tank solenoid valve and the waste water
+filter (installed to protect the MLS inlet solenoid valve) both required maintenance. The crew removed the Waste
+Tank solenoid valve and capped the line (allowing flow through the passageway), and replaced the waste water filter
+with a new filter. During this time, WPA operations were also modified to control the growth and release of
+biomass in the waste tank, which is considered to be the primary source of solids contributing to the loading of the
+waste water filter and solenoid valve. This was primarily accomplished by managing cycles on the waste tank
+bellows, such that the bellows was cycled over its operating capacity each month to prevent significant accumulation
+of biomass growth on the bellows. Since March 2011, no significant increase in the pressure drop in this plumbing
+has been observed. In addition to the tank management scheme, a software modification will be implemented in late
+2012 by which the waste water filter and MLS inlet are flushed with iodinated water at the end of each process
+cycle, providing additional mitigation against biological growth.
+     The Separator Filter ORU is used to remove aromatic organics from the gas vented by the MLS. This ORU was
+removed from the WPA in 2011, and returned to the ground for analysis. The purpose of this analysis was to verify
+the hardware was functioning as designed, and to determine how much capacity was remaining in the adsorbent
+material. The analysis showed that significant capacity was still available in the adsorbent after almost 2 years of
+operation on ISS. Based on these results, the current recommendation is to extend the scheduled replacement of this
+ORU from 1 year to 5 years.
+     As noted previously, the Multifiltration Beds were replaced in February 2012 as part of the TOC trend
+investigation. The MF Beds had a total throughput of 4613 L when they were removed. The Ion Exchange Bed was
+removed on April 30, 2012, after 3.5 years of use on ISS and a throughput of 9416 L. This bed was initially
+scheduled for replacement in November 2011 based on the expected life of the MCV resin in the bed effluent, but its
+life was extended based on ground analysis that showed the MCV resin was still imparting an iodine concentration
+                                                           11
+                                  American Institute of Aeronautics and Astronautics
+of 2.2 mg/L. At the time this ORU was removed, there were no indications of ionic breakthrough. As of April
+2012, there are no indications that the Particulate Filter is loading after approximately 3.5 years of operation on ISS.
+Similarly, the Gas Separator has shown no indication of performance degradation after 3.5 years of use.
+
+                                                VII. Conclusion
+    In the past year, the WRS has continued to provide the ISS crew with potable water for drinking, electrolysis via
+the Oxygen Generation System, flush water for the Waste & Hygiene Compartment, and hygiene water. The UPA
+has operated nominally in the past year, though at a reduced water recovery of 70% to prevent precipitation of
+calcium sulfate in the brine. Though progress has been made toward the goal of returning to 85% recovery, ongoing
+technology development will not be ready for implementation on ISS for at least another year. Furthermore, the
+current water balance on ISS does not require 85% recovery to meet current ISS needs, due to the reliability of the
+UPA/WPA and the resupply capability of the Progress, HTV, and ATV vehicles.
+    The WPA experienced several operational issues in the last year. Several unexplained pump faults occurred in
+the summer of 2011 that could not be isolated to the pump or motor controller. Since these faults have ceased, the
+investigation is currently suspended. In early 2012, the WPA product water quality began exhibiting an increasing
+TOC trend, similar to that observed in 2010. Engineering and science personnel continue to investigate this trend.
+Finally, the Catalytic Reactor ORU was replaced in February 2012 due to a failed o-ring. This failure was not
+unexpected, since this ORU also contained the flawed o-rings that contributed to the failure in 2010. The ORU now
+installed (as well as all subsequent ORUs that will be built) has been modified to address this design issue.
+
+                                                  Acknowledgments
+    The authors wish to acknowledge the effort of the many engineers at NASA MSFC/JSC, Hamilton Sundstrand,
+and Boeing that have performed excellent work in the last year toward the operation, troubleshooting, and recovery
+of the Water Recovery System hardware on ISS.
+
+                                                       References
+1. Carter, D.L., N. Orozco, “Status of the Regenerative ECLSS Water Recovery System”, AIAA 1021863, presented at the 41st
+    International Conference on Environmental Systems, Portland, Oregon, July, 2011.
+2. Carter, D.L., “Status of the Regenerative ECLSS Water Recovery System”, AIAA 758248, presented at the 40th International
+    Conference on Environmental Systems, Barcelona, Spain, July, 2010.
+3. Carter, D.L., “Status of the Regenerative ECLSS Water Recovery System”, SAE 2009-01-2352, presented at the 39th
+    International Conference on Environmental Systems, Savannah, Georgia, July, 2009.
+4. Bagdigian, R.M., D.L. Carter, and G. Sitler, “Status of the Regenerative ECLSS Water Recovery System”, SAE 2008-01-
+    2133, presented at the 38th International Conference on Environmental Systems, San Francisco, California, July, 2008.
+5. Muirhead, Dean, Evaluation of Alternative Pretreatment Formulations for Minimizing the Risk of Mineral Precipitation
+    During Distillation of Urine, ESCG-4106-12-CHLSS-DOC-0002, January 2012
+6. Putnam, David F., S. Russell, P. Birbara, Recovery of Water from Urine by Chromium Ion Treatment and Distillation, United
+    States Patent 3,556,949, 1971
+7. Bowman, B, M. Wilson, H. Cole, N. Orozco, and D.L. Carter, Performance Evaluation of the ISS Water Processor
+    Multifiltration Beds, AIAA 1277990, presented at the 42nd International Conference on Environmental Systems, San Diego,
+    California, July 2012
+8. Personal Email Correspondence, J. Straub, Latest TOCA Results, 07 June 2012
+
+
+
+
+                                                          12
+                                  American Institute of Aeronautics and Astronautics
+

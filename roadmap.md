@@ -60,7 +60,7 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [x] Kenney Space Kit → `assets-cache/kenney/space-kit/` (153 GLB, CC0). Has domes, corridors, generators, dishes, rover, rocket parts, platforms, rocks, astronauts. **No solar panels → forge recipe.**
 - [x] Kenney Space Station Kit (97 files), Interface Sounds (100 ogg), Sci-fi Sounds (73 ogg), all CC0, in `assets-cache/kenney/`
 - [x] Data snapshots → `assets-cache/data-snapshots/` (NOAA flares, Kp, Curiosity weather 4,745 sols)
-- [ ] DONKI snapshots: FLR/SEP/CME/GST May 2024 + FLR Oct 2024. On Nov 7 api.nasa.gov returned 503 even with our key, and the CCMC endpoints timed out. Retry daily; the fetch loop is in the session log, and the key is in `.env.local`
+- [ ] DONKI snapshots: FLR/SEP/CME/GST May 2024 + FLR Oct 2024. On Nov 7 api.nasa.gov returned 503 even with our key, and the CCMC endpoints timed out. Retried Nov 8: still 503 ("upstream connect error … connection timeout"). Retry daily; the fetch loop is in the session log, and the key is in `.env.local`
 - [x] npm cache warmed with full dependency trees (three 0.187, vite 8.3, gltf-transform 4.5, playwright-core 1.65, postprocessing, n8ao, three-bvh-csg)
 - [x] three.js skills installed globally (13 CloudAI-X skills, reviewed: SKILL.md only, no scripts)
 - [x] `tooling/forge/lib.py` + `smoke_crate.py`: GLB + 3 previews in about 15 s (Blender 5.2, Cycles CPU)
@@ -97,3 +97,8 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [ ] Five agent lanes (rules, world, forge, screens, cinema+sound), merges at H4 and H8
 - [ ] First playable by H14; playtest; tune
 - [ ] Day 2: polish, credits screen, AI-use paragraph, 30 s video with English subtitles, GitHub Pages, submit by 18:00
+
+## Open questions research (8 Nov) ✅
+- [x] MOXIE power (300 W, user's find confirmed on NASA's page), habitat power ranking, ISS air machine power, plants for air, soil depth, plastic vs water, science goal source. Fact-check rows 57–91; Docmost Power, Life support, Radiation, Game design (B7), NASA data, References updated
+- [ ] Still open: ISS water recycler power (no NASA number); a plain NASA "X cm of Mars soil cuts dose by Y%"; Röstel 2020 primary (Wiley blocks curl, read in browser); CDRA 1,000 W from an NTRS copy
+- [ ] Optional: new Trade-off cards from these (oxygen maker vs night power; water tanks as shield)

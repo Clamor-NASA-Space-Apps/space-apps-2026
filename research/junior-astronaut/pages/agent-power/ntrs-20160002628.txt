@@ -1,0 +1,71 @@
+               Solar vs. Fission Surface Power for Mars
+
+                                          Michelle A. Rucker
+  National Aeronautics and Space Administration, Lyndon B. Johnson Space Center, Houston, Texas, 77058
+
+Steve Oleson, Pat George, Geoffrey A. Landis, James Fincannon, Amee Bogner, Robert E. Jones, and Elizabeth
+                                                 Turnbull
+   National Aeronautics and Space Administration, John H. Glenn Research Center, Cleveland, Ohio 44135
+
+                                Michael C. Martini and John Z. Gyekenyesi,
+                                    Zin Technologies, Cleveland, Ohio
+
+                       Anthony J. Colozza, Paul C. Schmitz, and Thomas W. Packard
+                                 Vantage Partners, LLC, Cleveland, Ohio
+
+
+          A multi-discipline team of experts from the National Aeronautics and Space
+      Administration (NASA) developed Mars surface power system point design solutions for two
+      conceptual missions. The primary goal of this study was to compare the relative merits of
+      solar- versus fission-powered versions of each surface mission. First, the team compared
+      three different solar power options against a fission power system concept for a sub-scale,
+      uncrewed demonstration mission. The 4.5 meter (m) diameter pathfinder lander’s primary
+      mission would be to demonstrate Mars entry, descent, and landing techniques. Once on the
+      Martian surface, the lander’s In Situ Resource Utilization (ISRU) payload would
+      demonstrate liquid oxygen propellant production using atmospheric resources. For the
+      purpose of this exercise, location was assumed to be at the Martian equator. The three solar
+      concepts considered included a system that only operated during daylight hours (at roughly
+      half the daily propellant production rate of a round-the-clock fission design), a battery-
+      augmented system that operated through the night (matching the fission concept’s
+      propellant production rate), and a system that operated only during daylight, but at a higher
+      rate (again, matching the fission concept’s propellant production rate). Including 30% mass
+      growth allowance, total payload masses for the three solar concepts ranged from 1,116 to
+      2,396 kg, versus the 2,686 kg fission power scheme. However, solar power masses are
+      expected to approach or exceed the fission payload mass at landing sites further from the
+      equator, making landing site selection a key driver in the final power system decision. The
+      team also noted that detailed reliability analysis should be performed on daytime-only solar
+      power schemes to assess potential issues with frequent ISRU system on/off cycling. Next, the
+      team developed a solar-powered point design solution for a conceptual four-crew, 500-day
+      surface mission consisting of up to four landers per crewed expedition mission. Unlike the
+      demonstration mission, a lengthy power outage due to the global dust storms that are known
+      to occur on Mars would pose a safety hazard to a crewed mission. A similar fission versus
+      solar power trade study performed by NASA in 2007 concluded that fission power was more
+      reliable—with a much lower mass penalty—than solar power for this application. However,
+      recent advances in solar cell and energy storage technologies and changes in operational
+      assumptions prompted NASA to revisit the analysis. For the purpose of this exercise a
+      particular landing site at Jezero Crater, located at 18o north latitude, was assumed. A fission
+      power system consisting of four each 10 kW Kilopower fission reactors was compared to a
+      distributed network of Orion-derived Ultraflex solar arrays and Lithium ion batteries
+      mounted on every lander. The team found that a solar power system mass of about 9,800 kg
+      would provide the 22 kilowatts (kW) keep-alive power needed to survive a dust storm lasting
+      up to 120-days at average optical depth of 5, and 35 kW peak power for normal operations
+      under clear skies. Although this is less than half the mass estimated during the 2007 work
+      (which assumed latitudes up to 30o) it is still more than the 7,000 kg mass of the fission
+      system which provides full power regardless of dust storm conditions. Relative merits—and
+                                                     1
+                             American Institute of Aeronautics and Astronautics
+risks--of the two approaches were also evaluated. To assess latitude sensitivity, the team
+performed a brief assessment of a second notional landing site, selecting Columbus Crater
+located at 30o south. Because dust storms do not appear to occur in the Southern hemisphere
+during the winter, when the days are shorter, solar array mass did not increase at Columbus
+Crater—but more battery mass would be required for the longer nights, and additional
+ISRU strings would be needed for optimal summer/winter cycling. Based on this work, it is
+clear that the choice between fission versus solar power for Mars surface systems is an
+important decision, with potential ramifications to crewed landing site selection.
+
+
+
+
+                                             2
+                     American Institute of Aeronautics and Astronautics
+

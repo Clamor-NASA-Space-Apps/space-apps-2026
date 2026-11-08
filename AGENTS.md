@@ -59,6 +59,11 @@
 | O₂ per person | 0.84 kg/d (0.895 long-mission); CO₂ out 1.085 kg/d; water 3.217 kg/d | NASA BVAD 2022 |
 | ISS water recycling | 98% (2023) | NASA |
 | MOXIE | 122 g total, 16 runs, best 12 g/h, ≥98% pure | JPL |
+| MOXIE power | 300 W (≈3× the MMRTG), ~1 h runs, only ~10% of power made O₂; full-size 2–3 kg/h needs 25 kW | NASA instruments page, PI blog |
+| Habitat power | ISS oxygen maker 3.6–4 kW, CO₂ scrubber ~1 kW (⚠️), all ECLSS 5.31 kW; Mars habitat ~12 kW; "ISRU is the Biggest Power Draw" (~25 kW). Water recycler power ❌ not found | NASA ICES, BVAD, DRA 5.0 |
+| Plants for air | 20–25 m² of crops per person's O₂, 40–50 m² for food; lettuce 7.78 g O₂/m²·d. A small greenhouse = food and morale, not air | Wheeler (NASA KSC), BVAD |
+| Shielding | thin soil barely helps (dose peaks ~30 cm down), ~1–1.6 m for <100 mSv/yr; hydrogen-rich water/polyethylene beat aluminium; 5.3 cm water halves a deep-space storm dose | NASA TP 1991/2013, Zhang 2022, Walker 2013 |
+| Science goal at Gale | was Mars ever able to support microbial life; ancient lake "held all the ingredients necessary for life"; organics "not necessarily indicators of life" (never say life was found) | NASA Curiosity, release 18-050 |
 | Veggie lettuce | 33 d harvest (64 d cut-and-come-again) | NASA NTRS |
 | Radiation | cruise 1.8 mSv/d; Gale surface 0.67 mSv/d; 1 Sv ≈ +5% fatal cancer risk | SwRI (RAD) |
 | Solar storm at Mars | 20 May 2024, X12: 8,100 µGy at Curiosity = "30 chest X-rays", not deadly | JPL |
@@ -74,7 +79,7 @@
 | `research/junior-astronaut/` | `pages/` (saved sources), `sources.md`, `factcheck.md`, `browser-excerpts.md` |
 | `assets-cache/nasa-3d/` | Perseverance, Ingenuity, Astronaut, Base Station, Habitat Demo Unit GLBs; Curiosity landing-site STL (real Gale terrain); Mars/Moon/Earth textures |
 | `assets-cache/kenney/` | Space Kit (153 GLB: domes, corridors, generators, dishes, rover, rocket parts, platforms, rocks; **no solar panels**), Space Station Kit, Sci-fi + Interface sounds. All CC0 |
-| `assets-cache/data-snapshots/` | NOAA flares + Kp, Curiosity weather (4,745 sols). DONKI was down on 7–8 Nov; retry |
+| `assets-cache/data-snapshots/` | NOAA flares + Kp, Curiosity weather (4,745 sols). DONKI still down on 8 Nov (503 upstream timeout, even with our key); retry |
 | `assets-cache/CREDITS.md` | Every asset's source, licence and credit line |
 | `tooling/` | Separate repo **agent-forge-3d**: Blender asset forge + capture-view. Will be public |
 | `storm-night-lighthouse/` | Separate repo: the rehearsal game (9–10 Nov). Throwaway |

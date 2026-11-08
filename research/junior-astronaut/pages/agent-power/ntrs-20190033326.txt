@@ -1,0 +1,455 @@
+ ISS Water Recovery System,
+Vapor Compression Distillation
+   Process in Microgravity
+                   Date: October 16, 2019
+
+
+                               Layne Carter
+                               ISS Water Subsystem Manager
+                               NASA/MSFC/ES62
+
+                               Greg Schunk
+                               Thermal Analysis and Control Branch
+                               NASA/MSFC/EV34
+Outline
+• Microgravity Considerations
+
+• Water Recovery System Architecture
+
+• UPA Overview
+
+• Partial Gravity Urine Recovery
+
+• Fluid Physics Challenges
+
+
+
+
+                                       2
+     Introduction
+• Water treatment processes in microgravity are challenged with multi-phase fluid
+  flow
+• Gas/liquid fluid flow occurs during waste water collection (urine, condensate,
+  Sabatier product water) and during the treatment process as required (urine
+  distillation, catalytic oxidation with gaseous oxygen)
+• Gas/liquid fluid flow has typically not been an issue on ISS due to appropriate
+  design solutions
+    – Rotary or passive separators
+    – Potentially higher pressure drop in microgravity will be evaluated with the GRC
+      Packed Bed Reactor Experiment (PBRE)
+• Solids in the liquid phase have also not been an issue as long as the system is
+  properly designed (i.e., filtration)
+• Primary issue with fluid physics has been with unexpected multi-phase flow
+    – Solids (e.g., precipitation, biomass, catalyst fines) in the absence of gravity will tend to
+      fail systems
+    – Free gas will also impact system function if not properly managed (by occluding filters
+      or adsorbent/IX media, or lodging in tanks)                                                    3
+Fluids in µG
+
+
+
+
+•   The behavior of liquids on board an orbiting spacecraft is primarily driven by
+    surface tension effects
+•   In microgravity, the net sum of inertial forces acting on the liquid balance to almost
+    zero so capillary forces dominate
+                                                                                             4
+Fluids In µG
+
+
+
+
+               5
+                 WRS & OGS Architecture Overview
+                                                Water Recovery System (WRS)
+                            Pretreated Urine       URINE PROCESSOR           Brine
+USOS CABIN         Urinal                           ASSEMBLY (UPA)
+                                                                                         BRINE
+                                                                                      PROCESSOR
+                                                                                                          Water vapor
+ CREW
+ - drinking                                          Vapor Compression                 ASSEMBLY
+ - hygiene                                            Distillation (VCD)                 (BPA)
+ - urine flush
+                                                      Distillate
+                               Crew latent
+                    CHX
+                                                     WATER PROCESSOR
+                                                    ASSEMBLY (WPA)
+                                                    • Rotary Gas Separator
+                                                    • Particulate Filter
+                                                    • Multifiltration Beds                      Water
+                                                    • Catalytic Oxidation
+                                                    Reactor
+                               Potable water
+                   PWD                                 Potable water
+                                                       Oxygen Generation System (OGS)
+                                                  OXYGEN GENERATOR               CO2 REDUCTION
+                                                   ASSEMBLY (OGA)     Hydrogen    SYSTEM (CRS)
+                                                  • Solid Polymer                    • Sabatier Reactor
+                                                    Electrolysis (SPE)
+  BIOLOGICAL
+  PAYLOADS                      Oxygen
+
+                               Carbon Dioxide
+                                                                                                   overboard
+Common Cabin Air Assembly (CCAA)
+
+
+
+
+     WPA Waste Tank
+Waste and Hygiene Compartment
+
+
+
+
+                                8
+ISS Waste & Hygiene Compartment
+
+
+
+
+                                  9
+ISS Waste & Hygiene Compartment
+
+
+
+
+                                  10
+Water Processor Simplified Schematic
+                                                              Particulate      Multi-filtration Beds
+                                             to                  Filter         (remove dissolved
+                                           Node 3              (removes           contaminants)
+                                Wastewater cabin
+                                  Tank                        particulates)
+
+                                                  Filter
+   from                                                    Pump
+  Node 3
+ wastewater                                                                            to Node 3
+                                             Mostly Liquid Separator
+    bus                                                                                  cabin
+                 Product                          (removes air)                                                        to/from
+                  Water                                                                                                Node 3
+                            Reject Line       Microbial Check Valve              Gas/Liquid                              MTL
+                  Tank        (allows                                             Separator
+                                                (provides isolation)
+                           reprocessing)                                      (removes oxygen)
+              Delivery
+               Pump                    O2                                                               Regenerative
+                                                                      Preheater
+                                     from                          (output at 267oF)                   Heat Exchanger
+                                    Node 3
+        Accumulator
+                                           Reactor                                                     C Reactor Health Sensor
+                                     (oxidizes organics)                                                 (verifies reactor is operating
+     to                                                                                                C
+                                                                                                                  within limits)
+  Node 3
+  potable                                                      Ion Exchange Bed
+   water                                                   (removes reactor by-products)
+    bus
+
+
+
+
+                                                                                                                                          11
+Urine Processor Assembly Simplified Schematic
+                                                                            Coolant Interface
+                                                                        (promotes condensation
+                                                                           within purge pump)
+
+
+
+
+                         Distillation Assembly
+                                   (DA)
+
+
+                                                       Purge Pump                          Separator
+                                                          (PCPA)                        (separates water
+                                                      (removes non-                    from purge gases)
+                                                    condensable gases
+                                                         from DA)
+            Wastewater                                                                               Purge Gas
+              Tank                                                                                to Node 3 cabin
+                                                  Fluids Pump
+                                                     (FCPA)
+
+                                                                                    Product water
+                                                                                    to Water Processor Assembly
+    Urine
+    from
+    WHC
+                            Brine Filter       Advanced
+                             (removes        Recycle Filter
+                            precipitates)   Tank Assembly
+                                                (ARFTA)
+                                            (accumulates &
+                                        stores brine for disposal)
+
+
+                                                                                                                    12
+Wastewater Storage Tank Assembly
+
+
+
+
+                                   13
+Advanced Recycle Filter Tank
+
+
+
+
+                               14
+Urine Processor Assembly Overview
+
+         • A vapor compression cycle is utilized to distill product water
+           from pretreated urine. A pretreatment formulation is used to
+           stabilize the urine after collection.
+         • The pretreated urine is concentrated to 75-85% recovery with
+           the resulting brine returned to Earth.
+         • The process is very energy efficient as the heat of vaporization
+           required for boiling of the pretreated urine at reduced pressure
+           is provided by the condensed product water.
+         • The UPA is housed inside ISS WRS Rack #2 and is composed of
+           the following components:
+             –   Distillation Assembly (DA)
+             –   Fluids Control & Pump Assembly (FCPA)
+             –   Pressure Control & Pump Assembly (PCPA)
+             –   Firmware Controller Assembly (FCA)
+             –   Wastewater Storage Tank Assembly (WSTA)
+             –   Recycle Filter Tank Assembly (RFTA)
+             –   Separator Plumbing Assembly (SPA)
+         Urine Processor Assembly Overview
+                            Major ORU’s and Process Flow
+
+                                          Distillation                 Pressure Control &
+                                          Assembly         Steam        Pump Assembly
+
+
+
+
+                                Fluids Control &                         Separator
+                                Pump Assembly                        Plumbing Assembly
+
+
+
+
+                                                         Flow Rate = 4 lbs/hr
+                                                                                            Purge Gas
+                                                                   To WPA Waste
+     Wastewater Storage                                            Water Tank
+      Tank Assembly
+
+
+
+                                                                                                        Waste Water
+                 Flow Rate = 300 cc/min           Recycle Filter                                        Gas
+                                                                                                        Water/Fluid
+                                                 Tank Assembly                                          Recycle Water
+                                                                                                        Product Water
+
+Pre-treated urine from Node 3
+Urine Processor Assembly Overview
+       Distillation Assembly Cut-away
+                         Urine Processor Assembly Overview
+                                Distillation Assembly Cross Section
+   Centrifuge      Stationary       Demister
+                      Bowl              Feed Tube
+
+
+
+
+Distillation
+  Pickup
+   Tube
+
+ Brine Pickup   Evaporator           Condenser            Circumferential gap between the Condenser and
+     Tube                                                Stationary Bowl located near the compressor outlet
+Urine Processor Assembly Overview
+      Inside the Distillation Assembly
+         Urine Processor Assembly Overview
+                                Distillation Assembly Operation
+
+                                         Stationary Bowl      Superheated Steam
+           Product H2O                                             @150oF
+             @97oF
+                                           Condenser
+          Urine/Pretreat                                           Urine
+              Return                                              Pretreat
+              @85oF                                                Supply
+
+
+              Centrifuge
+
+                                          Evaporator       Water Vapor
+Centrifuge rotates at                                        @85oF
+      220 rpm                                                                Rotary Lobe
+                                                                                                       Motor
+ to achieve positive                                                         Compressor
+  phase separation
+
+
+
+
+    Pretreated urine boils at
+      ~32mmHg pressure
+
+
+
+
+                                           Condenser
+ Condensing steam surrenders             Stationary Bowl
+  latent heat of condensation
+                                                               External Heaters prevent condensation
+                                                                     in stationary bowl volume
+ Urine Processor Assembly Overview
+  Distillation Assembly Stationary Bowl Heaters
+
+                 RTDs (Resistance Temperature Device)
+                   T5              T6            T7
+
+Front                                                   Back
+
+
+
+
+           • 4 heaters surround the stationary bowl
+
+           • RTD-T5 controls 2 front heaters
+
+           • RTD-T6 controls 2 rear heaters
+
+           • On Temp = 128ºF
+             Off Temp = 132ºF
+                 Urine Processor Assembly Overview
+                       Inside the Pressure Control Pump Assembly
+
+         Fluid Out    Fluid In
+
+
+
+
+                                                   Fluid Out   Fluid In
+
+
+
+
+Compressive
+   Drum
+              Retaining Drum
+                 Urine Processor Assembly Overview
+                    Pressure Control Pump Assembly Cooling Jacket
+
+                                                                          Coolant Flow
+
+
+                                                             4 Tubes
+
+
+
+
+                                                                                    Outer Wall
+
+
+
+
+                                                             Inner Wall
+
+
+
+                               Coolant Flow In
+
+
+
+• ISS MTL Coolant flows through a jacket in the PCPA enclosure
+   – Allows for additional condensation of the water vapor, which increases the pumping
+      efficiency of the PCPA
+             Partial G Urine Recovery for Lunar/Planetary Surface
+                                             Notional Concept
+
+                                              • A notional vapor compression distillation concept for lunar or
+Waste Tank
+                                                planetary surface operation is presented.
+                                  Vacuum
+                                              • Pretreated urine is introduced into the boiler volume via
+                                Pump/Source     gravity and the pressurized feed of the waste tank.
+                Boiler
+                                              • As the urine is distilled, phase separation occurs naturally
+                                                under the influence of gravity and steam is drawn of the
+                                Compressor
+                                                boiler where it is compressed and introduced into the
+                                                condenser.
+    Condenser                                 • Operating at a ∆T of 10-15 oF, the heat of vaporization is
+                                                recovered from the steam to boil the pretreated urine.
+                                              • Liquid condensate collected in the bottom of the condenser
+                 Product Tank                   is gravity fed into a collection tank.
+                                              • A vacuum pump or source is needed to periodically draw
+                                                non-condensable gases out of the condenser volume.
+                                              • A contingency heater is added if needed to drive off the last
+                                                bit of water at very high solids concentrations.
+  Partial G Urine Recovery for Lunar/Planetary Surface
+                             Fluid Physics Challenges
+
+
+• Concentrated urine near solubility limits results in an elevated boiling point.
+  Vapor compression alone may not be sufficient to drive the recovery of water
+  beyond 95%.
+• Higher operating temperatures result in lower ammonia solubility in water and
+  perhaps increased evolution of ammonia gas.
+• The process for solids separation after nearly 100% water recovery is TBD.
+• A mild concern exists over a lack of knowledge about the physics of boiling urine
+  under partial gravity conditions.
+• Operating in a gravitational field may provide design opportunities for buoyancy
+  driven movement of waste or product streams.
+                            Urine Processor Assembly
+                            Fluid Physics Challenges for Exploration
+• Downsizing the next generation UPA for exploration                                 Velocity Vectors
+  missions in microgravity environments (i.e. Mars Transit,
+  Gateway, etc.) is a priority.
+   • Current UPA runs on a 25% duty cycle to meet ISS needs.
+                                                                         2”
+• Changes to the DA diameter or rotational speed may                     length
+                                                                         reduction
+  have unexpected consequences relative to boiling or
+  condensation. Only changes in centrifuge length have
+  been considered.
+   • DA condenser fluid physics is complex. Test correlated predictive
+     modeling of boiling and condensation is needed to optimize the
+     next generation UPA.
+• Elimination of stationary bowl heaters may provide
+  substantial benefit.                                                   3.75”
+                                                                         length
+   • Current system is energy efficient with a COP of approximately      reduction
+     4.0 (based on the latent energy of the product stream) but
+     stationary bowl heaters consume 40-50% of the total process
+     power.
+Backup
+                             Overview
+                        Average Human Metabolic Balance
+                                 (lb/person-day)
+
+
+
+        Oxygen 1.84                                        2.20 Carbon Dioxide
+
+
+
+  Drinking Water 3.56                                      3.31 Urine
+
+
+
+  Water in Food 2.54                                       5.02 Perspiration/
+                                                                Respiration
+
+Food Prep Water 1.67                                       0.20 H2O in Feces
+
+
+    Food Solids 1.36                                       0.24 Solids
+
+
+          Total 10.97                                     10.97 Total
+                                                                                 28
+

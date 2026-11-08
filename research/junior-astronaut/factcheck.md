@@ -58,3 +58,43 @@ Status: ✅ = I saw it in the source myself · ⚠️ = reported (secondary sour
 | 52 | Curiosity weather feed works with CORS (latest sol 4995, Aug 2026) | ✅ | tested by me |
 | 52b | OSDR APIs block browser calls (CORS) | ⚠️ | research agent, live test |
 | 53 | Landing is called the "seven minutes of terror" (top of atmosphere to ground in about 7 min) | ✅ | NASA science (Perseverance EDL) |
+
+## Open questions research (checked 2026-11-08)
+
+| # | Claim | Status | Source |
+|---|---|---|---|
+| 57 | MOXIE power: "Power 300 watts"; mass 17.1 kg; up to 10 g O₂ per hour; runs about one hour at a time | ✅ | NASA Perseverance science instruments page, `pages/moxie/nasa-m2020-instruments.html`; Wikipedia copies it |
+| 58 | MOXIE used "only about 10% of our power to generate oxygen"; the rest ran the compressor, electronics and made up heat loss from the 800 °C unit | ✅ | NASA blog by PI Michael Hecht, 31 Aug 2022, `pages/moxie/nasa-blog-day-full-of-moxie.html` |
+| 59 | A full-size MOXIE making 2 to 3 kg O₂ per hour "will require 25 kilowatts of power"; best run nearly 10.5 g/h (run 11, Aug 2022) | ✅ | same blog |
+| 60 | Perseverance's "energy constraints" limit MOXIE's run length; scaled-up unit is "several hundred times" bigger; a 6-person ascent rocket needs ~31 t of oxygen | ✅ | Hoffman et al. 2022, Science Advances (PMC9432831), `pages/moxie/hoffman2022-sciadv-pmc.xml` |
+| 61 | MOXIE's 300 W is almost 3× the MMRTG's ~110 W, so runs drew on the rover's batteries | ⚠️ inferred | from rows 57 + MMRTG row; no source says "batteries" in words |
+| 62 | MOXIE energy cost: about 30 Wh per gram of O₂ (300 W for ~1 h → ~10 g); full-scale about 10 Wh/g (25 kW for 2 to 3 kg/h) | ⚠️ inferred | arithmetic from rows 57, 59 |
+| 63 | One person's O₂ needs about 20 to 25 m² of crops; their food needs 40 to 50 m² | ✅ | Wheeler (NASA KSC) 2018 slides, NTRS 20180001979, `pages/agent-plants/` |
+| 64 | Crop O₂ output, nominal: wheat 56.00, potato 32.23, lettuce 7.78 g/m²·day (so one person ≈ 15 m² wheat or ≈ 108 m² lettuce) | ✅ table / ⚠️ m² inferred | BVAD Rev2 (Feb 2022) Table 4-91, p.174, `pages/bvad.txt` |
+| 65 | NASA's Biomass Production Chamber: 20 m² growing area, 96 × 400 W lamps | ✅ | Wheeler 2018 slides |
+| 66 | BVAD growing area per crew member: salad only 1.35 m²; all crops 65.29 m² | ✅ (agent, table) | BVAD Table 4-92, p.176 |
+| 67 | Lighting a crop area costs kilowatts per m² (BVAD lamps 2.1 kW/m², pre-LED); a small greenhouse cannot make a 2 to 4 crew's air on a 30-sol stay | ⚠️ inferred | BVAD Table 4-88; agent arithmetic |
+| 68 | BIOS-3 (1989): 2 people, 63 m² of crops, 91% closure; Lunar Palace 1 (2016): 105 days, O₂ and water recycled, 55% of food regenerated | ⚠️ abstracts only | Europe PMC 11537393, 27912029 |
+| 69 | Curiosity at Gale "is assessing whether Mars ever had an environment capable of supporting microbial life" | ✅ | science.nasa.gov MSL science page, `pages/science-goal/` |
+| 70 | "billions of years ago, a water lake inside Gale Crater held all the ingredients necessary for life"; "tough" organic molecules in 3-billion-year-old rocks; methane changes with the seasons | ✅ | NASA release 18-050, 7 Jun 2018, `pages/science-goal/` |
+| 71 | Organic molecules "are not necessarily indicators of life", so the game must never say life was found | ✅ | same release |
+| 72 | DONKI still down on 2026-11-08 (503, "upstream connect error … connection timeout"), with our key | ✅ | tested by me |
+| 73 | ISS average power by system (one day, no payload): life support (ECLSS) 5.31 kW; thermal control 8.72 kW (biggest non-payload line) | ✅ | BVAD Rev2 Table 3-2, p.22, `pages/bvad.txt` |
+| 74 | ISS oxygen maker (OGA): 3,573 W while making O₂, 382 W standby (2008); "total maximum steady-state" 3,955 W / 497 W (2015); "one of the major ISS power draws" | ✅ (two figures, both NASA) | ICES 2008 NTRS 20080036243 p.2; ICES-2015-115 NTRS 20150016494 p.8 |
+| 75 | OGA makes 5.4 kg O₂/day nominal (enough for 4 crew); range 2.3 to 9.2 kg/day | ✅ | NTRS 20080036243; 20150016494 |
+| 76 | ISS CO₂ scrubber (CDRA): 1,000 W, removes 4.16 kg CO₂/day for 4 crew | ⚠️ | NASA Ames slides (D. Jan, 24 Jul 2019) hosted on usea.org, not NASA |
+| 77 | ISS water recycler (WPA/UPA) power | ❌ not found | only a forum post (915 W); not used |
+| 78 | Mars base plan (DRA 5.0, crew of 6): habitat sized for a "12-kWe day/night load"; crew phase needs "about 17 to 20 kWe"; the rocket-fuel oxygen plant (ISRU) "is the dominant power requirement at 25 kWe operating continuously" | ✅ | NASA/SP-2009-566, pp.41, 60, `pages/agent-power/dra5-sp-2009-566.txt` |
+| 79 | Rucker et al. 2016 (4 crew, 500 sols): surface habitat 14,900 W peak, 8,000 W keep-alive; crew-phase total 31,099 W peak | ✅ | NTRS 20160011275 slide 14 |
+| 80 | "ISRU is the Biggest Power Draw" … "Even if ISRU is eliminated, still need almost as much power to support a Habitat" | ✅ | Rucker 2015, NTRS 20150006958 p.5 |
+| 81 | Game answer: inside the habitat the oxygen maker is the hungriest life-support machine (≈3.6 to 4 kW vs ≈1 kW for the CO₂ scrubber) | ⚠️ inferred | rows 74, 76 (ISS, not Mars) |
+| 82 | Mars soil "does not provide much additional protection from the GCR or the flare event than that already provided by the carbon dioxide atmosphere"; 20 g/cm² of soil cut cosmic-ray dose only from 11.9 to 10.0 rem/yr | ✅ | Simonsen & Nealy, NASA TP-3079, 1991, p.19, `pages/agent-shielding/ntrs-19910008686-raw.txt` |
+| 83 | On Mars, in-situ shielding "of little help unless several hundred g/cm² of regolith is utilized"; "almost any amount of aluminum shielding increases exposure"; polyethylene reduces it "by more than a factor of 2", mainly thanks to hydrogen | ✅ | Slaba et al., NASA TP-2013-217983, pp.4 to 6 |
+| 84 | Dose "peak[s] at around 30 cm below the surface" (secondary neutrons); keeping under 100 mSv/yr needs "about 1 and 1.6 m" of soil | ✅ | Zhang et al. 2022, JGR Planets, doi 10.1029/2021JE007157 |
+| 85 | Curiosity parked by a butte for 13 sols: dose "dropped by 15 ± 2 µGy/day … or 5%" | ✅ | Guo et al. 2021, Astron. Astrophys. Rev. 29:8, pp.42 to 43 |
+| 86 | Soil needed for <100 mSv/yr: "between 80 cm and 2.5 m" (Röstel 2020, via Guo); other estimates say >3 m | ⚠️ | Guo 2021 p.60; primary (Wiley) blocks curl |
+| 87 | Hydrogen blocks protons and neutrons "extremely well" and is in "water and plastics like polyethylene" | ✅ | NASA "Real Martians", 30 Sep 2015 |
+| 88 | Mars model, 10 g/cm² shield, cosmic rays: none 296.7, aluminium 214.3, soil 212.6, water 199.4, polyethylene 192.9 µGy/day (≈ −28%, −28%, −33%, −35%) | ⚠️ preprint | Gakis & Atri, arXiv 2205.13786 v3 (2024), Table 4 |
+| 89 | Polyethylene "50% better at shielding solar flares and 15% better for cosmic rays" than aluminium, but for Mars cancer risk "there was no significant difference" | ✅ (2005, ship both halves) | Science@NASA 25 Aug 2005, UNT .gov archive |
+| 90 | Deep-space storm shelter: "2.1 inches (5.3 g/cm²) of water are required for a 50% reduction"; 5.0 in for 70% | ✅ | Walker et al., ICES 2013, NTRS 20140000593 p.9 |
+| 91 | NASA source giving "X cm of Mars soil cuts dose by Y%" in plain words | ❌ not found | |

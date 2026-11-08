@@ -1,0 +1,1030 @@
+RESEARCH ARTICLE                               From the Top of Martian Olympus to Deep Craters and
+10.1029/2021JE007157
+                                               Beneath: Mars Radiation Environment Under Different
+Key Points:
+• We calculate dose, dose equivalent,
+                                               Atmospheric and Regolith Depths
+   and effective dose rates induced by         Jian Zhang1 , Jingnan Guo1,2,3 , Mikhail I. Dobynde1,4,5                , Yuming Wang1,2        , and
+   various components of galactic cosmic
+                                               Robert F. Wimmer-Schweingruber3
+   rays on and below Mars surface
+• Surface pressure which is related to        1
+                                                 School of Earth and Space Sciences, University of Science and Technology of China, Hefei, China, 2CAS Center for
+   geographic altitude influences the
+   surface and subsurface radiation level      Excellence in Comparative Planetology, Hefei, China, 3Institute of Experimental and Applied Physics, Christian-Albrechts-
+• Subsurface secondary neutrons               University, Kiel, Germany, 4Institute of BioMedical Problems, Russian Academy of Science, Moscow, Russia, 5Skobeltsyn
+   contribute significantly to the effective   Institute of Nuclear Physics, Moscow State University, Moscow, Russia
+   dose and are a critical concern for
+   radiation risks on Mars
+                                               Abstract In preparation for future human habitats on Mars, it is important to understand the Martian
+Correspondence to:                             radiation environment. Mars does not have an intrinsic magnetic field and Galactic cosmic ray (GCR) particles
+J. Guo,                                        may directly propagate through and interact with its atmosphere before reaching the surface and subsurface of
+jnguo@ustc.edu.cn                              Mars. However, Mars has many high mountains and low-altitude craters where the atmospheric thickness can
+                                               be more than 10 times different from one another. We thus consider the influence of the atmospheric depths
+Citation:                                      on the Martian radiation levels including the absorbed dose, dose equivalent and body effective dose rates
+Zhang, J., Guo, J., Dobynde, M. I.,            induced by GCRs at varying heights above and below the Martian surface. The state-of-the-art Atmospheric
+Wang, Y., & Wimmer-Schweingruber,              Radiation Interaction Simulator based on GEometry And Tracking Monte Carlo method has been employed for
+R. F. (2022). From the top of Martian
+Olympus to deep craters and beneath:
+                                               simulating particle interactions with the Martian atmosphere and terrain. We find that higher surface pressures
+Mars radiation environment under               can effectively reduce the heavy ion contribution to the radiation, especially the biologically weighted radiation
+different atmospheric and regolith depths.     quantity. However, enhanced shielding (both by the atmosphere and the subsurface material) can considerably
+Journal of Geophysical Research:
+Planets, 127, e2021JE007157. https://doi.
+                                               enhance the production of secondary neutrons which contribute significantly to the effective dose. In fact,
+org/10.1029/2021JE007157                       both neutron flux and effective dose peak at around 30 cm below the surface. This is a critical concern when
+                                               using the Martian surface material to mitigate radiation risks. Based on the calculated effective dose, we
+Received 13 DEC 2021                           finally estimate some optimized shielding depths, under different surface pressures (corresponding to different
+Accepted 8 FEB 2022
+                                               altitudes) and various heliospheric modulation conditions. This may serve for designing future Martian habitats.
+
+                                               Plain Language Summary Thanks to Earth's magnetic field and atmosphere, high-energy cosmic
+                                               particles can be efficiently shielded from causing radiation risks for humans on Earth. However, for crewed
+                                               space missions, in particular long-term missions to Mars, space radiation is a major risk for the health of
+                                               astronauts. Mars does not have an intrinsic global magnetic field and its atmosphere is too thin to effectively
+                                               shield against radiation. Here, we model the Martian radiation environment induced by omnipresent cosmic rays
+                                               in Mars's atmosphere and terrain. Given that Mars has many high mountains and low-altitude craters where the
+                                               atmospheric thickness can be more than 10 times different from one another, we also consider different model
+                                               setups with different atmospheric profiles. We find that with more shielding the heavy ion contribution to the
+                                               radiation is reduced while the neutron contribution is enhanced. For a given threshold of the annual biologically
+                                               weighted radiation effective dose, for example, 100 mSv, the required regolith depth ranges between about 1
+                                               and 1.6 m. At a deep crater where the surface pressure is higher, the needed extra regolith shielding is slightly
+                                               smaller. Our study may serve for mitigating radiation risks when designing future Martian habitats using natural
+                                               surface material as shielding protection.
+
+
+                                               1. Introduction
+© 2022 The Authors.                            For future missions exploring the Mars, radiation may pose one of the most hazardous consequences for astro-
+This is an open access article under
+the terms of the Creative Commons              nauts' health not only during the mission, but also afterward (Cucinotta & Durante, 2006; Huff et al., 2016).
+Attribution-NonCommercial License,             Astronauts may encounter two types of primary radiation and their induced secondaries during their journey to
+which permits use, distribution and            and on the surface of Mars: one is background Galactic Cosmic Rays (GCRs) and the other is sporadic Solar
+reproduction in any medium, provided the
+original work is properly cited and is not     Energetic Particles (SEPs). GCRs originate from outside the solar system and are charged particles with high
+used for commercial purposes.                  energy and high penetrating ability, so it is difficult to effectively shield against GCRs (Cucinotta et al., 2006).
+
+
+
+ZHANG ET AL.                                                                                                                                                       1 of 19
+                                                                                                                                          21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+               Journal of Geophysical Research: Planets                                                 10.1029/2021JE007157
+
+
+                  The main components of GCRs are about 2% electrons and 98% atomic nuclei and the latter are composed of
+                  about 87% protons, 12% helium, and ∼1% heavier nuclei (Z ≥ 3) (Simpson, 1983). SEPs are related to solar
+                  eruptions such as flares and coronal mass ejections when particles, mainly protons and electrons, are accelerated
+                  and released into the interplanetary space. SEPs may cause abrupt enhancement of the radiation level orders
+                  of magnitude above the GCR background radiation. Energetic particles reaching the astronauts during space
+                  missions may cause serious damage to tissues and organs after interacting with the human body.
+
+                  Primary GCRs and SEPs passing through the Martian atmosphere may undergo inelastic interactions with the
+                  atmospheric atomic nuclei, loosing (part or all of) their energy through ionization and/or creating secondary
+                  particles via a nuclear cascading process, for example, spallation, fragmentation, etc. The generated secondary
+                  particles may further interact with the ambient material during their propagation and even with the Martian
+                  regolith if they reach the surface of Mars, finally resulting in a mixed radiation field including both primary and
+                  secondary particles at the surface of Mars (e.g., Kim et al., 2014; Saganti et al., 2004).
+
+                  There are a lot of valleys, craters, and mountains on the Mars, including the highest mountain in the solar
+                  system–“Olympus Mons.” So its atmospheric depths on the surface may change drastically from place to place.
+                  Generally, the Martian atmosphere is much thinner than Earth's, which poses challenges to surface missions.
+                  Landing in a deep crater where the atmosphere is thick provides obvious benefits to the landing system, such as
+                  more atmospheric drag force, easier deceleration, and longer descent time.
+
+                  This is the case of the Curiosity rover which landed in Gale crater in 2012 August, where the surface pressure
+                  is around 800 Pa (and changes between about 650 and 1,000 Pa throughout different times of a Martian year).
+                  Since the landing, the Radiation Assessment Detector (RAD) (Hassler et al., 2012) carried by the rover has been
+                  measuring the Mars surface radiation field and its characteristics. The RAD measurements have been providing a
+                  direct reference of the radiation environment at Gale crater (e.g., Ehresmann et al., 2014; Guo et al., 2015; Hassler
+                  et al., 2014; Wimmer-Schweingruber et al., 2015), improving our understanding of the associated radiation risks
+                  for a manned Mars mission (Guo et al., 2021; Zeitlin et al., 2019), and serving to benchmark radiation transport
+                  models (e.g., Guo, Banjac, et al., 2019; Matthiä et al., 2016, 2017).
+
+                  The Rover Environmental Monitoring Station (REMS) (Gómez-Elvira et al., 2012) which is also on board
+                  Curiosity measured that the atmospheric depth above the rover changes periodically throughout the course of a
+                  Marian day, by up to ±5%, due to the enlarged thermal tide within Gale crater; it also varies by about 20%, that
+                  is, between about 650 and 1,000 Pa, during different Martian seasons. Besides, as the rover has been climbing up
+                  Mt. Sharp, pressure has been observed to decrease slightly when comparing the same season of different Martian
+                  years. Analysis combining the REMS data and the RAD data showed that the surface radiation level, measured
+                  as dose rate (which is the energy deposit by energetic particles in the detector material per unit mass and per
+                  unit time), changes as the surface atmospheric pressure evolves diurnally (Rafkin et al., 2014) and seasonally
+                  (Guo et al., 2015). Calculation of the Martian surface radiation environment shows that the absorbed dose rate
+                  may change between 10% and 20% (depending on the solar modulation), when the atmospheric column mass is
+                  between 15 and 25 g/cm 2 (Guo, Slaba, et al., 2017).
+
+                  This highlights the importance of understanding and quantifying potential influence of atmospheric variation on
+                  the Mars's surface radiation. Therefore, we further explore this effect and calculate the radiation level at a few
+                  locations on Mars with drastically different atmospheric depths, which are far beyond the pressure variations seen
+                  by Curiosity at Gale. For instance, the largest column depth in this study is selected for a low altitude at Hellas
+                  Planitia with about 1,200 Pa of surface pressure, while the lowest pressure is about 80 Pa at the top of Olympus
+                  Mons.
+
+                  With this purpose, we use the state-of-the-art modeling tool–the Atmospheric Radiation Interaction Simulator
+                  (AtRIS) (Banjac et al., 2018), which is a GEANT4 (GEometry And Tracking) based particle transport code devel-
+                  oped to simulate the propagation of energetic particles through planetary atmosphere and regolith. By including
+                  primary GCR particles, which are protons, helium ions, and heavier ions of Boron, Carbon, Nitrogen, Oxygen,
+                  Neon, Magnesium, Silicon, and Iron (simplified as B, C, N, O, Ne, Mg, Si, and Fe ions throughout the text),
+                  we investigate how the surface radiation environment varies at different locations on Mars with vastly different
+                  atmospheric depths. The article is organized as following: Section 2 introduces and describes the methodology,
+                  model setup and input parameters for the study; Section 3 shows and discusses the results and Section 4 summa-
+                  rizes the main results and concludes our study.
+
+
+ZHANG ET AL.                                                                                                                   2 of 19
+                                                                                                                                                                21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                   Journal of Geophysical Research: Planets                                                   10.1029/2021JE007157
+
+
+
+                                                                             2. Methods
+                                                                             GEANT4 is a Monte Carlo code used for simulating radiation particle prop-
+                                                                             agation and particle-matter interactions (Agostinelli et al., 2003). GEANT4
+                                                                             offers a wide variety of models for handling physical processes within differ-
+                                                                             ent energy ranges. AtRIS is based on the GEANT4 code and allows users to
+                                                                             implement different GEANT4 physical models and a specific planetary envi-
+                                                                             ronment where space energetic particles propagate and generate secondaries
+                                                                             (Banjac et al., 2018). Guo, Banjac, et al. (2019) have applied AtRIS to the
+                                                                             Martian environment and validated the calculated charged particle spectra
+                                                                             against the RAD measurements. Comparing the results from a few different
+                                                                             physics lists of GEANT4, they found a generally better agreement between
+                                                                             the modeled results and the RAD data using the FTFP_INCLXX_HP physics
+                                                                             list. It uses Fritiof model and the Liège Intra-nuclear Cascade model, which
+                                                                             handles better neutron and isotope production in spallation reactions. In fact,
+                                                                             one of the scientific goals of MSL/RAD is to help validate the appropriate
+                                                                             transport models which could precisely describe the high energetic cosmic
+                                                                             ray interaction with the Mars atmosphere (Hassler et al., 2012). In a couple of
+                                                                             model-data comparison workshops, researchers compared different predic-
+                                                                             tions from different transport models of the Martian surface radiation envi-
+                                                                             ronment to the in situ RAD measurements. After optimizing the models for
+Figure 1. Galactic cosmic ray (GCR) differential flux of protons (Z = 1,
+blue), helium ions (Z = 2, yellow) and heavier nuclei (Z > 2, green) as
+                                                                             input parameters and physics lists, HZETRN, PHITs, and GEANT4 all seem
+calculated by the Badhwar O’Neil 2010 model (O’Neil, 2010). Solid lines      to match reasonably well with the measurements of the RAD dose rate and
+and dashed lines indicate the GCR flux during periods of solar minimum       surface spectra of charged particles as summarized by Matthiä et al. (2017).
+(Φ = 400 MV) and maximum (Φ = 1000 MV), respectively.                        The physics list with “INCLXX” for the midhigh energy range in GEANT4
+                                                                             has been used in the final model setup for such a comparison. Following
+                                                                             these studies, we use FTFP_INCLXX_HP physics list in this study.
+
+
+
+                                         2.1. The Primary GCR Spectra
+
+                                         GCRs are affected by the heliospheric magnetic field as they propagate into the heliosphere. The modulation of
+                                         the GCR flux depends on the particle type and energy and is driven by the change of solar activity which evolve
+                                         over the 11-year solar cycle.
+
+                                         As the input for the current Mars's radiation model, we use the GCR spectra as derived from the Badhwar O’Neil
+                                         (BON; O’Neil, 2010) model. It describes the energy loss of GCR particles taking into account diffusion, convec-
+                                         tion, and adiabatic deceleration as they traverse from the outer edge of the heliosphere into the vicinity of Earth.
+                                         We approximate the GCR spectra at Mars similar to those at Earth, as the radial gradient of GCR flux between 1
+                                         AU and 1.5 AU is only in the order of 1%–2% according to multiple spacecraft observations (Honig et al., 2019;
+                                         Roussos et al., 2020).
+
+                                         The BON model uses a so-called solar modulation parameter Φ which is positively correlated with solar activity
+                                         and hence changes under different phases of the solar cycle (Gleeson & Axford, 1968). This practical parameter
+                                         corresponds to the mean electric potential that represents the approximate energy loss of a cosmic ray particle
+                                         coming from the heliospheric boundary into the inner heliosphere. Typical values of Φ range approximately
+                                         from below 400 MV for solar minimum to more than ∼1000 MV for solar maximum. The energy-dependent
+                                         GCR fluxes (grouped into protons, helium ions, and heavier ions) as calculated by the BON model are plotted in
+                                         Figure 1 for both solar minimum and maximum periods.
+
+                                         The most abundant GCR particles including protons, helium ions, and heavier ions of Boron, Carbon, Nitrogen,
+                                         Oxygen, Neon, Magnesium, Silicon, and Iron (B, C, N, O, Ne, Mg, Si, and Fe) are used as primary particles for
+                                         the model input. For each input GCR primary particle type, a total of 125 thousand particles are simulated. Their
+                                         energy ranges from 10 to 10 7 MeV and are divided into 60 energy bins uniformly distributed in logarithmic scale.
+
+
+
+
+ZHANG ET AL.                                                                                                                                         3 of 19
+                                                                                                                                                                            21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Journal of Geophysical Research: Planets                                                            10.1029/2021JE007157
+
+
+
+
+                                                                                (b)
+
+Figure 2. (a) The global map of Mars's surface pressure at zero solar longitude degree (i.e., when the Mars-Sun angle Ls, measured from the Northern Hemisphere
+spring equinox is zero). The white stars mark 6 locations chosen in this study. The surface pressures are about 82, 305, 529, 753, 975, and 1,200 Pa, at local midnight
+(zero Martian hour) for locations 1–6 respectively. The black star marks Gale Crater where MSL/RAD is and its pressure at this time is 868 Pa. (b) The percentage
+distribution of the surface pressure within each 100 Pa between 0 and 1,200 Pa.
+
+
+                                           2.2. The Setup of the Martian Environment
+
+                                           To model the atmospheric environment of Mars, we combine AtRIS with the Mars Climate Database (MCD)
+                                           (Forget et al., 1999) (http://www-mars.lmd.jussieu.fr), which defines the Martian atmospheric properties includ-
+                                           ing the composition (∼95% CO2), density, temperature, and their variation over altitude. The MCD is a database
+                                           of meteorological fields derived from General Circulation Model numerical simulations of the Martian atmos-
+                                           phere and validated using available observational data. The implementation of MCD into AtRIS has been realized
+                                           by Guo, Banjac, et al. (2019) and Röstel et al. (2020) where interested readers can find more details of the setup.
+                                           Both studies set up the Mars atmosphere with a vertical column depth approximating that at Gale crater where
+                                           MSL landed. In this work, we further investigate the influence of the atmospheric thickness which is related to
+                                           different locations at different altitudes on Mars. Figure 2a shows the global surface pressure map at zero solar
+                                           longitude degree. Note that the selection of Mars time is not important while the essential information for our
+                                           model input is the consequent surface pressure which determines the total atmospheric thickness through which
+                                           the particles shall traverse. In this study, we employ six locations with different surface pressure values which
+                                           are 82, 305, 529, 753, 975, and 1,200 Pa as marked in Figure 2a. Figure 2b shows the frequency distribution of
+                                           the surface pressure within each 100 Pa between 0 and 1,200 Pa. As shown, the selected pressures are almost
+
+
+ZHANG ET AL.                                                                                                                                                      4 of 19
+                                                                                                                                            21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+               Journal of Geophysical Research: Planets                                                  10.1029/2021JE007157
+
+
+                  evenly distributed with a gap of about 225 Pa between the minimum and maximum pressures found globally. The
+                  location of Gale crater where MSL/RAD is operating is also marked as a reference. Its surface pressure at this
+                  Martian time is 868 Pa, comparable to what MSL records.
+
+                  For different locations, the Martian surface material is set to be the same and has a composition of 50% O, 40% Si,
+                  10% Fe (mass fraction), and a density of 1.79 g cm −3, which is close to that of silicon dioxide (SiO2). In fact, the
+                  terrain materials on Mars can differ from place to place and the most distinguished feature is the water (hydrogen)
+                  content. NASA's Phoenix mission found evidence indicating thin films of liquid water at the subsurface of its
+                  landing cite (Cull et al., 2010). Recent radar data collected by ESA's Mars Express also indicated the existence of
+                  underground liquid water in the south polar region of Mars (Orosei et al., 2018). However, as we are focused on
+                  the potential influence of the atmospheric thickness on the surface radiation, we keep the terrain properties as a
+                  fixed parameter for different locations. The study of the surface radiation influenced by subsurface material can
+                  be found in Röstel et al. (2020). Their study suggests that when the water (hydrogen) content is low in the soil
+                  (so-called “dry” regoltih), the albedo radiation detected on and under the surface of Mars changes very little as the
+                  soil composition varies and the radiation in the subsurface of Mars mainly depends on the regolith column depth.
+                  Alternatively, the surface radiation, in particular the albedo neutrons in the energy range below a few MeVs, can
+                  be influenced by the hydrogen content in the Martian soil. Therefore, our model setup is representative for a “dry”
+                  terrain and is closet to the Andesite Rock (AR) scenario considered by Röstel et al. (2020, AR mass fraction is
+                  44% O, 27% Si, and 12% Fe).
+
+                  In each scenario of different surface pressure setup, an entire Mars geometry, that is a sphere with a radius of
+                  3,378–3,416 km (depending on the location the distance from the surface to the center of Mars is different), is
+                  implemented with the same reference pressure globally. So, a total of six spherical Martian atmospheric models
+                  are employed as the model setups. Although different locations should in theory have different geographic alti-
+                  tude, the size of the sphere is a trivial parameter for the model setup, as long as the particle flux per area is
+                  scaled correctly. The most important parameter for the model setup is the atmospheric thickness which directly
+                  corresponds to the surface pressure: with a constant value of gravitational acceleration g, the surface pressure is
+                  an exact measure of the column mass given a hydrostatic atmosphere.
+
+                  In each setup, 80 atmospheric altitude layers are spaced evenly in logarithmic scale between altitudes from 0 km
+                  that is on the surface of that location up to 80 km above the location. We checked the atmospheric pressure
+                  variation versus depth in each scenario and found that the pressure at an atmospheric altitude of 80 km is almost
+                  negligible: it is around four orders of magnitude smaller than the surface pressure. This means that the atmos-
+                  phere above 80 km plays a minimal role in the interaction with propagating cosmic rays and the choice of 80 km
+                  of atmospheric depth is more than sufficient for our modeling purpose.
+
+                  The total depth of the regolith in which the particle interaction is simulated is set to be 10 m which has been shown
+                  to be sufficient for all efficient radiation interactions before almost all particles fully stop (Röstel et al., 2020).
+                  Below this depth, particles are not tracked anymore. For detecting the radiation fields in the subsurface, we use
+                  40 layers, spaced evenly in log scale between down to 10 m to record the energy-dependent spectra of various
+                  particle types, such as protons, helium ions, etc.
+
+
+                  2.3. Absorbed Dose, Dose Equivalent and Effective Dose
+
+                  Using the AtRIS model, we can obtain the energy-dependent flux of particles at different layers of the Mars's
+                  environment model defined above (Section 2.2). First we run a full set of simulations of primary GCRs
+                  (Section 2.1) propagating through and interacting with the Martian environment (Section 2.2) for each pressure
+                  setup (Figure 2). The simulation also uses a response-function approach which allows to refold a new input GCR
+                  spectrum with the modeled atmospheric-interaction matrices to obtain the output particle spectra at a certain
+                  layer without rerunning the AtRIS simulation as described in detail in Guo, Banjac, et al. (2019). Based on the
+                  output particle spectra (at a certain layer of the Martian environment), we can then calculate the absorbed dose,
+                  dose equivalent and effective dose generated by a certain output particle spectrum using the energy-dependent
+                  dose conversion factors, as described below.
+
+                  The absorbed dose rate is a key parameter for evaluating the radiation effect of high-energy particles when they
+                  interact with matter. Within a certain environment, absorbed dose is defined as the total energy deposited by
+                  particles per unit material mass, expressed in the unit of J kg −1 (or Gray, or Gy), as energetic particles traverse
+
+
+ZHANG ET AL.                                                                                                                     5 of 19
+                                                                                                                                           21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+               Journal of Geophysical Research: Planets                                                 10.1029/2021JE007157
+
+
+                  through the matter. Dose rate of the same radiation field can be different when considering different material
+                  properties and geometry of the phantoms (Banjac et al., 2019). Two phantoms are employed to calculate the dose
+                  rate induced by the same radiation field: one is a silicon slab phantom with a thickness of 300 μm similar to the
+                  RAD B detector; another is a spherical water phantom with a radius of 15 cm as a rough representation of the
+                  human torso. The former allows a direct comparison of the modeled result with the RAD measurement while the
+                  latter is used to study the potential radiation effect in a human body. At the current iteration of our model, besides
+                  the shielding from the atmosphere and regolith depth, no additional shielding around the phantoms is considered.
+                  At each output layer, dose rate induced by each type of particles is calculated first using precalculated dose func-
+                  tions built into AtRIS and the total dose rate from all output particles in the field are summed up.
+
+                  The biological effect of space radiation cannot be directly characterized by the absorbed dose. The damage in
+                  biological tissue depends on the ionization density along the charged particle track (i.e., linear energy transfer
+                  LET). LET is calculated as L = dE/dx, in units of [keV/μm], as a measure of the energy dE deposited along a
+                  path length of dx. The radiation damage to biological tissues is often characterized with the dose equivalent.
+                  For every part of particle track, the dose equivalent is calculated as absorbed dose multiplied by LET-dependent
+                  quality factor Q(L) (ICRP, 1992). Q(L) is a dimensionless weighing factor and equals 1 for L smaller than 10 keV/
+                  μm; it then increases
+                                     √ linearly following 0.32 L − 2.2 and peaks at LET of 100 keV/μm; for larger L values, Q(L)
+                  decreases as𝐴𝐴 300/ 𝐿𝐿 . The dose equivalent should not be mixed with the equivalent dose which is calculated
+                  multiplying the net absorbed dose by a radiation weighting factor, dependent on particle type and energy. Equiv-
+                  alent dose is established for legal concerns for the purpose of radiation protection and gives a safe (upper) bound
+                  of the biological effectiveness, as defined by the International Commission of Radiation Protection (ICRP, 2010).
+                  For instance, light particles like photons have a weighting factor of 1; protons have a factor of 2 and all heavier
+                  ions have a factor of 20. For the mixed radiation fields in space, the dose equivalent approach is more preferable
+                  and is adopted in this study (ICRP, 2013).
+
+                  The radiation damage to the entire organism is further characterized with the effective dose, which is calculated
+                  as a sum of tissue-weighted dose equivalent values in 15 critical organs (ICRP, 2007), expressed as ∑TwTHT,
+                  where T stands for a certain tissue/organ with wT being the tissue weighting factor and HT being the dose equiva-
+                  lent induced by particles transported to the depth of the organ. The factor wT follows ∑TwT = 1 and is specific for
+                  each organ or tissue of the body and can vary considerably: it is 0.12 for bone marrow, compared to about 0.01
+                  for the brain (ICRP, 2007). The effective dose values are widely used in evaluating the radiation risks in space
+                  and regulating astronauts' professional activity. Here, we adopt the factors for converting flux to effective dose as
+                  calculated and described by Dobynde et al. (2021). We note that above terms of “equivalent dose,” “dose equiv-
+                  alent,” and “effective dose” all have the unit of Sievert [Sv], but their definitions and applications are different
+                  from each other.
+
+                  At a certain layer of the model, absorbed dose, dose equivalent, and effective dose can be simultaneously obtained
+                  using the output particle spectra and the conversion factors as discussed above. Finally, vertical profiles of
+                  absorbed dose, dose equivalent and effective dose above and below the Martian surface can be calculated for
+                  each of the 6 selected locations. The results are presented and discussed in Section 3.
+
+
+                  3. Results and Interpretations
+                  3.1. Martian Surface Dose as a Function of Primary Particle Energy Under Different Pressures
+
+                  With the Martian environment setup as described in Section 2, we calculate the Martian surface absorbed dose
+                  rate in a 15 cm radius water-sphere phantom induced by different primary cosmic particles and the secondaries
+                  generated in Mars's atmosphere and regolith. For a given primary particle energy, we scale the dose rate by
+                  the primary particle flux to highlight the energy-dependent contribution to the surface radiation following the
+                  approach used by Guo, Wimmer-Schweingruber, et al. (2019). Such functions calculated for different primary
+                  particle types under 6 different surface-pressure scenarios (described in Section 2.2) are shown in Figure 3.
+
+                  As clearly shown in Figure 3a, there is an atmospheric cutoff energy below which the primary protons mostly
+                  stop in the atmosphere and have negligible contribution to the surface radiation. This cutoff energy is ∼40 MeV
+                  for 82 Pa and ∼180 MeV for 1,200 Pa, which are complementary with previous results (140–190 MeV for surface
+                  pressures ranging between 700 and 1,000 Pa by Guo, Wimmer-Schweingruber, et al., 2019). Above this cutoff
+                  energy and below ∼1 GeV, the dose function per primary flux decreases as the atmospheric pressure increases
+
+
+ZHANG ET AL.                                                                                                                    6 of 19
+                                                                                                                                                                         21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Journal of Geophysical Research: Planets                                                          10.1029/2021JE007157
+
+
+
+
+                                                       D                                                                E
+
+
+
+
+                                                                                   F
+
+Figure 3. (a) Dose rate (in units of mGy per year) calculated as the absorbed dose in a 15 cm radius water sphere placed on the surface of Mars) per primary flux
+function for protons (b) and Helium ions at different locations on Mars with surface pressures of 82, 305, 529, 753, 975, and 1,200 Pa. Bottom 8 panels show the dose
+rate per primary flux function for 8 kinds of heavy particles (B, C, N, O, Ne, Mg, Si, and Fe) under the scenarios of 82, 753, and 1,200 Pa of surface pressure.
+
+
+                                          due to primary particles loosing more energy as they transverse through more atmosphere. However, at energies
+                                          higher than ∼1 GeV, secondary generations become more frequent due to particle interactions with the atmos-
+                                          phere, via for example, fragmentation and spallation processes. Therefore, the contribution of a highly energetic
+                                          particle to the surface dose is enhanced as the pressure increases (i.e., when the atmospheric is thicker).
+
+                                          Figure 3b–3c show the same functions, but for different primary particles of helium ions and other eight types of
+                                          GCR heavy ions. As the computation takes much longer time for heavy ions, we only calculated three pressure
+                                          scenarios (82, 753, and 1,200 Pa). There are similar trends of energy-dependence and pressure-dependence as
+                                          compared to Figure 3a: atmosphere is efficient at reducing the dose contribution by low-energy particles and
+                                          slightly enhancing the contribution by high-energy particles. The cutoff energy increases from ∼60–200 MeV
+                                          for primary protons to ∼10–30 GeV for primary iron ions. The exact value of the cutoff energy depends on the
+                                          modeled surface pressure with a higher pressure correspond to a higher cutoff.
+
+
+
+ZHANG ET AL.                                                                                                                                                   7 of 19
+                                                                                                                                          21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+               Journal of Geophysical Research: Planets                                                 10.1029/2021JE007157
+
+
+                  The primary spectra of free space GCR or SEP particles can be used to fold with these functions shown in
+                  Figure 3 to obtain the surface dose rate. The primary spectra in units of particles ⋅ sr −1 cm −2 s −1 MeV −1 will be
+                  first binned according to the energy bins of these functions (Section 2.1) and then folded (i.e., multiply bin by
+                  bin) with the functions. Finally, the total induced dose rate by certain given primary spectra is the integrated sum
+                  of the folded function (Guo, Wimmer-Schweingruber, et al., 2019). The above procedure can quickly render the
+                  expected radiation on Mars without running the full Monte Carlo simulation. In fact, for each pressure setup, we
+                  have also calculated such functions for all 80 layers in the atmosphere and the 40 layers in the subsurface of Mars
+                  and for the second phantom (the silicon slab).
+
+                  Figure 4 demonstrates an example of the application of the functions shown in Figure 3 folded with the input
+                  GCR spectra which are generated by the BON model with a solar modulation of 580 MV representing a medium
+                  solar activity condition. The curves generally peak at about a few hundreds of MeV/nuc meaning GCRs around
+                  this energy contribute most significantly to the surface radiation. Due to the atmospheric shielding of low-energy
+                  particles, the peak shifts toward higher energy when the atmosphere is thicker.
+
+                  For each particle type and pressure condition, we also shaded the areas within which the GCRs and their second-
+                  aries contribute 98% to the total dose. In other words, below the lower boundary E1% (or above the upper bound-
+                  ary E99%) of this area, the contribution to the surface dose by these primary particles is only 1%. We have listed
+                  the values of E1% and E99% for different GCRs under 3 different pressure conditions shown in Table 1. These
+                  values and the corresponding energy ranges can be considered as the most critical energy range to include when
+                  modeling the GCR-induced radiation on the surface of Mars. Alternatively, primary particles outside this energy
+                  range could be ignored when modeling the GCR radiation on Mars. It is important to note that with a significantly
+                  different input spectrum such as that from a SEP event, one should not consider these values being same anymore.
+
+
+                  3.2. Contribution by GCR Protons and Helium Ions (Z ≤ 2)
+
+                  As protons and helium ions are the main constituents of the GCR particles (Simpson, 1983) (Section 1), we first
+                  quantify their contribution to the Martian radiation environment under different pressure scenarios. For each of
+                  the six pressure scenarios, dose rates are calculated in two different phantoms (a 300 μm-thick silicon slab and a
+                  15 cm radius water sphere) as explained in Section 2.3. The primary GCR spectra are generated from the BON
+                  model with a solar modulation parameter of 580 MV which eases the comparison of our result with previous
+                  models and measurements under similar solar conditions as discussed later.
+
+                  Figure 5 shows the absorbed dose rate induced by primary protons (dotted lines) and helium ions (dashed lines)
+                  recorded in the silicon slab and the sum of them (solid lines) for six surface pressure scenarios (shown by different
+                  colors). Note that the secondaries generated by the primary protons (or helium ions) in the Martian environment
+                  that contribute to the absorbed dose are also counted and scored as the contribution by primary protons (or helium
+                  ions).
+
+                  As shown, the absorbed dose rate contributed by primary helium ions and their secondaries hardly changes with
+                  the depth in the atmosphere, but quickly decreases in the regolith and becomes negligible at depth below ∼3 m.
+                  The fact that the dose-depth profile does not change in the atmosphere is a result of the balance between the
+                  generation of secondaries and the stopping (or reduction) of primary helium ions. Alternatively, the absorbed
+                  dose rate contributed by primary protons and their generated secondaries increases as the atmosphere thickens.
+                  The dose rate at the top of the atmosphere around 70 km is about ∼28 mGy/year for all six scenarios and the dose
+                  rate on the surface is between 30 and 40 mGy/year with larger values for higher surface pressures. In other words,
+                  the dose-depth profile increases more significantly for surface pressure of 1,200 Pa (a thicker atmosphere) than
+                  82 Pa. The change trend of the summed dose rate versus atmospheric depth is similar to that of protons as the
+                  contribution of GCR protons is much greater than that of helium ions. A maximum is reached at a depth of several
+                  centimeters to decimeters beneath the surface, below which the absorbed dose rate decreases with increased
+                  depth. The presence of this peak is more visible for low-pressure scenarios (82 and 305 Pa) and the location of
+                  the peak depends on the surface pressure (i.e., atmospheric depth) and becomes deeper with a smaller surface
+                  pressure. While below ∼0.5 m in the subsurface, the dose-depth profiles are very similar for different pressure
+                  scenarios: dose rate decreases monotonously with depth and converges to zero at about 5 m for all cases.
+
+                  On the surface of Mars with a pressure of about 753 Pa (close to that at Gale crater where MSL/RAD operates),
+                  the absorbed dose rate contributed by GCR protons and helium ions and their secondaries is about 50 mGy/year
+
+
+ZHANG ET AL.                                                                                                                   8 of 19
+                                                                                                                                                                              21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                     Journal of Geophysical Research: Planets                                                             10.1029/2021JE007157
+
+
+
+
+                                                        D                                                                 E
+
+
+
+
+                                                                                   F
+
+Figure 4. (a)Surface dose rate (calculated as the absorbed dose in a 15 cm radius water sphere) versus Galactic cosmic ray energy for protons, (b) Helium ions,
+and (c) 8 kinds of heavy particles at different locations on Mars with different surface pressures. Solid lines in different colors represent the functions for different
+surface pressures: red line for 82 Pa, green line for 753 Pa, and blue line for 1,200 Pa. The horizontal spanning of the shaded areas represents the energy range which
+contributes 98% to the total dose. The vertical dotted line marking the left (or right) edge of each shaded area corresponds to the energy at which only 1% of the
+contribution is from particles below (or above) this energy.
+
+
+                                           in the silicon-slab phantom. Considering that the contribution by heavier ions will add another ∼10% contribution
+                                           (Section 3.3), this agrees well with the RAD-measured surface dose rate which is about 58 ± 5 mGy/year in the
+                                           silicon detector under an average solar modulation parameter of about 580 MV during the first 300 sols after
+                                           landing of MSL (Hassler et al., 2014). This is a good benchmark of the setup of the current model.
+
+                                           Figure 6 further shows the absorbed dose rate in the 15 cm radius water-sphere phantom which approximates
+                                           a human torso. The general depth profiles in Figure 6a are similar to those shown in Figure 5, but for a given
+                                           pressure/layer, the absorbed dose in the water phantom is slightly larger than the absorbed dose in the silicon slab
+                                           and this is mainly attributed to the different ionization potential of silicon and water. The dose-depth profiles
+                                           generally increases with the atmospheric depth, but slower than the trend shown in Figure 5. The reason is that
+
+
+ZHANG ET AL.                                                                                                                                                        9 of 19
+                                                                                                                                                                            21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                  Journal of Geophysical Research: Planets                                                              10.1029/2021JE007157
+
+
+
+Table 1                                                                           low-energy secondaries or primaries contributing to the increase of the sili-
+Below E1% (or Above E99%), Only 1% of the Given Galactic Cosmic Rays              con dose can be more easily shielded by the larger water-sphere phantom
+(GCRs), and Their Induced Secondaries Contribute to the Surface Dose              whose outer part can serve for self shielding against low-energy particles.
+Rate, That Is, the Boundary Energies Marked by the Shaded Areas in                We also show in Figure 6b the same absorbed dose rate as in (a), but with the
+Figure 4
+                                                                                  atmospheric height and soil depth expressed as accumulated column mass.
+                  E1% (MeV/nuc)                       E99% (MeV/nuc)              This is to show that despite of the larger differences between the profiles as
+GCR       82 Pa     753 Pa     1,200 Pa       82 Pa       753 Pa    1,200 Pa      a function of height/depth, the profiles are much more similar when consid-
+                                                                                  ering the accumulated column mass combining the atmosphere and the soil.
+H          128        237         292        69,230      110,892     140,249
+                                                                                  In other words, with a thinner atmosphere, particles go deeper into the soil
+He          97        203         249        35,895      59,189        76,425
+                                                                                  while with a thicker atmosphere, particles penetrate less deep.
+B          141        300         356        18,159      27,983        35,002
+                                                                                  The dose-depth profiles shown in Figures 5 and 6 under a surface pressure of
+C          144        312         363        38,665      71,304        95,174
+                                                                                  753 Pa are very comparable with previous calculations (Röstel et al., 2020;
+N          155        321         372        24,053      43,508        54,874
+                                                                                  Figure 2) based on a slightly different surface pressure (781 Pa) and subsur-
+O          160        330         386        41,877      85,542      114,177      face compositions (the ones categorized as “dry” regolith similar to what is
+Ne         178        350         395        31,920      65,474        88,119     used here). This is another good validation of the model used in this study.
+Mg         191        376         418        35,701      76,751      103,154
+Si         206        398         433        39,349      86,844      115,595      3.3. Contribution by GCR Heavy Ions (Z > 2)
+Fe         266        493         492        35,984      78,652        98,109
+                                                                                  Despite of their low frequency in GCRs, heavy ions can contribute to the
+Note. The solar modulation condition represents medium solar activities with      dose rate and even more significantly to the LET weighted dose equivalent
+Φ = 580 MV as the Badhwar O’Neil model input.
+                                                                                  as introduced in Section 2.3. As the interaction with the atmosphere depends
+                                                                                  on particle energy and charge and also on the atmospheric density (which is
+                                                                                  related to depth), the contribution of heavy ions (Z > 2) to the Martian radia-
+                                                                                  tion environment is evaluated for different pressure scenarios in this section.
+
+
+
+
+                                          Figure 5. The absorbed dose rate in the silicon-slab phantom induced by primary Galactic cosmic ray protons and their
+                                          secondaries (dotted lines) and helium ions and their secondaries (dashed lines) under six different surface pressures (82, 305,
+                                          529, 753, 975, and 1,200 Pa, as indicated in different colors). The absorbed dose rates summed up for both are shown in solid
+                                          lines. The solar modulation condition represents medium solar activities with Φ = 580 MV as the Badhwar O’Neil model
+                                          input.
+
+
+ZHANG ET AL.                                                                                                                                                    10 of 19
+                                                                                                                                                                         21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Journal of Geophysical Research: Planets                                                          10.1029/2021JE007157
+
+
+
+
+Figure 6. (a) The same as Figure 5, but the absorbed dose rates are calculated in a 15 cm radius water sphere phantom. (b) The same absorbed dose rate as in (a), but
+the atmospheric height and soil depth are expressed as accumulated column mass.
+
+
+                                          We modeled the transport of eight different types of GCR heavy ions through the Martian environment under
+                                          three surface atmospheric pressures which are 82, 753, and 1,200 Pa. Figure 7 shows the absorbed dose rate in
+                                          the water-ball phantom induced by GCR heavy ions and their secondaries generated in the atmosphere. The dose
+                                          rate contributed by all modeled GCR heavy ions as a function of atmospheric altitude and soil depth is shown by
+                                          dashed lines for each pressure scenario in the right panel of the figure. The total dose rates plus the contribution
+                                          by GCR protons and helium ions are shown by solid lines. Previously in Figures 5 and 6, we showed that the
+                                          proton and helium primary GCR induced surface dose rate increases with surface pressure. Here, with the inclu-
+                                          sion of heavy ions, the total dose rate slightly decreases as the surface pressure increases which is in qualitative
+                                          agreement with the observations by MSL/RAD (Guo, Zeitlin, et al., 2017; Rafkin et al., 2014). Modeled results
+                                          suggest that the underlying cause of the observed atmospheric effect on surface dose is the fragmentation of
+                                          heavy ions in the atmosphere; as atmospheric depth increases, a decreasing share of heavy ions survive transport
+                                          to the surface intact.
+                                          To better illustrate the heavy ion contribution and its dependence on the atmospheric thickness, we calculate the
+                                          ratio of the heavy ion dose rate to the total dose rate. At the surface, this ratio is about 16%, 9.5%, and 8% under
+                                          the surface pressure of 82, 753, and 1,200 Pa, respectively. As it would be interesting to deduce how this ratio
+                                          changes with the shielding depth and in particular surface pressure, we linearly interpolate the ratios over differ-
+                                          ent surface pressures as plotted in the left half of Figure 7.
+
+                                          As shown, for a given surface pressure setup (a fixed column), the ratio of heavy ion contribution decreases with
+                                          increasing atmospheric depth since heavy ions are more likely to interact with the atmosphere and fragment
+                                          during their propagation. For the same reason, at a given altitude (a fixed row), the ratio decreases as the surface
+                                          pressure increases. On the surface, this ratio is (12 ± 4)% for different pressures within the range considered here,
+                                          that is, 82–1,200 Pa. The 15% and 10% contours are also plotted to better demonstrate the heavy ion contribution
+                                          and its dependence on the atmospheric conditions.
+
+                                          We further derived the dose equivalent rate (see definition and method in Section 2.3) induced by GCR light
+                                          ions (Z ≤ 2), heavy ions (Z > 2) and the total sum. Figure 8 shows the dose equivalent results following the same
+                                          plotting manner of Figure 7 in order to demonstrate the contribution by heavy ions to dose equivalent. In general,
+                                          this ratio is slightly higher than the dose ratio shown in Figure 7 since dose equivalent is LET weighted to which
+                                          heavy ions have a larger contribution than to dose (ICRP, 1992). Similar to the dose ratio, the heavy ion contri-
+                                          bution to dose equivalent decreases with increasing depth (at a fixed column) and with increasing atmospheric
+                                          pressure (at a fixed row).
+
+
+ZHANG ET AL.                                                                                                                                                  11 of 19
+                                                                                                                                                                     21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Journal of Geophysical Research: Planets                                                      10.1029/2021JE007157
+
+
+                                                                                  On the surface of Mars, the dose equivalent rate contributed by GCR heavy
+                                                                                  ions and their secondaries generated in the atmosphere is slightly smaller
+                                                                                  than ∼20% for all the pressure conditions and smaller than ∼10% for surface
+                                                                                  pressure higher than 700 Pa, as shown by the contours. At the subsurface of
+                                                                                  Mars and below ∼7 cm, this ratio is smaller than 10% for also low-pressure
+                                                                                  scenarios.
+
+                                                                                  The total dose equivalent rate (solid lines) has its depth profile peaking at
+                                                                                  about 30–40 cm below the surface, similar to the equivalent dose results
+                                                                                  shown by (Röstel et al., 2020; Figure 6). It is evident that this feature is not
+                                                                                  driven by the contribution of heavy ions or their secondaries (dashed lines)
+                                                                                  which do not show a peak in the subsurface. In fact, the enhancement of
+                                                                                  dose equivalent rate in the subsurface is mainly caused by the generation of
+                                                                                  secondary neutrons (primarily induced by GCR protons) which reach a peak
+                                                                                  at the shielding depth of 60–70 g/cm 2 (including the vertical atmospheric
+                                                                                  thickness). This is comparable to the peak flux present in Earth's atmos-
+                                                                                  phere at a height of about 20 km (or 50 g/cm 2 of vertical column depth) at
+                                                                                  polar regions (e.g., Mertens et al., 2016). More discussions on the second-
+                                                                                  ary neutrons generated in the Martian environment are presented in the next
+                                                                                  section.
+
+
+                                                                                  3.4. Secondary Neutrons and Their Contribution to Radiation
+
+Figure 7. Right panels: The absorbed dose rate in the water-ball phantom       In contrast to charged particles, neutrons do not undergo ionization energy
+induced by primary Galactic cosmic ray (GCR) heavy ions and their              loss and penetrate through matter easily to induce secondary particles. In
+secondaries (dashed lines) under three different surface pressures which       particularly those in the “fast” energy range on the order of MeV, where
+are 82, 753, and 1,200 Pa (indicated in different colors) as a function of the their biological weighting factors are large (e.g., ICRP, 2012). Therefore,
+atmospheric altitude and subsurface depth. The total absorbed dose rates
+including also the contribution by primary protons and helium ions and
+                                                                               secondary neutrons generated in the Martian environment are of consider-
+their secondaries (as plotted in Figure 6) are shown by solid lines. The solar able concern from the perspective of radiation damage and are an important
+modulation condition represents medium solar activities with Φ = 580 MV as     factor to evaluate for radiation protection using Martian surface materials. In
+the input for Badhwar O’Neil model. Left panels: The proportion of the dose    order to validate the secondary neutron flux modeled by AtRIS, we compare
+rate contributed by GCR heavy ions to the total dose rate for three different  our modeled surface neutron spectra as generated by GCR light and heavy
+pressure scenarios and the interpolated values as a function of the atmospheric
+altitude and subsurface depth.
+                                                                               ions with the spectra derived from MSL/RAD measurements under similar
+                                                                               solar modulation conditions (Guo, Slaba, et al., 2017), as shown in Figure 9a.
+                                                                               For the pressure closest to that at Gale crater where MSL/RAD operates, that
+                                          is, the orange line of 753 Pa, the modeled spectra and the measurement-based spectra generally agree with each
+                                          other within 50% for energies below a few hundreds of MeV. However, the details of the spectra are not always
+                                          matching. Here, it is important to note that the MSL/RAD neutron spectrum is not a direct measurement, but uses
+                                          the modeled detector response functions to invert the measured histogram into expected neutron flux reaching the
+                                          RAD detector (Köhler et al., 2014). Various uncertainties propagate through the inversion procedure, such as the
+                                          overflow problem in the last few bins caused by particles with incident energies larger than 1 GeV not considered
+                                          in the detector response simulations but detected in real experiment. Overall, we are content with this validation
+                                          as similar levels of agreement were also detected in earlier studies comparing various modeled neutron spectra
+                                          with MSL/RAD results (Matthiä et al., 2017; Figure 1).
+
+                                          As discussed earlier, the enhancement of secondary neutrons is mainly responsible for the peak of dose equivalent
+                                          rate in the subsurface of Mars. To verify this, we plot the neutron flux at a few atmospheric and regolith depths
+                                          as shown in Figure 9b. Comparing the neutron spectra at different depths in the model with a fixed surface pres-
+                                          sure of 753 Pa, we found that the neutron flux at a subsurface depth around 30 cm is larger than that at a smaller
+                                          depth or at a larger depth. This peak is consistent with the total dose equivalent peak at around −30 cm shown
+                                          in Figure 8.
+
+                                          The energy-dependent conversion factors for calculating neutron-contributed dose equivalent in a 15 cm water
+                                          phantom and the organ-weighted body effective dose are plotted in Figure 9c (see Section 2.3 for more details
+                                          of their definitions). The function values at different energies can be about three orders of magnitude different.
+                                          Both functions show similar trends of energy-dependency peaking around 30 MeV. There is <∼30% differences
+
+
+ZHANG ET AL.                                                                                                                                             12 of 19
+                                                                                                                                                                     21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Journal of Geophysical Research: Planets                                                      10.1029/2021JE007157
+
+
+                                                                                 between the two functions at 1–30 MeV energy range, mainly due to body
+                                                                                 shielding of organs within the body and different tissue-weighting factors of
+                                                                                 the effective dose.
+
+                                                                                 Figure 10 shows the depth-dependence of the total effective dose and the
+                                                                                 contribution by secondary neutrons generated in the Martian environment. It
+                                                                                 shows that on the Martian surface the neutron contribution is around 50% and
+                                                                                 above 80% below ∼50 cm of the subsurface. This highlights the significant
+                                                                                 contribution of neutrons to the potential radiation risk of future astronauts on
+                                                                                 Mars, especially when more shielding material is present.
+
+                                                                                 We note that the neutron contribution to the total effective dose is around 50%
+                                                                                 while the MSL/RAD measures about 5% contribution by neutrons to the total
+                                                                                 dose rate in the plastic detector (Guo et al., 2021). To understand this discrep-
+                                                                                 ancy, we need to keep in mind that dose and effective dose are defined and
+                                                                                 derived differently. The RAD measurements give the absorbed dose while
+                                                                                 the effective dose is derived based on LET-weighted dose equivalent and
+                                                                                 the tissue-weighting factors (Section 2.3) (ICRP, 2007). We further calculate
+                                                                                 the ratio of the neutron contribution to total dose in water at the surface of
+                                                                                 Mars which are about 4%, 8%, and 9% with a surface pressure of 82, 753, and
+                                                                                 1,200 Pa. At 753 Pa which is comparable to the atmospheric environment for
+                                                                                 MSL/RAD, the calculated ∼8% contribution to dose is in agreement with the
+                                                                                 data-based 5% given that measurement has a limited energy range (between
+                                                                                 dashed lines in Figure 9b). Besides, the difference may also be attributed to
+Figure 8. The same as Figure 7, but for dose equivalent rate in the water-ball
+                                                                                 different phantom geometry, detector housing, detection threshold, etc.
+phantom.
+
+                                                                                 3.5. The Overall Dependence on Solar Modulation and Atmospheric
+                                                                                 Condition
+
+                                                                               Now we discuss the total dose equivalent and body effective dose as a func-
+                                                                               tion of the atmospheric altitude and subsurface depth and the influence of the
+                                          solar modulation conditions. As described earlier, for heavy GCR ions, only three atmospheric pressure setups
+                                          have been modeled due to limited computational power. Nevertheless, we obtained their contribution to the total
+                                          dose equivalent or effective dose under six different pressure conditions using the interpolation method (e.g.,
+                                          Figure 8). This allows us to calculate the total dose equivalent or effective dose including both light and heavy
+                                          GCR ions under all 6 pressure conditions. The results of the body effective dose are plotted in Figure 11 which
+                                          shows that solar modulation has a strong influence with enhanced radiation level under weaker solar activities.
+                                          The atmospheric effect alone in comparison is much weaker. On the surface of Mars, the total annual effective
+                                          dose is about 120 and 250 mSv for solar maximum and minimum conditions respectively; the total annual dose
+                                          equivalent (not plotted here, but can be found in Figure 8 for Φ = 580 MV) is about 20% larger than effective dose
+                                          under a given solar and atmospheric condition.
+
+                                          Both effective dose and dose equivalent rates are smaller than the equivalent dose rate calculated by Röstel
+                                          et al. (2020) mainly due to the different definition of equivalent dose. It has been established for legal concerns
+                                          for the purpose of radiation protection and thus gives an upper bound of the biological effectiveness.
+
+                                          The surface dose equivalent results calculated in our work are comparable to some previous modeling works.
+                                          Matthiä et al. (2017; Figure 7) showed the total annual dose equivalents from different models (e.g., MCNP,
+                                          HZETRN, and GEANT4) mostly between 190 and 210 mSv under a medium solar modulation condition, which
+                                          are consistent with the total surface dose equivalent rate shown in Figure 8. Recently, Da Pieve et al. (2021, Table
+                                          3) calculated the annual dose equivalents to be about 130 and 230 mSv for solar maximum and minimum condi-
+                                          tions, respectively. Considering that they have ignored the contribution by GCR heavy ions (Z > 2) and have used
+                                          different particle transport models and Mars environment setups, our calculations are in acceptable agreement
+                                          with theirs.
+
+
+
+
+ZHANG ET AL.                                                                                                                                             13 of 19
+                                                                                                                                               21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+               Journal of Geophysical Research: Planets                                                     10.1029/2021JE007157
+
+
+
+
+                  Figure 9. (a) The modeled surface neutron spectra under different pressure conditions compared to the inverted neutron
+                  spectra based on MSL/RAD measurements (Guo, Zeitlin, et al., 2017). (b) The modeled neutron spectra at different depths of
+                  the model (−5 m, −30 cm in the subsurface, on the surface and at 70 km height in the atmosphere) with the surface pressure
+                  of 753 Pa. (c) The energy-dependent conversion factors for calculating dose equivalent and effective dose from neutrons.
+                  Dashed lines in the bottom panels show the energy range for panel (a).
+
+
+                  Moreover, the dose equivalent and effective dose rates on the surface of Mars are comparable to the dose equiv-
+                  alent rate derived from MSL/RAD measurements which is about ∼110 and ∼310 mSv/year for solar maximum
+                  and minimum conditions, respectively (Guo et al., 2021, Table 2).
+
+
+                  3.6. Subsurface Shielding Capability and Recommendations of Shielding Depth
+
+                  Finally, based on the total body effective dose calculated in this work, we discuss the subsurface shielding capa-
+                  bilities and derive the required shielding depths for potential habitats on Mars. The middle panel of Figure 11
+                  shows that above ∼0.4 m of the subsurface layers, the total body effective dose slightly increases and reaches a
+                  peak around this depth. Further below ∼0.4 m and for all conditions, effective dose decreases continuously with
+                  increasing depth.
+
+                  Recently, the US National Academies have proposed a limit of 600 mSv as a career limit for astronauts (National
+                  Academies of Sciences, Engineering, and Medicine, 2021): “An individual astronaut's total career effective radi-
+                  ation dose attributable to spaceflight radiation exposure shall be less than 600 mSv. This limit is universal for
+                  all ages and sexes.” As an example of reference, in Canada, the effective dose limits for the public is 1 mSv in
+                  one calendar year (CNSC, 2000); for nuclear energy workers, the limit is 50 mSv for 1-year dosimetry period.
+
+
+ZHANG ET AL.                                                                                                                       14 of 19
+                                                                                                                                                                     21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                    Journal of Geophysical Research: Planets                                                      10.1029/2021JE007157
+
+
+                                                                                  Bearing a lot controversial arguments, a traditional consideration based on
+                                                                                  epidemiological data is that increased lifetime cancer becomes evident when
+                                                                                  the annual dose intake is above 100 mSv (Brenner et al., 2003). Considering
+                                                                                  these levels of annual effective dose as indicated by the vertical dotted lines,
+                                                                                  purple line for 100 mSv/year and cyan line for 50 mSv/year, we can derive
+                                                                                  the required shielding depth under different pressure and solar modulation
+                                                                                  conditions, as shown in the bottom panel. As expected, given a fixed surface
+                                                                                  pressure, a stronger solar modulation results in decreased GCR flux and less
+                                                                                  required shielding depth. When the solar modulation is the same, a slightly
+                                                                                  larger shielding depth is required in the case of lower surface pressures. For
+                                                                                  example, the shielding depth required under a surface pressure of 82 Pa is
+                                                                                  about 10–20 cm greater than that under a surface pressure of 1,200 Pa.
+
+                                                                                  As discussed earlier, the equivalent dose could be an overestimation of the
+                                                                                  biological effectiveness, especially for heavy ions. Thus the equivalent dose
+                                                                                  values obtained by Röstel et al. (2020) on the surface of Mars are considerably
+                                                                                  larger than the effective dose values calculated in this work. However when
+                                                                                  comparing the required shielding depth with a threshold of 100 mSv/year, the
+                                                                                  results obtained here, ∼1.5 m, are similar to the results calculated for the AR
+                                                                                  scenario in Röstel et al. (2020) (Our Martian regolith setup is closet to the
+                                                                                  AR scenario). The reason that the discrepancy between the equivalent dose
+                                                                                  and effective dose values decreases with depth is due to the enhancement of
+                                                                                  neutrons with increased shielding (Figure 10). Since the functions for calcu-
+Figure 10. Right panels: The total body effective dose rate induced               lating neutron-induced equivalent dose and effective dose are similar, the
+by Galactic cosmic rays and their secondaries generated in the Martian            difference between these two values becomes smaller. Our study of the opti-
+environment under three different surface pressures which are 82, 753,            mized shielding depth supports the previous results by Röstel et al. (2020).
+and 1,200 Pa (solid lines indicated in different colors) as a function of the
+atmospheric altitude and subsurface depth. The body effective dose rate
+contributed by secondary neutrons are plotted in dashed lines. The solar
+modulation condition represents medium solar activities with Φ = 580 MV           4. Summary and Conclusion
+as the input for Badhwar O’Neil model. Left panels: The proportion of
+the effective dose rate contributed by neutrons for three different pressure   In order to better understand the Martian radiation environment and its
+scenarios and the interpolated values as a function of the atmospheric altitudedependence on the planetary atmospheric depth, which is a quantity that
+and subsurface depth.                                                          differs vastly at different locations on Mars, we evaluate the Mars radiation
+                                                                               levels at varying heights above and below the Martian surface considering
+                                                                               various surface pressures using the state-of-the-art GEANT4/AtRIS code.
+                                           Six different atmospheric thicknesses are implemented: the largest column depth is selected for a low altitude
+                                           at Hellas Planitia with about 1,200 Pa of surface pressure, while the lowest pressure is about 80 Pa for Olympus
+                                           Mons. Three quantities are derived and discussed: absorbed dose, dose equivalent, and body effective dose. The
+                                           former is a direct physical measure while the latter two are biologically weighted radiation quantities. Two differ-
+                                           ent phantoms are used for evaluating the absorbed dose: a 300 μm-thick silicon slab and a 15 cm-radius water
+                                           sphere. Besides, we have compared the modeling results with previous calculations and in situ measurements by
+                                           MSL/RAD and found good agreements which serve as a validation of our model.
+
+                                           In Section 3.1, we obtained the Martian surface dose as a function of primary particle energy under different
+                                           pressures. These functions (Figures 3 and 4) nicely show that low-energy particles can be effectively shielded by
+                                           a thicker atmosphere while meantime high-energy particles have an enhanced contribution to the surface dose.
+                                           We also estimated the energy range which contributes 98% to the total dose on Mars for different primary particle
+                                           types under different surface pressures (Table 1).
+
+                                           In Sections 3.2, 3.3, and 3.4, we showed the relative contribution to the three radiation quantities by different
+                                           GCR primary types (protons, helium ions, and heavy ions) and by secondary neutrons, as a function of shielding
+                                           depth and surface pressures. In case of absorbed dose rate, primary proton- and helium ion-induced radiation
+                                           has the largest contribution: >80% in the upper atmosphere and ∼90% on the surface (Figure 7). Consequently,
+                                           heavy ions and their secondaries contribute about 10% to the surface dose and even less in the subsurface layers.
+                                           But their contribution to the dose equivalent is slightly larger in comparison which is nearly 20% on the surface
+
+
+
+ZHANG ET AL.                                                                                                                                             15 of 19
+                                                                                                                                                   21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+               Journal of Geophysical Research: Planets                                                         10.1029/2021JE007157
+
+
+
+
+                  Figure 11. Top and Middle: The total body effective dose rate induced by Galactic cosmic rays (light and heavy ions) and
+                  their secondaries generated in the Martian environment as a function of the atmospheric altitude and subsurface depth.
+                  Results from different surface pressures and various solar modulation conditions are differentiated by line styles and colors.
+                  Bottom: Required shielding depth to keep the annual effective dose within certain levels (magenta for 100 mSv and cyan for
+                  50 mSv) under various surface pressure and solar modulation conditions.
+
+
+                  of Mars (Figure 8). In general, the contribution by heavy ions decreases with increased shielding and surface
+                  pressure.
+
+                  In particular, neutrons generated by primary GCRs in the atmosphere have interesting features. Although they
+                  only contribute a few percent to the absorbed dose on Mars's surface, they are of considerable importance for dose
+                  equivalent and effective dose especially when the shielding depth is large. We found that neutrons are responsi-
+                  ble for the peak of the dose equivalent or effective dose at the subsurface depth at 30–40 cm (Figure 10). This
+                  highlights the importance of carefully examining the neutron spectra and efficiently reducing the neutron flux for
+                  providing a better shielding environment of future human habitats on Mars.
+
+                  It has long been argued that astronauts could make use of natural geological structures, such as cave skylights
+                  (Cushing et al., 2007) or lava tubes (Léveillé & Datta, 2010) as radiation shelters on Mars (Dartnell et al., 2007;
+                  Kim et al., 1998; Röstel et al., 2020; Simonsen et al., 1990). This would be part of a larger strategy of in situ
+                  resource utilization (Starr & Muscatello, 2020). Recently, the quantification of this shielding effectiveness and
+                  the required shielding depth has been investigated by Röstel et al. (2020) focusing on the potential influence of
+                  subsurface compositions (ranging from dry rock to water-rich regolith). They found that the amount of hydrogen
+                  contained in the water-rich regolith plays an important role in reducing the equivalent dose through modulation
+                  the flux of neutrons below 10 MeV.
+
+                  Considering that Mars has many high mountains and low-altitude craters, the atmospheric thickness can be
+                  more than 10 times different from one another. Therefore, we studied the potential influence of the atmospheric
+                  thickness on the surface and subsurface radiation environment. Based on the calculated body effective dose, we
+                  estimate the required regolith shielding depth given the annual threshold of 100 mSv or 50 mSv (Figure 11) as
+                  shown in Section 3.6. Overall, the atmospheric thickness is not a dominant parameter for the required shielding.
+
+
+ZHANG ET AL.                                                                                                                            16 of 19
+                                                                                                                                                                                                  21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                                      Journal of Geophysical Research: Planets                                                                         10.1029/2021JE007157
+
+
+                                          However, at a low-altitude crater where the surface pressure is above 1,000 Pa, the required subsurface shielding
+                                          is about 10–20 cm less than at the top of high mountains where the pressure is below 100 Pa. Moreover, solar
+                                          activities which determine the GCR flux arriving at Mars play an role. To reduce the annual effective dose to be
+                                          below 100 mSv, the required shielding is 1.5–1.6 m during solar minimum and 0.9–1.1 m during solar maximum.
+                                          For a threshold of 50 mSv, the required shielding is 2.1–2.2 m during solar minimum and 1.7–1.9 m during solar
+                                          maximum. We should also note that if the regolith shielding is not sufficient, it may be counter-productive due
+                                          to the large biological effect of enhanced secondary neutrons. The effective dose can be larger than that on the
+                                          surface of Mars and it peaks at a subsurface depth of 30–40 cm. Although this depth is different for different
+                                          scenarios considered, the total column depth including both the atmospheric thickness and the regolith depth is
+                                          almost the same in different cases, that is, 65 g/cm 2. This also means that particles penetrate deepest into the soil
+                                          with lowest atmospheric pressure and less deep under higher pressures. This is an important concern for seeking
+                                          the Martian natural surface material as protection for future habitats on Mars.
+
+
+                                          Conflict of Interest
+                                          The authors declare no conflicts of interest relevant to this study.
+
+
+                                          Data Availability Statement
+                                          This current version of the Atmospheric Radiation Interaction Simulator (AtRIS) can be accessed in Banjac (2019).
+                                          The installation and implementation instructions are further detailed (at this page: https://et-wiki.physik.uni-kiel.
+                                          de/atris/atris). The data underlying all the figures can be found in Zhang and Guo (2022).
+
+
+Acknowledgments                           References
+The authors thank the two anonymous
+reviewers for their time and effort in    Agostinelli, S., Allison, J., Amako, K., Apostolakis, J., Araujo, H., & Arce, P. (2003). GEANT4: A simulation toolkit. Nuclear Instruments &
+helping us to improve this paper. The       Methods in Physics Research, Section A, 506(3), 250–303. https://doi.org/10.1016/S0168-9002(03)01368-8
+authors acknowledge the support by        Banjac, S. (2019). Atmospheric radiation interaction simulator (atris) (this current version is a frozen one based on the update on 2019-06-12.
+the Strategic Priority Program of the       Retrieved from https://gitlab.physik.uni-kiel.de/et/atris
+Chinese Academy of Sciences (Grant No.    Banjac, S., Berger, L., Burmeister, S., Guo, J., Heber, B., Herbst, K., & Wimmer-Schweingruber, R. (2019). Galactic cosmic ray induced absorbed
+XDB41000000), the National Natural          dose rate in deep space-accounting for detector size, shape, material, as well as for the solar modulation. Journal of Space Weather and Space
+Science Foundation of China (Grant Nos.     Climate, 9, A14. https://doi.org/10.1051/swsc/2019014
+42074222, 42130204, 42188101), the        Banjac, S., Herbst, K., & Heber, B. (2018). The atmospheric radiation interaction simulator (AtRIS) - Description and validation. Journal of
+Key Research Program of the Chinese         Geophysical Research: Space Physics, 123, 50–67. https://doi.org/10.1029/2018JA026042
+Academy of Sciences (Grant No.            Brenner, D. J., Doll, R., Goodhead, D. T., Hall, E. J., Land, C. E., Little, J. B., et al. (2003). Cancer risks attributable to low doses of ionizing
+ZDBS-SSW-TLC00103), and the CNSA            radiation: Assessing what we really know. Proceedings of the National Academy of Sciences, 100(24), 13761–13766. https://doi.org/10.1073/
+pre-research Project on Civil Aerospace     pnas.2235592100
+Technologies (Grant No. D020104). Open    CNSC. (2000). Radiation protection regulations SOR 2000-203. Retrieved from https://laws-lois.justice.gc.ca/eng/regulations/SOR-2000-203/
+access funding enabled and organized by     FullText.html
+Projekt DEAL.                             Cucinotta, F. A., & Durante, M. (2006). Cancer risk from exposure to galactic cosmic rays: Implications for space exploration by human beings.
+                                            The Lancet Oncology, 7(5), 431–435. https://doi.org/10.1016/S1470-2045(06)70695-7
+                                          Cucinotta, F. A., Kim, M.-H. Y., & Ren, L. (2006). Evaluating shielding effectiveness for reducing space radiation cancer risks. Radiation Meas-
+                                            urements, 41(9–10), 1173–1185. https://doi.org/10.1016/j.radmeas.2006.03.011
+                                          Cull, S. C., Arvidson, R. E., Catalano, J. G., Ming, D. W., Morris, R. V., Mellon, M. T., & Lemmon, M. (2010). Concentrated perchlorate
+                                            at the mars phoenix landing site: Evidence for thin film liquid water on Mars. Geophysical Research Letters, 37(22), L22203. https://doi.
+                                            org/10.1029/2010gl045269
+                                          Cushing, G. E., Titus, T. N., Wynne, J. J., & Christensen, P. R. (2007). THEMIS observes possible cave skylights on Mars. Geophysical Research
+                                            Letters, 34, 17201. https://doi.org/10.1029/2007GL030709
+                                          Da Pieve, F., Gronoff, G., Guo, J., Mertens, C., Neary, L., Gu, B., & Cleri, F. (2021). Radiation environment and doses on mars at oxia planum
+                                            and mawrth vallis: Support for exploration at sites with high biosignature preservation potential. Journal of Geophysical Research: Planets,
+                                            126(1), e2020JE006488. https://doi.org/10.1029/2020je006488
+                                          Dartnell, L., Desorgher, L., Ward, J., & Coates, A. (2007). Modelling the surface and subsurface Martian radiation environment: Implications for
+                                            astrobiology. Geophysical Research Letters, 34, L02207. https://doi.org/10.1029/2006GL027494
+                                          Dobynde, M., Shprits, Y., Drozdov, A. Y., Hoffman, J., & Li, J. (2021). Beating 1 Sievert: Optimal radiation shielding of astronauts on a mission
+                                            to mars. Space Weather, 19(9), e2021SW002749. https://doi.org/10.1029/2021sw002749
+                                          Ehresmann, B., Zeitlin, C., Hassler, D. M., Wimmer-Schweingruber, R. F., Böhm, E., & Böttcher, S. (2014). Charged particle spectra obtained
+                                            with the Mars Science Laboratory radiation assessment detector (MSL/RAD) on the surface of Mars. Journal of Geophysical Research: Plan-
+                                            ets, 119(3), 468–479. https://doi.org/10.1002/2013JE004547
+                                          Forget, F., Hourdin, F., Fournier, R., Hourdin, C., Talagrand, O., Collins, M., & Huot, J.-P. (1999). Improved general circulation models
+                                            of the Martian atmosphere from the surface to above 80 km. Journal of Geophysical Research, 104(E10), 24155–24176. https://doi.
+                                            org/10.1029/1999JE001025
+                                          Gleeson, L., & Axford, W. (1968). Solar modulation of galactic cosmic rays. The Astrophysical Journal, 154, 1011. https://doi.org/10.1086/149822
+                                          Gómez-Elvira, J., Armiens, C., Castañer, L., Domínguez, M., Genzer, M., & Gómez, F. (2012). Rems: The environmental sensor suite for the
+                                            mars science laboratory rover. Space Science Reviews, 170(1–4), 583–640. https://doi.org/10.1007/s11214-012-9921-1
+
+
+
+ZHANG ET AL.                                                                                                                                                                       17 of 19
+                                                                                                                                                                            21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+               Journal of Geophysical Research: Planets                                                                          10.1029/2021JE007157
+
+
+                  Guo, J., Banjac, S., Röstel, L., Terasa, J. C., Herbst, K., Heber, B., & Wimmer-Schweingruber, R. F. (2019). Implementation and validation
+                    of the GEANT4/AtRIS code to model the radiation environment at Mars. Journal of Space Weather and Space Climate, 9(A2). https://doi.
+                    org/10.1051/swsc/2018051
+                  Guo, J., Slaba, C., Tony, C., Zeitlin, C., Wimmer-Schweingruber, R. F., Badavi, F. F., et al. (2017). Dependence of the Martian radiation
+                    environment on atmospheric depth: Modelling and measurement. Journal of Geophysical Research: Planets, 122(2), 329–341. https://doi.
+                    org/10.1002/2016JE005206
+                  Guo, J., Wimmer-Schweingruber, R. F., Grande, M., Lee-Payne, Z. H., & Matthiä, D. (2019). Ready functions for calculating the Martian radia-
+                    tion environment. Journal of Space Weather and Space Climate, 9(A7). https://doi.org/10.1051/swsc/2019004
+                  Guo, J., Zeitlin, C., Wimmer-Schweingruber, R., Hassler, D. M., Köhler, J., Ehresmann, B., & Brinza, D. E. (2017). Measurements of the
+                    neutral particle spectra on Mars by MSL/RAD from 2015-11-15 to 2016-01-15. Life Sciences and Space Research, 14, 12–17. https://doi.
+                    org/10.1016/j.lssr.2017.06.001
+                  Guo, J., Zeitlin, C., Wimmer-Schweingruber, R. F., Hassler, D. M., Ehresmann, B., Rafkin, S., & Wang, Y. (2021). Radiation environment for
+                    future human exploration on the surface of mars: The current understanding based on msl/rad dose measurements. Astronomy and Astrophysics
+                    Review, 29(1), 1–81. https://doi.org/10.1007/s00159-021-00136-5
+                  Guo, J., Zeitlin, C., Wimmer-Schweingruber, R. F., Rafkin, S., Hassler, D. M., & Posner, A. (2015). Modeling the variations of dose rate measured
+                    by RAD during the first MSL Martian year: 2012-2014. The Astrophysical Journal, 810(1), 24. https://doi.org/10.1088/0004-637X/810/1/24
+                  Hassler, D. M., Zeitlin, C., Wimmer-Schweingruber, R. F., Böttcher, S. I., Martin, C., & Andrews, J. (2012). The Radiation Assessment Detector
+                    (RAD) investigation. Space Science Reviews, 170(1), 503–558. https://doi.org/10.1007/s11214-012-9913-1
+                  Hassler, D. M., Zeitlin, C., Wimmer-Schweingruber, R. F., Ehresmann, B., Rafkin, S., & Eigenbrode, J. L. (2014). Mars’s surface radiation envi-
+                    ronment measured with the Mars Science Laboratory’s curiosity rover. Science, 343(6169), 1244797. https://doi.org/10.1126/science.1244797
+                  Honig, T., Witasse, O. G., Evans, H., Nieminen, P., Kuulkers, E., Taylor, M. G., & Sánchez-Cano, B. (2019). Multi-point galactic cosmic ray
+                    measurements between 1 and 4.5 au over a full solar cycle. Annales Geophysicae, 37(5), 903–918. https://doi.org/10.5194/angeo-37-903-2019
+                  Huff, J., Carnell, L., Blattnig, S., Chappell, L., Kerry, G., Lumpkins, S., & Werneth, C. (2016). Evidence report: Risk of radiation carcinogenesis.
+                    NASA Technical Report.
+                  ICRP. (1992). Recommendations of the International Commission on Radiological Protection (ICRP) 1990. European Journal of Nuclear Medi-
+                    cine, 19(2), 77–79. https://doi.org/10.1007/BF0018412010.1007/BF00184120
+                  ICRP. (2007). The ICRP 2007 recommendations. Radiation Protection Dosimetry, 127(1–4), 2–7. https://doi.org/10.1093/rpd/ncm246
+                  ICRP. (2010). Conversion coefficients for radiological protection quantities for external radiation exposures. Annals of the ICRP, 40(2–5), 1–257.
+                    https://doi.org/10.1016/j.icrp.2011.10.001
+                  ICRP. (2012). ICRP publication 118: ICRP statement on tissue reactions and early and late effects of radiation in normal tissues and organs-thresh-
+                    old doses for tissue reactions in a radiation protection context. Annals of the ICRP, 41(1–2), 1–322. https://doi.org/10.1016/j.icrp.2012.02.001
+                  ICRP. (2013). ICRP publication 123: Assessment of radiation exposure of astronauts in space. Annals of the ICRP, 42(4), 1–339. https://doi.
+                    org/10.1016/j.icrp.2013.05.004
+                  Kim, M.-H. Y., Cucinotta, F. A., Nounu, H. N., Zeitlin, C., Hassler, D. M., & Rafkin, S. C. R. (2014). Comparison of Martian surface ionizing
+                    radiation measurements from MSL-RAD with badhwar-O’Neill 2011/HZETRN model calculations. Journal of Geophysical Research: Plan-
+                    ets, 119(6), 1311–1321. https://doi.org/10.1002/2013JE004549
+                  Kim, M.-H. Y., Thibeault, S. A., Simonsen, L. C., & Wilson, J. W. (1998). Comparison of Martian meteorites and Martian regolith as shield
+                    materials for galactic cosmic rays. NASA langley technical report.
+                  Köhler, J., Zeitlin, C., Ehresmann, B., Wimmer-Schweingruber, R. F., Hassler, D., & Reitz, G. (2014). Measurements of the neutron spectrum
+                    on the Martian surface with MSL/RAD. Journal of Geophysical Research: Planets, 119(3), 594–603. https://doi.org/10.1002/2013JE004539
+                  Léveillé, R. J., & Datta, S. (2010). Lava tubes and basaltic caves as astrobiological targets on Earth and mars: A review. Planetary and Space
+                    Science, 58(4), 592–598. https://doi.org/10.1016/j.pss.2009.06.004
+                  Matthiä, D., Ehresmann, B., Lohf, H., Köhler, J., Zeitlin, C., & Appel, J. (2016). The Martian surface radiation environment-a comparison of
+                    models and MSL/RAD measurements. Journal of Space Weather and Space Climate, 6(27), 1–17. https://doi.org/10.1051/swsc/2016008
+                  Matthiä, D., Hassler, D. M., de Wet, W., Ehresmann, B., Firan, A., Flores-McLaughlin, J., & Zeitlin, C. (2017). The radiation environment on
+                    the surface of Mars: Summary of model calculations and comparison to RAD data. Life Sciences and Space Research, 14, 18–28. https://doi.
+                    org/10.1016/j.lssr.2017.06.003
+                  Mertens, C. J., Gronoff, G. P., Norman, R. B., Hayes, B. M., Lusby, T. C., & Straume, T. (2016). Cosmic radiation dose measurements from the
+                    rad-x flight campaign. Space Weather, 14(10), 874–898. https://doi.org/10.1002/2016sw001407
+                  National Academies of Sciences, Engineering, and medicine. (2021). Space radiation and astronaut health: Manag-
+                    ing and communicating cancer risks. The National Academies Press. Retrieved from https://www.nap.edu/catalog/26155/
+                    space-radiation-and-astronaut-health-managing-and-communicating-cancer-risks
+                  O’Neill, P. M. (2010). Badhwar–O'Neill 2010 galactic cosmic ray flux model—Revised. IEEE Transactions on Nuclear Science, 6(57), 3148–
+                    3153. https://doi.org/10.1109/TNS.2010.2083688
+                  Orosei, R., Lauro, S. E., Pettinelli, E., Cicchetti, A., Coradini, M., Cosciotti, B., & Seu, R. (2018). Radar evidence of subglacial liquid water on
+                    Mars. Science, 361(6401), 490–493. https://doi.org/10.1126/science.aar7268
+                  Rafkin, S. C., Zeitlin, C., Ehresmann, B., Hassler, D., Guo, J., & Köhler, J. (2014). Diurnal variations of energetic particle radiation at the surface
+                    of mars as observed by the mars science laboratory radiation assessment detector. Journal of Geophysical Research: Planets, 119, 1345–1358.
+                    https://doi.org/10.1002/2013JE004525
+                  Röstel, L., Guo, J., Banjac, S., Wimmer-Schweingruber, R. F., & Heber, B. (2020). Subsurface radiation environment of Mars and its
+                    implication for shielding protection of future habitats. Journal of Geophysical Research: Planets, 125(3), e2019JE006246. https://doi.
+                    org/10.1029/2019JE006246
+                  Roussos, E., Dialynas, K., Krupp, N., Kollmann, P., Paranicas, C., Roelof, E. C., & Krimigis, S. M. (2020). Long- and short-term variability of
+                    galactic cosmic-ray radial intensity gradients between 1 and 9.5 au: Observations by Cassini, BESS, BESS-polar, PAMELA, and AMS-02. The
+                    Astrophysical Journal, 904(2), 165. https://doi.org/10.3847/1538-4357/abc346
+                  Saganti, P. B., Cucinotta, F. A., Wilson, J. W., Simonsen, L. C., & Zeitlin, C. (2004). Radiation climate map for analyzing risks to astronauts on
+                    the Mars surface from galactic cosmic rays. Space Science Reviews, 110(1–2), 143–156. https://doi.org/10.1007/978-0-306-48600-5_5
+                  Simonsen, L., Nealy, J., Townsend, L., & Wilson, J. (1990). Radiation exposure for manned Mars surface missions. NASA Technical Paper
+                    Series, 2979. Retrieved from https://www.osti.gov/biblio/6868082
+                  Simpson, J. (1983). Elemental and isotopic composition of the galactic cosmic rays. Annual Review of Nuclear and Particle Science, 33(1),
+                    323–382. https://doi.org/10.1146/annurev.ns.33.120183.001543
+
+
+
+
+ZHANG ET AL.                                                                                                                                                 18 of 19
+                                                                                                                                                                    21699100, 2022, 3, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JE007157 by Universitatsbibliothek Kiel, Wiley Online Library on [19/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+               Journal of Geophysical Research: Planets                                                                    10.1029/2021JE007157
+
+
+                  Starr, S. O., & Muscatello, A. C. (2020). Mars in situ resource utilization: A review. Planetary and Space Science, 182, 104824. https://doi.
+                     org/10.1016/j.pss.2019.104824
+                  Wimmer-Schweingruber, R. F., Köhler, J., Hassler, D. M., Guo, J., Appel, J.-K., & Zeitlin, C. (2015). On determining the zenith angle
+                     dependence of the martian radiation environment at gale crater altitudes. Geophysical Research Letters, 42(24), 10557–10564. https://doi.
+                     org/10.1002/2015GL066664
+                  Zeitlin, C., Hassler, D., Ehresmann, B., Rafkin, S., Guo, J., Wimmer-Schweingruber, R. F., & Matthiä, D. (2019). Measurements of radiation
+                     quality factor on Mars with the Mars science laboratory radiation assessment detector. Life Sciences and Space Research, 22, 89–97. https://
+                     doi.org/10.1016/j.lssr.2019.07.010
+                  Zhang, J., & Guo, J. (2022). Figure data for “From the top of Martian Olympus to deep craters and beneath: Mars radiation environment under
+                     different atmospheric and regolith depths”. https://doi.org/10.5281/ZENODO.5953665
+
+
+
+
+ZHANG ET AL.                                                                                                                                          19 of 19
+

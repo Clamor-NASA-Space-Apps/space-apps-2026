@@ -1,0 +1,665 @@
+                                                                                Fc-
+                                                                                                   0810ES-0035
+
+
+       International Space Station United States Orbital Segment
+     Oxygen Generation System On-orbit Operational Experience
+
+                                                                                              Robert J. Erickson
+                                                                                  NASA, Marshall Space Flight Center
+
+
+                                                                              John Howe Jr & Galen W. Kulp
+                                                                             Hamilton Sundstrand, Windsor Locks CT
+
+
+                                                                                          Steven    P. Van Keuren
+                                                                                               MEI Technologies, Inc.
+
+
+
+ABSTRACT                                                      shown in Figure 2. Feed water from the potable water
+                                                              bus enters the assembly through the Water Orbital
+The International Space Station (ISS) United States           Replacement Unit (ORU) and flows through an Inlet
+Orbital Segment (USOS) Oxygen Generation System               Deionizing Bed, which serves as an iodine remover as
+(OGS) was originally intended to be installed in ISS          well as a coalescer for any gas bubbles that may be
+Node 3. The OGS rack delivery was accelerated, and it         present in the feed water. If gas bubbles are detected
+was launched to ISS in July of 2006 and installed in the      by the gas sensor downstream of the DI bed, the feed
+US Laboratory Module. Various modification kits were          water is rejected to the waste water bus. This serves to
+installed to provide its interfaces, and the OGS was first    prevent any oxygen that may be present in the feed
+activated in July of 2007 for 15 hours,       rq October of   water from mixing with generated hydrogen. Water is
+2007 it was again activated for 76 hours with varied          electrolyzed into oxygen and hydrogen in the Hydrogen
+production rates and day/night cycling. Operational time      ORU, which contains the electrolysis cell stack. Oxygen
+in each instance was limited by the quantity of feedwater     produced by the cell stack passes through the Oxygen
+in a Payload Water Reservoir (PWR) bag. Feedwater             Outlet ORU containing a water absorber, which protects
+will be provided by PWR bag until the USOS Water              the downstream hydrogen sensors from liquid moisture.
+Recovery System (WRS) is delivered to SS in fall of           The Hydrogen Sensor ORU monitors the product oxygen
+2008. This paper will discuss operating experience and        for the presence of hydrogen, which would indicate a
+characteristics of the OGS, as well as operational issues     problem with the Cell stack and signal the controller to
+and their resolution.                                         shut down the OGA. The Rotary Separator Accumulator
+                                                              (RSA) within the H20RU    separates the product gaseous
+                                                              hydrogen from the water which is re-circulated by the
+INTRODUCTION                                                  Pump ORU. The Nitrogen Purge ORU serves to purge
+                                                              system lines upon shutdown with nitrogen, and the
+The U.S. regenerative Environmenta Control and Life           Process Controller ORU is responsible for OGA System
+                                                              command/control      and communication    with the ISS
+Support Systems (ECLSS) have been developed to
+enable the ISS to expand its crew size from three to six      Multiplexer/Demultiplexer  (MDM).
+crewmembers. These regenerative systems include the
+Water Recovery System (WRS) and the OGS.            The
+OGS includes the Oxygen Generation Assembly (OGA),
+the Power Supply Module (PSM) that supports the OGA,
+and scars to accommodate the later addition of a
+Sabatier Carbon Dioxide Reduction Assembly (CRA).
+Earlier development    activities are summarized      in
+references 1-7.
+
+
+
+
+OXYGEN     GENERATION        SYSTEM
+
+OGA OVERVIEW - A simplified schematic of the OGA is
+shown in Figure 1 and its installation in the OGS rack is
+                             Nitrogen                                                                                                 POWER SUPPLY MODULE OVERVIEW - The PSM is
+                            from ISS
+
+       Feed water
+                                                                   Absorber                      Hydrogen     Sensors                 shown in the lower left of the OGS rack in Figure 2. The
+                                                          (traps     liquid     waterX detect          cell stack   leaks)
+    from       ISS                                                                                                                    PSM provides 10-55 amps current to the OGA cell stack
+                                                                                                                              02 to
+
+Ion Exchange           Bed                                                                           L_ J                     cabin   during Process mode and 1.0+/-0.2 amps during
+ (_movesiodine)                                                                                                                       Standby mode, with a minimum efficiency of 91% in
+         Two-phase
+       Fluid Senso_                                  Cell     Stack                                                                   Process mode.      The PSM is designed for 60,000
+                                              (produces             oxygen)
+                                                                                                                                      process/standby cycles, and a lO-year life.
+                                        H2 & H20
+
+ Feed    water       with                        Rotary Separator/                                                   COOlanT
+
+ air returned         TO                     /      Accumulator                                                                       ON-ORBIT     OPERATION
+                                            ,(separates            hydrogen,
+  SS
+                                                    stores     water)
+          To                                                                                                                          The OGS has been activated three times since its
+           overboard
+          vent                                                                                                                        installation in the ISS. In the first activation, the OGS
+                                                          Dome
+                                        (contains         hydrogen            leak=                                                   operated     in Standby    (~2%    of maximum       oxygen
+                                                                                      E
+                                                                                          Heat                      coolant
+                                                                                                                                       production) for 6.8 hours and in Process (25% to 100%
+                                                 Pump                     (rejects        waste      heat)   _1 J                     of maximum oxygen production) for 15.8 hours, which
+                                                                                                             J                        converts to approximately     13.4 Equivalent Full Power
+                                                                                                                                       Hours (EFPH). During the second activation the OGS
+Figure 1. OGA Simplified Schematic                                                                                                    operated in Standby for 26.5 hours and in Process for
+                                                                                                                                      47.1 hours which convert to approximately 31 EFPH.
+                                                                                                                                      The third activation production parameters have not yet
+                                                                                                                                       been quantified, but the OGS operated between 25%
+                                                                                                                                      and 100% production         rates,   n both cyclic and
+                                                                                                                                      continuous modes for approximately 112 hours. The
+                                                                                                                                      following sections describe the activations in more detail.
+
+                                                                                                                                      FIRST ACTIVATION, ON-ORBIT DAY 2007:192 (JULY
+                                                                                                                                      11) - When the first activation of the Oxygen Generation
+                                                                                                                                      System (OGS) was attempted on July 11, 2007 it was
+                                                                                                                                      understood that there could be some problems with
+                                                                                                                                      startup.   The system had been dormant--apart       from
+                                                                                                                                      powering the controller, the recirculation pump, and
+                                                                                                                                      some valves--since December 2005. It was known that
+                                                                                                                                      the water in the hydrogen side of the cell stack would
+                                                                                                                                      permeate to the oxygen side, and the nitrogen in the
+                                                                                                                                      oxygen side would permeate to the hydrogen side. As a
+                                                                                                                                      result, the RSA would be low n water and would likely
+                                                                                                                                      cause a shutdown. Also, since water permeates to the
+                                                                                                                                      oxygen side of the stack, this water would then be
+                                                                                                                                      pushed into the hydrogen dome during the initial
+                                                                                                                                      nitrogen purge of the cell stack, which would extend the
+                                                                                                                                      needed time todry out the dome.
+
+                                                                                                                                      In light of this information, it is not surprising that there
+                                                                                                                                      were 11 fast shutdowns caused by system conoitions
+                                                                                                                                      during the attempted startup of the OGS. Fault limit
+                                                                                                                                      overrides were mplemented to overcome many of the
+Figure 2. Oxygen Generation System                                                                                                    difficulties of starting the system. The timeline for the
+                                                                                                                                      first activation is shown in Figure 3.
+The OGA is designed to generate oxygen at a maximum
+nominal rate of 5.4 kg/day (12 Ib/day) when operated on                                                                               Before the OGS can start, the hydrogen dome must be
+day/night orbital cycles, and also at a selectable rate                                                                               evacuated and dried of any water. The dome must be
+between 2.3 and 9.2 kg/day (5.1 and 20.4 Ib/day) when                                                                                 dry to allow for leakage detection, and enough time must
+operated continuously.    At the nomina rate, the OGA                                                                                 be given to evacuate the dome to vacuum to evaporate
+can support oxygen needs for 4 crew, biological                                                                                       any resident water so that the dome pressure will not
+specimens, and atmosphere         leakage, while at the                                                                               rise above the pressure trip-point after the evacuation
+maximum       rate it can support 7 crew, biological                                                                                  procedure is complete. Not enough time was allowed for
+specimens, and atmosphere leakage.          The assembly                                                                              this evacuation procedure in the software, so high
+consumes 3573 W when processing, and 382 W during                                                                                     hydrogen dome pressure caused the first two fast
+standby.        The   product   oxygen     meets   quality                                                                            shutdowns.      As mentioned above, these shutdowns
+specifications for temperature, free water, dewpoint, and                                                                             were caused by the fact that the system was dormant for
+hydrogen content.                                                                                                                     so long that water accumulated in the oxygen side of the
+                                                                                                                                      cell stack, which was then purged into the hydrogen
+dome.Thefirststartupattemptsdriedthe domeenough                                                                       beyond this failure,      the shutdown       trip-point  was
+so that,by thethirdattempt,thedomehaddriedenough                                                                      overridden to a higher flow rate        Higher recirculation
+soanotherhighdomepressurefailurewasavoided.                                                                           flow rates were used during on-ground system testing,
+                                                                                                                      and there is no safety limit restricting the upper limit of
+                                                                                                                      the recirculation  flow, so this override was not
+                                                                                                                      considered a problem. Later in the startup procedure, it
+   192                                                    193
+ (July   11                                             (July    12)
+                                                                                                                      was found that this initial high reading from the Venturi
+                                                                                                                      decreased back to expected Fevels.
+
+                                                                                                                      After the fifth shutdown, Standby mode was achieved
+                                                                                                                      with RSA quantity nominal at over 328 ml.           After
+                                                                                                                      commanded Shutdown, the overrides for the RSA were
+ ©                                                                                                                    removed.     The community may have thought that a
+                                                                                                                      water fill had been initiated during the startup, making
+                                                                                                                      these overrides unnecessary. However, the next startup
+                                                                                                                      attempt, number six, showed that the RSA was still too
+                                                                                                                      low and caused the sixth shutdown as a result. The low
+                                                                                                                      RSA quantity overrides were reinstated for the next
+                                                                                                                      startup attempt.
+
+                                                                                                                      Even though the RSA water level software limits had
+                                                                                                                      been overridden low for the seventh startup, hardware
+                                                                194                                        195        shutdown limits exist that measured the water level
+                                                           (July 13}                                   (July    14}
+                                                                                                                      readings and prevented the recirculation pump from
+                                            06:44:14
+
+                                      25% ProducUen      Rate-                                                        starting. Software fault limits exist for the delta pressure
+              00:47:30    03:19:33         Continuous
+                                                                                                     00:49:32
+                                                                                                                      over the pump, and the pump speed, which tripped the
+                                                        75%      Production     Rate -                 /
+                                                                  Con_nuous                      /                    seventh shutdown.     Previous startups had avoided this
+                                                                                             /
+                                                                                                                      fault by increasing the RSA speed, which increased the
+                                                                                                                      delta pressure reading in the RSA. The higher pressure
+                                                                                                                      met the hardware Limit requirements.         Once the RSA
+                                 /      50% Production
+                                            - Continuous
+                                                                Rate                                                  speed was no longer overridden high, the delta pressure
+               02:58:33    05:55:12
+
+                                                            I00%
+                                                                        09:52:00
+                                                                        P_oduction    Rate
+                                                                                                                      reading in the RSA was no longer high enough for the
+                                                                       - Continuous
+                                                                                                                      hardware shutdown limits.        The higher RSA speed
+                                                                                                                      override was implemented for the next startup attempt.
+
+                                                                                                                      The eighth startup attempt was not only able to reach
+                                                                                                                      Standby operation, where a small amount of power is
+Figure 3:1                st Activation                    Timeline                                                   supplied to the cell stack, but was also able to reach an
+                                                                                                                      oxygen production rate of 25%.       However, when an
+                                                                                                                      attempt was made to remove the RSA speed override
+A low RSA volume caused the third fast shutdown. This                                                                 while the system was running, the system shut down
+was expected to be a problem due to water crossover in                                                                due to the change in system operation caused by the
+the cell stack, so overrides were prepared for the RSA                                                                removed override. For the next activation attempt, the
+trip point and speed so that the system could continue                                                                speed override was not added to the override list.
+with the startup procedure and eventually fill the RSA
+with water.                                                                                                           Since operation of the cell stack was reached in the
+                                                                                                                      eighth startup, more water was consumed by the
+High water flow rate in the OGS water recirculation loop                                                              system, and hydrogen gas was now in the hydrogen side
+appeared to be the cause of the fourth and fifth                                                                      of the cell stack. Also, the system did not initiate a water
+shutdowns. However, it is speculatedthat     it was not, in                                                           fill, because at low production rates, less water is
+fact a high flow rate that caused the shutdown, but an                                                                required by software to be in the RSA. As a result, at
+anomaly with the Venturi used to measure the flow rate.                                                               the ninth startup, the low RSA level was lowered even
+Since the RSA speed was increased after the third                                                                     more when the recirculation pump started and pushed
+shutdown to remedy the low RSA water condition, it was                                                                hydrogen gas from the cell stack into the RSA. This
+speculated that the extra speed in the RSA caused an                                                                  caused another fast shutdown, requiring the previously
+ ncrease in water flow. However, a similar condition was                                                              removed      RSA overrides--the      speed and quantity
+observed n ground testing, and was attributed to gas                                                                  overrides    to be reinstated for the next startup attempt.
+bubbles in the Venturi pressure taps causing errors in
+the readings. The solution implemented in the ground                                                                  After the tenth startup, the system finally initiated a water
+tests was to push high flows of water through the Venturi                                                             fill. However, there was still a speed override on the
+to purge the bubbles. This solution worked, and so the                                                                RSA, which forced the RSA to run at a specific rotational
+bubble theory was accepted.        In order to continue                                                               speed. Because there was a water fill, there was more
+torquerequiredto maintainthatspeed. Unfortunately,
+the RSAmotorcurrentreacheda hardwareimit and                                                   277                                                                       278                         279
+preventedthe RSAfrom reachingthe requiredspeed,                                                (Oct 3)                                                                  'oct41                      €Oot5_
+
+whichwas noticedby software(a tolerancefault) and                          17"08"15
+
+
+
+
+causedthe tenthshutdown.An attemptwas madeto                                                                21:58:19
+
+
+startthe systemagainwithoutchange,but the same                                                                                        03:36:04                               21:25:49                 01:01:23
+                                                                                                                                                                                                        Stop
+shutdown occurred.                                                                                                         100%
+
+                                                                                                                                  -
+                                                                                                                                      ProducUon
+
+                                                                                                                                         Day/Night
+                                                                                                                                                       Rate              Tdoklemode
+
+
+
+
+Activationwas finallysuccessfulwith a complexset of                                        /
+
+overridesand a processto graduallyremovethese                                          /                                                                            /
+                                                                                                                                                               13:11:33
+overridesafter activationwas achieved. Afterthe 11                              /
+                                                                            18:33:00
+
+shutdowns, the systemranwellandwasableto runat                                                                                    01:49:12                                     23:05:35
+
+
+25%, 50%, 75%, and 100% production. Once the                                                                             25% Production
+                                                                                                                               Continuous
+                                                                                                                                                    Rate   -        _06%     Production
+                                                                                                                                                                             Continuous
+                                                                                                                                                                                           Rate -
+
+
+
+
+systemreached100%,it wasrunat thatlevelforseveral
+hoursuntilthewatersupplywasexhausted.                                         =satCa_r_/_imniOsh €       .............     €      ....        _._     =production        _       .........
+                                                                                                                                                                                shutdown/standb,
+
+
+
+
+SECONDACTIVATION,ON-ORBITDAY 2007:275                                Figure 4:2            nd Activation                   Timeline
+(OCTOBER4) - Much was learnedduringthe first
+activationof the OGSwhichwasappliedto the second
+activation The activationprocedurewas modifiedto                     To simulate a loss of power, Stop was commanded to
+include several fault limit overrides that were                      immediately remove power from all effectors while at
+implementeduringthe firstactivation.A longerperiod                   50% production rate. When a restart was attempted, an
+of timewasallowedto evacuatethe domeso thatany                       RSA high level shutdown was tripped when the system
+water in the dome would have plenty of time to                       was commanded to Standby operation.        This occurred
+evaporate.Themaximumrecirculation   loopflowratetrip                 because when the system powers the cell stack,
+pointwas increased.The low RSAwater leveJlimits                      hydrogen production pushes a fair amount of water into
+weredecreased   andthe RSAspeedcommandwaskept                        the RSA. In previous startups, this failure was close to
+withinitscapability.Asa result,thesystemwasbrought                   being tripped, but never caused a shutdown. A second
+upto poweron thefirststartupattemptandwasableto                      attempt to start the system was made with no changes,
+completea full day of 50% day/nightcycling, The                      but the same failure occurred. Therefore, the maximum
+timelineforthesecondactivationis shownin Figure4.                    RSA water level limit was temporarily increased in the
+                                                                     software to accommodate this condition.
+
+                                                                     The system was started again with no problems, and
+                     275                                    276
+                    (oct 1                                  _oct2)   proceeded to 25% production for about 2 hours. Next
+ 14:31:49
+Vent   dome                                                          the system was set at day/night cycling at 100%
+                                        22:29:3C
+                               50% Production        Rate
+                                                                     production for about 10 hours to demonstrate           it's
+                    20:10:10
+              25% Production    Rate
+                                       - Day/Night
+                                        -
+                                                                     functionality at that power level. It was then switched to
+                                                                     100% continuous production for another 8 hours.
+                   Continuous_,
+
+                                                                     Next, the system was commanded to standby since a
+                                                                     long Loss Of Signal (LOS) period was imminent, and it
+                                                                     was known that the system had nearly exhausted its
+                                                                     external water supply. It is desirable to shut the system
+                                                                     down manually before the external water supply is
+                                                                     completely exhausted to prevent the RSA water level
+                                                                     from being low for the next startup. After about 2 hours
+                                                                     of standby operation, the LOS passed and the system
+                                                                     was powered to 100% continuous production with no
+(Keep this picture together with the one on the following            problems.   This power level was maintained until the
+column so that it doesn't look like there's a figure title           system consumed all of its available water.
+m ssing)
+                                                                     THIRD      ACTIVATION,      ON-ORBIT       DAY 2008:058
+                                                                     (FEBRUARY        27)      At this time there was a
+                                                                     comprehensive      set of overrides      in a procedure,
+                                                                     including two additiona     RSA high-quantity overrides
+                                                                     identified in Activation #2. We had, however, reduced
+                                                                     the RSA override commanded speed due to its inability
+                                                                     to reach the speed commanded. Added to this was the
+                                                                     potential increased loss of RSA quantity due to cell stack
+                                                                     diffusion into the evacuated dome for 144 days since
+                                                                     Activation #2. See the timeline for faults in Figure 5:
+           Day                                     Day                               RSA DIFFERENTIAL         PRESSURE INTERLOCK WITH
+            58                                     59
+  _95208                                                                             THE RECIRCULATION           PUMP - If the differential
+                                                                                     pressure across the RSA at sensor 7331-3 cannot
+                                                                25_P_   t
+                                                                                     exceed 64.65 mmHg (reset limit) or drops below 56.89
+                                           /
+                                               /                                     mmHg, a hardware interlock prevents the recirculation
+                                       /                                             pump from being powered. This is to prevent gas from
+                                    ®                                                entering the recirculation loop and being a source of
+                                                                                     combustion.    Figure 6 shows a startup sequence from
+                                                   _MMANB   -
+                                                                                     Activation 1, which did not reset the interlock (pump
+                                                                                     never turned). The initial part of the chart shows RSA
+                                                                                     operation at a lower speed to evolve dissolved gas.
+
+
+
+
+Figure 5:3          rd Activation   Timeline
+
+
+After fault #1 and #2, before which the RSA interlock
+with the pump did not set, the RSA speed was increased
+to the level which had previously provided a successful
+startup. This allowed the startup to progress further, but
+also resulted in fault #3 as the RSA differential pressure
+slowly decreased. A successful startup was enabled by
+a complex set of overrides with the goal of providing cell
+stack current and an RSA fil as soon in the startup
+process as possible. This was done by disabling as                                          "    =   -   10   13   16   19 22   25   28   31   34   37   40    43
+
+                                                                                                                                                              Time
+                                                                                                                                                                     46   49   52   55   58   61   64   67   70   73   F6   79   82   85
+
+
+
+
+many built-in tests as possible and commanding Process
+at 25% rate instead of Standby.        After an RSA fill,
+Shutdown was commanded to re-enable built-in tests.                                  Figure 6: RSA Differential Pressure Sensors, 2007 Day
+                                                                                     193, GMT 4:17
+Standby was commanded                      with the procedural overrides
+as officially documented.
+
+GENERAL DISCUSSION OF STARTUP FAILURES                                                 eo
+
+
+
+
+                                                                                       70
+
+
+The faults encountered               during startup attempts are of
+five classifications.
+
+     1.          High dome pressure
+
+    2.           Pump speed-The       recirculation             pump        is not
+                 running when it should.
+
+     3.          High recirculation    flow differentia]  pressure-
+                 Bubbles in the recirculation loop are blocking the
+                                                                                                27 53 79 105 131157 183209 235261 287313 339365 391417 443 4694-95521547 573599 625651 677703
+                 flow sensor.                                                                                                              Time
+
+
+
+                                                                                     Figure 7: RSA Differential Pressure Sensors. 2008 Day
+    4.           High or low RSA quantities                                          059, GMT 2:58
+
+     5.          Tolerance faults
+                                                                                     It's evident that the pressure reading of the two RSA
+HIGH HYDROGEN ORU DOME PRESSURE - The first
+                                                                                     differential pressure sensors 7331-1 (software only, and
+two faults in Activation #1 were because the dome
+                                                                                     the quantity control sensor) and 7331-3 (hardware
+pressure did not reduce to below shutdown limits after a                             interlock) are not consistent.   On occas=on as shown in
+startup nitrogen purge.     This was considered to be                                Figure 7, 7331-3 is as much as 5 mmHg below 7331-1.
+because of liquid that still existed in the dome.   The                              The pump interlock function of 7331-3 cannot be
+problem did not occur after, but a permanent override                                inhibited or modified.      The 7331-3 interlock does not
+extending the dome venting after a startup purge was                                 result in a software fault by itself, but related software
+implemented, since there was determined to be no                                     faults will result if the pump does not come up to speed
+innpact to Safety.
+                                                                                     within 15 (default) seconds. The first three activations
+                                                                                     have been achieved by overriding the RSA speed from
+                                                                                     default of 1500 RPM to 1783 RPM. This increases the
+differentialpressureby centrifugalforce towardthe       controlswerethenre-enabledby resettingthe overrides
+outside of the RSA. The value is reducedafter           aftera successful
+                                                                       startupwasachieved.
+successful activationtoreducewearonthe RSA.
+                                                        PLANS FOR FUTURE SUCCESSFUL               ACTIVATIONS
+Foractivation#3, it was also necessaryto accelerate
+cell currentand RSA fil by inhibitingbuilt-intests.     Only one potential issue with the OGS operation while in
+Figure 7 illustrateshow this assists in successful      Process or Standby has been identified.         During an
+activationbeforethe7331-3interlockcanbetripped.         extended period in Standby, the heated hydrogen outlet
+                                                        tubing ncreases in temperature due to reduced product
+HIGH REClRCULATIONFLOW DIFFERENTIAL                     hydrogen cooling flow.      The temperature sensor is
+PRESSURE      FAULT- Activation#1 Faults4 and5 were     downstream of the hydrogen outlet heater, and they are
+dueto highdifferentialpressureacrosstheflow sensor      both between the RSA and a regulator which maintains
+venturiFL 7531 1. Previousto thesefaults,the RSA        pressure against space vacuum. As soon as hydrogen
+quantityreadinghaddippedto98ml. Sincethisvalueis        flow commences the temperature spikes. The highest
+filtered,the actualvaluemayhavebeenlower. Thisis        temperature seen was 4.3C below the default shutdown
+evidencethatgasactuallydidentertherecirculation  loop   limit, which is based on the derated material limits. This
+duringourattempto restartwithlowRSAquantity.The         value wil be monitored, but currently no changes are
+gascleareditselfaftera subsequent attempt(fault5).      planned.
+
+HIGH OR LOW RSA QUANTITIES- There are                   After the end of each OGS Activation, the RSA quantity
+problemswiththe referencevaluesof the RSAleakage        has been maximized on commanded Shutdown. Since
+detection.Thesefaultsprotectagainstleakageintothe       the WDS pressure drops as its accumulator quantity
+recirculation
+            loopfromprocesscoolant,or leakageoutof      decreases, the RSA fill quantity also decreases            At
+the recirculationloop into the rack. The minimum        some point, the RSA quantity increase will be insufficient
+referencevalueforthe lowlevelfaultis 327.74ml. If the   for a successful fill. At this point, software will attempt a
+measuredRSAquantityis morethan98.3ml belowthis          second fill in 30 seconds.         Therefore, Shutdown is
+value,a lowquantityfaultwill occur. Another eference    commanded after a confirmed RSA double fill.
+valuefor the highfault is setat the lowestactualRSA
+quantity,andthefaultwilloccurif thequantityincreases    Since the OGS dome is evacuated during extended
+by 163.9ml whenthe systemis notin a fill mode.If the    shutdowns, measurable diffusion occurs from the OGS
+lowestvalueis 200ml,thefault will occurat 363.9ml.      cell stack to space. The time between activations 2 and
+The limitsmustbe expandedfor successfulactivation,      3 was 144 days. Activations will be scheduled within
+and then resetto performtheir safetyfunctionduring      approximately 90 days of the previous to minimize water
+OGSoperation.                                           loss.
+
+TOLERANCE    FAULTS- DuringActivation#1, the RSA        The overrides for successful        activation will be as
+speedwasoverriddento a fasterspeedthanitwasable         baselined in the Activation #3 procedure, with the RSA
+tosupport.Thisresultedina tolerancefaultbetweenthe      rotationa speed increased to 1783 RPM. This speed
+RSAcommanded     andactualspeed.Thedefaultlimitis       contributed to success in Activations 1 and 3, and the
+54RPM.Anothertolerancefaultwasencountered    when       procedure, including all overrides, was successfully used
+the speed 'was reducedand the softwaredid not
+anticipatea delayto reachthecommanded   speed.The       In the future, the RSA quantity may not be maximized
+toleranceis increasedto 200 RPM,and returnedto          when preparing for extended storage. This may be due
+defaultaftersuccessfulactivation.                       to OGS failures, interface failures, or resource issues. It
+                                                        may therefore be necessary to fill the RSA from
+FAULTSUMMARY       - The RSA7331-3interlockcan be       feedwater sources at the next operation opportunity
+"fooled"into allowingstartup by increasingthe RSA       using overrides.       An overfill may occur during this
+rotationaspeed.Thisis at the riskof allowinggasinto     process. There are safety and operational concerns with
+the recirculationloop if the level is too low. The      this process that still need to be addressed. The reason
+remainingsoftwarefaultscanbe avoidedby upto about       that the OGS software does not allow an RSA fill until
+15 overrideswhichmust be removedafter successful        activation is complete is so that the gaseous composition
+activation.                                             within the RSA can be first confirmed to be pure
+                                                        hydrogen by hydrogen production and venting. RSA fill
+Some of the overridesidentifiedas necessaryfor          quantity is limited by design and software so that
+successfulactivationwere made"permanent".These          dissolved oxygen in the feedwater cannot create a
+had no impacton operationor safetyfunction,and          combustible mixture within the RSA when evolved.
+included recirculationloop flowrate high limit and      Investigation into a method of recovering proper RSA
+transienttime for the dometo be evacuatedafter a        quantity will continue.
+startupnitrogenpurgeof thecellstack.
+                                                        HYDROGEN SENSOR ORU PURGE ADAPTER
+Otheroverridesreducedthe hazardcontrolsfor leakage      (HOP.&)
+detectiontemporarilyuntil successfulactivation. The
+When in operation, the OGS produces oxygen with a
+high relative humidity. Heaters in the outlet stream and
+in the Hydrogen Sensor ORU prevent condensation from
+forming. When the OGS is powered down, the heaters
+are shut off, gas flow is restricted and there is a high
+potential for condensation to form on the cooling sensor
+dies inside the Hydrogen Sensor ORU. Sensor dies
+could be damaged if power is applied when water has
+collected on the dies. The Hydrogen Sensor ORU Purge
+Adaptor (HOPA) was designed and manufactured to
+purge moist oxygen from the Hydrogen Sensor ORU
+after   OGS     power-down.        This  purge    prevents
+condensation from forming on the sensor dies and
+preserves sensor calibration life. The HOPA is made up
+of three tools: Evacuation,      Inlet and Outlet Tools.
+Reference Figures 8-10.
+
+
+
+                                                                   Figure 11: Hydrogen Sensor installed in OGS
+
+                                                             HOPA IMPACT ON CALIBRATED LIFE - Currently, the
+                                                             OGS is operated approximately every 90 days for about
+                                                             a one-week period. Continuous operation is not possible
+               Figure 8: Evacuation Tool                     because the Water Recovery System (WRS) is not on-
+                                                             orbit to supply a continuous source of potable water. The
+                                                             OGS is only operated when potable water is brought to
+                                                             the space station via the Shuttle. It is desirable to power
+                                                             down the OGS when it is not producing oxygen so that
+                                                             valuable power is not consumed cooling systems are
+                                                             not taxed, and component life is not wasted on items
+                                                             such as on the 150 day calibration life of the Hydrogen
+                                                             Sensor ORU.         The calibration life of the Hydrogen
+                                                             Sensor ORU is determined by total power on-time, so as
+                                                             long as the Hydrogen Sensor ORU is powered, its
+                                                             calibration life is being used whether or not the OGS is
+                   Figure 9: Inlet Tool                      producing oxygen. Once the WRS is operational on orbit
+                                                             the OGS may continuously operate unless maintenance
+                                                             is required. If shutdown is longer than a predetermined
+                                                             time, the HOPA wil need to be used to purge humidity
+                                                             from the Hydrogen Sensor•
+
+                                                             As mentioned before, the OGS produces oxygen with
+                                                             high relative humidity and without the heaters warming
+                  Figure 10: Outlet Tool                     the Hydrogen sensors, condensation would form on the
+                                                             sensor die. Tests have shown the potential for damage
+HOPA PROCEDURE             The process to purge the          to energized Hydrogen Sensors.         If water is on the
+Hydrogen Sensor ORU is quite simple. After OGS               sensor's die, electrolysis may result in physical damage
+shutdown, the crew disconnects inlet and outlet quick        or may cause the devices to indicate an incorrect level of
+disconnects from the Hydrogen Sensor in the OGS.             Hydrogen. Without the HOPA, the Hydrogen Sensor
+Then the crew connects the HOPA Outlet and Inlet tools       could not be un-powered therefore using up sensor
+to the respective outlet and inlet quick disconnects on      calibration life when operation of the OGS is not
+Hydrogen Sensor ORU. Reference Figure 11. The                required•
+HOPA Evacuation Tool is connected to the Portable
+Oxygen Apparatus      (PBA)   Extension    Hose which        HYDROGEN SENSOR ORU LIFE EXTENSION
+provides a source of dry oxygen. The crew "evacuates"
+potential contaminants from the PBA lines for five           The previous Hydrogen Sensor calibration life prior to life
+minutes. Then they disconnect the evacuation tool,           extension testing would have required that the OGS be
+reconnect the PBA line to the inlet tool. and purge the      shut down every 90 days for removal and replacement of
+Hydrogen sensor to remove any humidity. The HOPA             the sensor (Reference       4). This 90 day life was
+was successfully used by space station crew in October       established early in the development of the sensor
+2007 and March 2008 after the OGS activations.               based on historical testing results. Life extension testing
+                                                             was initiated due to the strong desire to extend the life
+  and io conservecrew time and logistics.The life
+. extension potential looked positive because a               2,3:
+
+  qualificationHydrogenSensorORU had run for an
+  extendedperiodof time beyondthe 90 day life andall
+  threesensordiesstayedwithincalibrationlimits.
+
+ TwoflightHydrogenSensorsweretestedfor 200days
+ beyondtheiracceptance    testing(Reference8).Thegoal
+ of the life extensiontestwasto increaselifefrom90 to
+ 180 days. The 200 day test durationwas selected
+ becauseit wouldallowa 10%marginoverthe 180day                -1o
+
+ goal.
+ The two HydrogenSensorORUsweresimultaneously
+ testedfor the 200day duration.EachORU has three
+ Hydrogen Sensors, for a totalofsixsensorsto betested.
+ Test conditionswere the following; Inlet oxygen                        Figure 12: SN 1002 Calibration Check
+ temperature of 70°Fwith a nominaldewpointof 60°F,
+ interface
+         temperature of 70°Fwithbackg[ound   Hydrogen       Even though all s_x sensors were within tolerance after
+ of 100 Pa. Theseconditionswere selectedto mimic            the 180 calibration check and one just outside tolerance
+ nominalOGSconditions   forthesensor.                       limits at 200 days, it was decided to be conservative and
+                                                            extend the 90 day life of the Hydrogen sensor to 150
+ Duringthe 200 days of testingthe six sensorswere           days.
+checkedfor accuracyat 30 day increments.Thiswas
+completedby passinga knownamountof Hydrogen                 Typical data for one sensor from the life extension test is
+from -300 Pa to -1575 Pa with two additionaldata            shown in Figure 13:
+pointsin between.The accuracyof the sensorswas
+takenattwoseparateconditions.First,at60°Fdewpoint
+with oxygen temperatureof 70°F and interface
+temperatureof 90°F.Secondly,at 85°Fdewpointwith
+oxygentemperature  of 100°Fandinterfacetemperature
+of 100°F.Thefirstconditionwasconsidered to beOGS
+sensorconditionsof a newcellstackandthe secondto
+beOGSsensorconditionswitha cellstackat endof life.
+Sensorpass/failcriteriarequiredthe sensorreadingto
+bewithin+/-180Paofthecalibrationlimit.
+
+TheresultswereasfollowsinTable1:
+
+At the30and60dayintervalsallsensorswerewithin+/-
+70Pa.
+At the120dayintervalalldataallsensorswerewithin
++/-115Pa.
+At the180dayintervalalldataallsensorswerewithin                      Figure 13: SN 1003 Channel B (single sensor)
++/-150Pa.
+Table1: HydrogenSensorORUSpecificResults
+
+At the200dayintervalfiveofthe sixsensorswerewithin          SUMMARY
++/- 180Pacalibrationlimit.Onesensorexceeded the -
+ 180 Pa by 6 Pa. Actual Hydrogen partial pressure was
+                                                            The ISS Oxygen Generation System was launched in
+ 1194 Pa, the sensor indicated a partial pressure of 1008
+                                                            July 2006 and has successfully undergone three periods
+ Pa. The test was repeated after two more days to verify
+                                                            of operation in the period July 2007 and March 2008.
+ readings results were similar with an outage of 5 Pa.
+                                                            Further evaluation of OGS performance, with periodic
+ See results of this Hydrogen Sensor ORU (3 sensors) in
+                                                            operation, will continue in anticipation of WRS activation
+ Figure 12:
+                                                            in November 2008. With WRS support, longer runtime
+                                                            will be achievable.
+" REFERENCES
+
+
+ 1o   Bagdigian, R. M. and K. Prokhorov, "On-Orbit Checkout
+      and Activation of the ISS Oxygen Generation System",
+      SAE 2007-01-3182,     37 th International Conference on
+      Environmental Systems, Chicago, IL, July 2007.
+
+ 2.   Bagdigian, R. M., D. Cloud, and J. Bedard, "Status of the
+      Regenerative    ECLSS Water Recovery       and Oxygen
+      Generation     Systems,"    SAE    2006-01-2057,      36th
+      International  Conference   on Environmental    Systems,
+      Norfolk, VA, July 2006.
+
+ 3.   Bagdigian,     R. M., and D. Cloud, "Status      of the
+      International Space Station Regenerative Water Recovery
+      and Oxygen Generation Systems", SAE 2005-01-2779,
+      35th International Conference on Environmental Systems,
+      Rome, July 2005.
+
+ 4,   M'Sadoques, G. and Makel, D., "Flight Hydrogen Sensor
+      for use in the ISS Oxygen      Generation Assembly" SAE
+      2005-01-2870,      35 t_  nternational   Conference  on
+      Environmental Systems, Rome, July 2005.
+
+ 5.   Carrasquillo, R.L., Cloud, D., and Kundrotas, R., "Status of
+      the Node 3 Regenerative ECLSS Water Recovery and
+      Oxygen Generation Systems," SAE 2004-01-2385             34 'n
+      International Conference on Environmental Systems, July
+      2004.
+
+ 6.   Carrasquillo, R.L., "'Status of the Node 3 Regenerative
+      ECLSS      Water   Recovery    and   Oxygen   Generation
+      Systems",     SAE     2003-01-2590;   33 rd International
+      Conference on Environmental Systems; Vancouver, B.C.,
+      July 2003
+
+ 7,   Williams D.E. Lewis, J., Carrasquillo, R.L., Reysa, R.,
+      and     Gentry,   G.,   "International     Space    Station
+      Environmental Control and Life Support System Status:
+      2001-2002",     SAE 2002-01-2494;       32 nd International
+      Conference    on Environmental     Systems;   San Antonio,
+      Texas, July 2002.
+
+ 8°   Makel Engineering Inc. Report "Calibration Verification
+      Testing SN 1002 and 1003 200 day Report" MEI-FCT120-
+      SV826167-1 dated 11-12-07
+
+
+
+ CONTACTS
+
+ The primary author may be contacted at:
+
+  Robert Erickson
+  NASA Marshall Space Flight Center
+  Mailcode ES22
+  Huntsville, AL 35812
+  robert.j.erickson@nasa.gov
+

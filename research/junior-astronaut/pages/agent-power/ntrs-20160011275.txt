@@ -1,0 +1,419 @@
+                       Solar vs. Fission                 1
+                Surface Power for Mars
+                                    Michelle A. Rucker
+         National Aeronautics and Space Administration
+                                      September, 2016
+
+
+
+
+Michelle.a.rucker@nasa.gov/AIAA Space 2016
+         Background                                                     2
+
+ 2009: NASA’s Design Reference Architecture 5.0 base-
+  lined fission surface power for a crewed Mars mission
+ • Two landers to one site, then two more landers to a different site
+ • Solar power did not trade as well as fission power for mass
+     Fission development costs would be shared with the Constellation
+      Program’s lunar surface mission, making fission more attractive
+ 2016: NASA revisited the solar vs. fission trade based
+  on new information
+ • Paradigm shift to Evolvable Mars Campaign
+     Multiple landers to the same site, allowing infrastructure build-up
+ • Technology advances since the original studies were performed
+     Kilopower fission system, higher density batteries, more efficient solar
+      arrays
+
+ Michelle.a.rucker@nasa.gov/AIAA Space 2016
+         COMPASS Team                                                          3
+
+The new study was performed by the NASA
+Glenn Research Center’s Collaborative
+Modelling for Parametric Assessment of Space
+Systems (COMPASS) Team
+ NASA Glenn Research Center                   Zin Technologies
+ • Steve Oleson                               • Mike Martini
+ • Pat George                                 • John Gyekenyesi
+ • Geoffrey Landis                            Vantage Partners, LLC
+ • James Fincannon                            • Tony Colozza
+ • Aimee Bogner                               • Paul Schmitz
+ • Robert Jones                               • Tom Packard
+ • Elizabeth Turnbull
+ • Jeremiah McNatt
+                                                                    Additional Expertise
+                                                     Lee Mason, Dianne Linne, Jerry Sanders
+ Michelle.a.rucker@nasa.gov/AIAA Space 2016
+        Making Mars More Affordable
+        Utilize Martian Resources                              4
+ Mars Ascent Vehicle arrives on Mars with empty               Acronyms
+  Liquid Oxygen propellant tanks
+                                                                 MAV
+ Fission- or solar-powered In Situ Resource                   Mars Ascent
+  Utilization extracts carbon dioxide from the Martian           Vehicle
+  atmosphere
+   • ISRU processes the CO2 into LOX propellant                    LOX
+   • Paired with Methane brought from Earth                      Liquid
+                                                                 Oxygen
+ Once LOX tanks are confirmed full, the crew lands
+  on Mars                                                          ISRU
+   • ISRU production is suspended, and the power system is       In Situ
+     switched over to crew life support functions               Resource
+   • Some power needed for cryogenic propellant conditioning   Utilization
+
+ For solar-power system, dust storm disruption up to              CO2
+  120 sols is assumed                                            Carbon
+                                                                 Dioxide
+Michelle.a.rucker@nasa.gov/AIAA Space 2016
+            Study Approach                                                5
+
+1 Pre-cursor demonstration mission
+       • Primarily an Entry-Descent-Landing demonstrator near the equator
+       • ISRU payload to demonstrate LOX production from atmosphere, at 1/5
+         scale of crewed mission
+       • Compare 10 kilowatt electric (kWe) Kilopower fission system to 3 solar
+         options:
+         A. Daylight-only ISRU operation
+         B. Around-the-clock ISRU production (battery reserves for night)
+         C. Daylight-only, but 2x production rate to make up for night period
+2
+      Crewed Surface Mission
+       • Cargo Phase: Around-the-clock production 23 t of LOX in 420 Earth days
+       • Crew Phase: Crew support functions + MAV keep alive and propellant
+         conditioning (no ISRU)
+       • Evaluated the same crewed mission to two different landing sites
+          Jezero Crater, located 18.9o North
+          Columbus Crater, located 29.5o South                             kWe
+                                                                           kilowatt
+       • Kilopower fission vs. [solar + batteries] vs. [solar + fuel cell]
+                                                                           (electric)
+    Michelle.a.rucker@nasa.gov/AIAA Space 2016
+                                                 Vs.
+
+
+
+
+                                             ISRU Demonstrator   6
+
+
+
+
+Michelle.a.rucker@nasa.gov/AIAA Space 2015
+          Assumptions                                                   7
+          Demonstrator Mission
+ Land at Opportunity rover site at Meridiani (~2o south)
+ • Benefit of Opportunity’s 12 years of actual solar array performance data,
+   favorable night durations, and minimal seasonal variations
+ Mars environment based on Opportunity data
+ • Assumed one dust storm, 120 days in duration, maximum wind 20 m/s
+ • Optical depth varies from 1.0 (clear skies)
+   to 5.0 (dust storm)
+ • Opportunity data: dust scatters light, so
+   diffuse light during a storm is ~30-40% of
+   direct light on a clear day
+ Average of 12 hours sunlight per sol
+ • But assume 10 hours/sol ISRU operation
+   to allow for system warm-up
+                                                 Dust storm time lapse as viewed by
+  Michelle.a.rucker@nasa.gov/AIAA Space 2016     Opportunity
+         Fission Power Concept                                        8
+         Demonstrator Mission
+
+  ISRU system sized for 0.45 kg/hr LOX production with a goal of
+   4,500 kg
+    • LOX tank only sized for 1,500 kg, with the balance vented overboard
+  10 kWe Kilopower unit providing 6.45 kWe (6.52 kWe at night)
+    • Fixed, conical upper radiator requiring no deployment
+    • 1,754 kg including 15% mass growth allowance and radiation shield sized
+      to reduce crew exposure to <3 mR/hr within 500 m
+  6 m diameter landed footprint x 5.14 m dia. height
+   • 2.61 m center of gravity height
+   • 106 W keep-live power after landing
+  2,751 kg total payload mass
+    • Including growth allowance
+     Kilopower is oversized for this application
+But it’s an opportunity to demo crew mission technology
+ Michelle.a.rucker@nasa.gov/AIAA Space 2016
+            Solar Power Concepts                                                   9
+            Demonstrator Mission
+
+ Same ISRU assumptions as for fission power case
+ 120V Orbital ATK UltraFlex™ arrays or equivalent
+    • Inverted Metamorphic Multi-junction solar cells of 33% conversion efficiency
+    • Measured at Earth distance solar flux, 28°C, beginning of life
+    • 45o Gimbal for sun tracking and dust removal
+ Panasonic cell type Lithium-ion batteries
+    • 60% depth of discharge, 165 Watt-hours per kilogram
+
+A                                        B                   C
+    Daytime                                  Around the            Daytime
+     Only                                       Clock            Only 2x Rate
+
+     4 x 5.6 m                                                      4 x 7.5 m
+                                                 4 x 7.5 m
+     diameter                                                    diameter arrays
+                                                 diameter
+       arrays                                                       + 2x ISRU
+                                                   arrays
+
+    Michelle.a.rucker@nasa.gov/AIAA Space 2016
+         Solar vs. Fission Comparison                                                         10
+         Demonstrator Mission
+                                                                    Closest “apples to
+                                                                   apples” comparison
+
+                                                                       Solar 1C: 2/5     Fission: 1/5 Rate
+                               Solar 1A: 1/5 rate Solar 1B: 1/5 rate
+         Option                                                        Rate Daytime      Around the Clock
+                                 Daytime Only     Around the Clock
+                                                                           Only            Fission Power
+Total Payload Mass
+                                     1,128 kg          2,425 kg           1,531 kg           2,751 kg
+(including growth)
+Electrical System Mass                455 kg           1,733 kg            639 kg            1,804 kg
+ISRU Subsystem Mass                   192 kg            192 kg             335 kg             192 kg
+                                                  ~8 kW Continuous
+Power                            ~8 kW Daylight    (with 16 kW of      ~16 kW Daylight   ~7 kW Continuous
+                                                       arrays)
+                                 4 each x 5.6 m    4 each x 7.5 m      4 each x 7.5 m
+Solar Arrays                                                                                   None
+                                    diameter            dia.              diameter
+Night Production?                      No                Yes                 No                 Yes
+LOX Production                       4.5 kg/sol      10.8 kg/sol         9.0 kg/sol         10.8 kg/sol
+Time to Produce 4,400
+kg LOX, including 120-               1,098 sols        527 sols           609 sols           407 sols
+Day Dust Storm Outage
+ISRU On/Off Cycles                      1,098             <5                609                 <5
+ Michelle.a.rucker@nasa.gov/AIAA Space 2016
+          Observations                                               11
+          Demonstrator Mission
+
+ Daytime-only solar power concept offers lowest landed mass
+ • High number of ISRU on/off cycles could pose reliability issues
+ Fission power was at a mass disadvantage in this trade
+ • 10 kW Kilopower was oversized for 7 kW application, plus mass included
+   crew protection shield that wasn’t necessary for demo
+ • Equatorial site represents minimum solar power mass
+    Expect higher mass at other latitudes
+ All options fit comfortably within allowable payload limits
+ • So mass alone is unlikely to drive a decision for an equatorial mission
+ • Power system selection probably depends on other factors
+    Technology investment strategies, program budgets, and risk mitigation
+      needs for later crewed missions
+ Demonstrator mission solar power hardware costs are ~$100M less
+  than comparable fission power hardware costs
+ • Does not include technology development through Technology Readiness
+   Level 6
+  Michelle.a.rucker@nasa.gov/AIAA Space 2016
+                                             Vs.
+
+
+
+                                             Crewed Mission   12
+
+
+
+
+Michelle.a.rucker@nasa.gov/AIAA Space 2016
+          Mission Concept of Operations
+          Crewed Mission                                                   13
+
+                                         Expedition 1          Expedition 2+
+                                          Four Landers   Three Landers per Expedition
+                        1. Power System + Cargo          1. MAV + ISRU
+Cargo Phase             2. MAV + ISRU                    2. Cargo and Consumables
+                        3. Mixed Cargo and Consumables
+Crew Phase              4. Habitat Module + Crew         3. Habitat Module + Crew
+
+  Landers located no more than 1 km from each other
+  Fission: Kilopower units remain together on/near the first lander
+   • Robotic connections to subsequent landers
+   • Power can be disconnected when a lander is no longer in use
+  Solar: arrays on every lander, at least through Exp 3
+   • All landers connected into a power grid
+   • Remain connected even if lander is no longer active
+  Michelle.a.rucker@nasa.gov/AIAA Space 2016
+            Surface Power Needs                                                                      14
+            Crewed Mission
+                                                                                      Peak Power (W)
+                                                                     35,000
+ISRU: Produce 22,728 kg of LOX in 420 Earth days                     30,000
+                                                                                                     Science Lab
+
+                                                                     25,000                          Surface Habitat
+                     Peak Power             Keep-Alive Power         20,000
+                     Needed (W)               Needed (W)             15,000                          Mars Ascent
+                                                                                                     Vehicle (MAV)
+                                                                     10,000
+                   Cargo       Crew          Cargo       Crew         5,000
+                                                                                                     In Situ Resource
+ Element                                                                                             Utilization (ISRU)
+                   Phase       Phase         Phase       Phase           0
+                                                                              Cargo Ops   Crew Ops
+ ISRU             19,700               0     19,700              0
+                                                                        Note that eliminating ISRU doesn’t
+ MAV                6,655        6,655           6,655    6,655         reduce overall surface power need
+
+ Surface
+                                                                                 Keep-Alive Power (W)
+                          0    14,900                0    8,000
+ Habitat                                                             30,000
+                                                                                                     Science Lab
+ *Science                                                            25,000
+                          0      9,544               0      174
+ Laboratory                                                          20,000                          Surface Habitat
+
+        Total 26,355           31,099        26,355      14,829      15,000
+                                                                                                     Mars Ascent
+                                                                     10,000                          Vehicle (MAV)
+*Optional element shown with all systems running. Assume              5,000
+                                                                                                     In Situ Resource
+                                                                                                     Utilization (ISRU)
+power can be phased to stay below cargo ops total peak
+                                                                         0
+    Michelle.a.rucker@nasa.gov/AIAA Space 2016                                Cargo Ops   Crew Ops
+          Fission-Powered Option                                           15
+          Crewed Mission
+
+ Four each 10-kWe Kilopower units would provide up to 35 kWe continuous
+  power for all mission phases at either hypothetical landing site
+ Fission power generation mass is 9,154 kg                                  PMAD
+  • Includes one spare Kilopower and mass growth allowance                    Power
+  • Not including power farm-to-lander Power Management and Distribution   Management
+                                                                               and
+ Up to 1,038 kg PMAD could be needed on the Lander 1, depending
+                                                                           Distribution
+  on whether Kilopowers are relocated and whether any other cargo
+  requires 1,000 – 120 VDC conversion
+  • Landers 2, 3 and 4 would each require 1 km spool of high voltage
+    cabling, connectors, and voltage converters
+                              Lander Lander
+     Description
+                                1    2, 3, 4       Expedition
+Power Generation                                    1 Fission
+ 50 kWe Kilopower               8,769          0     Power
+Power Management                                   Generation
+ Stirling AC Cable               62.4          0      Total
+ Stirling Controller            322.4          0
+FISSION SYSTEM TOTAL            9,154          0     9,154 kg
+  Michelle.a.rucker@nasa.gov/AIAA Space 2016
+          Solar-Powered Option                                                    16
+          Jezero Crater Crewed Mission
+ Study team estimated that all four Expedition 1 landers would require four
+  each 12 m diameter UltraFlex™ arrays or equivalent
+  •   Deployed on a 9.1 m diameter lander would extend the overall footprint to ~33 m
+  •   With arrays in neutral position on a 2.66 high lander deck, overall height was ~9.69
+  •   Deploying arrays high minimizes interactions with surface or payloads
+  •   Gimbals help shed dust
+  •   Lander deck provides stable operating platform
+       Allows arrays to be brought on-line quickly
+ Under nominal Jezero Crater conditions, around-the-
+  clock propellant production with the first two landers
+  requires 34.2 kW during the day and 35 kW at night
+  • During dust storm, power would be reduced to 10,985 W
+    during the day and 11,728 W at night.
+  • Once crew arrived, combined loads of the first four
+    Expedition 1 landers were 31,915 W during nominal daytime
+    operation and 26,790 W at night
+  • Loads drop to 22,945 W during the day, and 24,060 W at
+    night during a dust storm
+  Michelle.a.rucker@nasa.gov/AIAA Space 2016
+          Solar-Powered Option                                                         17
+          Jezero Crater– Expedition 1
+            Description                          Lander 1 Lander 2 Lander 3 Lander 4
+ Electrical Power Subsystem                         4,890    1,512    1,512    1,512
+  Power Generation                                  1,321    1,321    1,321    1,321   Jezero
+  Lander Internal Power                               401      192      192      192   Crater
+  Management and Distribution                                                        Expedition
+  Energy Storage                                    3,168        0        0        0      1
+Structures and Mechanisms                             660      476      476      476    Solar
+                                                                                       Power
+  Secondary Structure                                 416      418      418      418
+                                                                                     Generation
+  Mechanisms                                          244       59       59       59     and
+Thermal Control (Non-Propellant)                       61       45       45       45 Storage
+  Active Thermal Control                              2.4      3.4      3.4      3.4    Total
+  Passive Thermal Control                            41.8       42       42       42
+  Semi-Passive Thermal Control                       16.8        0        0        0
+SOLAR POWER SYSTEM                                  5,611   2,034     2,034    2,034   11,713 kg
+
+                                                   Does not include lander-to-lander PMAD
+  Michelle.a.rucker@nasa.gov/AIAA Space 2016   Mass grows to 12,679 kg at Columbus Crater
+          Solar vs. Fission Comparison                                                    18
+          Crewed Mission
+                                                Cumulative power generation/storage mass (kg)
+ Mass: Expedition 1 comparison
+  doesn’t tell the whole story                  20,000
+  • All fission power arrives with        15,000
+    Expedition 1, but solar power
+    performance doesn’t catch up until    10,000
+
+    Expedition 3                           5,000
+  • Extrapolate through 3 expeditions for      0
+    apples-to-apples comparison                          Fission Power Jezero Solar    Columbus
+                                                                          Power       Solar Power
+ Performance: comparable by Exp 3               Expedition 1 Expedition 2 Expedition 3
+
+ Robustness: fission power is more tolerant of dust, but the distributed
+  solar power network is more tolerant to cable damage
+  • Allows quick post-landing power, but arrays on MAV lander will have to be
+    removed before MAV departs
+     Additional risk for crew/robotics to handle large arrays close to the MAV
+ Service Life: 12-year Kilopower service life is probably about the same as
+  solar power’s rechargeable battery life
+  Michelle.a.rucker@nasa.gov/AIAA Space 2016
+         Observations                                                    19
+         Crewed Surface Mission
+ 50 kWe of fission power is ~20% less landed mass than 35 kW of
+  solar power generation and storage for the 1st Expedition to
+  Jezero Crater
+ • Not including lander-to-lander PMAD for either option, which could add
+   a metric ton per lander
+      All solar powered landers become part of an integrated network, so they
+       have to remain cabled together, even after cargo has been unloaded
+      Fission system only needs to be cabled to landers with active surface
+       payloads
+ • Assumptions will alter the analysis: landing site, propellant production
+   rate, time available to make propellant, dust storm duration,
+   transmission voltage
+ By the 3rd Crew Expedition, cumulative solar array mass is more
+  than 2x fission power mass
+ • But enough solar array area will have been accumulated to
+   accommodate a 120-sol dust storm with little disruption
+ Mass differential is greater at Columbus Crater landing site
+ Michelle.a.rucker@nasa.gov/AIAA Space 2016
+        Conclusions
+        Solar vs. Fission Mars Surface Power                        20
+
+ Solar-powered crew surface mission is more feasible under
+  EMC than previous mission concepts
+ Solar-powered crew surface mission is certainly possible,
+  at least for some latitudes
+  • Forward work to evaluate all landing sites of interest (up to 40o N)
+ Advantages and Disadvantages
+     Solar: High technology readiness, lower cost, and quick to switch
+     from on-board stored energy to surface power; but high mass penalty
+     may limit landing site options, and higher risk during a storm
+     Fission: Reliable, lower mass for most landing sites, same mass
+     regardless of site, season, day/night, or weather; but lower
+     technology readiness and higher development cost
+ Either power system will require substantial technology
+  development and flight hardware investment
+Michelle.a.rucker@nasa.gov/AIAA Space 2016
+                                             NASA Johnson Space Center
+                                             XM/Michelle Rucker
+                                             Michelle.a.rucker@nasa.gov
+
+
+
+
+                                                Acknowledgements
+                                             Dr. Roger Meyer, Dr. Steve Hoffman,
+                                                       and Kevin Watts
+
+
+
+
+Questions?                                                           21
+
+Michelle.a.rucker@nasa.gov/AIAA Space 2016
+

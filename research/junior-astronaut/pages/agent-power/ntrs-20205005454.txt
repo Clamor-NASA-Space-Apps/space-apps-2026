@@ -1,0 +1,471 @@
+                                                                                                              ICES-2020-391
+
+
+
+
+Upgrades to the International Space Station Urine Processor
+                         Assembly
+
+                Jill P. Williamson1, Layne Carter2, Jimmy Hill3, Danielle Morris4, Colton Caviglia5
+                 NASA George C. Marshall Space Flight Center, Huntsville, Alabama 35812, USA
+
+
+           The ISS Urine Processor Assembly (UPA) began operations in November 2008. Though
+        the UPA has successfully generated distillate from crew urine, several modifications and
+        upgrades have been implemented to improve overall system performance throughout the
+        years. Current and future upgrades to the UPA will continue to focus on improved system
+        performance and reliability, focusing next on a flight demonstration experiment of a vacuum
+        pump utilizing scroll pump technologies. The upgraded Distillation Assembly, described in
+        further detail in previous publications, will also be available for on-orbit integration within
+        the year. The following paper discusses progress on the Purge Pump and Separator Assembly
+        (PPSA), and concept considerations for future UPA upgrades.
+
+
+                                                  Nomenclature
+cm        =   centimeter                                      PPSA         =   purge pump separator assembly
+DA        =   distillation assembly                           psig         =   pound force per square inch, gauge
+FCPA      =   fluids control and pump assembly                SPA          =   separator plumbing assembly
+ISS       =   international space station                     TT&E         =   tear-down testing and evaluation
+MSFC      =   marshall space flight center                    UPA          =   urine processor assembly
+OGS       =   oxygen generation system                        WPA          =   water processor assembly
+ORU       =   orbital replacement unit                        WRS          =   water recovery system
+PCPA      =   pressure control and pump assembly
+
+                                                I. Introduction
+
+T    he International Space Station (ISS) Water Recovery and Management System provides potable water for crew
+drinking and hygiene activities, oxygen generation, urinal flush water, and various payloads. To this end, wastewater
+is collected in the form of crew urine, humidity condensate, and Sabatier product water and subsequently processed
+by the Water Recovery System (WRS) to potable water quality standards. This product water is provided to the potable
+bus for the various users. The WRS is comprised of the Urine Processor Assembly (UPA) and Water Processor
+Assembly (WPA), which are located in two International Standard Payload Racks named WRS-1 and WRS-2 as
+shown by Figure 1. The layout of the two WRS racks is as shown in Figure 1, along with the Oxygen Generation
+System (OGS). The WPA is packaged in WRS Rack 1 and partially in WRS Rack 2, linked by process water lines
+running between the two racks. The remaining portion of WRS Rack 2 houses the UPA. Detailed process descriptions
+and schematics of the entire WRS are provided elsewhere1,2.
+
+
+
+
+1
+  ISS Urine Processor Subsystem Manager, MSFC ES62
+2
+  ISS Water Subsystem Manager, MSFC ES62
+3
+  MSFC ECLSS Design Lead, MSFC ES21
+4
+  MSFC ECLSS Testing and Development Deputy Branch Lead, MSFC ES62
+5
+  MSFC ECLSS Testing and Development Test Engineer, MSFC ES62
+ Figure 1. International Space Station Regenerative ECLSS Racks and process flows for the OGS and
+ WRS.
+
+
+                                         II. Status of UPA Upgrades
+
+    NASA MSFC Engineering completed an extensive evaluation of the UPA hardware in 2017 to identify all areas
+in which improved reliability would better position UPA as a viable technology for future missions. These areas were
+prioritized and an agreement was reached with the ISS Program Office to fund those that provided the highest return
+on the investment. Once developed, these upgrades will be incorporated into ISS UPA ORUs to collect extended
+performance demonstration in an operational flight environment. Successful demonstrations will provide tangible life
+cycle cost benefits to the ISS over its remaining operational life and increase confidence that the UPA design can meet
+demanding exploration mission needs. More recent failures and subsequent investigations have identified further areas
+of redesign to extend reliability.
+
+
+A. PCPA Design Upgrades
+
+    A persistent problem on ISS has been the short life span of UPA pumps. The most prevalent failure has been
+harmonic drive failure for FCPA, but pressure control and pump assembly (PCPA) units have typically failed from
+tube rupture without achieving the desired lifetime. Only one PCPA failure was induced by the frequently observed
+harmonic drive failure like that of the FCPA. Most recently the first planetary drive PCPA failed due to high motor
+current. A failure investigation is still pending. As a result, better strategies for alternative pump architectures have
+been pursued.
+
+1. Purge Pump Separator Assembly (PPSA)
+
+   The peristaltic pump technology was previously selected for the vacuum pump because it could pump two-phase
+flow and the peristaltic tubing was compatible with the fluid composition (water, water vapor, and non-condensable
+constituents from the pretreated urine). However, the peristaltic pump is relatively large and is challenged to maintain
+                                                          2
+                                 International Conference on Environmental Systems
+the vacuum required for the DA operation, especially when excess gas (either dissolved or free) is fed to the UPA or
+when the stationary bowl heaters are powered to remove condensate in the stationary bowl. With respect to scroll
+pumps, previous designs did not effectively deal with the two-phase fluid coming through the purge line. However,
+NASA personnel have identified a scroll pump that provides improved efficiency compared to the peristaltic pump
+that is currently in the PCPA. The unique design of the pump head allows it to process liquid and gas simultaneously
+while starting up against the vacuum maintained by the DA and pumping against the backpressure (~4 psig) required
+to push the purge distillate through the Separator Plumbing Assembly (SPA) and into the distillate delivered to the
+WPA. This pump provides more capacity than the current peristaltic pump while requiring about 1/3 of the power for
+operation.
+    Sufficient ground tests have been completed to merit a technology demonstration of this hardware on ISS. Though
+the materials used in the scroll pump head were acceptable for ground tests, they will have to be upgraded for a flight
+unit to ensure compatibility with potentially corrosive liquid this pump may be exposed to during operation. In
+addition, NASA MSFC is selecting a new motor for the pump to meet performance and life requirements for this
+application. The new motor/pump assembly will be significantly smaller than the current peristaltic pump, providing
+sufficient volume for integrating the current SPA ORU with the new scroll pump. This integration is desirable because
+currently the SPA ORU has to be replaced in its entirety when the SPA membrane reaches end of life. This is a
+significant mass penalty given the SPA membrane itself weighs less than 1 kg. By integrating the new scroll pump
+with the components in the SPA ORU (including the SPA membrane, a regulator, the purge filter, and a manifold),
+approximately 27 kg (60 lbs) of mass will be saved. Moreover, additive manufacturing efforts are being pursued which
+will further reduce the overall mass. The PPSA in its entirety will have 5 major subassemblies that will be fully
+integrated into the same footprint as the PCPA: Purge Pump, Manifold (additively manufactured), Controller,
+Separator Regulator and the Separator and Filter Subassemblies.
+    The scroll purge pump subassembly and manifold designs have been used during urine brine production and other
+test series during the past years at MSFC on the UPA development unit. Current ground testing has logged well over
+1200 hours on the scroll pump, maintaining adequate vacuum in the UPA system with no significant performance
+degradation reported. Necessary scroll pump cooling considerations have also been addressed by designing an
+efficient coolant mount.
+    This new combined ORU assemblies with maintainability as a forefront in design will provide the means to remove
+and replace the scroll pump, the SPA membrane and the purge filter without replacing any of the ORU’s structural
+frame. To support this effort, the limited life items will have quick disconnects, captive fasteners and ease in
+accessibility. Particularly, the SPA and filter are the most accessible components as they are more planned
+maintenance. This hardware is currently anticipated for delivery to ISS in 2021 for a functional demonstration.
+
+2. Scroll Pump Subassembly Prototype I
+
+    A prototype scroll pump was constructed, integrating the vender supplied custom scroll pump head with the motor
+and cooling mount. This prototype was used to prove the design, fabrication, and added requirements to address new
+sealing and material selection concerns from the commercial-off-the-shelf model. Although this prototype would not
+have a full flight-like construction (with the exact quick disconnects and final material fabrications), successful testing
+of the new custom scroll pump head could still be assessed. Figure 2 shows the scroll pump integrated with the motor
+and coolant mount. The prototype was fully integrated into the MSFC UPA development test unit for a suite of testing
+including but not limited to pumping efficiencies and thermal effects. This series of testing would be used to identify
+any necessary redesigns.
+    Prototype I testing continued to exhibit improved pumping capacity when compared to the PCPA. On-orbit
+considerations for pumping capacity plays a significant role when new ORUs are installed. Particular ORUs are flown
+under vacuum; however, during natural vacuum decays, these ORU can lose some of their vacuum the longer they sit
+in stowage. A study was conducted that captured the efficiency of the scroll pump reflected in the elapsed time from
+a fully evacuated DA (largest volume ORU) from ambient pressure. The scroll pump was able to bring the pressure
+down to near operating vacuum condition in just over 35 minutes. This far exceeds the PCPA pump efficiencies where
+several hours of 100% duty cycle were required to achieve operating vacuum conditions.
+    During the Prototype I testing, it was also identified that corrosion was still a concern for selected internal
+components still integrated in the Prototype I. Rusting of non-corrosion resistant components exposed to water
+accumulation within the scroll pump were observed. Despite the corrosion events, the pump performance was not
+influenced in any measureable manner, a testament to the technology’s robustness. However, a second generation
+Prototype II is currently being pursued to modify internal components with corrosion resistant components and
+                                                             3
+                                   International Conference on Environmental Systems
+complementary redesign of the scroll head to reduce residual water accumulation within the scroll pump. Once this
+updated prototype unit is available, further testing can be pursued.
+
+                                                 Scroll Pump
+
+
+
+
+                                  Drive
+                                  Motor
+
+
+                                                                     Cooling
+                                                                      Mount
+                             Figure 2. Scroll pump for UPA Technology Demonstration.
+
+3. Purge Pump Separator Assembly (PPSA) Astronaut Trainer
+
+    The PPSA technology demonstration marks a shift in NASA MSFC ECLSS hardware design philosophy towards
+intermediate level maintenance, as future long duration missions will necessitate crew maintainable hardware. One
+aspect of building crew maintainable hardware is providing an astronaut trainer prior to delivery of the hardware. To
+that end, the PPSA technology demonstration package includes an astronaut trainer. The main goals of the astronaut
+trainer are providing a low cost and high-fidelity prototype of the PPSA for astronauts to train on.
+    To achieve these goals, a relatively novel approach to building the astronaut trainer was implemented. This
+approach combined additively manufactured components with flight-like parts in several subassemblies. While some
+components are strictly flight-like and others are strictly additively manufactured, most subassemblies combined both
+approaches. This combination of additively manufactured components and flight-like components has been
+implemented to allow astronauts to train on every mechanical/electrical/fluid interface that could potentially need
+maintenance in flight.
+    Examples of additively manufactured components include the quick disconnects on the front of the astronaut
+trainer enclosure, as shown in Figure 3. Procuring flight-like quick disconnects was not feasible due to the high cost
+and long lead times, along with a lack of cost effective alternatives. MSFC engineering personnel determined the best
+approach was to these components in a CAD software so they could be additively manufacture. Using this approach,
+components of acceptable dimensional accuracy were produced that are capable of interfacing with certified quick
+disconnect components for training purposes.
+    A combination of flight-like and additively manufactured components has been utilized throughout the
+subassemblies within the PPSA unit. These include the manifold, purge pump, regulator, and controller box. The
+PPSA manifold, for example, utilizes additively manufactured pressure sensors that can be successfully mated to
+flight-like electrical connectors. A wiring harness has also been made with flight-like parts which can be connected to
+and disconnected from the pressure sensors. Figure 4 showcases the additively manufactured pressure sensors with
+flight-like electrical connections. This combination of components provides a low cost, dimensionally accurate
+subassembly that can be used to simulate potential maintenance activities for the subassemblies in the PPSA.
+
+
+
+
+                                                         4
+                                International Conference on Environmental Systems
+          Figure 3. Additivity manufactured quick                     Figure 4. Additivity manufactured
+          disconnect compared to flight quick                         pressure sensors with flight-like
+          disconnect.                                                 electrical connections on manifold.
+
+
+    There are many ways to approach building an astronaut trainer, and methodologies will change based on different
+design drivers. The PPSA project is NASA MSFC ECLSS first attempt at building an astronaut trainer. The project
+aimed to strike a balance between different components and technologies that fit its budget and design drivers. This
+led to a relatively novel approach of merging flight-like parts with additively manufactured components to create most
+of the subassemblies at a fraction of the cost of buying actual flight parts or traditionally manufacturing prototypes of
+them. Because of this, it is expected that this approach will be strongly considered and utilized where possible on
+future astronaut trainer projects.
+
+
+B. Distillation Assembly Design Upgrades
+
+   In early 2020, the upgraded DA SN002 Rebuild arrived on the ISS. This unit contains the next exploration upgrade
+designs which will further enhance performance, functionality, and reliability of the Distillation Assembly. Provided
+below are the five major upgrades fully integrated in this upgraded unit: Toothed (synchronous) belt drive, centrifuge
+bearing seals, liquid level sensor, Teflon spacer seal, and motor mount thermal isolator. The newly upgraded DA
+SN002 will be installed after the current DA SN004 is removed. There is much anticipation to install this new unit to
+begin runtime in fully on-orbit configurations to confirm technology functions.
+
+1. Drive Belt Redesign
+
+    Rotation of the DA is currently driven by an O-ring belt (Figure 5). However, this belt frequently slips during
+operation due to the steam environment in the DA. The risk is greatest at the beginning of a process run, since the
+steam has time to condense as the DA cools between processing cycles. Belt slippage at startup has been consistently
+observed in UPA operations on ISS. In February 2016, DA SN002 (earlier build) experienced a failure when the belt
+was unable to maintain sufficient centrifuge speed. This occurred after several months of off-nominal UPA
+performance in which the DA was consistently challenged with excess condensate in the stationary bowl2,3. The
+previous DA SN005 and currently install DA SN004 have both experienced belt slip during startup; however,
+centrifuge speeds have continued to recover upon restart.
+
+
+
+
+                                                          5
+                                 International Conference on Environmental Systems
+                                         Figure 5. The DA O-ring drive belt.
+
+    The toothed belt is a synchronous drive belt where no friction is require to transmit power, unlike that of the O-
+ring. Not only would the toothed belt provide near 100% efficiency in transmitting power, but is expected to handle
+increased loads on the drive system due to other DA seals upgrades. Integrating this toothed belt into the design
+required a redesign of the compound pulley and an added tensioner. Figure 6 shows the toothed belts along with a 3D
+printed pulley and tensioner, used during fit checking. Ground testing has logged well over 600 hours of the new
+synchronous drive belt system with expected performances of 100% power transmission. Additional testing with
+dynamic sealing described later, where increased loads were expected, the toothed belt design effectively managed
+the higher torque demand and power transmission. Going forward, the implementation of the toothed belt design, not
+the V-belt approach, will be used in the next generation DA.
+
+
+
+
+                                          Added
+                                          Tensioner
+
+
+
+
+                                                      Compound Pulley
+
+                                    Figure 6. Toothed synchronous drive belt.
+
+2. Seal Bearing Leak Path
+
+    NASA personnel identified a leak path through the rear bearing in 2016/2017 that resulted in elevated conductivity
+in the distillate delivered to the Water Processor Assembly (WPA). This contaminated distillate presented significant
+operational impacts to both the UPA and WPA. Previous inspections of DAs returned from ISS have shown the grease
+in this rear bearing is washed out by pretreated urine during operation, but this is the first time that a leak of this
+magnitude impacted UPA operations. The subsequent investigation of the returned DA at MSFC could not identify
+any mechanical variances with this DA that would explain why pretreated urine leaked through the rear bearing at a
+measurably greater rate compared to previous DAs operated on ISS. Despite the inconsistency, NASA personnel
+agreed that it is imperative to address this leak path by the addition of a lip seal to protect the rear bearing from
+exposure to pretreated urine. In the initial design of the DA at MSFC, three lip seals were located on the centrifuge
+shaft (rear bearing at the centrifuge hub, the motor bearing and the demister) to protect various bearings from exposure
+to pretreated urine. However, these lip seals introduced drag on the centrifuge that increased the risk of belt slippage,
+and as a result, the lip seals at the rear bearing and motor bearing were removed before the UPA was initially installed
+on ISS. In response to the anomalous operation on ISS, MSFC engineering has measured the drag introduced by the
+                                                              6
+                                    International Conference on Environmental Systems
+lip seal and determined it will contribute to additional belt slippage with the current O-ring drive belt. Incorporating
+this lip seal design into the next on-orbit DAs depends on the success of the drive belt redesign described earlier. In
+fact, the introduction of the new toothed synchronous drive belt during ground testing has shown sufficient
+performance margin to accommodate the drag associated with the installation of the lip seals. Based on this finding,
+the additional lip seal on the rear bearing will be implemented in the upgraded DA.
+
+3. Liquid Level Sensor Tip Redesign
+
+    The liquid level sensor was included in the original design to determine when the fluid layer in the evaporator is
+thicker than expected. This could indicate an issue with the fluids control and pump assembly (FCPA) or an obstruction
+that is flooding the evaporator. The sensor works as intended in ground testing, but does not work as expected in
+microgravity. Sensor data shows erratic readings, likely due to droplets of pretreated urine splashing on the sensor
+during operational transitions (starting up or shutting down). The tip of the sensor has been redesigned with a non-
+metallic shield to minimize the possibility of droplets reaching the sensor. Figure 7 highlights, in green, the redesigned
+liquid level sensor shield.
+
+
+
+
+                         Figure 7. Shield design for protecting liquid sensor from droplets.
+
+4. Implement Seal to Stationary Bowl
+
+    Condensate in the stationary bowl has been a consistent issue for the DA. As the water vapor is generated in the
+evaporator, it is pumped to the condenser by the DA’s compressor. The condenser rotates within the DA’s stationary
+bowl, but there is a radial gap of 0.16 cm between the condenser and the compressor. This gas then allows water vapor
+to leak into the stationary bowl. Over time, the bowl will become saturated with water vapor, at which time it will
+condense on the cooler surfaces. This condensation is detected by temperature sensors, which subsequently turn on
+the stationary bowl heaters to drive the water back to the vapor phase before it can introduce a drag to the centrifuge.
+These heaters consume approximately half of the UPA power, which is highly undesirable for future missions.
+Furthermore, this heat increases the operating temperature and pressure of the DA, which reduces the DA efficiency
+and can result in a shutdown if the vacuum pump cannot get the pressure below the required setpoint. In addition, the
+O-ring drive belt is located in the stationary bowl. MSFC engineering believe the primary reason the drive belt tends
+to slip on startup is because of condensation occurring during standby. For these reasons, MSFC engineering has
+pursued multiple options to reduce the quantity of water vapor that can leak into the stationary bowl.
+    The latest approach to mitigate this issue is the addition of a spacer seal to reduce the radial gap from 0.16 cm to
+near 0.05 cm; therefore, significantly reduce the amount of the water vapor that leaks into the stationary bowl. An
+earlier approached discussed in detail in a early paper4, considered the VariSeal concept. This approach had reduced
+the gap to 0.0 cm, which provided full contact of the seal to the rotating centrifuge. This did reduce the water in the
+stationary bowl; however, excessive shedding of the material was observed.
+    Further efforts beyond the VariSeal approach to decreases this leak path incorporated a Teflon seal instead of the
+at the same location. Acting as a spacer, a thin Teflon ring design is a compromise to reduction of water vapor into
+the stationary bowl while avoiding the potential for material shedding. Similar Teflon seal design is already
+incorporated on the hub end of the DA, which proves a viable sealing option within this dynamic environment. These
+Teflon seal designs reduce in gap size at the interface, which should reduce the amount of water vapor. Because there
+is no material touching the moving surfaces, there is no concern for shedding or increased drag onto the system.
+
+                                                          7
+                                 International Conference on Environmental Systems
+Ground testing installed a Teflon seal achieving a 75% reduction in gap, which has shown similar reductions of fluid
+found during the VariSeal testing.
+
+5. Thermal Isolation of Front Plate
+
+     Though the stationary bowl seal will reduce the amount of water vapor that leaks into the stationary bowl, for now,
+it is not expected to eliminate it. One of the areas of primary concern for condensation is on the DA’s front plate,
+which is typically colder than the rest of the stationary bowl because of its proximity to the coolant line used for the
+DA motor. The front plate is located directly in front of the drive belt, such that condensation in this area puts the belt
+at increased risk for slippage. To reduce the potential impact of condensed water on the drive belt, MSFC engineering
+is installing a Torlon thermal isolator between the front plate and the coolant line. This new material thermally isolates
+the conductive path from the motor to the compressor. Initial ground testing has shown increased temperatures, by up
+to 20 degrees Fahrenheit on the compressor endplate, confirming effective thermal isolation.
+
+
+C. Planetary Gear Drive Redesign
+
+    In the Summer 2018, a Fluids Control and Pump Assembly (FCPA) utilizing the first generation planetary gear
+drive designed failed due to high motor current after about 4000 hours runtime. This was at least 5 times longer than
+any other FCPA installed, on average – a significant improvement in observed performance. All prior FCPA ORUs
+used a harmonic drive design that historically shown limited operating life on-orbit due to failure within the harmonic
+drive itself. The subsequent ground Tear-down Testing and Evaluation (TT&E) of this first generation planetary gear
+drive concluded the root cause of failure was due to catastrophic wear on the final stage sintered metal sun gear of the
+planetary drive. The final stage exhibits the highest torque and thus wear on these gears was expected. Moreover, the
+sun gear was manufactured using powder metallurgy, which typically achieve 80 to 90% of the life of an equivalent
+machined gear. In March 2020, the first PCPA that utilized the same first generation planetary gear drive system failed
+due to high motor current after about 2300 hours runtime. This pump uses the same gear drive system as the FCPA,
+only the PCPA has a lower gear ratio and spins faster. Future ground TT&E will be necessary to confirm root cause
+failure. However, theoretical expected life on the PCPA due to similar sun gear failure by correlating total revolutions
+suggested this unit was near 100% of its predicted life.
+    Improvements to the planetary gear drive system to enhance the reliability, thus extended runtime, are actively
+being pursued for the next pump builds. Replacing the sintered sun gears for machined sun gears is the primary upgrade
+for both PCPA and FCPA. A second upgrade pursued increases the planetary gears size to improve wear by increasing
+surface area, thus reducing pressure on the gear teeth. Added redesigns to maximize life will incorporate needle
+bearings, caged stages to improve stiffness, and utilizing press-fit rather than welding to control tolerances and fitment.
+Unfortunately, these further redesign can only be pursued on FCPA units due to a necessary axial growth of the
+gearbox to accommodate these redesigns. Current on-orbit configurations and clearances above the PCPA cannot
+support these added improvements. Table 1 below summarizes the upgrades for either PCPA or FCPA.
+
+
+            Table 1. PCPA and FCPA Planetary Gear Drive Upgrades.
+                       PCPA (purge pump)                                  FCPA (fluids pump)
+            Sintered metal gears are replaced with          Sintered metal gears are replaced with
+            machined metal                                  machined metal
+
+            Larger gears on the final output stage          Larger gears on the final output stage
+
+                                                            Use of caged needle bearings to improve wear
+                                                            and more tolerant of any misalignments.
+                                                            Use of press-fit instead of welding to better
+                                                            control tolerances and fitment which serves to
+                                                            reduce wear and premature failure.
+
+
+                                                          8
+                                 International Conference on Environmental Systems
+D. Future Concept Considerations
+
+   Engineering continues to look for ways to further enhance UPA reliability, function, and capabilities. The team is
+considering options that compliment a more maintainable and serviceable environment. Furthermore, troubleshooting
+during on-orbit operations have been limited given the heritage designs that led to full ORU replacement rather than
+component isolation and recovery. Future upgrades are considering expanding system level insights potentially via
+added telemetry, sensors, assembly modification, to name a few.
+
+1. Single Channel Peristaltic Pump
+
+    Near term pursuits are considering the use of single-channel peristaltic fluids pumps, rather than current four-
+channel fluids pump design. The current FCPA has one channel dedicated to moving urine from the WSTA into the
+Distillation Assembly (DA), two channels dedicated to recycling the concentrated waste from the DA into the
+Advanced Recycle Filter Tank Assembly (ARFTA) and back to the DA, and the last channel pumps product distillate
+from the DA to the wastewater interface with the WPA. All four channels use the same, single roller to provide the
+positive displacement.
+    There are several advantages separating of each fluids channel to individual pumps with respect to troubleshooting,
+variable operations, isolation of faults, and maximizing component level maintenance. Specifically, a single channel
+approach can better isolate failure modes to a single localized unit or leg of the UPA system. One of the current failure
+modes is tube rupture of the peristaltic tubing. This was a reoccurring failure for the PCPA units, which is also a four-
+channel peristaltic pump. Although this particular failure mode is easily detectible in the PCPA, the current UPA
+telemetry insights for a tube rupture in a FCPA is lacking which makes it difficult to detect quickly. It is hopeful that
+this concept could improve detection of a tube rupture. There is also a significant opportunity to incorporate
+component level maintenance for each pump – replacing tubing, motors, sensors, etc, reducing the mass penalties of
+entire ORU replacement.
+    Preliminary testing on a concept single channel peristaltic fluids pump has been ongoing at MSFC. A smaller
+footprint design of each individual pumps, while maintaining the required volumetric displacement has been achieved.
+Initial concept work suggests a viable integration within the current FCPA housing making rack integration feasible.
+In tandem are studies for better pump tubing material in hopes of longer expected lifetime. As testing of the new tube
+material continues, mechanical and design engineers can improve the current single channel designs.
+
+2. Troubleshooting Study
+
+    A recent on-orbit UPA anomaly occurred in the early 2020 reconfirmed that UPA current configurations can lack
+insights to isolation root causes for failures or degraded performances. There is a desire to identify more ways to either
+improve detection of UPA faults by either adding more telemetry insights with added sensors or by identifying more
+ways to improve the major UPA assemblies. The single channel pump concept is an example to better isolate faults
+within each channel of the FCPA, but consideration for added pressures sensors, flow meters, or other in-line flow
+dynamic sensors could more simply address this area of need. Therefore, market research, reassessment of system
+level failure mode and effects analysis, and ground testing will be used to better identify the future upgrade work for
+UPA. This not only supports ongoing efforts to maintain the ISS water recovery system, but to better prepare
+technology for future manned exploration missions.
+
+
+                                                III. Conclusion
+
+    The ISS Urine Processor Assembly (UPA) is the preferred NASA technology for future manned missions beyond
+ISS. However, based on the over 10 years of operation on ISS, the reliability of this hardware needs improvement in
+several areas. The PPSA technology demonstration, proving to enhance pumping efficiencies beyond the current state-
+of-the-art, utilizes a scroll pump technology. This unit will be delivered to ISS in Summer 2021. To support the PPSA
+demonstration, an astronaut trainer has been built using both flight-like and additive manufacture components to save
+of cost but maintain fit and functionality. Current UPA peristaltic pumps utilizing the first generation planetary gear
+drive have already provided a marked improvement from the earlier harmonic drives life on ISS. Recently, a life
+limiting design of the planetary sun gear is now being addressed through manufactured gears instead of sintered gear
+
+                                                          9
+                                 International Conference on Environmental Systems
+fabrication. Additional DA upgrades as outlined in this paper are currently integrated in newly arrived DA SN002
+Rebuild, waiting to be installed to begin runtime to prove technology functionality. Future upgrades to UPA will
+always continue and look for ways to improve performance. The added desire to look for maintainability at a
+component level as well as added insights to better isolate potential system faults quickly will also be pursued. Near
+term concepts will look towards single-channel pumps for the fluids pump application.
+
+                                                   Acknowledgments
+    The authors would like to acknowledge the design and test engineers at MSFC that are developing and evaluating
+the hardware upgrades addressed in this paper.
+
+                                                        References
+   1Pruitt, J.M., Carter, D.L., Bagdigian, R.M., and Kayatin, M.J., “Upgrades to the ISS Water Recovery System,” ICES 2015-
+
+133, 45th International Conference on Environmental Systems, Bellevue, Washington, 2015.
+   2Carter, D.L., Williamson, J., Brown, C., Bazley, J., Gazda D., Schaezler, R., Thomas, F., “Status of ISS Water Management
+
+and Recovery”, Paper # 2018-088, 48th International Conference on Environmental Systems, Albuquerque, New Mexico, July,
+2018
+   3
+     Carter, D.L. J.M. Pruitt, C. Brown, J. Bazley, D. Gazda, R. Schaezler, L. Bankers, “Status of ISS Water Management and
+Recovery”, Paper # 2016-017, 46th International Conference on Environmental Systems, Vienna, Austria, July, 2016
+   4Williamson, J., Carter, D.L. Hill, J., Jones, D, Morris, D., Graves, R., “Upgrades to the International Space Station Urine
+
+Processor Assembly”, Paper # 2019-43, 49th International Conference on Environmental Systems, Boston, Massachusetts, July,
+2019
+
+
+
+
+                                                          10
+                                  International Conference on Environmental Systems
+

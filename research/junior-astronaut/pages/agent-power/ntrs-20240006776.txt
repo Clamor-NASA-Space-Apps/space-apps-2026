@@ -1,0 +1,796 @@
+53rd International Conference on Environmental Systems                                                          ICES-2024-101
+21-25 July 2024, Louisville, Kentucky
+
+
+
+
+               Status of the Advanced Oxygen Generation Assembly
+
+                                                      Kevin Takada1
+                                NASA Marshall Space Flight Center, Huntsville, AL, 35812, USA
+
+                                                      David Hornyak2
+                                     NASA Johnson Space Center, Houston, TX, 77058, USA
+
+                                                        John Garr3
+                                     NASA Johnson Space Center, Houston, TX, 77058, USA
+
+                                                    Steven Van Keuren4
+                                      S&K Global Solutions, Inc., Polson, MT 59860, USA
+
+                                                     Christine Faulkner5
+                                       Jacobs Technology, Inc., Houston, TX 77058, USA
+
+
+                                                             and
+
+                                                    Abdelrahman ElSherbini6
+                                       Collins Aerospace, Windsor Locks, CT, 06096, USA
+
+
+                    Future Exploration missions will require an Oxygen Generation Assembly (OGA) to
+                electrolyze water to supply oxygen for crew metabolic consumption. The system design will be
+                based on the International Space Station (ISS) OGA but with added improvements based on
+                lessons learned during ISS operations and technological advances since the original OGA was
+                designed and built. The goal of these improvements will be to reduce spares mass and crew
+                maintenance time while increasing reliability. Over the past year, the team has performed
+                additional design reviews, testing and analysis in an effort to optimize upgrade efforts and
+                achieve the best value that meets Exploration mission requirements. Upgrades that will be
+                incorporated include: redesign of the electrolysis cell stack, redesign of the hydrogen dome,
+                replacement of the hydrogen sensors, redesign of the recirculation loop deionizing bed, and
+                incorporation of recirculation loop nitrogen purging and water flushing. The ISS OGA will
+                be upgraded to an Advanced OGA (AOGA) configuration and its operation demonstrated in
+                a relevant flight environment.
+
+
+                                                         Nomenclature
+        ACTEX     =      Activated Carbon Ion Exchange
+        ARMADILLO =      AOGA ReMediation, Advanced DeIonization and Limited Life Optimization
+        AOGA      =      Advanced Oxygen Generation Assembly
+        CDR       =      Critical Design Review
+        DMSD      =      dimethylsilanediol
+        DMSO2     =      dimethylsulfone
+
+        1
+          ECLSS Systems Engineer, ECLSS Development Branch, MSFC/ES62
+        2
+          Exploration ECLSS Integrator, ISS Vehicle Office, JSC/OB31
+        3
+          Exploration ECLSS Integrator, ISS Vehicle Office, JSC/OB1e
+        4
+          ECLS Systems SME, S&K Global Solutions, Inc.
+        5
+          OGA Subsystem Manager, JETS II Contract
+        6
+          Principal Systems Engineer, Space Systems
+dP            =   Delta Pressure
+H2ST          =   Hydrogen Sensor Technology Demonstration
+ISS           =   International Space Station
+MDP           =   Maximum Design Pressure
+MEA           =   Membrane Electrode Assembly
+OGA           =   Oxygen Generation Assembly
+OGS           =   Oxygen Generation System
+OHDA          =   Oxygen Hydrogen Dome Assembly
+ORU           =   Orbital Replacement Unit
+PSM           =   Power Supply Module
+QD            =   Quick Disconnect
+RSA           =   Rotary Separator Accumulator
+SN            =   Serial Number
+TT&E          =   Test, Teardown, and Evaluation
+
+
+                                                 I. Introduction
+
+F   UTURE long duration deep space missions will require a regenerative life support system, as an open loop system
+    will not be practical for a multi-year mission. A key part of the regenerative life support system will be an
+Advanced Oxygen Generation Assembly (AOGA) to supply oxygen for crew metabolic consumption. A deep space
+mission is envisioned to have a crew of 4 and a duration of 3 years. The system design will be based on the International
+Space Station (ISS) Oxygen Generation Assembly (OGA) but with added improvements based on lessons learned
+during ISS operations and technological advances made since the original OGA was designed and built. These
+improvements will reduce spares mass and crew maintenance time, while increasing reliability. The design team has
+investigated the feasibility of the proposed upgrades by performing trade studies, ground tests, and analyses. The ISS
+OGA will be modified to an Exploration based AOGA configuration and its operation demonstrated. The current
+status of the redesign effort will be presented in this paper.
+
+                                           II. ISS OGA Description
+    The ISS OGA is shown in Figure 1 and the simplified schematic is shown in Figure 2. The OGA consists of the
+following nine Orbital Replacement Units (ORUs): Water,
+Inlet Deionizing Bed, Hydrogen, Pump, Nitrogen Purge,
+Oxygen Outlet, Hydrogen Sensor, Power Supply Module
+(PSM), and Process Controller. Feed water from the ISS
+potable water bus enters the OGA through the Water ORU
+and flows through an Inlet Deionizing Bed, which serves as
+an iodine remover and as a coalescer for any oxygen gas
+bubbles that may be present in the feedwater. If gas bubbles
+are detected by the gas sensor downstream of the deionizing
+bed, the feedwater is rejected by a three-way valve to the
+wastewater bus. This prevents any oxygen that may be
+present in the feedwater from mixing with the hydrogen in the
+Rotary Separator Accumulator (RSA). The wastewater
+interface includes a check valve to prevent backflow of
+wastewater into the OGA and Microbial Check Valve to
+prevent microorganisms in the wastewater from
+contaminating the feedwater. Water is electrolyzed by the
+cathode feed cell stack to produce oxygen and hydrogen. The
+RSA separates the cathode side product gaseous hydrogen
+from the water. The Hydrogen ORU consists of a dome which
+surrounds the components which contain hydrogen (cell                             Figure 1. ISS OGA
+stack, RSA, sensors, valves, etc.). The dome provides a
+leakage barrier protection in the event of a failure. The hydrogen dome is maintained at low pressure by periodically
+venting to space vacuum. The water is recirculated by the positive displacement pump. The pump contains an integral
+                                                          2
+                                 International Conference on Environmental Systems
+relief valve to protect against an unintentional deadhead condition. Downstream of the pump is an Activated Carbon
+Ion Exchange (ACTEX) filter. The ACTEX is a mixed resin bed deionizer, which removes fluoride generated from
+
+
+
+
+                                  Figure 2. ISS OGA Simplified Schematic
+
+the cell stack and other contaminants. The heat exchanger removes heat generated by the cell stack, RSA and pump.
+The separated hydrogen gas from the RSA is sent either to the Sabatier Carbon Dioxide Reduction Assembly or
+optionally out to space through the vacuum vent. Oxygen produced by the cell stack passes through the Oxygen Outlet
+ORU containing a water absorber and heater, which protects the downstream hydrogen sensors from liquid water.
+The Hydrogen Sensor ORU monitors the product oxygen for the presence of hydrogen, which would indicate leakage
+within the cell stack and signal the OGA Process Controller to quickly shut down the OGA. The product oxygen is
+then vented directly into the cabin. The Nitrogen Purge ORU stores a pressurized volume of nitrogen gas from the
+ISS distribution line to purge the OGA cell stack anode oxygen compartments upon shutdown and startup. Nitrogen
+is utilized to mitigate the safety hazards associated with the mixing of oxygen and hydrogen within the cell stack or
+the dome. The nitrogen can also be used to inert the dome environment during extended periods of non-operation.
+The Process Controller ORU is responsible for OGA system command and control and communication with the ISS.
+Sensors (pressure, delta pressure, temperature, speed, gas, conductivity, voltage, current, and hydrogen) are used for
+system operational control and fault detection and isolation. The PSM ORU provides power to the OGA electrolysis
+cell stack. The PSM ORU provides a variable range of 10-46.9 amps (A) of current to the OGA cell stack during
+Process mode and 1.0 A during Standby mode.
+    The ISS OGA generates oxygen at a selectable rate, up to 20.4 lb/day (9.25 kg/day), at 46.9 A PSM current, 100%
+production rate. This can support 10.88 crew (assumes 1.874 lb [0.85 kg] oxygen/day/crew metabolic rate). Most of
+the OGA ORUs are run to failure except for the calibration life limited Hydrogen Sensor ORU (201 days), the Inlet
+DI Bed (~8 years, depending on total water throughput) and ACTEX (675 days).
+
+
+                                       III. ISS OGA Current Status
+    The ISS OGA has been operating for over 16 years and is currently installed in the US Lab. As of May 13, 2024,
+the OGA has produced a total of 29,296 lbm (13,288 kg) of oxygen and 3,662 lbm (1,661 kg) of hydrogen since initial
+activation in 2007. The currently installed electrolysis cell stack (installed on October 21, 2021) has accumulated a
+total operating time of 2.5 years. The OGS rack was moved from Node 3 to the US Lab in September 2022 to enable
+co-location and integration of Exploration demonstration air string systems.
+                                                         3
+                                International Conference on Environmental Systems
+    Current and ongoing OGA issues will be discussed below. These include pump lockups, low recirculation loop
+pressure, cell stack low voltage, RSA high quantity faults, nitrogen purge valve leakage and partially mated quick
+disconnects (QD’s).
+
+A. Pump Lockup
+     Past investigative work on pump lockups is described in References 1 - 3. In 2021, there was a desire to gain on-
+orbit runtime on the redesigned pumps. Pump serial number (SN) 2 – 7 contain an updated design which include new
+wear couple materials, increased bearing thrust surface, journal bearing length change, and additional hydrostatic
+                                         bearing feeds to improve operating and cycle life. In 2021, new spare pumps
+                                         SN 3 and 4 failed to rotate when installed in OGA, and SN 5 failed to rotate
+                                         during ground testing. A picture of failed pump SN 4, as installed in OGA
+                                         briefly in 2021, is shown in Figure 3. As a result of Test Teardown and
+                                         Evaluations (TT&E’s) on failed pumps SN 3 and 5, the root cause of the pump
+                                         lockups experienced in 2021 is now understood. Over a period of years, nickel
+                                         phosphate precipitation forms on the pump gears (which have tight clearances)
+                                         while in storage, preventing rotation. Green precipitation was discovered on
+    Figure 3. Pump SN 4 installed the gears and passages of disassembled pumps. This precipitation was
+    in OGA                               sufficient to prevent rotation of the pump gears, given the low torque rating of
+                                         the pump motor. The source of the precipitation was determined to be the
+electroless nickel coating used on the internal surfaces of the pump’s two fluid quick disconnects (QD’s). This coating
+was applied by the vendor to act as a lubricant. Failed pump SN 4 was returned to the ground in 2023 (on SpX-26),
+but has not been TT&E’d at this point in time, given other funding priorities and the likelihood that the root cause of
+its failure is similar to pump SN 3 and 5.
+     The corrective action is to replace all pump QD’s with ones which do not have the internal electroless nickel
+coatings. This will prevent any precipitation induced pump lockups in the future. Pump ORU SN 3 was successfully
+refurbished with new QD’s in 2023 and is currently stored on ISS as a spare. SN 5 refurbishment is in-work and is
+planned to be completed in mid-2024. It will then become a launch on need ground spare.
+     Pumps SN 2, 6, and 7 (with the suspect QD’s installed) remain on-orbit and remain susceptible to lockup. In May
+2022, spare Pump ORU SN 2 was powered up briefly outside of the OGA, and was successfully rotated while
+performing a 10 L water flush. Analysis of the returned flushed water did not show any significant particulates
+(containing Ni or P), indicating brief flushing of spare pumps have limited value in preventing pump lockups. The
+best method to keep spares viable is to install them into the OGA and operate them for long periods of time. Pump
+SN 6 was installed in OGA in May 2021 and operated nominally. In May 2023, it was preemptively removed and
+replaced with pump SN 2. This was done to prevent pump SN 2 from locking up while in stowage. When pump SN
+2 was installed in May 2023, it was noted its current and temperature were higher than pump SN 6’s (0.45 A vs. 0.30
+A, 135 F vs. 105 F [57 C vs. 41 C]). Over time, pump SN 2’s current and temperature have been gradually decreasing
+(currently 0.35 A, 113 F [45 C]), coming closer to pump SN 6’s. It is hypothesized that nickel phosphate precipitation
+may be slowly clearing from the gears, and potentially accumulating in the ACTEX. The DP was lower after Pump
+SN 2 was installed (18 psid vs. 19 psid [124.1 KPa vs. 131 KPa]). This is due to an offset in the pump SN 2 DP
+sensor. Pump SN 2 will remain installed for the foreseeable future.
+     Pump SN 1, which is of the older pump design, was installed for over 10 years, but was removed in 2021 due to
+decreasing flow rate over time and a failed DP sensor. It has remained on board as a degraded spare, and will
+eventually be returned to the ground. The need for a TT&E once it is on the ground is currently be discussed.
+     Although presumed to still be functional, Pump SN 7 will be returned to the ground on SpaceX-31. The proposed
+plan will be to remove the QD’s to arrest any further buildup of precipitation on the gears and maintain it as a functional
+spare.
+
+B. Low Recirculation Loop Pressure
+    Previous issues with low recirculation loop pressure are described in References 1- 3. Nominally, the water
+recirculation loop pressure should be approximately 24 psia (165.5 KPa) while in Standby and Process. The pressure
+is maintained by the hydrogen back pressure regulator, which is integral to the Hydrogen ORU. The default software
+low limit shutdown value is 20.5 psia (141.3 KPa), to ensure the cell stack hydrogen pressure is maintained above the
+oxygen pressure so that cross cell leakage can be detected via the oxygen outlet pressure sensors and hydrogen sensors.
+
+
+                                                          4
+                                 International Conference on Environmental Systems
+   While Hydrogen ORU SN 3 was installed (2016 – 2021), the recirculation loop pressure was degrading over time,
+causing a shutdown. The low shutdown limit had been reduced to 19 psia (131 KPa) to allow system operation to
+
+
+
+
+                      Figure 4. Recirculation Loop Pressure and PSM Current, 2/24/24
+continue. The current Hydrogen ORU SN 4 was installed on October 20, 2021. The recirculation loop pressure is
+consistently low (below the default shutdown limit) and erratic with Hydrogen ORU SN 4 installed. Figure 4 shows
+a typical example of the recirculation loop pressure (shown in blue) dropping below the default shutdown low limit
+value, 20.5 psia (141.3 KPa), when the system goes into Standby (when current, shown in black, temporarily decreases
+to 1 A) every 100 minutes.
+    A TT&E of Hydrogen ORU SN 3 back pressure regulator determined improper passivation and corrosion of the
+tightly toleranced poppet shaft and guide as the cause of the erratic pressure regulation seen in operation. Changes
+that clarify the passivation method for future builds are being made to preclude recurrence of the erratic pressure
+regulation. The improved regulators are currently being manufactured and will be used in the future for OGA and
+AOGA.
+
+C. OGA Cell Stack
+    The low cell voltage failure of the cell stack in Hydrogen ORU SN 2 in 2016, and
+TT&E results are described in Reference 6. The low cell voltage failure of the cell
+stack in Hydrogen ORU SN 3 in 2021 is described in References 2 and 3. In both
+instances, Cell 1’s voltage in Standby continued to trend downwards out of family,
+indicating possible membrane thinning and a partial short. The legacy OGA cell stack
+design included non-chemically stabilized membranes, screens for membrane support,
+and a now obsolete Membrane Electrode Assembly (MEA) processing method.2 A
+TT&E of failed cell stack SN 5 (installed in Hydrogen ORU SN 2, 2010 – 2016)
+identified excessive thinning of the cell membranes as the root cause of the low cell
+voltage.4, 6 A TT&E of failed cell stack SN 4 (installed in Hydrogen ORU SN 3, 2016
+– 2021) is on hold, due to other funding priorities, and the likelihood that its failure is
+similar to cell stack SN 5.                                                                 Figure 5. OGA Spare
+    Hydrogen ORU SN 4 is currently installed. Starting in March 2024, the voltage of        Cell Stack
+Cell 1 upon startup and shutdown has shifted out of family. The shutdown voltage
+profile from May 3, 2024 is shown in Figure 6. Upon removal of power to the cell stack, Cell 1 discharges faster than
+the other cells. This behavior started to appear after ~2.5 years of operation. Previously, with Hydrogen ORU SN 2
+and 3, this startup/shutdown behavior started to appear after ~4 years of operation, with voltage instability during
+operation (Standby) appearing ~2 months later. The startup/shutdown voltage behavior of Cell 1 in Hydrogen ORU
+                                                         5
+                                International Conference on Environmental Systems
+SN 4 is similar to that of SN 2 and 3, although appearing sooner. The concern with the Hydrogen SN 4 cell stack is
+that this startup/shutdown voltage signature could be indicative of membrane thinning, and eventually lead to a leak
+or hotspot. The OGA team has agreed to keep Hydrogen ORU SN 4 installed until voltage instability appears during
+operation (in Standby). This is similar to the previous guidance for Hydrogen ORU SN 2 and 3. The OGA team will
+continue to closely monitor cell voltages. Meanwhile, the procedure to replace the Hydrogen ORU is being updated
+should it be needed soon. There are two spare Hydrogen ORU’s on ISS (SN 1 and 5).
+
+
+
+
+                         Figure 6. Cell Voltages Upon Shutdown (Hydrogen ORU SN 4)
+
+
+    The new OGA cell stack design, based on lessons learned from previously installed Hydrogen ORU’s, incorporates
+design improvements to minimize membrane thinning, including: chemically stabilized Nafion membranes (reduce
+mass loss during operation), membrane additives to minimize chemical degradation, and new frame seals (minimize
+water loss). A new redesigned OGA cell stack was built and delivered in 2021, as shown in Figure 5. Since that time,
+it has been kept in ground storage. A spare OGA cell stack kit will be delivered in 2024.
+    In March 2023, after the spare OGA cell stack sat dormant for 15 months in ground storage, water samples from
+the cell stack were chemically analyzed. The results indicated a low pH (4.13), high conductivity (37 umho/cm), and
+the presence of nitrate (1.86 ppm), chloride, sulfate. These results were unexpected, and concern grew of the
+possibility of corrosion of metal parts within the cell stack. A fault tree was generated, and an investigation was
+performed, but no conclusive cause was identified. Several more water flushes and samples were taken in 2023, with
+similar results. Finally, in December 2023, another sample was taken. An even lower pH (3.98) and a higher level of
+nitrate was observed (4.82 ppm). These results were confounding because the samples were taken after only 3 months
+of stagnation (as opposed to the earlier 15 month dormant period). No fluoride or corrosion products have been found
+in the water samples. Fluoride would indicate degradation of the membrane. The cell stack will continue to be
+sampled every 3 months and trended.
+
+D. RSA High Quantity Faults
+    So far, in 2024, there have been four faulted shutdowns when attempting to activate OGA, with the most recent
+being on May 3, 2024. These faults are due to high RSA water quantity. A fault occurs if the RSA water quantity
+increases more than 10 cu-in (164 mL). During the startup process, the RSA and pump are initially on, and no current
+is supplied to the cell stack. During this time, the RSA water quantity decreases, due to residual hydrogen and oxygen
+combining in the cell stack. Once the RSA quantity decreases below 26 cu-in, an automatic water fill occurs, raising
+the RSA quantity. Then when power is applied to the cell stack, the RSA quantity increases even further, due to
+
+                                                         6
+                                International Conference on Environmental Systems
+generated hydrogen gas in the cell stack pushing water to the RSA. As a result of these two actions, the RSA quantity
+can increase by more than 10 cu-in (164 mL), and cause a shutdown. The OGA team has reviewed these 2024 high
+RSA quantity faults, as well as ones from 2021 and 2022. The OGA team understands why these RSA water increases
+faults are occurring during startup, but doesn’t fully understand how to prevent them from occurring. The team has
+recommended several possible workarounds to allow system startup. These include disabling water fills during
+startup, expanding the 10 cu-in limit, and disabling the fault checking during startup.
+
+E. Nitrogen Leakage
+    While Nitrogen Purge ORU SN 1 was installed, it experienced leakage issues as described in Reference 2. Starting
+in December 2021, the ORU was unable to maintain a pressure of 76 psia (524 KPa) within its storage tank. This
+required the system to repressurize its storage tank every 5 hours. The ORU was replaced with SN 2 on February 28,
+2022. Nitrogen Purge ORU SN 2 continues to operate nominally, with no leakage evident. Nitrogen Purge ORU SN
+1 was returned to the ground in August 2022 for a TT&E to determine the root cause of the leakage and corrective
+action. This TT&E has not been funded.
+
+F. QD Partial Mate
+    The crew was not able to fully mate the SN 3 and 4 Hydrogen ORU ¾ inch male QD to the rack flexhose ¾ inch
+female QD in 2016 and 2021, as described in References 1 and 2. The QD pairs were about a quarter turn from being
+fully mated. In this configuration only one of two redundant seals is engaged. The failure investigation is on hold
+until the currently installed rack hose is removed and returned to ground for TT&E in 2025, as part of the AOGA
+upgrade process.
+
+                                           IV. AOGA Upgrades
+    Previous AOGA design and analysis work is described in References 1, 2, and 3. The AOGA design will focus
+on enabling component-level maintenance, modifying the existing cell stack design to improve both shelf and
+operating life, and enabling dormancy. A 2017 supportability study determined that enabling component level
+maintenance of the dome’s internal components, would result in an estimated 617 lb (280 kg) of spares mass savings
+for a 1,100 day exploration mission. Another important consideration is that a future Exploration vehicle will have a
+significantly smaller internal habitable volume compared to ISS. A future vehicle is expected to only be the size of
+one of ISS’s modules. The ISS internal cabin volume has days worth of available oxygen, for crew metabolic
+consumption, compared to hours for an Exploration vehicle. As such, the maximum allowable maintenance downtime
+for ISS OGA is measured in days, while an Exploration AOGA’s would only be hours.
+    The proposed AOGA schematic is shown in Figure 7 and the list of proposed upgrades is summarized in Table 1.
+The system design is similar to the OGA, with the notable differences being that the AOGA will incorporate a
+redesigned cell stack, two independent domes, new hydrogen sensors, redesigned ACTEX, and a manual nitrogen
+purge and water flush capability for the water recirculation loop (as denoted by the red and blue dotted lines in the
+figure). As previously mentioned in Reference 1, the obsolete systems electronics (Controller and PSM) should be
+redesigned for Exploration, but the ISS Program has decided not to demonstrate upgraded electronics as part of the
+AOGA demonstration on ISS.
+    The AOGA Critical Design Review (CDR) was conducted in November 2022. The AOGA design (less the manual
+recirculation loop purge and flush hardware) was reviewed and approved to proceed to manufacturing, assembly,
+integration and test. Separate component level CDR’s were held for the new cell stack, dome pressure sensors,
+feedwater check valve, and back pressure regulator. An AOGA Phase II safety review was completed in February
+2023. This review covered the new hazard reports (hazards and controls related to combustion, overpressure,
+structural failure, and hazardous gases) and non-compliance reports (Maximum Design Pressure [MDP], sharp edges,
+dual seal verification) associated with AOGA. A delta-CDR was conducted in July 2023 to review the design of the
+manual recirculation loop purge and flush hardware. The final AOGA Phase III safety review will be in 2025. An
+Interim Design Review (IDR) was conducted in February 2024 to review the design of rack modification hardware
+for the existing OGS rack required to accommodate AOGA. A new rack bumpout (described in further detail below),
+new rack hoses, along with a structural analysis and maintenance analysis, is required.
+
+
+
+
+                                                         7
+                                International Conference on Environmental Systems
+                               Rack RIP QDs
+
+                                                                                                                                                  H2    H2
+                       Nitrogen In                                                                                                                                  Oxygen to
+                                                                                   Oxygen Out                                                          H2           H2ST and
+                                                                                                                      Water Adsorber
+                                                                                                                                              Hydrogen Sensor       Cabin
+
+                                                                                  Nitrogen Purge          Water Flush       CWC-i
+                      Feedwater In                                                                                           Bag
+
+                                                                     Dome
+                                                 Inlet                                                                              Venturi
+                                                 Deionization           Cell Stack                                                  sensors
+                                                 Bed
+                                                                                                                                                   Filter
+                                                                                      N2 Purge
+
+                                               G Gas                         Hydrogen and                                                                     AOGA
+                                      3-way      Sensors                            water                                              Recirc                 Process
+                                       valve     G          Feedwater                                                                                        Controller
+             To                                                                                                                        Loop
+          Waste Bus       Water ORU                                                  Rotary Separator
+                          CV & MCV                                                      Accumulator                                                           Coolant
+                                                                            RSA
+                                      Hydrogen Vent to             H2
+                                       space or Sabatier                                      Dome
+                                                                Regulator
+                                                                                                                                      Heat
+                     Key                                                                                                                               Coolant
+                                                                                   Filter                                        Exchanger
+                Feedwater
+                Hydrogen Vent                                       Pump
+                H2 / H2O
+                                                                                                 Filter           Filter
+                Loop Water Effluent
+                Nitrogen
+                Oxygen                                                                                    Armadillo
+                Recirc Loop                                                                                IX Bed
+                Waste Bus
+
+                                                            Figure 7. AOGA Schematic
+
+
+Table 1. AOGA Upgrades
+ Upgrade                                                   Reason                                                                Description
+ Redesign Cell Stack                                       Implement corrective action based                                     Provide better mechanical support
+                                                           on the cell stack failure investigation                               for the cell membranes, replace the
+                                                           to mitigate membrane thinning as                                      obsolete membrane with chemically
+                                                           well as implement current industry                                    stabilized Nafion
+                                                           best-practices and standards
+ Replace the single dome with two                          Reduce         logistics      resupply                                Crew will be able to access and
+ domes                                                     requirements                                                          maintain the cell stack, RSA and
+                                                                                                                                 other components
+ Replace the hydrogen sensors                              Reduce crew maintenance time,                                         Replace hydrogen sensors with a
+                                                           improve reliability, eliminate need                                   more reliable technology that
+                                                           for specialized purge tools                                           requires less crew intervention
+ Redesign the recirculation loop                           Increase installed life and reduce the                                The existing design is not optimal as
+ ACTEX                                                     delta pressure                                                        it was not specifically designed for
+                                                                                                                                 the OGA application
+ Manual recirculation loop purge and                       Reduces contaminants within the                                       Purge      hydrogen      from    the
+ flush                                                     AOGA recirculation loop that could                                    recirculation loop with nitrogen,
+                                                           be sent to Sabatier and cleans the                                    then flush with potable water into a
+                                                           system in preparation for dormancy                                    CWC-I bag or the ISS wastewater
+                                                                                                                                 bus
+
+    Due to the time criticality of oxygen generation on ISS, there is a requirement that the upgrade from the OGA to
+AOGA configuration must be completed in less than two days, and if there are any issues, the system must be returned
+to the OGA configuration within two days. An important risk reduction activity will be the integrated AOGA ground
+test (in 2025) properly demonstrating all operating modes prior to launch.
+
+
+
+                                                                        8
+                                               International Conference on Environmental Systems
+A. Cell Stack Redesign
+    Legacy OGA cell stack failures and TT&E results are described in Section III-C above. The AOGA cell stack
+design will be based on the OGA cell stack design, but will include improvements based on the lessons learned. The
+new AOGA cell stack design will incorporate design improvements to minimize membrane thinning, including:
+chemically stabilized membranes (reduce mass loss during operation), sintered metal membrane supports (increase
+surface contact area to better distribute the load on the membranes), membrane additives (to minimize chemical
+degradation), and new frame seals (minimize water loss).
+    AOGA cell stack development testing is ongoing. A single-cell was built, and a 7-month endurance test was
+completed in October 2022. The endurance test confirmed that the new AOGA cell stack design delivered the expected
+performance, with nominal cell voltage (~1.7 V), resistance, polarization scan data, cross cell/external leakage, as well
+as minimal voltage degradation over time. Two AOGA single cells were used in a microbial challenge test. These
+cells were subjected to a microbial solution (consisting of microbes typically found in the ISS OGA’s water
+recirculation loop). After a 4-week dormancy period, the cells had nominal voltage and polarization scan data. Four
+additional single cells were built in early 2023, and subjected to cycle tests from May – October 2023. The cells were
+subjected to 31,500 Process/Standby cycles and 1,000 on/off cycles, to simulate on-orbit operations. Throughout the
+cycle test period, periodic polarization scans and resistance checks were performed, indicating nominal performance
+and all cells remained in good health.
+    A chemical challenge test on two single cells is planned for March – May 2024. An initial baseline test will be
+performed with cell voltages recorded. Then the cells will be dormant for about 1 month, and subjected to trace
+contaminants (dimethylsilanediol, DMSD, and dimethylsulfone, DMSO2), typically found in the ISS OGA’s water
+recirculation loop. After a dormancy period, cell stack voltage performance degradation will be measured.
+    Bleed resistors are part of the OGA cell stack design and are included in the AOGA cell stack design. Bleed
+resistors reduce total cell stack voltage below 30 V within ~10 minutes after shutdown to eliminate a shock hazard
+when the crew needs to perform maintenance on the cell stack. Without bleed resistors installed, this time will take
+over 2 hours. As previously mentioned, for future smaller Exploration vehicles, it is essential to minimize the
+maintenance downtime. However, the effect of bleed resistors on the new sintered metal membrane supports is
+unknown. There is a potential that the sinters could become embrittled and damaged after repeated on/off cycles with
+the bleed resistors attached. A development test will be performed May – June 2024 using an AOGA 3-cell
+development stack with bleed resistors. The cell stack will be subjected to 100 on/off cycles. Cell stack health checks
+will be performed throughout the test to determine if there is any performance degradation. If so, the bleed resistors
+may need to be removed from the AOGA cell stack design and another method of handling the shock hazard will need
+to be developed.
+    Finally, a particle shedding characterization test will be performed on a development stack in May 2024. The
+stack will be operated for 200 hours. Then the downstream water filters will be analyzed for particles coming off the
+cell stack. The legacy OGA cell stack shed catalyst particles. These particles could potentially collect in the RSA
+and become an ignition source. In addition, the particles could collect in valves and cause leakage. The new AOGA
+cell stack design has an improved membrane catalyst application process, which should have a reduced particle
+shedding rate. This test will confirm this assumption.
+    The flight AOGA cell stack build will start in July 2024. Major components, such as the baseplate and frames,
+are currently being manufactured. The build should be complete in August 2024. Following the build, acceptance
+testing and final delivery will occur.
+
+B. Dome Redesign
+    The legacy OGA design houses all the hydrogen containing components (including the electrolysis cell stack,
+RSA, motor, 4 solenoid valves, 2 relief valves, a back pressure regulator, heater, relay, 9 pressure sensors, 5
+temperature sensors, tubing, and wiring) within a single vacuum dome referred to as the Hydrogen ORU (see Figure
+8). The Hydrogen ORU is installed in the bottom right of the ISS OGS rack (see Figure 1). The Hydrogen ORU
+weighs ~300 lb (136 kg) in its launch configuration and has a high packing efficiency and tight tolerances when fitted
+together with the dome. This precludes maintenance of any of the internal components by the crew. The failure of a
+single internal component requires replacement of the entire ORU. The Hydrogen ORU can only be repaired on the
+ground since the dome reinstallation requires specialized tooling, precision alignment and verification of specification
+leakages of the two independent seals to space vacuum to ensure proper operation on-orbit.
+
+
+
+                                                          9
+                                 International Conference on Environmental Systems
+     One of the requirements of an Exploration mission is a system design that allows for maintainability such that
+failure of a single component does not require removal and replacement of the whole ORU. Therefore, for AOGA,
+there will be two independent removable domes, one around the RSA and the other around the cell stack. A concept
+is shown in Figure 9, the left cylindrical dome is the RSA dome, and the right cylindrical dome is the cell stack dome.
+The configuration is called the Oxygen Hydrogen Dome Assembly (OHDA).
+Manufacturing of both the RSA and cell stack domes were started in 2023 and will
+be complete in June 2024.
+     The OGA will be upgraded to the AOGA configuration by replacing the Hydrogen
+ORU with the OHDA. The OHDA design will allow the crew to remove each dome
+to replace internal components without the need for specialized tools or alignment
+fixtures. This component level maintenance approach (rather than ORU level
+maintenance) will reduce spares mass and volume, as previously mentioned. The cell
+stack will be housed in one removable dome with the pressure sensors and PSM
+interface on the outside for access. The RSA, hydrogen backpressure regulator and
+associated sensors will be housed in the other removable dome, with the pressure
+sensors mounted externally.
+     The dome internal components (cell stack, RSA, tubing, etc.) contain hydrogen,
+oxygen and water. In addition, dome seals prevent cabin air from entering the dome.
+These components have a known leak rate, into the dome. Over time, hydrogen,
+oxygen, and air build up in the dome. These gases must be vented out of the dome
+(i.e. system transitions from Process to Standby) for 5 minutes, every 100 minutes, to
+prevent a buildup of a combustible mixture in the dome. This regular
+                                                                                           Figure 8. Hydrogen ORU
+Process/Standby mode of operation keeps the pressure inside of the dome below 0.25
+psia (1.7 KPa). During integrated operation with Sabatier, this constant cycling can result in loss of efficiency. When
+OGA goes into Standby every 100 minutes, Sabatier must also go into Standby, not processing hydrogen during that
+time, and after each Standby, Sabatier takes some time to return to production. The same concerns will exist for
+AOGA. AOGA will have two domes (with two sets of dome seals instead of one) and will have additional external
+feedthroughs, which increases the leak paths into the domes. In addition, the total volumes of the two AOGA domes
+will have a smaller internal volume than the legacy OGA dome, meaning the pressure in the domes will rise faster.
+AOGA component level leak testing and integrated system testing will be performed to verify total leakage into the
+AOGA domes and will be compared to the legacy OGA.
+     The OHDA design required several development tests to mitigate some design risks. The cell stack harness test
+and dome seal test were previously completed and described in Reference 1.
+     A third development test involved the RSA diaphragm seal.
+The main function of the RSA is to mechanically separate
+water from gaseous hydrogen. The RSA has a rubber
+diaphragm seal that is part of the hydrogen outlet solenoid
+valve. The diaphragm seal prevents hydrogen gas from
+escaping to the RSA dome when the outlet valve opens to allow
+hydrogen to flow towards the vent line. The RSA is normally
+exposed to a 24 psia (165.5 KPa) pressure and has a defined
+maximum design pressure (MDP) of 50 psia (344.7 KPa), but
+the diaphragm design can only withstand 45 psia (310.2 KPa)
+before failing. As a result, a waiver was needed because this
+value is lower than the MDP requirement. As a result, for the
+AOGA program, the RSA diaphragm was redesigned to                                  Figure 9. OHDA
+improve its pressure capability. This new design incorporated
+a fabric weave into the rubber and a redesign of the sealing edge to improve its structural strength. Development
+testing (proof, leakage, and cycle testing) of the redesigned AOGA RSA diaphragm was performed in 2023. The
+redesigned diaphragm was able to survive higher proof pressures, but failed leakage tests. Additional improvements
+would be required for the AOGA RSA diaphragm design. Further analysis of the systems failure modes was
+performed, and it was discovered that the MDP could be lowered to 30 psia (206.8 KPa), and proof pressure lowered
+to 45 psia (310.3 KPa), since the hydrogen outlet valve automatically closes and isolates the diaphragm in the event
+of a worst case upstream failure. This valve closure was not previously taken into account. The ISS Program has
+
+                                                        10
+                                International Conference on Environmental Systems
+accepted the lowering of MDP, and as such, made the decision to revert to the legacy OGA RSA diaphragm seal
+design, rather than devote additional cost and schedule for redesigning the new AOGA diaphragm.
+    To allow maintenance of the two domes and their components, the two-phase hydrogen/water line connecting the
+cell stack to the RSA needed to be longer than the one in OGA, with a U-shaped bend for packaging within the OHDA
+frame. The additional length and bend pose a risk of increasing the two-phase pressure drop across the line and, hence,
+raising the operating pressure at the cell stack. A development test was completed in 2023. The results showed the
+pressure drop in the 2-phase line to be higher than what the legacy OGA model predicted. The AOGA cell stack is
+expected to operate at a slightly higher pressure than OGA. This should result in better pressure regulation in Standby.
+    The feedwater check valve allows feeding water to the system for electrolysis, while protecting the Waste-Water
+Bus (WWB) from the generated hydrogen that could flow back into it (see Figure 7, AOGA schematic). Operational
+data from the current OGA system showed that some conditions result in very small reverse differential pressure
+across the feedwater check valve. Analysis on leakage at these small reverse pressures demonstrated that certain
+failures could lead to hydrogen leaking back into the WWB. Therefore, the check valve has been re-designed to
+provide tighter sealing at low reverse pressures, as well as the high reverse pressures. Development test data
+demonstrated that the check valve was able to provide sufficient sealing at a reverse pressure of a fraction of a psid
+and at MDP.
+    As mentioned in Section III-B above, the back pressure regulator for OGA and AOGA has been redesigned to
+incorporate the lessons learned from the TT&E conducted in 2023. The regulator will incorporate improved
+passivation to reduce the chance of stiction due to corrosion of the poppet and the poppet guide.
+    As previously mentioned, when the AOGA system is in operation, normal gas leakage from the dome internal
+components raises the domes’ internal pressure over time. The system periodically switches from Process to Standby
+mode to evacuate the domes. The cell stack relief valves are being redesigned to reduce their leakage rates into the
+dome. The new design incorporates smaller-size filters than the original design. The smaller filters are selected to
+reduce the size of particulates that reach the seals of the relief valves and, thus, reduce leakage.
+    As previously mentioned, the OHDA will be integrated into the ISS OGA to upgrade it to the AOGA configuration.
+Once the OHDA is built in 2025, it will be tested on the ground with lab hardware to simulate the AOGA operational
+conditions. The test will demonstrate proper startup, operation, shutdown and recirculation loop nitrogen purge and
+water flush.
+
+C. Hydrogen Sensor Replacement
+    Issues with the legacy OGA hydrogen sensors are described in Reference 5. Due
+to these issues, half of the legacy hydrogen sensor fleet (8 of 16) has been retired.
+The Hydrogen Sensor Technology Demonstration (H2ST) will demonstrate the
+performance of four new COTS hydrogen sensors for at least 3 years while
+connected to the ISS OGA’s oxygen outlet line to monitor for hydrogen. The H2ST
+design is described in References 2 and 3. H2ST was first powered up in a
+standalone mode in April 2022 (attached to the LSR Rack), and was successfully
+integrated with OGA in September 2022 (see Figure 10), after the OGA was moved
+from Node 3 to the US Lab. H2ST is installed on the right side of the OGS Rack.
+    On July 14, 2022, Sensor 3 failed, with its output dropping off scale low, from
+0% to -1% H2, while the other sensors remained at the expected 0% H2. Nominal
+input current of all four sensors is approximately 150 mA. Sensor 3’s input current
+has dropped from ~150 mA to ~70 mA. The root cause of the failure is unknown.
+    Every 90 days, a drift check is performed: the crew flows calibration gas (1.0%
+H2/air) through the H2ST sensors for 1 minute, and the sensor response is recorded.
+There have been 10 drift checks performed so far. The drift of the sensors over time    Figure      10.     H2ST
+is shown in Figure 11. After H2ST was first installed on-orbit, an upwards drift was    Integrated With OGA
+noted. For the past year, no upwards drift has been noted on the three good sensors.
+When exposed to 1.0% H2/air, Sensor 1, 2 and 4 currently report 1.31%, 1.57% and 1.26% respectively. This
+overreporting of H2% is conservative, although not desirable as it could eventually lead to nuisance shutdowns. The
+legacy ISS OGA hydrogen sensors are known to drift downwards over time (under-reporting H2%), limiting their
+installed time to 201 days. H2ST has been installed for 684 days, and counting.
+
+
+
+                                                         11
+                                 International Conference on Environmental Systems
+   When OGA’s product oxygen is flowing through H2ST (starting in September 2022), the sensors have been
+reporting between approximately 0.1 – 0.4% H2, as shown in Figure 12 (yellow, red, and green lines). The legacy
+
+
+
+
+                                                 Figure 11. H2ST Drift Checks
+OGA hydrogen sensors (blue, orange, and gray lines) have been trending upwards from 0.0 to 0.3% H2 in 2023 –
+2024. In previous years from 2015 – 2022, there have been instances of individual legacy OGA hydrogen sensors
+
+
+
+
+                         Figure 12. H2ST and legacy OGA Hydrogen Sensor Response
+
+going offscale high, as shown in the graph. The wide band in readings is due to the Process/Standby cycling that
+occurs every 100 minutes. Prior to integration with OGA, it was thought that the H2ST sensors would report close to
+                                                       12
+                               International Conference on Environmental Systems
+0% H2/O2, based on testing using a ground OGA test stand. The OGA specification allows up to 1% H2/O2. A
+review of cell stack acceptance test data was performed. The currently installed cell stack (SN 6) was acceptance
+tested in 2013, and 0.06% H2/O2 was recorded.
+    The H2ST will remain installed for the foreseeable future. Drift checks and trending every 90 days will continue.
+
+D. Redesign Recirculation Loop ACTEX
+    The OGA water recirculation loop contains an ACTEX ion exchange bed, as shown in Figure 2. The main purpose
+of the ACTEX is to remove fluoride that is released by the cell stack membranes (as part of normal operation) and
+maintain a desirable pH level in the water recirculation loop. ACTEX operational issues (high delta pressure, limited
+life, non-compliance with seal redundancy requirements and MDP requirements) are described in Reference 2. The
+ACTEX will be replaced with a newly designed bed optimized for AOGA and Exploration missions. The AOGA
+ReMediation, Advanced DeIonization and Limited Life Optimization (ARMADILLO) will replace the ACTEX.
+    The ARMADILLO concept is shown in Figure 13. It will consist of a cartridge, inlet hose and outlet hose. The
+cartridge will contain the resin media, a new integral particulate filter, and QD’s to allow the crew to remove and
+replace. The ARMADILLO team has worked to minimize the dP by optimizing fluid passage dimensions in the
+cartridge, hoses, and QDs. The resulting dP across the ARMADILLO has been reduced to less than 6.5 psid (44.8
+KPa). This is roughly a 10 psid (68.9 KPa) reduction from the typical 16.5 psid (113.8 KPa) across the current ACTEX
+deionization bed in OGA. The cartridge and hoses will have redundant seals throughout and structurally designed to
+handle MDP pressures. Welds were eliminated from the design, and two removable end caps added, for ease of
+manufacture and refurbishment. The inlet hose will connect to the AOGA pump outlet and the outlet hose will connect
+to the OGA heat exchanger. The ACTEX will be mounted on the left side of the OGS rack, with hoses long enough
+to reach the pump and heat exchanger on the right side of the rack.
+    A resin capacity analysis was completed in 2022 to determine ARMADILLO’s ionic capacity for fluoride and
+other contaminants. Fluoride is generated by the cell stack as part of the electrolysis process and must be removed
+                                                       from the recirculation loop. The fluoride generation rate for the
+                                                       AOGA cell stack is less than legacy OGA cell stacks, due to the
+                                                       incorporation of chemically stabilized membranes. The fluoride
+                                                       generation rate is assumed to be approximately 3.3 meq/year,
+                                                       based on several ground tests and analysis of returned ACTEX’s
+                                                       from ISS. Based on this rate, the analysis determined that the
+                                                       operational life of the ARMADILLO is 3 years, with a 30%
+                                                       remaining capacity at the end of life. Assuming a degradation
+                                                       rate of 3% per year, the analysis determined that there is a 6 year
+                                                       shelf life prior to installation.
+                                                           A total of four ARMADILLO cartridges will be built,
+                                                       starting in May 2024. The first cartridge will be delivered in
+                                                       2025, and installed in AOGA’s recirculation loop for 1 year
+             Figure 13. ARMADILLO                      (rather than 3 years) and returned to the ground for analysis.
+                                                       Subsequent cartridges will be installed for 3 years.
+
+E. Manual Purge and Flush of the Water Recirculation Loop
+    A new capability to periodically purge and flush the recirculation loop water is required for AOGA. Water
+consumed during electrolysis is replaced in a batch process from the potable water bus. Over time, the recirculation
+loop can concentrate trace contaminants present in the incoming feed water. The feed water is known to contain trace
+amounts of DMSD, and DMSO2, see Reference 4. Both compounds have a low affinity for removal through the
+installed ACTEX/ARMADILLO in the recirculation loop which allows them to slowly concentrate over time. As the
+DMSD concentration increases the DMSD may deposit onto system components. DMSO2 is more volatile than
+DMSD and predominantly leaves the system through the hydrogen stream which goes to Sabatier. DMSO2 is believed
+to have poisoned the Sabatier catalyst in the past.4 Neither of these species have shown a detrimental impact to OGA’s
+cell stack. Periodic flushing (every 90 days) of the recirculation loop is going to be implemented to protect the
+redesigned Sabatier and protect the AOGA from any undiscovered issues with these elevated concentrations. Due to
+cost impacts (related to software and controller changes), the decision was made to have the purge and flush be
+manually performed by the crew rather than be automated. The manual purge and flush operation will take longer
+than if it was automated (hours vs. minutes). For a future Exploration mission, this will need to be automated, to
+
+                                                         13
+                                 International Conference on Environmental Systems
+reduce maintenance downtime. As mentioned previously, reducing maintenance downtime is an important factor for
+an Exploration mission.
+    First, a nitrogen purge of the recirculation loop will be performed to remove hydrogen and minimize risk to the
+crew while performing the subsequent water flush. The crew connects a hose assembly from the Nitrogen Purge ORU
+to the recirculation loop. This is shown as the red dashed nitrogen purge line
+in the schematic (Figure 7). This hose assembly will contain a manual valve
+(to start and stop the purge), a metering valve (to control the nitrogen flow
+rate), a check valve (to prevent backflow), a pressure gauge (to monitor
+pressure), and a filter (to protect the OHDA from contaminants). In 2023, the
+design team removed the orifice from the design, as it was determined to be
+redundant to other orifices in the system. Then, the system’s Inert Dome
+command is used with several parameter overrides to push nitrogen from the
+Nitrogen Purge ORU into the recirculation loop. Nitrogen flows into the
+recirculation loop and dilutes the hydrogen. As nitrogen is introduced, it flows
+through the cell stack, into the RSA, and then out of the system in the same
+way hydrogen leaves the system during operation. After enough dilution is
+done, the Inert Dome is stopped, and the system is ready for the water flush.
+The nitrogen purge hose is disconnected.
+    Next a water flush of the recirculation loop is performed. The crew will
+connect a hose assembly and CWC-I bag to the recirculation loop (the blue
+dashed line labeled water flush in the schematic, Figure 7). The configuration
+is shown in Figure 14. The hose assembly will contain a manual valve (to start     Figure 14. Water Flush Hose
+and stop the flush) and a metering valve (to control the flow rate). In 2023, the  and CWC-I Attached to the
+design team removed the check valve and pressure gauge from the design, as         OGS Rack
+they were determined to be no longer necessary, since the operations concept
+prevented any backflow of water from the CWC-I bag into the OGA. In future configurations, the hose will be
+connected to the wastewater bus. For the water flush, the system is commanded to the Standby state after many
+parameter overrides are put into place to keep the system from producing hydrogen and from shutting down due to
+the impending loss of water from the system. Then when the system reaches a certain point in the Standby state, the
+manual hose is opened to the bag. Once water starts flowing to the CWC-I bag, the system responds by performing
+water fills in quick succession into the recirculation loop. After enough water has been added and removed from the
+system for dilution, the manual hose valve is closed, and the system is shut off.
+After completing the water flush, the water hose will be connected to the
+Nitrogen Purge ORU to purge the remaining water out of the hose.
+    Commercial off the shelf (COTS) components will be used in the purge and
+flush hose assemblies. Development testing of these COTS components was
+completed in 2023. The tests included proof pressure, leakage rate, burst
+pressure, functional performance, vibration, cycles, and accidental loads. The
+development tests helped select some COTS components over others, as well as
+choose alternative features for some of the selected components. A delta CDR
+was held in July 2023 to review the design of the manual purge and flush
+hardware.
+
+F. OGS Rack Planned Upgrades
+    The OGS rack will be modified to include a new bumpout assembly
+replacing the left side closeout door on the rack. This is shown as the orange
+enclosure on the front of the rack in Figure 15. The bumpout will allow             Figure 15. OGS Rack with
+additional room to enclose Sabatier 2.0 (which has a larger volume compared to      Bumpout
+Sabatier 1.0) and new CO2 accumulator tanks. Figure 16 shows Sabatier 2.0 (in
+yellow) and the accumulator tanks (shown in blue).
+    Acoustic foam is used to seal around the perimeter of the bumpout faceplate for reduction of low frequency noise
+and to preclude rack airflow leakage paths to cabin. Attachment brackets will be incorporated to ease crew install and
+removal of the six hook and loop straps securing the bumpout faceplate door to the OGS rack seat track brackets. The
+Avionics Air Assembly (AAA) Cabin Air Inlet port, currently on the front of the original left side door, will to be
+
+                                                        14
+                                International Conference on Environmental Systems
+relocated to the left side of the bumpout. A new AAA inlet port will be larger diameter to compensate for additional
+length and bend of passageway to the muffler filter block and port will contain an integral screen.
+    New replacement H2/N2 Vent Hose and Waste Water Hose Assemblies with contingency tee QDs for alternate
+venting and scarring for potential future flushing of the OGA recirculation loop water to the waste bus (instead of to
+a CWC-I) will be installed within the standoff volume between the OGS Rack Interface Panel (RIP), at the bottom of
+the rack, and Z-panels. Two CO2 Hose Assemblies from the ARS Rack will be installed at the OGS Rack Interface
+Panel (bottom of the rack). A new Scar Panel will be installed to accommodate potential future Methane Reduction
+Device (MRD) fluid QD hose connections.
+    A new rack secondary structure will be installed in the right side of the OGS Rack to allow for mounting of both
+OHDA and legacy Hydrogen ORU (should there be a need to revert to legacy configuration). A new RSA To Pump
+Hose Assembly will be installed. The new hose install will replace the existing hose, which has a suspect QD (only
+allows partial mating) as described in Section III-F above.
+    The six legacy CO2 accumulator tanks at the base of rack were abandoned in place due to suspected internal
+aluminum oxide corrosion and inaccessibility. The new CO2 Accumulator is
+planned to replace the legacy tanks and is comprised of two large accumulator
+tanks. The CDR was conducted in April 2024. The ARMADILLO will be installed
+behind the CO2 Accumulators.
+    Sabatier 2.0 has an expanded volume to ease crew accessibility for component
+replacement and maintenance. Existing mounting brackets and scar panel
+connections used for Sabatier 1.0 within the OGS rack will be utilized for Sabatier
+2.0 without any OGS rack modifications. Sabatier 2.0 CDR is planned for the end
+of June 2024 with hardware delivery targeted for February 2026.
+    Sabatier 2.0 compresses the CO2 recovered from cabin air into the CO2
+accumulator and reacts hydrogen from AOGA and CO2 from the accumulator tanks
+to form water (sent to the waste water bus), and methane which is vented to space
+vacuum. The methane along with excess H2 is targeted for a potential future MRD
+system to react and recover additional water along with other reactant gases that
+will be routed to a US Lab starboard mixed gas vent (conversion from existing
+water to mixed gas vent requires EVAs) to space vacuum.                                 Figure 16. OGS Rack,
+    An integrated design review (IDR) of the rack modifications was held in Feb         Bumpout Cover Removed
+2024.
+
+                                                       V. Conclusion
+   Manufacturing of flight hardware components has started, with additional manufacturing to be completed in 2024.
+Several AOGA development tests have been completed, and more will be completed in 2024.
+   The AOGA will be demonstrated on ISS for a minimum of 3 years. The ISS OGA will be upgraded to the AOGA
+configuration via a separately launched kit (consisting of the OHDA, purge/flush hoses, etc.) in the 2025 timeframe.
+
+                                                            References
+    1
+       Takada, K., Hornyak, D., Garr, J., Van Keuren, S., Faulkner, C., ElSherbini, A., “Status of the Advanced Oxygen Generation
+Assembly,” ICES-2023-311, 52nd International Conference on Environmental Systems, July 2023.
+     2
+       Takada, K., Hornyak, D., Ridley, A., Van Keuren, S., Baker, P., McDougle, S., “Status of the Advanced Oxygen Generation
+Assembly Design,” ICES-2022-199, 51st International Conference on Environmental Systems, July 2022.
+     3
+       Takada, K., Ridley, A., Van Keuren, S., Baker, P., McDougle, S., “Status of the Advanced Oxygen Generation Assembly
+Design,” ICES-2021-264, 50th International Conference on Environmental Systems, July 2021.
+     4
+       Takada, K., Ridley, A., Velasquez, L., Van Keuren, S., Baker, P., McDougle, S., “Status of the Advanced Oxygen Generation
+Assembly Design,” ICES-2020-190, 50th International Conference on Environmental Systems, July 2020.
+     5
+       Yu, P., Goberman, D., Gavin, L., Garr, J., Ulrich, B., “Poisoning Evaluation of On-Orbit Sabatier Assembly,” ICES-2020-
+378, 50th International Conference on Environmental Systems, July 2020.
+     6
+       Takada, K., Velasquez, L., Van Keuren, S., Baker, P., McDougle, S., “Advanced Oxygen Generation Assembly for
+Exploration Missions”, ICES-2019-107, 49th International Conference on Environmental Systems, July 2019
+     7
+       Carpenter, J., Gentry, G., Diderich, G., Roy, R., Golden, J., Van Keuren, S., Steele, J., Rector, T., Varsik, J., Montefusco, D.,
+Cole, H., Wilson, M., and Worthy, E., “Investigation into the High-Voltage Shutdown of the Oxygen Generation System Aboard
+the International Space Station”, AIAA-2012-3613, 42nd International Conference on Environmental Systems, San Diego, CA, July
+2012.
+
+                                                             15
+                                     International Conference on Environmental Systems
+

@@ -1,0 +1,1328 @@
+                                                  Modeling the effectiveness of radiation shielding materials for
+                                                                 astronaut protection on Mars
+                                                                              Dionysios Gakis1,2* and Dimitra Atri3,2
+                                                           1 Department of Physics, University of Patras, Patras, Rio, 26504, Greece.
+                                                               2 Blue Marble Space Institute of Science, Seattle, WA, 98104, USA.
+                                                   3 Center for Astrophysics and Space Science, New York University Abu Dhabi, PO Box
+
+                                                                                        129188, Abu Dhabi, UAE.
+
+
+
+
+arXiv:2205.13786v3 [astro-ph.EP] 29 Jul 2024
+                                                                                            * dgakis@upnet.gr.
+
+
+
+
+                                                                                                   Abstract
+                                                    The surface of Mars is bombarded by energetic charged particles of solar and cosmic origin with
+                                                    little shielding compared to Earth. As space agencies are planning for crewed missions to the red
+                                                    planet, a major concern is the impact of ionizing radiation on astronaut health. Keeping exposure
+                                                    below acceptable radiation dose levels is crucial for the health of the crew. In this study, our goal
+                                                    is to understand the radiation environment of Mars and describe the main strategies to be adopted
+                                                    to protect astronauts from the harmful impacts of cosmic radiation. Specifically, we investigate the
+                                                    shielding properties of various materials in the Martian radiation field using the Geant4 numerical
+                                                    model, after validating its accuracy with in-situ instrument measurements by MSL RAD. Our results
+                                                    indicate that composite materials such as types of plastic, rubber or synthetic fibers, have a similar
+                                                    response against cosmic rays and are the best shields. Martian regolith has an intermediate behavior
+                                                    and therefore could be used as an additional practical option. We show that the most widely used
+                                                    aluminum could be helpful when combined with other low atomic number materials.
+
+                                                    Keywords: Mars; space radiation; shielding materials; human spaceflight
+
+
+
+
+                                               1 Introduction                                                  Unlike the Earth, Mars lacks a thick atmo-
+                                                                                                           sphere and a magnetic field able to deflect par-
+                                               Ionizing radiation is one of the major hazards              ticles and reduce radiation doses to low levels.
+                                               astronauts (referring to human crew, also known             Hence, we must look for ways to protect human
+                                               as cosmonauts, taikonauts etc.) must face in long-          crews from these hazardous charged particles.
+                                               duration space missions. Other dangers include              While radiation dose rate on the surface of Mars
+                                               microgravity, absence of oxygen, debris and iso-            is of course much lower than when in deep space,
+                                               lation, but ionizing radiation ranks as one of the          the already accumulated doses in astronauts’ bod-
+                                               most threatening because of its ability to pene-            ies during their transfer to and from Mars make
+                                               trate shielding and cause biological damage [1].            it inevitable to search for strategies of mitigating
+                                               For this reason, awareness of space radiation and           exposure on Mars too.
+                                               its harmful effects, is widely spread among the sci-            Several techniques have been developed to pro-
+                                               entific community and is a highly interdisciplinary         tect astronauts from absorbing immense amounts
+                                               endeavour.
+
+
+                                                                                                       1
+of radiation (e.g. [2]), the main being passive              astronauts. Therefore, one of the main concerns
+shielding, which takes advantage of the energy loss          during space missions is protecting astronauts
+through the mass of a shielding material. In litera-         from the devastating effects of ionizing radiation.
+ture so far, aluminum and polyethylene have been
+well tested in the Martian radiation field [3, 4].           2.1 Radiation sources
+Besides, the in-situ regolith has also been sug-
+gested due to practicability [5, 6]. Other works like        Radiation in interplanetary space and on the sur-
+[7] simulate radiation doses behind other materi-            face of Mars originates from the Sun and from
+als too, but they are mostly limited to ISS or the           Galactic sources. Energetic processes in the solar
+deep space environment.                                      corona release energetic charged particles called
+    The purpose of this study is to outline the              Solar Energetic Particles (SEPs) and background
+suggested radiation protection techniques, focus-            flux of charged particles from Galactic sources
+ing on testing the effectiveness of various materials        known as Galactic Cosmic Rays (GCR). There
+against radiation, specifically on the surface of            may be local sources of radiation in form of
+Mars. We re-examine the effectiveness of mate-               radioactivity in the Martian regolith, but their
+rials commonly used in space missions and try                dose is much smaller and extraterrestrial ones are
+novel ones. Additionally, we compare the efficiency          the main source of health hazard; consequently we
+of combinations of shielding materials, trying to            focus on the latter.
+benefit from each one’s unique properties. To                    SEPs are associated with solar flares and
+that end, we employed the computational program              coronal mass ejections (CMEs) [8]. They consist
+Geant4 to simulate the propagation of energetic              mainly of protons (90-95%), followed by helium
+charged particles through matter.                            nuclei (5-8%), along with some heavier nuclei
+    This paper is organized as follows. Section 2            (1%). Clearly, these percentages can only be
+outlines the radiation environment on the surface            rough, as exact compositions differ a lot between
+of Mars and Section 3 consists of the main shield-           events or even during a single event [9]. The typi-
+ing strategies agencies have adopted for radiation           cal energy spectra of SEP events cover the range of
+mitigation. We then describe our computational               some keV to hundreds of MeV, softer than GCR.
+method in Section 4, present our results in Section          In some extreme cases, they can go up to 10 GeV
+5 and discuss their validity in Section 6. Finally,          [10, 11].
+we provide summary and conclusions in the last                   Solar Particle Events (SPEs) are rare and gen-
+section (Section 7).                                         erally occur in phase with the solar cycle, at times
+                                                             of maximum solar activity, despite the fact that
+                                                             some of them occur at any time of the solar activ-
+2 Radiation environment                                      ity. They are produced during solar eruptions,
+Astrophysical radiation consists of photons and              at which particles are accelerated to relativis-
+charged particles, which can further be catego-              tic energies by the plasma [12]. Nonetheless, the
+rized as ionizing and non-ionizing. Both kinds of            exact mechanism of SPEs’ creation and the fol-
+radiation can damage living and non-living sys-              lowing effects in the space weather have not yet
+tems. Non-ionizng radiation includes for instance            been definitely determined. In other words, they
+secondary neutrons that can permeate any kind of             are quite unpredictable and might differ signifi-
+thin shield, and thus are difficult to shield against.       cantly by duration, strength and fluence. Histori-
+Ionizing radiation passes through substances and             cally recorded events of exceptionally intense solar
+alters them, producing a cascade of secondary                activity include the Carrington event (September
+particles, increasing with increasing energy of inci-        1859), along with the events of February 1956,
+dent radiation. For example, a single proton may             August 1972 and September 1989. It appears that
+produce through inelastic interactions with the              they used to happen more often in the past; cau-
+matter secondary particles such as kaons, pions,             tion is then needed when extrapolating to predict
+muons and other unstable particles, eventually               future events.
+resulting in the exposure to neutrons, electrons,                The other type of astrophysical radiation,
+muons and other particles, which are known to                GCR, has galactic origins. GCR are accelerated by
+cause biological damage and pose health risks to             supernova shocks and their trajectories are bent
+
+
+                                                         2
+by interstellar magnetic fields before entering the         2.2 Conditions on Mars
+solar system. As a result, they are considered to
+                                                            There have not been enough comprehensive mea-
+have isotropic flux (i.e. coming from every direc-
+                                                            surements of the radiation environment of Mars
+tion in the sky), and be nearly stable through
+                                                            from orbit and from the surface. The Mars Science
+thousands of years. Their composition is similar,
+                                                            Laboratory’s (MSL) Radiation Assessment Detec-
+but different from SEPs’: 87% protons, 12% alpha
+                                                            tor (RAD) instrument [19], launched as part of
+particles, 1% heavy nuclei (Z > 2) [13]. Some elec-
+                                                            Curiosity Rover, is currently measuring the radia-
+trons are also observed (1%), but are often ignored
+                                                            tion levels on the surface of Mars. Located inside
+due to their low abundance in contrast to solar
+                                                            the Gale Crater (about 4 km deeper from the
+electrons. GCR have an average energy of some
+                                                            mean Martian surface - elevation is estimated by
+GeV per nucleon, but it is possible that galactic
+                                                            Mars Orbiter Laser Altimeter, [20]), it measures
+particles are accelerated at kinetic energies as high
+                                                            since August 2012 charged and neutral particles
+as some PeV [14].
+                                                            by GCR and SPEs, accounting for both downward
+    The so-called HZE (high charge and energy)
+                                                            and albedo particles [21–23]. It is a highly valuable
+ions, coming from both radiation sources, con-
+                                                            experiment, since it provides results for dose rates,
+tribute significantly to radiation doses. HZE are in
+                                                            zenith angle dependencies, diurnal and seasonal
+fact atoms of medium atomic numbers (up until
+                                                            variations, among others [24–26]. An extensive
+Fe), stripped off their electrons, travelling freely
+                                                            review on the knowledge acquired by RAD is given
+through space at speeds near the speed of light.
+                                                            in [27].
+Despite their small abundances, they are charac-
+                                                                Observations of Martian environment are
+terized by strong ionizing and penetration power.
+                                                            available from satellites and surface detectors
+They have the ability to penetrate deep inside
+                                                            (e.g. the Marie instrument on board 2001 Mars
+matter, and sometimes break apart inside mate-
+                                                            Odyssey [28]), but they are limited in time (last
+rials, thus creating a cascade of secondary, also
+                                                            decades). As for in-situ data, they are only avail-
+highly energetic and charged, particles, dangerous
+                                                            able during the last few years with MSL RAD.
+for human health [15]. Shielding from this kind of
+                                                            Because of that, our knowledge about the situa-
+cosmic particles is an extremely difficult task.
+                                                            tion on Mars is limited, which affects the total
+    SPEs and GCR are anti-correlated at short
+                                                            planning of missions. We then give a short review
+timescales (months to years). At periods of mini-
+                                                            of the actual known conditions on Mars, coming
+mum flux of SPEs, GCR appear to have a peak in
+                                                            from long-term observations or models, and as
+their intensity, and vice versa (e.g. [16]). The pro-
+                                                            validated by RAD measurements.
+posed explanation to this behavior is the following:
+                                                                As a fist approach, the bulk of Mars reduces
+at periods of minimum solar activity, the intensity
+                                                            radiation exposure to half for an astronaut placed
+of interplanetary magnetic field (IMF) is reduced.
+                                                            on Mars mission in comparison to when located in
+As a result, it does not block efficiently the incom-
+                                                            deep space. All upward-directed rays are absorbed
+ing galactic cosmic radiation, which penetrates
+                                                            by the mass of the planet. Hence, radiation arrives
+well inside the solar region. The Badhwar-O’Neil
+                                                            isotropically over a solid angle of 2π steradians.
+2010 model [17] is widely used to account for the
+                                                                Secondly, Mars is surrounded by a very thin
+energy loss of GCR as they travel through the
+                                                            atmosphere, composed almost entirely by car-
+heliosphere, considering factors like deceleration,
+                                                            bon dioxide (CO2 ) with traces of nitrogen, water
+diffusion and convection. In this model, a param-
+                                                            vapor, and oxygen. At a mean column density
+eter Φ of units MV is defined, in a way that a
+                                                            of 20 g cm−2 (Gale Crater), it is two orders of
+small value of Φ corresponds to a large GCR flux.
+                                                            magnitude thinner than Earth’s atmosphere [29].
+Typical values for solar minimum condition are
+                                                            This very thin atmosphere offers some protection
+Φ = 400 − 450 MV and Φ = 1000 MV for a solar
+                                                            from radiation though, preventing particles of low
+maximum, or even Φ = 1800 MV for a very strong
+                                                            energy to reach the surface. The proton energy
+solar event [18].
+                                                            cutoff has been found to be around 150-160 MeV
+                                                            (it may vary between 155 to 178 MeV depending
+                                                            on the column density, [30]). In other words, only
+                                                            particles with energies above this threshold may
+
+
+                                                        3
+pass through the Martian atmosphere. Some SPEs               ancient magnetosphere. In Earth, the analog situ-
+have these low energies and are thus retained away           ation is an active dynamo, located in the core of
+from the surface due to ionization processes, as             planet, which covers its bulk. As a result, charged
+opposed to GCR, which have generally more ener-              particles easily impinge on the top layers of the
+getic spectra. GCR interact with the molecules of            Martian atmosphere, since there is not a mecha-
+atmosphere before being stopped, and they create             nism (like the magnetic lines) able to deflect them
+secondary particles which can traverse all of the            and divert them to trajectories away from the
+atmospheric layers.                                          surface.
+    The direction of the incoming solar parti-                   The principal radiation source of radiation on
+cles plays a role as well. Atmosphere’s protection           the surface of Mars is GCR. GCR are always
+increases at low altitudes. Near the horizon, parti-         present and appear as an isotropic, highly pre-
+cles have to travel through longer paths within the          dictable and nearly constant background radia-
+atmosphere when compared to radiation coming                 tion, hard to shield against [23]. Although their
+from near the zenith. To give a quantitative view            overall daily flux may be low, they become danger-
+of the importance of the particle’s origin, the den-         ous when they accumulate during long missions.
+sity of the atmosphere at zero elevation for zenith          SPEs are less frequent, less energetic and can
+angle z = 0 is 16.0 g cm−2 , whereas it increases to         easily be attenuated by the atmosphere, but can
+120 g cm−2 at z = 90◦ [31], so the additional pro-           potentially deliver great doses in a short period of
+tection is obvious. The above hold true for SPEs             time and cause illness or even death [37].
+at most. GCR flux is almost kept intact over vary-               Summarizing, the radiation field on the red
+ing incoming angles, because of their relatively             planet comprises mainly of primary GCR, along
+higher energies. The elevation has a similar effect,         with secondaries generated in atmosphere and
+as corresponding radiation paths are shorter for             scattered from surface [38]. Furthermore, the radi-
+example at the top of a mountain, compared to                ation environment on Mars is similar to the one in
+the mean elevation level or deep inside a crater. It         the vicinity of ISS, as it was evaluated by RAD.
+becomes clear that radiation varies from location            Despite the fact that charged particles trapped by
+to location [32]. It is then crucial to determine pre-       the Van Allen belts shape the radiation environ-
+cisely the area of the human activity during the             ment around Earth, which is not the case on Mars,
+astronaut stay, as we further discuss in Section 3.2.        their mean quality factors (see Appendix) are sim-
+    Other phenomena that occur inside the atmo-              ilar. The total dose rate is around 0.240 mGy/day
+sphere of Mars have a minor effect in the radi-              for ISS region and 0.213 mGy/day on Mars [39].
+ation condition on the planet. For example, [33]
+compared the short-term modulations of GCR-                  3 Shielding against Space
+induced doses caused by local atmospheric pres-
+sure changes with the long-term solar modulation               Radiation
+of GCR, and concluded that although the high-                Outside of the protective shield of the earth’s
+pressure atmosphere results in lower radiation               atmosphere and magnetosphere, astronauts are
+levels, surface doses are mainly influenced by the           exposed to enhanced radiation dose, which is also
+second effect. Similarly, dust storms have insignifi-        the case for the Martian surface where the atmo-
+cant effect in radiation doses, because dust density         sphere is thin and there is no global magnetic
+is much lower than atmospheric mean density                  field. This exposure might be acute, meaning that
+[34, 35]. The effect by diurnal thermal tides and            substantial amounts of radiation strike during a
+seasonal atmospheric variations is also statistically        short time interval, or chronic (low-level radiation
+smaller than the heliospheric modulation of GCR              doses, which become dangerous when they accu-
+[24, 25].                                                    mulate in large numbers). We would place SPEs
+    At last, Mars lacks a global magnetic field              in the first kind of exposure, and GCR in the sec-
+[36]. There is not an intrinsic magnetic field like          ond one. Obviously, both should be addressed, as
+Earth’s. Only various regional magnetic fields               they can lead to devastating effects to the astro-
+have been detected, with intensities of 30-60 nT.            nauts’ health (e.g. [40]). The sudden particle flux
+These magnetic fields are remnants of the planet’s           by a major solar event might be lethal [41], and
+
+
+                                                         4
+the constant hit of GCR particles on human cells            it has to stop highly energetic particles inside
+perhaps leads into long-term sicknesses, like can-          its volume. Secondly, it must minimize the for-
+cer [42]. Given the above, it comes as no surprise          mation of secondary particles resulting from the
+that scientists and space agencies have developed           interaction with the shielding material itself (tar-
+many strategies against radiation.                          get fragments). Thirdly, it needs to induce nuclear
+    The radiation levels on the surface of Mars,            fragmentation of the incoming projectile. This
+at mean quality factor (see Appendix) < Q > =               process is beneficial for protecting astronauts, as
+2 − 3 (e.g. [23], [39], [43]), are typically within         it breaks down highly damaging heavy ions into
+acceptable limits [44] (still, a solar event may rise       lighter, less harmful fragments. Since the radiation
+absorbed doses to critical levels). Nevertheless, a         risk comes mainly from the energy lost by incom-
+typical journey to Mars takes 2 to 3 years. During          ing particles within a tissue or organ, materials
+that time period of space travel in the inter-              are characterized by their stopping power, with
+planetary region, astronauts will be exposed to             respect to their passive shielding properties. The
+substantial doses of radiation. These already accu-         stopping power is practically the incoming energy
+mulated doses make it necessary to try to mitigate          lost per unit of thickness through a material.
+radiation levels on Mars as well, through some              The Bethe-Bloch formula calculates the electronic
+strategies, in order to maintain exposure levels            stopping power −dE/dx of a material (density
+below allowed career limits [45], [44]. We present          ρ) when a charged particle (charge z in units of
+strategies in the following parts which are cru-            electron’s charge) travels through its mass [49, 50]:
+cial to reducing radiation exposure with the goal
+of maintaining radiation levels below the career
+                                                                       4πNA e4 Z z 2         2me υ 2 Wmax
+                                                                                                         
+exposure limit.                                                  dE
+                                                               −     =        ρ         ln
+                                                                 dx      me     A υ2          I(1 − β 2 )
+3.1 Shielding techniques                                            C(β)
+                                                                                                         
+                                                            −β 2 −       + ZL1 (β) + z 2 L2 (β) + L3 (β)    (1)
+At present, two main radiation shielding tech-                       z
+niques on space have been proposed and imple-
+mented, to name passive shielding and active                    where NA is Avogadro’s number, e and me
+shielding. Passive shielding utilizes a bulk mate-          are the electron’s charge and mass, Z and A are
+rial, inside of which the majority of particles’            the atomic number and weight of the material,
+energy is deposited before reaching the human               β = υ/c is the normalized velocity of the projec-
+bodies. Instead, the main idea behind active                tile (υ is the projectile’s velocity and c is the speed
+shielding is to use electrostatic or plasma shields         of light), Wmax is the maximum energy transfer
+and confined or unconfined magnetic fields to               in a single collision and I stands for the mean
+avert charged particles from their original direc-          excitation potential. The last terms are correction
+tion, thus minimizing or avoiding irradiation [46].         terms. C(β) is the shell correction, L1 (β) is the
+Active shielding is a practical solution, consid-           Barkas correction, L2 (β) is the Bloch term and
+ering the weight launch limitations of passive              L3 (β) is the Matt and density correction. The gra-
+shielding. However, it is still in quite theoretical        dient of energy deposited through a material is
+stages and many steps are needed before it can              caused by inelastic collisions with the target elec-
+be applied in large scale, although it is used in           trons. More precisely, the quantity often used in
+some cases (e.g. the Alpha Magnetic Spectrom-               literature, linear energy transfer (LET), is defined
+eter, a superconducting magnet on ISS, detects              as the average (radiation) energy deposited to the
+and deflects cosmic particles [47]). Given that, we         material electrons per unit path length along the
+do not examine further this strategy in this work.          track of an ionizing particle through electronic and
+An interested reader may refer to [48] for a more           nuclear interactions [50].
+thorough analysis of its possible implementation                A crucial parameter in the above expression
+on Mars.                                                    is z 2 , which arises from Coulomb’s law, and sug-
+    We focus our analysis on the other type of              gests that as the charge of the particle increases,
+shielding, the passive shielding. In this case, the         the interaction with the electrons in the material
+shielding material fulfils three purposes. Firstly,         becomes stronger, leading to greater energy loss.
+
+
+                                                        5
+The stopping power also scales as 1/β 2 implying             rays are also important in the Martian environ-
+that a shielding material can potentially be coun-           ment due to interactions with the atmosphere and
+terproductive if it just slows down the incoming             soil [57, 58]. So, it is logical to take advantage
+radiation, as then the LET would be higher at the            of the unique features of each specific radiation
+end of the shield. In other words, slower particles          environment and plan our strategy accordingly.
+may be more dangerous than faster ones, which                     An alternative is using terrain features (like
+brings up the importance of nuclear fragmentation            craters, cliffs, caves or lava tubes) as protective
+when all incoming radiation cannot be effectively            shields. This option relies on the fact that since
+stopped.                                                     rays arrive isotropically, covering a part of sky
+    Likewise, we conclude the stopping power of              reduces some percent of these rays, thus reduc-
+a material is proportional to ρZ/A. This condi-              ing accumulated radiation doses. Doses are for
+tion is fulfilled by high-density substances made            example lower inside craters, contrary to the top
+from chemical elements of low atomic number. It              of mountains. Similarly, when located up against
+follows from the fact that materials with many               a cliff, the majority of radiation comes from the
+electrons per unit of mass, little mean excita-              diametrically opposite side of the sky [59, 60].
+tion energy and least tight binding corrections are               Water-rich regolith acts as a great attenuator
+the best energy absorbers. Typical such materials            against neutrons of energies less than 10 MeV, e.g.
+are the ones rich in hydrogen, like water (H2 O)             [61]. These neutrons undergo elastic scattering on
+and polyethylene (CH2 ) [51–54]. Especially, liquid          the hydrogen atoms in water or ice, get captured
+hydrogen is assumed to offer great protection, but           by the latter and are less able to continue their
+due to poor mechanical properties and chemical               journey or get back-scattered. This is an indirect
+instability of materials like that, aluminum is at           method of reducing albedo particles doses. Sec-
+present most commonly used in aerospace. Note                ondary neutrons of energies from 1 to ∼100 MeV
+that no material effectively stops cosmic radiation,         are of significant biological importance, due to
+because of its very high energy and the volume               their ability to penetrate deeply into matter [62].
+and mass constraints of spacecrafts. The engineer-           Their biological quality factor (see Appendix) is
+ing strategy is to take advantage of sudden drops            Q > 20, as defined by the International Commi-
+of penetrating energy for a given material and               sion on Radiological Protection [63], whereas for
+then try to mitigate exposure further using other            other particles like protons it is around Q = 1. For
+countermeasures.                                             this reason, protecting from neutrons is a critical
+    Yet, passive shielding has a critical limitation:        issue and should never be neglected. Regions rich
+additional weights targeted for shielding purposes           in subsurface or surface ice (e.g. polar or subpolar
+increase the payload of the launched vehicle [55].           regions) are then proposed as landing sites [61].
+More massive spacecraft need substantial amounts                  Moreover, the employment of local regolith has
+of energy to escape the gravity of Earth and travel          been suggested in literature (e.g. [64]), whereas
+through space. So, it’s impossible to limitlessly            we note that such strategy has been also sug-
+increase the amount of shielding materials (con-             gested to be used on the Moon, and in that case,
+cerning volume constraints) until they provide               both simulation [65] and experimental studies [66]
+adequate radiation protection. Therefore, other              have been made. Unconsolidated regolith may act
+alternatives are required too, utilizing the in-situ         as the basis to manufacture bricks. These bricks,
+resources and structures. Some suggested ideas are           combined with some kind of epoxy, would con-
+described in the next section.                               stitute a habitat. Other scenarios include piling
+                                                             regolith over dwelling [67] and tunnelling (digging
+3.2 Other strategies                                         the subsurface to create protected living places)
+                                                             [2]. Although these approaches are interesting, fur-
+In general, shielding strategies are different for the       ther issues must be addressed, such as the carry
+surface of Mars and for deep space transits (or for          of the mechanical tools required for digging and
+Moon missions). For instance, while in deep space,           construction. En route stops on objects like the
+protons are the radiation type which dominates               Moon to gather regolith seem impractical for the
+behind thick shields [56], neutrons and gamma                time being.
+
+
+
+                                                         6
+    Astronauts themselves should also be pro-               Geant4 is specifically applied to model interac-
+tected by adopting personal protection measures.            tions of radiation with matter, since it includes
+That is, astronauts must limit time spent out-              a wide range of physics processes (hadronic and
+side of the habitat, during walks or expeditions.           EM interactions, decays etc.), and enables com-
+Even when located inside the vehicle, they should           plex geometrical configurations. Besides, [69] has
+stay as protected as possible. Storm shelters, for          shown good agreement between MSL RAD data
+instance, are places inside the habitat which offer         [23] and the Geant4 code. Geant4 model, in turn,
+increased protection from radiation. They are               results in compatible results with other codes.
+useful during solar events, when the magnitude              Minor discrepancies between different codes may
+of Sun-originated protons rises enormously. The             arise due to alternative model setups, geomet-
+prompt forecast of the space weather [68] would             rical configurations, tally specifications or other
+be useful in that case, but it is still an open issue       reasons.
+to model the solar activity precisely.                          As all charged particles interact with mat-
+    Apparently, radiation protection on Mars is             ter in different ways, a variety of physics models
+not a straightforward practice. Absorbed doses              has been constructed to describe these inter-
+may shift according to a wide range of (probably            actions. These interactions may be electromag-
+unpredictable) factors like location, season, atmo-         netic or hadronic elastic and inelastic pro-
+spheric conditions, solar activity or others. It is         cesses. Apparently, an extremely accurate physics
+unavoidable to account for as many as possible              model is anti-correlated with the CPU perfor-
+scenarios and solutions before determining each             mance. In other words, fast simulations usu-
+specification of a human mission to Mars.                   ally provide imprecise results, and conversely. To
+    Lastly, another suggested countermeasure, not           maintain computational times under logical lim-
+however specifically related to Mars, is the con-           its, without though losing much accuracy, we
+sumption of medical and dietary supplements by              have to select a solution halfway. Specifically,
+the astronauts, in order to mitigate the effects of         we use the G4Hadron-PhysicsQGSP BERT HP
+ionizing radiation. These supplements are techni-           model for inelastic hadronic interactions and
+cally pills, which help human organism to respond           G4EmStandardPhysics option3 for electromag-
+better against radiation exposure (e.g. [70]). It is        netic ones. Both of these physics lists have been
+then quite understood that radiation protection is          shown to provide accurate enough results for space
+not a simple one-dimensional issue, but a whole             and medical purposes [69]. As for other inter-
+spectrum of different engineering, operational, and         actions (e.g. elastic hadronic, decay) we adopt
+dietary designs are required to ensure the safety           the pre-defined models of the Hadr07 example1 .
+of astronauts.                                              Besides, we also ran test simulations using other
+                                                            models like INCLXX finding no significant change
+4 Method                                                    in the results. Detailed specifications for the above
+                                                            models may be found in the Geant4 Physics
+Radiation risk derives principally from the energy          Reference Manual2 .
+lost by the particles in a tissue. Particles with
+both high and low energies pass through tis-                4.1 Geometry
+sues and deposit parts of their energy in those.
+                                                            Our geometry setup is similar to the one used in
+Multiple computational programs are adopted by
+                                                            [72]. Fig. 1 depicts the model we constructed to
+researchers to calculate energy distributions at
+                                                            simulate Mars. Adopted Martian atmosphere and
+various points of a tissue or organ, and to deter-
+                                                            regolith compositions used in our simulations are
+mine the beneficial effect of materials used as
+                                                            displayed in Tables 1 and 2 respectively. We used
+shields against radiation.
+                                                            the Martian Fact Sheet data in the first case [29]
+    In this work, we use the Geant4 toolkit for our
+                                                            and the definition of the OLTARIS model in the
+simulations, developed by CERN [71]. Geant4 is a
+Monte-Carlo numerical model that simulates par-
+ticle propagation, used for a variety of purposes             1
+                                                                https://gitlab.cern.ch/geant4/geant4/-
+                                                            /tree/master/examples/extended/hadronic/Hadr07
+(e.g. medical, engineering) including space science.          2
+                                                                https://ftp.cs.up.ac.za/gentoo/distfiles/9a/PhysicsReferenceManual-
+                                                            4.11.2.pdf
+
+
+
+                                                        7
+Table 1 Adopted composition of Martian atmosphere
+
+                             Chemical Compound                          Molecular Percentage
+                                     CO2                                       95.10
+                                      N2                                       02.59
+                                      Ar                                       01.94
+                                       O                                       00.16
+                                      CO                                       00.06
+                                     H2 O                                      00.15
+                  Based on data taken by Mars Fact Sheet [29].
+
+Table 2 Adopted composition of Martian Soil
+
+                             Chemical Compound                               Molecular Percentage
+                                       SiO2                                          51.2
+                                      Fe2 O3                                          9.3
+                                       H2 O                                          7.4
+                              Al2 CaK2 MgNa2 O7                                      32.1
+            Based on regolith definition of the OLTARIS model [69].
+
+latter [69]. Our model is set to compute radiation           atmosphere (about 100 km above mean zero eleva-
+about 4 km below the mean Martian surface, at                tion) up until some meters below its surface. The
+which depth the RAD instrument is located. In                layer 3, as above described, represents the roof
+that way, we were able to compare and validate               of a habitat. We test several potential materials
+our results.                                                 of which it may be constructed, and change the
+    Our simulation world, as it is called in the             respective thicknesses as well, in order to figure
+Geant4 documentation, is a cubic box which con-              out how radiation responds to varying lengths of
+sists of 6 successive layers. Each layer is considered       shield. As for a human phantom, we use the water
+homogeneous in composition and density. At first,            slab, since an average tissue is made almost com-
+a 10-m-thick layer of the condensed atmosphere               pletely out of water. The two left dimensions of
+is defined. We rescaled the actual size (about               the simulation world (x and y) are large enough to
+100 km) of the atmospheric layer by compressing              avoid the escape of particles, which could falsely
+it and assigning its density accordingly, so that            reduce the calculated doses. All particles, includ-
+its linear thickness remains constant. The second            ing recoil protons, are confined to the simulation
+layer of the simulation world is also an atmo-               world (other ions are not affected so much anyways
+spheric layer, now having its normal density and             because of their higher stopping rate, z 2 ).
+a maximum length of 2 m. Although realistically                  We acknowledge that the adopted geometry
+an astronaut would need Earth air pressure in                is quite simplified. For example, we could have
+his habitat, this thin layer does not really matter          defined multiple atmospheric layers to account
+at Martian pressure. The tested shielding mate-              for density and temperature variations through
+rial comes next, which is followed by another                altitude. However, setting an extremely detailed
+surface atmosphere layer standing for the atmo-              model of Mars is beyond the scope of this study,
+sphere within the habitat. The fifth layer is a              since our aim is to qualitatively distinguish mate-
+water slab, which represents an astronaut located            rials in accordance to their shielding properties.
+inside a habitat on Mars. A final layer of regolith          For this purpose, a model like the one we adopted
+(thickness of 3 m), which acts as a collector for            will suffice.
+particles not absorbed or reflected in previous lay-
+ers, closes the simulation box. Table 3 summarizes           4.2 Primary particles
+the specifications of each layer.
+                                                             As mentioned previously, the Geant4 model has
+    In such a way, Mars is represented as series
+                                                             been demonstrated to simulate particle spectra on
+of absorbing layers, spanning from the top of its
+                                                             the surface of Mars accurately enough for many
+
+
+                                                         8
+Table 3 Martian geometrical configuration
+
+                  Layer             Content                   Bulk density (g · cm−3 )      Thickness (m)
+                    1        Condensed atmosphere                      0.023                     10
+                    2         Surface atmosphere                      0.00002                     1
+                    3          Shielding material                    (varying)                (varying)
+                    4         Surface atmosphere                      0.00002                     2
+                    5                Water                              1.0                       1
+                    6                 Soil                              1.7                       3
+
+                                                                      is 0.003◦ ) consisting of 1,000,000 primary parti-
+                                                                      cles for SPEs and 100,000 ones for GCR hits the
+                                                                      model at the top. The √ statistical error of the sim-
+                                                                      ulations scales to 1/ N , where N is the number
+                                                                      of particles (primaries and those reaching the in-
+                                                                      question depths), therefore, the error in the results
+                                                                      is roughly 0.1-0.3%, which allows us for robust
+                                                                      conclusions. A point source generates a flux of
+                                                                      the primary particles, downward directed, and as
+                                                                      shown in Fig. 2, rays gradually cover the entire
+                                                                      simulation world and travel through every direc-
+                                                                      tion traversing various paths through the layers,
+                                                                      while albedo particles are included as well (hence,
+                                                                      doses are summed up and calculated accounting
+                                                                      for the entire water layer). The reason for this
+                                                                      choice was to minimise the escape of particles
+                                                                      outside of the simulation world; that is why a
+                                                                      non-isotropic initial beam was tested, apart from
+                                                                      reasons related to computational times.
+                                                                          We analyze the response of shielding mate-
+                                                                      rials against cosmic radiation coming from both
+                                                                      sources, as defined in Section 2.1 (SPEs and
+                                                                      GCR). In the first case, we use three major historic
+Fig. 1 Martian geometrical configuration used for simula-             solar events as representatives: February 1956,
+tions. It consists of 6 successive layers of total length equal
+to 18 m: Layer 1 (Condensed atmosphere), 2 (Surface atmo-
+                                                                      August 1972 and September 1989. As solar erup-
+sphere), 3 (Shielding material), 4 (Surface atmosphere), 5            tions show notable differences with each other
+(Water) and 6 (Soil). Primary radiation hits at the top of            in terms of intensity, abundance, composition
+the layers.                                                           and duration, different input events of them are
+                                                                      required to better study their effect. Fig. 3 depicts
+particles, such as protons, alpha particles or heavy                  the energy spectrum of solar protons produced by
+ions, as verified by the MSL RAD instrument                           these three events. Data were obtained by [73] and
+[69]. However, results concerning other types of                      were corrected according to the 1/r2 dependence
+particles, like neutrons, are not that close.                         of SPE fuence (they were divided by 1.52 ). On the
+    We choose to compare the stopping power for                       other hand, the Badhwar-O’Neil 2010 model ([17])
+a stream of many particles rather than the behav-                     is used to obtain the background GCR spectrum.
+ior of a material on one particle solely. In that                     Protons, alpha particles and iron nuclei (as a sub-
+way, it is ensured that there are not any ran-                        stitute for heavier particles) are considered. These
+dom interactions between the material and the                         particles are chosen based on their dominance in
+particle, affecting the net shielding effect, but all                 the GCR composition and their significant impact
+arbitrary behavior is averaged out. More precisely,                   on the radiation dose. Including the full spectrum
+an almost pencil beam (the angular distribution                       of GCR particles would significantly increase the
+
+
+                                                                  9
+Fig. 2 Visualization of the rays’ trajectories originating from a pencil beam with a small beam angle.
+
+
+
+
+Fig. 3 The SPE proton spectra during the events of February 1956, August 1972 and September 1989. Based on data
+taken by [73] and corrected by the 1/r2 dependence of SPE fluence
+                                                           .
+
+
+
+
+Fig. 4 The differential spectrum of GCR, as calculated by [17]. Blue lines stand for protons, red for alpha particles and
+green for heavier nuclei. Bright colors represent the conditions of minimum solar modulation and lighter ones for maximum
+solar modulation conditions.
+
+
+
+                                                           10
+complexity and computational load of the simu-                    Table 4 Dose rates (from highest to
+                                                                  lowest) in the water layer induced by GCR
+lations. Using iron as a representative for heavy                 particles (minimum solar conditions) for
+species saves computational time and resources,                   shielding materials (10 g cm−2 of
+making the analysis feasible without overwhelm-                   thickness).
+ing computational capacity. The primary GCR
+                                                                    Material          Dose rate (µGy/day)
+spectrum used in our simulations is shown in Fig.                   no shielding             296.7
+4.                                                                  aluminum                 214.3
+                                                                    regolith                 212.6
+                                                                    BN                       212.6
+5 Results                                                           beryllium                212.6
+                                                                    SiO2                     209.3
+As a first step, we ran the fundamental situa-                      carbon fiber             207.7
+tion of our simulations, i.e. the situation without                 ETFE                     207.7
+                                                                    Mylar                    204.4
+any shielding material. Hence, radiation could                      rubber                   201.1
+travel freely through the atmospheric layers before                 Kevlar                   201.1
+reaching the layer representing the astronaut’s                     water                    199.4
+body, mimicking the actual conditions and natural                   PMMA                     199.4
+                                                                    polystyrene              199.4
+shielding of Mars. The resulting dose rate, induced                 LiH                      196.1
+by GCR, ranged in our model between 172.8                           cyclohexane              194.5
+µGy/day (maximum solar conditions) and 296.7                        polethylene              192.9
+µGy/day (minimum solar conditions). These val-                      LiBH4                    189.6
+                                                                    liquid hydrogen          152.0
+ues are quite consistent with the RAD measure-
+ments in the plastic detector, which lie in the
+interval of ∼ 200 - 325 µGy/day from MSL landing            10 g cm−2 . That way, we examine how help-
+until late 2020 [27]. This consistency is partic-           ful against cosmic rays a material is, accounting
+ularly encouraging considering the simplicity of            simultaneously for its weight efficiency, as all of
+the model we built, and shows that our out-                 the simulated cases would have the same mass.
+comes should be compatible with other outcomes              For comparison, the situation with no shielding
+deduced by much more complex models.                        material is given too. In Fig. 8, the behavior of
+    We continue with examining the effect of the            the same materials against the full GCR spec-
+shielding materials. The quantity we compute to             trum (protons, alpha particles and helium ions)
+first-order compare them is energy deposited per            during solar minimum conditions (as a worst case
+depth (LET) versus the depth in the water layer             scenario) is presented.
+(a more definite classification is given afterwards,            Energies deposited are definitely lower in the
+using the resulting dose rates for each material).          SPE-induced diagrams than the GCR-induced
+Although the definition of LET usually refers to a          ones, since the latter are characterized by a much
+monoenergetic single-ion source, in this paper we           harder spectrum (though we note that slower par-
+generalize its computation, so that it is calculated        ticles can have higher damaging effect, as pointed
+at a given depth by integrating the differential            earlier). In spite of the low energies, some basic
+energy loss of all particles over the energy spec-          results may be inferred. For instance, aluminum
+trum. While individual particles exhibit a Bragg            seems in all cases to be the worst shielding mate-
+peak behavior, the spectrum-averaged LET can                rial, among the ones tested, or, liquid hydrogen
+decrease with depth due to the cumulative effects           indeed maintains the exposure levels at the lowest
+of all particles, including those that have already         levels, as expected by eq. (1). Only minor differ-
+deposited their energy and stopped.                         ences are observed in the response of the materials
+    The LET versus the depth in the water layer,            against each one of the three different solar events.
+caused by three typical solar events, are shown             Next, we focus on the GCR particles, which form
+in Fig. 5, 6 and 7 for some specific materi-                the main field on Mars, as explained in Section 2.2.
+als, commonly used or proposed in aerospace.                    We note that results by the GCR ions (Fig.
+The materials tested are aluminum, polyethylene,            8) are compatible with the SPEs-related ones in
+water, regolith, carbon fiber and liquid hydrogen,          Fig. 5-7. Again, liquid hydrogen poses as the best
+and they are assigned the same area thickness,              attenuator, since it reduces roughly almost to half
+
+
+                                                       11
+Fig. 5 LET for the February 1956 solar event versus depth in the water layer for no shielding material, aluminum,
+polyethylene, water, regolith, carbon fiber and liquid hydrogen. All of the materials have an area density of 10 g cm−2 .
+
+
+
+
+Fig. 6 LET for the August 1972 solar event versus depth in the water layer for no shielding material, aluminum, polyethy-
+lene, water, regolith, carbon fiber and liquid hydrogen. All of the materials have an area density of 10 g cm−2 .
+
+
+the absorbed doses in comparison with the other                 simulations is about 0.3%, and thus, we can confi-
+materials. The rest of them have an intermediate                dently assume that these deviations (at minimum
+behavior, reducing radiation to about a third of                ∼1-2%) do not come from the random nature
+the situation of no shielding at all. Our results               of the Monte Carlo calculations, but illustrate
+are in agreement with [50, 67], which also sim-                 the particular behavior of each material against
+ulate the passive shielding performance on the                  radiation instead.
+Martian field. In order of energy decrease, mate-                   We now turn our attention on regolith’s perfor-
+rials are ranked as: liquid hydrogen, polyethylene,             mance. As mentioned, regolith could significantly
+water, carbon fiber, regolith, aluminum. Even the               assist on the radiation shielding purposes, as it
+differences between the curves of the simulated                 would reduce the required payload. Thus, assess-
+materials in Fig. 8 are almost identical with the               ing the extent at which Martian regolith could
+respective differences in the plots of Fig. 3 of [67].          fulfil this purpose is an important issue. Our
+As mentioned above, the statistical error in the                results suggest that its behavior against charged
+                                                                particles is similar to aluminum’s (it is slightly
+
+
+                                                           12
+Fig. 7 LET for the September 1989 solar event versus depth in the water layer for no shielding material, aluminum,
+polyethylene, water, regolith, carbon fiber and liquid hydrogen. All of the materials have an area density of 10 g cm−2 .
+
+
+
+
+Fig. 8 LET by the GCR particles (minimum solar conditions) versus depth in the water layer for no shielding material,
+aluminum, polyethylene, water, regolith, carbon fiber and liquid hydrogen. All of the materials have an area density of 10
+g cm−2 .
+
+
+more effective). We remind that the same thick-                 ∼1 m of regolith shielding provides adequate pro-
+ness in g cm−2 is simulated here. This outcome                  tection, but increasing the thickness attenuates
+is also supported by experimental results of the                radiation more gradually; in order to keep effec-
+Moon’s regolith [66], which has a similar compo-                tive dose below the safety limits more than 3
+sition with the Martian one. Other materials, like              m of regolith are required. Mixing regolith with
+the hydrogen-based ones, diminish absorbed doses                graphite epoxy is proposed by [6], because of the
+more, but the difference is only small (though                  hydrogen compounds epoxy contains.
+definitely larger than the statistical uncertain-                   A quantitative comparison of the shielding
+ties). Consequently, regolith is classified as a                effects of each one of materials can be found in
+relatively quite effective materials against SPEs               Table 4, where we present the GCR-induced (min-
+and GCR. Previous studies deduce similar out-                   imum solar conditions) dose rates (see Appendix)
+comes. In particular, [67, 74, 75] conclude that                in the water layer (doses are calculated from the
+                                                                total energy deposited in this slab). As noted
+
+
+                                                           13
+Fig. 9 LET by the GCR particles (minimum solar conditions) versus depth in the water layer for no shielding material and
+the hydrocarbon materials (polyethylene, cyclohexane, polystyrene and rubber). All of the materials have an area density
+of 10 g cm−2 .
+
+
+Table 5 Comparison of the dose rates (µGy/day) in the water layer induced by GCR particles (minimum solar
+conditions) for shielding materials and their combinations with regolith
+
+                 Material         10 g cm−2 material        5 g cm−2 material, 5 g cm−2 regolith
+                 aluminum                214.3                            215.9
+                 carbon fiber            207.7                            212.6
+                 water                   199.4                            204.4
+                 polyethylene            192.9                            201.1
+
+above, the resulting doses for the hydrogen-based              ranked as: polyethylene, cyclohexane, polystyrene
+ones are very close to each other, while liquid                and lastly, rubber.
+hydrogen shielding results in by far the lowest dose               Fig. 10 depicts a comparison of the shield-
+(51% of the dose without passive shielding).                   ing properties among organic compounds again
+    We further examine the performance of some                 based hydrogen, but combined with other ele-
+materials, similar to polyethylene, as well. Pre-              ments like nitrogen, oxygen and fluorine. We test
+cisely, these materials composed out of carbon                 PMMA ((C5 O2 H8 )n ), Kevlar (C14 H14 N2 O4 )n ),
+and hydrogen only, are: high-density polyethy-                 Mylar (C10 H8 O4 )n ) and ETFE (C4 H4 F4 )n ). The
+lene ((C2 H4 )n ), cyclohexane (C6 H12 ), polystyrene          respective plots and dose rates show again a simi-
+((C8 H8 )n ) and styrene butadiene (C20 H22 )n ), as           lar performance, but lower-density PMMA seems
+a typical family of rubber. All of these materials             to be more effective than the densest ETFE.
+could be useful in aerospace missions due to their             Kevlar and Mylar result in similar doses.
+properties and lightness. For example, polyethy-                   As explained in Section 3.1, low-atomic mass
+lene and polystyrene are two of the most widely                materials tend to be better attenuators against
+used plastics. Their plots are given in Fig. 9. We             any type of radiation. Motivated by this opinion,
+conclude that they respond to radiation almost                 which is strongly supported by previous analyses,
+identically, and small differences are noticed. This           we simulate a series of innovative low-Z chemical
+is of course expected, due to their analogous chem-            compounds. For example, deep-space simulations
+ical identity. As it can be inferred from Table                using GCR spectra (e.g. [76]) or monoenergetic
+4, there is a slight increase in the dose rate as              beams (e.g. [7, 77]), as well as experiments (e.g.
+the number of carbon atoms rises, hence in order               [66, 78, 79]), conclude that materials based on
+of increasing dose deposition the materials are                Li, B and N could have promising performances
+                                                               against cosmic radiation. Our results concerning
+
+
+                                                          14
+Table 6 Comparison of the dose rates (µGy/day) in the water layer induced by GCR particles (minimum solar
+conditions) for shielding materials and their combinations with aluminum
+
+               Material         10 g cm−2 material       5 g cm−2 material, 5 g cm−2 aluminum
+               carbon fiber            207.7                             214.3
+               regolith                212.6                             212.6
+               water                   199.4                             206.0
+               polyethylene            192.9                             202.7
+
+
+
+
+Fig. 10 LET by the GCR particles (minimum solar conditions) versus depth in the water layer for no shielding material,
+PMMA, Kevlar, Mylar and ETFE. All of the materials have an area density of 10 g cm−2 .
+
+
+LiH, BN, LiBH4 are presented in Fig. 11. In                   are demonstrated in Fig. 12 and Table 5. Solid
+the same figure, the plots by Be, a low-atomic                lines in Fig. 12 represent 10 g cm−2 of a mate-
+mass metal with proven mechanical properties                  rial and dash-dotted lines 5 g cm−2 of regolith
+(though problematic due to its toxicity) and by               followed by 5 g cm−2 of the material. We see
+SiO2 , which is the basis of glass are given as               that combinations with regolith are less helpful
+well. Results indicate that LiH and LiBH4 are                 against the charged particles. In spite of this, they
+quite effective in the Martian environment, and               still reduce incoming radiation at some consider-
+their dose rate is comparable (or even lower) with            able extent and differences between the solid and
+the other hydrogen-based materials. Particularly,             dash-dotted lines in Fig. 12 are only small (< 0.1
+LiBH4 appears slightly more effective than LiH,               MeV/mm) and mainly evident at shallow depths
+an outcome apparently in contradiction with the               (as expected due to different stopping powers).
+experimental results of [66], but this discrepancy is         Regolith properties are actually comparable with
+properly resolved considering the mixed spectrum              the aluminum’s, which means that the obtained
+we adopt with respect to the monoenergetic iron               plot of the sequence 5 g cm−2 of regolith and alu-
+beam of the experiments. On the other hand, at ∼              minum is quite similar with the one coming from
+210 µGy/day (Table 4)) BN, Be and SiO2 are sim-               10 g cm−2 of aluminum. This is another confirma-
+ilar to regolith or aluminum in terms of radiation            tion of the similar performance between regolith
+(indeed, SiO2 is the main component of regolith).             and aluminum. These qualitative considerations
+    Lastly, we simulate combinations of the main              are also supported by the dose rates in Table 5,
+passive shielding materials. As a first scenario, we          where it is shown that the combinations of regolith
+consider how efficient the piling up of regolith on           allow slightly larger dose rates.
+top of the habitat would be, compared to hav-                      Next, we perform similar simulations with
+ing the material of the habitat solely. Outcomes              aluminum combinations (Fig. 13 and Table 6).
+
+
+
+                                                         15
+Fig. 11 LET by the GCR particles (minimum solar conditions) versus depth in the water layer for no shielding material,
+beryllium, LiH, BN, LiBH4 and SiO2 . All of the materials have an area density of 10 g cm−2 .
+
+
+
+
+Fig. 12 LET by the GCR particles (minimum solar conditions) versus depth in the water layer for combinations of regolith
+(aluminum, polyethylene, water and carbon fiber). Solid lines represent 10 g cm−2 of a material and dash-dotted lines 5 g
+cm−2 of regolith followed by 5 g cm−2 of the material.
+
+
+The reason behind these options lies in the fact                doses, dissimilarities with different materials are
+that the most parts of spacecrafts are currently                not large enough to exclude aluminum from a
+being constructed with aluminum; its performance                suitable shielding material. On the contrary, we
+against cosmic radiation is then of notable inter-              propose taking advantage of combinations of alu-
+est. The plots of Fig. 13 indicate that polyethy-               minum with other material in order to reduce
+lene, water and carbon fiber mitigate radiation                 radiation doses, as suggested in Fig. 13 and the
+doses more effectively solely, than when replaced               values in Table 6.
+with aluminum of the same weight. 5 g cm−2 of the                   Composite materials are the future of radiation
+regolith followed by 5 g cm−2 of aluminum indi-                 passive shielding in space. Apart from hydro-
+cate an almost identical behavior with the energy               gen, other chemical elements could act as basis
+deposition by 10 g cm−2 of a regolith, as stated                for combing materials effective against radiation.
+above. We have to mention though, that although                 Lithium is a typical example. They could be added
+aluminum’s characteristics result in a bit higher
+
+
+                                                           16
+Fig. 13 LET by the GCR particles (minimum solar conditions) versus depth in the water layer for combinations of
+aluminum (polyethylene, water, regolith and carbon fiber). Solid lines represent 10 g cm−2 of a material and dash-dotted
+lines 5 g cm−2 of the material followed by 5 g cm−2 of aluminum.
+
+
+within the reliable aluminum and regolith combi-               ones, either with alternative and more complex
+nations, and form materials fulfilling any required            models or with the actual measurements by RAD
+use and maintaining doses at low levels.                       instrument onboard Curiosity rover. Therefore,
+    Summarizing, results indicate that dose reduc-             we infer that our above described results, com-
+tion is a function of many parameters. Assuming                ing from the computational outputs, have a high
+the same incident radiation (e.g., a GCR spec-                 degree of confidence.
+trum, as examined here), the composition and                       Additionally, we note that our main conclu-
+properties of each material play crucial roles.                sions regarding the efficiency of various materi-
+While density is important (for instance, high-                als are typically consistent with what we expect
+density materials tend to increase the likelihood of           from eq. (1), as explained. Despite that, our
+nuclear interactions enhancing the fragmentation               Geant4 runs are indeed required to draw firm
+process), the primary factors influencing shielding            conclusions. They take into account the com-
+effectiveness are the atomic weight (affecting the             plex interactions between particles and materi-
+nuclear fragmentation cross section) and the ratio             als, including nuclear reactions such as spallation
+of atomic number to atomic weight as derived                   and fragmentation, and electromagnetic processes
+from the Bethe equation. Materials with large                  like ionization and bremsstrahlung, compared to
+atomic weights based on low-Z atoms tend to be                 Bethe-Bloch equation which provides an average
+better shields, as expected by eq. (1). The dif-               response and does not reveal nuances in the inter-
+ferent composition of the materials (term ρZ/A)                actions (e.g. scattering events, secondary interac-
+explains why similar materials show small differ-              tions, particle showers and particle decays). Apart
+ences in terms of shielding properties. The energy             from that, our model explores a wide energy range
+lost by a particle as it traverses matter is chiefly           and several complex compositions and structures
+due to electron density. Ultimately, payload con-              that cannot be captured by a generalized formula.
+straints during missions on Mars necessitate the                   Nevertheless, one limitation of our model is
+consideration of lighter materials.                            related to the emphasis mainly given in ionizing
+                                                               radiation. While the Geant4 model employed in
+6 Discussion                                                   this study has demonstrated accuracy in simu-
+                                                               lating particle spectra for various ions, its per-
+Despite its simplicity, our model has been demon-              formance regarding non-ionizing radiation and
+strated to provide a sufficient simulation of the              especially neutrons remains a challenge, as has
+radiation conditions on Mars. We show that our                 been indicated by discrepancies in comparison to
+results are compatible with already published                  the MSL RAD instrument results (albedo particles
+
+
+                                                          17
+are typically considered though). These limita-             can be attributed to regolith’s density. The com-
+tions may introduce potential inaccuracies in our           position of Martian regolith can vary itself too;
+results, particularly regarding low-energy albedo           near the poles of the planet regolith is found in
+and secondary neutrons, although they are not               combination with water and ice, whereas near
+expected to significantly affect the overall con-           the equator it is mostly composed out of silicon.
+clusions drawn from our study, such as mate-                In other words, we cannot adopt one composi-
+rial selection. It is acknowledged that neutrons            tion model, as the regolith’s characteristics depend
+significantly contribute to the radiation environ-          strongly on the location. Nevertheless, despite the
+ment on Mars [57], and their interactions with              fact the exact features of regolith may vary a lit-
+shielding materials merit careful consideration.            tle, it has been shown in previous studies about
+Utilizing specialized physics lists like the High           Martian regolith [6] and about Moon’s regolith,
+Precision (HP) models, hybrid approaches com-               which is comparable to Martian [81, 82] that small
+bining Geant4 with neutron-specific codes like              changes don’t affect significantly shielding proper-
+MCNPX, and validating simulations with exper-               ties. All subgroups of Martian soil have basically
+imental data can mitigate these issues. Future              the same shield protection, and so, analyses for
+iterations of the model should aim to refine the            in-situ resources used for radiation protection can
+simulation of neutron interactions.                         be reasonably made with a single Martian regolith
+    We now discuss other parameters that could              model. This opinion is also supported by test
+affect the outcomes. Firstly, the Martian tem-              simulations we performed with slightly different
+perature at the equator can vary from -113◦ C               regolith compositions.
+during the night to 17◦ C during the day [80].                  A practical consideration is the ease of imple-
+Additionally, the atmosphere experiences a ther-            mentation of different shielding materials. Adding
+mal tide by the heat of the Sun on dayside and an           a few centimeters of shielding material can be a
+infrared cooling on the nightside. According to [33]        critical factor in designing effective radiation pro-
+though, their effects in the radiation doses should         tection strategies. For instance, our simulations
+be small compared to other factors like the solar           add evidence that Martian regolith, with its inher-
+modulation. Therefore, we do not investigate any            ent shielding properties, may offer a pragmatic
+variations of absorbed dose with respect to the             solution due to its availability on the planet’s
+temperature.                                                surface. The relatively small differences in shield-
+    It is also worth mentioning that the passing            ing effectiveness between materials, as indicated
+of cosmic rays through materials has an impor-              by our results, suggest that the choice of shield-
+tant effect on the nature of the materials. The             ing material may be guided by factors such as
+most characteristic examples are the sensitivity of         ease of transport, construction, and adaptabil-
+the electronic equipment to any kind of radiation,          ity to the Martian environment. The decision on
+and of course, the harmful effect of rays to human          shielding material should be a multifaceted one,
+organs, which rise to the creation of illnesses like        taking into account not only the radiation attenu-
+tumors. An in-depth study of the energy distri-             ation capabilities but also the practical aspects of
+bution of charged particles on the Martian envi-            implementation.
+ronment is maybe required to assess the damage                  In considering the practical implications of our
+on different substances, however, exploring these           simulations, the influence of the chosen shield-
+effects in our simulations is beyond the scopes of          ing thickness of 10 g cm−2 deserves discussion as
+this paper.                                                 well. While representing typical shielding require-
+    The regolith’s varying properties could poten-          ments, thicker shielding, like 20 or 30 g/cm², could
+tially influence our decisions on where to locate           obscure reported effects, while thinner shield-
+a human habitat on Mars as well. For exam-                  ing might exaggerate material differences. A yet
+ple, the value of its density has been derived in           another reason behind the selected thickness of 10
+the literature from thermal inertia measurements,           g cm−2 relies on a balance between realism and
+or indirectly from rover measurements or from               computational feasibility. Future model iterations
+assumptions about the grain density and the pore            should explore varying thicknesses to validate
+space, and there is a full range of values that             conclusions and enhance applicability in Martian
+
+
+
+                                                       18
+scenarios, recognizing the inherent uncertainty             missions so far, we also tested a range of innova-
+introduced by the chosen thickness.                         tive materials, not previously thoroughly analyzed
+    Lastly, we note that the discussion about the           for their radiation properties or considered as an
+real effectiveness of passive shielding materials           option precisely on Mars. As a next step, we
+in space will become more established as soon               moved on to simulating combinations of materials
+as experiments will be compared against mod-                with the common aluminum and the potentially
+els. For instance, [83] performed experiments of            useful Martian regolith.
+polyethylene in a simulated Martian atmosphere                  For that purpose, we developed a model of
+and examined the fabrication of composite mate-             Mars using the Geant4 toolkit, in which the planet
+rials based on Martian regolith using polyethylene          was represented by a series of absorbing layers
+as a binding material. Inevitably, every coding             (atmosphere, shielding material, water as a substi-
+model implicitly makes a number of necessary                tute of a human, and soil). To gauge the accuracy
+simplifications of the actual conditions of an envi-        of our model, we examined any sources of error
+ronment, in order to keep simulation times man-             and crosschecked the resulting dose rates with
+ageable. Therefore, it is always possible that some         the respective values by RAD, finding a signif-
+of the theoretical conclusions could be premature           icant consistency. As a result, although such a
+or over-interpreted at some extent. Future work             slab-plane model has a much simpler geometrical
+should shed more light on the field.                        configuration compared to other published mod-
+                                                            els used, we can safely argue that our model can
+7 Summary and Conclusions                                   nonetheless provide us with valuable answers to
+                                                            our research problem. Having an additional reli-
+Protection from radiation is a top priority in              able and simple model of radiation on Mars, which
+planning long-duration missions in outer space.             can run under reasonable computational times,
+Especially on Mars, protecting astronauts from              is quite valuable for a demanding and compli-
+the hazardous cosmic rays is absolutely necessary           cated task like protecting astronauts there from
+due to the continual bombard of Galactic Cos-               the dangerous cosmic radiation.
+mic Rays throughout the duration of the mission.                The optimal materials for space radiation
+A combination of measurements and model cal-                shielding purposes should offer both effective stop-
+culations in context of Mars are needed to fully            ping power and nuclear fragmentation. Our sim-
+understand the radiation effects on human health.           ulations suggest that the richer a material is in
+Additionally, optimization and validation of radi-          hydrogen, the more energy it absorbs. This is
+ation mitigation strategies is absolutely essential         however only one of the parameters determin-
+for preparing any human expedition of the red               ing the efficiency of a substance against cosmic
+planet.                                                     rays, another prominent one being the abun-
+    There is an ongoing effort to find suitable             dance in low atomic number elements. The most
+materials to protect astronauts from radiation in           commonly used material in the aerospace field,
+deep space environments, like during the planned            aluminum, is not as effective as water, plastic, or
+human journeys to Mars. Likewise, the MSL RAD               compounds based on Li, but its still reduces a
+measurements have allowed us to develop cod-                significant part of incoming radiation. We found
+ing models of the Martian radiation environment             that hydrogen and carbon-based compounds have
+and validate the obtained results. Nevertheless,            an analogous behavior against cosmic rays, while
+there is a lack in literature in combining these            materials made out of B or N are not as help-
+two efforts, i.e. determining the behavior of pas-          ful. Lastly, we propose regolith combinations as
+sive shielding materials specifically in the Martian        an alternative option for shielding purposes, in
+radiation field. This study aims to foster that             order to keep launch mass requirements reason-
+need. We examined a number of materials in the              able, although regolith’s response against charged
+Martian environment according to their passive              and energetic particles is not ideal, but sufficient
+shielding properties, using both GCR and some               enough.
+typical SPEs as input spectra. Apart from the                   The in-depth study of the radiation environ-
+most widely used materials in spacecrafts and               ment on Mars is more than needed in order to plan
+                                                            and carry out successful human missions there.
+
+
+                                                       19
+The engineering approach is to prepare all sys-                                      X
+tems for the worst case scenario, therefore more                                E=        w o Ho             (4)
+work must be done in the space radiation field.                                       o
+Besides the obvious importance of this kind of                    Hence, radiation quantities are corrected
+this research for human spaceflight, we remark                according to factors like the energy spectrum
+that studying the radiation field on Mars has                 intensity, composition and the tissue(s) impacted.
+many implications for astrobiology and the possi-             Still, many uncertainties arise when determining
+ble mechanisms through which life could possibly              the radiation effects on astronauts. Radiation risk
+have emerged on the red planet.                               varies for example as per other aspects like age,
+                                                              gender or individual susceptibility.
+Appendix                                                          The quality factor Q is introduced due to the
+                                                              fact that different radiation types are not equally
+There is not an absolute way to calculate radiation           hazardous, even if they deposit the same energy.
+risk. Some physical quantities have been estab-               For the dose equivalent, x-rays stand as the ref-
+lished to assess it. Usually, the following three             erence radiation type, at Q = 1. Electrons and
+ways are adopted to measure radiation:                        photons have the same Q, while for protons it
+                                                              is dependent on their LET. On the other hand,
+• Dose (D): It is defined as the energy absorbed
+                                                              helium nuclei are much more dangerous (Q =
+  per mass, regardless of the type of radiation.              20), which is also the value for 1 MeV neutrons.
+  It is often measured in centi-Grays (1 cGy =                Neutrons’ Q is decreasing for other energies. In
+  0.01 Gy = 1 rad).                                           general, the absorbed dose is related to the energy
+• Equivalent dose (H): It is represented by dose
+                                                              lost by the incident particles, although there are
+  multiplied by a correction factor to account for            some exceptions to this behavior.
+  the type of radiation. Its common unit is centi-                Finally, ICRP Publication 60 [85] introduced
+  Sieverts (1 cSv = 0.01 Sv = 1 rem).                         a mean radiation quality factor < Q > to dis-
+• Effective dose (E): It is defined as equivalent
+                                                              tinguish between different radiation environments
+  dose multiplied by a factor considering the part            and gauge the severity of them. < Q > is calcu-
+  of the body irradiated.                                     lated by dividing the total dose equivalent by the
+   More precisely, for all i particles, each one of           total absorbed dose.
+energy E, the dose at depth x is given by:
+              XZ ∞                                            Acknowledgements
+         D=            Si (E)Φi (x, E)dE        (2)
+                  i   0                                       The authors are grateful to two anonymous
+   Si (E) is the stopping power of the material               referees for their constructive comments that
+and Φi (x, E) is the flux of particles. Similarly, the        improved this work. We thank the members of
+equivalent dose is calculated by multiplying the              the Geant4 collaboration who developed the soft-
+above relation with the weighting factor Qi (E)               ware (geant4.cern.ch) used for this work. This
+corresponding to the particle type, as mentioned              work was supported by the New York University
+previously:                                                   Abu Dhabi (NYUAD) Institute Research Grants
+                                                              G1502 and CG014 and the ASPIRE Award for
+                                                              Research Excellence (AARE) Grant S1560 by the
+            XZ ∞                                              Advanced Technology Research Council (ATRC).
+      H=              Qi (E)Si (E)Φi (x, E)dE     (3)
+              i   0
+                                                              Author contribution
+    Qi (E) is computed by the linear energy trans-            statement
+fer of each particle. Lastly, the total effective dose
+for a human body is the weighted average for all              Conceptualization, D.G., D.A.; writing—original
+organs (subscript o stands for organ and w is the             draft preparation, D.G., D.A.; writing—review
+weighting factor [84]):                                       and editing, D.G., D.A.. All authors reviewed the
+                                                              manuscript.
+
+
+                                                         20
+Competing interests                                          [8] Reames, D.V.: Particle acceleration at the
+                                                                 sun and in the heliosphere. Space Science
+The authors declare that they have no conflict of                Reviews 90(3), 413–491 (1999) https://doi.
+interest.                                                        org/10.1023/A:1005105831781
+
+Data availability statement                                  [9] Tylka, A.J., Reames, D.V., Ng, C.K.: Obser-
+                                                                 vations of systematic temporal evolution
+The codes and the data that were used to prepare                 in elemental composition during gradual
+our models within the paper are available from the               solar energetic particle events. Geophysical
+corresponding authors upon reasonable request.                   research letters 26(14), 2141–2144 (1999)
+                                                                 https://doi.org/10.1029/1999GL900458
+References                                                  [10] Tylka, A.J., Dietrich, W.F.: A new and
+ [1] Atri, D., Melott, A.L.: Cosmic rays and                     comprehensive analysis of proton spectra in
+     terrestrial life: a brief review. Astroparticle             ground-level enhanced (GLE) solar particle
+     Physics 53, 186–190 (2014) https://doi.org/                 events
+     10.1016/j.astropartphys.2013.03.001
+                                                            [11] Atri, D.: Stellar proton event-induced surface
+ [2] Wilson, J., Miller, J., Konradi, A., Cucinotta,             radiation dose as a constraint on the hab-
+     F.: Shielding strategies for human space                    itability of terrestrial exoplanets. Monthly
+     exploration. Technical report (1997)                        Notices of the Royal Astronomical Society:
+                                                                 Letters 492(1), 28–33 (2020) https://doi.org/
+ [3] Durante, M., Cucinotta, F.A.: Physi-                        10.1093/mnrasl/slz166
+     cal basis of radiation protection in space
+     travel. Reviews of modern physics 83(4),               [12] Kallenrode, M.: Current views on impulsive
+     1245     (2011)    https://doi.org/10.1103/                 and gradual solar energetic particle events.
+     RevModPhys.83.1245                                          Journal of Physics G: Nuclear and Particle
+                                                                 Physics 29(5), 965 (2003) https://doi.org/10.
+ [4] Slaba, T.C., Mertens, C.J., Blattnig, S.R.:                 1088/0954-3899/29/5/316
+     Radiation shielding optimization on Mars.
+     Technical report (2013)                                [13] Simpson, J.: Elemental and isotopic compo-
+                                                                 sition of the galactic cosmic rays. Annual
+ [5] Simonsen, L.C., Nealy, J.E.: Radiation pro-                 Review of Nuclear and Particle Science
+     tection for human missions to the Moon and                  33(1), 323–382 (1983) https://doi.org/10.
+     Mars. Technical report (1991)                               1146/annurev.ns.33.120183.001543
+
+ [6] Kim, M.-H.Y., Thibeault, S.A., Simonsen,               [14] Blasi, P.: The origin of galactic cosmic rays.
+     L.C., Wilson, J.W.: Comparison of Martian                   The Astronomy and Astrophysics Review
+     Meteorites and Martian Regolith as Shield                   21(1), 70 (2013) https://doi.org/10.1007/
+     Materials for Galactic Cosmic Rays. Tech-                   s00159-013-0070-7
+     nical Report, NASA/TP-1998-208724; NAS
+     1.60:208724; L-17722 (1998)                            [15] Cucinotta, F.A.: Space radiation risks for
+                                                                 astronauts on multiple International Space
+ [7] Naito, M., Kodaira, S., Ogawara, R., Tobita,                Station missions. PloS one 9(4), 96099
+     K., Someya, Y., Kusumoto, T., Kusano, H.,                   (2014) https://doi.org/10.1371/journal.pone.
+     Kitamura, H., Koike, M., Uchihori, Y., et al.:              0096099
+     Investigation of shielding material properties
+     for effective space radiation protection. Life         [16] Cane, H., Wibberenz, G., Richardson, I.,
+     sciences in space research 26, 69–76 (2020)                 Von Rosenvinge, T.: Cosmic ray modula-
+     https://doi.org/10.1016/j.lssr.2020.05.001                  tion and the solar magnetic field. Geophys-
+                                                                 ical Research Letters 26(5), 565–568 (1999)
+                                                                 https://doi.org/10.1029/1999GL900032
+
+
+                                                       21
+[17] O’Neill, P.M.: Badhwar–O’Neill 2010 galac-             [23] Hassler, D.M., Zeitlin, C., Wimmer-
+     tic cosmic ray flux model—revised. IEEE                     Schweingruber, R.F., Ehresmann, B., Rafkin,
+     Transactions on Nuclear Science 57(6), 3148–                S., Eigenbrode, J.L., Brinza, D.E., Weigle,
+     3153 (2010) https://doi.org/10.1109/TNS.                    G., Böttcher, S., Böhm, E., et al.: Mars’ sur-
+     2010.2083688                                                face radiation environment measured with
+                                                                 the Mars Science Laboratory’s Curiosity
+[18] O’Neill, P.M.: Badhwar–O’Neill galactic cos-                rover. science 343(6169), 1244797 (2014)
+     mic ray model update based on advanced                      https://doi.org/10.1126/science.1244797
+     composition explorer (ACE) energy spectra
+     from 1997 to present. Advances in Space                [24] Rafkin, S.C., Zeitlin, C., Ehresmann, B.,
+     Research 37(9), 1727–1733 (2006) https://                   Hassler, D., Guo, J., Köhler, J., Wimmer-
+     doi.org/10.1016/j.asr.2005.02.001                           Schweingruber, R., Gomez-Elvira, J., Harri,
+                                                                 A.-M., Kahanpää, H., et al.: Diurnal varia-
+[19] Hassler, D.M., Zeitlin, C., Wimmer-                         tions of energetic particle radiation at the sur-
+     Schweingruber, R., Böttcher, S., Martin,                   face of Mars as observed by the Mars Science
+     C., Andrews, J., Böhm, E., Brinza,                         Laboratory Radiation Assessment Detector.
+     D., Bullock, M., Burmeister, S., et                         Journal of Geophysical Research: Planets
+     al.: The radiation assessment detec-                        119(6), 1345–1358 (2014) https://doi.org/10.
+     tor (RAD) investigation. Space science                      1002/2013JE004525
+     reviews     170(1-4),    503–558     (2012)
+     https://doi.org/10.1007/s11214-012-9913-1              [25] Guo, J., Zeitlin, C., Wimmer-Schweingruber,
+                                                                 R.F., Rafkin, S., Hassler, D.M., Posner, A.,
+[20] Smith, D.E., Zuber, M.T., Solomon, S.C.,                    Heber, B., Köhler, J., Ehresmann, B., Appel,
+     Phillips, R.J., Head, J.W., Garvin, J.B.,                   J.K., et al.: Modeling the variations of dose
+     Banerdt, W.B., Muhleman, D.O., Pettengill,                  rate measured by RAD during the first MSL
+     G.H., Neumann, G.A., et al.: The global                     Martian year: 2012–2014. The Astrophysical
+     topography of Mars and implications for                     Journal 810(1), 24 (2015) https://doi.org/10.
+     surface evolution. science 284(5419), 1495–                 1088/0004-637X/810/1/24
+     1503 (1999) https://doi.org/10.1126/science.
+     284.5419.1495                                          [26] Wimmer-Schweingruber, R.F., Köhler, J.,
+                                                                 Hassler, D.M., Guo, J., Appel, J.-K.,
+[21] Ehresmann, B., Zeitlin, C., Hassler, D.M.,                  Zeitlin, C., Böhm, E., Ehresmann, B., Lohf,
+     Wimmer-Schweingruber, R.F., Böhm, E.,                      H., Böttcher, S.I., et al.: On determin-
+     Böttcher, S., Brinza, D.E., Burmeister, S.,                ing the zenith angle dependence of the
+     Guo, J., Köhler, J., et al.: Charged parti-                Martian radiation environment at Gale
+     cle spectra obtained with the Mars Science                  Crater altitudes. Geophysical Research Let-
+     Laboratory Radiation Assessment Detec-                      ters 42(24), 10–557 (2015) https://doi.org/
+     tor (MSL/RAD) on the surface of Mars.                       10.1002/2015GL066664
+     Journal of Geophysical Research: Planets
+     119(3), 468–479 (2014) https://doi.org/10.             [27] Guo, J., Zeitlin, C., Wimmer-Schweingruber,
+     1002/2013JE004547                                           R.F., Hassler, D.M., Ehresmann, B., Rafkin,
+                                                                 S., Forstner, J.L., Khaksarighiri, S., Liu,
+[22] Köhler, J., Zeitlin, C., Ehresmann, B.,                    W., Wang, Y.: Radiation environment for
+     Wimmer-Schweingruber,          R.F.,   Hassler,             future human exploration on the sur-
+     D.M., Reitz, G., Brinza, D., Weigle, G.,                    face of Mars: the current understanding
+     Appel, J., Böttcher, S., et al.: Measurements              based on MSL/RAD dose measurements.
+     of the neutron spectrum on the Martian sur-                 The Astronomy and Astrophysics Review
+     face with MSL/RAD. Journal of Geophysical                   29(1), 1–81 (2021) https://doi.org/10.1007/
+     Research: Planets 119(3), 594–603 (2014)                    s00159-021-00136-5
+     https://doi.org/10.1002/2013JE004539
+                                                            [28] Atwell, W., Saganti, P., Cucinotta, F.A.,
+
+
+
+                                                       22
+    Zeitlin, C.J.: A space radiation shielding             [35] Norman, R.B., Gronoff, G., Mertens,
+    model of the Martian radiation environment                  C.J.: Influence of dust loading on atmo-
+    experiment (MARIE). Advances in Space                       spheric ionizing radiation on Mars.
+    Research 33(12), 2219–2221 (2004) https://                  Journal     of    Geophysical    Research:
+    doi.org/10.1016/S0273-1177(03)00527-1                       Space Physics 119(1), 452–461 (2014)
+                                                                https://doi.org/10.1002/2013JA019351
+[29] Williams,     D.R.:     Mars   fact     sheet.
+     http://nssdc.       gsfc.    nasa.      gov/-         [36] Acuna, M., Connerney, J., Wasilewski, P.a.,
+     planetary/factsheet/marsfact.            html              Lin, R., Anderson, K., Carlson, C., McFad-
+     (2004)                                                     den, J., Curtis, D., Mitchell, D., Reme, H., et
+                                                                al.: Magnetic field and plasma observations
+[30] Guo, J., Wimmer-Schweingruber, R.F.,                       at Mars: Initial results of the Mars Global
+     Grande, M., Lee-Payne, Z.H., Matthia, D.:                  Surveyor mission. Science 279(5357), 1676–
+     Ready functions for calculating the Martian                1680 (1998) https://doi.org/10.1126/science.
+     radiation environment. Journal of Space                    279.5357.1676
+     Weather and Space Climate 9, 7 (2019)
+     https://doi.org/10.1051/swsc/2019004                  [37] Townsend, L., PourArsalan, M., Hall, M.,
+                                                                Anderson, J., Bhatt, S., DeLauder, N.,
+[31] Townsend, L.W., PourArsalan, M., Hall,                     Adamczyk, A.: Estimates of Carrington-
+     M.I.: Estimates of GCR radiation exposures                 class solar particle event radiation expo-
+     on Mars for female crews in hemispheri-                    sures on Mars. Acta Astronautica 69(7-
+     cal habitats. In: 2010 IEEE Aerospace Con-                 8), 397–405 (2011) https://doi.org/10.1016/
+     ference, pp. 1–5 (2010). https://doi.org/10.               j.actaastro.2011.05.020
+     1109/AERO.2010.5447006 . IEEE
+                                                           [38] Saganti, P.B., Cucinotta, F.A., Wilson, J.W.,
+[32] Saganti, P.B., Cucinotta, F.A., Wilson, J.W.,              Schimmerling, W.: Visualization of parti-
+     Simonsen, L.C., Zeitlin, C.: Radiation climate             cle flux in the human body on the sur-
+     map for analyzing risks to astronauts on the               face of Mars. Journal of radiation research
+     Mars surface from galactic cosmic rays. 2001               43(Suppl), 119–124 (2002) https://doi.org/
+     Mars Odyssey, 143–156 (2004) https://doi.                  10.1269/jrr.43.S119
+     org/10.1023/B:SPAC.0000021010.20082.1a
+                                                           [39] Matthiä, D., Hassler, D.M., Wet, W., Ehres-
+[33] Guo, J., Slaba, T.C., Zeitlin, C., Wimmer-                 mann, B., Firan, A., Flores-McLaughlin, J.,
+     Schweingruber, R.F., Badavi, F.F., Böhm,                  Guo, J., Heilbronn, L.H., Lee, K., Ratliff, H.,
+     E., Böttcher, S., Brinza, D.E., Ehresmann,                et al.: The radiation environment on the sur-
+     B., Hassler, D.M., et al.: Dependence of                   face of Mars-summary of model calculations
+     the Martian radiation environment on atmo-                 and comparison to RAD data. Life sciences
+     spheric depth: Modeling and measurement.                   in space research 14, 18–28 (2017) https://
+     Journal of Geophysical Research: Planets                   doi.org/10.1016/j.lssr.2017.06.003
+     122(2), 329–341 (2017) https://doi.org/10.
+     1002/2016JE005206                                     [40] Kennedy, A.R.: Biological effects of space
+                                                                radiation and development of effective coun-
+[34] Keating, A., Pimenta, M., Mohammadzadeh,                   termeasures. Life sciences in space research 1,
+     A., Nieminen, P., Huot, J.-P., Daly, E.: The               10–43 (2014) https://doi.org/10.1016/j.lssr.
+     effects of atmospheric variations on the high              2014.02.004
+     energy radiation environment at the sur-
+     face of Mars. In: Forget, F., Lopez-Valverde,         [41] Wu, H., Huff, J.L., Casey, R., Kim, M.-
+     M.A., Desjean, M.C., Huot, J.P., Lefevre, F.,              H., Cucinotta, F.A.: Risk of acute radiation
+     Lebonnois, S., Lewis, S.R., Millour, E., Read,             syndromes due to solar particle events. The
+     P.L., Wilson, R.J. (eds.) Mars Atmosphere                  Human Health and Performance Risks for
+     Modelling and Observations, p. 526 (2006)                  Space Explorations. Houston, Texas: NASA
+                                                                Human Research Program, 171–90 (2009)
+
+
+                                                      23
+[42] Cucinotta, F.A., Durante, M.: Cancer                    [50] Durante, M.: Space radiation protection: Des-
+     risk from exposure to galactic cosmic                        tination Mars. Life sciences in space research
+     rays:   implications  for   space   explo-                   1, 2–9 (2014) https://doi.org/10.1016/j.lssr.
+     ration by human beings. The lancet                           2014.01.002
+     oncology 7(5), 431–435 (2006) https:
+     //doi.org/10.1016/S1470-2045(06)70695-7                 [51] Miller, J., Zeitlin, C., Cucinotta, F., Heil-
+                                                                  bronn, L., Stephens, D., Wilson, J.: Bench-
+[43] Zeitlin, C., Hassler, D., Ehresmann, B.,                     mark studies of the effectiveness of structural
+     Rafkin, S., Guo, J., Wimmer-Schweingruber,                   and internal materials as radiation shielding
+     R., Berger, T., Matthiä, D.: Measurements                   for the international space station. Radiation
+     of radiation quality factor on Mars with                     research 159(3), 381–390 (2003)
+     the Mars Science Laboratory Radiation
+     Assessment Detector. Life Sciences in Space             [52] Zeitlin, C., Guetersloh, S., Heilbronn, L.,
+     Research 22, 89–97 (2019) https://doi.org/                   Miller, J., Elkhayari, N., Empl, A., LeBour-
+     10.1016/j.lssr.2019.07.010                                   geois, M., Mayes, B., Pinsky, L., Christl,
+                                                                  M., et al.: Shielding experiments with high-
+[44] National Academies of Sciences, Engineering,                 energy heavy ions for spaceflight applications.
+     and Medicine and others: Space Radiation                     New Journal of Physics 10(7), 075007 (2008)
+     and Astronaut Health: Managing and Com-
+     municating Cancer Risks, (2021)                         [53] Guetersloh, S., Zeitlin, C., Heilbronn, L.,
+                                                                  Miller, J., Komiyama, T., Fukumura, A.,
+[45] Dietze, G., Bartlett, D., Cool, D., Cucinotta,               Iwata, Y., Murakami, T., Bhattacharya, M.:
+     F., Jia, X., McAulay, I., Pelliccioni, M.,                   Polyethylene as a radiation shielding stan-
+     Petrov, V., Reitz, G., Sato, T., et al.:                     dard in simulated cosmic-ray environments.
+     Icrp publication 123: Assessment of radiation                Nuclear Instruments and Methods in Physics
+     exposure of astronauts in space. Annals of the               Research Section B: Beam Interactions with
+     ICRP 42(4), 1–339 (2013)                                     Materials and Atoms 252(2), 319–332 (2006)
+
+[46] Spillantini, P.: Active shielding for long dura-        [54] Barthel, J., Sarigul-Klijn, N.: Radiation pro-
+     tion interplanetary manned missions. In: 37th                duction and absorption in human space-
+     COSPAR Scientific Assembly, vol. 37, p. 2998                 craft shielding systems under high charge
+     (2008)                                                       and energy galactic cosmic rays: Material
+                                                                  medium, shielding depth, and byproduct
+[47] Battiston, R., Burger, W., Calvelli, V.,                     aspects. Acta Astronautica 144, 254–262
+     Musenich, R., Choutko, V., Datskov, V.,                      (2018)
+     Della Torre, A., Venditti, F., Gargiulo, C.,
+     Laurenti, G., et al.: Active radiation shield           [55] Slaba, T.C., Bahadori, A.A., Reddell, B.D.,
+     for space exploration missions. arXiv preprint               Singleterry, R.C., Clowdsley, M.S., Blattnig,
+     arXiv:1209.1907 (2012)                                       S.R.: Optimal shielding thickness for galac-
+                                                                  tic cosmic ray environments. Life Sciences in
+[48] Marco, P.: Mars Future Settlements: Active                   space research 12, 1–15 (2017)
+     Radiation Shielding and Design Criteria
+     about Habitats and Infrastructures. Ter-                [56] Norbury, J.W., Battistoni, G., Besuglow,
+     raforming Mars, 297–312 (2021) https://doi.                  J., Bocchini, L., Boscolo, D., Botvina, A.,
+     org/10.1002/9781119761990.ch12                               Clowdsley, M., Wet, W., Durante, M.,
+                                                                  Giraudo, M., et al.: Are further cross section
+[49] Leo, W.R.: Techniques for Nuclear and                        measurements necessary for space radia-
+     Particle Physics Experiments: a How-to                       tion protection or ion therapy applications?
+     Approach. Springer, ??? (2012). https://doi.                 helium projectiles. Frontiers in Physics 8,
+     org/10.1007/978-3-642-57920-2                                565954 (2020)
+
+
+
+
+                                                        24
+[57] Clowdsley, M., Wilson, J., Kim, M., Sin-                   International Conference on Environmental
+     gleterry, R., Tripathi, R., Heinbockel, J.,                Systems
+     Badavi, F., Shinn, J.: Neutron environments
+     on the Martian surface. Physica Medica 17,             [65] Horst, F., Boscolo, D., Durante, M., Luoni,
+     94–96 (2001)                                                F., Schuy, C., Weber, U.: Thick shielding
+                                                                 against galactic cosmic radiation: A monte
+[58] Le Postollec, A., Incerti, S., Dobrijevic,                  carlo study with focus on the role of sec-
+     M., Desorgher, L., Santin, G., Moretto, P.,                 ondary neutrons. Life Sciences in Space
+     Vandenabeele-Trambouze, O., Coussot, G.,                    Research 33, 58–68 (2022)
+     Dartnell, L., Nieminen, P.: Monte Carlo sim-
+     ulation of the radiation environment encoun-           [66] Luoni, F., Boscolo, D., Fiore, G., Bocchini,
+     tered by a biochip during a space mission                   L., Horst, F., Reidel, C.-A., Schuy, C., Cipri-
+     to Mars. Astrobiology 9(3), 311–323 (2009)                  ani, C., Binello, A., Baricco, M., et al.: Dose
+     https://doi.org/10.1089/ast.2008.0255                       attenuation in innovative shielding materials
+                                                                 for radiation protection in space: measure-
+[59] Simonsen, L.C., Nealy, J.E., Townsend, L.W.,                ments and simulations. Radiation Research
+     Wilson, J.W.: Space radiation shielding for a               198(2), 107–119 (2022)
+     martian habitat. SAE transactions, 972–979
+     (1990) https://doi.org/10.4271/901346                  [67] Ortiz, A.R., Rygalov, V.Y., Leon, P.d.: Radi-
+                                                                 ation protection strategy development for
+[60] Ehresmann, B., Hassler, D., Zeitlin, C., Guo,               mars surface exploration. (2015). 45th Inter-
+     J., Wimmer-Schweingruber, R., Khaksari, S.,                 national Conference on Environmental Sys-
+     Loeffler, S.: Natural radiation shielding on                tems
+     Mars measured with the MSL/RAD instru-
+     ment. Journal of Geophysical Research: Plan-           [68] Baker, D.N.: Specifying and forecasting space
+     ets 126(8), 2021–006851 (2021) https://doi.                 weather threats to human technology. In:
+     org/10.1029/2021JE006851                                    Daglis, I.A. (ed.) Effects of Space Weather
+                                                                 on Technology Infrastructure, pp. 1–25.
+[61] Röstel, L., Guo, J., Banjac, S., Wimmer-                   Springer, Dordrecht (2005)
+     Schweingruber, R.F., Heber, B.: Subsurface
+     radiation environment of Mars and its impli-           [69] Matthiä, D., Ehresmann, B., Lohf, H.,
+     cation for shielding protection of future habi-             Köhler, J., Zeitlin, C., Appel, J., Sato, T.,
+     tats. Journal of Geophysical Research: Plan-                Slaba, T., Martin, C., Berger, T., et al.:
+     ets 125(3), 2019–006246 (2020) https://doi.                 The Martian surface radiation environment–a
+     org/10.1029/2019JE006246                                    comparison of models and MSL/RAD mea-
+                                                                 surements. Journal of Space Weather and
+[62] Mountford, P., Temperton, D.: Recommen-                     Space Climate 6, 13 (2016) https://doi.org/
+     dations of the international commission                     10.1051/swsc/2016008
+     on radiological protection (ICRP) 1990.
+     Springer (1992). https://doi.org/10.1007/              [70] Kennedy, A.R., Wan, X.: Countermeasures
+     BF00184120                                                  for space radiation induced adverse biologic
+                                                                 effects. Advances in space research 48(9),
+[63] Petoussi-Henss, N., Bolch, W., Eckerman, K.,                1460–1479 (2011) https://doi.org/10.1016/j.
+     Endo, A., Hertel, N., Hunt, J., Pelliccioni,                asr.2011.07.007
+     M., Schlattl, H., Zankl, M.: Conversion coef-
+     ficients for radiological protection quantities        [71] Agostinelli, S., Allison, J., Amako, K.a.,
+     for external radiation exposures. Annals of                 Apostolakis, J., Araujo, H., Arce, P.,
+     the ICRP 40(2-5), 1–257 (2010) https://doi.                 Asai, M., Axen, D., Banerjee, S., Barrand,
+     org/10.1016/j.lssr.2017.06.003                              G., et al.: Geant4—a simulation toolkit.
+                                                                 Nuclear instruments and methods in physics
+[64] Arnhof, M.: Design of a human settlement                    research section A: Accelerators, Spectrom-
+     on Mars using in-situ resources. (2016). 46th               eters, Detectors and Associated Equipment
+
+
+                                                       25
+    506(3), 250–303 (2003) https://doi.org/10.              [79] Schuy, C., Tessa, C.L., Horst, F., Rovituso,
+    1016/S0168-9002(03)01368-8                                   M., Durante, M., Giraudo, M., Bocchini,
+                                                                 L., Baricco, M., Castellero, A., Fioreh, G.,
+[72] de Wet, W.C., Townsend, L.W.: A calculation                 et al.: Experimental assessment of lithium
+     of the radiation environment on the Martian                 hydride’s space radiation shielding perfor-
+     surface. Life Sciences and Space Research 14,               mance and monte carlo benchmarking. Radi-
+     51–56 (2017) https://doi.org/10.1016/j.lssr.                ation Research 191(2), 154–161 (2019)
+     2017.07.008
+                                                            [80] Barker, D., Chamitoff, G., James, G.:
+[73] Clowdsley, M., Nealy, J., Atwell, W., Ander-                Resource Utilization and Site Selection for
+     son, B., Luetke, N., Wilson, J.: Calculation                a Self-Sufficient Martian Outpost. Technical
+     of radiation protection quantities and analy-               Report, NASA/TM-98-206538; S-837; NAS
+     sis of astronaut orientation dependence. In:                1.15:206538 (1998)
+     Space 2006, p. 7441 (2006). https://doi.org/
+     10.2514/6.2006-7441                                    [81] Nealy, J.E., Wilson, J.W., Townsend, L.W.:
+                                                                 Solar-flare shielding with regolith at a lunar-
+[74] Morthekai, P., Jain, M., Dartnell, L., Murray,              base site. NASA Technical Papers 2869
+     A., Bøtter-Jensen, L., Desorgher, L.: Mod-                  (1988)
+     elling of the dose-rate variations with depth
+     in the Martian regolith using GEANT4.                  [82] Nealy, J.E., Wilson, J.W., Townsend, L.W.:
+     Nuclear Instruments and Methods in Physics                  Preliminary analyses of space radiation pro-
+     Research Section A: Accelerators, Spectrom-                 tection for lunar base surface systems. SAE
+     eters, Detectors and Associated Equipment                   Transactions, 707–716 (1989) https://doi.
+     580(1), 667–670 (2007) https://doi.org/10.                  org/10.4271/891487
+     1016/j.nima.2007.05.118
+                                                            [83] Sen, S., Carranza, S., Pillay, S.: Multifunc-
+[75] Chen, J.-L., Yun, S.-J., Dong, T.-K., Ren,                  tional Martian habitat composite material
+     Z.-Z., Zhang, X.-P.: Studies of the radiation               synthesized from in situ resources. Advances
+     environment on the Mars surface using the                   in space research 46(5), 582–592 (2010) https:
+     Geant4 toolkit. Nuclear Science and Tech-                   //doi.org/10.1016/j.asr.2010.04.009
+     niques 33(1), 1–11 (2022) https://doi.org/10.
+     1007/s41365-022-00987-2                                [84] Radiological Protection Publication 123, I.C.:
+                                                                 Assessment of radiation exposure of astro-
+[76] Pawlicki, D.: Compact light-weight polymer                  nauts in space. Ann ICRP 42, 1–339 (2013)
+     composite materials for radiation shielding in
+     outer space. (2022). International Astronau-           [85] Clarke, R., Fry, F., Stather, J., Webb, G.:
+     tical Congress                                              1990 recommendations of the International
+                                                                 Commission on Radiological Protection. Doc-
+[77] Sangwan, N., Kumar, A.: An extensive study                  uments of the NRPB 4(1), 1–5 (1993)
+     of depth dose distribution and projectile frag-
+     mentation cross-section for shielding mate-
+     rials using Geant4. Applied Radiation and
+     Isotopes 180, 110068 (2022) https://doi.org/
+     10.1016/j.apradiso.2021.110068
+
+[78] Giraudo, M., Schuy, C., Weber, U., Rovi-
+     tuso, M., Santin, G., Norbury, J.W., Tracino,
+     E., Menicucci, A., Bocchini, L., Lobascio, C.,
+     et al.: Accelerator-based tests of shielding
+     effectiveness of different materials and multi-
+     layers using high-energy light and heavy ions.
+     Radiation Research 190(5), 526–537 (2018)
+
+
+                                                       26
+

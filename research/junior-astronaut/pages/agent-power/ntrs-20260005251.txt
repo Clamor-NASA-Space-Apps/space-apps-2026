@@ -1,0 +1,262 @@
+          Equivalent System Mass Comparison
+          of ECLSS CO2 Removal Technologies
+          ICES 501, Paper 160
+          Madeleine Oliver, Lawrence Barrett, Kevin Lange
+          Amentum, Houston, TX
+          Thomas Chen, & Imelda Stambaugh
+          NASA, Houston, TX
+
+
+          55th International Conference on Environmental Systems, Rio Grande, Puerto Rico, 12-16 July 2026
+
+
+
+Trade names are used in this paper for identification only. Their usage does not constitute an official endorsement, either expressed or implied, by the National Aeronautics and Space Administration.
+Conclusion
+
+• For long-term human spaceflight, any CO2 removal technology will need to integrate into
+  existing vehicle systems and prove sufficient performance while maintaining a reasonable
+  system-level impact
+• Task: Conduct an equivalent system mass (ESM) analysis to provide a comparison of competing
+  Environmental Control and Life Support Systems (ECLSS) CO2 removal technologies for manned
+  space exploration
+• Approach: Evaluation and comparison of six technologies was achieved using an existing ESM tool
+  that formerly ranked such technologies for consideration on Gateway
+    • Carbon Dioxide Removal System (CDRS) – TRL 7
+    • Thermal Amine Scrubber (TAS) – TRL 9
+    • Carbon Dioxide Removal Assembly (CDRA) – TRL 9
+    • Four-Bed CO2 Scrubber (4BCO2) – TRL 9
+    • CO2 and Humidity Control Swing Bed (CHC) – TRL 9
+    • Carbon Dioxide Removal by Ionic Liquid Sorbent (CDRILS) – TRL 5
+• Technologies were assessed using metrics of mass, volume, power and cooling requirement, CO2
+  removal performance, and gas consumables
+
+                                                                                                    2
+Equivalent System Mass (ESM) Approach
+• ESM analysis takes disparate sizing characteristics of technologies or subsystems and converts
+  them into a unified, quantifiable metric that can be easily compared among multiple candidates
+   • Applies “equivalency factors” (infrastructure costs) to convert sizing and performance parameters such as
+     volume and cooling into units of mass, which are then added to actual system mass to yield a total ESM
+   • Enables a more apples-to-apples comparison of integrated system impacts across candidates rather than a
+     simple direct comparison of component mass alone
+
+                                𝐄𝐄𝐒𝐒𝐒𝐒 = MS + MC + γV V + γP P + γQ Q
+
+                         𝐌𝐌𝐒𝐒                  System mass                  kg
+                         𝐌𝐌𝐂𝐂        Gas consumables mass (O2 and N2)       kg
+                          𝐕𝐕                  System volume                 m3
+                          𝐏𝐏                Power consumption               W
+                         𝐐𝐐          Heat loss or gain (thermal control)    W
+                         𝛄𝛄𝐕𝐕            Volume equivalency factor         kg/m3
+                         𝛄𝛄𝐏𝐏            Power equivalency factor          kg/W
+                         𝛄𝛄𝐐𝐐        Thermal control equivalency factor    kg/W
+                                                                                                                 3
+Equivalent System Mass (ESM) Approach
+• Results of an ESM analysis depend on assumptions made about the operating environment, so
+  it must be performed with a specific mission in mind
+• Equivalency factors: represent the degree of impact, expressed in terms of mass, that system
+  volume, power, and cooling requirements for technologies will have on the infrastructure of habitats
+  for different missions
+    • Values depend strongly on mission architecture and are specific to mission location
+    • Evaluated by NASA according to current baselines for launch vehicles, spacecraft, and supporting
+      equipment
+• Separate comparisons of ESM values for each CO2 removal technology performed for Lunar
+  transit, Lunar surface, Mars transit, Mars surface, and low-Earth orbit mission habitats
+
+                 Equivalency Factors      𝛄𝛄𝐕𝐕 (kg/m3)   𝛄𝛄𝐏𝐏 (kg/W)   𝛄𝛄𝐐𝐐 (kg/W)   Pressure (psia)
+                   Lunar transit (LT)         80.8         0.136        0.0554            10.2
+                  Lunar surface (LS)         133.1         0.076         0.102             8.4
+                   Mars transit (MT)          79.3         0.162         0.096            14.7
+                  Mars surface (MS)           170          0.087         0.146            10.2
+                 Low-Earth orbit (LEO)         79          0.162          0.18            14.7
+                                                                                                         4
+Technology Assessment
+    A literature review was conducted to obtain accurate information on mass, power, volume,
+  consumables, and CO2 removal capacity for each technology option, and principal investigators
+              were contacted for confirmation of the most up-to-date quantitative data
+
+1. Carbon Dioxide Removal Assembly (CDRA) – Legacy four-bed molecular sieve assembly with fully regenerative
+   thermal/pressure swing CO2 sorption process
+    •   Long history of maintenance issues and obsolete core components; eventual retirement and redesign intended to
+        address mechanical failures
+2. Four-Bed Carbon Dioxide (4BCO2) Scrubber – Potential redesign of CDRA commissioned for flight
+   demonstration onboard ISS to prove reliability for exploration missions with no resupply and light sparing
+   capabilities, such as Mars transport
+    •   New custom zeolite sorbent to improve CO2 capacity and kinetics, decreased operational temperature and heater
+        redesign to minimize dusting, and a cylindrical bed shape (as opposed to rectangular) to maintain compaction
+    •   Reduced mass, volume, and cooling requirement compared to the CDRA, but increased power consumption
+3. Thermal Amine Scrubber (TAS) – Different alternative to CDRA, solid amine-based system that utilizes thermal
+   regeneration, launched as a flight experiment to the ISS to further develop solid amine technology while
+   mitigating potentially increasing CO2 levels with arrival of additional crew members
+    •   At the high end of mass and power and has by far the largest volume compared to other technologies in this study
+                                                                                                                           5
+Technology Assessment
+4. Carbon Dioxide Removal System (CDRS) – Similar to TAS, another amine-based regenerative system intended
+   for the International Habitation Module (I-HAB) of the Gateway Lunar space station
+    •   Better CO2 removal performance than the TAS and much lower system volume, but slightly larger mass, power
+        consumption, and cooling requirement
+5. Orion Carbon Dioxide & Humidity Control (CHC) System – Flown on Artemis I, regenerative amine dual bed
+   system developed for use on Orion to support an extended integrated mission without the need for additional
+   CO2 removal-related consumables (such as lithium hydroxide canisters) or complicated humidity capture
+   systems
+    •   Unlike the CDRA, 4BCO2, and TAS, the CHC does not require any cooling
+    •   More favorable than the other technology options in terms of mass, volume, and power requirements; main drawback is
+        its large nitrogen and oxygen consumption via venting to space due to lack of an air save pump
+6. Carbon Dioxide Removal by Ionic Liquid Sorbent (CDRILS) – Another CDRA alternative, utilizes a regenerable
+   ionic liquid sorbent that is continuously recirculated between a scrubber and stripper
+    •   Venting carbon dioxide overboard as a waste product results in the loss of oxygen molecules that could be supplied back
+        to the cabin
+         •   Integration of the CDRILS flight demonstration unit with Sabatier reactor has been investigated, which would enable
+             oxygen recovery and reduce the need for resupply
+         •   Thermal integration of CDRILS with Sabatier would also allow for heat from the Sabatier reaction to be recovered
+             and used to warm up the ionic liquid entering the stripper, thus saving power
+                                                                                                                            6
+CO2 Removal Performance & ESM
+• Calculated ESMs of the technologies in each mission habitat are presented, along with available
+  information on CO2 removal performance at different CO2 concentrations
+    •   Quantitative values that are not publicly available have been omitted (marked as “N/A”)
+• ESMs include cumulative gas consumption over a mission period of 1 year
+    •   O2 and N2 lost from the CO2 removal process – does not include any recovery or regeneration from downstream processes
+    •   For all technologies except CDRILS, it is assumed that CO2 is vented to space rather than recovered for downstream
+        processing
+
+                                                                             ESM with gas consumables mass (kg)
+                                      CO2 removal capacity (kg/day)
+              Technology                                                               Mission Habitat
+                                        @ 2 mmHg           @ 3 mmHg            LT     LS     MT      MS   LEO
+                 CDRA                      4.2                6.5             429    483     508     576   636
+                 4BCO2                       4.5                6.9           410       406       473   470      549
+                   TAS                       3.8                4.7           682       798       728   949      766
+                 CDRS                       N/A                N/A            573       568       636   641      699
+               Orion CHC                     3.9                5.3           277       245       331   272      331
+        CDRILS without Sabatier                                               402       419       462   485      543
+                                             5.0               N/A
+         CDRILS with Sabatier                                                 389       375       429   418      464
+                                                                                                                          7
+ESM Comparison
+•   CHC unit consistently has lowest ESM
+    across all the technologies, but has
+    substantial gas consumables losses
+•   Despite its larger mass and power draw than
+    CHC, CDRILS has no gas consumables
+    losses, making it potentially more appropriate
+    for a long duration mission where
+    consumables are at a premium
+•   TAS and CDRS solid amine options have the
+    highest ESMs of all the technologies
+     •   TAS trades poorly due to large volume
+         and CO2 removal performance being
+                                                            Comparison of ESMs for each CO2 removal technology in Mars transit habitat
+         below average
+     •   CDRS has a tradeoff in that it has the best overall CO2 removal performance, but is currently at a lower TRL than the ISS
+         proven technologies
+•   With only a change in bed design, the 4BCO2 scrubber can achieve lower mass, volume, and cooling requirements than
+    CDRA while increasing CO2 removal performance
+•   For most missions, the CDRILS ESM is comparable to that of the 4BCO2
+•   No clear tradeoff between CO2 removal performance and ESM, with some technologies having better CO2 removal with
+    a lower equivalent mass, and vice versa
+                                                                                                                                     8
+ESM Comparison
+•   Technologies that have high volume,
+    power, or thermal control requirements
+    will have more impact on habitats with
+    higher corresponding equivalency factors
+     •   CDRILS trades better than 4BCO2 in
+         Lunar transit, Mars transit, and LEO
+     •   4BCO2 trades better than CDRILS in
+         Lunar and Mars surface habitats
+•   LEO habitat has high power and thermal
+    control equivalency factors compared to
+    the other habitats, leading to the highest
+    ESMs among most of the CO2 removal
+    technologies
+•   Mars surface habitat has a high volume
+    equivalency factor compared to the other
+    habitats, yet it does not yield higher ESMs      Comparison of ESMs including gas consumables mass for each CO2
+    than the LEO habitat in any technology                      removal technology in each mission habitat
+    except for the TAS, which has a significantly
+    larger volume than any of the other systems
+      • Power and cooling requirements appear to be the more dominant contributors to the total ESM
+•   Overall trends suggest technologies well suited for one mission environment may not trade well in another
+                                                                                                                      9
+Conclusion
+
+• The performance and ESM of current spacecraft CO2 removal systems has been
+  evaluated and compared for Lunar, Mars, and low-Earth orbit habitats
+
+
+• These ESM results can be used as a guide to assist programs in their selection
+  of a CO2 technology best suited for a specific vehicle and mission
+   • Analysis does not capture the overall logistical impacts of technologies and is
+     not sufficient for informing technology down-selection on its own
+   • Given the constant evolution of infrastructure costs and the ongoing testing and
+     characterization of some of these candidates, the data presented here may shift
+     over time and should be periodically revised to reflect the latest as technologies
+     or operations advance
+
+
+                                                                                       10
+Acknowledgments
+
+The authors would like to acknowledge and thank:
+• The Mars Campaign Office for funding this work
+• The entire NASA PLSS team at Johnson Space Center for their input throughout the project
+
+
+                                          Thank you!
+
+
+
+                                         Questions?
+
+
+                                                                                             11
+ References
+[1] D. Ivey, M. Torralba and S. Robinson, "ECLSS Air Revitalization Technology Review 2022: Review of Current Published 365 Units and
+     their Fault Modes,”," in 51st International Conference on Environmental Systems, St. Paul, Minnesota, ICES-2022-167.
+[2] J. Metts and D. Klaus, "Equivalent System Mass Analysis for Space Suit Thermal Control," in 41st International Conference on
+     Environmental Systems, Portland, Oregon, AAIA 2011-5180.
+[3] A. Drysdale, "ESM History, Capability, and Methods," SAE Paper No. 2003-01-2630, 2003, doi: 10.4271/2003-01-2630..
+[4] J. Levri and A. Drysdale, "Clarifying Objectives and Results of Equivalent System Mass Analyses for Advanced Life Support," SAE
+     Paper No. 2003-01-2631, 2003, doi: 10.4271/2003-01-2631.
+[5] M. K. Ewert, T. Chen and C. Powell, "Life Support Baseline Values and Assumptions Document," NASA/TP-2015–218570/REV2,
+     NASA, 2015.
+[6] R. Hughes, D. McGraw III, P. Kessler and A. Choate, "Mars Surface Habitat Concept Design," in ASCEND, Las Vegas, Nevada, 2023.
+[7] W. Peters, J. Knox and C. Stanley, "CDRA-4EU Testing in Support of ISS," in 46th International Conference on Environmental
+     Systems, Vienna, Austria, ICES-2016-404.
+[8] R. Coker, J. Knox, H. Guato and C. Gomez, "Full System Modeling and Validation of the Carbon Dioxide Removal Assembly," in 44th
+     International Conference on Environmental Systems, Tucson, Arizona, 2014.
+[9] J. Knox and C. M. Stanley, "Optimization of the Carbon Dioxide Removal Assembly (CDRA-4EU) in Support of the International
+     Space System and Advanced Exploration Systems," in 45th International Conference on Environmental Systems, Bellevue,
+     Washington, ICES-2015-165.
+[10] G. Cmarik, W. Peters and J. Knox, "4-Bed CO2 Scrubber – From Design to Build," in International Conference on Environmental
+     Systems, ICES-2020-178.
+[11] G. Cmarik and J. Knox, "CO2 Removal for the International Space Station – 4-Bed Molecular Sieve Material Selection and System
+     Design," in 49th International Conference on Environmental Systems, Boston, Massachusetts, ICES-2019-5.
+[12] D. E. Sherif, "Engineering, Operations, and Maintenance Handbook, Environmental Control and Life Support System, Air
+     Revitalization Subsystem, Carbon Dioxide Removal Assembly – Revision 2," Honeywell, 2002.
+                                                                                                                              12
+ References
+[13] H. Ranz, S. Dionne and J. Garr, "A Thermally-Regenerated Solid Amine CO2 Removal System Incorporating Water Vapor Recovery
+     and Ullage Air Recovery," in 49th International Conference on Environmental Systems, Boston, Massachusetts, ICES-2019-174.
+[14] W. Papale, T. Nalette, M. Heldmann and J. Hidalgo, "An Advanced CO2 Removal System Using Regenerable Solid Amines," in 46th
+     International Conference on Environmental Systems, Vienna, Austria, ICES-2016-144.
+[15] H. T. Ranz, S. Dionne and J. D. Garr II, "Thermal Amine Scrubber – Space Station Installation and Start-Up," in International
+     Conference on Environmental Systems, ICES-2020-195.
+[16] "System Performance Report Thermal Amine Scrubber," TAS-SPR-001 Rev C, Collins Aerospace, 2019.
+[17] "Booklet of Operating Instructions Thermal Amine Scrubber," TAS-OMI-001-Rev B, Collins Aerospace, 2019.
+[18] M. Saijo, A. Hayakawa, C. Yamazaki, M. Sasaoka, S. Matsumoto and e. al., "Carbon Dioxide Removal System (CDRS) Design for
+     Gateway International Habitation Module," in 54th International Conference on Environmental Systems, Prague, Czech Republic,
+     ICES-2025-508.
+[19] H. Mera, J. Kirkland, R. Wall and T. Cichan, "Integrating Orion and Initial Lunar Gateway Environmental Control and Life Support
+     Systems," in International Conference on Environmental Systems, ICES-2020-432.
+[20] S. Yates, R. Kamire, P. Henson and T. Bonk, "Carbon Dioxide Removal by Ionic Liquid Sorbent (CDRILS) System Development," in
+     48th International Conference on Environmental Systems, Albuquerque, New Mexico, ICES-2018-17.
+[21] P. Henson, S. Yates, B. Dotson, T. Bonk, B. Finger and e. al., "An Environmental Control and Life Support System (ECLSS) for Deep
+     Space and Commercial Habitats," in 50th International Conference on Environmental Systems, ICES-2021-212.
+[22] P. Henson, M. Pipitone, Z. Clark, S. Butterwick, E. Pope and e. al., "CDRILS 4-crew-scale CO2 Removal and Reduction Flight Unit
+     Design," in 53rd International Conference on Environmental Systems, Louisville, Kentucky, ICES-2024-126.
+[23] S. Yates, R. Kamire, P. Henson, T. Bonk, D. Loeffelholz and e. al., "Scale-up of Carbon Dioxide Removal by Ionic Liquid Sorbent
+     (CDRILS) System," in 49th International Conference on Environmental Systems, Boston, Massachusetts, ICES-2019-219.
+                                                                                                                                 13
+

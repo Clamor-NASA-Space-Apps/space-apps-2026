@@ -1,0 +1,624 @@
+NASA/TP–2013-217983
+
+
+
+
+Radiation Shielding Optimization on Mars
+
+Tony C. Slaba, Christopher J. Mertens, and Steve R. Blattnig
+Langley Research Center, Hampton, Virginia
+
+
+
+
+April 2013
+                                   NASA STI Program . . . in Profile
+
+
+Since its founding, NASA has been dedicated to the          CONFERENCE PUBLICATION.
+advancement of aeronautics and space science. The            Collected papers from scientific and
+NASA scientific and technical information (STI)              technical conferences, symposia, seminars,
+program plays a key part in helping NASA maintain            or other meetings sponsored or co-
+this important role.                                         sponsored by NASA.
+
+The NASA STI program operates under the                     SPECIAL PUBLICATION. Scientific,
+auspices of the Agency Chief Information Officer.            technical, or historical information from
+It collects, organizes, provides for archiving, and          NASA programs, projects, and missions,
+disseminates NASA’s STI. The NASA STI                        often concerned with subjects having
+program provides access to the NASA Aeronautics              substantial public interest.
+and Space Database and its public interface, the
+NASA Technical Report Server, thus providing one            TECHNICAL TRANSLATION.
+of the largest collections of aeronautical and space         English-language translations of foreign
+science STI in the world. Results are published in           scientific and technical material pertinent to
+both non-NASA channels and by NASA in the                    NASA’s mission.
+NASA STI Report Series, which includes the
+following report types:                                  Specialized services also include organizing
+                                                         and publishing research results, distributing
+                                                         specialized research announcements and feeds,
+   TECHNICAL PUBLICATION. Reports of                    providing information desk and personal search
+    completed research or a major significant phase      support, and enabling data exchange services.
+    of research that present the results of NASA
+    Programs and include extensive data or               For more information about the NASA STI
+    theoretical analysis. Includes compilations of       program, see the following:
+    significant scientific and technical data and
+    information deemed to be of continuing                  Access the NASA STI program home page
+    reference value. NASA counterpart of peer-               at http://www.sti.nasa.gov
+    reviewed formal professional papers, but
+    having less stringent limitations on manuscript         E-mail your question to help@sti.nasa.gov
+    length and extent of graphic presentations.
+                                                            Fax your question to the NASA STI
+   TECHNICAL MEMORANDUM. Scientific                         Information Desk at 443-757-5803
+    and technical findings that are preliminary or of
+    specialized interest, e.g., quick release reports,      Phone the NASA STI Information Desk at
+    working papers, and bibliographies that contain          443-757-5802
+    minimal annotation. Does not contain extensive
+    analysis.                                               Write to:
+                                                             STI Information Desk
+   CONTRACTOR REPORT. Scientific and                        NASA Center for AeroSpace Information
+    technical findings by NASA-sponsored                     7115 Standard Drive
+    contractors and grantees.                                Hanover, MD 21076-1320
+NASA/TP–2013-217983
+
+
+
+
+Radiation Shielding Optimization on Mars
+
+Tony C. Slaba, Christopher J. Mertens, and Steve R. Blattnig
+Langley Research Center, Hampton, Virginia
+
+
+
+
+National Aeronautics and
+Space Administration
+
+Langley Research Center
+Hampton, Virginia 23681-2199
+
+
+April 2013
+           Available from:
+
+NASA Center for AeroSpace Information
+       7115 Standard Drive
+     Hanover, MD 21076-1320
+           443-757-5802
+Contents
+Abstract .......................................................................................................................................................... 1
+
+1. Introduction ................................................................................................................................................ 1
+
+2. Computational Models ............................................................................................................................... 2
+
+3. Results ........................................................................................................................................................ 4
+
+4. Summary and Conclusions ......................................................................................................................... 6
+
+5. References .................................................................................................................................................. 7
+
+
+
+
+Y
+Figures
+1.    Representative geometry (not to scale) used for the surface calculations. .............................................. 2
+2.    Cumulative atmospheric thickness for several inclination angles is plotted as a function of density
+      (g/cm3) in the left pane. Total atmospheric thickness (g/cm2) is plotted as a function of inclination
+      angle in the right pane. ............................................................................................................................ 3
+3.    Dose equivalent (left pane) and effective dose (right pane) as a function of shield thickness on the
+      Martian surface. ....................................................................................................................................... 5
+4.    Comparison of surface exposure to ½ free space exposure as a function of shield thickness. ................ 6
+
+
+
+
+YL
+Tables
+1.   Comparison of present calculations to results generated with the Geant4-based application, MEREM
+     [McKenna-Lawlor et al. 2012b]. Dose equivalent values are in mSv/year and values in parentheses are
+     the relative percent difference between present calculations and MEREM results. ................................ 4
+
+
+
+
+                                                          vLL
+                                                 Abstract
+
+         Future space missions to Mars will require radiation shielding to be optimized for deep
+         space transit and an extended stay on the surface. In deep space, increased shielding
+         levels and material optimization will reduce the exposure from most solar particle events
+         (SPE) but are less effective at shielding against galactic cosmic rays (GCR). On the
+         surface, the shielding provided by the Martian atmosphere greatly reduces the exposure
+         from most SPE, and long-term GCR exposure is a primary concern. Previous work has
+         shown that in deep space, additional shielding of common materials such as aluminum or
+         polyethylene does not significantly reduce the GCR exposure. In this work, it is shown
+         that on the Martian surface, almost any amount of aluminum shielding increases
+         exposure levels for humans. The increased exposure levels are attributed to neutron
+         production in the shield and Martian regolith as well as the electromagnetic cascade
+         induced in the Martian atmosphere. This result is significant for optimization of vehicle
+         and shield designs intended for the surface of Mars.
+
+1. Introduction
+
+          Future missions to Mars will include a relatively long duration transit time in deep space as well as
+an extended stay on the surface. Possible mission durations are likely to range from 500-1000 days with
+surface stays ranging from 30-500 days [NASA 2009]. The transit will include continuous exposure from
+Galactic Cosmic Rays (GCR) as well as the possibility for one or more Solar Particle Events (SPE).
+Vehicle design and material optimization in deep space radiation environments has been studied
+extensively [Cucinotta et al. 2012, Wilson et al. 1997, 2004], and it has been found that exposure from SPE
+can be effectively mitigated with appropriate shielding materials and thicknesses. However, exposure from
+GCR is only moderately reduced by shield optimization, and exposure levels can actually be slightly
+amplified within a vehicle due to neutron build-up if shielding thicknesses exceed 50 g/cm2 for certain
+materials such as aluminum.
+          The radiation environment on the Martian surface is characteristically different than in deep space.
+SPE are greatly attenuated as they pass through the atmosphere, and the exposure level on the surface is
+reduced by approximately an order of magnitude. The exposure from GCR is somewhat reduced in passing
+through the atmosphere; however, interactions between incoming ions and the atmospheric constituents
+result in pion production and an electromagnetic cascade that contributes to exposure on the surface. There
+are also nuclear collisions between GCR ions and the Martian soil creating an ambient field of neutrons that
+contribute to the total exposure. Other secondary reaction products are also present on the surface, but their
+contribution to total exposure and biological risk is small [Dartnell et al. 2007a].
+          For radiation shield optimization on the Martian surface, exposure levels need to be provided for a
+range of shielding thicknesses and materials and should include albedo neutrons as well as the pion-
+electromagnetic (π/EM) cascade induced in the atmosphere. Exposure levels and mitigation strategies for
+the Martian surface have been examined in the past [Cucinotta et al. 2010, Saganti et al. 2004, Zeitlin et al.
+2004, Kim et al. 1998, Simonsen and Nealy 1991], and most of these studies utilized the radiation transport
+code, HZETRN (High charge (Z) and Energy TRaNsport), within the straight-ahead approximation
+[Wilson et al. 1991, 2006]. In this radiation transport model, all particles are assumed to propagate along a
+common axis, and the contribution from backscattered neutrons is not included. The contribution from
+π/EM interactions is also not included. Clowdsley et al. [2000] did include a model for backward moving
+neutrons into HZETRN and estimated the neutron energy spectrum on the Martian surface; however, no
+detailed shielding studies were included. Monte Carlo analyses have also been performed [McKenna-
+Lawlor et al. 2012a, 2012b; Borggrafe et al. 2009; Dartnell et al. 2007a, 2007b; Morthekai et al. 2007], but
+results have only been provided for no shielding or very specific shielding configurations.
+          Recent extensions to HZETRN have included an improved bi-directional neutron transport model
+that is fully coupled to light ion (Z < 2) target fragment production [Slaba et al. 2010a, 2011]. The model
+has been compared to three dimensional Monte Carlo codes for both slab geometries and lunar surface
+calculations and found to agree with the Monte Carlo codes to the extent they agree with each other. The
+π/EM transport model originally developed by Blattnig et al. [2004] was also recently integrated into
+
+
+                                                      1
+HZETRN [Norman et al. 2012, 2013] and compared to Monte Carlo codes [Slaba et al. 2013]. While
+improvements to the model are necessary, the initial comparisons clearly showed the importance of π/EM
+interactions in GCR transport calculations, and reasonable agreement was found between the codes at large
+shielding thicknesses. For transport through the Martian atmosphere, vertical atmospheric shielding ranges
+from 16-22 g/cm2 [Simonsen and Nealy 1991], but off-axis rays closer to the horizon easily exceed 100
+g/cm2.
+          In this work, dose equivalent and effective dose results are presented as a function of aluminum
+and polyethylene spherical shielding thickness on the Martian surface. The contributions from back-
+scattered neutrons and the π/EM cascade are explicitly separated. It is shown that surface exposures
+increase with almost any amount of aluminum shielding. These findings are significant for vehicle design
+and material optimization on the Martian surface. This paper is organized as follows. In section 2, the
+computational tools used to compute exposure on the Martian surface are described. Results and discussion
+are given in section 3. Summary and conclusions are given in section 4.
+
+2. Computational Models
+
+Martian surface exposure
+
+          In Figure 1, a representative geometry that was used for the surface calculations is shown. In order
+to calculate dose equivalent or effective dose at the target point, the particle fluxes are needed. The fluxes
+are computed by using a ray-by-ray transport methodology with HZETRN including the π/EM and bi-
+directional neutron transport (HZETRN- π/EM) [Wilson et al. 1991; Slaba et al. 2010a, 2010b; Norman et
+al. 2013]. In this approach, a large number of rays are extended in all directions from the target point
+through the shield material and through either the atmosphere or regolith, depending on the ray-direction.
+The atmospheric thickness and density profile along any slant angle is determined from a vertical density
+profile through trigonometric relationships [Simonsen et al. 1990]. The vertical density profile provides
+atmospheric density as a function of elevation above the surface. The profile used in this study will be
+discussed later in this section. The regolith thickness traversed by any ray extending down into the surface
+is set to 300 g/cm2. This approximates Mars as a large hemisphere under the spherical shield. Sensitivity
+studies were performed to ensure that 300 g/cm2 is sufficiently thick to ensure equilibrium in the back-
+scattered neutron field. The atmospheric composition from De Angelis et al. [2004] and regolith
+composition from McKenna-Lawlor et al. [2012a] are used in the present work. The atmospheric
+composition is mainly CO2 with a trace amount of argon. The regolith composition is a global average
+containing 51.2% SiO2, 9.3% Fe2O3, and 7.4% H2O with the remaining 32.1% comprised mainly of
+elements between oxygen and calcium. It should be noted that the small amount of water included in the
+composition corresponds to a hydrogen mass fraction of < 1%. The majority of the regolith composition is
+given by 47% oxygen and 24% silicon.
+
+
+
+
+                    Figure 1. Representative geometry used for the surface calculations.
+
+
+
+
+                                                      2
+          Radiation transport is performed separately on each ray that enters the top of the atmosphere,
+passes through the vehicle, and propagates into the surface. These rays will be referred to as "downward"
+pointing rays. The exposure along all other rays (i.e. rays entering from the regolith beneath the vehicle and
+extending into the atmosphere) is assumed to be zero, thereby accounting for the 2π blockage provided by
+the surface. The total flux at the target point is obtained by integrating the fluxes computed for each ray.
+          In order to compute effective dose, a human phantom model is placed in the sphere, and 1208
+target points are distributed throughout the body in radiosensitive tissues [Slaba et al. 2010c]. Transport is
+performed along downward rays for each human target point separately. In this work, 968 rays were used
+for all calculations. It should be noted that whether or not the human is included, the ray-by-ray transport
+approach imposes no restriction on the number or order of materials along each ray. This is in contrast to
+interpolation-based methods using HZETRN that have been generally restricted to at most 3 or 4 layers and
+require strict ordering of materials. In this work, dose equivalent is calculated using the ICRP 60 quality
+factor [ICRP 1990], and for effective dose, the FAX (Female Adult voXel) human phantom [Kramer et al.
+2004] is used with the ICRP 103 tissue weights [ICRP 2007]. Unless specified otherwise, the free space
+GCR environment is described by the Badhwar-O'Neill 2010 (BON2010) model [O'Neill 2010] using a
+solar modulation parameter of 475 MV to represent solar minimum conditions.
+
+Atmospheric density profile
+
+          The vertical density profile used in this work to derive slant angle atmospheric thicknesses and
+density profiles is computed with the Mars Climate Database (MCD) model [Millour et al. 2008]. The
+MCD model is a meteorological database derived from numerical simulations and validated against
+available measurements. As inputs into the MCD model, the approximate landing time and location of the
+Curiosity rover were used. Curiosity landed on August 6, 2012 corresponding to a Martian solar longitude
+of Ls = 150.6°, and the coordinates of the landing site in Gale Crater were set to -4.6° N, 137.4° E. In the
+right pane of Figure 2, total atmospheric thickness (g/cm2) is plotted as a function of inclination angle. For
+inclination angles greater than ~45°, the cumulative atmospheric thickness ranges from 20-30 g/cm2.
+However, it is clear that lower inclination rays have much larger thicknesses that can exceed 100 g/cm2.
+          In the left pane of Figure 2, the cumulative atmospheric thickness is plotted as a function of
+atmospheric density. The density changes by over 4 orders of magnitude between the top of the atmosphere
+and the surface. Previous versions of HZETRN do not include decay processes, and only the total thickness
+along each ray was required for transport procedures. However, the charged pion and muon transport and
+EM cascade depends on the density of the medium. Consequently, the variation of density with
+atmospheric thickness along each ray is included in the transport procedure so that decay lengths are
+properly computed.
+
+
+
+
+Figure 2. Cumulative atmospheric thickness for several inclination angles is plotted as a function of density
+(g/cm3) in the left pane. Total atmospheric thickness (g/cm2) is plotted as a function of inclination angle in
+                                               the right pane.
+
+
+
+                                                      3
+3. Results
+
+Comparison to Monte Carlo
+
+         In this section, the computational models described in section 2 are compared to published Monte
+Carlo results. McKenna-Lawlor et al. [2012b] used the Geant4 application, MEREM (Mars Energetic
+Radiation Environment Model), to compute the unshielded dose equivalent rate during solar minimum and
+solar maximum conditions on the Martian surface near the Viking 1 landing site. The atmospheric profile
+was retrieved from measured data but was not provided in the paper. The regolith composition was
+provided in a related paper [McKenna-Lawlor et al. 2012a]. The GCR environment was computed with the
+ISO (International Organization for Standardization) model based on the work of Nymmik et al. [1996].
+December 2006 was used for the solar minimum period, and April 2002 was used for the solar maximum
+period.
+         In the current work, the atmospheric profile was computed with the MCD model described in
+section 2 using the Viking 1 landing site coordinates (Ls = 97°, 22.48° N, -49.97° E). The regolith
+composition provided by [McKenna-Lawlor et al. 2012a] was used directly. A plot of the GCR particle
+spectra was not provided in the paper; therefore, in the present work, results are generated with three
+different GCR models and compared. The BON2010 model, the model of Matthia et al. [2013], and the
+ISO model evaluated through the SPENVIS (SPace ENVironment Information System) [SPENVIS]
+website have been used. The BON2010 has been commonly used in space radiation analysis, and the
+Matthia model is derived from the ISO model.
+         Results are given in Table 1. The current computational model is within 20% of the detailed
+Monte Carlo calculation. Differences can be attributed to GCR and transport model differences and to a
+lesser extent, differences in the atmospheric density profile.
+
+
+Table 1. Comparison of present calculations to results generated with the Geant4-based application,
+MEREM [McKenna-Lawlor et al. 2012b]. Dose equivalent values are in mSv/year and values in
+parentheses are the relative percent difference between present calculations and MEREM results.
+
+                                                Present              Present             Present
+                              MEREM
+                                                  ISO               Matthia             BON2010
+        Solar minimum           273.8         252.5 (-8%)         245.8 (-10%)        224.5 (-18%)
+        Solar maximum           156.4         183.0 (17%)          165.9 (6%)          155.3 (-1%)
+
+
+Shielding Analysis
+
+          In Figure 3, dose equivalent (left pane) and effective dose (right pane) are plotted as a function of
+aluminum and polyethylene shield thickness. The total dose equivalent and effective dose values exhibit
+similar, but not identical, trends for aluminum and polyethylene. In particular, the dose equivalent values
+monotonically increase with aluminum thickness by 63% from 0 g/cm2 to 100 g/cm2. The effective dose
+values also initially increase with aluminum thickness but reach a maximum value around 60 g/cm2. The
+total variation in effective dose values as a function of aluminum thickness is only 3%. For polyethylene,
+dose equivalent values are reduced by more than a factor of 2, and effective dose values are reduced by as
+much as 35%. For both materials, the variation in effective dose versus depth is smaller than the variation
+in dose equivalent versus depth. This is a result of secondary particle attenuation within tissue, particularly
+for neutrons. The effect is less pronounced in polyethylene because it moderates neutron production more
+effectively than aluminum.
+          There is a clear difference in the albedo neutron contribution to dose equivalent between
+aluminum and polyethylene. The decrease in albedo neutron contribution with polyethylene depth is a
+result of elastic collisions with hydrogen nuclei. The increase in albedo neutron contribution with
+aluminum depth is a result of inelastic collisions between neutrons and ions with target nuclei. The
+difference between the two materials is greatly reduced if effective dose values are considered. This is a
+result of elastic collisions with hydrogen nuclei occurring within tissue. The contribution from π/EM
+
+
+
+                                                      4
+interactions appears to be similar for both materials, with consistently smaller values observed in
+polyethylene. The reduction in polyethylene is attributed to reduced neutron production and neutron
+attenuation associated with elastic collisions as already noted. The difference between the two materials is
+at most 31% for dose equivalent and 13% for effective dose. It is also important to notice that for effective
+dose, the π/EM contribution is actually greater than the albedo neutron contribution for both materials
+across all depths.
+
+
+
+
+Figure 3. Dose equivalent (left pane) and effective dose (right pane) as a function of shield thickness on the
+                                              Martian surface.
+
+
+          In Figure 4, the total dose equivalent and effective dose values computed on the surface are
+compared to half of the free space results. The free space results are computed using the ray-by-ray
+methodology described in section 2 without the presence of the atmosphere or Martian regolith. The factor
+of ½ is applied to the end result to approximately account for planetary blockage. The increase in free space
+and surface dose equivalent values beyond 45 g/cm2 of aluminum does not continue indefinitely. The
+curves reach a maximum value just beyond 100 g/cm2, and decline monotonically with increasing shield
+thickness. The exact location of the peak value within the Martian subsurface has been examined with
+Monte Carlo simulations for dose [Dartnell et al. 2007b, Morthekai et al. 2007], but not dose equivalent or
+effective dose. Nonetheless, in order to obtain any meaningful reduction in exposure, one would need to
+use shielding thicknesses much larger than where the peak value occurs, corresponding to several hundred
+g/cm2 of shielding mass.
+          The comparison in Figure 4 is given to clarify that shielding optimization strategies will be
+different for deep space transit and surface operations. In free space, the exposure is reduced by about 45-
+65% for dose equivalent and 25-35% for effective dose over the first 20 g/cm2 of shielding. In the case of
+aluminum, a clear minimum occurs in the dose equivalent-depth curve and a less pronounced minimum
+occurs in the effective dose-depth curve at about 45 g/cm2. The variation of effective dose near the
+minimum value is within the transport code uncertainty as determined by comparisons with Monte Carlo
+simulations [Slaba et al. 2013]. It is therefore possible that the effective dose minimum is an artifact of
+transport code error, and the curve should actually continue to gradually decrease with depth. From a
+design standpoint, whether it is actually a minimum is less important than the fact there is no significant
+benefit from shielding after 45 g/cm2 if the composition is similar to aluminum. This suggests a shielding
+strategy that would take advantage of the sudden drop due to thin amounts of shielding (< 20 g/cm2) by
+distributing mass isotropically around the vehicle, as one might expect given the non-radiation related
+design constraints. After this initial stage of optimization, additional parasitic shielding mass could be
+added in specific regions to mitigate directional exposures.
+
+
+
+
+                                                      5
+   Figure 4. Comparison of surface exposure to ½ free space exposure as a function of shield thickness.
+
+
+         The surface results show that any reasonable amount of aluminum does not have a noticeable
+impact on effective dose, and consequently, adding or rearranging shielding mass on the surface will not
+appreciably reduce exposures. An in-situ shielding strategy will also be of little help unless several hundred
+g/cm2 of regolith is utilized. Such a strategy would probably require large scale excavation making it an
+unlikely candidate. Instead, the shielding strategy would rely primarily on material optimization. Options,
+such as replacing aluminum structures with high hydrogen content carbon composites, could be pursued.
+
+4. Summary and Conclusions
+
+          In this work, a computational model was described that allows exposures to be computed on the
+surface of Mars. The model utilizes the HZETRN-π/EM transport code in a ray-by-ray approach that
+includes the atmospheric cascade and secondary albedo neutrons. The model was found to be within 20%
+of a published Monte Carlo result; more comparisons are needed for further verification. Dose equivalent
+and effective dose values were computed as a function of aluminum and polyethylene shield thickness
+during solar minimum for surface and free space conditions. It was found that any reasonable amount of
+aluminum thickness increases dose equivalent and effective dose values on the surface. In the case of dose
+equivalent on the surface, the increase was quite dramatic (63%); in the case of effective dose on the
+surface, exposures varied by less than 3%. Both exposure quantities decrease monotonically with
+increasing polyethylene thickness. The marked difference between the materials is attributed mainly to the
+hydrogen content in the polyethylene.
+          The results shown in this work may be significant for vehicle optimization studies related to future
+Mars missions. In particular, the optimization strategy implemented for deep space transit will be able to
+take advantage of a reduction in exposure over the first 20-40 g/cm2 of shielding. Though the shielding
+effectiveness of polyethylene is better than aluminum, both materials provide some exposure reduction
+over thicknesses typically found in transportation vehicles. A noticeable minimum in the exposure-depth
+curve near 45 g/cm2 also helps constrain the optimization phase space. As discussed in section 3, whether
+the minimum is an artifact of transport code error or not, the response curve beyond 45 g/cm2 is not likely
+to decline rapidly enough to justify the mass incurred with such large shielding thicknesses. Conversely,
+optimization strategies on the surface will not be able to take advantage of any exposure reduction from
+aluminum shielding, and in-situ shielding strategies will require prohibitively large shielding thicknesses
+(greater than several hundred g/cm2) to provide any meaningful reduction. Material optimization strategies
+utilizing hydrogenated carbon composites could be pursued instead.
+
+
+
+
+                                                      6
+5. References
+
+Blattnig, S. R., Norbury, J. W., Norman, R. B., Wilson, J. W., Singleterry, R. C., Tripathi, R. K.,
+MESTRN: A Deterministic Meson-Muon Transport Code for Space Radiation. NASA Technical
+Memorandum 212995 (2004).
+
+Borggrafe, A., Quatmann, M., Nolke, D., Radiation Protective Structures on the Base of a Case Study for a
+Manned Mars Mission. Acta Astronautica, Volume 65, pp. 1292-1305 (2009).
+
+Clowdsley, M.S., Wilson, J.W., Kim, M.Y., Singleterry, R.C., Tripathi, R.K., Heinbockel, J.H., Badavi,
+F.F., Shinn, J.L., Neutron Environments on the Martian Surface. 11th Annual NASA Space Radiation
+Health Investigators' Workshop. Arona, Italy (2000).
+
+Cucinotta, F.A., Hu, S., Schwadron, N.A., Kozarev, K., Townsend, L.W., Kim, M.Y., Space Radiation
+Risk Limits and Earth-Moon-Mars Environmental Models. Space Weather, Volume 8, S00E09 (2010).
+
+Cucinotta, F.A., Kim, M.Y., Chappell, L.J., Evaluating Shielding Approaches to Reduce Space Radiation
+Cancer Risks. NASA Technical Memorandum 2012-217361 (2012).
+
+Dartnell, L.R., Desorgher, L., Ward, J.M., Coates, A.J., Modeling the Surface and Subsurface Martian
+Radiation Environment: Implications for Astrobiology. Geophysical Research Letters, Volume 34, L02207
+(2007a).
+
+Dartnell, L.R., Desorgher, L., Ward, J.M., Coates, A.J., Martian Sub-Surface Ionizing Radiation:
+Biosignatures and Geology. Biogeosciences, Volume 4, pp. 545-558 (2007b).
+
+De Angelis, G., Clowdsley, M.S., Singleterry, R.C., Wilson, J.W., A New Mars Radiation Environment
+Model with Visualization. Advances in Space Research, Volume 34, pp. 1328-1332 (2004).
+
+ICRP, 1990 Recommendations of the International Commission on Radiological Protection. ICRP
+Publication 60, Pergamon (1990).
+
+ICRP, 2007 Recommendation of the International Commission on Radiological Protection. ICRP
+Publication 103, Pergamon (2007).
+
+Kim, M.Y., Thibeault, S.A., Simonsen, L.C., Wilson, J.W., Comparison of Martian Meteorites and Martian
+Regolith as Shield Materials for Galactic Cosmic Rays. NASA Technical Paper 1998-208724 (1998).
+
+Kramer, R., Vieira, J.W., Khoury, H.J., Lima, F.R.A., Loureiro, E.C.M., Lima, V.J.M., Hoff, G., All about
+FAX: A Female Adult Voxel Phantom for Monte Carlo Calculations in Radiation Protection Dosimetry.
+Physics in Medicne and Biology, Volume 49, pp. 5203-5216 (2004).
+
+Matthia, D., Berger, D., Mrigakshi, A.I., Reitz, G., A Ready-to-use Galactic Cosmic Ray Model. Advances
+in Space Research, Volume 51, pp. 329-338 (2013).
+
+McKenna-Lawlor, S., Goncalves, P., Keating, A., Morgado, B., Heynderickx, D., Nieminen, P., Santin, G.,
+Truscott, P., Lei, F., Foing, B., Balaz, J., Characterization of the Particle Radiation Environment at Three
+Potential Landing Sites on Mars using ESA's MEREM Models. Icarus, Volume 218, pp. 723-734 (2012a).
+
+McKenna-Lawlor, S., Goncalves, P., Keating, A., Reitz, G., Matthia, D., Overview of Energetic Particle
+Hazards During Prospective Manned Missions to Mars. Planetary and Space Science, Volume 63, pp. 123-
+132 (2012b).
+
+Millour, E., Forget, F., Lewis, S.R., Mars climate database v4.3 detailed design document, Le Laboratoire
+de M´et´eorologie Dynamique (2008). Available at http://www-mars.lmd.jussieu.fr/
+
+
+
+                                                      7
+Morthekai, P., Jain, M., Dartnell, L., Murray, A.S., Botter-Jensen, L., Desorgher, L., Modeling of the Dose-
+Rate Variations with Depth in the Martian Regolith using Geant4. Nuclear Instruments and Methods in
+Physics Research A, Volume 580, pp. 667-670 (2007).
+
+NASA, Human Exploration of Mars Design Reference Architecture 5.0. NASA Special Publication 2009-
+566 (2009).
+
+Norman, R. B., Blattnig, S.R., Angelis, G. D., Badavi, F.F., Norbury, J.W., Deterministic Pion and Muon
+Transport in Earth’s Atmosphere. Advances in Space Research, Volume 50, pp. 146-155 (2012).
+
+Norman, R.B., Slaba, T.C., Blattnig, S.R., An Extension of HZETRN for Cosmic Ray Initiated
+Electromagnetic Cascades. Advances in Space Research, in press (2013). Available at
+http://dx.doi.org/10.1016/j.asr.2013.01.021.
+
+Nymmik, R.A., Panasyuk, M.I., Suslov, A.A., Galactic Cosmic Ray Flux Simulation and Prediction.
+Advances in Space Research, Volume 17, pp. 19-30 (1996).
+
+O'Neill, P.M., Badhwar-O'Neill Galactic Cosmic Ray Flux Model – Revised. IEEE Transactions on
+Nuclear Science, Volume 57, pp. 3148-3153 (2010).
+
+Saganti, P.B., Cucinotta, F.A., Wilson, J.W., Simonsen, L.C., Zeitlin, C., Radiation Climate Map for
+Analyzing Risks to Astronauts on the Mars Surface from Galactic Cosmic Rays. Space Science Review,
+Volume 110, pp. 143-156 (2004).
+
+Simonsen, L.C., Nealy, J.E., Townsend, L.W., Wilson, J.W., Radiation Exposure for Manned Mars
+Missions. NASA Technical Paper 2979 (1990).
+
+Simonsen, L.C. and Nealy, J.E., Radiation Protection for Human Missions to the Moon and Mars. NASA
+Technical Paper 3079 (1991).
+
+Slaba, T.C., Blattnig, S.R., Aghara, S.K., Townsend, L.W., Handler, T., Gabriel, T.A., Pinsky, L.S.,
+Reddell, B., Coupled Neutron Transport for HZETRN. Radiation Measurements, Volume 45, pp. 173-182
+(2010a).
+
+Slaba, T.C., Blattnig, S.R., Badavi, F.F., Faster and more Accurate Transport Procedures for HZETRN.
+Journal of Computational Physics, Volume 229, pp. 9397-9417 (2010b).
+
+Slaba, T.C., Qualls, G.D., Clowdsley, M.S., Blattnig, S.R., Walker, S.A., Simonsen, L.C., Utilization of
+CAM, CAF, MAX, and FAX for Space Radiation Analyses using HZETRN. Advances in Space Research,
+Volume 45 pp. 866-883 (2010c).
+
+Slaba, T.C., Blattnig, S.R., Clowdsley, M.S., Variations in Lunar Neutron Dose Estimates. Radiation
+Research, Volume 176, pp. 827-841 (2011).
+
+Slaba, T.C., Blattnig, S.R., Reddell, B., Bahadori, A., Norman, R.B., Badavi, F.F., Pion and
+Electromagnetic Contribution to Dose: Comparisons of HZETRN to Monte Carlo Results and ISS Data.
+Advances in Space Research, accepted for publication (2013).
+
+SPENVIS, available at http://spenvis.oma.be/
+
+Wilson, J.W., Townsend, L.W., Schimmerling, W., Khandelwal, G.S., Khan, F., Nealy, J.E., Cucinotta,
+F.A., Simonsen, L.C., Shinn, J.L., Norbury, J.W., Transport Methods and Interactions for Space Radiations.
+NASA Reference Publication 1257 (1991).
+
+Wilson, J.W., Miller, J., Konradi, A., Cucinotta, F.A., eds. Shielding Strategies for Human Space
+Exploration. NASA Conference Publication 3360 (1997).
+
+
+
+                                                     8
+Wilson, J.W., Clowdsley, M.S., Cucinotta, F.A., Tripathi, R.K., Nealy, J.E., De Angelis, G., Deep Space
+Environments for Human Exploration. Advances in Space Research, Volume 34, pp. 1281-1287 (2004).
+
+Wilson, J.W., Tripathi, R.K., Badavi, F.F., Cucinotta, F.A., Standardized Radiation Shield Design Method:
+2005 HZETRN. Society of Automotive Engineers International Conference on Environmental Systems,
+2006-18 (2006).
+
+Zeitlin, C., Cleghorn, T., Cucinotta, F., Saganti, F., Anderson, V., Lee, K., Pinsky, L., Atwell, W., Turner,
+R., Badhwar, G., Overview of the Martian Radiation Environment Experiment. Advances in Space
+Research, Volume 33, pp. 2204-2210 (2004).
+
+
+
+
+                                                      9
+                                                                                                                                                    Form Approved
+                                    REPORT DOCUMENTATION PAGE                                                                                      OMB No. 0704-0188
+ The public reporting burden for this collection of information is estimated to average 1 hour per response, including the time for reviewing instructions, searching existing data sources,
+ gathering and maintaining the data needed, and completing and reviewing the collection of information. Send comments regarding this burden estimate or any other aspect of this
+ collection of information, including suggestions for reducing this burden, to Department of Defense, Washington Headquarters Services, Directorate for Information Operations and
+ Reports (0704-0188), 1215 Jefferson Davis Highway, Suite 1204, Arlington, VA 22202-4302. Respondents should be aware that notwithstanding any other provision of law, no person
+ shall be subject to any penalty for failing to comply with a collection of information if it does not display a currently valid OMB control number.
+ PLEASE DO NOT RETURN YOUR FORM TO THE ABOVE ADDRESS.
+1. REPORT DATE (DD-MM-YYYY)                         2. REPORT TYPE                                                                 3. DATES COVERED (From - To)
+             01- 04 - 2013                          Technical Publication
+4. TITLE AND SUBTITLE                                                                                                5a. CONTRACT NUMBER
+
+
+Radiation Shielding Optimization on Mars                                                                             5b. GRANT NUMBER
+
+
+                                                                                                                     5c. PROGRAM ELEMENT NUMBER
+
+
+6. AUTHOR(S)                                                                                                         5d. PROJECT NUMBER
+
+
+Slaba, Tony C.; Mertens, Christopher J.; Blattnig, Steve R.                                                          5e. TASK NUMBER
+
+
+                                                                                                                     5f. WORK UNIT NUMBER
+
+                                                                                                                     651549.02.07.10
+7. PERFORMING ORGANIZATION NAME(S) AND ADDRESS(ES)                                                                              8. PERFORMING ORGANIZATION
+                                                                                                                                   REPORT NUMBER
+NASA Langley Research Center
+Hampton, VA 23681-2199
+                                                                                                                                                          L-20242
+
+9. SPONSORING/MONITORING AGENCY NAME(S) AND ADDRESS(ES)                                                                        10. SPONSOR/MONITOR'S ACRONYM(S)
+National Aeronautics and Space Administration                                                                                                              NASA
+Washington, DC 20546-0001
+                                                                                                                               11. SPONSOR/MONITOR'S REPORT
+                                                                                                                                   NUMBER(S)
+                                                                                                                                             NASA/TP-2013-217983
+12. DISTRIBUTION/AVAILABILITY STATEMENT
+Unclassified - Unlimited
+Subject Category 93
+Availability: NASA CASI (443) 757-5802
+13. SUPPLEMENTARY NOTES
+
+
+
+
+14. ABSTRACT
+Future space missions to Mars will require radiation shielding to be optimized for deep space transit and an extended stay on
+the surface. In deep space, increased shielding levels and material optimization will reduce the exposure from most solar
+particle events (SPE) but are less effective at shielding against galactic cosmic rays (GCR). On the surface, the shielding
+provided by the Martian atmosphere greatly reduces the exposure from most SPE, and long-term GCR exposure is a primary
+concern. Previous work has shown that in deep space, additional shielding of common materials such as aluminum or
+polyethylene does not significantly reduce the GCR exposure. In this work, it is shown that on the Martian surface, almost any
+amount of aluminum shielding increases exposure levels for humans. The increased exposure levels are attributed to neutron
+production in the shield and Martian regolith as well as the electromagnetic cascade induced in the Martian atmosphere. This
+result is significant for optimization of vehicle and shield designs intended for the surface of Mars.
+15. SUBJECT TERMS
+
+Deep space; HZETRN; Mars radiation; Risk; Space radiation
+
+16. SECURITY CLASSIFICATION OF:                                  17. LIMITATION OF               18. NUMBER 19a. NAME OF RESPONSIBLE PERSON
+                                                                     ABSTRACT                        OF
+ a. REPORT           b. ABSTRACT c. THIS PAGE                                                        PAGES     STI Help Desk (email: help@sti.nasa.gov)
+                                                                                                            19b. TELEPHONE NUMBER (Include area code)
+       U                     U                     U                         UU                          17                                     (443) 757-5802
+                                                                                                                                                      Standard Form 298 (Rev. 8-98)
+                                                                                                                                                      Prescribed by ANSI Std. Z39.18
+

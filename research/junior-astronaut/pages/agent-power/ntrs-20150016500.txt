@@ -1,0 +1,335 @@
+45th International Conference on Environmental Systems                                                               ICES-2015-165
+12-16 July 2015, Bellevue, Washington
+
+
+
+
+              Optimization of the Carbon Dioxide Removal Assembly
+            (CDRA-4EU) in Support of the International Space System
+                       and Advanced Exploration Systems
+
+                                                       James C. Knox 1
+                               NASA Marshall Space Flight Center, Huntsville, Alabama, 35812, USA
+
+
+                                                     Christine M. Stanley2
+                                      Jacobs ESSSA Group, Huntsville, Alabama, 35812, USA
+
+
+                      The Life Support Systems Project (LSSP) under the Advanced Exploration Systems (AES)
+                  program builds upon the work performed under the AES Atmosphere Resource Recovery
+                  and Environmental Monitoring (ARREM) project focusing on the numerous technology
+                  development areas. The Carbon Dioxide (CO2) removal and associated air drying
+                  development efforts are focused on improving the current state-of-the-art system on the
+                  International Space Station (ISS) utilizing fixed beds of sorbent pellets by seeking more robust
+                  pelletized sorbents, evaluating structured sorbents, and examining alternate bed
+                  configurations to improve system efficiency and reliability. A component of the CO2 removal
+                  effort utilizes a virtual Carbon Dioxide Removal Assembly, revision 4 (CDRA-4) test bed to
+                  test a large number of potential operational configurations with independent variations in flow
+                  rate, cycle time, heater ramp rate, and set point. Initial ground testing will provide pre-
+                  requesite source data and provide baseline data in support of the virtual CDRA. Once the
+                  configurations with the highest performance and lowest power requirements are determined
+                  by the virtual CDRA, the results will be confirmed by testing these configurations with the
+                  CDRA-4EU ground test hardware. This paper describes the initial ground testing of select
+                  configurations. The development of the virtual CDRA under the AES-LSS Project will be
+                  discussed in a companion paper.
+
+
+                                                       I. Nomenclature
+        AES      = Advanced Exploration Systems
+        ARREM    = Atmosphere Resource, Recovery and Environmental Monitoring
+        4BMS     = Four Bed Molecular Sieve
+        CDRA-4   = Carbon Dioxide Removal Assembly, Revision 4
+        CDRA-4EU = Carbon Dioxide Removal Assembly, Revision 4 Engineering Unit
+        CO2      = Carbon Dioxide
+        ISS      = International Space Station
+        LSSP     = Life Support Systems Project
+        ppCO2    = Partial Pressure Carbon Dioxide
+
+                                                      II. Introduction
+            The Atmosphere Revitalization Recovery and Environmental Monitoring (ARREM) project was initiated in
+        September of 2011 as part of the Advanced Exploration Systems (AES) program. The stated purpose of the AES
+        program is “pioneering new approaches for rapidly developing prototype systems, demonstrating key capabilities, and
+        validating operational concepts for future human missions beyond Earth orbit.” 1 These forays beyond the confines of
+        earth’s gravity will place unprecedented demands on launch systems. They must not only blast out of Earth’s gravity
+
+        1
+            Aerospace Engineer, Environmental Control and Life Support Development Branch/ES62.
+        2
+            Chemical Engineer, Environmental Control and Life Support Development Branch/ES62,
+capably as during the Apollo moon missions, but also launch the supplies needed to sustain a crew over longer periods
+for exploration missions beyond earth’s moon. Thus all spacecraft systems, including those for the removal of
+metabolic carbon dioxide from a crewed vehicle, must be minimized with respect to mass, volume, and power.
+Emphasis is also placed on system robustness both to minimize replacement parts and ensure crew safety when a quick
+return to earth is not possible.1 Power is at a premium for ISS and exploration missions. While the ISS makes use of
+the sun to generate power, exploration missions will not have that luxury. Alternate power sources must be developed
+for longer term missions and the size and mass of these technologies are limited due to launch considerations. New
+life support technologies must be developed to minimize power requirements to insure mission success.
+    Under the ARREM Program, a 4-Bed Molecular Sieve (4BMS) system, the CDRA Dash 4 Engineeirng Unit
+(CDRA-4EU) was developed to more closely mimic the current CDRA configuration on the International Space
+Station (ISS), CDRA-4, and thus provide a better understanding of the state-of-the-art system performance and
+limitations. The CDRA-4 configuration is the result of an on-orbit anomaly investigation and includes redesigned
+heaters, the ability to service the screens on-orbit, and new sorbent materials.
+    In FY14, the CDRA-4EU was used in the ARREM Cycle 2 testing which is discussed in detail in Ref 5. In
+addition, CO2 removal performance testing was also carried out. The objective was to evaluate the CDRA-4EU
+performance when flow rate was increase to approximately 42.5 m3/hr (25 SCFM) from the the nominal flow of 34.7
+m3/hr (20.4 standard cubic feet per minute (SCFM)), while the cycle time was reduced from the nominal 144 minutes
+to 90 minutes, near the minimum that would allow time for the CO2 sorbent beds to heat to the nominal set point of
+204°C (400F). The objectives for these tests are listed below:
+          1. 4.1 crew equivalent removal at an inlet CO2 partial pressure of 2.0 torr (test ran on 5/17/14)
+          2. 10.5 crew equivalent removal at an inlet CO2 partial pressure of 5.0 torr (test ran on 5/27/14)
+    Performance results from these tests were favorable; the test results demonstrated that one key exploration
+objective was met, that is, reducing cabin CO2 levels to 2 torr with 4 crew members. This is an important result as
+crew members have experienced headaches due to the current CO2 concentration on ISS. Any future carbon dioxide
+removal system must be capable of maintaining CO2 levels at or below 2 torr for 4 crew members. Removal capacity
+for a high crew load was demonstrated in order to determine if the CDRA-4EU is capable of handling a much higher
+CO2 load. However, the combination of higher flow rates and reduced cycle times resulted in considerably higher
+power requirements. Heater power alone increased by 200 Watts (average) compared to a nominal operational
+configuration; blower power (not measured) would also increase significantly.4
+    For FY15, the objective was to optimize the CDRA operational configurations such that exploration goals are met
+while increases in power requirements are minimized. The approach incorporates a virtual CDRA test bed via
+computer modeling and simulation. Computer modeling and simulation of the CDRA adsorption process requires the
+coupled solution of heat transfer, mass transfer, and low pressure fluid dynamics. As this advanced capability is
+unavailable commercially (or otherwise), development was initiated as part of the ARREM project and continues
+under the AES/LSSP.
+    The virtual CDRA test bed will be used to test a large number of potential operational configurations with
+independent variations in flow rate, cycle time, heater ramp rate, and set point. Once the configurations with the
+highest performance and lowest power requirements are determined, the virtual CDRA results will be confirmed by
+testing these configurations with the CDRA-4EU ground test hardware. This approach is intended to reduce the
+number of tests and to the minimize costs associated with extended duration ground testing. The initial virtual CDRA
+test bed will integrate validated 1-D, single component (or single-gas equilibrium adsorption capacity correlations)
+models developed during the ARREM project, and be used for the initial optimization studies.
+    In support of this effort, initial baseline testing with the CDRA-4EU was performed to provide pre-requisite source
+data for computer model refinement and to provide baseline data for comparison with future testing.
+    A final (for FY15) CDRA simulation will be developed and applied to obtain the final optimized configurations.
+Operational parameters for the final testing of the CDRA-4EU and will be based on the final optimization studies.
+
+                                         III. Optimization Testing
+    The Carbon Dioxide Removal Assembly (CDRA), built by Honeywell (formerly AiResearch and Allied Signal)
+utilizes a fully regenerative thermal/pressure swing adsorption process to remove CO2 from the ISS cabin air. The
+CDRA operates cyclically and employs two desiccant beds and two adsorbent beds. As one desiccant bed and one
+adsorbent bed operate in adsorption mode, the other two beds are desorbing (regenerating). Half-way through a cycle,
+the beds switch modes, providing continuous CO 2 removal capability. There are two versions of the CDRA on the
+ISS, one retains the CDRA-3 configuration and the other employs the CDRA-4 configuration. The differences
+between the adsorbent packing configurations are shown in Figure 1.
+
+                                                          2
+  International Conference on Environmental Systems
+   The recently built CDRA-4EU, positioned in the Environmental Chamber (E-Chamber) located in Building 4755
+at MSFC, was used for performance testing to provide additional validation that the new materials used in CDRA-4
+would be adequate to meet the ISS requirements for CO2 removal; the results of this testing are documented in Ref.
+1.
+                                                                                      The CDRA-4EU sorbent beds
+                       Figure 1: Comparison of Bed                                are  were packed in the same
+                                                                                  configuration as the CDRA-4 for
+                                                                                  the ARREM Cycle 2 Test. There
+                                                                                  were no changes to either the
+                                                                                  hardward or the packing
+                                                                                  configurations       prior    to
+                                                                                  optimization testing.       The
+                                                                                  duration for each test run was
+                                                                                  between 16-24 hours, insuring
+                                                                                  that a minimum of four half-
+                                                                                  cycles at steady state were
+                                                                                  captured.
+
+                                                                                    A. Experimental
+                                                                                    1. Power Minimization Testing
+                                                                                    (PW)
+                                                                                        Minimizing             power
+                                                                                    requirements of life support
+                                                                                    processes is a high priority for
+                                                                                    space flight, especially for long
+                                                                                    term missions due to limited
+                                                                                    availability. Therefore, a key
+                                                                                    objective for optimizing the CO2
+                                                                                    removal process is reducing the
+                                                                                    power requirements. In order to
+                                                                                    understand the CDRA power
+                                                                                    usage during various runtime
+                                                                                    configurations, a set of test
+                                                                                    parameters were developed. The
+                                                                                    nominal CDRA flow rate is 34.7
+                                                                                    m3/hr (20.4 SCFM). Flow rates
+                 Packing Between CDRA -3 and CDRA -4                                in increments of 8.5 m3/hr (5
+                                                                                    SCFM)          were       chosen.
+                                                                                    Approximate cycle time for
+stoichiometric breakthrough was calculated for 2 to 4 torr inlet ppCO2 at each selected flow rate for the CDRA-4EU.
+Cycle time for each data point was determined at the time when 50% breakthrough was predicted to occur. The test
+points are show in Table 1.
+
+  Table 1.    Power Minimization Test Parameter
+  Matrix
+    Half-Cycle Time for Minimum Heater Power,
+                      minutes
+    Flowrate,
+       m3/h        CO2 Partial Pressure, torr
+     (SCFM)
+                   2          3            4
+    33.98 (20)    215        177         154
+    42.48 (25)    172        142         123
+    50.97 (30)    144        118         103
+    59.47 (35)    123        101          88
+                                                         3
+  International Conference on Environmental Systems
+2. Performance Optimization Testing(PF)
+    Each PW test run had a companion Performance Optimization (PF) test run. The only difference between the two
+tests was the half-cycle time. The half-cycle time for the PF runs were established from the breakthrough data
+collected during the PW testing and were set at the time that breakthrough of CO2 was just beginning, but far enough
+along the curve to confirm that breakthrough would, indeed, occur within a short period of time. An additional 10
+minutes was added to the observed time to insure that initial breakthrough would be achieved during the performance
+test. A breakthrough concentration of percent CO2 ≥ 0.01 was chosen as the standard determining point, an example
+
+
+
+
+                                                               Figure 3. Representative Breakthrough Curve—
+    Figure 2. Representative Breakthrough Curve.
+                                                               Zoomed View. The data label indicates the point
+    The graph depicts a sample breakthrough curve
+                                                               at which the half-cycle time was determined for
+    taken from one of the Power Minimization test
+                                                               the companion performance optimization test.
+    runs.
+
+is provided in Figure 2. Representative Breakthrough Curve. The graph depicts a sample breakthrough curve taken
+from one of the Power Minimization test runs. and Figure 2. This resulted in all of the PF test runs having shorter
+half-cycle times than its correstponding PW test run. The resulting Performance Optimization Test Parameter Matrix
+is show in Table 2. Please note that we were unable to test at 59.47 m/h3 and 4 torr ppCO2. The resulting half-cycle
+time was too short to allow the adsorbent beds to reach the required temperature of 204°C (400°F).
+
+  Table 2.    Performance Optimization Test Parameter            B.    Results and discussion
+  Matrix                                                             The tabulated results for both tests are shown
+                                                                 in Table 3. The PW test data is on the right and the
+             Half-Cycle Time for Performance                     corresponding PF test in on the left. Power
+                   Optimization, minutes                         utilization is directly related to half-cycle time. For
+        Flowrate,                                                all data points, the longer half-cycle times require
+           m3/h         CO2 Partial Pressure, torr               less power. This can be seen in Figure 4. This is
+         (SCFM)                                                  an expected outcome because the heaters are
+                       2           3            4                cycled less often during longer half-cycles. The
+        33.98 (20)    195        140          110                graph also indicates that there is little variation in
+        42.48 (25)    154        123          104                power utilization with respect to inlet ppCO2, with
+        50.97 (30)    124        106           93                lower partial pressure requiring slightly less power
+                                                                 utilization.
+        59.47 (35)     96         79           n/a
+
+
+
+
+                                                         4
+  International Conference on Environmental Systems
+                                                  Table 3. Test Results
+                                                  Table 3. Test Results
+
+
+
+
+    CO2 removal efficiency tended to decrease with increasing flow overall as shown in Figure 5. The decrease in
+efficiency at higher flow rates could be attributed to increased CO 2 hold over in the desiccant bed or to the increased
+flow being too fast to allow for proper adsorption in the adsorbing beds. Further investigation is needed to determine
+the exact reason for this phenomenom. It should be noted that all of the PF runs produced higher efficiency compared
+to the corresponding PW runs indicating that efficiency decreases with longer half-cycle times.
+
+
+
+
+   Figure 4. Power vs. Half-Cycle Time. Data
+   are plotted for both the PW and PF tests at              Figure 5. Efficiency vs. Flow Rate. Data are
+   each inlet ppCO2.                                        plotted for both the PW and PF tests at each
+                                                            inlet ppCO2.
+
+   Removal rate has a direct correlation between both inlet ppCO 2 and flow rate and the results are as expected as
+shown in Figure 6. Longer half-cycles have slightly reduced removal rates when comparing between the PW and PF
+runs. Removal rates also decrease with increasing cycle times as indicated in Figure 7.
+
+
+
+
+     Figure 6. Removal Rate vs. Flow Rate.                        Figure 7. Removal Rate vs. Cycle Time.
+     Data are plotted for both the PW and PF                      Data are plotted for both the PW and PF
+     tests at each inlet ppCO2.                                   tests at each inlet ppCO2.
+     At this time, our current data analysis provides us with key generalities. There is still more work to do to gain a
+clear understanding of the effects of varying operating parameters on both power and performance. Our data analysis
+is, however, an ongoing effort. We have started using Minitab 17®, a statistical software package, to aid in determining
+                                                            5
+    International Conference on Environmental Systems
+optimal operating conditions. In particular we have begun working with the Response Optimizer tool where multiple
+variables can be used to determine optimal operating parameters. We used the tool to determine the maximum CO2
+removal efficiency and removal rates at 3 torr inlet ppCO2 for varied cases. The selected flow rates represent the
+nominal CDRA flow rate (20.4 SCFM), the estimated CDRA flow rate when the blower speed is increased by 5000rpm
+(21.3 SCFM), and a high flow rate (25 SCFM). For cases 4, 5, 6 and 7, 90 minute half-cycles were selected to match
+the current half-cycles used on the ISS. We performed two test runs as a check to gage the correlation between the
+analysis and the test data. The test results suggest a correlation between the test data and the analysis, but further
+testing will be required to make a definitive claim. If a strong correlation does exist, this data will be useful for
+determining parameters and reducing the number of runs for future testing. The test cases are described below
+followed by the results listed in Table 4:
+       1. Maximize CO2 removal rate and determine half-cycle time at 20.4 SCFM flow rate.
+       2. Maximize CO2removal rate and determine half-cycle time at 21.3 SCFM flow rate.
+       3. Maximum CO2 removal rate with variable half-cycle time and flow rate.
+       4. Test data—90 minute half-cycle and 20.4 SCFM flow rate.
+       5. Determine CO2 removal rate and removal efficiency at 90 minute half-cycle and 20.4 SCFM flow rate.
+       6. Test data—90 minute half-cycle and 21.3 SCFM flow rate
+       7. Determine CO2 removal rate and removal efficiency at 90 minute half-cycle and 21.3 SCFM flow rate.
+       8. Determine half-cycle time for maximum removal rate at 25 SCFM flow rate.
+       9. Determine half-cycle time for maximum removal efficiency at 25 SCFM flow rate.
+       10. Maximize removal efficiency at variable half-cycle time and flow rate.
+       11. Maximize removal efficiency and determine half-cycle time at 20.4 SCFM flow rate.
+       12. Maximize removal efficiency and determine half-cycle time at 21.3 SCFM flow rate.
+
+
+                   Table 4. MiniTab® 17 Response Optimizer Results
+                                                Data Type:
+ Case                                           Analysis (A)             Flow    Removal Rate   Efficiency
+Number            Case at ppCO2 = 3 torr          Test (T)   HC (min)   (scfm)     (kg/day      (percent)
+  1      Max RR HC and 20.4 scfm                    A           79       20.4         4.42        70.5%
+  2      Max RR HC and 21.3 scfm                    A           79       21.3         4.89        72.6%
+  3      Max RR, variable HC and FR                 A           79        35          8.69        80.1%
+  4      Test data-90 min. HC and 20.4 scfm         T           90       20.22        4.8         75.3%
+  5      90 min. HC and 20.4 scfm                   A           90       20.4         4.72        74.9%
+  6      Test data-90 min. HC and 21.3 scfm         T           90       21.3         5.08        76.0%
+  7      90 min. HC and 21.3 scfm                   A           90       21.3         5.14        76.7%
+  8      HC for Max RR @ 25 scfm                    A          133        25         6.287        78.8%
+  9      HC for Max EFF @ 25 scfm                   A          133        25         6.287        78.8%
+  10     Max EFF, variable HC and FR                A          138        20          5.11        83.5%
+  11     Max EFF HC and 20.4 scfm                   A          138       20.4         5.24        83.3%
+  12     Max EFF HC and 21.3 scfm                   A          138       21.3         5.51        82.8%
+Removal Rate (RR)            Efficiency (EFF)     Half Cycle (HC)       Flow Rate (FR)
+
+
+                                                           IV. Conclusion
+    Exploration and other long term missions dictate that life support systems be required to minimize power
+utilization while maintaining optimal performance. Understanding the effects of varying CDRA operating parameters
+is key to optimizing the CDRA to meet the those requirements. Ground testing not only offers valuable data for input
+to the decision making process, but also provides needed data to support the CDRA modeling and simulation effort.
+Additional data analysis using Minitab 17® as well as testing are ongoing efforts.
+
+
+
+
+                                                                        6
+  International Conference on Environmental Systems
+                                                      V. References
+     1
+       NASA. "Human Exploration & Operations (HEO)." 2012
+     2
+       Knox, J. C., Gauto, H, Trihn, D, Wingard, D., Gostowski, R., Watson, D., Kittredge, K. "Development of Carbon Dioxide
+Removal Systems for Advanced Exploration Systems 2013-2014”, 43th International Conference on Environmental Systems.
+AIAA, Vail, 2013.
+     3
+       Knox, J. C., Gauto, H, Gostowski, R., Watson, D., Bush, R., Miller, L. Stanley, C. and Thomas, J. "Development of Carbon
+Dioxide Removal Systems for Advanced Exploration Systems 2013-2014”. 44th International Conference on Environmental
+Systems. AIAA, Tucson, 2014.
+     4
+       Parrish, K. “Advanced Exploration Systems (AED) Atmosphere Resource Recovery and Environmental Monitoring
+(ARREM) Cycle 2 Test Data and Summary Report”. ES62-ARREM-RPT-14-001. 2014
+     5
+       Perry, J. L., Abney, M. B., Conrad, R. E., Fredrick, K. R., Greenwood, Z. W., Kayatin, M. J., Knox, J. C., Newton, R. L.,
+Parrish, K. J., Takada, K. C., Miller, L A., Scott, J. P., and Stanley, C. M. “Evaluation of an Atmosphere Revitalization Sybsystem
+for Deep Space Exploration Missions”. 45th International Conference on Environmental Systems. AIAA, Bellevue, 2015.
+
+
+
+
+                                                                7
+  International Conference on Environmental Systems
+

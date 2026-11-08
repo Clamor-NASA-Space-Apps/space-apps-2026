@@ -1,0 +1,237 @@
+               Early Results from the Advanced Radiation Protection Thick GCR Shielding Project
+         Ryan B. Norman1, Martha Clowdsley1, Tony Slaba1, Lawrence Heilbronn2, Cary Zeitlin3, Sean Kenny1, Luis Crespo1,
+           Daniel Giesy1, James Warner1, Natalie McGirl2, Luis Castellanos2, Ashwin Srikrishna2, Matthew Beach4, Amir
+                                      Bahadori5, Brandon Reddell6 and Robert Singleterry1
+                             1
+                              NASA Langley Research Center, Hampton, VA 23681, USA (e-mail: ryan.b.norman@nasa.gov)
+                                                2
+                                                  University of Tennessee, Knoxville, TN 37996, USA
+                                                          3
+                                                            Leidos, Houston, TX 77058, USA
+                                            4
+                                              National Institute of Aerospace, Hampton, VA 23681, USA
+                                                5
+                                                  Kansas State University, Manhattan, KS 66506, USA
+                                              6
+                                               NASA Johnson Space Center, Houston, TX 77058, USA
+
+                                                                        al. 2010]. Additionally, the production and transport of pions,
+                       I.    INTRODUCTION                               muons, electrons, positrons, and photons (collectively called
+   The Advanced Radiation Protection Thick Galactic Cosmic              pion and electromagnetic cascade (/EM) throughout the text)
+Ray (GCR) Shielding Project leverages experimental and                  was added to HZETRN [Norman et al. 2013]. The most recent
+modeling approaches to validate a predicted minimum in the              version of HZETRN, called 3DHZETRN allows for a full three-
+radiation exposure versus shielding depth curve. Preliminary            dimensional treatment for neutrons and light ions (nuclear
+results of space radiation models indicate that a minimum in the        charge Z ≤ 2) [Wilson et al. 2014, 2015].
+dose equivalent versus aluminum shielding thickness may exist               Once HZETRN was updated with /EM transport and
+in the 20-30 g/cm2 region. For greater shield thickness, dose           forward-backward treatment for neutrons, dose equivalent as a
+equivalent increases due to secondary neutron and light particle        function of shielding depth was investigated with equal amounts
+production. This result goes against the long held belief in the        of shielding before and behind the target point to mimic a space
+space radiation shielding community that increasing shielding           habitat. A surprising result was discovered; it is shown in Figure
+thickness will decrease risk to crew health. A comprehensive            1. Notice that for the aluminum shield case, when forward-
+modeling effort was undertaken to verify the preliminary                backward neutrons and /EM are included, the dose equivalent
+modeling results using multiple Monte Carlo and deterministic           decreases until approximately 40 g/cm2 of aluminum shielding,
+space radiation transport codes. These results verified the             after which the dose equivalent begins to increase with increased
+preliminary findings of a minimum and helped drive the design           shielding thickness. This is in contrast to the historical result
+of the experimental component of the project. In first-of-their-        which is shown as the dotted line in Figure 1. The increase in
+kind experiments performed at the NASA Space Radiation                  dose equivalent with increasing shield thickness is largely due
+Laboratory, neutrons and light ions were measured between               to the buildup of neutrons due to the forward-backward neutron
+large thicknesses of aluminum shielding. Both an upstream and           transport formalism.
+a downstream shield were incorporated into the experiment to                The results for a polyethylene shield are also shown in
+represent the radiation environment inside a spacecraft. These          Figure 1. Due to the high hydrogen content of polyethylene, the
+measurements are used to validate the Monte Carlo codes and             neutron buildup is attenuated due to multiple causes including,
+derive uncertainty distributions for exposure estimates behind
+thick shielding similar to that provided by spacecraft on a Mars
+mission. Preliminary results for all aspects of the project will be
+presented.
+                       II.   BACKGROUND
+    Traditionally, space radiation shielding strategy was based
+on the premise that increasing the total shielding decreased the
+radiation hazards for astronauts. The assumption was backed by
+numerous studies using the NASA space radiation transport
+code HZETRN which confirmed that radiation exposure
+decreased with increasing shielding, albeit with decreasing
+effectiveness at larger shielding depths.
+    As research in space radiation modeling progressed,
+HZETRN was updated. The early versions of HZETRN
+[Wilson et al. 1991] assumed all particles traveled in the forward
+direction along a common axis and in macroscopic shielding
+materials, such that the loss of particles through production in
+directions other than straight ahead was balanced by particles
+produced from parallel neighboring areas entering. Updates to
+HZETRN introduced methods for handling forward and                        Figure 1. Dose equivalent as a function of shielding thickness as calculated
+backward transport along a straight line for neutrons [Slaba et           by HZETRN for both aluminum and polyethylene shielding materials.
+but not limited to, forward focusing of neutron elastic scattering          executed in 1D within the straight-ahead approximation (labeled
+off hydrogen, increased efficiency of hydrogen to attenuate                 N=1 throughout the text) or bi-directional transport mode
+neutrons, and reduced target fragmentation. Therefore, the dose             (labeled as N=2 throughout). 3DHZETRN with N=34 denotes
+equivalent flattens out at higher depths instead of increasing.             that 34 different directions were used to account for the 3D
+    A local minimum in the radiation exposure versus shielding              nature of the particle production and transport. Through testing
+depth, if found to exist, would be a radical departure from the             this was found to be sufficient.
+traditional space radiation shielding design strategy. There                    Figure 3 shows the results of all models for both aluminum
+would then be an optimum shield thickness that should be                    and polyethylene shielding. The most recent results for
+designed to minimize the radiation exposure. Vehicle designers              aluminum shielding (Figure 3, left pane) show that the local
+would then need to minimize overly thick areas of radiation                 minimum in the response has shifted closer to 20 g/cm2 for all
+shielding. Further design complexity would be introduced by the             models. Therefore, the validation plan was adjusted to include
+variety of materials acting as a shield (e.g., stored food and              measurement at 20 g/cm2. The variation among the 3D models
+water). This motivated the development of a comprehensive                   relative to the average (shown as a percent difference in the
+strategy to verify the minimum with other radiation transport               figure) is small and grows slightly with increasing shielding
+codes, to validate the minimum using laboratory beam                        depth. 3DHZETRN (N=34) results show a less pronounced
+measurements, and to quantify the uncertainty in HZETRN to                  minimum compared to the Monte Carlo codes, though the
+understand how accurately the exposure minimum is known.                    position of the minimum is similar. The location of the
+                                                                            minimum and variation between models would be suppressed in
+                      III.   VERIFICATION                                   finite geometry due to particle leakage and would be further
+    To verify the local minimum in dose equivalent, multiple                suppressed with body self-shielding.
+Monte Carlo space radiation codes were used along with the                      The polyethylene results do not show the increase in dose
+latest version of 3DHZETRN [Slaba et al., 2017]. The design                 equivalent with increasing shield thickness due to the superior
+of the simulations is shown in Figure 2. The lateral dimensions             shielding attributes of the material. Polyethylene has a large
+were maximized to ensure there was no leakage out of the                    hydrogen content and therefore does a better job of attenuating
+shielding volume in the lateral dimension. An equal amount of               neutrons and protons, thereby minimizing the buildup of light
+shielding is located before and after the water target. So, for             particles in the shielding material at large thicknesses. Overall
+example, if the front (upstream) target is 5 g/cm2, the back                variation among the models for polyethylene shielding was very
+(downstream) target would also be 5 g/cm2. The thin water                   similar to that of aluminum shielding.
+target was set to 0.3 mm and was used to model the tissue
+response. A thickness of 0.3 mm was found to be large enough                                            IV.      VALIDATION
+to accurately capture energy deposition but not large enough to                 To validate the exposure minimum in the thick shielding
+create spurious nuclear interactions that would alter the results.          benchmarks, a comprehensive plan was established for a series
+     For this work, the 1977 solar minimum GCR environment                  of measurements at the NASA Space Radiation Laboratory
+as modeled by the 2010 Badhwar-O’Neill model [O’Neill,                      (NSRL). The plan was developed to best represent the external
+2010] was used. Four Monte Carlo radiation transport codes                  GCR environment using a set of beams corresponding to
+were used to simulate the transport of the external GCR                     important GCR ions at a number of energies. 5 ions (hydrogen,
+environment through the shielding environment: FLUKA                        helium, carbon, silicon, and iron) at 3 energies each (400
+[Ferrari et al. 2005], Geant4 [Agostinelli et al. 2003], MCNP6              MeV/nucleon, 800 MeV/nucleon, and 1.5 GeV/nucleon for
+[Goorley 2014], and PHITS [Sato et al. 2013]. Within Geant4,                heavy ions and 2.5 GeV/nucleon for hydrogen) were used for all
+two different nuclear models, Quantum Molecular Dynamics                    shielding configurations.
+(QMD) and Liege Intranuclear Cascade (INCL), were used and                      The shielding configuration chosen was a new design never
+are reported separately. In addition to the Monte Carlo models,             before considered for evaluation in a beam line, with both an
+3DHZETRN was also used to investigate the shielding                         upstream and downstream target (both relative to the detectors).
+minimum, since the newest version of HZETRN was not used                    Upstream targets are located before the detectors and are directly
+in the original analysis that discovered the possibility of the             struck by the beam. Downstream targets are placed after the
+radiation exposure minimum in shielding. 3DHZETRN can be                    detectors and are a source of backward directed particles into the
+
+
+
+
+                                     Figure 2. A schematic view of the verification setup used for all models.
+    Figure 3. Total dose equivalent for aluminum (left) and polyethylene (right) targets for 1977 solar minimum GCR environment as modeled by multiple
+                                                                       transport codes
+
+detector. The upstream target was a varying thickness of                        an iron beam at 800 MeV/nucleon were run with all three
+aluminum,       polyethylene,      or     aluminum/polyethylene                 upstream aluminum targets. These are shown in blue in Table
+combinations. For a single material, thicknesses of 20, 40, and                 1. In November and December of 2016, 200 hours were spent
+60 g/cm2 were chosen for the upstream target with 60 g/cm2                      finishing the aluminum targets for all beams and energies and
+downstream target of the same material. For the                                 performing measurements with polyethylene targets at all
+aluminum/polyethylene combination, either 10 g/cm2 aluminum                     thicknesses for hydrogen, helium, and iron beams at all energies.
+followed by (relative to the beam) 10 g/cm2 polyethylene and 60                 These measurement combinations are shown in red in Table 1.
+g/cm2 polyethylene downstream or 10 g/cm2 aluminum                              Another 200 hours of measurement time is scheduled for
+followed by 50 g/cm2 polyethylene upstream with the same 60                     November and December of 2017 to finish the measurement
+g/cm2 polyethylene downstream target are tested.                                campaign.
+    Six liquid scintillators were used for both charged particle                    Data analysis is ongoing for the 2016 data runs, with
+and neutron detection at 10, 30, 45, 60, 80, and 135 degrees. Two               finalized results due later in 2017. Finalized data for the 2017
+thin, solid plastic scintillators were placed directly in front of              experiments is expected in 2018.
+each liquid scintillator and were used to separate charged
+particles from neutral particles. Three arrays of sodium-iodide                                V.     UNCERTAINTY QUANTIFICATION
+(NaI) detectors were used for charged particle detection at 0, 10,                  In order to reliably extrapolate from uncertainty in
+and 30 degrees, along with nine thin solid plastic scintillators for            laboratory measurements to those in the space environment,
+triggering the NaI detectors. Two thin solid plastic scintillators              uncertainty quantification models must be developed. The
+were used as trigger detectors for event timing and placed before               strategy used in this project is to first quantify the prediction
+the upstream target.                                                            uncertainty of the Monte Carlo transport models used in the
+    In March 2016, 100 hours at NSRL were dedicated to the                      verification phase compared to the experimental measurements.
+thick target project. Hydrogen beams with energies 400 and 800                  The uncertainty will then be extrapolated to HZETRN results for
+MeV, along with 400 MeV/nucleon helium and iron beams, and                      the full GCR environment.
+                                                         Table 1. Beam Measurement Test Matrix
+
+
+     Beams                         H                        He                          C                         Si                         Fe
+  (MeV/nucleon)
+
+         400             Al     CH2       Al/      Al      CH2      Al/       Al     CH2       Al/       Al     CH2       Al/       Al     CH2       Al/
+                                          CH2                       CH2                        CH2                        CH2                        CH2
+         800             Al     CH2       Al/      Al      CH2      Al/       Al     CH2       Al/       Al     CH2       Al/       Al     CH2       Al/
+                                          CH2                       CH2                        CH2                        CH2                        CH2
+        1500             Al     CH2       Al/      Al      CH2      Al/       Al     CH2       Al/       Al     CH2       Al/       Al     CH2       Al/
+    (2500 for H)                          CH2                       CH2                        CH2                        CH2                        CH2
+     Even with 500 hours of measurements, the experiments only            difference between the experimental flux measurements
+sparsely sample the full GCR spectrum. Therefore, the                     compared to two different flux simulations. The units for the
+uncertainty quantification model must be able to use                      flux are normalized per source particle (SP) per solid angle in
+supplemental information, some of which comes from the                    units of steradian (ster) per kinetic energy in units of MeV.
+Monte Carlo comparisons and expert opinion. In addition,                  MCNP is shown in yellow and PHITS is showed in green. The
+balloon measurements at high altitudes in Earth’s atmosphere              boxes show the simple arithmetic difference between
+have measured particle flux at energies much larger than those            experiment and simulation. The same energy bins were used in
+available in the laboratory. These data provide reliable, direct          the Monte Carlo models as those used in the experimental
+comparison between HZETRN and GCR-produced particle                       analysis. The colored lines are the result of the IPM. Results
+measurements and allow a method to anchor the extrapolation               close to zero indicate better agreement for simulation results
+to high energy.                                                           compared to experiment. At lower energies, MCNP gives
+     In order to mathematically model the transport code                  results which predict a much larger flux compared to both
+uncertainty compared to the measurements, multiple uncertainty            PHITS and the experiment. Near 100 MeV, the two simulations
+quantification models were investigated [Crespo et al., 2016a].           predict very similar fluxes of protons and then both Monte Carlo
+The three UQ models investigated were Bayesian Inference                  models trend very closely at energies above 150 MeV.
+(BI), Gaussian Process (GP), and Interval Predictor Models                    The ultimate goal of this component of the project is to
+(IPMs). The BI and GP models are considered state of the art              quantify the uncertainty in HZETRN for realistic shielding
+uncertainty quantification methods used extensively in the                scenarios. The IPMs for beam measurements will be combined
+literature. IPMs are a newer methodology [Crespo et al.,                  with information from the Monte Carlo benchmarks, HZETRN
+2016b,c]. The three methods were evaluated on the basis of                validation with balloon measurements in Earth’s upper
+conservatism, reliability, and computational efficiency                   atmosphere, and expert opinion to create a model of HZETRN
+compared to a known data generation mechanism defined in                  response uncertainty in complex vehicles for the full GCR
+Crespo et al. [2016a]. Conservatism is meant in the sense of how          environment.
+tightly or loosely the UQ model bounds the results. An overly
+conservative UQ model is undesirable as it would inflate the                                    VI.    CONCLUSIONS
+uncertainty in the transport model. Reliability is meant herein to            The Monte Carlo benchmarks verified the existence of the
+be a probabilistic certification of the correctness of the                local minimum in dose equivalent as a function thickness in
+prediction. Computational efficiency was chosen as a basis for            aluminum shielding. 3DHZETRN, along with all Monte Carlo
+evaluation to balance the effort and computational resources.             models, found the minimum to occur at smaller thickness nearer
+Since the real answer was known, due to the data generating               to 20 g/cm2. For polyethylene shielding, the benchmarks
+mechanism being defined, the three UQ models could be                     showed variation in dose equivalent similar to aluminum, but
+compared to the truth in a well-defined way. The IPM methods              the minimum is extremely shallow or the dose equivalent
+were found to be the least conservative, yielding the tightest            simply flattens out after approximately 20 g/cm2. The variation
+uncertainty bounds, the only model to provide a reliability               in dose equivalent between the models was investigated in
+guarantee, and the most computationally efficient.                        Slaba et al. (2017) and found to be due to difference in the light
+     IPM methods were then used to compare two of the Monte               ion nuclear physics models. However, all models show the
+Carlo simulations to the experimental data. Figure 4 shows an             production of nucleons and light ions as the main contributors
+example of an IPM for protons measured at 10 degrees produced             to the build-up in exposure beyond the minimum.
+from the 800 MeV/nucleon iron beam incident on a 20 g/cm2                     To validate the existence of the minimum behind thick
+aluminum upstream target. The vertical axis shows the                     shielding, laboratory measurements at NSRL were undertaken.
+                                                                          300 hours of measurement time have already been completed
+                                                                          with another 200 hours planned for fall 2017. The novel
+                                                                          experimental design includes shielding both before and after the
+                                                                          detectors, mimicking a space habitat and the verification
+                                                                          benchmark studies. Results of the experiments are set to be
+                                                                          finalized in 2018.
+                                                                              To quantify the uncertainty in HZETRN for realistic thick
+                                                                          shielding, a multifaceted uncertainty quantification effort was
+                                                                          devised.      The experimental results from the validation
+                                                                          component of this project will be used to quantify the
+                                                                          uncertainty for the different Monte Carlo models. This will then
+                                                                          be used to extrapolate from the Monte Carlo models to
+                                                                          HZETRN. The experiments only sparsely cover the GCR
+                                                                          environment, and therefore, multiple methods are being used to
+                                                                          inform the uncertainty quantification. Specifically, comparison
+ Figure 4. Results of IPM for MCNP (yellow) and PHITS (green) for 800     of HZETRN to balloon measurements of light ion flux in the
+MeV/nucleon iron beam incident on 20 g/cm2 aluminum upstream target for
+   protons measured at 10 degrees. Color boxes show actual values for     upper atmosphere of Earth will help guide the extrapolation to
+       experiment minus simulation and colored lines are the IPM.
+high energies that will be important in vehicle and habitat                        Norman, R. B., T. C. Slaba, S. R. Blattnig, “An extension of HZETRN for
+                                                                                       cosmic ray initiated electromagnetic cascades,” Adv. Space Res., vol. 51,
+analysis.
+                                                                                       pp. 2251-2260, 2013.
+                                                                                   O’Neill, P. M., “Badhwas-O’Neill galactic cosmic ray flux model – revised,”
+                           ACKNOWLEDGMENT                                              IEEE Trans. Nuc. Sci., vol. 57, pp. 3148-3153, 2010.
+   This work was supported by the Advanced Radiation                               Sato, T. et al., “Particle and heavy ion transport code system PHITS, version
+                                                                                       2.52,” J. Nucl. Sci. Technol., vol. 50, pp. 913-923, 2013.
+Protection Project under the Game Changing Division of the                         Slaba, T. C., S. R. Blattnig, S. K. Aghara, L. W. Townsend, T. Handler, T. A.
+Space Technology Mission Directorate of NASA.                                          Gabriel, L. S. Pinsky, B. Reddell, “Coupled neutron transport for
+                                                                                       HZETRN,” Radiat. Meas., vol. 45, pp. 173-182, 2010.
+                               REFERENCES                                          Slaba, T. C., A. A. Bahadori, B. D. Reddell, R. C. Singleterry, M. S. Clowdsley,
+Agostinelli, S. et al., “Geant4 – a simulation toolkit,” Nucl. Instrum. Meth.          and S. R. Blattnig, “Optimal shielding thickness for galactic cosmic ray
+    Phys. Res. A, vol. 506, pp.250-303, 2003.                                          environments,” Life Sci. Space Res., vol. 12, pp. 1-15, 2017.
+Crespo L. G., S. P. Kenny, and D. Giesy, “A comparative analysis of                Wilson, J. W., L. W. Townsend, W. Schimmerling, G. S. Khandelwal, F. Khan,
+    metamodeling techniques using numerical experiments,” AIAA Scitech,                  J. E. Nealy, F. A. Cucinotta, L. C. Simonsen, J. L. Shinn, J. W. Norbury,
+    Jan 4-8, 2016a.                                                                      “Transport methods and interactions for space radiations,” NASA RP
+Crespo L. G., S. P. Kenny, D. Giesy, R. B. Norman, and S. R. Blattnig,                   1257, 1991.
+    “Application of interval predictor models to space radiation shielding,”       Wilson, J. W., T. C. Slaba, F. F. Badavi, B. D. Reddell, A. A. Bahadori,
+    AIAA Scitech, Jan 4-8, 2016b.                                                      “Advances in NASA radiation transport research: 3DHZETRN,” Life Sci.
+Crespo L. G., S. P. Kenny, D. P. Giesy, “Interval predictor models with a linear       Space Res., vol. 2, pp. 6-22, 2014.
+    parameter dependency,” J. Verif. Valid. Uncert., vol. 1, pp. 0211007,          Wilson, J. W., T. C. Slaba, F. F. Badavi, B. D. Reddell, A. A. Bahadori,
+    2016c.                                                                             “3DHZETRN: shielded ICRU spherical phantom,” Life Sci. Space Res.,
+Ferrari, A., P. R. Sala, A. Fasso, J. Ranft, “FLUKA: a multiparticle transport         vol. 4, pp. 46-61, 2015.
+    code,” CERN 2005-10 / SLAC-R-773, 2005.
+Goorley, T., “MCNP6.1.1-Beta release notes,” LA-UR-14-24680, 2014.
+

@@ -1,0 +1,503 @@
+52nd International Conference on Environmental Systems                                                               ICES-2023-265
+16-20 July 2023, Calgary, Canada
+
+
+
+
+             Environmental Control and Life Support (ECLS) System
+              Options for Mars Transit and Mars Surface Missions
+
+                                                Zach Bryant1 and Andrew Choate1
+                                Jacobs Space Exploration Group, NASA MSFC, Huntsville, AL, 35812
+
+                                                        David Howard2
+                                                 NASA MSFC, Huntsville, AL, 35812
+
+
+                       The NASA led Artemis campaign will take humanity back to the Moon and serve as an
+                   analog for continued deep space exploration to Mars. Artemis utilizes crewed vehicles and
+                   habitats on both the Lunar surface and in Lunar orbit. The exploration of the Lunar surface
+                   and buildup of a basecamp is meant to be a “Mars forward” approach to testing and refining
+                   new technologies and techniques for living and working far outside of Low Earth Orbit (LEO)
+                   and preparing for future Mars missions. The Lunar Surface Habitat is planned as a primary
+                   element for long duration crew habitation on the Moon and will be the primary testbed for
+                   ECLS system hardware in a partial gravity environment. The Mars Transit Habitat will be
+                   the crew vehicle for the roundtrip from Earth to Mars and spend a significant amount of time
+                   docked to the Gateway outfitting and testing its systems prior to making the first Mars mission
+                   transit. The Mars Transit Habitat will utilize closed loop ECLS system technologies while a
+                   Mars Surface Habitat could use either open loop, closed loop, or a mix of both. Better
+                   understanding the needs of both these system architectures operating for extended periods in
+                   the Lunar environment and outside LEO will help to establish the ECLS system architecture
+                   for the future Mars surface mission. There are many aspects to consider such as length of crew
+                   stay, level of autonomy and dormancy between crewed missions, power requirements, system
+                   mass, and overall system reliability and maintainability. Other considerations will include
+                   Mars gravity vs. Lunar gravity, Mars atmospheric pressure vs. hard vacuum, and possible
+                   use of in-situ resource utilization.
+
+
+                                                          Nomenclature
+        CDRA        =   Carbon Dioxide Removal Assembly               MDS       = Mars Descent System
+        CH4         =   Methane                                       MPS       = Mars Propulsion System
+        CO2         =   Carbon Dioxide                                N2        = Nitrogen
+        Cislunar    =   Space between Earth and the Moon              NASA      = National Aeronautics and Space
+        DST         =   Deep Space Transport                          Administration
+        ECLS        =   Environmental Control and Life                NRHO      = Near-Rectilinear Halo Orbit
+        Support                                                       O2        = Oxygen
+        EVA         =   Extravehicular Activity                       OGA       = Oxygen Generation Assembly
+        FOD         =   Foreign Object Debris                         PR        = Pressurized Rover
+        g           =   Gravity of Earth                              PSI       = Pounds/Inch2
+        μg          =   Micro Gravity                                 PSIA      = Pounds/Inch2 Absolute
+        H2          =   Hydrogen                                      SH        = Surface Habitat
+        LEO         =   Low Earth Orbit                               Sol       = One Martian day
+        LiOH        =   Lithium Hydroxide                             SPE       = Solar Particle Event
+        ISS         =   International Space Station                   TH        = Transit Habitat
+        ISRU        =   In-Situ Resource Utilization                  UPA       = Urine Processing Assembly
+        M2M         =   Moon to Mars                                  WPA       = Water Process Assembly
+        MAV         =   Mars Ascent Vehicle
+
+        1
+            Systems Engineer, Habitation Formulation Office, Mail Stop: HP40, MSFC, AL 35812
+        2
+            Aerospace Engineer, ECLS Development Branch, Mail Stop: ES62, MSFC, AL 35812
+                                                 I. Introduction
+
+N      ASA is going back to the Moon and beyond to Mars. The successful launch and recovery of the Artemis-I mission
+       in 2022 brings humanity closer to living and working in cislunar space for extended periods of time. Each step
+and mission of the Artemis campaign is meant to build upon the previous with the goal of creating a robust Lunar
+architecture that can be used as a Mars forward approach where technologies and techniques can be matured for the
+first human mission to Mars. This Mars mission will be longer than any other crewed mission before it and will require
+an ECLS system that has been proven through hardware development, ground testing, and in-flight testing within the
+International Space Station (ISS) program and on Artemis Lunar and Gateway missions. This paper will look at ECLS
+technologies and architectures currently being developed and refined that may be utilized during the Earth to Mars
+transit and the subsequent Mars surface missions. This may also shed light on the tipping point when best to utilize
+open loop vs closed loop ECLS architectures for crewed missions.
+
+                                  II. Overview of a Crewed Mars Mission
+    The current Moon to Mars (M2M) mission trade space includes a crew of four making up to a 1200 Earth-day
+roundtrip mission from earth orbit to Mars and back (Figure 1). This total transit duration includes a minimum 50 sol
+stay in Mars orbit which would support a minimum 30 sol two crew Mars surface mission.
+
+
+
+
+Figure 1. Human Mars Mission Layout
+
+
+    The Transit Habitat (TH) will function as the vehicle for housing crew during transit and orbital segments of the
+Mars mission. Prior to the start of the Mars mission, the TH will be docked with Gateway in a Lunar Near-Rectilinear
+Halo Orbit (NRHO). While docked at Gateway, the TH will be utilized to lengthen the allowable mission time of crew
+at Gateway and allow for the TH to be outfitted, systems verified, and the vehicle supplied for future missions. TH
+will also go through a series of shakedown testing and isolated crewed analog missions while docked at Gateway to
+better characterize its use and prepare for the first crewed Mars mission. Once testing is complete, the TH will be fully
+                                                             2
+                                  International Conference on Environmental Systems
+stocked with supplies through the use of logistics vehicles and be ready to depart Gateway, dock with the Mars
+Propulsion System (MPS) elements which will form the Deep Space Trasport (DST), pick up the crew and head for
+Mars. During the transit to Mars, crew will spend time performing tasks very similar to that of current ISS crews;
+maintaining system hardware, performing experiments and other utilization activities, exercising, conducting outreach
+events, and taking time off for relaxation and other recreation activities.
+    Once in Mars orbit, the TH will dock with the Mars Descent System (MDS) which will take a crew of two down
+to the Martian surface for a 30 sol mission. At the completion of the 30 sol mission, the crew will return to the TH in
+the Mars Ascent Vehicle (MAV), dock with the TH, and return to Earth.
+    Early Mars surface mission tasks may look very similar to the early Artemis Lunar surface missions with crew
+performing exploration activities (Extravehicular Activity (EVA), sample collection, science experiments, etc.) with
+the goal of maximizing time on the Martian surface.
+    This architecture poses several considerations for the TH and Mars surface habitation designs.
+
+A. Resupply
+    There will be no on-demand crew resupply capability during the human Mars mission. All necessary supplies and
+consumables must be carried or pre-staged, as is the case for the Mars surface portion of the mission. As a point of
+reference, the ISS has been continuously crewed for over 20 years but receives regular cargo deliveries every few
+months with the longest time between resupply flights being a little over 100 days. The longest crewed mission on
+any space vehicle without cargo resupply was 182 days during the 2021/2022 Shenzhou 13 mission on the Chinese
+Tiangong station in LEO1.
+
+B. Abort
+    Mars transit abort options are minimal and do not offer quick return times to Earth on the order of hours or a few
+days as has been the case for all previous LEO and Lunar missions. Rather, the majority of abort options once leaving
+cislunar space result in return times of 300+ days2. Systems will need high reliability and redundancy (i.e., spares,
+backup systems) to allow for the crew’s safe return to Earth orbit in the event of contingencies.
+
+C. Mass
+     Logistics and cargo stowage is proportional to crew size and planned mission duration. The number of spares
+carried in the TH vehicle is largely driven by each system’s assessed reliability. The more robust and reliable a system
+is, the less need to carry multiple spare parts. The overall vehicle mass will drive mission propulsion needs which in
+turn will play into which orbital trajectories are used and thus how long the mission will be.
+
+D. Communication
+    Large portions of the mission will have significant communication delays between the crew/vehicle and the
+mission control teams on Earth. There is the possibility for total communication blackout periods for multiple days
+depending on the final orbital trajectory chosen3. This is in contrast to ISS operations and cislunar space that offer
+near real time constant communication with mission control. In general, for ISS operations, teams of engineers on the
+ground provide support through problem solving, procedure development, and real time implementation support to
+assist crew in resolving system errors and repairs. The lack of real-time communication on Mars missions will drive
+the crew to be more self-sufficient when it comes to system repairs. Systems will need to have a level of repairability
+and maintainability that does not require extensive ground interaction. Additionally, systems should consider using
+automation to reduce regular maintenance time and attention required by crew.
+
+                                         III. Mars Transit Habitat
+    The TH will transport four crew from Earth orbit to Mars and back while also carrying all the necessary systems,
+hardware, and supplies for the round trip. The government reference design for the TH vehicle is currently under
+development by the NASA Habitation Systems Development Office. This reference design is a concept for supporting
+analyses and potential mission designs but does not necessarily represent the final vehicle that will ultimately perform
+the missions. The reference design is currently a hybrid architecture utilizing both metallic and inflatable sections to
+maximize available size while reducing overall mass4. The TH will provide a safe and productive living and working
+environment for the crew similar to the ISS. Crew will be able to perform scientific experiments and other utilization
+operations onboard TH and thus may require some support from the ECLS systems (e.g., gas supply, vacuum exhaust,
+ventilation, etc.) beyond nominal life support. In the case of an emergency (i.e., fire, cabin depress, etc.), TH will
+                                                          3
+                                 International Conference on Environmental Systems
+provide a safe haven where crew can shelter for a short period of time (i.e., up to a few days) 5. This safe haven will
+provide ECLS for the shelter duration until the issue can be resolved. TH will be able to utilize the metallic section as
+an airlock and support EVAs on a contingency basis during transit. This drives the need for airlock functions and
+accompanying systems (i.e., EVA capable hatch, isolated depress/repress capability, suit interface, etc.). TH will be
+required to dock to a variety of different vehicles (i.e., Gateway, Orion, MDS, etc.) with varying atmospheric pressure
+requirements and must be able to operate at a varying array of internal pressures from a low of 10.2 psia to a nominal
+14.7 psia and subsequently oxygen (O2) concentrations between 27% to 20%.
+
+
+
+
+Figure 2. Transit Hab Government Reference Concept Design
+
+
+    During the Mars mission, TH will be continually crewed. Prior to that, there will be periods of up to 3 years in
+NRHO when TH will be uncrewed and systems will be in a dormant state. ECLS subsystems will need to be designed
+with these dormancy periods in mind such that a stable environment can be maintained while also allowing for an
+efficient return to full service upon crew arrival. During this time prior to the Mars mission, TH will be docked to
+Gateway. This will enable Gateway to perform long duration crewed Mars analog missions. While TH operates
+nominally at 14.7 psia, it will accommodate Gateway’s 10.2 psia environment while docked and hatch open. When
+crew is not present, TH will isolate from Gateway. These analog missions will include isolating TH from the rest of
+Gateway and allowing crew to test out the TH as a standalone vehicle.
+    The lack of resupply during the Mars mission increases the need for the overall ECLS systems to have a higher
+level of reliability than current ISS technology. The lack of resupply also eliminates the ability to resupply ECLS
+system consumables and is a major driver of the overall TH ECLS system architecture. The extended communication
+delay will also make system repair and ease of maintainability a high priority since ground teams will not be able to
+provide near real-time support, as has been the case on ISS.
+    The factors above (i.e., length of the mission, mass constraints, lack of resupply) make using a regenerative ECLS
+system a must. As part of the overall M2M campaign, the ECLS focus will be on utilizing mechanical and chemical
+processes. Biological based ECLS systems are not being considered at this time6. The following subsections will
+outline the currently proposed TH ECLS system and why this architecture is favored.
+
+
+
+                                                          4
+                                 International Conference on Environmental Systems
+A. TH Regenerative ECLS
+    TH will require the use of regenerative (regen) ECLS systems that will allow for a closed loop architecture. This
+will eliminate the need for resupply and allow for the vehicle to be self-sufficient.
+
+1. Oxygen Generation
+    Oxygen generation is a key driving factor for implementing a regenerative ECLS system. Providing tanked O 2 for
+the entire length of the mission would be prohibitive due to the mass and volume required. A system similar to the
+ISS Oxygen Generation Assembly (OGA) would allow for O2 generation through water electrolysis. This would
+suffice for nominal cabin pressure ranges (10.2 psia to 14.7 psia) but would also need to be able to provide O2 at a
+much higher pressure (>3,000 psia) for EVA suit recharge. This higher pressure O 2 could be stepped up through pumps
+and/or a combination of new OGA system. This high pressure O2 would need to be stored for use as needed by the
+EVA system.
+
+2. Carbon Dioxide Removal
+   Carbon dioxide (CO2) removal will keep the atmosphere breathable and will also be a step in the necessary water
+recovery loop. Open loop methods of carbon dioxide removal such as lithium hydroxide (LiOH) or
+absorption/desorption overboard would require too many consumables (i.e., LiOH cartridges, O 2 loss) and would not
+provide a means to reuse CO2 for use in water recovery. A carbon dioxide removal system, such as one similar to the
+legacy Carbon Dioxide Removal Assembly (CDRA) or newer Four Bed CO2 scrubber7 on ISS, will need to scrub CO2
+from the cabin atmosphere and provide it to downstream systems for further processing.
+
+3. Water Recovery
+    TH has multiple means for water recovery, similar to current ISS operations. One of these will be to recover crew
+urine. TH will collect and process crew urine through a system such as the Urine Processing Assembly (UPA) being
+used on the ISS. This method utilizes vapor compression distillation to recover a high amount of water from the urine
+but also leaves behind a brine slurry allowing for further processing potential. A brine processor would work in
+conjunction with the UPA to process the leftover brine and provide additional water to the recovery loop. Another
+means of recovery is that of atmospheric moisture from crew sweat, respiration, and general water evaporation. TH
+atmospheric moisture will be collected via condensation and stored for further processing.
+    The final step of water recovery is to process the collected water to a potable state that can be used for all the
+various functions of the TH. A system similar to the ISS Water Process Assembly (WPA) will process the water
+recovered from the Sabatier and plasma pyrolysis process, UPA and brine processor, and from cabin condensate. It
+will need to remove any chemicals and microbes in the water so that it will be safe for crew consumption and vehicle
+system use (i.e., OGA, EVA, experiments, etc.)
+    One nuance to consider with the water recovery is that of water from food. As crew consumes prestored food, that
+water content in the food (currently planned at 30% for stowed food) will make its way back into the vehicle water
+recovery system via crew urine and sweat. As a result, there is a potential to have an excess of water onboard. To
+preclude the need to vent the water to space, the system should be balanced as best possible to level out the necessary
+water recovery.
+
+4. Water Generation
+    A system using the Sabatier process (or other recovery process) will utilize the captured CO2 in conjunction with
+waste hydrogen (H2) from the OGA to create water. This water production will close the ECLS loop and allow for all
+necessary mission water to be created/recycled onboard. There is opportunity to provide further efficiency to this
+closed loop water process using additional processes such as plasma pyrolysis that will take the waste gas methane
+(CH4) from the Sabatier process to further recover water. The waste gasses from this process (acetylene) would then
+be vented to space.
+
+
+B. TH Non-Regen ECLS
+    TH will require additional ECLS systems beyond the core regen functions. These non-regen systems are necessary
+to maintain a habitable vehicle and will work in conjunction with the regen side of the ECLS system.
+
+
+
+                                                         5
+                                International Conference on Environmental Systems
+1. Atmosphere Control
+    Atmospheric control will be needed in conjunction with O2 generation and CO2 removal. This will allow for TH
+to monitor and control overall habitat pressure and individual atmospheric partial pressures. A tanked supply of gas
+(both O2 and nitrogen (N2)) will be needed for the initial vehicle inflation and to make up for nominal atmospheric
+leakage and losses due to dockings, trash jettison, and EVAs. Tanked gas can also be used for experiments and other
+utilization tasks while also acting as a storage tank for high pressure O2 generation for EVA purposes. There will also
+be a need for vents to space, to allow systems to vent gas if/when needed and provide for venting residual atmosphere
+in the case of dockings, EVAs, or any experiments that may require the use of hard vacuum.
+    The atmospheric control system will monitor and regulate the atmospheric pressure throughout TH. It should be
+noted that TH and all the various systems, including ECLS, will need to operate down to 10.2 psia (and perhaps even
+lower) depending on the phase of the mission and which visiting vehicles it is docked with. This is expected to drive
+efficiency changes throughout the ECLS system as the atmospheric density drops.
+
+2. Temperature and Humidity Control
+    The temperature and humidity control system will need to provide ventilation for crew comfort and homogenous
+gas mixing. This ventilation will need to keep the air moving throughout TH to ensure even mixing of the atmosphere.
+This system will also need to have the ability to filter and scrub the air to remove dust, debris, and other trace
+contaminants. The system will need to provide cool conditioned air to the crew and control the humidity levels in the
+cabin. The use of a condensing heat exchanger that can recover atmospheric moisture and deliver it to the water
+recovery system will be vital to the overall loop closure of the regen water recovery system.
+
+3. Emergency Equipment
+    The final pieces of the ECLS system are to account for emergency situations such as a fire. Crew will need a means
+to breathe in the event of smoke and other possible atmospheric contaminations. Additionally, there should be a system
+to extinguish a fire through crew handled devices and/or a vehicle-level fire suppression system.
+
+
+
+
+Figure 3. Notional TH ECLS System Block Diagram
+
+
+                                                         6
+                                International Conference on Environmental Systems
+                                             IV. Mars Surface Habitats
+       The NASA Government Reference Mars surface habitat concept is not as well defined as the TH vehicle, although
+   these habitats will build off the work and lessons learned by the Lunar Surface Habitat (SH) element. The primary
+   goals of the first Mars mission will be to put boots on the surface, gather samples, and safely return the crew. At a
+   minimum, two crew would descend to the Martian surface and stay in a pressurized rover (PR) similar to the plan for
+   Lunar surface missions8. For limited crew, short surface stays, a fixed habitat may not be necessary, but subsequent
+   Mars missions may utilize larger/multiple habitats to establish a larger presence and enable longer surface stays similar
+   to the current Lunar surface mission outline.
+       Lunar surface missions are being used to help mature and develop systems for the Martian surface, but there are
+   key differences between the two. Martian gravity is higher (3/8g on Mars vs. 1/6g on the Moon). There is an
+   atmosphere on Mars (i.e., some atmospheric pressure, gaseous elements, and weather patterns), whereas the Moon is
+   a hard vacuum. Martian dust is quite different from Lunar regolith (i.e., not electrostatically charged, less abrasive,
+   has perchlorate content). Temperature differences and lighting condition could also factor into system considerations.
+   Finally, the available resources on the two planetary bodies are different in both distribution and content. Another
+   important factor is that of planetary protection. The desire is to significantly minimize biological contamination of the
+   Martian surface, thus all waste and system byproducts (i.e., trash, fluids, vented gasses, spills) that will come in contact
+   with the Martian environment will need to be managed thoughtfully9.
+       In-situ Resource Utilization (ISRU), which utilizes local resources as materials to complete mission objectives,
+   may not be available for initial Mars surface missions. Biological (or bioregenerative) technologies are also not being
+   considered for initial Mars surface missions6. These approaches, however, could be pursued in future architecture
+   iterations.
+       The above key differences, along with the overall surface mission architecture will drive the Mars habitat ECLS
+   systems to look different from the Lunar surface systems. The following subsections will outline possible Mars surface
+   habitat ECLS system options and why these architectures have been chosen.
+
+
+
+
+Figure 4. Lunar Surface Habitat, Pressurized Rover, and Lunar Terrain Vehicle Concepts
+
+
+
+
+                                                              7
+                                     International Conference on Environmental Systems
+A. Initial Mars Surface Missions
+    At a minimum, a crew of two will utilize a PR-type habitat for the duration of their stay. The PR must sustain the
+crew for 30 sols and will be their only means of habitation. It will be small in size, power limited, and offer little in
+the way of space and privacy. All necessary ECLS systems will be integrated into the PR. Due to these factors it is
+assumed that the ECLS system will be of an open loop architecture. All necessary consumables will be onboard the
+MDS and ready for offload to the PR at the start of the surface stay. The PR will return to the MDS to restock supplies
+at pre-defined times throughout the surface stay10. Planetary protection considerations, such as microbial vent filters,
+may be required on PR ECLS systems.
+
+1. Tanked metabolic gas and makeup gas
+    The atmospheric pressure and metabolic O2 will be maintained by tanked high pressure gas. This will most likely
+also be used to recharge the EVA suits and thus may require multiple tanks to maintain a high pressure (3000 psia).
+There will also need to be a sufficient supply of gaseous N2 to provide atmospheric makeup due to losses from leakage
+and EVAs.
+
+2. Tanked water
+    All necessary water will be provided as a consumable and thus will not be recycled or regenerated. There will need
+to be sufficient water provided for crew hygiene, drink and food prep, possibly for the toilet system, and to recharge
+the EVA suits. Used water will most likely be stored rather than dumped overboard. To preclude microbial growth in
+the water there will need to be a biocide added such as Iodine or Silver11. This biocide should be able to be filtered
+out of the water or be compatible with the EVA suits, wetted systems, and safe for crew consumtion.
+
+3. Storage of urine
+    Since this will be an open loop system the crew urine will not be recycled for reuse. Thus, it must be stored in a
+safe manner that does not present a hazard to the crew or a discomfort in the way of smell. Some consideration should
+be given to the reuse of this stored urine. Although unlikely to occur in early missions, it could possibly be offloaded
+and recycled in future missions if the available regen infrastructure is present. Stored urine will also need to comply
+with planetary protection requirements which may necessitate sterilization or robust long term stowage designs.
+
+4. Small CO2 scrubber
+    Although consumable LiOH could be used to scrub CO2, it would most likely take up too much valuable cabin
+volume. A small CO2 scrubber, such as an amine type system, could work in this setting and would preclude the need
+for consumable cartridges.
+
+5. Filtration and ventilation
+    Filtration will be especially vital on the surface of Mars. Although there will be plans to minimize dust intrusion
+into the cabin, it will inevitably find its way inside the habitable volume. The filtration system will need to efficiently
+remove the dust from the cabin atmosphere to minimize interference with system operations. Martian dust is known
+to contain toxic perchlorates that can affect crew health and needs to be quickly removed within the PR’s habitable
+cabin environment. Although the PR’s cabin will be small and there will be partial gravity, ventilation will be needed
+to move the air around and provide a comfortable living environment for the crew.
+
+6. Humidity removal
+    Since there will be no need to recover water in the PR, a condensing heat exchanger is not necessary, although it
+is an option to collect the condensate and on future missions could be offloaded to a regen system for recycling. Other
+options could include using a membrane type system to remove and control humidity. A rapid cycle amine 12 system
+could also be used with the added benefit of controlling humidity and removing CO2. This would eliminate the need
+for additional storage tanks while also reducing power requirements.
+
+
+
+
+                                                          8
+                                 International Conference on Environmental Systems
+ Figure 5. Notional Mars Descent System and Pressurized Rover
+
+
+B. Subsequent and Sustained Mars Missions
+    Looking beyond the initial Mars surface mission(s) to a sustained presence enables additional ECLS system
+options and capabilities. The assumption is that future missions will take the same approach as the Lunar surface
+allowing for larger crew sizes and longer duration stays (i.e., beyond 30 sols). These missions could utilize
+larger/multiple habitats similar to the Lunar Surface Habitat concept13. A larger habitat size will allow for more
+volume, stowage, and power.
+
+1. Regen ECLS
+     Longer surface missions and larger crew sizes will drive the need to go beyond an open loop consumable based
+ECLS system. A regen type system will be needed to produce O2 and recycle water similar to the systems being
+utilized on the TH (O2 generation, CO2 removal/recovery, Sabatier/plasma pyrolysis, UPA/brine processor, WPA).
+The regen systems could also be used to process stored urine and wastewater offloaded from the PR minimizing its
+need to use open loop consumables.
+      Regen systems residing on the Martian surface will be subjected to 3/8g loading. Traditional regen systems have
+been proven through extensive testing on Earth in 1g and for many years on ISS in μg. Regen systems are planned to
+eventually be utilized as part of the Lunar Surface Habitat architecture which will allow for testing and hardware
+maturation in a partial gravity environment (1/6g on the Moon). Some issues that could affect these regen systems
+include particulate separation, precipitation of solids, growth of biomass, and entrainment of regolith-based dust with
+condensate separation systems.
+     Managing dust will be an important part of the ECLS system. Martian regolith does not present the same challenges
+as Lunar regolith in relation to electrostatic properties and abrasiveness, but it does bring about a new challenge in the
+form of toxicity (perchlorates). The ECLS system will need to be able to filter out the dust and minimize crew exposure
+to toxic chemicals. The filtration will also need to protect the condensing heat exchanger from fouling due to regolith
+if condensate recovery is part of the architecture.
+     As with the TH, there will be a need to recharge EVA portable life support systems >3000 psi. This will require
+the ability to produce high pressure O2 that can be stored for future use. All other systems would be similar to the TH
+(i.e., pressure monitoring, vents/vacuum availability, and emergency hardware). Although there is a slight atmosphere
+
+                                                          9
+                                 International Conference on Environmental Systems
+on Mars, the pressure (~5 torr) is still low enough that venting waste gasses overboard or utilizing the outside
+environment as a vacuum resource should not be a great concern but could add operational inefficiencies (i.e., longer
+vent times and slower bake outs).
+
+2. ISRU ECLS
+    Another option for long duration ECLS that can work in conjunction with regen systems or by itself in an open
+loop configuration is that of ISRU. ISRU will allow for using local resources to reduce the need to bring all necessary
+supplies along. This could include transforming resources into breathable air and water. Although there are currently
+no plans in the M2M architecture for ISRU on the Mars surface, there are plans to test these technologies and
+techniques on the Moon as a means to evaluate the benefit of locally produced resources against the operational
+complexity of extraction and processing. Although both the Moon and Mars have useable local resources, they have
+key differences. The Moon and Mars both have water in the form of ice, although the state of each ice deposit and
+methods of possible extraction varies. Recovery and processing methods that work on the Moon are not likely to
+completely translate to recovery of Martian ice deposits. Once the ice is recovered, it can be processed into liquid
+water and fed into a regen system for use as O2 through electrolysis or pre-processed through the water processing
+system for general use. This water could also just feed an open loop ECLS system and act as a consumable.
+    The other main resource is O2. While there is a possibility to extract O2 from Lunar and Martian regolith using
+varying methods, the high concentration of CO2 (95%) in the Martian atmosphere may offer the easier route. NASA
+flew the Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE) on the Mars Perseverance rover currently
+operating on the Martian surface. This hardware experiment was able to produce O2 from atmospheric CO2 using solid
+oxide electrolysis14. This O2 production, much like the water production, could be utilized as part of a regen system
+or used as a consumable.
+
+3. Dormancy
+    For both these long duration options dormancy periods will come into play. There is currently no set time for
+mission cadence, but optimal Mars departure opportunities occur every ~2 years. All systems will need to be designed
+with dormancy in mind with the goal to reduce crew time needed to put systems in a dormant state and bring them
+back online at a later date. Water systems will be impacted the most by dormancy and may require a significant amount
+of time to prepare for the dormant state. Wetted systems will need to be designed to allow for ease of flushing
+lines/hardware, minimizing dead legs, and optimizing tubing designs among other considerations15.
+
+                                                    V. Conclusion
+    Planning for the first human Mars mission is underway, driving the need for enhanced and possibly alternative
+ECLS system architectures than are currently in use on ISS. A human Mars exploration campaign brings about many
+challenges to the ECLS system such as lack of resupply, reliability and maintainability, extended dormancy periods,
+dust, and eventually ISRU integration.
+    The current TH architecture will utilize many legacy ISS type systems that will be upgraded to a next generation
+level and allow for a high level of loop closure for the long duration mission. Mars surface habitation will build off of
+Lunar habitat design utilizing both open loop, for the initial short-term stays, and closed loop designs, for subsequent
+longer duration stays, with a possible long-term transition towards ISRU. Although final architectures are far from
+finalized the goal of this paper is to offer some possible paths forward and allow for the greater ECLS community to
+keep a Mars forward approach.
+
+                                                   Acknowledgements
+   The authors would like to thank Paul Kessler and James Johnson (Habitation Formulation Office, NASA Marshall
+Space Flight Center) for input on surface habitats and ISRU.
+
+                                                         References
+   1
+      Owens, A. C., Cirillo, W. M., Stromgren, C., Cho, J., Lynch, C., and Vega, J. M., “Integrated Logistics and Supportability
+Challenges of Sustained Human Lunar Exploration,” 51st International Conference on Environmental Systems, St. Paul, MN, July
+10-14, 2022, ICES-2022-90.
+    2
+      Chai, P. R., Qu, M., “Human Mars Mission Transit Abort Options for Ballistic High Thrust and Hybrid Transportation
+Systems,” ASCEND 2022, Las Vegas, NV, October 24-26, 2022, 10.2514/6.2022-4374.
+
+
+                                                           10
+                                   International Conference on Environmental Systems
+    3
+      “Reference Surface Activities For Crewed Mars Mission Systems and Utilization,” Publication HEOMD-415 Version 1,
+National Aeronautics and Space Administration, January 24, 2022.
+    4
+      Choate, A., Kessler, P., Nickens, T., et al., “NASA’s Moon to Mars (M2M) Transit Habitat Refinement Point of Departure
+Design,” IEEE Aerospace, March 2023.
+    5
+      Harris, D. W., Kessler, P. D., Nickens, T. M., Choate, A. J., Horvath, B. L., Simon, M. A., Stromgren, C., “Moon to Mars
+(M2M) Habitation Considerations, A snap Shot As of January 2022,” Publication TM-20220000524, National Aeronautics and
+Space Administration, January, 2022.
+    6
+      “Exploration Systems Development Mission Directorate, Moon To Mars Architecture Definition Document, Volume – 1
+Overview And Strategy,” Publication ESDMD-001. National Aeronautics and Space Administration, (to be published).
+    7
+      Cmarik, G., Peters, W., Knox, J., “4-Bed CO2 Scrubber – From Design to Build,” 50th International Conference on
+Environmental Systems, Lisbon, Portugal, July 12-16, 2020, ICES-2020-178.
+    8
+      Rucker, M., Craig, D., Burke, L., et al., “NASA’s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture,” IEEE
+Aerospace, March 6-13, 2021.
+    9
+      Conley, C. A., Rummel, J. D., "Planetary protection for human exploration of Mars," Acta Astronautica, 66 (2010), 792-797.
+    10
+       “Reference Surface Activities For Crewed Mars Mission Systems And Utilization,”, Publication HEOMD-415 Version 1,
+National Aeronautics and Space Administration, January 24, 2022.
+    11
+       Li, W., Calle, L. M., Hanford, A. J., Stambaugh, I., Callahan, M. R., “Investigation of Silver Biocide as a Disinfection
+Technology for Spacecraft – An Early Literature Review,” 48 th International Conference on Environmental Systems, Albuquerque,
+NM, July 8-12, 2018, ICES-2018-82.
+    12
+       Chullen, C., Campbell, C., Papale, W., Hawes, K., Wichowski, R., “Rapid Cycle Amine 3.0 System Development,” 45 th
+International Conference on Environmental Systems, Bellevue, WA, July 12-16, 2015, ICES-2015-313.
+    13
+       Kessler, P., Prater, T., Nickens, T., Harris, D., “Artemis Deep Space Habitation: Enabling a Sustained Human Presence on
+the Moon and Beyond,” IEEE Aerospace, March 5-12, 2022.
+    14
+       Hoffman, J. A., Hecht, M. H., Rapp, D., et al., "Mars Oxygen ISRU Experiment (MOXIE)-Preparing for human Mars
+exploration," Sci Adv, 2022, 8(35):eabp8636.
+    15
+       Carter, D. L., “Dormancy Assessment for Advanced Exploration Systems (AES),” NASA MSFC, Hunstville, AL, July, 2018.
+
+
+
+
+                                                           11
+                                   International Conference on Environmental Systems
+

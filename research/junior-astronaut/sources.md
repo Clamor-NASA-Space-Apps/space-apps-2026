@@ -39,3 +39,25 @@
 | https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json | Curiosity weather feed (agent test) | not saved |
 | https://github.com/nasa/NASA-3D-Resources | NASA 3D models | not saved |
 | https://science.nasa.gov/?p=326838 | Seven minutes of terror (EDL) | pages/nasa-7min-terror.html |
+| https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/ | MOXIE tech specs (300 W) | pages/moxie/nasa-m2020-instruments.html |
+| https://science.nasa.gov/blog/a-day-full-of-moxie/ | MOXIE PI blog, 31 Aug 2022 | pages/moxie/nasa-blog-day-full-of-moxie.html |
+| https://en.wikipedia.org/wiki/Mars_Oxygen_ISRU_Experiment | MOXIE (secondary, user's find) | pages/moxie/wiki-moxie.html |
+| https://doi.org/10.1126/sciadv.abp8636 | Hoffman et al. 2022 MOXIE paper (via Europe PMC) | pages/moxie/hoffman2022-sciadv-pmc.xml |
+| https://doi.org/10.1007/s11214-020-00782-8 | Hecht et al. 2021 MOXIE (abstract only; full text blocks curl) | pages/moxie/hecht2021-ssr.html |
+| https://ntrs.nasa.gov/citations/20180001979 | Wheeler 2018, NASA bioregenerative life support | pages/agent-plants/ |
+| https://ntrs.nasa.gov/citations/20205000490 | Wheeler 2020, Biomass Production Chamber | pages/agent-plants/ |
+| https://science.nasa.gov/mission/msl-curiosity/science/ | Curiosity science goals | pages/science-goal/ |
+| https://www.nasa.gov/news-release/nasa-finds-ancient-organic-material-mysterious-methane-on-mars/ | Organics + methane + Gale lake, 7 Jun 2018 | pages/science-goal/ |
+| https://ntrs.nasa.gov/citations/20080036243 | OGA power (ICES 2008) | pages/agent-power/ |
+| https://ntrs.nasa.gov/citations/20150016494 | OGA ICES-2015-115 | pages/agent-power/ |
+| https://usea.org/sites/default/files/event-/JAN_NASA%20DCA%207-24-2019sW2.pdf | NASA Ames CO₂ removal slides (third-party host) | pages/agent-power/usea-nasa-dca-2019.pdf |
+| https://www.nasa.gov/wp-content/uploads/2015/09/373665main_nasa-sp-2009-566.pdf | Mars DRA 5.0 (2009) | pages/agent-power/dra5-sp-2009-566.pdf |
+| https://ntrs.nasa.gov/citations/20160011275 | Rucker 2016 Mars surface power slides | pages/agent-power/ |
+| https://ntrs.nasa.gov/citations/20150006958 | Rucker 2015 "ISRU is the biggest power draw" | pages/agent-power/ |
+| https://ntrs.nasa.gov/citations/19910008686 | Simonsen & Nealy 1991, Mars shielding | pages/agent-shielding/ |
+| https://ntrs.nasa.gov/citations/20130012456 | Slaba 2013, shielding on Mars surface | pages/agent-shielding/ |
+| https://doi.org/10.1029/2021JE007157 | Zhang 2022, regolith depth (Kiel copy) | pages/agent-shielding/ |
+| https://doi.org/10.1007/s00159-021-00136-5 | Guo 2021 review, Mars radiation | pages/agent-shielding/ |
+| https://arxiv.org/abs/2205.13786 | Gakis & Atri preprint, shield materials | pages/agent-shielding/ |
+| https://www.nasa.gov/science-research/heliophysics/real-martians-how-to-protect-astronauts-from-space-radiation-on-mars/ | NASA Real Martians 2015 | pages/agent-shielding/ |
+| https://ntrs.nasa.gov/citations/20140000593 | Walker 2013, water storm shelter | pages/agent-shielding/ |

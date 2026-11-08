@@ -1,0 +1,518 @@
+                 Nuclear and Emerging Technologies for Space 2015
+                              Albuquerque, New Mexico
+
+
+
+
+                  Integrated Surface Power Strategy
+                               for Mars
+
+
+
+
+February, 2015                      michelle.a.rucker@nasa.gov
+                                       Humans     2 Mars            1
+                 Background: Notional Crewed Mars Mission
+     Conceptual Mars surface mission assumes two each 40 kWe
+     Fission Surface Power (FSP) Systems
+      –          Primary unit deployed on a Cargo Lander to make return propellant (oxygen)
+      –          Contingency unit arrives later with the crew
+      –          FSP is ~ 7,000 kg and must be operated >1 km from the Habitat
+                         1 km
+                                                    Landers ~1km
+                  Radiation protection                  apart
+
+                                                     (risky to land
+          1                                                                       2     MARS CREW LANDER
+                    MARS CARGO LANDER                 any closer)
+
+                    Lands before crew                                               Lands after MAV is fueled
+        Un-crewed Mars Ascent Vehicle (MAV)                                      Surface Habitat and Crew
+        FSP and In Situ Resource Utilization (ISRU)                              Spare FSP
+           – Makes propellant for crew return                                     Mobility
+        Mobility                                                                  •   To transport Spare FSP and crew
+           – To relocate the FSP 1 km from Lander
+
+
+February, 2015                                      michelle.a.rucker@nasa.gov
+                                                       Humans     2 Mars                                                 2
+                  Issues and Study Objectives
+
+        1        Validate Mars Surface power needs
+                  • Is 40 kW enough…or is it more than we need?
+        2        Explore ways to reduce contingency mass
+                  • 7,000 kg is a lot of mass for a contingency item that is never nominally used
+        3        Explore ways to accelerate FSP deployment
+                  • Cargo Lander is self-sufficient for power until FSP is deployed and activated
+                  • Up to 40 sols: Impacts Cargo Lander Power, Thermal, and Structural mass
+        4        Explore ways to minimize FSP impact on mobility systems
+                  • FSP may be the largest item that Surface Mobility systems have to move
+                  • May drive mobility design in a way that is incompatible with other mobility tasks
+
+
+
+
+                                             Notional FSP Concept
+February, 2015                                   michelle.a.rucker@nasa.gov
+                                                    Humans     2 Mars
+                  Surface Powered Equipment Needs
+    After mapping the physical locations of powered items relative
+    to the Landers, it became clear that there were 3 distinct
+    categories of powered equipment
+                                                  This equipment drives FSP size
+
+
+                 Mobile Equipment                       Stationary Assets              Deployed Equipment
+
+                                                        Remains on/near Landers         Relocated once, then stationary
+                 Moves around the surface
+                                                           Cargo Lander                          Weather
+                                                                                                 Stations
+                          Rovers                                       ISRU
+                          Space Suits                             Ascent Vehicle              Geo Stations
+                             Portable                         Crew Lander
+                              Tools
+                                                                                       Traded solar arrays vs.
+                         Drill, EVA tools, etc.
+                                                                         Habitat          RTG vs. Fuel Cells
+                                                                            Lab
+                  Recharge from
+                   Other Assets                            Fission Power                    Solar Arrays
+February, 2015                                            michelle.a.rucker@nasa.gov
+                                                             Humans     2 Mars                                            4
+                               Objective 1: Validate Surface Power Needs
+                                                                                                    • Conclusion: < 40 kWe Needed
+                                                                                                     for this particular reference
+
+
+
+   Max. Power Needed (W)
+                           35,000
+
+                           30,000                                    Sample Lab                      mission and conceptual
+                           25,000
+                                                                     Surface Habitat                 architecture
+                           20,000                                                                      Includes 30% margin
+                           15,000
+                                                                     Mars Ascent Vehicle (MAV)
+                                                                                                       ISRU is the Biggest Power Draw
+                           10,000                                    In Situ Resource Utilization        Atmospheric ISRU
+                            5,000
+                                                                     (ISRU)
+                                                                                                       Architecture is notional
+                                                                                                         Forward work in 2015 to better
+                               0
+                                      Cargo Ops    Crew Ops                                               define elements and power
+                                     33.9 kW Max   33.5 kW Max                                            needs
+
+                                                   How Could We Reduce Power?
+                                                   1. Produce less propellant
+                                                          Smaller Ascent Crew Cabin                                  Even if ISRU is
+                                                           • Reduce time crew is in cabin                      eliminated, still need
+                                                           • Reduce number of crew                           almost as much power
+                                                          Ascend to Lower Orbit
+                                                          Bring more propellant from Earth                     to support a Habitat
+                                    Power                  • Requires more descent propellant                and science operations
+                                                   2. Take longer to produce propellant
+
+February, 2015                                                         michelle.a.rucker@nasa.gov
+                                                                          Humans     2 Mars                                                5
+                 Exploring Alternatives
+       We need at least 33.9 kW (for this particular conceptual mission)
+             …but it doesn’t necessarily have to be in a single package
+                 Baseline                                                                            5
+                                                                        10                                   5
+                                                                                                                 5
+                                          20 kw                         kw 10                    5
+                                                                                                             5
+                            40 kw   Vs.                    Vs.             kw 10        Vs.                           Etc.
+                 1x                           20 kw                           kw 10                      5       5
+                 40kWe                                                           kw
+                                          2 x 20kWe               4 x 10kWe                          7 x 5 kWe
+
+
+     “Kilopower” design is similar to the FSP, but more compact, and
+     with fewer moving parts         Type
+                                          Power  Mass Dimensions (m)
+                                                                     Radiators
+                                                                 (kWe)        (kg)    Dia      Height
+                                                                    3          751    1.2     *2.2 /4.9              9.6 m2
+                                                                    5        1,011    1.3     *2.7/5.9               13.5 m2
+                                                      KP
+                                                                    7        1,246    1.4     *3.0 /6.7              17.1 m2
+                                                                   10        1,544    1.5     *3.3 /7.3              20 m2
+                                                                   10        3,300    1.0     7 m tall               37 m2
+                                                     FSP
+                                                                   40        7,000    2.7     7 m tall               184 m2
+                                                                                 *Height w/Deployable/Fixed Radiators
+February, 2015                                michelle.a.rucker@nasa.gov
+                                                 Humans     2 Mars                                                             6
+                 Objective 2: Reduce Contingency Power Mass
+
+        Baseline assumed a 40 kW contingency FSP on the Crew Lander
+                 —Alternative: With 4 ea. 10 kW units on the Cargo Lander, it’s unlikely ALL will fail
+                 —Don’t necessarily need to bring 4 more on the Crew Lander: 1 or 2 spares will do
+                                BASELINE                                            SAMPLE ALTERNATE
+            Cargo Lander         Crew Lander                            Cargo Lander      Crew Lander
+                                                                         10                  10
+                   40 kw           40 kw                                 kw10                kw 10
+                                                  14,000 kg                kw10                 kw
+                                                                                                        9,264 kg
+                                                                             kw10
+                  7,000 kg         7,000 kg                                    kw      1,544 kg/ea
+
+                               Mass saved in this example is equivalent to a pressurized rover
+
+       Savings are even more significant when cable mass is included
+                 — FSP Concept: Requires more than 1,000 kg of Cable
+                     1 km, 400 VAC transmission cable from FSP to Lander PLUS a 1 km, low voltage DC
+                      auxiliary cable from Lander back to FSP
+                       — FSP Parasitic load: need auxiliary power for FSP fluid pumps, etc.
+                 — Kilopower Concept: Less than 100 kg Cable
+                     Fewer moving parts (e.g. heat pipes replace pumps) don’t require auxiliary power cable
+                     ~60 kg for 1 km of high VAC transmission cable
+                     Plus inverter/junction box and jumpers
+February, 2015                                        michelle.a.rucker@nasa.gov
+                                                         Humans     2 Mars                                         7
+                                Objective 2: Reduce Contingency Power Mass
+                                        Cumulative Power System Mass (34 kWe Minimum)
+                            18,000                                                                       Contingency Jumpers
+
+                            16,000
+                                                                                                         Primary Jumpers
+                            14,000
+
+
+
+
+     Cumulative Mass (kg)
+                            12,000                                                                       Contingency Power Transmission Cables
+
+                            10,000
+                                                                                                         Primary Power Transmission Cables
+                             8,000
+
+                             6,000                                                                       Inverter/Junction Box
+
+                             4,000
+                                                                                                         Contingency Power
+                             2,000
+
+                                -
+                                                                                                         Primary Power
+                                     3 kWe   5 kWe      7 kWe    10 kWe      40 kWe FSP       FSP w/o
+                                                                                              Conting.
+
+                                             Kilopower Options
+
+                             • 34 kWe Minimum of Kilopower + 10 kWe Minimum Contingency saves 4 to 8
+                               metric tons compared to baseline 40 kWe FSP
+                             • 4 x 10 kWe Kilopowers + 1 contingency unit is ~200 kg less than an FSP with no
+                               contingency unit
+February, 2015                                                            michelle.a.rucker@nasa.gov
+                                                                             Humans     2 Mars                                                   8
+                 Objective 3. Minimize Lander Power Mass
+       Lander has to survive up to 40 sols while FSP is being unloaded,
+        relocated 1 km, deployed, and activated
+         —Criticality: Mars Ascent Vehicle (for crew return) needs keep-
+           alive power!
+         —Lander power mass drives thermal & structural mass, all of
+           which drives descent propellant mass
+       With multiple Kilopower units, we have an option to turn one
+        on near the Lander, while remaining units are being deployed
+         —Crew hasn’t arrived yet, so we can relax separation distance
+           from Lander
+         —Relocate the first unit after the others are on-line
+
+
+                      Still may take 40 sols to move all of them, but the
+                   Lander doesn’t have to be self-sufficient the entire time
+February, 2015                           michelle.a.rucker@nasa.gov
+                                            Humans     2 Mars                  9
+                 4. Minimize Impacts to Surface Mobility
+     At 7 m tall and 7 metric tons, FSP is bigger than pressurized rover concepts
+     May force rover design or reconfiguration requirements
+     Or drive the need for another kind of mobility system
+     Current rover concepts with a davit can accommodate smaller Kilopower units
+    How do we carry this…                                                Even the biggest
+                       …on that?                                        Kilopower fits on
+                                                                   current rover concepts
+             7m
+
+             6m
+
+             5m
+
+             4m
+
+             3m
+
+             2m
+
+             1m
+
+
+                   40 kWe FSP      Pressurized Rover Concept           10 kWe Kilopower
+February, 2015                        michelle.a.rucker@nasa.gov
+                                         Humans     2 Mars                                  10
+                 Additional Kilopower Concept Advantages
+
+      1. Better transportability means Kilopower units can be
+                 redeployed
+                  Use to extend rover range or support remote science operations
+                  Relocate from one landing site to another
+                     — After shut-down, safe for crew to approach after ~1 week
+                     — Safe for robotic approach after ~1 day
+      2. Deployed Kilopower Units can significantly increase crew
+                 exploration radius
+                 • Solar-only pressurized rover spends 80% of its time charging, 20% roving
+                 • 2 deployed Kilopower units increase rover driving efficiency from 14
+                   km/day to 46 km/day and adds 37 km to the maximum excursion range
+                   from the Habitat
+                 • 4 units can increase the maximum range to 225 km
+      3. Kilopower units require less startup power
+                 than the FSP
+                 • 2 D-cell batteries vs. 5 kW solar array for FSP
+February, 2015                                  michelle.a.rucker@nasa.gov
+                                                   Humans     2 Mars                          11
+                 Additional Kilopower Concept Advantages
+  4. Opens up the possibility of reducing the number of landing sites
+          Example: 4 areas of interest are within 250 km straight line of each other
+          Could potentially land at Jezero Crater and rover to the other 3
+          Actual roving range                  3                                          1
+           will depend on                       Nili Fossae
+           — Terrain factor                     Trough                             Nili Fossae
+           — How many                           (246 km)                           Carbonate
+             Kilopower units are                                                   Plains (221 km)
+             available
+           — Rover design
+           — Risk posture
+          But portable power                                              Jezero Crater
+                                                                       0
+           opens up operational
+           concepts not
+           previously considered                                               NE Syrtis
+                                                                               (81 km)
+                                                                           2
+
+
+February, 2015                            michelle.a.rucker@nasa.gov
+                                             Humans     2 Mars                                       12
+                 Additional Kilopower Concept Advantages
+
+      5. Supports small pre-cursor missions without having to develop
+                 a sub-scale demo unit
+                 — At 751 kg, the 3 kWe Kilopower unit fits on a Curiosity-class Lander with
+                   payload to spare
+                      Could be retrieved later and added to a larger Kilopower farm
+                 — At 3,300 kg a small (10 kWe) FSP won’t fit on a Curiosity-sized Lander
+      6. Easier to “evolve” surface capability over time
+                 — 40 kWe FSP requires commitment to 7 ton payload
+                       And that’s without cables or mobility to relocate it
+                 — With Kilopower units, a program can tailor power for different missions
+                   by only flying what’s needed
+                       One unit for a small precursor or demo mission; multiple units for a
+                        crewed mission
+                 — If constrained to a single landing site, can build up capability over time,
+                   and expand exploration area with deployable power systems
+
+February, 2015                                  michelle.a.rucker@nasa.gov
+                                                   Humans     2 Mars                             13
+                 Additional Kilopower Concept Advantages
+
+      7. Lower cumulative stowage volume                                                                                             HSD
+                                                                                                                                                HRD
+
+                 — Deployable-radiator systems are compact                                                               HRF
+                                                                                                                HSF
+                 — Note that volume savings could be off-set by                                                                            DD
+
+                   packing efficiency for a given Lander design
+                                                                                                                   DS
+          40 kWe Equivalent Cumulative Stowed Volume (m3)                                                        FIXED
+                                                                                                                RADIATOR             DEPLOYABLE
+     70                                                                                                                               RADIATOR
+
+     60
+                                                                                                                      40 kWe Baseline
+     50                                                                                                               10 kWe Deployable
+                                                                                                                      10 kWe Fixed
+     40
+
+                 FSP
+                                                                                                                      7 kWe Deployable
+                                                                                                                      7 kWe Fixed
+     30
+                                                                                                                      5 kWe Deployable
+                                                                                                                      5 kWe Fixed
+     20
+                                                                                                                      3 kWe Deployable
+                                                                                                                      3 kWe Fixed
+     10
+
+
+      0
+            40 kWe      10 kWe      10 kWe     7 kWe      7 kWe     5 kWe       5 kWe        3 kWe      3 kWe
+            Baseline   Deployable    Fixed   Deployable   Fixed   Deployable    Fixed      Deployable   Fixed
+
+February, 2015                                                    michelle.a.rucker@nasa.gov
+                                                                     Humans     2 Mars                                                                14
+                 Kilopower Concept Disadvantages
+       1. Requires more HEU
+                 — As much as 532 kg HEU for 40 kWe equivalent (+ spares) of 3 kWe units vs. only
+                   220 kg HEU for a baseline FSP (+1 spare)
+           System Size HEU Per Unit         Total HEU Needed                              Assumptions
+                 40 kWe        110 kg             220 kg                        1 primary and 1 contingency unit
+                 10 kWe         50 kg             250 kg                        4 primary and 1 contingency units
+                  5 kWe         44 kg             396 kg                        7 primary and 2 contingency units
+                  3 kWe         38 kg             532 kg                        12 primary and 2 contingency units
+
+       2. More HEU may mean more ground handling security overhead
+                 — Especially if multiple units are in various stages of assembly, test, and transport
+                 — Could mitigate by keeping all units together (no partial shipments)
+       3. More individual reactors means more launch safety overhead
+                 — Each unit has to be located and retrieved in the event of a launch failure
+                 — Could mitigate with a containment shroud
+                    Kilopower units will be packaged on a Mars Lander, which will be inside a
+                     launch shroud
+                    Mars Entry/Descent/Landing (EDL) design could also include an aeroshell
+February, 2015                                     michelle.a.rucker@nasa.gov
+                                                      Humans     2 Mars                                              15
+                 Kilopower Concept Disadvantages
+
+       4. More surface delivery (rover) trips to deploy
+                 — FSP only needs 1 trip from Lander to installation site for deployment
+                 — Number of trips to deploy Kilopower will depend on which size is
+                   chosen and how many a rover can carry in one trip
+                    Current rover concept can likely carry one 10 kWe unit, two 5 kWe units, and
+                     at least two 3 kWe units
+                 — Deployment is autonomous/robotic, and once the 1km route has been
+                   mapped, subsequent trips aren’t especially risky
+                    Just wear/tear on the rover
+       5. Increased operational complexity
+                 — Single FSP can land with cables already connected
+                 — Multiple units may require robotic field connections
+       6. Potentially lower overall system reliability
+                 — Kilopower unit is internally redundant, so individual units are highly
+                   reliable, but more units means more connectors that can fail
+                    Can mitigate by making as many connections as possible pre-launch (one end of every
+                     cable), add redundant connection ports to each unit, and carry extra cables
+February, 2015                                     michelle.a.rucker@nasa.gov
+                                                      Humans     2 Mars                                    16
+                 Kilopower Concept Disadvantages
+
+       7. 10 kWe scaling limit
+                 — Kilopower expected to scale readily up to 10 kWe, but not beyond
+                 — Applications requiring higher power require FSP type design, or would
+                   have to accommodate multiple Kilopower systems ganged together
+                 — Not an issue for surface application, but may not be practical for high-
+                   power, in-space applications
+       8. Large deployed system footprint
+                 — Study assumed Kilopower units must be at least 1 body length apart
+                      Prevents domino effect if one is knocked over
+                 — In the worst case of 3 kWe units, the overall system footprint is large
+                      Though still not as large as the FSP’s deployed radiators that would require
+                       ~34 m linear area free of obstacles
+
+                            5m    5m    5m
+           3 kWe
+                                                5m
+         Kilopower
+            Array                               5m
+
+
+February, 2015                                   michelle.a.rucker@nasa.gov
+                                                    Humans     2 Mars                                 17
+             Mars Surface Power System Unique Needs
+      1. System Connectivity
+          — Surface power systems should be designed to operate alone, or in combination with like
+            systems
+          — Rationale: Need to gang together multiple small systems to meet mission needs
+      2. Dust Tolerant Mechanisms
+          — Surface power system mechanisms should be tolerant to surface dust contamination
+          — Rationale: will be exposed to dust storms, some lasting months. Mechanisms such as
+            deployable radiators and connector covers will be actuated if the systems are redeployed to
+            different areas or to support different activities.
+      3. Robotic Handling
+          — Surface power system design should be robust to robotic handling
+          — Rationale: Power system must be robotically unloaded from the cargo lander, deployed and
+            activated before crew arrives.
+      4. Surface Transport
+          — Surface power system design should be robust to Mars surface transportation loads
+          — Rationale: Power system will be transported a safe distance from the eventual crew habitation
+            area, and may be re-deployed to remote areas to support exploration activities. There are
+            currently no plans to groom roadways on Mars.
+      5. Compact
+          — In stowed configuration, surface power systems should be compact
+          — Rationale: Mars landers will be as much volume-limited as they are mass-limited.
+
+February, 2015                                    michelle.a.rucker@nasa.gov
+                                                     Humans     2 Mars                                      18
+             Mars Surface Power System Unique Needs
+      6. Restart Ability
+          — Surface power systems should be capable of being started, stopped, and restarted.
+          — Rationale: Restart ability allows power systems to be moved around the surface to support
+            special activities (such as drilling), and also allows the crew to safely approach for inspections
+            or repairs
+      7. Surface Environment Compatibility
+          — Surface power system design should be tolerant to Mars surface environmental conditions.
+          — Rationale: Unique design features must function in partial gravity, atmospheric pressure, etc.
+      8. Shelf Life
+                 — Surface power system should be certified for at least 2.5 year [TBR, To Be Resolved] shelf life
+                 — Rationale: Given payload processing time at the launch facility plus Mars transit time, there
+                   is likely to be a 2+ year lag between power system final check-out and surface activation
+      9. Operational Life Limit
+                 — Surface power system components should be rated for a minimum of 10 years [TBR]
+                   operation. Operational life may be continuous, or intermittent over a 12 year [TBR] period
+                 — Rationale: The surface power system will arrive on the first cargo lander, but must support
+                   subsequent missions. With launch intervals of ~26 months, the power system may have to
+                   operate for many years.
+      10.Planetary Protection
+          — Surface power system design should be sensitive to planetary protection constraints.
+          — Rationale: if the system generates enough heat to melt surrounding ice it potentially creates a
+            localized “special region” that would have implications for how close crew, crew rovers, or
+            habitats be located.
+February, 2015                                          michelle.a.rucker@nasa.gov
+                                                           Humans     2 Mars                                         19
+                    Key Take-Aways
+        Conceptual crewed Mars surface mission requires <40 kWe Power
+                  — For this particular reference mission and architecture
+        Power needed to make return propellant—and keep it cold—is a driver for
+                 surface power
+                  — Eliminating ISRU saves power (but not much), and it won’t save landed mass
+        There are better ways to reduce power mass
+                  — Breaking the stationary power source up into multiple, smaller packages not only
+                    saves mass, it improves operational flexibility, increases exploration range, and
+                    supports staged build-up and relocation of surface assets
+                  — There are also disadvantages that would have to be mitigated
+        This type of application requires unique power system features that may not
+                 be necessary for other applications of this technology
+                Choice between a single large reactor vs. several smaller reactors is an
+                 Agency-level decision based on factors beyond the scope of this study
+
+         This exercise was not intended to recommend a particular concept.
+           Final decisions must weigh programmatic considerations. Mars
+         human system architectures may deviate from current concepts and
+                        significantly alter power system needs.
+February, 2015                                      michelle.a.rucker@nasa.gov
+                                                       Humans     2 Mars                                20
+                            Acknowledgments
+            Dr. Andrew Abercromby, Kevin Watts, Lee Mason, Don Palac, Dr. Steve Hoffman,
+           Jason Poffenberger, Ryan Whitley, Alida Andrews, Jeff George, Dr. Joshua Kennedy,
+            Steve Chappell, Dr. Mike Gernhardt, Pat Loyselle, Tony Colozza, Pat George, Jerry
+                               Sanders, Todd Peters, and Dr. John Warren
+
+
+                                    Questions?
+                                    NASA/JSC/YX/Michelle Rucker
+                                            281-244-5569
+                                     Michelle.a.rucker@nasa.gov
+
+                      Questions About the Kilopower Concept?
+                   NASA/GRC/Don Palac                                NASA/GRC/Lee Mason
+                   216-977-7094                                      216-977-7106
+                   d.palac@nasa.gov                                  lee.s.mason@nasa.gov
+
+February, 2015                                michelle.a.rucker@nasa.gov
+                                                 Humans     2 Mars
+

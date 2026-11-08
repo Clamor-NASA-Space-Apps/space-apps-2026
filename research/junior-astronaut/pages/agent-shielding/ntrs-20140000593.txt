@@ -1,0 +1,687 @@
+    Radiation Exposure Analyses Supporting the Development
+         of Solar Particle Event Shielding Technologies
+
+                                                Steven A. Walker 1
+                                  Old Dominion University, Norfolk, VA 23529, USA
+
+                           Martha S. Clowdsley 2, H. Lee Abston 3, Matthew A. Simon 4
+                             NASA Langley Research Center, Hampton, VA 23681, USA
+
+                                                       and
+
+                                               Adam M. Gallegos 5
+                            Science & Technology Corporation, Hampton, VA 23681, USA
+
+
+            NASA has plans for long duration missions beyond low Earth orbit (LEO). Outside of
+        LEO, large solar particle events (SPEs), which occur sporadically, can deliver a very large
+        dose in a short amount of time. The relatively low proton energies make SPE shielding
+        practical, and the possibility of the occurrence of a large event drives the need for SPE
+        shielding for all deep space missions. The Advanced Exploration Systems (AES) RadWorks
+        Storm Shelter Team was charged with developing minimal mass SPE storm shelter concepts
+        for missions beyond LEO. The concepts developed included “wearable” shields, shelters that
+        could be deployed at the onset of an event, and augmentations to the crew quarters. The
+        radiation transport codes, human body models, and vehicle geometry tools contained in the
+        On-Line Tool for the Assessment of Radiation In Space (OLTARIS) were used to evaluate
+        the protection provided by each concept within a realistic space habitat and provide the
+        concept designers with shield thickness requirements. Several different SPE models were
+        utilized to examine the dependence of the shield requirements on the event spectrum. This
+        paper describes the radiation analysis methods and the results of these analyses for several
+        of the shielding concepts.
+
+
+                                               I. Introduction
+
+T   HE space radiation environment beyond LEO results from the combination of galactic cosmic rays (GCR), solar
+    particle events (SPEs), and secondary particles resulting from interactions of the charged ions of these
+environments with the materials surrounding the astronauts. Galactic cosmic rays are a low intensity, ever present
+background radiation consisting of nuclei covering the entire periodic chart. Due to their high energies, GCR
+penetrate materials easily, and therefore, even large quantities of shielding material may not provide enough
+protection for astronauts for long duration missions. In contrast, large solar particle events are rare and their
+durations are measured in hours to days. Shielding materials are effective at reducing astronaut exposure to these
+events because SPEs are made up primarily of low and medium energy protons. Therefore, if adequate shielding is
+provided, the SPE risk can be managed through appropriate design and operational considerations.
+
+
+
+
+1
+  Research Scientist, Department of Mathematics & Statistics, Old Dominion University, Norfolk, VA, 23529.
+2
+  Physicist, Durability and Damage Tolerance Branch, Research Directorate, NASA Langley Research Center,
+Hampton, VA, 23681, Mail Stop 188E.
+3
+  Aerospace Engineer, Mechanical Systems Branch, Engineering Directorate, NASA Langley Research Center,
+Hampton, VA, 23681, Mail Stop 432.
+4
+  Aerospace Engineer, NASA Langley Research Center, Hampton, VA, 23681, Mail Stop 462.
+5
+  Currently: Structural Analysis Engineer, The Boeing Company, 2 Industrial Hwy, Ridley Park, PA 19078.
+      Because of the nature of an astronaut’s exposure that results from a SPE, adequate shielding could be provided
+by simply surrounding a vehicle with a large enough quantity of shielding materials. However, it is cost prohibitive
+to launch the necessary mass to shield an entire space habitat or vehicle when that mass is dedicated only to
+radiation shielding (purely parasitic) and serves no other function. For this reason, the objective of any SPE
+protection plan should be to reuse and, where necessary, reconfigure available onboard mass to shield a smaller area
+within the vehicle or habitat to provide a temporary refuge: a SPE storm shelter. In this way, the need for parasitic
+shield mass can be minimized or perhaps eliminated.
+      NASA’s Advanced Exploration Systems (AES) projects were created to advance the readiness levels of
+existing technologies to the level needed for exploration missions. The AES RadWorks project is focused on
+reducing astronaut risk to space radiation through the development of improved dosimetry and shelter concepts. The
+RadWorks Storm Shelter team was charged with designing minimal mass shield concepts for SPE protection. Four
+concepts of protection were developed: a “wearable” shield, an individual protection concept, a group protection
+concept, and a shielding augmentation to the crew quarters. All of these protection schemes were designed to
+leverage onboard structure, logistics, food, or other consumables.
+      The protection provided by each of the shielding concepts was analyzed with the radiation transport codes,
+human body models, and vehicle geometry tools contained in OLTARIS1 (On-Line Tool for the Assessment of
+Radiation in Space - http://oltaris.nasa.gov) developed at the NASA Langley Research Center. OLTARIS enables
+the evaluation of structures from a simple one dimensional single material slab to materially and structurally
+complex spacecraft. OLTARIS also contains detailed human geometry, allowing evaluation of radiation exposure to
+humans in addition to spacecraft. The transport algorithm used by OLTARIS is based on the High charge (Z) and
+Energy TRaNsport (HZETRN)2,3 deterministic code, which was also developed at NASA Langley Research Center.
+HZETRN can be used to rapidly perform transport calculations, allowing (through OLTARIS) the inclusion of
+radiation analysis in the design cycle of a spacecraft. OLTARIS also enables rapid trade studies where a small
+number of vehicle parameters may be varied to see the impact design choices can have on radiation protection.
+   The remainder of the paper is organized as follows. Section II provides a description of the shelter concepts
+analyzed in this study. Section III describes the habitat assumed for the analysis of the concepts and the necessary
+geometry handling. Section IV describes the analysis process used. Section V describes the baseline analyses.
+Section VI presents the results of the analyses for each shelter concept. Section VII presents conclusions. It is
+important to note that the goal of this paper is not to champion a particular concept, but to provide information to
+designers so they can decide what would work for them.
+
+                                  II. Description of Shielding Concepts
+   Four categories of shielding ideas were investigated: wearable protection, deployable shelters for individuals,
+deployable group shelters, and augmentations to the crew quarters. For each of these four concepts, a Computer
+Aided Design (CAD) model of the concept was generated and placed into the habitat shielding model. A detailed
+description of each of the shielding concepts follows.
+
+A. Wearable Shielding Concept
+    In order to minimize the material necessary for protecting individual crewmembers, a wearable protection
+strategy of augmenting crew sleeping bags with water bladders or logistics was proposed. By protecting crew
+members directly, the mass of the protection medium is minimized. By using the sleeping bags, work and sleep can
+be accommodated in a space proven to be habitable. Additionally, sleeping bags are portable, so protection could be
+maintained while moving within the habitat.
+    Two variations in wearable concepts were evaluated. The first was a sleeping bag with an integrated water
+bladder, as shown in Fig. 1a. The bladders were pre-integrated into the sleeping bags and could be either pre-filled
+or filled as needed for a SPE. A detachable, water-filled hood was added to the sleeping bag to provide protection to
+the head and neck. Baffles were provided to maintain the desired shape when the bladders are filled. Upper and
+lower body sections were designed as separate pieces which would be overlapped to aid mobility while maintaining
+complete protection of blood-forming organs.
+    The second variant was to use a sleep restraint as a base, and add on top of it a ‘dragon scale’-like grid of
+overlapping pockets filled with food pouches and/or trash formed into ‘green bricks’ (also known as heat melt
+compact bricks, or HMC bricks), as shown in Fig. 1b. This logistics-based wearable variant could be used in
+combination with or in lieu of a water-based system. In this concept, pockets of food pouches and green bricks could
+be pre-filled in rows that would fold up accordion-like for storage, or the entire grid could be one integrated object
+(see Fig. 1b) and stored folded up. Each row of pouches would have straps and/or Velcro for fast deployment onto a
+ a) Protection based on water filled bladders.               b) Protection based on food pouches.
+
+ Figure 1. Wearable shielding concepts.
+
+sleep restraint system. This system would be deployed at the onset of a SPE. A detachable, water-filled hood would
+also be added to this system to provide protection to the head and neck.
+
+B. Deployable Shielding, Individual Protection Concept
+                                                                                 The individual shelter concept had
+                                                                             as a base (backing) a two-part hinged
+                                                                             water containment system. This backing
+                                                                             would contain some of the contingency
+                                                                             life support water. Each half of the
+                                                                             backing held shelter frame supports,
+                                                                             thin squared U-shaped rods (the red in
+                                                                             Fig. 2). These rods were placed into pre-
+                                                                             existing holes to create the spacing
+                                                                             between the astronaut and the protection
+ a) Shelter in its stowed configuration. b) View of the internal structure   medium, and would have thin metal
+                                             for the fully deployed shelter. strips as a stiffener. Figure 2a shows the
+                                                                             deployable shelter in its stowed
+ Figure 2. Individual protection deployable shielding concepts.              configuration, and Fig. 2b shows the
+                                                                             internal structure of the shelter after it
+had been deployed. HMC bricks, cargo transfer bags (CTBs), food storage, etc. could serve as the protection
+medium and could be pre-integrated into sheets, similar to those used for the sleep restraint variant of the wearable
+concept, which could be attached to the deployed shelter framing.
+
+C. Deployable Shielding, Group Protection Concept
+     A group shelter concept would ideally be positioned in an already protected area and built out of moveable
+structural components, possibly augmented by repositioning logistics to provide added shielding. The concept, as
+implemented in this study, used floor/ceiling structural panels, augmented by the ability to add water to a hollow
+core within the panels, to create a shelter in the central core of the habitat that ran from the main section floor to the
+lower loft. In Fig. 3a, the brown column rising through the middle of the core section of the habitat roughly defines
+the volume this concept would protect. Additional panels provided a cap at the top of the lower loft. These water
+filled panels could also serve as attachment points for pre-bundled logistics to enhance the shelter’s protection, as
+shown in Fig. 3b.
+
+D. Augmentation to Crew Quarters Concept
+    This concept utilized crew quarters similar to those in the International Space Station (ISS), but with integrated
+hollow structural walls that would be filled with water to provide radiation protection. Figure 4 shows a single ISS-
+                                                                                             type crew quarter which had
+                                                                                             been redesigned with thick
+                                                                                             structural panels which provide
+                                                                                             containment for contingency life
+                                                                                             support system water. Figure 4a
+                                                                                             shows an exterior view of the
+                                                                                             crew quarters, with the yellow
+                                                                                             portion being the door bump out.
+                                                                                             Fig. 4b removes the door and
+                                                                                             displays an exploded view of the
+                                                                                             panels. The white and grey item
+                                                                                             is the sleep restraint. In Fig. 4b,
+                                                                                             the left-most and right-most
+                                                                                             panels are the side panels, the
+                                                                                             top-most     and      bottom-most
+                                                                                             panels are the top and bottom
+                                                                                             panels, and the remaining panels
+  a) Protection configuration relying solely b) Protection configuration utilizing           are the back panels. To preserve
+     on water filled panels.                     water filled panels and repositioned        the inner mold line of the
+                                                 logistics.                                  original design, the additional
+                                                                                             wall thicknesses were applied
+  Figure 3. Deployable group protection shielding concept.                                   outward. Individual wall panels
+                                                                                             could be permanently filled or
+                                                                            filled and drained on an as-needed basis. From a
+                                                                            radiation protection perspective, placing the
+                                                                            crew quarters as close to the center of the habitat
+                                                                            as possible is useful, because this could provide
+                                                                            space between the outer wall of the habitat
+                                                                            pressure shell and the outward wall of the crew
+                                                                            quarters that could be filled with logistical
+                                                                            materials to provide additional protection. The
+                                                                            major advantage of crew quarters-based shelters
+                                                                            was that the space within the crew quarters had
+                                                                            been designed and proven for durations of
+                                                                            occupation much longer than the length of an
+                                                                            SPE. Additionally, crew members were
+                                                                            accustomed to spending prolonged periods
+                                                                            within their crew quarters and would have the
+                                                                            ability to perform some of their daily tasks from
+   a) Exterior view of the model; b) Exploded view of the crew              this location. Another advantage was that if the
+      the yellow piece is the door.    quarters with the door removed.
+                                                                            walls were permanently filled with water, they
+                                                                            would provide some degree of continuous
+   Figure 4. CAD model of the crew quarters. The white and
+   grey object is the sleep restraint.                                      protection from galactic cosmic rays for the
+                                                                            crew.
+
+                                      III. CAD Models and Ray Tracing
+    Radiation analysis of a vehicle or habitat has two major parts: geometry preparation/handling and the transport
+calculations with analysis. The first part involves creating the radiation shield model to represent the vehicle/habitat,
+insuring all the parts are solid elements, every part has a material definition and density, all the needed subsystems
+are in place, all the logistics and cargo have been placed, there are no holes or overlaps anywhere, etc. Once the
+vehicle is ready to be used, human phantoms must be placed in the appropriate positions with the correct
+orientations. The second part is taking this starting point and performing the calculation transporting the external
+environment through the shielding materials and human tissue, and then calculating whole body effective dose
+equivalent (effective dose).4 This section will focus on the first step, the creation of shield models and the coupling
+of the shield model to the transport calculation.
+A. Free Space Habitat Shield Model
+    The habitat model used for this project was a free space adaptation of the Habitat Demonstration Unit (HDU),
+shown in the first panel of Fig. 5. The HDU was originally developed to represent a lunar habitat for Human-In-The-
+Loop (HITL) operational testing. The HDU model, which was delivered in Standard for the Exchange of Product
+model data (STEP) format, was originally created in Computer Aided Three-dimensional Interactive Application
+(CATIA) developed by Dassault Systèmes. This model represented the “as built” HDU; not a deployable space
+habitat. While a few of the necessary sub-systems were included in the main section (lower level), the habitat was
+largely empty, as shown in the second panel of Fig. 5.
+    The conversion process began by importing the provided STEP files into Parametric Technology Corporation’s
+Pro/ENGINEER©. While maintaining the size and lay-out of the surface habitat, the HDU was converted to a free
+space habitat by removing external legs, staircases, etc. Numerous duplicate parts and interferences (overlapping
+parts) were identified and corrected, and appropriate densities were assigned for all structural and sub-structure
+elements. Because the number of parts requiring material assignment was large, parts were converted to be either:
+equivalent aluminum, equivalent polyethylene or equivalent tissue masses. Figure 5c shows the first major parts to
+be placed: the crew quarters. Finally, the habitat was populated with consumables and equipment appropriate for a
+365 day mission as shown in the last three panels of Fig. 5, d-f. Estimating appropriate quantities of food, water,
+and other cargo for a one year mission and finding space for these items in the habitat was one of the major
+challenges of this effort. Figure 6 shows the major areas of the habitat model.
+    Once the HDU shield model was ready, human models were placed into the CAD model. Two types of human
+models were used. The first was a male ‘mannequin’, representing a 50th percentile male. This was a low fidelity
+model, in which all of the internal structure was smeared into an average tissue. The second model was a female
+‘phantom’, which served as a place holder for a 50th percentile female, modeled here by the Female Adult voXel
+model (FAX).5 The FAX model is a high fidelity female model, based on CT (X-ray Computed Tomography) scans,
+in which organs and tissues are explicitly identified voxel by voxel or segmented. The FAX model was designed to
+comply with the International Commission on Radiological Protection (ICRP) reference female.6 For a more
+detailed treatment of FAX as used on OLTARIS, see Slaba et al.7
+
+B. Ray Tracing
+    The coupling between the CAD geometry and HZETRN transport code is done through ray tracing. Ray tracing
+is done by choosing one or more dosimetry points and at each location projecting a large number of rays (in this case
+1002 rays) WR FRYHU WKH IXOO ʌ steradians. Along each ray, the intersection of the ray with each model part is
+recorded. Figure 7 shows an example of ray tracing performed on an International Space Station (ISS) model, where
+the red lines are the intersections between model elements and individual rays.
+    Figure 8 shows a proxy used to position the human phantom, FAX for this analysis, in the CAD habitat model
+for ray tracing. In Fig. 8, the three points labeled A, B, and C in the proxy form an orthogonal triad that defines the
+reference rays to correctly orientate the CAD model with the pre-computed FAX ray traces. The HDU shield model
+was ray traced at each of the five points in the proxy, and the pre-computed FAX ray traces were then added to the
+appropriate point ray trace. For a more complete explanation of using the proxies see Singleterry et al.,1 or the
+OLTARIS website (http://oltaris.nasa.gov/help_documentation/OLTARIS_phantom_process_v2.pdf).
+
+                                    IV. Radiation Analysis Description
+    The shielding effectiveness of each concept was evaluated in terms of the reduction in astronaut exposure
+provided. Two protection levels were used, a threshold of 50% reduction and a goal of 70% reduction. Radiation
+shield models were developed for both the habitat and the shielding concepts as previously described. The reduction
+in exposure was evaluated by using as a basis the effective dose for a 50th percentile female astronaut in the habitat’s
+normal configuration and then repeating the calculation for the same astronaut within the habitat reconfigured to
+include the shielding concept. The habitat and shielding concepts were ray traced with scripts utilizing Sigmaxim’s
+SmartAssembly™ tool set (www.sigmaxim.com). The radiation analysis tools (geometry algorithms, HZETRN
+transport code, effective dose scripts) developed for OLTARIS were used to calculate effective dose. The FAX
+phantom was used to model the female astronaut, utilizing the recommended anatomical point distribution of Slaba,
+et al.7 CAD models for three 50th percentile male astronauts were also included in the habitat.
+
+A. SPE Model Chosen
+   SPEs vary in magnitude and spectral shape. Previous architecture studies had used fits for individual historic
+events or models for probabilistic events as a design basis. The requirements for the CEV Orion8 module utilized
+a) Original, ground based structure.                       b) Cut away internal view of the HDU with all the external
+                                                               structure removed.
+
+
+
+
+c) HDU core section with crew quarters.                    d) Beginning step of placing logistics in the HDU.
+
+
+
+
+e) Intermediate step of placing logistics in the HDU. f) HDU with all the logistics and internal sub-systems placed.
+
+Figure 5. CAD model development of the HDU.
+
+the King fit for the August 19729 event. However a design basis SPE for other exploration mission architectures has
+not yet been identified.
+                                                                        For this effort, a SPE spectrum calculated using a
+                                                                   tool developed by Xapsos10 to produce maximum
+                                                                   proton environments due to solar particle events for
+                                                                   missions with durations of one year or more was used.
+                                                                   The user of this tool chooses a mission duration and a
+                                                                   confidence level, and the tool outputs integral proton
+                                                                   fluences for energies ranging from 1 MeV to 300
+                                                                   MeV for both the total SPE exposure that would occur
+                                                                   during the mission and a “worst case” SPE. This
+                                                                   “worst case” SPE is the single largest event that the
+                                                                   model predicts to occur during the mission time
+                                                                   frame. For this analysis, the total proton fluence for a
+                                                                   one year mission with a 95% confidence was used.
+                                                                   The integral proton fluence spectra was extrapolated
+                                                                   to cover the energy range from 0.01 MeV to 2,500
+      Figure 6. The major zones of the HDU. The loft and
+      main section combined will be referred to as the core        MeV and then the differential proton spectrum shown
+      section or just the core of the HDU.                         in Fig. 9 was calculated. The slight kink in the Xapsos
+                                                                   spectrum is due to numerical effects.
+                                                                                While the Xapsos event was used as the
+                                                                           design basis, analyses were also performed for
+                                                                           four other SPE spectra to facilitate
+                                                                           comparisons with previous studies and
+                                                                           provide some insight into how much results
+
+
+
+
+    Figure 7. Example ray trace using the International Space
+    Station. The red lines are the intersections of the rays with model
+    elements. Figure courtesy of Garry Qualls, NASA Langley
+    Research Center.
+
+will vary depending on the SPE spectrum. The four other spectra
+used were the King fit for the August 19729 event, a Band fit for
+the August 1972 * event, developed by Allen Tylka of the Naval
+Research Laboratory, a Band fit for the September 1989* event
+developed by Tylka, and a second fit for the September 198911
+event which had been used in previous studies and is labeled “Sept
+89 OLTARIS.1” Figure 9 displays the differential proton spectra             Figure 8. An example of the Initial
+                                                                            Graphics Exchange Specification, IGES,
+for all the SPEs used for the analyses.
+                                                                            phantom, a proxy used to position a human
+                                                                            in CAD geometry. The left part of the figure
+B. Effective Dose Computation                                               has extracted the reference points which
+    Effective dose represents a whole body exposure. At each point          define the orientation of the proxy in the
+ray traced, the total thickness of aluminum, polyethylene, and              CAD model for clarity. The right part of the
+tissue along each ray were computed. For each SPE considered, a             figure has the five points used for the vehicle
+dose equivalent verses depth in aluminum, polyethylene, and tissue          ray traces. Figure courtesy of Garry Qualls,
+table was pre-computed using the ICRP 60 quality factors.12 The             NASA Langley Research Center.
+
+
+
+*
+    Private communication with William (Bill) Atwell, Boeing Company, for the coefficients used for both band fits.
+                                                                 dose equivalent verses depth table was interpolated
+                                                                 for the three thicknesses to compute the dose
+                                                                 equivalent along a ray. The dose equivalent along
+                                                                 each ray was integrated to find the dose equivalent
+                                                                 at a point in an organ. After the dose equivalent at
+                                                                 all the points in the organ had been found, the mass
+                                                                 averaged dose equivalent for the organ was
+                                                                 computed. Once all the organ dose equivalents were
+                                                                 found, the effective dose was then computed using
+                                                                 the National Council on Radiation Protection and
+                                                                 Measurements (NCRP) 132 tissue weighting
+                                                                 factors.4
+
+                                                                  C. Concept Analysis Description
+                                                                      For each concept, the quantity of water, food, or
+                                                                  other materials providing shielding was varied, an
+                                                                  effective dose for each thickness was generated, and
+                                                                  the percent reduction was computed. In addition to
+  Figure 9. Proton fluence as a function of energy for the        the target effective dose values, the total mass for
+  SPEs considered here.                                           each concept was estimated. The estimated mass
+                                                                  was used to provide a figure of merit for each
+concept; the lower the mass, the more viable the concept. Some of the materials used would already be on board, so
+it might be more appropriate to evaluate the concept based only on the extra materials needed, the parasitic mass.
+However, estimates for the exact quantities of water, food, and other logistics that will be available for use in the
+shield concepts vary widely. For this reason, the total shielding masses are presented in this work.
+
+                                          V. Baseline Radiation Analysis
+    Before evaluating the effectiveness of any of the shielding concepts, the astronaut exposure was calculated in the
+habitat in its normal configuration without deploying any shielding concepts. This calculation was performed for
+two different astronaut locations, one in the crew quarters and one in the main section central area. Figure 10 shows
+the positions of all of the astronauts for these calculations. The location of the astronaut for which the calculation
+was performed is identified with a red arrow in each part of Fig. 10. Table 1 shows the results for all five SPEs
+considered. As shown in the table, there was a large variation in the effective dose values depending on which SPE
+
+
+
+
+a) Configuration for the main section analysis.           b) Configuration for the crew quarters analysis.
+
+Figure 10. Position of the female phantom (red arrow) and male mannequins for the baseline radiation analyses.
+The major structures and subsystems have been removed for clarity.
+was chosen. Shielding concepts will meet the required exposure reduction, if the effective dose for the astronaut
+inside the concept is less than 50% of the Xapsos 95% event for the habitat in its normal configuration (the first
+column of effective doses in Table 1). However, the goal was a reduction of 70%. Therefore, effective dose values
+for shielding concepts in the crew quarters are compared to the baseline value of 450 mSv, and effective dose values
+for shielding concepts in the main section were compared to the baseline value of 361 mSv.
+
+
+ Table 1. Effective dose values for each SPE considered for the basic HDU configuration. The values of the first
+ column, Xapsos 95%, are taken as the baseline values.
+
+                                                           Effective Dose, mSv
+                                            Aug. 1972         Aug. 1972         Sept. 1989         Sept. 1989
+                          Xapsos 95%
+                                             (King)             (Band)         (OLTARIS)            (Band)
+      Crew Quarters           450             311                190               106                102
+  Main Section, Center        361              225               139                89                 82
+
+
+
+                                       VI. Radiation Analysis Results
+   This section presents the results of the radiation analysis, including the total mass of the concept, for each of the
+concepts.
+
+A. Wearable Shielding Concept
+                                                Unlike the other concepts, a CAD model was not required for the
+                                            fabrication of the wearable concept; so a simplified CAD model was
+                                            created for radiation analysis purposes, as shown in Fig. 11. As with the
+                                            baseline analysis, protection provided by the wearable concept was
+                                            analyzed for two scenarios: the astronaut using the wearable shielding in
+                                            the crew quarters and the astronaut in the wearable shield in the central
+                                            area in the main section. The shielding material was assumed to be
+                                            water. A separate analysis showed that the contents and packaging of the
+                                            food packets could be approximately modeled as water, as long as the
+                                            thicknesses and masses were scaled to account for the lower densities of
+                                            the food packets. The thickness of the wearable concept was uniformly
+                                            varied and the effective dose calculated for each thickness and plotted in
+                                            Fig. 12.
+                                                Figure 12a shows the effective dose plotted against the thickness of
+                                            the wearable concept in inches for the case in which the wearable
+                                            concept is utilized in the crew quarters, and Fig. 12b shows the
+                                            reduction in effective dose provided by the wearable concept plotted
+                                            against the thickness in inches. As seen in the baseline analysis, there is
+                                            a large variation in results depending on the SPE chosen. For example,
+                                            2.1 inches (5.3 g/cm2) of water are required for a 50% reduction for the
+                                            Xapsos SPE, but only 0.9 inch (2.3 g/cm2) would be needed for the King
+                                            SPE. Similarly, 5.0 in. (12.7 g/cm2) of water would be needed for a
+ Figure 11. Simplified CAD model of the     70% reduction for the Xapsos SPE, but only 1.9 in. (4.8 g/cm2) would
+ wearable protection concept.               be needed for the King event. The Xapsos 95th percentile event effective
+                                            dose is clearly much larger than the rest. Also, as seen in Fig. 12b, the
+percent reduction for the Xapsos SPE and the Band fit to the Sept. 1989 are very similar, while their values are very
+different, as seen in Fig. 12a. Similar trends were seen for all the concepts investigated; only the results for the
+Xapsos SPE will be presented for the remainder of this paper.
+ a) Effective dose as a function of wearable thickness, in     b) Percent reduction in effective dose as a function of
+    inches.                                                       wearable thickness, in inches.
+
+ Figure 12. Results for the wearable concept used in the crew quarters.
+
+    The results for the scenario in which the wearable concept was used in the main section are not plotted here, but
+the trends were similar. The required water bladder thicknesses and corresponding water mass values are given in
+Table 2 for both scenarios and both protection levels. Based on these results, it appeared possible to create a
+wearable concept, 2-3 inches thick, that would meet the 50% exposure reduction requirement, but a wearable
+concept that would meet the 70% protection level would probably be too thick to allow mobility.
+
+Table 2. Results for the wearable concept. The first two columns are the thicknesses needed for the indicated
+percent reduction and the last two columns are the masseses needed for the indicated percent reduction.
+
+                                                Water Wall Thickness, in          Total Mass for 4 Astronauts, lbm
+                                                50%              70%                 50%                  70%
+    Wearable Shield in Crew Quarters             2.1              5.0                1527                 3636
+    Wearable Shield in Main Section              2.8              6.1                2036                 4436
+
+
+
+B. Deployable Shielding, Individual Protection Concept
+    The radiation analysis for the deployable concept was performed by uniformly varying the thickness of the layer
+of food packets and/or HMC bricks utilized in this concept and calculating the effective dose for each thickness.
+The thickness of the water reservoir was held constant at 2 inches. These calculations were performed for two
+different materials. First, the food packet/HMC brick layer was modeled as water. This was a good approximation,
+if this shielding layer is primarily made up of food packets. The calculations were repeated, modeling the food
+packet/HMC brick layer as pure aluminum. This represented a worst case for the protection provided by the HMC
+bricks. Results for this concept are presented in units of g/cm2 rather than inches, because the absolute thicknesses
+will vary depending on the densities of the food packets and/or bricks making up the shielding layer.
+    Calculations were first performed for only one deployable unit at a variety of locations in the main section to
+examine the variation in results and identify preferential locations. The locations examined were standing in the
+center of the main section, lying down in the center of the main section, lying against the ceiling of the main section,
+standing against a wall sheltered by large mass subsystems, and lying on the floor sheltered by the same subsystems.
+Figure 13 shows the percent reduction versus the thickness of water used for those five locations. Results varied
+significantly depending on the location of the shield. For example, the shield thickness required for the 50%
+protection level varied from 2.7 g/cm2 to 10.4 g/cm2 using the water approximation and from 4.0 g/cm2 to 15.5
+g/cm2 using the aluminum approximation. This analysis showed that the locations abutting the floor were better
+locations.
+                                                                     The effective doses for each of four astronauts in
+                                                                 four separate deployable shielding units all in
+                                                                 locations abutting the floor, as shown in Fig. 14,
+                                                                 were then calculated. The results for these
+                                                                 calculations are presented in Table 3, with the
+                                                                 astronaut in the center location and the top right
+                                                                 location getting slightly better protection than the
+                                                                 other two. The results in Table 3 were similar to
+                                                                 those for the floor cases of the initial five places
+                                                                 examined. The masses in Table 3 are the total of the
+                                                                 masses required for all four of the deployable
+                                                                 shields. Based on these results, it appears to be
+                                                                 possible to design a deployable concept of this type
+                                                                 that will meet either the 50% or the 70% protection
+                                                                 level, but the 70% protection level may require more
+                                                                 food and/or HMC bricks than are present on the
+Figure 13. Percent reduction verses thickness of water for       habitat at some points during the mission duration.
+five possible locations in the main section of the HDU to find
+preferable places to position the astronauts for the              C. Deployable Shielding, Group Protection
+individual protection concept.
+                                                                  Concept
+                                                                         Two scenarios were evaluated for the group
+                                                                     deployable shield concept. In the first scenario,
+                                                                     the panels used to create the storm shelter and
+                                                                     the water within them provided the shelter. In the
+                                                                     second scenario, the reconfigurable panels which
+                                                                     may or may not contain water provide support
+                                                                     for logistics and cargo which was moved to
+                                                                     surround the storm shelter created in the central
+                                                                     area.
+                                                                         In both cases, the thickness of the water wall
+                                                                     was varied uniformly and the effective dose was
+                                                                     calculated for each of the four astronaut
+                                                                     locations for each thickness. The thicknesses
+                                                                     and the corresponding masses needed to reach
+                                                                     the two protection levels were then identified.
+                                                                     The results are shown in Table 4. A thickness of
+                                                                     1.04-1.65 inches corresponds to a mass of 1321-
+                                                                     2109 lbm, a thickness of 4.04-5.00 inches
+                                                                     corresponds to a mass of 5146-6372 lbm, and a
+                                                                     thickness of 1.67-2.85 corresponds to a mass of
+                                                                     2129-3630 lbm. The range in results represents
+ Figure 14. Configuration for the radiation analysis for the four    the variation depending on which astronaut
+ individual deployable protection units.                             location was used as a basis. The loft locations
+                                                                     produced thinner shield requirements than the
+                                                                       locations in the main section. For each set of
+ Table 3. Results for the deployable shield, individual protection     astronauts in either the loft or main section,
+ concept. The first two columns are the thicknesses needed for the     one person required more protection than the
+ indicated percent reduction and the last two columns are the          other. The larger thickness value needed in
+ masseses needed for the indicated percent reduction.                  each section was used to determine the
+                                                                       thickness for the 50% and 70% reduction.
+                         Food/Brick Layer        Total Mass for 4
+                         Thickness, g/cm 2
+                                                 Astronauts, lbm       Thus,  the masses in Table 4 are the sums of the
+                       50%            70%        50%         70%       masses   of the augmentation needed to provide
+    Modeled as                                                         a 50% or a 70% reduction for both astronauts
+                     1.33-2.35    8.70-11.23      627       3693       on each level. Based on these results, it
+       Water
+    Modeled as                                                         appears possible to create a storm shelter using
+                     1.86-3.43    14.69-20.65     905       6520
+     Aluminum                                                          the floor panels that will meet either the 50%
+                                                                        or the 70% protection levels, but the large
+  Table 4. Results for the group protection deployable shielding        quantity of water needed to meet the 70%
+  concept. The first two columns are the thicknesses needed for the     protection level (~5800 lbm) may be more
+  indicated percent reduction and the last two columns are the          than is available. For the scenario in which
+  masseses needed for the indicated percent reduction.                  logistics surrounded the shelter, it may be
+                    Water Wall Thickness,     Total Mass of Water,
+                                                                        possible to reach the 50% protection level
+                            in                       lbm                without utilizing water and the quantity of
+                     50%          70%          50%          70%         water needed for the 70% protection level is
+    Panels Only     1.04-1.65    4.04-5.00      1696        5785
+                                                                        smaller than without logistics. It should be
+                                                                        noted, however, that this evaluation assumed a
+     Panels Plus                                                        panel thickness of 1.59 g/cm2 without water. If
+                        0        1.67-2.85        0         2677
+      Logistics
+                                                                        the actual panels are thinner, more water may
+                                                                        be needed.
+
+D. Augmentation to Crew Quarters Concept
+                                                                 Three scenarios were evaluated for the crew quarters
+                                                             concept. In the first, the four crew quarters were left in
+                                                             their original positions abutting the exterior walls, as
+                                                             previously shown in Fig. 5 and Fig. 10, and the thickness
+                                                             of water walls built into the crew quarters’ walls were
+                                                             varied uniformly. In the second scenario, the four crew
+                                                             quarters were repositioned closer to the center of the
+                                                             habitat and surrounded by logistics and cargo, and then
+                                                             the thickness of water walls built into the crew quarters
+                                                             walls were varied. The repositioned crew quarters are
+                                                             shown in Fig. 15. In the third scenario, all four of the crew
+                                                             quarters were repositioned, but only two of the crew
+                                                             quarters were outfitted with water walls and two
+                                                             astronauts were placed in each of the augmented crew
+                                                             quarters for the duration of the SPE.
+                                                                 Several options were evaluated: water walls included
+                                                             in all of the walls of the crew quarters including the door;
+                                                             water walls in all walls except the door; water walls in the
+                                                             back and sides only; and water walls in the back only.
+                                                             After considering volume, mass, and functionality, having
+                                                             water walls in the back and sides only was deemed the
+    Figure 15. Augmented crew quarters concept after
+                                                             best option for this habitat and only results for that option
+    the crew quarters have been moved inward and             are presented here.
+    logistics have been placed behind them.                      The water wall thicknesses required to have met each
+                                                             of the protection levels and the total masses of water
+                                                                              needed for all of the crew quarters
+  Table 5. Results for the crew quarter augmentation concept. The             augmented are given in Table 5. Only one
+  first two columns are the thicknesses needed for the indicated percent      of the four crew quarters was analyzed in
+  reduction and the last two columns are the masseses needed for the
+  indicated percent reduction.
+                                                                              the original position for each protection
+                                                                              level. The masses in Table 5 are thus four
+                            Water Wall Thickness,      Total Mass of          times that result. For the other scenarios,
+                                      in                Water, lbm            one computation was performed for each
+                              50%          70%       50%         70%          of the four astronaut’s positions and the
+      Crew Quarters in                                                        masses summed. The crew quarters moved
+                               2.7          7.7      3119        8942
+      Original Position                                                       inward required between 0.49-0.84 inches
+       Crew Quarters                                                          of water for a 50% reduction and between
+                            0.49-0.84    4.95-5.12    676        5827
+       Moved Inward                                                           4.95-5.12 inches for a 70% reduction. For
+         Astronauts                                                           the astronauts doubling up, as was done
+                             0-0.82      3.50-4.93   379         2656
+        Doubling Up
+                                                                              for the group protection concept in Section
+                                                                              C., the largest thickness needed for each
+pair of astronauts was used for the 50% and 70% reduction. The mass reported is the total mass of the two
+augmented crew quarters required to ensure that all four astronauts meet the 50% or 70% reduction level. Based on
+these results, it appears to be possible to create a water walls system for the crew quarters in their original position
+that would meet either the 50% or the 70% protection levels, but the large quantity of water needed for the 70%
+protection level (~5800 lbm) may be more than is available. Moving the crew quarters to a more central location and
+surrounding them with onboard materials significantly reduces the amount of water required to meet each of the
+protection levels. Providing water walls in only two of the crew quarters and having them “double up” also reduces
+the amount of water needed, especially for the 70% protection level.
+
+                                                 VII. Conclusion
+    Four different shielding concepts were evaluated: a wearable concept; a deployable individual shield protection
+concept; a deployable group shield protection concept; and a crew quarters augmentation concept. Each of the four
+shielding concepts were able to meet the 50% reduction in exposure requirement and all of the shielding concepts,
+except possibly the wearable concept, were able to meet the 70% reduction in exposure goal, but several of them
+required large, ~2700 lbm minimum, quantities of water, food, or HMC bricks. These shielding requirements were
+driven, in large part, by the choice of the Xapsos 95th percentile SPE as a design basis. Astronaut effective dose
+values and storm shelter shield masses were shown to vary significantly depending on the energy spectrum of the
+SPE. For example, the baseline vehicle exposure for the crew quarters ranged from 102-450 mSv, and the baseline
+vehicle exposure for the center of the main section ranged from 82-361 mSv. The reconfiguration of cargo to
+surround either the crew quarters or the deployable group shield protection concept was also shown to have a
+significant impact on astronaut exposure.
+    Several important points can be drawn from the analysis process and its results. First, creating a radiation shield
+model for a space habitat in the early stages of the design process presents numerous challenges: unknown lay-out,
+missing systems, quantification and placement of consumables and equipment, identification of materials and
+densities, to name a few. Creating the shielding model was the most time consuming part of the exposure analysis
+performed for this project. Second, these results highlight the importance of ongoing efforts to develop probabilistic
+SPE exposure models. If a single SPE is used as a design basis and that SPE is too large, shield mass requirements
+may be exceptionally large. However, if a single SPE is used as a design basis and that SPE is too small, astronauts
+could receive an unacceptably large dose. Finally, these results show that it is possible to design minimal SPE storm
+shelters that provide astronauts with adequate protection and that the availability of water, food, HMC bricks, and
+cargo and logistics for use in SPE shields will play a significant role in the choice of shielding technologies for
+future habitats.
+
+                                                   Acknowledgments
+    The radiation analyses presented here is a small part of the larger effort to design, manufacture, and evaluate SPE
+storm shelter concepts. The authors wish to acknowledge the contributions of all of the members of the AES
+RadWorks Storm Shelter Team:
+
+         Thomas L. Jordan (Technical lead), Robert C. Andrews, Heather L. D. Altizer, Sherry B. Araiza, Vincenzo
+         M. Le Boffe, W. David Castle, Jeffrey A. Cerro, Nicole A. Hintermeister, Samuel James, William M.
+         Langford, Lee Noble, Allison S. Popernack, Edward J. Shea, Judith J. Watson, and Sandy R. Webb.
+
+   The authors also wish to recognize the contributions of the AES RadWorks Leadership Team, both past and
+present, for championing this work and providing valuable guidance:
+
+         Bobbie G. Swan (project manager), Deborah M. Tomek (former deputy project manager), M. David
+         Moore, (acting deputy project manager), Catherine D. Mcloed (system engineering and integration lead), E.
+         Neal Zapp (former project scientist), and Edward J. Semones (project scientist).
+
+   S. A. Walker’s work was supported by NASA Grant NNX09AR20A.
+
+
+                                                        References
+    1
+     Singleterry, R. C., et al., “OLTARIS: On-Line Tool for the Assessment of Radiation in Space,” Acta Astronautica, Vol. 68,
+2011, pp. 1086-1097.
+     2
+       Wilson, J. W., et al., “HZETRN: Description of a Free-Space Ion and Nucleon Transport and Shielding Computer
+Program,” NASA TP-3495, 1995.
+     3
+       Slaba, T.C., Blattnig, S.R., and Badavi, F. F., “Faster and more Accurate Transport Procedures for HZETRN,” Journal of
+Computational Physics, Vol. 229, 2010, pp. 9397-9417.
+     4
+       National Council on Radiation Protection and Measurements (NCRP), “Radiation Protection Guidance for Activities in
+Low-Earth Orbit,” NCRP Report 132, 2000.
+     5
+       Kramer, R., et al., “All about FAX: A Female Adult Voxel Phantom for Monte Carlo Calculations in Radiation Protection
+Dosimetry,” Physics in Medicine and Biology, Vol. 49, 2004, pp. 5203-5216.
+     6
+       International Commission on Radiological Protection (ICRP), Basic Anatomical and Physiological Data for Use in
+Radiobiological Protection: Reference Values, ICRP Publication 89, Pergamon Press, New York, 2001.
+     7
+       Slaba, T. C., et al., “Utilization of CAM, CAF, MAX, and FAX for Space Radiation Analysis Using HZETRN,” Advances
+in Space Research, Vol. 45, 2010, pp. 866-883.
+     8
+       National Aeronautics and Space Administration (NASA), Constellation Program Design Specification for Natural
+Environments (DSNE), CxP 70023, Rev A, Change 001, Washington, D.C., 2008.
+     9
+       King, J. H., “Solar Proton Fluences for 1977 - 1983 Space Missions,” Journal of Spacecraft and Rockets, Vol. 11, No. 6,
+1974, pp. 401-408.
+     10
+        Xapsos, M. A., Barth, J. L., Stassinopoulos, E. G., Burke, E. A., and Gee, G. B., “Space Environmental Effects: Model for
+Emission of Solar Protons (ESP) - Cumulative and Worst-Case Event Fluences,” NASA TP-1999-209763, 1999.
+     11
+        Sauer, H. H., Zwickl, R. D., and Ness, M. J. , Summary Data for the Solar Energetic Particle Events of August Through
+December 1989, Space Environment Laboratory, Boulder, Colorado, 1990.
+     12
+        International Commission on Radiological Protection (ICRP), The 1990 Recommendations of the International
+Commission on Radiological Protection, ICRP Publication 60, Pergamon Press, New York, 1991.
+

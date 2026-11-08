@@ -1,0 +1,10443 @@
+-N-ASA
+_Technical
+Paper
+_3079
+
+,FebrUary
+
+1991
+
+Radiation
+Protection
+for Human Missions
+to the Moon and Mars
+
+Lisa
+
+C. Simonsen
+
+and John
+
+E. Nealy
+
+|
+
+Z
+
+:
+
+I
+=
+
+:
+
+7
+
+......
+
+NASA
+Technical
+Paper
+3079
+
+1991
+
+Radiation
+Protection
+for Human Missions
+to the Moon and Mars
+Lisa C. Simonsen
+and John
+Langley
+Hampton,
+
+National Aeronautics and
+Space Administration
+Office of Management
+Scientific and Technical
+Information Division
+
+E. Nealy
+Research
+Virginia
+
+Center
+
+Summary
+Radiation
+protection
+assessments
+are performed
+for advanced
+lunar
+and Mars
+manned
+missions.
+The Langley
+cosmic
+ray transport
+code
+and the Langley
+nucleon
+transport
+code are used to quantify
+the transport and attenuation
+of galactic
+cosmic
+rays and solar proton
+flares
+through
+various
+shielding
+media.
+Galactic
+cosmic
+radiation
+at solar
+maximum
+and minimum
+conditions,
+as well as various flare scenarlos, is considered.
+Propagation
+data for water,
+aluminum,
+liquid hydrogen, lithium
+hydride,
+lead, and lunar and Martian
+included.
+Shield
+thickness
+and shield mass estimates
+
+regolith
+required
+
+(soil) are
+to main-
+
+tain incurred
+doses below 30-day
+and annual
+limits
+(as set for Space
+Station
+Freedom
+and used as a guide for space exploration)
+are determined for simple-geometry
+transfer
+vehicles.
+Dose estimates
+are also
+presented
+for candidate
+lunar base habitats
+shielded
+with lunar regolith.
+On the surface
+of Mars,
+dose estimates
+are presented
+both for crews
+having
+the carbon dioxide
+atmosphere
+as their only protection
+and for
+crews protected
+by additional
+shielding
+provided
+by Martian
+regolith for
+a candidate
+habitat.
+
+Introduction
+
+doses
+
+One of the next major
+space endeavors
+will be
+the human
+exploration
+of the Moon and Mars as described
+in the Report
+of the 90-Day
+Study on Human
+Exploration
+of the Moon and Mars. 1 The most critical aspect
+of these missions
+is the safety and health
+of the crew. One of the major
+health concerns
+is the
+damaging
+effects of ionizing
+space radiation.
+Once
+the crew leaves the Earth's
+protective
+environment,
+they will be bombarded
+by radiation
+of varying energies and ranges of intensity.
+The most harmful
+components
+of this radiation
+are trapped
+electrons
+and
+protons
+in the Van Allen belts, solar flare protons,
+and galactic
+cosmic rays. Adequate
+shielding
+will be
+required
+to protect
+the crew from this environment.
+Astronaut
+doses incurred
+from the Van Allen belts
+highly depend
+on the time spent in the high-flux
+regions of the belt and the state
+of the fields at the
+time of exposure.
+Large temporal
+variations
+are observed in the outer zone of the belts in which a dose
+incurred
+
+over
+
+a short
+
+time
+
+period
+
+may
+
+increase
+
+by
+
+an order of magnitude
+or more (Wilson
+1978).
+The
+nature
+of the energy
+spectrum
+is such that
+crew
+members
+in a thinly
+shielded
+spacecraft
+can incur
+very large doses.
+However,
+moderate
+shielding
+(approximately
+2-5 g/cm 2) and single passes
+through
+the belts usually
+result
+in relatively
+small delivered
+doses (<1 rem) under normal
+field conditions.
+These
+
+1This
+November
+
+is a
+1989
+
+limited-distribution
+(referred
+
+to
+
+report
+herein
+
+as
+
+compiled
+"The
+
+by
+
+90-Day
+
+NASA
+Study").
+
+in
+
+are
+
+of most
+
+geostationary
+through
+the
+
+orbits
+belts.
+
+concern
+and
+
+for low
+for
+
+Earth
+
+spiraling
+
+orbits
+
+to
+
+trajectories
+
+Once outside
+of the influence
+of the Earth's
+magnetic field, the astronauts
+will be constantly
+bombarded
+by galactic
+cosmic radiation
+(GCR).
+The constant bombardment
+of these high-energy
+particles
+delivers a steady
+dose. The intensity
+of the GCR flux
+varies over the l 1-year solar cycle.
+The maximum
+dose received
+will occur at solar minimum.
+For the
+long-duration
+missions,
+this dose can become
+career
+limiting.
+Thus,
+the amount
+of shielding
+required
+to
+protect
+the astronauts
+will depend
+on the time and
+duration
+of the mission.
+Anomalously
+large solar proton
+events
+are relatively rare with one or two events per solar cycle. The
+largest
+flares observed
+in the past
+are the November 1949, the February
+1956, the November
+1960,
+and the August
+1972 events.
+Solar cycle XXI (19751986) proved relatively
+quiet with no unusually
+large
+events.
+However,
+with the onset of cycle XXII, new
+concern
+has arisen with several
+large events
+occurring in the later half of 1989.
+A solar flare event
+can be very dangerous
+if a spacecraft
+is inadequately
+shielded
+because
+flares can deliver a very high dose in
+a short period
+of time. For relatively
+short-duration
+missions
+(2-3 months),
+the most important
+radiation
+hazard
+is the possibility
+of an unusually
+large solar
+proton
+event.
+The amount
+of shielding
+required
+for
+protection
+will depend
+on the nature
+of the energy
+spectrum
+of the flare and the intensity
+of the event.
+Shielding
+must
+be provided
+to
+incurred
+doses to an acceptable
+level.
+
+maintain
+Currently
+
+crewthere
+
+are no limits establishedfor exploratoryclassmissions;however,it is recommended
+that limits establishedfor low-Earth-orbitoperationsbe usedas
+gnfidelines
+(NCRP-98,1989).Theselimits areestablishedby the NationalCouncilonRadiationProtection and Measurement
+and includedoselimits for
+the skin, ocularlens,andvital organs(NCRP-98,
+1989).Forhigh-energy
+radiationfromgalacticcosmic raysandsolarprotonflares,the dosedelivered
+to the vital organsis the mostimportantwith regardto latentcarcinogenic
+effects.This doseis often
+takenasawholebodyexposure
+andisassumed
+equal
+to the blood-forming-organ
+(BFO) dose.Whendetailedbodygeometryisnotconsidered,
+theBFOdose
+is usuallycomputedas the doseincurredat a 5-cm
+depthin tissue(simulatedby waterin theseanalyses).Dose-equivalent
+limits areestablished
+forshortterm(30-day)exposures,
+annualexposures,
+andtotal
+careerexposure.Thesevaluesarelistedin table 1.
+Short-termexposures
+areimportantwhenconsideringsolarflareeventsbecause
+of theirhighdoserate.
+DosesreceivedfromGCRonlong-durationmissions
+areespeciallyimportantto total careerlimits,which
+aredeterminedby the ageandgenderof the individual. For instance,careerlimits for typicalmale
+andfemaleastronautswhoare 30yearsold at the
+timeof theirfirst exposure
+are200remand140rem,
+respectively.
+Table 1. Dose-Equivalent
+Linfits Recommended
+United
+States
+Astronauts
+in Low Earth
+Orbit
+
+__
+
+for
+
+Exposure
+time
+
+Annual
+I Career
+30 days
+
+aVaries
+
+......
+......
+......
+
+with
+
+Current
+Exploration
+Study.
+The
+
+Vital
+al00rem
+2550
+organ,
+400
+
+age
+
+and
+
+mission
+
+_ Ocularem
+200400
+100
+lens,
+
+gender.
+
+scenarios
+
+Initiative
+final goal
+
+for the Nation's
+
+are described
+of the Initiative
+
+Human
+
+in The 90-Day
+is to establish
+
+operational
+outposts
+on both the Moon and Mars.
+After
+a 3-day trip from Earth
+to the Moon,
+crewrotation
+times on the surface are described
+as starting
+with a 30-day
+stay, growing
+to a 6-month
+stay, to
+a 12-month
+stay, and finally
+growing
+to 600 days.
+The flight time to Mars is estimated
+to take from
+7 months
+to over a year each way. Crew times on
+the Martian
+surface are described
+as starting
+with a
+30-day stay, growing to a 90-day stay, and finally up
+to a 600-day
+stay.
+Thus,
+an entire Mars mission
+is
+estimated
+to take anywhere
+from 500 to 1000 days
+
+round
+trip.
+Different
+shielding
+strategies
+will exist
+for each phase of each lunar and Martian
+mission.
+Free-space
+shielding
+requirements
+for lunar transfer
+vehicles
+will differ greatly
+from those
+selected
+for
+the Mars vehicles because
+of the large differences
+in
+travel time. Likewise,
+planetary
+habitation-shielding
+strategies
+utilizing
+local resources
+will differ greatly
+from the transfer
+vehicles.
+Habitation
+shielding
+on
+the lunar surface versus that on the Martian
+surface
+will also differ greatly
+their environments.
+Symbols
+AE-8,
+
+and
+AP-8
+
+because
+
+of the
+
+differences
+
+in
+
+Abbreviations
+standard
+trapped
+electron
+and
+proton
+environment
+models
+
+AU
+
+astronomical
+
+unit
+
+BFO
+
+blood-forming
+
+BRYNTRN
+
+a baryon
+
+transport
+
+CREME
+
+cosmic
+
+ray effects
+
+ECCV
+
+Earth
+
+capture
+
+GCR
+
+galactic
+
+GOES
+
+Gcostationary
+Operational
+mental
+Satellite
+
+Environ-
+
+IMP
+
+Interplanetary
+
+Platform
+
+LET
+
+linear
+
+NOAA
+
+National
+Oceanic
+Administration
+
+NRL
+
+Naval
+
+NTC
+
+Nucleon
+
+Transport
+
+Q
+
+quality
+
+factor
+
+RCS
+
+reaction
+
+control
+
+t
+
+thickness
+
+p
+
+density,
+
+Radiation
+
+Environment
+
+organ
+
+on microelectronics
+
+control
+
+cosmic
+
+vehicle
+
+radiation
+
+Monitoring
+
+energy
+
+transfer
+
+Research
+
+g/cm
+
+code
+
+and
+
+Atmospheric
+
+Laboratory
+Code
+
+system
+
+3
+
+The free-space
+radiation
+environment
+comprises
+numerous
+particles
+with various
+energy
+spectra
+as
+shown
+in figure 1 (Wilson
+1978).
+The particles
+of
+relatively
+high energy and fluxes are of the most concern. The galactic
+cosmic rays are the most penetrating because
+of their higher energies.
+Additionally,
+the
+large fluxes associated
+with major flare events make
+them
+potentially
+lethal.
+Very long periods
+of time
+in the inner zone of the Van Allen belts can be as
+potentially
+dangerous
+as a large flare event.
+However, for missions
+involving
+long times outside
+the
+Earth's
+magnetosphere,
+ments will be dictated
+galactic
+
+cosmic
+
+radiation-protection
+primarily
+by the solar
+
+ray environment.
+
+requireflare and
+
+Solar
+10 15
+
+wind
+
+protons
+
+urora felectrons Trapped
+
+electrons
+
+e_'E 1010
+
+Trapped
+_'_
+(outer
+
+zone)
+
+protons
+
+(inner z°ne)
+
+7
+
+_
+
+"_. 10 5
+
+Solar storm protons
+10 0
+Solar flare prot
+
+Galactic
+10-5
+
+I
+
+I
+10-2
+
+10-4
+
+I
+
+I
+10 0
+Particle
+
+Figure
+
+1. _ee-space
+
+radiation
+
+Electrons/cm2_sec
+
+Protons
+
+I
+
+I
+
+7
+
+I
+
+6
+
+2. Near-Earth
+
+fluxes
+
+Substantial
+free-space
+by
+
+are
+
+_ _
+
+_ I"---_"
+
+8_1107
+
+_N_\I._
+
+./¢./"//
+_
+///
+
+Electrons
+> 40 KeV
+Protons
+= 0.1 to 5.0 MeV
+
+I
+
+I
+
+3
+
+I
+
+2
+
+radiation
+
+on the
+
+right
+
+measurements.
+with
+
+the
+
+I
+
+I
+
+and
+and
+
+to our
+
+environment
+
+coupled
+
+1978).
+
+> 1.6 MeV
+
+contributions
+radiation
+
+ground-based
+
+surements
+
+only
+
+10 4
+
+10 _
+
+> 30 MeV
+
+4
+
+trapped
+
+are shown
+
+_
+
+\ _
+
+1
+
+0
+
+Distance
+
+Figure
+
+(Wilson
+
+% / '. ---__J
+( ",4
+
+i
+
+5
+
+I
+
+MeV
+
+environment
+
+//
+
+1 3__"____'}j__/_
+
+Electrons
+
+energy,
+
+rays
+
+I
+102
+
+__.,,,_g_._--lO_
+_
+
+Pr°t°ns/cm2-sec
+
+/
+
+cosmic
+
+I
+
+solar
+
+1
+
+I
+2
+
+I
+
+I
+
+3
+
+4
+
+from center of Earth,
+
+Earth radii
+
+proton
+
+(Parker
+
+high-energy
+
+environment
+
+fluxes
+
+are shown
+
+and
+
+i
+
+i
+
+i
+
+I
+
+5
+
+6
+
+7
+
+8
+
+West
+
+1973).
+
+For clarity,
+
+I
+
+I
+
+9
+
+10
+
+low-energy
+
+integral
+
+only on the left.
+
+knowledge
+
+of the
+
+comprehensive
+
+have
+
+been
+
+made
+
+manned
+
+data
+
+When
+
+these
+
+mea-
+
+a variety
+
+of
+
+environmental
+
+more
+
+recent
+
+and
+
+Several
+
+models
+
+have
+
+spacecraft,
+
+provided
+
+by
+
+manned
+
+sufficient
+
+data
+
+exist
+
+models
+
+can
+
+become
+
+practical
+
+and
+from
+be
+
+unwhich
+
+derived.
+
+standards
+
+for
+
+3
+
+radiation-exposure
+applications.
+For the trapped
+protons
+and electrons
+in the geomagnetic
+field, the
+AP-8 and AE-8 models of the NASA Goddard
+Space
+Flight
+Center
+are widely
+used (Gaffey
+and Bilitza
+1990). For the solar flare protons,
+many studies
+utilize individual
+spectra
+of observed
+large flares (Nealy
+et al. 1988; Simonscn
+et al. 1990a; Townsend
+et al.
+1989).
+For the galactic
+cosmic rays, a model
+developed at the Naval Research
+Laboratory
+is frequently
+implemented
+for the heavy-ion
+environment
+(Adams
+et al. 1981).
+
+Van
+
+Allen
+
+lO1
+
+*
+
+_
+
+,
+
+llql
+
+I
+
+--_l_
+
+,
+
+_
+
+_ _ ,,,_
+
+/,
+
+,\__
+
+1o10
+E
+_ 10 9
+
+AI
+
+8
+
+Belts
+l0 7
+
+A semiquantitative
+of trapped
+protons
+
+pictorial
+of the distributions
+and electrons
+in the Van Allen
+
+belts is shown in figure 2 (Parker
+and W_est 1973).
+The distributions
+of the charged
+particles
+with lowenergy
+integral
+fluxes are shown
+on the right-hand
+side of the figure, which
+indicates
+the approximate
+extent
+of the regions
+with substantial
+total particle
+flux. The left-hand
+side of figure 2 gives the integral
+fluxes of particles
+with higher energies,
+for which the
+"inner"
+and "outer"
+belt distinctions
+are prominent.
+For moderately
+shielded
+spacecraft
+(approximately
+5 g/cm2),
+such as those contemplated
+for advanced
+missions,
+doses incurred
+during
+transit
+through
+the
+trapped
+belts arc not significant
+compared
+with the
+anticipated
+free-space
+contributions.
+However,
+substantial
+cumulative
+exposures
+in the belts will result
+for sustained
+operations
+in low Earth orbit (LEO) at
+altitudes
+greater
+than approximately
+400 km. In addition, conceptual
+multiple-pass
+trajectories
+spiraling
+through
+the trapped
+regions
+may also result
+in significant
+doses.
+Generally,
+the exposures
+due to the
+natural
+environment
+for long-duration
+missions
+will
+result
+
+from
+
+Solar
+
+solar
+
+Flare
+
+flare
+
+protons
+
+and
+
+GCR
+
+hea_ T ions.
+
+Events
+
+The
+three
+large
+solar
+flares
+of August
+1972,
+November
+1960, and February
+1956 are widely used
+to estimate
+flare shielding
+requirements.
+The fluenceenergy
+spectra
+for these events
+are shown
+in figure 3 (Wilson
+1978).
+The flare of August
+1972 produced the greatest
+number
+of protons
+above 10 MeV,
+but it had fewer protons
+than the other two events
+for energies
+greater
+than
+approximately
+150 McV.
+The February
+1956 event
+produced
+approximately
+one-tenth
+ms many
+protons
+above
+10 MeV as the
+1972 flare,
+but
+it delivered
+far more
+protons
+of
+200 MeV or greater
+than the two other flares.
+The
+November
+1960 flare spectrum
+exhibited
+intermediate characteristics.
+
+106
+
+....
+100
+
+'
+101
+
+.........
+
+,,
+102
+
+103
+
+Kinetic energy, E, MeV/arnu
+Figure 3.
+proton
+
+Integrated
+fluence spectra
+flares (Wilson 1978).
+
+for three
+
+large
+
+solar
+
+Solar cycle XXI (1975 1986) was relatively
+quiet
+with no flare events
+of these magnitudes
+recorded.
+The flares
+of cycle XXI may constitute
+the typical proton
+fluence
+within
+a solar cycle because
+of
+the more normally
+occurring
+smalland mediumsized events.
+The proton
+fluxes due to flare events
+were measured
+by particle
+monitors
+onboard
+the Interplanetary
+Monitoring
+Platform
+(IMP)
+satellites,
+IMP-7
+and IMP-8.
+Fifty-five
+flares within
+solar cycle XXI were measured
+to have integral
+fluences
+greater
+that
+107 protons/era
+2 for energies
+greater
+than
+l0 MeV. The other flares of lower fluence
+and
+energy
+would contribute
+negligibly
+to dose calculations.
+Figure
+4(a) shows the integral
+fluences
+of the
+55 flares as they are distributed
+in time throughout
+the cycle, and figure 4(b) shows the fluence spectra
+for each of these flares (Goswami
+et al. 1988).
+With
+the onset of solar cycle XXII (1986
+1997),
+several
+flares larger than any recorded
+in cycle XXI
+have already
+occurred
+in the months
+of August
+through
+December
+1989. Six flares occurring
+in this
+time frame have been recorded
+by the GOES-7
+satellite. Figure 5 shows the proton
+fluence energy spectra
+based on rigidity
+functions
+reported
+by Sauer et al.
+(1990).
+The magnitude
+of the October
+1989 event
+is on the same order as the August
+1972 event and
+has heightened
+concern over flare shielding
+strategies.
+The addition
+of these six flares can provide
+a fairly
+realistic
+estimate
+of a flare environment
+that may be
+encountered
+during
+missions
+taking
+place in the 5 or
+6 years of active Sun conditions.
+
+lO 10 -
+
+i
+
+,
+
+i
+
+,
+
+,
+
+i
+
+,
+
+I
+
+i
+
+for particles of atomic numbers
+(Z) between 1 and
+28 (hydrogen through nickel) (Adams et al. 1981).
+Figure 6 shows the GCR particle spectra at solar
+minimum conditions, when the fluxes are the greatest because of the decreased modulation
+of the interplanetary
+magnetic field. Figure 7 indicates the nature of the flux reduction at solar maximum conditions according to the NRL model, where the flux decrease is most prominent for energies below approximately 104 MeV. There is growing evidence that the
+NRL model overestimates
+the modulation effect. The
+particle fluxes are seen to vary between solar minimum and maximum by roughly a factor of 2. The
+rather comprehensive
+study of ground level measurements by Nagashima
+et al. (1989) indicates an approximate
+sinusoidal behavior of the general cosmic
+ray intensity between the extrema within a cycle.
+
+i
+
+10 9
+
+;>
+
+10 8
+
+E
+I
+
+Ill
+
+107
+
+0
+
+I
+
+iI
+10
+
+4
+6
+8
+Time after solar minimum,
+yr
+
+t
+
+1975
+
+12[
+
+1"1
+
+1986
+
+,
+
+(a)
+
+Integral
+
+,
+
+,
+
+,
+
+fluence.
+
+,
+
+,
+
+,
+
+,
+
+Aug. !2
+....
+Sept. 12
+.....
+Sept. 29
+.....
+Oct. 19
+....
+Nov. 15
+................ Nov. 26
+
+,
+
+I
+II
+10
+1011
+
+,!
+
+.-:
+
+_
+
+""
+
+t
+
+_ , ,,,_t
+
+"='-
+
+o.
+
+I
+
+'
+
+'
+
+' '''"I
+
+=......
+
+1010
+
+_
+
+10 9
+
+Q
+
+10 8
+
+"N
+10 6
+0
+
+20
+
+40
+
+60
+
+Kinetic
+
+energy,
+
+80
+
+100
+
+E, MeV
+
+\
+
+105
+lOo
+
+t
+
+I
+
+I
+
+I
+
+I
+
+IIIll
+
+1
+
+I
+
+I
+
+101
+
+1 I
+
+111_
+
+II
+
+10 2
+
+10 3
+
+Kinetic energy, E, MeV
+(b)
+
+Fluence
+
+spectra.
+Figure
+
+Figure
+
+4.
+1986)
+
+Solar
+
+proton
+
+(Goswami
+
+Galactic
+
+flares
+et
+
+Cosmic
+
+al.
+
+during
+
+solar
+
+cycle
+
+XXI
+
+(1975-
+
+5.
+
+GOES-7
+
+Six
+
+large
+data
+
+solar
+
+flare
+
+(Sauer
+
+et
+
+integral
+al.
+
+fluences
+
+based
+
+on
+
+1989
+
+1990).
+
+1988).
+
+Radiation
+
+Galactic cosmic radiation consists of the stripped
+nuclei of the chemical elements that have been accelerated to extremely high energies outside the solar
+system. Measurements
+have been made to specify a
+working model of these distributions.
+Considerable
+uncertainty
+exists in the energy distributions
+of these
+ions. The natural GCR environment
+used in these
+analyses is the widely used Naval Research Laboratory (NRL) CREME model, which specifies ion fluxes
+
+Analysis
+
+The analyses presented
+here will focus on the
+shielding requirements
+for GCR and different flare
+scenarios.
+Shielding thicknesses
+selected for these
+missions should also reduce doses incurred from the
+Van Allen belts to a negligible amount provided that
+long times are not spent in the belts.
+5
+
+_rm:
+
+106 _
+
+' ''"'°'t
+
+' ''"'"l
+
+' '"'"',
+
+.......
+
+!
+
+[o OSj(E) + ,¢(E)] Cj(z, E) :
+
+105
+
+Z
+k>j fE
+
+104
+
+;>
+
+"'-
+
+•.._....
+_ --/_.-"
+
+103
+
+e-i
+
+i _
+....
+
+--_---"
+
+..\ \
+
+-..........
+......
+.....
+
+101
+
+'\ ,
+
+\
+
+\
+
+:
+\
+
+:
+
+5',?- \
+
+J
+
+'\;"-, t
+
+102
+
+....... 104
+, ;M ;,,,,,,3
+105
+
+103
+
+ajk(E'
+
+Et)g2k(X'
+
+E')
+
+dE'
+
+..
+
+\
+--
+
+Protons (Z--l) \X,',\
+_
+Alphas (Z = 2) \_,, ",,
+_
+"_.,,
+_ ',
+xO
+Z=3to9
+\_ "..
+"_
+
+.....
+
+lOOlo__
+
+\
+
+\,\
+
+_
+102
+
+",.
+\,,,
+
+v
+
+"5
+
+,.
+
+Kinetic energy, E, MeV/amu
+Figure 6. Ion spectra of galactic cosmic ray for solar minimum
+conditions (Adams et al. 1981).
+
+where the quantity
+to be evaluated,
+6pj(x, E), is the
+flux of particles
+of type j having
+energy E at spatial
+location
+x. The solution
+methodology
+of this integrodifferential
+equation
+may be described
+as a combined analytical-numerical
+technique
+(Wilson
+1977).
+The accuracy
+of this numerical
+method
+has been determined
+to be within
+approximately
+1 percent
+of
+exact
+benchmark
+solutions
+(Wilson
+and Townsend
+1988a).
+The data required
+for solution
+consist
+of
+the stopping
+power Sj in various
+media,
+the macroscopic total and absorption
+nuclear cross sections
+#j,
+and the differential
+nuclear
+interaction
+cross sections
+ajk. The differential
+cross sections
+describe
+the production
+of type j particles
+with energy
+E by type k
+particles
+of energies
+E _ > E.
+Detailed
+information
+on these data base compilations
+is described
+in references by Wilson et al. (1988b,
+1989) and Townsend
+and Wilson (1985).
+In addition
+to benchmark
+solution
+checks on the
+
+O
+
+numerical
+standard
+
+.E.
+
+.E
+E
+L
+
+,
+
+101
+
+, ,,,_,1
+
+,
+
+i
+
+i _11111
+
+_
+
+K t ,LII,I
+
+10 2
+103
+104
+Kinetic energy, E, MeV
+
+1
+
+i
+
+ilttl
+
+105
+
+precision
+of the
+Monte Carlo type
+
+code, a comparison
+with
+calculations
+has also been
+
+made (Shinn
+et al. 1990).
+A sample
+of BRYNTRN
+results
+compared
+with
+results
+from the statistical
+Nucleon
+Transport
+Code (Scott and Alsmiller
+1968)
+is shown in figure 8 where the dose values are given
+for a 30-cm tissue layer behind
+an aluminum
+shield
+of 20 g/cm 2. The input spectrum
+used is expressed
+analytically
+with the integral
+fluence F as a function
+of proton
+rigidity
+R:
+
+Figure 7. GCR proton flux reduction factors at solar maximum conditions (Adams et al. 1981).
+F(>
+Transport
+
+Codes
+
+The NASA Langley
+Research
+Center nucleon and
+heavy-ion
+transport
+computer
+codes are used to predict the propagation
+and interactions
+of the freespace nucleons
+and heavy ions through
+various
+media. For large solar flare radiation,
+the baryon transport code (BRYNTRN)
+is used (Wilson
+et al. 1989).
+For the galactic
+cosmic
+rays, an existing
+heavy-ion
+transport
+code is integrated
+with the BRYNTRN
+code to include
+the transport
+of high-energy
+heavy
+ions up to atomic
+number
+28 (Wilson
+et al. 1986,
+1987; Townsend
+et al. 1990a).
+Both codes solve the
+fundamental
+Boltzmann
+transport
+equation
+in the
+one-dimensional,
+or "straight
+ahead,"
+approximation
+
+E) = Co exp
+
+[-R(E)]
+[--_--o
+
+]
+
+with Ro equal to 100 MV and Co chosen
+so that
+F(30 MV) equals
+109 protons/cm
+2. Such a function
+is representative
+of a large
+proton
+event,
+and it
+is seen that
+the BRYNTRN
+results
+show excellent
+agreement
+with the Monte
+Carlo calculations.
+The present
+GCR
+code formulation
+is considered to be an interim
+version
+since some features
+of the transport
+interaction
+phenomena
+have yet to
+be incorporated.
+These include
+improvements
+and
+additions
+to the existing
+nucleus-nucleus
+cross sections
+and their
+energy
+dependence
+and provisions
+for pion and muon contributions.
+Further
+improvements in target
+fragmentation
+treatment
+and computational
+efficiency
+are to be incorporated
+even though
+
+computationalexecutiontimes are alreadyfaster
+than counterpartstatistical(MonteCarlo)calculations. Theseimprovements
+shouldnot greatlyalter
+thecurrentresults,andthepresentinterimversionof
+the GCRcodeshouldprovidea reasonable
+description ofcosmicrayparticlefluxesandthecorresponding dosepredictions.Manyuncertaintiespresently
+exist in high-energy,heavy-iontransportanalyses;
+therefore,the resultsincludedhereinshouldbeconsideredascurrentstate-of-the-art"bestestimates."
+10
+
+I
+
+I
+
+--
+
+ICRU-40,
+1986, and ICRP-26,
+1977, for further
+discussion.)
+In general,
+Q is a function
+of linear energy
+transfer,
+which in turn is a function
+of both particle type and energy.
+For the present
+calculations,
+the quality factors
+used are those specified
+by the International
+Commission
+on Radiological
+Protection
+(ICRP-26,
+1977).
+The values
+of dose equivalent
+H
+(in units of rem) are computed
+as
+
+H(x)
+
+= _,
+
+3_
+
+Qj(E)
+
+Sj(E)
+
+_Pj(x,E)
+
+dE
+
+3
+
+1
+
+These
+are the
+values
+used
+to specify
+radiationexposure
+limits
+for carcinogenic
+and nmtagcnic
+effects.
+(See table 1). (The skin dose can be used to
+approximate
+the dose to the ocular
+lens; however,
+the estimate
+is somewhat
+conservative
+with respect
+to lens opacity
+and cataract
+formation.)
+
+NTC (Monte Carlo)
+
+Propagation
+
+Data
+
+The BRYNTRN
+code and the combined
+nucleon/
+heavy-ion
+transport
+code are easily applied to various
+media.
+The GCR and solar flare energy distributions
+
+1.0
+
+(figs. 3, 4(b), 5, and 6) are input into the code as the
+initial
+particle
+fluxes at the media
+boundaries.
+Results include slab calculations
+of the particle-flux
+energy distributions
+at various
+absorber
+amounts
+from
+which slab-dose
+estimates
+as a function
+of absorber
+amount
+are determined.
+The slab calculations
+cor-
+
+O
+
+_
+
+.!
+
+Shield: 20 g/cm 2 of _luminum followed
+by 30 glcm of tissue
+
+I
+10
+
+0
+
+I
+20
+
+_
+
+I
+30
+
+40
+
+respond
+to a monodirectional
+beam of particles
+normally incident
+on a planar
+layer of shield material.
+For the straight-ahead
+transport
+approximation,
+the
+dose at a specific
+slab-shield
+depth
+with normal
+incident radiation
+is equivalent
+to the dose in the center of a spherical-shell
+shield of the same thickness
+in a field of isotropic
+radiation.
+This is depicted
+in
+figure 9.
+
+Tissue depth, cm
+Figure 8. Comparison of results from BRYNTRN with equivalent Monte Carlo calculations ( Shinn et al. 1990).
+The absorbed
+dose D due to energy deposition
+a given location
+x by all particles
+(in units of rad)
+calculated
+according
+to
+
+D(x)
+
+= ___
+3
+
+f0
+
+°C
+
+Sj(E)
+
+_j(x,E)
+
+at
+is
+
+to the
+
+damage
+
+produced
+
+by soft
+
+_
+
+--.
+
+lsotropic radiation
+on spherical-shell shield
+
+/t/
+
+"-2S
+
+//
+
+dE
+
+The degree to which biological
+systems
+undergo
+damage by ionizing
+radiation
+is not simply
+proportional
+to this absorbed
+dose for all particle
+types.
+For
+human
+exposure,
+the dose equivalent
+is defined
+by
+introducing
+the quality
+factor
+Q which relates
+the
+biological
+damage
+incurred
+due to any ionizing
+radiation
+
+Normal incident
+radiation on slab shield
+
+X rays.
+
+(See
+
+Dose at point x = Dose at point y
+(for attenuation m straight-ahead approximation)
+Figure 9. Calculation
+shell shield.
+Basic
+a variety
+
+equivalence of slab shield and spherical-
+
+propagation
+of materials
+
+data have been generated
+for
+for both the GCR
+spectrum
+7
+
+anddifferentflarespectra.The propagationresults
+aredisplayedasdoseversusabsorber
+amountor areal
+density(inunitsofg/cm2)whichcanbeconverted
+to
+a linearthicknessby dividingby density.Displaying
+resultsin this manneris helpfulin comparingthe
+shieldeffectiveness
+ofvariousmaterialsbecausequal
+absorberamountsfor a givenshieldedvolumewill
+yield equalshieldmasses
+eventhoughtheir linear
+thicknesses
+maydiffer.
+For incidentsolarflareprotons,the variationof
+dosewith shieldamountis sensitiveto the energy
+characteristics
+(differentialflux spectra).Figure10
+illustratesthe BFO doseasa functionof thickness
+in aluminumfollowedby a 5-cmtissuelayerfor the
+threeflareswhosespectraareshownin figure3. For
+theseflares,the protonfiuences
+haveanapproximate
+coincidence
+closeto 100MeV. Consequently,
+this
+behavioris reflectedin a corresponding
+crossover
+of the dose-depthcurvcsof figure 10, wherethe
+coincidence
+occursat approximately15 g/cm2 of
+aluminum.
+1000
+
+I
+
+I
+
+I
+
+low
+
+atomic
+
+weight
+
+and
+
+high
+
+hydrogen
+
+content
+
+(e.g.,
+
+hydrocarbon
+polymers)
+which may be used as bulk
+shields.
+The curves for aluminum
+and lead are indicative
+
+of the
+
+decreasing
+
+relative
+
+effectiveness
+
+of higher
+
+atomic
+weight
+media.
+This effect can be attributed
+to the differences
+in proton
+stopping
+powers of the
+materials
+and to the greater
+numbers
+of secondary
+nucleons
+generated
+in the heavier materials.
+This effect is further
+exemplified
+by the results
+shown in figure 12, which shows the BFO dose-depth
+functions
+for the GCR spectra
+at solar minimum
+conditions.
+In addition
+to water and aluminum,
+results
+for liquid
+hydrogen
+(which may be used in application
+to propellant
+tank structures)
+show the dramatic
+superiority of this material
+as a shield.
+This is due largely to
+the greatly
+reduced
+generation
+of reaction
+products
+(nucleons
+and fragments)
+created
+by the GCR heavy
+ions traversing
+the hydrogen
+medium.
+For the very
+energetic
+GCR spectrum,
+most of the reduction
+in
+dose for all the materials
+shown
+occurs
+in the first
+20-30 g/cm 2, with the magnitude
+ent decreasing
+at larger thicknesses.
+
+of the
+
+dose
+
+gradi-
+
+=
+1000
+I
+
+,.
+
+E
+E
+£ lO0
+,,-:
+
+Z
+
+._
+
+-
+
+'5
+
+-
+
+O
+-_
+
+6
+
+0EL
+m
+
+- ......
+.....
+
+I
+
+3
+
+100
+
+10
+
+2
+
+"-=
+_
+
+Nov. 1960
+
+_
+I
+
+10
+
+_
+i
+0
+
+I
+
+1
+
+1
+
+[
+
+I"
+
+I
+
+I0
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+Aluminum shield thickness, g/cm 2
+Figure 10.
+BFO dose equivalent as a function of aluminum shield thickness for three large solar flare events
+(Townsend et al. 1989). (1 g/cm 2 of aluminum is equivalent to O37 em thickness.)
+combined
+
+fluences
+
+of the
+
+solar
+
+occurring
+in the latter
+part
+of 1989
+spectral
+characteristics
+similar
+to the
+event.
+The BFO
+dose as a function
+
+proton
+
+events
+
+(fig. 5) have
+August
+1972
+of thickness
+
+for several
+shield
+materials
+is shown
+in figure
+11
+for this flare
+scenario.
+On a per-unit-mass
+basis, water
+and lithium
+hydride
+have almost
+identical shield-effectiveness
+properties
+for all shield thicknesses.
+Such similarities
+apply
+as well to media of
+8
+
+I
+
+-
+
+I0
+
+The
+
+I
+
+Lead (p= 11.35 g/cm ) a
+Aluminum (p= 2.7 g/cm-')
+a
+Lithium hydride (p= 0.82 g/cmJ:
+
+I
+
+I
+
+20
+
+30
+
+I
+
+40
+
+50
+
+Shield thickness, g/cm 2
+Figure 11. BFO dose equivalent versus depth functions
+sum of 1989 flare fluences for four materials.
+
+The
+
+differences
+
+between
+
+the
+
+GCR
+
+at
+
+solar
+
+for
+
+min-
+
+imum
+and maximum
+with respect
+to water
+shield
+thicknesses
+are shown in figure 13 (Townsend
+et al.
+1990a).
+The incurred
+dose equivalents
+between
+these
+two extremes
+are seen to differ by about
+a factor of
+2 for shield amounts
+up to 30 g/cm 2. These results
+were computed
+for the GCR
+spectra
+at solar minimum and maximum
+conditions
+as specified
+by the
+NRL CREME
+model.
+However,
+recent measurements
+(Kovalev
+et al. 1989) made during
+the last solar cycle
+imply that the GCR intensity
+during solar maximum
+may actually
+be greater
+than that prescribed
+in the
+NRL model.
+
+compositions
+70 [
+
+I
+
+I
+
+I
+
+I
+
+are
+
+t
+
+60
+
+et
+
+-A2_U_!t.
+
+50
+
+given
+
+I_
+
+_
+
+_
+
+V Aluminum
+
+shield
+
+in
+
+the
+
+2
+
+(Nealy
+
+regolith
+et
+
+al.
+
+1990b).
+
+Moderate
+
+changes
+
+to have
+
+negligible
+
+effects
+
+properties
+
+expected
+"
+
+used
+table
+
+found
+ing
+
+--
+
+in
+
+(Nealy
+from
+
+constituents,
+
+the
+the
+
+studies
+
+1988;
+
+Simonsen
+
+in
+on
+
+et al.
+
+1988,
+
+similarity
+
+of
+
+regolith
+
+shielding
+al.
+
+composition
+
+the
+1989).
+
+the
+
+shielding
+
+are
+
+overall
+As
+
+Mars
+
+shieldmight
+
+and
+
+be
+
+lunar
+
+characteristics
+
+are
+
+comparable.
+The
+
+results
+
+regolith
+
+are
+
+cycles
+
+XIX
+
+are
+
+very
+
+is
+
+not
+
+and
+
+Figure
+
+I0
+
+12.
+
+BFO
+
+dose
+
+and thickness
+minimum
+
+20
+
+30
+
+Shield
+
+thickness,
+
+equivalent
+
+resulting
+
+conditions
+
+40
+
+to those
+since
+
+lunar
+
+of aluminum.
+
+(Townsend
+
+regolith
+
+Table
+of shield
+
+cosmic
+
+rays
+
+for
+
+Property
+
+_
+
+40
+
+(fig.
+
+mean
+
+10),
+
+with
+
+GCR
+
+at
+
+solar
+
+results
+
+molecular
+
+15 shows
+
+of Lunar
+
+which
+weight
+
+the
+
+atomic
+
+the
+
+calculated
+
+solar
+
+minimum
+
+I
+
+and
+
+Martian
+
+Regolith
+
+mass
+
+regolith
+
+Martian
+
+regolith
+
+52.6 percent
+
+SiO2
+
+58.2 percent
+
+SiO2
+
+19.8 percent
+
+FeO
+
+23.7 percent
+
+Fe203
+
+17.5 percent
+
+A1203
+
+10.8 percent
+
+MgO
+
+10.0 percent
+
+MgO
+
+7.3 percent
+
+CaO
+
+Density,
+80
+
+60
+
+the
+
+Lunar
+
+percentage
+
+_
+
+regolith
+
+lunar
+
+of
+
+type
+
+et al. 1990a).
+
+1
+
+The
+
+for aluminum
+the
+
+in
+
+flares
+
+at solar
+
+100
+
+I
+
+depth
+
+large
+
+14.
+
+Figure
+
+2. Composition
+
+normalized
+
+1
+
+versus
+
+three
+
+is comparable
+
+data
+
+Composition,
+
+"_
+
+the
+
+in figure
+
+similar
+
+of the
+
+g/cm 2
+
+galactic
+
+XX
+
+weight
+
+dose
+
+for
+
+50
+
+as a function
+
+from
+
+BFO
+
+surprising
+
+propagation
+0
+
+of
+given
+
+0.8
+
+2.15
+
+1.0-1.8
+
+g/cm 3
+
+I
+
+1000
+
+-
+
+i
+
+I
+
+I
+
+I
+
+=
+
+O
+
+-_
+
+20
+-_
+
+r2_
+
+/k
+
+Feb. 1956
+
+-
+
+_
+
+Nov.
+
+-
+
+1960
+
+100_
+0
+
+5
+
+10
+
+15
+
+shield
+
+thickness,
+
+equivalent
+
+as
+
+Water
+Figure
+
+13.
+
+Dose
+
+resulting
+
+from
+
+minimum
+
+conditions
+
+(Townsend
+
+The
+
+preceding
+results
+
+Mars,
+
+the
+
+regolith
+
+a convenient
+analyses
+
+(or
+
+presented
+
+is modeled
+of the five
+
+using
+most
+
+The
+
+lunar
+
+model
+
+turn
+
+samples
+
+Martian
+data
+
+(Smith
+
+dealt
+
+more
+
+common
+
+soil)
+
+of
+
+for
+
+bulk
+
+composition
+and
+
+supplied
+on the
+
+solar
+
+with
+
+the
+
+-_
+
+io
+
+the
+
+mate-
+
+locale
+
+is
+
+In
+
+the
+
+shielding.
+regolith
+
+Hohmann
+
+on
+
+is based
+
+on
+
+and
+
+1983).
+
+The
+
+re-
+
+and
+
+the
+
+Viking
+
+I
+30
+
+Lan-
+
+normalized
+
+I
+60
+Lunar
+
+soil.
+
+Apollo
+
+1972),
+
+:
+0
+
+concentrations
+found
+in the
+
+is based
+
+.1
+
+.01
+
+composition
+
+composition
+West
+
+shield
+at
+
+as shield
+Moon
+and
+
+a particular
+
+the mass-normalized
+abundant
+elements
+
+(Dalton
+
+model
+
+have
+
+of the
+
+herein,
+
+rays
+
+et al. 1990a).
+
+and/or
+habitats
+
+candidate
+
+of water
+
+cosmic
+
+paragraphs
+
+rials that
+may be fabricated
+media.
+For the surface
+
+30
+
+cm or g/cm 2
+
+galactic
+
+for some
+
+25
+
+a function
+
+thickness
+
+transport
+
+der
+
+20
+
+regolith
+
+I
+90
+thickness,
+
+Figure 14. Predicted
+BFO dose equivalent
+between
+0 and 150 g/cm 2 in simulated
+flare events
+
+of August
+
+1956
+
+et al. 1988).
+
+(Nealy
+
+1972, November
+
+I
+120
+
+I
+150
+
+g/cm 2
+for slab thickness
+lunar regolith
+for
+1960, and February
+
+conditions,
+trons,
+
+with
+
+ions
+
+shown
+ion
+
+half
+
+the
+
+dose.
+
+ions
+
+fragment
+
+particles
+then
+
+group
+
+thin
+
+_< 28)
+
+layers,
+
+For
+
+increasing
+
+thicknesses,
+
+the
+
+react
+
+with
+
+target
+
+to produce
+
+nucleons),
+
+percentage
+
+of the
+
+soil,
+
+approximately
+to
+
+dioxide
+
+greater
+
+of
+
+exposures
+
+on
+
+the
+
+lunar
+
+functions
+flare
+
+shown
+
+in
+
+generated
+
+of
+
+figure
+
+3,
+
+figure
+
+16.
+
+The
+
+shielding
+
+of
+
+carbon
+
+dioxide
+
+of either
+
+aluminum
+
+previously
+
+(figs.
+
+particularly
+
+the
+
+case
+
+30
+
+g/cm
+
+may
+
+be
+
+made
+
+for
+
+17)
+
+compared
+
+dioxide
+
+(fig.
+
+calculations
+
+15, respectively).
+
+agation
+
+data
+
+may
+
+be
+
+sphere
+
+when
+
+gas
+
+density
+
+applied
+as
+
+consider-
+
+of the
+
+0
+
+effectiveness
+than
+
+regolith
+
+exceed-
+
+GCR
+
+results
+
+for
+
+with
+
+the
+
+corresponding
+
+the
+
+100
+
+g/cm 2
+
+dose
+
+equivalent
+
+as a function
+
+for three
+
+50
+
+solar
+
+a
+n
+p
+Z
+
+carbon
+
+(figs.
+
+dioxide
+Martian
+
+16. BFO
+
+ide absorber
+amount
+et al. 1990a).
+
+of carbon
+
+flare events
+
+diox-
+
+(Simonsen
+
+as
+
+observa-
+
+a function
+
+80
+
+This
+
+amounts
+
+carbon
+
+60
+
+ef-
+
+results
+
+regolith
+
+Figure
+
+per
+the
+
+A similar
+
+lunar
+
+40
+
+CO 2 absorberamount,
+
+for
+
+greater
+
+20
+
+doseare
+
+to
+
+\'\
+
+carbon
+
+results
+
+basic
+
+IIJ
+
+20
+
+dioxide
+
+shield
+
+and
+The
+
+dose
+
+\3
+
+"_. 40
+
+secon-
+
+14, respectively).
+
+for
+
+for aluminum
+
+of the
+
+differs
+
+these
+
+2 of material.
+the
+
+For
+
+in carbon
+
+or
+
+10 and
+
+to
+
+which
+
+and
+
+is
+
+I
+
+Feb. 1956
+Nov. 1960
+Aug. 1972
+
+I
+
+dose.
+
+Consequently,
+
+are
+
+fectiveness
+
+25
+
+Mars.
+
+I
+
+approximately
+
+because
+
+spectra
+
+mass
+
+shown
+
+than
+
+I
+
+.....
+------
+
+heavier
+
+(mostly
+
+Mars
+
+situation
+on
+
+percent
+
+nucleons
+
+layers
+
+atmosphere
+
+depth
+
+90
+
+from
+
+shield
+
+case
+
+from
+
+result
+
+I
+
+E
+_60
+
+over
+
+and
+
+nuclei
+
+8O
+
+the
+
+contributes
+
+(ultimately,
+
+The
+
+and
+
+very
+
+_< Z
+
+mass
+
+2.
+
+tion
+
+heavier
+
+greater
+
+for
+
+ing
+
+by neu-
+
+of
+
+the
+
+20 g/em
+
+is
+
+dose
+
+groups
+
+lower
+
+daries)
+
+unit
+
+For
+
+(10
+
+to the
+two
+
+of
+
+lunar
+
+the
+
+and
+
+deliver
+
+is estimated
+
+ably
+
+contributions
+
+alphas,
+individually.
+
+heaviest
+
+the
+
+tile
+
+protons,
+
+12
+
+=
+=
+=
+=
+
+Alphas
+Neutrons
+Protons
+Atomic number
+
+prop,-Total
+
+atmo-
+
+of altitude
+
+dose
+
+is
+
+specified.
+
+60
+
+t
+
+I
+
+I
+
+I
+
+10
+
+a = Alphas
+n = Neutrons
+p = Protons
+Z = Atomic number
+
+50
+
+P
+
+n
+
+0
+40
+
+.,>
+
+10<Z
+
+absorber
+
+conditions
+
+3<Z<9
+
+When
+
+30
+
+I
+45
+
+regolith
+
+thickness,
+
+15
+Lunar
+
+BFO
+
+annual
+
+specified
+particle
+golith
+thickness
+(Nealy
+
+10
+
+dose-equivalent
+
+constituents
+for GCR at
+
+et al. 1989).
+
+I
+60
+g/cm 2
+
+contributions
+
+as a function
+solar minimum
+
+from
+
+of lunar reconditions
+
+amount
+
+(Simonsen
+
+100
+
+g/cm 2
+
+Martian
+
+for
+
+GCR
+
+at
+
+solar
+
+minimum
+
+is considered
+
+as
+
+a protec-
+
+calculations
+
+must
+
+et al. 1990a).
+
+regolith
+
+tive
+
+shield
+
+medium,
+
+the
+
+be
+
+made
+
+for
+
+atmosphere-regolith
+
+combined.
+
+15.
+
+80
+
+amount,
+
+Figure
+17. Annual
+BFO dose-equivalent
+contributions
+from
+specified
+particle
+constituents
+as a function
+of carbon
+
+<
+
+dioxide
+
+Figure
+
+I
+60
+
+CO 2 absorber
+
+30
+
+©
+
+I
+40
+
+20
+
+the
+
+In this
+
+tra
+
+emergent
+
+must
+
+be
+
+used
+
+Sample
+
+dure
+
+given
+
+are
+
+are
+
+in figure
+
+Two
+
+GCR
+
+cases
+
+are
+
+included
+
+in
+
+dose
+
+the
+
+analysis.
+
+dioxide
+
+subsequent
+results
+
+18 where
+
+the
+
+flux/energy
+
+carbon
+
+in conjunction
+and
+
+thicknesses
+
+detailed
+
+for the
+
+BFO
+
+used
+
+the
+
+a specified
+
+as input
+
+culation.
+
+amounts
+
+case,
+
+from
+
+transport
+
+specamount
+
+regolith
+
+for
+
+cal-
+
+such
+
+a proce-
+
+fixed
+
+carbon
+
+dioxide
+
+with
+
+regolith
+
+energetic
+For
+
+1956
+moderate
+
+solar
+
+layers.
+flare
+carbon
+
+dioxide absorber
+amounts,
+the dose reductions
+additional
+regolith
+layers are small compared
+the dose reduction
+occurring
+in the first few
+of carbon
+
+dioxide
+
+45
+
+(figs.
+
+I
+
+16 and
+
+L
+
+from
+with
+g/cm 2
+
+Transportation
+
+17).
+
+I
+
+astronaut
+The three
+ber 1960,
+unshielded
+
+30
+25
+
+_
+
+20
+
+"_ 15
+0
+_
+lO
+-- -- -- Flare after 16 g/cm 2 CO 2
+I
+I
+I
+I
+I0
+20
+30
+40
+
+0
+
+would
+receive
+approximately
+60 rem/yr.
+large flare events of August
+1972, Novemand February
+1956 would have delivered
+BFO
+doses of approximately
+411 rem,
+
+50
+
+Figure 18. BFO dose equivalent as a function of regolith
+absorber amount after transport through Martian atmosphere in vertical direction (Simonsen et al. 1990b).
+
+Description
+Results
+
+of
+
+Shield
+
+Assessment
+
+When
+the computed
+propagation
+data
+for the
+GCR and solar flare protons
+in different
+materials
+are applied
+to specific
+shield geometries,
+the dose at
+a specific target
+point can be evaluated.
+To evaluate
+the dose at a particular
+point,
+the radiation
+from
+all directions
+must
+be determined.
+In free space,
+radiation
+will surround
+the crew from the full 47r
+steradians.
+However,
+on a planetary
+surface,
+only
+a solid angle of 27r is considered
+because
+the mass
+of the planet protects
+the crew from half of the freespace radiation.
+The dose contribution
+attributed
+to particles
+arriving
+from a given direction
+is determined
+by the shield thickness
+encountered
+along its
+straight-line
+path
+to a specified
+target
+point.
+For
+shield
+assessments
+in these
+analyses,
+the absorber
+amounts
+and the corresporiding
+dosimetric
+quantities are evaluated
+for zenith
+angles between
+0 ° and
+90 ° in 5 ° increments
+and for azimuth
+angles between
+0 ° and 360 ° also in 5 ° increments.
+The directional
+is then
+
+numerically
+
+integrated
+
+over the
+
+solid
+
+an-
+
+gle (4rr for free space, 27r for planetary
+applications)
+about
+a target
+point to determine
+the total dose at
+that
+point.
+For free-space
+calculations
+in the case
+where a spherical
+shielded
+volume
+is considered,
+the
+slab- dose calculations
+can be used directly
+(fig. 9).
+Dose estimates
+materials
+are
+
+GCR dose is
+and the flare
+
+doses are significantly
+greater
+than the 30-day limit
+of 25 rem. Clearly,
+both lunar and Mars transportation vehicles
+must offer adequate
+protection.
+The
+
+Regolith absorber amount, g/cm 2
+
+dose
+
+Prom galactic
+cosmic
+raconditions,
+an unshielded
+
+110 rem, and 62 rein, respectively.
+The
+over the annual BFO limit of 50 rem/yr
+
+o
+
+5
+
+lu-
+
+Vehicles
+
+ally large flare occurred.
+diation
+at solar minimum
+
+35
+
+•_
+
+vehicles,
+
+Unshielded
+BFO dose equivalents
+in free space are
+substantial,
+and they could
+be lethal
+if an unusu-
+
+I
+
+4O
+E
+
+volumes:
+interplanetary
+transportation
+nar habitats,
+and Martian
+habitats.
+
+using the propagation
+data for various
+determined
+for the following
+shielded
+
+protection
+for the short
+lunar travel time will most
+likely emphasize
+flare protection,
+whereas
+the protection for the longer travel time to Mars must consider
+both the GCR and the flares combined.
+The following analyses
+consider
+radiation
+protection
+for transportation
+vehicles required
+for various
+flare scenarios
+and for galactic
+cosmic radiation.
+Solar
+flare
+analysis.
+The normal
+incident
+slab
+calculations
+presented
+in the previous
+section
+can be
+used to estimate
+the doses
+inside nearly
+spherical
+structures
+in an assumed
+isotropic
+radiation
+field.
+Results
+of such an application
+are presented
+in table 3 for the three large solar flare events
+(Townsend
+et al. 1989).
+The aluminum
+shield thicknesses
+required
+to reduce
+the incurred
+dose from large flares
+to the astronaut
+30-day limit for the eye, skin, and
+blood-forming
+organs
+are estimated.
+Even though
+the individual
+flare spectra
+exhibit
+marked
+differences
+(fig. 3), the required
+shield thickness
+ranges
+from approximately
+18 to 24 g/cm 2 (7 to 9 cm) of
+aluminum.
+The shield mass required
+can be reduced
+by approximately
+15 to
+shielding
+with thicknesses
+
+30 percent
+of only
+
+using water
+as
+15 to 20 g/cm 2
+
+required
+(Townsend
+et al. 1989). These shielding
+estimates
+include
+only a flare contribution
+and represent a minimum
+acceptable
+wall thickness.
+Rather
+than
+shielding
+an entire
+spacecraft
+with these wall
+thicknesses,
+the crew can be provided
+with a heavily
+shielded
+"shelter"
+for protection
+during
+a large flare
+event.
+Solar
+missions,
+numerous
+
+cycle
+XXI
+analysis.
+For long-duration
+contributions
+from the GCR and the more
+smaller
+flares should
+be considered.
+Dose
+
+evaluations
+throughout
+a complete
+solar cycle are
+made using the flare data (fig. 4) measured
+during
+solar cycle XXI between
+1975 and 1986 (Nealy et al.
+1990).
+
+The
+
+GCR
+
+contribution
+
+is assumed
+
+to vary
+11
+
+sinusoidallyfrompeakvaluesat solarminimumto
+thesmallestdoserateat solarmaximum.Normalincidentslabcalculationsfor the doseevaluationsare
+madeusingeffectivewatershieldthicknesses.
+Water,
+bothpotableandwaste,maybea likelyshieldmaterial for long-durationmissionsinceit will probably
+be availablein largequantities.Watercalculations
+can be usedto simulateresultsfor othermediaof
+lowatomicweightandhighhydrogencontent.Consequently,reasonable
+shieldmassrequirements
+may
+beestimatedon the basisof watertransportresults.
+Table
+
+3. Aluminum
+
+Shield
+
+Protection
+
+To Remain
+
+[Data
+
+Organ
+Skin
+Eye
+BFO
+
+.
+
+.
+
+.
+
+....
+.
+
+.
+
+.
+
+from
+
+Thickness
+
+Required
+
+Below
+
+Townsend
+
+the
+
+for Solar
+
+30-Day
+
+14[
+
+¢-
+
+,
+
+,
+
+,
+
+,
+
+i
+
+,
+
+,
+
+,
+
+'
+
+be
+
+/
+/
+
+Io
+U
+
+.....
+
+6
+O
+
+Flare
+
+24
+
+(a) 3-month mission.
+
+o
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+1
+
+50
+
+I
+
+I
+
+I
+
+I
+
+!
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+t
+
+et al. 1989]
+
+4o
+
+shield
+
+thickness
+
+for solar
+
+February
+
+1956
+
+November
+
+1960
+
+August
+
+1972
+
+g/cm
+
+cm
+
+g/cm
+
+cm
+
+g/cm
+
+cm
+
+1.3
+
+0.5
+
+2.5
+
+1.0
+
+7,5
+
+2.8
+
+1.5
+
+0.6
+
+3.5
+
+1.3
+
+9.5
+
+3.5
+
+24.0
+
+8.9
+
+22.0
+
+8.1
+
+18.0
+
+6.7
+
+2
+
+flare event
+
+2
+
+30
+20
+0
+
+lO
+
+(b) 12-month mission.
+
+0
+14o /
+Figures
+19 and 20 show sample
+BFO dose estimates
+from this study
+as a function
+of time within
+the solar cycle. In figure 19, the dose equivalent
+incurred for an effective water shield of 5 g/cm 2 is given
+for mission
+durations
+of 3, 12, and 36 months.
+The
+figure shows the dose integrated
+over the mission duration
+time, with the flare contribution
+(according
+to the solar cycle XXI distribution)
+appearing
+as deviations
+above the smooth
+sinusoidal
+curve,
+which
+would be seen for the GCR contribution
+alone.
+The
+results
+indicate
+that the flare contribution
+is not conspicuous
+in comparison
+to the more regularly
+varying
+GCR component.
+For missions
+of duration
+longer
+than
+1 year, one may conclude
+that
+the dose contributions
+due to the normally
+occurring
+solar flares
+are not significant
+in comparison
+with the GCR (for
+shield amounts
+greater
+than 5 g/cm2).
+In this case,
+the cumulative
+dose is approximately
+proportional
+to
+the mission duration
+time.
+The BFO dose received
+by crew members
+on a
+3-, 12-, or 36-month
+mission
+starting
+in any portion
+of the solar cycle may be predicted
+from figure 19.
+For example,
+the final dose value on figure 19(c) of
+about
+125 rem represents
+the dose incurred
+for a
+mission
+beginning
+8 years after solar minimum
+and
+lasting
+over the next 3 years.
+This plot (fig. 19(c))
+also indicates
+that a 3-year mission beginning
+4 years
+after solar minimum
+would result in a total incurred
+12
+
+,
+
+lower than would
+at solar minimum.
+
+/
+
+E
+.o
+
+Limit
+
+Aluminum
+
+2
+
+dose approximately
+45 percent
+received on a mission
+beginning
+
+I
+
+I
+
+I
+
+I
+
+I
+
+i
+
+I
+
+I
+
+,
+
+,
+
+i
+
+,
+
+,
+
+i
+
+,
+
+i
+
+k_
+
+' ov\
+180_0
+[-
+
+E
+
+/
+
+t
+
+___
+
+60
+
+0
+
+4O
+(c) 36-month mission.
+
+20
+0
+
+I
+
+I
+
+I
+
+I
+
+1
+
+I
+
+I
+
+I
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+Time after solar minimum, yr
+Figure 19.
+Pree-space BFO dose equivalent incurred for
+5-g/cm2-thick water slab shields for three mission lengths
+as a function of time in cycle after solar minimum conditions. Dashed lines indicate the average cycle value (Nealy
+et al. 1990).
+Figure
+
+20 illustrates
+
+the
+
+variation
+
+of the
+
+cumu-
+
+lative incurred
+dose equivalent
+throughout
+an entire
+solar cycle for 5- and 15-g/cm 2 water shield amounts.
+This type of representation
+is useful in estimating
+the
+incurred
+dose for long-duration
+missions
+(2 years or
+more) that begin and end at arbitrary
+times within
+the solar cycle.
+For example,
+from figure
+20(a),
+the total BFO dose for a 5-year mission
+beginning
+at solar minimum
+is predicted
+to be approximately
+
+180rem for 5-g/cm2 shielding. However,if the
+5-yearmissionbegins3 yearsafter solarminimum,
+the total incurreddoseis estimatedto be approximately135rem(260remat year8 minus125remat
+year3).
+The precedingresultsfrom the solarcycleXXI
+analysisdo not includecontributionsfrom a rarely
+occurringgiantsolarprotonevent(e.g.,theeventsof
+1956,1960,1972,and1989),andsuchaneventmust
+be accountedfor separatelyas circumstances
+warrant.Forexample,fora 1-or 2-yearmissionspanning
+the solarminimumconditions,a largeprotonevent
+wouldbe highlyunlikely,whereas
+duringactiveSun
+conditions,a larger(but still relativelysmall)probability existsthat incurreddoseswouldbeconsiderablyincreased
+because
+oflargeflareepisodes.
+I_
+
+4oo
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+consisting
+of the fluence
+of the 1972
+event in combination
+with the annual
+bution
+
+equivalent
+less than
+
+1000
+
+I
+
+"_
+
+50-rem
+
+BFO
+
+dose-
+
+shield amounts
+thicker than 25
+
+i
+
+i
+
+i
+
+\\\Aug.
+?x
+20
+
+1972 flare
+,
+30
+
+,
+40
+
+\x_Total
+
+I
+
+|
+i01
+0
+
+,
+10
+
+50
+
+Water shield thickness, cm or g/cm 2
+200
+
+>
+
+100
+
+Figure 21. BFO dose-depth equivalent as a function of water
+shield thickness for August 1972 flare and the GCR at
+solar minimum conditions.
+Guidelines
+
+,-t
+
+E
+r
+
+300
+
+g
+
+250
+
+"3
+
+200
+
+I
+
+]"
+
+I_
+
+I
+
+_
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+I
+
+i
+
+i
+
+I
+
+I
+
+I
+
+I
+
+I
+
+for
+
+manned-module
+
+volume
+
+require-
+
+ments
+are graphically
+depicted
+in figure 22 (NASA
+STD-3000,
+1987).
+According
+to these
+guidelines,
+long-duration
+missions
+would require
+at least 10 m 3
+per crew member
+as a performance
+limit and approximately
+19 m 3 as an optimal
+limit.
+(Here, the
+tolerance
+limit volume is not considered
+to be applicable for normal
+operations
+on extended
+missions.)
+A four-person
+crew is recommended
+for a manned
+Mars mission
+(The 90-Day
+Study),
+which implies
+a
+
+!
+
+©
+
+O
+"O
+
+The
+
+•100 ",,\
+
+300
+
+e
+
+E
+
+21.
+
+value is exceeded
+for water
+about 18 g/cm 2. For shields
+
+©
+
+-.,__
+
+in figure
+
+proton
+contri-
+
+or 30 g/cm 2, the flare dose is insignificant.
+This propagation
+data can be used to estimate
+shield masses
+of various
+manned
+habitation
+modules.
+
+,,,Z
+,,,,
+©
+
+_
+
+is given
+
+large
+GCR
+
+150
+
+o
+100
+>
+
+_
+
+5o
+
+20
+_g
+
+_
+
+0
+
+_b)lt5-g/_m2-_hickwatershield.i1__ L____
+!
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+estimates.
+
+The
+
+results
+
+__
+
+,
+
+,
+
+S
+
+15
+
+Optimal limit
+
+E
+
+Figure 20. Cumulative total BFO dose-equivalent
+variation
+incurred throughout
+l 1-year solar cycle for water slab
+shields (Nealy et al. 1990).
+mass
+
+,
+
+o
+
+Time after solar minimum, yr
+
+Shield
+
+_
+
+E
+
+of the
+
+so-
+
+lar cycle XXI study indicate
+that a reasonably
+conservative
+radiation
+environment
+for exposure
+analysis
+may be derived
+from the solar minimum
+GCR flux
+with the inclusion
+of one large proton
+event.
+The
+BFO dose-depth
+variation
+for such an environment
+
+_
+10
+
+/
+
+Perfo_.._.._ancelimit
+limit
+
+_
+
+!
+O
+>
+
+I
+
+0
+
+2
+
+1
+
+I
+
+I
+
+4
+6
+8
+Mission duration, month
+
+I
+
+10
+
+12
+
+Figure 22. Guidelines for determination
+of total habitable
+volume required per person in a space module (NASA
+STD-3000, 1987).
+13
+
+minimumhabitablevolumeof approximately
+42m3.
+If a cylindricalmoduleis assumed,with diameter
+equalto length, the shieldmassof the configuration may thenbefoundasa functionof dosedeliverednearthe centerof themodule.Figure23shows
+the annualdelivereddosedueto GCRandthe August 1972flareasa functionof cylindershieldmass.
+Again,equivalentwatershieldthicknesses
+are used
+in theseestimates(fig.21). If oneconsidersan acceptabledesigncriterion to be 50to 70 percentof
+the maximumallowabledose,thenshieldmasses
+on
+the orderof 20to 30metrictonsarerequiredfor the
+42-m3 volume.Shieldmassestimates
+will begreater
+if aluminumis assumedto be the shieldingmaterial because
+ofthe poorershieldingcharacteristics
+of
+aluminum. In somecases,the shieldmasscanbe
+a significantfractionof the total massof candidate
+Mars transportationvehicleconcepts(The 90-Day
+Study).However,the bulk shieldmassis not necessarilytheextramassthat mustbeprovided,but the
+total shieldingrequiredwhichcanincludethe pressurevesselwalls,watertanks,fueltanks,andother
+components
+of the spacecraft.
+Cylinder3
+Limit
+volume, m
+<> 21
+Tolerable
+zx 42
+Performance
+o 77
+Optimal
+No shielding dose
+,.g
+
+0..%%
+
+lOO
+BFO annual limit ""0 "_, "D,
+""_"-_.
+<
+
+lO
+
+........
+
+The directional
+dose due to GCR (at solar minimum) was calculated
+for an interior
+point in the center one of the habitat
+modules.
+Figure
+24 shows the
+axisymmetric
+directional
+dose pattern
+superimposed
+on the vehicle
+configuration
+outline.
+This pattern
+consists
+of vectors
+emanating
+from a target
+point
+with their lengths
+proportional
+to the annual
+GCR
+dose per unit solid angle.
+Although
+the radiation
+field outside the spacecraft
+is assumed
+to be isotropic,
+geometry
+effects cause the internal
+field to be highly
+anisotropic.
+In particular,
+very little radiation
+penctrates
+from solid angles subtending
+the fuel tanks,
+which in the illustrative
+calculation
+are assumed
+to
+be full.
+By numerically
+integrating
+the directional
+dose, the BFO dose in the center
+of Hab A is estimated
+to be 29 rem/yr.
+Total BFO dose estimates
+are also predicted
+for
+a variety
+of points
+within
+each module
+from which
+contours
+of the dose variation
+are obtained.
+Figure 25
+shows the BFO
+dose variation
+within
+the habitat
+modules.
+The influence
+of the fuel tanks is evident
+in
+the lower overall doses of the module
+closest
+to the
+fuel supply (Hab A). The large dose gradient
+evident
+at the top of Hab B is due to the thick walls of the
+adjacent
+pantry
+or flare shelter.
+Analyses
+such as
+these are expected
+to be of importance
+in the design
+stages
+of free-space
+modules
+with regard
+to crewquarters
+layouts,
+placement
+of equipment,
+storage
+of
+consumables
+and waste, etc.
+
+1000
+
+0
+
+2.7 m). For the sample calculations,
+the combination
+of components
+and bulk shielding
+for each habitat
+module
+is assumed
+to be equivalent
+to an effective
+water shield thickness
+of 5 g/cm 2. Also, contributing to the shielding
+for the dose calculations
+are the
+ECCV,
+pantry,
+and fuel tanks.
+
+1'o .......
+
+Lunar
+
+"13
+
+ioo
+
+Shield mass, metric tons
+Figure 23. BFO dose equivalent incurred from the August
+1972 flare and the GCR (fig. 21) versus shield mass for
+cylindrical modules (Length/Diameter
+= 1.0) of various
+volumes based on requirements of figure 22 for four-man
+crew.
+
+detailed
+dose analyses
+of specific
+shielded
+configurations. One such configuration,
+depicted
+in figure 24,
+is a manned
+Mars transfer-vehicle
+concept
+developed
+by Martin
+Marietta.
+This concept
+drical habitat
+modules
+(diameter
+14
+
+contains
+two cylinof 7.6 m, length of
+
+Habitation
+
+Once
+on the surface
+of the Moon,
+the radiation hazards
+of free space will be less severe.
+Unshielded
+BFO dose estimates
+for the flare events
+of
+August
+1972, November
+1960, and February
+approximately
+half of those of free space:
+55 rem, and 31 rem, respectively.
+These
+mates are significantly
+of 25 rem.
+The BFO
+at solar
+
+Analysis
+of a Mars
+transfer-vehicle
+concept.
+The basic propagation
+data generated
+in the
+form of slab dose estimates
+can also be used for more
+
+Surface
+
+minimum
+
+higher
+than
+dose incurred
+
+is estimated
+
+1956 are
+205 rem,
+dose esti-
+
+the 30-day
+from the
+
+limit
+GCR
+
+to be approximately
+
+30 rem/yr,
+which
+is below
+the 50-rem/yr
+annual
+limit.
+However,
+the GCR dose in conjunction
+with
+medium
+to large
+flare-event
+doses
+may reach
+the
+annual
+limit and become
+career
+limiting
+for longduration
+missions.
+These
+values
+clearly
+show the
+need for radiation
+protection
+while on the lunar surface.
+Local resources,
+such as lunar
+regolith,
+will
+be available
+for use as protective
+shielding
+to cover
+
+habitats. In this section,severalhabitat configurationsareconsideredwith differentregolithshield
+thicknesses
+for protection.
+Dosecalculationsinsidecandidatehabitatsare
+predictedusingthe computedpropagationdatafor
+solarflaresandthe GCRshownin figures14and15.
+A conservativestimateof the free-spacenvironmeritis to assumethe combinationof the GCRat
+solarminimumandonelargeprotonevent. From
+figures14and 15, the regolithslabdoseestimates
+implythat a 50-cmthickness(75g/cm2 assuminga
+regolithdensityof 1.5g/cm3) will reducethe BFO
+
+doseequivalentto approximately
+40remfor thesum
+of the GCR and one largeflare (February1956).
+With the 2rr steradianshieldingon the lunar surface,it is expectedthat with a 50-cmregolithlayer,
+the annualdosefor this environmentis reducedto
+approximately20 rem. Thus,a 50-cmshieldthicknessis selectedfor analysisto reducedoselevelsto
+slightlylessthanhalfof theannual imit (or a design
+safetyfactorof approximately
+2). Shieldthicknesses
+of 75and100cmarealsoselectedfor analysisto determinethe extentto whichadditionalshieldingwill
+furtherreduceannualdoses.
+
+CryopropuMon
+engines
+(6each)
+LOX r
+/
+
+LH27
+
+_
+
+_- Hab A
+__._r-HabB
+
+/--- Aer:;:::ure
+/
+
+/--ECCV
+
+P an7h/:lldeiati°n
+
+RCS (4 pairs)
+\
+Docking port __a
+
+Figure 24. Configuration
+
+of Martian
+
+t__Tunnel
+
+piloted vehicle with sample directional
+Early
+Station
+Hab B
+
+Hab A
+
+Figure 25. Annual BFO dose-equivalent
+variation due to
+galactic cosmic radiation for the cylindrical habitat modules shown in the conceptual Mars vehicle configuration.
+Contour increments are 1 rem/yr.
+
+dose patterns
+
+for a point inside Hab A module.
+
+lunar
+habitats
+Preedom
+derived
+
+are described
+as a Space
+module
+and
+an inflat-
+
+able/eonstructible
+sphere
+(Alred
+et al. 1988).
+The
+Space Station
+derived
+module
+is assumed
+to be 4.6 m
+in diameter
+and 12.2 m in length
+as shown
+in figure 26(a).
+The module
+is assumed
+to be lengthwise
+on the lunar surface and covered with either 50 cm (or
+75 g/cm 2 assuming
+a regolith
+density
+of 1.5 g/cm a)
+or 100 em of lunar regolith
+overhead.
+Along the sides,
+the regolith
+material
+is filled in around
+the cylinder
+to form a vertical
+wall up to the central
+horizontal
+plane.
+For the 50-era layer, the shield thickness
+will
+vary from 230 to 50 cm from ground
+level up to this
+plane.
+The spherical
+habitat
+is 15.2 m in diameter
+and is modeled
+as a half-buried
+sphere with the portion above ground
+level shielded
+100-cm regolith
+layer (fig. 26(b)).
+
+with
+
+a 50-,
+
+75-,
+
+or
+
+15
+
+The integratedBFO doseestimatesthat would
+havebeenincurredfromthe threesolarflareevents
+using shieldthicknesses
+of 75 and 150g/cm2 are
+shownin table4 (Nealyet al. 1988). The values
+in the tablerepresentthe dosein the centerof the
+habitat for eachflareevent. The dosedistribution
+wasalsocalculatedthroughouteachhabitat. Forthe
+cylindricalmodule,thegeneraldoselevelsshowlittle
+changeforheightsaboveandbelowthecenterplane.
+The radiationfield maximaoccur at about twothirdsthedistancebetweenthecenterandendwalls.
+Forthe sphericalhabitat,the fieldmaximumoccurs
+abovethecenterpointat positionscloserto the top,
+whereasdosesin the buriedhalf are significantly
+reduced. The BFO dosevariationswithin these
+habitatsfortheNovember
+1960flareeventareshown
+in figures27and28.
+Table
+
+4. BFO
+Solar
+
+Dose Comparisons
+Flares
+for Lunar
+
+[Data
+
+from
+
+Nealy
+
+for Three
+Habitats
+
+et al.
+
+Regolith
+
+data
+
+thickness,
+
+1956
+
+1960
+
+1972
+
+cm
+
+dose,
+
+rem
+
+Cylinder
+
+Sphere
+
+(center)
+
+(center)
+
+50
+
+7.48
+
+7.04
+
+100
+
+2.70
+
+2.94
+
+50
+
+1.60
+
+1.90
+
+100
+
+.16
+
+.23
+
+5O
+
+0.25
+
+0.30
+
+100
+
+.03
+
+.04
+
+Cylindrical
+
+module
+
+(side
+
+and
+
+end
+
+1.6
+
+Figure
+
+at
+
+27.
+
+BFO
+
+cylinder
+
+for
+
+dose-equivalent
+central
+
+ber
+
+1960
+
+flare
+
+tour
+
+increments
+
+head
+
+(Nealy
+
+Dose
+solar
+
+predictions
+minimum
+
+variation
+
+horizontal
+
+resulting
+
+values
+
+are
+
+event.
+
+Dose
+
+for
+
+75-g/cm2-thick
+
+et al.
+
+within
+
+plane
+
+a shielded
+from
+0.1-rem
+
+con-
+
+regolith
+
+shield
+
+over-
+
+included
+for the
+The maximum
+
+GCR
+inte-
+
+1988).
+
+arc also
+conditions.
+
+grated
+BFO doses estimated
+ious shield thicknesses
+are
+
+in each habitat
+shown in table
+
+for var5 (Nealy
+
+views).
+Table
+
+5. GCR
+
+m
+
+Integrated
+
+BFO
+
+Results
+
+for
+
+[Data
+
+Nealy
+
+et
+
+1989]
+
+from
+
+Regolith
+
+al.
+
+Habitat
+
+geometry
+
+em
+
+Lunar
+
+Habitats
+
+dose
+
+equivalent,
+
+thickness
+BFO
+g/cm
+
+2
+
+rem/yr
+
+(a)
+
+(b)
+Figure
+
+16
+
+Spherical
+
+Cylindrical
+
+50
+
+75
+
+12
+
+Spherical
+
+50
+
+75
+
+12
+
+75
+
+112.5
+
+i0
+
+module.
+
+26.
+
+Modeled
+
+shielded
+
+configurations
+
+habitat
+
+modules
+
+(Nealy
+
+et al.
+
+1989).
+
+Novem-
+
+in
+
+ter point (approximately
+11 to 12 rem/yr).
+Below
+ground level, a larger gradient
+in dose rate is shown in
+the downward
+direction,
+with values in the lower section decreasing
+to less than 5 rem/yr
+(fig. 30). With
+l l2.5-g/cm2-thick
+shielding
+overhead,
+the dose rate
+maximum
+is reduced
+to 8 to 10 rem/yr
+throughout
+the upper
+half of the sphere.
+This increased
+shielding is of even less significance
+in the regions
+below
+the ground
+where predicted
+doses approach
+the same
+low values as seen in the 75-g/cm 2 calculation.
+Relatively
+little reduction
+in dose (less than 20 percent)
+occurs
+for a 50-percent
+increase
+in layer thickness,
+indicating
+that
+further
+substantial
+dose reductions
+would require very thick layers of material.
+
+__ 0.5 m
+
+(a)
+
+1.4 _
+
+et al. 1989).
+For the cylindrical
+habitat
+configuration, the dose variation
+throughout
+the configuration
+is relatively
+small (fig. 29).
+For the portion
+of the
+spherical
+habitat
+above ground
+level, the dose variation is also relatively
+small with a broad maximum
+dose rate
+observed
+directly
+above the sphere
+cen-
+
+1988]
+
+Predicted
+Flare
+
+Large
+
+__-'-_
+
+of candidate
+
+lunar
+aAssuming
+
+a regolith
+
+density
+
+of
+
+1.5
+
+g/cm
+
+3.
+
+above
+
+estimates
+
+have
+
+not
+
+taken
+
+into
+
+account
+
+the
+
+added shielding
+provided
+by the pressure
+vessel wall,
+supporting
+structures,
+or the placement
+of equipment
+in and around
+the module.
+Shielding
+lunar surface
+
+from solar flare events is essential
+on the
+whether
+in the form of heavily shielded
+
+areas (i.e., flare shelters)
+or overall habitat
+protection
+for any mission
+duration.
+For longer stay times on
+the surface,
+the shielding
+from GCR
+becomes
+necessary
+to reduce
+the crew member's
+overall
+career
+exposure.
+A regolith
+shield
+thickness
+of 50 cm is
+estimated
+to provide
+adequate
+flare and GCR protection.
+However,
+before an optimum
+thickness
+and
+shielding
+strategy
+are selected,
+the complete
+mission
+scenario
+(including
+the lunar transport
+vehicle) needs
+to be studied
+in detail.
+
+Ground
+level
+
+Position
+ony-axis, m
+Figure 28. BFO dose-equivalent
+variation within half-buried
+sphere shielded overhead with 75-g/cm2-thick
+regolith
+layer resulting from November 1960 flare event.
+Dose
+values are in 0.2-rein contour increments (Nealy et al.
+1988).
+
+_5
+
+\
+
+./
+J
+
+Figure 29. Annual BFO dose-equivalent
+variation within
+shielded cylinder for central horizontal plane resulting
+from GCR. Dose values are in 0.25-rem/yr contour increments for 75-g/cm2-thick regolith shield overhead (Nealy
+et al. 1989).
+
+Figure 30. Annual BFO dose-equivalent
+variation within
+half-buried sphere shielded overhead with 75-g/cm2-thiek
+regolith layer resulting from GCR. Dose-equivalent values
+are in contour intervals of 0.5 rem/yr (Nealy et al. 1989).
+Martian
+
+A conservative
+yearly
+estimate
+of dose is to assume that the crew receives
+the dose delivered
+from
+the GCR and the dose delivered
+from one large flare
+(in this case, the February
+1956 flare since it delivers the largest
+dose in the shielded
+module).
+If
+75 g/cm 2 of regolith
+is selected
+for coverage,
+such
+a BFO
+dose in the cylindrical
+habitat
+is approximately
+19.5 rem/yr.
+Estimating
+the dose in the
+spherical
+habitat
+is more complicated
+because
+of the
+large variation
+in dose throughout
+the habitat;
+however, the maximum
+dose estimated
+is approximately
+19 rem/yr.
+These dose estimates
+are well below the
+50-rem/yr
+established
+guidelines
+for United
+States
+astronauts.
+The 30-day
+limit,
+with regard
+to the
+flares,
+remains
+below
+the 25-rem
+limit.
+The skin
+doses,
+below
+
+not presented
+the established
+
+in this
+30-day
+
+analysis,
+are also
+and annual limits.
+
+well
+The
+
+face
+
+Surface
+
+The radiation
+is less severe
+
+Habitation
+
+environment
+on
+than that found
+
+the Martian
+on the lunar
+
+sursur-
+
+face.
+Although
+Mars is devoid of an intrinsic
+magnetic field strong enough
+to deflect charged
+particles,
+it does have a carbon
+dioxide
+atmosphere
+that will
+help protect
+surface crews from free-space
+radiative
+fluxes.
+Estimating
+the unshielded
+doses anticipated
+for crew members
+on the surface
+of Mars is more
+difficult
+than
+estimates
+made for the lunar
+surface
+in which free-space
+estimates
+half.
+Now, the protection
+sphere must be considered.
+
+are simply
+provided
+by
+
+divided
+in
+the atmo-
+
+Atmospheric
+shielding
+analysis.
+The amount
+of protection
+provided
+by the Martian
+atmosphere
+depends
+on the composition
+and structure
+of the
+atmosphere
+and the crew member's
+altitude.
+In
+17
+
+this analysisthe compositionof the atmosphere
+is
+assumedto be 100percentcarbondioxide. The
+Committeeon SpaceResearchasdeveloped
+warm
+high-andcoollow-density
+modelsoftheatmospheric
+structure(SmithandWest1983).The low-density
+modeland the high-densitymodelassumesurface
+pressures
+of 5.9 mb and7.8 rob, respectively.The
+amountofprotectionprovidedby theatmosphere,
+in
+theverticaldirection,at variousaltitudesis shownin
+table6 (Simonsen
+etal. 1990a).In thesecalculations,
+a sphericallyconcentricatmosphere
+is assumed
+such
+that the amountof protectionprovidedincreases
+with increasingzenithangle. Dosepredictionsat
+altitudesup to 12 km are includedin the analysis
+because
+of the largetopographical
+reliefpresenton
+the Martiansurface.
+
+to 24 rem/yr
+and an estimated
+BFO dose equivalent is 19 to 22 rem/yr
+(GCR plus 1956 event).
+At
+an altitude
+of 12 km, an estimated
+skin dose cquivalent is 61 to 105 rem/yr
+and an estimated
+BFO dose
+equivalent
+is 33 to 48 rem/yr
+(GCR plus 1972 event).
+These dose predictions
+imply that the atmosphere
+of
+Mars may provide shielding
+sufficient
+to maintain
+the
+annual
+skin and BFO dose levels below the current
+300 rem/yr
+naut limits,
+
+and the 50 rem/yr
+respectively.
+
+Table
+
+7. Integrated
+for Martian
+[Data
+
+from
+
+Skin
+
+United
+
+Dose
+
+Models
+
+et al. 1990a]
+
+Integrated
+
+Table
+6.MartianAtmospheric
+Protection
+in
+Vertical
+Direction
+Altitude, Low-density
+model, High-density
+model,
+km
+g C02/cm 2
+g CO2/cm _
+16
+11
+7
+5
+
+dose
+
+equivalent,
+
+at altitude
+
+oK
+
+0 km
+
+4 km
+
+8 km
+
+12 km
+
+High
+
+density
+
+11.3
+
+13.4
+
+15.8
+
+18.6
+
+ray
+
+Low
+
+density
+
+13.2
+
+15.9
+
+18.9
+
+22.4
+
+Aug.
+
+1972
+
+High
+
+density
+
+3.9
+
+9.5
+
+21.1
+
+42.8
+
+solar
+
+flare
+
+Low
+
+density
+
+9.0
+
+21.9
+
+46.2
+
+82.6
+
+cosmic
+
+0
+4
+8
+12
+
+skin
+
+rem,
+
+Galactic
+
+astro-
+
+Equivalents
+
+Atmospheric
+Simonsen
+
+States
+
+(anmlal)
+
+22
+16
+11
+8
+
+event
+Nov.
+
+1960
+
+High
+
+density
+
+6.4
+
+I0.0
+
+14.8
+
+21.1
+
+solar
+
+flare
+
+Low
+
+density
+
+9.7
+
+15.1
+
+21.9
+
+29.6
+
+event
+Feb.
+
+Integrated
+
+dose-equivalent
+
+calculations
+
+were made
+
+for both the high- and low-density
+atmospheric
+models at altitudes
+of 0, 4, 8, and 12 km.
+The corresponding
+skin and BFO dose estimates
+are shown in
+tables
+7 and 8, respectively
+(Simonsen
+et al. 1990a).
+A total yearly
+skin and BFO dose may be conservatively
+estimated
+as the sum of the annual
+GCR
+dose and the dose from one large flare.
+At the surface, such an estimated
+skin dose equivalent
+is 21
+18
+
+High
+
+density
+
+9.2
+
+11.1
+
+13.3
+
+15.9
+
+Low
+
+density
+
+11.0
+
+13.4
+
+16.2
+
+19.1
+
+event
+
+Dose estimates
+are predicted
+for the galactic
+cosmic radiation
+for the minimum
+of the solar activity
+cycle (fig. 6). The fluence spectra
+at 1 AU are used
+for the three large flares of August
+1972, November
+1960, and February
+1956 (fig. 3).
+In the vicinity
+of Mars
+(approximately
+1.5 AU), the fluence
+from
+these flares is expected
+to be less; however,
+there is
+still much discussion
+on the dependence
+of the radial
+dispersion
+of the flare with distance.
+Therefore,
+for
+the flare calculations
+in this analysis,
+the free-space
+fluence-energy
+spectra
+at 1 AU have been conservatively applied
+to Mars. The surface doses at various
+altitudes
+in the atmosphere
+are determined
+from the
+computed
+propagation
+data for the GCR and the solar flare protons
+through
+carbon
+dioxide
+as shown in
+figures 16 and 17.
+
+1956
+
+,solar flare
+
+The 30-day limits are important
+when considering thc doses incurred
+from a solar flare event.
+The
+only 30-day limit exceeded
+is the BFO limit of 25 rem
+for the August
+1972 event
+However,
+as seen in figure
+is rapidly
+attenuated
+of additional
+shielding
+
+at the altitude
+16, the August
+
+of 12 km.
+1972 flare
+
+by matter,
+and a few g/cm
+should
+reduce the anticipated
+
+2
+
+dose below this limit.
+These dose predictions
+imply
+that the atmosphere
+of Mars may also provide
+sufficient shielding
+to maintain
+30-day dose levels for the
+skin and BFO below the current
+150-rem and 25-rem
+astronaut
+limits, respectively.
+Regolith
+shielding
+analysis.
+Mars exploration
+crews are likely to incur a substantial
+dose while in
+transit
+to Mars and perhaps
+from other
+radiation
+sources
+(e.g.,
+nuclear
+reactors)
+which
+will reduce
+the allowable
+dose that
+can be received
+while
+on
+the surface.
+Therefore,
+additional
+necessary
+to maintain
+short-term
+limits or to help maintain
+career
+
+shielding
+may be
+dose levels below
+dose levels as low
+
+as
+
+resources,
+
+possible.
+
+By
+
+utilizing
+
+local
+
+such
+
+as
+
+Martianregolith,shieldingmaterialscan be provided
+without
+Earth.
+
+excessive
+
+Table
+
+launch
+
+8. Integrated
+for Martian
+[Data
+
+from
+
+weight
+
+BFO
+
+requirements
+
+Dose
+
+Models
+et aL 1990a]
+
+Integrated
+
+BFO
+
+rem,
+
+Galactic
+
+High
+
+dose
+
+equivalent,
+
+at altitude
+
+of
+
+0 km
+
+4 km
+
+8 km
+
+12 km
+
+density
+
+10.5
+
+12.0
+
+13.7
+
+15.6
+
+13.8
+
+15.8
+
+18.0
+
+ray
+
+Low
+
+density
+
+11.9
+
+Aug.
+
+1972
+
+High
+
+density
+
+2.2
+
+4.8
+
+9.5
+
+17.4
+
+solar
+
+flare
+
+Low
+
+density
+
+4.6
+
+9.9
+
+18.5
+
+30.3
+
+High
+
+density
+
+5.0
+
+7.5
+
+10.6
+
+14.4
+
+density
+
+7.3
+
+10.8
+
+14.8
+
+19.1
+
+cosmic
+
+Regolith
+shield
+thickness
+
+Equivalents
+
+Atmospheric
+Simonsen
+
+-
+
+from
+
+(a) Side and end views.
+
+(annual)
+10-mcliff
+
+_ -
+
+.-:
+
+event
+Nov.
+
+1960
+
+solar
+
+flare
+
+Low
+
+event
+Feb.
+
+1956
+
+High
+
+density
+
+8.5
+
+10.0
+
+11.7
+
+13.4
+
+solar
+
+flare
+
+Low
+
+density
+
+9.9
+
+11.8
+
+13.6
+
+15.3
+
+event
+(b)
+
+Figure
+
+The GCR particle
+flux and solar flare particle
+flux
+spectra
+obtained
+during
+the atmosphere
+calculations
+at 0- and 8-km
+altitudes
+are now used as input
+conditions
+for regolith
+shield
+calculations.
+For a
+representative
+large solar flare contribution,
+the very
+penetrating
+spectrum
+of the February
+1956 event is
+selected
+for further
+analysis.
+This event
+has the
+greatest
+flux of high-energy
+particles
+which results
+in the highest
+dose at the Martian
+surface.
+The
+subsequently
+calculated
+particle
+flux versus
+energy
+distributions
+in the regolith
+can then be used to
+determine
+the dose at specified
+locations
+in the shield
+media.
+The dose contribution
+attributed
+to particles
+arriving
+from a given direction
+is now determined
+by
+the amount
+of CO2 traversed
+and then the shield
+thickness
+encountered
+along its straight-line
+path to
+a specified
+target
+point.
+An example
+of some of the
+basic propagation
+data required
+is shown in figure 18.
+One early Martian
+habitat
+is described
+as a Space
+Station
+Freedom
+derived
+module
+that
+is 8.2 m in
+length
+and 4.45 m in diameter
+(The 90-Day
+Study).
+The cylindrical
+module
+is assumed
+to be lengthwise
+on the Martian
+surface
+with various
+thicknesses
+of
+Martian
+regolith
+surrounding
+tion assumes
+that the module
+
+it. Another
+is situated
+
+configura2 m from a
+
+10-m-high
+cliff. (See fig. 31.)
+A series of calculations
+are performed
+regolith
+thicknesses
+covering
+the module.
+
+for various
+Again, no
+
+for
+
+31.
+Mars
+
+End
+
+Cylindrical
+(Simonsen
+
+view
+
+of module
+
+habitat
+
+module
+
+et
+
+1990b).
+
+al.
+
+next
+
+with
+
+to
+
+cliff.
+
+regolith
+
+shielding
+
+consideration
+is given to the added shielding
+provided
+by the pressure
+vessel and internal
+equipment.
+The
+largest
+integrated
+dose equivalent
+in a vertical
+plane
+through
+the center of the cylinder
+is plotted
+versus
+an effective
+regolith
+shield
+thickness
+in figure
+32
+(Simonsen
+et al. 1990b).
+As shown in the figure, the
+regolith
+does not provide much additional
+protection
+from the GCR or the flare event than that
+already
+provided
+by the carbon
+dioxide
+atmosphere.
+The
+slope of each curve is relatively
+flat after 20 g/cm 2,
+with most
+of the skin and BFO
+dose reductions
+occurring
+in the first 20 g/cm 2. For 20 g/cm 2 of
+regolith
+protection,
+the annual
+BFO dose equivalent
+due to the GCR is reduced
+from 11.9 to 10.0 rem/yr
+at 0 km, and from 15.8 to 11.2 rem/yr
+at 8 km. The
+annual
+skin dose equivalent
+is reduced
+from 13.2 to
+11.0 rem/yr
+at 0 km, and from 18.9 to 12.6 rem/yr
+at 8 km.
+For 20 g/cm 9_of regolith
+protection,
+the
+BFO dose equivalent
+due to the solar flare is reduced
+from 9.9 to 6.3 rein/event
+at 0 km. The skin dose
+equivalent
+is reduced
+from 11.0 to 6.9 rem/event.
+For the GCR, the dose variation
+within
+the module in the radial direction
+is not large, approximately
+5 to 20 percent
+for 15 to 50 cm of shielding,
+respectively.
+For the February
+1956 solar flare event,
+the
+dose-equivalent
+variation
+is between
+approximately
+19
+
+25to 40percentfor 15to 50cmof shielding,respectively. In the axialdirection,the doseestimatesfor
+both the GCRand the flareshoweda variationof
+lessthan1 percent,whichsuggests
+that thedosesincurredin cylindricalhabitatsof otherlengthswould
+becomparable
+in magnitude.
+I
+
+20
+18
+
+i
+
+k
+
+.ft. 16 '_
+e,-
+
+I
+
+_
+
+14- -
+
+J
+
+u
+
+Annual
+
+GCR
+
+Flare
+
+at 0 km
+
+I
+
+i
+
+at 08 km
+
+.......
+
+AnnualGCR
+
+at0 kin, cliff
+
+......
+
+Flare
+
+cliff
+
+at 0 km,
+
+_,_
+
+o ..
+12
+
+_
+
+g
+
+IO - ._: -...
+
+x_
+
+_
+
+---.......--_.
+
+-
+
+8
+
+N
+
+(a) Skin dose equivalent.
+0
+
+I
+
+I
+
+I
+
+20 1
+
+i
+
+i
+
+i
+
+[
+
+18
+
+I
+
+16 _
+
+.......
+
+I
+
+I
+
+I
+
+I
+
+i
+i
+i
+,
+Annual GCR at 8 km
+Annual GCR at 0 km
+Flare at 0 km
+Annual GCR at 0 kin, cliff
+
+1o
+o
+
+equivalent
+the cliff
+
+°o
+
+°_o
+
+(b) BFO dose
+,,.I
+I
+10
+20
+
+m
+
+w_
+
+equivalent.
+I
+I
+30
+40
+
+I
+50
+
+[
+60
+
+I
+70
+
+i
+80
+
+32.
+
+thickness
+
+Maximum
+
+dose
+
+of
+
+as
+
+module
+(Simonsen
+
+A possible
+alent
+received
+to locate
+the
+
+equivalent
+
+a function
+et al.
+
+of
+
+in central
+
+cross-sectional
+
+effective
+
+regolith
+
+tional protection
+using 15 cm of Martian
+regolith
+is
+provided
+at an altitude
+of 0 km, the annual skin and
+blood-forming
+organ dose equivalent
+will be reduced
+from 24 to 18 rem/yr
+and from 22 to 16 rem/yr,
+respectively
+(Simonsen
+et al. i990b).
+For radiation
+protection
+provided
+by regolith
+on
+the surface
+of Mars,
+mission
+planners
+and medical
+personnel
+must decide
+if the radiation
+doses anticipated
+warrant
+the added
+equipment
+and time required for crew members
+to "bury"
+themselves.
+For
+the shorter
+stay times of 30 to 90 days, the additional requirements
+placed on a Mars mission to cover
+a module
+may be unnecessary,
+especially
+if a flare
+shelter
+is provided.
+A logical alternative
+to massive
+shielding
+efforts
+is to take advantage
+of local terrain features
+found on the surface
+of Mars. Regolith
+shielding
+may become
+more attractive
+for the longer
+stay times of 600 days or for futuristic
+permanent
+habitation.
+and
+
+Concerns
+
+shielding
+requirements
+paragraphs.
+
+Environment
+Confidence
+
+1990b).
+
+way to further
+reduce the
+on the Martian
+surface
+habitat
+next
+to a cliff.
+
+Estimates
+and predictions
+of radiation
+exposure
+and incurred
+doses
+for space
+exploration
+missions
+usually
+require
+complex
+analysis
+techniques
+and involve
+uncertainties
+that
+are presently
+difficult
+to
+quantify.
+Some issues and concerns
+regarding
+radi-
+
+shield
+
+dose equivwould
+be
+As shown
+
+in figure 32(b),
+the cliff further
+reduces
+the BFO
+dose equivalent
+by approximately
+2 to 3 rem/yr
+at 0 km for the GCR,
+and by approximately
+1 to
+1.5 rem/event
+at 0 km for the February
+1956 flare.
+Similar
+decreases
+are also obtained
+for the skin dose
+20
+
+moder-
+
+ate thicknesses
+of Martian
+regolith
+do not provide
+substantial
+additional
+protection
+to that already
+provided by the carbon
+dioxide
+atmosphere.
+If regolith
+is used as shielding
+material,
+the largest
+reduction
+in dose equivalent
+occurs
+in the first 20 g/cm 2 (or
+approximately
+15 cm if assuming
+a regolith
+density
+of 1.5 g/cm3).
+Thus,
+if additional
+protection
+using Martian
+regolith
+is desired,
+a shield thickness
+on
+the order of 15 to 20 cm is recommended.
+If addi-
+
+ation exposure
+estimates
+and
+are discussed
+in the following
+
+Effective regolith shield thickness, g/cm 2
+
+plane
+
+of
+
+"''--t,
+
+e_w,
+
+Figure
+
+and
+
+°IQQmmw
+
+_ww_
+
+0
+
+The shielding
+provided
+by
+alone
+results
+in a BFO
+
+dose equivalent
+of 9.1 rem/yr
+for the GCR
+7.4 rem/event
+for the February
+1956 event.
+From this analysis,
+it is concluded
+that
+
+Issues
+6
+
+_
+
+(fig. 32(a)).
+and atmosphere
+
+in the
+
+estimates
+
+lunar
+and Mars missions
+accuracy
+and
+development
+
+of incurred
+
+is directly
+of the
+
+related
+current
+
+dose
+
+for
+
+to the
+space-
+
+radiation
+environmental
+models.
+With regard to the
+charged-particle
+environmental
+models, only in some
+cases do enough data exist for estimates
+of uncertainties and natural
+variabilities.
+At the present
+time, no
+particular
+flare model has been established
+as a practical standard.
+However,
+a likely future candidate
+is
+the statistical
+model developed
+at the Jet Propulsion
+
+Laboratory(FeynmanandGabriel1990).The continueddevelopment,
+endorsement,
+and implementation of standard
+environmental
+tant aspect
+of mission
+scenario
+design studies.
+Transport
+
+models
+is an imporanalyses
+and shield
+
+Codes
+
+The accuracy
+of transport
+codes used to describe
+the propagation
+of particles
+through
+matter
+is another concern.
+Monte Carlo techniques
+are generally
+regarded
+as most faithfully
+representing
+the details
+of the complex
+processes
+involving
+high-energy
+radiation transport.
+In many
+cases, simpler
+and faster
+codes, which
+are far less costly
+and less time consuming to implement,
+may be used to adequately
+describe the transport.
+The precision
+of such codes
+may be evaluated
+by comparisons
+with equivalent
+Monte
+Carlo calculations,
+or with exact benchmark
+solutions
+(when they can be found).
+Once the mathematical
+precision
+of a particular
+code is established,
+the ultimate
+accuracy
+of its prediction
+will depend on
+the interaction
+cross-section
+data base used as input
+for calculations.
+Presently,
+nucleon
+(neutrons
+and
+protons)
+interaction
+cross sections
+are relatively
+wellknown for wide ranges of energy and target materials.
+However,
+data are very limited
+for interaction
+cross
+sections
+for the 20-25 heavy-ion
+nuclei of importance
+for GCR exposure.
+Inevitably,
+data extrapolations
+and extensions
+by complex
+theoretical
+techniques
+are implemented
+in order
+to provide
+a comprehensive cross-section
+data base (Norbury
+and Townsend
+1986; Townsend
+and Wilson
+1985). This creates
+uncertainties
+in the transport
+calculations
+that are very
+difficult
+to quantify.
+Radiobiology
+Standard
+dosimetric
+techniques
+used to evaluate
+health
+risks due to radiation
+exposures
+are presently
+being challenged,
+particularly
+with regard
+to latent
+effects due to the high-energy,
+low-dose-rate
+exposure from the GCR heavy ions. Current
+methods
+for
+evaluating
+dose equivalents
+resulting
+from heavy-ion
+exposure
+utilize
+biological
+effectiveness
+quality
+factors (Q) that are specified
+as functions
+of linear energy transfer
+(LET)
+of the projectile
+particles
+to the
+biological
+system
+being traversed
+(ICRP-26,
+I977).
+Predictions
+of the dose equivalent
+incurred
+in free
+space
+from GCR using the standard
+methods
+indicate that substantial
+shielding
+(20 50 g/cm 2) is required to reduce dose levels to an annual dose of 25
+30 rem (Townsend
+et al. 1990a). Such shield amounts
+are very massive
+when large habitat
+modules
+are involved.
+Thus,
+efforts
+are in progress
+toward
+a better
+
+definition
+
+of risk
+
+assessment
+
+for GCR
+
+exposures.
+
+Newly
+
+proposed
+
+quality
+
+factors
+
+have
+
+been
+
+based
+
+on
+
+recent
+biological-effects
+data (ICRU-40,
+1986).
+Preliminary
+calculations
+with the latest
+Q values indicate that previous
+evaluations
+may have been somewhat,
+but not dramatically,
+conservative
+(Wilson
+et
+al. 1990). Other recent studies have suggested
+abandoning
+the Q value/LET
+system
+(Katz
+1986) and
+formulating
+more detailed
+models of cell destruction
+and transformation
+using radiosensitivity
+parameters
+derived
+from biological
+experiments
+(Cucinotta
+et al.
+1991).
+Such direct biophysical
+models
+are expected
+to be a distinct
+improvement.
+However,
+the evolution of such models is directly
+coupled
+to the available
+radiobiological-effects
+data bases, which are very limited in number
+for GCR-type
+radiations.
+Clearly,
+the
+relationship
+between
+heavy-ion
+exposure
+and health
+risk is in need of better
+definition:
+Dosimetric
+
+Measurement
+
+The preceding
+discussion
+naturally
+leads to additional questions
+concerning
+measurement
+and monitoring
+of incurred
+radiation
+doses.
+Present
+space
+flight dosimetry
+instrumentation
+includes
+dosimeters
+of both thermo-luminescent
+and ionization
+chamber
+types,
+and they have been shown to be reliable
+and
+accurate
+for the Space Transportation
+System
+(STS)
+missions
+(Atwell
+1990).
+In general,
+the STS dose
+rates are fairly low. For the 28.5 ° inclination
+orbits at
+altitudes
+between
+250 and 350 kin, the average
+dose
+rate is observed
+to be approximately
+0.01 rad/day
+(or 3.6 rad/yr).
+Steady
+dose rates in free space, even
+with thick shields,
+are expected
+to be substantially
+higher
+(factors
+of 5 to 10), with intermittent
+(solar
+flare) dose rates higher
+still.
+Further
+advancement
+in dosimetric
+instrumentation
+and techniques
+will bc
+required
+to monitor
+the astronaut
+free-space
+exposures, with emphasis
+on active, as opposed
+to passive,
+dosimeters.
+In particular,
+because
+the GCR interactions
+with thick shields may produce
+a high yield
+of neutrons,
+and precision
+in neutron
+dosimetry
+is
+currently
+considered
+to be rather
+poor (Pai_ 1988),
+improvements
+are certainly
+needed in this case.
+Flare
+
+Prediction
+
+The forecasting
+of large solar proton
+events
+is of
+vital importance
+for long-duration
+missions.
+Practically
+continuous
+monitoring
+of various
+aspects
+of
+solar activity
+(X rays and radio emissions,
+sunspot
+number,
+etc.)
+during
+solar cycle XXI (1975 1986)
+and up to the present
+time has provided
+a valuable
+data
+base for flare-forecasting
+statistics.
+The approach
+to flare forecasting
+used at the NOAA Space
+Environment
+Laboratory
+during recent years is to examine the intensities
+of X rays and radio emissions
+21
+
+and relatetheseto the likelihoodof a subsequent
+energeticprotonrelease.Estimatesof the peakproton flux mayalsobemadefromtheseobservations.
+For 24-hourpredictionsduringsolarcycleXXI, the
+numberof eventsthat occurredwithout prediction
+wasabout10percentof the total. This resultedprimarily becausethe initial X rays andradio bursts
+werenot onthe visibleportionof the Sun(Heckman
+et al. 1984).Thefalse-alarm
+ratewasapproximately
+50percent,indicatingthat furtherworkin this area
+is needed.Othertechniques
+combinehigh-resolution
+observations
+ofsunspotgrouppatternsandmagnetic
+fieldconfigurations
+in conjunctionwith H_-lineemission.Usingthesetechniques,
+thepredictionofoccurrenceis claimedto be up to severaldaysin advance
+(Zirin andLiggett 1987).This methodappearsto
+showpromise,but moreobservations
+arerequiredto
+demonstratethe practicalityof its implementation
+on a routinebasis.Forlong-durationmissions,
+additionalonboardinstrumentsfor activeprotondetection shouldalsobeavailableto indicatewhentheuse
+of a well-shielded
+stormshelteris warranted.
+Alternate Shielding
+
+Concepts
+
+Other
+topics of conccrn
+in the area of space radiation
+shielding
+include the effectiveness
+of material
+types (or the combination
+of material
+types)
+and alternate
+approaches
+to bulk shielding
+(e.g., magnetic
+and electromagnetic
+field deflection
+methods).
+As
+previously
+shown,
+recent
+results
+indicate
+that
+hydrogenous
+materials
+of low atomic
+weight
+are substantially
+superior
+to heavy metals
+for energetic
+ion
+shielding.
+However,
+little has been done in the study
+of the behavior
+of combinations,
+for example,
+alternating
+layers of light and heavy materials.
+Further studies
+should also address
+structural
+details
+of
+shields;
+in particular,
+corrugatedlikc
+panels
+and/or
+shadow
+shielding
+techniques
+may offer advantages
+over simplc
+wall structures.
+One recent
+study
+has
+indicated
+that magnetic
+shielding
+is of little use for
+protection
+from GCR (Townsend
+et al. 1990b).
+However, the Townsend
+study also showed
+that for reprcscntative
+large
+proton
+flares,
+great
+reductions
+in
+exposure
+can be achieved,
+and thus the potential
+use
+of magnetic
+shielding
+for flare protection
+may still be
+viable.
+Concluding
+
+Remarks
+
+Before
+astronaut
+dose estimates
+and subsequent
+shielding
+requirements
+can be determined
+for advanced
+lunar and Mars missions,
+many details of the
+missions
+must
+be specified.
+For instance,
+the following items must be defined
+in order to determine
+specific
+shielding
+requirements:
+the transfer
+vehicle
+22
+
+configuration,
+the habitat
+configuration,
+the length
+of time required
+to shield habitats
+with regolith,
+the
+career limits of the crew, the year of the mission
+(solar minimum
+or maximum
+conditions),
+the duration
+of the mission,
+etc.
+Particular
+concerns
+for Mars
+mission
+planning
+include
+the following:
+whether
+any
+nuclear-powered
+propulsion
+is envisioned,
+the location of the habitat
+on the Martian
+surface,
+whether
+the crew will be spiraled
+through
+the Van Allen belts,
+etc.
+Estimates
+must also be made as to where the
+Mars crew will spend
+their time en route to Mars,
+i.e., how much of their time is anticipated
+to be spent
+in the more heavily
+shielded
+areas of the spacecraft
+as opposed
+to the less heavily
+shielded
+areas.
+Even
+with the specific
+details
+of the mission
+defined,
+the
+final shield design must consider
+the many uncertainties associated
+with current
+state-of-the-art
+radiation
+transport
+
+analyses.
+
+Steps toward
+quantifying
+some of the issues involved with radiation
+protection
+for advanced
+lunar
+and Mars manned
+missions
+are presented
+in this report.
+After
+the definition
+of the galactic
+cosmic
+ray environment
+and the selection
+of various
+flareenvironment
+scenarios,
+are used to determine
+tion of the free-space
+ferent
+media.
+From
+
+deterministic
+the transport
+
+transport
+codes
+and attenua-
+
+radiative
+fluxes
+through
+these basic propagation
+
+difdata,
+
+conservative
+dose estimates
+and shielding
+requirements
+are determined
+for simple-geometry
+transfer
+vehicles and for possible
+lunar/Martian
+habitat
+configurations.
+The results
+presented
+here are just part
+of the information
+required
+to determine
+radiation
+protection
+requirements
+mission
+scenario.
+
+for each
+
+phase
+
+of a complete
+
+NASA Langley Research Center
+Hampton, VA 23665-5225
+December 17, 1990
+References
+Adams, J. H., Jr.; Silberberg, R.; and Tsao, C. H. 1981:
+Cosmic Ray Effects on Microelectronics.
+Part I The
+Near-Earth
+Particle Environment.
+NRL Memo. Rep.
+4506-Pt. I, U.S. Navy, Aug. (Available from DTIC as
+AD A103 897.)
+Alred, J.; Bufkin, A.; Graf, J.; Kennedy, K.; Patterson,
+J.;
+Petro, A.; Roberts, M.; Stecklein, J.; and Sturm, J. 1988:
+Development of a Lunar Outpost: Year 2000-2005. Lunar
+Bases and Space Activities in the 21st Century, NASA,
+AIAA, Lunar & Planetary
+Inst., American Geophysical
+Union, American Nuclear Soc., American Soc. of Civil
+Engineers, Space Studies Inst., and National Space Soc.,
+Paper No. LBS-88-240.
+Atwell, William 1990: Astronaut
+Exposure to Space Radiation:
+Space Shuttle Experience.
+SAE Tech. Paper
+Ser. 901342, July.
+
+Cucinotta,
+
+Francis
+
+Townsend,
+
+A.;
+
+Katz,
+
+Robert;
+
+Lawrence
+
+W.;
+
+Nealy,
+
+Wilson,
+John
+
+John
+
+E.;
+
+and
+
+W.;
+Shinn,
+
+Judy L. 1991:
+Cellular
+Track Model of Biological
+Damage to Mammalian
+Cell Cultures
+From Galactic
+Cosmic
+Rays.
+
+NASA
+
+Dalton,
+
+TP-3055.
+
+Charles;
+
+and Hohmann,
+
+Design
+
+of a Lunar
+
+tual
+
+Edward,
+
+Colony.
+
+eds.
+
+NASA
+
+1972:
+
+Concep-
+
+CR-129164.
+
+Feynman,
+Joan; and Gabriel,
+Stephen
+B. 1990: A New Model
+for Calculation
+and Prediction
+of Solar Proton
+Fluences.
+AIAA-90-0292,
+Gaffey,
+
+John
+
+Jan.
+
+D.,
+
+Trapped
+
+Jr.;
+
+and Bilitza,
+
+Radiation
+
+Goswami,
+
+Model
+
+J. N.; McGuire,
+
+Jha,
+
+R. 1988:
+
+During
+
+Solar
+
+the Last
+
+Heckman,
+
+7195
+
+7205.
+
+J.; Kunches,
+
+J.;
+
+and
+
+of Solar
+
+An Experience
+
+Report.
+
+Space
+
+Res.,
+
+vol.
+
+4, no.
+
+10,
+
+Quality
+Rep.
+
+1977.
+
+Factor
+
+40,
+
+in
+
+International
+
+Robert
+
+E. E.;
+
+Effects
+
+Theory.
+
+Muratova,
+
+Adv.
+
+I. A.;
+
+Studies
+of the Radiation
+Satellites.
+Nucl.
+Tracks
+pp.
+3000,
+
+Res.,
+
+Petrov,
+
+the
+
+vol. 6, no.
+
+V.
+
+M.
+
+1989:
+
+tor,
+
+Standards
+
+I, NASA
+
+Johnson
+
+K.; Sakakibara,
+Response
+
+Galactic
+
+Space
+
+and Yield
+From
+
+Guidance
+
+NCRP
+
+Rep.
+
+Nealy,
+
+John
+
+Spectrum
+
+No. 98, July
+
+E.; Wilson,
+
+John
+
+1989:
+
+E.;
+
+891487,
+Nealy,
+
+Wilson,
+
+Base
+E.;
+
+Wilson,
+
+posure
+Tech.
+Norbury,
+
+John
+
+tromagnetic
+
+and
+
+Surface
+
+Lawrence
+
+W.
+
+at a Lunar-
+
+Townsend,
+
+Systems.
+
+Lawrence
+
+Radiation
+SAE
+
+Teeh.
+
+W.
+
+ed.
+
+Wilson,
+Ion
+
+Ex-
+
+1986).
+
+SAE
+
+W. 1986:
+
+Elec-
+
+Cycle
+
+XXI
+
+(1975
+
+July.
+
+and Townsend,
+Effects
+
+Lawrence
+in
+
+Galactic
+
+Heavy-Ion
+
+Inc.
+
+1983:
+
+Guidelines
+
+1982
+
+Revision
+John
+
+W.
+
+Galactic
+
+Space
+
+for
+
+Use
+
+(Volume
+
+1).
+
+1985:
+
+Tables
+
+Cosmic
+
+Rays--
+
+RP-1134.
+
+Nealy,
+
+John
+
+E.;
+
+Wilson,
+
+1989:
+
+Large
+
+Solar
+
+Flare
+
+John
+
+W.;
+
+Radiation
+
+Interplanetary
+26, no.
+
+W.;
+
+John
+
+E.;
+
+Nealy,
+
+Mis-
+
+2, Mar./Apr.,
+John
+
+W.;
+
+of Galactic
+
+During
+
+J. W.;
+
+L. C. 1990b:
+
+Solar
+
+Cos-
+
+Minimum.
+
+Shinn,
+
+J. L.; Nealy,
+
+J. E.;
+
+Radiation
+
+Protection
+
+Effec-
+
+Magnetic
+
+Missions.
+
+Wilson,
+
+Estimates
+
+Requirements
+
+Wilson,
+
+9 Radiation:
+
+Protection
+
+and
+
+W. 1977:
+
+Transport.
+John
+
+SAE
+
+Shielding
+Tech.
+
+Concept
+
+Paper
+
+Ser.
+
+for
+
+901343,
+
+1978:
+Power
+
+System,
+
+Curtis,
+
+eds.,
+
+B.
+
+Heavy
+
+231-237.
+J. W.;
+
+HZE
+
+sphere.
+
+Radiat.
+
+for Galactic
+vol.
+
+the
+
+Ion
+
+Walter
+LBL-8581
+
+vol.
+
+Cosmic-Ray
+
+114, no. 2, May,
+
+pp.
+
+SPS
+of
+
+Schimmerling
+(Contract
+
+Radiat.
+
+L. W.;
+
+and
+
+Through
+
+and
+
+W-7405-
+
+the
+
+L. W. 1988a:
+
+Transport
+
+Codes.
+
+of
+
+Res.,
+
+vol.
+
+108,
+
+F.
+
+F.
+
+1987:
+
+Badavi,
+
+109, no. 2, Feb.,
+
+W.; and Townsend,
+
+and
+
+Environment
+
+Sept. 15, pp. 33-116.
+F. F. 1986:
+Methods
+
+Transport.
+
+Propagation
+Res.,
+
+of High-Energy
+
+Geophysics
+
+Radiation
+
+of California,
+and Badavi,
+
+Townsend,
+
+Galaetie
+John
+
+Environmental
+on
+
+ENG-48),
+Univ.
+Wilson,
+John
+W.;
+pp.
+Wilson,
+
+of the Theory
+
+TN D-8381.
+
+Workshop
+
+Satellite
+
+Galactic
+
+Analysis
+
+NASA
+
+W.
+
+Shielding.
+
+Wilson,
+
+TP-2527.
+
+lonizin
+
+John
+
+Stanley
+
+Ser.
+W.;
+
+Press,
+
+L. W.;
+
+Paper
+
+Lawrence
+
+c.1988:
+
+S., compilers
+
+Criteria
+
+Lisa C. 1990a:
+
+Simonsen,
+
+the
+
+Radiation
+
+CRC
+
+W.;
+
+128.
+Lawrence
+
+Protection
+
+Deep-Space
+
+NASA
+
+George
+
+Lawrence
+
+Radiation
+Shielding
+Paper
+Set. 901346,
+
+vol.
+
+Mars
+
+Regolith
+
+of Space
+
+Dissociation
+
+TP-2979.
+
+E.; Townsend,
+
+for Manned
+
+Manned
+
+C.; Townsend,
+
+W.;
+
+NASA
+
+g/ Rockets,
+
+in Space Activities.
+
+Wilson,
+W.;
+
+for Solar
+
+for
+
+Missions.
+
+NASA
+
+of a Proposed
+
+1990:
+
+Ser. 901347,
+
+W.;
+
+Sections.
+
+tiveness
+
+Lisa
+
+W.
+
+Results.
+
+July.
+With
+
+Analyses
+
+a Baryon
+
+Carlo
+
+Exposure
+
+for
+
+and Measurements
+
+W.; and Townsend,
+
+John
+
+and
+Esti-
+
+Lawrence
+
+and Wilson,
+
+William
+
+E.;
+
+Radiation
+
+Requirements
+
+126
+
+En-
+
+of Dose
+and
+
+Monte
+
+1990b: Space
+SAE Tech.
+
+W.;
+
+John
+
+Method
+
+Sections
+
+J. Spacecr.
+
+Townsend,
+
+1, no. 2, Mar-Apr.,
+
+John
+
+Fragmentation.
+Guy,
+
+Cross
+
+Lawrence
+
+mic Ray Shielding
+NASA TM-4167.
+
+Simonsen,
+
+Analysis
+Paper
+
+Dosimetry.
+
+Absorption
+Atwell,
+
+Penetra-
+
+Atoinic
+
+Townsend,
+
+John
+
+W.;
+
+Modu-
+
+July.
+
+John
+
+and
+
+Lawrence
+Cross
+
+and
+
+Compar-
+
+E.;
+
+Environment
+
+of Nuclear
+Townsend,
+
+1968:
+Proton
+
+Nealy,
+
+With
+
+in Space Vehicle Development,
+NASA TM-82478.
+Townsend,
+
+EnviAdm.,
+
+1990a:
+
+E.; and West,
+
+and Its Solar
+
+31.
+
+John
+
+C.; Nealy,
+
+Planetary
+
+Townsend,
+
+Sur-
+
+Comparison
+
+John
+
+and Wilson,
+John W.
+for a Martian
+Habitat.
+
+pp.
+
+V¢orld-Wide
+
+W.;
+
+W.
+
+Surface
+
+and Simonsen,
+
+Received
+
+Shielding
+TP-2869.
+
+Preliminary
+
+for Lunar
+
+John
+
+Moni-
+
+Available
+
+on Radiation
+
+1988:
+Solar-Flare
+Base Site. NASA
+Nealy,
+
+C.; Nealy,
+
+Mars
+
+J.
+
+Particle
+
+Space
+
+U.S.
+
+1990:
+
+Buildup-Factor
+
+Lisa
+
+Lisa
+
+Jr.
+
+Several
+
+John
+
+(BRYNTRN)
+
+of Neutron
+
+veys. Nuovo
+Cimento,
+vol. 12C, ser.
+pp. 173 209.
+National
+Council on Radiation
+Protection
+1989:
+
+Mar.
+
+the
+
+Wilson,
+
+sion.
+
+K.; and Morishita,
+
+Functions
+
+All the
+
+NASA-STD-
+
+Center,
+
+S.; Murakami,
+
+Cosmic-Ray
+
+Derived
+
+1987.
+
+A.
+
+and
+
+and
+
+Ions From
+
+Wilson,
+
+Simonsen,
+Manned
+
+Martha
+
+June.
+
+Transport
+Code
+NASA TP-3021.
+
+Units
+
+Space
+
+and
+
+L.;
+
+Using
+
+Ness,
+
+II. ORNL-RSIC-22,
+
+, Frances
+
+Shielding
+
+Volume
+
+lation,
+
+Judy
+
+BiG-
+
+Atmospheric
+
+R. G.,
+
+With
+
+1973:
+
+SP-3006.
+
+1989.
+
+and
+
+Alsmiller,
+
+eds.
+
+Energetic
+
+December
+
+Oceanic
+
+Obtained
+
+erg-y Commission,
+
+Radiation
+
+Environment
+Aboard
+Prognoz
+Radiat.
+Meas., vol. 14, no. 1,
+
+Integration
+
+I. 1989:
+
+Codes--Part
+
+July.
+Smith, Robert
+
+45 48.
+
+Maned-Systems
+Naga.shima,
+
+tion
+
+ICRU
+
+of Heavy
+
+and
+
+of Results
+
+the
+
+Through
+
+National
+
+W. Wayne;
+
+1986.
+
+Protection
+on
+
+Press,
+
+4.
+
+Biological
+
+Standpoint
+of Target
+11, pp. 191- 198.
+
+on Radi-
+
+26, Pergamon
+
+Commission
+Apr.
+
+1986:
+
+Publ.
+
+Radiation
+
+and Measurements,
+
+Kovalev,
+
+ICRP
+
+Comfnission
+
+and
+
+Solar
+
+isons
+
+Simonsen,
+of the International
+
+ological Protection
+Jan. 17.
+
+Paid,
+
+C. 1984:
+Events--
+
+165 172.
+
+Recommendations
+
+Katz,
+
+Adv.
+
+Balch,
+Particle
+
+D.;
+
+Lab.,
+
+mates
+
+l, pp.
+
+Ronald
+for
+
+of August
+
+Shinn,
+
+Res.,
+
+NASA
+
+ronment
+Feb. 21.
+
+Particles
+
+Alpha
+
+R.,
+
+ed.
+
+Events
+
+and
+
+J. Geophys.
+
+Vita
+
+Second
+
+Data
+
+Cucinotta
+
+Cycles.
+
+West,
+
+Zwickl,
+
+Jan.
+
+Protons
+
+and
+Book,
+
+H.;
+
+D.; and
+
+Solar
+
+Jr.;
+
+Data
+
+Summary
+
+Scott,
+
+Herbert
+
+R. C.; Lal,
+
+and Prediction
+
+The
+
+NSSDC
+
+F.,
+
+1990:
+
+AIAA-90-0176,
+
+The Monitoring
+pp.
+
+The
+
+Saucr,
+
+Facility.
+
+Flare
+
+G.; Hirman,
+
+1990:
+
+James
+
+astronautics
+
+R. E.; Reedy,
+
+Three
+
+vol. 93, no. A7, July
+
+Dieter
+
+Parker,
+
+Earth's
+
+Atmo-
+
+pp.
+
+183.
+
+173
+
+A Benchmark
+Radiat.
+
+Res.,
+
+201-206.
+23
+
+Wilson,
+J.W.;Townsend,
+L.W.;Buck,W.W.;Chun,
+Hong,
+
+B. S.; and
+
+Lamkin,
+
+S. L. 1988b:
+
+Interaction
+Data Base:
+Total
+Cross Sections.
+NASA TM-4053.
+
+S. Y.;
+
+Nucleon-Nucleus
+
+Nuclear
+
+and
+
+Absorption
+
+Francis
+NASA
+
+A. 1989:
+TP-2887.
+
+BRYNTRN:
+
+Wilson, John W'.; Shinn, Judy
+1990:
+Nuclear
+Reaction
+
+A Baryon
+
+Transport
+
+L.; and Townsend,
+Lawrence
+W.
+Effects
+in Conventional
+Risk
+
+Assessment
+for Energetic
+Ion Exposure.
+vol. 58, no. 6, June, pp. 749 752.
+Wilson,
+Chun,
+
+John
+
+W.;
+
+Sang
+
+S. L.; Ganapol,
+
+24
+
+Townsend,
+
+Y.; Hong,
+Barry
+
+Lawrence
+B. S.; Buck,
+
+D.; Khan,
+
+W.;
+
+Nealy,
+
+Warren
+
+Ferdous;
+
+John
+
+E.;
+
+W.; Lamkin,
+and Cucinotta,
+
+Zirin,
+
+Harold;
+
+and
+
+Liggett,
+
+and Great
+Flares.
+pp. 267 283.
+
+Sol.
+
+Model.
+
+Health
+
+Phys.,
+
+Margaret
+
+A.
+
+1987:
+
+Delta
+
+Spots
+
+Phys.,
+
+vol.
+
+113,
+
+nos.
+
+1 & 2,
+
+Report
+
+NakionalAeror_aulicsand
+Space Administration
+
+[ 2. Government
+
+1. ReportNAsANO.TP_3079
+4. Title
+
+and
+
+Documentation
+
+Accession
+
+Page
+
+No.
+
+3. Recipient's
+
+Subtitle
+
+Radiation
+
+5. Report
+
+Protection
+
+for Human
+
+Missions
+
+to the
+
+Moon
+
+and
+
+Mars
+
+Catalog
+
+No.
+
+Date
+
+February
+
+1991
+
+6. Performing
+
+Organization
+
+Code
+
+8. Performing
+
+Organization
+
+Report
+
+7. Author(s)
+
+Lisa
+
+C. Simonsen
+
+_9. Performing
+
+and
+
+John
+
+Name
+
+and
+
+Organization
+
+NASA Langley
+Research
+Hampton,
+VA 23665-5225
+
+12. Sponsoring
+
+Agency
+
+Name
+
+and
+
+E. Nealy
+
+10. Work
+
+Address
+
+Unit
+
+No.
+
+326-83-10-50
+
+Center
+
+11. Contract
+
+13. Type
+
+Address
+
+National
+Aeronautics
+and Space
+Washington,
+DC 20546-0001
+15. Supplementary
+
+No.
+
+L-16892
+
+or Grant
+
+of Report
+
+Technical
+
+Administration
+
+No.
+
+and
+
+Period
+
+Covered
+
+Paper
+
+]4. Sponsoring
+
+Agency
+
+and
+
+manned
+
+Code
+
+Notes
+
+16. Abstract
+
+Radiation
+
+protection
+
+assessments
+
+are
+
+performed
+
+for advanced
+
+lunar
+
+Mars
+
+missions.
+
+The Langley
+cosmic
+ray transport
+code and the Langley
+nucleon
+transport
+code are used to
+quantify
+the transport
+and attenuation
+of galactic
+cosmic rays and solar proton
+flares through
+various
+shielding
+media.
+Galactic
+cosmic radiation
+at solar maximum
+and minimum
+conditions,
+as well as various
+flare scenarios,
+is considered.
+Propagation
+data for water,
+aluminum,
+liquid
+hydrogen,
+lithium
+hydride,
+lead, and lunar
+and Martian
+regolith
+(soil) are included.
+Shield
+thickness
+and shield mass estimates
+required
+to maintain
+incurred
+doses below 30-day and annual
+limits (as set for Space Station
+Freedom
+and used as a guide for space exploration)
+are determined
+for simple-geometry
+transfer
+vehicles.
+Dose estimates
+are also presented
+for candidate
+lunar base
+habitats
+shielded
+with lunar regolith.
+On the surface of Mars, dose estimates
+are presented
+both
+for crews having
+the carbon
+dioxide
+atmosphere
+as their only protection
+and
+by additional
+shielding
+provided
+by Martian
+regolith
+for a candidate
+habitat.
+
+17. Key
+
+Words
+
+Mars
+Moon
+Radiation
+Transfer
+
+(Suggested
+
+by Authors(s))
+
+18.
+
+Distribution
+
+FORM
+
+Unlimited
+
+vehicle
+
+Classif.
+
+(of this
+
+Subject
+
+report)
+
+Unclassified
+NASA
+
+protected
+
+Statement
+
+Unclassified
+
+Galactic
+cosmic rays
+Solar flares
+Manned
+missions
+19. Security
+
+for crews
+
+I 20. Security
+
+[
+1626
+
+Classif.
+
+(of this
+
+page)
+
+21.
+
+Unclassified
+
+Category
+
+No.
+
+of Pages
+
+25
+
+OCT 86
+For sale
+
+93
+
+[ 22.
+
+Price
+
+[
+
+A03
+NASA-Langley,
+
+by the
+
+National
+
+Technical
+
+Information
+
+Service,
+
+Springfield,
+
+Virginia
+
+22161-2171
+
+1991
+
+
