@@ -15,5 +15,3 @@ assets-cache/kenney/*/Models/FBX format/
 assets-cache/kenney/*/Models/OBJ format/
 assets-cache/kenney/*/Models/STL format/
 
-# Big source PDFs from research agents: text extracts are committed, URLs in sources.md
-research/junior-astronaut/pages/agent-*/*.pdf
