@@ -98,3 +98,12 @@ Status: ✅ = I saw it in the source myself · ⚠️ = reported (secondary sour
 | 89 | Polyethylene "50% better at shielding solar flares and 15% better for cosmic rays" than aluminium, but for Mars cancer risk "there was no significant difference" | ✅ (2005, ship both halves) | Science@NASA 25 Aug 2005, UNT .gov archive |
 | 90 | Deep-space storm shelter: "2.1 inches (5.3 g/cm²) of water are required for a 50% reduction"; 5.0 in for 70% | ✅ | Walker et al., ICES 2013, NTRS 20140000593 p.9 |
 | 91 | NASA source giving "X cm of Mars soil cuts dose by Y%" in plain words | ❌ not found | |
+| 92 | Too much CO₂ causes "headache, dyspnea, fatigue, and in extreme cases, death" | ✅ | NASA OCHMO-TB-004 CO₂ technical brief, Rev B, 10 Nov 2022, `pages/co2/nasa-ochmo-co2-brief.txt` |
+| 93 | 19 of 49 astronauts reported headaches; NASA standard keeps CO₂ to "no more than 3 mmHg"; indoor air on Earth 0.08% to 0.1% (0.608 to 0.76 mmHg) | ✅ | same brief |
+| 94 | So the ISS limit is about 4 to 5 times a normal room on Earth | ⚠️ inferred | arithmetic from row 93 |
+| 95 | Apollo 13 (11 to 17 Apr 1970): lunar module built for 2 crew for 2 days carried 3 for 4 days; CO₂ "quickly rose (14.9 mmHg)"; the "mail box" made from plastic bags, duct tape and a suit hose let them use the command module's lithium hydroxide canisters; CO₂ "dropped to 1 mmHg" | ✅ | same brief; NASA image AS13-62-8929 page, `pages/co2/` |
+| 96 | Lithium hydroxide cartridges are used once and replaced; METOX ones can be regenerated | ✅ | same brief (spacesuit section); Wikipedia agrees |
+| 97 | ISS Carbon Dioxide Removal Assembly has worked "since early 2001"; the new 4-Bed CO₂ Scrubber uses porous beads ("molecular sieves") and is meant for "upcoming Artemis missions to the Moon and eventual human excursions to Mars" | ✅ | NASA Marshall news, Jun 2021, `pages/co2/nasa-marshall-ships-*.html` |
+| 98 | 4-Bed CO₂ Scrubber launched 10 Aug 2021, switched on Sep 2021; ran ~1.2 years "without mechanical issues requiring maintenance"; works by drying the air, trapping CO₂ in a bed, then heating that bed and venting the CO₂ to space; team calls it suitable for "a Mars Transit mission" | ✅ | Knox, Cmarik, Garr, ICES-2023-116 slides (user-provided), `pages/co2/ices2023-116-knox-4bms.txt` |
+| 99 | Mars air is 95.1% CO₂ | ✅ | NSSDC Mars fact sheet |
+| 100 | On Mars a scrubber would push the CO₂ outside instead of into space | ⚠️ inferred | from rows 98, 99 |

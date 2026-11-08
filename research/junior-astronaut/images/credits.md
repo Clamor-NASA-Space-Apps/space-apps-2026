@@ -8,8 +8,10 @@ All from the NASA Image and Video Library (https://images.nasa.gov). Look one up
 | Power | 2. How a dust storm killed Opportunity | PIA22521 | NASA/JPL-Caltech/TAMU | Simulated sky darkening in the 2018 storm |
 | Power | 3. InSight: death by dusty panels | PIA25287 | NASA/JPL-Caltech | InSight's final selfie, 24 Apr 2022 |
 | Life support | 1. Air | PIA24203 | NASA/JPL-Caltech | MOXIE installed in Perseverance |
-| Life support | 3. Food | iss040e009126 | NASA | Veg-01 lettuce harvest on the ISS, 2014 |
-| Life support | 4. A year in a pretend Mars base | jsc2026e403153 | NASA | CHAPEA Mission 2 crew, Nov 2025 |
+| Life support | 2. Getting rid of CO₂ | iss034e063336 | NASA | Tom Marshburn repairs the ISS CO₂ scrubber, 8 Mar 2013 |
+| Life support | 2. Getting rid of CO₂ | AS13-62-8929 | NASA | Apollo 13 "mail box" CO₂ fix, Apr 1970 |
+| Life support | 4. Food | iss040e009126 | NASA | Veg-01 lettuce harvest on the ISS, 2014 |
+| Life support | 5. A year in a pretend Mars base | jsc2026e403153 | NASA | CHAPEA Mission 2 crew, Nov 2025 |
 | Radiation | 1. What is a radiation dose? | PIA16938 | NASA/JPL-Caltech/SwRI | Sources of space radiation (RAD) |
 | Radiation | 3. Solar storms | PIA26302 | NASA/JPL-Caltech | Curiosity navcam "snow", 20 May 2024 |
 | Weather and talking to Earth | 1. Days and years | PIA19400 | NASA/JPL-Caltech/MSSS/Texas A&M Univ. | Blue sunset at Gale, sol 956 |

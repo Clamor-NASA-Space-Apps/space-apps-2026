@@ -1,0 +1,226 @@
+            Status of the Four Bed Carbon
+           Dioxide Scrubber ISS Technology
+              Demonstration 2022-2023
+                52nd International Conference on Environmental Systems
+                                    July 16-20, 2023
+
+                                       Authors:
+                               J Knox†, G Cmarik, J Garr
+
+
+
+
+ICES-2023-116                                                                          † - Corresponding author, presenter
+                              52ND International Conference on Environmental Systems
+      FBCO2 Scrubber 2022-2023 Outline
+
+• Introduction
+• Operation of the FBCO2 scrubber
+• Characteristics relative to ISS CDRA
+• Calnetix magnetically levitated blower
+• Calnetix blower installation and other activities
+• Performance of the Calnetix blower
+• FBCO2 scrubber performance
+
+
+
+
+                                                                                     2
+                            52ND International Conference on Environmental Systems
+     Introduction
+• Four Bed Carbon Dioxide Scrubber
+  • ISS CO2 Removal Technology Demonstration
+  • Launched August 10, 2021
+  • Activated onboard ISS September 2021
+  • Total run time of 1.5 years on ~ June 4, 2023
+
+
+
+
+                                                                                       3
+                              52ND International Conference on Environmental Systems
+                  Operation of the FBCO2 scrubber
+• Operations are split into half-cycles (HC) A and B
+   • These are mirrors of each other. Schematic shows HC A
+• Tracing the flow path through system:
+1.   Air is drawn from cabin air system (CCAA). Air contains O2/N2, H2O, and CO2
+2.   Air flow path is supply duct, V101, bed D-1, V103, blower, precooler, V104,
+     bed A-2, bed D-2, V102, return duct
+     1.   In this path, D-1 is scrubbing H2O, but CO2 and O2/N2 pass.
+     2.   Then, A-2 is scrubbing CO2, but O2/N2 pass.
+     3.   Finally, the air passing through bed D-2 picks up H2O and returns it to the cabin.
+     4.   While this is happening, A-1 is heated and connected to vacuum to vent CO2 to
+          space through V105 and V106. This heat will be used to desorb D-1 next cycle.
+
+3.   Half-cycle time is part of design process and can be adjusted based
+     on volume of air flow, humidity at supply, heating rate, and bed size.
+4.   At end of HC A transitioning to HC B, all 6 valves rotate.
+     1.   V106 links the Air Save Pump to the now-desorbing bed A-2 to recover O2/N2
+          trapped in voids of ducts and bed.
+     2.   Once air save is complete, A-2 is linked to space vacuum to vent CO2
+
+                                                                                                                      4
+                                                             52ND International Conference on Environmental Systems
+      Characteristics relative to ISS CDRA
+• 6 valves
+   • New valves, same flow paths
+   • Bleed port allows gentle repress
+• 8 sensors
+   • Similar T, P measurements
+   • Direct measurement of inlet and outlet
+     CO2 %
+   • Direct measurement of dew point after
+     desiccant beds
+   • Direct measurement of blower dP
+• Similar functional components but
+  new hardware in most places
+   • Previously used heritage air blower
+   • Currently using magnetically levitated
+     blower (will provide higher flowrates)
+                                                                                          5
+                                 52ND International Conference on Environmental Systems
+Calnetix magnetically levitated blower
+
+                                    Calnetix magnetically levitated blower for FBCO2. Calnetix
+                                    Blower overview. (a) Layout of Calnetix blower highlighting
+                                    major components and its airflow path and (b) an image of the
+                                    blower installed into the performance test stand.
+
+
+
+
+                                                                                            6
+               52ND International Conference on Environmental Systems
+     Calnetix blower installation and other activities
+
+• Calnetix blower installation 2/13 and 2/15/2023
+   • Some software errors and faults encountered, corrections/workarounds
+     initiated
+   • Initially rpm limited to 54k
+   • Increased to 56k on 5/18/2023
+• Acoustics blanket installation and acoustics measurements 2/15/2023
+   • Continuous operation authorized for 56k and 58.5k
+   • Additional measurements recommended for 60k operation
+• Rack slider mount installation 2/15/2023
+
+
+
+                                                                                      7
+                             52ND International Conference on Environmental Systems
+Performance of the Calnetix blower
+
+
+
+                                                                       •   Overall Calnetix blower and Honeywell
+                                                                           blower performance.
+                                                                       •   Beige dots are NASA requirements;
+                                                                       •   Solid lines connect CNX blower test points
+                                                                       •   Dashed lines connect HWI blower test
+                                                                           points.
+                                                                       •   Black dotted diagonal line passing through
+                                                                           all blower curves approximates the FBCO2
+                                                                           system differential pressure drop
+
+
+
+
+                                                                                                            8
+              52ND International Conference on Environmental Systems
+Performance of the Calnetix blower
+
+
+
+                                                                       •   Flow rate variations over a half-cycle for
+                                                                           the HWI and CNX blower under similar
+                                                                           ISS configurations.
+                                                                       •   The HWI blower (blue circles) is at
+                                                                           130,000 rpm.
+                                                                       •   The CNX blower (red diamonds) is at
+                                                                           54,000 rpm.
+                                                                       •   After software adjustments below, the CNX
+                                                                           blower rpm was increased to 56,000 rpm.
+
+
+
+
+                                                                                                           9
+              52ND International Conference on Environmental Systems
+      FBCO2 Performance vs. inlet ppCO2
+• Average removal
+  rate achieved target
+  performance based
+  on inlet ppCO2 for
+  Lab CDRA non-
+  operational
+• Ground test
+  hardware
+  performance higher
+  at similar
+  conditions, cause
+  for difference under
+  review
+
+
+                                                                                  10
+                         52ND International Conference on Environmental Systems
+       FBCO2 Performance vs. Lab ppCO2
+• Performance slightly
+  lower than target
+  using Lab ppCO2
+  basis
+• Self-dilution of inlet
+  ppCO2 results from
+  integration with
+  CCAA
+• Results shown with
+  blower at 54 krpm
+  (max speed is 60
+  krpm)
+
+
+
+                                                                                    11
+                           52ND International Conference on Environmental Systems
+      Observations
+
+• The FBCO2 Scrubber has operated for approximately 1.2 years
+  without mechanical issues requiring maintenance
+• The blower differential pressure has not shown any increase that
+  would indicate zeolite dust is building up on the retainment screens.
+• Although performance is lower than the requirement presently, the
+  magnetically levitated blower installed this year has the potential for
+  greater flow rates.
+• As a result, CO2 removal rates are expected to meet or exceed
+  requirements.
+
+
+
+                                                                                     12
+                            52ND International Conference on Environmental Systems
+      Conclusions
+
+• The FBCO2 Scrubber technology demonstration has been successful
+  during the first year of operation with respect to its primary objective,
+  that is, to require minimal maintenance.
+• Current data shows no indication of excessive dust generation,
+  though continued operation period will be required to establish long
+  term maintenance-free operation.
+• Operation of the Calnetix blower at the intended flow rate is expected
+  to provide required CO2 removal rates.
+• Thus, continued operation of the FBCO2 Scrubber is anticipated to
+  establish its suitability for long-term missions such as part of a Mars
+  Transit mission
+                                                                                     13
+                            52ND International Conference on Environmental Systems
+Backup
+
+
+
+
+                                                                  14
+         52ND International Conference on Environmental Systems
+                                                         15
+52ND International Conference on Environmental Systems
+                                                         16
+52ND International Conference on Environmental Systems
+

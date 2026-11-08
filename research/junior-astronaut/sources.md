@@ -61,3 +61,8 @@
 | https://arxiv.org/abs/2205.13786 | Gakis & Atri preprint, shield materials | pages/agent-shielding/ |
 | https://www.nasa.gov/science-research/heliophysics/real-martians-how-to-protect-astronauts-from-space-radiation-on-mars/ | NASA Real Martians 2015 | pages/agent-shielding/ |
 | https://ntrs.nasa.gov/citations/20140000593 | Walker 2013, water storm shelter | pages/agent-shielding/ |
+| https://www.nasa.gov/wp-content/uploads/2023/03/co2-technical-brief-ochmo.pdf | NASA OCHMO CO₂ technical brief (Rev B, Nov 2022) | pages/co2/nasa-ochmo-co2-brief.pdf |
+| (user-provided) ICES-2023-116 Knox presentation | 4-Bed CO₂ Scrubber status 2022–2023 | pages/co2/ices2023-116-knox-4bms.pdf |
+| https://www.nasa.gov/?p=73868 | NASA Marshall: 4-Bed CO₂ Scrubber ships, Jun 2021 | pages/co2/nasa-marshall-ships-*.html |
+| https://nasa.gov/image-article/apollo-13-lunar-module-mail-box | Apollo 13 "mail box" (AS13-62-8929) | pages/co2/nasa-apollo-13-lunar-module-mail-box.html |
+| https://en.wikipedia.org/wiki/Carbon_dioxide_scrubber | CO₂ scrubber overview (secondary, user's find) | pages/co2/wiki-co2-scrubber.html |
