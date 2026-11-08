@@ -115,6 +115,7 @@
     - Log each one in `images/credits.md`.
     - Don't fetch NASA `~orig.jpg` in-page: it has no CORS header.
   - **Links, not page names:** whenever a page is mentioned, link it (`/s/NASA/p/<slugId>`).
+  - **New facts go where the topic already lives, never in an appended "answers" section.** A term is explained on the page that owns it (MOXIE → Life support, machine power → Power), and other pages link to it. Each page ends with "Open questions ❓" holding only what is still unknown. Method: fetch the page JSON in the tab, splice nodes into the right section (bullet list, table row, callout), and push the whole page back with `format:'json', operation:'replace'`. Check the image count is unchanged.
   - **Inserting a section mid-page:** append the markdown, then move the new nodes in the JSON to the right index.
   - **Long loops in one `javascript_tool` call time out at 45 s.** The script keeps running; wait, then check the result.
   - **Open team decisions** live in "Decisions for the team" at the top of [Game design and story](https://docmost.ravindu644.dpdns.org/s/NASA/p/Zn6Pf5rXby). Read it before changing the game design.
