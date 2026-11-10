@@ -83,6 +83,8 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 
 ## Phase C: rehearsal "Storm Night Lighthouse" (Nov 9–10)
 - [x] Factory set up (10 Nov): workflow, code rules, commits, modules, token rules and self-improvement in `tooling/AGENTS.md`; projects built in `tooling/projects/<name>/` (rehearsal moved there)
+- [x] Design language (10 Nov): one `DESIGN.md` per project (Google Labs format + 3D keys), forge `mat()` takes roles only, `runtime/house-style.js`, `tools/style-check.mjs`, probe lineup for 3 style variants
+- [ ] Rehearsal design step: collect reference images, pick 1 of 3 variants, time it
 - [ ] Run the rehearsal through the factory: open `claude` in `tooling/projects/storm-night-lighthouse/` and say "build this game"
 - [ ] Two timed sessions, the same length as the hackathon days
 - [ ] Log time per lane, tokens, stuck points, screenshot loops, fps on the weakest team laptop
@@ -90,7 +92,8 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [ ] Factory lessons from the rehearsal folded back into `tooling/` (tools + gotchas)
 
 ## Phase D: design pack (Nov 11–13)
-- [ ] `GAME_DESIGN.md`, `DESIGN.md` (art direction), `CONTRACTS.md` drafted as Docmost pages
+- [ ] `GAME_DESIGN.md`, `CONTRACTS.md` drafted as Docmost pages
+- [ ] Outpost Gale look: team collects reference images + "take / avoid" notes; 3 variants rendered on generic probes; chosen `DESIGN.md` ready to paste on 14 Nov
 - [ ] Nov 13: read the challenge Resources tab and the 2026 Submission + Judging guides; update the checklist page
 - [ ] Email the Colombo Local Lead: event start/end times, and whether design docs written in advance are OK
 - [ ] Team names filled in on "Start here: our path"

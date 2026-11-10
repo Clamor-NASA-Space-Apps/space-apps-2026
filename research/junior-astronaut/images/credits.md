@@ -42,3 +42,5 @@ All from the NASA Image and Video Library (https://images.nasa.gov). Look one up
 Skipped: the Madrid DSN array photo PIA26147, because it's credited to MDSCC/INTA (a non-NASA photographer).
 
 Charts (`charts/*.png`) are drawn with code by our AI assistant from NASA numbers; each chart prints its sources. Not AI-generated images.
+
+Style lineups (`how-we-build/lineup-style-*.png`) are Blender renders of generic probe models from agent-forge-3d, built from code written by our AI assistant, one per DESIGN.md. Used on "How we build it with AI".
