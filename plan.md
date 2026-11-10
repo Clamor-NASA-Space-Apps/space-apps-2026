@@ -79,7 +79,7 @@
 - **Skills:**
   - `npx skills add cloudai-x/threejs-skills` (the most-used three.js skill pack, updated Oct 2026).
   - Copy the test hooks from the develop-web-game pattern (trailofbits mirror).
-  - Already installed: design-taste-frontend, antislop, frontend-design, ponytail.
+  - Already installed: design-taste-frontend, frontend-design, ponytail.
   - Agents read `threejs.org/docs/llms.txt` (5 KB), not the 379 KB full version.
 - **Browser checks:**
   - `playwright-core` driving Brave (`executablePath:'/usr/bin/brave-browser'`), so no browser download.
@@ -201,7 +201,7 @@ tools/        capture-view.mjs, balance bots
   - (A) sim, tests and balance bots;
   - (B) scene, terrain and house style;
   - (C) forge assets;
-  - (D) HUD, cards, replay and credits (design-taste and antislop skills);
+  - (D) HUD, cards, replay and credits (design-taste skill);
   - (E) cinematic and audio.
   - I merge at H4 and H8. Each lane ends with its screenshot or text check passing.
 - **H10–14:** the first full playable loop. Teammates playtest, and I tune `tuning.json` only.

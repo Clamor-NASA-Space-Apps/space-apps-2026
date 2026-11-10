@@ -104,7 +104,7 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
 | Node | 22. npm cache is warm: three 0.187, vite 8.3, @gltf-transform/cli 4.5, playwright-core 1.65, postprocessing, n8ao, three-bvh-csg, @fontsource-variable/{lexend,fredoka} |
 | Piper TTS | `~/opt/piper/bin/piper -m ~/opt/piper/voices/en_US-kristin-medium.onnx -f out.wav`. `kristin` = public domain; `libritts_r` = CC BY 4.0. Never use `lessac`/`amy`/`hfc_female` (licences). ffmpeg → Opus ~14 KB/line |
 | three.js skills | `~/.claude/skills/threejs-*` (13, CloudAI-X, r186). Give agents `https://threejs.org/docs/llms.txt` (5 KB), not llms-full |
-| Design skills | design-taste-frontend, antislop (HUD/UI), ponytail (keep code minimal) |
+| Design skills | design-taste-frontend (HUD/UI), ponytail (keep code minimal) |
 
 ## Docmost (team docs, space slug `NASA`)
 - Site: https://docmost.ravindu644.dpdns.org/s/NASA. The page tree mirrors the plan: Start here, Mars survival 101 (4 pages), Moon vs Mars?, Trade-off cards, NASA data, Game design and story, How we build it with AI, Judging checklist, References and fact-check, Research Plan.
