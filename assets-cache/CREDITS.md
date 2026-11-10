@@ -11,5 +11,7 @@
 | Fonts: Lexend, Fredoka | https://fontsource.org | SIL OFL 1.1 | "Fonts: Lexend, Fredoka (OFL)" |
 | Live solar flares, Kp index | https://services.swpc.noaa.gov/json/ | US Government (NOAA), public | "Live space weather: NOAA SWPC" |
 | Mars weather | https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json | NASA/JPL-Caltech, CAB (outreach use) | "Mars weather: NASA/JPL-Caltech, Centro de Astrobiología (CAB)" |
+| "Meow" sound (One Night Stray rehearsal, re-encoded to Opus) | https://opengameart.org/content/meow (by IgnasD, file Meow.ogg, 2026-11-10) | CC0 | "Meow: IgnasD (OpenGameArt, CC0)" (optional) |
+| "Dog barking mono" sound (One Night Stray rehearsal, first 0.75 s, re-encoded to Opus) | https://opengameart.org/content/dog-barking-mono (by Brandon Morris, submitted by HaelDB, 2026-11-10) | CC0 (dual-listed with OGA-BY 3.0; we use CC0) | "Dog bark: Brandon Morris (OpenGameArt, CC0)" (optional) |
 
 AI-generated audio has to be acknowledged in the text and metadata (2025 Space Apps rules).
