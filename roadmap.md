@@ -82,9 +82,12 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [ ] After the call ("decisions are in"): apply the decisions to the design pages, the facts, `plan.md` and `AGENTS.md`; fact-check any new science goal
 
 ## Phase C: rehearsal "Storm Night Lighthouse" (Nov 9–10)
+- [x] Factory set up (10 Nov): workflow, code rules, commits, modules, token rules and self-improvement in `tooling/AGENTS.md`; projects built in `tooling/projects/<name>/` (rehearsal moved there)
+- [ ] Run the rehearsal through the factory: open `claude` in `tooling/projects/storm-night-lighthouse/` and say "build this game"
 - [ ] Two timed sessions, the same length as the hackathon days
 - [ ] Log time per lane, tokens, stuck points, screenshot loops, fps on the weakest team laptop
 - [ ] Retro page in Docmost; fix tooling and agent briefs (Nov 11)
+- [ ] Factory lessons from the rehearsal folded back into `tooling/` (tools + gotchas)
 
 ## Phase D: design pack (Nov 11–13)
 - [ ] `GAME_DESIGN.md`, `DESIGN.md` (art direction), `CONTRACTS.md` drafted as Docmost pages

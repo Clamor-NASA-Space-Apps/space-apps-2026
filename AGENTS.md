@@ -15,7 +15,7 @@
 1. **No Mars-game code or art before the hackathon starts (14 Nov).** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." Before then:
    - Allowed: research, docs, generic tooling, the rehearsal game.
    - The team accepted the grey area of writing design docs early.
-2. **Never copy anything from `storm-night-lighthouse/` into the hackathon repo.** Only `tooling/` (agent-forge-3d) is shared.
+2. **Never copy anything from `tooling/projects/storm-night-lighthouse/` into the hackathon repo.** Only `tooling/` (agent-forge-3d) is shared.
 3. **Every number shown to players has a source** in `research/junior-astronaut/factcheck.md`. ❌ claims never ship.
 4. **Never present archived data as live.** Every data value is labelled LIVE (fetched now) or ARCHIVED + date.
 5. **No NASA logos** (meatball, worm, seal), and nothing that implies NASA endorsement. Text credit "Data: NASA" is fine.
@@ -79,6 +79,9 @@
 | Gale sunset | looks blue near the Sun | NASA |
 | Moon dose 1,369 µSv/d; Earth background 2.4 mSv/yr | ⚠️ reported only | press / research agent |
 
+## Start a build
+Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say what to build. The factory workflow in `tooling/AGENTS.md` takes it from there: questions, plan mode, `roadmap.md`, sections in bulk, check + `/code-review medium` + lessons per section. Projects live in `tooling/projects/<name>/` (gitignored there, each its own repo). This file's facts and research paths still apply, because Claude Code loads it from every folder below.
+
 ## Where things are
 | Path | Contents |
 |---|---|
@@ -87,9 +90,9 @@
 | `assets-cache/kenney/` | Space Kit (153 GLB: domes, corridors, generators, dishes, rover, rocket parts, platforms, rocks; **no solar panels**), Space Station Kit, Sci-fi + Interface sounds. All CC0 |
 | `assets-cache/data-snapshots/` | NOAA flares + Kp, Curiosity weather (4,745 sols). DONKI still down on 8 Nov (503 upstream timeout, even with our key); retry |
 | `assets-cache/CREDITS.md` | Every asset's source, licence and credit line |
-| `tooling/` | Separate repo **agent-forge-3d**: Blender asset forge + capture-view. Will be public |
-| `storm-night-lighthouse/` | Separate repo: the rehearsal game (9–10 Nov). Throwaway |
-| `outpost-gale/` | Created on 14 Nov: the hackathon game. Separate repo |
+| `tooling/` | Separate repo **agent-forge-3d**, the game factory: workflow and code rules in its `AGENTS.md`, Blender forge, capture-view, html-to-png. Will be public |
+| `tooling/projects/storm-night-lighthouse/` | Separate repo: the rehearsal game. Throwaway |
+| `tooling/projects/outpost-gale/` | Created on 14 Nov: the hackathon game. Separate repo |
 
 **Remotes** (Gitea, SSH works): `git@100.108.184.127:ravindu644/{nasa-space-apps-2026,agent-forge-3d,storm-night-lighthouse}.git`. GitHub mirrors come later. Ravindu decides when, because his GitHub is widely watched.
 

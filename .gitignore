@@ -1,10 +1,8 @@
 # secrets
 .env.local
 .env*.local
-# separate repos (agent-forge-3d, storm-night-lighthouse, and the hackathon game from Nov 14)
+# separate repo agent-forge-3d; game repos live inside it in tooling/projects/
 tooling/
-storm-night-lighthouse/
-outpost-gale/
 # downloaded zips are already unpacked next to them
 assets-cache/**/*.zip
 node_modules/
