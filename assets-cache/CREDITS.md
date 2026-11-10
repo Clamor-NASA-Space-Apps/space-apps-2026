@@ -4,6 +4,7 @@
 |---|---|---|---|
 | Perseverance, Ingenuity, Astronaut, Base Station, Habitat Demonstration Unit models; Curiosity Landing Site terrain (STL); Mars, Moon, Earth textures | https://github.com/nasa/NASA-3D-Resources | NASA media, no copyright (NASA usage guidelines; no logos, no implied endorsement) | "3D models and textures: NASA" |
 | Space Kit, Space Station Kit | https://kenney.nl/assets/space-kit, https://kenney.nl/assets/space-station-kit | CC0 | "Kenney (kenney.nl)" (optional, appreciated) |
+| City Kit Suburban 2.0, City Kit Commercial 2.1, City Kit Roads 2.2 | https://kenney.nl/assets (downloaded from the opengameart.org mirror, 2026-11-10) | CC0 | "Kenney (kenney.nl)" (optional, appreciated) |
 | Sci-fi Sounds, Interface Sounds | https://kenney.nl/assets/sci-fi-sounds, https://kenney.nl/assets/interface-sounds | CC0 | "Sounds: Kenney (kenney.nl)" |
 | Voice: en_US-kristin-medium | https://huggingface.co/rhasspy/piper-voices | Public domain (LibriVox) | "Voice: Piper TTS, Kristin voice (AI-generated audio)" |
 | Voice: en_US-libritts_r-medium | https://huggingface.co/rhasspy/piper-voices | CC BY 4.0 | "Voice: Piper TTS, LibriTTS-R voice, CC BY 4.0 (AI-generated audio)" |
