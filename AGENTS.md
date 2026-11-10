@@ -154,6 +154,7 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
 - **Test hooks:** `window.advanceTime(ms)`, `window.render_game_to_text()`, `window.capture.setView(name)`. Check with `tooling/tools/capture-view.mjs`.
 - **Budgets:** assets <15 MB, first frame <3 s, <150 draw calls, 60 fps on a school laptop.
 - **Kid UX:** icons first, ≤8 words per card, every line also spoken, targets ≥48 px, colour never the only signal.
+  - **Team decision needed before 14 Nov:** in the rehearsal (10 Nov) the spoken lines annoyed the player and were removed; the factory now treats narration as opt-in and shows danger on screen. Decide whether Outpost Gale keeps "every line also spoken" (a Settings switch, off by default?).
 
 ## Git
 - Commit messages end with `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
