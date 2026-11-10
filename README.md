@@ -12,6 +12,6 @@ This is the planning and research workspace. The game itself gets its own repo, 
 
 Separate repos on our Gitea:
 - `agent-forge-3d`: generic tooling (Blender asset forge, screenshot checker). Lives in `tooling/`.
-- `storm-night-lighthouse`: the rehearsal game (throwaway).
+- `one-night-stray`: the rehearsal game (throwaway), inside `tooling/projects/`.
 
 The team-facing write-up lives in Docmost, in the `NASA` space.

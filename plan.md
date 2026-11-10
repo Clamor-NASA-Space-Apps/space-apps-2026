@@ -100,7 +100,7 @@
   - Smoke test: a bevelled crate goes to GLB plus 3 preview PNGs via `blender -b -P`.
 
 ## Phase C — Timed rehearsal (Nov 9–10, two sessions the length of the hackathon days)
-- **Game: "Storm Night Lighthouse"** (a different domain, same pipeline):
+- **Game: "One Night Stray"** (swapped in on 10 Nov from "Storm Night Lighthouse"; brief in `tooling/projects/one-night-stray/STORY.md`). The original lighthouse notes below are kept for history:
   - A 3D island diorama and a keeper's resources (lamp oil vs generator fuel vs keeper energy).
   - Storms arrive as events.
   - A cinematic intro (boat arrival).

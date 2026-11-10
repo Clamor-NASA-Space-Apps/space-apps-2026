@@ -2,7 +2,7 @@
 
 The full plan is in `plan.md`. This file holds the subtasks to come back to. Tick each one when it's done.
 
-Key dates: rehearsal Nov 9–10 · Resources tab and 2026 guides open Nov 13 · hackathon Nov 14–15 (submit by 18:00, hard deadline 23:59 local).
+Key dates: rehearsal (One Night Stray) before Nov 14 · Resources tab and 2026 guides open Nov 13 · hackathon Nov 14–15 (submit by 18:00, hard deadline 23:59 local).
 
 ## Phase A: research and Docmost ✅ (Nov 7)
 - [x] Save sources to `research/junior-astronaut/` and write `sources.md`
@@ -81,11 +81,12 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [ ] Before the call: check all 4 teammates can edit the `NASA` space (Settings → Members)
 - [ ] After the call ("decisions are in"): apply the decisions to the design pages, the facts, `plan.md` and `AGENTS.md`; fact-check any new science goal
 
-## Phase C: rehearsal "Storm Night Lighthouse" (Nov 9–10)
+## Phase C: rehearsal "One Night Stray" (before Nov 14)
 - [x] Factory set up (10 Nov): workflow, code rules, commits, modules, token rules and self-improvement in `tooling/AGENTS.md`; projects built in `tooling/projects/<name>/` (rehearsal moved there)
 - [x] Design language (10 Nov): one `DESIGN.md` per project (Google Labs format + 3D keys), forge `mat()` takes roles only, `runtime/house-style.js`, `tools/style-check.mjs`, probe lineup for 3 style variants
 - [ ] Rehearsal design step: collect reference images, pick 1 of 3 variants, time it
-- [ ] Run the rehearsal through the factory: open `claude` in `tooling/projects/storm-night-lighthouse/` and say "build this game"
+- [x] Rehearsal swapped (10 Nov) from Storm Night Lighthouse to One Night Stray: a stray cat, third and first person, climbing, NPCs, rain. Brief in `STORY.md`
+- [ ] Run it as on the real day (Opus or Fable): open `claude` in `tooling/projects/one-night-stray/` and say "Build the game in STORY.md"
 - [ ] Two timed sessions, the same length as the hackathon days
 - [ ] Log time per lane, tokens, stuck points, screenshot loops, fps on the weakest team laptop
 - [ ] Retro page in Docmost; fix tooling and agent briefs (Nov 11)

@@ -15,7 +15,7 @@
 1. **No Mars-game code or art before the hackathon starts (14 Nov).** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." Before then:
    - Allowed: research, docs, generic tooling, the rehearsal game.
    - The team accepted the grey area of writing design docs early.
-2. **Never copy anything from `tooling/projects/storm-night-lighthouse/` into the hackathon repo.** Only `tooling/` (agent-forge-3d) is shared.
+2. **Never copy anything from `tooling/projects/one-night-stray/` into the hackathon repo.** Only `tooling/` (agent-forge-3d) is shared.
 3. **Every number shown to players has a source** in `research/junior-astronaut/factcheck.md`. ❌ claims never ship.
 4. **Never present archived data as live.** Every data value is labelled LIVE (fetched now) or ARCHIVED + date.
 5. **No NASA logos** (meatball, worm, seal), and nothing that implies NASA endorsement. Text credit "Data: NASA" is fine.
@@ -91,10 +91,10 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
 | `assets-cache/data-snapshots/` | NOAA flares + Kp, Curiosity weather (4,745 sols). DONKI still down on 8 Nov (503 upstream timeout, even with our key); retry |
 | `assets-cache/CREDITS.md` | Every asset's source, licence and credit line |
 | `tooling/` | Separate repo **agent-forge-3d**, the game factory: workflow and code rules in its `AGENTS.md`, Blender forge, capture-view, html-to-png. Will be public |
-| `tooling/projects/storm-night-lighthouse/` | Separate repo: the rehearsal game. Throwaway |
+| `tooling/projects/one-night-stray/` | Separate repo: the rehearsal game (a stray cat survives one night; brief in `STORY.md`). Throwaway |
 | `tooling/projects/outpost-gale/` | Created on 14 Nov: the hackathon game. Separate repo |
 
-**Remotes** (Gitea, SSH works): `git@100.108.184.127:ravindu644/{nasa-space-apps-2026,agent-forge-3d,storm-night-lighthouse}.git`. GitHub mirrors come later. Ravindu decides when, because his GitHub is widely watched.
+**Remotes** (Gitea, SSH works): `git@100.108.184.127:ravindu644/{nasa-space-apps-2026,agent-forge-3d,one-night-stray}.git`. GitHub mirrors come later. Ravindu decides when, because his GitHub is widely watched.
 
 ## Machine and tools (one laptop runs everything)
 | Tool | Where / notes |
