@@ -106,7 +106,7 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
 | Godot 4.7.2 | Standard build (not .NET) at `~/Documents/Godot/Godot_v4.7.2-stable_linux.x86_64`, on PATH as `godot` (link in `~/.local/bin`). Export templates for Web, Linux and Android are installed. Headless: `godot --headless --path <project>` |
 | Node | 22. npm cache is warm: @gltf-transform/cli 4.5 (`npx --offline @gltf-transform/cli`), playwright-core 1.65, @fontsource-variable/{lexend,fredoka}, and the three.js set the rehearsal used |
 | Piper TTS | `~/opt/piper/bin/piper -m ~/opt/piper/voices/en_US-kristin-medium.onnx -f out.wav`. `kristin` = public domain; `libritts_r` = CC BY 4.0. Never use `lessac`/`amy`/`hfc_female` (licences). ffmpeg → Opus ~14 KB/line |
-| Godot skills | `~/.claude/skills/godot-*` (12) plus camera-systems, input-systems, performance-optimization, game-ai, survival-crafting, game-jam, from gamedev-skills/awesome-gamedev-agent-skills (Apache-2.0, reviewed 10 Nov). Which to load for what: the Skills table in `tooling/AGENTS.md`. The 13 three.js skills stay installed for the rehearsal repo |
+| Godot skills | 12 `godot-*` plus camera-systems, input-systems, performance-optimization, game-ai, survival-crafting, game-jam, from gamedev-skills/awesome-gamedev-agent-skills (Apache-2.0, reviewed 10 Nov). Copied into `tooling/skills/` (branch `godot`), so sessions in the factory load them; also installed in `~/.claude/skills/`. Which to load for what: the Skills table in `tooling/AGENTS.md`. The 13 three.js skills stay installed for the rehearsal repo |
 | Design skills | design-taste-frontend (HUD/UI), ponytail (keep code minimal) |
 
 ## Docmost (team docs, space slug `NASA`)

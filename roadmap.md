@@ -98,7 +98,7 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [x] Web export tested: empty build is 38 MB (9.7 MB gzipped), starts in a browser, Jolt physics runs in it
 - [x] Factory converted on the `godot` branch of `tooling/`: Forge autoload (test hooks + house style), capture-view, feel-probe, web-check, new-project, smoke and preview projects, AGENTS.md
 - [x] Research and the check of the unverified asset document: `research/godot-build/`
-- [ ] Factory skills ported to Godot and reviewed (8 skills)
+- [x] Factory skills ported to Godot and reviewed (8 skills); the 18 Godot skills copied into `tooling/skills/`
 - [ ] Test one web build on the weakest team phone (`adb reverse`, then `localhost`); note fps and load time
 - [ ] Download and inspect the Quaternius astronaut (clips: walk, run, idle, jump?); keep its licence file; add to `CREDITS.md`
 - [ ] Re-save the five Draco NASA GLBs so Godot can read them; cut Perseverance down from 199,521 triangles
