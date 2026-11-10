@@ -1,0 +1,5 @@
+Source: https://www.scienceintheclassroom.org/research-papers/curiosity-tells-all-about-mars-radiation-environment
+(annotated copy of Hassler et al. 2014, Science 343:1244797). curl got HTTP 404 for the PDF link in the unverified document and for this page; read via WebFetch on 2026-11-10. EXCERPT ONLY.
+- "yields an average GCR dose-equivalent rate on the Mars surface of 0.64 ± 0.12 millisieverts (mSv)/day"
+- "0.48 ± 0.08 mGy/day measured during cruise inside the MSL spacecraft"  (absorbed dose, not dose equivalent)
+- WebFetch reported that 0.67 and 1.84 do not appear in the page text (tables are images).

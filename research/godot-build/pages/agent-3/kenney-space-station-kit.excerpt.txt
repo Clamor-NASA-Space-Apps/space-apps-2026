@@ -1,0 +1,2 @@
+Source: https://kenney.nl/assets/space-station-kit (curl got HTTP 403; text below is WebFetch model output on 2026-11-10, EXCERPT ONLY, not raw HTML)
+Asset title: "Space Station Kit"; Category 3D; Tags: space, station, sci-fi, interior; Files: 90 ("90×"); License: "Creative Commons CC0"; Changelog: only version 1.0, "Released in 2024"; Buttons: "Download", "Get All-in-1 bundle". The page doesn't mention file formats or animations.

@@ -1,0 +1,804 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="jgre22083" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Geophys Res Planets</journal-id><journal-id journal-id-type="iso-abbrev">J Geophys Res Planets</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">101661797</journal-id><journal-id journal-id-type="publisher-id">JGRE</journal-id><journal-title-group><journal-title>Journal of Geophysical Research. Planets</journal-title></journal-title-group><issn pub-type="ppub">2169-9097</issn><issn pub-type="epub">2169-9100</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10078181</article-id><article-id pub-id-type="pmcid-ver">PMC10078181.1</article-id><article-id pub-id-type="pmcaid">10078181</article-id><article-id pub-id-type="pmcaiid">10078181</article-id><article-id pub-id-type="pmid">37033154</article-id><article-id pub-id-type="doi">10.1029/2022JE007605</article-id><article-id pub-id-type="publisher-id">JGRE22083</article-id><article-id pub-id-type="other">2022JE007605</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="article-subject-classification"><subject>The Mars Perseverance Rover Jezero Crater Floor Campaign</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Geochemistry</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Composition of Aerosols and Dust Particles</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Planetary Sciences: Solar System Objects</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Mars</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Lifting and Transport of Martian Dust by the Ingenuity Helicopter Rotor Downwash as Observed by High‐Speed Imaging From the Perseverance Rover</article-title><alt-title alt-title-type="left-running-head">Lemmon et al.</alt-title></title-group><contrib-group><contrib id="jgre22083-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Lemmon</surname><given-names initials="MT">M. T.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4504-5136</contrib-id><xref rid="jgre22083-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>MLemmon@SpaceScience.org</email></address></contrib><contrib id="jgre22083-cr-0002" contrib-type="author"><name name-style="western"><surname>Lorenz</surname><given-names initials="RD">R. D.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8528-4644</contrib-id><xref rid="jgre22083-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jgre22083-cr-0003" contrib-type="author"><name name-style="western"><surname>Rabinovitch</surname><given-names initials="J">J.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1914-7964</contrib-id><xref rid="jgre22083-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="jgre22083-cr-0004" contrib-type="author"><name name-style="western"><surname>Newman</surname><given-names initials="CE">C. E.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9990-8817</contrib-id><xref rid="jgre22083-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="jgre22083-cr-0005" contrib-type="author"><name name-style="western"><surname>Williams</surname><given-names initials="NR">N. R.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0602-484X</contrib-id><xref rid="jgre22083-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="jgre22083-cr-0006" contrib-type="author"><name name-style="western"><surname>Sullivan</surname><given-names initials="R">R.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4191-598X</contrib-id><xref rid="jgre22083-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="jgre22083-cr-0007" contrib-type="author"><name name-style="western"><surname>Golombek</surname><given-names initials="MP">M. P.</given-names></name><xref rid="jgre22083-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="jgre22083-cr-0008" contrib-type="author"><name name-style="western"><surname>Bell</surname><given-names initials="JF">J. F.</given-names><suffix>III</suffix></name><xref rid="jgre22083-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="jgre22083-cr-0009" contrib-type="author"><name name-style="western"><surname>Maki</surname><given-names initials="JN">J. N.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7887-0343</contrib-id><xref rid="jgre22083-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="jgre22083-cr-0010" contrib-type="author"><name name-style="western"><surname>Vicente‐Retortillo</surname><given-names initials="A">A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4553-7624</contrib-id><xref rid="jgre22083-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib></contrib-group><aff content-type="private-address" id="jgre22083-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>Space Science Institute</institution>
+<city>Boulder</city>
+<named-content content-type="country-part">CO</named-content>
+<country country="US">USA</country>
+</aff><aff content-type="private-address" id="jgre22083-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Applied Physics Laboratory</institution>
+<city>Laurel</city>
+<named-content content-type="country-part">MD</named-content>
+<country country="US">USA</country>
+</aff><aff content-type="private-address" id="jgre22083-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Stevens Institute of Technology</institution>
+<city>Hoboken</city>
+<named-content content-type="country-part">NJ</named-content>
+<country country="US">USA</country>
+</aff><aff content-type="private-address" id="jgre22083-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>Aeolis Research</institution>
+<city>Chandler</city>
+<named-content content-type="country-part">AZ</named-content>
+<country country="US">USA</country>
+</aff><aff id="jgre22083-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Jet Propulsion Laboratory</named-content>
+<institution>California Institute of Technology</institution>
+<city>Pasadena</city>
+<named-content content-type="country-part">CA</named-content>
+<country country="US">USA</country>
+</aff><aff content-type="private-address" id="jgre22083-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<institution>Cornell University</institution>
+<city>Ithaca</city>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff><aff content-type="private-address" id="jgre22083-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<institution>Arizona State University</institution>
+<city>Tempe</city>
+<named-content content-type="country-part">AZ</named-content>
+<country country="US">USA</country>
+</aff><aff content-type="private-address" id="jgre22083-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<institution>Centro de Astrobiologia (INTA‐CSIC)</institution>
+<city>Madrid</city>
+<country country="ES">Spain</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence to:</bold>
+<break/>
+M. T. Lemmon,<break/>
+<email>MLemmon@SpaceScience.org</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>20</day><month>12</month><year>2022</year></pub-date><pub-date pub-type="ppub"><month>12</month><year>2022</year></pub-date><volume>127</volume><issue seq="29">12</issue><issue-id pub-id-type="pmc-issue-id">432946</issue-id><issue-id pub-id-type="doi">10.1002/jgre.v127.12</issue-id><elocation-id>e2022JE007605</elocation-id><history>
+<date date-type="rev-recd"><day>19</day><month>11</month><year>2022</year></date>
+<date date-type="received"><day>30</day><month>9</month><year>2022</year></date>
+<date date-type="accepted"><day>29</day><month>11</month><year>2022</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>06</day><month>04</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>07</day><month>04</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-09-15 12:25:36.487"><day>15</day><month>09</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2022. The Authors.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="JGRE-127-0.pdf"><?pdf-name JGRE-127-0.pdf?><?pdf-size 3419243?><?pdf-md5 aae49698f0b9248c1a2dc2738b1f8599?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:134e/10078181/aae49698f0b9/JGRE-127-0.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:JGRE-127-0.pdf"/><abstract><title>Abstract</title><p>Martian atmospheric dust is a major driver of weather, with feedback between atmospheric dust distribution, circulation changes from radiative heating and cooling driven by this dust, and winds that mobilize surface dust and distribute it in the atmosphere. Wind‐driven mobilization of surface dust is a poorly understood process due to significant uncertainty about minimum wind stress and whether the saltation of sand particles is required. This study utilizes video of six Ingenuity helicopter flights to measure dust lifting during helicopter ascents, traverses, and descents. Dust mobilization persisted on takeoff until the helicopter exceeded 3 m altitude, with dust advecting at 4–6 m/s. During landing, dust mobilization initiated at 2.3–3.6 m altitude. Extensive dust mobilization occurred during traverses at 5.1–5.7 m altitude. Dust mobilization threshold friction velocity of rotor‐induced winds during landing is modeled at 0.4–0.6 m/s (factor of two uncertainty in this estimate), with higher winds required when the helicopter was over undisturbed terrain. Modeling dust mobilization from &gt;5 m cruising altitude indicates mobilization by 0.3 m/s winds, suggesting nonsaltation mechanisms such as mobilization and destruction of dust aggregates. No dependence on background winds was seen for the initiation of dust lifting but one case of takeoff in 7 m/s winds created a track of darkened terrain downwind of the helicopter, which may have been a saltation cluster. When the helicopter was cruising at 5–6 m altitude, recirculation was seen in the dust clouds.</p></abstract><abstract abstract-type="short"><title>Key Points</title><p>
+<list list-type="bullet"><list-item><p>Six flights of the Ingenuity helicopter were documented with video acquired by Mastcam‐Z on the Perseverance rover in Jezero crater, Mars</p></list-item><list-item><p>Dust mobilization was expected when the helicopter was below 1‐m altitude but was observed at low wind speeds from &gt;5 m altitude</p></list-item><list-item><p>Recirculating dust clouds unexpectedly formed while the helicopter was at &gt;5 m cruising altitude</p></list-item></list>
+</p></abstract><kwd-group><kwd id="jgre22083-kwd-0001">Mars</kwd><kwd id="jgre22083-kwd-0002">dust</kwd><kwd id="jgre22083-kwd-0003">helicopter</kwd><kwd id="jgre22083-kwd-0004">Perseverance</kwd><kwd id="jgre22083-kwd-0005">Ingenuity</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Aeronautics and Space Administration
+</institution><institution-id institution-id-type="doi">10.13039/100000104</institution-id></institution-wrap></funding-source><award-id>80NM0018D0004</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Arizona State University
+</institution><institution-id institution-id-type="doi">10.13039/100007482</institution-id></institution-wrap></funding-source><award-id>15‐712</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>Jet Propulsion Laboratory
+</institution><institution-id institution-id-type="doi">10.13039/100006196</institution-id></institution-wrap></funding-source><award-id>1607215</award-id></award-group><award-group id="funding-0004"><funding-source>Spanish State Research Agency</funding-source><award-id>MDM‐2017‐0737</award-id></award-group></funding-group><counts><fig-count count="10"/><table-count count="2"/><page-count count="17"/><word-count count="9057"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2022</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.7 mode:remove_FC converted:06.04.2023</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jgre22083-cit-0053">
+<string-name name-style="western">
+<surname>Lemmon</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lorenz</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rabinovitch</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newman</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Williams</surname>, <given-names>N. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sullivan</surname>, <given-names>R.</given-names>
+</string-name>, et al. (<year>2022</year>). <article-title>Lifting and transport of Martian dust by the Ingenuity helicopter rotor downwash as observed by high‐speed imaging from the Perseverance rover</article-title>. <source>Journal of Geophysical Research: Planets</source>, <volume>127</volume>, <elocation-id>e2022JE007605</elocation-id>. <pub-id pub-id-type="doi">10.1029/2022JE007605</pub-id>
+<pub-id pub-id-type="pmcid">PMC10078181</pub-id><pub-id pub-id-type="pmid">37033154</pub-id></mixed-citation>
+</p></notes></front><body id="jgre22083-body-0001"><sec id="jgre22083-sec-0010"><label>1</label><title>Introduction</title><p>Understanding dust mobilization on Mars is essential for understanding and predicting the background atmospheric dust distribution, the onset and evolution of dust storms (the largest of which can cover the entire planet in a veil of dust for weeks on end, e.g., Guzewich et al., <xref rid="jgre22083-bib-0018" ref-type="bibr">2019</xref>), and the effects of lifted dust on Martian atmospheric dynamics. Due to Mars' low atmospheric density, which absorbs and scatters relatively little solar or thermal radiation, the presence of dust in the atmosphere has a major impact on its radiative balance, which in turn strongly affects thermal gradients and winds (Kahre et al., <xref rid="jgre22083-bib-0022" ref-type="bibr">2017</xref>; Wolff et al., <xref rid="jgre22083-bib-0052" ref-type="bibr">2017</xref>). The global distribution of atmospheric dust depends on atmospheric transport, interactions with ice particles (microphysics), fallout rate, and dust mobilization from the surface. The last process is least understood and in greatest need of investigation (Newman, Bertrand, et al., <xref rid="jgre22083-bib-0040" ref-type="bibr">2022</xref>). Dust lifting has been observed in both straight‐line winds and vortices (dust‐devils), which may be roughly equally important both outside dust storms (Newman, Hueso, et al., <xref rid="jgre22083-bib-0041" ref-type="bibr">2022</xref>) and during the onset of regional storms (Lemmon et al., <xref rid="jgre22083-bib-0028" ref-type="bibr">2022</xref>).</p><p>Dust may be mobilized as a direct result of wind stress or indirectly because of other wind‐mobilized particles, and other forces may contribute to lifting. Wind tunnel experiments utilizing flat beds of uniform particles have shown that wind mobilizes fine/very‐fine sand grains (near 100‐μm diameter) more easily than either much finer or coarser particles (e.g., Iversen &amp; White, <xref rid="jgre22083-bib-0021" ref-type="bibr">1982</xref>), discouraging the idea that individual dust‐sized particles might be directly entrained by the wind. Instead, saltation, a bouncing sand grain motion, has been proposed as a prerequisite to dust mobilization, in which easier‐to‐move saltating sand‐sized grains would disturb dust‐sized particles (typically &lt;5‐μm diameter) or aggregates thereof, entraining dust into the turbulent boundary layer (e.g., Greeley, <xref rid="jgre22083-bib-0013" ref-type="bibr">2002</xref>). However, in situ hand lens‐quality images show that surface dust on Mars occurs in resolvable, sand‐sized, but low‐density aggregates with very weak, filamentary structures (Herkenhoff et al., <xref rid="jgre22083-bib-0020" ref-type="bibr">2004</xref>; Sullivan et al., <xref rid="jgre22083-bib-0048" ref-type="bibr">2008</xref>), which should be easier for the wind to mobilize than solid sand grains of equivalent diameter (Merrison et al., <xref rid="jgre22083-bib-0035" ref-type="bibr">2007</xref>). Besides wind stress, Neakrase et al. (<xref rid="jgre22083-bib-0038" ref-type="bibr">2016</xref>) identify factors contributing to dust mobilization and entrainment, including pressure back‐venting in the low‐pressure core of vortices (Bila et al., <xref rid="jgre22083-bib-0008" ref-type="bibr">2020</xref>), electrical forces (Kruss et al., <xref rid="jgre22083-bib-0026" ref-type="bibr">2021</xref>), and a thermal‐creep lifting that occurs in atmospheres with long mean‐free paths driven by radiative heating of sediment (Kraemer et al., <xref rid="jgre22083-bib-0025" ref-type="bibr">2019</xref>). In addition, the sand motion may be initialized by turbulent wind gusts and then maintained by lower winds once the motion has begun (Sullivan &amp; Kok, <xref rid="jgre22083-bib-0050" ref-type="bibr">2017</xref>; Swann et al., <xref rid="jgre22083-bib-0051" ref-type="bibr">2020</xref>); this effect is larger on Mars than on Earth (Kok, <xref rid="jgre22083-bib-0024" ref-type="bibr">2010</xref>). Gravity‐dependent cohesive forces within the sand bed could also reduce saltation thresholds on Mars relative to Earth (Musiolik et al., <xref rid="jgre22083-bib-0037" ref-type="bibr">2018</xref>). Low pressures reduce the threshold for saltation by a factor of up to 2.5 (Swann et al., <xref rid="jgre22083-bib-0051" ref-type="bibr">2020</xref>).</p><p>The mechanisms that contribute to dust mobilization have not been directly observed on Mars, nor have the threshold wind conditions been directly measured. A direct measurement of friction velocity (related to wind stress by density) was made with Pathfinder's multiheight windsocks, but this experiment did not coincide with any observed lifting or grain motion (Sullivan et al., <xref rid="jgre22083-bib-0049" ref-type="bibr">2000</xref>). Using <italic toggle="yes">Perseverance</italic> data, dust lifting was observed only for instantaneous winds (measured at 1.5 m height) &gt;15 m/s (Newman, Hueso, et al., <xref rid="jgre22083-bib-0041" ref-type="bibr">2022</xref>), while the grain motion occurred within intervals with peak wind speeds (at 1.2 m height) &gt;14.7 m/s in <italic toggle="yes">InSight</italic> data (Baker et al., <xref rid="jgre22083-bib-0002" ref-type="bibr">2021</xref>). Charalambous et al. (<xref rid="jgre22083-bib-0010" ref-type="bibr">2021</xref>) used measured ∼1.2‐m height winds and estimates of surface roughness to infer a friction velocity of 2.0 m/s while sand was in motion, but not a threshold. Estimates of threshold wind stress for saltation from sand mobility correspond to 0.7 m/s for the atmospheric densities considered in this work (Ayoub et al., <xref rid="jgre22083-bib-0001" ref-type="bibr">2014</xref>).</p><p>Beyond the importance of dust lifting in general on Mars, the specific problem of dust mobilization by rotor downwash is of interest in aviation—in terrestrial helicopter operations, the effect is termed “brownout” (analogous to “whiteout” in snow). In addition to possible degradation of optical sensor performance, lofted dust might cause triboelectric charging (e.g., Farrel et al., <xref rid="jgre22083-bib-0011" ref-type="bibr">2021</xref>; Lorenz, <xref rid="jgre22083-bib-0029" ref-type="bibr">2020</xref>). With helicopters now being considered for sample return operations at Mars, and the development of the Dragonfly rotorcraft for Titan underway, the possibility of extraterrestrial brownout means in situ measurements at Mars have considerable value in testing the generality of brownout models (e.g., Rabinovitch et al., <xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>) under physical conditions quite different from Earth.</p><p>This paper describes the <italic toggle="yes">Perseverance</italic> rover's video documentation of six <italic toggle="yes">Ingenuity</italic> helicopter flights on Mars over April–September 2021. Each of the flights resulted in dust lifting from the Martian surface at takeoff and landing, and some flights resulted in dust lifting while at 3–5 m cruising altitude. We report on the altitudes for which dust lifting was observed, discuss inferred wind speeds and implications for dust lifting processes on Mars and describe the dynamics of the resulting dust clouds.</p></sec><sec id="jgre22083-sec-0020"><label>2</label><title>Data and Methods</title><sec id="jgre22083-sec-0030"><label>2.1</label><title>Flights</title><p>
+<italic toggle="yes">Ingenuity</italic> is a 0.49‐m tall, 1.8 kg rotorcraft that was carried to the surface of Mars by the <italic toggle="yes">Perseverance</italic> rover (Balaram et al., <xref rid="jgre22083-bib-0004" ref-type="bibr">2021</xref>; Lorenz, <xref rid="jgre22083-bib-0030" ref-type="bibr">2022</xref>). It has two counterrotating, 1.21‐m diameter rotor blades, four 0.384‐m legs, a 0.136 × 0.195 × 0.163 m fuselage, and a solar panel (Figure <xref rid="jgre22083-fig-0001" ref-type="fig">1</xref>). It carries a monochrome camera for navigation purposes and a color “return to Earth” camera for documentation of the Martian terrain. <italic toggle="yes">Ingenuity</italic> was designed as a technology demonstration but was eventually used for reconnaissance in support of the <italic toggle="yes">Perseverance</italic> mission. It was deployed on 3 April 2021, which was Martian day (sol) 44 of the rover mission. Flights were conducted autonomously, using telemetry and navigation camera images to control flight according to presequenced commands. The operation of <italic toggle="yes">Ingenuity</italic> during its first flights is described in detail in Grip et al. (<xref rid="jgre22083-bib-0017" ref-type="bibr">2022</xref>).</p><fig position="float" fig-type="Figure" id="jgre22083-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>
+<italic toggle="yes">Ingenuity</italic> on Mars. This sol‐47 Mastcam‐Z image includes the first three landing sites.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="JGRE-127-0-g002.jpg"><?image-name JGRE-127-0-g002.jpg?><?image-size 219822?><?image-md5 70d1e62c451ab6acb8e121e8b4c47bc7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 791?><?image-original-width 1064?><?image-scaled-height 527?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/70d1e62c451a/JGRE-127-0-g002.jpg?><?thumb-name JGRE-127-0-g002.gif?><?thumb-size 7761?><?thumb-md5 1be2197e8bc0ecbece27af02344ce37d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 107?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/1be2197e8bc0/JGRE-127-0-g002.gif?></graphic></fig><p>The first five flights of the <italic toggle="yes">Ingenuity</italic> helicopter on Mars occurred on sols 58, 61, 64, 69, and 76. These flights were the subject of video documentation using Mastcam‐Z for the purpose of obtaining data on flight performance for engineering and documenting the first flights on Mars. After flight 5, a video of most succeeding flights was not taken due to a combination of competing priorities and obstructed view; however, flight 13 was also subject to video recording for the purpose of documenting dust lifting.</p><p>An overview of the flight details is in Table <xref rid="jgre22083-tbl-0001" ref-type="table">1</xref>. Flight 1 had a rotation and hovered at 3 m above ground level (AGL). Flight 2 had a 2‐m out‐and‐back traverse to the west (away from the rover) at 5 m AGL. Flight 3 had a 50‐m out‐and‐back traverse to the north (out of the video frames) at 5 m AGL. Each of the first three flights took off and landed within a ∼1 m region (Figure <xref rid="jgre22083-fig-0002" ref-type="fig">2</xref>). Flight 4 was used for reconnaissance of a new landing field, had a 133‐m out‐and‐back traverse 10° east of south at 5 m AGL, and landed several meters from the previous landing spots. Flight 5 was a 130‐m traverse 7° east of south at 5 m AGL, followed by an ascent to 10 m AGL and a landing 110 m from the rover. By flight 13, the rover and helicopter had each moved roughly 900 m to the south‐southeast. Flight 13 was used for reconnaissance to the northeast, with a flight at 8 m AGL and a landing site ∼9.5 m further from the rover than the takeoff site.</p><table-wrap position="float" id="jgre22083-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Overview of Flights With Video</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Flight</th><th align="center" valign="bottom" rowspan="1" colspan="1">1</th><th align="center" valign="bottom" rowspan="1" colspan="1">2</th><th align="center" valign="bottom" rowspan="1" colspan="1">3</th><th align="center" valign="bottom" rowspan="1" colspan="1">4</th><th align="center" valign="bottom" rowspan="1" colspan="1">5</th><th align="center" valign="bottom" rowspan="1" colspan="1">13</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Time (UTC)</td><td align="center" valign="top" rowspan="1" colspan="1">19 April</td><td align="center" valign="top" rowspan="1" colspan="1">22 April</td><td align="center" valign="top" rowspan="1" colspan="1">25 April</td><td align="center" valign="top" rowspan="1" colspan="1">30 April</td><td align="center" valign="top" rowspan="1" colspan="1">7 May</td><td align="center" valign="top" rowspan="1" colspan="1">5 Sept.</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(2021)</td><td align="center" valign="top" rowspan="1" colspan="1">07:34</td><td align="center" valign="top" rowspan="1" colspan="1">09:33</td><td align="center" valign="top" rowspan="1" colspan="1">11:32</td><td align="center" valign="top" rowspan="1" colspan="1">14:50</td><td align="center" valign="top" rowspan="1" colspan="1">19:27</td><td align="center" valign="top" rowspan="1" colspan="1">00:08</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sol</td><td align="center" valign="top" rowspan="1" colspan="1">58</td><td align="center" valign="top" rowspan="1" colspan="1">61</td><td align="center" valign="top" rowspan="1" colspan="1">64</td><td align="center" valign="top" rowspan="1" colspan="1">69</td><td align="center" valign="top" rowspan="1" colspan="1">76</td><td align="center" valign="top" rowspan="1" colspan="1">193</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Local mean solar time</td><td align="center" valign="top" rowspan="1" colspan="1">12:33:13</td><td align="center" valign="top" rowspan="1" colspan="1">12:33:20</td><td align="center" valign="top" rowspan="1" colspan="1">12:33:21</td><td align="center" valign="top" rowspan="1" colspan="1">12:33:22</td><td align="center" valign="top" rowspan="1" colspan="1">12:33:17</td><td align="center" valign="top" rowspan="1" colspan="1">12:03:57</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Duration (s)</td><td align="center" valign="top" rowspan="1" colspan="1">38</td><td align="center" valign="top" rowspan="1" colspan="1">50</td><td align="center" valign="top" rowspan="1" colspan="1">78</td><td align="center" valign="top" rowspan="1" colspan="1">117</td><td align="center" valign="top" rowspan="1" colspan="1">108</td><td align="center" valign="top" rowspan="1" colspan="1">160</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Altitude (m)</td><td align="center" valign="top" rowspan="1" colspan="1">3</td><td align="center" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">5</td><td align="center" valign="top" rowspan="1" colspan="1">5 (10)</td><td align="center" valign="top" rowspan="1" colspan="1">8</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Traverse (m)</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="center" valign="top" rowspan="1" colspan="1">4</td><td align="center" valign="top" rowspan="1" colspan="1">100</td><td align="center" valign="top" rowspan="1" colspan="1">266</td><td align="center" valign="top" rowspan="1" colspan="1">130</td><td align="center" valign="top" rowspan="1" colspan="1">210</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Distance<xref rid="jgre22083-note-0001" ref-type="table-fn">
+<sup>a</sup>
+</xref> (m)</td><td align="center" valign="top" rowspan="1" colspan="1">63</td><td align="center" valign="top" rowspan="1" colspan="1">63</td><td align="center" valign="top" rowspan="1" colspan="1">64 (63)</td><td align="center" valign="top" rowspan="1" colspan="1">69 (75)</td><td align="center" valign="top" rowspan="1" colspan="1">110</td><td align="center" valign="top" rowspan="1" colspan="1">320 (310)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Zoom<xref rid="jgre22083-note-0002" ref-type="table-fn">
+<sup>b</sup>
+</xref> (mm)</td><td align="center" valign="top" rowspan="1" colspan="1">110, 34</td><td align="center" valign="top" rowspan="1" colspan="1">48, 34</td><td align="center" valign="top" rowspan="1" colspan="1">26, 26</td><td align="center" valign="top" rowspan="1" colspan="1">26, 26</td><td align="center" valign="top" rowspan="1" colspan="1">110, 26</td><td align="center" valign="top" rowspan="1" colspan="1">26, 110</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Rate<xref rid="jgre22083-note-0002" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+<sup>,</sup>
+<xref rid="jgre22083-note-0003" ref-type="table-fn">
+<sup>c</sup>
+</xref> (fps)</td><td align="center" valign="top" rowspan="1" colspan="1">6.3, 6.6</td><td align="center" valign="top" rowspan="1" colspan="1">6.6, 6.6</td><td align="center" valign="top" rowspan="1" colspan="1">6.6, 6.6</td><td align="center" valign="top" rowspan="1" colspan="1">6.7, 6.8</td><td align="center" valign="top" rowspan="1" colspan="1">15.3, 6.8</td><td align="center" valign="top" rowspan="1" colspan="1">6.5, 6.0</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">P<xref rid="jgre22083-note-0004" ref-type="table-fn">
+<sup>d</sup>
+</xref> (Pa)</td><td align="center" valign="top" rowspan="1" colspan="1">748</td><td align="center" valign="top" rowspan="1" colspan="1">749</td><td align="center" valign="top" rowspan="1" colspan="1">746</td><td align="center" valign="top" rowspan="1" colspan="1">748</td><td align="center" valign="top" rowspan="1" colspan="1">745</td><td align="center" valign="top" rowspan="1" colspan="1">698<xref rid="jgre22083-note-0005" ref-type="table-fn">
+<sup>e</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">T<xref rid="jgre22083-note-0004" ref-type="table-fn">
+<sup>d</sup>
+</xref> (K)</td><td align="center" valign="top" rowspan="1" colspan="1">194</td><td align="center" valign="top" rowspan="1" colspan="1">192</td><td align="center" valign="top" rowspan="1" colspan="1">194</td><td align="center" valign="top" rowspan="1" colspan="1">194</td><td align="center" valign="top" rowspan="1" colspan="1">200</td><td align="center" valign="top" rowspan="1" colspan="1">239<xref rid="jgre22083-note-0005" ref-type="table-fn">
+<sup>e</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">ρ</italic>
+<xref rid="jgre22083-note-0004" ref-type="table-fn">
+<sup>d</sup>
+</xref> (g m<sup>−3</sup>)</td><td align="center" valign="top" rowspan="1" colspan="1">20.4</td><td align="center" valign="top" rowspan="1" colspan="1">20.7</td><td align="center" valign="top" rowspan="1" colspan="1">20.4</td><td align="center" valign="top" rowspan="1" colspan="1">20.4</td><td align="center" valign="top" rowspan="1" colspan="1">19.7</td><td align="center" valign="top" rowspan="1" colspan="1">15.5<xref rid="jgre22083-note-0005" ref-type="table-fn">
+<sup>e</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">W<xref rid="jgre22083-note-0004" ref-type="table-fn">
+<sup>d</sup>
+</xref> (m/s)</td><td align="center" valign="top" rowspan="1" colspan="1">7.4</td><td align="center" valign="top" rowspan="1" colspan="1">9.7</td><td align="center" valign="top" rowspan="1" colspan="1">5.3</td><td align="center" valign="top" rowspan="1" colspan="1">1.5</td><td align="center" valign="top" rowspan="1" colspan="1">3.7</td><td align="center" valign="top" rowspan="1" colspan="1">3<xref rid="jgre22083-note-0005" ref-type="table-fn">
+<sup>e</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Direction<xref rid="jgre22083-note-0004" ref-type="table-fn">
+<sup>d</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">65°</td><td align="center" valign="top" rowspan="1" colspan="1">72°</td><td align="center" valign="top" rowspan="1" colspan="1">82°</td><td align="center" valign="top" rowspan="1" colspan="1">47°</td><td align="center" valign="top" rowspan="1" colspan="1">108°</td><td align="center" valign="top" rowspan="1" colspan="1">90°<xref rid="jgre22083-note-0005" ref-type="table-fn">
+<sup>e</sup>
+</xref>
+</td></tr></tbody></table><table-wrap-foot id="jgre22083-ntgp-0001"><fn id="jgre22083-note-0001"><label>
+<sup>a</sup>
+</label><p>Distance from rover to landing site (distance to takeoff if observed and different).</p></fn><fn id="jgre22083-note-0002"><label>
+<sup>b</sup>
+</label><p>Shown for left and right cameras, respectively.</p></fn><fn id="jgre22083-note-0003"><label>
+<sup>c</sup>
+</label><p>Video frames per second.</p></fn><fn id="jgre22083-note-0004"><label>
+<sup>d</sup>
+</label><p>Average of Mars Environmental Dynamics Analyzer (MEDA) pressure, 1.45 m‐height temperature, density, and wind data at the rover site over 10 min centered on flight.</p></fn><fn id="jgre22083-note-0005"><label>
+<sup>e</sup>
+</label><p>Estimated from nearby sols.</p></fn></table-wrap-foot></table-wrap><fig position="float" fig-type="Figure" id="jgre22083-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Flight geometry. Locations for flights (a) 3–5 and (b) 13 are shown for the rover, takeoff, and landing sites in orthorectified mosaics (Fergason et al., <xref rid="jgre22083-bib-0012" ref-type="bibr">2020</xref>) of HiRISE images ESP_045994_1985 and ESP_068360 (McEwen et al., <xref rid="jgre22083-bib-0034" ref-type="bibr">2007</xref>). For flights 1 and 2, the rover was at the F3 location, and the takeoff and landing were indistinguishable from the F3 takeoff position shown.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="JGRE-127-0-g010.jpg"><?image-name JGRE-127-0-g010.jpg?><?image-size 532683?><?image-md5 3b8ba580bdbdd86496d5bb11dc320730?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 2117?><?image-original-width 1064?><?image-scaled-height 1411?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/3b8ba580bdbd/JGRE-127-0-g010.jpg?><?thumb-name JGRE-127-0-g010.gif?><?thumb-size 20905?><?thumb-md5 d1b5dfdc6431d030a4b594737d994149?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 199?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/d1b5dfdc6431/JGRE-127-0-g010.gif?></graphic></fig></sec><sec id="jgre22083-sec-0040"><label>2.2</label><title>Video</title><p>Mastcam‐Z is a multispectral, stereo camera system for documenting the geological and atmospheric conditions around the rover (Bell et al., <xref rid="jgre22083-bib-0007" ref-type="bibr">2021</xref>). Each of the left and right cameras has a zoom lens and could be independently set to 26–110 mm focal length. The resulting resolution is 0.423, 0.212, 0.150, and 0.673 mrad/pixel for the zoom positions of 26, 34, 48, and 110 mm, respectively, that were used for flight video (Hayes et al., <xref rid="jgre22083-bib-0019" ref-type="bibr">2021</xref>). The videos described here were acquired using infrared‐blocking filters that resulted in red, green, and blue images when sampled through the Bayer‐pattern microfilters on the Charge Coupled Device detector (Bell et al., <xref rid="jgre22083-bib-0007" ref-type="bibr">2021</xref>).</p><p>The flight videos were designed for engineering support and were sequenced to maximize the frame rate within the overall system capabilities. Most videos were taken with 1,280 × 720 pixel subframes of the 1,600 × 1,200 pixel array. They were acquired using real‐time group‐of‐picture compression (Joint Photographic Experts Group [JPEG]), such that each data product was a group of 16 consecutive frames compressed to JPEG quality 50. Most videos were much longer than the flights as a precaution against timing errors. Some video frames were deleted on board without downlink after frames that were of interest were transmitted to Earth. All videos were acquired with both eyes: in some cases, different zoom positions were used to acquire both close‐up images of takeoff or landing and wide‐field images to maximize flight coverage; in some cases, the same zooms were used with offset subframes to increase the flight coverage (Figure <xref rid="jgre22083-fig-0003" ref-type="fig">3</xref>). For flight 5 on sol 76, the left eye was set to 110‐mm zoom with a 1,600 × 120 subframe for high‐resolution and ‐speed documentation of the landing at a new and distant site. Each pair of videos was acquired with a fixed aim; the remote‐sensing mast was not used to repoint the cameras because tracking the helicopter was not possible.</p><fig position="float" fig-type="Figure" id="jgre22083-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Video summary. Composite images are shown with a 1%–99% color‐stretched mean‐frame image merged with helicopter positions from all frames. Mastcam‐Z left eye (left) and right eye (right) images are shown for flights on sols (from top) 58, 61, 64, 69, 76, and 193. The ascent and the first half of the flight are shown in teal, while the last half of the flight and the descent are shown in magenta; purple results from the superposition.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="JGRE-127-0-g004.jpg"><?image-name JGRE-127-0-g004.jpg?><?image-size 430776?><?image-md5 614cb067ec107fe8dbd23e5ee3f043f4?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1801?><?image-original-width 1064?><?image-scaled-height 1200?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/614cb067ec10/JGRE-127-0-g004.jpg?><?thumb-name JGRE-127-0-g004.gif?><?thumb-size 15384?><?thumb-md5 00296553a9c2484abd17f38920341497?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 169?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/00296553a9c2/JGRE-127-0-g004.gif?></graphic></fig></sec><sec id="jgre22083-sec-0050"><label>2.3</label><title>Additional Imagery and Meteorology</title><p>Ingenuity carries two cameras, described by Balaram et al. (<xref rid="jgre22083-bib-0005" ref-type="bibr">2018</xref>). One, the Return to Earth Camera (RTE), is a high‐resolution (4,208 × 3,120 pixels), Bayer‐color camera. RTE is a commercial off the shelf (COTS) Sony IMX 214, with a 47° FOV aimed ∼22° below the horizon and was used for occasional images to document the terrain around the helicopter. The nadir‐pointed navigation camera (NAV) is a COTS Omnivision OV7251 with 640 × 480 monochrome pixels and a 133° × 100° FOV.</p><p>The Mars Environmental Dynamics Analyzer (MEDA) is a meteorological suite for measuring pressure, temperature, winds, humidity, and radiative fluxes (Rodriguez‐Manfredi et al., <xref rid="jgre22083-bib-0046" ref-type="bibr">2021</xref>). It recorded data from each sensor at 1‐Hz during and around each flight except for sol 193. Table <xref rid="jgre22083-tbl-0001" ref-type="table">1</xref> shows 10‐min averages for pressure, 1.45‐m height temperature, and winds; wind azimuth follows the meteorological convention of being the back azimuth, the angle east of north from which the wind comes. Wind speed was computed via vector averaging; it was significantly different from scalar averaging of speed only for the slow winds of sol 69. On sol 193, MEDA was in safe mode and not used; estimates in Table <xref rid="jgre22083-tbl-0001" ref-type="table">1</xref> were derived from sols 190 and 194.</p><p>Low‐frequency (84 and 168 Hz) sounds of helicopter flights 4, 5, and 6 were detected by a microphone on the SuperCAM instrument (Maurice et al., <xref rid="jgre22083-bib-0032" ref-type="bibr">2022</xref>). No signatures of transport generated at the distance of the helicopter were detected.</p></sec><sec id="jgre22083-sec-0060"><label>2.4</label><title>Dust Detection</title><p>Dust was visible by inspection in raw video images from some flights. To quantify dust lifting and behavior, images were processed to determine the amount of dust and to produce enhanced images for the study of dust motion. The process was similar to dust devil detection and tracking algorithms (Greeley et al., <xref rid="jgre22083-bib-0016" ref-type="bibr">2006</xref>): it required the creation of a mean frame, removal of that mean frame from individual frames, and determination of optical depth from the mean and difference frames (Figure <xref rid="jgre22083-fig-0004" ref-type="fig">4</xref>). A final step produced colorized images that enhanced the visibility of lifted dust.</p><fig position="float" fig-type="Figure" id="jgre22083-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>An illustration of opacity derivation. Each video frame was compared to an associated mean frame, resulting in a set of difference images that were converted to optical depth maps. Colorized images enhance the visibility of dust with blue light.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="JGRE-127-0-g005.jpg"><?image-name JGRE-127-0-g005.jpg?><?image-size 23378?><?image-md5 643d8784fd9fd6181ddd30259b4f26c2?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 122?><?image-original-width 1064?><?image-scaled-height 81?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/643d8784fd9f/JGRE-127-0-g005.jpg?><?thumb-name JGRE-127-0-g005.gif?><?thumb-size 3915?><?thumb-md5 6bc69b4cbad47bad1d2001021fb32fbb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 23?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/6bc69b4cbad4/JGRE-127-0-g005.gif?></graphic></fig><p>For each video, mean frames were initially created from all available video frames; after initial identification of dust lifting, new mean frames were created from dust‐free frames. Such frames were created for times when the helicopter was out of frame when possible and were always created for pretakeoff and postlanding. For each frame, the most appropriate mean frame was used for comparison and differencing.</p><p>Optical depth was determined via a low‐opacity approximation of the radiative transfer equation,
+<disp-formula id="jgre22083-disp-0001">
+<label>(1)</label>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mspace width="0.25em"/><mml:msup><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>τ</mml:mi></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msub><mml:mi>J</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mspace width="0.25em"/><mml:mo>∗</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:msup><mml:mi mathvariant="normal">e</mml:mi><mml:mrow><mml:mo>−</mml:mo><mml:mi>τ</mml:mi></mml:mrow></mml:msup></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>In Equation <xref rid="jgre22083-disp-0001" ref-type="disp-formula">1</xref>, <italic toggle="yes">I</italic> is the observed radiance for each pixel and time step, <italic toggle="yes">I</italic>
+<sub>0</sub> is the mean‐frame radiance for each pixel, <italic toggle="yes">J</italic>
+<sub>0</sub> is the source function convolved with dust scattering properties, and <italic toggle="yes">τ</italic> is the optical depth for each pixel and time step. In principle, <italic toggle="yes">J</italic>
+<sub>0</sub> can be determined by analysis of high‐contrast areas of the image with assumptions of locally uniform opacity. In practice, <italic toggle="yes">J</italic>
+<sub>0</sub> is nearly equivalent to the nearby sky radiance (Moores et al., <xref rid="jgre22083-bib-0036" ref-type="bibr">2015</xref>), which was used here. Optical depths were derived only for the green channel due to the impact of chroma noise (in the JPEG quality 50 images) on the red and blue channels. Optical depths were typically of the order of hundredths but averaged ∼0.1 for the sol‐64 dust cloud. Colorization was also done via an adaptation of the radiative transfer equation. The mean frame was converted to an enhanced frame by (a) multiplicatively increasing <italic toggle="yes">τ</italic>, and (b) replacing <italic toggle="yes">J</italic>
+<sub>0</sub> with a cyan light source, where (a) and (b) were done for each of the color channels.</p><p>Estimated dust mass was retrieved from each image by (a) determining the area over which there was an observable dust cloud and no extraneous variability (noise or dust devil); (b) summing optical depth over all pixels in the area; and (c) converting the summed optical depth into dust mass. Because the optical depth is a dimensionless optical cross‐section per unit geometric cross‐section, it includes particle density and the cross‐sectional area and extinction efficiency averaged over the particle size distribution (PSD). For the purposes of the present calculation, a PSD representative of atmospheric dust (mean radius of 1.4 μm and mean variance of 1/3) was used, for which it was determined that the particle volume was 0.8 × 10<sup>−6</sup> m<sup>3</sup>/m<sup>2</sup> per unit opacity. For an assumed slightly porous density of 2,000 kg/m<sup>3</sup>, we obtained 1.6 g/m<sup>2</sup> per unit opacity. Intact, pseudo‐spherical aggregates (e.g., 250‐μm radius and 380 kg/m<sup>3</sup> density) would result in an order of magnitude larger estimate for mass; however, the expectation of disaggregation during entrainment (whether by a violent saltation event or due to wind shear directly destroying the aggregates) led us to choose suspended atmospheric dust, rather than aggregates as the appropriate analog for lifted dust.</p></sec></sec><sec id="jgre22083-sec-0070"><label>3</label><title>Results</title><sec id="jgre22083-sec-0080"><label>3.1</label><title>Dust Amount</title><p>All movies that showed sufficient area around the lander and included the sky were processed to determine opacity. Figure <xref rid="jgre22083-fig-0005" ref-type="fig">5</xref> shows examples of the resulting enhanced images near each observed landing. Note that the sol‐76 example includes a dust devil in the background. The summed opacity, pixel FOV, and distance were used to determine the total suspended mass over time (Figure <xref rid="jgre22083-fig-0006" ref-type="fig">6</xref>). The absolute value of the suspended mass is subject to factors of several uncertainty due to the specific choice of atmospheric dust parameters; relative changes are more accurate as long as the dust stays in the frame and at the same distance. In practice, the dust does neither, and the suspended dust measurement always declined after initial lifting due to a combination of motion out of the frame and increasing distance (since projected pixel area scales with the square of distance).</p><fig position="float" fig-type="Figure" id="jgre22083-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Dust clouds at and near landing, with colorization. Sol number of flights is indicated for each image.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="JGRE-127-0-g009.jpg"><?image-name JGRE-127-0-g009.jpg?><?image-size 223786?><?image-md5 50b0e807f83033725179554d5bc05942?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 900?><?image-original-width 1064?><?image-scaled-height 600?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/50b0e807f830/JGRE-127-0-g009.jpg?><?thumb-name JGRE-127-0-g009.gif?><?thumb-size 9127?><?thumb-md5 cbdd68154842ca945cfafafac41aa7fb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 85?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/cbdd68154842/JGRE-127-0-g009.gif?></graphic></fig><fig position="float" fig-type="Figure" id="jgre22083-fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>Suspended dust mass over time. Vertical lines mark the start of constant‐speed descent (solid), visually detected dust lifting under the helicopter (dotted), and touchdown (dashed). The curves for sols 58, 61, 76, and 193 were obtained with the right eye, sol 69 with the left eye, and sol 64 with each eye (right eye dashed). From sol 64, there were times with the helicopter out of the field of view that were not measured.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="JGRE-127-0-g006.jpg"><?image-name JGRE-127-0-g006.jpg?><?image-size 100065?><?image-md5 8ae8a835b087eeccbd0892f27ef8e092?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1567?><?image-original-width 1064?><?image-scaled-height 1044?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/8ae8a835b087/JGRE-127-0-g006.jpg?><?thumb-name JGRE-127-0-g006.gif?><?thumb-size 5074?><?thumb-md5 8cddfec741b94c704ec0eab2c903ecc2?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 147?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/8cddfec741b9/JGRE-127-0-g006.gif?></graphic></fig><p>Takeoff is affected by bringing the rotors with the blade set at low incidence angles (low thrust) up to operating speed (2,537 rpm) and then increasing the collective pitch to near‐instantaneously increase the thrust. The thrust:weight (T:W) ratio initially exceeds one to leave the ground, then the helicopter ascends at ∼1 m/s. For example, data from flight 1 (Lorenz, <xref rid="jgre22083-bib-0030" ref-type="bibr">2022</xref>, Figure 6.9) show the collective angle, and thus thrust, had a brief (&lt;1 s) pulse about 30% higher than hover values in order to break cleanly away from the surface, and then a couple of seconds at a thrust ∼20% higher than hover in order to perform the commanded ascent (see also Grip et al., <xref rid="jgre22083-bib-0017" ref-type="bibr">2022</xref>). Generally, lifted dust was seen on the last frame with the helicopter on the surface, and dust lifting continued for ∼3 s. All flights except 2 and 13 showed significant dust lifting while at the hover/transverse altitude. Descent involved rapid downward acceleration followed by a constant velocity (T:W ∼1) descent to touchdown.</p></sec><sec id="jgre22083-sec-0090"><label>3.2</label><title>Flight Narrative</title><sec id="jgre22083-sec-0100"><label>3.2.1</label><title>Sol 58</title><p>Flight 1 caused the most observed dust lifting on takeoff, ∼1.7 g. About 12 s into the flight, the helicopter turned in place and adjusted the thrust vector to respond to the wind and maintain the station. This caused dust lifting adjacent to the area immediately below the vehicle. At 29 s, the helicopter responded to a wind, causing a new burst of off‐center dust lifting. Initial winds from the east‐southeast carried the takeoff dust cloud to the right (rover‐measured winds were from ENE). At landing, easterly winds carried dust away and to the right. Notably, the preflight and postflight mean‐frame images differed in that a darkened streak appeared along the trajectory of the takeoff dust cloud; dust removal continued downwind of the helicopter and formed a dust‐cleaned track (see Supporting Information <xref rid="jgre22083-sup-0001" ref-type="supplementary-material">S1</xref>).</p></sec><sec id="jgre22083-sec-0110"><label>3.2.2</label><title>Sol 61</title><p>Flight 2 had a large burst of dust lifting on takeoff and less dust lifting on landing at the same location. There was no observed dust lifting during the hover or the ∼2 m out‐and‐back traverse. Based on the dust cloud motion, winds were away (E) and to the left (S), consistent with rover winds from the ENE. No track was observed. Incidentally, a vortex was detected at the rover 63 m away, 5 min before takeoff.</p></sec><sec id="jgre22083-sec-0120"><label>3.2.3</label><title>Sol 64</title><p>Flight 3 had comparable dust lifting on takeoff and landing as seen by both eyes. The small difference in the observed landing profiles (Figure <xref rid="jgre22083-fig-0006" ref-type="fig">6</xref>) was due to the dust moving out of frame sooner for the left eye; otherwise, the profiles were encouragingly similar. The novel aspects of flight 3 were the first traverse out of frame, and the first dust lifting along a traverse. A dust removal track was observed under the flight path. Winds measured at the rover were from the east, while the observed motion was east and north on takeoff and east and south on landing. A vortex passed the rover while moving toward the helicopter ∼20 s postflight, with an observed 1 Pa pressure drop, 7–13 m/s counterclockwise winds, and no obvious sign of dust (c.f. Newman, Hueso, et al., <xref rid="jgre22083-bib-0041" ref-type="bibr">2022</xref>).</p></sec><sec id="jgre22083-sec-0130"><label>3.2.4</label><title>Sol 69</title><p>Flight 4 had no observed dust cloud along the outbound traverse. Two rover‐Navcam images taken while the helicopter was out of the Mastcam‐Z field of view also showed no dust lifting. When the helicopter reappeared in the frame, it was within a recirculating dust cloud that moved with the helicopter at ∼3 m/s (to the right within the frame). During landing, the helicopter continued to circulate dust from this cloud. After landing, the dust cloud departed at ∼1 m/s to the north, although the takeoff dust cloud went west, and a distant dust devil moved north; rover‐measured winds were slow and varied, mostly from the northeast. A dust removal track was observed under the flight path.</p><p>Note that while the average wind over 10 min around Flight #4 was quite low, there were strong turbulent gusts reaching ∼10 m/s at the beginning of the flight. These gusts caused appreciable low‐frequency acoustic noise (see Extended Data Figure <xref rid="jgre22083-fig-0001" ref-type="fig">1b</xref> of Maurice et al., <xref rid="jgre22083-bib-0032" ref-type="bibr">2022</xref>).</p></sec><sec id="jgre22083-sec-0140"><label>3.2.5</label><title>Sol 76</title><p>Takeoff was not observed. After the helicopter came in the frame, dust was lifted along the traverse. The cloud largely dissipated when the helicopter ascended to 10 m, and a smaller dust cloud was raised on landing. Rover‐measured winds were from the ESE, several distant dust devils moved to the right (NW to W), and the dust clouds lifted by the helicopter departed away and left (to S).</p></sec><sec id="jgre22083-sec-0150"><label>3.2.6</label><title>Sol 193</title><p>Dust clouds were raised only on takeoff and landing. The dust clouds moved away and slightly to the right, consistent with easterly winds at the rover.</p></sec></sec></sec><sec id="jgre22083-sec-0160"><label>4</label><title>Discussion</title><sec id="jgre22083-sec-0170"><label>4.1</label><title>Dust Lifting During Landing</title><p>To assess the winds associated with the observed dust lifting, we relied on the helicopter brownout model of Rabinovitch et al. (<xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>), which was developed early in the Ingenuity development cycle to estimate the expected severity of sediment mobilization during landing with a constant descent velocity. The brownout model of Rabinovitch et al. (<xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>) uses several simplifying assumptions that allow the friction velocity on the Martian surface (generated by the high‐speed helicopter rotor wash flow interacting with the surface) to be analytically predicted as a function of the helicopter altitude, helicopter operating parameters, and Martian environmental conditions. The brownout model includes the bulk rotor‐driven wind‐field and the advection of tip‐vortices shed by the rotors. While a computational fluid dynamics (CFD) model would allow a fuller investigation that was out of the scope of this effort. Figure <xref rid="jgre22083-fig-0007" ref-type="fig">7</xref> shows the predicted friction velocity immediately under the helicopter (at one rotor radius) using the Rabinovitch et al. (<xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>) analytical framework with input parameters of atmospheric density = 0.020 kg/m<sup>3</sup>, spin rate = 2,800 rpm, and T:W ∼1 conditions. We did not model takeoff due to expected large departures from equilibrium, high T:W, and the difficulty in determining when dust lifting ceased. Furthermore, the initiation of dust lifting was easier to identify during landing compared to termination of dust lifting during takeoff. To gain confidence in the analytical framework, model predictions were compared to experiments with an analog helicopter on Earth (see Supporting Information <xref rid="jgre22083-sup-0001" ref-type="supplementary-material">S1</xref>) and showed the predictions to be accurate to within a factor of 2 with the model overpredicting wind speed.</p><fig position="float" fig-type="Figure" id="jgre22083-fig-0007" orientation="portrait"><label>Figure 7</label><caption><p>Friction velocity and helicopter altitude. The Rabinovitch et al. (<xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>) model, adapted for atmospheric density of 0.020 kg/m<sup>3</sup>, 2,800 rpm, and Thrust:Weight = 1, is shown as a red dashed line. Horizontal lines show representative thresholds for a conventional model (Shao &amp; Lu, <xref rid="jgre22083-bib-0047" ref-type="bibr">2000</xref>) and a low‐pressure model (Swann et al., <xref rid="jgre22083-bib-0051" ref-type="bibr">2020</xref>); the calculated thresholds are for mobilization of sand (200 diameter, 3,200) and aggregates (500 μm, 380 kg/m<sup>3</sup>). Vertical solid lines show representative altitudes at which dust lifting was seen during landing and traverse; dotted lines are extended upward to 2x the model prediction.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="JGRE-127-0-g007.jpg"><?image-name JGRE-127-0-g007.jpg?><?image-size 48703?><?image-md5 4ce219dd948c9306b40f248820dce232?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 792?><?image-original-width 1064?><?image-scaled-height 528?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/4ce219dd948c/JGRE-127-0-g007.jpg?><?thumb-name JGRE-127-0-g007.gif?><?thumb-size 2918?><?thumb-md5 0fd23cbe3e5d2a5fcb62e857e7cf2f7c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 107?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/0fd23cbe3e5d/JGRE-127-0-g007.gif?></graphic></fig><p>To determine the friction velocity at which dust lifting initiated, we initially inspected the images that first showed lifted dust and measured the altitude from the midpoint of the rotors to the surface at touchdown (in flight this was ∼30 cm larger than the commanded cruise altitude). To refine our visual estimate of the altitude at which dust lifting initiated, and determine uncertainty therein, we estimated the lifted dust over time. For this, we assumed dust lifting to be 0 when the Rabinovitch et al. (<xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>) predicted <italic toggle="yes">u</italic>* to be below the threshold, and otherwise proportional to (<italic toggle="yes">u</italic>* − <italic toggle="yes">u</italic>*<sub>
+<italic toggle="yes">t</italic>
+</sub>)·<italic toggle="yes">u</italic>*<sup>
+<italic toggle="yes">2</italic>
+</sup>, where <italic toggle="yes">u</italic>* was the altitude‐dependent prediction and <italic toggle="yes">u</italic>*<sub>
+<italic toggle="yes">t</italic>
+</sub> was the desired threshold friction velocity (e.g., Kawamura, <xref rid="jgre22083-bib-0023" ref-type="bibr">1951</xref>). The new calculation also allowed for loss over time, parameterized as a single decay rate but representing dust that drifted out of the frame, that drifted away, and that sedimented to the surface. The results included a fit <italic toggle="yes">u</italic>*<sub>
+<italic toggle="yes">t</italic>
+</sub> that was dependent on the Rabinovitch et al. (<xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>) predictions; robust altitude determination (i.e., one that would have resulted from any reasonable model of friction velocity vs. altitude); and a dust loss rate for which we expect geometric effects to dominate the sedimentation term.</p><p>Figure <xref rid="jgre22083-fig-0008" ref-type="fig">8</xref> shows the dust within the landing area as the helicopter descended for all six flights, selected based on pixels that contained the dust cloud at some point near the landing. Clusters of points at high altitude represent times immediately before the descent, while those at low altitude show the changing dust at near‐constant altitude (the helicopter tended to bounce slightly as it contacted the surface at 1 m/s). The threshold velocity was fit for each case; for illustration purposes, Figure <xref rid="jgre22083-fig-0008" ref-type="fig">8</xref> shows fits for <italic toggle="yes">u</italic>*<sub>
+<italic toggle="yes">t</italic>
+</sub> = 0.8, 0.55, and 0.39 m/s. Table <xref rid="jgre22083-tbl-0002" ref-type="table">2</xref> shows each individual solution along with the corresponding altitude.</p><fig position="float" fig-type="Figure" id="jgre22083-fig-0008" orientation="portrait"><label>Figure 8</label><caption><p>Lifted dust mass versus altitude for landing dust cloud after removing background dust. Colored curves are best‐fit models for <italic toggle="yes">u</italic>*<sub>
+<italic toggle="yes">t</italic>
+</sub> = 0.8 (purple), 0.55 (brown), and 0.39 (teal) m/s.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="JGRE-127-0-g003.jpg"><?image-name JGRE-127-0-g003.jpg?><?image-size 132251?><?image-md5 3ea1568f5b65eec67c55e780caf9286c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1567?><?image-original-width 1064?><?image-scaled-height 1044?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/3ea1568f5b65/JGRE-127-0-g003.jpg?><?thumb-name JGRE-127-0-g003.gif?><?thumb-size 4622?><?thumb-md5 b1b53d6114d9cd944297967eaffddf3c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 147?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/b1b53d6114d9/JGRE-127-0-g003.gif?></graphic></fig><table-wrap position="float" id="jgre22083-tbl-0002" content-type="Table" orientation="portrait"><label>Table 2</label><caption><p>Dust Mobilization Observations</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Flight</th><th align="center" valign="bottom" rowspan="1" colspan="1">1</th><th align="center" valign="bottom" rowspan="1" colspan="1">2</th><th align="center" valign="bottom" rowspan="1" colspan="1">3</th><th align="center" valign="bottom" rowspan="1" colspan="1">4</th><th align="center" valign="bottom" rowspan="1" colspan="1">5</th><th align="center" valign="bottom" rowspan="1" colspan="1">13</th></tr></thead><tbody valign="top"><tr><td colspan="7" align="left" valign="top" rowspan="1">Takeoff</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Plume radius (m), t/o+2s</td><td align="center" valign="top" rowspan="1" colspan="1">6.1</td><td align="center" valign="top" rowspan="1" colspan="1">6.1</td><td align="center" valign="top" rowspan="1" colspan="1">5.4</td><td align="center" valign="top" rowspan="1" colspan="1">&gt;7.4</td><td align="center" valign="top" rowspan="1" colspan="1">n/a</td><td align="center" valign="top" rowspan="1" colspan="1">&gt;4.6</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Plume height t/o+2s</td><td align="center" valign="top" rowspan="1" colspan="1">2.1</td><td align="center" valign="top" rowspan="1" colspan="1">2.1</td><td align="center" valign="top" rowspan="1" colspan="1">2.1</td><td align="center" valign="top" rowspan="1" colspan="1">2.4</td><td align="center" valign="top" rowspan="1" colspan="1">n/a</td><td align="center" valign="top" rowspan="1" colspan="1">1.8</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">M<sub>dust</sub> (g), t/o+2s</td><td align="center" valign="top" rowspan="1" colspan="1">1.65</td><td align="center" valign="top" rowspan="1" colspan="1">1.19</td><td align="center" valign="top" rowspan="1" colspan="1">0.60 (L), 0.74 (R)</td><td align="center" valign="top" rowspan="1" colspan="1">0.50</td><td align="center" valign="top" rowspan="1" colspan="1">n/a</td><td align="center" valign="top" rowspan="1" colspan="1">0.4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">U (m/s)</td><td align="center" valign="top" rowspan="1" colspan="1">4.1</td><td align="center" valign="top" rowspan="1" colspan="1">4.1</td><td align="center" valign="top" rowspan="1" colspan="1">5.3</td><td align="center" valign="top" rowspan="1" colspan="1">6.0</td><td align="center" valign="top" rowspan="1" colspan="1">n/a</td><td align="center" valign="top" rowspan="1" colspan="1">4.6</td></tr><tr><td colspan="7" align="left" valign="top" rowspan="1">Landing</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Plume radius (m)</td><td align="center" valign="top" rowspan="1" colspan="1">4.7</td><td align="center" valign="top" rowspan="1" colspan="1">5.7</td><td align="center" valign="top" rowspan="1" colspan="1">4.2</td><td align="center" valign="top" rowspan="1" colspan="1">6.3</td><td align="center" valign="top" rowspan="1" colspan="1">n/a</td><td align="center" valign="top" rowspan="1" colspan="1">3.9</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Plume height (m)</td><td align="center" valign="top" rowspan="1" colspan="1">2.6</td><td align="center" valign="top" rowspan="1" colspan="1">2.5</td><td align="center" valign="top" rowspan="1" colspan="1">3.4</td><td align="center" valign="top" rowspan="1" colspan="1">3.2</td><td align="center" valign="top" rowspan="1" colspan="1">n/a</td><td align="center" valign="top" rowspan="1" colspan="1">0.7</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">M<sub>dust</sub> (g)</td><td align="center" valign="top" rowspan="1" colspan="1">1.13</td><td align="center" valign="top" rowspan="1" colspan="1">0.81</td><td align="center" valign="top" rowspan="1" colspan="1">0.70, 0.59</td><td align="center" valign="top" rowspan="1" colspan="1">1.99</td><td align="center" valign="top" rowspan="1" colspan="1">0.3</td><td align="center" valign="top" rowspan="1" colspan="1">0.42</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Z<sub>lift</sub> (m)<xref rid="jgre22083-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">2.32 ± 0.24</td><td align="center" valign="top" rowspan="1" colspan="1">3.58 ± 0.24</td><td align="center" valign="top" rowspan="1" colspan="1">3.47 ± 0.22 (L) 3.06 ± 0.32 (R)</td><td align="center" valign="top" rowspan="1" colspan="1">3.6 ± 0.1</td><td align="center" valign="top" rowspan="1" colspan="1">&gt;1.4</td><td align="center" valign="top" rowspan="1" colspan="1">2.8<sup>−0.7</sup>/<sub>+1.2</sub>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">u</italic>*<sub>
+<italic toggle="yes">t</italic>
+</sub> (m/s)<xref rid="jgre22083-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="center" valign="top" rowspan="1" colspan="1">0.54 ± 0.03</td><td align="center" valign="top" rowspan="1" colspan="1">0.38 ± 0.02</td><td align="center" valign="top" rowspan="1" colspan="1">0.39 ± 0.02 (L) 0.43 ± 0.04 (R)</td><td align="center" valign="top" rowspan="1" colspan="1">0.38 ± 0.01</td><td align="center" valign="top" rowspan="1" colspan="1">&lt;0.8</td><td align="center" valign="top" rowspan="1" colspan="1">0.56 ± 0.14</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Shear stress <italic toggle="yes">τ</italic> (Pa)</td><td align="center" valign="top" rowspan="1" colspan="1">0.006</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td><td align="center" valign="top" rowspan="1" colspan="1">0.003 (L) 0.003 (R)</td><td align="center" valign="top" rowspan="1" colspan="1">0.003</td><td align="center" valign="top" rowspan="1" colspan="1">&lt;0.013</td><td align="center" valign="top" rowspan="1" colspan="1">0.005</td></tr></tbody></table><table-wrap-foot id="jgre22083-ntgp-0002"><fn id="jgre22083-note-0006"><label>
+<sup>a</sup>
+</label><p>Uncertainties refer only to the model parameter estimation and do not include the generally more significant factor of ∼2 from model validation.</p></fn></table-wrap-foot></table-wrap><p>The modeled winds and observed altitudes require some dust lifting by mobilization and destruction of aggregates. Dust lifting on landing always occurred at altitudes comparable to or higher than the highest altitude for which sand saltation would be expected, as shown by the comparison of model winds and the low‐pressure sand saltation model of Swann et al. (<xref rid="jgre22083-bib-0051" ref-type="bibr">2020</xref>) in Figure <xref rid="jgre22083-fig-0007" ref-type="fig">7</xref>. The first four landings show dust lifting at friction velocities below the threshold for sand mobilization but near or above that for low‐density aggregate analogs (Merrison et al., <xref rid="jgre22083-bib-0035" ref-type="bibr">2007</xref>).</p><p>Analysis of dust within an even smaller region immediately around the landing site produced similar results for all but flight 4 (see Supporting Information <xref rid="jgre22083-sup-0001" ref-type="supplementary-material">S1</xref>). For flight 4, the initiation of dust lifting under the helicopter was not visually distinguishable from the recirculating cloud, and the fit seemed influenced by spatial variations within the cloud that existed before descent. Thus, while the inflection in total dust amount over time was consistent with data from sols 61 and 64, the fit was judged less reliable.</p><p>A notable feature of the dust lifting shown in Figure <xref rid="jgre22083-fig-0008" ref-type="fig">8</xref> is that it did not turn sharply up as the helicopter approached the touchdown. In the Rabinovitch et al. (<xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>) model, <italic toggle="yes">u</italic>* scales with ∼<italic toggle="yes">h</italic>
+<sup>−0.8</sup> where <italic toggle="yes">h</italic> is the rotor height, and the drag force on particles scales as <italic toggle="yes">u</italic>*<sup>2</sup> (Greeley &amp; Iversen, <xref rid="jgre22083-bib-0015" ref-type="bibr">1985</xref>).</p></sec><sec id="jgre22083-sec-0180"><label>4.2</label><title>Dust Lifting During Takeoff</title><p>Table <xref rid="jgre22083-tbl-0002" ref-type="table">2</xref> also reports the size of the dust clouds 2 s after liftoff and at touchdown and a measurement of dust motion. In the first frame with visible lifted dust, the diameter of the dust outline along the surface was measured. The size was measured in succeeding time steps. The rate of expansion of the dust lifting front in Table <xref rid="jgre22083-tbl-0002" ref-type="table">2</xref> corresponds to the rate for the first two time steps; the expansion of the dust cloud slowed from frame to frame. The initial expansion was 4–6 m/s within the bottom ∼5 cm of the atmosphere. We note that dust lifting in winds of those speeds is consistent with the landing measurements for surface roughness values of order 1 mm; however, they are only consistent with the absence of dust lifting for 1.5‐m winds &lt;15 m/s (Newman, Hueso, et al., <xref rid="jgre22083-bib-0041" ref-type="bibr">2022</xref>) for surface roughness of 1 cm or greater. The actual operations areas (Figure <xref rid="jgre22083-fig-0009" ref-type="fig">9</xref>) show terrain consistent topography that is rough at mm‐scale (e.g., coarse sand), cm‐scale (pebbles), and larger scale (rocks) in varying mixtures. For dust devils, sparse obstacles can result in an optimal roughness that results in high sediment flux compared to sand alone or to high density of cm‐scale roughness (Neakrase &amp; Greeley, <xref rid="jgre22083-bib-0039" ref-type="bibr">2010</xref>). We note that flights in such terrain may implicitly result from choosing airfields with a low density of obstacles in an environment where zero‐density of obstacles is not available. The Rabinovitch et al. (<xref rid="jgre22083-bib-0042" ref-type="bibr">2021</xref>) model does not include the effects of varying the density of different roughness scales, which may be of interest in future experimental CFD work.</p><fig position="float" fig-type="Figure" id="jgre22083-fig-0009" orientation="portrait"><label>Figure 9</label><caption><p>Landing site characteristics in Return to Earth Camera images: (a) sol‐46 image prior to flight 1; (b) sol‐214 image from flight‐13 landing site; (c) sol 64 image from the return traverse, showing landing sites 1–4 and disturbed terrain; (d) sol‐76 image with nadir‐pointed navigation camera inset showing flight‐5 landing site.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-17" orientation="portrait" xlink:href="JGRE-127-0-g001.jpg"><?image-name JGRE-127-0-g001.jpg?><?image-size 164368?><?image-md5 b70d4b3c9ebf7b60bfa5771dfc510bee?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 792?><?image-original-width 1064?><?image-scaled-height 528?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/b70d4b3c9ebf/JGRE-127-0-g001.jpg?><?thumb-name JGRE-127-0-g001.gif?><?thumb-size 8909?><?thumb-md5 1fde1f7962bce8c61d3762afef07ee41?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 107?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/1fde1f7962bc/JGRE-127-0-g001.gif?></graphic></fig><p>Track formation from the removal of bright dust results in surface darkening (Charalambous et al., <xref rid="jgre22083-bib-0010" ref-type="bibr">2021</xref>). This was seen under the helicopter's path for two traverses. Within recirculating dust clouds traveling with the helicopter, dust lifting rates were difficult to measure during the traverses. Dust removal may have been as high as 0.01–0.1 g/m<sup>2</sup>, and the resulting contrast (in a heavily foreshortened view) was 2%–3% darker for flight 3% and 3%–4% darker for flight 4, similar to typical 2.5% drops for dust devil tracks (Reiss et al., <xref rid="jgre22083-bib-0043" ref-type="bibr">2016</xref>). Since a monolayer of 3‐μm dust would have a mass that is orders of magnitude less, either the dust removal was lower (e.g., spread over a larger area) or the contrast was low due to substantial remaining dust. Notably, one track, on flight 1, did not correlate with the helicopter's position and instead moved downwind from the ascent/descent site. This may have been a saltation cluster, indicating that saltation occurred at least during takeoff when <italic toggle="yes">u</italic>* may have been ∼2 m/s and then continued downwind, within lower wind speeds.</p></sec><sec id="jgre22083-sec-0190"><label>4.3</label><title>Dust Lifting During Traverses</title><p>Dust lifting was seen on 4 of 5 traverses (among those that exceeded 2 m length) at cruising altitude of 5 m AGL (5.1–5.7 m rotor height). One traverse at 5 m and both at 8 m had no observed lifting. For flight 3 outbound and inbound and flights 4 and 5 inbound, the model‐predicted <italic toggle="yes">u</italic>* was 0.26–0.29 m/s.</p><p>While the landing sites (Figure <xref rid="jgre22083-fig-0009" ref-type="fig">9</xref>) were selected based on smooth surfaces and other enabling characteristics, the traverses included more diversity of terrain. We note that much terrain that was overflown did not produce dust lifting; heterogeneity of characteristics such as dust availability and roughness resulted in heterogeneity of lifting outcomes. The flight‐3 lifting was seen while the helicopter was over tracks that the rover had made (see bottom of Figure <xref rid="jgre22083-fig-0009" ref-type="fig">9c</xref>), while the other events were over terrain that was undisturbed or had been flown over from 5‐m AGL.</p><p>Dust lifting on traverses requires mobilization and destruction of aggregates, as sand mobilization thresholds are not approached even if the model underpredicts by a factor of 2. Lifting occurs above the expected altitude for mobilization of aggregates (Figure <xref rid="jgre22083-fig-0007" ref-type="fig">7</xref>). A possible explanation is that some aggregates are not compact spheres, as tested by Merrison et al. (<xref rid="jgre22083-bib-0035" ref-type="bibr">2007</xref>), and filamentary aggregates may be more easily destroyed when they intrude into winds.</p></sec><sec id="jgre22083-sec-0200"><label>4.4</label><title>Implications for Threshold Velocity and Dust Lifting Mechanisms</title><p>Although there was only a small sample of observed dust lifting conditions, several observations are important. First, flights 5 and 13 were the only landings in undisturbed terrain. They had <italic toggle="yes">u</italic>* ∼0.6–0.8 m/s, or wind stress <italic toggle="yes">τ</italic> ∼5–13 mPa. Second, flight 1 exhausted its dust source from 3.3‐m height  but found a new source at ∼6 mPa during descent. Third, flights 1–3 all landed in disturbed terrain—not just the rover tracks visible in Figure <xref rid="jgre22083-fig-0009" ref-type="fig">9</xref> but also the effects of taking off from the same site. They had <italic toggle="yes">u</italic>* ∼0.4–0.5 m/s or surface shear stress ∼3–6 mPa. Fourth, some areas had dust lifting at <italic toggle="yes">u</italic>* ∼0.26–0.29 m/s or wind stress ∼1.4–1.7 mPa.</p><p>These and earlier observations constrain dust lifting mechanisms in several ways. First, multiple mechanisms (or a significant variation in conditions) must have been relevant. Dust lifting occurred with 4x less wind stress during parts of traverses than at any landing site. Dust lifting stalled and then restarted during the first landing. Second, saltation likely played some role, at least in high background winds. Specifically, the flight‐1 takeoff appeared to initiate a saltation cluster that propagated downwind. Third, dust lifting was easier (had a lower threshold) in disturbed material (such as rover tracks or earlier flight paths) than in undisturbed material. This is unsurprising and consistent with observations of more sediment motion in disturbed versus undisturbed material in a dust storm (Lemmon et al., <xref rid="jgre22083-bib-0028" ref-type="bibr">2022</xref>). Fourth, sand mobilization cannot explain all dust lifting. The predicted friction velocity for dust lifting on landing in undisturbed terrain was similar to predictions for sand mobilization at low pressure; and for undisturbed terrain, the predicted friction velocity was within a factor of two of mobilization thresholds. Along traverses, dust lifting occurred at &lt;0.3 m/s and cannot be explained with sand mobilization. It is likely that some places along the traverse had a high dust content, and in those cases the dust formed a large mix of compact (Merrison et al., <xref rid="jgre22083-bib-0035" ref-type="bibr">2007</xref>) and filamentary (Sullivan et al., <xref rid="jgre22083-bib-0048" ref-type="bibr">2008</xref>) aggregates. This may reconcile observations of extensive lifted dust in dust devils and gusts with low abundance of sediment mobilizing events at the rover (Newman, Hueso, et al., <xref rid="jgre22083-bib-0041" ref-type="bibr">2022</xref>).</p><p>Note that wind flow influences the dust mobilization and distribution in ways we did not model. Greeley et al. (<xref rid="jgre22083-bib-0014" ref-type="bibr">2003</xref>) showed that the vortical motion within dust devils enhanced dust lifting compared to straight‐line winds. The brownout model includes tip vortices but only via the increased wind speed; pressure effects may contribute to enhanced lifting. Further, the brownout model does not include the vorticity effects of counterrotating blades. Future CFD simulations which can resolve the complex rotor‐wake/ground interactions may allow more specific sediment threshold mobilization constraints to be determined from these observations.</p></sec><sec id="jgre22083-sec-0210"><label>4.5</label><title>Dynamical Behavior of Lifted Dust</title><p>When dust clouds formed, they expanded initially in all directions regardless of wind direction and speed. Within 2–3 s, the clouds elongated downwind with diffuse boundaries, and a curved and distinct boundary (front) was visible on the windward side. Pulses of lifted dust at takeoff and landing drifted away and became diffuse within seconds. Figure <xref rid="jgre22083-fig-0010" ref-type="fig">10</xref> shows examples of dust cloud motions. (See also Movies <xref rid="jgre22083-sup-0002" ref-type="supplementary-material">S1</xref>, <xref rid="jgre22083-sup-0003" ref-type="supplementary-material">S2</xref>, <xref rid="jgre22083-sup-0004" ref-type="supplementary-material">S3</xref>, <xref rid="jgre22083-sup-0005" ref-type="supplementary-material">S4</xref>, <xref rid="jgre22083-sup-0006" ref-type="supplementary-material">S5</xref>, <xref rid="jgre22083-sup-0007" ref-type="supplementary-material">S6</xref>, <xref rid="jgre22083-sup-0008" ref-type="supplementary-material">S7</xref>, <xref rid="jgre22083-sup-0009" ref-type="supplementary-material">S8</xref>, <xref rid="jgre22083-sup-0010" ref-type="supplementary-material">S9</xref>, <xref rid="jgre22083-sup-0011" ref-type="supplementary-material">S10</xref>, <xref rid="jgre22083-sup-0012" ref-type="supplementary-material">S11</xref>, and <xref rid="jgre22083-sup-0013" ref-type="supplementary-material">S12</xref>).</p><fig position="float" fig-type="Figure" id="jgre22083-fig-0010" orientation="portrait"><label>Figure 10</label><caption><p>Dust clouds during the traverse. Top: sol‐64 outbound flight and return flight (from left); Middle: sol‐69 traverse and landing; Bottom: sol‐58 hover and sol‐76 traverse. Orange dashed arrows represent winds as seen from dust cloud advection. Yellow solid curves represent internal dust cloud motion. Circles show Ingenuity position.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-19" orientation="portrait" xlink:href="JGRE-127-0-g008.jpg"><?image-name JGRE-127-0-g008.jpg?><?image-size 212910?><?image-md5 4d9ed80083ef8e05cd04973bfa755367?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 901?><?image-original-width 1064?><?image-scaled-height 600?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/134e/10078181/4d9ed80083ef/JGRE-127-0-g008.jpg?><?thumb-name JGRE-127-0-g008.gif?><?thumb-size 8977?><?thumb-md5 35568e51305329f18fc183894f053c59?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 85?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/134e/10078181/35568e513053/JGRE-127-0-g008.gif?></graphic></fig><p>For terrestrial helicopters (Lorenz, <xref rid="jgre22083-bib-0029" ref-type="bibr">2020</xref>) and our observations, a low‐altitude, nadir‐directed wind flow is radially redirected outward near the surface, turns upward as that flow is resisted by the environment, and returns to the rotor intake area to form a recirculation pattern. For the flight‐4 dust cloud, there is a distinct recirculation pattern as dusty air was circulated up to the rotor height and pushed back down. The flight‐3 dust clouds also had the beginnings of such recirculation as tendrils of dust reached above the helicopter. In the flight‐4 case, the recirculation organized the dust cloud around the helicopter: during the traverse, the cloud moved at the speed of the helicopter; once the helicopter had landed, the cloud drifted away at 1/3 of the previous speed. During approach and landing, new dust was lifted, and the recirculating pattern narrowed as the rotors descended.</p><p>The Lorenz (<xref rid="jgre22083-bib-0029" ref-type="bibr">2020</xref>) flux balance model, while it shows reasonable agreement with a set of dust loading measurements for several different helicopters, and with a set of dust density measurements for a hovering helicopter at different altitudes (Rodgers, <xref rid="jgre22083-bib-0044" ref-type="bibr">1968</xref>), predicts dust concentrations for <italic toggle="yes">Ingenuity</italic> about an order smaller than what we observe here. The model in principle incorporates planetary environmental factors, in that the dust emission flux is scaled by atmospheric density times a flow velocity cubed, and that the sedimentation velocity of the suspended dust takes gravity, particle and fluid densities, and particle size into account. Here, we use the sedimentation velocity observed via the cloud decay. Yet while the basic physical framework of the model seems applicable, the parameterization of dust flux with downwash velocity (derived from field measurements on Earth) requires adjustment for Mars application.</p><p>It is interesting to observe that the dust cloud masses we determine are of the order of 2 g, or about 1/1000 of the mass of the Ingenuity vehicle itself. This may be compared with the dust cloud masses estimated for terrestrial helicopters in the “Sandblaster 2” field tests using the data summarized in Table 2 of Lorenz (<xref rid="jgre22083-bib-0029" ref-type="bibr">2020</xref>). For the largest helicopter consider, the CH‐53, the dust cloud (approximated as disk area times rotor height times dust density) approaches some 5 kg. All five cases for which data were available (UH‐1, CH‐46, HH‐60, CH‐53, and V‐22) had dust clouds of 0.07–0.2 thousandths of the vehicle mass, indicating that while the dust clouds we have observed on Mars are small and thin, their generation is disproportionate given the tiny weight of <italic toggle="yes">Ingenuity</italic>.</p></sec></sec><sec id="jgre22083-sec-0220"><label>5</label><title>Conclusions</title><p>We observed dust lifting during the takeoff, traverse, and landing phases of six helicopter flights. During landings, the onset of dust lifting occurred when the helicopter was at altitudes of 1.4–3.6 m, with higher altitudes associated with more disturbed terrain. During 4 out of 5 traverse legs at 5–6 m altitude, dust lifting was observed away from the takeoff or landing zone. Estimates of wind friction velocity at the time of onset of dust lifting were made using an existing sediment mobilization model. During landings at undisturbed locations, the onset of dust lifting was consistent with low‐speed saltation models, suggesting that sand may have been mobilized as well. Dust removal from a track downwind of the helicopter on flight 1 also suggests the initiation of a saltation cluster. Disturbed areas produced dust with lower modeled wind speeds, although source exhaustion was observed during a hover, followed by renewed dust lifting as the winds increased during landing. During traverses, dust lifting was observed from heights at which saltation was unlikely, suggesting the likelihood of break‐up of dust aggregates and entrainment of the resulting dust. Spatial heterogeneity was important: even within a single flight, dust lifting occurred in some areas but not in others. Recirculating dust clouds were able to form around the helicopter on at least two flights from a 5‐m cruising altitude, with an especially well‐developed one on flight 4. While the geometric conditions (such as height) for which dust lifting occurred were well‐constrained, a more accurate prediction of surface shear stress will require CFD modeling.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="jgre22083-sup-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information S1</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s012.pdf" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s012.pdf?><?suppdata-size 382896?><?suppdata-md5 fe0a515ac8cbaaa3e727fbbb7106d355?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:134e/10078181/fe0a515ac8cb/JGRE-127-0-s012.pdf?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S1</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s010.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s010.mp4?><?suppdata-size 21087671?><?suppdata-md5 d10128be4e74906ac258e5a9bbd204c0?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/d10128be4e74/JGRE-127-0-s010.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0003" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S2</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s006.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s006.mp4?><?suppdata-size 24546567?><?suppdata-md5 6eb7f32980a2bebd2cf3f95cadb5fdc7?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/6eb7f32980a2/JGRE-127-0-s006.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0004" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S3</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s008.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s008.mp4?><?suppdata-size 10093154?><?suppdata-md5 87da8ea9347de80032ec8cd9d9f6982c?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/87da8ea9347d/JGRE-127-0-s008.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0005" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S4</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s011.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s011.mp4?><?suppdata-size 11514552?><?suppdata-md5 40742f517a2a157c2246c98feac87f8a?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/40742f517a2a/JGRE-127-0-s011.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0006" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S5</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s001.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s001.mp4?><?suppdata-size 6807984?><?suppdata-md5 0efb46ead9a09c384002235e46d6545c?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/0efb46ead9a0/JGRE-127-0-s001.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0007" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S6</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s013.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s013.mp4?><?suppdata-size 8016242?><?suppdata-md5 8f5df56fd396826e1f4b631bccd9121b?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/8f5df56fd396/JGRE-127-0-s013.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0008" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S7</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s004.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s004.mp4?><?suppdata-size 11740213?><?suppdata-md5 fddd23d4369a0560dd87a010493ec193?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/fddd23d4369a/JGRE-127-0-s004.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0009" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S8</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s002.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s002.mp4?><?suppdata-size 7173194?><?suppdata-md5 090e3f6845e3769e05cd2c6760c606c6?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/090e3f6845e3/JGRE-127-0-s002.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0010" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S9</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s007.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s007.mp4?><?suppdata-size 10190791?><?suppdata-md5 0e632629a12100c000ff761659a9cccb?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/0e632629a121/JGRE-127-0-s007.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0011" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S10</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s003.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s003.mp4?><?suppdata-size 6208303?><?suppdata-md5 db5c86baedaa761c6627af1932eb5080?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/db5c86baedaa/JGRE-127-0-s003.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0012" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S11</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s009.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s009.mp4?><?suppdata-size 17539829?><?suppdata-md5 770f83d4b3782400d4eea820b8461219?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/770f83d4b378/JGRE-127-0-s009.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material id="jgre22083-sup-0013" position="float" content-type="local-data" orientation="portrait"><caption><p>Movie S12</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="JGRE-127-0-s005.mp4" mimetype="video" mime-subtype="mp4" position="float" orientation="portrait"><?suppdata-name JGRE-127-0-s005.mp4?><?suppdata-size 25695214?><?suppdata-md5 725c599360bdc3c040c798df0361e44f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type video?><?suppdata-mime-sub-type mp4?><?suppdata-cloudpmc-urn urn:app:134e/10078181/725c599360bd/JGRE-127-0-s005.mp4?><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="jgre22083-sec-0230"><title>Acknowledgments</title><p>The authors acknowledge and thank the Mars 2020 team. The research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration (80NM0018D0004). ML is supported by contract 15‐712 from Arizona State University and 1607215 from Caltech‐JPL. A. V.‐R. is supported by the Spanish State Research Agency (AEI) Project MDM‐2017‐0737 Unidad de Excelencia “María de Maeztu”—Centro de Astrobiología (INTA‐CSIC).</p></ack><sec sec-type="data-availability" id="jgre22083-sec-0250"><title>Data Availability Statement</title><p>All Perseverance data used in this study are publicly available via the Planetary Data System (PDS: Balaram, <xref rid="jgre22083-bib-0003" ref-type="bibr">2021</xref>; Bell &amp; Maki, <xref rid="jgre22083-bib-0006" ref-type="bibr">2021</xref>; Maki, <xref rid="jgre22083-bib-0031" ref-type="bibr">2021</xref>; Rodriguez‐Manfredi &amp; de la Torre Juarez, <xref rid="jgre22083-bib-0045" ref-type="bibr">2021</xref>). The derived data shown in Figures <xref rid="jgre22083-fig-0006" ref-type="fig">6</xref> and <xref rid="jgre22083-fig-0008" ref-type="fig">8</xref> are available in Lemmon (<xref rid="jgre22083-bib-0027" ref-type="bibr">2022</xref>). The HiRISE mosaic shown in Figure <xref rid="jgre22083-fig-0002" ref-type="fig">2</xref> may be accessed via the Multi‐Mission Geographic Information System (Calef et al., <xref rid="jgre22083-bib-0009" ref-type="bibr">2020</xref>), and the original images are available via the PDS (McEwen, <xref rid="jgre22083-bib-0033" ref-type="bibr">2007</xref>).</p></sec><ref-list content-type="cited-references" id="jgre22083-bibl-0001"><title>References</title><ref id="jgre22083-bib-0001"><mixed-citation publication-type="journal" id="jgre22083-cit-0001">
+<string-name name-style="western">
+<surname>Ayoub</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Avouac</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newman</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Richardson</surname>, <given-names>M. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lucas</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leprince</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bridges</surname>, <given-names>N. T.</given-names>
+</string-name> (<year>2014</year>). <article-title>Threshold for sand mobility on Mars calibrated from seasonal variations of sand flux</article-title>. <source>Nature Communications</source>, <volume>5</volume>(<issue>1</issue>), <elocation-id>5096</elocation-id>. <pub-id pub-id-type="doi">10.1038/ncomms6096</pub-id>
+<pub-id pub-id-type="pmid">25268931</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0002"><mixed-citation publication-type="journal" id="jgre22083-cit-0002">
+<string-name name-style="western">
+<surname>Baker</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newman</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Charalambous</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Golombek</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spiga</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Banfield</surname>, <given-names>D.</given-names>
+</string-name>, et al. (<year>2021</year>). <article-title>Vortex‐dominated aeolian activity at InSight's landing site, Part 2: Local meteorology, transport dynamics, and model analysis</article-title>. <source>Journal of Geophysical Research: Planets</source>, <volume>126</volume>(<issue>4</issue>), <elocation-id>E06514</elocation-id>. <pub-id pub-id-type="doi">10.1029/2020JE006514</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0003"><mixed-citation publication-type="data" id="jgre22083-cit-0003">
+<string-name name-style="western">
+<surname>Balaram</surname>, <given-names>J.</given-names>
+</string-name> (<year>2021</year>). <data-title>Mars 2020 helicopter camera suite bundle</data-title> [Dataset]. <source>PDS Imaging Node</source>. <pub-id pub-id-type="doi">10.17189/1522845</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0004"><mixed-citation publication-type="journal" id="jgre22083-cit-0004">
+<string-name name-style="western">
+<surname>Balaram</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aung</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Golombek</surname>, <given-names>M. P.</given-names>
+</string-name> (<year>2021</year>). <article-title>The Ingenuity helicopter on the perseverance rover</article-title>. <source>Space Science Reviews</source>, <volume>217</volume>(<issue>4</issue>), <elocation-id>56</elocation-id>. <pub-id pub-id-type="doi">10.1007/s11214-021-00815-w</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0005"><mixed-citation publication-type="miscellaneous" id="jgre22083-cit-0005">
+<string-name name-style="western">
+<surname>Balaram</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Canham</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duncan</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Golombek</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grip</surname>, <given-names>H. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>W.</given-names>
+</string-name>, et al. (<year>2018</year>). <part-title>Mars Helicopter technology demonstrator</part-title>. In <source>2018 AIAA atmospheric flight mechanics conference</source>. <pub-id pub-id-type="doi">10.2514/6.2018-0023</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0006"><mixed-citation publication-type="data" id="jgre22083-cit-0006">
+<string-name name-style="western">
+<surname>Bell</surname>, <given-names>J. F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Maki</surname>, <given-names>J. N.</given-names>
+</string-name> (<year>2021</year>). <data-title>Mars 2020 mast camera zoom bundle, from Arizona state University Mastcam‐Z instrument team, calibrated products</data-title> [Dataset]. <source>PDS Imaging Node</source>. <pub-id pub-id-type="doi">10.17189/q3ts-c749</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0007"><mixed-citation publication-type="journal" id="jgre22083-cit-0007">
+<string-name name-style="western">
+<surname>Bell</surname>, <given-names>J. F.</given-names>, <suffix>III</suffix>
+</string-name>, <string-name name-style="western">
+<surname>Maki</surname>, <given-names>J. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mehall</surname>, <given-names>G. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ravine</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caplinger</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bailey</surname>, <given-names>Z. J.</given-names>
+</string-name>, et al. (<year>2021</year>). <article-title>The Mars 2020 perseverance rover mast camera zoom (Mastcam‐Z) multispectral, stereoscopic imaging investigation</article-title>. <source>Space Science Reviews</source>, <volume>217</volume>(<issue>1</issue>), <elocation-id>24</elocation-id>. <pub-id pub-id-type="doi">10.1007/s11214-020-00755-x</pub-id>
+<pub-id pub-id-type="pmid">33612866</pub-id><pub-id pub-id-type="pmcid">PMC7883548</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0008"><mixed-citation publication-type="journal" id="jgre22083-cit-0008">
+<string-name name-style="western">
+<surname>Bila</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wurm</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Onyeagusi</surname>, <given-names>F. C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Teiser</surname>, <given-names>J.</given-names>
+</string-name> (<year>2020</year>). <article-title>Lifting grains by the transient low pressure in a Martian dust devil</article-title>. <source>Icarus</source>, <volume>339</volume>, <elocation-id>113569</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.icarus.2019.113569</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0009"><mixed-citation publication-type="miscellaneous" id="jgre22083-cit-0009">
+<string-name name-style="western">
+<surname>Calef</surname>, <given-names>F. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Soliman</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Abarca</surname>, <given-names>H. E.</given-names>
+</string-name> (<year>2020</year>). <part-title>Multi‐mission geographic information system: Updates and Mars science operations status</part-title>. In <source>51st Lunar and planetary Science conference program</source>. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.hou.usra.edu/meetings/lpsc2020/pdf/2689.pdf" ext-link-type="uri">https://www.hou.usra.edu/meetings/lpsc2020/pdf/2689.pdf</ext-link>
+</mixed-citation></ref><ref id="jgre22083-bib-0010"><mixed-citation publication-type="journal" id="jgre22083-cit-0010">
+<string-name name-style="western">
+<surname>Charalambous</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McClean</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baker</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pike</surname>, <given-names>W. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Golombek</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lemmon</surname>, <given-names>M.</given-names>
+</string-name>, et al. (<year>2021</year>). <article-title>Vortex‐dominated aeolian activity at InSight's landing site, Part 1: Multi‐instrument observations, analysis, and implications</article-title>. <source>Journal of Geophysical Research: Planets</source>, <volume>126</volume>(<issue>6</issue>), <elocation-id>e2020JE006757</elocation-id>. <pub-id pub-id-type="doi">10.1029/2020JE006757</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0011"><mixed-citation publication-type="journal" id="jgre22083-cit-0011">
+<string-name name-style="western">
+<surname>Farrell</surname>, <given-names>W. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McLain</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marshall</surname>, <given-names>J. R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wang</surname>, <given-names>A.</given-names>
+</string-name> (<year>2021</year>). <article-title>Will the Mars helicopter induce local Martian atmospheric breakdown?</article-title>
+<source>The Planetary Science Journal</source>, <volume>2</volume>(<issue>2</issue>), <elocation-id>46</elocation-id>. <pub-id pub-id-type="doi">10.3847/psj/abe1c3</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0012"><mixed-citation publication-type="miscellaneous" id="jgre22083-cit-0012">
+<string-name name-style="western">
+<surname>Fergason</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hare</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mayer</surname>, <given-names>D. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galuszka</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Redding</surname>, <given-names>B. L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Smith</surname>, <given-names>E. D.</given-names>
+</string-name> (<year>2020</year>). <part-title>Mars 2020 terrain relative navigation flight product generation: Digital terrain model and orthorectified image mosaics</part-title>. In <source>51st LPSC Program</source>. Retrieved from <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.hou.usra.edu/meetings/lpsc2020/pdf/2020.pdf" ext-link-type="uri">https://www.hou.usra.edu/meetings/lpsc2020/pdf/2020.pdf</ext-link>
+</mixed-citation></ref><ref id="jgre22083-bib-0013"><mixed-citation publication-type="journal" id="jgre22083-cit-0013">
+<string-name name-style="western">
+<surname>Greeley</surname>, <given-names>R.</given-names>
+</string-name> (<year>2002</year>). <article-title>Saltation impact as a means for raising dust on Mars</article-title>. <source>Planetary and Space Science</source>, <volume>50</volume>(<issue>2</issue>), <fpage>151</fpage>–<lpage>155</lpage>. <pub-id pub-id-type="doi">10.1016/S0032-0633(01)00127-1</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0014"><mixed-citation publication-type="journal" id="jgre22083-cit-0014">
+<string-name name-style="western">
+<surname>Greeley</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balme</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iversen</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Metzger</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mickelson</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Phoreman</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>White</surname>, <given-names>B.</given-names>
+</string-name> (<year>2003</year>). <article-title>Martian dust devils: Laboratory simulations of particle threshold</article-title>. <source>Journal of Geophysical Research</source>, <volume>108</volume>(<issue>E5</issue>), <elocation-id>5041</elocation-id>. <pub-id pub-id-type="doi">10.1029/2002JE001987</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0015"><mixed-citation publication-type="book" id="jgre22083-cit-0015">
+<string-name name-style="western">
+<surname>Greeley</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Iversen</surname>, <given-names>J. D.</given-names>
+</string-name> (<year>1985</year>). <source>Wind as a geological process on Earth, Mars, Venus, and Titan</source>. <publisher-name>Cambridge University Press</publisher-name>.</mixed-citation></ref><ref id="jgre22083-bib-0016"><mixed-citation publication-type="journal" id="jgre22083-cit-0016">
+<string-name name-style="western">
+<surname>Greeley</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whelley</surname>, <given-names>P. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arvidson</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cabrol</surname>, <given-names>N. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Foley</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Franklin</surname>, <given-names>B. J.</given-names>
+</string-name>, et al. (<year>2006</year>). <article-title>Active dust devils in Gusev crater, Mars: Observations from the Mars exploration rover, spirit</article-title>. <source>Journal of Geophysical Research</source>, <volume>111</volume>(<issue>E12</issue>), <elocation-id>E12S09</elocation-id>. <pub-id pub-id-type="doi">10.1029/2006JE002743</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0017"><mixed-citation publication-type="miscellaneous" id="jgre22083-cit-0017">
+<string-name name-style="western">
+<surname>Grip</surname>, <given-names>H. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Conway</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lam</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Williams</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Golombek</surname>, <given-names>M. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brockers</surname>, <given-names>R.</given-names>
+</string-name>, et al. (<year>2022</year>). <part-title>Flying a helicopter on Mars: How ingenuity's flights were planned, executed, and analyzed</part-title>. In <source>2022 IEEE Aerospace Conference</source>, (pp. <fpage>5</fpage>–<lpage>12</lpage>). <pub-id pub-id-type="doi">10.1109/AERO53065.2022.9843813</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0018"><mixed-citation publication-type="journal" id="jgre22083-cit-0018">
+<string-name name-style="western">
+<surname>Guzewich</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lemmon</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>, <given-names>C. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martinez</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vicente‐Retortillo</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newman</surname>, <given-names>C. E.</given-names>
+</string-name>, et al. (<year>2019</year>). <article-title>Mars Science Laboratory observations of the 2018/Mars year 34 global dust storm</article-title>. <source>Geophysical Research Letters</source>, <volume>46</volume>(<issue>1</issue>), <fpage>71</fpage>–<lpage>79</lpage>. <pub-id pub-id-type="doi">10.1029/2018GL080839</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0019"><mixed-citation publication-type="journal" id="jgre22083-cit-0019">
+<string-name name-style="western">
+<surname>Hayes</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corlies</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tate</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barrington</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bell</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maki</surname>, <given-names>J. N.</given-names>
+</string-name>, et al. (<year>2021</year>). <article-title>Pre‐flight calibration of the Mars 2020 Rover Mastcam Zoom (Mastcam‐Z) multispectral, stereoscopic imager</article-title>. <source>Space Science Reviews</source>, <volume>217</volume>(<issue>2</issue>), <elocation-id>29</elocation-id>. <pub-id pub-id-type="doi">10.1007/s11214-021-00795-x</pub-id>
+<pub-id pub-id-type="pmid">33678912</pub-id><pub-id pub-id-type="pmcid">PMC7892537</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0020"><mixed-citation publication-type="journal" id="jgre22083-cit-0020">
+<string-name name-style="western">
+<surname>Herkenhoff</surname>, <given-names>K. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Squyres</surname>, <given-names>S. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arvidson</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bass</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bell</surname>, <given-names>J. F.</given-names>, <suffix>III</suffix>
+</string-name>, <string-name name-style="western">
+<surname>Bertelsen</surname>, <given-names>P.</given-names>
+</string-name>, et al. (<year>2004</year>). <article-title>Textures of the soils and rocks at Gusev Crater from spirit's microscopic imager</article-title>. <source>Science</source>, <volume>305</volume>(<issue>5685</issue>), <fpage>824</fpage>–<lpage>826</lpage>. <pub-id pub-id-type="doi">10.1126/science.3050824</pub-id>
+<pub-id pub-id-type="pmid">15297663</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0021"><mixed-citation publication-type="journal" id="jgre22083-cit-0021">
+<string-name name-style="western">
+<surname>Iversen</surname>, <given-names>J. D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>White</surname>, <given-names>B. R.</given-names>
+</string-name> (<year>1982</year>). <article-title>Saltation threshold on Earth, Mars and Venus</article-title>. <source>Sedimentology</source>, <volume>29</volume>(<issue>1</issue>), <fpage>111</fpage>–<lpage>119</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-3091.1982.tb01713.x</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0022"><mixed-citation publication-type="book" id="jgre22083-cit-0022">
+<string-name name-style="western">
+<surname>Kahre</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murphy</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newman</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cantor</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lemmon</surname>, <given-names>M. T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wolff</surname>, <given-names>M. J.</given-names>
+</string-name> (<year>2017</year>). <part-title>The Mars dust cycle</part-title>. In <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Haberle</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Clancy</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Forget</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Smith</surname>
+</string-name>
+</person-group>, &amp; <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Zurek</surname>
+</string-name>
+</person-group> (Eds.), <source>The atmosphere and climate of Mars</source> (pp. <fpage>295</fpage>–<lpage>337</lpage>). <publisher-name>Cambridge University Press</publisher-name>. <pub-id pub-id-type="doi">10.1017/9781139060172.010</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0023"><mixed-citation publication-type="book" id="jgre22083-cit-0023">
+<string-name name-style="western">
+<surname>Kawamura</surname>, <given-names>R.</given-names>
+</string-name> (<year>1951</year>). <part-title>Study of sand movement by wind</part-title>. In <source>Translated (1965) as University of California Hydraulics Engineering Laboratory report HEL</source> (pp. <fpage>2</fpage>–<lpage>8</lpage>). <publisher-name>Hydraulic Engineering Lab, University of California</publisher-name>.</mixed-citation></ref><ref id="jgre22083-bib-0024"><mixed-citation publication-type="journal" id="jgre22083-cit-0024">
+<string-name name-style="western">
+<surname>Kok</surname>, <given-names>J. F.</given-names>
+</string-name> (<year>2010</year>). <article-title>Difference in the Wind speeds required for initiation versus continuation of sand transport on Mars: Implications for dunes and dust storms</article-title>. <source>Physical Review Letters</source>, <volume>104</volume>(<issue>7</issue>), <elocation-id>074502</elocation-id>. <pub-id pub-id-type="doi">10.1103/PhysRevLett.104.074502</pub-id>
+<pub-id pub-id-type="pmid">20366891</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0025"><mixed-citation publication-type="journal" id="jgre22083-cit-0025">
+<string-name name-style="western">
+<surname>Kraemer</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teiser</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Steinpilz</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koester</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wurm</surname>, <given-names>G.</given-names>
+</string-name> (<year>2019</year>). <article-title>Analog experiments on thermal creep gas flow through Martian soil</article-title>. <source>Planetary and Space Science</source>, <volume>166</volume>, <fpage>131</fpage>–<lpage>134</lpage>. <pub-id pub-id-type="doi">10.1016/j.pss.2018.09.004</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0026"><mixed-citation publication-type="journal" id="jgre22083-cit-0026">
+<string-name name-style="western">
+<surname>Kruss</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salzmann</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parteli</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jungman</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teiser</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schönau</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wurm</surname>, <given-names>G.</given-names>
+</string-name> (<year>2021</year>). <article-title>Lifting of Tribocharged grains by Martian winds</article-title>. <source>The Planetary Science Journal</source>, <volume>2</volume>(<issue>6</issue>), <elocation-id>238</elocation-id>. <pub-id pub-id-type="doi">10.3847/PSJ/ac38a4</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0027"><mixed-citation publication-type="data" id="jgre22083-cit-0027">
+<string-name name-style="western">
+<surname>Lemmon</surname>, <given-names>M.</given-names>
+</string-name> (<year>2022</year>). <data-title>Lifting and transport of Martian dust by the Ingenuity helicopter ‐ Supplementary data (Version 1)</data-title> [Dataset]. <source>Mendeley Data</source>. <pub-id pub-id-type="doi">10.17632/f4y7txst8v.1</pub-id>
+<pub-id pub-id-type="pmcid">PMC10078181</pub-id><pub-id pub-id-type="pmid">37033154</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0028"><mixed-citation publication-type="journal" id="jgre22083-cit-0028">
+<string-name name-style="western">
+<surname>Lemmon</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Viudez‐Moreiras</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de la Torre‐Juarez</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vicente‐Retortillo</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Munguira</surname>, <given-names>A.</given-names>
+</string-name>, et al. (<year>2022</year>). <article-title>Dust, sand, and winds within an active Martian storm in Jezero crater</article-title>. <source>Geophysical Research Letters</source>, <volume>49</volume>(<issue>17</issue>), <elocation-id>e2022GL100126</elocation-id>. <pub-id pub-id-type="doi">10.1029/2022GL100126</pub-id>
+<pub-id pub-id-type="pmcid">PMC9540647</pub-id><pub-id pub-id-type="pmid">36245893</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0029"><mixed-citation publication-type="miscellaneous" id="jgre22083-cit-0029">
+<string-name name-style="western">
+<surname>Lorenz</surname>, <given-names>R. D.</given-names>
+</string-name> (<year>2020</year>). <part-title>Triboelectric charging and brownout hazard evaluation for a planetary rotorcraft</part-title>. In <source>Aiaa aviation 2020 forum</source>. <pub-id pub-id-type="doi">10.2514/6.2020-2837</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0030"><mixed-citation publication-type="book" id="jgre22083-cit-0030">
+<string-name name-style="western">
+<surname>Lorenz</surname>, <given-names>R. D.</given-names>
+</string-name> (<year>2022</year>). <source>Planetary exploration with ingenuity and dragonfly: Rotary‐wing flight on Mars and Titan</source>, <publisher-name>American Institute of Aeronautics and Astronautics</publisher-name>, (p. <fpage>194</fpage>).</mixed-citation></ref><ref id="jgre22083-bib-0031"><mixed-citation publication-type="data" id="jgre22083-cit-0031">
+<string-name name-style="western">
+<surname>Maki</surname>, <given-names>J. N.</given-names>
+</string-name> (<year>2021</year>). <data-title>Calibrated data products for the Mars 2020 perseverance rover navigation cameras</data-title> [Dataset]. <source>PDS Imaging Node</source>. <pub-id pub-id-type="doi">10.17189/yvkm-rx37</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0032"><mixed-citation publication-type="journal" id="jgre22083-cit-0032">
+<string-name name-style="western">
+<surname>Maurice</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chide</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murdoch</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lorenz</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mimoun</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wiens</surname>, <given-names>R. C.</given-names>
+</string-name>, et al. (<year>2022</year>). <article-title>In situ recordings of Mars soundscape</article-title>. <source>Nature</source>, <volume>605</volume>(<issue>7911</issue>), <fpage>653</fpage>–<lpage>658</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-022-04679-0</pub-id>
+<pub-id pub-id-type="pmid">35364602</pub-id><pub-id pub-id-type="pmcid">PMC9132769</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0033"><mixed-citation publication-type="miscellaneous" id="jgre22083-cit-0033">
+<string-name name-style="western">
+<surname>McEwen</surname>, <given-names>A.</given-names>
+</string-name> (<year>2007</year>). <article-title>Mars reconnaissance orbiter high resolution imaging science experiment, reduced data record, MRO‐M‐HIRISE‐3‐RDR‐V1.0</article-title> [Dataset]. NASA Planetary Data System.</mixed-citation></ref><ref id="jgre22083-bib-0034"><mixed-citation publication-type="journal" id="jgre22083-cit-0034">
+<string-name name-style="western">
+<surname>McEwen</surname>, <given-names>A. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eliason</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bergstrom</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bridges</surname>, <given-names>N. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hansen</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Delamere</surname>, <given-names>W. A.</given-names>
+</string-name>, et al. (<year>2007</year>). <article-title>MRO's high resolution imaging science experiment (HiRISE)</article-title>. <source>Journal of Geophysical Research</source>, <volume>112</volume>(<issue>E5</issue>), <elocation-id>E05S02</elocation-id>. <pub-id pub-id-type="doi">10.1029/2005JE002605</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0035"><mixed-citation publication-type="journal" id="jgre22083-cit-0035">
+<string-name name-style="western">
+<surname>Merrison</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gunnlaugsson</surname>, <given-names>H. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nørnberg</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jensen</surname>, <given-names>A. E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Rasmussen</surname>, <given-names>K. R.</given-names>
+</string-name> (<year>2007</year>). <article-title>Determination of the wind induced detachment threshold for granular material on Mars using wind tunnel simulations</article-title>. <source>Icarus</source>, <volume>191</volume>(<issue>2</issue>), <fpage>568</fpage>–<lpage>580</lpage>. <pub-id pub-id-type="doi">10.1016/j.icarus.2007.04.035</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0036"><mixed-citation publication-type="journal" id="jgre22083-cit-0036">
+<string-name name-style="western">
+<surname>Moores</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lemmon</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kahanpää</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rafkin</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Francis</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pla‐Garcia</surname>, <given-names>J.</given-names>
+</string-name>, et al. (<year>2015</year>). <article-title>Observational evidence of a shallow planetary boundary layer in northern Gale Crater, Mars as seen by the NavCam instrument onboard the Mars Science Laboratory Rover</article-title>. <source>Icarus</source>, <volume>249</volume>, <fpage>129</fpage>–<lpage>142</lpage>. <pub-id pub-id-type="doi">10.1016/j.icarus.2014.09.020</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0037"><mixed-citation publication-type="journal" id="jgre22083-cit-0037">
+<string-name name-style="western">
+<surname>Musiolik</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kruss</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Demirci</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schrinski</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Teiser</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Daerden</surname>, <given-names>F.</given-names>
+</string-name>, et al. (<year>2018</year>). <article-title>Saltation under Martian gravity and its influence on the global dust distribution</article-title>. <source>Icarus</source>, <volume>306</volume>, <fpage>25</fpage>–<lpage>31</lpage>. <pub-id pub-id-type="doi">10.1016/j.icarus.2018.01.007</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0038"><mixed-citation publication-type="journal" id="jgre22083-cit-0038">
+<string-name name-style="western">
+<surname>Neakrase</surname>, <given-names>L. D. V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balme</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Esposito</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelling</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Klose</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kok</surname>, <given-names>J. F.</given-names>
+</string-name>, et al. (<year>2016</year>). <article-title>Particle lifting processes in dust devils</article-title>. <source>Space Science Reviews</source>, <volume>203</volume>(<issue>1–4</issue>), <fpage>347</fpage>–<lpage>376</lpage>. <pub-id pub-id-type="doi">10.1007/s11214-016-0296-6</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0039"><mixed-citation publication-type="journal" id="jgre22083-cit-0039">
+<string-name name-style="western">
+<surname>Neakrase</surname>, <given-names>L. D. V.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Greeley</surname>, <given-names>R.</given-names>
+</string-name> (<year>2010</year>). <article-title>Dust devils in the laboratory: Effect of surface roughness on vortex dynamics</article-title>. <source>Journal of Geophysical Research</source>, <volume>115</volume>(<issue>E5</issue>), <elocation-id>E05003</elocation-id>. <pub-id pub-id-type="doi">10.1029/2009JE003465</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0040"><mixed-citation publication-type="book" id="jgre22083-cit-0040">
+<string-name name-style="western">
+<surname>Newman</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bertrand</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fenton</surname>, <given-names>L. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guzewich</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jackson</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lewis</surname>, <given-names>S. R.</given-names>
+</string-name>, et al. (<year>2022</year>). <part-title>Martian dust</part-title>. In <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Shroder</surname>
+</string-name>
+</person-group> (Ed.), <source>Treatise on Geomorphology</source> (<edition>2nd ed.</edition>, pp. <fpage>637</fpage>–<lpage>666</lpage>). <publisher-name>Academic Press</publisher-name>. <pub-id pub-id-type="doi">10.1016/B978-0-12-818234-5.00143-7</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0041"><mixed-citation publication-type="journal" id="jgre22083-cit-0041">
+<string-name name-style="western">
+<surname>Newman</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hueso</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lemmon</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Munguira</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vicente‐Retortillo</surname>, <given-names>Á.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Apestigue</surname>, <given-names>V.</given-names>
+</string-name>, et al. (<year>2022</year>). <article-title>The dynamic atmospheric and Aeolian environment of Jezero Crater, Mars</article-title>. <source>Science Advances</source>, <volume>8</volume>(<issue>21</issue>), <elocation-id>eabn3782</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciadv.abn3783</pub-id>
+<pub-id pub-id-type="pmcid">PMC9132482</pub-id><pub-id pub-id-type="pmid">35613267</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0042"><mixed-citation publication-type="journal" id="jgre22083-cit-0042">
+<string-name name-style="western">
+<surname>Rabinovitch</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lorenz</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Slimko</surname>, <given-names>E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wang</surname>, <given-names>K.‐S. C.</given-names>
+</string-name> (<year>2021</year>). <article-title>Scaling sediment mobilization beneath rotorcraft for Titan and Mars</article-title>. <source>Aeolian Research</source>, <volume>49</volume>, <elocation-id>100653</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.aeolia.2020.100653</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0043"><mixed-citation publication-type="journal" id="jgre22083-cit-0043">
+<string-name name-style="western">
+<surname>Reiss</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fenton</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Neakrase</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zimmerman</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Statella</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whelley</surname>, <given-names>P.</given-names>
+</string-name>, et al. (<year>2016</year>). <article-title>Dust devil tracks</article-title>. <source>Space Science Reviews</source>, <volume>203</volume>(<issue>1–4</issue>), <fpage>143</fpage>–<lpage>181</lpage>. <pub-id pub-id-type="doi">10.1007/s11214-016-0308-6</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0044"><mixed-citation publication-type="book" id="jgre22083-cit-0044">
+<string-name name-style="western">
+<surname>Rodgers</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>1968</year>). <part-title>Evaluation of the dust cloud generated by helicopter rotor blade downwash</part-title>. In <source>USAAVLABS Technical report</source> (pp. <fpage>67</fpage>–<lpage>81</lpage>). <publisher-name>U.S. Army Aviation Material Laboratories</publisher-name>.</mixed-citation></ref><ref id="jgre22083-bib-0045"><mixed-citation publication-type="data" id="jgre22083-cit-0045">
+<string-name name-style="western">
+<surname>Rodriguez‐Manfredi</surname>, <given-names>J. A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>de la Torre Juarez</surname>, <given-names>M.</given-names>
+</string-name> (<year>2021</year>). <data-title>Mars 2020 perseverance rover Mars environmental dynamics analyzer (MEDA) experiment data record (EDR) and reduced data record (RDR) data products archive bundle</data-title> [Dataset]. <source>PDS Atmospheres Node</source>. <pub-id pub-id-type="doi">10.17189/1522849</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0046"><mixed-citation publication-type="journal" id="jgre22083-cit-0046">
+<string-name name-style="western">
+<surname>Rodriguez‐Manfredi</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De la Torre Juárez</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alonso</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Apéstigue</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arruego</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atienza</surname>, <given-names>T.</given-names>
+</string-name>, et al. (<year>2021</year>). <article-title>The Mars Environmental Dynamics Analyzer, MEDA. A suite of environmental sensors for the Mars 2020 mission</article-title>. <source>Space Science Reviews</source>, <volume>217</volume>, <elocation-id>48</elocation-id>. <pub-id pub-id-type="doi">10.1007/s11214-021-00816-9</pub-id>
+<pub-id pub-id-type="pmid">34776548</pub-id><pub-id pub-id-type="pmcid">PMC8550605</pub-id></mixed-citation></ref><ref id="jgre22083-bib-0047"><mixed-citation publication-type="journal" id="jgre22083-cit-0047">
+<string-name name-style="western">
+<surname>Shao</surname>, <given-names>Y.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lu</surname>, <given-names>H.</given-names>
+</string-name> (<year>2000</year>). <article-title>A simple expression for wind erosion threshold friction velocity</article-title>. <source>Journal of Geophysical Research</source>, <volume>105</volume>(<issue>D17</issue>), <fpage>22437</fpage>–<lpage>22443</lpage>. <pub-id pub-id-type="doi">10.1029/2000jd900304</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0048"><mixed-citation publication-type="journal" id="jgre22083-cit-0048">
+<string-name name-style="western">
+<surname>Sullivan</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arvidson</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bell</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gellert</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Golombek</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greeley</surname>, <given-names>R.</given-names>
+</string-name>, et al. (<year>2008</year>). <article-title>Wind‐driven particle mobility on Mars: Insights from Mars exploration rover observations at “El Dorado” and surroundings at Gusev Crater</article-title>. <source>Journal of Geophysical Research</source>, <volume>113</volume>(<issue>E6</issue>), <elocation-id>E06S07</elocation-id>. <pub-id pub-id-type="doi">10.1029/2008JE003101</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0049"><mixed-citation publication-type="journal" id="jgre22083-cit-0049">
+<string-name name-style="western">
+<surname>Sullivan</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greeley</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kraft</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Golombek</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Herkenhoff</surname>, <given-names>K.</given-names>
+</string-name>, et al. (<year>2000</year>). <article-title>Results of the imager for Mars pathfinder windsock experiment</article-title>. <source>Journal of Geophysical Research</source>, <volume>105</volume>(<issue>E10</issue>), <fpage>24547</fpage>–<lpage>24562</lpage>. <pub-id pub-id-type="doi">10.1029/1999JE001234</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0050"><mixed-citation publication-type="journal" id="jgre22083-cit-0050">
+<string-name name-style="western">
+<surname>Sullivan</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Kok</surname>, <given-names>J. F.</given-names>
+</string-name> (<year>2017</year>). <article-title>Aeolian saltation on Mars at low wind speeds</article-title>. <source>Journal of Geophysical Research: Planets</source>, <volume>122</volume>(<issue>10</issue>), <fpage>2111</fpage>–<lpage>2143</lpage>. <pub-id pub-id-type="doi">10.1002/2017JE005275</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0051"><mixed-citation publication-type="journal" id="jgre22083-cit-0051">
+<string-name name-style="western">
+<surname>Swann</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sherman</surname>, <given-names>D. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Ewing</surname>, <given-names>R. C.</given-names>
+</string-name> (<year>2020</year>). <article-title>Experimentally derived thresholds for windblown sand on Mars</article-title>. <source>Geophysical Research Letters</source>, <volume>47</volume>(<issue>3</issue>), <elocation-id>e2019GL084484</elocation-id>. <pub-id pub-id-type="doi">10.1029/2019GL084484</pub-id>
+</mixed-citation></ref><ref id="jgre22083-bib-0052"><mixed-citation publication-type="book" id="jgre22083-cit-0052">
+<string-name name-style="western">
+<surname>Wolff</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lopéz‐Valverde</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Madeleine</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fouchet</surname>, <given-names>T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Delory</surname>, <given-names>G.</given-names>
+</string-name> (<year>2017</year>). <part-title>Radiative process: Techniques and applications</part-title>. In <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Haberle</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Clancy</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Forget</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Smith</surname>
+</string-name>
+</person-group>, &amp; <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Zurek</surname>
+</string-name>
+</person-group> (Eds.), <source>The atmosphere and climate of Mars</source> (pp. <fpage>106</fpage>–<lpage>171</lpage>). <publisher-name>Cambridge University Press</publisher-name>. <pub-id pub-id-type="doi">10.1017/9781139060172.006</pub-id>
+</mixed-citation></ref></ref-list></back></article>

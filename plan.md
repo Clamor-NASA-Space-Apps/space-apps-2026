@@ -32,6 +32,12 @@
   - 2025 submission guide: a demo video of up to 30 s or up to 7 slides, in English. No NASA logos in AI-made content. Cite all sources. Open-source licence (Apache 2.0 is the default).
   - The 2026 Submission and Judging guides come out Nov 13. Judging criteria in the 2025 guide: Impact, Creativity, Validity, Relevance, Presentation.
 
+## Engine change (10 Nov 2026)
+- The game is built in **Godot 4.7** and exported to the web, not in three.js. Reason: the three.js rehearsal cost too many tokens and too much time on things an engine provides (collision, cameras, animation blending).
+- The view is **third person**, with a real-looking Mars, playable on a mid-range phone or a computer.
+- The sections below were written for three.js. Where they name three.js, Vite, `node --test` or `window.*` hooks, read the Godot equivalent in `tooling/AGENTS.md` (branch `godot`).
+- What the Godot web build can and cannot draw, the assets still missing and the decisions still open: `research/godot-build/README.md`.
+
 ## Locked decisions (from the user)
 - **Before Nov 14:**
   - Prepare design docs now.

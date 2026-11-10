@@ -92,6 +92,21 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 - [ ] Retro page in Docmost; fix tooling and agent briefs (Nov 11)
 - [ ] Factory lessons from the rehearsal folded back into `tooling/` (tools + gotchas)
 
+## Engine switch to Godot (10 Nov)
+- [x] Godot 4.7.2 installed with Web, Linux and Android export templates; `godot` on PATH
+- [x] Godot skills installed (12 `godot-*` + 6 engine-neutral, reviewed)
+- [x] Web export tested: empty build is 38 MB (9.7 MB gzipped), starts in a browser, Jolt physics runs in it
+- [x] Factory converted on the `godot` branch of `tooling/`: Forge autoload (test hooks + house style), capture-view, feel-probe, web-check, new-project, smoke and preview projects, AGENTS.md
+- [x] Research and the check of the unverified asset document: `research/godot-build/`
+- [ ] Factory skills ported to Godot and reviewed (8 skills)
+- [ ] Test one web build on the weakest team phone (`adb reverse`, then `localhost`); note fps and load time
+- [ ] Download and inspect the Quaternius astronaut (clips: walk, run, idle, jump?); keep its licence file; add to `CREDITS.md`
+- [ ] Re-save the five Draco NASA GLBs so Godot can read them; cut Perseverance down from 199,521 triangles
+- [ ] Download before the event: solar panels and dome (Quaternius Space Kit), one ground texture set and rocks (Poly Haven), a crop of the Gale elevation data (USGS), NASA wind and driving clips
+- [ ] Team decisions in `research/godot-build/README.md` section 5: explorer or manager, how real the look is, new size budget
+- [ ] A short Godot rehearsal (one section of the factory workflow) before 14 Nov: the Godot path has not built a game yet
+- [ ] Merge the `godot` branches (workspace and `tooling/`) once the team agrees
+
 ## Phase D: design pack (Nov 11–13)
 - [ ] `GAME_DESIGN.md`, `CONTRACTS.md` drafted as Docmost pages
 - [ ] Outpost Gale look: team collects reference images + "take / avoid" notes; 3 variants rendered on generic probes; chosen `DESIGN.md` ready to paste on 14 Nov

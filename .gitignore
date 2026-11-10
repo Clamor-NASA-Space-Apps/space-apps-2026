@@ -7,7 +7,7 @@ tooling/
 assets-cache/**/*.zip
 node_modules/
 __pycache__/
-# three.js only needs GLB/glTF; the other Kenney formats stay on disk but out of git
+# the game only needs GLB/glTF; the other Kenney formats stay on disk but out of git
 assets-cache/kenney/*/Models/DAE format/
 assets-cache/kenney/*/Models/FBX format/
 assets-cache/kenney/*/Models/OBJ format/

@@ -1,0 +1,2265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A high performance, editable terrain system for Godot 4.">
+	<title>Terrain3D - Godot Asset Store</title>
+	<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="/static/base.css">
+	<link rel="stylesheet" href="/static/style/main.css">
+	<link rel="stylesheet" href="/static/style/nav.css">
+	<link rel="stylesheet" href="/static/style/asset-dashboard.css">
+	<link rel="stylesheet" href="/static/style/asset-item.css">
+	<link rel="stylesheet" href="/static/style/generic-form.css">
+	<link rel="stylesheet" href="/static/style/popup.css">
+	<link rel="stylesheet" href="/static/style/tags.css">
+	<link rel="stylesheet" href="/static/style/page/library.css">
+	<link rel="stylesheet" href="/static/style/page/search.css">
+	<link rel="stylesheet" href="/static/style/code-hilite.css">
+    <link rel="stylesheet" href="/static/style/heroicon.css">
+
+	<script src="https://unpkg.com/htmx.org@1.9.12"></script>
+	<script src="/static/js/tiny-slider.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "@/ticket-details": "/static/js/modules/ticket-details.js"
+            }
+        }
+    </script>
+
+	<meta property="og:site_name" content="Godot Asset Store">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Terrain3D - Godot Asset Store">
+	<meta property="og:description" content="A high performance, editable terrain system for Godot 4.">
+	<meta property="og:image" content="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/168/sc2.jpg">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<!-- Analytics -->
+	<script defer data-domain="store-beta.godotengine.org" src="https://plausible.godot.foundation/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+	<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+</head>
+
+<body>
+	<noscript style="display: block; margin-top: 68px; background-color: #f8d7da; color: #721c24; padding: 1rem; margin-bottom: -68px; text-align: center;">
+		<p>JavaScript is disabled in your browser. Some features of this site may not work properly.</p>
+	</noscript>
+	
+	
+<nav id="main-nav">
+	<div class="wrapper">
+		<div class="logo-wrapper">
+			<a href="/">
+				<picture>
+					<source media="(max-width: 768px)" srcset="/static/favicon.svg">
+					<img class="logo" src="/static/images/nav-logo.svg" alt="Godot Asset Store">
+				</picture>
+			</a>
+			<a href="/roadmap">
+				<img class="beta" src="/static/images/beta.svg" alt="(Beta)">
+			</a>
+		</div>
+		<!-- search bar -->
+		
+			<form action="/search/" method="get" class="search-form" autocomplete="off">
+				<div class="search-wrapper">
+					<svg class="magnifying-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+					<input type="text" name="query" placeholder="Search" class="search-autocomplete" autocomplete="off">
+				</div>
+			</form>
+		
+		<!-- navigation links -->
+		<div class="navigation-links">
+			<a class="upload-asset desktop" href="/asset/new/">Upload Asset</a>
+			
+			<div class="dropdown">
+				<a href="/login" class="dd-button-view logged-out">
+					<p class="desktop">Log in</p>
+					<img src="/static/images/user.svg" alt="User" class="user-icon">
+				</a>
+			</div>
+			
+            <script type="module">
+				// Close the dropdown if the user clicks outside of it.
+				window.addEventListener("click", (event) => {
+					if (event.target.closest('.dd-button-view') != null) {
+                        return;
+                    }
+                    const dropdownElements = Array.from(document.getElementsByClassName("dropdown-content"));
+                    for (const dropdownElement of dropdownElements) {
+                        dropdownElement.classList.remove('show');
+                    }
+                });
+			</script>
+		</div>
+	</div>
+</nav>
+
+	
+<style>
+	.dismissable-notice {
+		margin-top: 58px;
+		background-color: #f8d7da;
+		color: #721c24;
+		padding: 1rem;
+		margin-bottom: -68px;
+		text-align: center;
+		position: relative;
+	}
+	.dismissable-notice-close {
+		position: absolute !important;
+		top: -2px !important;
+		right: 10px !important;
+		background: none !important;
+		border: none !important;
+		font-size: 20px !important;
+		cursor: pointer !important;
+		color: #3d3d3d !important;
+	}
+</style>
+<div id="redirect-banner" class="dismissable-notice" style="display: none;">
+	<p>We have redirected you to our new domain: <a href='https://store.godotengine.org/'>store.godotengine.org</a>. Please update your bookmarks!</p>
+    
+	    <button id="redirect-banner-close" class="dismissable-notice-close">&times;</button>
+	
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+		const notice = document.getElementById("redirect-banner");
+        const closeButton = document.getElementById("redirect-banner-close");
+        closeButton.addEventListener("click", function() {
+			notice.style.display = "none";
+		});
+	});
+</script>
+
+	
+		
+	
+
+<link rel="stylesheet" href="/static/style/page/asset.css">
+
+<main class="asset">
+	<section class="content-column">
+
+		
+		
+
+		
+<link rel="stylesheet" href="/static/style/page/asset.css">
+
+<div class="panel">
+    <div class="media-big" onclick="resizeMedia()">
+        
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oV8c9alXVwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </div>
+    <div class="modal" onclick="handleModalClick(event)">
+        <span class="close" onclick="closeModal()">&times;</span>
+    </div>
+    <div class="media-selector" tabindex="1">
+        
+            <div class="media-item selected" data-video="oV8c9alXVwU">
+                <img src="https://img.youtube.com/vi/oV8c9alXVwU/0.jpg" alt="Video thumbnail" loading="lazy">
+                <span class="play"></span>
+            </div>
+        
+
+        
+        <div class="media-item ">
+            <img src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/168/sc4.jpg" alt="Media thumbnail" loading="lazy">
+        </div>
+        
+        <div class="media-item ">
+            <img src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/168/sc11.jpg" alt="Media thumbnail" loading="lazy">
+        </div>
+        
+        <div class="media-item ">
+            <img src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/168/river_6b.jpg" alt="Media thumbnail" loading="lazy">
+        </div>
+        
+        <div class="media-item ">
+            <img src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/168/sc11-2.jpg" alt="Media thumbnail" loading="lazy">
+        </div>
+        
+        <div class="media-item ">
+            <img src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/168/Wildeburn_2025-10-13T18_40_31b.jpg" alt="Media thumbnail" loading="lazy">
+        </div>
+        
+        <div class="media-item ">
+            <img src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/168/sc2-3.jpg" alt="Media thumbnail" loading="lazy">
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+<script>
+    const mediaItems = document.querySelectorAll('.media-item');
+    const media = document.querySelector('.media-big');
+    const modal = document.querySelector('.modal');
+    let selectedMedia = media.querySelector('img, iframe');
+    let currentIndex = 0;
+    let resizedMedia = null;
+
+    if (mediaItems.length <= 1) {
+        document.querySelector('.media-selector').style.display = 'none';
+    }
+
+    function showIndex(index) {
+        currentIndex = index;
+        const item = mediaItems[currentIndex];
+        
+        mediaItems.forEach(i => i.classList.remove('selected'));
+        item.classList.add('selected');
+        
+        item.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+        
+        media.innerHTML = '';
+        
+        if (item.dataset.video) {
+            let videoId = item.dataset.video;
+            const match = videoId.match(/(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?(?:.*&)?v=([a-zA-Z0-9_-]+)/);
+            if (match) videoId = match[1];
+            
+            const iframe = document.createElement('iframe');
+            iframe.width = 560;
+            iframe.height = 315;
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+            iframe.title = 'YouTube video player';
+            iframe.frameBorder = 0;
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+            iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+            iframe.allowFullscreen = true;
+            media.appendChild(iframe);
+            selectedMedia = iframe;
+        } else {
+            const img = document.createElement('img');
+            img.className = 'image';
+            img.src = item.querySelector('img').src;
+            img.alt = "Media preview";
+            media.appendChild(img);
+            selectedMedia = img;
+        }
+
+        if (resizedMedia) {
+            resizedMedia.remove();
+            resizedMedia = modal.appendChild(selectedMedia.cloneNode(true));
+        }
+    }
+
+    mediaItems.forEach((item, index) => {
+        item.addEventListener('click', () => showIndex(index));
+    });
+
+    window.addEventListener('keydown', (e) => {
+        if (e.code === "Escape") {
+            closeModal();
+        } else if (e.code === "ArrowRight" && currentIndex < mediaItems.length - 1) {
+            showIndex(currentIndex + 1);
+        } else if (e.code === "ArrowLeft" && currentIndex > 0) {
+            showIndex(currentIndex - 1);
+        }
+    });
+
+    function resizeMedia() {
+        if (!selectedMedia) return;
+        resizedMedia = modal.appendChild(selectedMedia.cloneNode(true));
+        modal.style.display = "flex";
+    }
+
+    function handleModalClick(e) {
+        if (e.target === modal) {
+            closeModal();
+        }
+    }
+
+    function closeModal() {
+        if (resizedMedia) {
+            resizedMedia.remove();
+            resizedMedia = null;
+        }
+        modal.style.display = "none";
+    }
+</script>
+
+
+		<div class="body-editor">
+            <div class="tabs">
+                <div class="tab input-themed active" data-content-id="asset-description-tab">Description</div>
+                <div class="tab" data-content-id="asset-changelog-tab">Changelog</div>
+				<div class="tab" data-content-id="asset-reviews-tab">Reviews <span>(59)</span></div>
+            </div>
+            <div class="tab-content active" id="asset-description-tab">
+                <div class="panel padded" id="about">
+					<div class="asset-body" id="description"><p>A high performance, editable terrain system for Godot 4.4+ written in C++ as a GDExtension plugin.</p>
+<h3>Features</h3>
+<ul>
+<li>GPU driven, Clipmap Mesh Terrain</li>
+<li>Can be accessed by GDScript, C#, and any language Godot supports</li>
+<li>Terrains as small as 64x64m up to 65.5x65.5km</li>
+<li>Up to 32 textures</li>
+<li>Up to 10 levels of detail for the terrain</li>
+<li>Foliage instancing w/ 10 levels of detail</li>
+<li>Sculpting, holes, texture painting, texture detiling, painting colors and wetness</li>
+<li>Imports heightmaps from other tools</li>
+</ul>
+
+<h3>Latest Release Notes</h3>
+<p><a href="https://github.com/TokisanGames/Terrain3D/releases/tag/v1.1.0-stable">https://github.com/TokisanGames/Terrain3D/releases/tag/v1.1.0-stable</a></p>
+<h3>Requirements</h3>
+<ul>
+<li>There are builds for Godot 4.3-4.8+ on Windows, Linux, macOS, and mobile.</li>
+<li>Mobile, MacOS, D3D12, Web read special notes:
+<a href="https://terrain3d.readthedocs.io/en/stable/docs/platforms.html">https://terrain3d.readthedocs.io/en/stable/docs/platforms.html</a></li>
+</ul>
+<h3>Installation</h3>
+<p>After installation, restart, then enable the plugin in Project Settings/Plugins.</p>
+<p>See full Installation &amp; Upgrade instructions:<br>
+<a href="https://terrain3d.readthedocs.io/en/stable/docs/installation.html">https://terrain3d.readthedocs.io/en/stable/docs/installation.html</a></p>
+<p>Read all documentation here and watch the tutorial videos.<br>
+<a href="https://terrain3d.readthedocs.io/en/stable/index.html">https://terrain3d.readthedocs.io/en/stable/index.html</a></p></div>
+				</div>
+            </div>
+			<div class="tab-content" id="asset-changelog-tab">
+				
+
+	<select id="changelog-version-dropdown" autocomplete="off">
+		
+			<option data-id="8060" data-version="v1.1.0" data-version-changes="&lt;p&gt;&lt;a href=&#34;https://github.com/TokisanGames/Terrain3D/releases/tag/v1.1.0-stable&#34;&gt;https://github.com/TokisanGames/Terrain3D/releases/tag/v1.1.0-stable&lt;/a&gt;&lt;/p&gt;
+" data-version-date="2026-11-02 08:36:00">Version – v1.1.0</option>
+		
+			<option data-id="1377" data-version="v1.0.2" data-version-changes="" data-version-date="2026-05-19 05:01:00">Version – v1.0.2</option>
+		
+			<option data-id="1375" data-version="v1.0.0" data-version-changes="" data-version-date="2025-03-30 04:42:00">Version – v1.0.0</option>
+		
+	</select>
+
+	
+	<div class="panel padded">
+		<h2 id="changelog-version-title">Changelog for version v1.1.0</h2>
+		<p class="publication-date" id="changelog-creation-date">2026-11-02 08:36:00</p>
+		<div class="asset-body" id="changelog-version-content">
+			
+				<p>No changelog provided for this version.</p>
+			
+		</div>
+	</div>
+
+
+<script>
+	// Changelog dropdown functionality
+	document.addEventListener("DOMContentLoaded", function() {
+		const versionDropdown = document.getElementById('changelog-version-dropdown');
+
+		function updateChangelogContent() {
+			const selectedOption = this.options[this.selectedIndex];
+			const version = selectedOption.getAttribute('data-version');
+			const changelog = selectedOption.getAttribute('data-version-changes');
+			const versionDate = selectedOption.getAttribute('data-version-date');
+			const changelogTitle = document.getElementById('changelog-version-title');
+			changelogTitle.textContent = `Changelog for version ${version}`;
+			const changelogDate = document.getElementById('changelog-creation-date');
+			changelogDate.textContent = `${versionDate.split(' ')[0]}`;
+			const changelogContent = document.getElementById('changelog-version-content');
+			if (!changelog) {
+				changelogContent.innerHTML = '<p>No changelog provided for this version.</p>';
+				return;
+			}
+			changelogContent.innerHTML = changelog;
+		}
+
+		versionDropdown.addEventListener('change', function() {
+			updateChangelogContent.call(this);
+		});
+		updateChangelogContent.call(versionDropdown);
+	});
+</script>
+            </div>
+            <div class="tab-content" id="asset-reviews-tab">
+				
+
+
+    <div class="reviews panel padded" id="reviews">
+        <h2 class="title"><a href="#reviews">Reviews</a></h2>
+        
+        <!-- <p>Total reviews: </p> -->
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_332"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>comehere128</i> - 31 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">强烈推荐，希望作者继续努力、继续完善，多出点相关的视频教程，发扬光大。</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_629"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Дима Ворожун</i> - 26 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Хороший редактор, хотя бы работает в отличии от TerraBrush  у меня v 4.7</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1007"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Ardasher</i> - 28 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">очен хорошый плагин пожалуиста не останавливайтес и продолжайте улучшать плагин и ещё не могли бы вы помочь Godot чтобы в самом движке был свой террайн пожалуиста</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1002"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Michael Avrie</i> - 27 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Well designed and feature rich</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1050"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>NotSeriousBoy</i> - 01 August 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">very nice extension looking forward for more updates
+</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_741"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>timit0</i> - 06 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Very helpful and efficient</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_875"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Nyaro Nyaro</i> - 19 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Very good terrain plugin with great performance! But it still can be improved in some areas.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1383"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Michael Macha</i> - 30 August 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Surprisingly detailed. Interoperates well with other extensions and custom tools, keeps the strain on the CPU, bus, and GPU pretty low. Dynamic collision meshes which form as you travel. I like it.
+
+Takes a short while to learn how to effectively use, but the tutorials are helpful.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1445"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>MewSojka</i> - 06 September 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Really awesome add-on. It does have one of those moments where you need to open the doors again and explore for an hour before you decide that &#34;this is it&#34;. I transitioned from UE5 Landscape and I needed some time to adapt, but now it is my daily driver for my game :) The ability to create rich 3D environments was a legit &#34;can Godot do this?&#34; concern. And Terrain3D is the answer.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1187"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Spy-B</i> - 12 August 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Perfect</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_702"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Anatol Bogun</i> - 04 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Incredible plugin, covering a core feature of my game. I&#39;m mainly using this for terrain sculpting, the heightmap, terrain collision and asset placement tool for automated multi-mesh regions. I can&#39;t comment on textures because the art style of my game doesn&#39;t require them, but this addon has been running stable for the past 10 months of development. So far tested with runtimes on Mac and Android. The Discord server is very active, and I got a very helpful response from the developer in minutes. Highly recommended.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1803"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Dima A</i> - 20 October 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Great Terrain tool! </p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_237"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>TheDuckCow</i> - 22 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Great plugin - really helpful devs, and even has a nice API with documentation which helped me control editor terrain modifications with my own code.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1598"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>PureStidy</i> - 21 September 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Great plugin</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_831"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>ZByte 16</i> - 15 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Great extension, appreciated by the godot community :)</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1412"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>R F</i> - 03 September 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Good project, overall very good and useful.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_261"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Ismael Merlo</i> - 24 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Excellent plugin! Essential if you want to create terrain with great performance, runs very smooth in my integrated graphics intel.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1026"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Phlegm Dev</i> - 29 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Easy to use, fast and reliable, exports while using this plugin with C# to Windows, Linux and Mac all worked. Performance is not an issue.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_340"></span>
+                            
+                            <img class="negative" src="/static/images/thumbs-negative.svg" alt="">
+                            <span>
+                                
+                                    Not recommended
+                                
+                                
+                                by <i>Bulat Graves</i> - 01 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Buggy. I&#39;m sure this plugin will become better :3</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1175"></span>
+                            
+                            <img class="negative" src="/static/images/thumbs-negative.svg" alt="">
+                            <span>
+                                
+                                    Not recommended
+                                
+                                
+                                by <i>Hesham1 Hussein</i> - 11 August 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Buggy on Android, please fix it 😢</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_660"></span>
+                            
+                            <img class="negative" src="/static/images/thumbs-negative.svg" alt="">
+                            <span>
+                                
+                                    Not recommended
+                                
+                                
+                                by <i>Longplay Games</i> - 29 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Buggy doesn&#39;t even *touch* it. It looks beautiful when it works, but exporting it is a nightmare, getting it performant is quite a challenge, and it&#39;s difficult to even *install* properly.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_366"></span>
+                            
+                            <img class="negative" src="/static/images/thumbs-negative.svg" alt="">
+                            <span>
+                                
+                                    Not recommended
+                                
+                                
+                                by <i>RAYANE SAHALI</i> - 09 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Bro, it&#39;s so frustrating and it buging on Android, which is supposed to have optimization! I hope you fix it. </p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_214"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>A Y</i> - 22 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Been using this for quite a while now. Pretty good for heightmap management and the discord is pretty responsive. Looks like some crazy things are coming in 1.1 as well.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_255"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>FadingStar1994</i> - 24 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">Amazing plugin. Glad that its free. The author is really talented.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_879"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Nite Crow</i> - 20 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">A really nice extension. The terrain tools are nowhere near solutions like other engines have built-in but it&#39;s perfect for not so ambitious projects.</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1438"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Juan Wolfaardt</i> - 06 September 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">A little buggy, bit works very nicely for me most the time. Custom terrain brushes and a simpler heightmap import process would be nice, but otherwise this is great!</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1523"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Joe Foti</i> - 12 September 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hi everyone, I&#39;ve created an implementation on Terrain3D.
+
+Terrain3D v1.0.2-stable MultiAssetPaint v2
+Introduces the mesh importer for terrain generation and maintains the stability of the MultiAssetPaint system, which allows you to select multiple meshes to paint on the terrain.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ciao a tutti, ho realizzato un implementazione su Terrain3D.
+
+Terrain3D v1.0.2-stable MultiAssetPaint v2
+Introduce l&#39;importatore di mesh per la generazione del terreno e mantiene stabile il sistema MultiAssetPaint che permette di selezionare più mesh da dipingere sul terreno.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+YouTube Link:
+https://www.youtube.com/watch?v=O6oB14R_VpM
+
+----------------------------------------------------------------------------------------------------------------------------------------------------</p>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1797"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Radzo</i> - 19 October 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1552"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Catalin-Alexandru Nastase</i> - 16 September 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1264"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Márton Bazsó</i> - 20 August 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1238"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Michael De Luca</i> - 18 August 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1165"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Rwynd</i> - 10 August 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1054"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>OLIVETTE Noa</i> - 01 August 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1044"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Avery</i> - 31 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_1022"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Sebastian Roidl</i> - 29 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_949"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Luis Dario</i> - 24 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_940"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>digitalimperator</i> - 24 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_742"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Adam Heinermann</i> - 07 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_676"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Lwf</i> - 30 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_644"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Immaculate Lift Studio</i> - 27 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_485"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Tyler Febonio</i> - 20 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_457"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Massassen</i> - 19 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_440"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Jack Clarke</i> - 18 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_398"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>freesnipergang#7134</i> - 14 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_382"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>trallkong</i> - 11 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_370"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Invern Dark</i> - 10 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_344"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Rayumie</i> - 01 June 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_290"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Volodymyr Gotra</i> - 27 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_278"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>SuR</i> - 26 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_271"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Duhamb</i> - 25 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_269"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Liam Wooding</i> - 25 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_266"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Jonas Yamazaki</i> - 25 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_252"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Adrian Martinez</i> - 24 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_245"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>AtomicMage</i> - 23 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_240"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>the_sebas0</i> - 23 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_217"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Andrei Pop</i> - 22 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_210"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Yhaffle</i> - 22 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_206"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Bruno Belmonte</i> - 21 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_204"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Aidan Rhoden</i> - 20 May 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            
+        
+
+        <!-- Submit review form -->
+        
+            
+                <p style="opacity: 0.7; text-align: center; font-weight: 300;"><a href="/login">Login</a> to write a review.</p>
+            	
+        
+    </div>
+
+			</div>
+		</div>		
+	</section>
+
+	<div>
+		<aside>
+			<div class="info panel padded">
+				<img class="thumbnail" alt="Thumbnail" src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/168/sc2.jpg" alt="Current thumbnail">
+				<h1 class="overflow-ellipsis">Terrain3D</h1>
+				<div class="publisher">
+					<p class="by">by <a href="/publisher/tokisangames/">Tokisan Games</a></p>
+					
+				</div>
+				<p class="summary">A high performance, editable terrain system for Godot 4.</p>
+				<hr>
+				
+				
+
+				<a href="#reviews" class="reviews">
+					
+					
+						<span class="positive">Reviews: <span class="number">positive</span> (59)</span>
+					
+				</a>
+					
+				<p>Type: Addon</p>
+				<p>License: <a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT</a></p>
+				
+				<p>Source: <a href="https://github.com/TokisanGames/Terrain3D" target="_blank">View source code</a></p>
+				
+				<p>Last Updated: 03 November 2026</p>
+				
+				<p class="tags"><a class="tag-3d" href="/search/?query=%233d">3D</a><a class="tag-terrain" href="/search/?query=%23terrain">Terrain</a><a class="tag-heightmap" href="/search/?query=%23heightmap">Heightmap</a><a class="tag-cplusplus" href="/search/?query=%23cplusplus">C++</a><a class="tag-environment" href="/search/?query=%23environment">Environment</a><a class="tag-terraineditor" href="/search/?query=%23terraineditor">Terrain Editor</a></p>
+				
+				
+				
+					
+					
+						<hr>
+						<div class="download-button-and-version-selector">
+							<a id="download-button" 
+								href="/asset/tokisangames/terrain3d/download/8060/" 
+								data-download-url-template="/asset/tokisangames/terrain3d/download/DOWNLOAD_ID_PLACEHOLDER/" 
+								class="button primary">Download <span class="version"></span> <span class="download-size-info muted">(45.67 MB)</span>
+							</a>
+							<div class="download-version-button">
+								<select id="version-dropdown" autocomplete="off">
+									
+										
+											<option data-id="8060" data-version="v1.1.0" data-min-display-version="4.5" data-max-display-version="None" data-notes="" data-size="45.67 MB" data-url="/asset/tokisangames/terrain3d/download/8060/" data-min-version="40000500000" data-max-version="None" data-stable="True"value="assets/168/Terrain3D_v1.1.0-stable-4.zip" selected>Version – v1.1.0</option>
+										
+									
+										
+											<option data-id="1377" data-version="v1.0.2" data-min-display-version="4.4" data-max-display-version="4.7.x" data-notes="https://github.com/TokisanGames/Terrain3D/releases/tag/v1.0.2-stable" data-size="42.31 MB" data-url="/asset/tokisangames/terrain3d/download/1377/" data-min-version="40000400000" data-max-version="40000700099" data-stable="True"value="assets/168/Terrain3D_v1.0.2-stable-2.zip" >Version – v1.0.2</option>
+										
+									
+										
+											<option data-id="1375" data-version="v1.0.0" data-min-display-version="4.3" data-max-display-version="4.3" data-notes="https://github.com/TokisanGames/Terrain3D/releases/tag/v1.0.0-stable" data-size="41.47 MB" data-url="/asset/tokisangames/terrain3d/download/1375/" data-min-version="40000300000" data-max-version="40000300000" data-stable="True"value="assets/168/terrain3D_v1.0.0-stable-godot4.3-2.zip" >Version – v1.0.0</option>
+										
+									
+								</select>
+								<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg"><title>version selector</title><path d="M76 137L200 263L324 137" stroke="white" stroke-width="30"/></svg>
+							</div>
+						</div>
+						<div id="unstable-warning" hidden>&#9888; The publisher has marked this version as unstable. <br>A version can be marked as unstable due to experimental or untested features.</div>
+						
+							<p class="logged-out-terms">By downloading this asset, you agree to the <a href="/terms/" target="_blank">terms</a>.</p>
+						
+
+						<p style="margin-top: 20px; opacity: 0.6;">Check Compatibility:</p>
+						<select id="godot-version-dropdown" class="version-dropdown" autocomplete="off">
+							
+								<option value="None">Godot version – None</option>
+							
+								<option value="40000800000">Godot version – Godot 4.8</option>
+							
+								<option value="40000700002">Godot version – Godot 4.7.2</option>
+							
+								<option value="40000700001">Godot version – Godot 4.7.1</option>
+							
+								<option value="40000700000">Godot version – Godot 4.7</option>
+							
+								<option value="40000600003">Godot version – Godot 4.6.3</option>
+							
+								<option value="40000600002">Godot version – Godot 4.6.2</option>
+							
+								<option value="40000600001">Godot version – Godot 4.6.1</option>
+							
+								<option value="40000600000">Godot version – Godot 4.6</option>
+							
+								<option value="40000500002">Godot version – Godot 4.5.2</option>
+							
+								<option value="40000500001">Godot version – Godot 4.5.1</option>
+							
+								<option value="40000500000">Godot version – Godot 4.5</option>
+							
+								<option value="40000400001">Godot version – Godot 4.4.1</option>
+							
+								<option value="40000400000">Godot version – Godot 4.4</option>
+							
+								<option value="40000300000">Godot version – Godot 4.3</option>
+							
+								<option value="40000200002">Godot version – Godot 4.2.2</option>
+							
+								<option value="40000200001">Godot version – Godot 4.2.1</option>
+							
+								<option value="40000200000">Godot version – Godot 4.2</option>
+							
+								<option value="40000100004">Godot version – Godot 4.1.4</option>
+							
+								<option value="40000100003">Godot version – Godot 4.1.3</option>
+							
+								<option value="40000100002">Godot version – Godot 4.1.2</option>
+							
+								<option value="40000100001">Godot version – Godot 4.1.1</option>
+							
+								<option value="40000100000">Godot version – Godot 4.1</option>
+							
+								<option value="40000000004">Godot version – Godot 4.0.4</option>
+							
+								<option value="40000000003">Godot version – Godot 4.0.3</option>
+							
+								<option value="40000000002">Godot version – Godot 4.0.2</option>
+							
+								<option value="40000000001">Godot version – Godot 4.0.1</option>
+							
+								<option value="40000000000">Godot version – Godot 4.0</option>
+							
+								<option value="30000700000">Godot version – Godot 3.7</option>
+							
+								<option value="30000600003">Godot version – Godot 3.6.3</option>
+							
+								<option value="30000600002">Godot version – Godot 3.6.2</option>
+							
+								<option value="30000600001">Godot version – Godot 3.6.1</option>
+							
+								<option value="30000600000">Godot version – Godot 3.6</option>
+							
+								<option value="30000500003">Godot version – Godot 3.5.3</option>
+							
+								<option value="30000500002">Godot version – Godot 3.5.2</option>
+							
+								<option value="30000500001">Godot version – Godot 3.5.1</option>
+							
+								<option value="30000500000">Godot version – Godot 3.5</option>
+							
+								<option value="30000400005">Godot version – Godot 3.4.5</option>
+							
+								<option value="30000400004">Godot version – Godot 3.4.4</option>
+							
+								<option value="30000400003">Godot version – Godot 3.4.3</option>
+							
+								<option value="30000400002">Godot version – Godot 3.4.2</option>
+							
+								<option value="30000400001">Godot version – Godot 3.4.1</option>
+							
+								<option value="30000400000">Godot version – Godot 3.4</option>
+							
+								<option value="30000300004">Godot version – Godot 3.3.4</option>
+							
+								<option value="30000300003">Godot version – Godot 3.3.3</option>
+							
+								<option value="30000300002">Godot version – Godot 3.3.2</option>
+							
+								<option value="30000300001">Godot version – Godot 3.3.1</option>
+							
+								<option value="30000300000">Godot version – Godot 3.3</option>
+							
+								<option value="30000200003">Godot version – Godot 3.2.3</option>
+							
+								<option value="30000200002">Godot version – Godot 3.2.2</option>
+							
+								<option value="30000200001">Godot version – Godot 3.2.1</option>
+							
+								<option value="30000200000">Godot version – Godot 3.2</option>
+							
+								<option value="30000100002">Godot version – Godot 3.1.2</option>
+							
+								<option value="30000100001">Godot version – Godot 3.1.1</option>
+							
+								<option value="30000100000">Godot version – Godot 3.1</option>
+							
+								<option value="30000000006">Godot version – Godot 3.0.6</option>
+							
+								<option value="30000000005">Godot version – Godot 3.0.5</option>
+							
+								<option value="30000000004">Godot version – Godot 3.0.4</option>
+							
+								<option value="30000000003">Godot version – Godot 3.0.3</option>
+							
+								<option value="30000000002">Godot version – Godot 3.0.2</option>
+							
+								<option value="30000000001">Godot version – Godot 3.0.1</option>
+							
+								<option value="30000000000">Godot version – Godot 3.0</option>
+							
+						</select>
+						<br>
+						
+							<button id="library-add-btn" class="button secondary" data-donation-link="https://tokisan.com/support-my-work/" data-donation-text="Buy me a coffee." hx-put="/library/tokisangames/terrain3d/" hx-swap="outerHTML">Add To Library</button>
+						
+						<hr>
+						<!-- TODO: style this and it should be updated whenever a different upload version is selected -->
+						<div id="version-info">
+							
+								
+									Version Info: None
+								
+								 
+									<br>								
+									Minimum Godot Version: 4.5
+								
+								
+							
+						</div>
+					
+				
+
+			</div>
+			
+			<div class="donate panel padded">
+				
+					<p>Buy me a coffee.</p>
+				
+				<a href="https://tokisan.com/support-my-work/" target="_blank" class="button secondary">Donate</a>
+			</div>
+			
+
+			
+
+			
+		</aside>
+
+	</div>
+
+	<dialog id="donation-dialog" class="align-center">
+		<h3 style="margin-bottom: 10px;">Consider supporting the creators!</h3>
+		<p id="donation-text">If you enjoyed this asset consider supporting its creator. Follow the link below.</p>
+		<div class="dialog-actions">
+			<button id="donation-close" type="button" class="button small">Close</button>
+			<a target="_blank" href="https://tokisan.com/support-my-work/" class="button small primary">Go to donation page</a>
+		</div>
+	</dialog>
+</main>
+
+<script>
+	const versionDropdown = document.getElementById('version-dropdown');
+	if (versionDropdown) {
+		versionDropdown.addEventListener('change', function() {
+			const selectedOption = this.options[this.selectedIndex];
+			const stableVersion = selectedOption.getAttribute('data-stable');
+			const godotMinVersion = selectedOption.getAttribute('data-min-display-version');
+			const godotMaxVersion = selectedOption.getAttribute('data-max-display-version');
+			const versionNotes = selectedOption.getAttribute('data-notes');
+			const versionInfo = document.getElementById('version-info');
+			const unstableWarning = document.getElementById('unstable-warning');
+
+			let newHTML = ``
+			if (stableVersion == 'False') {
+				unstableWarning.hidden = false;
+			} else {
+				unstableWarning.hidden = true;
+			}
+			if (versionNotes) {
+				newHTML = newHTML + `<div class="tooltip" >Version info<sup>&#9432;</sup>: 
+											<span class="tooltiptext">${versionNotes}</span>
+										</div>
+										<br>`;
+			} else {
+				newHTML = newHTML + `Version Info:<br>`;
+			}
+			if (godotMinVersion != 'None') {
+				newHTML = newHTML + `Minimum Godot Version: ${godotMinVersion} <br>`;
+			}
+			if (godotMaxVersion != 'None') {
+				newHTML = newHTML + `Maximum Godot Version: ${godotMaxVersion}`;
+			}
+			
+			versionInfo.innerHTML = newHTML
+
+			// Update the download button URL
+			const downloadButton = document.getElementById('download-button');
+			const urlTemplate = downloadButton.getAttribute('data-download-url-template');
+			const newDownloadId = selectedOption.getAttribute('data-id');
+			downloadButton.href = urlTemplate.replace('DOWNLOAD_ID_PLACEHOLDER', newDownloadId);
+		});
+	};
+</script>
+
+<script>
+	// Filter versions based on selected Godot version
+	document.addEventListener("DOMContentLoaded", () => {
+		const godotDropdown = document.getElementById("godot-version-dropdown");
+		const versionDropdown = document.getElementById("version-dropdown");
+		const downloadButton = document.getElementById("download-button");
+
+		if (!godotDropdown || !versionDropdown || !downloadButton) {
+			return; // No downloads present
+		}
+
+		const godotOptions = Array.from(godotDropdown.options);
+		const downloadOptions = Array.from(versionDropdown.options);
+
+		function isCompatible(godotVersion, min, max) {
+			if (isNaN(godotVersion)) return true;
+			if (!isNaN(min) && godotVersion < min) return false;
+			if (!isNaN(max) && godotVersion > max) return false;
+			return true;
+		}
+
+
+		function filterGodotVersions() {
+			let firstVisible = -1;
+
+			godotOptions.forEach((option, index) => {
+				const godotVersion = parseInt(option.value);
+
+				const supported = downloadOptions.some(download => {
+					const min = parseInt(download.dataset.minVersion);
+					const max = parseInt(download.dataset.maxVersion);
+					return isCompatible(godotVersion, min, max);
+				});
+
+				option.style.display = supported ? "block" : "none";
+
+				if (supported && firstVisible === -1) {
+					firstVisible = index;
+				}
+			});
+
+			if (firstVisible >= 0) {
+				godotDropdown.selectedIndex = firstVisible;
+			}
+		}
+
+		function filterAssetVersions() {
+			const selectedGodot = parseInt(godotDropdown.value);
+			let firstVisible = -1;
+
+			downloadOptions.forEach((option, index) => {
+				const min = parseInt(option.dataset.minVersion);
+				const max = parseInt(option.dataset.maxVersion);
+
+				const compatible = isCompatible(selectedGodot, min, max);
+
+				option.style.display = compatible ? "block" : "none";
+
+				if (compatible && firstVisible === -1) {
+					firstVisible = index;
+				}
+			});
+
+			const current = versionDropdown.selectedOptions[0];
+			if (!current || current.style.display === "none") {
+				versionDropdown.selectedIndex = firstVisible;
+			}
+
+			const agreeCheckbox = document.getElementById('agree_terms');
+			const dropdownWrapper = document.querySelector('.download-version-button');
+			
+			const isDisabled = firstVisible < 0 || (agreeCheckbox && !agreeCheckbox.checked);
+			downloadButton.classList.toggle("button-disabled", isDisabled);
+			if (dropdownWrapper) {
+				dropdownWrapper.classList.toggle("button-disabled", isDisabled);
+			}
+
+			// update for size/version display
+			versionDropdown.dispatchEvent(new Event("change"));
+		}
+
+		filterGodotVersions();
+		filterAssetVersions();
+
+		godotDropdown.addEventListener("change", filterAssetVersions);
+	});
+</script>	
+
+<script>
+/* 
+Download button functionality 
+*/
+document.addEventListener("DOMContentLoaded", () => {
+	// Handle version selection for download button
+	let downloadButton = document.querySelector('#download-button');
+	let downloadSize = document.querySelector('#download-button .download-size-info');
+	let downloadVersion = document.querySelector('#download-button .version');
+	let downloadDropdown = document.querySelector('#version-dropdown');
+	let downloadVersionWrapper = document.querySelector('.download-version-button');
+
+	// Update the information in the download button
+	function updateDownloadButton() {
+		if (downloadButton && downloadSize && downloadDropdown) {
+			let opt = downloadDropdown.options[downloadDropdown.selectedIndex];
+			downloadSize.textContent = `(${opt.dataset.size})`;
+			downloadVersion.textContent = `- ${opt.dataset.version}`;
+			// If there is only one option, hide the version selector
+			if (downloadDropdown.options.length <= 1) {
+				downloadVersionWrapper.style.display = 'none';
+			} else {
+				downloadVersionWrapper.style.display = 'block';
+				downloadButton.classList.add('with-version-selector');
+			}
+			document.querySelector('.download-version-button').style.height = `${downloadButton.offsetHeight}px`;
+		}
+	}
+	// Update download button on window resize (this can happen when the button goes to two lines in smaller screens)
+	window.addEventListener('resize', updateDownloadButton);
+	// Dropdown changed, update download button information
+	downloadDropdown.addEventListener('change', updateDownloadButton);
+	
+	// Initialize download button with the first option
+	updateDownloadButton();
+});
+</script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		const agreeCheckbox = document.getElementById('agree_terms');
+		const checkboxContainer = document.querySelector('.terms-checkbox-container');
+		const dropdownWrapper = document.querySelector('.download-version-button');
+		const downloadButton = document.getElementById("download-button");
+		const versionDropdown = document.getElementById('version-dropdown');
+
+		function setDownloadButtonDisabled(disabled) {
+			if (!downloadButton) return;
+			if (disabled) {
+				downloadButton.classList.add('button-disabled');
+				downloadButton.addEventListener('click', preventClick, true);
+				dropdownWrapper.classList.add('button-disabled');
+			} else {
+				downloadButton.classList.remove('button-disabled');
+				downloadButton.removeEventListener('click', preventClick, true);
+				dropdownWrapper.classList.remove('button-disabled');
+			}
+		}
+
+		function preventClick(e) {
+			if (checkboxContainer) {
+				checkboxContainer.classList.add('highlighted');
+				setTimeout(() => {
+					checkboxContainer.classList.remove('highlighted');
+				}, 2000);
+			}
+			e.preventDefault();
+			e.stopPropagation();
+		}
+
+		if (agreeCheckbox && downloadButton && versionDropdown) {
+			setDownloadButtonDisabled(!agreeCheckbox.checked);
+			agreeCheckbox.addEventListener('change', function() {
+				setDownloadButtonDisabled(!agreeCheckbox.checked);
+			});
+		}
+	});
+</script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		const donationDialog = document.getElementById("donation-dialog");
+		const closeButton = document.getElementById("donation-close");
+		const donationText = document.getElementById("donation-text");
+		const libraryButton = document.getElementById("library-add-btn");
+		if (!libraryButton) return;
+
+		libraryButton.addEventListener("click", function () {	
+			if (libraryButton.dataset.donationLink) {
+				if (libraryButton.dataset.donationText) {
+					donationText.innerText = libraryButton.dataset.donationText
+				};
+				donationDialog.showModal();
+			}
+		});
+		
+		closeButton.addEventListener("click", function() {
+			donationDialog.close();
+		});
+	});
+	
+</script>
+
+<script>
+	// Handle tab switching (for example when you click a link to see the #reviews)
+	document.addEventListener("DOMContentLoaded", () => {
+		const tabs = document.querySelectorAll('.tabs .tab');
+		const showTab = (tab, updateHash = true) => {
+			tabs.forEach(t => t.classList.remove('active', 'input-themed'));
+			document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+			tab.classList.add('active', 'input-themed');
+			document.getElementById(tab.dataset.contentId).classList.add('active');
+			if (updateHash) {
+				history.replaceState(null, '', `#${tab.dataset.contentId.replace(/^asset-|-tab$/g, '')}`);
+			}
+		};
+
+		if (location.hash) {
+			const target = document.querySelector(`.tab[data-content-id="asset-${location.hash.slice(1)}-tab"]`);
+			if (target) showTab(target, false);
+		}
+
+		tabs.forEach(tab => tab.addEventListener('click', () => showTab(tab, true)));
+	});
+</script>
+	
+<footer>
+	<p>The Asset Store is being developed and is currently in <strong>beta</strong>. If you would like to know the latest changes visit our <a href="/changelog">changelog</a>. For our future plans, visit our <a href="/roadmap">roadmap</a>.</p>
+	<p>If you found any issue or if you have a suggestion, please create an issue in our <a href="https://github.com/godotengine/godot-asset-store-tracker">issue tracker</a>.</p>
+    <br>
+    <p><a href="/terms/">Terms</a> – <a href="/help/">Help</a> – <a href="/guidelines/">Guidelines</a></p>
+    <br>
+	<p>&copy; 2025-2026 - Godot Asset Store by <a href="https://godot.foundation">Godot Foundation</a>.</p>
+</footer>
+
+	<script src="/static/main.js"></script>
+	<script src="/static/js/search.js"></script>
+	<script src="/static/js/tags.js"></script>
+</body>
+
+
+<script>
+	function errorhandler(errorMessage) {
+		console.error("Redirecting to error page:", errorMessage);
+		window.alert(errorMessage);
+	}
+
+	document.body.addEventListener("htmx:targetError", () => 
+		errorhandler("An unexpected error occurred while processing your request.")
+	);
+	document.body.addEventListener("htmx:onLoadError", () => 
+		errorhandler("Failed to load content. The server might be down or unreachable.")
+	);
+	document.body.addEventListener("htmx:timeout", () => 
+		errorhandler("The request timed out. Please check your internet connection.")
+	);
+	document.body.addEventListener("htmx:onLoadError", ev => console.log(ev));
+</script>
+<script>
+	// Show banner if user is redirect from old domain.
+	document.addEventListener("DOMContentLoaded", function() {
+		const url = new URL(window.location);
+
+		if (url.searchParams.get('url_changed') === 'true') {
+			document.getElementById('redirect-banner').style.display = 'block';
+
+			// Remove the param to avoid people from sharing URLs with it
+			url.searchParams.delete('url_changed');
+			history.replaceState(null, '', url.pathname + url.search);
+		}
+	});
+</script>
+</html>

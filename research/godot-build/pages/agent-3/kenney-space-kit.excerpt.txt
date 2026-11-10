@@ -1,0 +1,2 @@
+Source: https://kenney.nl/assets/space-kit (curl got HTTP 403; text below is WebFetch model output on 2026-11-10, EXCERPT ONLY, not raw HTML)
+Asset title: "Space Kit"; Category: 3D; Tags: planet, ship, space; Files: 150 ("150×"); License: "Creative Commons CC0" (links to CC0 1.0); Changelog: only listed version 1.0, "Released in 2020"; Buttons: "Download", "Get All-in-1 bundle". The page doesn't mention file formats or animations.

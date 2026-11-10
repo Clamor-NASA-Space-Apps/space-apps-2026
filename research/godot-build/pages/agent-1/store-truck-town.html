@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This is a demo implementing different types of trucks of
+varying complexity using vehicle physics.">
+	<title>Truck Town Demo - Godot Asset Store</title>
+	<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="/static/base.css">
+	<link rel="stylesheet" href="/static/style/main.css">
+	<link rel="stylesheet" href="/static/style/nav.css">
+	<link rel="stylesheet" href="/static/style/asset-dashboard.css">
+	<link rel="stylesheet" href="/static/style/asset-item.css">
+	<link rel="stylesheet" href="/static/style/generic-form.css">
+	<link rel="stylesheet" href="/static/style/popup.css">
+	<link rel="stylesheet" href="/static/style/tags.css">
+	<link rel="stylesheet" href="/static/style/page/library.css">
+	<link rel="stylesheet" href="/static/style/page/search.css">
+	<link rel="stylesheet" href="/static/style/code-hilite.css">
+    <link rel="stylesheet" href="/static/style/heroicon.css">
+
+	<script src="https://unpkg.com/htmx.org@1.9.12"></script>
+	<script src="/static/js/tiny-slider.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "@/ticket-details": "/static/js/modules/ticket-details.js"
+            }
+        }
+    </script>
+
+	<meta property="og:site_name" content="Godot Asset Store">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Truck Town Demo - Godot Asset Store">
+	<meta property="og:description" content="This is a demo implementing different types of trucks of
+varying complexity using vehicle physics.">
+	<meta property="og:image" content="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/1658/truck_town.webp">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<!-- Analytics -->
+	<script defer data-domain="store-beta.godotengine.org" src="https://plausible.godot.foundation/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+	<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+</head>
+
+<body>
+	<noscript style="display: block; margin-top: 68px; background-color: #f8d7da; color: #721c24; padding: 1rem; margin-bottom: -68px; text-align: center;">
+		<p>JavaScript is disabled in your browser. Some features of this site may not work properly.</p>
+	</noscript>
+	
+	
+<nav id="main-nav">
+	<div class="wrapper">
+		<div class="logo-wrapper">
+			<a href="/">
+				<picture>
+					<source media="(max-width: 768px)" srcset="/static/favicon.svg">
+					<img class="logo" src="/static/images/nav-logo.svg" alt="Godot Asset Store">
+				</picture>
+			</a>
+			<a href="/roadmap">
+				<img class="beta" src="/static/images/beta.svg" alt="(Beta)">
+			</a>
+		</div>
+		<!-- search bar -->
+		
+			<form action="/search/" method="get" class="search-form" autocomplete="off">
+				<div class="search-wrapper">
+					<svg class="magnifying-glass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+					<input type="text" name="query" placeholder="Search" class="search-autocomplete" autocomplete="off">
+				</div>
+			</form>
+		
+		<!-- navigation links -->
+		<div class="navigation-links">
+			<a class="upload-asset desktop" href="/asset/new/">Upload Asset</a>
+			
+			<div class="dropdown">
+				<a href="/login" class="dd-button-view logged-out">
+					<p class="desktop">Log in</p>
+					<img src="/static/images/user.svg" alt="User" class="user-icon">
+				</a>
+			</div>
+			
+            <script type="module">
+				// Close the dropdown if the user clicks outside of it.
+				window.addEventListener("click", (event) => {
+					if (event.target.closest('.dd-button-view') != null) {
+                        return;
+                    }
+                    const dropdownElements = Array.from(document.getElementsByClassName("dropdown-content"));
+                    for (const dropdownElement of dropdownElements) {
+                        dropdownElement.classList.remove('show');
+                    }
+                });
+			</script>
+		</div>
+	</div>
+</nav>
+
+	
+<style>
+	.dismissable-notice {
+		margin-top: 58px;
+		background-color: #f8d7da;
+		color: #721c24;
+		padding: 1rem;
+		margin-bottom: -68px;
+		text-align: center;
+		position: relative;
+	}
+	.dismissable-notice-close {
+		position: absolute !important;
+		top: -2px !important;
+		right: 10px !important;
+		background: none !important;
+		border: none !important;
+		font-size: 20px !important;
+		cursor: pointer !important;
+		color: #3d3d3d !important;
+	}
+</style>
+<div id="redirect-banner" class="dismissable-notice" style="display: none;">
+	<p>We have redirected you to our new domain: <a href='https://store.godotengine.org/'>store.godotengine.org</a>. Please update your bookmarks!</p>
+    
+	    <button id="redirect-banner-close" class="dismissable-notice-close">&times;</button>
+	
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+		const notice = document.getElementById("redirect-banner");
+        const closeButton = document.getElementById("redirect-banner-close");
+        closeButton.addEventListener("click", function() {
+			notice.style.display = "none";
+		});
+	});
+</script>
+
+	
+		
+	
+
+<link rel="stylesheet" href="/static/style/page/asset.css">
+
+<main class="asset">
+	<section class="content-column">
+
+		
+		
+
+		
+<link rel="stylesheet" href="/static/style/page/asset.css">
+
+<div class="panel">
+    <div class="media-big" onclick="resizeMedia()">
+        
+            <img class="image" src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/1658/truck_town-2.webp" loading="lazy" alt="Media preview"/>
+        
+    </div>
+    <div class="modal" onclick="handleModalClick(event)">
+        <span class="close" onclick="closeModal()">&times;</span>
+    </div>
+    <div class="media-selector" tabindex="1">
+        
+
+        
+        <div class="media-item selected">
+            <img src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/1658/truck_town-2.webp" alt="Media thumbnail" loading="lazy">
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+<script>
+    const mediaItems = document.querySelectorAll('.media-item');
+    const media = document.querySelector('.media-big');
+    const modal = document.querySelector('.modal');
+    let selectedMedia = media.querySelector('img, iframe');
+    let currentIndex = 0;
+    let resizedMedia = null;
+
+    if (mediaItems.length <= 1) {
+        document.querySelector('.media-selector').style.display = 'none';
+    }
+
+    function showIndex(index) {
+        currentIndex = index;
+        const item = mediaItems[currentIndex];
+        
+        mediaItems.forEach(i => i.classList.remove('selected'));
+        item.classList.add('selected');
+        
+        item.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+        
+        media.innerHTML = '';
+        
+        if (item.dataset.video) {
+            let videoId = item.dataset.video;
+            const match = videoId.match(/(?:https?:\/\/)?(?:www\.)?youtube\.com\/watch\?(?:.*&)?v=([a-zA-Z0-9_-]+)/);
+            if (match) videoId = match[1];
+            
+            const iframe = document.createElement('iframe');
+            iframe.width = 560;
+            iframe.height = 315;
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+            iframe.title = 'YouTube video player';
+            iframe.frameBorder = 0;
+            iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+            iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+            iframe.allowFullscreen = true;
+            media.appendChild(iframe);
+            selectedMedia = iframe;
+        } else {
+            const img = document.createElement('img');
+            img.className = 'image';
+            img.src = item.querySelector('img').src;
+            img.alt = "Media preview";
+            media.appendChild(img);
+            selectedMedia = img;
+        }
+
+        if (resizedMedia) {
+            resizedMedia.remove();
+            resizedMedia = modal.appendChild(selectedMedia.cloneNode(true));
+        }
+    }
+
+    mediaItems.forEach((item, index) => {
+        item.addEventListener('click', () => showIndex(index));
+    });
+
+    window.addEventListener('keydown', (e) => {
+        if (e.code === "Escape") {
+            closeModal();
+        } else if (e.code === "ArrowRight" && currentIndex < mediaItems.length - 1) {
+            showIndex(currentIndex + 1);
+        } else if (e.code === "ArrowLeft" && currentIndex > 0) {
+            showIndex(currentIndex - 1);
+        }
+    });
+
+    function resizeMedia() {
+        if (!selectedMedia) return;
+        resizedMedia = modal.appendChild(selectedMedia.cloneNode(true));
+        modal.style.display = "flex";
+    }
+
+    function handleModalClick(e) {
+        if (e.target === modal) {
+            closeModal();
+        }
+    }
+
+    function closeModal() {
+        if (resizedMedia) {
+            resizedMedia.remove();
+            resizedMedia = null;
+        }
+        modal.style.display = "none";
+    }
+</script>
+
+
+		<div class="body-editor">
+            <div class="tabs">
+                <div class="tab input-themed active" data-content-id="asset-description-tab">Description</div>
+                <div class="tab" data-content-id="asset-changelog-tab">Changelog</div>
+				<div class="tab" data-content-id="asset-reviews-tab">Reviews <span>(1)</span></div>
+            </div>
+            <div class="tab-content active" id="asset-description-tab">
+                <div class="panel padded" id="about">
+					<div class="asset-body" id="description"><p>This is a demo implementing different types of trucks of
+varying complexity using vehicle physics.</p>
+
+<h2>Controls:</h2>
+
+<ul>
+<li>Up Arrow, W, Gamepad Right Trigger: Accelerate</li>
+<li>Down Arrow, S, Space, Gamepad Left Trigger, Gamepad B/Circle, Gamepad X/Square: Brake/reverse</li>
+<li>Left Arrow, Gamepad Left Stick, Gamepad D-Pad Left: Steer left</li>
+<li>Right Arrow, Gamepad Left Stick, Gamepad D-Pad Right: Steer right</li>
+<li>U, Gamepad Select, left-click speedometer: Change speedometer unit (m/s, km/h, mph)</li>
+<li>C, Gamepad Y/Triangle: Change camera (exterior, interior, top-down)</li>
+<li>M, Gamepad D-Pad Down: Change mood (sunrise, day, sunset, night)</li>
+<li>Shift, Gamepad A/Cross: Use boost</li>
+<li>H, Enter, Gamepad Left Stick Press: Use horn</li>
+<li>L, Gamepad Right Stick Press: Toggle headlights (automatically occurs on mood change)</li>
+<li>Escape, Gamepad D-Pad Up: Go back to menu (press again to exit)</li>
+</ul>
+
+<p>On mobile platforms, the vehicle automatically accelerates. Touch the left and
+right edges of the screen to steer. Touch the middle of the screen to
+brake/reverse (this also temporarily stops acceleration).</p>
+
+<p>Language: GDScript</p>
+
+<p>Renderer: Forward+</p>
+
+<h2>How does it work?</h2>
+
+<p>The base vehicle uses a
+<a href="https://docs.godotengine.org/en/latest/classes/class_vehiclebody3d.html"><code>VehicleBody3D</code></a>
+node. The trailer truck is tied together using a
+<a href="https://docs.godotengine.org/en/latest/classes/class_conetwistjoint3d.html"><code>ConeJointTwist3D</code></a>
+node, and the tow truck is tried together using a chain made of
+<a href="https://docs.godotengine.org/en/latest/classes/class_rigidbody3d.html"><code>RigidBody3D</code></a>
+nodes which are pinned together using
+<a href="https://docs.godotengine.org/en/latest/classes/class_pinjoint3d.html"><code>PinJoint3D</code></a> nodes.</p>
+
+<h2>Credits</h2>
+
+<h3>Ambient sounds</h3>
+
+<ul>
+<li><a href="https://freesound.org/people/nyoz/sounds/614202/">Sunrise</a> by nyoz</li>
+<li><a href="https://freesound.org/people/pawsound/sounds/154880/">Day</a> by pawsound</li>
+<li><a href="https://freesound.org/people/roisin.gleeson/sounds/699131/">Sunset</a> by roisin.gleeson</li>
+<li><a href="https://freesound.org/people/DidntGoToFilmSchool/sounds/248103/">Night</a> by DidntGoToFilmSchool</li>
+</ul>
+
+<h3>Models</h3>
+
+<ul>
+<li><a href="https://sketchfab.com/3d-models/tree-low-poly-4cd243eb74c74b3ea2190ebcec0439fb">tree low-poly</a> by Ricardo Sanchez (https://sketchfab.com/380660711785)</li>
+<li><a href="https://sketchfab.com/3d-models/lowpoly-lamp-c020f6af78f7482f8cf2ac84d05c08a5">Lowpoly lamp</a> by RitiWox (https://sketchfab.com/RitiWox)</li>
+</ul>
+</div>
+				</div>
+            </div>
+			<div class="tab-content" id="asset-changelog-tab">
+				
+
+	<select id="changelog-version-dropdown" autocomplete="off">
+		
+			<option data-id="3346" data-version="4.7-6ad6167" data-version-changes="" data-version-date="2026-07-08 00:50:48">Version – 4.7-6ad6167</option>
+		
+	</select>
+
+	
+	<div class="panel padded">
+		<h2 id="changelog-version-title">Changelog for version 4.7-6ad6167</h2>
+		<p class="publication-date" id="changelog-creation-date">2026-07-08 00:50:48</p>
+		<div class="asset-body" id="changelog-version-content">
+			
+				<p>No changelog provided for this version.</p>
+			
+		</div>
+	</div>
+
+
+<script>
+	// Changelog dropdown functionality
+	document.addEventListener("DOMContentLoaded", function() {
+		const versionDropdown = document.getElementById('changelog-version-dropdown');
+
+		function updateChangelogContent() {
+			const selectedOption = this.options[this.selectedIndex];
+			const version = selectedOption.getAttribute('data-version');
+			const changelog = selectedOption.getAttribute('data-version-changes');
+			const versionDate = selectedOption.getAttribute('data-version-date');
+			const changelogTitle = document.getElementById('changelog-version-title');
+			changelogTitle.textContent = `Changelog for version ${version}`;
+			const changelogDate = document.getElementById('changelog-creation-date');
+			changelogDate.textContent = `${versionDate.split(' ')[0]}`;
+			const changelogContent = document.getElementById('changelog-version-content');
+			if (!changelog) {
+				changelogContent.innerHTML = '<p>No changelog provided for this version.</p>';
+				return;
+			}
+			changelogContent.innerHTML = changelog;
+		}
+
+		versionDropdown.addEventListener('change', function() {
+			updateChangelogContent.call(this);
+		});
+		updateChangelogContent.call(versionDropdown);
+	});
+</script>
+            </div>
+            <div class="tab-content" id="asset-reviews-tab">
+				
+
+
+    <div class="reviews panel padded" id="reviews">
+        <h2 class="title"><a href="#reviews">Reviews</a></h2>
+        
+        <!-- <p>Total reviews: </p> -->
+            
+                <div class="review panel border subtle padded">
+                    <div class="rating">
+                        <div class="info">
+                            <span class="anchor-fix" id="review_788"></span>
+                            
+                            <img class="positive" src="/static/images/thumbs-positive.svg" alt="">
+                            <span>
+                                
+                                    Recommended
+                                
+                                
+                                by <i>Ryan</i> - 09 July 2026</span>
+                        </div>
+                        <div class="actions">
+                            
+                        </div>
+                    </div>
+                    
+                        <p class="body">This demo has changed alot through the years but this is the best update so far i love it.
+
+W GODOT TEAM</p>
+                    
+                    
+                </div>
+            
+        
+
+        <!-- Submit review form -->
+        
+            
+                <p style="opacity: 0.7; text-align: center; font-weight: 300;"><a href="/login">Login</a> to write a review.</p>
+            	
+        
+    </div>
+
+			</div>
+		</div>		
+	</section>
+
+	<div>
+		<aside>
+			<div class="info panel padded">
+				<img class="thumbnail" alt="Thumbnail" src="https://asset-store-prod.fra1.digitaloceanspaces.com/assets/1658/truck_town.webp" alt="Current thumbnail">
+				<h1 class="overflow-ellipsis">Truck Town Demo</h1>
+				<div class="publisher">
+					<p class="by">by <a href="/publisher/godot-foundation/">Godot Foundation</a></p>
+					
+						<img src="/static/images/verified.svg">
+					
+				</div>
+				<p class="summary">This is a demo implementing different types of trucks of
+varying complexity using vehicle physics.</p>
+				<hr>
+				
+				
+
+				<a href="#reviews" class="reviews">
+					
+					
+						<span class="positive">Reviews: <span class="number">positive</span> (1)</span>
+					
+				</a>
+					
+				<p>Type: Project</p>
+				<p>License: <a href="https://choosealicense.com/licenses/mit/" target="_blank">MIT</a></p>
+				
+				<p>Source: <a href="https://github.com/godotengine/godot-demo-projects/tree/master/3d/truck_town" target="_blank">View source code</a></p>
+				
+				<p>Last Updated: 08 July 2026</p>
+				
+				<p class="tags"><a class="tag-3d" href="/search/?query=%233d">3D</a><a class="tag-car" href="/search/?query=%23car">Car</a><a class="tag-demo" href="/search/?query=%23demo">Demo</a><a class="tag-vehiclebody" href="/search/?query=%23vehiclebody">VehicleBody</a><a class="tag-vehiclebody3d" href="/search/?query=%23vehiclebody3d">VehicleBody3D</a><a class="tag-truck" href="/search/?query=%23truck">Truck</a></p>
+				
+				
+				
+					
+					
+						<hr>
+						<div class="download-button-and-version-selector">
+							<a id="download-button" 
+								href="/asset/godot-foundation/truck-town-demo/download/3346/" 
+								data-download-url-template="/asset/godot-foundation/truck-town-demo/download/DOWNLOAD_ID_PLACEHOLDER/" 
+								class="button primary">Download <span class="version"></span> <span class="download-size-info muted">(8.29 MB)</span>
+							</a>
+							<div class="download-version-button">
+								<select id="version-dropdown" autocomplete="off">
+									
+										
+											<option data-id="3346" data-version="4.7-6ad6167" data-min-display-version="4.7" data-max-display-version="None" data-notes="" data-size="8.29 MB" data-url="/asset/godot-foundation/truck-town-demo/download/3346/" data-min-version="40000700000" data-max-version="None" data-stable="True"value="assets/1658/3d_truck_town.zip" selected>Version – 4.7-6ad6167</option>
+										
+									
+								</select>
+								<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg"><title>version selector</title><path d="M76 137L200 263L324 137" stroke="white" stroke-width="30"/></svg>
+							</div>
+						</div>
+						<div id="unstable-warning" hidden>&#9888; The publisher has marked this version as unstable. <br>A version can be marked as unstable due to experimental or untested features.</div>
+						
+							<p class="logged-out-terms">By downloading this asset, you agree to the <a href="/terms/" target="_blank">terms</a>.</p>
+						
+
+						<p style="margin-top: 20px; opacity: 0.6;">Check Compatibility:</p>
+						<select id="godot-version-dropdown" class="version-dropdown" autocomplete="off">
+							
+								<option value="None">Godot version – None</option>
+							
+								<option value="40000800000">Godot version – Godot 4.8</option>
+							
+								<option value="40000700002">Godot version – Godot 4.7.2</option>
+							
+								<option value="40000700001">Godot version – Godot 4.7.1</option>
+							
+								<option value="40000700000">Godot version – Godot 4.7</option>
+							
+								<option value="40000600003">Godot version – Godot 4.6.3</option>
+							
+								<option value="40000600002">Godot version – Godot 4.6.2</option>
+							
+								<option value="40000600001">Godot version – Godot 4.6.1</option>
+							
+								<option value="40000600000">Godot version – Godot 4.6</option>
+							
+								<option value="40000500002">Godot version – Godot 4.5.2</option>
+							
+								<option value="40000500001">Godot version – Godot 4.5.1</option>
+							
+								<option value="40000500000">Godot version – Godot 4.5</option>
+							
+								<option value="40000400001">Godot version – Godot 4.4.1</option>
+							
+								<option value="40000400000">Godot version – Godot 4.4</option>
+							
+								<option value="40000300000">Godot version – Godot 4.3</option>
+							
+								<option value="40000200002">Godot version – Godot 4.2.2</option>
+							
+								<option value="40000200001">Godot version – Godot 4.2.1</option>
+							
+								<option value="40000200000">Godot version – Godot 4.2</option>
+							
+								<option value="40000100004">Godot version – Godot 4.1.4</option>
+							
+								<option value="40000100003">Godot version – Godot 4.1.3</option>
+							
+								<option value="40000100002">Godot version – Godot 4.1.2</option>
+							
+								<option value="40000100001">Godot version – Godot 4.1.1</option>
+							
+								<option value="40000100000">Godot version – Godot 4.1</option>
+							
+								<option value="40000000004">Godot version – Godot 4.0.4</option>
+							
+								<option value="40000000003">Godot version – Godot 4.0.3</option>
+							
+								<option value="40000000002">Godot version – Godot 4.0.2</option>
+							
+								<option value="40000000001">Godot version – Godot 4.0.1</option>
+							
+								<option value="40000000000">Godot version – Godot 4.0</option>
+							
+								<option value="30000700000">Godot version – Godot 3.7</option>
+							
+								<option value="30000600003">Godot version – Godot 3.6.3</option>
+							
+								<option value="30000600002">Godot version – Godot 3.6.2</option>
+							
+								<option value="30000600001">Godot version – Godot 3.6.1</option>
+							
+								<option value="30000600000">Godot version – Godot 3.6</option>
+							
+								<option value="30000500003">Godot version – Godot 3.5.3</option>
+							
+								<option value="30000500002">Godot version – Godot 3.5.2</option>
+							
+								<option value="30000500001">Godot version – Godot 3.5.1</option>
+							
+								<option value="30000500000">Godot version – Godot 3.5</option>
+							
+								<option value="30000400005">Godot version – Godot 3.4.5</option>
+							
+								<option value="30000400004">Godot version – Godot 3.4.4</option>
+							
+								<option value="30000400003">Godot version – Godot 3.4.3</option>
+							
+								<option value="30000400002">Godot version – Godot 3.4.2</option>
+							
+								<option value="30000400001">Godot version – Godot 3.4.1</option>
+							
+								<option value="30000400000">Godot version – Godot 3.4</option>
+							
+								<option value="30000300004">Godot version – Godot 3.3.4</option>
+							
+								<option value="30000300003">Godot version – Godot 3.3.3</option>
+							
+								<option value="30000300002">Godot version – Godot 3.3.2</option>
+							
+								<option value="30000300001">Godot version – Godot 3.3.1</option>
+							
+								<option value="30000300000">Godot version – Godot 3.3</option>
+							
+								<option value="30000200003">Godot version – Godot 3.2.3</option>
+							
+								<option value="30000200002">Godot version – Godot 3.2.2</option>
+							
+								<option value="30000200001">Godot version – Godot 3.2.1</option>
+							
+								<option value="30000200000">Godot version – Godot 3.2</option>
+							
+								<option value="30000100002">Godot version – Godot 3.1.2</option>
+							
+								<option value="30000100001">Godot version – Godot 3.1.1</option>
+							
+								<option value="30000100000">Godot version – Godot 3.1</option>
+							
+								<option value="30000000006">Godot version – Godot 3.0.6</option>
+							
+								<option value="30000000005">Godot version – Godot 3.0.5</option>
+							
+								<option value="30000000004">Godot version – Godot 3.0.4</option>
+							
+								<option value="30000000003">Godot version – Godot 3.0.3</option>
+							
+								<option value="30000000002">Godot version – Godot 3.0.2</option>
+							
+								<option value="30000000001">Godot version – Godot 3.0.1</option>
+							
+								<option value="30000000000">Godot version – Godot 3.0</option>
+							
+						</select>
+						<br>
+						
+							<button id="library-add-btn" class="button secondary" data-donation-link="https://fund.godotengine.org" data-donation-text="" hx-put="/library/godot-foundation/truck-town-demo/" hx-swap="outerHTML">Add To Library</button>
+						
+						<hr>
+						<!-- TODO: style this and it should be updated whenever a different upload version is selected -->
+						<div id="version-info">
+							
+								
+									Version Info: None
+								
+								 
+									<br>								
+									Minimum Godot Version: 4.7
+								
+								
+							
+						</div>
+					
+				
+
+			</div>
+			
+			<div class="donate panel padded">
+				
+					<p>Support Truck Town Demo by donating! </p>
+				
+				<a href="https://fund.godotengine.org" target="_blank" class="button secondary">Donate</a>
+			</div>
+			
+
+			
+
+			
+		</aside>
+
+	</div>
+
+	<dialog id="donation-dialog" class="align-center">
+		<h3 style="margin-bottom: 10px;">Consider supporting the creators!</h3>
+		<p id="donation-text">If you enjoyed this asset consider supporting its creator. Follow the link below.</p>
+		<div class="dialog-actions">
+			<button id="donation-close" type="button" class="button small">Close</button>
+			<a target="_blank" href="https://fund.godotengine.org" class="button small primary">Go to donation page</a>
+		</div>
+	</dialog>
+</main>
+
+<script>
+	const versionDropdown = document.getElementById('version-dropdown');
+	if (versionDropdown) {
+		versionDropdown.addEventListener('change', function() {
+			const selectedOption = this.options[this.selectedIndex];
+			const stableVersion = selectedOption.getAttribute('data-stable');
+			const godotMinVersion = selectedOption.getAttribute('data-min-display-version');
+			const godotMaxVersion = selectedOption.getAttribute('data-max-display-version');
+			const versionNotes = selectedOption.getAttribute('data-notes');
+			const versionInfo = document.getElementById('version-info');
+			const unstableWarning = document.getElementById('unstable-warning');
+
+			let newHTML = ``
+			if (stableVersion == 'False') {
+				unstableWarning.hidden = false;
+			} else {
+				unstableWarning.hidden = true;
+			}
+			if (versionNotes) {
+				newHTML = newHTML + `<div class="tooltip" >Version info<sup>&#9432;</sup>: 
+											<span class="tooltiptext">${versionNotes}</span>
+										</div>
+										<br>`;
+			} else {
+				newHTML = newHTML + `Version Info:<br>`;
+			}
+			if (godotMinVersion != 'None') {
+				newHTML = newHTML + `Minimum Godot Version: ${godotMinVersion} <br>`;
+			}
+			if (godotMaxVersion != 'None') {
+				newHTML = newHTML + `Maximum Godot Version: ${godotMaxVersion}`;
+			}
+			
+			versionInfo.innerHTML = newHTML
+
+			// Update the download button URL
+			const downloadButton = document.getElementById('download-button');
+			const urlTemplate = downloadButton.getAttribute('data-download-url-template');
+			const newDownloadId = selectedOption.getAttribute('data-id');
+			downloadButton.href = urlTemplate.replace('DOWNLOAD_ID_PLACEHOLDER', newDownloadId);
+		});
+	};
+</script>
+
+<script>
+	// Filter versions based on selected Godot version
+	document.addEventListener("DOMContentLoaded", () => {
+		const godotDropdown = document.getElementById("godot-version-dropdown");
+		const versionDropdown = document.getElementById("version-dropdown");
+		const downloadButton = document.getElementById("download-button");
+
+		if (!godotDropdown || !versionDropdown || !downloadButton) {
+			return; // No downloads present
+		}
+
+		const godotOptions = Array.from(godotDropdown.options);
+		const downloadOptions = Array.from(versionDropdown.options);
+
+		function isCompatible(godotVersion, min, max) {
+			if (isNaN(godotVersion)) return true;
+			if (!isNaN(min) && godotVersion < min) return false;
+			if (!isNaN(max) && godotVersion > max) return false;
+			return true;
+		}
+
+
+		function filterGodotVersions() {
+			let firstVisible = -1;
+
+			godotOptions.forEach((option, index) => {
+				const godotVersion = parseInt(option.value);
+
+				const supported = downloadOptions.some(download => {
+					const min = parseInt(download.dataset.minVersion);
+					const max = parseInt(download.dataset.maxVersion);
+					return isCompatible(godotVersion, min, max);
+				});
+
+				option.style.display = supported ? "block" : "none";
+
+				if (supported && firstVisible === -1) {
+					firstVisible = index;
+				}
+			});
+
+			if (firstVisible >= 0) {
+				godotDropdown.selectedIndex = firstVisible;
+			}
+		}
+
+		function filterAssetVersions() {
+			const selectedGodot = parseInt(godotDropdown.value);
+			let firstVisible = -1;
+
+			downloadOptions.forEach((option, index) => {
+				const min = parseInt(option.dataset.minVersion);
+				const max = parseInt(option.dataset.maxVersion);
+
+				const compatible = isCompatible(selectedGodot, min, max);
+
+				option.style.display = compatible ? "block" : "none";
+
+				if (compatible && firstVisible === -1) {
+					firstVisible = index;
+				}
+			});
+
+			const current = versionDropdown.selectedOptions[0];
+			if (!current || current.style.display === "none") {
+				versionDropdown.selectedIndex = firstVisible;
+			}
+
+			const agreeCheckbox = document.getElementById('agree_terms');
+			const dropdownWrapper = document.querySelector('.download-version-button');
+			
+			const isDisabled = firstVisible < 0 || (agreeCheckbox && !agreeCheckbox.checked);
+			downloadButton.classList.toggle("button-disabled", isDisabled);
+			if (dropdownWrapper) {
+				dropdownWrapper.classList.toggle("button-disabled", isDisabled);
+			}
+
+			// update for size/version display
+			versionDropdown.dispatchEvent(new Event("change"));
+		}
+
+		filterGodotVersions();
+		filterAssetVersions();
+
+		godotDropdown.addEventListener("change", filterAssetVersions);
+	});
+</script>	
+
+<script>
+/* 
+Download button functionality 
+*/
+document.addEventListener("DOMContentLoaded", () => {
+	// Handle version selection for download button
+	let downloadButton = document.querySelector('#download-button');
+	let downloadSize = document.querySelector('#download-button .download-size-info');
+	let downloadVersion = document.querySelector('#download-button .version');
+	let downloadDropdown = document.querySelector('#version-dropdown');
+	let downloadVersionWrapper = document.querySelector('.download-version-button');
+
+	// Update the information in the download button
+	function updateDownloadButton() {
+		if (downloadButton && downloadSize && downloadDropdown) {
+			let opt = downloadDropdown.options[downloadDropdown.selectedIndex];
+			downloadSize.textContent = `(${opt.dataset.size})`;
+			downloadVersion.textContent = `- ${opt.dataset.version}`;
+			// If there is only one option, hide the version selector
+			if (downloadDropdown.options.length <= 1) {
+				downloadVersionWrapper.style.display = 'none';
+			} else {
+				downloadVersionWrapper.style.display = 'block';
+				downloadButton.classList.add('with-version-selector');
+			}
+			document.querySelector('.download-version-button').style.height = `${downloadButton.offsetHeight}px`;
+		}
+	}
+	// Update download button on window resize (this can happen when the button goes to two lines in smaller screens)
+	window.addEventListener('resize', updateDownloadButton);
+	// Dropdown changed, update download button information
+	downloadDropdown.addEventListener('change', updateDownloadButton);
+	
+	// Initialize download button with the first option
+	updateDownloadButton();
+});
+</script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		const agreeCheckbox = document.getElementById('agree_terms');
+		const checkboxContainer = document.querySelector('.terms-checkbox-container');
+		const dropdownWrapper = document.querySelector('.download-version-button');
+		const downloadButton = document.getElementById("download-button");
+		const versionDropdown = document.getElementById('version-dropdown');
+
+		function setDownloadButtonDisabled(disabled) {
+			if (!downloadButton) return;
+			if (disabled) {
+				downloadButton.classList.add('button-disabled');
+				downloadButton.addEventListener('click', preventClick, true);
+				dropdownWrapper.classList.add('button-disabled');
+			} else {
+				downloadButton.classList.remove('button-disabled');
+				downloadButton.removeEventListener('click', preventClick, true);
+				dropdownWrapper.classList.remove('button-disabled');
+			}
+		}
+
+		function preventClick(e) {
+			if (checkboxContainer) {
+				checkboxContainer.classList.add('highlighted');
+				setTimeout(() => {
+					checkboxContainer.classList.remove('highlighted');
+				}, 2000);
+			}
+			e.preventDefault();
+			e.stopPropagation();
+		}
+
+		if (agreeCheckbox && downloadButton && versionDropdown) {
+			setDownloadButtonDisabled(!agreeCheckbox.checked);
+			agreeCheckbox.addEventListener('change', function() {
+				setDownloadButtonDisabled(!agreeCheckbox.checked);
+			});
+		}
+	});
+</script>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		const donationDialog = document.getElementById("donation-dialog");
+		const closeButton = document.getElementById("donation-close");
+		const donationText = document.getElementById("donation-text");
+		const libraryButton = document.getElementById("library-add-btn");
+		if (!libraryButton) return;
+
+		libraryButton.addEventListener("click", function () {	
+			if (libraryButton.dataset.donationLink) {
+				if (libraryButton.dataset.donationText) {
+					donationText.innerText = libraryButton.dataset.donationText
+				};
+				donationDialog.showModal();
+			}
+		});
+		
+		closeButton.addEventListener("click", function() {
+			donationDialog.close();
+		});
+	});
+	
+</script>
+
+<script>
+	// Handle tab switching (for example when you click a link to see the #reviews)
+	document.addEventListener("DOMContentLoaded", () => {
+		const tabs = document.querySelectorAll('.tabs .tab');
+		const showTab = (tab, updateHash = true) => {
+			tabs.forEach(t => t.classList.remove('active', 'input-themed'));
+			document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+			tab.classList.add('active', 'input-themed');
+			document.getElementById(tab.dataset.contentId).classList.add('active');
+			if (updateHash) {
+				history.replaceState(null, '', `#${tab.dataset.contentId.replace(/^asset-|-tab$/g, '')}`);
+			}
+		};
+
+		if (location.hash) {
+			const target = document.querySelector(`.tab[data-content-id="asset-${location.hash.slice(1)}-tab"]`);
+			if (target) showTab(target, false);
+		}
+
+		tabs.forEach(tab => tab.addEventListener('click', () => showTab(tab, true)));
+	});
+</script>
+	
+<footer>
+	<p>The Asset Store is being developed and is currently in <strong>beta</strong>. If you would like to know the latest changes visit our <a href="/changelog">changelog</a>. For our future plans, visit our <a href="/roadmap">roadmap</a>.</p>
+	<p>If you found any issue or if you have a suggestion, please create an issue in our <a href="https://github.com/godotengine/godot-asset-store-tracker">issue tracker</a>.</p>
+    <br>
+    <p><a href="/terms/">Terms</a> – <a href="/help/">Help</a> – <a href="/guidelines/">Guidelines</a></p>
+    <br>
+	<p>&copy; 2025-2026 - Godot Asset Store by <a href="https://godot.foundation">Godot Foundation</a>.</p>
+</footer>
+
+	<script src="/static/main.js"></script>
+	<script src="/static/js/search.js"></script>
+	<script src="/static/js/tags.js"></script>
+</body>
+
+
+<script>
+	function errorhandler(errorMessage) {
+		console.error("Redirecting to error page:", errorMessage);
+		window.alert(errorMessage);
+	}
+
+	document.body.addEventListener("htmx:targetError", () => 
+		errorhandler("An unexpected error occurred while processing your request.")
+	);
+	document.body.addEventListener("htmx:onLoadError", () => 
+		errorhandler("Failed to load content. The server might be down or unreachable.")
+	);
+	document.body.addEventListener("htmx:timeout", () => 
+		errorhandler("The request timed out. Please check your internet connection.")
+	);
+	document.body.addEventListener("htmx:onLoadError", ev => console.log(ev));
+</script>
+<script>
+	// Show banner if user is redirect from old domain.
+	document.addEventListener("DOMContentLoaded", function() {
+		const url = new URL(window.location);
+
+		if (url.searchParams.get('url_changed') === 'true') {
+			document.getElementById('redirect-banner').style.display = 'block';
+
+			// Remove the param to avoid people from sharing URLs with it
+			url.searchParams.delete('url_changed');
+			history.replaceState(null, '', url.pathname + url.search);
+		}
+	});
+</script>
+</html>

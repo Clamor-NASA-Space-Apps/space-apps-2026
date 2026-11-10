@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Last-Modified: Sat, 08 Jul 2023 01:15:55 GMT
+Content-Length: 179340715
+Content-Type: image/tiff

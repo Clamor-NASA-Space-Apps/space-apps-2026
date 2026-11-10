@@ -7,7 +7,8 @@
 - **Challenge:** "Build a Junior Astronaut Mission Trainer". Kids aged 7–12 run a Moon/Mars outpost and learn real trade-offs: life support, radiation shielding, power, food, communication delay.
   - Full text: `research/junior-astronaut/challenge.txt`.
   - Author video transcript: `research/junior-astronaut/video-subtitles.txt`.
-- **Our answer:** a **three.js browser game, "Outpost Gale"** (working title). A base in Gale crater on Mars, 30 sols, 3 meters, PG "mission lost" + replay of the 3 choices that caused it.
+- **Our answer:** a **Godot game exported to the web, "Outpost Gale"** (working title). A base in Gale crater on Mars, 30 sols, 3 meters, PG "mission lost" + replay of the 3 choices that caused it.
+  - **Engine and view changed on 10 Nov 2026:** Godot 4.7 in place of three.js, third person, a real-looking Mars, playable on a mid-range phone or a computer. What that needs and allows: `research/godot-build/README.md`. Its section 5 lists the decisions still open.
   - Full design: Docmost page "Game design and story".
 - **Plan:** `plan.md`. **Checklist:** `roadmap.md`. Tick roadmap items when done.
 
@@ -86,12 +87,13 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
 | Path | Contents |
 |---|---|
 | `research/junior-astronaut/` | `pages/` (saved sources), `sources.md`, `factcheck.md` (rows 1–143), `browser-excerpts.md`, `charts/` (chart HTML → PNG via `tooling/tools/html-to-png.mjs`), `images/` |
-| `assets-cache/nasa-3d/` | Perseverance, Ingenuity, Astronaut, Base Station, Habitat Demo Unit GLBs; Curiosity landing-site STL (real Gale terrain); Mars/Moon/Earth textures |
-| `assets-cache/kenney/` | Space Kit (153 GLB: domes, corridors, generators, dishes, rover, rocket parts, platforms, rocks; **no solar panels**), Space Station Kit, Sci-fi + Interface sounds. All CC0 |
+| `research/godot-build/` | The Godot build (10 Nov): what the web renderer can and cannot draw, assets and licences, real movement numbers and the look of Gale, the check of the unverified asset document, `references.md` (fact-check), `pages/` (saved sources) |
+| `assets-cache/nasa-3d/` | Perseverance, Ingenuity, Astronaut (a statue: no rig), Base Station, Habitat Demo Unit GLBs; Curiosity landing-site STL (real Gale terrain); Mars/Moon/Earth textures. **Five of the six GLBs are Draco-compressed, which Godot cannot read:** re-save with `gltf-transform optimize in.glb out.glb --compress false --texture-compress webp` |
+| `assets-cache/kenney/` | Space Kit (153 GLB: domes, corridors, generators, dishes, rover, rocket parts, platforms, rocks; **no solar panels**), Space Station Kit, Mini Characters (rigged, 32 clips: the fallback hero), Sci-fi + Interface sounds. All CC0. **No animated astronaut on disk** (candidate in `research/godot-build/assets.md`) |
 | `assets-cache/data-snapshots/` | NOAA flares + Kp, Curiosity weather (4,745 sols). DONKI still down on 8 Nov (503 upstream timeout, even with our key); retry |
 | `assets-cache/CREDITS.md` | Every asset's source, licence and credit line |
-| `tooling/` | Separate repo **agent-forge-3d**, the game factory: workflow and code rules in its `AGENTS.md`, Blender forge, capture-view, html-to-png. Will be public |
-| `tooling/projects/one-night-stray/` | Separate repo: the rehearsal game (a stray cat survives one night; brief in `STORY.md`). Throwaway |
+| `tooling/` | Separate repo **agent-forge-3d**, the game factory: workflow and code rules in its `AGENTS.md`, Blender forge, the Godot test hooks (capture-view, feel-probe, web-check), html-to-png. Will be public. **The Godot factory is on its `godot` branch**; `main` is the three.js one |
+| `tooling/projects/one-night-stray/` | Separate repo: the three.js rehearsal game (a stray cat survives one night; brief in `STORY.md`). Throwaway |
 | `tooling/projects/outpost-gale/` | Created on 14 Nov: the hackathon game. Separate repo |
 
 **Remotes** (Gitea, SSH works): `git@100.108.184.127:ravindu644/{nasa-space-apps-2026,agent-forge-3d,one-night-stray}.git`. GitHub mirrors come later. Ravindu decides when, because his GitHub is widely watched.
@@ -101,9 +103,10 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
 |---|---|
 | Blender 5.2.2 LTS | `/usr/bin/blender`. Headless: `blender -b -P recipe.py`. Fedora build logs an OCIO 2.5 vs 2.4.2 error, so previews use raw colour. Use Cycles CPU, not EEVEE |
 | Browser | Brave `/usr/bin/brave-browser`. There's no Chrome binary. playwright-core uses `executablePath` + SwiftShader |
-| Node | 22. npm cache is warm: three 0.187, vite 8.3, @gltf-transform/cli 4.5, playwright-core 1.65, postprocessing, n8ao, three-bvh-csg, @fontsource-variable/{lexend,fredoka} |
+| Godot 4.7.2 | Standard build (not .NET) at `~/Documents/Godot/Godot_v4.7.2-stable_linux.x86_64`, on PATH as `godot` (link in `~/.local/bin`). Export templates for Web, Linux and Android are installed. Headless: `godot --headless --path <project>` |
+| Node | 22. npm cache is warm: @gltf-transform/cli 4.5 (`npx --offline @gltf-transform/cli`), playwright-core 1.65, @fontsource-variable/{lexend,fredoka}, and the three.js set the rehearsal used |
 | Piper TTS | `~/opt/piper/bin/piper -m ~/opt/piper/voices/en_US-kristin-medium.onnx -f out.wav`. `kristin` = public domain; `libritts_r` = CC BY 4.0. Never use `lessac`/`amy`/`hfc_female` (licences). ffmpeg → Opus ~14 KB/line |
-| three.js skills | `~/.claude/skills/threejs-*` (13, CloudAI-X, r186). Give agents `https://threejs.org/docs/llms.txt` (5 KB), not llms-full |
+| Godot skills | `~/.claude/skills/godot-*` (12) plus camera-systems, input-systems, performance-optimization, game-ai, survival-crafting, game-jam, from gamedev-skills/awesome-gamedev-agent-skills (Apache-2.0, reviewed 10 Nov). Which to load for what: the Skills table in `tooling/AGENTS.md`. The 13 three.js skills stay installed for the rehearsal repo |
 | Design skills | design-taste-frontend (HUD/UI), ponytail (keep code minimal) |
 
 ## Docmost (team docs, space slug `NASA`)
@@ -143,16 +146,17 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
 3. Mark it ✅ / ⚠️ / ❌ in `factcheck.md`, and add the source to `sources.md`. Use the source's wording ("recognised" ≠ "winner").
 
 ## Build approach (details in `plan.md`)
-- **Stack:** vanilla three.js + Vite, HTML/CSS HUD overlay, pure-JS sim in its own folder with `node --test`.
+- **Stack:** Godot 4.7, GDScript only, the Compatibility renderer, a single-threaded web export. HUD in Control nodes, pure-GDScript sim in its own folder with headless tests. A web build has no other renderer and cannot run C#.
 - **Assemble, don't model.** Use the first option that works:
   1. Real NASA data/models.
   2. Kenney CC0.
-  3. three.js built-ins.
+  3. Engine built-ins (nodes, sky, particles).
   4. Code for effects only.
   5. Forge recipe (Blender).
-- **The scene is data** (`world.json`). One `applyHouseStyle()` for all GLBs. One `gltf-transform optimize` per asset.
-- **Test hooks:** `window.advanceTime(ms)`, `window.render_game_to_text()`, `window.capture.setView(name)`. Check with `tooling/tools/capture-view.mjs`.
+- **The scene is data** (`data/world.json`). One `Forge.HouseStyle.apply()` for all GLBs. One `gltf-transform optimize ... --compress false` per asset.
+- **Test hooks:** `Forge.register(self)` with `render_game_to_text()`, `set_view(name)`, `place(pos, yaw_deg)`. Check with `tooling/tools/capture-view.mjs`, `feel-probe.mjs` and `web-check.mjs`.
 - **Budgets:** assets <15 MB, first frame <3 s, <150 draw calls, 60 fps on a school laptop.
+  - **Team decision needed before 14 Nov:** these were set for three.js. Godot's engine alone is a 38 MB download (9.7 MB from a host that compresses), and the weakest device is now a phone. Re-decide the numbers after one test on a real phone.
 - **Kid UX:** icons first, ≤8 words per card, every line also spoken, targets ≥48 px, colour never the only signal.
   - **Team decision needed before 14 Nov:** in the rehearsal (10 Nov) the spoken lines annoyed the player and were removed; the factory now treats narration as opt-in and shows danger on screen. Decide whether Outpost Gale keeps "every line also spoken" (a Settings switch, off by default?).
 

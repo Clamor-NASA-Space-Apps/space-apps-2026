@@ -1,0 +1,2 @@
+Source: https://kenney.nl/assets/modular-space-kit (curl got HTTP 403; text below is WebFetch model output on 2026-11-10, EXCERPT ONLY, not raw HTML)
+Title: "Modular Space Kit"; Category: 3D, Modular series; Tags: space, tiles, modular, sci-fi, station; Features: "Animation", "Variation(s)"; Files: 40 ("40×"); License: "Creative Commons CC0"; Changelog: Version 1.0, "Released in 2026"; Buttons: "Download", "Get All-in-1 bundle". The page doesn't mention file formats.

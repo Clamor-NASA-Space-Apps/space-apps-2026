@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+  	<link rel="stylesheet" href="/assets/css/thumbnails.css">
+  	<link rel="stylesheet" href="/assets/css/style_new.css">
+    <link rel="shortcut icon" href="/assets/images/site/favicon.ico" />
+    <link rel="stylesheet" href="/assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="/assets/css/lity.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/f9d695b775.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99971748-1', 'auto');
+  ga('send', 'pageview');
+
+
+
+ $(document).ready(function(){
+ $('#search').keyup(function(){
+
+  // Search text
+  var text = $(this).val();
+
+  // Hide all content class element
+  $('.pack').hide();
+
+  // Search
+  $('.pack:contains("'+text+'")').closest('.pack').show();
+
+ //If the search bar gets emptied, show all packs
+ if(text == ''){
+       $('.pack').show();
+ }
+ });
+});
+
+//Case insensitive
+$.expr[":"].contains = $.expr.createPseudo(function(arg) {
+  return function( elem ) {
+   return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+  };
+});
+
+function responsiveHamburger() {
+	var x = document.getElementById("navButtons-id");
+	if (x.className === "navButtons") {
+		x.className += " responsive";
+	} else {
+		x.className = "navButtons";
+	}
+}
+
+function setValue(tag) {
+
+			var text = document.getElementById("search").value;
+		$('.pack').hide();
+		$('.pack:contains("'+tag+'")').closest('.pack').show();
+
+	}
+
+	function showAll(){
+		 $('.pack').show();
+	}
+	function openTutorial(number) {
+		console.log(number);
+  var x = document.getElementById(number);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+	</script>
+
+  <div class="container">
+
+      <header>
+			<button class="btnHamb hamburger" id="hamburger" onclick="responsiveHamburger()"> <img src="/assets/svg/bars.svg" class="iconBig"></button>
+     	<div class="nav-menu">
+						<div class="navButtons" id ="navButtons-id">
+               <button class="btn btnNavBar"   onClick="window.location='/index.html'"; ><div class="navicon"><img src="/assets/svg/rook.svg" class="iconBig"></div> Assets</button>
+							 <button class="btn btnNavBar"   onClick="window.location='/tutorials.html'"; ><div class="navicon"><img src="/assets/svg/book.svg" class="iconBig"></div> Tutorials</button>
+							 <button class="btn btnNavBar"   onClick="window.location='/faq.html'"; ><div class="navicon"><img src="/assets/svg/question.svg" class="iconBig"></div> FAQ</button>
+						  <button class="btn btnNavBar"  onclick=" window.open('https://www.artstation.com/quaternius','_blank')"; ><div class="navicon"><img src="/assets/svg/frog.svg" class="iconBig"></div> Portfolio</button>
+
+
+							 </div>
+<div class="socials">
+	<button class="btn licensebtn"  style="padding-top:7px;"onClick="window.location='/license.html'"; ><div class="navicon"><img src="/assets/svg/book.svg" class="iconBig"></div> License</button>
+<button class="btn twitter"  onclick=" window.open('https://discord.gg/hXB2qTTEnJ','_blank')" ><div class="joinDiscord"><img src="/assets/svg/discord.svg" class="iconBig"> Join on Discord</div></button>
+
+				<button class="btn twitter"  onclick=" window.open('https://twitter.com/quaternius','_blank')" ><img src="/assets/svg/square-twitter.svg" class="iconBig"></button>
+
+
+			</div></div>
+
+            <a href="/index.html"><img src ="/assets/images/site/logo.png" class ="logo"/></a>
+</header>
+
+      <div id="patreonBanner">
+    <nav class="menu-text-center">
+        <a href="https://www.patreon.com/quaternius" style="text-decoration:none" target=blank><img src="/assets/images/site/PatreonBanner.png" /></a>
+
+    </nav>
+</div>
+
+
+  </div>
+</head>
+
+<body>
+  <div class="container">
+
+
+
+      <title>Quaternius • F.A.Q</title>
+<head>
+	<meta name="title" content="Quaternius • Free Game Assets"/>
+<meta name="description" content="A library of hundreds of free Low Poly 3D Models, using the CC0 License."/>
+
+<meta name="twitter:image" content="/assets/images/fullres/metadata.jpg">
+<meta name="twitter:card" value="summary_large_image">
+<meta property="twitter:title" content="Quaternius • Free Game Assets"/>
+<meta property="twitter:description" content="A library of hundreds of free Low Poly 3D Models, using the CC0 License."/>
+<meta property="twitter:site" content="@Quaternius">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://quaternius.com">
+<meta property="og:site-name" content="Quaternius">
+<meta property="og:title" content="Quaternius • Free Game Assets">
+<meta property="og:description" content="A library of hundreds of free Low Poly 3D Models, using the CC0 License.">
+<meta property="og:image" content="/assets/images/fullres/metadata.jpg">
+<meta property="og:image:url" content="/assets/images/fullres/metadata.jpg">
+
+</head>
+
+
+<div class="faqWrap" style="border-top:solid #2C2C2C;">
+<button class="faqTitle"  onclick="openTutorial('0')">● Can I suggest <b>ideas for packs?</b>  <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="0" class="faqContent" style="display:none;margin:auto;"  border="0">
+Yes, you can submit pack ideas. The ones I like the most will be available for voting on the <a href="https://discord.gg/hXB2qTTEnJ"  target="_blank">Discord server</a>.<br>
+Patreon supporters' ideas are <b>prioritized</b>, though it is <b>not a requirement</b> to be a supporter for your idea to be selected.<br>
+<button class="btn packidea"  onclick=" window.open('https://forms.gle/cERojw3QKCuff3BA9','_blank')" ><div class="joinDiscord"><img src="/assets/svg/submission-form.svg" class="iconBig"> Submit a pack idea</div></button>
+</div></div>
+
+<div class="faqWrap" >
+<button class="faqTitle"  onclick="openTutorial('1')">● Can these assets be used in <b>commercial projects?</b>  <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="1" class="faqContent" style="display:none;margin:auto;"  border="0">
+<b>Yes</b>, these assets can be used <b>for free</b> without the need for attribution in <b>commercial, educational, and personal projects</b>.<br>
+All models are under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 License.</a>
+</div></div>
+
+<div class="faqWrap">
+<button class="faqTitle" onclick="openTutorial('2')">● What is the best way to stay informed about <b>new releases?</b> <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="2" class="faqContent" style="display:none;margin:auto;"  border="0">
+You can join the <a href="https://discord.gg/hXB2qTTEnJ" target="_blank">Discord server</a> or follow me on <a href="https://x.com/quaternius"  target="_blank">Twitter</a> to receive notifications about future releases.
+</div></div>
+
+<div class="faqWrap">
+<button class="faqTitle" onclick="openTutorial('3')">● Am I allowed to <b>modify</b> the models? <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="3" class="faqContent" style="display:none;margin:auto;"  border="0">
+<b>Yes</b>, you are free to modify the models in any way you like, including combining them with other asset packs.
+</div></div>
+
+<div class="faqWrap">
+<button class="faqTitle" onclick="openTutorial('4')">● Are the models <b>textured?</b> <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="4" class="faqContent" style="display:none;margin:auto;"  border="0">
+This depends on the pack. Most packs are textured using an <b>Atlas Texture</b>, where a single image with colored squares is used to optimize performance.<br>
+Some packs may use individual materials instead which are also convenient for color variations.
+</div></div>
+
+<div class="faqWrap">
+<button class="faqTitle" onclick="openTutorial('5')">● Do you offer services for <b>custom asset</b> creation? <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="5" class="faqContent" style="display:none;margin:auto;"  border="0">
+Yes, you can request custom assets through my <a href="https://www.patreon.com/quaternius" target="_blank">Patreon</a> page.
+</div></div>
+
+<div class="faqWrap">
+<button class="faqTitle" onclick="openTutorial('6')">● Is it necessary to give <b>credi</b>t when using these assets? <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="6" class="faqContent" style="display:none;margin:auto;"  border="0">
+No, attribution is not necessary. However, <b>credit is always appreciated</b>.
+These assets are licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/"  target="_blank">CC0</a>, allowing you to use them without giving credit, even for commercial purposes.
+</div></div>
+
+<div class="faqWrap">
+<button class="faqTitle" onclick="openTutorial('7')">● Which <b>software</b> can be used to edit these assets? <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="7" class="faqContent" style="display:none;margin:auto;"  border="0">
+You can edit these models using <b>Blender</b>, which is available for free. You can open the <b>.blend</b> files directly or import the <b>FBX</b> files.
+</div></div>
+
+<div class="faqWrap">
+<button class="faqTitle" onclick="openTutorial('8')">● How do I report a bug or issue with an asset? <img src="/assets/svg/arrow-down.svg" class="icon-faq"></button>
+<div id="8" class="faqContent" style="display:none;margin:auto;"  border="0">
+You can contact me via the email provided at the bottom right of this website.
+</div></div>
+
+      <footer>
+        <a class="float-left" target="_blank" href="https://www.twitter.com/quaternius">	&copy; Quaternius</a>
+        <a class="float-right" >laulhet@gmail.com</a>
+	</footer>
+
+  </div>
+</body>
+</html>

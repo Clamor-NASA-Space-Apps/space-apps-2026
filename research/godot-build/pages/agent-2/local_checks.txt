@@ -1,0 +1,22 @@
+# Local checks run 2026-11-10 with Godot 4.7.2.stable.official.ed1daf0bf
+## headless test: godot --headless --path scratch/proj -s t.gd --quit-after 5
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+display=headless method=gl_compatibility driver=opengl3
+frame 1 engine_frames=0
+frame 2 engine_frames=1
+ERROR: Parameter "t" is null.
+   at: texture_2d_get (./servers/rendering/dummy/storage/texture_storage.h:110)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://t.gd:10)
+image=<Object#null> empty=true
+frame 3 engine_frames=2
+frame 4 engine_frames=3
+frame 5 engine_frames=4
+finalize after 5 process calls
+
+## official template ~/.local/share/godot/export_templates/4.7.2.stable/web_nothreads_release.zip (unzipped to scratch, then removed)
+godot.wasm = 39514754 bytes; gzip -9 = 10084297 bytes
+grep -a -c in godot.wasm: JoltPhysicsServer3D=2 GodotPhysicsServer3D=2 RaycastOcclusionCull=0
+## GPU: 0000:00:02.0 VGA compatible controller: Intel Corporation Raptor Lake-P [UHD Graphics] (rev 04)
+## Vulkan ICDs present: asahi_icd.x86_64.json broadcom_icd.x86_64.json dzn_icd.x86_64.json freedreno_icd.x86_64.json intel_hasvk_icd.x86_64.json intel_icd.x86_64.json lvp_icd.x86_64.json nouveau_icd.x86_64.json panfrost_icd.x86_64.json powervr_mesa_icd.x86_64.json radeon_icd.x86_64.json virtio_icd.x86_64.json 

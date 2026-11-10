@@ -1,0 +1,321 @@
+               The Space Exploration Vehicle Characteristics (Surface Concept)
+                                                                                                                                            National Aeronautics and Space Administration
+Docking Hatch:                     Suit Portable Life Support       Suitports:                       Pressurized Rover:
+Allows crew members to             System-based Environmental       Allow suit donning and vehicle   Low-mass, low-volume design
+move from the rover to a
+habitat, an ascent module
+                                   Control Life Support System:
+                                   Reduces mass, cost, volume
+                                                                    egress in less than 10 minutes
+                                                                    with minimal gas loss.
+                                                                                                     makes it possible to have two
+                                                                                                     vehicles on a planetary lunar
+                                                                                                                                            Space Exploration Vehicle Concept
+or another rover.                  and complexity.                                                   surface, greatly extending the
+                                                                                                     range of safe exploration.
+
+
+
+
+                                                                                                                                                                                                                                                 NASAfacts
+Ice-shielded Lock /
+Fusible Heat Sink:
+                                                                                          Chariot Style Aft
+Lock surrounded by 2.5 cm
+                                                                                          Driving Station:
+of frozen water provides
+                                                                                          Enables crew to drive      Pivoting Wheels:
+radiation protection. Same
+                                                                                          rover while conduct-       Enables crab-style
+ice is used as a fusible heat
+                                                                                          ing moonwalks.             driving for docking
+sink, rejecting heat energy
+by melting ice instead of                                                                                            and maneuvering
+evaporating water to                                                                                                 on steep terrain.
+vacuum.
+
+                                                                                                                       Work Package
+Modular Design:
+                                                                                                                       Interface:
+Pressurized Rover and
+                                                                                                                       Allows attachment
+chassis may be delivered
+                                                                                                                       of modular work
+on separate landers or
+                                                                                                                       packages (e.g.
+pre-integrated on one
+                                                                                                                       winch, cable,
+lander.
+                                                                                                                       backhoe or crane).
+
+
+
+
+              The Space Exploration Vehicle Characteristics (In-Space Concept)
+                                                    Fusible Heat/                   Protected suitports for ready
+                                                    Sink Radiator                   EVA access (depicted with
+                             Cabin accommodates                                     body-mounted solar arrays
+                             2-4 crew members
+
+
+
+                          High visibility,                                                    Three International
+                          cockpit layout                                                      Docking Systems
+                                                                                              Standard-compliant
+                                                                                              docking hatches
+                     Small object pass                                                        (rear has no crew
+                     through airlock                                                          transfer)
+
+                                                                                         Reactant Control System
+                                                                                         propellent, power system,
+                Manipulator arms                                                         and crew consumables                               Background
+                for handling satellites                                                  storage
+                and other objects of                                                                                                        NASA is testing concepts for a new generation of roving space exploration vehicles. These new
+                interest                                                                Stowable, pointable                                 ideas will help future robots and astronauts explore more than ever before, build a long-term
+                                                                                        solar array                                         space presence and conduct a wealth of science experiments.
+
+                                                                                                                                            Roving vehicles proved invaluable during the Apollo missions, enabling astronauts to complete
+National Aeronautics and Space Administration                                                                                               almost 20 trips across the surface of the moon. With each successive mission, NASA improved
+                                                                                                                                            the rovers’ capacities, increasing the number and duration of exploration missions.
+Headquarters
+300 E Street, SW                                        The Space Exploration Vehicle Concept will rely on the incorporation of             NASA is still building on the lessons learned during the Apollo missions, and also incorporating
+Washington, DC 20546
+                                                        many advanced technologies. Examples include: Fuel Cells, Regenerative              the experience gained operating unmanned rovers on Mars. Using them, NASA has developed
+www.nasa.gov/centers/hq
+                                                        Brake, Wheels, Light-Weight Structures and Materials, Active Suspension,            the multi-mission Space Exploration Vehicle, or SEV. The SEV cabin concept could be coupled
+www.nasa.gov                                            Avionics and Software, Extravehicular Activity (EVA) Suitport, Thermal              with a flying platform for use near the International Space Station, satellite servicing and near-
+                                                        Control Systems, Automated Rendezvous and Docking, High Energy
+                                                                                                                                            Earth asteroid missions. A wheeled chassis concept, unveiled in 2007 with an upgraded version
+                                                        Density Batteries and Gaseous Hydrogen/Oxygen RCS system.
+FS-2011-08-045-JSC                                                                                                                          completed in 2009, could be used for exploring planetary surfaces.
+The Space Exploration Vehicle:
+                                                                                                                                      One of the goals for testing prototypes on Earth is to identify the features that are going to be the most useful in space.
+NASA plans to conduct human space exploration missions to a variety of destinations. To maximize the number of destinations           Although not all features currently being tested will end up on the flight vehicles, the following features are being designed
+NASA explores, space exploration systems must be flexible, and NASA must minimize the number of systems developed. One                and considered:
+system concept NASA is analyzing is the SEV. The SEV would use the same cabin for in-space missions (i.e., satellite servicing,
+telescope assembly and exploration of near-Earth asteroids) as well as surface exploration on planetary bodies (i.e., the moon        Range of Exploration
+and Mars).                                                                                                                            On the surface of distant destinations, travel range is limited primarily by how
+                                                                                                                                      quickly astronauts can get back to a safe, pressurized environment in case
+On planetary surfaces, astronauts will need surface mobility to explore multiple sites across the lunar and Martian surfaces.
+                                                                                                                                      of an emergency. During the Apollo program, exploration was confined to the
+The SEV surface concept has the small, pressurized cabin mounted on a wheeled chassis that would enable a mobile form of
+                                                                                                                                      distance astronauts could expect to walk back wearing spacesuits if their rov-
+exploration. These two components could be delivered to the planetary surface together, or as separate elements. The SEV
+                                                                                                                                      ers broke down: about 6 miles. The presence of two or more service SEVs on
+can provide the astronauts’ main mode of transportation, and – unlike the unpressurized Apollo lunar rover – also allow them
+                                                                                                                                      a planetary surface would extend that potential range to more than 125 miles
+to go on long excursions without the restrictions imposed by spacesuits. The pressurized cabin has a suitport that allows the
+                                                                                                                                      in any direction, greatly increasing the scientific opportunities during missions.
+crew to get into their spacesuits and out of the vehicle faster than before, enabling multiple, short spacewalks as an alternative
+                                                                                                                                      Even in the midst of challenging terrain, emergency shelter and support can be
+to one long spacewalk.
+                                                                                                                                      less than an hour away.
+The surface exploration version of the SEV also features pivoting wheels that enable “crab style” sideways movement, which
+helps the vehicle maneuver over difficult terrain. Its tiltable cockpit provides the drivers the best possible view of the terrain    Astronaut Protection
+ahead. Astronauts can drive the mobility chassis, called Chariot, without the pressurized cabin by riding in rotating turrets while   The greatest risk to space explorers is from unanticipated solar particle events.
+wearing spacesuits. Additionally, Chariot can be used to carry cargo. The modular design allows various tools – winches, cable        With a heavily shielded cabin, the SEV doubles as a storm shelter. The rapidly
+reels, backhoes, cranes and bulldozer blades – to be attached for special missions. It could even pick up and reposition solar-       accessible, pressurized, radiation-hard safe haven can sustain and protect
+powered charging stations, communication relays and scientific packages.                                                              exploring crew members for up to 72 hours against solar particle events, acute
+                                                                                                                                      suit malfunctions and other medical emergencies. The radiation shielding in
+The in-space version of the SEV would have the pressurized cabin on a flying platform and allow astronauts to live inside for up      the SEV cabin provides protection that the Apollo crew did not have on their
+to 14 days. It would provide robotic manipulators to grasp objects for observation, and allow astronauts easy access to space         unpressurized rover – or even on their lander.
+via the suitports, to maximize their productivity performing spacewalks outside of the cabin.
+                                                                                                                                      Rapid Ingress/Egress
+                                                                                                                                      The SEV system’s suitport concept allows astronauts to go out for a space-
+                                                                                                                                      walk at almost a moment’s notice. The suitport will allow the crew to enter and
+                                                                                                                                      exit their spacesuits without bringing the suit inside, keeping the internal space
+                                                                                                                                      mostly free of dust and other contaminants and reducing wear and tear on the
+                                                                                                                                      suits. The suitport also minimizes the loss of air inside the cabin when it is de-
+                                                                                                                                      pressurized for spacewalks, extending mission durations by maximizing avail-
+                                                                                                                                      able SEV resources.
+
+                                                                                                                                      Intra Vehicular Activity (IVA) Capability
+                                                                                                                                      By combining a pressurized cabin with a suitport, the SEV gives crew members
+                                                                                                                                      the unprecedented flexibility of being able to easily switch between working in
+                                                                                                                                      plain clothes or spacesuits. Although astronauts may want to exit the vehicle to
+                                                                                                                                      take a closer look at something outside, activities requiring fine manipulation and
+                                                                                                                                      unfettered visual access are best performed without the confines of bulky gloves
+                                                                                                                                      and helmets. Astronauts can sit comfortably in a cabin and look at workstations
+                                                                                                                                      or geologic formations without the continuous exertion of working in a space-
+                                                                                                                                      suit, which allows them better use of computers, robotic operation, maps and
+                                                                                                                                      dialogue between crew members. The cabin can also serve as a rolling science
+                                                                                                                                      lab for studying samples.
+
+                                                                                                                                      Docking Hatch
+                                                                                                                                      Rather than a door, a docking hatch allows crew members to move from the
+                                                                                                                                      rover to a habitat, an ascent module or another rover.
+
+                                                                                                                                      Extended Range on Earth and Elsewhere
+Functional Requirements:                                                SEV (Surface Concept) Speciﬁcations:                          Like electric cars here at home, the SEV will rely on batteries to travel. NASA
+                                                                                                                                      is developing batteries that weigh less and provide more power than those
+• The SEV must be able to hold a crew of two, but can support           Weight: 6,600 pounds
+  a crew of four in an emergency
+                                                                                                                                      currently being used in earthly automobiles. The same technology that will
+                                                                        Payload: 2,200 pounds
+                                                                                                                                      someday allow astronauts to see more of space could also lead to better, more
+                                                                        Length: 14.7 feet
+• It can travel at about 10 kilometers per hour                                                                                       efficient transportation on Earth. Electric commuter vehicles, off-road vehicles,
+                                                                        Wheelbase: 13 feet
+• The mobility chassis wheels are able to pivot 360 degrees, allowing   Height: 10 feet                                               transport trucks and construction equipment may one day benefit from NASA’s
+  it to drive in any direction                                          Wheels: 4.7x39 inches in diameter, 12 inches wide             battery innovations.
+The Space Exploration Vehicle:
+                                                                                                                                      One of the goals for testing prototypes on Earth is to identify the features that are going to be the most useful in space.
+NASA plans to conduct human space exploration missions to a variety of destinations. To maximize the number of destinations           Although not all features currently being tested will end up on the flight vehicles, the following features are being designed
+NASA explores, space exploration systems must be flexible, and NASA must minimize the number of systems developed. One                and considered:
+system concept NASA is analyzing is the SEV. The SEV would use the same cabin for in-space missions (i.e., satellite servicing,
+telescope assembly and exploration of near-Earth asteroids) as well as surface exploration on planetary bodies (i.e., the moon        Range of Exploration
+and Mars).                                                                                                                            On the surface of distant destinations, travel range is limited primarily by how
+                                                                                                                                      quickly astronauts can get back to a safe, pressurized environment in case
+On planetary surfaces, astronauts will need surface mobility to explore multiple sites across the lunar and Martian surfaces.
+                                                                                                                                      of an emergency. During the Apollo program, exploration was confined to the
+The SEV surface concept has the small, pressurized cabin mounted on a wheeled chassis that would enable a mobile form of
+                                                                                                                                      distance astronauts could expect to walk back wearing spacesuits if their rov­
+exploration. These two components could be delivered to the planetary surface together, or as separate elements. The SEV
+                                                                                                                                      ers broke down: about 6 miles. The presence of two or more service SEVs on
+can provide the astronauts’ main mode of transportation, and – unlike the unpressurized Apollo lunar rover – also allow them
+                                                                                                                                      a planetary surface would extend that potential range to more than 125 miles
+to go on long excursions without the restrictions imposed by spacesuits. The pressurized cabin has a suitport that allows the
+                                                                                                                                      in any direction, greatly increasing the scientific opportunities during missions.
+crew to get into their spacesuits and out of the vehicle faster than before, enabling multiple, short spacewalks as an alternative
+                                                                                                                                      Even in the midst of challenging terrain, emergency shelter and support can be
+to one long spacewalk.
+                                                                                                                                      less than an hour away.
+The surface exploration version of the SEV also features pivoting wheels that enable “crab style” sideways movement, which
+helps the vehicle maneuver over difficult terrain. Its tiltable cockpit provides the drivers the best possible view of the terrain    Astronaut Protection
+ahead. Astronauts can drive the mobility chassis, called Chariot, without the pressurized cabin by riding in rotating turrets while   The greatest risk to space explorers is from unanticipated solar particle events.
+wearing spacesuits. Additionally, Chariot can be used to carry cargo. The modular design allows various tools – winches, cable        With a heavily shielded cabin, the SEV doubles as a storm shelter. The rapidly
+reels, backhoes, cranes and bulldozer blades – to be attached for special missions. It could even pick up and reposition solar-       accessible, pressurized, radiation-hard safe haven can sustain and protect
+powered charging stations, communication relays and scientific packages.                                                              exploring crew members for up to 72 hours against solar particle events, acute
+                                                                                                                                      suit malfunctions and other medical emergencies. The radiation shielding in
+The in-space version of the SEV would have the pressurized cabin on a flying platform and allow astronauts to live inside for up      the SEV cabin provides protection that the Apollo crew did not have on their
+to 14 days. It would provide robotic manipulators to grasp objects for observation, and allow astronauts easy access to space         unpressurized rover – or even on their lander.
+via the suitports, to maximize their productivity performing spacewalks outside of the cabin.
+                                                                                                                                      Rapid Ingress/Egress
+                                                                                                                                      The SEV system’s suitport concept allows astronauts to go out for a space-
+                                                                                                                                      walk at almost a moment’s notice. The suitport will allow the crew to enter and
+                                                                                                                                      exit their spacesuits without bringing the suit inside, keeping the internal space
+                                                                                                                                      mostly free of dust and other contaminants and reducing wear and tear on the
+                                                                                                                                      suits. The suitport also minimizes the loss of air inside the cabin when it is de­
+                                                                                                                                      pressurized for spacewalks, extending mission durations by maximizing avail­
+                                                                                                                                      able SEV resources.
+
+                                                                                                                                      Intra Vehicular Activity (IVA) Capability
+                                                                                                                                      By combining a pressurized cabin with a suitport, the SEV gives crew members
+                                                                                                                                      the unprecedented flexibility of being able to easily switch between working in
+                                                                                                                                      plain clothes or spacesuits. Although astronauts may want to exit the vehicle to
+                                                                                                                                      take a closer look at something outside, activities requiring fine manipulation and
+                                                                                                                                      unfettered visual access are best performed without the confines of bulky gloves
+                                                                                                                                      and helmets. Astronauts can sit comfortably in a cabin and look at workstations
+                                                                                                                                      or geologic formations without the continuous exertion of working in a space­
+                                                                                                                                      suit, which allows them better use of computers, robotic operation, maps and
+                                                                                                                                      dialogue between crew members. The cabin can also serve as a rolling science
+                                                                                                                                      lab for studying samples.
+
+                                                                                                                                      Docking Hatch
+                                                                                                                                      Rather than a door, a docking hatch allows crew members to move from the
+                                                                                                                                      rover to a habitat, an ascent module or another rover.
+
+                                                                                                                                      Extended Range on Earth and Elsewhere
+Functional Requirements:                                                SEV (Surface Concept) Speciﬁcations:                          Like electric cars here at home, the SEV will rely on batteries to travel. NASA
+                                                                                                                                      is developing batteries that weigh less and provide more power than those
+• The SEV must be able to hold a crew of two, but can support           Weight: 6,600 pounds
+  a crew of four in an emergency
+                                                                                                                                      currently being used in earthly automobiles. The same technology that will
+                                                                        Payload: 2,200 pounds
+                                                                                                                                      someday allow astronauts to see more of space could also lead to better, more
+                                                                        Length: 14.7 feet
+• It can travel at about 10 kilometers per hour                                                                                       efficient transportation on Earth. Electric commuter vehicles, off-road vehicles,
+                                                                        Wheelbase: 13 feet
+• The mobility chassis wheels are able to pivot 360 degrees, allowing   Height: 10 feet                                               transport trucks and construction equipment may one day benefit from NASA’s
+  it to drive in any direction                                          Wheels: 4.7x39 inches in diameter, 12 inches wide             battery innovations.
+               The Space Exploration Vehicle Characteristics (Surface Concept)
+                                                                                                                                            National Aeronautics and Space Administration
+Docking Hatch:                     Suit Portable Life Support       Suitports:                       Pressurized Rover:
+Allows crew members to             System-based Environmental       Allow suit donning and vehicle   Low-mass, low-volume design
+move from the rover to a
+habitat, an ascent module
+                                   Control Life Support System:
+                                   Reduces mass, cost, volume
+                                                                    egress in less than 10 minutes
+                                                                    with minimal gas loss.
+                                                                                                     makes it possible to have two
+                                                                                                     vehicles on a planetary lunar
+                                                                                                                                            Space Exploration Vehicle Concept
+or another rover.                  and complexity.                                                   surface, greatly extending the
+                                                                                                     range of safe exploration.
+
+
+
+
+                                                                                                                                                                                                                                                 NASAfacts
+Ice-shielded Lock /
+Fusible Heat Sink:
+                                                                                          Chariot Style Aft
+Lock surrounded by 2.5 cm
+                                                                                          Driving Station:
+of frozen water provides
+                                                                                          Enables crew to drive      Pivoting Wheels:
+radiation protection. Same
+                                                                                          rover while conduct-       Enables crab-style
+ice is used as a fusible heat
+                                                                                          ing moonwalks.             driving for docking
+sink, rejecting heat energy
+by melting ice instead of                                                                                            and maneuvering
+evaporating water to                                                                                                 on steep terrain.
+vacuum.
+
+                                                                                                                       Work Package
+Modular Design:
+                                                                                                                       Interface:
+Pressurized Rover and
+                                                                                                                       Allows attachment
+chassis may be delivered
+                                                                                                                       of modular work
+on separate landers or
+                                                                                                                       packages (e.g.
+pre-integrated on one
+                                                                                                                       winch, cable,
+lander.
+                                                                                                                       backhoe or crane).
+
+
+
+
+              The Space Exploration Vehicle Characteristics (In-Space Concept)
+                                                    Fusible Heat/                   Protected suitports for ready
+                                                    Sink Radiator                   EVA access (depicted with
+                             Cabin accommodates                                     body-mounted solar arrays
+                             2-4 crew members
+
+
+
+                          High visibility,                                                    Three International
+                          cockpit layout                                                      Docking Systems
+                                                                                              Standard-compliant
+                                                                                              docking hatches
+                     Small object pass                                                        (rear has no crew
+                     through airlock                                                          transfer)
+
+                                                                                         Reactant Control System
+                                                                                         propellent, power system,
+                Manipulator arms                                                         and crew consumables                               Background
+                for handling satellites                                                  storage
+                and other objects of                                                                                                        NASA is testing concepts for a new generation of roving space exploration vehicles. These new
+                interest                                                                Stowable, pointable                                 ideas will help future robots and astronauts explore more than ever before, build a long-term
+                                                                                        solar array                                         space presence and conduct a wealth of science experiments.
+
+                                                                                                                                            Roving vehicles proved invaluable during the Apollo missions, enabling astronauts to complete
+National Aeronautics and Space Administration                                                                                               almost 20 trips across the surface of the moon. With each successive mission, NASA improved
+                                                                                                                                            the rovers’ capacities, increasing the number and duration of exploration missions.
+Headquarters
+300 E Street, SW                                        The Space Exploration Vehicle Concept will rely on the incorporation of             NASA is still building on the lessons learned during the Apollo missions, and also incorporating
+Washington, DC 20546
+                                                        many advanced technologies. Examples include: Fuel Cells, Regenerative              the experience gained operating unmanned rovers on Mars. Using them, NASA has developed
+www.nasa.gov/centers/hq
+                                                        Brake, Wheels, Light-Weight Structures and Materials, Active Suspension,            the multi-mission Space Exploration Vehicle, or SEV. The SEV cabin concept could be coupled
+www.nasa.gov                                            Avionics and Software, Extravehicular Activity (EVA) Suitport, Thermal              with a flying platform for use near the International Space Station, satellite servicing and near-
+                                                        Control Systems, Automated Rendezvous and Docking, High Energy
+                                                                                                                                            Earth asteroid missions. A wheeled chassis concept, unveiled in 2007 with an upgraded version
+                                                        Density Batteries and Gaseous Hydrogen/Oxygen RCS system.
+FS-2011-08-045-JSC                                                                                                                          completed in 2009, could be used for exploring planetary surfaces.
+

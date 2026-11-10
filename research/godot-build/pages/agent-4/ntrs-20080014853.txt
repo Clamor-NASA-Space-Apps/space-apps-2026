@@ -1,0 +1,522 @@
+    Feasibility of Suited 10-km Ambulation “Walkback”
+    on the Moon
+
+
+
+    Jason Norcross, M.S.
+    Lesley Lee, M.S.
+    John K. De Witt, Ph.D.
+    Jill S. Klein
+    James H. Wessel III
+    Michael L. Gernhardt, Ph.D.
+
+    Aerospace Medical Association
+    May 12-15, 2008
+    Boston, Massachusetts, USA
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross   1
+ Introduction                                                          Apollo Astronaut
+                                                                          on Rover
+   Are 1 or 2 surface rovers
+    required to enable safe and
+    efficient human exploration of
+    the Moon?
+        – Increased mass, volume, and
+          cost associated with launch and
+          transport of two rovers
+        – May not be necessary if
+          crewmembers could walk back
+          to habitat if rover failed
+        – 10-km “walkback” used as
+          starting point based on:
+                • Apollo program
+                • Anticipated lunar surface
+                  operational concepts
+
+
+
+
+                                                                      MKIII Prototype EVA Suit
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                              2
+ Objectives
+
+• Primary objective: Collect biomedical and human performance data
+  and produce a crew consensus regarding the feasibility of performing
+  a suited 10-km walkback
+
+• Secondary objectives:
+
+      – Understand specific biomedical and human performance limitations of the
+        suit compared to matched shirt-sleeve controls
+
+      – Collect metabolic and ground-reaction force data to develop an EVA
+        simulator for use on future prebreathe protocol verification tests
+
+      – Provide data to estimate consumables usage for input to suit and portable
+        life support system (PLSS) design
+
+      – Assess the cardiovascular and resistance exercise associated with partial-
+        gravity EVA for planning appropriate exploration exercise
+        countermeasures
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                 3
+ Subjects
+
+• NASA crewmembers                                                                Mean ± SD      Range
+      – n=6
+                                                                      Age (yrs)   46.8 ± 4.3     40 - 51
+      – Typically members of
+        the EVA Branch                                            Height (cm)     180.3 ± 5.0   175 -188
+• Good fit with MKIII EVA
+                                                               Body Mass (kg)     81.4 ± 7.8    71.2 - 89.4
+  Suit
+                                                                    VO2pk
+• All males                                                                       48.7 ± 5.7    40.8 - 55.6
+                                                                (mlykg-1ymin-1)
+      – Females were not
+        excluded, but were not
+        included either due to
+        inadequate suit fit or
+        unavailability
+• Current Air Force Class III
+  physical
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                                           4
+ Test Hardware
+     • Partial gravity simulator (Pogo)
+           – Overhead suspension
+           – Spider/gimbal attachment for
+             suited test
+           – Spreader-bar and harness for
+             unsuited tests
+     • MKIII EVA Suit
+           – Hybrid of hard (torso/brief) and
+             soft (arms/legs) components
+           – Multi-axial mobility for planetary
+             environments
+           – 121 kg total suit weight
+     • Challenger Treadmill
+           – COTS product
+           – 27" x 72" walking surface
+           – Mounted forceplates at each
+             corner
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross   5
+ Testing Protocols
+• VO2pk Test (Treadmill)
+
+• Preferred Transition Speed (PTS) Determination
+
+      – Walk to run transition determined at 1/6 g and 3/8 g both unsuited and suited
+
+• Unsuited Energy-Velocity Test
+
+      – 3 minutes at 6 different speeds (3 below PTS and 3 above PTS), 0% grade
+
+      – 1 g, 1/6 g, 3/8 g, 1/6 g weight-matched, 3/8 g weight-matched
+
+• Suited Energy-Velocity Test
+
+      – 3 minutes at 6 different speeds (3 below PTS and 3 above PTS), 0% grade
+
+      – 1/6 g, 3/8 g
+
+• Suited 10 km Walkback Test
+
+      – Unlimited time to complete 10 km on level treadmill at 1/6 g
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                     6
+ Data Collected
+• Physiological Data
+      –    Oxygen consumption, CO2 production, etc.
+
+      –    Heart rate
+
+      –    Skin and core temperatures (limited)
+
+• Biomechanical Data
+      –    Ground reaction forces (GRF)
+
+      –    Gait parameters (stride length, cadence, etc.)
+
+      –    Kinematics
+
+• Subjective Measures
+      –    Rating of Perceived Exertion
+
+      –    Modified Cooper-Harper Scale (operator compensation, controllability)
+
+      –    Discomfort Scale (Corlett and Bishop)
+
+• Video/Photo
+      –    All sessions were videotaped
+
+      –    Photos taken of any medical or discomfort issues for later use in suit trauma countermeasures work
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                                             7
+ Subjective Measurements                                                 Cooper-Harper
+
+
+
+                                                               CONTROL
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                      8
+ Subjective Measurements
+                                                                                                                           Discomfort
+
+
+                                             Front of Participant                                                          Back of Participant
+            RPE                                             Z1
+                                                                                               Discomfort Scale
+                                                                                                                                         Z
+      6       No exertion at all                                                  0    Nothing at All
+                                                            A1                                                                           A
+      7        Extremely light                    C1              B1             0.5   Extremely Low Discomfort
+                                                                                                                                 B               C
+      8                                                                           1    Very Low Discomfort
+                                                            D1                                                                           D
+      9           Very light                                                      2    Low Discomfort                           E                F
+      10                                                                          3    Moderate Discomfort                               G
+                                             Q1             E1     R1
+      11            Light                                                         4                                          H
+                                                                                                                                                     J
+                                                                                                                                         I
+      12                                                    F1                    5    High Discomfort                                   K
+      13       Somewhat hard                 S1                        T1                                                   L                        M
+                                                                                  6
+      14                                           G1        H1
+                                                                                  7    Very High Discomfort                                  O
+                                                                                                                                     N
+      15        Hard (heavy)                                                      8
+      16                                               OF NF
+                                                                                  9
+      17          Very hard                            I1    J1                  10    Extremely High Discomfort
+      18                                                                                                                             P Q
+      19       Extremely hard                K1                    L1                                         R
+                                        M1                                  N1                                                                            S
+      20      Maximal exertion                                     P1                                         T
+                                             O1                                                                                                               U
+                                                                                                                   V                                  W
+                                                                                                                       X                             Y
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                                                                                               9
+ Examples of Suited and Unsuited Locomotion
+
+                                                       • Differences
+                                                         include:
+                                                             – Weight
+                                                             – Inertial mass
+                                                             – Pressure
+                                                             – Kinematic
+                                                               constraints
+                                                             – Stability
+                                                             – Overhead
+                                                               suspension
+                                                               methods
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross            10
+ Energy-Velocity Series Results - Moon
+                    45
+
+                                                                                     Earth, unsuited (×)
+                    40
+                             Metabolic Cost
+                    35
+
+
+                    30
+
+                                   Moon, suited (■)                                                   Total Metabolic
+
+
+  VO2 (ml/min/kg)
+                    25                                                                                 Cost of Suit
+                                                        Inertial Mass
+                                                         Kinematics
+                    20                                    Pressure
+                                                                           Weight Factors
+
+                    15
+
+                                                                                       Moon, unsuited (Δ)
+                    10
+                                                 Moon, unsuited / weighted (♦)
+                                                                                                                                       500
+                     5
+                                                                                                                                       450
+                                                                                                                                                                               Transport Cost
+                     0
+                                                                                                                                       400
+                         1     2             3               4                   5                   6                                             7                  8
+
+
+
+
+                                                                                                           Transport Cost (ml/kg/km)
+                                                                 Speed (mph)                                                           350
+                                                                                                                                                                                 Moon, suited
+                                                                                                                                       300
+                                                                                                                                                                                                         Earth, unsuited
+
+                                                                                                                                       250
+                                                                                                                                                 Moon, unsuited weighted
+                                                                                                                                       200
+
+
+                                                                                                                                       150
+
+
+                                                                                                                                       100
+
+                                                                                                                                                        Moon, unsuited
+                                                                                                                                        50
+                                                                                                                                             1            2                3          4          5   6             7       8
+                                                                                                                                                                                       Speed (mph)
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                                                                                                                                                        11
+ Energy-Velocity Series Results - Mars
+                                                 Metabolic Cost
+                              45
+                                                                                        Earth, unsuited
+                              40
+
+
+                              35
+
+
+
+
+ Metabolic Rate (ml/kg/min)
+                              30
+
+                                       Mars, suited
+                              25
+
+
+                              20
+
+
+                              15         Mars, unsuited
+                                         weighted                                                 Mars, unsuited
+                              10
+
+
+                               5                                                                                                      500
+
+
+                                                                                                                                      450
+                                                                                                                                                                                                       Transport Cost
+                               0
+                                   1                  2   3       4                 5                6                                          7                8
+                                                                                                                                      400
+                                                                      Speed (mph)
+
+
+
+
+                                                                                                          Transport Cost (ml/kg/km)
+                                                                                                                                      350
+                                                                                                                                                                              Mars, suited
+                                                                                                                                      300
+                                                                                                                                                                                                                   Earth,
+                                                                                                                                                Mars, unsuited weighted                                            unsuited
+                                                                                                                                      250
+
+
+                                                                                                                                      200
+
+
+                                                                                                                                      150
+
+
+                                                                                                                                      100
+                                                                                                                                                                  Mars, unsuited
+
+                                                                                                                                       50
+                                                                                                                                            1            2                3              4                 5   6         7         8
+
+                                                                                                                                                                                             Speed (mph)
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                                                                                                                                                           12
+Implications for Walkback
+
+
+1. Faster speeds                                               400                                                                            3500
+
+
+   provide
+   improved                                                    350
+                                                                          Transport cost,                                                     3000
+   efficiency, but                                                        Moon suited (□)
+
+
+
+
+                                   Transport Cost (ml/kg/km)                                                                                         Heat Production (BTU/hr)
+   require higher                                              300
+   per-minute                                                                                                                                 2500
+
+   metabolic
+                                                               250
+   cost
+                                                                                                                                              2000
+2. Cooling may                                                 200
+   be a limiting
+   factor                                                                Heat Production ( ♦ )                         Cooling Limit of       1500
+                                                               150                                                      Apollo & STS
+                                                                                                                            Suits
+
+
+
+
+                                                               100                                                                            1000
+                                                                     0           1               2   3         4   5    6                 7
+                                                                                                     Speed (mph)
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                                                                                                             13
+                    10 km Walkback Summary
+                6
+                                                                            10 km Walkback Summary Data
+
+                5
+                                                                            (averaged across entire 10 km unless noted)
+
+                                                                                                                      MEAN            SD
+                4
+
+
+
+  Speed (mph)
+                                                                            Avg walkback velocity (mph)                    3.9        0.5
+
+                                                                            Time to complete 10 km (min)                  95.8        13
+                3
+
+                                                                            Avg %VO2pk                                    50.8%     6.1%
+
+                2
+                                                                            Avg met rate (BTU/hr)                         2374      303.9
+
+                                                                            Max. 15-min-avg met rate (BTU/hr)             2617       315
+                1
+                    0   20   40         60        80        100       120
+                                                                            Total energy expenditure (kcal)               944.2      70.5
+                                    Time (min)
+
+                                                                            RPE                                           11.8        1.6
+
+                                                                            Cooper-Harper                                  3.5        1.4
+
+                                                                            Water used for drinking (oz)              ~24-32         N/A
+
+                                                                            Planning / PLSS Sizing Data              Walkback       Apollo
+
+                                                                            O2 Usage                                 0.4 lbs/hr   0.15 lbs/hr
+
+                                                                            BTU average                            2374 BTU/hr    933 BTU/hr
+
+                                                                            Cooling water                            3.1 lbs/hr   0.98 lbs/hr
+
+                                                                            Energy expenditure                      599 kcal/hr   233 kcal/hr
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                                                                             14
+ Key Findings
+• Suited locomotion had higher metabolic rates than unsuited and unsuited
+  weight-matched controls
+
+• Locomotion in Mars gravity required higher metabolic rates than Moon gravity
+  for both suited and unsuited trials
+
+      – MKIII EVA Suit functioned acceptably throughout all speeds on the Moon, but was
+        extremely limited on Mars
+
+• Lunar transport cost decreased as speed increased and leveled off around 4
+  mph, but these improvements in efficiency may be offset by limited cooling
+  capacity to handle the higher average metabolic rate
+
+• All subjects completed the 10 km walkback and with little difficulty
+
+      – Averages of 51% VO2pk and RPE=12
+
+      – Subjects experimented to find the highest speed they could comfortably tolerate
+        with most stating that cooling was a limiting factor
+
+      – Cooper-Harper of 3.5 ± 1.6 indicates that improvements are warranted
+
+      – Average Discomfort rating of 1.5 ± 1.1 (knees, feet, toes)
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                       15
+ Study Limitations
+
+   • Smooth, level treadmill
+   • Subjects free to stop at any time
+   • No hills
+   • No stress (life not at stake)
+   • No navigation or real-time troubleshooting
+   • Subjects’ balance possibly supported by overhead Pogo/gimbal structure
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross           16
+ Forward Work
+• Determine which components of the suit have the greatest effect on
+  metabolic rate
+
+      – Weight, inertial mass, pressure, center of gravity, kinematic constraints
+
+• Move beyond level locomotion
+
+      – Evaluate exploration tasks (shoveling, picking up rocks, construction)
+
+      – Inclined / declined locomotion
+
+• Evaluate a different suit design
+
+• Evaluate study limitations
+
+      – Increase the operational aspects: time requirements, navigation, troubleshooting
+
+      – Introduce hill profiles
+
+      – Introduce surface variations
+
+
+
+
+“Feasibility of Suited 10 km Walkback on the Moon” - Jason Norcross                        17
+

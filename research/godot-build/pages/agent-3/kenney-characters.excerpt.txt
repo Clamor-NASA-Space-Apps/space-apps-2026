@@ -1,0 +1,3 @@
+Sources (curl got HTTP 403; text below is WebFetch model output on 2026-11-10, EXCERPT ONLY, not raw HTML):
+https://kenney.nl/assets/mini-characters -> Files: 40x; Features: Animation; License: Creative Commons CC0; Changelog: 2.0 "More characters and accessories", 1.0 "Released in 2024"; Tags: character, people, disability. No sentence about animations or rigs.
+https://kenney.nl/assets/series:Animated%20Characters -> lists three packs: Animated Characters Retro (https://kenney.nl/assets/animated-characters-retro), Animated Characters Protagonists (https://kenney.nl/assets/animated-characters-protagonists), Animated Characters Survivors (https://kenney.nl/assets/animated-characters-survivors). Contents/clips not checked.
