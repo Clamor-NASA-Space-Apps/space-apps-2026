@@ -41,6 +41,8 @@ All from the NASA Image and Video Library (https://images.nasa.gov). Look one up
 | බලශක්තිය, ජනනය සහ පරිභෝජනය (Sinhala) | 2. ජනනය, table | iss040e007122 | NASA | Reid Wiseman works with the Common Cabin Air Assembly, 4 Jun 2014 |
 | බලශක්තිය, ජනනය සහ පරිභෝජනය (Sinhala) | 2. ජනනය, table | iss029e043447 | NASA | Dan Burbank works with the Urine Processor Assembly, 19 Nov 2011 |
 | බලශක්තිය, ජනනය සහ පරිභෝජනය (Sinhala) | 2. ජනනය, table | bpa-filter-repair (nasa.gov article "NASA Achieves Water Recovery Milestone", 20 Jun 2023; not in the image library) | NASA | Kayla Barron replaces a filter in the Brine Processor Assembly |
+| ගේම් එක මොන වගේද වෙන්න ඕනි? (Sinhala) | Rover එකකට බැරි, මිනිස්සුන්ට පුළුවන් දේවල් | 7035876 | NASA | Harrison Schmitt collects rock samples beside a huge boulder, Apollo 17, Dec 1972 |
+| ගේම් එක මොන වගේද වෙන්න ඕනි? (Sinhala) | 3. අපේ මෙහෙයුම | PIA19080 | NASA/JPL-Caltech | Simulated view of an ancient lake partly filling Gale crater |
 
 Skipped: the Madrid DSN array photo PIA26147, because it's credited to MDSCC/INTA (a non-NASA photographer).
 
