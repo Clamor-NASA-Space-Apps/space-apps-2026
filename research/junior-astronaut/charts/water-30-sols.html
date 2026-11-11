@@ -1,0 +1,24 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="style.css"><script src="bars.js"></script>
+<div id="card">
+  <h1>Water for 4 astronauts in 30 sols</h1>
+  <p class="sub">Kilograms (1 kg of water = 1 litre). Nothing is recycled: it all comes from Earth.</p>
+  <div id="chart"></div>
+  <p class="src">Maths: 4 people × 30 sols (30.8 Earth days) × NASA's daily numbers per person: drink 2.00 kg, water added to food 0.50 kg, extra drinking for exercise sweat 0.717 kg, total 3.217 kg. An early planetary base with a 1.08 kg shower uses 4.48 kg. Sources: NASA BVAD 2022 p.59 and Table 4-20; NASA ICES-2023-265 (water is "provided as a consumable and thus will not be recycled"). Fact-check rows 123, 124, 132.</p>
+</div>
+<script>
+// A sol is 24.6597 h (NSSDC), so 30 sols = 30.82 Earth days; 4 crew → 123.3 person-days.
+const pd = 4 * 30 * 24.6597 / 24;
+const kg = v => Math.round(v * pd);
+const drink = kg(2.0), food = kg(0.5), sweat = kg(0.717);
+bars(document.getElementById('chart'), {
+  unit: 'kg', max: 600, ticks: [0, 100, 200, 300, 400, 500, 600],
+  series: { 'Where it goes': 'var(--s3)', 'Total to bring from Earth': 'var(--machine)' },
+  rows: [
+    { label: 'Drinking', value: drink, text: drink + ' kg', series: 'Where it goes' },
+    { label: 'Added to food', start: drink, value: drink + food, text: food + ' kg', series: 'Where it goes' },
+    { label: 'Exercise sweat', start: drink + food, value: drink + food + sweat, text: sweat + ' kg', series: 'Where it goes' },
+    { label: "NASA's 30-sol plan", value: kg(3.217), text: kg(3.217) + ' kg', series: 'Total to bring from Earth' },
+    { label: 'Same, plus a shower', value: kg(4.48), text: kg(4.48) + ' kg', series: 'Total to bring from Earth' },
+  ],
+});
+</script>
