@@ -38,6 +38,9 @@ All from the NASA Image and Video Library (https://images.nasa.gov). Look one up
 | Power | 1. Where does the power come from? | PIA22205 | NASA/JPL-Caltech/Lockheed Martin | InSight solar arrays deployed in a test, 23 Jan 2018 |
 | Power | 1. Where does the power come from? | GRC-2015-C-06315 | NASA | Stirling power converter for the Fission Surface Power test unit |
 | Power | 2. What eats the power? | KSC-20160929-PH_DNG01_0039 | NASA/Dimitri Gerondidakis | MARCO POLO ISRU propellant demo test, 29 Sep 2016 |
+| බලශක්තිය, ජනනය සහ පරිභෝජනය (Sinhala) | 2. ජනනය, table | iss040e007122 | NASA | Reid Wiseman works with the Common Cabin Air Assembly, 4 Jun 2014 |
+| බලශක්තිය, ජනනය සහ පරිභෝජනය (Sinhala) | 2. ජනනය, table | iss029e043447 | NASA | Dan Burbank works with the Urine Processor Assembly, 19 Nov 2011 |
+| බලශක්තිය, ජනනය සහ පරිභෝජනය (Sinhala) | 2. ජනනය, table | bpa-filter-repair (nasa.gov article "NASA Achieves Water Recovery Milestone", 20 Jun 2023; not in the image library) | NASA | Kayla Barron replaces a filter in the Brine Processor Assembly |
 
 Skipped: the Madrid DSN array photo PIA26147, because it's credited to MDSCC/INTA (a non-NASA photographer).
 

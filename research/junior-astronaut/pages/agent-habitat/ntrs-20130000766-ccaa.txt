@@ -1,0 +1,38 @@
+     International Space Station Common Cabin Air Assembly
+         Condensing Heat Exchanger Hydrophilic Coating
+            Operation, Recovery, and Lessons Learned
+                                                 Steven F. Balistreri
+                                                  The Boeing Company
+
+                                                   John W. Steele
+                                                   Mark E. Caron
+                                                  Yvon J. Laliberte
+                                      United Technologies Aerospace Systems, Inc.
+
+                                                   Laura A. Shaw
+                                             NASA / Johnson Space Center
+
+
+                                                        Abstract
+
+The ability to control the temperature and humidity of an environment or habitat is critical for human survival. These
+factors are important to maintaining human health and comfort, as well as maintaining mechanical and electrical
+equipment in good working order to support the human and to accomplish mission objectives. The temperature and
+humidity of the International Space Station (ISS) United States On-orbit Segment (USOS) cabin air is controlled by the
+Common Cabin Air Assembly (CCAA). The CCAA consists of a fan, a condensing heat exchanger (CHX), an air/water
+separator, temperature and liquid sensors, and electrical controlling hardware and software. The CHX is the primary
+component responsible for control of temperature and humidity.
+
+The CCAA CHX contains a chemical coating that was developed to be hydrophilic and thus attract water from the humid
+influent air. This attraction forms the basis for water removal and therefore cabin humidity control. However, there have
+been several instances of CHX coatings becoming hydrophobic and repelling water. When this behavior is observed in
+an operational CHX in the ISS segments, the unit’s ability to remove moisture from the air is compromised and the result
+is liquid water carryover into downstream ducting and systems. This water carryover can have detrimental effects on the
+ISS cabin atmosphere quality and on the health of downstream hardware. If the water carryover is severe and
+widespread, this behavior can result in an inability to maintain humidity levels in the USOS.
+
+This paper will describe the operation of the five CCAAs within the USOS, the potential causes of the hydrophobic
+condition, and the impacts of the resulting water carryover to downstream systems. It will describe the history of this
+behavior and the actual observed impacts to the ISS USOS. Information on mitigation steps to protect the health of future
+CHX hydrophilic coatings as well as remediation and recovery of the full heat exchanger will be discussed.
+
