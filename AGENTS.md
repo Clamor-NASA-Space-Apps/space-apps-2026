@@ -13,9 +13,10 @@
 - **Plan:** `plan.md`. **Checklist:** `roadmap.md`. Tick roadmap items when done.
 
 ## Hard rules (breaking these can disqualify us or mislead kids)
-1. **No Mars-game code or art before the hackathon starts (14 Nov).** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." Before then:
-   - Allowed: research, docs, generic tooling, the rehearsal game.
-   - The team accepted the grey area of writing design docs early.
+1. **No game code or story before the hackathon starts (14 Nov).** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." The local organisers then told the team, in a meeting (reported by Ravindu on 12 Nov 2026), that assets may be prepared in advance: the art direction, every key 3D model, the world and the map. They are assembled at the event. Before 14 Nov:
+   - Allowed: research, docs, generic tooling, the rehearsal game, the look (`DESIGN.md`), 3D models, terrain and map, the HUD look. Brief: `tooling/projects/junior-astronaut-mission-trainer/design/BRIEF.md`.
+   - Not allowed: the story, game rules (`sim/`), events, the player controller, anything playable.
+   - The permission was verbal. Ask the Colombo Local Lead to confirm it in writing and save the reply in `research/junior-astronaut/`.
 2. **Never copy anything from `tooling/projects/one-night-stray/` into the hackathon repo.** Only `tooling/` (agent-forge-3d) is shared.
 3. **Every number shown to players has a source** in `research/junior-astronaut/factcheck.md`. ❌ claims never ship.
 4. **Never present archived data as live.** Every data value is labelled LIVE (fetched now) or ARCHIVED + date.
@@ -94,7 +95,7 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
 | `assets-cache/CREDITS.md` | Every asset's source, licence and credit line |
 | `tooling/` | Separate repo **agent-forge-3d**, the game factory: workflow and code rules in its `AGENTS.md`, Blender forge, the Godot test hooks (capture-view, feel-probe, web-check), html-to-png. Will be public. **The Godot factory is on its `godot` branch**; `main` is the three.js one |
 | `tooling/projects/one-night-stray/` | Separate repo: the three.js rehearsal game (a stray cat survives one night; brief in `STORY.md`). Throwaway |
-| `tooling/projects/outpost-gale/` | Created on 14 Nov: the hackathon game. Separate repo |
+| `tooling/projects/junior-astronaut-mission-trainer/` | The hackathon game, Outpost Gale. Separate repo. Look and assets from 12 Nov (`design/BRIEF.md`), the game from 14 Nov |
 
 **Remotes** (Gitea, SSH works): `git@100.108.184.127:ravindu644/{nasa-space-apps-2026,agent-forge-3d,one-night-stray}.git`. GitHub mirrors come later. Ravindu decides when, because his GitHub is widely watched.
 

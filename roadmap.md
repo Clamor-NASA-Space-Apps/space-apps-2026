@@ -109,7 +109,9 @@ Goal: every page gets 1–3 pictures under the right heading, so a beginner sees
 
 ## Phase D: design pack (Nov 11–13)
 - [ ] `GAME_DESIGN.md`, `CONTRACTS.md` drafted as Docmost pages
-- [ ] Outpost Gale look: team collects reference images + "take / avoid" notes; 3 variants rendered on generic probes; chosen `DESIGN.md` ready to paste on 14 Nov
+- [x] Outpost Gale reference images collected (12 Nov); take and avoid notes drafted in the project's `design/refs/README.md`, to confirm
+- [ ] Outpost Gale look and assets (organisers allowed them before the event): a factory session runs `design/BRIEF.md`: style study, 3 variants, `DESIGN.md`, every P1 and P2 model, terrain, sky presets, HUD kit, phone check
+- [ ] Organisers' permission for pre-made assets confirmed in writing
 - [ ] Nov 13: read the challenge Resources tab and the 2026 Submission + Judging guides; update the checklist page
 - [ ] Email the Colombo Local Lead: event start/end times, and whether design docs written in advance are OK
 - [ ] Team names filled in on "Start here: our path"
