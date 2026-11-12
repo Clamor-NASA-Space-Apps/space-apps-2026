@@ -170,3 +170,26 @@ Status: ✅ = I saw it in the source myself · ⚠️ = reported (secondary sour
 | 161 | Veggie's grow light: "Red (630 nm), Blue (455 nm) and Green (530 nm)" LEDs at 100 to 500 µmol m⁻² s⁻¹ | ✅ | NTRS 20160005059 |
 | 162 | ISS crew quarters (one person's sleep cabin): "total deployed volume of CQ is ~2.1 m3" | ✅ | NTRS 20100017014 |
 | 163 | 2 crew x 30 sols: about 52 kg O2 and 198 kg water (half of the 4-crew 104 kg and 397 kg) | ✅ our maths from rows 57, 123 | BVAD 2022 |
+| 164 | A mean sol is "24 hours 39 minutes 35.244 seconds"; the sidereal day "24h 37m 22.663s"; lander clocks tick "mean Mars time" (LMST) | ✅ | NASA GISS Mars24 notes (project `design/research/pages/day-cycle/mars/giss-mars24-time-notes.html`) |
+| 165 | Curiosity landed "at 4.6 degrees south latitude, 137.4 degrees east longitude" | ✅ | NASA MSL fact sheet 2014 |
+| 166 | At 4.6° S daylight stays 11.7 to 12.3 Mars hours all year, so day and night are near equal | ⚠️ our maths (tilt 25.19°, no twilight or refraction) | NSSDC |
+| 167 | Mars sky to the eye: "hazy and reddish or butterscotch colored because of all the dust"; at Gale "more of a butterscotch color"; blue-sky rover photos are white-balanced | ✅ | NASA "10 things: storms"; JPL Mount Sharp panorama 2013 (WebFetch excerpt) |
+| 168 | True colour (Pathfinder, sol 24, 4 pm): "brownish gray sky"; "The sky near the sun is a pale blue color" | ✅ | NASA Science resource |
+| 169 | Twilight: "the sky stays bright for up to two hours after sunset", because dust reaches very high | ✅ | NASA PIA00783 (Pathfinder) |
+| 170 | Frost at Gale was never seen ("Ground frost has not been observed in situ at lower latitudes such as those of the VL1, MER, MPF and MSL"); inferred "between 4 and 6 am" on 6 sols, "of the order of tenths of μm" | ✅ | Martinez et al. 2017 (Space Sci Rev); Martinez AGU 2014, 2015 abstracts |
+| 171 | Gale humidity: "The daily maximum RH generally occurs between 04:00 and 06:00 LMST" | ✅ | Martinez et al. 2017 |
+| 172 | Phoenix: frost "begins to disappear shortly after 6 a.m. as the sun rises"; Viking 2: frost "formed at night and persisted throughout the day" (about 250 sols) | ✅ | PIA11043; Martinez et al. 2017 |
+| 173 | Gale daily swing before the 2018 storm: air ~70 K, ground ~90 K, "declining to ~30 and ~35 K during the storm"; highs at 14:00 to 15:00 (air) and 12:00 to 13:00 (ground) local true solar time | ✅ | Guzewich et al. 2019, GRL (NTRS) |
+| 174 | Gale air on a steady stretch: highs "about ... 0 degrees Celsius", lows "about ... minus 70 Celsius" | ✅ | NASA photojournal "Steady temperatures at Mars' Gale Crater" |
+| 175 | Gale whirlwinds: pressure drops "peaked between 11:00 and 13:00 LTST"; 245 vortices in 707 sols, "~1 vortex per sol" | ✅ | Newman et al. 2019, JGR Planets |
+| 176 | "whirlwinds usually occur at Gale without lifting much dust"; "214 unique dust devils" seen in the foothills of Aeolis Mons (sols 1545 to 1660) | ✅ | PIA16914; EPSC2017-294 |
+| 177 | Gale winds: upslope by day, downslope at night from the SE; night winds "about 21" m/s, most active "from 17:00 through 23:00" LMST | ✅ abstract only | Martinez et al. 2017; Ullán et al. 2017, Icarus (CAB abstract) |
+| 178 | Phobos "rises in the west ... (in 4 h 15 min or less) and sets in the east, approximately twice each Martian day"; 0.14° wide at the horizon, 0.20° overhead; the Sun about 0.35° | ✅ secondary | Wikipedia "Phobos" |
+| 179 | Deimos: "2.48 days (2.41 sols)" between rising and setting at the equator; almost star-like | ✅ secondary | Wikipedia "Deimos" |
+| 180 | Dusty panels: "A loss of 0.2% per Sol is typical" (0.05% to 2%); Pathfinder "0.28 percent per day" | ✅ | Lorenz et al. 2021; Landis (NTRS) |
+| 181 | Spirit: power "went up by about 50 percent" after dust left its panels (a wind "cleaning event") | ✅ | NASA PIA07458 |
+| 182 | 2018 storm at Gale: "opacity reached a peak of 8.5"; sky cleared with "an opacity exponential decay timescale of 43 ± 2 sols"; normal again "By mid-September"; dust devils "ceased entirely ... from Sol 2082 to 2106" | ✅ | Guzewich et al. 2019 |
+| 183 | Crewed Mars solar studies: "Settled dust is removed via two axis gimbal articulation", plus "a 5% permanent dust power loss"; design case "one dust storm, 120 days in duration" | ✅ | NTRS 20170000235; NTRS 20160011275 |
+| 184 | Electrodynamic dust shield on Mars would be "activated only when dust removal is required, perhaps once a sol"; one cleared lunar regolith on Blue Ghost Mission 1 (2025) | ✅ | NTRS 20120003264; NASA image article 27 Mar 2025 |
+| 185 | A NASA plan for astronauts cleaning panels by hand | ❌ not found | |
+| 186 | Game clock: a 20-minute sol runs 74 times faster than Mars (sun 0.30°/s); 30 sols with no skips = 10 h of play | ⚠️ our maths | row 164 |
