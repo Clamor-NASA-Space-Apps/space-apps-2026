@@ -194,7 +194,7 @@ tools/        capture-view.mjs, balance bots
   - Each recipe is given 1–2 NASA reference photos.
   - If Blender is missing, fall back to three.js addons: RoundedBox, Lathe, Tube, Extrude, three-bvh-csg, merged geometry and instancing.
 - **Budgets:**
-  - Assets < 15 MB.
+  - Assets: no cap (decided 12 Nov 2026); native builds ship beside the web build, which shows a loading bar.
   - First playable frame < 3 s.
   - < 150 draw calls.
   - 60 fps on a school laptop.
