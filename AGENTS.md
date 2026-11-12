@@ -156,8 +156,8 @@ Open `claude` in `tooling/` (or in a project under `tooling/projects/`) and say 
   5. Forge recipe (Blender).
 - **The scene is data** (`data/world.json`). One `Forge.HouseStyle.apply()` for all GLBs. One `gltf-transform optimize ... --compress false` per asset.
 - **Test hooks:** `Forge.register(self)` with `render_game_to_text()`, `set_view(name)`, `place(pos, yaw_deg)`. Check with `tooling/tools/capture-view.mjs`, `feel-probe.mjs` and `web-check.mjs`.
-- **Budgets:** assets <15 MB, first frame <3 s, <150 draw calls, 60 fps on a school laptop.
-  - **Team decision needed before 14 Nov:** these were set for three.js. Godot's engine alone is a 38 MB download (9.7 MB from a host that compresses), and the weakest device is now a phone. Re-decide the numbers after one test on a real phone.
+- **Budgets:** no download cap (Ravindu, 12 Nov 2026: "don't shrink anything"; native builds (EXE, APK, Linux) ship too, and the web build shows a loading bar after the splash). The 13 Nov build was 61 MB of game data, 49 MB gzipped with the engine; `web-check --budget-mb 100` only catches accidents. First frame <3 s, <150 draw calls, 60 fps on a school laptop.
+  - **Still open before 14 Nov:** the draw-call and fps numbers were set for three.js; re-decide them after one test on the Galaxy A16 (the weakest device). Size is decided (above).
 - **Kid UX:** icons first, ≤8 words per card, every line also spoken, targets ≥48 px, colour never the only signal.
   - **Team decision needed before 14 Nov:** in the rehearsal (10 Nov) the spoken lines annoyed the player and were removed; the factory now treats narration as opt-in and shows danger on screen. Decide whether Outpost Gale keeps "every line also spoken" (a Settings switch, off by default?).
 
