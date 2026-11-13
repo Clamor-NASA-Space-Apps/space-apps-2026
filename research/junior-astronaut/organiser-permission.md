@@ -4,14 +4,26 @@ Saved 13 Nov 2026. Source: the "NSAC Webinar - 2026/11/08 18:53 IST" recording (
 organisers' WhatsApp group as "Recording of yesterday meeting"; its auto transcript was read in the browser on 13 Nov.
 Speakers are the local organising team. Quotes are the auto transcript, lightly cleaned of "uh".
 
-## On preparing (the closest it gets)
+## The Local Lead's written answer (13 Nov 2026) ✅
+Ravindu asked the Colombo Local Lead (Malith) on WhatsApp at 20:01, with a PS added before the reply: may we do deep research
+and document it in our wiki; download and prepare 3D models and assets (audio) at home; and the PS said we had
+"already planned what the game mechanics are going to look like, compiled some assets like a HUD, and extracted the data
+from the resources", with the game built at the hackathon on top of the proposed storyline.
+
+Reply, 20:30: **"Hello. Most of the questions you asked, is up to you. Developing your project using any method is up
+to you"**
+
+Screenshot (phone number cropped out): `images/organiser/2026-11-13-local-lead-reply.jpg`. A copy of the question
+went to a second organiser.
+
+## On preparing in the 8 Nov webinar (the closest it gets)
 - **1:42:34 to 1:42:48** (closing remarks): "we have only like less than week. So I think this is the final few days to
   prepare your projects and be well prepared for the hackathon for the physical event."
 - Nothing in the recording says, for or against, that code, a story or assets may be built before 14 Nov. The global
   FAQ (5 Nov 2026) still says "Teams are not allowed to begin working on the challenges prior to the hackathon"
   (`judging-2026.md`).
 - The more specific permissions (assets on 12 Nov, the game on 13 Nov) were reported by Ravindu from other meetings or
-  messages and are **not** in this recording. **Still needed:** a written yes from the Colombo Local Lead.
+  messages and are **not** in this recording. The written answer came on 13 Nov (section above).
 
 ## Other useful points from the same webinar
 | Time | What they said |
