@@ -1,6 +1,6 @@
 # AGENTS.md: NASA Space Apps 2026 workspace
 
-`CLAUDE.md` is a symlink to this file. Claude Code also loads it in every sub-folder, including the nested repos, so the rules here apply everywhere. Nested repos add only their own specifics.
+`CLAUDE.md` holds one line, `@AGENTS.md`, which loads this file (a real file, not a symlink, so it works on Windows). Claude Code also loads it in every sub-folder, including the nested repos, so the rules here apply everywhere. Nested repos add only their own specifics.
 
 ## Mission
 - **Team:** 4 beginners (Ravindu = Commander, drives Claude), NASA Space Apps 2026, Colombo local event, **14–15 Nov 2026**.

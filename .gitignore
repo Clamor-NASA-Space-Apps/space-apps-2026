@@ -1,8 +1,6 @@
 # secrets
 .env.local
 .env*.local
-# separate repo agent-forge-3d; game repos live inside it in tooling/projects/
-tooling/
 # downloaded zips are already unpacked next to them
 assets-cache/**/*.zip
 node_modules/
