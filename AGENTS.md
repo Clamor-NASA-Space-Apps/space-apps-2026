@@ -31,10 +31,13 @@
    - Live in-game data comes from NOAA (no key).
 10. **Offline first.** The venue network may be slow. The game must run with the network unplugged. Download before the event, never during.
 
-## Judging (2025 guide; the 2026 guide lands 13 Nov, so re-check then)
-- **Criteria:** Impact, Creativity, Validity, Relevance, Presentation.
-- **Submit:** project page, a 30 s video with English subtitles (or ≤7 slides), a public no-login game link, sources, and the SI-use paragraph.
-- **Deadline:** 23:59 local on day 2. Our target is 18:00.
+## Judging (2026 guides, checked 13 Nov: `research/junior-astronaut/judging-2026.md`)
+- **Criteria:** Impact, Creativity, Validity, Relevance, Presentation, each scored 1 to 5.
+- **Submit** (opens Sat 14 Nov 09:00): project page, a 30 s video with English subtitles (or ≤7 slides), a public no-login game link, sources, and the SI-use paragraph. Page images: JPG, PNG or GIF up to 10 MB; host videos elsewhere.
+- **SI (2026):** never used "to come up with your idea of how to solve the challenge" (the idea is the team's). SI audio, code and data are acknowledged in text **and** metadata; SI images and video carry a visible watermark. No NASA branding, logos, flags or mission identifiers in generated content.
+- **Eligibility:** at least one NASA data source or resource (Global Awards). Every resource, CC0 and open source included, goes in References with its licence. Our own work is OSI open source (else NASA applies Apache 2.0).
+- **Path:** local judges pick Global Nominees (3 Dec 2026), then Finalists (17 Dec), Global Awards (26 Jan 2027). Ask the Colombo Local Lead for the local schedule.
+- **Deadline:** Sun 15 Nov 23:59 local. Our target is 18:00.
 - **What the brief rewards:**
   - No free choice: every option costs something.
   - 2–3 core resources.
