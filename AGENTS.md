@@ -13,10 +13,10 @@
 - **Plan:** `plan.md`. **Checklist:** `roadmap.md`. Tick roadmap items when done.
 
 ## Hard rules (breaking these can disqualify us or mislead kids)
-1. **No game code or story before the hackathon starts (14 Nov).** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." The local organisers then told the team, in a meeting (reported by Ravindu on 12 Nov 2026), that assets may be prepared in advance: the art direction, every key 3D model, the world and the map. They are assembled at the event. Before 14 Nov:
-   - Allowed: research, docs, generic tooling, the rehearsal game, the look (`DESIGN.md`), 3D models, terrain and map, the HUD look, and a **sandbox** that tests the assets: a third-person astronaut walks, drives and interacts in the world so physics and controls are solved at home. Brief: `tooling/projects/junior-astronaut-mission-trainer/design/BRIEF.md`.
-   - Not allowed: the story, game rules (`sim/`: meters, resources), events, the sol clock, win or lose. In the sandbox an interaction moves things and changes no game state.
-   - The permission was verbal. Ask the Colombo Local Lead to confirm it in writing and save the reply in `research/junior-astronaut/`.
+1. **At the event: the storyline and the flow. Everything else may be prepared before 14 Nov.** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." The local organisers then told the team, in meetings reported by Ravindu, that assets may be prepared in advance (12 Nov 2026) and that preparing the game at home is allowed (13 Nov 2026).
+   - Before 14 Nov: research, docs, tooling, the look, every model, the world and map, the HUD, the sandbox, and the game's systems: `sim/` rules (O2, power, water, food, radiation), meters, the sol clock, PIP's guiding, use spots, the machinery for cinematics and tutorials. Systems are tested on their own, with placeholder values where the story will decide.
+   - At the event: the storyline (what happens, PIP's lines, the words on cards), the mission flow (which beat follows which, win and lose), and wiring the systems into it.
+   - Both permissions were verbal, and the global FAQ above says otherwise. Ask the Colombo Local Lead to confirm in writing and save the reply in `research/junior-astronaut/`. Tag each repo when the event starts, so judges can see what came before.
 2. **Never copy anything from `tooling/projects/one-night-stray/` into the hackathon repo.** Only `tooling/` (agent-forge-3d) is shared.
 3. **Every number shown to players has a source** in `research/junior-astronaut/factcheck.md`. ❌ claims never ship.
 4. **Never present archived data as live.** Every data value is labelled LIVE (fetched now) or ARCHIVED + date.
