@@ -1,0 +1,36 @@
+Source: https://www.spaceappschallenge.org/resources/judging-awards-guide/ (page dated November 12, 2026; read in browser 2026-11-13, copied by hand, trimmed; [...] = omitted). JavaScript (Next.js) app, curl fails with a certificate-chain error.
+
+THE PURPOSE OF NASA SPACE APPS
+[...] NASA Space Apps is a collaborative event, not a competitive one. [...] All participants that submit a project on the website by the deadline will receive a certificate of participation.
+
+ELIGIBILITY FOR GLOBAL JUDGING (minimum requirements)
+- Respond to one of the official NASA Space Apps Challenges.
+- All team members registered, same Local Event (not waitlisted) or Universal Event, listed on the Members tab. Teams cannot add members after submission closes. Local Event teams at least 1 person, Universal at least 2. No more than 6 members.
+- Complete all of the required fields on the Project Submission page.
+- Provide a short demonstration ("demo"), either a slide presentation (7-slide limit including title and intro slides) or a video presentation (30-second limit).
+- Use English language on the project submission page and in any linked materials. Exception: if your team creates a video for your Project Demo, you can speak in another language. However, it MUST include English language subtitles.
+- Submit your project (Project tab on team page, Edit, then "submit") before Sunday, November 15 at 11:59 p.m. local time in accordance with your team's Local Event. [...] Contact your Local Lead if you have questions about the deadline for your Local Event.
+- Check the box: "I have read and understand the project submission requirements as contained in the NASA Space Apps Project Submission Guide, and I agree to the Participant Terms and Conditions and Privacy Policy."
+- Check the box: "I confirm that the submitted project represents my team's original work and that all external resources including code, text and images (even if they are open source or freely available) used in the project are listed in the References field of the project submission form. In creating our solution, my team has not used any copyrighted materials (i.e., music, images, text, etc.) that we don't have permission to use."
+- China funding restriction review (no prohibited bilateral activity with China or a Chinese-owned entity). [...]
+
+JUDGING CRITERIA
+At every level of judging, from Local and Universal Events to Executive Judging, your project will be evaluated on a scale of 1-to-5, in each of the following criteria: Impact, Creativity, Validity, Relevance, Presentation.
+Impact: addresses a minor or major problem; reach from a broad audience to a select few.
+Creativity: originality and innovation; a novel concept or a meaningful improvement on existing ideas.
+Validity: grounded in scientific principles; technical, functional or logical feasibility; may be fully developed or still need refinement; usability and user-friendliness count.
+Relevance: fully and directly addresses the challenge; "meaningfully integrates NASA data, utilizing it as a core component of the proposed solution rather than a superficial addition".
+Presentation: clearly communicated challenge, solution, significance; engaging, well-structured storytelling. "Judges evaluate the demo and full project to compute this score."
+[...] remember to pay equal attention to the final criterion: presentation. [...]
+
+PHASE 1: LOCAL EVENT JUDGING & GLOBAL NOMINEES
+Following the hackathon, Local Event and Universal Event judges will determine the projects that will advance to Global Judging. These selected teams are known as Global Nominees.
+Global Nominees from both Local Events and the Universal Event will be announced on December 3, 2026.
+Following the hackathon, all project submissions from each Local Event will be evaluated by a panel of Local Judges, who are recruited, trained, and organized by the designated Local Lead. Using the NASA Space Apps judging criteria, the panel will select projects to advance to Global Judging.
+Local Leads and Local Judges have the option to provide local awards. These local awards are separate from the Global Judging process and Global Winners [...] Regardless of Local Judging results, only officially submitted Global Nominees will be considered for Global Judging.
+
+PHASE 2: GLOBAL FINALISTS & HONORABLE MENTIONS
+All Global Nominees reviewed by a team of expert judges against the criteria. Global Finalists announced on December 17, 2026, with Honorable Mentions ("ranked highly by our Global Judges for their ingenuity and creativity", not advancing to Executive Judging or eligible for awards).
+
+PHASE 3: GLOBAL WINNERS
+Finalists reviewed by an executive committee from NASA and the 2026 Space Agency Partners, who nominate teams for one of ten Global Awards: Best Use of Science, Best Use of Data, Best Use of Technology, Galactic Impact, Best Mission Concept, Most Inspirational, Best Storytelling Award, Global Connection Award, Art & Technology Award, Local Impact Award. Global Winners announced on January 26, 2027.

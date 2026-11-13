@@ -1,0 +1,29 @@
+Source: https://www.spaceappschallenge.org/resources/participant-faqs/ (page dated November 5, 2026; read in browser 2026-11-13, text copied by hand, trimmed to the parts we use; [...] = omitted)
+Fetch note: curl fails on this host (server sends an incomplete certificate chain, curl error 60), so pages were read in the browser. The site is a JavaScript (Next.js) app.
+
+IMPORTANT DATES
+November 13: Global Offers available. Challenge resources available. Project Submission and Judging & Awards Participant Guides available.
+November 14-15: NASA Space Apps Challenge event.
+After the Hackathon: Judging occurs. Experts from NASA, Space Agency Partners, and industry leaders will evaluate the projects and select the winners.
+December 2026: Global Nominees, Global Finalists, and Honorable Mentions are announced.
+January 2027: Global Winners are announced!
+
+Can participants under the age of 18 participate?
+[...] Additionally, participants under 18 should not: Upload a photo of themselves as their Avatar or as part of their Team page. Use photo, video, voices, or likenesses of themselves or others under the age of 18 in their project demonstration or project submission.
+
+What are the challenges?
+Challenges are authored by NASA and Space Agency Partner subject matter experts [...] A summary of each challenge will be released on September 17, followed by challenge statements on October 28, which include the full details and requirements. Resources for each challenge will be published on November 13. Teams are not allowed to begin working on the challenges prior to the hackathon.
+
+Do I need to be on a team?
+[...] Local Event teams must have at least one (1) person and Universal Event teams must have at least two (2) people to be eligible for global judging. Teams may have no more than six (6) members and must be signed up for the same Local Event or the Universal Event. You may only be on one team and teams are only permitted to work on one challenge. [...]
+
+How do teams submit their project?
+In order to be eligible for Global Judging, teams must submit their project through their team's project page on spaceappschallenge.org. [...]
+
+What is Super Intelligence? Can teams utilize it during the hackathon?
+In accordance with the September 29, 2026 U.S. Executive Order, "the executive branch shall use the terms 'Super Intelligence' and 'SI' in place of 'Artificial Intelligence' and 'AI.'"
+Super Intelligence (SI) refers to computer systems that perform tasks typically associated with human reasoning, decision-making, content creation, and problem-solving. Examples include large language models, conversational assistants, image and video generation tools, foundation models, and code generation tools.
+Participants may use SI tools to accelerate innovation, streamline development, and enhance creativity in support of their challenge solution. Each team's project submission must include a description of how SI tools were used during the development of their project.
+
+Recognition and Awards
+All NASA Space Apps Challenge participants will receive a certificate on their account's profile page recognizing their participation upon submitting their project. Projects will then be judged on specific criteria to determine Honorable Mentions, Global Finalists, and Global Winners. [...]

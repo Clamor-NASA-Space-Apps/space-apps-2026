@@ -1,0 +1,638 @@
+                       Key Design Trades for a Near-term Lunar Fission Surface Power System
+
+                             Lee Mason1, Lindsay Kaldon1, Sebastian Corbisiero2 and DV Rao2
+                                      1
+                                          NASA Glenn Research Center, Cleveland, Ohio
+                                      2
+                                          Idaho National Laboratory, Idaho Falls, Idaho
+
+                                Primary Author Contact Information: lee.s.mason@nasa.gov
+
+          [Leave space for Digital Object Identifier (DOI) to be added by ANS – remove this line but leave space]
+
+
+     NASA and DOE have been developing concepts for                 contracts are planned to continue under a Phase 1 extension
+lunar and Mars Fission Surface Power (FSP) systems for              (Phase 1a) where each team is performing tailored work
+decades and have considered many different technologies             scope based on the technical challenges posed by their
+and system variations. In 2023, three contractor teams              individual designs. The follow-on contract is planned to
+completed Phase 1 conceptual design studies on a 40 kWe             develop a FSP demonstration system that could be
+lunar FSP system in response to a modest set of NASA                delivered to the moon, and a corresponding test unit that
+requirements and goals. A government team consisting of             would be extensively tested on Earth. The requirements
+NASA Glenn Research Center (GRC), Los Alamos                        and goals stated in the Phase 1 SOW provide a starting
+National Laboratory (LANL), and Idaho National                      point for early design studies and will be revised and
+Laboratory (INL) was formed to develop an independent               expanded for future procurements based on the Phase 1
+design approach that adhered to the same requirements               results and further interactions with the stakeholder
+and goals posed to the contractor teams. GRC provided               community.
+expertise, analysis, and design decisions for the power
+conversion, heat rejection, power management &                         TABLE I. Phase 1 Design Requirements (DR) and
+distribution (PMAD), and mission integration. LANL and                              Design Goals (DG).
+INL provided expertise, analysis, and design decisions for
+the reactor and shielding. The goal of the government                                    40 kWe             Stowed     4m dia. x
+                                                                     DR-1   Power                    DG-1
+                                                                                         for 10 yr          Volume     6m length
+study was to develop representative concepts that could be                                                             6000 kg
+used in NASA architecture studies, guide government                         Launch &     7.63 g-rms
+                                                                                                                       including
+                                                                     DR-2   Landing      launch, 4 g DG-2   Total Mass
+technology investments, and inform future requirements                      Loads        landing
+                                                                                                                       margin &
+definition. This paper provides a summary of the key                                                                   growth
+                                                                                                                       Multiple
+technology options, system-level trades, and mission-level                  Radiation    <5 rem/yr          Power
+                                                                     DR-3                            DG-3              on/off
+concept-of-operations.                                                      Protection   at 1 km            Cycles
+                                                                                                                       cycles
+                                                                                                     DG-4   User Load    0 to 100%
+I. BACKGROUND                                                                                                            At least 5
+                                                                                                            Fault
+                                                                                                     DG-5                kWe after
+     Fission Surface Power (FSP) is a Space Technology                                                      Tolerance
+                                                                                                                         fault
+Mission Directorate (STMD) technology development                                                                        Can be
+project under the Technology Demonstration Mission                                                                       removed
+                                                                                                            Transport-
+(TDM) program. In late 2022, the FSP project awarded                                                 DG-6                from
+                                                                                                            ability
+                                                                                                                         lander and
+Phase 1 study contracts to three contractor teams: 1)                                                                    relocated
+Intuitive Machines & X-energy (IX), 2) Lockheed Martin
+& BWXT, and 3) Westinghouse & Aerojet Rocketdyne.
+The 1-year study contracts concluded with separate multi-           II. TECHNICAL APPROACH
+day concept reviews at NASA Glenn Research Center                        An internal government team consisting of NASA
+(GRC) in August 2023 and delivery of the final Data                 GRC, Los Alamos National Laboratory (LANL), and
+Product Documents (DPDs) requested in the Statement of              Idaho National Laboratory (INL) was formed to develop an
+Work (SOW) shortly thereafter. The SOW provided                     independent design approach that adheres to the same
+design requirements and design goals as summarized in               SOW requirements and goals posed to the contractor
+Table I. Each contractor team developed and evaluated a             teams. GRC provided expertise, analysis, and design
+slightly different FSP design approach. IX pursued a heat           decisions for the power conversion, heat rejection, power
+pipe reactor with Stirling conversion; Lockheed, a gas-             management & distribution (PMAD), and mission
+cooled reactor with Brayton conversion; and                         integration. LANL and INL provided expertise, analysis,
+Westinghouse, a heat pipe reactor with Brayton. The                 and design decisions for the reactor and shielding.
+     FSP system modeling was performed using GRC’s EZ          reactor with Stirling conversion. Both concepts were
+FSP Sizer which permitted sensitivity studies on key           subjected to sensitivity studies to evaluate a variety of
+parameters and a tool to optimize the overall system with      nuclear design parameters, thermodynamic variables,
+reactor and shield model inputs supplied by the Department     waste heat rejection approaches, PMAD architectures, and
+of Energy (DOE) team. EZ FSP Sizer is a spreadsheet-           shielding variants. A fundamental ground rule was
+based nuclear power system sizing tool developed at GRC        adopted that both concepts utilize parallel, independent
+with simple first-order calculations and hardware-based        power strings for fault tolerance. Each power string
+curve fits. The key design variables can be passed among       includes a power conversion unit, dedicated heat rejection
+the various coupled FSP subsystems to evaluate integrated      loop, and dedicated PMAD power channel. A failure of
+system performance. The original tool was developed            any component in a power string would only affect that
+during the Prometheus Program to analyze the Jupiter Icy       string, allowing partial system power to be produced from
+Moons Orbiter (JIMO) power system and revised to               the remaining strings.
+support the Constellation-era FSP studies. It includes              GRC’s EZ FSP Sizer was used to evaluate the system
+reactor and shield sizing algorithms that were updated         performance and mass sensitivities for all the design
+based on the latest DOE provided inputs. Also included         permutations evaluated in this paper. A summary of the
+are Brayton and Stirling thermodynamic models with cycle       key FSP design decisions is presented in Table II. The
+optimization routines using iterative energy balance           design decisions were made after evaluating a variety of
+calculations and mass estimation based on heritage             alternative options and are consistent with the goal to
+hardware and designs. A coupled heat rejection model           deliver a FSP system to the moon in the late 2020s or early
+with multiple fluids, material options, and heat transfer      2030s. The current Technology Readiness Level (TRL) of
+geometries includes the capability to assess radiator          the FSP major subsystems is very dependent on design
+transient performance over the lunar day-night cycle.          choices. A preliminary technology readiness assessment
+There are power conversion-tailored PMAD models with           was performed on the selected FSP technologies, and a
+calculations to analyze the downstream power electronics,      summary of the results is provided in Table III.
+thermal management, and power transmission cabling.
+     The government concepts were informed by prior FSP
+design studies, particularly the 40 kWe FSP concept                        TABLE II. Key Design Decisions.
+developed in 2010 by a NASA/DOE team (Ref. 1) and
+                                                                                          GC-Brayton            HP-Stirling
+several recent FSP mission integration studies performed
+                                                                Reactor fuel and          19.75% enriched UN fuel pins, YH
+by the GRC Compass team. The primary objectives of the          moderator                 moderator
+internal government effort were: 1) acquire insights to help    Reactor heat transport    Direct gas-
+the government team be a smart buyer, 2) identify risks and                                                  Na heat pipes
+                                                                method                    cooling
+opportunities to inform government technology                   Power conversion          40 mol. weight
+                                                                                                             Helium
+investments, 3) develop concepts that can be provided to        working fluid             HeXe
+NASA architecture study teams, and 4) collect data to           Cycle hot-end temp        1100 K                1050 K
+guide flight system requirements.                               Cycle cold-end temp       390 K                 420 K
+     The activity started in 2022 with a Compass mission        Peak cycle pressure       1.5 MPa               7.5 MPa
+study for a transportable 40 kWe FSP system that included
+                                                                Power string number       4 x 25%; first failure results in no less
+three separate pallets deployed from the lander (Ref. 2).       and size                  than 75% power output
+Compass had done previous mission studies that examined                                   Pumped H2O heat transport;
+a 10 kWe FSP system which remained on the lander and a          Heat rejection approach   composite radiator panels with
+derivative 10 kWe version that was deployed with a single                                 embedded Ti/H2O heat pipes
+                                                                                          240 Vrms alternator output, 3 kVac/1
+pallet. All the Compass studies assumed a FSP system            PMAD approach             kHz step-up, 1 km transmission, 120
+utilizing a heat pipe reactor coupled to four Stirling                                    Vdc load interface
+converters. Beginning in Jan 2023, the FSP government                                     <10 MRad at 1m (pwr conv), <300
+team completed three Design Analysis Cycles (DACs).             Radiation limits          kRad at 10m (controller), <5 rem/yr at
+These explored different technology variants and                                          1km (crew hab)
+alternative mission integration options of the 40 kWe
+system. DAC1 was completed in April 2023, DAC2 in
+August 2023, and DAC3 in November 2023.
+III. KEY SYSTEM TRADES
+     Two different technology variants were pursued under
+the government FSP studies including a direct gas-cooled
+(GC) reactor with Brayton conversion and a heat pipe (HP)
+    TABLE III. Technology Readiness Assessment.
+   FSP Subsystem                            Current TRL
+   Reactor fuel element (UN, <1400K, <1%
+                                                 5
+   burnup)
+   Moderator element (YH, <1100K, ≤1021
+                                                 4
+   n/cm2)
+   Reactor heat pipes (Na, <1200K)               5
+
+   Radiation shield (LiH/B4C/W)                  4
+
+   Reactor Inst. & Control                       4
+   10 kWe-class Brayton power conversion
+                                                 4
+   (<1100K)
+   10 kWe-class Stirling power conversion
+                                                 5
+   (<1100K)
+   Heat rejection (400-500K)                     5
+                                                              Fig. 1. FSP System Mass Optimization with Varying Cold-
+   PMAD (240Vac-3000Vac-120Vdc)                  4            end Temperature (GC-Brayton option is solid curves, HP-
+                                                              Stirling is dashed curves)
+     The system operating temperatures were selected after
+considerable deliberation and analysis. Both reactors use          A system-level trade that has major implications on
+the same UN fuel and YH moderator technology, and the         fault tolerance, reliability, and mass is the number and size
+reactor operating temperatures are approximately the same.    of the power strings. The baseline configuration assumes
+Higher reactor operating temperatures can offer               four strings at 25% power each, as shown in Figure 2. The
+performance benefits but come with greater development        primary options studied by the government team included
+risk. The Stirling cycle hot-end temperature is reduced by    two strings at 50% power, four at 50%, and two at 100%.
+the temperature drop caused by the heat pipe interface,       The configurations with 100% total capacity (4x25% and
+while the direct gas-coupling of the Brayton with the         2x50%) result in a fractional decrease in system power
+reactor eliminates this penalty. The baseline operating       output after a failure. The configurations with 200% total
+temperatures in Table II are consistent with prior Brayton    capacity (4x50% and 2x100%) can continue to produce full
+and Stirling converters that have been built and tested.      output power after a failure. The Brayton option benefits
+Sensitivity studies considered a 100 K increase in hot-end    more by using fewer units of larger unit size due to the
+temperature for both systems, corresponding to an effective   favorable economies-of-scale with the turbomachinery.
+1200 K reactor supply temperature. The higher hot-end
+temperature analysis revealed a modest 7% system mass              There is a 12% system mass decrease for the GC-
+decrease for the GC-Brayton and a 5% decrease for the HP-     Brayton in going from 4x25% strings to 2x50% strings,
+Stirling, neither of which were deemed worthwhile after       whereas the HP-Stirling sees only an 7% decrease. The
+considering the added development risk.                       drawback for the 2x50% configuration is that a failure of
+                                                              any component in the power string results in a 50%
+     The cycle cold-end temperatures were selected based      decrease in system output power.              The 4x50%
+on overall system mass optimization. The system mass          configuration results in a 18% mass increase for the GC-
+optimization trade is presented in Figure 1 for the two       Brayton and a 30% mass increase for the HP-Stirling. The
+candidate systems. Lower cold-end temperatures result in      2x100% configuration yields a 7% mass increase for
+higher efficiency and lower reactor thermal power (smaller    Brayton and a 23% mass increase for Stirling. All these
+reactor). Higher cold-end temperatures result in increased    options significantly exceed the SOW goal for 5 kWe
+rejection temperatures and less radiator area (smaller        system output power after a failure. The 4x25%
+radiator). The Brayton design point was selected at a cold-   configuration was deemed to be the best compromise of
+end temperature slightly above the mass minimum (a            mass, risk, and reliability. This configuration results in an
+penalty of only 70 kg) because of the sizable 15% radiator    FSP system that produces no less than 75% power output
+area benefit. A smaller radiator was deemed a more            under any credible single failure.
+important feature than the modest mass savings, based on
+the anticipated complexity of deploying large structures.
+At the selected cold-end temperatures, the GC-Brayton
+requires a 230 kWt reactor and 180 m2 main radiator while
+the HP-Stirling requires a 175 kWt reactor and 140 m2
+main radiator.
+                                                              Fig. 3. FSP Reactor Assembly Concepts (HP-Stirling on
+                                                              the left, GC-Brayton on the right)
+
+
+                                                                   The 175 kWt heat pipe reactor assembly consists of a
+                                                              BeO monolithic core structure that is 40.5-cm in diameter
+                                                              and 50.2-cm in length. Pre-engineered circular channels in
+Fig. 2. Four-string FSP Configuration (Rx=reactor,            the monolith are used to accommodate UN fuel pins and
+PCU=power conversion unit, PDC=power distribution             YH moderator pins. The moderator pins are encapsulated
+channel, P=pump, Rad=radiator)                                in 0.5-mm thick titanium-zirconium-molybdenum (TZM)
+                                                              alloy cladding which are chemical vapor deposition (CVD)
+                                                              coated with tungsten to a thickness of 25-microns. The
+IV. MAJOR SUBSYSTEMS
+                                                              reactor core is cooled by 48 sodium heat pipes with TZM
+    The FSP system consists of five major subsystems:         cladding providing a total capacity of 500 kWt. The
+reactor, shield, power conversion, heat rejection, and        thermal design allows for multiple heat pipe failures
+PMAD.                                                         without impacting the reactor heat transport. A single,
+IV.A. Reactor                                                 central shutdown rod is included for transportation and
+                                                              launch safety. The design includes a 1.5-cm thick multi-
+     A key design decision that significantly impacts         layer insulation (MLI) blanket surrounding the core to
+reactor mass and risk is the level of uranium fuel            minimize thermal losses and to maintain the reflector,
+enrichment. Based on guidance from STMD, all design           vessel, and structural elements at suitable service
+studies were to assume High Assay Low Enriched Uranium        temperatures below 850 K. The reactor assembly
+(HALEU) with U-235 isotope enriched to 19.75%. The            including the beryllium reflector and control drums is
+use of HALEU typically requires the reactor designer to       estimated to be 900 kg. An additional 250 kg is estimated
+include a moderator in order to reduce the uranium fuel       for control drum motors, instrumentation, and
+load and achieve a compact, low mass design. Candidate        miscellaneous components, resulting in a total reactor
+FSP fuel options include metallic fuel (e.g., UMo),           assembly mass of 1150 kg. It should be noted about 70 kg
+conventional ceramic fuel (e.g., UO2, UN), and TRi-           of this total is TZM alloy which is a strong neutron
+structural ISOtropic (TRISO) particle fuel. Candidate         absorber that adversely affects the fuel loading. The use of
+moderator options include metal hydrides (ZrH, YH) and        alternative materials, such as niobium-zirconium alloys
+beryllium compounds (Be, BeO). The LANL team                  could yield reactor mass savings.
+analyzed multiple combinations of fuel, moderator, and
+reflector. Conventional TRISO fuel variants led to an              The 230 kWt direct gas-cooled reactor includes many
+unacceptably heavy reactor and shield because of the          of the same design features as the heat pipe reactor. The
+inherent low uranium density. UMo fuel and Be-based           higher thermal power requires a larger BeO monolith (45-
+moderators were excluded because of their temperature         cm in diameter and 57-cm long) to accommodate the
+limitations. The focus of the government study was            greater number of UN fuel and YH moderator pins. The
+narrowed to designs that use UN fuel pins and YH              40 g/mol HeXe gas working fluid has a maximum
+moderator.                                                    operating pressure of 1.5 MPa. A thick Haynes 230
+                                                              pressure vessel is used to contain the working fluid. In-
+     The two FSP reactor assemblies are depicted in Figure    coming gas from the Brayton converters at 930 K is used
+3. Each of these reactor designs were matured to a level of   for thermal management of the pressure vessel and all
+fidelity and detail necessary to quantify performance,        structural materials. The inlet gas is circulated along the
+estimate mass, and assess development risk. The concepts      vessel wall inner surface and around the reflector, control
+were developed by means of computational multi-physics        drums and various structural elements to maintain their
+modeling techniques developed and benchmarked at              respective thermal limits. The HeXe gas enters the reactor
+LANL. Industry standard modeling tools such as the            core at 950 K and exits at 1110 K which results in a 1100
+neutron transport code MCNP and the thermo-mechanical         K Brayton turbine inlet temperature. The total reactor
+code ABAQUS were used to characterize reactor nuclear         assembly is about 1400 kg and physically larger than the
+and thermal performance under nominal and off-design          heat-pipe reactor assembly. The pressure vessel and core
+operating conditions.                                         length account for most of the mass difference. The
+combination of greater size and higher thermal power            outside of the included angle is around 50 rem/yr at the 1
+results in a 10% heavier radiation shield for the gas-cooled    km boundary, which would permit safe extended robotic
+reactor.                                                        operations or short-term crew operations. More work is
+                                                                planned to refine the FSP shielding strategy.
+IV.B. Shield
+    The reactor radiation shield is impacted by two key
+design factors that affect the geometry and mass. The
+primary consideration is the radiation dose limit assumed
+at various key locations relative to the reactor radiation
+source, which are summarized below:
+•   5 rem/yr to the habitat boundary assumed to be 1 km
+    distance from the reactor.
+•   10 MRad (Rad Si) gamma and 5x1014 neutron/cm2
+    (>100 keV) to nearby components such as power
+    conversion equipment and drum motors.
+                                                                Fig. 4. FSP Shielding Geometry.
+•   300 kRad (Rad Si) gamma and 1x1012 neutron/cm2
+    (>100 keV) to local electronic equipment including
+    printed circuit boards.                                     IV.C. Power Conversion
+     The second factor affecting shield design is related to         The Brayton and Stirling converter concepts are based
+the choice of materials. A series of sensitivity analyses       significantly on the prior hardware prototypes as shown in
+were performed to identify material combinations that           Figure 5. The Brayton converter leverages the 10.5 kWe
+resulted in the lowest shield mass. Those analyses              Brayton Rotating Unit (BRU) and BRU Heat Exchanger
+combined with past experience and expert judgement              (BHXU) developed by Garrett AiResearch during the late
+resulted in the shield concepts presented here. Tungsten        1960s and comprehensively tested at NASA through the
+major alloys (TMA) and steel are used for gamma                 mid-1970s (Ref. 3). The Stirling converter leverages the
+attenation. These alloys possess sufficient strength to serve   12 kWe Stirling Power Conversion Unit (PCU) developed
+both as radiation shield and structural support elements. A     by Sunpower for the Constellation-era FSP Technology
+combination of boron-carbide (B4C) and natural lithium-         Demonstration Unit (TDU) (Ref. 4). The two power
+hydride (LiH) are used for neutron attenuation. The LiH         conversion hardware prototypes successfully demonstrated
+provides the lowest mass material for neutrons, but it has      high efficiency at the specified operating temperatures
+temperature limits that prevent its use near high               using compatible construction materials and comparable
+temperature components. Therefore, B4C is used in the           heat transfer interfaces. The performance and mass models
+regions adjacent to the reactor heat pipes and gas fluid        in EZ FSP Sizer are derived from these hardware-based
+ducts, while LiH is used everywhere else. As an                 references.
+alternative, water and lunar regolith can be very effective
+at dose reduction. Future analyses are planned to
+investigate FSP shielding strategies that include in-situ
+materials and lunar topography.
+     The current FSP shielding geometry is presented in
+Figure 4. Both reactors include a shaped, directional shield
+that is designed to limit reactor radiation to less than 5
+rem/yr at the 1 km distant crew habitat boundary within a
+prescribed inclusion angle. The shield design also
+accounts for the radiation limits at the power conversion
+equipment and controller electronics discussed previously.
+The 36° included angle in Figure 4 is based on a
+hypothetical human outpost that is 1 km away and 1 km           Fig. 5. Power Conversion References (10.5 kWe Brayton
+diameter; these values can be updated as the outpost            on the left, 12 kWe Stirling on the right).
+definition matures. Note that the radiation dose in the
+habitat region will decrease substantially for crew and
+equipment located away from the 1 km boundary, and the               The direct coupling of the GC reactor and four Brayton
+dose will be further attenuated by natural topography,          units results in a large, distributed gas circuit that may
+habitat structure, and crew suit materials. Preliminary         present challenges for working fluid gas retention over the
+analyses were performed that indicate the radiation dose
+FSP design life. A small leak would result in a gradual loss     between 403 and 433 K. The GC-Brayton main radiator
+of power, while a large breach could present a single-point      rejects 180 kWt using two radiator assemblies with 9
+system failure mode. This risk is mitigated by careful           panels each (180 m2 total) operating between 379 and 504
+material choices, judicious gas pipe routing, hermetic           K. The radiator area calculations include a 10% margin.
+joints and bellows, and protective cladding and insulation       The radiator panels and heat transport loops are designed
+to prevent micrometeoroid damage. The HP-Stirling                to minimize vulnerable area that might be impacted by
+option includes a primary heat exchanger between the             micrometeoroid damage. Loss of an individual heat pipe
+reactor heat pipes and individual Stirling heater heads. The     in a panel has negligeable impact on radiator performance.
+four Stirling converters include separate working fluid          The fractional area of heat pipes in a radiator panel is only
+pressure boundaries that preclude a single-point gas loss        about 10% of the radiator surface, and they are protected
+failure. A similar arrangement could be made for Brayton         by the composite face sheets and graphite saddle that
+if it were coupled to a heat pipe reactor.                       surrounds the heat pipe.
+IV.D. Heat Rejection                                             IV.E. PMAD
+     Both FSP concepts use the same heat rejection                    The two FSP concepts resulted in somewhat different
+technologies that were developed extensively during the          PMAD implementations. Both use the same basic
+Constellation-era FSP project (Ref. 5). Each power               architecture consisting of a local controller and auxiliary
+conversion unit is cooled by a pumped-water heat transport       power supply located near the reactor and a user interface
+loop that transfers the waste heat to a series of individual     located 1 km away and connected via a 3 kVac power
+radiator panels with embedded water heat pipes. Two              cable. The auxiliary power supply includes a small solar
+converters share one series-connected radiator panel             array (1 kWe), rechargeable battery (4 kWh), and the
+assembly with a dual-pipe water manifold that couples to         required power electronics/cabling to supply FSP
+the evaporator section of the radiator heat pipes via a low-     housekeeping power for pumps, motor drives, and
+thermal resistance thermal joint. The diameter of the            instrumentation (up to 2 kWe). The DAC1 configuration
+titanium heat transport piping is optimized for minimum          assumed a separate controller pallet located 50 m from the
+heat rejection mass (smaller diameter increases the              reactor, while DAC2 and DAC3 assumed the controller
+pressure drop and pump power, larger diameter increases          and auxiliary power supply are co-located with the reactor
+the piping mass). The radiator panel assembly is deployed        and separated by the mechanical boom that deploys the
+vertically above the reactor and oriented in a fixed direction   controller radiator. An AC-based power transmission
+which results in a varying thermal sink depending on the         architecture was found to offer advantages over DC-based
+time-of-day. The deployment approach is based on the             approaches for the FSP application (Ref. 7). The 3 kVac,
+proven scissor deployment mechanism from the                     1 kHz long-distance power transmission approach was
+International Space Station (ISS) External Active Thermal        selected to leverage the Universal Modular Interface
+Control System (Ref. 6). The water heat transport fluid          Converter (UMIC) technology being developed by STMD
+(about 30-40 kg total) can be stored in a heated vessel prior    (Ref. 8).
+to system startup to prevent freezing and could be                    The primary difference among the two PMAD
+transferred back to the vessel in the event of an extended       implementations is the controller approach. The high-
+FSP shutdown.                                                    frequency 3-phase output of the Brayton alternators permit
+     In order to simplify technology development and             a direct coupling to the 3 kVac step-up transformer,
+minimize manufacturing cost, a common 2 m x 2.5 m                whereas the low-frequency single-phase Stirling
+radiator panel (10 m2 total surface area) is proposed. The       alternators require an additional converter stage. The
+radiator panel uses a sandwich construction with two             resulting overall PMAD efficiency for the Brayton option
+polymer matrix composite face sheets (0.0635 cm thick,           is about 90% compared to 83% for Stirling. Both systems
+300 W/m-K) that encapsulate fourteen Ti-H2O heat pipes           include a high-temperature (950 K) parasitic load radiator
+(2.5 m condenser length, 1.6 cm diameter, 14.3 cm                (PLR) located with the controller and sized to dissipate
+spacing). Each heat pipe is packaged in a 2.1 cm square          120% of the total gross power. Locating the PLR near the
+POCO graphite saddle, with aluminum honeycomb filler             reactor assures effective system control and permits the
+between the heat pipes for structural rigidity and launch        FSP system to demonstrate full-power production even if
+robustness. The heat pipe spacing is optimized for               the remote user interface doesn’t successfully deploy.
+minimum heat rejection mass (less spacing increases fin          Separate radiators are included at the controller and user
+effectiveness to reduce radiator area, greater spacing           interface to reject the waste heat from the 333 K power
+decreases panel mass). A thermal coating is used on the          electronics. The Brayton option requires a 6 m2 controller
+radiator surface with end-of-life emissivity of 0.85 and         radiator, while Stirling requires a 18 m2 controller radiator.
+absorptivity of 0.2. The main radiator for the HP-Stirling       Both systems require the same 7 m2 electronics radiator at
+option must reject 119 kWt total using two radiator              the user interface.
+assemblies with 7 panels each (140 m2 total) operating
+V. MISSION INTEGRATION
+     Three different mission integration options were                       TABLE IV. FSP Mass Summary.
+considered as shown in Figure 6. The options generally                                            GC-Brayton         HP-Stirling
+correspond with the three Design Analysis Cycles                Reactor Pallet (kg)                 5380               4812
+discussed previously. Option 1 (DAC1) assumes a three              Reactor                          1413               1132
+pallet FSP deployment where all equipment is off-loaded            Shield                           1500               1370
+from the delivery lander, similar to the concept developed         Power Conversion                 1182                995
+during the 40 kWe Compass study. This option results in            Heat Rejection                    884                701
+the greatest deployment complexity, but it does permit the         Local PMAD                        401                613
+lander to be reused. Option 2 (DAC2) assumes that the           User Interface Pallet (kg)                     872
+user interface remains on the lander and the reactor pallet        Main 1 km Cable & Spool                     325
+is deployed 1 km away. This option results in a single,            Remote PMAD                                 273
+large deployment of a combined reactor and controller              Command & Data Handling                      72
+pallet (~6t) and a lander that must be dedicated to serve as       Structure & Installation                    201
+a long-term power interface node. Option 3 (DAC3)               Total FSP (kg)                       6252               5683
+assumes that the reactor pallet remains on (or with) the        Mass Growth Allowance (20%)          1250               1137
+lander and the user interface is deployed 1 km away. This       Total FSP with MGA (kg)              7502               6820
+option appears to have the simplest deployment, but it does
+require the lander to endure long-term reactor operations.
+The analysis comparing the three options showed that           VI. CONCEPT OF OPERATIONS
+Option 3 provided the lowest overall FSP system mass.                The DAC3 approach (reactor remains with lander and
+Option 2 resulted in an FSP system that was about 10%          user interface is deployed 1 km away) was selected to be
+heavier, and Option 1 was about 15% heavier.                   the baseline FSP configuration pending further input from
+                                                               external stakeholders. During discussions with the
+                                                               Human-class Delivery Lander (HDL) team, they also
+                                                               favored this option and suggested a mission concept where
+                                                               the FSP could be co-manifested with a utility rover that is
+                                                               capable of deploying the ~1t user interface pallet. (Note:
+                                                               the utility rover is assumed to be a separate development
+                                                               and not part of the FSP project.) The two primary HDL
+                                                               concepts currently under study by NASA offer provisions
+                                                               to off-load a large payload from the lander cargo hold to
+                                                               the lunar surface. Conceptually, the FSP equipment and
+                                                               utility rover could be off-loaded from the HDL to the
+                                                               surface with the user interface pallet pre-loaded on the
+Fig. 6. FSP System Deployment Options (lander concept is       utility rover and the 1 km cable pre-connected to the reactor
+notional).                                                     pallet. The utility rover would then drive the user interface
+                                                               pallet to its final operational site while unfurling the 1 km
+                                                               cable. The common 3 kVac power transmission interface
+     The FSP system mass summary for the DAC3                  at the reactor pallet results in the user interface pallet being
+configuration is presented in Table IV. The total mass         identical for either the GC-Brayton or HP-Stirling option.
+includes 20% Mass Growth Allowance (MGA). Neither of                Figure 7 shows the stowed and deployed versions of
+the two technology options satisfy the SOW goal of 6000        the reactor pallet for the two concepts, including the main
+kg. The HP-Stirling option provides a 10% mass savings         radiators and local PMAD. The stowed pallet conforms to
+compared to the GC-Brayton. As stated earlier, the HP-         the SOW goal of 4 m diameter and 6 m length. The main
+Stirling also offers the advantages of lower reactor thermal   radiator for the GC-Brayton option is approximately 18 m
+power (175 vs 230 kWt) and less main radiator area (140        tall after deployment, while the HP-Stirling radiator is
+vs 180 m2). The overall FSP system efficiency is 23% for       about 14 m tall. The local PMAD electronics are located
+the HP-Stirling option versus 17% for the GC-Brayton           in an enclosure at the end of the 5 m controller radiator
+option. The total gross power that must be generated with      boom and protected by the reactor’s directional shield to
+the HP-Stirling option is 50.4 kWe, while the GC-Brayton       minimize radiation effects. Additional spot shielding can
+generates only 46.7 kWe due to the higher PMAD                 be added within the electronics enclosure if needed. Note
+efficiency. The individual converter unit power levels are     the smaller controller radiator for Brayton due to the higher
+12.6 kWe for Stirling and 11.7 kWe for Brayton, which are      efficiency of the voltage step-up electronics.
+consistent with prior hardware.
+                                                                (C&DH) equipment to receive FSP commands and
+                                                                transmit performance data using an assumed local lunar
+                                                                communications network (separate development from
+                                                                FSP). FSP operations will be mostly autonomous with a
+                                                                modest number of commands for startup, shutdown, and
+                                                                desired fraction-of-full power. Health monitoring data
+                                                                rates will be typical of other lunar surface assets and not
+                                                                present any special technology challenges. The long-
+                                                                distance data wires and remote C&DH interface assures a
+                                                                reliable data stream that won’t be adversely impacted by
+                                                                the reactor radiation. The details of how the FSP user
+                                                                interface communicates with the local network and
+                                                                between Earth ground stations will be further defined as the
+Fig. 7. FSP Reactor Pallet Layouts.                             overall lunar mission evolves.
+
+
+     The FSP systems are designed to produce 40 kWe net
+output power when the lunar sink temperature is at the
+SOW specified value of 270 K. The actual FSP output
+power will vary depending on location, time-of-year, and
+time-of-day. The lunar equator and south pole represent
+bounding cases. At the south pole, the sink temperature for
+a fixed, vertically oriented radiator varies between 100 K
+and 200 K. The HP-Stirling system will produce a
+minimum power output of 40.7 kWe, a maximum of 41.7             Fig 8. Representative User Interface Pallet.
+kWe, and a synodic period average of 41.1 kWe. At the
+lunar equator, the sink temperature for the vertical radiator
+varies between 100 K and 320 K. There, the HP-Stirling          VI.A. System Startup
+system produces a minimum of 38.6 kWe, a maximum of
+                                                                     Both systems would undergo a very similar
+41.7 kWe, and an average of 40.5 kWe. The GC-Brayton
+                                                                installation and startup procedure. The reactor pallet is off-
+option will perform similarly, but with slightly different
+                                                                loaded from the delivery lander and placed nearby on the
+values for minimum, maximum, and average power.
+                                                                lunar surface while the user interface pallet is driven away.
+     The 1 km main power cable is actually four separate 3      The automated startup sequence would be performed with
+kVac power feeds (10 kWe each, 3x14 AWG wires) to               an Earth command transmitted via the user interface pallet,
+preserve the channel redundancy provided by the four-           which could remain near the reactor during the startup if
+string architecture. Each power channel includes an             desired. The first step is to verify reactor operation by
+additional fiber-optic communication wire for FSP data          turning the control drums to initiate the fission reaction at
+transmission. The main cable is housed on a common              a very low thermal output power. After a suitable reactor
+spool with four separate reels to permit some physical          temperature increase is detected, the water heat rejection
+separation between the feeds as they are deployed on the        loops will be filled, and the water pumps started while
+surface to reduce the potential for cross channel failure       maintaining the radiator panels in their stowed
+modes. The cable’s location on the lunar surface affords a      configuration. Reactor thermal power will be gradually
+180° view to space for heat rejection; burying the cable is     increased until a suitable power conversion starting
+not advised due to the poor thermal conductivity of the         temperature is achieved. One of the four converters will be
+regolith. The main power feeds could be bidirectional,          started and stable operation at low electric power output
+permitting an external power source to supply startup           will be verified before starting subsequent converters. The
+power to the FSP reactor from the user interface if the         system parasitic loads (pumps, control drive motors, etc.)
+reactor pallet’s on-board auxiliary power supply is unable      can now be switched to draw power from the FSP system
+to perform.                                                     rather than the on-board battery.
+    The user interface pallet developed for the Compass              After all four converters are stable and operating at
+study and shown in Figure 8 is representative of what           low power, sufficient waste heat will be present to allow
+would be needed for the DAC3 system. The stowed pallet          the main radiator and controller radiator to be deployed
+which must be deployed by the utility rover is                  without the risk of freezing. (Designing the radiators so
+approximately 2.8 m long by 1.6 m wide by 1.2 m tall. The       that they can be restowed may be desirable for extended
+DAC3 version includes the Command and Data Handling             FSP shutdown periods or if the system must be relocated.)
+After the radiators are deployed, the reactor control drums      centralized power source with a grid that permits power
+can be adjusted to produce full power and temperature. All       sharing. This architecture makes sense for a permanent,
+the electric power produced by the converters will be            fixed base that is revisited and expanded over time. An
+dissipated by the on-board PLR, until a command is sent to       alternative Artemis mission approach is to visit multiple
+transmit power to the remote user interface. During              lunar sites with fewer surface elements that can be more
+operation, the PLR dissipates any excess power that is not       easily landed and/or relocated. In this case, a smaller FSP
+required by the user loads. The entire startup sequence          in the 10-20 kWe class may be a better choice. A derivative
+could be completed in less than 8 hours with all the startup     10 kWe FSP system would weigh 3.4t for the GC-Brayton
+power supplied by the on-board battery and solar array. If       option and 2.7t for the HP-Stirling option (including 20%
+the user interface remained near the reactor for startup, it     MGA). A 20 kWe version would weigh 4.6t and 4.1t,
+would be moved to its final operational site after the system    respectively for the GC-Brayton and HP-Stirling.
+achieves a stable operating condition.                                At the other end of the spectrum are large commercial
+     The FSP user interface pallet effectively becomes a         missions with industrial scale mining and propellant
+power node from which all interested users can connect via       production. In this case, a larger FSP in the 80-100 kWe
+their own supplied 120 Vdc power cable. Its location             class may be needed. A derivative 80 kWe FSP system
+would be determined based on the goal of serving the             would weigh about 11.0t for the GC-Brayton option and
+maximum number of users. Conceptually, the FSP user              10.7t for the HP-Stirling. The 100 kWe version would
+interface could be the first node of an extendable lunar         weigh about 12.5t and 12.6t, respectively for the GC-
+power grid. The FSP user interface would include multiple        Brayton and HP-Stirling. Table V summarizes the system
+power ports for users to share the electric power supplied       performance for the five power levels that were analyzed
+by the FSP reactor pallet. Since the user interface is at a      during DAC3. The mass differences among the two
+safe separation distance from the reactor, it can be accessed    options are relatively small, especially at the higher power
+by crew members (or robots) for cable connections and            levels. The cross-over point when the GC-Brayton system
+maintenance, as needed. The reactor pallet could also be         has lower mass than the HP-Stirling systems occurs around
+serviced, but it would require a temporary shutdown and an       90 kWe.
+extended radiation cool-down period (probably months) to               TABLE V. FSP System Comparison for Variable
+permit short-term crew access. At present, there are no                 Power Output (mass includes 20% MGA).
+plans for reactor pallet maintenance during its 10-year
+design life.                                                      FSP System         10      20       40      80      100
+                                                                  Power             kWe     kWe      kWe     kWe      kWe
+     If desired, the user interface pallet could also be moved    GC-Brayton
+                                                                                    3.4      4.6      7.5     11.0    12.5
+to another location to maximize its utility. Such an              System Mass (t)
+                                                                  Reactor Thermal
+operation would require the FSP main power feed to be             Power (kWt)
+                                                                                     72      120     230      421     517
+temporarily disabled (and probably disconnected). The             Main Radiator
+                                                                                     57      93      180      317     380
+FSP system could continue to operate with all the power           Area (m2)
+dissipated by the PLR. The new location would be                  HP-Stirling
+                                                                                    2.7      4.1      6.8     10.7    12.6
+constrained to remain within the 36° shield angle at a            System Mass (t)
+                                                                  Reactor Thermal
+distance no greater than the 1 km length of the main power        Power (kWt)
+                                                                                     49      90      175      343     429
+cable. Another possibility is a high voltage cable extension
+                                                                  Main Radiator
+that could be added to the original 1 km cable to allow the       Area (m2)
+                                                                                     40      80      140      279     351
+user interface to be placed at further locations. The detailed
+Con-Ops associated with FSP power connections and
+maintenance can be determined after the lunar surface                 There are other factors to consider in choosing an FSP
+mission is better defined. At this time, the features            power level. Larger FSP systems will increase the
+discussed here are hypothetical and may not be reflected in      complexity of earth-based ground testing due to the larger
+future requirements.                                             facilities and ground support equipment that will be
+VII. SOME WHAT-IFS                                               needed. A larger FSP system will also be more difficult to
+                                                                 process during pre-launch ground transportation and
+    There are several key FSP design parameters that             during the Assembly, Test and Launch Operations (ATLO)
+remain uncertain and are subject to change as the lunar          phase at the launch site. Further, the larger FSP will
+mission is further defined. The current 40 kWe FSP power         present greater challenges for stowing the system on the
+level may be too large for early Artemis missions and too        lander, off-loading the equipment from the lander,
+small for future commercial lunar missions. A 40 kWe FSP         deploying the radiators, and moving the user interface
+might be suitable for a mission concept where all the            pallet into position.
+current Artemis elements (e.g., Lunar Terrain Vehicle,
+Pressurized Rover, Multi-Purpose Hab) depend on a
+     The FSP power level decision should consider the          kg. However, the reduced separation distance would
+various tradeoffs between having one large system versus       increase the shield mass to approximately 2700 kg, a net
+multiple smaller systems. Meeting a specified power            system mass increase of 1100 kg. A major portion of the
+requirement with a single large system offers mass             shield mass increase is attributed to the larger 52 deg
+advantages, while multiple smaller systems offer reliability   included angle for the new shield geometry (0.5 km
+benefits due to the redundancy provided. Multiple smaller      separation, same 1 km outpost diameter). If the cable
+systems could also provide advantages by allowing them to      length were doubled to 2 km, the user interface pallet mass
+be co-located with specific users. For example, separate       would increase to 1250 kg and the shield mass would
+10 kWe FSP systems could be allocated to hypothetical          decrease to about 700 kg for a net system mass decrease of
+users such as the crew habitat, crew ascent stage, ISRU        about 300 kg. Here, the shield mass benefits by the smaller
+mining equipment recharge station, and oxygen production       22 deg included angle at 2 km. While the larger separation
+plant. These FSP systems could also be temporarily shut        distance offers a modest overall system mass benefit, the
+down, moved, and re-allocated for other uses as needs          risk of deploying the longer cable may negate the benefit.
+arise. If a single 40 kWe FSP were used in the scenario        Figure 10 indicates that a minimum system mass occurs at
+above, it would require an extended power grid to permit       a separation distance of about 1.8 km, although the total
+power sharing among the four users and would likely be         mass does not vary much between 1 and 2.5 km. A more
+too large to relocate. Using multiple smaller units may        important factor may be the mass and size of the user
+offer operational advantages. Assuming the HP-Stirling         interface pallet, which may be limited by the utility rover
+option, the four 10 kWe systems would have a total mass        that must move it.
+of 10t while the single 40 kWe unit would weigh 6.8t plus
+the mass of the power grid. The use of two 20 kWe systems
+would weigh 8t, a mass increase of less than 17% compared
+to the 40 kWe system. Figure 9 shows the mass differences
+of using multiple HP-Stirling systems compared to a larger
+single system for a variety of power levels. The GC-
+Brayton would exhibit similar trends, but with greater mass
+penalties for using multiple smaller systems over a single
+large system.
+
+
+
+
+                                                               Fig 10. FSP Mass Trends with Varying Separation
+                                                               Distance (GC-Brayton option is solid curves, HP-Stirling
+                                                               is dashed curves, User I/F is same for both).
+
+                                                                    Analysis was also performed to assess the user
+                                                               interface pallet mass sensitivities to transmission voltage.
+                                                               Reducing the transmission voltage from 3 kVac to 1 kVac
+                                                               resulted in a 1442 kg user interface pallet, an increase of
+Fig 9. Mass Comparison for Single vs Multiple HP-Stirling      570 kg compared to the baseline. There was no mass
+Systems.                                                       benefit to increasing the voltage above 3 kVac since higher
+                                                               voltages resulted in wire sizes below the minimum deemed
+     Another parameter that could change as the mission        practical for this application. If the transmission distance
+evolves is the FSP separation distance and cable length.       was appreciably larger than the 1 km baseline, transmission
+Figure 10 presents the mass sensitivity as separation          voltages greater than 3 kVac might be considered.
+distance is varied. Shorter distances result in a heavier      VIII. CONCLUSIONS
+radiation shield while longer distances result in a heavier
+power transmission cable. The reference 1 km separation             The FSP project is evaluating design concepts by an
+distance yields a user interface pallet that weighs 872 kg     internal NASA-DOE study team in parallel with three
+and a reactor shield that weighs 1370 kg for the HP-Stirling   contractor teams that are responding to the same system
+option. If the cable length were reduced in half to 0.5 km,    requirements and goals. The 40 kWe FSP concept
+the user interface pallet mass would decrease to about 670     developed by the government team weighs about 7t
+                                                               (including MGA) based on a configuration where the
+reactor pallet remains with the delivery lander and the user   6.   International Space Station, Active Thermal Control
+interface pallet is deployed 1 km away. The HP-Stirling             System (ATCS) Overview, NASA link.
+approach offers a 10% mass advantage over the GC-              7.   Lunar Power Transmission for Fission Surface Power,
+Brayton option. The HP-Stirling system also provides the
+                                                                    NETS 2022.
+benefit of lower reactor thermal power and reduced
+radiator area. The GC-Brayton system simplifies the            8.   A Modular AC to DC Interface Converter to Enable
+PMAD architecture, which is manifested in higher PMAD               Lunar Surface Power Transmission, ASCEND 2023.
+efficiency and lower gross power generated for the same
+net power delivered. Trade studies were performed to
+assess FSP system performance for a variety of
+configurations and design parameters. A notional concept-
+of-operations was developed for a baseline configuration
+which provides a starting point for future, more-detailed
+studies. Several “what if” analyses were performed to
+assess the system mass sensitivity for different power
+levels and cable lengths.
+     The focus on the two specific FSP variants in this
+paper does not preclude the possibility of other options
+going forward. The HP reactor could easily be adapted to
+work with Brayton conversion by employing a hot-end, gas
+plenum heat exchanger. Another potential variant is a
+pumped liquid-metal cooled reactor that could be coupled
+to either Brayton or Stirling. The government study team
+will continue to explore design variants as the project
+moves ahead, and welcomes additional ideas from outside
+sources.
+ACKNOWLEDGMENTS
+     The authors wish to acknowledge the support and
+positive influence provided by the larger government-wide
+FSP team, as well as the various contractor teams. There
+were several key individuals that made specific technical
+contributions to the government FSP concept studies
+including Vedant Mehta, Alexis Maldonado, Scott Wilson,
+Greeta Thaikattil, Christopher Barth, David Pike, Tom
+Godfroy, and Mark Lefebvre. The authors also appreciate
+the programmatic leadership provided by STMD and the
+productive interactions with the various NASA
+architecture teams.
+REFERENCES
+1.   Fission Surface Power System Initial Concept
+     Definition, NASA/TM-2010-216772.
+2.   A Deployable 40 kWe Lunar Fission Surface Power
+     Concept, NETS 2022.
+3.   Design and Fabrication of the Brayton Rotating Unit,
+     NASA CR-1870.
+4.   Free-Piston Stirling Power Conversion Unit for
+     Fission Power System, Phase II Final Report,
+     NASA/CR-2016-219088.
+5.   Heat Pipes and Heat Rejection Component Testing at
+     NASA Glenn Research Center, NASA/TM-2012-
+     217205.
+

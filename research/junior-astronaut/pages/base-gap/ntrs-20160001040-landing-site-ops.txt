@@ -1,0 +1,2017 @@
+Human Mars Landing Site and Impacts on Mars Surface
+Operations
+Ben Bussey
+NASA HQ - 7R76
+300 E Street SW
+Washington DC 20546
+202-358-0954
+david.b.bussey@nasa.gov
+
+Stephen J. Hoffman
+Science Applications International
+Corp.
+2450 NASA Parkway
+Houston, TX 77058
+281-483-9264
+stephen.j.hoffman@nasa.gov
+
+Abstract— This paper describes NASA’s initial steps for
+identifying and evaluating candidate Exploration Zones (EZs)
+and Regions of Interests (ROIs) for the first human crews that
+will explore the surface of Mars. NASA’s current effort to define
+the exploration of this planet by human crews, known as the
+Evolvable Mars Campaign (EMC), provides the context in
+which these EZs and ROIs are being considered. The EMC
+spans all aspects of a human Mars mission including launch
+from Earth, transit to and from Mars, and operations on the
+surface of Mars. An EZ is a collection of ROIs located within
+approximately 100 kilometers of a centralized landing site. ROIs
+are areas relevant for scientific investigation and/or
+development/maturation of capabilities and resources necessary
+for a sustainable human presence. The EZ also contains one or
+more landing sites and a habitation site that will be used by
+multiple human crews during missions to explore and utilize the
+ROIs within the EZ. With the EMC as a conceptual basis, the
+EZ model has been refined to a point where specific site selection
+criteria for scientific exploration and in situ resource utilization
+can be defined. In 2015 these criteria were distributed to the
+planetary sciences community and the in situ resource
+utilization and civil engineering communities as part of a call for
+EZ proposals. The resulting “First Landing Site/Exploration
+Zone Workshop for Human Missions to the Surface of Mars”
+was held in October 2015 during which 47 proposals for EZs
+and ROIs were presented and discussed. Proposed locations
+spanned all longitudes and all allowable latitudes (+/- 50
+degrees). Proposed justification for selecting one of these EZs
+also spanned a significant portion of the scientific and resource
+criteria provided to the community. Several important findings
+resulted from this Workshop including: (a) a strong consensus
+that, at a scale of 100 km (radius), multiple places on Mars exist
+that have both sufficient scientific interest to sustain multiple
+crews of exploring astronauts, AND potential resource deposits
+for ISRU indicating the current EZ definition is viable and
+should be retained for now, (b) new data types (needed for more
+definitive analysis of EZs) argued strongly for a new orbiter
+mission, and possibly one or more surface missions, to obtain
+these data, (c) a general consensus that this Workshop was an
+excellent start to identifying a place where future human
+missions to Mars can productively explore this planet and learn
+to live and work there for the long term. Building on these
+findings, HEOMD and SMD are: (a) refining the EZ selection
+criteria and overall selection process to improve on lessons
+learned from the first EZ workshop, (b) using these proposed
+locations to develop “reference EZs” for assessment purposes
+(primarily engineering assessments), (c) gathering data and
+conducting analyses to better understanding the different
+potential sources for water, including the ease of extraction and
+purification, and (d) assessing trends in additional data that are
+needed to better characterize EZs proposed at the workshop
+and how these data needs impact the design and operation of
+
+future robotic Mars missions.
+
+TABLE OF CONTENTS
+1. INTRODUCTION .................................................1
+2. THE EVOLVABLE MARS CAMPAIGN ................2
+3. CONCEPT OF OPERATIONS FOR HUMAN
+CREWS ON MARS .............................................3
+4. EXPLORATION ZONE REPRESENTATIVE
+EXAMPLE ..........................................................5
+5. SITE SELECTION CRITERIA ..............................6
+6. THE FIRST LANDING SITE/EXPLORATION
+ZONE WORKSHOP FOR HUMAN MISSIONS TO
+THE SURFACE OF MARS ...................................7
+7. RESULTS AND FINDINGS FROM THE FIRST
+LANDING SITE/EXPLORATION ZONE
+WORKSHOP FOR HUMAN MISSIONS TO THE
+SURFACE OF MARS ..........................................8
+8. CONCLUSION ...................................................10
+APPENDICES ........................................................12
+A. SCIENCE CRITERIA FOR EZ SELECTION.......12
+B. ICE CRITERIA FOR EZ SELECTION ...............15
+C. STEERING COMMITTEE MEMBERSHIP FOR
+THE FIRST LANDING SITE/EXPLORATION
+ZONE WORKSHOP FOR HUMAN MISSIONS TO
+THE SURFACE OF MARS................................18
+D. SUMMARY OF PROPOSED EZ AND ROI
+LOCATIONS AND KEY CHARACTERISTICS ...19
+REFERENCES .......................................................21
+BIOGRAPHY ........................................................21
+1. INTRODUCTION
+NASA has begun a process to identify and discuss candidate
+locations where humans could land, live and work on the
+martian surface. This process is being carried out as a
+cooperative effort by NASA’s Human Exploration and
+Operations Mission Directorate (HEOMD), responsible for
+future human mission preparations, and the Science Mission
+
+978-1-4673-7676-1/16/$31.00 ©2016 IEEE
+
+1
+
+Directorate (SMD), responsible for the on-going Mars
+Exploration Program of robotic vehicles in orbit and on the
+surface of Mars. Both of these Directorates have a significant
+interest in this process as these candidate locations will be
+used by NASA as part of a multi-year effort to determine
+where and how humans could explore Mars. In the near term
+this process includes: (a) identifying locations that would
+maximize the potential science return from future human
+exploration missions, (b) identifying locations with the
+potential for resources required to support humans, (c)
+developing concepts and engineering systems needed by
+future human crews to conduct operations within a candidate
+location, and (d) identifying key characteristics of the
+
+with utilization of in situ resources to make the entire
+exploration process more sustainable. Using EMC study
+results, such as these concept of operation assessments, in
+conjunction with science objectives for Mars exploration that
+are maintained by the Mars Exploration Program Analysis
+Group (MEPAG), led to a set of site selection criteria which
+are described in the next section. These criteria were
+circulated among the science and resource utilization
+communities as part of a call for proposed EZs and ROIs. A
+summary of the resulting proposals, presented at the first of
+several workshops on this topic, is presented next. This paper
+concludes with a discussion of the findings from this first
+workshop and plans for use of the findings along with
+
+16
+14
+12
+10
+8
+6
+4
+2
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15
+
+Figure 1 The multiple phases and evolutionary streams in NASA’s Evolvable Mars Campaign.
+proposed candidate locations that cannot be evaluated using
+existing data sets, thus helping to define precursor
+measurements needed in advance of human missions.
+
+preparations for subsequent workshops.
+
+This paper summarizes the current state of NASA’s effort to
+identify viable locations for future human missions to Mars
+and the activities that contributed to this current state. At
+present NASA is assessing different options for conducting
+these future human missions to Mars by means of coordinated
+studies, the results of which are assembled into an end-to-end
+description collectively known as the Evolvable Mars
+Campaign (EMC). The next section contains a brief
+description of the EMC. The concepts of an Exploration Zone
+(EZ) and a Region of Interest (ROI) are introduced in this
+section as a mechanism to help organize the key criteria used
+to identify candidate sites on Mars. This is followed by a
+more detailed description of the concept of operations for
+human crews on the surface of Mars. One hypothetical EZ,
+an area centered on Jezero Crater (drawn from a previous
+study by the Human Exploration of Mars – Scientific
+Analysis Group, or HEM-SAG), is used to illustrate how this
+concept of operations will be implemented – from initial
+selection of the EZ site to emplacement of required surface
+infrastructure to ROI exploration by robots and humans along
+
+Over the past several years, NASA has been implementing
+the NASA Authorization Act of 2010 [1]. The Act calls on
+NASA to (1) develop and evolve the Space Launch System
+(SLS) rocket and Orion crew vehicle and (2) to expand
+human exploration beyond low Earth orbit to cis-lunar space
+destinations, leading eventually to the international
+exploration of Mars. To satisfy the second of these actions
+NASA is defining a long-term, flexible and sustainable deep
+space exploration architecture termed the “Evolvable Mars
+Campaign” (EMC). (See Figure 1 and reference [2]) In short,
+the EMC provides a basis for (1) architecture development,
+and (2) identification and analysis of trade studies with
+NASA’s partners and stakeholders. NASA is structuring the
+EMC such that it can reasonably adjust to changing priorities
+across the decades. From this work will emerge the roadmap
+NASA will follow through cis-lunar space to pioneer Mars.
+[3]
+
+2. THE EVOLVABLE MARS CAMPAIGN
+
+To guide studies associated with the EMC over the past
+several years, a set of ground-rules and assumptions were
+2
+
+established to examine one particular approach to the human
+exploration of Mars that would satisfy objectives set out in
+guiding documents such as the National Space Policy of 2010
+[4] and the NASA Authorization Act of 2010. Principle
+among these ground-rules and assumptions that are relevant
+to activities and results described in this paper was a choice
+to concentrate all of the surface assets needed to support
+human exploration at a single location and then send future
+crews to this site for subsequent missions in the EMC. This
+contrasts with the scenario considered in Design Reference
+Architecture 5.0 (DRA 5.0) [5] in which a campaign of three
+missions sends crews to different locations on Mars.
+
+spacecraft will be tasked to gather data from specific Mars
+surface sites within the candidate EZs to support further EMC
+studies and to assist in the process of selecting a final EZ.
+
+3. CONCEPT OF OPERATIONS FOR HUMAN
+CREWS ON MARS
+In the previous section the EMC was noted to differ in one
+significant respect from DRA 5.0 – with the EMC, a single
+surface site would be chosen for exploration by all crews sent
+to Mars. However, the approach used by these crews to
+explore what we now called ROIs would be comparable to
+the “Commuter” approach adopted in DRA 5.0 [5, Section
+
+Figure 2 A Mars surface mission will require multiple elements, including large landers, ascent vehicles, and rovers, to complete
+all objectives.
+2.1]. DRA 5.0 describes the “Commuter” approach as
+follows:
+
+One facet of these EMC studies is an effort to better
+understand details of the operations that will be carried out
+by human crews on Mars and the systems and infrastructure
+needed to support these operations. The next section will
+discuss these surface operations in more detail, but one
+outcome of the choice to concentrate all surface assets at a
+single location is the concept of an Exploration Zone (EZ)
+that describes the features of a surface location where the
+activities of the human crews will take place. An EZ is a
+collection of Regions of Interest (ROIs) that are located
+within approximately 100 kilometers of a centralized landing
+site. ROIs are areas that are relevant for scientific
+investigation and/or development/maturation of capabilities
+and resources necessary for a sustainable human presence.
+The EZ also contains multiple landing sites as well as a
+habitation area that will be used by multiple human crews
+during missions to explore and utilize the ROIs within the EZ.
+As NASA identifies candidate locations that exhibit the
+potential to be viable EZs, existing and future robotic
+
+The nominal surface mission scenario adopted for DRA
+5.0 is the so-called “Commuter” reference architecture,
+which would have a centrally located, monolithic
+habitat, two small pressurized rovers, and two
+unpressurized rovers (roughly equivalent to the lunar
+rover vehicle (LRV) that was used in the Apollo
+missions to the Moon). This combination of habitation
+and surface mobility capability would allow the mission
+assets to land in relatively flat and safe locations, yet
+provides the exploration range that would be necessary
+to reach nearby regions of greater geologic diversity.
+Power for these systems would be supplied by a nuclear
+power plant that was previously deployed with the
+DAV [descent-ascent vehicle, referred to now in the
+EMC as the Mars Ascent Vehicle or MAV] and used to
+make a portion of the ascent propellant. Traverses
+would be a significant feature of the exploration
+3
+
+Figure 3 A three-phased approach to the evolution of a Mars Surface Field Station is envisioned.
+strategy that would be used in this scenario, but these
+traverses would be constrained by the capability of the
+small pressurized rover. In this scenario, these rovers
+have been assumed to have a modest capability,
+notionally a crew of two, at least 200 kilometers total
+distance before being re-supplied, and 1- to 2-week
+duration. Thus, on-board habitation capabilities would
+be minimal in these rovers. However, these rovers are
+assumed to be nimble enough to place the crew in close
+proximity to features of interest (i.e., close enough to
+view from inside the rover or within easy extravehicular
+activity (EVA) walking distance of the rover).
+
+simulations on Earth. This capability will allow a lander to be
+landed within 100 meters of a designated location on Mars.
+This will allow multiple landers to be landed within relatively
+close proximity as illustrated here. Details can be found in
+DRA 5.0 [5] and other sources.)
+Studies carried out as part of the EMC recognized that in
+addition to scientific questions there would be “known
+unknowns” associated with exploration of Mars that can only
+be addressed and understood by human crews living and
+working on Mars [6]. Several of the more significant “known
+unknowns” that will need to be addressed include the
+following:
+
+Figure 2 visually illustrates how these multiple surface
+elements would be located in what is now called the
+centralized landing area and habitation zone. To the left in
+this image is the DAV / MAV that is located a significant
+distance from the habitat, seen in the center right of the
+image. This separation distance is the result of a precaution
+taken to separate these landers so that debris lofted by the
+terminal descent rocket engines does not damage any
+previously landed system. The area occupied by both of these
+landers is also relatively flat and free of significant objects or
+terrain features that would pose a hazard to these large
+landers and the crews or cargo they carry. With the choice in
+the EMC for multiple crews to return to a single location, this
+places some additional considerations on selecting a site at
+which many of these large landers can be safely landed in
+relatively close proximity while also protecting the surface
+infrastructure from debris (Note: A technological capability
+called Autonomous Landing and Hazard Avoidance
+Technology -- ALHAT -- has been demonstrated in
+
+
+
+Human physiological reaction to the Mars environment
+(e.g., gravity, radiation, dust, etc.)
+
+
+
+Plant physiological reaction to the Mars environment
+(e.g., gravity, radiation, lighting, etc.)
+
+
+
+Sources and extraction/processing technology for water
+
+
+
+Martian civil engineering “best practices” (e.g., surface
+preparation/stabilization)
+
+
+
+Martian chemical engineering “best practices.”
+
+Addressing these questions could require a significant
+amount of time to understand; possibly spanning the mission
+of several crews. The EMC has recently adopted a threephased approach to establishing a single surface site that is
+capable of addressing these questions as well as equally
+important scientific questions [6]. Figure 3 illustrates these
+4
+
+three phases in the development of this surface site. The
+“proving ground” phase of this evolution lends itself to a
+“field station” approach to the development of this central
+habitation zone / landing site portion of the EZ. In this
+context, a working definition of a “field station” is as follows
+[7]:
+
+one representative EZ. In this case, one of the sites considered
+in the MEPAG Human Exploration of Mars Science Analysis
+Group (HEM-SAG) report [8] – an area centered on Jezero
+Crater – is used.
+Figure 4 is a figure from the HEM-SAG report showing what
+we are now calling a proposed EZ with a notional landing site
+
+Figure 4 A representative site on Mars with a diverse set of exploration regions. This image is representative of a preliminary
+proposal that is interesting enough to warrant more detailed analysis.
+Field stations create a bridge between natural
+environments
+and
+(Earth-based)
+research
+laboratories.
+Research
+laboratories
+offer
+considerable power to conduct analyses in a
+predictable environment and to infer cause and
+effect from manipulative experiments, but they
+may miss factors that turn out to be critical in a
+natural environment. Field studies can encompass
+the full range of relevant interactions and scales,
+but they are not as tightly controlled. By offering
+access to both laboratories and field environments,
+Field Stations combine the best of both worlds.
+
+located roughly in the center of the crater. Several traverses
+to investigate surface features (what we are now calling
+science ROIs) are shown. Investigations associated with
+these features cover a diverse range of scientific disciplines
+and results that can be traced to many of the scientific goals
+recommended by MEPAG for Mars exploration [9]. These
+investigations and traverses are sufficiently extensive to
+potentially require the efforts of several crews to complete in
+a thorough manner.
+At this point, existing data sets would be examined in and
+around this hypothetical EZ to refine the potential scientific
+investigations at the initially identified ROIs and to search for
+additional relevant ROIs within the 100 kilometer radius
+allowed for within an EZ. In addition, ROIs with resource
+utilization potential would be identified and the viability of
+the proposed landing site and habitation zone would be
+assessed. Figure 5 identifies several additional, but notional,
+ROIs that lie within the 100 kilometer allowable range. Two
+notional resource ROIs are shown within the crater itself,
+both of which are reasonably close to the proposed landing
+site.
+
+Identifying and selecting an EZ that possesses all of these
+landing site features while also exhibiting significant ROI
+diversity and scientific importance poses a substantial
+challenge in order for these multiple crews to carry out
+productive missions.
+
+4. EXPLORATION ZONE REPRESENTATIVE
+EXAMPLE
+To illustrate the type of steps that could be expected in
+assessing a proposed EZ for its applicability in this threephase strategy, this section briefly follows this process for
+
+For this particular example, an examination of HiRISE
+imagery around the initially proposed landing site indicates
+5
+
+that the area was likely unsuitable for repeated landings and
+use as a habitation zone. However, a suitable location was
+found in this imagery, resulting in a refined location for the
+landing site and habitation zone – this is noted as “Site A” in
+Figure 4 and depicted as a small inset in Figure 5.
+
+following section will discuss a more detailed set of site
+selection criteria that will all need to be taken into account as
+these proposed EZs are assessed. As these assessments
+proceed, it is likely that additional data will be required to
+verify the features or investigations initially proposed for the
+EZ. These additional data needs will become the source of
+
+Figure 5 The same representative site as shown in Figure 4 noting the limits of the “Exploration Zone” and location of both
+the “habitation zone” and “regions of interest.”
+The small inset in Figure 5 is shown in larger scale in Figure
+6 and illustrates the considerations taken into account when
+assessing the landing site and habitation zone. The low hills
+(rising roughly 40-50 meters above the surrounding terrain)
+in the center of Site A would make a suitable feature for
+terrain-relative navigation likely to be used by the landing
+system for final approach and terminal descent. The area
+indicated as the “primary lander zone” would be used by
+MAV vehicles and has space for at least two active MAVs to
+be located in this area without risk of lander-created debris
+damage discussed previously (the blue circle is an indication
+of the potential range of this flying debris). The areas
+indicated as “secondary landing zones” would be used by
+cargo-only landers and would be situated closer to the
+proposed habitation zone, which for this example was chosen
+to be near the low hills at the center of Site A. A relatively
+flat area located among the low hills was identified that
+would make a suitable location for the fission power plant
+that will supply power for the entire landing site and
+habitation zone: it is located roughly equidistant from the
+habitation zone and primary lander zone and the low hills
+surrounding it provide a natural form of radiation protection.
+
+tasking requests for existing assets at Mars or will provide
+input for the definition of future Mars missions and
+associated instruments.
+
+5. SITE SELECTION CRITERIA
+During 2015 the EZ model was refined to a point where
+specific site selection criteria for scientific exploration and in
+situ resource utilization could be defined. For criteria related
+to scientific interests, MEPAG chartered the Scientific
+Objectives for the Human Exploration of Mars - Science
+Analysis Group (HSO-SAG) to develop criteria for ROIs that
+address scientific objectives at Mars and are consistent with
+the previously described concept of operations for human
+missions. A separate group – the ISRU and Civil Engineering
+Working Group (ICE-WG) – was created to prepare a similar
+set of criteria for resource and civil engineering related ROIs.
+These criteria were circulated to the planetary sciences
+community and the in situ resource utilization and civil
+engineering community as part of a call for EZ proposals.
+These criteria can be found in Appendices A and B.
+
+This example illustrates a simplified version of a few of the
+assessments likely to be required for each proposed EZ. The
+6
+
+Figure 6 A more detailed image of specialized zones that will be defined within “habitation zones” as these areas are identified.
+region. A science ROI might therefore be visited
+multiple times, if required, and resource ROI(s) should
+be of a scale that offers the potential to provide usable
+commodities for multiple crews.
+
+6. THE FIRST LANDING SITE/EXPLORATION
+ZONE WORKSHOP FOR HUMAN MISSIONS TO
+THE SURFACE OF MARS
+The “First Landing Site/Exploration Zone Workshop for
+Human Missions to the Surface of Mars,” at which proposals
+for EZs and ROIs were presented and discussed, was held on
+27-30 October 2015. A Steering Committee with
+representation from both the Human Exploration and
+Operations Mission Directorate (representing the human
+spaceflight and exploration perspective) and the Science
+Mission Directorate (representing the robotic spaceflight and
+scientific investigation perspective) was assembled to make
+preparations for this Workshop. The members of this
+Steering Committee are listed in Appendix C. The announced
+purpose of this workshop was to identify and discuss
+candidate locations where humans could land, live, and work
+on the martian surface. The announcement for this workshop
+provided the following information to those who may have
+been interested in proposing EZs or ROIs:
+
+
+
+
+Each EZ will have a collection of diverse ROIs that are
+all within ~100 kilometers of a single plausible landing
+site and accessible via traversable routes from that
+landing site. (There are two main types of ROI: science
+ROIs and resource ROIs. Specific criteria for science
+and resource ROIs was summarized in Section 5. An
+ROI can be of any size and can meet one or multiple
+criteria.)
+Multiple crews will visit the same EZ, gradually
+expanding the amount and depth of exploration of that
+7
+
+
+
+The viability of an identified “plausible” landing site and
+traverse routes will be assessed separately by
+engineering teams familiar with the systems being
+considered for these human missions. However, we do
+ask that you identify a plausible Mars landing site that
+has these characteristics: (a) located between +/- 50
+degrees latitude, (b) less than +2 kilometers altitude
+(Mars Orbiter Laser Altimeter (MOLA) reference), (c)
+an area of approximately 25 square kilometers within
+which the terrain is generally level (slopes less than ~10
+degrees) and significantly devoid of landing hazards
+(e.g., large and/or closely concentrated craters,
+mountainous terrain, broken/jumbled/chaotic terrain,
+extensive dune fields, etc.), and (d) does not contain
+thick deposits of fine-grained dust (e.g., extremely low
+thermal inertia and high albedo).
+
+
+
+These candidate EZs will be used by HEOMD and SMD
+as part of the multi-year process of determining where
+and how we would like to explore Mars with humans. In
+the near term this process includes: (a) identifying
+locations that would maximize the potential science
+return from future human exploration missions, (b)
+identifying locations with the potential for resources
+required to support humans, (c) developing concepts and
+engineering systems needed by future human crews to
+conduct operations within an EZ, and (d) identifying key
+
+Figure 7 Exploration Zones as proposed for the First Landing Site/Exploration Zone Workshop.
+characteristics of the proposed candidate EZs that cannot
+be evaluated using existing data sets, thus helping to
+define precursor measurements needed in advance of
+human missions. Existing and future robotic spacecraft
+will be tasked to gather data from specific Mars surface
+sites within the representative EZs to support these
+HEOMD and SMD activities.
+
+
+An optimal submission would be an EZ that contains
+several science ROIs (of different types) as well as at
+least one potential resource ROI. However, all smallerscale submissions (e.g. an EZ with just science ROIs)
+will be considered.
+
+
+
+For this first workshop, we are not expecting EZ
+submissions to have all of these ROIs. But we are
+looking for EZs that have as many of these ROIs as
+possible. We are also very interested in other types of
+ROIs. Since the human base will be a permanent base,
+diversity of science objectives is critical.
+
+approximately 280 people from around the world watched the
+Workshop via a UStream connection.
+Presentations for 44 of the 45 accepted abstracts were made
+during the Workshop. Copies of these presentations can be
+found at: http://www.nasa.gov/feature/mars-human-landingsite-workshop-presentations. The location of these EZs
+spanned most of the range of latitude, longitude, and
+elevation allowed in the call for proposals, as can be seen in
+Figure 7. A more detailed version of the map can be found at:
+http://www.nasa.gov/sites/default/files/atoms/files/explorati
+on-zone-map-v10.pdf. Figure 8 shows a different view of the
+distribution of these sites across the allowed range of
+elevation and latitude, using a graphical format.
+A diverse range of exploration objectives (scientific and
+resources) were described in these abstracts and associated
+presentations, all of which are posted at the previously
+mentioned location. Each presentation included a section
+describing the current best estimate of additional data needed
+for these assessments. The participants were invited to
+answer several questions and submit additional comments
+regarding this Workshop via email for a period of several
+weeks. The comment period closed in mid-December 2015
+and the comments received are still being reviewed and
+discussed by the Workshop Steering Committee. However, a
+preliminary review of participant responses indicates the
+following:
+
+In response to this call for proposals, 47 EZs were accepted
+for presentation from among all of the submissions received.
+A map of the submitted EZs is shown in Figure 7, and these
+presentations are summarized in Appendix D of this paper.
+
+7. RESULTS AND FINDINGS FROM THE FIRST
+LANDING SITE/EXPLORATION ZONE WORKSHOP
+FOR HUMAN MISSIONS TO THE SURFACE OF
+MARS
+
+
+
+Approximately 175 people – including scientists, engineers,
+technologists, industry representatives and the press –
+attended the Workshop in person. An additional
+8
+
+More than half of the presentations were considered
+by the attendees to have made a strong case for the
+merits of sending multiple crews to the EZ; only
+about one-sixth of the presentations were considered
+to have presented insufficient data to make an
+assessment.
+
+
+
+acknowledged a need to better understand the kinds of raw
+materials, and properties of those materials, that are sought
+after by the ISRU community. Similarly, the ISRU
+community acknowledged a need to better understand the
+kinds of raw materials found on Mars and their distribution
+
+Slightly more than one third of the EZs presented
+should reconsider their requested highest priority
+data – most often by requesting data from a different
+instrument, but potentially also selecting a different
+ROI to target.
+
+Figure 8 Distribution of the proposed Exploration Zones by elevation and by latitude.
+On the final day of the Workshop time was set aside for the
+organizers and participants to discuss impressions based on
+the previous days of presentations with a focus on how to
+build on the process started at this Workshop. A summary of
+other important comments from this discussion include the
+following:
+
+across the surface (and subsurface).
+Both communities acknowledged that there is a substantial,
+but not complete, overlap between the data sets needed by
+each community among the data currently being gathered as
+part of scientific investigations at Mars. In some cases
+additional data of the type that can currently be acquired is
+needed for EZs proposed in areas that have not been studied
+in detail. In other cases additional data of the type that can
+currently be acquired is needed at higher resolution (e.g.,
+imagery). In a substantial number of cases new data is needed
+that has never been gathered before (e.g., radar at shallow
+depths) and require new instruments in orbiting spacecraft or
+may require data acquired from the surface or subsurface.
+There was agreement that these new data types argued
+strongly for a new orbiter mission, and possibly one or more
+surface missions, to obtain these data. The need for surface
+missions(s) targeted for candidate EZs (and possibly for
+specific ROIs with the EZs) was particularly apparent for
+resources-related questions associated with determining the
+quantity of the target feedstock (e.g., what is the vertical
+distribution of the feedstock of those materials for which only
+surface data are available) and the quality of the feedstock
+(i.e., verifying, or refining, estimate based on remote sensing
+data).
+
+The viability/value of the EZ concept in describing and
+assessing human exploration on Mars.
+There was strong consensus that at a scale of 100 km (radius),
+multiple places on Mars exist that have both sufficient
+scientific interest to sustain multiple crews of exploring
+astronauts, AND potential resource deposits for In-Situ
+Resource Utilization (ISRU). At this point in the process of
+identifying the preferred EZ there is no rationale to change
+this dimension (e.g. to 150 km radius). The concept of
+recurring visits to the same site (as opposed to landing in
+multiple different places) was a Workshop assumption that
+was not discussed.
+Very few sites were proposed poleward of 45 degrees, even
+though by the guidelines set for this Workshop, sites up to 50
+degrees both north and south were allowed. However, a
+number of important candidate sites were proposed in the
+latitude range 40-45N and 40-45S (see Figure 7). Within
+these belts, ice is going to be the most continuous, and the
+overburden that needs to be removed will be thinnest.
+
+One key result of the workshop was the agreement that we
+need to better understand the relative merits of the multitude
+different sources for water. Water sources discussed, include
+
+Data and Data Analysis.
+
+1. Buried ice deposits
+
+There was general agreement that the addition of accessible
+resources to traditional scientific objectives as criteria for a
+desirable Exploration Zone expanded the need for new data
+types and new data analyses. Those participants who count
+themselves among the traditional science community
+
+2. Hydrated minerals (several types including poly
+hydrated sulfates)
+
+9
+
+3. Hydrated dune fields
+
+community, such as those more directly involved with human
+spaceflight operations (e.g., the astronaut corps as well as the
+planners and controllers of human space missions) plus a
+broader sweep of the mining and materials processing
+industry, were recognized as possessing important
+experience and insight that should be incorporated into the
+EZ assessment process as early as possible. Mechanisms such
+as those discussed above represent a portion of the means to
+engage these prospective stakeholders but additional
+mechanisms are likely to be required to raise awareness that
+this EZ analysis effort is underway and would benefit from
+an expanded participation. The enthusiasm exhibited at this
+first Workshop indicates that this is a topic of great interest
+and should be easily expanded to incorporate the broad
+spectrum of specialized groups needed to select the first Mars
+Exploration Zone.
+
+4. Recurring Slope Lineae (RSLs)
+Future work needs to consider the relative ease and efficiency
+of extracting clean water from these sources. Factors include
+the mass, power and complexity of the systems needed to
+excavate, process and purify the water.
+Presenters generally acknowledged that additional analyses
+of existing data, plus new data when it is available, will be
+required to improve their assessment of features within their
+proposed EZs relative to the criteria distributed with the call
+for proposals. Each of the presentations included a section
+describing the current best estimate of additional data needed
+for these assessments.
+The Next Workshop(s).
+
+8. CONCLUSION
+
+Dialog between science and ISRU/Civil Engineering (CE)
+communities was generally acknowledged as one of the
+major benefits of this Workshop. Finding means to continue
+and expand this cross-communities dialog was also
+encouraged but there were many different approaches
+suggested for accomplishing this. Additional workshops,
+perhaps focused on different aspects of selecting an EZ, is
+one approach that could address these interests. Given the
+likely amount of time until MRO data requests could be
+fulfilled, those proposing EZs generally thought that another
+full-scale workshop focused on EZ proposals should not be
+attempted for approximately two years. However, there was
+broad interest in a series of workshops occurring on a more
+frequent basis. Perhaps the most frequently mentioned topic
+for one of these workshops was a more detailed discussion of
+ISRU-related site criteria as well as descriptions of candidate
+processing technologies.
+
+This paper summarizes the current state of NASA’s effort to
+identify viable locations for future human missions to Mars
+and the activities that contributed to this current state. At
+present NASA is assessing different options for conducting
+future human missions to Mars by means of coordinated
+studies, the results of which are assembled into an end-to-end
+description known as the Evolvable Mars Campaign (EMC).
+NASA’s Human Exploration and Operations Mission
+Directorate (HEOMD) and the Science Mission Directorate
+(SMD) are cooperating in this process as these candidate
+locations will be used by NASA as part of a multi-year effort
+to determine where and how humans could explore Mars. In
+the near term this process includes: (a) identifying locations
+that would maximize the potential science return from future
+human exploration missions, (b) identifying locations with
+the potential for resources required to support humans, (c)
+developing concepts and engineering systems needed by
+future human crews to conduct operations within a candidate
+location, and (d) identifying key characteristics of the
+proposed candidate locations that cannot be evaluated using
+existing data sets, thus helping to define precursor
+measurements needed in advance of human missions.
+
+Building the community and maintaining momentum.
+There was general consensus that this Workshop was an
+excellent start to identifying a place where future human
+missions to Mars can productively explore this planet and
+learn to live and work there for the long term. The
+participants expressed a strong desire to maintain the
+momentum started by this Workshop, which was understood
+to include more extensive analyses of the EZs presented and
+building the community of science and resources/engineering
+interests that came together to carry out these EZ analyses. A
+series of workshops along the lines described above was
+viewed as one means to maintain momentum by setting
+tangible deadlines with specific objectives. Other
+mechanisms, such as a web portal supporting a repository of
+analysis results and other relevant materials as well as
+allowing contact among interested individuals or groups,
+were proposed as a positive means to build a sense of
+community.
+
+An initial step in this process was recently completed at a
+workshop cosponsored by HEOMD and SMD to identify
+viable EZs using criteria based on results from recent EMC
+studies of human Mars mission options along with current
+scientific objectives for Mars exploration maintained by
+MEPAG. Several important findings resulted from this
+Workshop:
+1.
+
+The breadth of the interested community itself was also
+recognized as an aspect of community building that will
+require additional effort. Other components of the aerospace
+10
+
+There was strong consensus that, at a scale of 100
+km (radius), multiple places on Mars exist that have
+both sufficient scientific interest to sustain multiple
+crews of exploring astronauts, AND potential
+resource deposits for ISRU. There is no rationale (at
+least at this point in the EZ selection process) to
+change the scale of the EZ (e.g. to something larger
+such as 150 km radius or something smaller such as
+a 20 km radius).
+
+2.
+
+3.
+
+4.
+
+5.
+
+There was agreement that new data types (needed
+for more definitive analysis of EZs) argued strongly
+for a new orbiter mission, and possibly one or more
+surface missions, to obtain these data.
+Workshop participants strongly endorsed the
+concept of an Announcement of Opportunity to
+support more detailed analyses of EZs as described
+by the Workshop organizers.
+There was general consensus that this Workshop
+was an excellent start to identifying a place where
+future human missions to Mars can productively
+explore this planet and learn to live and work there
+for the long term. The participants expressed a
+strong desire to maintain the momentum started by
+this Workshop, which was understood to include
+more extensive analyses of the EZs presented and
+building the community of science and
+resources/engineering interests that came together
+to carry out these EZ analyses.
+
+
+
+Changes that should be made to the EZ criteria
+distributed prior to the workshop;
+
+
+
+Recommendations for improving the EZ selection
+process (compared to what was just completed for
+the first Workshop);
+
+
+
+Trends in additional data that are needed to better
+characterize EZs proposed at the workshop and how
+these data needs impact the design and operation of
+future robotic Mars missions;
+
+
+
+Better understanding of the different potential
+sources for water, including the ease of extraction
+and purification; and
+
+
+
+Using these proposed locations to develop
+“Reference EZs” for assessment purposes
+(primarily engineering assessments).
+
+All of the steps, both recent and planned, are making
+important advances in preparing for a campaign of highly
+productive human missions on the surface of Mars. As noted
+during Workshop discussions Dr. James Green, director of
+the Planetary Science Division in NASA Headquarters’
+Science Mission Directorate, called the first human landing
+site workshop “historic.” Dr. Green added that the results of
+this Workshop are "… really the start of making Mars real …
+identifying the real locations for us to be able to land, work
+and do our science."
+
+Very few sites were proposed poleward of 45
+degrees, even though by the guidelines set for this
+Workshop sites up to 50 degrees both north and
+south were allowed. This is significant primarily
+because higher latitudes put additional propulsive
+requirements on the ascent vehicle used by each
+crew; lower latitude sites translate into smaller
+propellant required to reach orbit.
+
+Both HEOMD and SMD are now using these results to refine
+several aspects of this process including:
+
+11
+
+APPENDICES
+APPENDIX A
+Science Criteria for EZ Selection
+INTRODUCTION
+The Human Science Objectives Science Analysis Group
+(HSO-SAG 2015) was tasked with outlining the set of science
+objectives that might be considered for a human mission to
+Mars in 2035. The team was also tasked with developing a
+set of ROI criteria from these scientific objectives that could
+be used to support ongoing human Landing Site (LS)/EZ
+selection work.
+
+B2.
+
+The team considered a forecast of the state of knowledge for
+the 2030’s and concluded that although the coming Mars
+exploration missions and scientific research of the late 2010s
+and 2020s will make eagerly anticipated discoveries, it is
+unlikely that the high level science objectives and priorities
+for Mars will change significantly prior to 2030.
+
+B4.
+
+B3.
+
+B5.
+
+SCIENTIFIC OBJECTIVES
+B6.
+
+The scientific objectives listed below were identified
+considering intrinsic scientific merit, magnitude of the
+benefit of a proximal human, opportunity to make
+simultaneous observations from different vantage points, and
+opportunity to deliver scientific payloads of higher
+mass/complexity. The objectives are not prioritized across
+the different groups: Astrobiology (A), Atmospheres (B),
+Geology (C), and Cross Cutting (D). The Geology objectives
+(C1 and C3) are further informed by a set of questions
+identified below.
+
+supplemented by regular vertical atmospheric structure
+information.
+Constrain past climate states and atmospheric
+composition through analysis of samples from the
+Noachian and Hesperian, including trapped gases and
+inclusions.
+Characterize the local source and sinks in the dust,
+water and CO2 cycles, and the key parameters that
+determine these sources and sinks across a diversity of
+surfaces.
+Quantify photochemical and electrochemical cycles
+and potential subsurface trace gas sources through the
+measurement of trace gases, heterogeneous reactions
+and the electrical environment.
+Infer previous climate states and atmospheric
+composition under different orbital configurations
+through chemical and isotopic analysis of sediments
+and water ice emplaced during the Amazonian.
+Provide simultaneous context for near-surface
+atmospheric characterization through the global
+monitoring and quantification of the atmospheric state,
+forcings, and the distribution of airborne aerosols and
+trace gases.
+
+GEOSCIENCES
+C1. Characterize the composition of surface units and
+evaluate the diverse geologic processes and
+paleoenvironments that have affected the martian crust;
+determine the sequence and duration of geological
+events, and establish their context within the geologic
+history of Mars to answer larger questions about
+planetary evolution (to be refined based on discoveries
+during the next decade).
+C2. Determine relative and absolute ages of geologic events
+and units, determine their history of burial, exhumation,
+and exposure, and relate their ages to major events
+through martian history.
+C3. Constrain the dynamics, structure, composition and
+evolution of the martian interior, to answer larger
+questions about planetary evolution (to be refined based
+on discoveries during the next decade).
+
+ASTROBIOLOGY
+A1. Past Life: search for and characterize past habitability
+potential in environments with highest preservation
+potential for ancient biosignatures.
+A2. Determine if evidence of past life is present in such
+environments.
+A3. Present Life: search for and characterize modern
+environments with high habitability potential for extant
+life.
+A4. Determine if evidence of extant life is present in such
+environments.
+A5. Investigate the exchange and cycling of material
+between the subsurface, surface and atmosphere.
+A6. Investigate the complex chemistry (e.g., degree of
+covalency, organic chemistry and redox gradients) in
+the near surface, understand the mechanisms for
+organosynthesis, alteration and destruction.
+
+ADDITIONAL QUESTIONS
+Q1. How have the mineralogical and geochemical
+properties of martian igneous rocks changed over
+geological time and across global length scales, and
+how do these changes reflect changing conditions in the
+martian interior?
+Q2. In what ways are the oldest martian rocks similar or
+different in composition or formation mechanism to the
+oldest terrestrial and/or lunar rocks?
+
+ATMOSPHERIC SCIENCE
+B1. Simultaneously quantify the atmospheric state and
+forcings near the surface at four or more locations
+
+12
+
+o
+
+Q3. How has the mineralogy and geochemistry of alteration
+products changed over geological time (epochs and
+obliquity cycles), and what does that indicate about
+changing climate or subsurface environmental
+properties?
+Q4. How do impacts disrupt and redistribute crust and
+mantle material?
+Q5. What were the processes of magmatic activity on Mars,
+how did they change with time, does volcanism persist
+to the present, and how does this contribute to crustal
+formation and resurfacing?
+Q6. What is the nature and diversity of tectonism (faulting
+and flexure) over martian geological history?
+Q7. What was the role of ice-related processes in modifying
+the martian surface?
+Q8. What was the history and abundance of surface water
+and groundwater on Mars, and how is this reflected in
+the sedimentary and geochemical record?
+Q9. How has the atmosphere of Mars changed over time and
+how has it affected sedimentary and erosional
+processes?
+Q10. What was the history of the martian dynamo, and what
+was the cause and history of its cessation?
+Q11. What was the compositional and dynamical evolution
+of Mars’ mantle?
+Q12. What is the structure of the martian interior?
+Q13. What was the origin of Mars and its thermal evolution?
+Q14. What are the modern sources of seismicity on Mars and
+how do they relate in magnitude or location to global
+tectonic or structural processes that have been active in
+the past?
+
+
+
+
+
+
+
+
+
+QUALIFYING
+
+
+CROSS-CUTTING
+
+
+
+
+D1. Assuming the mission accesses at least one significant
+concentration of water as part of its ISRU operations,
+evaluate that deposit for its implications to
+astrobiology, atmospheric science, and geology.
+D2. Characterize the impact of humans on the martian
+environment.
+D3. Evaluate variability in the martian radiation
+environment.
+
+
+
+ROI Criteria
+These science objectives were then used to construct a set of
+ROI criteria, which can be used to identify potential human
+LS/EZs on Mars with high potential for substantial scientific
+discovery. Two types of criteria were identified in this study:
+Threshold and Qualifying. The threshold criteria listed below
+can be viewed as the highest priority and a “must have” for
+any potential ROI. Qualifying criteria are other high priority
+criteria that address important science questions and that add
+breadth to the scientific potential of an ROI.
+
+
+
+
+
+Threshold
+
+
+Both of these criteria were viewed as highest
+priority but finding a place on Mars that
+accomplishes both may be difficult. Therefore, these
+should be considered as an “and/or” requirement
+for inclusion in an exploration zone. At least one of
+these should be present, and an exploration zone
+that meets both is not required but highly desirable.
+Noachian and/or Hesperian rocks in stratigraphic context
+that have high likelihood of containing trapped
+atmospheric gasses.
+o Specifically rocks that might effectively inform
+objective B2 and Q9 from the science criteria. In
+this case trapped gases might also include
+rocks/minerals
+formed
+from
+atmospheric
+constituents that would also help inform the state of
+the atmosphere at a particular time.
+Exposures of at least two crustal units that have regional
+or global extents, that are suitable for radiometric dating,
+and that have relative ages that sample a significant
+range of martian geological time.
+Access to outcrops with morphological and/or
+geochemical signatures (with preference given to sites
+that link the two) indicative of aqueous processes or
+groundwater/mineral interactions.
+Identifiable stratigraphic contacts and cross-cutting
+relationships from which relative ages can be
+determined.
+
+
+
+Access to deposits with a high preservation potential for
+evidence of past habitability and fossil biosignatures
+AND/OR presence of sites that are promising for present
+habitability, e.g., as a refugium.
+
+
+
+13
+
+Access to deposits with high potential for containing
+organic matter (indigenous or exogenous) with various
+lengths of surface exposure.
+Presence of meteorological diversity in space and time.
+High likelihood of surface-atmosphere exchange of dust
+(e.g., aeolian and dust devil activity) and water across a
+diverse range of surface types (e.g., dust cover, albedo,
+thermal inertia, surface roughness, and rock abundance).
+Access to Amazonian-aged subsurface ice, high latitude
+water ice (e.g., polar layer deposits), and Amazonianaged sedimentary deposits.
+o Although Amazonian aged subsurface ice is
+typically located in the polar regions, this criteria is
+included with the hope that future work may identify
+near-surface Amazonian ice nearer the equator.
+High likelihood of active surface trace gas sources.
+o Surface trace gas sources are included here in
+anticipation of further results from MSL and future
+results from the Mars Trace Gas Orbiter. A
+convincing case for localized trace gas emissions on
+Mars would be highly pertinent to ROI discussions.
+Access to igneous rocks that can be clearly tied to one or
+more distinct igneous provinces and/or from a range of
+different martian time periods.
+Access to near-surface ice and/or glacial or permafrostrelated sediments.
+Access to Noachian or pre-Noachian bedrock units.
+Access to outcrops with remnant magnetization.
+
+
+
+
+
+Although the scientific interpretation of individual sites on
+Mars may change with time, the overall science objectives
+should not significantly change with time. In many cases the
+ROI criteria are subject to scientific interpretation, so
+proposers should make the case for how their identified ROIs
+meet the criteria, drawing on any data and analysis to support
+their claim.
+
+Access to diverse deposits from primary, secondary, and
+basin-forming impacts.
+Access to structural features that have regional or global
+context.
+Access to a diversity of aeolian sediments and/or
+landforms.
+
+14
+
+APPENDIX B
+ICE CRITERIA FOR EZ SELECTION
+assuming food production is implemented). Each candidate
+site will exhibit strengths and weaknesses with respect to this
+objective. For example, berms and roads may be used to
+improve mobility around surface infrastructure elements and
+help to minimize vehicle maintenance. Selected areas may
+require manipulation of the surface to create a suitable
+foundation for surface infrastructure such as modular habitats
+or crop growth chambers. While very important, radiation
+shielding may be enhanced using water walls before surface
+material is required. But determining the potential value of
+using surface materials for radiation protection will be one of
+the unknowns that will be investigated. Thus each candidate
+site will be assessed for factors such as these and an overall
+site plan will be developed noting where improvements are
+required.
+
+INTRODUCTION
+The ISRU and Civil Engineering Working Group (ICE WG)
+was tasked with developing a set of objectives that satisfy
+NASA’s general goal of a permanent, sustainable human
+presence on Mars that is Earth independent. NASA continues
+to make progress on the Evolvable Mars Campaign (EMC),
+examining alternatives that address all aspects of this goal –
+from Earth launch, to Mars surface operations, to Earth
+return. The ICE WG focused on just those portions of the
+EMC dealing with achieving a permanent, sustainable
+presence on the surface of Mars that minimizes (ideally
+eliminates) reliance on Earth. This means developing a local
+capability to provide for basic human needs of air, water,
+food and shelter along with other critical operational needs
+such as power, fuel/propellants, and the ability to
+manufacture selected items.
+
+3.
+
+For purposes of this Exploration Zone activity two broad
+categories – in situ resource utilization (ISRU) and civil
+engineering (CE) – were used to group these concepts. But
+there remains several concepts –food production, for example
+– that do not ideally fit into either of these categories, but
+nonetheless are important and are being considered. The
+remainder of this discussion is built primarily around the
+ISRU and CE groups but other concepts are included as
+appropriate.
+
+The highest priority capability for this objective is food
+production. Of secondary priority is in situ manufacturing
+and construction with locally derived feedstock. Food is one
+of the largest (perhaps the largest?) consumable items that
+must be imported from Earth in current mission scenarios, so
+the ability to produce food locally will help improve
+sustainability by reducing logistical mass requirements as
+well as improving crew health with the use of fresh food. An
+in situ capability to manufacture and construct items has a
+potentially broad range of options to consider, but
+collectively these will help to minimize long term costs,
+logistics, and crew risk.
+
+ISRU AND CE OBJECTIVES
+Three primary objectives have been identified for ISRU and
+CE at an EZ site on Mars. While other objectives may
+emerge, these three will be used as guidance for candidate EZ
+identification:
+1.
+
+EZ/ROI SELECTION CRITERIA
+
+Demonstrate the ability to prospect for and extract useful
+commodities from local materials in a cost effective and
+sustainable fashion and begin using those commodities
+in nominal operations as soon as possible.
+
+These objectives have been used to generate criteria to guide
+selection of candidate EZs for human crews. Every attempt
+was made to make these criteria as quantitative as possible to
+enhance their use in the candidate EZ identification process,
+but it was also recognized that data may not currently exist to
+definitively identify locations that meet these criteria. As a
+result, the term potential was introduced into some of these
+criteria to indicate indirect evidence that a candidate site
+meets one or more of these criteria. Sites that satisfy these
+“potential” criteria may become targets for gathering
+additional data using instruments on existing and future
+spacecraft, as well as the focus of specific analysis by
+qualified teams using existing and future data sets.
+
+The highest priority commodity for this objective is water.
+Important but of a secondary priority are metals, silicon, and
+structural building materials. Water can be used for multiple
+purposes that are mission enabling or enhancing (e.g.,
+propellant/fuel cell reactant production, life support,
+radiation shielding, plant growth, etc.). Metals will be
+important for in situ fabrication of spare parts and repairs.
+2.
+
+Demonstrate capabilities that reduce reliance on supplies
+from Earth using indigenous materials, resources, and
+the environment.
+
+Demonstrate the ability to manipulate the surface for
+infrastructure emplacement and protection of hardware.
+
+The following criteria are considered requirements:
+
+The highest priority capability for this objective is foundation
+improvement and surface stabilization (including
+construction of landing pads, roads, berms, etc.). Of
+secondary priority are capabilities to build structures and
+enhance radiation shielding for the crew (and possibly plants,
+
+1.
+
+15
+
+The proposed EZ must have at least one location with
+access to raw material that exhibits the potential to (a) be
+used as feedstock for water-generating ISRU processes
+and (b) yield significant quantities (>100MT) of water.
+The raw material can be in the form of ice, ice/regolith
+
+mix, or hydrated minerals, and the top of the raw material
+deposit should be as close to the surface as possible.
+
+is acquired must be sufficiently flat (TBD based on rover
+stability and loading design, but less than approximately 10°)
+to permit excavation and soil storage. Major natural obstacles
+along the most direct traverse between resource feedstock
+and usage area that exceed planned mining mobility
+platforms such as canyons, cliffs, vertical outcrops, and wide
+crevices must not be present. Rock size must be <30 cm
+(TBD based on rover clearance) to prevent any impact to
+rover mobility. Rock distribution must not allow for impact
+to excavation operations.
+
+The resource feedstock deposit must be of a size that is
+sufficient to support one or all of the following needs for
+several human missions: enhanced radiation shielding, life
+support, EVA, and propulsion. To meet all of these needs a
+quantity of water approaching 20,000 kg must be produced
+for each crew. If the raw material is in the form of hydrated
+minerals, then it must have a potential for a high
+concentration (greater that 5% by weight). The following
+figure is provided to illustrate the volume of material that
+must be acquired to realize a certain amount of water, based
+on the weight percentage of water contained in that raw
+material and using a U.S. football field as a representative
+surface area to be mined. For this particular example a
+quantity of approximately 14, 000 kg was sought and the
+ISRU process was assumed to be able to extract up to 80% of
+the water at a production rate of 1.238 kg/hr (thus requiring
+480 days to produce all of the water). A similar analysis can
+be used to estimate the potential yield for candidate raw
+material sites of different areal extent and for different
+estimated water yield.
+Mining this raw material is likely to occur when no crew are
+present at the site. Even if crew are present, little crew time
+is likely to be available to operate or supervise the mining
+operation. So the raw material should be in a form that can be
+easily mined by highly automated equipment. Due to this use
+of automated equipment, the location where the raw material
+
+The raw material must be located less than 3 kilometers from
+the ISRU processing plant and power infrastructure – the
+value of the raw material decreases with increased distance
+(i.e., increased transportation “costs”) from processing point
+or utilization point. Terrain features must not prevent directline-of-site communications between the ISRU processing
+system and rover/excavators if possible (to avoid the need for
+communication repeaters). In addition, the raw material must
+be as close to the surface as possible; ideally no more than 1
+meter beneath the surface. Buried raw material requires
+extensive removal of overburden and/or a multiple segment
+drill, decreasing the value of the raw material (i.e., added time
+and “cost” to remove the overburden).
+The resolution for the data used to assess potential should be
+<1000 meters in scale, with a desired resolution <100 meters.
+
+Figure 9 (Caption is TBD)
+
+16
+
+2.
+
+Access to at least one region where infrastructure
+construction can be emplaced or constructed. This region
+must be less than 5 kilometers from a central landing site
+and contain flat, stable terrain. The region should exhibit
+evidence for an abundant source of cobble-sized or
+smaller rocks and bulk, loose regolith.
+
+The location of these additional raw material sites can be
+greater than 5 kilometers from the processing location or
+from point of use. Concentrations should be greater than 5%
+by weight to justify extended range operations from
+processing location or from point of use. A plausible traverse
+route must be evident for these additional sites (detailed
+assessments of traversability will be conducted separately).
+Terrain features must not prevent direct line-of-site
+communications between the ISRU processing system and
+rover/excavators if possible (to avoid the need for
+communication
+repeaters).
+Finally,
+slopes,
+rock
+size/distribution, and soil properties should allow for
+road/path construction between the resource excavation
+location and centralized ISRU processing systems if these
+additional locations are required for sustained use.
+
+Within this construction region there should be no indication
+(or minimal indication?) of seasonal changes over the
+majority this area.
+The identified raw materials (e.g., sand, cobbles, bulk
+regolith) are intended for use in a variety of construction
+techniques such as leveling roadways, enhancing roadway
+surfacing, constructing berms, burying habitats for radiation
+protection, etc. For reference, cobbles are defined as 64-256
+mm (2.5-10 in) in size.
+3.
+
+2.
+
+Access to raw material that exhibits the potential to be
+used as metal or silicon feedstock for ISRU and
+construction purposes. Of primary interest are iron,
+aluminum, and silicon; titanium and magnesium are of
+secondary interest. Raw material should be as near to the
+surface as possible and be in a form that is minable by
+highly automated systems.
+
+The systems used to acquire the raw materials for use in these
+processes are likely to be similar to those used for acquiring
+raw material for processing into water. Thus the distance,
+depth, and features favorable to automated systems described
+previously for water ISRU also apply here.
+
+Food production is considered highly likely, but successful
+operations are not as dependent on the EZ location as other
+criteria described. Food production could be accomplished
+using hydroponically grown plants and artificial lighting. But
+food production could be implemented more efficiently (in
+terms of infrastructure required) if local regolith and natural
+lighting is used. With this in mind, an EZ with the following
+characteristics would be better suited to support food
+production: (a) a low latitude for more consistent lighting
+throughout the year, (b) no local terrain feature(s) that could
+shadow light collection facilities, (c) access to locally
+produced water, and (d) access to dark, minimally altered
+basaltic sands for use as soil base for crop growth; augmented
+with other material to improve crop growing potential. The
+locally acquired soils should avoid heavily weathered and/or
+altered soils (e.g., hydrothermal or fumarolic vent/systems)
+because they are likely to be more deficient in plant essential
+nutrients and thus require augmentation before they can be
+used.
+
+The following criteria are considered enhancements. What
+this means is, for example, food production is very likely to
+be part of the activities taking place in the EZ, but there are
+options for implementing this capability that are site
+independent (e.g., hydroponically grown plants using
+artificial lighting). EZs satisfying these criteria could
+enhance the efficiency or reduce the Earth-supplied materials
+needed for the activity.
+1.
+
+Natural terrain features that can be adapted for
+construction purposes (e.g., to enhance habitat radiation
+protection) are considered an enhancement of the EZ.
+Examples include shallow depressions, narrow (but
+accessible) valleys, and lava tubes. Many of these terrain
+features are likely to be found within any EZ, but their
+value to the EZ will depend on their proximity to the
+centrally located infrastructure and the ease with which
+they can be adapted to these civil engineering purposes.
+Northern latitude sites below 40 degrees latitude are
+somewhat preferential due to less extreme climate
+variations and higher solar flux.
+
+The proposed EZ may have additional locations with
+access to raw materials that exhibit the potential to be
+used as feedstock for water-generating ISRU processes.
+The raw material can be in the form of ice, ice/regolith
+mix, or hydrated minerals, and the top of the raw material
+deposit should be as close to the surface as possible.
+
+17
+
+APPENDIX C
+STEERING COMMITTEE MEMBERSHIP FOR THE FIRST LANDING SITE/EXPLORATION ZONE
+WORKSHOP FOR HUMAN MISSIONS TO THE SURFACE OF MARS
+
+Ben Bussey, Ph.D (NASA HQ/HEOMD) co-chair
+Richard Davis (NASA HQ/SMD) co-chair
+Anders Almeida (NASA HQ)
+David Beaty, Ph.D. (JPL)
+Marianne Bobskill, Ph.D. (NASA LaRC)
+Joshua Dunbar (NASA HQ)
+Matthew Golombek, Ph.D. (JPL)
+John Grant, Ph.D. (Smithsonian Institution)
+Lindsay Hays, Ph.D. (JPL)
+Stephen Hoffman, Ph.D. (SAIC)
+Robert Mueller (NASA KSC)
+Paul Niles, Ph.D. (NASA JSC)
+Larry Toups (NASA JSC)
+Richard Zurek, Ph.D. (JPL)
+
+18
+
+APPENDIX D
+SUMMARY OF PROPOSED EZ AND ROI LOCATIONS AND KEY CHARACTERISTICS
+Author
+Ackiss
+Sheridan
+Barker
+Don
+
+Add’l Author(s)
+Niles, P.B.
+
+Landing Site
+Huygens Crater
+Phlegra Dorsa
+
+Abstract No.
+1032
+1002
+
+Longitude
+27
+1
+
+Latitude
+13.5S
+39N
+
+Southern Nectaris Fossae
+Gale Crater
+Endeavour Crater
+Eastern Valles Marineris
+Meridiani Planum
+Hebrus Valles
+
+1005
+1020
+1057
+1054
+1030
+1012
+
+2
+3
+43
+41
+4
+5
+
+29S
+4.5S
+3S
+4S
+0.5N
+20N
+
+Chryse – Viking
+Mesopotamia
+Protonilus Mensae
+Tempe Terra
+Hypanis
+Ausonia Cavus
+
+1019
+1035
+1053
+1056
+1051
+1045
+
+22
+28
+40
+42
+15
+35
+
+22.5N
+35.5S
+42N
+42N
+12N
+32S
+
+Boatwright
+Calef
+Clarke
+Clifford
+Cohen
+Davila
+
+Ben
+Fred
+J
+Stephen
+Barb
+Alfonso
+
+Farrell
+Gallegos
+Gallegos
+Gallegos
+Gupta
+Hamilton
+
+Winslow
+Zachary
+Zachary
+Zachary
+Sanjeev
+John
+
+Hamilton
+Hamilton
+Head
+Hill
+Horgan
+Kerber
+
+John
+John
+Jim
+Jonathan
+Briony
+Laura
+
+Kasei Valles
+Ausonia Cavus
+Deuteronilus Mensae
+Noachis Terra
+Mawrth Vallis
+Apollinaris Sulci
+
+1045
+1045
+1033
+1021
+1009
+1043
+
+36
+35
+9
+23
+7
+8
+
+25N
+32S
+39N
+37S
+24.5N
+12.5S
+
+Kochemasov
+Laine
+Lee
+Levy
+Longo
+Lynch
+
+Gennady
+Pauli
+Pascal
+Joe
+Alex
+Kennda
+
+Vallis Marineris Mouth
+Newton Crater
+Noctis Landing
+Hellas Rim
+Gusev Crater
+Columbus Crater
+
+1006
+1015
+1050
+1037
+1008
+1041
+
+10
+20
+39
+30
+11
+32
+
+20N
+40.5S
+6.5S
+39S
+14.5S
+29S
+
+Mangold
+Markle
+McEwen
+Michalski
+Mitchell
+Mojarro
+
+Nicolas
+Loren
+Alfred
+Joe
+Julie
+A,
+
+Ismenius Cavus
+Nili Fossae
+Melas Chasma
+McLaughlin Crater
+Equatorial Vallis Marineris
+Coprates Chasma
+
+1027
+1010
+1007
+1025
+1023
+1036
+
+19
+12
+13
+25
+24
+29
+
+33.5N
+22N
+12S
+22N
+19S
+11.5S
+
+Montaño
+Mustard
+Ori
+Plaut
+Rice
+Rice
+
+Sui
+Jack
+Gian
+Jeff
+Jim
+Jim
+
+Gale Crater
+Jezero Crater
+Firsoff Crater
+Deuteronilus Mensae
+Eastern Hellas
+Apollinaris Sulci
+
+1040
+1034
+1026
+1044
+1038
+1046
+
+3
+6
+14
+34
+31
+37
+
+4.5S
+17.5N
+0N
+41N
+40S
+13S
+
+Sibille
+Skinner
+Stillman
+
+Laurent
+Jim
+David
+
+Aram Chaos
+Hadriacus Palus
+Hale Crater
+
+1048
+1052
+1028
+
+38
+16
+26
+
+2.5N
+27S
+36S
+
+Schulze-Makuch, D.
+
+Sefton-Nash, E.
+
+Carr, C.
+
+19
+
+Viola
+Viola
+
+Author
+Donna
+Donna
+
+Westenberg
+Wilkinson
+Wright
+Yun
+
+A
+Murray
+Shawn
+Paul
+
+Add’l Author(s)
+
+McGovern, P.J.
+
+Landing Site
+Erberus Montes
+Acheron Fossae
+
+Abstract No.
+1011
+1011
+
+Longitude
+17
+18
+
+Latitude
+39N
+40N
+
+Copericus Crater
+Sinus Meridiani
+Cerberus
+Gale Crater
+
+1029
+1042
+1017
+1022
+
+44
+33
+21
+3
+
+49S
+2S
+10N
+4.5S
+
+20
+
+REFERENCES
+
+BIOGRAPHY
+
+[1] S.3729 - National Aeronautics and Space Administration
+Authorization
+Act
+of
+2010.
+Copied
+from
+https://www.congress.gov/bill/111th-congress/senatebill/3729. Copied on 19 October 2015.
+
+D. Ben J. Bussey is a planetary
+scientist who received a Ph.D. in
+planetary geology at University
+College, London, England. He
+specializes in the remote sensing
+of planetary surfaces. He coauthored an atlas of the Moon
+based on data and images from
+the Clementine mission. He has
+a particular interest in the lunar poles, using the
+Clementine images to locate crater cold traps for water
+deposits and mapping the so-called peaks of eternal light.
+
+[2] D. Craig; P. Troutman, and N. Herrmann (August 2015).
+Pioneering Space Through the Evolvable Mars Campaign.
+AIAA-2015-4409. AIAA Space 2015 Conference.
+Pasadena, CA
+[3] Anon. (May 29, 2014). Pioneering Space: NASA’s Next
+Steps on the Path to Mars.
+Copied from
+http://www.nasa.gov/sites/default/files/files/Pioneeringspace-final-052914b.pdf.
+
+He worked at the Lunar and Planetary Institute in Houston
+and the European Space Agency before joining the Johns
+Hopkins University Applied Physics Laboratory
+(JHU/APL) and becoming a senior staff scientist at that
+facility. While there, Bussey served NASA as the principal
+investigator for the Mini-RF instrument onboard NASA’s
+Lunar Reconnaissance Orbiter (LRO).
+
+[4] Anon. (June 28, 2010). National Space Policy of the United
+States
+of
+America.
+Copied
+from:
+http://www.whitehouse.gov/sites/default/files/national_sp
+ace_policy_6-28-10.pdf
+[5] B Drake (2009). Human Exploration of Mars: Design
+Reference Architecture 5.0. NASA/SP-2009-566A
+
+Additionally, Bussey served as a Principal Investigator (PI)
+for NASA SSERVI’s “Volatiles, Regolith and Thermal
+Investigations Consortium for Exploration and Science
+(VORTICES)” team, and was also a PI for the NASA Lunar
+Science Institute, leading a team of researchers in the
+“Scientific and Exploration Potential of the Lunar Poles.”
+His team furthered our understanding of the lunar polar
+regions, which were once regarded as “Luna incognita”
+(the unknown Moon)– now the lunar poles are as well
+known, and in some case better known, than the rest of the
+Moon. Thanks to the work of Bussey and his team, “luna
+incognita” became “luna cognita.”
+
+[6] L. Toups and S. Hoffman (August 2015). Pioneering
+Objectives and Activities on the Surface of Mars. AIAA2015-4410. AIAA Space 2015 Conference. Pasadena, CA.
+[7] Billick, I., Babb, I., Kloeppel, B., Leong, J.C., J. Hodder, J.
+Sanders, and H. Swain (2013). “Field Stations and Marine
+Laboratories of the Future: A Strategic Vision,” National
+Association of Marine Laboratories and Organization of
+Biological Field Stations [http://www.obfs.org/fsmlfuture].
+[8] MEPAG HEM-SAG (2008). Planning for the Scientific
+Exploration of Mars by Humans, Unpublished white paper,
+TBD p, posted March 2008 by the Mars Exploration
+Program
+Analysis
+Group
+(MEPAG)
+at
+http://mepag.jpl.nasa.gov/reports/index.html
+
+Stephen J. Hoffman received a B.S.,
+M.S., and Ph.D. in Aeronautical and
+Astronautical Engineering from the
+University of Illinois in 1978, 1980,
+and 1984 respectively. Dr. Hoffman is
+a Senior Systems Engineer with 35
+years of experience working in
+civilian space programs performing
+tasks involving program management,
+interplanetary mission planning, preliminary spacecraft
+design, orbit mechanics, and planetary analog missions.
+Dr. Hoffman is currently supporting the Exploration
+Mission Planning Office at the NASA Johnson Space
+Center. He supports a variety of mission studies and
+concept assessments associated with human exploration
+beyond low Earth orbit for this office.
+
+[7] MEPAG (2015), Mars Scientific Goals, Objectives,
+Investigations, and Priorities: 2015. V. Hamilton, ed., 74 p.
+white paper posted June, 2015 by the Mars Exploration
+Program
+Analysis
+Group
+(MEPAG)
+at
+http://mepag.nasa.gov/reports.cfm.
+
+21
+
+

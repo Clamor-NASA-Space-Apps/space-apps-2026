@@ -1,0 +1,837 @@
+  Human Mars Lander Design for NASA’s Evolvable Mars
+                     Campaign
+              Tara Polsgrove, Jack Chapman,                           Leo Fabisinski                     Tim Collins, Alicia Dwyer
+               Steve Sutherlin, Brian Taylor                   ISSI – Jacobs ESSSA Group                    Cianciolo, Jamshid
+                          NASA                                    Huntsville, AL 35812                          Samareh
+               Marshall Space Flight Center                                                                       NASA
+                   Huntsville, AL 35812                                                                  Langley Research Center
+                Tara.Polsgrove@.nasa.gov                                                                   Hampton, VA 23681
+
+
+                 Ed Robertson, Bill Studak,                            Allan Y. Lee                           Glenn Rakow
+                     Sharada Vitalpur                           Jet Propulsion Laboratory                         NASA
+                          NASA                                    California Institute of                  Goddard Space Flight
+                   Johnson Space Center                                Technology                                Center
+                   2101 NASA Parkway                              4800 Oak Grove Drive                      8800 Greenbelt Rd
+                    Houston, TX 77058                           Pasadena, CA 91109-8099                    Greenbelt, MD 20771
+
+
+Abstract— Landing humans on Mars will require entry, descent,                     to date is the Mars Science Laboratory’s Curiosity rover, with
+and landing capability beyond the current state of the art.                       a mass of approximately 900 kg. Landing the much larger
+Nearly twenty times more delivered payload and an order of                        payloads required for supporting human missions will require
+magnitude improvement in precision landing capability will be                     alternate approaches.
+necessary. To better assess entry, descent, and landing
+technology options and sensitivities to future human mission
+                                                                                  Because a Mars lander of this scale is significantly outside of
+design variations, a series of design studies on human-class Mars
+landers has been initiated. This paper describes the results of                   our range of experience, mass estimating relationships based
+the first design study in the series of studies to be completed in                on previous lunar and Mars landers could result in large
+2016 and includes configuration, trajectory and subsystem                         errors in this application. To improve our ability to estimate
+design details for a lander with Hypersonic Inflatable                            lander masses for human Mars architecture trades, and to
+Aerodynamic Decelerator (HIAD) entry technology. Future                           assess other configuration-dependent sensitivities, a more
+design activities in this series will focus on other entry                        detailed design study is needed. There are several potential
+technology options.                                                               entry systems that could support human surface missions
+                     TABLE OF CONTENTS                                            including Hypersonic Inflatable Aerodynamic Decelerator
+                                                                                  (HIAD), Adaptable Deployable Entry and Placement
+1. INTRODUCTION ....................................................... 1         Technology (ADEPT), and rigid aeroshell options with low
+2. BACKGROUND ......................................................... 1         to mid lift-to-drag ratios (0.2 - 1). All are paired with
+3. MISSION OVERVIEW .............................................. 2              supersonic retropropulsion (SRP) for descent and landing.
+4. VEHICLE DESIGN .................................................... 4          Each entry system option will affect the lander configuration
+5. VEHICLE MASS SUMMARY .................................. 10                     and design differently. To assess these technology options
+                                                                                  and improve our ability to estimate masses a series of design
+6. CONCLUSIONS ....................................................... 11
+                                                                                  studies has been initiated. The first design study focused on
+ACKNOWLEDGEMENTS ............................................ 11                  a lander with a HIAD entry system and SRP capable of
+REFERENCES ............................................................ 12        delivering 27 t of payload to the Martian surface. The results
+BIOGRAPHY .............................................................. 12       of that activity are presented in this paper and include an
+                                                                                  overview of the mission, operational requirements, trajectory
+                                                                                  design, vehicle configuration, subsystem designs, and finally
+                       1. INTRODUCTION                                            vehicle mass summary and conclusions. Future design
+                                                                                  studies in this series, expected to conclude in 2016, will focus
+The human Mars lander will be an essential element of any                         on landers with other entry technology options.
+future human missions to the Martian surface. NASA is
+currently studying options for sending humans to Mars in the
+decade of the 2030’s. The Evolvable Mars Campaign (EMC)                                                2. BACKGROUND
+is focused on evaluating architectural trade options to define                    The Mars lander consists of three primary elements: (1) the
+the capabilities and elements needed for a sustainable human                      entry system, (2) the Mars Descent Module (MDM), and (3)
+presence on the surface of Mars. [1] The EMC study teams                          the payload or cargo. Cargo for a surface mission would
+have considered a variety of in-space propulsion options and                      include a Mars Ascent Vehicle (MAV) to return the crew to
+surface mission options. In each potential scenario a lander                      orbit once the mission is complete, and other systems to
+capable of delivering between 18 and 27 t of payload to the                       support surface operations, such as a habitat, mobility
+surface is required. [2] The largest payload landed on Mars                       systems, power generation systems, in-situ propellant
+U.S. Government work not protected by U.S. copyright
+
+                                                                              1
+production plant, science equipment, crew consumables, and           density. For this design activity 27 t payload capacity was
+spares. These cargo elements would be grouped and                    assumed.
+delivered using multiple landings. One of the architecture
+trades under study in the EMC is the cargo capacity of each                          3. MISSION OVERVIEW
+lander. Minimizing cargo capability per lander would
+minimize lander size and performance requirements, but               Lander design is influenced by each flight phase from launch
+require a greater quantity of landers to deliver the needed          through transit, landing and surface operations. In this
+surface equipment and would make surface operations more             section the mission phases are described and lander
+complex as assets are utilized from a greater number of              configuration for each mission phase is presented showing
+landing sites. Examples of cargo packaging options are given         the MAV cargo element as an example.
+in figure 1.
+                                                                     Launch and Transit to Mars
+                                                                     For missions in the 2030’s, an evolved Block 2 configuration
+                                                                     Space Launch System (SLS) launch vehicle with a 10-meter
+                                                                     payload fairing is assumed. There are multiple transportation
+                                                                     scenarios under consideration for the EMC involving
+                                                                     different in-space propulsion systems and delivery orbits at
+                                                                     Mars. See reference 3 for more information on transportation
+                                                                     system options. This design study assumes the lander is
+                                                                     launched into an elliptical Earth orbit with a Solar Electric
+                                                                     Propulsion (SEP) stage that will transport the lander to Mars.
+                                                                     Figure 2 depicts the lander as it might appear in launch
+                                                                     configuration. There is a conical launch vehicle adapter
+                                                                     (LVA) with the SEP stage suspended below. The SEP stage
+                                                                     initiates a spiraling Earth escape trajectory with a lunar
+                                                                     gravity assist for the final Earth departure. Launch to Earth
+                                                                     departure may take 2.5 years using a 300 kW SEP system.
+
+                                                                     Once Earth escape is achieved, transit to Mars could take
+                                                                     another 1.2 years. During Earth escape and transit to Mars it
+                                                                     is assumed that the SEP stage will provide power for the
+                                                                     lander and its cargo. See figure 3 for Earth to Mars transit
+                                                                     configuration.
+
+
+
+
+         Figure 1 Lander cargo packaging options
+
+Mars landers capable of delivering 18, 27 and 40 t payloads
+have been studied. The smallest size reasonably capable of
+supporting human missions is determined by the MAV. The
+assumption that the MAV cannot be assembled on the surface
+of Mars makes it the single largest indivisible payload. The
+MAV assumed uses liquid oxygen (LOX) propellant and
+methane oxidizer. To minimize launch mass, the MAV is
+launched without LOX and with a In-Situ Propellant
+Production (ISPP) plant to make LOX from the Mars
+atmosphere. Including the structure to support these
+components the minimum payload mass is 18 t assuming the
+MAV can carry a crew of four to a 1 Sol orbit (250 x 33,800
+km orbit). Five landings would be required to support the                          Figure 2. Launch Configuration
+first long duration surface mission (500 Sols) using the 18t
+payload class lander. Landers capable of delivering 27 and
+40 t of payload mass have also been studied and those options
+require 3 and 2 landers respectively for the same mission. [2]
+At 40 t payload capacity per lander, packaging of cargo
+elements can become a challenge because many surface
+cargo elements are pressurized volumes with relatively low
+
+                                                                 2
+                                                                       retained during loiter and would be jettisoned prior to
+                                                                       initiation of entry descent and landing. Alternately, it could
+                                                                       be jettisoned soon after aerocapture. Retaining it may
+                                                                       provide some protection to the EDL HIAD, MDM and cargo
+                                                                       from micrometeoroids and orbital debris, but may interfere
+                                                                       with solar array articulation. Retraction of the inflatable
+                                                                       portion of the aerocapture HIAD may eliminate interference.
+                                                                       Further study of the risks associated with Mars orbit loiter is
+                                                                       needed to determine a preferred approach.
+
+
+
+
+       Figure 3. Earth to Mars Transit Configuration
+                                                                                  Figure 4. Mars Arrival Configuration
+
+
+Mars Arrival
+At Mars arrival the SEP stage would be jettisoned, and the
+lander would perform aerocapture to achieve Mars orbit. For
+this study a 250 x 33,800 km orbit is assumed. This is
+referred to as a 1 sol orbit because it has an orbital period of
+one sol, or Martian day (24 h 40 min).
+
+The SEP stage would target the lander for a 40 km minimum
+Mars altitude pass and then separate from the lander
+approximately two days prior to Mars atmospheric interface.
+After separation and through aerocapture the lander would
+generate its own power using solid oxide fuel cells that pull
+reactants from the liquid oxygen and methane main
+propellant tanks. The HIAD (18.8 m diameter) would be
+deployed some designated time prior to atmospheric
+interface. See figure 4 for configuration with aerocapture
+HIAD deployed. The deceleration through the atmosphere                          Figure 5. Mars Orbit Loiter Configuration
+would last approximately 7 minutes and result in an orbit with
+an apoapse of 33,800 km. At apoapse the lander would fire
+the reaction control system (RCS) propulsion to impart a
+change in velocity of 15 m/s to raise periapse to a safe               Mars Entry Descent and Landing
+distance above the Martian atmosphere, approximately 250               Descent is initiated from apoapsis of the one sol orbit using a
+km altitude above the mean areoid. While this lander would             15 m/s RCS burn. The second HIAD (16.7 m diameter) is
+be capable of loitering in Mars orbit for 1 year, cargo landers        inflated and entry begins at approximately 125 km altitude.
+could proceed to the surface soon after aerocapture is                 The vehicle flies with a maximum hypersonic continuum lift-
+achieved. A minimum of 2 Sols of loiter are assumed to                 to-drag ratio of 0.2 and an angle of attack of -16 deg. The
+allow for state vector updates and proper phasing of the orbit         guided entry uses a direct force numerical predictor corrector
+with the landing site. Landers delivering crew to the surface          guidance algorithm to control the vehicle until engine
+may have to loiter in orbit for several months. The pre-               ignition. Initial assessments of flow impingement on
+deployed crew lander would remain in Mars orbit until the              payloads during EDL indicates that thermal protection may
+crew arrive and perform successful docking and transfer of             only be required on the tallest portions of some payloads.
+equipment. During Mars orbit loiter the lander would deploy
+solar arrays to provide power. To mitigate the risk of relying         The entry trajectory is designed to maintain maximum
+on the same inflatable system after long duration loiter in            deceleration limits below 4 g’s for deconditioned crew
+Mars orbit, a second HIAD is used for entry, descent and               according to NASA’s Human System Integration
+landing (EDL). See figure 5 for one possible Mars orbit loiter         Requirements. Crew and cargo missions are designed using
+configuration. In this image the aerocapture HIAD is                   the same EDL sequence so that pre-deployment of surface
+
+                                                                   3
+cargo demonstrates the sequence prior to crew arrival. The           a rover would approach the lander and connect a power cable
+guidance is targeting the time and location to turn on the           from the surface power infrastructure within 24 hours of each
+engines such that the vehicle can land at an altitude of 0 km        landing. Once surface power is connected, high power
+above the Mars Orbiter Laser Altimeter areoid. The descent           payloads such as Liquid Oxygen In-Situ Propellant
+sequence initiates when plugs or doors in the rigid nose             Production (ISPP) can begin operations.
+heatshield covering the eight 100 kN engines are blown off
+or opened prior to engine ignition. Additional openings are          Lander configuration on the surface must facilitate cargo
+revealed when the vehicle velocity becomes subsonic to               offloading, crew access, and radiator deployment. ISPP and
+deploy the landing legs. The vehicle retains the HIAD to             MAV cargo elements may require significant radiator area
+landing to minimize the risk associated with separation and          that must be deployed once on the Martian surface. Radiator
+protect the payload from surface plume interactions. At 12 to        area is dependent upon ISPP production rates and technology
+20 m above the surface the engine thrust is reduced such that        assumptions. Crew access to the MAV may require close
+the vehicle maintains a constant 2.5 m/s until touching down         approach of a pressurized rover with inflatable tunnel.
+on the surface. Figure 6 illustrates the concept of operations       Figures 7 and 8 depict crew access and surface radiator
+for the reference EDL sequence. As the vehicle nears the             deployment.
+surface, the engine plumes will disturb regolith which has the
+potential to damage the vehicle and other assets nearby. To
+protect surface assets, landings must occur outside of a
+predefined keep out zone, currently assumed to be 1 km from
+any surface asset. Advances in landing accuracy will help to
+minimize the actual separation distance between landings to
+no greater than the defined keep out zone. Landing within
+100 meters of the landing target is the capability assumed for
+this mission.
+
+
+
+                                                                                Figure 7. Crew Access Configuration
+
+
+
+
+                                                                     Figure 8. Potential Radiator Deployment to Support Cargo
+                                                                             Heat Rejection During Surface Operations.
+
+                                                                                       4. VEHICLE DESIGN
+                                                                     Vehicle subsystems are described in this section followed by
+     Figure 6. Entry Descent and Landing Operations.                 a mass summary. Preliminary sizing of an ISPP plant is
+                                                                     presented.
+
+Surface Operations                                                   Power System
+
+Once on the surface the inflatable portion of the HIAD would         The MDM power system consists of 2 distinct power
+need to be deflated and retracted to allow access to the             conversion subsystems feeding a common power
+vehicle. Each lander will have to sustain itself and its cargo       management and distribution subsystem. As the lander
+for up to 24 hours before surface power assets can be                approaches Mars, it separates from the SEP vehicle and
+connected to provide power. The surface power system will            switches its power to its on-board fuel cell power plants.
+be among the first cargo elements delivered in any mission           These power plants, known as Solid Oxide Fuel Cells,
+scenario. It may take up to 24 hours to deploy and initiate          produce power by reacting Methane and LOX scavenged
+power generation. For subsequent landers it is assumed that          from the descent fuel tanks. They will power the lander
+
+                                                                 4
+through Mars Orbit Insertion. During the long Mars orbit              Thermal Control System
+loiter, a pair of UltraFlex solar arrays will provide power.
+                                                                      The MAV Thermal Control Subsystem (TCS) is fully
+These arrays will be discarded immediately before descent to
+                                                                      integrated with the MDM TCS, and the two operate as one
+the Mars surface. During descent, and afterward on the
+                                                                      subsystem throughout the outbound flight to Mars and on the
+surface, the fuel cell power plants will again be used as the
+                                                                      surface until Mars launch and ascent (when the MAV flies
+power source. They must provide power during the 12 hour
+                                                                      independently). The TCS performs three main functions: (1)
+descent and the first 24 hours on the surface until the surface
+                                                                      mitigate heat loads and losses due to spacecraft interaction
+power system can be deployed or connected. The power
+                                                                      with the environment; (2) provide heat rejection for MAV
+management and distribution system consists of redundant
+                                                                      subsystems such as Avionics, Power, ECLS, Human Factors
+Integrated Power Electronics (IPE) enclosures containing
+                                                                      (including crew metabolic heat), and Thermal Control; and
+power electronics for array regulation, power conditioning,
+                                                                      (3) provide propellant conditioning for the MAV propulsion
+battery charge control, voltage conversion and switching.
+                                                                      system during flight and surface storage. The MAV benefits
+The schematic below illustrates the configuration of the
+                                                                      from the afforded cooling and heat rejection load-sharing
+Power System
+                                                                      across the wide range of thermal environments, especially in
+                                                                      the Mars surface environment. This approach also allows for
+                                                                      the MAV to carry a minimum amount of TCS subsystem
+                                                                      hardware, with the majority being left behind on the MDM at
+                                                                      Mars launch. The TCS must operate in a wide range of
+                                                                      thermal conditions, such as the diurnal Mars surface
+                                                                      environment with its warm and cold extremes, the fairly
+                                                                      benign Earth elliptical orbit, and the rather cold Mars
+                                                                      orbit/transit environments. The subsystem is composed of
+                                                                      insulation systems, heaters and thermal coatings to control
+                                                                      temperatures and moderate heat transfer rates to and from the
+                                                                      environment. Fluid systems are included, such as pumped
+                                                                      coolant loops and cryocoolers with broad area cooling tube
+                                                                      networks to perform heat collection and loop heat pipe
+                                                                      radiators to reject heat to the environment. Cryocooler and
+        Figure 9. Lander Power System Schematic.                      loop heat pipe technologies are currently not at a mature state
+                                                                      of readiness. Fault tolerance for TCS elements is provided at
+                                                                      the component level for such things as rotating equipment,
+                                                                      valves and sensors. A notional subsystem schematic is
+                                                                      provided in Figure 10.
+
+
+
+
+                                             Figure 10. Thermal system schematic.
+
+                                                                  5
+In-Situ Propellant Production                                          The system mass and power estimates were generated based
+                                                                       on a production module size of 1 kg/h. This module size was
+The ISPP plant is a cargo element that is delivered with the
+                                                                       chosen because it could be used on a precursor mission as a
+MAV. To determine interface requirements a preliminary
+                                                                       relevant scale production plant, and multiple modules can
+design of the ISPP plant was performed. This cargo element
+                                                                       provide the required flow rate with one spare unit. Thus, 3
+affects lander surface configuration due to its significant heat
+                                                                       units run for production, but 4 units are carried for fault
+rejection requirements. There are numerous options for each
+                                                                       tolerance. The total power required for the ISRU plant is
+of the steps in oxygen production, liquefaction and transfer to
+                                                                       estimated at 26.6 kW, for both plant operation and oxygen
+the MAV. In order to provide reasonably high confidence
+                                                                       liquefaction. Heat rejection for operation and liquefaction is
+levels for mass, power and performance estimates, a
+                                                                       estimated at 17.7 kW. See Table 1. Operation includes: 11.5
+particular combination of technical solutions was chosen
+                                                                       kW of power for freezing via cryocooler, 10.2 kW for the
+based on the maturity of the concepts. For the purposes of
+                                                                       SOE, and 0.8 kW for the balance of the plant. Heat rejection
+this study, the baseline system is located entirely on the
+                                                                       of 13.3 kW is required for plant operation. The liquefaction
+MDM and is composed of a Mars atmospheric processing
+                                                                       equipment, sized for 3 kg/h, includes a spare cryocooler and
+unit which provides dry gaseous oxygen to a
+                                                                       transfer pump, but not a spare accumulator tank. Power for
+liquefaction/accumulator unit, and a pump to transfer liquid
+                                                                       the liquefaction unit is estimated as follows: 325W is the
+up to the MAV propellant tanks. See figure 11. This
+                                                                       required liquefaction cooling capacity, with 25% margin and
+combination is not necessarily optimal for either the
+                                                                       assuming 10% efficiency for the cryocooler then 4 kW
+subsystems or the vehicle; forward work will examine the
+                                                                       electric plus 4.4 kW thermal rejection. The extensive use of
+integrated impact of alternative solutions. In this study, the
+                                                                       inherently low efficiency cryocoolers for all cooling needs
+fundamental requirement was to produce approximately 19 t
+                                                                       drives both electric power and thermal rejection loads to other
+of LOX in less than 10 months; this corresponds to a
+                                                                       subsystems.
+continuous production rate of 3 kg/h.
+                                                                                       Table 1. ISRU Plant Options
+The process begins in the ISRU plant, which uses an
+electrostatic precipitator to provide particle-free gas to the
+                                                                                                        Case 1    Case 2    Case 3
+freezer module that captures carbon dioxide (CO2) while
+rejecting argon and nitrogen. Periodically, the CO2 is                 Production Rate      kg/hr          1         2         3
+sublimated and sent to a Solid Oxide Electrolyzer (SOE)                Mass                   kg         333        889      1210
+where the CO2 is converted to oxygen (O2) and carbon                   Mass with 25%          kg         416       1111      1512
+monoxide (CO). The dry gaseous oxygen is then passed to a              Power                 kWe           9       17.9      26.6
+small accumulator tank and liquefied for temporary storage.            Thermal Rejection     kW           6.1       12       17.7
+A small pump periodically transfers liquid up to the MAV               Approx. HX Area        m2         114        225       335
+LOX tanks; a return ullage gas line connects the top of the
+                                                                       Approx. HX Mass        kg         287        566       843
+MAV tank back to the liquefaction unit to provide a zero-
+boil-off closed system. The liquid supply and gas return lines         Approx. Time to Fill months        26        13        8.7
+each include a quick disconnect for MAV separation at                                                   single    2 plus    3 plus
+                                                                       Number of Units
+launch, and each MAV LOX tank has an isolation valve on                                                  unit     spare     spare
+both liquid and gas lines.
+                                                                       Some transfer options for forward work include steady liquid
+                                                                       transfer to the MAV (i.e. eliminate the accumulator tank) and
+                                                                       steady gas transfer to the MAV (i.e. add the liquefaction
+                                                                       function to the MAV tanks). Liquefaction may be improved
+                                                                       by using compression/heat rejection/throttled expansion
+                                                                       (e.g., Linde cycle) along with cryocoolers (sharing the load
+                                                                       between the two systems). Functions and equipment could
+                                                                       be consolidated, along with the addition of recuperators, load
+                                                                       sharing and integrated thermal management. Tailoring
+                                                                       production rates for day and night operations may result in
+                                                                       reduced radiator area as higher production rates may be
+                                                                       possible during cold Martian nights allowing a reduction in
+                                                                       the production rate during the warm days while maintaining
+                                                                       the desired average production rate.
+
+                                                                       Command & Data Handling
+                                                                       A single fault tolerant avionics system is assumed. It is also
+                                                                       assumed that the avionics system is cross-strapped, which
+        Figure 11. ISRU plant connectivity to MAV                      may allow normal operation for more than one fault in the
+                                                                   6
+system when the second fault is not the redundant function of        Byzantine resilience is achieved by using a group of four
+the first failure. In some narrow cases where dissimilar             computers (three required, forth increases reliability and
+redundancy is possible, more than one fault within the same          allows symmetry in the isolation of units in the architecture).
+functional area is possible (e.g., star tracker and inertial         The architecture is designed to use generic single board
+measurement unit for rate.)                                          computers that may be from different vendors (to protect
+                                                                     against common mode failures).              The underlying
+A safety critical architecture has been assumed. For the             technologies to enable the voting byzantine resilience are the
+command and data handling portion of the avionics, a                 time-triggered data bus for the command and control, and the
+byzantine resilient computing architecture is used for the           time space partitioned operating system to protect software
+critical phases of the mission, e.g., orbit insertion, descend       tasks from crashing the entire system. The data bus physical
+and landing. This is necessary so that the system can “fly-          layer uses the Mil-Std 1553 physical layer (long stub)
+through” a failure and prevent loss of mission. This system          physical layer but with a new transceiver that runs at 5 MHz
+can handle any random fault in the system and operate                instead of 1 MHz. Figure 12 indicates the connections of the
+normally (fail operate).                                             various avionics by subsystem to the time-triggered data bus.
+
+
+
+
+                                            Figure 12. Avionics Network Diagram
+
+
+
+Communications and Tracking                                          a TWTA and a deployable high gain antenna. This system
+                                                                     weighs approximately 62 kg and consumes 185 W.
+Capitalizing on previous architectures and analysis, the
+communication system for the Human Lander EDL design                 For this iteration of the communication system design, a DTE
+uses the Deep Space Network to communicate directly to               link from the Lander to Earth from the surface of Mars was
+Earth. A robust reliable link at X-band is used for command          assumed. In future iterations, Mars relays will be considered
+and telemetry exchange and a Ka-band link is used to return          which would increase the data rates. The feasibility of using
+higher rate data to Earth. The data rate on the X-band link is       an optical communication system will be assessed which
+~7 bps and the downlink data rate on the Ka-band link is ~35         would greatly increase the data rates as well as the efficiency
+kbps. The notional design of the X-band system includes a            of the system.
+deep space X-band transponder (similar to General Dynamics
+SDST), and solid state power amplifier and patch antenna.            Once on the Mars surface, communications between the
+This system weighs approximately 9 kg and consumes about             lander, rovers and other assets will be required. The
+100 W. The Ka-band system includes a Ka-band transmitter,            capabilities needed (point to point vs. mesh, tracking, etc,)
+
+                                                                 7
+and the different standards and protocols that could be                 propulsion system (MPS) engines are fired. Control authority
+adapted to serve this function are still being evaluated.               about all axes are adequate if the offset of the vehicle’s center
+                                                                        of mass is maintained to within several centimeters
+Guidance, Navigation and Control                                        throughout the powered descent phase. GNC algorithms
+Key functions performed by the Guidance, Navigation, and                stored in the flight computers (see the Command and Data
+Control (GN&C) subsystem of the Mars lander include the                 Handling section) must be designed taking into consideration
+estimation and control of the vehicle’s inertial attitude,              the large quantities of sloshing liquids in propellant tanks as
+estimation of the vehicle’s state vector (position and velocity         well as the possible control-structure interaction generated by
+vectors), support the pointing needs of the vehicle                     the presence of the large HIAD structure. Future GNC work
+communication, power generation, and thermal control                    will include the development of the navigation architecture
+system, design and execution of trajectory correction                   and improvements in the RCS thruster configuration.
+maneuvers for flight path control, support the attitude control         Additional development and testing of the ALHAT system is
+needs during aero entry, powered descent and landing phases             desired, in particular testing to assess the impacts MPS
+of the mission, and to land safely within 100 m of the pre-             engine plumes and Mars dust on the performance of ALHAT
+selected site on Mars. To perform these functions, a set of             sensors. The above described GN&C design will evolve as
+placeholder GN&C sensors is selected. It includes an inertial           the requirements and vehicle design mature.
+measurement unit and its backup (each with four 1-degree of
+                                                                        Structures
+freedom (DOF) gyroscopes and four 1-DOF accelerometers),
+a 3-DOF star tracker and its backup, a 2-DOF Sun sensor                 The MDM design is derived from a combination of
+assembly and its backups, and touch-down sensors for the                considerations related to cargo packaging (including an
+landing gear.                                                           ascent vehicle), offloading, structural efficiency, landing
+                                                                        stability, and integration with an aerodynamic decelerator
+To meet the entry guidance requirements, a direct force                 and solar-electric propulsion (SEP) module within a launch
+numerical predictor corrector algorithm commands factors                vehicle fairing. Thus, the lander configuration and structure
+that directly control lift and side force (such as vertical and         must accommodate a broad range of functional and
+lateral cg movements or flap deflection). This application              integration requirements. The lander design features a flat
+allows the vehicle to fly at any lift to drag ratio between -0.2        deck that can flexibly carry all envisioned cargo elements
+and +0.2 to control the down range distance, and the lateral            without design modifications. Propellant tanks, engines, and
+direct force removes any crossrange component. This                     landing gear are packaged within the descent stage core
+strategy eliminates all the open-loop bank maneuvers. A                 structure, and a central opening is possible when needed for
+similar approach is used for aerocapture and has been tested            efficient packaging of an ascent vehicle with an extended
+in high fidelity simulation and Monte Carlo simulations.                engine assembly. See figure 13.
+
+To meet landing safety and accuracy requirements, a
+placeholder set of ALHAT (Autonomous Precision Landing
+and Hazard Avoidance Technology) sensors has also been
+selected. Global precision is enabled with Terrain Relative
+Navigation (TRN) that provides global navigation by
+matching real-time terrain sensing data with a priori
+reconnaissance data stored onboard the spacecraft. Selected
+TRN sensors include both a passive optical camera and an
+active lidar unit. Local precision for soft landing is enabled
+with direct ground-relative velocity measurements. The
+ALHAT system will use a navigational Doppler lidar to
+provide high-precision, line-of-sight velocity measurements
+that enable the GN&C system to control the vehicle’s ground-
+relative velocity during terminal descent to ensure a soft
+landing. Safe landing is enabled with a lidar-based hazard
+detection system. It will provide real-time assessment of
+                                                                                     Figure 13. MDM Primary Structure
+terrain hazards (craters, slopes, etc.) and the identification of
+safe landing site(s). The ALHAT system is fully redundant.              The MDM structure is shaped to provide efficient load
+                                                                        transfer between the cargo elements, a dual HIAD system,
+Two sets of placeholder thrusters will be used by the GN&C
+                                                                        and a launch vehicle adapter (LVA) that supports the entire
+system. Twelve 445-N (100 lbf) thrusters will be used to slew
+                                                                        lander stack. For the lander configuration shown in figure 14,
+the vehicle in response to pointing commands, to perform
+                                                                        the LVA is tall enough to allow an inverted adapter that
+orbit maintenance burns, and to provide rate damping about
+                                                                        supports an integrated SEP module. The height of the LVA
+both the pitch and yaw axes during aero entry. Another set of
+                                                                        can be decreased for missions that do not require a SEP
+twelve 4,450-N (1,000 lbf) thrusters will be used during the
+powered descent and landing phase when eight 100 kN main
+
+                                                                    8
+module, without affecting the overall lander design or means       Main Propulsion System
+of integration with the HIAD.
+                                                                   The primary purpose of the main propulsion system is to
+                                                                   store, maintain and deliver the fluids required by the engines
+                                                                   of the lander to operate. The liquid methane and oxidizer are
+                                                                   each stored in a pair of tanks and kept at cryogenic
+                                                                   temperatures through active and passive thermal
+                                                                   management systems. A system of ducts, lines, and valves
+                                                                   performs fill and drain functions as well as propellant transfer
+                                                                   to the engines via feed lines. Each pair of tanks is linked with
+                                                                   a cross over line to maintain equal levels in the tanks and
+                                                                   allow for a single fill and drain port for each of the fluids.
+                                                                   Prior to engine operation, the tanks are pressurized with high
+                                                                   pressure helium gas supplied to the ullage. While the engines
+                                                                   are firing, the methane tanks are pressurized autogenously
+                                                                   with warm methane gas bled off from the flow in the engine.
+                                                                   The oxygen tanks will be pressurized with helium. Currently,
+                                                                   the helium is planned to be kept at ambient conditions to
+                                                                   simplify the design. A future risk/benefits analysis may
+                                                                   warrant changing the design to a cryogenic helium storage
+                                                                   system, in which the helium is stored in the oxidizer tank, or
+                                                                   an oxygen autogenous pressurization system. The design of
+                                                                   one half of the main propulsion system is laid out in the
+                                                                   schematic shown in figure 15. The other half is a mirror
+    Figure 14. Launch Configuration Primary Structure              image of this.
+
+
+
+
+               Figure 15. Main Propulsion System Schematic (one half of the complete system depicted here)
+
+                                                                   propellant such as reserve and RCS and unusable propellant
+                                                                   such as residuals, fuel bias, and boil off are accounted for in
+The main propulsion system is expected to require                  the propellant inventory.
+approximately 6 kW of electrical power to run the feed
+system during engine burns and about 1.5 kW intermittent           Main Engine
+electrical power to run the pressurization system. The
+                                                                   A gas generator cycle was selected for the baseline engine
+expected quantity of propellant required for the decent burn
+                                                                   concept based on a trade study investigating quantitative
+was developed from an integration of the thrust profile with
+                                                                   performance analysis and qualitative discussions on
+8 100 kN engines and the mass flow rate as a function of
+                                                                   reliability and development risk. The trade space was defined
+throttle position. Additional considerations for useable
+                                                               9
+under the constraints of; minimum thrust of 100 kN,                    the event of a thruster failure). A full control analysis is still
+minimum specific impulse (Isp) of 360s, maximum diameter               needed to determine the exact thrust level, placement and
+less than 1 m, and a 5:1 throttle capability. Each cycle was           orientation of the thrusters. The RCS propellants are
+constrained to thrust and envelope, while Isp was allowed to           common to and stored in the main propellant tanks for
+vary as a model output. The cycles are compared in figure              thermal conditioning during the cruise portion of the mission,
+16, showing Isp as a function of chamber pressure. Although            but are transferred and pressurized in a set of accumulator
+the expander cycles were shown to meet the Isp requirement,            tanks in between each mission phase for on-demand usage.
+they lack Isp margin. Also, limitations on available power to          The accumulator tanks are sized for EDL, the most
+drive this cycle will limit future growth in total thrust which        demanding phase. The tanks turned out to be surprisingly
+may be needed if there is mass growth in the vehicle design            larger than initial anticipated. Further work is proposed to
+greater than estimated in this study.                                  optimize the control authority, accumulator tank sizes and
+                                                                       pressurization pump power allowing for more modest tank
+In addition to the performance constraints for EDL, there are          sizes with the recharge pump running continuously during
+programmatic desires for a common engine between the                   more demanding phases of the flight.
+MDM, ascent vehicle, and in-space stages. These desires
+placed additional emphasis on ignition reliability, design             Entry System
+margins, and development risks. Staged combustion cycles
+                                                                       The entry system design is based on the HIAD ground
+were found to have significant performance advantages, but
+                                                                       development projects and the Inflatable Reentry Vehicle
+were qualitatively judged to have lower reliability and higher
+                                                                       Experiment (IRVE) flight demonstrations [Refs. 4-6]. The
+development risk. Ultimately, the gas generator cycle was
+                                                                       HIAD model used in this design study consists of an
+chosen based on its performance margin relative to the
+                                                                       inflatable structure, inflation gas, inflation system, flexible
+constraints and advantages in terms of ignition processes and
+                                                                       thermal protection system (F-TPS), rigid nose, HIAD
+development maturity. The baseline engine power balance
+                                                                       attachment ring, center of gravity shift mechanics, and
+results in a chamber pressure (Pc) of 1500 psi, Turbine
+                                                                       aeroshell instrumentation. See figure 4. The HIAD aeroshell
+temperature of 1800 R, mixture ratio of 3.2, and a resultant
+                                                                       is a 70 degree sphere cone, with the inflatable structure
+Isp of 368 s. Trajectory design and vehicle propellant loads
+                                                                       forming the conical section and a rigid nose forming the
+were calculated assuming a maximum Isp of 360 seconds,
+                                                                       spherical section. The inflatable structure is a stacked-toroid
+with an Isp margin of 8 seconds.
+                                                                       design with pairing loops and radial straps to tie toroids
+                                                                       together and carry radial loads, axial cords to carry the
+                                                                       buckling loads, braided fabric to counter the toroid hoop
+                                                                       stress, and a thin film gas barrier. The flexible thermal
+                                                                       protection system consists of two layers of ceramic outer
+                                                                       fabric, several layers of flexible primary insulation (quantity
+                                                                       is customized for mission requirements), one layer of flexible
+                                                                       secondary insulation, and a gas barrier.
+
+                                                                       The vehicle uses two HIADs, one that is jettisoned after the
+                                                                       aerocapture pass and another deployed just prior to deorbit.
+                                                                       HIAD sizing is accomplished using an integrated system
+                                                                       analysis model that is made of several parametric models.
+                                                                       These models are mathematical representations that predict
+                                                                       the component mass from the vehicle dimensions and
+        Figure 16. Engine Cycle Performance Trade                      mission key environmental parameters such as the maximum
+                                                                       deceleration and total heat load. Sizing for this application
+                                                                       resulted in an aerocapture HIAD of 18.8 m in diameter when
+                                                                       inflated and an EDL HIAD of 16.7 m in diameter inflated.
+Secondary Propulsion                                                   The details of an earlier HIAD parametric model
+The chemical RCS for the lander is a straight forward                  implementation can be found in Reference. 7. Continued
+pressure-fed propulsion system using liquid oxygen (LOX)               refinement of the parametric model is planned for 2016.
+and liquid methane (LCH4) stored in the main propellant
+tanks. For the initial concept design, the attitude control                         5. VEHICLE MASS SUMMARY
+system uses a combination of thrust levels; 110 N – 445 N              A summary of all vehicle masses is given in Table 2. These
+(25 lbf – 100 lbf) for the in-space orbital phase of flight and        masses include mass growth allowance applied in accordance
+4500 N (1000 lbf) for control during the entry and descent             with AIAA standard ANSI/AIAA S-120A-2014 at the
+phase of the mission. The system is intended to be single-             component level. No other margins are included in this table,
+fault tolerant at the component level (i.e., dual string), and         however the application of a program manager’s reserve in
+two-fault tolerant at the functional level (i.e., control              addition to mass growth allowance is prudent for architecture
+maneuvers could be accomplished in more than one way in                studies. Total dry mass margin for this system is 4.4 t which
+
+                                                                  10
+represents and average mass growth allowance of 24% of the                          packaging assessments, EDL trajectory optimization,
+dry mass (excluding payload). Subsystems were designed to                           evaluation of flow impingement on payloads, and
+be single fault tolerant for critical functions. Additional fault                   preliminary design of all vehicle subsystems. Additionally,
+tolerance may be required to meet future reliability goals, but                     preliminary design for the ISPP cargo was performed to
+further study with detailed reliability analysis would be                           determine interface requirements. This design is capable of
+required to determine the most mass efficient and effective                         delivering 27 t of payload to the Martian surface. The next
+application of additional redundancy.                                               steps will be to evaluate changes in the design for 20 t of
+                                                                                    payload capability. This design and the 20 t payload
+                    Table 2. Vehicle Mass Summary                                   capability variant will further improve the basis for
+                                                                                    parametric vehicle sizing model development which will
+Mass Breakdown Structure                                                            enable more rapid evaluation of trade space alternatives.
+                                                                   Predicted
+                                                                   Mass (kg)        Forward work on this concept will be primarily focused on
+   1.0 Structures                                                    4916           continued development of parametric models for vehicle
+         1.1 MDM Primary Structure                                   1599           sizing and improving the EDL trajectory simulation
+         1.2 MDM Rings/Beams                                          355           capability. Alternative entry system technologies will also be
+         1.3 MDM Structural Joints and Interfaces                     494           studied.
+         1.4 HIAD Support Structure                                   847
+         1.5 Landing Gear                                            1620                           ACKNOWLEDGEMENTS
+   2.0 Propulsion                                                    5570
+         2.1 Main Propulsion System (MPS)                            3933
+                                                                                    The authors acknowledge the contributions of the late Dr.
+         2.2 Reaction Control System (RCS)                           1636           Kendall Brown who led human Mars lander design studies in
+   3.0 Power                                                         1437           the years preceding this work and upon whose work the initial
+         3.1 Solar Power System                                       845           design was based. The authors thank the Evolvable Mars
+         3.2 Fuel Cell Power System                                   210           Campaign leadership for supporting this work and the HIAD
+         3.3 Power Management and Distribution                        382           Project Team for providing expertise and guidance on HIAD
+   4.0 Avionics                                                       413           performance and integration issues. The authors recognize
+         4.1 Command & Data Handling                                  214           design team members Dan Thomas, Mike Baysinger, Dave
+         4.2 Communications & Tracking                                77            Paddock, John Teter, D.R. Komar, and Ashley Korzun for
+         4.3 Guidance Navigation & Control                            122           their valuable contributions to vehicle integration,
+   5.0 Thermal                                                        573           configuration, structures and aerodynamics analysis. Part of
+         5.1 Active cooling loops                                     200           this research was carried out at the Jet Propulsion Laboratory,
+         5.2 Heaters                                                  13            California Institute of Technology, under a contract with the
+         5.3 Radiators                                                360
+                                                                                    National Aeronautics and Space Administration.
+   6.0 HIAD                                                          10689
+         6.1 Aerocapture HIAD                                        6081
+         6.2 EDL HIAD                                                4608
+   7.0 Cargo                                                         27000
+         7.1 MAV + MAV-to-MDM Adapter                                17334
+         7.2 ISRU                                                    1512
+         7.3 ISRU Radiators & Deployment Mechanisms                  1130
+         7.4 Other Cargo                                              7024
+                                                       Dry Mass      50597
+
+
+   8.0 Non-Propellant Fluids                                          971
+         8.1 Thermal Control                                          63
+         8.2 Fuel Cell Reactants                                      279
+         8.3 Propellant Residuals, Reserves, Fuel Bias, Boil off      629
+         8.4 Propellant Pressurization                                 16
+                                                      Inert Mass     51568
+
+
+   9.0 Propellant                                                    13774
+         9.1 MPS Propellant                                          9067
+         9.2 RCS Propellant                                          4706
+
+
+Total Mass                                                          65341
+
+                           6. CONCLUSIONS
+A preliminary design of a human Mars lander using a HIAD
+entry system has been presented. The analysis conducted
+includes development of an initial configuration and cargo
+
+                                                                               11
+                        REFERENCES                                                              BIOGRAPHY
+[1] Craig, Douglas A., Troutman, Patrick, Herrmann,                                               Tara Polsgrove is an aerospace
+    Nicole,“Pioneering Space Through and Evolvable Mars                                           engineer in the Flight Programs and
+    Campaign,” AIAA SPACE 2015, Pasadena, CA, August 31-                                          Partnerships Office at NASA's
+   September 2, 2015                                                                              Marshall Space Flight Center. She
+                                                                                                  has been with NASA since 2000 and
+[2] Toups, L., Brown K., and Hoffman, S. J., “Transportation-Driven                               has worked on many conceptual
+   Mars Surface Operations Supporting an Evolvable Mars                                           designs of advanced spacecraft,
+   Campaign,” IEEE Aerospace Conference 2015
+                                                                                                  including performance and vehicle
+                                                                           integration for the Altair Lunar Lander. Her background
+[3] Percy, T., McGuire, M., Polsgrove, T., “In-space Transportation
+   for NASA’s Evolvable Mars Campaign,” AIAA SPACE 2015,                   is in interplanetary trajectory optimization and mission
+   Pasadena, CA, August 31-September 2, 2015                               analysis. Recent work has focused on Mars
+                                                                           transportation and lander designs supporting missions to
+4) Hughes, S. J., Dillman, R. A., Starr, B. R., Stephan, R. A.,            send humans to Mars. Ms. Polsgrove has a Bachelor of
+   Lindell, M. C., Player, C. J., and Cheatwood, F. M.,                    Science in Aerospace Engineering from the Georgia
+   “Inflatable Re-entry Vehicle Experiment (IRVE) Design                   Institute of Technology and a Master of Science in
+   Overview,” AIAA Paper AIAA 2005-1636, 18th AIAA                         Engineering with a Systems Engineering focus from the
+   Aerodynamic       Decelerator     Systems       Technology              University of Alabama in Huntsville.
+   Conference and Seminar, Munich, Germany, May 23-26,
+   2005                                                                    Jack Chapman is a propulsion systems engineer in the
+                                                                           Advanced Concepts Office, Engineering Directorate at
+5) Hughes, S., Cheatwood, M., Dillman, R., Wright, S., Del                 NASA's Marshall Space Flight Center in Huntsville, Ala.
+   Corso, J., Calomino, A., “Hypersonic Inflatable                         Mr. Chapman has a wide range of propulsion experience,
+   Decelerator Technology Development Overview”, AIAA                      but specializes in the design, development, fabrication
+   2011-2524, 21st AIAA Aerodynamic Decelerator Systems                    and testing of pressure-fed momopropellant and
+   Technology Conference and Seminar, 23-26 May 2011,                      bipropellant chemical propulsion systems. Mr. Chapman
+   Dublin, Ireland                                                         has contributed to many preliminary design activities
+                                                                           including STS Liquid Flyback Booster, Space Station, and
+6) Lichodziejewski, L., Kelley, C., Tutt, B., Jurewicz, D.,                numerous Lunar and Mars robotic landers, rovers, and
+   Brown, G., Gilles, B., Barber, D., Dillman, R., Player, C.,             sample return designs. Recently, he was responsible for
+   “Design and Testing of the Inflatable Aeroshell for the                 development of LOx/LCH4 reaction control and main
+   IRVE-3 Flight Experiment”, AIAA 2012-1515, 53rd                         thruster development work and continues to conduct
+   Structural Dynamics and Materials Conference, 23-26                     ‘green-propellant’ propulsion development for nano-
+   April 2012, Honolulu, Hawaii                                            satellites applications. He was lead test engineer for the
+                                                                           Lunar Atmosphere and Dust Environment Explorer
+7) Samareh, J.A., and Komar, D.R., “Parametric Mass                        (LADEE) propulsion system launched in 2013. Mr.
+   Modeling for Mars Entry, Descent, and Landing System                    Chapman received his bachelor’s degree in aerospace
+   Analysis Study,” AIAA-2011-1038, 2011                                   engineering in 1988 from Auburn University and has
+                                                                           studied at the Moscow Aviation Institute. Mr. Chapman
+                                                                           joined NASA/MSFC in January 1989
+
+                                                                           Steve Sutherlin is a thermal control engineer in the
+                                                                           Advanced Concepts Office at NASA’s Marshall Space
+                                                                           Flight Center. He is currently responsible for thermal
+                                                                           design and analysis pertinent to the Mars Ascent Vehicle
+                                                                           (MAV) and related studies. Mr. Sutherlin has 35 years of
+                                                                           experience in thermal design, analysis and testing of
+                                                                           NASA and DoD space vehicles, payloads and hardware.
+                                                                           He received the Bachelor of Chemical Engineering
+                                                                           degree from Auburn University.
+
+
+
+
+                                                                      12
+                  Brian Taylor is an aerospace engineer            Mechanical and Aerospace Engineering from the
+                  in the Propulsion Systems Department             University of Virginia.
+                  at NASA’s Marshall Space Flight
+                  Center. He has been with NASA in the
+                  Main Propulsion Systems Branch since                                 Alicia Dwyer Cianciolo is an
+                  2013. Recent work has included nuclear                               aerospace engineer at the NASA
+                  propulsion technology development and                                Langley Research Center.           She
+                  main propulsion system design for                                    specializes in developing simulations
+liquid rocket engines. He has a background in liquid                                   to analyze vehicle flight through
+rocket engines and air breathing propulsion systems as                                 different atmospheres in the solar
+well as plasma and laser physics. Mr. Taylor has a                                     system. Primarily focusing on Mars
+Bachelor of Science in Aerospace Engineering from                                      over the past 15 years, she has worked
+Missouri University of Science and Technology, a Master                                on several missions to the planet
+of Science in Aerospace Engineering from Pennsylvania                                  including      the    Odyssey      and
+State University, and is seeking a PhD in Mechanical               Reconnaissance Orbiter aerobraking operations, the
+Engineering at the University of Alabama in Huntsville             Exploration Rovers, and as a member of the Entry, Decent
+                                                                   and Landing Team that successfully landed the Curiosity
+                                                                   Rover on Mars in August of 2012. She is currently
+                          Leo Fabisinski is the power              supporting NASA’s the next lander mission to Mars,
+                          systems lead for the Advanced            InSight, and is working to analyze entry technologies that
+                          Concepts Office of Marshall              will enable human exploration of the planet. She holds a
+                          Space Flight Center. His                 Bachelor of Science degree in Physics from Creighton
+                          responsibilities         include         University and a Master of Science degree in Mechanical
+                          conceptual design and sizing of          Engineering from The George Washington University.
+                          spacecraft power systems, design
+                          of advanced power electronics
+                          for small spacecraft, and
+                                                                                          Jamshid Samareh is a senior
+                          evaluation of emerging power
+                                                                                          research aerospace engineer in the
+technologies.. He is also a Power Systems Subject Matter
+                                                                                          Vehicle Analysis Branch of NASA
+Expert (SME) for Propulsion Research and Technology -
+                                                                                          Langley Research Center. His
+leading the team currently developing Linear Transformer
+                                                                                          research interests are in Entry,
+Driver (LTD) pulsed power technology in the advanced
+                                                                                          Descent, and Landing (EDL), mass
+propulsion branch. He is co-inventor of the Lightweight
+                                                                                          modeling, multidisciplinary analysis
+Integrated Solar Array (LISA) and developer of the
+                                                                                          and design optimization (MDAO),
+innovative power regulator for LISA. Mr Fabisinski
+                                                                   fluid-structure interaction, geometry modeling, and shape
+graduated with a BS from Vanderbilt University in 1978.
+                                                                   optimization.
+He has worked as an electronic designer in medical
+diagnostics, digital audio, and telecommunications fields
+before coming to Marshall in 2002.                                                       Bill    Studak      is    a   senior
+                                                                                         design/analysis/build/test engineer
+                                                                                         with 23 years of experience in
+                        Tim Collins is a senior structures                               propulsion and fluid systems,
+                        research engineer in the Structural                              components and related flight
+                        Mechanics and Concepts Branch                                    hardware.     He has worked on
+                        at NASA Langley Research Center                                  propulsion systems for the Space
+                        in Hampton, Virginia. His area of                                Shuttle, Space Station and numerous
+                        expertise is spacecraft structural         developmental efforts at NASA’s Johnson Space Center.
+                        design and analysis with an                Most recently he has been testing prototype hardware for
+                        emphasis on conceptual-design              non-toxic, high performance and space storable
+                        trade studies supported by                 propellants suitable for next generation missions to the
+                                      hardware-prototype           Moon and Mars. Mr. Studak has authored or coauthored
+demonstrations. He has been with NASA since 1987,                  multiple technical reports and papers on green propellant
+working on structural concepts for numerous NASA                   technology development and he has a B.S. degree in
+programs ranging from precision telescopes to Lunar and            Mechanical Engineering from the University of Texas.
+Mars landers. He also specializes in structurally efficient
+concepts for robotic operations, including those required
+for in-space or surface-based servicing and assembly. Mr.
+Collins has a Bachelor’s Degree in Physics from the
+University of Rochester and a Master of Science Degree in
+
+                                                              13
+                         Sharada Vitalpur is the Deputy                                       Glen Rakow is an electronics
+                         Branch Chief and Chief Architect                                     engineer at NASA/GSFC. He
+                         of the Wireless and Space                                            began working at NASA in 1989.
+                         Communication Systems Branch                                         Early part of his career focused on
+                         at Johnson Space Center. Her                                         designing electronics for 5 small
+                         expertise is in communication                                        in-house spacecraft, as part of the
+                         systems, architecture, signal                                        Small Explorer (SMEX) Project.
+                         processing     and     end-to-end                                    This work transitioned into
+                         analysis. She has worked on                designing with FPGAs for SMEX-lite that eventually
+                         different communication systems            became TRIANA (1998), a mission that was moth-balled
+for the Space Shuttle, the International Space Station and          for 12 years and eventually launched as DSCVR by NOAA
+was the C&T System Manager for Orion. Ms. Vitalpur                  (2015). In 1998, Mr. Rakow started evaluating and
+started her career at ITT Aerospace Corporation                     designing to IEEE-1355, which eventually became
+designing, analyzing, modeling and implementing                     SpaceWire, the first SpaceWire implementation in the US
+algorithms and protocols for different DoD                          and flown on Swift (2003). Since 2003, Mr. Rakow has
+communication systems. She has numerous publications                collaborated with ESA for the evolution of SpaceWire to
+and attended Purdue University in West Lafayette, Indiana           include the protocol ID and several SpaceWire protocols.
+where she received her Master of Science in Electrical              He has continued to advocate and infuse SpaceWire into
+Engineering and Bachelor of Science in Electrical                   many NASA missions, and has overseen the transfer of
+Engineering with Highest Distinction.                               NASA SpaceWire technology to US industry. In 2007, Mr.
+                                                                    Rakow started working on Constellation and was later the
+                                                                    Altair Avionics Lead. In this role Mr. Rakow worked to
+                          Allan Y. Lee is with the                  develop safety critical architecture for Altair using
+                          Guidance and Control section of           modular spacecraft component building blocks
+                          Jet Propulsion Laboratory,                (SpaceFRAME), along with time-triggered networks and
+                          California       Institute      of        time-space partitioned software. Also in 2007, Mr. Rakow
+                          Technology. He received his Ph.           started representing NASA in the CCSDS Spacecraft
+                          D. degree from the Aeronautics            Onboard Interface Services work group to define services
+                          and Astronautics department of            for onboard spacecraft, this work has transitioned into the
+                          Stanford University. From 1990            definition of electronic data sheets (CCSDS blue book) for
+                          to date, he worked on the design,         spacecraft components specification, and currently
+build, testing, launch, and mission operations of the               process for integrating deterministic networks into
+attitude control system of the Cassini spacecraft, a mission        spacecraft. Mr. Rakow continues to evaluate and develop
+to Saturn and Titan. In 1999-2009, he was the Cassini               spacecraft avionic technologies for NASA crew and
+attitude control operation team leader. In 2007-2010, he            robotic missions. He earned a Bachelor of Science in
+was the Guidance, Navigation, and Control subsystem                 Electrical Engineering from the University of Maryland,
+manager of the NASA Altair Human Lunar Lander project.              Collage Park, in 1988, and a Master of Science in
+He has been awarded a NASA exceptional service medal                Electrical Engineering from George Washington
+and an exceptional achievement medal. Dr. Lee has                   University, Washington D.C., in 1997.
+authored or co-authored 50 journal papers, and two book
+chapters in Engineering, Technology, and Applied Science
+Series
+
+
+
+
+                                                               14
+15
+

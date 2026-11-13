@@ -1,0 +1,1188 @@
+Updated Human Mars Ascent Vehicle Concept in Support
+of NASA’s Strategic Analysis Cycle 2021
+Douglas J. Trent
+NASA Marshall Space Flight Center
+Huntsville, AL 35801
+douglas.trent@nasa.gov
+
+Herbert D. Thomas
+NASA Marshall Space Flight Center
+Huntsville, AL 35801
+herbert.d.thomas@nasa.gov
+
+Abstract—Significant progress has been made to NASA’s Moon
+to Mars campaign over the last several years, which drives
+changes to the agency’s current human exploration strategy.
+With Strategic Analysis Cycle 2021 (SAC21) the team was asked
+to consider new areas of the trades space not fully understood in
+the past. Specific to the Mars Ascent Vehicle (MAV), the team
+was asked to consider a concept based on a nitrogen tetroxide
+(NTO) and mono-methyl hydrazine (MMH) two stage
+propulsion system which would utilize surface propellant
+transfer, as opposed to In Situ Resource Utilization (ISRU). The
+vehicle supports two crew members from the surface up to 84
+hours nominally. This paper presents further details of the
+current MAV reference design used in NASA’s SAC21,
+including descriptions of the operations, configuration,
+subsystem design, and vehicle mass summary. Additional detail
+is also provided on rational that drove specific design changes
+since the last MAV concept, published in 2019.
+
+TABLE OF CONTENTS
+1. INTRODUCTION ....................................................... 1
+2. VEHICLE OVERVIEW .............................................. 2
+3. VEHICLE SYSTEMS ................................................. 5
+4. VEHICLE PERFORMANCE....................................... 9
+5. CONCLUSION........................................................... 9
+ACKNOWLEDGEMENTS ............................................ 11
+REFERENCES............................................................. 12
+BIOGRAPHY .............................................................. 13
+
+1. INTRODUCTION
+Mars continues to be an Agency horizon goal, extending
+human exploration efforts through the Artemis enterprise
+[1,2]. As Agency goals shift, so too has the design of
+reference human Mars exploration elements. NASA
+engineers have continued to make steady progress in
+understanding challenges and complexities of sending
+humans to Mars, refining reference Mars exploration
+architectures as capabilities and technologies evolve. The
+Mars Architecture Team, under NASA’s Human Exploration
+and Operations Mission Directorate, has continued the work
+of the Mars Study Capability Team since 2019, developing
+conceptual designs for human Mars exploration [2]
+including: in-space transportation systems [3], Mars surface
+systems [4,5], and entry, descent, landing (EDL), and ascent
+systems [6]. This includes the Mars Ascent Vehicle (MAV).
+These studies are crucial to informing technology
+U.S. Government work not protected by U.S. copyright
+
+Michelle A. Rucker
+NASA Johnson Space Center
+Houston, TX 77058
+michelle.a.rucker@nasa.gov
+
+investments and priorities to continue progressing towards
+enabling human exploration of Mars.
+The National Aeronautics and Space Administration’s
+(NASA) Mars Architecture Team (MAT) was challenged to
+develop a mission architecture capable of transporting
+humans to the surface of Mars and back as fast—and as
+soon—as practical. This challenge represented a significant
+departure from previous approaches that minimized Earthlaunched mass and maximized in-space transportation
+efficiency, often resulting in roundtrip missions of three years
+or more in duration. In the interest of crew health, MAT’s
+cross-Agency team of subject matter experts was challenged
+to develop an architecture capable of shortening crew time
+away from Earth to about two years. MAT was given specific
+mission constraints, such as number of crew, as well as
+mandates to minimize surface infrastructure as much as
+possible. The resulting concept, referred to here as the
+Strategic Analysis Cycle 2021 (SAC21) architecture,
+includes the smallest practical Mars Ascent Vehicle (MAV).
+To minimize surface infrastructure, only two Mars crew
+would descend and explore the martian surface for 30 martian
+days, or sols, before returning to Mars orbit aboard their
+MAV and rejoining additional crew on the Deep Space
+Transport for the Earth return voyage. Because the MAV is
+the largest indivisible cargo item delivered to the martian
+surface, this approach was intended to inform the minimum
+required lander payload capacity needed for a human Mars
+surface mission. Larger crew complements, requiring larger
+MAVs, which in turn would require larger landers are still in
+the trade space, but NASA was interested in characterizing
+this more modest corner of the trade space.
+The MAV is ultimately responsible for transporting crew
+members from the surface of Mars to rendezvous with the
+Earth return element in orbit. The MAV is a particularly
+influential component of the end-to-end architecture, due in
+no small part to its high wet mass sensitivity to even slight
+dry mass changes, and the fact that it is the most massive
+indivisible cargo item. The ultimate size of the EDL system
+is heavily dependent on the mass that must be delivered to the
+surface of Mars, and in turn, drives the in-space
+transportation system’s performance to deliver that mass to
+Mars vicinity. Furthermore, MAV design influences EDL
+system configuration, as well as necessary surface systems
+and surface concept of operations. The way in which crew
+ingress the MAV on the surface impacts the design of
+pressurized rovers, surface mating systems, and surface
+
+power demands, just to name a few. Current reference MAV
+concepts drive the need for new technologies such as nitrogen
+tetroxide (NTO) and mono-methyl hydrazine (MMH) deep
+throttling pump-fed engines, as well as qualifications and
+standards for extended dormancy of corrosive and highly
+toxic propellants.
+
+Apollo program. The updated design configuration maintains
+many features of previous designs such that it is possible to
+leverage as many similarities to crewed lunar operations from
+the Apollo program. The SAC21 reference MAV concept
+relies on the EDL element to act as a launch platform. The
+MAV cabin is designed to support crew for a relatively short
+duration of only a few days during ascent and rendezvous
+with the Transit Habitat. The MAV is still responsible for
+providing ingress and egress of crew on the surface and with
+the Transit Habitat in orbit.
+
+Conceptual designs for the MAV have continued to mature
+since the last design update information was publicly
+published in 2019 [7]. This paper presents an overview of the
+current MAV reference design used in NASA’s Strategic
+Analysis Cycle 2021 (SAC21). This design includes
+refinements in many subsystems that reflect recent changes
+in Agency guidance which impact system design and
+operation. There is a current desire to explore a minimal
+surface infrastructure in support of initial human exploration
+of Mars. This results in only two crew members to the
+surface, which also results in a significantly reduced cabin
+concept for the MAV. The Agency also would like to reduce
+the overall number of technology investments required to
+field the first humans to Mars. As a result, In-Situ Resource
+Utilization (ISRU) was assumed to be unavailable for initial
+missions, driving decisions for NTO/MMH main propulsion
+systems, as well as surface propellant prepositioning and
+surface propellant transfer. This paper includes a vehicle
+overview with a description of the operations and
+configurations, a discussion of vehicle subsystems, and
+finally vehicle performance and mass summary.
+
+Functional Requirements
+The MAV’s primary purpose is to carry crew and return
+cargo off the surface of Mars to rendezvous with the Transit
+Habitat. Minimum functional requirements for the MAV
+include:
+1.
+2.
+3.
+4.
+5.
+
+2. VEHICLE OVERVIEW
+
+6.
+
+Although launching humans from Earth has become more of
+a routine activity in recent years, launching crew from any
+other celestial body has only been done six times during the
+
+Allow for crew ingress and egress on the surface of
+Mars
+Transport two crew and 100 kilograms (kg) of cargo
+from the surface of Mars to docking with the Transit
+Habitat
+Support crew in a microgravity environment for up
+to 3.5 days
+Minimize the transfer of uncontained Martian
+material to the Transit Habitat per planetary
+protection best practices [13], [14].
+Perform a controlled disposal maneuver after crew
+and cargo transfer
+Operate reliably for 5.5 years, with up to 4 years on
+the Mars surface
+
+Table 1. Comparison of Recent Human Mars Ascent Vehicle Concepts
+
+2
+
+Primary Design Changes
+Table 1 provides a brief overview of the current reference
+MAV concept and how it compares to the previous iteration
+presented in 2019 [7]. Key changes include a reduction in
+crew capacity from four to two. This was driven by a desire
+to minimize surface infrastructure needed to support initial
+crewed Mars missions. Because number of crew to the
+surface have significant impact across the surface
+architecture, it was expected to significantly reduce the
+number of unique surface elements and associated
+technologies required for the early missions. This reduction
+in number of crew is what primarily drove the physical size
+reduction of the vehicle compared to the 2019 reference
+concept, and subsequently, the mass of the vehicle. The other
+primary difference between the two vehicles is the main
+propulsion system. Previous iterations of the MAV concept
+opted for cryogenic main propulsion systems for the
+increased performance potential, coupled with the ability to
+utilize ISRU to manufacture components of the propellant on
+the surface of Mars, thereby reducing the amount of mass that
+would need to be delivered. The SAC21 reference MAV
+concept opted for a storable-based NTO/MMH pump-fed
+main propulsion system. The selection was made to
+understand potential impacts of such a main propulsion
+system on the architecture, while also making use of current
+investments in pump-fed storable main propulsion systems
+under lunar exploration efforts. However, because of reduced
+MAV mass, along with maintaining relatively common
+engine performance parameters of existing developments, the
+total number of main propulsion system engines on the first
+stage had to be increased to ensure sufficient thrust at Mars
+ascent.
+
+4.5 m
+
+7.2 m
+
+Figure 1. Mars Ascent Vehicle (MAV)
+
+b. MAV Stage 2
+
+a. MAV Stage 1
+
+Configuration
+
+Figure 2. Mars Ascent Vehicle Configuration
+
+The MAV consists of a crew cabin and a two-stage
+propulsion system. Figure 1 shows the overall configuration
+of the MAV, while Figure 2 shows the two stages of the
+vehicle, Figure 2.a is the first stage of the vehicle which
+consists of only a main propulsion system with four 10 kilo
+pound force (klbf) pump-fed NTO/MMH main engines and
+two sets of nested NTO/MMH tanks. Figure 2.b shows the
+second stage which consist of the crew cabin, detailed in
+Figure 3, as well as independent main propulsion and reaction
+control systems. The second stage main propulsion system
+contains a single main engine identical to those on the first
+stage. The reaction control system is an independent
+pressure-fed system.
+Figure 3 is a cross-section view of the crew cabin. The current
+reference crew cabin is a vertical cylinder 2.3 m in diameter
+and 2.9 m tall, with roughly 10.5 m3 of habitable volume. The
+vertical orientation was maintained for the same reasons
+identified in the previous design studies [8]. The crew cabin
+also contains all the necessary avionics, power systems,
+thermal control, and ECLSS to support the crew for the 3.5day ascent to rendezvous with the Transit Habitat. The cabin
+has two access points for crew ingress/egress, as well as
+integrating with other architecture elements: an axial
+
+2.9 m
+
+2.3 m
+Figure 3. MAV Crew Cabin
+mounted NASA docking system (NDS) [9] and a radial
+mounted 1 m square hatch, similar to those found on the
+International Space Station US orbital segment. Though the
+MAV is expected to be the active vehicle during docking
+operations, a passive NDS mechanism was selected to
+minimize mass due to the high mass sensitivity of the MAV.
+However, sensors and communications systems required to
+
+3
+
+be the active vehicle during docking are maintained. The
+Transit Habitat is assumed to have androgenous docking
+mechanisms capable of interfacing with either active or
+passive docking systems. A 1 m square hatch was selected for
+the radial hatch as a result of previous studies and tests
+concluding that this dimension hatch was sufficient to allow
+suited crew ingress/egress in partial gravity environments
+[10].
+
+constraint of the MAV. Previous design iterations allowed for
+up to a 9.1 m overall diameter to accommodate dynamic
+envelopes of notional 10 m fairings. However, the updated
+configuration was constrained to a 7.5 m diameter dynamic
+envelope to conform to notional 8.4 m diameter fairings
+currently planned for SLS, as shown in Figure 4. This was
+feasible due to the smaller overall form factor achieved by the
+reduced number of crew, combine with the more compact
+NTO/MMH main propulsion system, allowing maximum
+flexibility with future heavy lift launch vehicle fairing
+configurations.
+
+8.4 m
+7.5 m
+
+Operation
+The MAV is launched from Earth and aggregated with a Mars
+transportation vehicle in cis-lunar space. It is launched
+integrated with the lander system. The lander system is
+responsible for providing power and communications during
+the transit phase of the mission, which may range up to one
+year, depending on the design of the transportation vehicle.
+The MAV with lander system is inserted into Mars orbit by
+the transportation element. Upon arrival at Mars, the MAV
+and lander system separate from the transportation vehicle
+and prepare for entry, descent, and landing. This consists of
+several checkout operations and final orbit adjustments to
+target the final landing site. These operations are again
+performed by the lander system. Once on the surface, the
+lander system is connected to surface power systems within
+24 hours to provide power for the MAV for the remainder of
+the surface operations. Surface power systems are assumed
+pre-emplaced by an earlier lander.
+
+Figure 4. MAV Launch Configuration
+
+The MAV is delivered to Mars one opportunity before crew
+arrival with full MMH propellant tanks and partially filled
+NTO tanks. Propellant must be offloaded to accommodate the
+limited 25 metric ton payload mass capability of the SAC 21
+Mars Descent System. It was desired to minimize the number
+of fluids to be transferred on the surface to simplify the
+process. Of the two main propulsion system propellants,
+MMH is the desired constituent due to reduced toxicity and
+corrosiveness on transfer hardware. However, the total mass
+of loaded MMH on the MAV does not allow for enough mass
+offloading to meet landing system mass limitations. As a
+result, NTO was selected as the transfer fluid.
+
+Figure 5. Notional Mars Surface Propellant
+Transfer Package
+The overall configuration of the vehicle allows for a
+relatively compact design with a low center of mass which
+supports stability during EDL, as well as relatively
+straightforward crew access during key mission phases. The
+crew are seated in 45-degree recumbent seats during ascent
+to improve crew comfort. During powered ascent, sensed
+accelerations can reach nearly 1.5 Earth g’s. Though this may
+not seem like much, a crew member conditioned to the Mars
+environment will need to be supported to mitigate potential
+health concerns.
+The final major configuration change to the vehicle design
+compared to the 2019 reference is the overall diameter
+
+4
+
+The MAV is serviced by a surface propellant transfer
+infrastructure which is also delivered to Mars on an earlier
+lander, along with the remaining NTO to fully fuel the MAV
+[11]. A propellant transfer package, shown notionally in
+Figure 5, carried by an autonomous rover, would be
+responsible for transporting NTO delivered on the first
+lander, and pumping it to the MAV on the second lander.
+There may be appreciable distances between the lander,
+currently estimated at 1 km. The process would have to occur
+autonomously over several trips due to the limited cargo
+capacity assumed of the rover. Currently, the refueling
+process is expected to require about 11 round trips of the
+rover. This process would require appreciable time to
+complete the transfer of the full complement of NTO to the
+MAV and is the reason for requiring the MAV to be delivered
+
+one opportunity prior to crew arrival. The crew will not be
+cleared to land on Mars until the full propellant compliment
+required for powered ascent is confirmed.
+
+and reasonable launch window durations. Figure 7 provides
+a depiction of the 5-sol orbit, as well as several other Mars
+aggregation orbits. Note that the durations and delta-Vs
+shown in this figure are approximate and ideal. Actual values
+will vary with more detailed trajectories and propulsion
+system performance.
+
+While on the surface, the crew are not expected to live or
+operate out of the MAV cabin. At the completion of the
+surface mission, the crew will drive a pressurized rover to the
+MAV and attach an inflatable tunnel between the rover and
+MAV for crew ingress. This tunnel allows for a protected
+environment to support planetary protection protocols and
+minimize the potential of returning uncontained Mars
+material to the Transit Habitat and Earth. See Figure 6 and
+reference [12] for details on crew access tunnel concepts.
+
+Figure 7. Mars Aggregation Orbits
+
+3. VEHICLE SYSTEMS
+This section provides a summary of each major vehicle
+subsystem. Life support and human factors components are
+captured under Crew Cabin Design, followed by propulsion,
+thermal, power, avionics, and structures. To minimize MAV
+mass, lander system services are relied upon so that the MAV
+systems need only perform what is necessary for crew ascent
+operations. Figure 8 shows the various interfaces with other
+architecture elements.
+Crew Cabin Design
+The environmental control and life support (ECLS) system
+for the MAV are based on Orion life support systems. It is an
+open loop design, as the relatively short 3.5-day crewed
+duration does not outweigh the penalties of carrying closed
+loop systems. Prior to crew ingress, the system is maintained
+in a standby state to reduce consumables during the long
+loiter duration of 5.5 years. shows the system schematic for
+the ECLS system. Major components include the pressure
+control system (PCS), air revitalization system (ARS),
+particulate control, emergency management system (EMS),
+temperature and humidity control, and waste management
+system (WMS). Due to the limited crew duration, certain
+human factors items were omitted, such as exercise
+equipment and food warmers.
+
+Figure 6. Rover-to-MAV Crew Transfer Concepts
+Just prior to ascent, all support services from the descent
+vehicle are discontinued and the MAV becomes selfsufficient. Powered ascent takes approximately 10 minutes,
+with first stage separation occurring roughly 5 minutes into
+flight. This places the MAV into an initial low Mars orbit
+before performing a series of maneuvers to place the MAV
+on a final intercept trajectory with the Transit Habitat. For the
+SAC21 architecture, the Transit Habitat is expected to be in
+a 5-sol orbit to minimize the amount of additional work the
+in-space transportation vehicle must perform while inserting
+into and departing from Mars orbit. Transfer between the
+initial low Mars parking orbit and rendezvous in the 5-sol
+orbit is expected to take roughly 3.5 days. This transfer
+duration allows for multiple launch opportunities per week
+
+5
+
+Transit Habitat
+
+Lander System
+
+MAV
+NDS
+
+Structures
+
+Structures
+
+Structural Attach Points
+MAV Power
+
+Power
+MAV Health & Status Data
+
+Data
+
+MAV Health & Status Data
+
+Data
+
+Structures
+Power
+Data
+
+MAV Cooling Loops
+Fluids
+
+MAV NTO Propellant
+
+Fluids
+
+Figure 8. MAV Interfaces with other Elements
+Safety gear includes items such as medical kits, personal
+radiation dosimeters, cabin illumination, and restraints. Each
+crew member is provided a sleeping system which includes a
+sleeping bag, cushion, pillow, and restraint. It is expected that
+sleeping will only be in a microgravity environment. A 100
+kg mass allocation is also provided for utilization, to
+encompass scientific sample return and any stowage systems
+required. Table 2 provides a summary of the various cargo
+and human factors equipment allocations for the MAV.
+
+Docking Hatch
+
+O2
+PCS
+
+Side Hatch
+
+N2
+Particulate
+Control
+WMS
+
+Humidity
+and temp
+control
+
+H2O
+
+Propulsion
+The propulsion system for the MAV consists of a two-stage
+pump-fed main propulsion system and an independent
+pressure-fed reaction control system. The MAV uses four
+main engines on the first stage and a single engine on the
+second stage. All five main engines operate during initial
+ascent to provide sufficient thrust based on a reference engine
+designed derived from the XLR-132. The main engine is a
+10,000 lbf gas generator cycle NTO/MMH engine with a
+minimum guaranteed specific impulse of 340 s. Selection of
+the NTO/MMH engine is based on leveraging potential
+investments from lunar exploration activities while also
+limiting additional technology investments, namely, ISRU.
+Without ISRU, and in order to maintain the 25 metric tons (t)
+payload limits imposed by the reference landing system,
+significant portions of the MAV’s propellant must be off
+loaded to other landers and then autonomously transferred to
+the MAV while on the Martian surface.
+
+Dispense
+Port
+ARS
+
+H2O
+O2
+N2
+CO2
+
+Figure 9. MAV ECLS System Diagram
+Table 2. Cargo and Human Factors Equipment
+Item (# items)
+
+Assumption
+
+Crew (2)
+
+98.5 kg/person
+
+Food
+
+1 kg/day/person
+
+Crew Provisions
+
+2.5 kg/day/person
+
+Total Mission Provisions
+Safety
+
+Figure 10 shows the first and second stage propulsion system
+schematics. Propellants are stored in nested tank sets to
+facilitate a compact configuration and minimize the height of
+the center of mass for landing stability purposes. The first
+stage consists of only a main propulsion system, while the
+seconds stage contains independent main propulsion and
+reaction control systems. An independent reaction control
+system was selected to simplify the design and increase
+system reliability. The reaction control system is composed
+of sixteen 110 lbf R-4D class thrusters. These thrusters are
+used to perform rendezvous and docking maneuvers, course
+correction and orbital maintenance burns, and attitude control
+during all stages of powered flight.
+
+30 kg/person
+36 kg
+
+Sleep Systems
+
+8.2 kg/person
+
+Recumbent Seats (2)
+
+22.7 kg/seat
+
+OCSS Pressure Suite
+
+23 kg/suit
+
+Utilization
+
+100 kg
+
+Crew provisions include items such as food bars and drink
+bags, tool kits, towels and hygiene supplies, trash bags, fecal
+collection and cleaning supplies, and personal provisions.
+These items total to roughly 30 kg per crew member. Several
+of these items are expected to be transferred to the MAV after
+the crew arrives at Mars due to storage duration limitations
+of perishable items and the long idle durations of the MAV.
+
+6
+
+Thermal
+With selection of storable propellants for the main propulsion
+system, the thermal system design has been simplified greatly
+without the needs for maintaining cryogenic propellants.
+Instead, heaters and MLI blankets are required to ensure
+proper temperatures are maintained to prevent degradation of
+propellant from the cold during transit and on the surface of
+Mars. A heat rejection system is also sized to radiate waste
+heat from sources such as avionics and crew cabin heat loads.
+The thermal model representation of the configuration can be
+seen in Figure 11.
+
+a. Stage 1 Propulsion Schematic
+
+The thermal control system is a dual-loop, pump-driven
+system with redundant pumps and accumulators for heat
+collection and transport. The system uses a fluid loop radiator
+technology for primary heat rejection, with a sublimator to
+supplement peak crew cabin heat loads. A schematic of the
+thermal control system can be found in Figure 12. Tanks and
+the crew cabin thermal management utilize multi-layer
+insulation blankets in conjunction with electrical resistive
+heaters. Components of the thermal control system were
+designed to accommodate both the worst case cold and hot
+environments during transit and on the surface of Mars. Peak
+thermal management power loads are experienced just prior
+to ascent, when propellants must be conditions to engine
+operational temperatures, while also maintaining cabin
+environment with crew inside.
+
+b. Stage 2 Propulsion Schematic
+Figure 10. MAV Propulsion System Schematics
+Stage 1 tank sets
+
+cabin
+
+Stage 2 tank sets
+
+Power
+The MAV power system uses oxygen-methane fuel cells to
+produce the required operational power for the ascent and
+return to the Transit Habitat. Power during the initial cruise
+from Earth to Mars, as well as time on the surface prior to
+crew arrival, are provided by other architecture elements such
+as the landing system and surface power system. Three
+parallel solid oxide fuel cells feed two parallel distribution
+units for system redundancy. Each power distribution units
+provides a 120-volt and 28-volt supply for various vehicle
+loads, shown in Figure 13. Previous studies concluded that
+fuel cells were the preferred power system due to the
+relatively short operational period, and to limit additional
+deployable systems. Furthermore, the mass of solar panels
+and batteries to provide sufficient power for the MAV were
+found to be heavier than the equivalent fuel cell-based
+system.
+
+Radiators
+
+MDS
+
+Figure 11. MAV Thermal Model
+
+A breakdown of the power subsystem loads during the
+crewed ascent phase of the mission can be found in Table 3.
+Fuel cell power plant are sized to accommodate a peak power
+of 7.8 kW, seen during main propulsion system operation.
+The MAV requires roughly 2.9 kW of power during crewed
+non-propulsive operations, such as orbit phasing or coasting.
+The crewed phase of the MAV’s mission requires 185
+kiloWatt-hours (kW-hrs) of total energy, which translates to
+158 kg of fuel cell reactants. Though the fuel cell reactants
+share the same elements as the propulsion system, oxygen
+and methane, they are stored in separate tanks due to the
+
+Figure 12. MAV Thermal Control System Schematic
+
+7
+
+Table 3. MAV Power Budget
+Life
+Total Peak
+Total Avg
+Duration Prop Peak Prop Avg Avionics Thermal Support Power+30% Power+30% Total Energy
+(Hrs)
+(W)
+(W)
+(W)
+(W)
+(W)
+(W)
+(W)
+(Whrs)
+First Stage Powered Ascent
+0.097
+4503
+2632
+656
+155
+696
+7813
+5381
+522
+4503
+2632
+656
+155
+696
+7813
+5381
+Second Stage Powered Ascent
+0.077
+414
+Coast to Apoapsis
+0.862
+736
+368
+639
+155
+696
+2894
+2415
+2082
+736
+368
+639
+155
+696
+2894
+2415
+Periapsis Raise
+0.047
+114
+Coast/Phasing
+9.902
+736
+368
+639
+155
+696
+2894
+2415
+23917
+Apoapsis Raise
+4503
+2632
+639
+155
+696
+7791
+5359
+0.065
+348
+Coast to Apoapsis
+736
+368
+457
+139
+696
+2636
+2158
+71.95
+155268
+Dock with MTV
+139
+696
+2791
+2313
+1
+736
+368
+576
+2313
+Total Energy
+184978
+
+communication assets will also impact surface mission
+operations.
+
+120V Loads
+Fuel Cell
+
+120V
+
+LOX
+Tank
+
+PDU A
+
+Fuel Cell
+CH4
+Tank
+
+120V
+
+PDU B
+
+Fuel Cell
+
+28V Loads
+
+Figure 13. MAV Power System Schematic
+higher feed pressures required by the fuel cell stacks, and to
+reduce vehicle complexity.
+Avionics
+
+Figure 14. MAV Communication Architecture
+
+Avionics include command and data handling,
+communication, and tracking, as well as guidance, navigation
+and control. No significant changes to the avionics subsystem
+design have been made since the last MAV concept,
+documented in 2019 [7]. The MAV is assumed to be the
+active vehicle during rendezvous and docking operations
+with the Transit Habitat. It should be noted that the design of
+the MAV avionics does not support direct to Earth
+communication. It is dependent on other orbital assets, such
+as the Transit Habitat, in-space transportation vehicle, or
+communications relays, to communicate back to Earth,
+shown graphically in Figure 14. The purpose for this choice
+was to minimize avionics system mass and power
+requirements due to the high mass sensitivity of the MAV.
+The avionics subsystem utilizes mostly heritage hardware,
+such as Orion-derived flight controls for crew interface, as
+well as the Mustang avionics suite as a baseline. Each
+redundant primary flight computer is split across two boxes.
+The MAV requires a minimum 100 kbps link for telemetry
+and communication. MAV avionics are designed assuming a
+constellation of low Mars orbit relays, providing low mass,
+continuous link coverage through the entire crewed ascent to
+rendezvous with the Deep Space Transport (DST). A direct
+link to the DST is possible, though would result in increased
+avionics mass and power requirements and would result in
+communications blackouts during pre-ascent operations and
+low Mars orbit phasing. Availability of orbital
+
+Structures
+A full structural evaluation of the MAV concept was
+performed using a series of finite element analysis tools
+including MSC Patran, MSC Nastran, and HyperSizer.
+Structural models and design approaches from the previous
+design concepts were heavily utilized for this updated
+analysis. Geometries and forces were updated to represent the
+current configuration presented here, shown in Figure 15.
+Most primary structures, including the crew cabin, assume
+metallic aluminum constructions. The exception is the main
+propulsion system tank supports, which assume a composite
+carbon fiber construction.
+Three load cases were assumed for sizing the structures of the
+MAV: 1. Earth launch and ascent, 2. Mars first stage ascent,
+3. Mars second stage ascent. For Earth launch and ascent,
+SLS Block 2 flight loads of 4.1g axial and 1.5g lateral were
+assumed, with a maximum 8 Hz first lateral constrained
+mode. For Mars ascent cases, loads data was derived from
+POST ascent trajectory analysis, discussed in the Vehicle
+Performance section.
+
+8
+
+Figure 15. MAV Structural Model
+
+4. VEHICLE PERFORMANCE
+
+histories for key parameters during ascent such as mass,
+thrust, altitude, pitch, and sensed acceleration.
+
+This section covers vehicle performance and includes a
+discussion on trajectory design, design sensitivities, and
+vehicle mass summary.
+
+Landing Site and Dust Sensitivities
+Several studies involving sensitivities to landing site and
+atmospheric dust were performed. Previous design iterations
+assumed a 30-degree North latitude, 0 km MOLA reference
+landing site. However, parameters associated with the
+landing site, such as latitude and altitude can have measurable
+impacts on the required performance of the MAV.
+Furthermore, atmospheric dust can have significant impacts
+on atmospheric conditions which result in MAV trajectory
+variations. Studies into these sensitivities indicate the up to
+6% mass variation due to potential mid-latitude landing sites,
+as well as a 1% mass variation due to atmospheric dust and
+other atmospheric condition parameters, such as Martian
+season. Reference [6] provides details of these sensitivity
+analyses. As a result, a 35-degrees North, -1 km MOLA
+altitude landing site has been utilized for the reference MAV
+design to ensure robustness to uncertainty in landing site
+selection.
+
+Trajectory Design
+Trajectory optimization is a key component in assessing
+vehicle performance during conceptual design. The ascent
+performance of the MAV was modeled using the Program to
+Optimize Simulated Trajectories II (POST2), with
+atmospheric information provided by the Mars Global
+Reference Atmosphere Model (GRAM). One of the most
+influential factors in MAV design is the desired aggregation
+orbit. This decision determines the propulsive capability
+required as well as flight durations for crew support. It is
+recognized that a low Mars orbit would be ideal to minimize
+propulsive and duration requirements on the MAV. However,
+because the design of a Mars architecture is a system of
+systems problem, what is optimal for the MAV may not be
+optimal for the end-to-end architecture. The in-space
+transportation elements become excessively burdened by the
+extra propellant required to get into and out of lower altitude
+Mars orbits which would favor the MAV. A 5-sol orbit
+capable MAV was ultimately selected as a compromise
+between the two elements, while not introducing additional
+propulsive elements, and hence, complexity, to the end-toend architecture.
+
+Vehicle Mass Summary
+The resulting vehicle mass summary is shown in Table 4. The
+Mars delivery column indicates the MAV mass at delivery to
+Mars when there is no crew or cargo on board and the NTO
+propellant has not been transferred. The is the mass that must
+be delivered by the landing system. The liftoff mass is
+provided in the Mars ascent column.
+
+Considerations have been given to launch window
+availability and window duration in previous studies. Shorter
+flight durations from the surface to rendezvous with the
+Transit Habitat are possible, but at the expense of additional
+delta-V, reduced launch window availability, and launch
+window duration. Figure 16 provides an overview of the
+trajectory to reach a 5-sol orbit. Figure 17 shows time
+
+5. CONCLUSION
+As the largest indivisible cargo item, the MAV described in
+this analysis was intended to anchor what NASA considers
+the minimum viable corner of the trade space, which in turn
+anchors the minimum Mars lander payload capacity.
+
+9
+
+Figure 16. MAV Ascent Trajectory to 5-sol, Overview
+
+Figure 17. MAV Ascent Trajectory to Initial Orbit Insertion, Details
+
+10
+
+Studies have been performed to either increase overall
+fidelity of the MAV or investigate specific sensitivities to its
+design and performance. This work resulted in an updated
+MAV reference design, aligning with current Agency
+strategic goals for SAC21, and better leveraging expected
+developments through the Moon to Mars campaign.
+It is important to note that NASA does not have a formal
+human Mars program and no decisions have been made; the
+architecture described here is intended to fill in an oftenoverlooked corner of the trade space, helping to complete the
+menu of options available to decision-makers as they chart
+the course for humans to Mars. Efforts to refine the MAV
+concepts, understand system sensitivities and impacts to
+Mars architectures, will continue.
+Table 4. Mass Summary for SAC21 Reference MAV
+Subsystem
+
+Mass (kg)
+Mars Delivery
+
+Mars Ascent
+
+2,798
+
+3,212
+
+Structures
+
+918
+
+918
+
+Power
+
+472
+
+472
+
+Avionics
+
+337
+
+337
+
+Thermal
+
+211
+
+211
+
+ECLSS
+
+473
+
+473
+
+Crew Systems
+
+110
+
+110
+
+0
+
+414
+
+277
+
+277
+
+Ascent Stage 1 (AS1)
+
+12,556
+
+18,940
+
+Dry Mass
+
+1,633
+
+1,633
+
+NTO
+
+5,020
+
+11,404
+
+MMH
+
+5,903
+
+5,903
+
+Ascent Stage 2 (AS2)
+
+6,065
+
+13,999
+
+Dry Mass
+
+1,273
+
+1,273
+
+NTO
+
+425
+
+8,359
+
+MMH
+
+4,367
+
+4,367
+
+676
+
+676
+
+22,095
+
+36,827
+
+Ascent Cabin (AC)
+
+Cargo
+Non-Prop. Fluids
+
+System Intg. Margin
+TOTALS
+
+ACKNOWLEDGEMENTS
+The authors recognize the following team members as key
+contributor to the MAV design refinements presented here:
+Mike Baysinger, Jay Garcia, Pete Capizzo, Leo Fabisinski,
+Quincy Bean, Thomas Brooks, Bill O’Neil, and Michael
+Interbartolo. Additionally, the Surface Mobility Team, led by
+Mike Gernhardt, provided key technical details relating to the
+surface propellant transfer concept, unique to this concept.
+
+11
+
+REFERENCES
+[1] Presidential Memorandum on Reinvigorating
+America’s Human Space Exploration Program,
+Space Policy Directive 1, Washington D.C.,
+December 11, 2017.
+
+[12] Krenn, A., Trent, D., Sanders, J., Hoffman, S., Chai,
+P. Hinterman, E., Architectural Impacts of the In-Situ
+Resource Utilization Production of Oxygen for Use
+as a Propellant in a Mars Ascent Vehicle, Cryogenic
+Engineering Conference, 2021
+
+[2] Chavers, G, et al. Long-Term Architecture
+Development for The Moon and Mars, International
+Astronautical Congress. No. IAC-21, A3, 1, 12, x643.
+Dubai, UAE, 2021.
+
+[13] Rucker, M.A., S. Jefferies, A.S. Howe, R. Howard,
+N. Mary, J. Watson, R. Lewis, Mars Surface Tunnel
+Element Concept, IEEE Aerospace Conference, Big
+Sky, MT, 2016.
+
+[3] Rucker, M.A., et al., NASA’s Strategic Analysis Cycle
+2021 (SAC21), IEEE Aerospace Conference, Big
+Sky, 2022.
+
+[14] The COSPAR Panel on Planetary Protection,
+COSPAR Policy on Planetary Protection, June 2021.
+
+[4] Chai, P.R., B.E. Saputra, and M. Qu, Human Mars
+Mission In-Space Transportation Sensitivity for
+Nuclear Electric/Chemical Hybrid Propulsion,
+AIAA Propulsion and Energy Forum and Exposition,
+August 9-11, 2021.
+
+[15] NID-8715.129, Biological Planetary Protection for
+Human Missions to Mars, National Aeronautics and
+Space Administration, Headquarters, Washington
+D.C., July 2020.
+
+[5] Howard, R.L., and H.L. Litaker, Habitability Lessons
+Learned from Field Testing of a Small Pressurized
+Rover, AIAA Ascend Conference, Virtual, 2020.
+[6] Gibson, M. and P. Schmitz, Higher Power Design
+Concepts for NASA’s Kilopower Reactor, IEEE
+Aerospace Conference, Big Sky, 2020.
+[7] Trent, D.J., Thomas, H.D., Samareh J.A., Dwyer
+Cianciolo A.M., Mars Entry, Descent, Landing, and
+Ascent Systems Sensitivities to Landing Site and
+Atmospheric Dust, AIAA ASCEND, Las Vegas,
+2021.
+[8] Polsgrove, T.P., Percy, T.K., Thomas, H.D., Rucker,
+M.A. Update to Mars Ascent Vehicle Design for
+Human Exploration, IEEE Aerospace Conference,
+Big Sky, 2019.
+[9] T. P. Polsgrove et al., Human Mars ascent vehicle
+configuration and performance sensitivities, IEEE
+Aerospace Conference, Big Sky, 2017.
+[10] SSP-51075, Revision: A, NASA Docking System
+(NDS) Block 2 (NDSB2) Interface Definitions
+Document (IDD), International Space Station
+Program, National Aeronautics and Space
+Administration, Lyndon B. Johnson Space Center,
+Houston, June 2020.
+[11] JSC-47223, ESPO Test 6:C-9 Facility Space Suit
+Interface Evaluation Test Report, EVA Systems
+Project Office, National Aeronautics and Space
+Administration, Lindon B. Johnson Space Center,
+Houston, 2009.
+
+12
+
+BIOGRAPHY
+Douglas J. Trent, Ph.D. is the acting
+Space Systems Team Lead in the
+Advanced Concepts Office at NASA’s
+Marshall Space Flight Center. His focus
+areas include architecture design and
+analysis,
+technology
+assessment,
+advanced design methods, and human
+space systems concepts. Current work
+assignments include support of the Human Landing System
+Architecture and Systems Analysis group, as well as the entry,
+descent, landing, and ascent lead for the human Mars
+Architecture Team. Additional duties include developing a
+model-based, multi-objective design optimization framework
+for the synthesis of space systems architectures. Dr. Trent
+joined NASA in June 2012. Dr. Trent obtained a B.S in
+Mechanical Engineering from California State University,
+Sacramento, as well as an M.S. and Ph.D. in Aerospace
+Engineering from the Georgia Institute of Technology.
+Herbert “Dan” Thomas, Ph.D. is an
+aerospace engineer in the Advanced
+Concepts Office at NASA’s Marshall
+Space Flight Center. His background is
+in mission analysis, trajectory design
+and optimization, advanced space
+propulsion, propulsion system mass
+estimation, and mass estimating relationships for lunar and
+Mars mission components. Dr. Thomas has been with NASA
+since 2004 and, before that, worked as a software engineer in
+industry. He has worked on several conceptual vehicle
+designs as both an analyst and design team lead. Dan has a
+Bachelor of Science in Aerospace Engineering, Master of
+Science in Aerospace Engineering, and a Doctor of
+Philosophy in Mechanical Engineering, all from the
+University of Tennessee.
+Michelle Rucker received a B.S. (1984)
+and M.A. (1986) in Mechanical
+Engineering from Rice University. She
+has been with NASA for 35 years and
+currently leads the human Mars
+Architecture Team for NASA’s Human
+Exploration and Operations Mission
+Directorate.
+
+13
+
+

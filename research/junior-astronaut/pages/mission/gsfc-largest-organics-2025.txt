@@ -1,0 +1,30 @@
+                        NASA’s Curiosity Rover Detects Largest Organic
+                                  Molecules Found on Mars
+
+Researchers analyzing pulverized rock onboard NASA’s Curiosity rover have found
+the largest organic compounds on the Red Planet to date. The finding suggests that
+prebiotic chemistry may have advanced further on Mars than previously thought.
+
+Scientists examined a drill sample collected from an ancient lake mudstone in Gale
+crater using Curiosity’s Sample Analysis at Mars (SAM) mini-lab and found the
+molecules decane, undecane, and dodecane. These compounds, essentially chains
+of 10, 11, and 12 carbon atoms, are thought to be the fragments of fatty acids – some
+of the chemical building blocks of life on Earth that form cell membranes and perform
+various other biological functions. Fatty acids also can be made non-biologically by
+geological processes, including the interaction of water with minerals in hydrothermal
+vents.
+
+While there’s no way to confirm that these long-chain alkanes resulted from biology,
+finding them provides hope that other large organic molecules, and specifically those
+created only by life (so-called “biosignatures”), could be preserved in ancient rocks
+on Mars.                                                                                 This graphic shows the long-chain organic molecules decane, undecane, and
+This new finding bodes well for NASA and ESA’s plans to bring back similar rocks         dodecane. These are the largest organic molecules discovered on Mars to date.
+collected in Jezero Crater by the Perseverance rover and analyze them with the most      They were detected in a drilled rock sample called “Cumberland” that was
+sophisticated instruments available to look for biosignatures settle the debate about    analyzed by the Sample Analysis at Mars lab inside the belly of NASA’s
+life on Mars.                                                                            Curiosity rover. The rover, whose selfie is on the right side of the image, has
+                                                                                         been exploring Gale Crater since 2012. Credit: NASA//Dan Gallagher
+
+ Freissinet, Glavin (690), et al. (2025) Proceedings of the National Academy of Sciences USA, 122(13), e2420580122
+ https://doi.org/10.1073/pnas.2420580122
+ https://science.nasa.gov/missions/mars-science-laboratory/nasas-curiosity-rover-detects-largest-organic-molecules-found-on-mars/
+

@@ -1,0 +1,2076 @@
+National Aeronautics and Space Administration
+
+Final Report of the COSPAR Meeting Series on Knowledge
+Gaps in Planetary Protection for Crewed Missions to Mars
+J. Andy Spry, Senior Scientist SETI / PP Consultant
+Bette Siegel, ESDMD Program Executive
+Elaine Seasly, Deputy Planetary Protection Officer
+J. Nick Benardini, Planetary Protection Officer
+Sarah Wallace, JSC Biomedical Research and Environmental Sciences Division
+ICES-2023-361
+July 18, 2023
+Session 506-B 0800-1000
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Overview
+
+ Introduction to Planetary Protection Policy and Implementation
+ Knowledge Gaps in Planetary Protection for Crewed Missions
+ Perspectives on the Way Forward
+ Take Home Messages
+
+2
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Introduction to Planetary Protection
+
+International Responsibility
+
+The Outer Space Treaty
+of 1967
+
+Article VI:
+
+Article IX:
+
+States Parties to the Treaty shall bear
+international responsibility for national activities in
+outer space, including the moon and other
+celestial bodies, whether such activities are
+carried on by governmental agencies or by nongovernmental entities, and for assuring that
+national activities are carried out in conformity
+with the provisions set forth in the present Treaty
+
+•
+•
+
+Planetary Protection
+
+States Parties to the Treaty shall pursue studies of
+outer space, including the Moon and other celestial
+bodies, and conduct exploration of them so as to
+avoid their harmful contamination and also adverse
+changes in the environment of the Earth resulting
+from the introduction of extraterrestrial matter and,
+where necessary, shall adopt appropriate measures
+for this purpose
+
+Committee on Space Research (COSPAR)
+
+Panel on Planetary Protection forms international consensus
+guidelines
+Defines PP Categories I – V based on target body and mission type
+
+•
+•
+
+•
+•
+
+Office of Planetary Protection
+
+NASA
+
+Implements Planetary Protection Policy to achieve compliance for
+NASA Missions
+Supports FAA in planetary protection compliance evaluation for NonNASA Missions
+Maintains US conformity with the provisions in the OS Treaty
+
+sma.nasa.gov
+
+v
+
+•
+
+Supports the sciencebased international
+consensus process
+Develops new
+guidelines and
+provides significant
+input to COSPAR
+
+Planetary Protection Implementation for Robotic Missions
+
+Credit: NASA/InSight
+
+Credits: ESA/TGO
+
+Typical implementation - Lander:
+
+Typical implementation - Orbiter:
+
+• Bioburden reduction of flight hardware using solvent
+cleaning, dry heat, ionizing radiation and gases
+• Recontamination prevention using flight and nonflight filters and barrier systems
+• Bioburden control of assembly, test and launch
+operations
+• Bioburden verification with assays
+
+• Probability of Mars impact assessment for launcher
+upper stage and spacecraft
+• Launch, cruise to Mars, MOI and orbital mission
+phases
+• Hardware, software and operational reliability
+• Micrometeoroid impact and effect analysis
+Alternative approach is bioburden control
+spacecraft, including break-up/burn-up analysis
+
+Intent is to meet numeric bioburden limit
+
+sma.nasa.gov
+
+v
+
+4
+
+of
+
+COSPAR Planetary Protection Guidelines for Crewed Missions (1)
+Human
+Exploration
+Planetary
+Specific
+implementation
+guidelines
+for human missions to Mars include:
+
+
+Protection
+Guidelines
+Human missions
+will carry microbial populations that will vary in both kind and quantity,
+and it will not be practicable to specify all aspects of an allowable microbial population or
+potential contaminants at launch. Once any baseline conditions for launch are
+established and met, continued monitoring and evaluation of microbes carried by human
+missions will be required to address both forward and backward contamination
+concerns.
+
+
+
+A quarantine capability for both the entire crew and for individual crew-members shall be
+provided during and after the mission, in case potential contact with a Martian life-form
+occurs.
+
+
+
+A comprehensive planetary protection protocol for human missions should be developed
+that encompasses both forward and backward contamination concerns and addresses
+the combined human and robotic aspects of the mission, including subsurface
+exploration, sample handling, and the return of the samples and crew to Earth.
+
+5
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+COSPAR Planetary Protection Guidelines for Crewed Missions (2)
+Human
+Exploration
+Planetary
+Specific
+implementation
+guidelines
+for human missions to Mars include:
+
+
+Protection
+Guidelines
+Neither robotic systems
+nor human activities should contaminate “Special Regions” on
+Mars, as defined by this COSPAR policy.
+
+
+
+Any uncharacterized Martian site should be evaluated by robotic precursors prior to
+crew access. Information may be obtained by either precursor robotic missions or a
+robotic component on a human mission. (see also the US NRC recommendations given
+in the 2002 Safe on Mars report: http://www.nap.edu/books/0309084261/html/)
+
+
+
+Any pristine samples or sampling components from any uncharacterized sites or Special
+Regions on Mars should be treated according to current planetary protection category V,
+restricted Earth return, with the proper handling and testing protocols.
+
+
+
+An onboard crewmember should be given primary responsibility for the implementation
+of planetary protection provisions affecting the crew during the mission.
+
+
+
+Planetary protection requirements for initial human missions should be based on a
+conservative approach consistent with a lack of knowledge of Martian environments and
+possible life, as well as the performance of human support systems in those
+environments. Planetary protection requirements for later missions should not be
+relaxed without scientific review, justification, and consensus.
+6
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Path to Closing Knowledge Gaps and Establishing PP Requirements
+Workshops Timeline
+2015
+
+2016
+
+2018
+
+2018 & beyond
+COSPAR Working Meeting on Contamination
+Transport on Mars at LPI, May 2018
+
+NASA Workshop
+at Ames
+
+1st COSPAR
+Meeting at LPI
+
+2nd COSPAR
+Meeting at LPI
+
+COSPAR Working Meeting on Microbial Monitoring
+& Health at LPI, May 2019
+COSPAR Working Meetings on Spacecraft Systems
+(virtual) May, Dec 2020 and June 2022
+
+Identification of
+Planetary Protection
+Knowledge Gaps for
+human missions to
+Mars
+
+Refinement and
+prioritization of
+Planetary Protection
+Knowledge Gaps for
+human missions to
+Mars
+
+Mission Opportunity
+identification for
+addressing Planetary
+Protection Knowledge
+Gaps for human
+missions to Mars
+
+What Knowledge
+Gaps…
+
+…in what order…
+
+…using what missions…
+
+Measurements and
+Payload/Operation
+Concepts for addressing
+Planetary Protection
+Knowledge Gaps for
+human missions to Mars
+
+…to make what
+measurements…
+
+…to establish the right quantitative and implementable planetary protection requirements for safe
+and sustainable exploration and utilization of Mars.
+7
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Planetary Protection Knowledge Gaps for Human Mars Missions
+
+8
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Knowledge-Based Robotic to Crewed Transition Assumptions*
+
+
+Human spaceflight hardware leaks (in nominal and off-nominal operation), so the
+old robotic paradigm of managing a fixed bioload is inappropriate.
+
+
+
+The introduction of a maintained temperate terrestrial environment at the martian
+surface affords the opportunity for many more organisms (in type and quantity) to
+escape into the martian environment.
+
+
+
+This exploration is taking place in a post-Mars Sample Return (MSR) context
+where martian life was NOT (yet?) discovered at the martian surface/shallow
+subsurface in returned Mars material, but we know a lot more about Mars from
+those samples.
+
+
+
+Knowledge gaps need to be understood and preferably closed before launch to
+protect science return and the Earth.
+
+* Developed as ground rules for the 2020 COSPAR “4th Workshop on Refining Planetary Protection
+Requirements for Human Missions” – see the Conference Documents section at
+https://sma.nasa.gov/sma-disciplines/planetary-protection
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+9
+
+STRATEGIC ANALYSIS CYCLE (SAC) 21:
+Reference First Human Mars Mission Concept
+
+WHO
+
+WHAT
+Current analysis includes 4 crew
+2 remain in Mars orbit while 2
+explore the Mars surface
+
+WHERE
+
+Nuclear
+Transportation
+
+Landers and
+Surface Systems
+
+WHEN
+
+Cislunar, Deep Space
+and 5-sol Mars orbit
+
+Mars Surface
+
+Mars Ascent and
+Earth Return
+
+WHY
+
+2039
+opportunity
+analyzed
+
+Crew away from
+Earth ~2.5 years
+
+~30 sols
+on Mars
+
+Science, Exploration,
+and U.S. leadership
+
+HOW
+
+2
+
+Pre-Deployed Cargo
+Phase
+
+Office of Planetary Protection
+
+sma.nasa.gov
+
+v
+
+1
+
+Crewed Surface Exploration Phase
+“Light” Exploration Footprint
+
+SAC21 First Mars Reference Mission
+
+Reference architecture for analysis purposes only. Should not be considered “the plan”
+
+TRANSIT HABITAT (TH) AND HYBRID
+NUCLEAR ELECTRIC PROPULSION (NEP) /
+CHEMICAL STAGE
+• Supports four crew on the long mission to
+Mars
+• Two crew remain in orbit while two crew visit
+the Mars surface
+
+PRE-DEPLOYED CARGO
+• 25-ton class payload Mars lander
+• Ascent vehicle propellant, Fission
+Surface Power, and surface
+mobility/propellant transfer
+system
+
+2
+
+PRE-DEPLOYED
+CREW ASCENT
+VEHICLE
+• Partially-fueled
+
+sma.nasa.gov
+
+v
+
+1
+
+3
+
+CREW
+• Two crew land/live in pressurized rover
+• Provides habitation and mobility for 30
+days
+• Supports science and exploration
+operations
+
+Planetary Protection Concept* for A Crewed
+Mission to Mars
+
+3 Unexplored Hypothetical
+Special Region/Potential SR
+
+1 Human Habitats
+Assay #1
+Assay #2
+
+Lab
+
+Clean Rover Site
+
+Hab
+
+1, 2a “Safe Zone” established
+from precursor missions (may
+be entire planet)
+
+2b, 3 Potential “Life Sites”
+defined from remote
+sensing data
+2b Hypothetical
+Special Region with
+Robotic Exploration
+
+2a Safe Zone for
+Human
+Activities (ZMBR)
+
+Robotic/Teleoperation
+Human Traverse
+12 12
+
+1
+2
+
+v
+
+Office of Planetary
+Protection
+*Criswell, M.E.,
+et al., 2005. Planetary Protection Issues
+in the Human Exploration of Mars, Final Report May 9, 2005
+sma.nasa.gov
+(workshop held June 2001), NASA, Ames Research Center, Moffett Field CA, NASA/CP – 2005-213461
+
+The “Eye Chart”: Visual of NASA Progress on Closing PP KGs
+Microbial & Human Health Monitoring Knowledge Gaps
+
+Parameter
+
+Figure of Merit/Current Best Estimate
+
+Notes
+
+1A. Microbial monitoring of the environment
+
+Detection and monitoring of microorganisms inside the habitat and in the Mars
+environment
+
+TBD based on data from analog research to establish baseline information and decision-making strategies
+
+MinION technology with appropriate front-end (sampling) and back-end (bioinformatics) processing (Conclusion of the
+rd
+3 Meeting)
+
+1B. Microbial monitoring of humans
+
+Detection and monitoring of microorganisms on/in crew
+
+TBD based on data from analog research to establish baseline information and decision-making strategies
+
+MinION technology with appropriate front-end (sampling) and back-end (bioinformatics) processing (Conclusion of the
+rd
+3 Meeting)
+
+1C. Mitigation of microbial growth in spacecraft systems
+
+Monitoring of microorganisms inside the habitat and establishment of action limits.
+
+Establish (sub)-system requirements based on (sub)-system design and release limits (2B)
+
+Conclusion of 5 Meeting
+
+th
+
+1D. Operational guidelines for planetary protection and crew health
+
+Ability to distinguish between benign and hazardous fluctuations in metagenome data TBD: Outcome dependent on 1A & 1B
+
+MinION technology with appropriate front-end (sampling) and back-end (bioinformatics) processing. Discussion at the 3
+Meeting.
+
+Technology & Operations for Contamination Control Knowledge Gaps
+
+Parameter
+
+Figure of Merit/Current Best Estimate
+
+Notes
+
+2A. Bioburden/transport/ operations during short vs. long stays
+
+N/A
+
+N/A
+
+Since only short stay missions are considered, this KG was left open. (Discussion at 4 Meeting)
+
+2B. Microbial/organic releases from humans and support systems
+
+Is it required for an airlock volume to be sterilized prior to egress.
+
+Yes, degree of filtration/ sterilization processing TBD based on threat of organisms released
+
+Expectation that H2O2 vapor and UV technologies might be suitable for this purpose. Conclusion of 5 Meeting
+
+2B. Microbial/organic releases from humans and support systems
+
+Is it required for an airlock volume to be sterilized prior to ingress.
+
+Yes, degree of filtration/ sterilization processing TBD based on threat of organisms released
+
+Expectation that H2O2 vapor and UV technologies might be suitable for this purpose. Conclusion of 5 Meeting
+
+2B. Microbial/organic releases from humans and support systems
+
+Is it required for suits/ tools/ instruments/ robots to be sterilized prior to eqress
+
+Yes, if required for pristine sample acquisition/processing
+
+Consideration that pass-through glove box technology with hydrogen peroxide technology might be suitable for this
+th
+th
+purpose. Discussion of 5 & 6 Meetings
+
+2B. Microbial/organic releases from humans and support systems
+
+Is it required for suits/ tools/ instruments/ robots to be sterilized prior to inqress
+
+Yes, if exposed to pristine/pecial Region or unknown Mars environments/materials
+
+Consideration that pass-through glove box technology with hydrogen peroxide technology might be suitable for this
+th
+th
+purpose. Discussion of 5 & 6 Meetings
+
+2C. Protocols for decontamination & verification procedures
+
+Bioburden reduction technology compatible with spaceflight systems
+
+TBD based on data from analog research to establish performance of candidate technologies
+
+Conclusion of 5 Meeting
+
+2C. Protocols for decontamination & verification procedures
+
+Bioburden reduction technology for Mars
+
+TBD based on data from analog research to establish performance of candidate technologies
+
+Conclusion of 5 Meeting
+
+2D. Design of quarantine facilities/methodologies at different mission phases
+
+Crew Quarantine
+
+Crew quarantine considered as a unit (not as individuals)
+
+Conclusion of 6 Meeting
+
+2D. Design of quarantine facilities/methodologies at different mission phases
+
+Crew Quarantine
+
+Crew isolated from Mars samples on mission Earth-return leg
+
+Conclusion of 6 Meeting
+
+2D. Design of quarantine facilities/methodologies at different mission phases
+
+Crew Quarantine
+
+Crew isolated on return (21 days [tbd] cf. Apollo)
+
+Conclusion of 6 Meeting
+
+2E. Martian environmental conditions variation over time with respect to growth of Earth microorganisms
+
+Understand contemporary discontinuous Special Region conditions at the size and
+time scale of microbial growth on Mars
+
+Establish temperature and water activity duration limits
+
+Discussion at the 2 Meeting: Applied from the SR-SAG2 findings (Rummel et al. 2014)
+
+2F. Research needed to make ISRU & planetary protection goals compatible
+
+N/A
+
+N/A
+
+Since only considered as a tech demo for first mission, this item was left open. (Discussion at 4 Meeting)
+
+2G. Acceptable contamination level from wastes left behind, including constraints on vented materials
+
+Containment of waste on the Martian surface
+
+50+ year container design life, with sealing or 0.2um HEPA filtered venting
+
+Conclusion at the 5 Meeting. Trade study of sealing vs HEPA filtration needed
+
+2G. Acceptable contamination level from wastes left behind, including constraints on vented materials
+
+Should trash be sterilized
+
+No consensus
+
+Conclusion at the 5 Meeting Trade - study needed
+
+2G. Acceptable contamination level from wastes left behind, including constraints on vented materials
+
+Should bulk containment be used
+
+Yes, but double layer containment recommended flexible primary (bag), rigid secondary (sealed or with 0.2um filtration TBD) Conclusion at the 5 Meeting. May take place instead of sterilization.
+
+2G. Acceptable contamination level from wastes left behind, including constraints on vented materials
+
+Is a single disposal site needed
+
+Yes a single site is preferred
+
+Conclusion at the 5 Meeting
+
+2G. Acceptable contamination level from wastes left behind, including constraints on vented materials
+
+Does trash need to be buried
+
+No
+
+Surface is better from UV setilization and leak mitigation perspectives. Conclusion at the 5 Meeting
+
+ORIGINAL 2H. DELETED (merged with 2B.)
+
+N/A
+
+N/A
+
+N/A
+
+th
+
+th
+
+th
+
+th
+
+th
+
+th
+
+th
+
+th
+
+nd
+
+th
+
+th
+
+th
+
+th
+
+th
+
+th
+
+th
+
+2I. Approaches to achieve 'Break the chain" requirements
+
+Pristine sample containment (defined as a sample that could be used to test for extant
+and (TBD) extinct Martian life
+
+Consistent with current Special Region containment for “pristine” samples
+
+Conclusion of 6 Meeting
+
+2I. Approaches to achieve 'Break the chain" requirements
+
+“Regular” sample containment
+
+TBD by policy for determining Consistent with current Special Region containment for “pristine” samples
+
+Discussion in 6 Meeting
+
+2J. Global distribution/depth of subsurface ice and evidence of extant life
+
+Local depth of ice (ground truth preferred)
+
+Increased confidence level from SWIM data/future precursor (Icemapper-type) mission data
+
+Needed to inform risk posture. Discussion in the 2 Meeting
+
+2J. Global distribution/depth of subsurface ice and evidence of extant life
+
+Evidence of extant life
+
+Increased confidence level from MSR data*
+
+Desirable to inform risk posture. MSR will help bound the issue, although “absence of evidence is not evidence of
+nd
+absence”. Discussion in the 2 Meeting
+
+2K. Evolution of planetary protection requirements/goals from robotic precursor through to human missions & exploration
+zones
+
+Ongoing knowledge-based transition
+
+Closure of these knowledge gaps
+
+Stability of the knowledge gap set from 2015 to the end of the Meeting series gives confidence that this is addressable
+
+Natural Transport of Contamination on Mars Knowledge Gaps
+
+Parameter
+
+Figure of Merit/Current Best Estimate
+
+Notes
+
+3A. Measurements/models needed to determine atmospheric transport of contaminants
+
+Measurements to establish a mesoscale predictive model (baseline performance levels Air Pressure 4Hz cf MSL
+assuming appropriate instrument suite)
+Air Temp. 4Hz 150-300K +/-0.1K
+
+th
+
+nd
+
+nd
+
+Conclusion at the 2 Meeting (minimum specs quoted)
+
+Ground Temp. 1/Hr 150-300K +/-1K
+Wind (in 3D) 10Hz 0-50m/s +/-0.5m/s: 360deg +/-5deg
+Humidity 1/Hr 0-100% +/-5%
+Upwelling shortwave & IR 1/hr w/ TBD Range & Accuracy
+Downwelling Solar flux 4Hz w/ TBD Range & Accuracy
+UV-C flux 4Hz with TBD Range & Accuracy
+Total dust opacity 4Hz 0-6 +/-0.03
+
+rd
+
+COSPAR planetary
+protection KG
+parameters for a crewed
+Mars mission all in one
+table, with progress
+color-coded in the 3rd
+column
+Key:
+Knowledge Gap response approach is mature and/or
+addressable as policy
+Knowledge Gap response is actively being addressed
+and planetary protection application and outcome is clear
+Knowledge Gap response or path to closure is identified but
+planetary protection acceptability and/or outcome is not clear
+Knowledge Gap is not being addressed or work to
+closure is not started or new data acquisition is still needed
+
+3
+
+Dust size & conc. 4Hz >0.2um +/-0.05um @1-5000/cm
+
+Dust saltation mass flux 4Hz >0.65um +/- 10um @1-30m/s
+nd
+
+3A. Measurements/models needed to determine atmospheric transport of contaminants
+
+Instrument suite to establish a mesoscale predictive model
+
+Few 10s of Kgs high fidelity instrument suite supported by three low fidelity instrument suites
+
+Conclusion at the 2 Meeting
+
+3A. Measurements/models needed to determine atmospheric transport of contaminants
+
+Application of a mesoscale predictive model
+
+TBD time/distance concern for viable organisms in the Martian atmosphere/surface
+
+Discussion at the 2 Meeting
+
+3B. Measurements/models for subsurface transport of contaminants
+
+Develop and prove drill sterilization strategies
+
+TBD case-by-case development of planetary protection compatible operational plan
+
+Conclusion at the 2 Meeting
+
+3B. Measurements/models for subsurface transport of contaminants
+
+Analyze contamination pathways for sterile drilling
+
+TBD time/distance/depth concern for viable organisms in the Martian subsurface
+
+Discussion at the 2 Meeting
+
+3C. Effect of biocidal factors on survival factors on growth and adaptation of microorganisms
+
+Effect of UV on terrestrial indicator organisms
+
+Survival vs time
+
+Conclusion at the 2 Meeting
+
+3C. Effect of biocidal factors on survival factors on growth and adaptation of microorganisms
+
+Effect of Martian (electro-) chemical environment on terrestrial indicator organisms
+
+Survival vs time
+
+Conclusion at the 2 Meeting
+
+3C. Effect of biocidal factors on survival factors on growth and adaptation of microorganisms
+
+Effect of analog environment (combination factors) on indicator organisms
+
+Survival vs time
+
+Conclusion at the 2 Meeting
+
+3D. Determination of acceptable contamination rates & thresholds
+
+Application of 3A/3B and 3C/3E to 2B and 3G inputs to establish risk posture for
+crewed missions
+
+Development of an acceptability model for biological contamination
+
+Conclusion at the 2 Meeting
+
+3E. Protection mechanisms for organisms on Mars
+
+Shielding effects of biologic (eg biofilm, colony) materials on organisms released into Lethality rate decrease compared to the “standard” Mars environment
+Mars environment
+
+Conclusion at the 2 Meeting
+
+3E. Protection mechanisms for organisms on Mars
+
+Shielding effects of abiotic (dust, spacecraft) materials on organisms released into
+Mars environment
+
+Lethality rate decrease compared to the “standard” Mars environment
+
+Conclusion at the 2 Meeting
+
+3F. Degradation of landed materials by Martian environment
+
+Use life of general components
+
+Catalog operational performance of materials on Mars rovers
+
+In general, this is addressable from existing robotic mission performance data together with terrestrial testing
+
+3F. Degradation of landed materials by Martian environment
+
+Use life of specific components/materials for needed applications
+
+Earth/precursor mission testing of operational performance of materials on Mars rovers
+
+In general, this is addressable from existing robotic mission performance data together with terrestrial testing
+
+3G. Induced environmental conditions around structures
+
+Growth of contaminant organisms in s/c induced SR
+
+TBD time/distance/depth concern for viable organisms in the Martian subsurface (subset of 3B)
+
+Discussion at the 5 Meeting
+
+3H. Sensitivity of non-culturable species to biocidal factors
+
+Demonstration of equivalent sensitivity compared to cultivable population
+
+Establishment of a factor (if not 1.0 cf 3C data) for lethality to allow assessments under 3D to be made
+
+Discussion at the 2 Meeting
+
+nd
+
+nd
+
+nd
+
+nd
+
+nd
+
+nd
+
+nd
+
+nd
+
+th
+
+nd
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+nd
+
+Note: not all KGs need to be closed
+for a viable PP Implementation
+strategy, but all need to be
+addressed and dispositioned in a
+risk-based approach
+
+13
+
+Disposition of Planetary Protection KGs at the end of the COSPAR
+Meeting Series – 1) Microbial and Human Health Monitoring
+Microbial & Human Health Monitoring
+Knowledge Gaps
+1A. Microbial monitoring of the environment
+
+Parameter
+
+Figure of Merit/Current Best Estimate
+
+Notes
+
+Detection and monitoring of
+microorganisms inside the habitat and in
+the Mars environment
+
+TBD based on data from analog research to establish
+baseline information and decision-making strategies
+
+MinION technology with appropriate front-end (sampling)
+and back-end (bioinformatics) processing (Conclusion of
+
+1B. Microbial monitoring of humans
+
+Detection and monitoring of
+microorganisms on/in crew
+
+TBD based on data from analog research to establish
+baseline information and decision-making strategies
+
+the 3rd Meeting)
+MinION technology with appropriate front-end (sampling)
+and back-end (bioinformatics) processing (Conclusion of
+the 3rd Meeting)
+
+1C. Mitigation of microbial growth in spacecraft
+Monitoring of microorganisms inside the Establish (sub)-system requirements based on (sub)-system
+systems
+habitat and establishment of action limits. design and release limits (2B)
+1D. Operational guidelines for planetary protection and Ability to distinguish between benign and TBD: Outcome dependent on 1A & 1B
+crew health
+hazardous fluctuations in metagenome
+data
+
+th
+Conclusion of 5 Meeting
+
+MinION technology with appropriate front-end (sampling)
+and back-end (bioinformatics) processing. Discussion at
+the 3rd Meeting.
+
+ Needed technology is identified to be able
+to address KGs in Microbial & Human
+Health Monitoring
+– Data needs to be generated to create a
+framework for developing decision-making
+
+Key:
+Knowledge Gap response approach is mature and/or
+addressable as policy
+Knowledge Gap response is actively being addressed
+and planetary protection application and outcome is clear
+Knowledge Gap response or path to closure is identified but
+planetary protection acceptability and/or outcome is not clear
+Knowledge Gap is not being addressed or work to
+closure is not started or new data acquisition is still needed
+
+processes
+14
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Microbial Monitoring Technologies for Planetary Protection
+
+
+
+
+
+
+
+Created with BioRender.com
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Front-end Sample
+acquisition and backend Bioinformatics
+will likely be different
+for CHP and PP
+
+Disposition of Planetary Protection KGs at the end of the COSPAR
+Meeting Series – 3) Natural Transport of Contamination on Mars
+Natural Transport of Contamination on Mars
+Knowledge Gaps
+3A. Measurements/models needed to determine
+atmospheric transport of contaminants
+
+Parameter
+
+Figure of Merit/Current Best Estimate
+
+Notes
+
+Measurements to establish a mesoscale predictive model
+(baseline performance levels assuming appropriate
+instrument suite)
+
+Air Pressure 4Hz cf MSL
+Conclusion at the 2nd Meeting (minimum specs quoted)
+Air Temp. 4Hz 150-300K +/-0.1K
+Ground Temp. 1/Hr 150-300K +/-1K
+Wind (in 3D) 10Hz 0-50m/s +/-0.5m/s: 360deg +/-5deg
+Humidity 1/Hr 0-100% +/-5%
+Upwelling shortwave & IR 1/hr w/ TBD Range & Accuracy
+Downwelling Solar flux 4Hz w/ TBD Range & Accuracy
+UV-C flux 4Hz with TBD Range & Accuracy
+Total dust opacity 4Hz 0-6 +/-0.03
+
+Dust size & conc. 4Hz >0.2um +/-0.05um @1-5000/cm3
+Dust saltation mass flux 4Hz >0.65um +/- 10um @1-30m/s
+3A. Measurements/models needed to determine
+Instrument suite to establish a mesoscale predictive model Few 10s of Kgs high fidelity instrument suite supported by
+Conclusion at the 2nd Meeting
+atmospheric transport of contaminants
+three low fidelity instrument suites
+3A. Measurements/models needed to determine
+Application of a mesoscale predictive model
+TBD time/distance concern for viable organisms in the
+Discussion at the 2nd Meeting
+atmospheric transport of contaminants
+Martian atmosphere/surface
+3B. Measurements/models for subsurface transport of Develop and prove drill sterilization strategies
+TBD case-by-case development of planetary protection
+Conclusion at the 2nd Meeting
+contaminants
+compatible operational plan
+3B. Measurements/models for subsurface transport of Analyze contamination pathways for sterile drilling
+TBD time/distance/depth concern for viable organisms in the Discussion at the 2nd Meeting
+contaminants
+Martian subsurface
+3C. Effect of biocidal factors on survival factors on
+Effect of UV on terrestrial indicator organisms
+Survival vs time
+Conclusion at the 2nd Meeting
+growth and adaptation of microorganisms
+Survival vs time
+3C. Effect of biocidal factors on survival factors on
+Effect of Martian (electro-) chemical environment on
+Conclusion at the 2nd Meeting
+growth and adaptation of microorganisms
+terrestrial indicator organisms
+Survival vs time
+3C. Effect of biocidal factors on survival factors on
+Effect of analog environment (combination factors) on
+Conclusion at the 2nd Meeting
+growth and adaptation of microorganisms
+indicator organisms
+3D. Determination of acceptable contamination rates & Application of 3A/3B and 3C/3E to 2B and 3G inputs to Development of an acceptability model for biological
+Conclusion at the 2nd Meeting
+thresholds
+establish risk posture for crewed missions
+contamination
+nd
+3E. Protection mechanisms for organisms on Mars
+Shielding effects of biologic (eg biofilm, colony) materials Lethality rate decrease compared to the “standard” Mars
+Conclusion at the 2 Meeting
+on organisms released into Mars environment
+environment
+3E. Protection mechanisms for organisms on Mars
+Shielding effects of abiotic (dust, spacecraft) materials on Lethality rate decrease compared to the “standard” Mars
+Conclusion at the 2nd Meeting
+organisms released into Mars environment
+environment
+3F. Degradation of landed materials by Martian
+Use life of general components
+Catalog operational performance of materials on Mars rovers In general, this is addressable from existing robotic mission
+environment
+performance data together with terrestrial testing
+3F. Degradation of landed materials by Martian
+Use life of specific components/materials for needed
+Earth/precursor mission testing of operational performance of In general, this is addressable from existing robotic mission
+environment
+applications
+materials on Mars rovers
+performance data together with terrestrial testing
+3G. Induced environmental conditions around
+Growth of contaminant organisms in s/c induced SR
+TBD time/distance/depth concern for viable organisms in the Discussion at the 5th Meeting
+structures
+Martian subsurface (subset of 3B)
+3H. Sensitivity of non-culturable species to biocidal
+Demonstration of equivalent sensitivity compared to
+Establishment of a factor (if not 1.0 cf 3C data) for lethality to Discussion at the 2nd Meeting
+16
+factors
+cultivable population
+allow assessments under 3D to be made
+
+ Understanding the Natural Transport of Contamination on Mars allows
+us to answer the question “How much contamination is too much?”
+
+– Data needs to be generated to create models of transport at Mars (particularly for
+the aeolian distribution case)
+
+– Data is also needed on the ability of contaminant terrestrial microorganisms to
+survive in the Mars environment
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Disposition of Planetary Protection KGs at the end of the COSPAR
+Meeting Series – 2a) Technology & Ops for Contamination Control
+Technology & Operations for Contamination
+Control Knowledge Gaps
+2A. Bioburden/transport/ operations during short vs.
+long stays
+2B. Microbial/organic releases from humans and
+support systems
+2B. Microbial/organic releases from humans and
+support systems
+2B. Microbial/organic releases from humans and
+support systems
+2B. Microbial/organic releases from humans and
+support systems
+2C. Protocols for decontamination & verification
+procedures
+2C. Protocols for decontamination & verification
+procedures
+2E. Martian environmental conditions variation over
+time with respect to growth of Earth microorganisms
+2F. Research needed to make ISRU & planetary
+protection goals compatible
+2G. Acceptable contamination level from wastes left
+behind, including constraints on vented materials
+2G. Acceptable contamination level from wastes left
+behind, including constraints on vented materials
+2G. Acceptable contamination level from wastes left
+behind, including constraints on vented materials
+2G. Acceptable contamination level from wastes left
+behind, including constraints on vented materials
+2G. Acceptable contamination level from wastes left
+behind, including constraints on vented materials
+2J. Global distribution/depth of subsurface ice and
+evidence of extant life
+2J. Global distribution/depth of subsurface ice and
+evidence of extant life
+
+Parameter
+
+Figure of Merit/Current Best Estimate
+
+Notes
+
+N/A
+
+N/A
+
+Since only short stay missions are considered, this KG was
+th
+
+left open. (Discussion at 4 Meeting)
+Yes, degree of filtration/ sterilization processing TBD based on threat Expectation that Hydrogen Peroxide vapor and UV
+of organisms released
+technologies might be suitable for this purpose. Conclusion
+Is it required for an airlock volume to be sterilized prior to ingress. Yes, degree of filtration/ sterilization processing TBD based on threat Expectation that Hydrogen Peroxide vapor and UV
+technologies might be suitable for this purpose. Conclusion
+of organisms released
+Is it required for suits/ tools/ instruments/ robots to be sterilized
+Yes, if required for pristine sample acquisition/processing
+Consideration that pass-through glove box technology with
+prior to eqress
+hydrogen peroxide technology might be suitable for this
+Is it required for suits/ tools/ instruments/ robots to be sterilized
+Yes, if exposed to pristine/Special Region or unknown Mars
+Consideration that pass-through glove box technology with
+prior to inqress
+environments/materials
+hydrogen peroxide technology might be suitable for this
+Bioburden reduction technology compatible with spaceflight systems TBD based on data from analog research to establish performance Conclusion of 5th Meeting
+of candidate technologies
+Bioburden reduction technology for Mars
+TBD based on data from analog research to establish performance Conclusion of 5th Meeting
+of candidate technologies
+nd
+Understand contemporary discontinuous Special Region conditions Establish temperature and water activity duration limits
+Discussion at the 2 Meeting: Applied from the SR-SAG2
+at the size and time scale of microbial growth on Mars
+findings (Rummel et al. 2014)
+N/A
+N/A
+Since only considered as a tech demo for first mission, this
+Is it required for an airlock volume to be sterilized prior to egress.
+
+ The COSPAR meeting series considered Technology and Operations
+
+for the first crewed Mars mission, leading to paths forward to address:
+50+ year container design life, with sealing or 0.2um HEPA filtered
+venting
+No consensus
+
+item was left open. (Discussion at 4th Meeting)
+th
+Conclusion at the 5 Meeting. Trade study of sealing vs
+HEPA filtration needed
+Conclusion at the 5th Meeting Trade - study needed
+
+– Mitigation of Iscontamination
+a single disposal site needed
+
+Yes, but double layer containment recommended flexible primary
+(bag), rigid secondary (sealed or with 0.2um filtration TBD)
+Yes a single site is preferred
+
+Conclusion at the 5 Meeting. May take place instead of
+sterilization.
+Conclusion at the 5th Meeting
+
+Does trash need to be buried
+– Waste handling
+
+No
+
+Surface is better from UV setilization and leak mitigation
+
+Increased confidence level from SWIM data/future precursor
+(Icemapper-type) mission data
+Increased confidence level from MSR data*
+
+perspectives. Conclusion at the 5th Meeting
+nd
+Needed to inform risk posture. Discussion in the 2
+Meeting
+Desirable to inform risk posture. MSR will help bound the
+issue, although “absence of evidence is not evidence of
+
+Containment of waste on the Martian surface
+
+Should trash be sterilized
+– Contamination
+from spacecraft systems
+Should bulk containment be used
+
+Local depth of ice (ground truth preferred)
+
+th
+
+ The discussions and findings give confidence that these topics are a
+Evidence of extant life
+
+absence”. Discussion in the 2nd Meeting
+Stability of the knowledge gap set from 2015 to the end of
+the Meeting series gives confidence that this is addressable
+
+tractable problem set for an end-to-end planetary protection
+
+2K. Evolution of planetary protection
+requirements/goals from robotic precursor through to
+
+Ongoing knowledge-based transition
+
+Closure of these knowledge gaps
+
+implementation solution.
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+17
+
+Disposition of Planetary Protection KGs at the end of the COSPAR
+Meeting Series – 2b) Technology & Ops for Contamination Control
+Technology & Operations for Contamination
+Control Knowledge Gaps
+2D. Design of quarantine facilities/methodologies at
+different mission phases
+2D. Design of quarantine facilities/methodologies at
+different mission phases
+2D. Design of quarantine facilities/methodologies at
+different mission phases
+2I. Approaches to achieve 'Break the chain"
+requirements
+2I. Approaches to achieve 'Break the chain"
+requirements
+
+Parameter
+
+Figure of Merit/Current Best Estimate
+
+Notes
+
+Crew Quarantine
+
+Crew quarantine considered as a unit (not as individuals)
+
+Conclusion of 6th Meeting
+
+Crew Quarantine
+
+Crew isolated from Mars samples on mission Earth-return leg
+
+Conclusion of 6th Meeting
+
+Crew Quarantine
+
+Crew isolated on return (21 days [tbd] cf. Apollo)
+
+Conclusion of 6th Meeting
+
+Pristine sample containment (defined as a sample that could be used Consistent with current Special Region containment for “pristine”
+to test for extant and (TBD) extinct Martian life
+samples
+“Regular” sample containment
+TBD by policy for determining Consistent with current Special
+Region containment for “pristine” samples
+
+Conclusion of 6th Meeting
+Discussion in 6th Meeting
+
+ The Technology and Operations to address backward planetary
+protection for the first crewed mission reflects a conservative
+approach
+– Containment of Mars samples (even if a prior MSR mission detected no life)
+– Quarantine of crew on return
+
+18
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Way Forward (NASA Perspective)
+ Tactical
+– Capture of COSPAR Workshop findings
+• Report from 6th (2022) Meeting – submitted for publication in “Life Science
+in Space Research”
+• Summary paper (anthology of meeting series) – submitting for publication
+in “Astrobiology”
+
+– Continued incorporation into NASA Capability Gap closure activities
+– Continued incorporation into NASA Policy documents
+
+ Strategic
+– Advocacy in COSPAR process for Policy/Guidelines Revision
+– Ongoing iterative updates on to align NASA Moon to Mars
+implementation with COSPAR core policy and knowledge of Mars
+– Acquisition of data to close Knowledge Gaps
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+19
+
+Take Home Messages
+Does planetary protection permit crewed exploration of Mars?
+ Yes, if …
+– Mars is explored so as to avoid harmful contamination there, and also
+adverse changes in the environment of the Earth resulting from the
+introduction of extraterrestrial (Martian) material.
+
+How can this be achieved?
+ Policy and implementation still being evolved, but are likely to include:
+– Requirements to manage cleanliness of operations on the surface, based
+on best available scientific data.
+– Requirements to quarantine returning crew and contain Martian samples,
+respectively, until shown to be safe.
+– Advocacy for an assurance-based, risk-informed decision-making process.
+20
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Questions?
+
+21
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Planetary Protection Categorization
+Types of Planetary
+Bodies
+Not of direct interest for understanding the process of
+chemical evolution. No protection of such planets is
+warranted.
+Of significant interest relative to the process of chemical
+evolution, but only a remote chance that contamination by
+spacecraft could jeopardize future exploration. Documentation
+is required.
+Of significant interest relative to the process of chemical
+evolution, and/or the origin of life or for which scientific
+opinion provides a significant chance of contamination which
+could jeopardize a future biological experiment. Substantial
+documentation and mitigation is required.
+As above
+
+Any solar system body. Unrestricted applies only to bodies
+deemed by scientific opinion to have no indigenous life forms.
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+Mission
+Type
+
+Misson
+Category
+
+Any
+
+I
+
+Any
+
+II
+IIa, IIb
+(Moon)
+
+Flyby, Orbiter
+Mars, Europa,
+Enceladus
+
+III
+
+Lander, Probe
+Mars, Europa,
+Enceladus
+
+IV
+
+Earth Return
+Restricted or
+Unrestricted
+
+IVa, IVb,
+IVc (Mars)
+V
+22
+
+NASA’s Planetary Protection Documents (current)
+NASA Policy Directives (NPDs)
+• Documents Agency policy statements
+• Describe what is required by NASA management to achieve NASA’s
+vision, mission, and external mandates
+
+NPD 8020.7G
+
+Biological Contamination Control for
+Outbound and Inbound Planetary Spacecraft
+(Revalidated 05/17/13 w/change 1)
+Expiration Date: June 19, 2022
+
+NPR 8715.24
+
+Replaced NPR 8020.12D/NID 8020.109A
+Planetary Protection Provisions for Robotic
+Extraterrestrial Missions
+Effective Date September 24, 2021
+Expiration Date: September 24, 2026
+
+NASA Standards
+• Provide technical
+requirements
+• Each NASA Technical
+Standard is assigned to
+a Technical Discipline
+
+NASA Procedural Requirements (NPRs)
+• Provide detailed procedural
+requirements to implement policy
+• Guide how policy directives are
+implemented in the context of specific
+missions
+
+Biological Planetary Protection
+for Human Missions to Mars
+Expiration Date: July 9, 2022
+NASA Interim Directives (NIDs)
+• Documents an immediate, short-term
+statement of the Agency’s policies,
+requirements, and identifies responsibilities
+for implementation
+• Temporarily modify policy directives or
+implementation requirements
+
+NASA-HDBK-6022
+
+NASA-STD-8719.R
+
+Handbook for the Microbial
+Examination of Space Hardware
+Expiration Date: N/A
+Status: Revision planned. Last draft
+revision released Aug 17, 2010
+
+Implementing Planetary Protection
+Requirements for Space Flight
+Expiration Date: TBD
+Status: Estimated Release ~7/22
+
+All published documents found in NODIS: https://nodis3.gsfc.nasa.gov/ or
+the OPP website: https://sma.nasa.gov/sma-disciplines/planetary-protection
+
+NASA Handbooks
+• Companion documents to
+NPRs and NASA Standards
+• Provide supporting material
+such as guidelines, lessons
+learned, procedures, and
+recommendations
+
+= New Documents
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+NID 8715.129 (“Mars
+NID”)
+
+NASA’s Planetary Protection Documents (Notional Future Path)
+“NPD 8700.1F”
+
+NASA Policy for Safety and Mission Success
+Effective Date: ~10/2022
+Expiration Date: ~2027
+
+NPR 8715.24
+
+Planetary Protection Provisions for Robotic
+Extraterrestrial Missions
+Effective Date: September 24, 2021
+Expiration Date: September 24, 2026
+
+NPR 8715.XX
+
+Replace role of NID 8715.128 & 129
+Planetary Protection Provisions for Crewed
+Extraterrestrial Missions
+Effective Date: ~2024
+Expiration Date: ~2029
+
+NASA-STD-8719.R
+
+Biological Planetary Protection
+for Human Missions to Mars
+Expiration Date: July 9, 2022
+
+NASA-HDBK-6022
+
+Implementing Planetary Protection
+Requirements for Space Flight
+Effective Date: ~7/2022
+Expiration Date: ~2027
+
+Handbook for the Microbial
+Examination of Space Hardware
+Effective Date: ~2024
+Expiration Date: ~2029
+
+All published documents found in NODIS: https://nodis3.gsfc.nasa.gov/ or
+the OPP website: https://sma.nasa.gov/sma-disciplines/planetary-protection
+
+= Revised Documents
+
+sma.nasa.gov
+
+v
+
+Office of Planetary Protection
+
+NID 8715.129 (“Mars
+NID”)
+
+Planetary Protection Strategic Roadmap Coordination Activity for HEOMD (Artemis, Moon to Mars)
+
+Develop Planetary Protection Capability for Crewed Missions to Mars (Slide 1 of 2)
+FY20
+
+FY21
+
+FY22
+
+FY23
+
+FY24
+
+FY25
+
+Orion
+
+HALO
+
+Initial HLS
+
+iHab EHC PDR
+
+FY26
+
+FY27
+
+FY28
+
+FY29
+
+FY30
+
+Sustained LS
+
+FY31
+
+POC(s): Andy Spry/Bette Siegel
+Revised: 04/15/2022
+
+FY32
+
+FY33+
+
+EHC
+
+Establish Microbial Management Integration Team (MMIT)
+1
+
+Coordination, Integration and Planning of Policy and Technology Development Activities across the Agency
+Technology Watch Rapid Monitoring and Mitigation (Industry, SBIRs, Challenge Competitions)
+
+Evolution of PPRs/Goals from Robotic to Human Missions (Requirements Development)
+Formulate NPR
+based on best
+available data and
+advice (including
+products from this
+activity)
+
+Assessment of
+Microbial
+Contamination at
+Mars
+Develop policy
+on sample
+2
+containment/
+crew
+quarantine
+approaches
+
+Output from Microbial
+Monitoring Roadmap
+addresses development
+of required monitoring
+capabilities
+
+Reformulate NPR based
+on best available data
+and advice (including
+products from this
+activity)
+
+Revise NPR based on
+best available data and
+advice (including products
+from this activity and
+MSR data)
+
+3
+
+Establish and validate strategy for sample acquisition and containment
+Establish and validate strategy for containment, in-transit quarantine,
+and Mars material research activities
+
+Microbial Monitoring Technology Development for Planetary Protection on Crewed Mars Missions
+
+Develop Understanding of Baseline vs Abnormal (change vs time)
+
+Demonstrate Baseline vs
+Abnormal Analysis in
+Space-relevant
+environment
+
+Demonstrate Baseline vs
+Abnormal Analysis in
+Planetary-relevant
+environment
+
+(1) Recommendation on FY24 activities
+(2) Determine approach on containment/quarantine policy approach
+(3) Program decision on PP Implementation for first crewed Mars mission
+
+Ground Activity
+
+Lunar Surface
+
+ISS / LEO
+
+Mars Transit
+
+HLS = Human Landing System
+
+Decision Point
+
+Orion
+
+Mars Surface
+
+EHC = Expanded Habitation Capability
+
+Gateway
+
+Events/Milestones
+
+HALO = Habitation and Logistics Outpost
+
+All mission information is notional
+
+Planetary Protection Strategic Roadmap Coordination Activity for HEOMD (Artemis, Moon to Mars)
+
+Develop Planetary Protection Capability for Crewed Missions to Mars (Slide 2 of 2)
+FY20
+
+FY21
+
+FY22
+
+FY23
+
+FY24
+
+FY25
+
+Orion
+
+HALO
+
+Initial HLS
+
+iHab EHC PDR
+
+FY26
+
+FY27
+
+FY28
+
+FY29
+
+Sustained LS
+
+FY30
+
+POC(s): Andy Spry/Bette Siegel
+Revised: 04/15/2022
+
+FY31
+
+FY32
+
+FY33+
+
+EHC
+
+Mitigation of Microbial Growth and Biofilms in Spacecraft Systems for Planetary Protection and Human Health
+Study of Microbial Growth and
+Biofilms
+in
+Spacecraft Systems
+
+Study of Microbial Growth and
+Biofilms
+in
+Spacecraft Systems
+
+Microbial Mitigation
+(Sterilization
+Development)
+
+Microbial Mitigation
+(Sterilization Testing/
+Validation)
+
+Sterilization Testing
+
+Microbial Mitigation
+(Remediation
+Development)
+
+Microbial Mitigation
+(Remediation Testing/
+Validation)
+
+Remediation Testing
+
+Output from Microbial Monitoring
+Roadmap
+Output from Human Research Program
+
+1
+
+Study of Microbial Growth and
+Biofilms
+in Lunar
+Surface Systems
+
+Develop
+Operational
+Guidelines
+for
+Planetary
+Protection
+and Crew
+Health
+
+Validate
+Operational
+Guidelines
+for
+Planetary
+Protection
+and Crew
+Health
+
+Output from Disinfection Testing
+
+Survival Study for
+Terrestrial Organisms in
+Analog Environments
+
+Survival Study for
+Terrestrial Organisms in
+Space Environments
+
+Develop Waste Materials
+Handling strategies for
+solid, liquid, and mixed
+waste streams
+
+Test and validate Waste
+Materials Handling
+strategies
+
+Survival Study for
+Terrestrial Organisms in
+Space Environments
+
+Survival Study for
+Terrestrial Organisms in
+Space Environments
+
+Output from Mars
+Weather Modeling
+Output from Mars
+Sample Return
+
+Output from ECLSS Waste
+Management Approach
+
+(1) Determine Acceptable Levels of Microbial/Organic Releases from Humans and Support Systems
+All mission information is notional
+
+Ground Activity
+
+Lunar Surface
+
+ISS / LEO
+
+Mars Transit
+
+HLS = Human Landing System
+
+Decision Point
+
+Orion
+
+Mars Surface
+
+EHC = Expanded Habitation Capability
+
+Gateway
+
+Events/Milestones
+
+HALO = Habitation and Logistics Outpost
+
+Waste Management at Mars
+
+
+COSPAR Findings
+– Surface disposal is preferred.
+– Consensus was that waste containment should be designed to be effective for
+50+yr.
+– Trash etc. “sterilization” requirement is TBD: Effective containment may be sufficient.
+– There was broad agreement that multiple layers of containment (at least two,
+potentially three) should be used, with the outer layer being a larger container that
+was resistant to the Mars environment.
+– Option to sealing or to have closure but with venting through a HEPA filter (and
+potentially also a molecular scrubber)
+– Some degree of microbial tracking is required, in the sense of understanding the
+initial bioload so that the risk can be assessed.
+– Recommended that a single site adjacent to the landing site be used
+
+NASA able to incorporate into notional Pressurized Rover ConOps
+
+Office of Planetary Protection
+
+sma.nasa.gov
+
+v
+
+
+
+Planetary Protection Requirements for Human Missions
+6th Meeting Overview
+
+Day 1 The Knowledge Gaps around Quarantine of the crew and related
+assumptions/questions:
+2D What considerations should go into the design of quarantine facilities
+and methods for use on Mars, returning from Mars, and in the Earth-Moon
+system?
+Draft Finding: Isolation of individuals is not practicable, crew should be
+quarantined as a unit, quarantine on return despite in-space pseudo isolation
+Day 2 The Knowledge Gaps around how to handle the samples that would be
+taken during the mission, and upon the return:
+2I What approach should be taken to achieve the requirements to "Break
+the Chain of Contact" with the Martian environment for human missions?
+Draft Finding: Containment of all Mars samples should be maintained, even if
+i) MSR shows no life, and ii) crew are previously exposed, until samples are
+demonstrated to be “safe”.
+…to establish the right quantitative and implementable planetary protection requirements for safe
+and sustainable exploration and utilization of Mars.
+
+28
+
+Microbial and Human Health Monitoring
+
+This knowledge gap applies to both forward contamination
+(in combination with contamination transport models) and
+backward contamination
+There are significant synergisms between the Earth safety
+(planetary protection) and issues relevant to assess the
+health status of astronauts on a mission to Mars and back
+(crew health)
+ISS is the only useful existing test-bed to get long term and
+statistically relevant baseline data and trends
+To close knowledge gap, there is a need for:
+•
+
+Systematic microbial monitoring of a crewed flight
+system (ISS)
+Systematic microbial monitoring of crews (ISS)
+
+sma.nasa.gov
+
+v
+
+•
+
+• MinION (Oxford Nanopore
+Technologies)
+• Used on ISS on several flight
+by 3 different astronauts
+• Process, consumables and
+crew-time needs well
+understood
+
+Credit: NASA
+
+v
+
+sma.nasa.gov
+
+

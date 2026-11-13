@@ -1,0 +1,251 @@
+                                                                                      NID 8715.129
+                                                                                      NRW 1400.132
+              NASA
+              Interim
+              Directive                                                  Effective Date: July 9, 2020
+                                                                        Expiration Date: July 9, 2023
+
+
+
+
+Subject: Biological Planetary Protection for Human Missions to Mars
+Responsible Office: Office of Safety and Mission Assurance
+
+
+
+Table of Contents
+
+Preface
+
+P.1 Purpose
+P.2 Applicability
+P.3 Authority
+P.4 Applicable Documents
+P.5 Measurement/Verification
+P.6 Cancellation
+
+Chapter 1. Mitigating Backward and Forward Harmful Biological Contamination from
+           Human Missions to Mars
+
+1.1 Overview
+1.2 Guidance for Biological Planetary Protection for Human Missions to Mars
+1.3 NASA Policy on Biological Planetary Protection for Human Missions to Mars
+
+Appendix A. References
+
+
+
+
+                                             1
+Preface
+
+P.1 Purpose
+
+a. This directive defines NASA’s obligation to avoid harmful forward and backward biological
+contamination under Article IX of the Treaty on Principles Governing the Activities of States in
+the Exploration and Use of Outer Space, including the Moon and Other Celestial Bodies (the
+"Outer Space Treaty"), October 19, 1967.
+
+b. This directive specifically addresses the control of forward biological contamination of Mars
+and backward biological contamination of the Earth-Moon system associated with human
+presence in space vehicles intended to land, orbit, flyby, and return from Mars.
+
+c. The 1967 Outer Space Treaty provides in relevant part: “States Parties to the Treaty shall
+pursue studies of outer space, including the Moon and other celestial bodies, and conduct
+exploration of them so as to avoid their harmful contamination and also adverse changes in the
+environment of the Earth resulting from the introduction of extraterrestrial matter and, where
+necessary, shall adopt appropriate measures for this purpose.” NASA recognizes that the 1967
+Outer Space Treaty (OST) sets forth legal requirements on U.S. governmental and non-
+governmental entities to prevent such forward and backward harmful biological contamination.
+
+P.2 Applicability
+
+a. This NASA Interim Directive (NID) is applicable to NASA Headquarters and NASA Centers,
+including Component Facilities and Technical and Service Support Centers. This language
+applies to the Jet Propulsion Laboratory (a Federally-Funded Research and Development
+Center), other contractors and subcontractors, recipients of grants, cooperative agreements or
+agreements concluded under provisions of the Space Act, and other agreements, including
+international agreements, to the extent specified or referenced in the applicable contracts, grants,
+or agreements.
+
+b. The provisions of this NID cover human spaceflight missions with NASA involvement, which
+may intentionally or unintentionally carry terrestrial organisms and organic constituents to the
+planets or other solar system bodies, including missions employing spacecraft where hardware
+elements are intended to return to Earth and/or the Earth-Moon System from missions to Mars.
+Specifically, this includes NASA-controlled missions, commercial missions sponsored by
+NASA, joint missions that NASA participates in, and NASA support of non-NASA missions to
+the extent specified or referenced in the applicable contracts, grants, or agreements.
+
+c. In this directive, the term “should” denotes a good practice and is recommended, but not
+required, and “will” denotes expected outcome.
+
+d. In this directive, all document citations are assumed to be the latest version unless otherwise
+noted.
+
+P.3 Authority
+
+a. The National Aeronautics and Space Act, 51 U.S.C. § 20113(a).
+
+
+
+                                                 2
+b. Space Policy Directive 1 (2017): Reinvigorating America's Human Space Exploration
+Program.
+
+c. NPD 1000.0, Governance and Strategic Management Handbook.
+
+d. NPD 8020.7, Biological Contamination Control for Outbound and Inbound Planetary
+Spacecraft.
+
+P.4 Applicable Documents
+
+a. Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer
+Space, Including the Moon and Other Celestial Bodies (the "Outer Space Treaty"), October 19,
+1967, Article IX.
+
+P.5 Measurement/Verification
+
+a. Compliance with this directive is continuously monitored by the Project Safety and Mission
+Assurance Technical Authority and by the NASA Office of Safety and Mission Assurance.
+Compliance may also be verified as part of selected life-cycle reviews and by assessments,
+reviews, and audits of the processes defined within this directive.
+
+b. To ensure compliance with this NID, the Office of Planetary Protection (OPP) evaluates
+planetary protection related activities and developments by NASA programs, including calls for
+mission concept studies and proposals.
+
+P.6 Cancellation
+
+NPI 8020.7, NASA Policy on Planetary Protection Requirements for Human Extraterrestrial
+Missions.
+
+
+
+
+                                               3
+Chapter 1. Mitigating Backward and Forward Harmful Biological Contamination from
+Human Missions to Mars
+
+1.1 Overview
+
+     Biological planetary protection is the practice of protecting solar system bodies from
+contamination by Earth life to enable scientific exploration and protecting Earth from possible
+harmful biological contamination that may be returned from other solar system bodies. The
+Office of Planetary Protection supports NASA’s responsible exploration of the solar system to
+enable science, exploration/discovery, and commercial activities.
+
+      NASA’s existing relevant policies and planetary protection requirements ensure the search
+for extraterrestrial life can be conducted in a safe and verifiable manner. Specifically, the
+primary objectives are to:
+
+a. Control forward contamination of other worlds by terrestrial organisms and organic
+constituents carried by spacecraft in order to support the integrity of the search and study of
+extraterrestrial life, if it exists.
+
+b. Preclude backward contamination of Earth by extraterrestrial life and bioactive molecules,
+such as prions, in returned samples from habitable worlds.
+
+      NASA’s programmatic authorities provide resources to achieve and assure compliance
+with applicable planetary protection requirements. The Office of Planetary Protection (OPP)
+will coordinate with relevant programmatic authorities to establish appropriate resource levels.
+
+1.2 Guidance for Biological Planetary Protection for Human Missions to Mars
+
+      NASA has been a key participant and advocate for the development of internationally
+accepted protocols to prevent backward and forward contamination, including the guidelines for
+“Human Missions to Mars” in the Committee on Space Research (COSPAR) planetary
+protection policy.
+
+     Specifically, NASA concurs with the general COSPAR planetary protection policy
+paradigm that:
+
+a. “Safeguarding the Earth from potential back[ward] contamination is the highest planetary
+protection priority in Mars exploration.”
+
+b. “The greater capability that human explorers can contribute to the astrobiological exploration
+of Mars is only valid if human-associated contamination is controlled and understood.”
+
+c. “For a landed [human] mission conducting surface operations, it will not be possible for all
+human-associated processes and mission operations to be conducted within entirely closed
+systems.”
+
+d. “[Humans] exploring Mars, and/or their support systems, will inevitably be exposed to
+martian materials.”
+
+
+
+                                                 4
+1.3 NASA Policy on Biological Planetary Protection for Human Missions to Mars
+
+      NASA will develop risk-informed decision making implementation strategies for human
+missions to Mars, which account for and balance the needs of human space exploration, science,
+commercial activities, and safety. Specifically, NASA will develop guidelines and utilize data
+and experience gained via ground-based tests, the International Space Station (ISS), Artemis, and
+other missions.
+
+      If there is a gap between current knowledge/capability and the desired outcome as
+described in 1.3.1, NASA will undertake a program of activities to close the
+knowledge/capability gap.
+
+     NASA will adopt the following research structure, leveraging information from the NASA
+Planetary Protection Knowledge Gaps for Human Extraterrestrial Missions Workshop Report,
+Race et al. (2015), developing as needed:
+
+a. Capabilities to monitor biological processes associated with the human presence in space
+exploration and to evaluate changes over time;
+
+b. Technologies for mitigating contamination release or intrusion, potentially including closed-
+loop systems; cleaning/re-cleaning capabilities; quarantine, support systems, and biological
+waste disposal that minimize impact of humans on the environment of Mars; and
+
+c. An understanding of environmental processes on Mars that would contribute to transport and
+sterilization of terrestrial organisms released by human activity.
+
+      NASA will determine if it is necessary to conduct a precursor in situ experiment at a
+location close to the human mission landing or operating sites to characterize
+any organic constituents that are present, noting that the measurement should be on airborne
+materials and on materials from the surface and down to a depth to which astronauts may be
+exposed, and to establish a baseline scientific understanding.
+
+       Note: This is recommended in part because of the Mars Science Laboratory finding of
+       complex organic constituents in the surface and the shallow subsurface, and also because
+       it was recommended in the National Research Council 2002 Safe on Mars report.
+
+      NASA will continue to leverage the ISS as a testbed in preparation for human missions to
+Mars. Specifically, increased frequency of biological monitoring of crew, hardware, and
+environmental control and life-support system (ECLSS), processes inside and outside of the ISS
+will allow for the development of critical baseline data.
+
+      NASA will make public the data from such programs, for use by any academic, industrial,
+or private sector entities contemplating participation in a human mission to Mars.
+
+
+
+
+                                                5
+Appendix A. References
+
+A.1 Actions Normally Requiring an EIS, 14 CFR § 1216.306.
+
+A.2 PD/NSC-25, Scientific or Technological Experiments with Possible Large-Scale Adverse
+Environmental Effects and Launch of Nuclear Systems into Space, as amended May 8, 1996.
+
+A.3 NPD 8900.5, NASA Health and Medical Policy for Human Space Exploration.
+
+A.4 COSPAR Planetary Protection Policy, Kminek et al. (2017) Space Research Today 200
+p.12.
+
+A.5 Planetary Protection Knowledge Gaps for Human Extraterrestrial Missions Workshop
+Report, Race et al. (2015) NASA Washington DC downloadable from
+https://sma.nasa.gov/docs/default-source/sma-disciplines-and-programs/planetary-
+protection/2015-report.pdf?sfvrsn=b2fcfff8_6.
+
+A.6 Safe on Mars: Precursor Measurements Necessary to Support Human Operations on the
+Martian Surface, Hauck et al. (2002) National Academy Press Washington DC downloadable
+from http://www.nap.edu/catalog/10360.html.
+
+
+
+
+                                             6
+

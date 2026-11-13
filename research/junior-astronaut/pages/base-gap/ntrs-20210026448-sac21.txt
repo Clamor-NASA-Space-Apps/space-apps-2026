@@ -1,0 +1,606 @@
+             NASA’s Strategic Analysis Cycle 2021 (SAC21)
+                                    Human Mars Architecture
+                                Michelle A. Rucker                           Douglas A. Craig
+                            NASA Johnson Space Center                      NASA Headquarters
+                               2101 NASA Parkway                             300 E Street SW
+                                Houston, TX 77058                         Washington, DC 20546
+                            Michelle.a.rucker@nasa.gov                  douglas.a.craig-1@nasa.gov
+
+          Laura M. Burke                              Patrick R. Chai                              Michael B. Chappell
+    NASA Glenn Research Center                 NASA Langley Research Center                  NASA Marshall Space Flight Center
+       21000 Brookpark Road                        1 Langley Boulevard                              Martin Road SW
+        Cleveland, OH 44135                        Hampton, VA 23681                              Huntsville, AL 35808
+      laura.m.burke@nasa.gov                     patrick.r.chai@nasa.gov                       michael.b.chappell@nasa.gov
+
+             Bret G. Drake                         Stephen J. Edwards                                  Stephen Hoffman
+        Aerospace Corporation                NASA Marshall Space Flight Center                       Aerospace Corporation
+         2101 Nasa Parkway                          Martin Road SW                                    2101 Nasa Parkway
+         Houston, TX 77058                         Huntsville, AL 35808                               Houston, TX 77058
+        bret.g.drake@nasa.gov                  Stephen.j.edwards@nasa.gov                         stephen.j.hoffman@nasa.gov
+
+       Andrew C. McCrea                             Douglas J. Trent                                Patrick A. Troutman
+   NASA Langley Research Center              NASA Marshall Space Flight Center                 NASA Langley Research Center
+       1 Langley Boulevard                          Martin Road SW                                  1 Langley Boulevard
+       Hampton, VA 23681                          Huntsville, AL 35808                              Hampton, VA 23666
+    andrew.c.mccrea@nasa.gov                     douglas.trent@nasa.gov                         patrick.a.troutman@nasa.gov
+
+
+
+Abstract—The        National      Aeronautics      and     Space    the other two crew on the Deep Space Transport for the Earth
+Administration’s (NASA) Mars Architecture Team (MAT) was            return voyage. Specifics of many of these architecture elements
+challenged to develop a mission architecture capable of             are detailed in separate technical publications; this paper
+transporting humans to the surface of Mars and back as fast—        outlines the end-to-end integrated architecture performance
+and as soon—as practical. This challenge represented a              and concept of operations, including synergies with Artemis
+significant departure from previous approaches that minimized       lunar architecture elements. It is important to note that NASA
+Earth-launched mass and maximized in-space transportation           does not have a formal human Mars program and no decisions
+efficiency, often resulting in roundtrip missions of three years    have been made; the architecture described here is intended to
+or more in duration. In the interest of crew health, MAT’s cross-   fill in an often-overlooked corner of the trade space, helping to
+Agency team of subject matter experts was challenged to             complete the menu of options available to decision-makers as
+develop an architecture capable of shortening crew time away        they chart the course for humans to Mars.
+from Earth to about two years. MAT was given specific mission
+constraints, such as number of crew, as well as mandates to
+minimize surface infrastructure as much as possible and to                               TABLE OF CONTENTS
+incorporate nuclear transportation options. The resulting
+MAT-developed concept, referred to here as the Strategic            1. INTRODUCTION ....................................................... 2
+Analysis Cycle 2021 (SAC21) architecture, leverages Artemis         2. CHALLENGES .......................................................... 2
+elements and emerging commercial capabilities for cargo and         3. HUMAN MARS MISSION TRADE SPACE ................. 2
+logistics launches, and features a hybrid Nuclear Electric
+Propulsion (NEP)/Chemical transportation system able to             4. SHORT STAY MISSION ARCHITECTURE ................ 3
+complete the 1.8 billion kilometer round-trip journey to Mars       5. SHORT STAY MISSION OPERATIONS ..................... 4
+and back in 760 to 850 days transit time for the 2039 Earth         6. CONCLUSIONS AND PLANNED WORK .................... 7
+departure opportunity. Three Mars Descent Systems (MDS),
+each capable of landing about 25 metric tons of useful cargo on     ACKNOWLEDGEMENTS .............................................. 8
+the surface of Mars, would be pre-deployed in advance of crew       REFERENCES ............................................................... 8
+departure from Earth; two of these MDS’s would deliver a            BIOGRAPHY ................................................................. 9
+partially fueled Mars Ascent Vehicle (MAV), a fission power
+system, surface mobility, and additional MAV propellant. To
+minimize surface infrastructure, only two of the four Mars crew
+would descend and live in an MDS-landed pressurized rover,
+exploring the martian surface for 30 martian days, or sols,
+before returning to Mars orbit aboard their MAV and rejoining
+
+U.S. Government work not protected by U.S. copyright
+                     1. INTRODUCTION                                       propellant: either haul it from somewhere else and land it on
+                                                                           Mars, or haul In Situ Resource Utilization (ISRU)
+Mars continues to be an Agency horizon goal [1] for human                  equipment—plus significant power mass—to manufacture
+exploration of our solar system. An initial human Mars                     ascent propellant at scale on Mars. Either method will require
+mission might search for signs of extant life (i.e., life that still       substantial landed mass, which brings us back to the other
+exists today) or assess options for longer term human                      piece of our third challenge: landing large payloads on Mars,
+sustainability. NASA’s top priority for the crew once they                 estimated to be at least 20 times larger than our largest robotic
+land and validate habitation/exploration/ascent capabilities               landers to date. Our robotic missions, such as Curiosity and
+would be to perform high priority science objectives,                      Perseverance, have advanced our landing technologies, and
+established by the science community, using systems                        we’ll learn more about ascent with the upcoming Mars
+approved and provided by NASA’s Science Mission                            sample return mission. Artemis will also advance our landing
+Directorate (SMD). At the architecture level, the objective is             and ascent skills, particularly in the areas of precision
+to land humans on the surface of Mars and return them safely               landing.
+to Earth. Landing site selection for a first mission will be
+driven by crew safety, available capabilities, and science
+priorities.
+
+
+                      2. CHALLENGES
+As compared to Artemis lunar missions, Mars offers three
+unique challenges for human exploration. The first challenge
+is the sheer distance. Graphics that depict minimum distance
+between Earth and Mars or estimates of one-way trip times
+can be misleading because they don’t adequately
+communicate that Earth and Mars race around the Sun at
+different speeds, the distance between them constantly                     Figure 1. Gravity Wells: Relative energy states for 5-sol
+changing. Minimum distance between the two planets varies                  Mars orbit, Near Rectilinear Halo Orbit (NRHO), and
+over an approximately 15 to 16-year synodic cycle, with                          Lunar Distant High Earth Orbit (LDHEO)
+optimum alignments occurring about every 26 months. In
+general, the distance traveled to Mars will be different than
+the return distance back to Earth, because Earth won’t be                       3. HUMAN MARS MISSION TRADE SPACE
+where we left it. A round trip from Earth to Mars is estimated
+                                                                           The three challenges outlined above, plus mission goals and
+to put 1.8 to 2 billion kilometers on our spaceship’s odometer,
+                                                                           objectives, generally define the trade space for human Mars
+as compared to less than a million kilometers round-trip from
+                                                                           missions. NASA’s last published human Mars reference
+Earth to the Moon. The trajectory we take, the year and month
+                                                                           architecture focused on what is known as a conjunction class
+we leave Earth, what type of propulsion system we use, and
+                                                                           or long-stay mission, characterized by relatively fast transit
+how long we linger at Mars will all set overall mission
+                                                                           to Mars when the planets’ relative positions allow a minimum
+duration, but the reality is that round-trip Mars missions are
+                                                                           energy transit, followed by a very long loiter period at Mars
+expected to be two to three years long.
+                                                                           waiting for an optimum trajectory that enables a fast return
+                                                                           transit. Design Reference Architecture 5.0 [4] opted to spend
+This brings us to our second challenge: we have no human
+                                                                           a 500+ day loiter period on the surface of Mars, which offered
+performance data for such long periods away from Earth.
+                                                                           substantial exploration time, but at the expense of substantial
+Fortunately, we are well-positioned to meet this challenge, by
+                                                                           surface infrastructure. Surface systems included a large
+using Earth-based analogs [2] and the International Space
+                                                                           habitat, 40 kiloWatts of electric power (kWe), ISRU, and
+Station (ISS) to study the effects of closed environments,
+                                                                           multiple surface mobility systems. The overall mission
+isolation, and confinement, and of course we use the ISS to
+                                                                           duration kept crew away from Earth for more than three Earth
+study the effects of reduced gravity [3]. Artemis lunar
+                                                                           years and required at least 80 metric tons (t) of useful landed
+missions will also give us an opportunity to study human re-
+                                                                           mass at Mars.
+adaptation to partial gravity and living and working for
+extended periods in hostile, reduced gravity environments.
+                                                                           More recently, NASA was challenged to explore a different
+                                                                           corner of the trade space, focusing instead on minimizing
+The third challenge at the top of our list is landing—and
+                                                                           crew time away from Earth and emphasizing a lighter surface
+ascending—from Mars. Our robotic Mars exploration
+                                                                           exploration footprint. Using what is known as an opposition
+missions have thus far been entirely one-way. Mars has less
+                                                                           class or short-stay mission mode, crew would minimize loiter
+gravity and atmosphere than Earth, but much more than the
+                                                                           time at Mars before their return departure window closes. At
+Moon. To return home, we’ll need to climb out of the Mars
+                                                                           least one leg of the journey (either in- or out-bound) requires
+“gravity well” [Figure 1] and that translates to tons of ascent
+                                                                           significantly more energy than a comparable conjunction
+propellant. There are two ways to acquire our ascent
+                                                                           class mission. As shown in Figure 2, the impulsive roundtrip
+                                                                       2
+change in velocity (meters per second) required for transit to                                                                 opposition class opportunities, and both assumed a 50-day
+Mars from a Lunar Distant High Earth Orbit (LDHEO) and                                                                         loiter period in Mars orbit to enable a 30-sol surface
+return, for an opposition class mission in the 2039 example,                                                                   exploration period. Both transportation systems also assumed
+is more than twice that of the conjunction class mission. In                                                                   the payload was a 47.5 t, 4-crew Mars transit habitat.
+practical terms, this can equate to hundreds of tons more
+propellant mass, though in some cases the gravity assist                                                                       Figure 3 shows a high-level comparison of the two nuclear-
+offered by a Venus flyby can aid in reducing propellant mass.                                                                  enabled crew transportation systems in an “all up”
+Why would we attempt such a difficult mission? The                                                                             configuration, meaning they would depart Earth carrying all
+advantage of these opposition class missions is that they can                                                                  the propellant needed to get to Mars and back again. Two
+shave many months from the duration that crew are away                                                                         variants for each architecture were explored: in each case,
+from Earth, relative to conjunction class missions.                                                                            Variant 1 held time in deep space to two years or less, but
+                                                                                                                               Variant 2 relaxed mission duration to optimize mass. As
+
+                                                        Conjunction-class Roundtrip Crew Missions                                      Opposition-class Roundtrip Crew Missions
+
+
+
+
+    Impulsive Roundtrip ΔV, m/s (to/from LDHEO)
+                                                                                                                                                           2039
+                                                                                                                                                        Opportunity
+
+
+                                                                                                                                                                                                           Legend
+                                                                                                                                                                                                        No Venus Flyby
+                                                                                                                                                                                                        Venus Flyby on
+                                                                                                                                                                                                          Return Leg
+                                                   2039 Opposition mission increases roundtrip mission ΔV by >2x over Conjunction mission                                                               Venus Flyby on
+                                                            Rocket equation physics makes this exponentially more challenging                                                                           Outbound Leg
+
+
+
+
+                                                  Conjunction-class data presented only includes <1000 d roundtrip times         Opposition-class data presented only includes <760 d roundtrip times
+
+
+
+                                                          Figure 2. Roundtrip Mars Mission Energy Requirements, Full Synodic Cycle 2033 - 2050
+
+Several factors prompted NASA’s interest in evaluating such                                                                    noted above, holding crew time in deep space to less than
+a challenging approach, including recent analysis indicating                                                                   about two years in the opposition class mode requires
+that shorter roundtrip mission durations could reduce crew                                                                     significant energy. For the 2039 opportunity, both nuclear-
+health risk [5], the emergence of robust commercial                                                                            enabled transportation systems Variant 1 are estimated at
+capabilities [6] that lower the cost of Earth-launch access to                                                                 about 600 t stack mass in High Earth Orbit (HEO). To put
+space, and a desire to leverage Artemis-derived lunar surface                                                                  this into perspective, ISS is about 400 t, but in Low Earth
+systems as much as possible for Mars, rather than place much                                                                   Orbit (LEO). As expected, relaxing mission duration to about
+longer-duration surface technologies into the first human                                                                      850 days (~2.3 years, Variant 2) in deep space can cut stack
+mission’s critical path. To achieve the higher energy transits                                                                 masses by half, which translates to fewer Earth-launched
+required for an opposition class mission, NASA evaluated                                                                       vehicle fueling flights.
+two different nuclear propulsion options: Nuclear Thermal
+Propulsion (NTP), which uses heat generated from a fission                                                                          4. SHORT STAY MISSION ARCHITECTURE
+reaction to propel hydrogen; and Nuclear Electric Propulsion
+(NEP) which generates electricity from the fission reaction to                                                                 For the purpose of analyzing short stay mission concepts with
+drive electric thrusters. Both technologies would also align                                                                   a light exploration footprint, NASA developed a mission
+with renewed national interest in space nuclear power and                                                                      concept around the relaxed duration NEP/Chemical hybrid
+propulsion [7].                                                                                                                transportation system (Variant 2 in Figure 3), paired with a
+                                                                                                                               long duration Mars transit habitat sized for four crew.
+For analysis purposes, NASA developed two nuclear-
+enabled, opposition class Mars transportation concepts, one                                                                    Two of the four crew would descend to the surface, living and
+featuring an NTP system, the other a hybrid transport [8, 9]                                                                   working out of a pressurized rover for the 30-sol exploration
+that paired a high-efficiency NEP module with a chemical                                                                       period before ascending back to the 5-sol orbit in a pre-
+stage for high thrust maneuvers. Both profiles assumed a                                                                       deployed Mars Ascent Vehicle (MAV) and rejoining their
+2039 Earth departure to assess one of the more challenging                                                                     crewmates. For this architecture, NASA assumed a 25-t
+
+                                                                                                                           3
+                  Figure 3. Comparison of Mars nuclear-enabled, opposition class transportation options
+
+Useful payload envelope per lander, comfortably within the                    5. SHORT STAY MISSION OPERATIONS
+bounds of key entry, descent, and landing technologies. This
+payload envelope means that each major Mars cargo item                 In this concept, a human Mars campaign might begin up to
+must either be less than 25 t, or be divisible into smaller            10 years before “boots on Mars,” with launch of a Transit
+pieces, delivered on separate landers and reassembled on the           Habitat (TH). After assembly and outfitting at Gateway, the
+surface of Mars. For an initial exploration mission limited to         fully assembled TH might spend several years in cis-lunar
+just 30 sols on the surface, two crew could comfortably live           space, undergoing crewed test and evaluation and serving as
+in a Pressurized Rover (PR), eliminating the need for a large,         a Mars mission analog to validate the long habitation
+long-duration habitat (and substantial surface power for long-         durations needed for the Mars mission. Three landers, each
+duration close-loop life support). For this analysis, NASA             with ~25-ton payload capacity, called Mars Descent Systems
+assumed the PR features suit ports [10] and suit port-                 (MDS) would be launched, aggregated with their Mars
+compatible Extravehicular Activity (EVA) suits to facilitate           transportation stage(s), and fueled in cis-lunar space before
+rapid crew ingress/egress with minimal loss of cabin                   departing for Mars orbit. Landers 1 and 2 launch and depart
+atmosphere, and to aid in dust mitigation. Other crew support          Earth up to six years prior to crew arrival at Mars while the
+systems, such as 10 kWe Fission Surface Power (FSP) [10]               third lander launches and begins its transit to Mars about
+or crew logistics also fit within the 25-t envelope. Without           three years prior to crew arrival. The three landers and their
+ISRU in the short stay scheme, landing a fully fueled MAV,             cargo would be delivered via Liquid Oxygen (LOX)/Liquid
+capable of lifting two crew and return cargo to 5-sol orbit, is        Methane (LCH4) chemical stages on an energy-efficient,
+challenging to package within the 25 t envelope; however,              conjunction-class trajectory to Mars vicinity. The third
+some ascent propellant could be delivered on a separate                lander, carrying a pressurized rover, a docking adapter, and
+lander and robotically transferred to the MAV. Note that               crew consumables, would loiter in a 5-sol Mars parking orbit
+many of these surface systems, particularly the FSP and PR             awaiting crew arrival. Spreading these deliveries out over
+could be derived from lunar equivalents built for and tested           several mission opportunities deconflicts Earth launch
+on the Moon to gain experience before an eventual Mars                 availability with other active campaigns, such as the Artemis
+mission.                                                               lunar flights, and helps level year-to-year costs, but all three
+                                                                       landers could be deployed during the same mission
+To best balance these competing constraints and challenges,            opportunity if budget, launch availability, and risk posture
+the resulting multi-phase scheme, depicted in Figure 4, would          allows.
+consist of three 25 t landers. The first lander, shown left in
+the image, would deliver the MAV propellant, FSP, and a                Pre-Deployed Cargo
+robotic surface mobility system. The second lander, shown              Upon reaching Mars orbit, two of the three MDS—one
+center, would deliver a partially fueled MAV, which would              carrying the MAV and the other carrying MAV propellant, a
+be robotically topped-off with propellant before the crew              10 kWe FSP unit, and a robotic mobility system—descend
+arrives on the third lander, shown on the right. Crew would            using a Hypersonic Inflatable Aerodynamic Decelerator
+live in and work from a pressurized rover, also delivered on           (HIAD) [12] and a LOX/LCH4 supersonic retro-propulsion
+the third lander, as they explore the martian surface, returning       system to land within one kilometer (km) of each other and
+to orbit aboard the MAV for rendezvous with the Mars                   the planned crew landing site. After autonomously
+transportation system.                                                 activating the FSP, MAV propellant is robotically transferred
+                                                                       from the first lander to fill the partially empty MAV tanks on
+
+                                                                   4
+the second lander. To meet the minimum surface                        Mars transportation system concept was sized with a 1.8-
+infrastructure constraint, ISRU was ground-ruled out of this          MegaWatt (MW), 1200 Kelvin (K) reactor NEP stage
+architecture, which required splitting the MAV propellant             featuring 100 kW electric thrusters using Xenon propellant,
+load across two landers to keep each landed payload within a          paired with a LOX/LCH4 chemical stage for high-energy
+25 t landed payload capacity, thus mitigating the entry,              maneuvers. When this integrated vehicle, referred to here as
+descent, and landing risk of larger landers.                          the Deep Space Transport (DST) is cleared for Mars service,
+                                                                      it would transit to High Earth Orbit for rendezvous with four
+
+
+
+
+                       Figure 4. Artist’s concept of first human Mars short stay mission architecture
+
+                                                                      Mars crew members who would launch from Earth on Orion.
+Many of the human Mars mission concepts previously                    After crew transfer to the DST, the Orion crew capsule
+studied planned cargo delivery years in advance of crew to            returns to Earth. Crew transit to Mars for this particular
+allow sufficient time for surface infrastructure deployment           opportunity and vehicle design would take just under 10
+and subsequent MAV fueling via ISRU (which is a lengthy               months. Note that duration would vary for other departure
+process). Without ISRU MAV fueling, critical cargo could              opportunities and vehicle performance assumptions. During
+                                                                      the outbound transit, nominal crew operations would include
+theoretically be delivered shortly before crew, with just
+                                                                      routine vehicle system health monitoring, maintenance, and
+enough lead time for robotic MAV surface propellant
+                                                                      repair, and vehicle course monitoring and corrections.
+transfer. However, three reasons to consider delivering cargo         Housekeeping activities will include TH cleaning and
+well in advance of crew are 1) to gain 25 t payload entry,            periodic trash disposal. Live interface education and public
+descent, and landing experience in a timeframe that enables           outreach activities will become increasingly difficult as the
+crew lander modifications based on cargo lander lessons               crew transit farther from Earth and roundtrip
+learned; 2) to take advantage of lower-energy conjunction             communications time lags, but recorded question and answer
+class opportunities for more efficient cargo delivery; and 3)         sessions or lessons will be possible. In deep space, crew
+as noted above, to deconflict heavy lift launch availability          would have opportunities for solar system astronomical
+and level costs while operating lunar and Mars missions               observations, to conduct research on the effects of the deep
+concurrently.                                                         space environment on humans and vehicle systems, and to
+                                                                      conduct other planned microgravity science research. To
+Crew Deep Space Transportation                                        maintain fitness for landing, crew would exercise daily,
+                                                                      undergo health and performance monitoring and testing, and
+About four years before boots on Mars, the hybrid                     utilize on-board training systems to maintain proficiency for
+NEP/Chemical crew transportation stage launches to cis-               critical entry, descent, and landing operations. The landing
+lunar space where the hybrid system is fueled in space via a          crew would use on-board training systems to virtually
+series of commercially launched tankers. The hybrid NEP-              practice surface mission transits and science operations in
+Chem system then mates with the TH to begin a series of “sea          collaboration with scientists and mission controllers on Earth.
+trials” to validate integrated vehicle performance. This hybrid
+
+                                                                  5
+Mars Arrival                                                            must be emphasized that no decisions have been made and
+                                                                        activities are likely to change as systems are refined, science
+Upon arrival at Mars, the DST would enter a 5-sol Mars
+                                                                        objectives are better defined, and integrated operations
+parking orbit for a 50-Earth day loiter, allowing a 30-Mars             analyses are completed.
+sol surface stay period plus up to 10 days on either end to
+account for vehicle staging and phasing. Note that in-space             Sols 1-3 would be nominally reserved for crew re-adaptation
+transportation timekeeping would use Earth days to ensure               to a gravity environment with no scheduled EVA activity, but
+correct propellant loads for the Earth-Mars transit, but surface        there is one potential contingency situation that must be
+operation timekeeping would use Mars sols to synchronize                protected for: if robotic assets are unable to connect the crew
+with the martian day/night cycle. After rendezvous with the             lander to the surface power grid, crew may have to conduct a
+third MDS, two of the four crew members would transfer                  contingency EVA to hook up the power before the lander’s
+from the TH to a lunar-derived Pressurized Rover (PR) via a             on-board power supply is depleted. It remains forward work
+pressurized mating adapter for their descent to the martian             to assess this and other potential contingency operations.
+surface. The pressurized mating adapter is envisioned as a
+                                                                        During the gravity re-adaptation period, crew would exercise,
+limited functionality solid structure, capable of carrying the
+                                                                        reconfigure their PR cabin as needed, inspect and prepare
+docking loads between the DST and the PR, and allowing
+                                                                        their EVA equipment, and telerobotically inspect surface
+shirt-sleeve or unpressurized Launch/Entry Suit crew transfer           equipment. Following medical clearance, the first EVA
+between the TH and PR. Prior to initiation of the surface               might occur on Sol 4, when the crew would conduct a short
+mission, the crew will have verified that all propellant has            EVA with the primary objective of testing suit functionality
+been robotically transferred to the MAV.                                and crew ability to function in the suit. This first EVA might
+                                                                        include descending from the MDS deck to the surface to
+The two remaining crew would tend the DST, serving as a                 demonstrate the crew’s ability to transition between the deck
+communications relay back to Earth during the 30-sol surface            and the surface by EVA alone and to conduct the first human
+mission and providing low-latency communications                        exploration activities on the surface of Mars. The crew would
+technical support to the surface crew during critical                   return to the PR for a mid-day meal. A second EVA could be
+operations. The orbital crew could handle remote tasks, such            conducted in the afternoon to continue preparation for off-
+as telerobotic operation or monitoring of surface assets, or            loading the PR and other deck cargo such as science
+data analysis to support next-day planning and coordination             instruments and other utilization equipment. On Sol 5, crew
+with subject matter experts on Earth. During surface EVA                might perform another short EVA with the primary objective
+operations, orbital crew serve much the same function as                of off-loading the PR, an activity that is assumed to be carried
+mission control’s EVA console position does for ISS,                    out while the crew is outside of the PR. A second EVA
+providing oversight and immediate support faster than Earth-            following a mid-day meal would complete off-loading other
+based ground personnel could, due to the communications lag             cargo from the lander deck and any final PR preparations
+back to Earth. The orbital crew may also use their vantage              before extended traverses begin. The actual off-loading
+point for Mars surface or Phobos/Deimos observations.                   concept of operations is not yet defined, pending better
+                                                                        definition of MDS and cargo off-loading systems.
+Mars Surface Exploration
+To best balance accessibility to pre-deployed cargo—but                 During Sol 7, the crew might begin their first excursion away
+avoid landing plume-induced damage of pre-deployed                      from the landing site, driving to Exploration Site 1 and
+cargo—crew would land about one km from the other two                   conducting brief EVA reconnaissance before preparing the
+landers. The pre-deployed mobility system would robotically             PR for an overnight stay. On Sol 8, the crew would conduct
+connect the crewed lander to the pre-deployed surface power             a morning EVA, return to the PR for a mid-day meal, then
+grid. After allowing at least three sols for crew adaptation to         conduct an afternoon EVA. On Sol 9, the crew might remain
+Mars gravity, the pressurized rover and science equipment               inside the PR to conduct Intravehicular Activity (IVA)
+would be off-loaded from the MDS and surface exploration                activities, before venturing back outside on Sol 10. For the
+begins.                                                                 surface system concepts assumed, crew would need to drive
+                                                                        the PR back to the landing site on Sol 11 and connect the PR
+Due to limited rescue options and contingency equipment,                to the surface power grid to recharge batteries. The remainder
+crewed exploration around the landing zone for this first               of the day could be used for housekeeping and routine
+mission is perhaps a 20 km radius, though the crew may                  maintenance on the PR and EVA systems.
+deploy robotic assets to explore farther. Crew will collect
+samples, take environmental readings, and conduct a host of             On Sol 12, crew might conduct their first logistics restocking
+experiments. This mission concept allocates about two metric            and trash removal operation, retrieving a Small Pressurized
+tons of science equipment.                                              Logistics Container (SPLC) from the lander deck for
+                                                                        repositioning onto a PR suit port. Fresh logistics would be
+To begin integrated stakeholder conversations about what                transferred from the SPLC into the PR, then the empty SPLC
+could be accomplished during a short stay mission, a notional           would be filled with trash. The now trash filled SPLC would
+daily surface schedule of surface activities is outlined here. It       then be placed at a location on the surface next to the lander
+                                                                    6
+as its permanent disposal location. Note that trash                    as much as 960 days. When the Deep Space Transport arrives
+containment and disposal will be guided by planetary                   back in a High Earth Orbit, an Orion would retrieve all four
+protection considerations as they become available.                    crew for return to Earth. The Mars transit vehicle could then
+                                                                       return to Gateway for refurbishment and resupply in
+To comply with crew health and performance best practices,             preparation for either continued lunar support or subsequent
+Sol 13 would be an off-duty day for the crew. Beginning on             Mars missions. Meanwhile, back on Mars, robotic science
+Sol 14, the crew might traverse to a second exploration site.          would continue, aided by the surface assets left behind, which
+The pattern of activity and duration of EVAs would                     would include a fission power system that is impervious to
+notionally be the same as that used for the first exploration          the kinds of disruptions that martian dust storms might cause
+site (Sols 7-11), with the crew returning to the landing site on       to solar-powered science platforms, high data rate
+Sol 18 to recharge batteries, restock logistics, and remove            communications, and a robotically controllable PR.
+trash. During this second restocking event, the crew could
+take on 14 sols of logistics, sufficient for both the next                   6. CONCLUSIONS AND PLANNED WORK
+exploration site traverse and the supplies needed in the MAV
+for the return to orbit. Sol 20 would be another crew off-duty         The architecture outlined in this paper was intended to fill in
+day before beginning traverse to a third exploration site on           an often-overlooked corner of the architecture trade space. As
+Sol 21. The pattern of activity and EVA durations would be             expected, transporting crew to Mars and back again on an
+like that used for the first and second exploration sites (Sols        accelerated timeline requires more energy than traditional
+7-11 and 14-18). The crew would make their final return to             approaches, which in turn translates to significant
+the landing site on Sol 25. On Sol 26, the crew might conduct          transportation system mass. Although the total crew time
+both morning and afternoon EVAs for final science and                  away from Earth for this concept is less than traditional long-
+utilization tasks in the local landing site vicinity. Sol 27           stay missions, crew time spent in transit (not on the martian
+would be a scheduled off-duty day for the crew.                        surface) is longer. This reduces some crew risks—shorter
+                                                                       overall duration means less time for equipment to break down
+Crew Ascent                                                            or for crew to develop health issues—but potentially
+                                                                       increases other risks, such as crew exposure to the deep space
+On Sol 28, the crew would drive to the MAV lander then                 radiation and microgravity environment. Similarly, the short
+deploy and dock with a pressurized tunnel for pressurized              duration, light exploration footprint reduces the number of
+access between the PR and MAV. A short EVA period would                hardware developments required—and the required
+be available for external preparation of the MAV for                   certification life of those developments, particularly surface
+departure plus any other final tasks required before departure.        systems—but puts new technologies such as nuclear-enabled
+The remainder of Sol 28 plus all of Sol 29 would be used for           propulsion into the critical path.
+IVA activities necessary for MAV departure, such as
+transferring returned samples and logistics for the return             NASA assessed the short stay human Mars architecture
+flight, activation and checkout of MAV systems, safing                 concept using a structured process to identify top risks and
+selected PR systems (such as life support) to prepare for              development challenges. Key mission risks identified
+uncrewed operations, configure robotic science equipment,              include: transit propulsion system failures; transit habitat
+etc. Prior to departure, return cargo and equipment that have          mass growth and integration with the transit propulsion
+been exposed to the martian surface environment will be                element; loss of primary habitable environment on the Mars
+prepared in accordance with applicable planetary protection            surface; MAV refueling on the martian surface; advanced
+requirements and guidelines. The crew would ingress the                EVA architecture uncertainty; entry, descent and landing
+MAV wearing their clean launch/entry suits to mitigate dust            criticality; and long-duration spaceflight crew health
+transfer back to Earth. Extravehicular activity planetary suits        concerns. Programmatic risks include nuclear transportation
+would be left behind to further mitigate dust transfer in              system technology development; entry, descent, and landing,
+accordance with planetary protection best practices. On                and cryogenic propellant zero boil-off technology
+ascent day (nominally Sol 31), the PR and tunnel would be              maturation; and multiple, parallel design, development, and
+undocked from the MAV, and the uncrewed PR would                       test activities. Several additional aspects of the Mars mission
+relocate a safe distance away from the MAV, nominally                  were identified for study during the next analysis cycle,
+about 1 km, where it will remain until after crew ascent.              including assessment of logistics and fueling launch rates;
+                                                                       lander delivery timing; reuse implications of first mission
+Post-Crew Ascent Operations                                            elements for subsequent missions; and planetary protection
+After launching in the MAV, the crew spends about 2.5 sols             considerations.
+flying to the orbiting Deep Space Transport. After
+rendezvous with the TH in Mars orbit, surface crew and cargo           A key take-away is that shorter round-trip Mars missions are
+transfer back to the TH and dispose of the MAV. The                    certainly possible from a performance standpoint, though
+approximately 17-month return transit makes this an 850-day            challenging, with flow-down implications to capabilities and
+roundtrip mission, though additional time built into the               cadences needed to launch, assemble, and fuel the vehicle in
+schedule to stage and transfer crew at the front and back end          space. That, in turn, has implications to overall mission
+of the 2039 mission makes the maximum crew time off Earth              complexity, risk, and cost: given the very short departure and
+                                                                   7
+return windows for opposition class missions, there may be               https://www.nasa.gov/mission_pages/station/structure/l
+little margin for a single launch delay that might domino                aunch/overview.html
+across an integrated campaign schedule. In the next analysis         [7] Memorandum on the National Strategy for Space
+cycle, the short stay, hybrid NEP/chemical transportation                Nuclear Power and Propulsion, Space Policy Directive
+architecture will be used as a measuring stick against which             6, Washington, 2020.
+alternative mission architectures may be compared.                       https://trumpwhitehouse.archives.gov/presidential-
+                                                                         actions/memorandum-national-strategy-space-nuclear-
+Continuing research into NTP propulsion technologies [13]
+                                                                         power-propulsion-space-policy-directive-6/
+will aid NASA in refining NTP-based transportation
+                                                                     [8] Mason, L., S. Oleson, P. Schmitz, L. Qualls, M. Smith,
+architectures. Solar Electric Propulsion (SEP), used on                  B. Ade, and J. Navarro, Nuclear Power Concepts for
+Gateway, paired with a chemical stage similar to the                     High-Power Electric Propulsion Missions to Mars,
+NEP/Chemical hybrid configuration, is an attractive non-                 Nuclear and Emerging Technologies for Space (NETS),
+nuclear transportation option. SEP/Chemical systems                      Oak Ridge National Laboratory, April 26th-30th, 2021.
+optimized for propellant mass efficiency are better suited to            https://nets2021.ornl.gov
+the longer duration conjunction class missions, but NASA             [9] Chai, P.R., B.E. Saputra, and M. Qu, Human Mars
+will evaluate potential component commonality and                        Mission In-Space Transportation Sensitivity for Nuclear
+extensibility from SEP/Chemical to NEP/Chemical                          Electric/Chemical Hybrid Propulsion, AIAA Propulsion
+                                                                         and Energy Forum and Exposition, August 9-11, 2021.
+architectures, and options for accelerated SEP/Chemical
+                                                                         https://ntrs.nasa.gov/api/citations/20210017956/downlo
+mission durations. Finally, the emergence of reusable,
+                                                                         ads/Manuscript.pdf
+commercial chemical transportation systems offers                    [10] Boyle, R., K. Mitchell, C. Allton, and H. Ju, Suitport
+possibilities to enhance the human Mars architecture. A series           Feasibility – Development and Test of a Suitport and
+of trade studies and analyses will evaluate various emerging             Space Suit for Human Pressurized Space Suit Donning
+launch capabilities, and potential extensibility of integrated           Tests, AIAA 2012-3631, 42nd International Conference
+lunar capabilities to Mars operations, helping to complete the           on Environmental Systems 15 - 19 July 2012, San Diego,
+menu of options available to decision-makers as they chart               2012.
+the course for humans to Mars.                                       [11] Gibson, M. and P. Schmitz, Higher Power Design
+                                                                         Concepts for NASA’s Kilopower Reactor, IEEE
+                ACKNOWLEDGEMENTS                                         Aerospace Conference, Big Sky, 2020.
+                                                                         https://ntrs.nasa.gov/api/citations/20200001569/downlo
+The authors wish to acknowledge Marshall Smith for his                   ads/20200001569.pdf
+leadership of the teams who performed this work, as well as          [12] Johnson, K.R., F.M. Cheatwood, A.M. Calomino, S.J.
+subject matter experts and analysts serving on the NASA                  Hughes, A.M. Korzun, J.M. DiNonno, M.C. Lindell, and
+Glenn Research Center’s COMPASS team and the NASA                        G.T. Swanson, HIAD Advancements and Extension of
+Marshall Space Flight Center’s ACO team.                                 Mission Applications, International Planetary Probe
+                                                                         Workshop, Laurel, 2016
+                      REFERENCES                                         https://ntrs.nasa.gov/api/citations/20160010254/downlo
+[1] Presidential Memorandum on Reinvigorating America’s                  ads/20160010254.pdf
+     Human Space Exploration Program, Space Policy                   [13]https://www.nasa.gov/press-release/nasa-announces-
+     Directive 1, Washington D.C., December 11, 2017.                    nuclear-thermal-propulsion-reactor-concept-awards
+[2] Howard, R.L., and H.L. Litaker, Habitability Lessons
+     Learned from Field Testing of a Small Pressurized
+     Rover, AIAA Ascend Conference, Virtual, 2020.
+     https://doi.org/10.2514/6.2020-4261
+[3] Robinson, J.A., M.C. Waid, D. Korth, and M. Rucker,
+     Innovative Approaches to Using the International Space
+     Station as a Mars Transit Analog, IAC-19.B3.3.14,
+     International Astronautical Congress, Washington,
+     2019.
+     https://ntrs.nasa.gov/api/citations/20190032318/downlo
+     ads/20190032318.pdf
+[4] Drake, B.G., editor, Human Exploration of Mars Design
+     Reference Architecture 5.0, NASA Special Publication
+     2009-566, Washington, July, 2009.
+[5] Antonsen, E. et al., NASA/TM-20210009779,
+     Comparison of Health and Performance Risk for
+     Accelerated Mars Mission Scenarios, National
+     Aeronautics and Space Administration, Houston, 2021.
+[6] Commercial Resupply Services Overview,
+                                                                 8
+                     BIOGRAPHY                                                      Laura Burke is an Aerospace Engineer
+                                                                                    in the Mission Architecture and
+                  Michelle Rucker received a B.S. (1984)                            Analysis Branch at the NASA Glenn
+                  and Masters (1986) in Mechanical                                  Research Center where she has
+                  Engineering from Rice University,                                 provided mission and trajectory
+                  Houston. She has been with NASA for                               analysis for many of the Agency’s
+                  more than 35 years and currently leads                            teams and projects including the
+                  the human Mars Architecture Team for                              Human Landing Systems program, the
+                  NASA’s Human Exploration and                                      Mars Architecture team, the Power and
+                  Operations Mission Directorate.                Propulsion Element, and the GRC Compass Team. Her
+                                                                 primary focus is on analysis supporting crewed
+                                                                 exploration. Laura received her BS in Aerospace
+                   Doug Craig received his Bachelor of
+                                                                 Engineering from Case Western Reserve University in
+                   Science in Aeronautical & Ocean
+                                                                 2007 and an MS in Astronautical Engineering from the
+                   Engineering from the Virginia
+                                                                 University of Southern California in 2012.
+                   Polytechnic institute and State
+                   University and also received a Masters
+                   of Business Administration from the                              Patrick R. Chai is an Aerospace
+                   Florida Institute of Technology. Mr.                             Engineer at NASA’s Langley Research
+                   Craig is currently the Manager of                                Center in the Space Mission Analysis
+Strategic Analyses for the Human Exploration and                                    Branch within the System Analysis &
+Operations Mission Directorate's Advanced Exploration                               Concepts Directorate, located in
+Systems (AES) Division at NASA Headquarters. His                                    Hampton, Virginia. He is the Langley
+responsibilities include leading the human exploration                              Center lead for NASA’s Mars
+architecture studies, modeling and simulation for                                   Architecture Team and leads the In-
+architecture analysis; overseeing the habitation contracts                          Space Transportation Assessment
+in the NextSTEP broad agency announcement activity as            Team. He received his B.S., M.S., and Ph.D. in Aerospace
+the contract officer representative; and leading the             Engineering from the Georgia Institute of Technology in
+creation of associated partnerships                              2007, 2010, and 2014 respectively. He specializes in the
+                                                                 field of interplanetary trajectory optimization, space
+                   Bret Drake currently serves as                vehicle designs and concepts development, and
+                   Associate Director of the Space               exploration architecture definition.
+                   Architecture Department for the                                  Michael     Chappell     earned    his
+                   Aerospace Corporation where he leads                             undergraduate and graduate degrees in
+                   system engineering and programmatic                              Electrical Engineering from Mercer
+                   assessments of advanced space                                    University. He began his career at the
+                   systems. Previously at NASA, Bret led                            Advanced Missile Signature Center at
+                   design and analysis studies of human                             Arnold Air Force Base as a member of
+exploration in missions to the Moon, Near-Earth Objects,                            the measurements team. Continuing as a
+and Mars                                                                            civilian with the United States Air
+                                                                                    Force, Michael moved to Robins AFB
+                   Stephen Edwards serves as the mission         where he worked in several engineering roles including
+                   architect in the Advanced Concepts            avionics sustainment, industrial controls and electrical
+                   Office (ACO) at NASA’s Marshall               infrastructure design, and electronic countermeasures.
+                   Space Flight Center. From this position       After many years serving the Air Force, Michael moved to
+                   he directs Pre-Phase A formulation and        a position as a guidance, navigation, and control (GN&C)
+                   concept designs and leads strategic           integration engineer for NASA’s Space Launch System
+                   analyses on behalf of NASA leadership.        (SLS) at Marshall Space Flight Center (MSFC), eventually
+                   He also leads ACO’s technical                 becoming the integration lead. Currently, Michael is the
+                   capability investments, seeking to            deputy lead of the Mars Architecture Team (MAT)
+advance ACO’s practice of model-based engineering,               developing crewed Mars mission concepts and project
+concurrent design, and multidisciplinary optimization. He        manager for the supporting activities at MSFC.
+has a bachelor’s in Engineering Physics from Embry-
+Riddle Aeronautical University, and master’s and doctoral
+degrees in Aerospace Engineering from the Georgia
+Institute of Technology
+
+
+
+
+                                                             9
+                 Stephen J. Hoffman received a B.S.,
+                 M.S., and Ph.D. in Aeronautical and
+                 Astronautical Engineering from the                                   Pat Troutman graduated in 1984 from
+                 University of Illinois in 1978, 1980, and                            Virginia Tech with a BS in Aerospace &
+                 1984 respectively. Dr. Hoffman is a                                  Oceanographic Engineering along with
+                 Senior Systems Engineer with over 40                                 a minor in Computer Science. In the
+                 years of experience working in civilian                              past 35 years he has worked for NASA
+                 space programs performing tasks                                      designing     and      assessing     the
+involving program management, interplanetary mission                                  International Space Station, leading
+planning, preliminary spacecraft design, orbit mechanics,                             systems analysis related to future space
+and planetary analog missions. Dr. Hoffman is currently            scenarios including managing the NASA Revolutionary
+supporting the Exploration Mission Planning Office at the          Aerospace Systems Concepts (RASC) program, helping to
+NASA Johnson Space Center. He supports a variety of                define the Vision for Space Exploration, leading the
+mission studies and concept assessments associated with            integration for the Constellation Program lunar surface
+human exploration beyond low Earth orbit for this office.          architecture, and leading human space exploration
+missions to the Moon, Near-Earth Objects, and Mars.                mission design for the NASA Human Spaceflight
+                                                                   Architecture Team and the Evolvable Mars Campaign.
+                  Andrew McCrea received a B.S. in                 Mr. Troutman currently leads an Agency-wide team to
+                 Aerospace     Engineering from        the         integrate exploration mission systems analyses to support
+                 University of Maryland, College Park in           NASA Agency level strategic decision process with respect
+                 2007. He has been at NASA Langley for             to the Artemis initiative. In support of the NASA Human
+                 more than 14 years and currently leads            Exploration & Operations Mission Directorate Systems
+                 campaign analysis for the Strategies and          Engineering & Integration, he leads the campaign
+                 Architectures Team under the Systems              integration function with respect to the human Mars &
+                 Engineering & Integration division of the         lunar architecture activity, by performing integrated
+Human Exploration & Operations Mission Directorate                 assessments      across      objectives,     requirements,
+(HEOMD). Mr. McCrea performs campaign analysis and                 performance, cost, risk and technology needs.
+assessment for the Lunar and Mars Architecture Teams
+looking at the integration of exploration missions across
+the HEOMD portfolio. Previously, he has supported
+aeronautics research in fundamental flow physics and
+visualization across the spectrum of flight regimes.
+
+                  Douglas J. Trent, PhD. is Space
+                  Systems Team Lead in the Advanced
+                  Concepts Office at NASA’s Marshall
+                  Space Flight Center. His focus areas
+                  include architecture design and
+                  analysis,     technology     assessment,
+                  advanced design methods, and human
+                  landing systems concepts. Current work
+assignments include support of the Human Landing System
+Architecture and Systems Analysis group, as well as the
+entry, descent, landing, and ascent lead for the Mars
+Architecture Team. Additional duties include developing a
+model-based, multi-objective design optimization
+framework for the synthesis of space systems architectures.
+Dr. Trent joined NASA in June 2012. Dr. Trent obtained a
+B.S in Mechanical Engineering from California State
+University, Sacramento, as well as an M.S. and Ph.D. in
+Aerospace Engineering from the Georgia Institute of
+Technology.
+
+
+
+
+                                                              10
+

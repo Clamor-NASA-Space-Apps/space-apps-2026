@@ -1,0 +1,35 @@
+Source: https://www.spaceappschallenge.org/resources/project-submission-guide/ (page dated November 12, 2026; read in browser 2026-11-13, copied by hand, trimmed; [...] = omitted). JavaScript (Next.js) app, curl fails with a certificate-chain error.
+
+PROJECT SUBMISSION START & END TIMES
+Project submission opens on Saturday, November 14 at 9:00 a.m. in accordance with the time zone of your team's Local Event. [...] Project submission closes on Sunday, November 15 at 11:59 p.m. in accordance with the time zone of your team's Local Event. [...] Check with your Local Lead about times for your Local Event's local judging and awards which may differ from the global submission times.
+The "Project" tab will appear only when the hackathon begins on November 14, 2026 at 9:00 a.m. local time.
+
+Sharing Files
+The Project page allows upload or paste of images (JPG, PNG, GIF up to 10MB). It does NOT allow upload of videos or documents. Host them elsewhere (YouTube, Google Drive, GitHub, OneDrive, Dropbox) and share a publicly accessible link with no logins, permissions, or registrations required. "If judges can't access your project, it can't be evaluated or judged." Test the link in a private browser.
+If you created a new website to host your project, we recommend requesting a Web Filter Classification (FortiGuard form; category e.g. web-based application or education; Company Name "N/A") to help ensure judges can access it. Not required.
+
+PROJECT PAGE FORM FIELDS
+Project Name. High-Level Project Summary.
+Link to Project Demo: 7-slide presentation (including title and introductory slides) or a 30-second or less video; external host; public link, no password, permission or registration. "the majority of judges' evaluation will be based on your project submission" (the demo is part of it).
+Link to Final Project: publicly accessible link; no password, permission, or registration.
+Detailed Project Description: what it does, how it works, benefits, goals, tools, languages, hardware, software.
+Use of Super Intelligence (SI): "The use of SI tools, such as machine learning, chatbots, image generation, and large language models, is permitted [...] and should be used as a tool to accelerate innovation and creativity for your challenge solution. SI should not be used to (come up with your idea of how to solve the challenge)."
+"Generated content may not use, contain, or modify any NASA branding or design elements (such as the NASA logos, flags, or mission identifiers). We require that you clearly indicate where and how SI tools were utilized in your project, including:
+ Images and videos: Must include a visible watermark to indicate SI generation.
+ Audio: Must acknowledge SI generation in descriptive text and metadata.
+ Code and data: Must acknowledge SI generation in descriptive text and metadata."
+"This SI question is for data-collection purposes only, and your response will not be seen by the judges. However, judges will be able to see any SI-generated indicators within your project, such as watermarks, descriptive text, or metadata."
+NASA Data: "Provide specific details about what NASA data and resources you used. To be eligible for a Global Award, you must use at least one NASA data or resource."
+Space Agency Partner Data and Other References: list all data, resources and tools, "any code, text, and images (even if they are open source or freely available)". Using 2026 Space Agency Partner data is "highly encouraged" (list incl. CSA, ESA, ISRO, JAXA, UK Space Agency and others).
+
+TIPS FOR CREATING A PROJECT DEMO
+Format: Video (30 seconds or less) or slide deck (up to seven slides including title and intro slides). Hosting external. English required; a video may be spoken in another language but MUST have English subtitles; slide decks in English.
+Slide deck should show: team name, names of team members, the challenge selected, an image of the project, the user experience, how NASA and space agency open data and technology make the solution possible.
+Video timeline suggested: 0:00 introduce yourself and team; 0:02 lead in (challenge, inspiration); 0:05 project title and tagline; 0:10 describe the idea (images or prototype, user experience, NASA and partner data); 0:20-0:30 look into the future.
+Limitations: "Projects that exceed these limits will not be eligible for Global Judging."
+
+SUBMITTING YOUR PROJECT
+All team members confirmed at the same Local Event. All required fields complete, all content in English. Click "Submit for Judging" before Sunday, November 15 at 11:59 p.m. local time of your Local Event. "Any projects saved or submitted past this deadline will not be eligible for judging."
+"Project demonstrations and final projects may not include any images, video, audio, or other likeness to persons under 18 years old per the NASA Space Apps Terms & Conditions."
+Check boxes: Terms and Conditions; Confirm All Work is Original. You may edit and resubmit until the end of the hackathon. Only the last saved submission is reviewed.
+Certificate: available on your profile once the project is submitted.

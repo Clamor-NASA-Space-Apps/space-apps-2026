@@ -1,0 +1,88 @@
+First Landing Site/Exploration Zone Workshop for Human Missions to the Surface of Mars (2015)                              1040.pdf
+
+
+       GROUND TRUTH ASSESSMENT OF THE GALE CRATER REGION USING MARS SCIENCE
+       LABORATORY DATA FOR CHARACTERIZATION OF POTENTIAL HUMAN MISSION LANDING
+       SITE AND IN SITU RESOURCE UTILIZATION. S. Montaño1, S. Johnstone1, N. Lanza1, and D. Delapp1, 1Los
+       Alamos National Laboratory, Los Alamos, NM, sgordon@lanl.gov.
+
+
+           Introduction: Instruments and cameras on board          geochemistry of surface sediments [4], and the abso-
+       the Mars Science Laboratory (MSL) rover give ground         lute and relative ages of geologic events [5]. An exten-
+       truth information on chemistry, terrain, and atmospher-     sive study of Gale crater using data from the Mars Re-
+       ic characteristics of the rover’s traverse to Mount         connaissance Orbiter and Mars Odyssey orbital mis-
+       Sharp in the center of Gale crater. Analysis of this        sions was completed by [6], and current MSL data
+       unique and robust data set allows for a thought exper-      agree well on a local scale with the regional analyses
+       iment to determine the ability of a future robotics-        performed in 2010. In that study, the authors pointed
+       assisted human mission to survive diurnal temperature       out a dark-toned sheet of sand in the southwest area of
+       changes, navigate the terrain of the Curiosity rover’s      the crater. This sand is a Resource ROI that can be
+       traverse, and find, access, and exploit materials for in    explored (along its edges until the depth and mechani-
+       situ resource utilization (ISRU). The MSL rover has         cal properties are confirmed safe for astronauts and/or
+       been exploring Gale crater since August 2012 and has        rovers to traverse) as a potential location of minimally-
+       observed many different geologic regions along its          altered soils that can be used for farming.
+       traverse to Mount Sharp, including an alluvial fan, lake        ISRU and civil engineering objectives. ISRU-
+       sediment deposits, dunes, and exposed outcrops [1].         related results from the science instruments on board
+       In-depth characterization of chemistry, morphology,         MSL indicate global hydrated soils [7] that could be
+       and environment in Gale gives this site an advantage        used as a water source for astronauts. Images of un-
+       over others, as we will be able to target resource loca-    consolidated material also showcase the availability of
+       tions on a smaller scale that would benefit a human         potential building materials and radiation shielding. A
+       mission. Gale crater has ground truth on the order of a     level, smooth, low thermal inertia, high albedo region
+       400-micron scale up to meters-long transects along the      has been chosen as a landing site with a site for infra-
+       more than 10-km path of the rover. Although the rov-        structure located less than 5 km to the northeast of the
+       er’s traverse is only 10 km long, with an analysis area     landing site. There are small craters near the infrastruc-
+       spanning up to 5 m on each side of the traverse, com-       ture site that could be used as ready-made radiation
+       parison of the local-scale MSL data with orbital data       shielding, and there is evidence of abundant, loose
+       from Odyssey and MRO gives a much better idea of            regolith on the crater floor that can be used for con-
+       what to expect throughout a 100 km-diameter Explora-        struction [8]. These soils have also been shown, along
+       tion Zone (EZ) at Gale. This crater meets the general       the MSL traverse, to contain about 2 wt % H2O in soil
+       criteria for a candidate landing site, with an elevation    minerals and 3 to 6 wt % H2O in the soil’s amorphous
+       of less than 2 km and a near-equatorial latitude of 4° S.   component [9]. Extrapolating this finding to the infra-
+       Specific examples of MSL results leading to candidate       structure site chosen in this study, there is more than
+       Regions of Interest (ROIs) and an ideal location for the    enough hydrated soil to yield water for ISRU activities
+       Landing Site (LS) as outlined in [2] are discussed be-      as outlined in [2]. MSL has also found evidence of
+       low. All locations are labeled in Figure 1.                 cobble-sized rocks that were transported into the crater
+           Regions of Interest (ROIs). Gale has the ad-            by a fluvial environment [10]. As [6] discussed, the
+       vantage of hosting a current robotic mission that has       entire crater shows evidence of fluvial environments
+       confirmed past habitability [1]. The traverse of MSL,       and so it can be expected that cobble-sized rocks will
+       therefore, is the most obvious Science Region of Inter-     also be available at the site chosen for infrastructure
+       est (ROI) to confirm and expand on the findings of the      construction.
+       mission so far. Mount Sharp is the second most im-              Mining in Gale crater may mimic terrestrial tech-
+       portant Science ROI, as its layers hold evidence of past    niques to extract Si and Fe from materials. Both of
+       climate, chemical, and aqueous environmental condi-         these elements can be used as construction materials to
+       tions. Exploration of the MSL traverse and Mount            build the infrastructure in the exploration zone, and
+       Sharp will help answer the majority of the science ob-      both elements must be reduced from minerals using the
+       jectives outlined in [2]. Examples of MSL findings that     carbon monoxide in the martian atmosphere [11].
+       can be confirmed and expanded upon by further analy-        There have been instances of extremely high silica in
+       sis during a human mission include confirmation of          rocks in Gale crater [12] and the ubiquitous iron oxides
+       past habitability [1], methane detection [3], elemental     give Mars its red color; therefore, Gale
+First Landing Site/Exploration Zone Workshop for Human Missions to the Surface of Mars (2015)                                   1040.pdf
+
+
+       meets the requirement outlined in [2] for potential to       to reinforce any wheeled vehicles and avoid similar
+       mine these elements.                                         damage during a long-term human expedition.
+           Engineering constraints. The landing site criteria
+       outlined in [2] are met in the location labeled in Figure        References: [1] Grotzinger, J. et al. (2014) Science, 343,
+       1. This landing site is relatively level, smooth, and free   DOI: 10.1126/science.1242777. [2] Workshop Supplemental
+       from hazards. The infrastructure construction site is        Background Information, http://www.hou.usra.edu/meetings/
+       located far enough from the landing site that an ac-         explorationzone2015/supplemental_background
+       ceptable “lander blast zone” will not be obstructed by       _information.pdf. [3] Webster, C. R. et al. (2014) Science,
+       building materials or ISRU facilities. With regard to        347, 415-417. [4] McLennan, S. et al. (2014) [5] Grant, J. A.
+       traversing across the crater to get to the ROIs outlined     et al. (2014) JGR, DOI: 10.1002/2013GL058909
+       above, the best small-scale data lie with the wheel          [6] Anderson, R. B. and Bell III, J. F. (2010) Mars, 5, 76-
+       wear seen at Gale with MSL. Orbital images give good         128. [7] Meslin, P.-Y. et al. (2013) Science, 341, DOI:
+       indications of which terrain is navigable within a land-     10.1126/science.1238670. [8] Anderson, R. C. et al (2015)
+       ing site but in situ experimentation has shown the lim-      Icarus, 256, 66-77. [9] Leshin, L. A. et al. (2013) Science,
+       its of a large rover with aluminum wheels driving            341, DOI: 10.1126/science.1238937. [10] Williams, R. M.
+       through sand, over rocks, and up inclines [13]. In par-      E. et al. (2013) Science, 340, 1068-1072. [11] Badescu, V.
+       ticular, ventifacted rocks have been encountered at          (Ed.) (2009), Mars: Prospective Energy and Material Re-
+       Gale that have damaged the rover’s wheels much more          sources, Springer. [12] Frydenvang, J. (2015) AGU, submit-
+       quickly than expected. With this knowledge of the            ted. [13] White, C. et al. (2014) Aerospace Conference, 2014
+       environment at Gale, proper precautions can be taken         IEEE,           DOI:           10.1109/AERO.2014.6836407.
+
+
+
+
+       Figure 1. Gale crater Exploration Zone. Red Ovals= Science Regions of Interest (ROIs), Blue Ovals= Resource
+       ROIs, Green Oval= Infrastructure Site, Black Diamond = Landing Site. MSL Traverse as of August 2015 shown as
+       white line in upper Science ROI.
+

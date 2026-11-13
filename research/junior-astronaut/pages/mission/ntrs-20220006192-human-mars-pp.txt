@@ -1,0 +1,415 @@
+National Aeronautics and Space Administration
+
+
+
+
+                                          Planetary Protection Guidelines
+
+                     Science Objectives for Human Exploration of Mars Workshop
+                                             Denver, CO
+                                                                    May 4, 2022
+
+                                                                 J. Nick Benardini
+                                                            Planetary Protection Officer
+
+                                                                    Elaine Seasly
+                                                         Deputy Planetary Protection Officer
+                                                                    J. Andy Spry
+                                                SETI Institute / NASA Planetary Protection Consultant
+
+
+
+
+ Office of Planetary Protection                                     sma.nasa.gov
+                                                                         v
+    Planetary Protection Policy for Crewed Missions
+
+      Protecting solar system bodies from contamination by Earth life to enable
+     scientific exploration and protecting Earth from possible harmful biological
+         contamination that may be returned from other solar system bodies.
+•    The intent of planetary protection is the same whether a mission to Mars is conducted robotically or
+     with human explorers.
+       • Enable exploration and protecting both Mars + Earth’s biosphere.
+
+•    Forward PP applies to crewed missions. Enabling scientific exploration through managing the
+     contamination of Earth-based organisms of Mars for current and future missions.
+       • It’s not possible for all human-associated processes and mission operations to be conducted within
+          closed systems – need to understand human contamination influence to guide decision making.
+       • Monitor microbial communities, minimize/mitigate contamination release and environmental
+          transport modeling required to manage contamination.
+       • Precursor missions may be required to gain knowledge/establish baseline .
+       • The more we know the more we can safely explore.
+
+•    Backward PP applies to crewed missions. Protecting the Earth’s biosphere from Mars contamination
+     is the highest priority.
+       • Crew exploring Mars, and/or their support systems, will inevitably be exposed to martian materials
+           – need to understand quarantine capabilities, sample containment handling and testing protocols.
+                                                                                                          2
+
+
+
+Office of Planetary Protection                  sma.nasa.gov
+                                                    v
+  Notional Forward PP Mars Exploration Trade Space
+                                                              REQUIREMENTS
+                                                                                                           Prescriptive
+                                                                                                                                                            Credit: NASA
+
+                                                                                                                                                                                                    Credit: NASA
+
+                                                                                                                                                                                      Robotic - Mars Lander
+                   Credit: NASA/JPL-Caltech    Credit: NASA                                                                        Credit: NASA                                        PP Category IVb –
+                                                                                  Credit: NASA/JPL-Caltech/MSSS                                                                          Life Detection
+    Robotic - Mars Orbiter                      Robotic - Mars Orbiter                                                                                                                   Viking Lander
+PP Category III – Orbital Lifetime
+                                                                                                                                     Robotic - Mars Lander / Rover
+                                              PP Category III – Bioburden        Robotic - Mars Lander   / Rover
+        Mars Odyssey
+                                                                                                  NASA/JPL-Caltech               PP Category IVc – Mars Special Region
+                                                  MAVEN mission                         PP Category IVa
+                                                                                                                                            Phoenix Lander
+                                                                               Mars Science Laboratory – Curiosity
+
+                                      Knowledge Gaps
+
+  IMPLEMENTATION                                                                                                                                    Credit: CoSTAR / NASA / CalTech
+
+
+
+
+    Easier                                                                                                                                                                                Challenging
+                                                                                                                                                    Credit: NASA
+
+
+                                                                                                                                                     Crewed
+                                                                                                                                                     Credit:
+                                                                                                                                                      Credit:NASA
+                                                                                                                                                              NASA
+                                                                                                                                                                  + Robotic -
+                                                                                                                                                  Special Region Exploration
+                                                                                                                  Credit: NASA
+
+
+
+                                                                            Crewed – Habitat / Close EVA Study
+            Key
+            Robotic
+            Robotic + Crewed
+                                                                                                                                                   Credit: NASA
+
+
+
+            Crewed                                                                                                                 Crewed – Habitat / Far
+                                                                                                                                  (kilometers?) EVA Study
+                                                                                                                                                                                                   Credit: ESA
+
+
+
+                                                                                                                                                                    Crewed Special Region/Sampling for
+                                                                                                             Performance Based                                                                         3
+                                                                                                                                                                      life detection/In-situ life detection
+
+
+
+    Office of Planetary Protection                                                       sma.nasa.gov
+                                                                                                   v
+Notional Backward PP Mars Exploration Trade Space
+                                 REQUIREMENTS
+                                                  Prescriptive
+
+
+
+
+                   Knowledge Gaps
+
+
+
+IMPLEMENTATION
+Easier                                                                     Credit: NASA/JPL-Caltech/MSSS
+                                                                                                                     Challenging
+                                                                   Robotic – PP Category V(r), MSR Campaign
+                                                           Sample Hardware Cleanliness, Earth Return Safety Assurance
+
+
+
+
+     Key
+     Robotic
+     Robotic + Crewed                                               Credit: NASA
+
+
+     Crewed                                                Crewed – Sample Return + Quarantine +
+                                                           Onboard Sample Glove Box Assessment                  Credit: NASA
+
+
+
+                                                                                               Crewed – Sample Return + Quarantine +
+                                                   Performance Based                               Onboard Sample Assessment 4
+
+
+
+
+Office of Planetary Protection             sma.nasa.gov
+                                                v
+               Planetary Protection Concept* for A Crewed
+                             Mission to Mars
+
+
+1 Human Habitats                                                                       3 Unexplored Hypothetical
+                                                                                       Special Region/Potential SR
+
+                                               Assay #1
+
+
+                                         Assay #2
+                          Lab
+                                                    Clean Rover Site
+                          Hab                                                       2b, 3 Potential “Life Sites”
+ 1, 2a “Safe Zone” established                                                      defined from remote
+ from precursor missions (may                                                       sensing data
+ be entire planet)
+                                                                               2b Hypothetical
+                                                                             Special Region with                     Robotic/Teleoperation
+                                                                             Robotic Exploration                     Human Traverse
+                                2a Safe Zone for
+                                     Human
+                                Activities (ZMBR)                                                                        5   5
+                                                                                                                                   5
+
+
+   Office of Planetary Protection
+             *Criswell, M.E., et al., 2005. Planetary Protection Issues in the Human Exploration of Mars, Final Report May 9, 2005
+                                                               sma.nasa.gov
+                                                                  v
+             (workshop held June 2001), NASA, Ames Research Center, Moffett Field CA, NASA/CP – 2005-213461
+ Mars Special Regions should NOT be contaminated
+     Special Regions Areas or volumes within which sufficient water activity AND sufficiently warm
+      temperatures to permit replication of terrestrial organisms may exist.
+       –    Water activity: lower limit, 0.5; upper limit, 1.0;
+       –    Temperature: lower limit, –28°C; no upper limit defined; and
+       –    Timescale within which limits can be identified: 500 years.
+       No confirmed naturally occurring Special Regions on modern Mars – but some features remain “Uncertain”
+     Uncertain Regions are treated as Special Regions until proven otherwise:
+       –    Sources of methane (if identified);
+       –    Recurring slope lineae;
+       –    Gullies and bright streaks associated with gullies;
+       –    Pasted-on terrains;
+       –    Caves, subsurface cavities and
+              subsurface below 5 meters; and
+       –    Others, to be determined, including dark slope
+              streaks, possible geothermal sites, fresh craters with hydrothermal activity, modern outflow channels,
+              or sites of recent seismic activity.
+National Academies of Sciences, Engineering, and Medicine 2015. Review of the MEPAG Report on Mars Special Regions.
+                                                                                                                    6
+Washington, DC: The National Academies Press. https://doi.org/10.17226/21816.
+
+
+Office of Planetary Protection                           sma.nasa.gov
+                                                              v
+ Knowledge Gap Areas
+
+     Natural transport of contamination on Mars
+     – Understanding the environmental processes on Mars that contribute to transport,
+        survival and replication of microbes released by human activities
+
+
+     Microbial and human health monitoring
+     – Evaluation and monitoring of microbial communities associated with human
+        systems, both for their initial state and changes over time
+
+
+     Technology and operations for contamination control
+     – Designs, methods and procedures for controlling contamination release of human
+        spacecraft systems
+
+
+                                                                                         7
+
+
+
+Office of Planetary Protection               sma.nasa.gov
+                                                 v
+Path to Closing Knowledge Gaps and Establishing PP Requirements
+
+
+  Workshops Timeline
+         2015                           2016                    2018                        2018 & beyond
+
+
+
+                                                                                                      
+                                                                                  COSPAR Working Meeting on Contamination
+                                                                                  Transport on Mars at LPI, May 2018
+
+
+
+
+                                                                                                   
+   NASA Workshop                   1st COSPAR             2nd COSPAR              COSPAR Working Meeting on Microbial Monitoring
+      at Ames                     Meeting at LPI          Meeting at LPI          & Health at LPI, May 2019
+
+                                                                                  COSPAR Working Meetings on Spacecraft Systems
+                                                                                  (virtual) May 2020 and June 2022
+
+
+    Identification of              Refinement and        Mission Opportunity      Measurements and
+  Planetary Protection              prioritization of      identification for      Payload/Operation
+  Knowledge Gaps for             Planetary Protection   addressing Planetary    Concepts for addressing
+   human missions to             Knowledge Gaps for     Protection Knowledge      Planetary Protection
+         Mars                     human missions to       Gaps for human          Knowledge Gaps for
+                                          Mars            missions to Mars      human missions to Mars
+
+    What Knowledge                …in what order…       …using what missions…        …to make what
+        Gaps…                                                                        measurements…
+
+       …to establish the right quantitative and implementable planetary protection requirements for safe
+                               and sustainable exploration and utilization of Mars.
+                                                                                                                              8
+
+
+
+Office of Planetary Protection                            sma.nasa.gov
+                                                               v
+Path to Closing Knowledge Gaps and Establishing PP Requirements
+
+
+  Workshops Timeline
+         2015                           2016                    2018                        2018 & beyond
+
+
+
+                                                                                                      
+                                                                                  COSPAR Working Meeting on Contamination
+                                                                                  Transport on Mars at LPI, May 2018
+
+
+
+
+                                                                                                   
+   NASA Workshop                   1st COSPAR              2nd COSPAR             COSPAR Working Meeting on Microbial Monitoring
+      at Ames                      NASAat will
+                                  Meeting   LPI likely adapt
+                                                        Meeting COSPAR
+                                                                at LPI workshop
+                                                                         & Health at LPI, May 2019
+
+                                  findings in an update to the NID8715.129          to
+                                                                         COSPAR Working Meetings on Spacecraft Systems
+                                 establish planetary protection requirements         for
+                                                                         (virtual) May 2020 and June 2022
+
+                                          the first crewed mission to Mars
+    Identification of              Refinement and        Mission Opportunity      Measurements and
+  Planetary Protection              prioritization of      identification for      Payload/Operation
+  Knowledge Gaps for             Planetary Protection   addressing Planetary    Concepts for addressing
+   human missions to             Knowledge Gaps for     Protection Knowledge      Planetary Protection
+         Mars                     human missions to       Gaps for human          Knowledge Gaps for
+                                          Mars            missions to Mars      human missions to Mars
+
+    What Knowledge                …in what order…       …using what missions…        …to make what
+        Gaps…                                                                        measurements…
+
+       …to establish the right quantitative and implementable planetary protection requirements for safe
+                               and sustainable exploration and utilization of Mars.
+                                                                                                                              9
+
+
+
+Office of Planetary Protection                            sma.nasa.gov
+                                                               v
+ Summary
+
+  Forward and backward contamination applies to crewed missions to
+      enable exploration and protect Earth’s biosphere from return samples.
+  NID 8715.129 defines key assumptions and parameters.
+  Robotic prescriptive requirements are impractical for crewed missions.
+      Thus, knowledge/capability gaps have been defined to help further
+      develop policy.
+        – Requires the development of risk-informed decision-making implementation
+             strategies to balance exploration, science, commercial activities and safety.
+  PP shouldn’t impede science planning activities: it just has to be
+      balanced with the technology development to enable the science needs
+      while meeting PP intent.
+
+                                                                                             10
+
+
+
+Office of Planetary Protection             sma.nasa.gov
+                                               v
+ References
+
+     NID 8715.129 – Biological Planetary Protection for Human Missions to Mars
+     Committee on Space Research (COSPAR) Planetary Protection Policy, June 3, 2021
+     Reports of the COSPAR workshop series on PP Knowledge Gaps for Crewed Mars Missions,
+      downloadable from the Conference Documents section at https://sma.nasa.gov/sma-
+      disciplines/planetary-protection
+     National Academies of Sciences, Engineering, and Medicine 2015. Review of the MEPAG Report on
+      Mars Special Regions. Washington, DC: The National Academies Press https://doi.org/10.17226/21816
+     2008 COSPAR Human Exploration Planetary Protection Guidelines
+     Hogan, J.A. et al. (2006) NASA Technical Memorandum NASA/TM-2006-213485 Life Support and
+      Habitation and Planetary Protection Workshop Final Report
+     Criswell, M.E., et al., 2005. Planetary Protection Issues in the Human Exploration of Mars, Final Report
+      May 9, 2005 (workshop held June 2001), NASA, Ames Research Center, Moffett Field CA, NASA/CP –
+      2005-213461
+     National Academies Press (2002); Safe on Mars: Precursor Measurements Necessary to Support
+      Human Operations on the Martian Surface http://www.nap.edu/catalog/10360.html
+
+                                                                                                             11
+
+
+
+Office of Planetary Protection                   sma.nasa.gov
+                                                     v
+Backup
+
+
+
+
+Office of Planetary Protection   sma.nasa.gov
+                                     v
+Knowledge-Based Robotic to Crewed Transition Assumptions*
+
+        Human spaceflight hardware leaks (in nominal and off-nominal operation), so the
+         old robotic paradigm of managing a fixed bioload is inappropriate.
+        The introduction of a maintained temperate terrestrial environment at the martian
+         surface affords the opportunity for many more organisms (in type and quantity) to
+         escape into the martian environment.
+        This exploration is taking place in a post-Mars Sample Return (MSR) context
+         where martian life was NOT (yet?) discovered at the martian surface/shallow
+         subsurface in returned Mars material, but we know a lot more about Mars from
+         those samples.
+        Knowledge gaps need to be understood and preferably closed before launch to
+         protect science return and the Earth.
+
+
+    * Developed as ground rules for the 2020 COSPAR “4th Workshop on Refining Planetary Protection
+    Requirements for Human Missions” – see the Conference Documents section at
+    https://sma.nasa.gov/sma-disciplines/planetary-protection
+                                                                                                     13
+
+
+
+Office of Planetary Protection                  sma.nasa.gov
+                                                    v
+ NID 8715.129 – Biological PP for Human Missions to Mars
+ PP General Paradigm
+
+ a. “Safeguarding the Earth from potential back[ward] contamination
+        is the highest planetary protection priority in Mars exploration.”
+ b. “The greater capability that human explorers can contribute to the
+        astrobiological exploration of Mars is only valid if human-
+        associated contamination is controlled and understood.”
+ c.     “For a landed [human] mission conducting surface operations, it
+        will not be possible for all human-associated processes and
+        mission operations to be conducted within entirely closed
+        systems.”
+ d. “[Humans] exploring Mars, and/or their support systems, will
+        inevitably be exposed to martian materials.”
+                                                                             14
+
+
+
+Office of Planetary Protection        sma.nasa.gov
+                                          v
+
