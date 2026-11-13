@@ -1,0 +1,1052 @@
+  Mars Hybrid Propulsion System Trajectory Analysis
+               Part I: Crew Missions
+                                Patrick R. Chai∗ and Raymond G. Merrill†
+                         NASA Langley Research Center, Hampton, VA, 23681-2199, USA
+
+                                                       Min Qu‡
+                   Analytical Mechanics Associates Inc., Hampton, VA, 23666-6413, USA
+
+     NASAs Human spaceflight Architecture team is developing a reusable hybrid transporta-
+     tion architecture in which both chemical and electric propulsion systems are used to send
+     crew and cargo to Mars destinations such as Phobos, Deimos, the surface of Mars, and other
+     orbits around Mars. By combining chemical and electrical propulsion into a single space-
+     ship and applying each where it is more effective, the hybrid architecture enables a series
+     of Mars trajectories that are more fuel-efficient than an all chemical architecture without
+     significant increases in flight times. This paper provides the analysis of the interplanetary
+     segments of the three Evolvable Mars Campaign crew missions to Mars using the hybrid
+     transportation architecture. The trajectory analysis provides departure and arrival dates
+     and propellant needs for the three crew missions that are used by the campaign analysis
+     team for campaign build-up and logistics aggregation analysis. Sensitivity analyses were
+     performed to investigate the impact of mass growth, departure window, and propulsion
+     system performance on the hybrid transportation architecture. The results and system
+     analysis from this paper contribute to analyses of the other human spaceflight architecture
+     team tasks and feed into the definition of the Evolvable Mars Campaign.
+
+
+                                                  Nomenclature
+    ARRM          Asteroid Redirect Robotic Mission
+    CP            Chemical Propulsion
+    EMC           Evolvable Mars Campaign
+    EP            Electric Propulsion
+    HAT           Human spaceflight Architecture Team
+    HERMeS        Hall Effect Rocket with Magnetic Shielding
+    HPS           Hybrid Propulsion Stage
+    LDHEO         Lunar Distant High Earth Orbit
+    LDRO          Lunar Distant Retrograde Orbit
+    LGA           Lunar Gravity Assist
+    ROSA          Roll-Out Solar Array
+    SEP           Solar Electric Propulsion
+    SLS           Space Launch System
+
+                                                I.    Introduction
+  HE National Aeronautics and Space Administration is currently developing an Evolvable Mars Cam-
+T paign              1
+        (EMC) in support of the policies outlined in the 2010 NASA Authorization Act and U.S.
+  ∗ Aerospace Engineer, Space Mission Analysis Branch, MS 462, 1 North Dryden Street, Hampton, VA, AIAA Member.
+  † Aerospace Engineer, Space Mission Analysis Branch, MS 462, 1 North Dryden Street, Hampton, VA, AIAA Senior Member.
+  ‡ Staff Scientist, 21 Enterprise Parkway, Suite 300, Hampton, VA 23666
+
+
+
+
+                                                         1 of 15
+
+                                   American Institute of Aeronautics and Astronautics
+National Space Policy.2 The EMC outlines an evolving long term strategy for expanding human presence
+into the solar system and on to the surface of Mars. The journey to Mars involves an incremental buildup
+of capabilities: from Earth reliant missions to expand the knowledge of operations in space, to missions in
+cis-lunar space for testing and certification of required technologies, and ultimately to Earth independent
+missions and long duration stays on the Martian surface.
+    Many different mission design concepts have been studied and proposed over the past three decades,
+and many more are currently being investigated. In most of these studies, chemical propulsion has been
+assumed for the crewed Mars missions because solar electric propulsion, even though much more fuel efficient,
+produces less thrust and is more suitable for cargo pre-deployment missions when the transit time can be
+much longer. NASAs Human spaceflight Architecture Team (HAT) is currently developing a new hybrid
+transportation architecture in which both chemical and electric propulsion are combined in an integrated
+design.3 The hybrid transportation architecture was developed with three key strategies that guides the
+mission design decisions:
+
+   • Use celestial energy resources to save propellant where time allows
+   • Maintain maximum orbital energy for the crew transport spaceship
+   • Reuse in-space architecture elements as much as possible
+
+Chemical propulsion is used close to planetary bodies to quickly send the spaceship in and out of the gravity
+wells, while electric propulsion is used during the long transits to provide continuous change in orbital energy,
+therefore reducing the ∆V requirements of the chemical maneuvers at escape and capture. By combining
+chemical and electric propulsion into a single architecture and applying each where it is more effective,
+the hybrid design enables a series of Mars trajectories that are more fuel efficient than the traditional
+“conjunction class” trajectories (< 1100 days total round-trip duration with > 300 days at Mars vicinity)
+without significant increase in total mission flight times. In addition, because no element is staged off, the
+hybrid architecture offers a transportation system that can be reused and applied to both crewed and cargo
+missions.
+    A common theme for human deep space mission is the aggregation and assembly of propulsion and crew
+support elements. The ability to launch an entire spaceship that is pre-integrated and able to fly round-trip to
+Mars has only been possible with very large launch vehicles. One of the hybrid architecture’s objectives is to
+enable launch of an integrated vehicle that only requires rendezvous with fuel and supplies to enable multiple
+trips from cis-lunar space to Mars. In order to minimize the mass required, orbital energy is maximized
+and propellant required is minimized across trajectories from cis-lunar space to and from Mars by utilizing
+a combination of lunar gravity assists (LGA), solar perturbation loops, and high energy elliptical parking
+orbits.
+    This paper, along with its companion paper,4 analyzes the interplanetary segments of the EMC tra-
+jectories using the hybrid transportation architecture. This paper focuses on the crew missions, while the
+companion paper focuses on the cargo missions. The paper will show the baseline architecture for the crew
+missions, summary of the design of the hybrid propulsion stage, result of the interplanetary trajectory anal-
+ysis, and sensitivities of the trajectory to mass growth, departure date, and performance of the propulsion
+systems.
+
+                  II.    EMC Hybrid Crew Transportation Architecture
+    The initial Hybrid crew mission is depicted in Figure 1. Additional crew missions that reuse the integrated
+Mars spaceship begin with the vehicle in Lunar Distant Retrograde Orbit (LDRO) after the previous use.
+The crewed Mars mission begins with initial deployment and checkout of the integrated Hybrid Propulsion
+Stage (HPS) and the deep space transit habitat stack. The stack is launched on a NASA Space Launch
+System (SLS) directly to a characteristic energy (C3) of -2 km3 /s2 , targets an LGA and performs a six
+month transit to a stable LDRO. Upon arrival in a LDRO, the HPS/Habitat stack rendezvous with existing
+cis-lunar infrastructure and additional SLS are launched (or already waiting in LDRO) to transfer fuel and
+logistics required for the Mars missions. A check-out crew can visit the HPS/Habitat stack to assist in the
+refueling and outfitting if necessary.
+    After the HPS/Habitat stack has been fully fueled and stocked with logistics, the stack performs a six
+month transit from LDRO to lunar distant high Earth orbit (LDHEO) via a solar perturbation loop with a
+pair of LGAs. The Mars crew is launched on an SLS directly to the LDHEO, where they rendezvous with
+
+
+                                                      2 of 15
+
+                                American Institute of Aeronautics and Astronautics
+       0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+       00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                                                    MARS
+ Phobos
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        300 + crew days at destination
+ 1-Sol                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Crew travel to destination          Crew return from destination
+
+ Deimos                                                                                                                                                                                                                                                                                                                                                                                           Rendezvous with                                                                                                                                                                                                                                                                                                CPS re-captures                                                                                                                                                              Crew in Taxi rendezvous with
+                                                                                                                                                                                                                                                                                                                                                                                            Pre-Deployed Mars Taxi                                                                                                                                                                                                                                                                                               from Mars SOI                                                                                                                                                                Mars Transfer Vehicle
+ 5 – Sol
+ TransMars
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       CPS Boosts                                                                                                                                                                                                                                                                                                                             CPS performs EOI
+                                                                                                                                                                                                                                                                                                                                                                                       CPS performs MOI
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       to Mars SOI                                                                                                                               SEP aligns
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 for departure
+
+
+                                                                                                                                                                                                                                                                                                      Fresh logistics                                                                                                                                                                                                                                        SEP to Mars                                                                                                                                                                                                                             SEP to Earth
+                                                                                                                                                                                                                                                                                                      delivered
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 (C3 ~ 1)                                                                                                                                                                                                                            (to C3 = 2)
+                                                                                                                                                                                                                                                                                                      Bi-Prop and                                                                                                         LGA to C3 =
+ TransEarth                                                                                                                                                                                                                                                                                           xenon refueled                                                                                                      2 or powered
+                                                                                                                                                                                                                                                                                                                                                                                                                          LGA or ECA                                                                                                                                                                                                                                                                                                                                                                                                                                                                  LGA to
+ TransLunar                                                                                                                                                                                                                                                                                                                                                                                                               (opportunity
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ~ 200 day transfer                                                                                                                                                 Orion transfers from                                                                                                                   LDHEO
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            to LDRO                                                                                                                                                            LDRO ~ 200 days
+ (LDRO)                                                                                                                                                                                                                                                                                                                                                                                                                   dependent)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  C3 = -2
+ LD HEO                                                                                                                                                                                                                                                                                                                                                             ~ 200 day                                                                                                                                  Orion available for TBD, swap possible with crewed
+                                                                                                                                                                                                                                                                                                                                                                    transfer to                                                                                                                                 missions.Removes need for second crewed SLS                                                                                                                                                                                                                                                                                                                                     Logistics
+                                                                                                                                                                                                                                                                                                                                                                    LDHEO                                                                                                                                                   dedicated to Crew return                                                                                                                                                                                                                                                                                                                                            transfer
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Reuse for
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                Crew to LDHEO                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 two more
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                (with additional                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Mars
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                payload 10t)
+ LEO                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          missions
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Crew return
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            to Earth
+
+
+                                                                                                                                                                                                                SLS-Cargo
+                                                                                                Dry Hybrid Vehicle
+
+
+                                                                                                                                                                                                                                                                                                  SLS-Cargo
+                                                                                                and habitat Direct
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                              SLS-Crew                                                                                                                                                                                                                                                                                                                                                                                                               SLS-Crew
+                                                                                                     to DRO                                                                                                                                                                                                                                                                                                                                                                                                Note:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     SEP Thrusting
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           • SLS-Cargo for resupply could be                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Chemical Burn
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              replaced by some mix of commercially
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              available launch vehicles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              LGA
+                                                       00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                                        000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+                                                        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0
+                                                                                                          EARTH                             0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+                                                                                                                                                                                                                                                    Figure 1. Mars Hybrid Crew Mission Concept of Operation
+
+
+
+
+the HPS/habitat stack, transfer final logistics, and depart Earth in the HPS/habitat stack to Mars. From
+LDHEO, one or two LGA propels the crewed HPS stack to a C3 of 2 km3 /s2 . After Earth departure, the
+EP system uses low thrust mode (with Isp of 3,000 seconds) and thrusts for much of the interplanetary
+trajectory to increase the vehicle’s orbital energy to reach Mars. The crewed HPS stack arrives at Mars
+300-400 days after Earth departure with an arrival C3 less than 2 km3 /s2 , targeting a Mars close approach
+at 250 km altitude. The CP component of the HPS performs the Mars orbit insertion maneuver to capture
+into a highly elliptical Mars orbit with a period of 5-Sol.
+    Upon arrival at Mars, the pre-deployed Mars taxi or lander rendezvous with the crew HPS stack, then
+transfers the crew to their exploration destination. After the crew departs for their destination, the un-
+crewed HPS stack performs a series of maneuvers with both CP and EP systems to reorient itself into the
+proper orbit for the return trip. After a minimum stay of 300 days in the Martian sphere of influence, the
+crew completes its exploration mission and returns to the HPS stack using the Mars taxi or the Mars ascent
+stage. From there, the CP component of the HPS performs a perigee burn to depart Mars with a C3 between
+0.5 and 2 km3 /s2 . After Mars departure, the EP component uses high Isp mode (3,000 seconds) and thrust
+to reduce the spacecraft’s energy to target an Earth arrival C3 of less than 2 km3 /s2 . The stack captures
+back into LDHEO via one or two LGA sequence similar to Earth departure, but in reverse. An SLS launches
+an empty Orion to rendezvous with the crewed HPS stack to return the crew to Earth.
+    The HPS stack transfers from LDHEO to LDRO after the crew departs, using either a slow transfer (≈
+6 months) or fast transfer (≈ 10 days) depending on the departure window and fuel availability of the next
+mission. The fast transfer would require additional fuel to be carried by the SLS that brought the empty
+Orion capsule. Once in LDRO, the HPS rendezvous with existing cis-lunar infrastructure to perform refuel
+and resupply activities in preparation for the next trip to Mars.
+
+                                                                                                                                                                                                                                                                                  III.                                                                              EMC Hybrid Propulsion Stage
+   NASA Glenn Research Center’s COMPASS5 Team performed a detailed design of the EMC Hybrid
+Propulsion Stage. This effort resulted in a single baseline vehicle for the current EMC hybrid architecture
+which is utilized in for the initial feasibility study outlined in this paper. The vehicle’s design summary and
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               3 of 15
+
+                                                                                                                                                                                                                                                                                                          American Institute of Aeronautics and Astronautics
+                                             Design Constraints/Parameters
+                                             Designed Lifetime                                   5500+ days     Category                     Mass, kg
+                                             Destination                                       Phobos / Mars    Structure                      5,100
+                                             Stage Diameter                                           7.20 m    Protection                     1,080
+                                             Stage Length                                             8.03 m    Electric Propulsion            3,140
+                                             Main Propellant Type        Xenon                MMH/N2O4          Chemical Propulsion            1,300
+                                             # Engines / Type        24 x 13.3 kW Hall      10 x Aerojet R42    Power                          5,740
+            Flight Configuration             Engine Thrust (100%)                                      890 N    Avionics & Control               160
+                                             Engine Isp (100%)      3000 sec @ 800 V                303 sec     Growth                         4,960
+                                             # of Restarts                        10+                    15+    DRY MASS SUBTOTAL             21,480
+                  7.20 m
+                                             # of Tanks           12 x ARRM Xe Tank         8 x ATK 80434-1     Max Xenon Load                23,100
+                                             Tank Material                      COPV                    Al/Ti   Max Bi-Prop Load              18,600
+                                                                                                                TOTAL MAXIMUM
+                                   5.31 m                                                                       WET MASS (w/o Payload)         63,180
+                                             RCS Propellant Type
+                                             # Engines / Type                            32 x Astrium S22-02
+  13.34 m          6.96 m                    Engine Thrust (100%)                                       22 N    Payloads                      Mass, kg
+                                             Engine Isp (100%)                                       285 sec    Deep Space Transit Habitat     40,500
+                                                                                                                Mars Surface Lander            43,600
+                                   7.30 m    Power System                                                       Phobos Surface Habitat         32,000
+                                             Arrays                  300V MegaROSA + 120V Body Mounted          Mars Taxi                      13,500
+                                             BOL Generation             435kW Main + 7.5kW Commissioning        Pressurized Excursion Vehicle   7,500
+                                             Structure                                   ISS SARJ Gimbals
+        Stowed Configuration w/              Cell Type/ Efficiency                  Li-ion, 23.8kWH @ 28V
+            Transit Habitat
+
+
+                                            Figure 2. Hybrid Propulsion Stage Design Summary
+
+
+
+
+mass break down is shown in Figure 2. The EMC HPS is a single SLS Block 2 10 m shroud launched, 400
+kW class, hybrid SEP-Chemical vehicle that is capable of up to three round-trips between LDRO and Mars
+elliptical 5-Sol orbit. The HPS utilizes two main propulsion systems: a chemical bi-propellant engine that
+utilizes monomethylhydrazine and nitrogen tetroxide as propellants, and a solar electric propulsion system
+derived from the NASA Asteroid Redirect Robotic Mission(ARRM)6, 7 block 1A 150 kW class vehicle. The
+COMPASS team combined the components of two 150 kW ARRM block 1A SEP modules into a single
+vehicle to create the EMC hybrid propulsion stage. An outer structure is wrapped around the two ARRM
+SEP modules, and propellant tanks and feed lines are added for the chemical propulsion(CP) system.
+
+                             Z^WŽĚ;ϰͿ
+
+
+
+
+                         ,ZDĞ^ ,Ăůů
+                         dŚƌƵƐƚĞƌƐ;ϮϰͿ
+                         ZͲϰϮdŚƌƵƐƚĞƌƐ;ϭϬͿ
+
+                              Figure 3. EMC Hybrid Propulsion Vehicle in the Stowed Configuration
+
+
+    The main propulsion system consists of 24 13.3 kW Hall Effect Rocket with Magnetic Shielding (HER-
+MeS)8, 9 thrusters and ten Aerojet R-42 890 N bi-propellant thrusters.10 The HERMeS thrusters are cur-
+rently under development at NASA Glenn Research Center for the ARRM SEP module. These Hall thrusters
+have a nominal specific impulse of 3,000 seconds at 800 V and can operate in a high thrust mode with an Isp
+of 2,000 seconds. The Aerojet R-42 thrusters have a nominal Isp of 303 seconds and can produce 890 N of
+thrust with an oxidizer-to-fuel ratio of 1.65. The HPS has twelve ARRM designed composite overwrapped
+pressure vessels (COPV) xenon tanks that each have a nominal load of 2,000 kg and eight ATK11 model
+80434-1 derived aluminum/titanium bi-propellant tanks that each have a nominal load of 2,325 kg per tank.
+
+
+                                                                         4 of 15
+
+                                             American Institute of Aeronautics and Astronautics
+                                  Habitat Docking                                             NOTE: Mega ROSA Array
+                                   Port (3 Total)   Habitat Radiator                            Panels Not Shown
+                                                       (2 Total)
+                                                                       Habitat 2-m Dish
+                             Habitat                                      Antenna                                        Refueling
+                                                                                                                        Docking Port
+
+
+                     Mega ROSA
+                     Array Boom
+                                                                                                                           Solar Array Gimbal
+                                                                                                                                 (2 total)
+
+
+                                                                                                                                   Mega ROSA
+                                                                                                                                   Array Boom
+
+                     X-Band 1-m Dish
+                     Antenna (2 Total)                                                                                          UHF Antennas
+
+
+
+
+                    RCS Pod (4 pods
+                     of 8 thrusters                           Radiator                                                          Radiator
+                                                                          X-Band 1-m Dish
+                         each)             Star                           Antenna (2 Total)
+                                         Trackers   Commissioning
+                                                                                                          AARM Thrusters and
+                                                       Array                        Chemical Thrusters
+                                                                                                           Gimbals (24 Total)
+                                                                                        (10 Total)
+
+
+
+                        Figure 4. EMC Hybrid Propulsion Vehicle Components Description
+
+
+
+
+The bi-propellant tanks are a stretched version of the 80434 which provide increased capacity. The thruster
+arrangements are shown in Figure 3. In addition to the two primary propulsion systems, the HPS also has
+thirty-two Astrium S22-0212 reaction control thrusters located in four pods around the spacecraft with eight
+thrusters in each pods.
+    Two 300 V Roll-Out Solar Array (ROSA)13 wings are attached to International Space Station derived
+solar alpha rotary joint gimbals14 to provide the main electrical power to the SEP system. Each of the solar
+array wings consists of ten winglets: six long 5 m x 23 m winglets similar to the ARRM SEP vehicle, and
+four short inner 5 m x 14 m winglets to avoid the thrust plume from the SEP thrusters. The arrays are
+sized to produce 435 kW of power at beginning of life at Earth distance (1 AU ). The main array supplies
+the SEP thrusters with all the power they require to perform the nominal thrusting operation; additionally,
+the main array supplies 14 kW of power to the transit habitat for the crew. In addition to the main solar
+array, the vehicle also has a body-mounted commissioning array that provides 8 kW of power at 120 V prior
+to the ROSA deployment. For eclipse operation, the vehicle carries lithium ion batteries with 25 kW − hr
+capacity at 28 V . The remaining sub-components and their locations are shown in Figure 4.
+
+                                         IV.        EMC Crew Mission Summary
+
+               Table 1. Logistics and Spares Loading for EMC Hybrid Architecture Crew Missions
+
+                                                                2033 (Phobos)                     2039 (Mars)              2043 (Mars)
+            Initial Logistics Load                                  17,400                           17,700                   17,700            kg
+            Mars Arrival Waste Dump                                 -2,630                           -3,470                   -3,230            kg
+            Mars Departure Waste Dump                               -4,890                           -3,620                   -3,620            kg
+            Earth Arrival Waste Dump                                -2,680                           -3,080                   -3,330            kg
+            Final Logistics Load                                    7,200                             7,530                   7,520             kg
+
+    The Evolvable Mars Campaign calls for nominal crew missions to the Martian sphere of influence in 2033,
+2039, and 2043. The hybrid transpiration architecture utilizes a single integrated hybrid propulsion stage
+and transit habitat to perform all three of the crew transits from Earth to Mars and back. The logistics
+loading for each of the missions is dependent upon the outbound and inbound transit time as well as the stay
+time within the Martian sphere of influence. In addition, the amount of waste that is available for removal
+prior to the chemical burns is also dependent upon the interplanetary trip times. The logistic loading for the
+three initial crew missions are shown in Table 1. Currently, EMC assumes the unused logistics and spares
+after Earth return is discarded and new logistics and spares are delivered for the next mission.
+
+
+
+                                                                          5 of 15
+
+                                           American Institute of Aeronautics and Astronautics
+A.            2033 Crew to Phobos
+
+
+                                                  Arrive: Mars                                      Arrive: Earth
+               1.5                                1/1/2034                             1.5          1/4/2036
+                                                  tof: 305 days                                     tof: 316 days
+                                                  mass: 74572 kg                                    mass: 55599 kg
+                                                                                                    v : 1.41 km/s
+                1     Depart: Earth               v : 1.38 km/s                          1           ∞
+                                                      ∞
+                      3/2/2033
+                      (mass: 97517 kg)
+               0.5    v∞: 1.41 km/s                                                    0.5
+
+
+     Y (AU)     0                                                            Y (AU)      0
+
+
+              −0.5                                                                    −0.5 Depart: Mars
+                                                                                          2/22/2035
+                                                                                          mass: 66022 kg
+               −1                                                                      −1 v∞: 0.94 km/s
+
+
+              −1.5                                                                    −1.5
+
+                     −1.5   −1    −0.5      0   0.5           1   1.5                        −1.5   −1     −0.5      0   0.5     1      1.5
+                                         X (AU)                                                                   X (AU)
+
+                                                          Figure 5. 2033 EMC Crew Mission
+
+
+    The 2033 crew mission to Phobos utilizes a brand new hybrid propulsion stage that is fully powered
+(435kW @ 1AU) at Earth departure. The interplanetary trajectory is shown in Figure 5, with the EP
+system thrusting vector shown as vectors along the trajectory. The optimal trajectory departs the Earth
+sphere of influence on March 2, 2033 via lunar gravity assist (with Earth departure C3 of 2 km3 /s2 ) and
+arrives at Mars on January 1, 2034 for an outbound transit time of 305 days. Prior to the Mars orbit insertion
+maneuver, 2,630 kg of waste is jettisoned. The crew then rendezvous with assets already in position around
+Mars orbit4 and conducts a surface mission to Phobos. Total duration for the Phobos surface operation is 417
+days. After the conclusion of the surface mission, the crew returns to the transit habitat and jettisons 4,890
+kg of waste prior to the Mars departure maneuver. The optimal trajectory departs Mars on February 22,
+2035, arrives at Earth on January 4, 2036 with an arrival C3 of 2 km3 /s2 , and reinserts into a lunar distant
+high Earth orbit via lunar gravity assist. Prior to the lunar gravity assist maneuver, the crew performs the
+final 2,680 kg of waste dump. Total heliocentric mission duration for the 2033 crew opportunity is 1,038
+days.
+
+
+
+               1.5                                                                     1.5
+
+
+                1                                                                        1
+
+
+               0.5                                                                     0.5                                        Depart: Mars
+                                                                                                                                  7/3/2041
+
+     Y (AU)                                                                  Y (AU)
+                                                                                                                                  mass: 68111 kg
+                0                                                                        0                                        v∞: 1.31 km/s
+
+
+              −0.5                                                                    −0.5
+
+                                                      Depart: Earth
+               −1           Arrive: Mars              8/3/2039                         −1                              Arrive: Earth
+                            9/6/2040                  mass: 99364 kg                                                   6/28/2042
+                            tof: 400 days             v : 1.41 km/s                                                    tof: 360 days
+                            mass: 75444 kg                ∞
+              −1.5                                                                    −1.5                             mass: 56347 kg
+                            v : 1.20 km/s                                                                              v∞: 1.41 km/s
+                             ∞
+
+                     −1.5   −1    −0.5      0   0.5           1   1.5                        −1.5   −1     −0.5      0   0.5     1      1.5
+                                         X (AU)                                                                   X (AU)
+
+                                                          Figure 6. 2039 EMC Crew Mission
+
+
+
+
+                                                                        6 of 15
+
+                                              American Institute of Aeronautics and Astronautics
+     s
+
+B.            2039 Crew to Mars
+The 2039 crew mission to Mars departs Earth 1,307 days after the 2033 crew returns to the Earth sphere
+of influence. With an approximate solar array degradation of 1% per year, the HPS will depart Earth with
+only 409 kW of power supplied by the arrays. The 2039 trajectory is shown in Figure 6. The crew departs
+Earth on August 3, 2039 via LGA with Earth departure C3 of 2 km3 /s2 and arrives at Mars on September
+6, 2040 for an outbound trip time of 400 days. The waste dump prior to Mars orbit insertion is 3,470 kg. A
+pre-positioned Mars lander4 rendezvous with the crew HPS stack and takes the crew from the 5-Sol parking
+orbit to the Martian surface for the surface mission. After a 300 day mission (from entering Mars 5-Sol
+to departing Mars), the crew returns to the HPS stack, removes 3,620 kg of waste, and departs Mars on
+July 3, 2041. The inbound trip time is 360 days, with an Earth arrival date of June 28, 2042 after a final
+waste dump of 3,080 kg. The crew then rendezvous with an empty Orion vehicle in LDHEO and returns to
+Earth while the HPS is positioned for the third and final Mars mission for its lifetime. The total heliocentric
+duration for this second Mars mission is 1,060 days.
+
+C.            2043 Crew to Mars
+
+
+                                                                                                               Depart: Mars
+               1.5                                                                   1.5                       8/23/2045
+                                                                                                               mass: 67722 kg
+                                                     Depart: Earth                                             v : 1.02 km/s
+                                                     10/23/2043                                                 ∞
+                1                                    mass: 97857 kg
+                                                                                      1
+                                                     v∞: 1.41 km/s
+
+               0.5                                                                   0.5
+
+
+     Y (AU)                                                                Y (AU)
+                                                                                                                                    Arrive: Earth
+                0                                                                     0                                             9/14/2046
+                                                                                                                                    tof: 387 days
+                                                                                                                                    mass: 56578 kg
+                                                                                                                                    v : 1.41 km/s
+              −0.5                                                                  −0.5                                             ∞
+
+
+
+               −1                                 Arrive: Mars                       −1
+                                                  10/27/2044
+                                                  tof: 370 days
+                                                  mass: 75020 kg
+              −1.5                                v∞: 1.30 km/s                     −1.5
+
+                     −1.5   −1   −0.5      0   0.5     1      1.5                          −1.5   −1   −0.5      0   0.5        1       1.5
+                                        X (AU)                                                                X (AU)
+
+                                                     Figure 7. 2043 EMC Crew Mission
+
+
+    The 2043 crew mission departs Earth only 481 days after the return of the previous Mars expedition.
+The short turnaround imposes tighter constraints on the refueling and resupply operation. On this third
+Earth-Mars round-trip flight, the HPS array degrades another 5% from the previous trip, leaving only 392kW
+of power to the EP system. The 2043 trajectory is shown in Figure 7. The crew stack departs Earth on
+October 23, 2043 via LGA and arrives at Mars 370 days later on October 27, 2044. The Mars orbit insertion
+waste dump is 3,230 kg for the 2043 opportunity. The Mars sphere of influence stay time is 300 days, which
+results in the same waste dump as the 2039 opportunity. The Mars departure date for this mission is August
+23, 2045, and the crew returns to Earth 387 days later on September 14, 2046. Total trip time for this
+mission is 1,057 days. The crew returns from LDHEO to Earth after rendezvousing with an Orion capsule.
+The HPS and transit habitat are nearing their respective end of design life, after over 5,000 days in space,
+and will be retired from EMC Mars missions. Addition use of the HPS and transit habitat will depend on
+retrofit of the components to extend its lifetime.
+
+D.            Crew Trajectory Summary
+The nominal EMC crew trajectories using the hybrid SEP/Chem are summarized in Table 2. The mission
+phasing for the three crew missions is described in the previous sections and summarized in Part A of the
+
+
+                                                                      7 of 15
+
+                                             American Institute of Aeronautics and Astronautics
+table. Part B of Table 2 shows the vehicle characteristic for each of the three opportunities and Part C shows
+the trajectory characteristics at planetary encounters. For the 2033 opportunity to Phobos, the total crew
+stack departs Earth with a initial mass of just under 98 metric ton (mT), carrying round-trip propellant
+of 21,850 kg of xenon and 14,150 kg of chemical bi-propellant, which translates to a propellant loading of
+94.6% in the xenon tanks and 76.1% in the chemical tanks. For the 2039 and 2043 Mars opportunity, the
+propellant loadings are 97.8% / 80.5% and 95.6% / 75.2% for xenon and chemical, respectively. Looking at
+the vehicle characteristics across the three opportunities, it is clear that the chemical tanks for the HPS are
+oversized for the crew missions while the xenon tanks are near capacity for all three opportunities.
+     Table 2. Evolvable Mars Campaign Hybrid SEP/Chem Transpiration Architecture Crew Mission Summary
+
+ A. Crew Mission Phasing Characteristics
+                  Earth          Mars          Mars         Earth       Days to Next                                                Total
+                 Departure      Arrival      Departure      Arrival      Departure     Outbound         Stay        Inbound      Trip Time
+ 2033 Phobos     03/02/33      01/01/34      02/22/35      01/04/36      1,307 days    305 days       417 days      316 days     1,038 days
+ 2039 Mars       08/03/39      09/06/40      07/03/41      06/28/42       481 days     400 days       300 days      360 days     1,060 days
+ 2043 Mars       10/23/43      10/24/44      08/23/45      09/14/46           –        370 days       300 days      387 days     1,057 days
+
+ B. Hybrid Propulsion Vehicle Characteristics
+                   Array      Earth Dep.         Hybrid     Habitat      Logistics      Xenon         Bi-Prop       % Xenon      % Bi-Prop
+                   Power      Mass (kg)         Dry (kg)    Dry (kg)     Mass (kg)     Load (kg)     Load (kg)      Tank Fill    Tank Fill
+ 2033 Phobos      435 kW        97,750           21,480      22,850       17,400        21,800        14,200         94.6%         76.1%
+ 2039 Mars        409 kW        99,590           21,480      22,850       17,700        22,600        15,000         97.8%         80.5%
+ 2043 Mars        392 kW        98,130           21,480      22,850       17,700        22,100        14,000         95.6%         75.2%
+
+ C. Interplanetary Trajectory Characteristics
+                Earth Dep.    Mars Arr.     Mars Dep.      Earth Arr.   Earth Dep.     Mars Arr.     Mars Dep.     Earth Arr.
+                V∞ (km/s)     V∞ (km/s)     V∞ (km/s)      V∞ (km/s)    Declination    Declination   Declination   Declination
+ 2033 Phobos      1.4142        1.3780        0.9371         1.4142      -1.007 ◦        -5.099 ◦     -8.873 ◦       7.507 ◦
+ 2039 Mars        1.4142        1.2012        1.3131         1.4142      -2.434 ◦        -4.724 ◦     -1.920 ◦      -5.061 ◦
+ 2043 Mars        1.4142        1.2960        1.0152         1.4142      10.984 ◦       -18.247 ◦     13.247 ◦       9.951 ◦
+
+    The xenon propellant required is directly related to the outbound and inbound trip times. When the
+planetary alignment requires the trajectory to have longer interplanetary trip times, the HPS has more
+time to perform EP thrusting, and because the EP system’s efficiency is always higher than the chemical
+system, the optimal trajectory will always try to maximize the use of EP system to change the vehicle’s
+energy. The chemical bi-propellant requirement is not a function of the trip times but a function of the
+Mars arrival and departure V∞ . Because the EP system is always more efficient (from a propellant usage
+standpoint), the trajectory optimization will attempt to minimize the arrival and departure V∞ at Mars
+to limit the use of the chemical system. In an ideal setting, the EP system would have infinite amount of
+time and propellant to increase or decrease the vehicle’s energy so that the arrival/departure condition are
+perfectly aligned with the target. However, the conjunction class trajectory limits the time available for EP
+thrusting, thus, the system compensates for this with chemical propulsion. The arrival conditions at Mars
+for the three opportunities are very similar, with V∞ between 1.2 km/s and 1.4 km/s. The Mars departure
+V∞ for the three opportunities vary between 0.9 km/s and 1.31 km/s. The 2039 opportunity has the highest
+combined arrival and departure V∞ and thus have the highest chemical propellant required. Conversely, the
+2043 opportunity has the lowest combined V∞ and lowest chemical propellant load. The chemical propellant
+requirement is also a function of the vehicle’s mass.
+    The nominal trajectory results show that the COMPASS5 designed Hybrid vehicle is more than capable
+of performing the round-trip crew missions to Mars for the given habitat system mass and logistic load.
+Even after the solar array degrades by more than 10% from beginning of life, the propellant required to
+perform the round-trip transit to Mars does not exceed the maximum capacity of the vehicle. However, with
+the xenon tank at near capacity for all three opportunities, the sensitivity of the feasibility of the current
+designed vehicle to mass growth needs to be investigated.
+
+
+
+
+                                                                   8 of 15
+
+                                          American Institute of Aeronautics and Astronautics
+                                                                     V.        Sensitivity Analyses
+A.   Payload Mass Growth
+The primary payload for the EMC Hybrid crew mission is the deep space transit habitat. The habitat
+contains the environmental control and life support systems for the crew, and there is large mass uncertainty
+associated with these long duration systems. The HPS was sized to deliver the currently sized habitat15 for
+the most difficult opportunity across the Earth-Mars synodic period. As a result, the propulsion system is
+oversized for the nominal missions (shown in Table 2), as the three planned crew mission did not fall on the
+most difficult opportunity. As the habitat design matures, there is potential for the dry mass to change, and
+the impact of the mass change on the propulsion performance must be understood. Table 3 and Figure 8
+show the result of the sensitivity analysis of the propulsion system performance on the habitat dry mass,
+assuming fixed logistic and spare loading.
+                                                     Table 3. EMC Hybrid Propellant Usage as Function of Payload Mass
+
+                                                                2033 (Phobos)             2039 (Mars)           2043 (Mars)
+                                                              Xenon Chemical           Xenon Chemical        Xenon Chemical
+          20.0 mT Habitat                                     21,600    11,500         21,200    13,700      21,700    12,400   kg
+          22.8 mT Habitat                                     21,800    14,200         22,600    15,000      22,100    14,000   kg
+          25.0 mT Habitat                                     22,000    16,400         23,100    18,500      23,100    14,900   kg
+          27.5 mT Habitat                                      Did Not Close†           Did Not Close†       23,100    17,700   kg
+          † Propellant Required Exceeds Vehicle Propellant Storage Capacity
+
+
+
+
+                                                     100%
+
+
+                                                      95%
+
+
+
+
+                    Total Vehicle Propellant Usage
+                                                      90%
+
+
+                                                      85%
+
+
+                                                      80%
+
+
+                                                      75%                                                2033 Phobos
+                                                                       Nominal                           2039 Mars
+                                                                       22.8 mT
+                                                                                                         2043 Mars
+                                                      70%
+                                                         20     21        22      23      24     25     26    27       28
+                                                                                Habitat Dry Mass (mT)
+
+             Figure 8. EMC Hybrid Crew Mission Performance Sensitivity to Habitat Mass Growth
+
+
+    A 10% growth in the habitat dry mass to 25 mT pushes the total propellant required for each of the
+opportunity to above 90%. An additional 10% growth in the habitat dry mass to 27.5 mT results in non-
+closure for the 2033 and 2039 opportunities and pushes the the propellant required to above 95% for the
+2043 opportunity. Non-closure of the propulsion system is the result of the propellant required to perform
+the round-trip trajectory exceeding the propellant capacity of the designed system. Figure 8 shows the 2039
+opportunity as the dominating case, as it requires the most propellant and is most sensitive to changes in
+habitat mass compared to the other crew opportunities. A 10% growth in the habitat mass to 25 mT requires
+the propulsion system to be essentially at maximum capacity for the 2039 opportunity and does not leave
+much margin of error. In comparison, the 2033 and 2043 opportunities have more flexibility and can handle
+more habitat mass growth. However, the current EMC strategy is to utilize the same habitat design for all
+
+
+                                                                                      9 of 15
+
+                                                              American Institute of Aeronautics and Astronautics
+of the in-space transpiration needs; thus the 2039 opportunity is the limiting case. If the current HPS design
+remains unchanged, the flexibility of the 2033 and 2043 opportunities is irrelevant.
+    One final observation on the performance sensitivity to habitat mass is that the trend is clearly non-linear.
+Examining the nominal mission with a 22.8mT habitat, the xenon required is near the capacity of the current
+vehicle with over 95% fill for each of the opportunity. As the habitat mass grows, the interplanetary trajectory
+remains relatively unchanged as there is not much time or xenon available for EP thrusting. Thus, the system
+makes up the difference in the energy required by using more chemical propellant at planetary departures
+and arrivals. Given the low specific impulse of the storable bi-propellant system, the propellant required
+scales exponentially with respect to dry mass growth, as dictated by the rocket equation. There is potential
+to reduce the effect of dry mass growth with higher performing chemical systems as well of more power to
+the EP system, the sensitivity to propulsion system performance will be presented in a later section.
+
+B.   Departure Window
+
+
+                                                     43
+                                                                    EXCEED PROPELLANT LIMIT
+                                                     42
+
+                                                     41
+
+
+
+
+                       Total Propellant Usage (mT)
+                                                     40
+
+                                                     39
+
+                                                     38
+
+                                                     37
+
+                                                     36
+
+                                                     35
+                                                                                                       2033 Phobos
+                                                     34                                                2039 Mars
+                                                                                                       2043 Mars
+                                                     33
+                                                     −49 −42 −35 −28 −21 −14 −7     0     +7 +14 +21 +28 +35 +42 +49
+                                                                       ∆ Departure Date from Nominal
+
+                 Figure 9. EMC Hybrid Crew Mission Performance Sensitivity to Departure Date
+
+
+    The EMC hybrid crew missions require very specific maneuvers for Earth departure. After the vehicle
+has been fully outfitted for a mission, the vehicle enters a LDHEO inclined at 30 ◦ to rendezvous with the
+crew. The crew launches directly to LDHEO on an Orion capsule on the SLS to rendezvous with the HPS.
+In order to target an optimal Earth departure date, the crew must target a launch date early enough in
+order to mitigate the risk of launch and/or rendezvous delays. However, with limited lifetime on the Orion
+capsule, the crew cannot launch too early before the rendezvous with the HPS. Thus there remains some risk
+of not being able to depart Earth on the nominal departure date. In addition, by utilizing the lunar gravity
+assist to depart the Earth-Moon system to Mars, the departure opportunity is relatively limited as it requires
+the moon to be in the proper location in the lunar cycle to achieve the desired hyperbolic asymptote. To
+help mitigate this, an understanding of propulsion performance sensitivity to varying departure dates from
+nominal is desired.
+    Table 4 shows the summary of the propellant required as a function of delta departure date from the
+optimal departure date of the heliocentric trajectory, and Figure 9 plots the total propellant load as function
+of the delta departure dates. The results of the sensitivity analysis shows each opportunity has drastically
+different sensitivity to the departure date. For the 2033 opportunity, the window for departure extends from
+-42 days to +28 days from the optimal departure date. This 70-day window yields two to three distinct
+departure opportunities for the 2033 mission because the moon can be at the optimal departure location
+in the lunar cycle 2 to 3 times during the 70-day window, depending on how early the first opportunity
+arises in the window. If the first opportunity arises within the first 16 days of the window, then the second
+opportunity arises 27 days later, and the third opportunity arises 54 days later. If the first opportunity
+
+
+                                                                               10 of 15
+
+                                                          American Institute of Aeronautics and Astronautics
+             Table 4. EMC Hybrid Propellant Usage as Function of ∆ Departure Date from Nominal
+
+                              2033 Phobos               2039 Mars                   2043 Mars
+                           Xenon Chemical           Xenon Chemical              Xenon Chemical
+            -49 Days         Did Not Close†           Did Not Close†              Did Not Close†   kg
+            -42 Days       23,000    17,600           Did Not Close†            23,100    15,600   kg
+            -35 Days       23,100    15,100           Did Not Close†            23,000    14,100   kg
+            -28 Days       22,900    13,800          Did Not Close†             23,000    13,700   kg
+            -21 Days       22,600    13,900         23,000    18,100            22,500    13,800   kg
+            -14 Days       22,300    14,000         23,100    15,900            22,200    13,800   kg
+            -7 Days        22,000    14,100         22,900    14,400            22,200    13,700   kg
+            Nominal        21,800    14,200         22,600    15,000            22,100    14,000   kg
+            + 7 Days       22,000    14,200         21,900    15,600            22,300    14,200   kg
+            +14 Days       22,100    14,700         21,200    17,200            23,100    16,100   kg
+            +21 Days       22,500    15,000         21,200    18,600              Did Not Close†   kg
+            +28 Days       22,800    16,600          Did Not Close†              Did Not Close†    kg
+            +35 Days         Did Not Close†           Did Not Close†              Did Not Close†   kg
+            +42 Days         Did Not Close†           Did Not Close†              Did Not Close†   kg
+            +49 Days         Did Not Close†           Did Not Close†              Did Not Close†   kg
+            † Propellant Required Exceeds Vehicle Propellant Storage Capacity
+
+
+
+
+arises after day 16, only one more opportunity can fit into the remaining time of the window. The 2039
+opportunity is a limiting case, as the departure window only extends from -21 days to 21 days, which means
+the moon can be at the optimal departure location 1 to 2 times during the 42-day window. The 2043 mission
+has two to three departure opportunities, as its departure window extends from -42 days to +14 days (58
+days).
+     Having potentially only one departure opportunity for the 2039 mission presents an added risk to the
+architecture. Further refinement of the departure maneuver is needed to determine if the second opportunity
+is possible that can allow for non-optimal departures or powered lunar flyby departures. However, these
+maneuvers will likely increase the propellant required for the interplanetary phase and can result in non-
+closure for the currently designed system. For the 2033 and 2043 missions, the departure window is slightly
+more forgiving. Having potentially three departure opportunities for the 2033 mission is important for
+the EMC architecture as this is the first crewed mission to the Martian sphere of influence. It provides
+the architecture additional flexibility to ensure all of the systems are functioning correctly before the crew
+departs the Earth sphere of influence. The 2043 mission, despite having an additional departure opportunity,
+presents a challenge to the architecture. As shown in Table 2, there are only 481 days between the return
+of the HPS from the 2039 Mars mission to the scheduled departure of the 2043 Mars mission. During this
+time, the crew must depart the HPS to return to Earth, the HPS must be resupplied with logistics and fuel,
+waste from the previous mission must be removed, and the HPS and habitat must be inspected to ensure
+it is ready for the next mission. Compared to the previous refit of the HPS and habitat, the time available
+for this refit is significantly less. Examining the performance sensitivity to departure date for 2043, it is
+clear that any delay in departure from the nominal date will result in vehicle non-closure. In order to take
+advantage of the additional departure opportunity, the crew must target a departure one month prior to the
+optimal departure date, which will put further stress on the HPS/habitat refit schedule. There is a need to
+develop further studies to investigate the feasibility of the refit and resupply tasks in such short period of
+time.
+
+C.   Propulsion System Performance
+The propulsion system chosen for the EMC HPS represents current state-of-the-art technology. There is
+potential for improvements to the performance of the propulsion systems in the coming decades before the
+EMC mission begins. Thus, it is desired to understand how the potential change in propulsion performance
+
+
+                                                      11 of 15
+
+                                 American Institute of Aeronautics and Astronautics
+                                      Table 5. ∆ Array Power Supplied to Electric Propulsion System at Earth Departure (1AU)
+
+                                                             -10%     -5%    Nominal       +5%     +10%        +15%
+                                             2033 Phobos      392     413      435         457      478         500   kW
+                                             2039 Mars        365     389      409         430      450         470   kW
+                                             2043 Mars        353     372      392         412      431         451   kW
+
+
+impacts the overall mission performance. For the EP system, the solar arrays do not provide enough power
+to the system to utilize the all of the EP thrusters during the entire trajectory. At Mars distance, the
+solar irradiance is only 40% compared to Earth distance, thus the array output is significantly lower as the
+spacecraft travels from Earth to Mars. The trajectory simulation accounts for this difference by turning off
+pairs of EP thrusters to match the power output by the solar arrays. The performance of the EP system can
+be improved if the arrays can produce more power. For this sensitivity analysis, the underlying assumption
+is that the improvement to array efficiency can be achieved without adding more dry mass to the HPS. A
+summary of the array power delivered by the solar arrays with changes to the array’s efficiency is shown in
+Table 5.
+    For the chemical propulsion system, the performance of the engine is based on the specific impulse.
+Aerojet is currently developing the R42DM16 which is an improved version of the R42 and can improve the
+Isp from 303 seconds to 327 seconds. Additionally, there are hydrazine engines that are under development
+a with specific impulse as high as 333 seconds.17 These specific impulse were utilized to understand the
+impact of improved engine performance on the overall mission performance. In addition to improved array
+efficiencies and improved specific impulse for the hydrazine engines, analyses were also conduced to see the
+effect of reduced performance for both EP and CP systems.
+
+                                            2033 Phobos                          2039 Mars                            2043 Mars
+                               +15%
+                                                                                            Isp = 288s
+                                                                                            Isp = 303s
+                               +10%                                                         Isp = 327s
+
+
+
+
+%∆ Total Propellant Required
+                                                                                            Isp = 333s
+                               +5%
+
+
+                                0%
+
+
+                               −5%
+
+
+                               −10%
+
+
+                               −15%
+                                 −10% −5%    0%   +5% +10% +15%−10% −5%          0%       +5% +10% +15%−10% −5%       0%   +5% +10% +15%
+                                                                       %∆ Array Power from Nominal
+
+Figure 10. EMC Hybrid Crew Mission Total Propellant Required Sensitivity to Changes to Propulsion System Per-
+formance Parameter
+
+
+    Figure 10 shows the percent change in total propellant mass required as a function of the percent change
+in array power at the various CP specific impulse levels. Looking across the three missions, the 2033 mission
+opportunity is the most sensitive to changes to the propulsion performance parameters, while the 2043
+mission is the least sensitive from a total propellant required perspective. For all three missions, regardless
+of the performance of the chemical systems, the total propellant required can be reduced by increasing
+the array power, assuming no change to the overall system dry mass. Similarly, as the chemical engine
+performance increases, the propellant required decreases as well. As previous discussions showed, the 2039
+mission is the most sensitive to habitat mass growth and departure date slippage. Figure 10 shows that with
+a 10% increase in the array power and specific impulse can reduce the propellant required by 5% or more,
+which can improve the sensitivity to the other parameters.
+
+
+                                                                               12 of 15
+
+                                                          American Institute of Aeronautics and Astronautics
+    Figures 11 and 12 show the breakdown of the total propellant required by the EP and CP systems,
+respectively. Examining the breakdown of propellant required as function of propulsion system performance
+reveal slightly non-intuitive results. Figure 11 shows a positive correlation between array power and xenon
+required for all missions. This is especially profound in the 2033 opportunity. The increase in xenon
+propellant required is actually a favorable result, as it means the HPS has enough power to keep the more
+EP thrusters active during the interplanetary phase, which would require more propellant to operate. As
+discussed previously, the EP system is a much more efficient system in terms of propellant usage compared
+to the CP system. Thus, given the choice, the trajectory optimizer, while trying to minimize the departure
+mass, will always try to use as much EP thrusting as possible. From an energy stand point, the less EP
+thrusting that is available to the spacecraft, the more CP thrusting is required to make up the difference.
+
+                                                  2033 Phobos                          2039 Mars                             2043 Mars
+                                       24
+
+
+                                                                            EXCEEDS PROPELLANT LIMIT
+                                       23
+
+
+
+
+   Xenon Required (mT)
+                                       22
+
+
+
+
+                                       21                                                        Isp = 288s
+                                                                                                 Isp = 303s
+                                                                                                 Isp = 327s
+                                                                                                 Isp = 333s
+                                       20
+                                       −10% −5%    0%   +5% +10%    +15%−10% −5%       0%       +5% +10%      +15%−10% −5%   0%   +5% +10%   +15%
+                                                                             %∆ Array Power from Nominal
+
+Figure 11. EMC Hybrid Crew Mission Xenon Requirement as Function of Changes to Propulsion Systems Performance
+Parameter
+
+
+
+                                                  2033 Phobos                          2039 Mars                             2043 Mars
+                                       22
+
+
+
+
+   Chemical Propellant Required (mT)
+                                       20
+                                                                            EXCEEDS PROPELLANT LIMIT
+
+                                       18
+
+
+                                       16
+
+
+                                       14
+
+
+                                       12
+                                                                                     Isp = 288s
+                                                                                     Isp = 303s
+                                       10                                            Isp = 327s
+                                                                                     Isp = 333s
+                                        8
+                                       −10% −5%    0%   +5% +10%+15% −10% −5%          0%       +5% +10% +15%−10% −5%        0%   +5% +10% +15%
+                                                                             %∆ Array Power from Nominal
+
+Figure 12. EMC Hybrid Crew Mission Chemical Propellant Requirement as Function of Changes to Propulsion Systems
+Performance Parameter
+
+
+    This relationship is demonstrated in Figure 12, which shows the chemical propellant required as a function
+of changes to the propulsion system performance parameters. The figure shows a clear negative correlation
+
+
+                                                                                     13 of 15
+
+                                                                American Institute of Aeronautics and Astronautics
+between the chemical propellant required and the propulsion system parameters. As the array power avaliable
+to the HPS increases, the chemical propellant required is reduced dramatically, especially in the 2033 mission.
+A 10% increase in the array power and specific impulse can reduce the total chemical propellant required by
+over 20% in the 2033 mission. The reduction is not nearly as profound in the 2039 and 2043 missions, but
+significant reduction can still be achieved with improvement to the propulsion system performance. These
+improvements will have positive impact on the sensitivities of the 2039 and 2043 mission to both habitat
+mass growth and changes to departure dates.
+    The high sensitivity of the propellant required to propulsion system performance for the 2033 mission
+reveals that the mission is power limited. Despite having full power at the start of the trajectory, the planetary
+alignment in 2033 does not allow for much time for EP thrusting; thus any increase in the array power can
+have dramatic impact on the overall mission performance from a mass standpoint. As the EP system
+increases its operation, the Mars arrival and departure conditions become less strenuous to the CP system,
+thus dramatically reducing the propellant demand for these maneuvers. The 2039 and 2043 missions, in
+comparison, have relatively benign planetary alignments from the EP system’s perspective. Thus, increasing
+the array power to the system provides significantly less benefits as compared to the 2033 mission, as the
+trajectory is already near optimal given the same level of EP thruster power. These two mission benefit more
+from improvement to the chemical propulsion’s performance than from increased array powers. Overall, the
+results show slight improvement in the propulsion system performance can have significant impact on mission
+performance, which can in turn reduce the risk of the sensitivities to mass growth and schedule challenges.
+
+                                 VI.     Summary and Future Work
+    A hybrid transportation architecture is being developed by NASA’s Human spacecraft Architecture Team
+for the Evolvable Mars Campaign for both crew and cargo delivery to the Martian sphere of influence. A
+version of the hybrid propulsion stage for the EMC hybrid transportation architecture was designed by
+the NASA Glenn Research Center COMPASS team based on proposed hardware from the NASA Asteroid
+Robotic Redirect Mission and used for this feasibility study. The HPS is capable of delivering both crew
+and cargo to Mars over multiple trips. The baseline trajectories for the 2033, 2039, and 2043 crew missions
+to Mars sphere of influence are presented in this paper. The trajectory analysis provided departure and
+arrival dates and propellant needs for the three crew missions the HAT campaign team is using for campaign
+build-up and logistics aggregation analysis.
+    Sensitivity analyses were performed to investigate the impact of mass growth, departure window, and
+propulsion system performance on the hybrid transportation architecture. The crew HPS missions are quite
+sensitive to the transit habitat mass growth. A modest 20% increase in the habitat dry mass results in non-
+closure for the transportation system. The sensitivity analyses identified the 2039 opportunity as the most
+difficult opportunity from the transportation perspective. This is also observed in the departure window
+analysis, which showed that the 2039 opportunity has a departure window of only 42 days, compared to the
+2033 and 2043 opportunities, which have departure windows of 70 and 63 days, respectively. For the LGA
+departure, the moon is only in the proper orientation every 28 days, thus, the 2039 opportunity provides
+very little margin in regards to its departure date with the COMPASS designed HPS. Final sensitivity
+analysis examined the performance of the HPS for the crew missions with respect to propulsion system
+performance. The results show the balancing between EP and CP systems in the trajectory can vary
+drastically from opportunity to opportunity, which can result in non-intuitive results. The results show that
+the 2033 opportunity is the most sensitive to changes in the propulsion system performance, while the 2043
+opportunity is the least sensitive.
+    This paper has shown the feasibility of the hybrid transportation architecture to support crew missions
+to Phobos and Mars in the 2030s and presents an example design of the transportation stage. The hybrid
+architecture enables conjunction class trajectories for both the crew and the cargo deployment without
+significant increase to the propellant requirement as compared to all chemical architecture. The conjunction
+class trajectory allows the HPS to return to Earth with the crew in a timely fashion so that the system
+can be reused for multiple crew trips to Mars with a minimum stay time in Mars sphere of influence of 300
+days. The logistics resupply of the HPS and transit habitat will need to be refined to understand the impact
+of strict departure and arrival dates for the crew missions. Additional refinement in the trajectory and
+hybrid vehicle design will continue as the HAT task leads work to integrate the EMC. Design of the hybrid
+propulsion stage will continue to mature to ensure the architecture feasibility to the evolving requirements
+
+
+                                                      14 of 15
+
+                                 American Institute of Aeronautics and Astronautics
+definition and concept selection activity within EMC.
+
+                                                      References
+     1 Craig, D. A., Herrmann, N. B., and Troutman, P. A., “The Evolvable Mars Campaign - Study Status,” IEEE Aerospace
+
+Conference, March 2015, 2015-8.0101.
+     2 Obama, B., “National Space Policy of the United States of America,” June 28, 2010, Office of the President of the United
+
+States, Washington, DC: The White House.
+     3 Merrill, R. G., Strange, N., Qu, M., and Hatten, N., “Mars Conjunction Crewed Missions with a Reusable Hybrid
+
+Architecture,” IEEE Aerospace Conference, March 2015, 2015-8.0104.
+     4 Chai, P. R., Merrill, R. G., and Qu, M., “Mars Hybrid Propulsion System Trajectory Analysis Part II: Cargo Missions,”
+
+AIAA SPACE 2015 Conference and Exposition, Pasadena, CA, August 2015, AIAA 2015-XXXX.
+     5 McGuire, M., Oleson, S., Babula, M., and Sarver-Verhey, T., “Concurrent Mission and System Design at NASA Glenn
+
+Research Center: The origins of the COMPASS Team,” AIAA SPACE 2011 Conference & Exposition, Long Beach, CA,
+September 2011, AIAA 2011-7240.
+     6 Mazanek, D. D., Merrill, R. G., Belbin, S. P., Reeves, D. M., Earle, K. D., Naasz, B. J., and Abell, P. A., “Asteroid
+
+Redirect Robotic Mission: Robotic Boulder Capture Option Overview,” AIAA SPACE 2014 Conference & Exposition, San
+Diego, CA, August 2014, AIAA 2014-4432.
+     7 Englander, J., Vavrina, M. A., Naasz, B. J., Merrill, R. G., and Qu, M., “Mars, Phobos, and Deimos Sample Return
+
+Enabled by ARRM Alternative Trade Study Spacecraft,” AIAA/AAS Astrodynamics Specialist Conference, San Diego, CA,
+August 2014, AIAA 2014-4353.
+     8 Hofer, R. and Gallimore, A., “High-Specific Impulse Hall Thrusters, Part 1: Influence of Current Density and Magnetic
+
+Field,” Journal of Propulsion and Power , Vol. 22, No. 4, 2006, pp. 721–731.
+     9 Hofer, R. and Gallimore, A., “High-Specific Impulse Hall Thrusters, Part 2: Efficiency Analysis,” Journal of Propulsion
+
+and Power , Vol. 22, No. 4, 2006, pp. 732–740.
+    10 Stechman, C., “Development and Qualificaiton of a 890 Newton (200 Lbf) Bipropellant Rocket Engine,” AIAA 26th
+
+Joint Propulsion Conference, Orlando, FL, July 1990, AIAA 1990-2055.
+    11 Orbital ATK Inc., “ATK Part Number 80434-1,” Data Sheet Index Propellant Managemewnt Device (PMD) Tanks
+
+(Psi-Psi.com), http://www.psi-pci.com/Data_Sheets_Library/DS434.pdf [Accessed: July 1, 2015].
+    12 Gotzig, U. and Dargies, E., “Development Status of Astriums New 22N Bipropellant Thruster Family,” 39th
+
+AIAA/ASME/SAE/ASE Joint Propulsion Conference and Exhibit, Hunsville, AL, July 2003, AIAA 2003-4777.
+    13 “DSS’s FACT, Mega-ROSA, and SOLAROSA Technologies highlighted in NASA’s Tech Briefs,” DSS News Briefs, Novem-
+
+ber 2012, http://www.deployablespacesystems.com/pdf/nasa_tech_brief_fact_mega-rosa_solarosa_110112.pdf [Accessed:
+July 1, 2015].
+    14 Shaw, B. H., “International Space Station: Its History, Challenge, and Successes,” 41st Aerospace Sciences Meeting and
+
+Exhibit, Reno, NV , January 2003, AIAA 2003-2.
+    15 Simon, M. A., Wald, S. I., Howe, A., and Toups, L., “Evolvable Mars Campaign Long Duration Habitation Strategies:
+
+Architectural Approaches to Enable Human Exploration Missions,” AIAA SPACE 2015 Conference and Exposition, Pasadena,
+CA, 2015.
+    16 Aerojet-Ricketdyne, Inc., “Bipropellant Rocket Engine Data Sheets,” Aeroject-Rocketdyne Inc., Space Propulsion Sys-
+
+tems, Space and Launch, Capabilities, https://www.rocket.com/files/aerojet/documents/Capabilities/PDFs/Bipropellant
+%20Data%20Sheets.pdf [Accessed: July 1, 2015].
+    17 Anderson, D. J., Munk, M. M., Dankanich, J., Pencil, E., and Liou, L., “Status and Mission Applicability of NASA’s
+
+In-Space Propulsion Technology Project,” 45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, Denver
+CO, August 2009, AIAA 2009-5125.
+
+
+
+
+                                                           15 of 15
+
+                                    American Institute of Aeronautics and Astronautics
+

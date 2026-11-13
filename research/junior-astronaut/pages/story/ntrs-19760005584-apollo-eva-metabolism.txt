@@ -1,0 +1,841 @@
+                                                                  N76                12672
+
+
+
+                                         CHAPTER            4
+
+               METABOLISM           AND HEAT DISSIPATION                 DURING
+                                  APOLLO  EVA PERIODS
+
+                                                 by
+                                           J.M. Waligora
+                                           D.J. Horrigan
+
+                                Lyndon B. Johnson Space Center
+
+
+                                          Introduction
+
+     Extravehicular activity, particularly on the lunar surface, was a key and essential part
+of   the Apollo Program.      However,    the physical capabilities of the crewmen in the
+performance   of extravehicular   activity (EVA) and the physiological cost to the crewmen
+were some of the significant uncertainties   of the program.
+     The space environment        imposed    life support     requirements   during EVA: the
+maintenance   of a minimum oxygen pressure, the removal of expired carbon dioxide, the
+provision for useful mobility, and the maintenance        of body temperature.    To meet these
+requirements,    a composite    pressure   suit of many layers and complex           joints was
+developed. * The result of the development        was a pressure suit that provided excellent
+thermal insulation in a vacuum, but imposed a much greater workload on the wearer in a
+onc-g environment      than the work required to perform the same activity without a suit. In
+addition to the difficulty     of working in a pressure suit, Apollo crewmen had to contend
+with either zero g for the free-space EVA or one-sixth g for the lunar surface EVA.
+     Zero-g extravehicular     activities   were performed      during five Gemini missions, and
+considerable  difficulty   was experienced       by the crewmembers.     Crewmen experienced   high
+work rates and apparent overheating          during Gemini 4, Gemini 9, and Gemini 11 EVAs.
+The crewmen also encountered          unexpected    difficulty performing specific tasks on each of
+the Gemini missions (Roth, 1968). After the particularly              exhausting experience  on the
+Gemini 11 EVA, the Gemini 12 EVA was redirected to serve as an evaluation of zero-g
+EVA capability      and restraint    technology.    It was found that adequate body restraints,
+
+
+*See Section VI, Chapter 6, Extravehicular Mobility Unit.
+
+The following individuals shared responsibility for development of measurement methods and
+real-time data analysis during extravehicular activities: G.F. Humbert, L. Kuznetz, L.J. Nelson, A.P.
+Schachter, S.J. Vogel, and R.J. Kelley.
+
+
+                                                 115
+
+
+                      PR]_CFj)ING
+                                          PAGE         BLANK     NO__
+116                                   Biomedical Results of Apollo
+
+
+realistic zero-g preflight training in a water immersion simulator and detailed preplanning
+of activity were essential to insure task performance    and reduce fatigue (Machel, 1967).
+Although metabolic       rates were not measured during the Gemini EVAs, it was clear in
+several instances that crewmen worked at levels above the heat removal capability of the
+gas cooled life support     system (Kelley et al., 1968).
+    Several researchers      reported on the effect of one-sixth             g on the cost of work          in a
+pressure suit. The results were inconclusive.        Wortz and Prescott (1966), Margaria and
+Cavagna (1964),     and Shavelson (1968) predicted         metabolic costs would decrease with
+subgravity   walking. Roth (1966),       Springer and co-workers (1963),     and Shevelson and
+Seminara (1968)      indicated     that a metabolic   increase would accompany     low traction
+exercise. Another factor of uncertainty         was the terrain and surface composition   of the
+moon and its effect on mobility and metabolic rate. In response to these uncertainties,
+conservative   biomedical     estimates of the life support requirements    were defined on the
+basis of available data. Methods to measure metabolic rate during EVA were developed by
+using operational    data from the portable       life support      system (PLSS).
+
+                                EVA     Life    Support      Equipment
+
+    Because the pressure suit was well insulated         to protect the crewman from external
+high and low temperature      extremes,  the portable life support system of the pressure suit
+had to dissipate the crewman's heat production.       A liquid cooling system was developed to
+accommodate      high heat production    in the suit as a result of the high EVA workloads.
+This system consisted of plastic cooling tubes on the inside of an undergarment.            The
+garment     could    suppress   sweating    at work       rates    as high as 1670x 103J/hr
+(= 400 kcal/hr)      and allowed sustained     operation     at rates as high as 2090 x 103 J/hr
+(_ 500 kcal/hr)     (Waligora & Michel, 1968).
+    The PLSS        used for the Apollo 9, 11,            12, and      14 missions     could   support   a total
+metabolic   heat production    of approximately    5020 x 103 J (1200 kcal), produced       either
+at 1670 x 103 J/hr (_400 kcal/hr) for three hours, or at 1260 x 103 J/hr (_300 kcal/hr)
+for four hours. An expanded PLSS was used for the Apollo 15 through 17 missions that
+could support        a total metabolic   heat production   of 7530 x 103 J (_1800           kcal).
+This system provided for EVAs of seven hours at 1050 x 103 J/hr (_250 kcal/hr) or eight
+hours at 942 x 103 J/hr (=225 kcal/hr).
+     During the longer EVA periods a potential life support problem was dehydration.             A
+drinking bag containing      100 x 10 -5 m 3 of liquid was made available in the suit for
+replacement of water lost in sweat and respiration.
+     During the Apollo 15 through         17 missions, zero-g extravehicular   activities     were
+performed     from the Command       Module (CM) by means of an umbilical that provided
+approximately     0.3 m3/min (10 ft3/min) of gas for cooling. These extravehicular      activities
+were limited to less than one hour.
+
+
+                                       Temperature           Control
+
+      Suit temperature     was controlled      by a three-position        manual valve that regulated         the
+ temperature      of the   coolant   water flowing        through    the liquid      cooling   garment   (LCG).
+                      Metabolism and Heat Dissipation During Apollo EVA Periods                            117
+
+
+During the Apollo 11, 12, and 14 missions, the valve positions provided cooling water at
+temperatures of approximately  294°K (21°C) at the minimum position, 288°K (15°C)
+at the intermediate         position,   and 280°K (7°C) at the maximum position.                   Typically
+during these missions the temperature             control valve was usually switched from minimum
+to intermediate      and back again. The Apollo 11 Lunar Module Pilot was the only crewman
+who frequently        used the maximum cooling position. The expanded portable life support
+system used on the Apollo 15 through                17 missions had a diverter valve that provided
+cooling     water      temperatures      of approximately          300°K(27°C),       291°K(18°C),and
+280°K (7°C). The minimum and intermediate                    cooling temperatures        were increased to
+avoid overcooling during riding of the lunar roving vehicle. These temperature                        settings
+were quite satisfactory.          Although    the minimum and intermediate             settings were most
+commonly used, the maximum setting was frequently used during high workload periods
+experienced      during the Apollo 15 and 17 missions.
+     During two EVA periods, crewmen were instructed                    to change a diverter valve setting
+from minimum to intermediate            as a preventive measure, but no crewman ever appeared to
+have a serious thermal problem.              Despite variations in the frequency of diverter valve
+changes,     each crewman         maintained     a suitable average temperature           during the EVA
+periods. In all cases, 60 to 80 percent of the heat generated by metabolism was dissipated
+through     the LCG. The LCG used during the lunar surface extravehicular                           activities
+undoubtedly        minimized       water loss from sweating            and prevented      dehydration       and
+excessive fatigue.
+     For the Command           Module extravehicular       activities performed during the Apollo 15
+through      17 missions,       the only cooling available            to the crewmen         was from gas
+ventilation     at a rate of 0.3 m3/min (_10 ft3/min).                 This ventilation     rate could not
+sustain prolonged         work rates of more than 1050 x 103 J/hr @250 kcal/hr).                      Despite
+this limitation,        no overheating      problems     were experienced        because good restraint
+systems were available, training in the water immersion facility was adequate, and the
+EVA periods were short.
+
+
+                            Metabolic      Rate    Measurement         Methods
+     Since it was desirable to measure metabolic rate during extravehicular aetivies on the
+hmar surface and in free space, several measurement      approaches were evaluated.    The
+standard laboratory methods would have required breaking pressure suit integrity if used
+in space or during vacuum chamber training on the ground. Therefore, the operational
+data available from the crewman and from his life support system were assessed to
+determine their usefulness in approximating    metabolic rate.
+     The data available from the crewmen during the EVA periods consisted of voice data,
+electrocardiogram   (ECG) data from each crewman, oxygen bottle pressure, liquid cooling
+garment (LCG) coolant-water entry and exit temperatures, and suit-gas entry tempera-
+ture. In addition,    the sublimator   water usage was available after the majority of the
+EVAs. Sublimator       water usage provided a measure of the total heat loss from the suit.
+All of the heat removed from the pressure suit was first transferred         to a heat sink
+maintained by the sublimator       which rejected heat by the change of state involved in
+sublimating ice to water vapor in the vacud_ of space.
+118                                   Biomedical Results of Apollo
+
+
+      Three methods    were developed     and used to estimate     real-time   metabolic   rates:
+
+  1. The heart rate,    counted     from the        electrocardiographic   signal, was related to
+metabolism   on the basis of a correlation          with bicycle ergometer    workload which was
+established before the flight (figure 1).
+
+  2. The oxygen usage, computed            from the decrease in oxygen bottle pressure per unit
+time, was related to metabolism.          A correction   was made for an assumed rate of suit
+leakage.
+  3. The difference between the temperatures          of the coolant water flowing into and out
+from the liquid cooling garment was multiplied by an assumed water flow rate and related
+to metabolism     directly. This relationship  is illustrated     in figure 2, and it is based on the
+assumption    that the crewman is maintaining         a comfortable        LCG inlet temperature.   A
+second mode of computation          was available in which crewman comfort is not assumed,
+but a steady-state    of the coolant inlet temperature        is assumed. An example of this mode
+of the LCG program is illustrated in figure 3. The basic difference between the two modes
+of computation,    then, is the fact that the LCG inlet temperature             is used in the second
+mode.     This provided    a greater degree of precision          but required        a constant     inlet
+temperature.    An operational    procedure     was established    to select the appropriate        LCG
+calculation mode as a function of the constancy of the inlet temperature.
+     In both the LCG computational              modes, the metabolic         rate was corrected         by
+subtracting an estimate of heat leaked into the pressure suit from the environment                  from
+the total heat removed from the pressure suit.
+     After the mission      was completed,        the estimations      made by each method               of
+calculation were independently       reassessed with respect to the information           gained during
+the EVA including data on the sublimator              feedwater   remaining;      real-time data were
+recalculated   when required. The best metabolic rate estimate for the EVA and for EVA
+segments was then obtained         by averaging the oxygen method             and the LCG method.
+Because of apparent changes in the correlation          of heart rate with metabolism,         the heart
+rate method was not used independently.              A postflight    relationship     of heart rate to
+metabolism was defined using the average heart and metabolic rates as a point and basing
+the slope of the relationship    between heart rate and metabolic rate on the average of the
+preflight and postflight slopes.
+     Two types of task-identification         methods    were used for separat!ng          the activities
+performed     during the EVA periods. The metabolic rate monitors divided the operational
+tasks into four types that were of interest to mission planners. These tasks consisted of
+overhead activities (that is, tasks required for each EVA, such as egressing and ingressing
+the vehicle, rather than those directed to a specific objective), deploying the Apollo lunar
+surface experiments     package (ALSEP), making geological surveys, and riding in the lunar
+roving vehicle (LRV). Although         these tasks were easy to separate according to time
+required    for completion,    the subtasks within a major task varied considerably     from
+mission to mission. The oxygen and LCG methods could be used to obtain accurate
+metabolic rates for these activites. A more extensive task separation was accomplished     in
+conjunction     with a time and motion study.* This effort resulted in dividing the EVA
+
+*Performed by Fordham University under contract to NASA.
+  Metabolism   and Heat Dissipation   During Apollo EVA Periods                             119
+
+
+
+                                                                                 o
+                                                                                 eq
+
+
+                                                                                 od
+                                                                                 r-4
+
+                                           <.
+
+
+
+
+                                                                                 o
+                                                                                 eq          r_
+
+                                                                                 ¢M
+                                                                                 e-4
+                                                                                              .==
+                                                                                             "O
+
+
+                                                                         J
+                                                                                 o
+
+                                                                                 dq
+                                                                                 Od
+                                                                                 _4           0
+                                                                                             r_
+
+
+                                                                                        E
+
+
+
+
+ili!_i! l
+                                                                                              0
+                                                                                 o     _8
+                                                                                 qM
+                                                                                 .-4
+
+
+
+
+                                                               J
+                                                                                 O
+                                                                                 eq
+
+
+
+                                                                                 r=4
+                                                                                              0
+
+
+
+
+                                                                                 O
+                                                                                 ee_
+
+                                                                                 (M
+
+
+
+
+                                                                                 O            .=
+                                                                                 eq
+                                                                                 6_
+                                                          o_
+                                               _4
+
+                                               u!uals>.eaq sJea
+                                                       "e_eJ  H
+
+                                           •         I              I        I
+                                          o_        (,0            (,o
+
+
+
+
+                                 (Jq/leO>l)£01.x Jq/F e:_eJ3!loqe]euJ pa_,elnole
+                                                                               O
+120                                                             Biomedical        Results     of Apollo
+
+
+
+timcline             into       as    many       definable        activities       as     possible.       Because      of    the    short         duration       of
+
+some        of        these      activities,        metabolic         rates       could      be   assigned      only        by   using      the     postflight
+heart      rate        method.
+
+
+
+
+                     (Oc)            OK
+                 118.0)         291.2
+
+
+
+
+                 114.4)         287.6
+
+
+
+                 110.81          284.0
+           (.9
+
+
+                     16.41       279.6
+           8
+           a
+
+                     13.21       276.4
+           "3
+
+
+                      0          273.2              I               i                 i                 i                [
+                                                   527            1054              1581              2108             2635        3162 J/hr x 103
+                                                  (1251           (250)             (375)             (500)            (625)        (730) (kcal/hr)
+
+                                                                               METABOLIC          RATE
+
+
+           Figure 2. Example  of mode 1 LCG program,        metabolic    rate plotted as a function   of heat
+           picked up by LCG. Relationship      is based on the assumption     that crewman    is maintaining
+           comfortable  LCG inlet temperature.
+
+
+
+                       (°C1           OK
+                      (18.0)         291.2
+               I-
+               <1
+
+               z_ (14.4)             287.6
+
+
+
+               (3 (10.81             284.0
+
+
+
+               _) (6.4)              279.6
+               8
+                 a
+               (_      (3.2)         276.4
+
+
+
+                                                 TWI_ 32 °            J                 ,                ,              i                   J
+                          0          273.2
+                                                    527             1054             1581             2108          2635           3162 J/hr x 103
+                                                   (1251            (250)            (375)            (500)         (625)          (730) (kcal/hr)
+
+                                                                                METABOLIC         RATE
+
+            Figure            3. Example         of mode 2 LCG program;               metabolic   rate plotted  as a function                     of heat
+            picked            up by the        LCG for each of a family               of inlet temperatures.    Relationship                    is based
+            on the            assumption        that a steady-state exists;          crewman    comfort   is not assumed.
+                             Metabolism
+                                    andHeat Dissipation                During    Apollo     EVA     Periods                 121
+
+
+
+     Preflight data during one-g training was quite valuable in assessing the validity of the
+techniques of measurement      but only of limited value in predicting actual workloads on
+the lunar surface and during free-space EVAs. Table 1 shows some of the data obtained
+prior to Apollo 15 as compared       with the inflight data. As inflight data from previous
+missions became available, it became the best indicator        of workloads    to expect on
+succeeding missions.
+
+                                                              Table 1
+
+               Metabolic           Rate Measurement          During Training        and Flight - Apollo                15
+
+
+                                           KSC Training                          Apollo 1 5
+                                                                                                               Percent
+                 Activity                   EVA 2 & 3                            EVA 2 & 3
+                                                                                                              Difference
+                                        J/hr x 103     (kcal/hr)         J/hrx     103      (kcal/hr)
+
+             Overhead                        359     (379)                       261      (275)                  +38
+
+             Station    activity            422      (445)                       216      (228)                   +95
+
+             Lunar     rover                 192     (203)                       463      (123)                   +65
+
+             Average                         372     (393)                       218      (230)                   +70
+
+
+
+
+                                                     Energy        Production
+
+     The      metabolic  rates experienced  during the                           Apollo lunar surface extravehicular
+activities    are summarized in table 2. Representative                          data for the first Apollo 15 EVA are
+given in table 3. The metabolic rates experienced     during the EVA periods were lower than
+had been predicted before the Apollo missions, and the crewmen were able to move easily
+and confidently     on the lunar surface. The overhead activities were the most energy
+consuming     tasks performed.    These activities included egress, offloading and setup of
+equipment     around the Lunar Module (LM), ingress, and stowage of lunar samples. The
+ALSEP deployment        and geological survey resulted in lower metabolic rates than did the
+overhead activity. This difference may have been attributable      to the fact that the details
+of these activities as a group were less predictable                            and required        more time for judgment
+and, in some cases, for precise manual manipulation.
+     The      lowest        metabolic     rates occurred           while astronauts          drove and rode in the LIW
+(figure 4). This was the most clearly defined operational     activity. Metabolic rates for this
+activity approached   rates reported for shirt sleeve riding in an automobile (Webb, 1973).
+The low metabolic     rates experienced  during this lunar activity were important       factors
+contributing   to the success of the Apollo 15 through 17 missions through reduction in
+both the use of consumables       and the fatigue experienced     by crewmen during the long
+EVA periods.
+    The highest average metabolic rate during an EVA was exhibited by the Apollo 11
+Lunar Module Pilot (LMP). This crewman had been assigned the task of evaluating modes
+of locomotion  and was quite active in performing   this task. Several crewmen experienced
+the minimum average metabolic     rate of approximately     837 x 103 J/hr (200 kcal/hr) on
+different      missions. The highest metabolic  rates experienced during the performance  of
+discrete      activities were associated with LMP transport of the ALSEP pallet, LM ingress
+122                                            Biomedical      Results    of Apollo
+
+
+
+                                                             Table 2
+
+                                     Metabolic Expenditures   During Apollo
+                                     Lunar Surface Extravehicular   Activities
+
+
+                                                        Metabolic        Rate, J/hr x 103 (kcal/hr)
+
+                                                                                             Lunar                           EVA
+ Mission           EVA                 ALSEP          Geological                             Roving         Total     For    Dura-
+  No.              No.    Crewman      Deploy-          Station             Overhead        Vehicle         Activities        tion
+                                        ment            Activity                           Operations                         (hr)
+
+                                      818 (195)       1023     (244)        899 (214)                       949(227)         2.43
+      11            1
+                                     1267   (302)     1471     (351)       1269   (303)                    1267     (302)    2.43
+
+                                      864 (206)       1017     (243)       1232   (294)                    1028     (246)    3.90
+                    1
+                                     1006   (240)     1028     (245)       1119   (267)                    1054     (252)    3.90
+      12
+                                                        913 (218)           902 (215)                       922 (221)        3,78
+                    2
+                                                      1058     (253)       1038   (248)                    1054     (252)    3.78
+
+                                      762 (182)       1230  (294)           920   (219)                     843 (202)        4.80
+                    1
+                                      947 (226)         729 (174)          1084   (259)                     980 (234)        4.80
+      14
+                                      494   (118)      996     (238)        895   (213)                     959 (229)        3.58
+                    2
+                                      851 (203)       1120     (267)        894   (213)                    1054 (252)        3.58
+
+                                     1182   (282)     1153     (275)      1417     (338)     639   (152)   1159     (277)    6.53
+                    1
+                                     1369   (327)       778 (186)         1226    (293)      435   (104)   1033     (247)   i6.53
+
+                                     1019   (243)     1227 (293)          1202    (287)      624 (149)     1054     (252)
+      15            2                                                                                                       _7.22
+                                     1110   (265)      792 (189)          1116    (266)      414 (99)       854     (204)    7.22
+
+                                     1095   (261)     1013 (242)          1303    (311)      578 (138)     1086     (260)    4.83
+                   3
+                                      962 (230)        788 (188)            981 (234)        447 (106)      854     (204)    4.83
+
+                                      869 (207)        9O5 (216)          1146    (273)      725 (173)      917 (219)       :7.18
+                    1
+                                     1081   (258)     1125     (268)      1154    (275)      666 (169)     1065     (255)    7.18
+
+                                                       933 (223)          1044    (249)      470 (112)      822 (197)        7.38
+   16              2
+                                                      1023 (244)            987 (236)        438 (105)      874 (209)        7.38
+
+                                                       966 (231)           983    (235)      518 (124)      854 (204)        5.67
+                   3
+                                                      1013     (242)      1107    (264)     430    (103)    864 (207)       i5.67
+
+                                     1192   (285)     1094     (261)      1267    (302)      506 (121)     1150     (275)    7.20
+                   1
+                                     1166   (278)    1255      (300)      1193    (285)     472    (113)   1139     (272)   7.20
+
+                                                      1094 (261)          1267    (302)      506 (121)      864 (207)        7.62
+   17              2
+                                                     1255      (300)      1193    (285)     472    (113)    874 (209)        7.62
+
+                                                     1094      (261 )     1267    (302)     506    (121)    980 (234)       7.25
+                   3
+                                                     1255      (300)      1193    (285)     472    (113)    990 (237)        7.25
+
+Mean                                 1018   (244)    1018      (244)      1123    (270)     518    (123)   980      (234)
+
+Total       time   (hr)                28.18                52,47            52.83             25.28         158.74
+
+
+
+CDR        = Commander
+LMP = Lunar Module           Pilot
+
+
+
+
+                               ORIGINAL              PAGE   IS
+                               OF POOR              QUALITY
+                                      Metabolism                and    Heat    Dissipation           During      Apollo        EVA Periods                                                   123
+
+
+
+with       lunar        samples,              and     drilling         and         removal      of     drill     bits.     The        flight    surgeon               never            had    to
+limit        the     work        rate         of     any        crewman              during      an     EVA.             The       lowest       rates     experienced                        for
+
+discrete           activities         were          associated              with      riding     the      LRV,           picture         taking,         and         with          periods
+
+of     observation              and     description.
+
+
+                                                                                       Table 3
+
+                     Metabolic                Expenditures                  for the Apollo              15 Commander                     During EVA-1
+
+
+                                                                                                                                   Duration        i          Average
+                                                                                                        End Time
+                                                                                                                                                          Metabolic Rate
+                                      Surface         Activity                                           (hr:min)                    (min)
+                                                                                                                                                       J/hr x 10 3 (kcal/hr)
+
+
+     Preegress       operations                                                                                119:51                  12                      1569         (374)
+
+     Egress                                                                                                    119:59                    8                     1726         (412)
+
+     Television       deployment                                                                               120:11                  12                      1895         (452)
+
+     Lunar      roving vehicle           (LRV)          offloading            and
+                                                                                                               120:32                  21                      1463         (349)
+      deployment
+
+     LRV      configuration                                                                                    121:45                  73                      1239         (296)
+
+     LRV      traverse      (LM       to station           1)                                                  122:11                  26                          513 (122)
+
+     Station       1 activities                                                                                122:29                  18                      1032         (246)
+
+        Geological          site selection                                                                     122:15                       4                  1045         (249)
+
+        Radial sample                                                                                          122:24                       9                      852 (203)
+
+        Traverse preparation                                                                                   122:29                       5                  1343         (321)
+
+     LRV      traverse      (station          1 to station            2)                                       122:35                       6                      486 (116)
+
+     Station       2 activities                                                                                123:26                  51                      1196         (285)
+
+        Description             and documented                   sample                                        122:57                  22                      1120         (267)
+
+        Comprehensive                 sample                                                                   123:05                       8                  1212         (289)
+
+        Double         core tube                                                                               123:16                   11                     1112         (265)
+
+        500-ram          photography                and traverse preparation                                   123:26                   10                     1444         (345)
+
+     LRV       traverse (station              2 to LM)                                                         124:00                  34                          617 (155)
+
+     ALSEP         offloading                                                                                  124 :24                  24                     1054         (252)
+
+     ALSEP         traverse      (LRV)                                                                         124:33                       9                      795 (190)
+
+     Heat flow        experiment               deployment                                                      125:24                   51                     I   IO'-_    ILo,.,_!
+
+
+
+     Laser ranging retroreflector                       deployment                                             125:33                       9                  1393         (333)
+
+     Photography            and traverse             preparation                                               125:38                       5                  1394         (333)
+
+     LRV       traverse     (ALSEP             site to LM)                                                     125:43                       5                  1343         (321)
+
+     EVA       closeout                                                                                        125:58                   15                     1305         (311 )
+
+     Solar wind composition                         experiment             deployment          and
+                                                                                                               126:11                   13                     1701         (406)
+      EVA termination
+
+
+
+
+     During the Apollo 14 mission, which included some of the most extensive walking
+traverses (figure 5), a specific effort was made to relate walking speed to metabolic rate.
+Thc results of this effort are presented     in table 4. These data indicate a very poor
+correlation between traverse rate and metabolic rate. During these operational    traverses,
+the crewman apparefifiy maintained   a comfortable  walking effort, and, to a large extent,
+                                         ,t
+124                              Biomedical Results of Apollo
+
+
+the rate of travel at this level of effort varied with the terrain and the operational
+requirements of each traverse.
+
+
+
+
+                                             R !! -I?&.      --
+                                                             ..-
+
+
+
+
+                Figure 4. Apollo 17 astronaut riding in the lunar roving vehicle.
+
+
+
+
+                 Figure 5. Apollo 17 astronaut walking on the lunar surface.
+               Metabolism
+                      andHeat
+                            Dissipation
+                                   During
+                                        Apollo
+                                             EVAPeriods                                            125
+
+
+
+
+    .£:
+
+     t_
+
+    -_            tl.                                                                     5
+    %             =,
+                             _     0    ,_-
+     x
+     L
+    .g=
+
+
+
+     (D
+     to
+    tr            tr
+     ._           t:)
+                                                                               'q"   0    e9
+
+
+
+
+<
+
+                             000               _0__0_                          _              0
+
+
+
+0
+
+
+
+
+_     .__
+                             000                                                              0
+
+                                                       I            III   I
+
+<
+
+
+
+
+                                                                                     _        o0
+
+
+
+
+                                                                                                    _4
+                                                                                                    r
+                                                                                                    0
+
+          g-
+                             LO    _0    ,'-
+
+         o
+
+
+                                                                                                    0
+
+
+
+                             O-    O.    _.
+                                                   •                      _    _
+                                               %       ee   eeeeee_esee       _eeo       .s        "0
+             F-
+                        >     <<<
+                        LU
+126                                                                      Biomedical             Results of Apollo
+
+
+
+        In general,               both      the        speed           and    the efficiency                 of lunar         walking          were       greater         than     could
+be      achieved              while        wearing               a pressure                suit       in a one-g            environment;                  neither         speed         nor
+efficiency             was equivalent                      to that        of a shirt            sleeve       operation          at one g.
+
+        Operational                film        and         kinescope              were      used         in performing                 a time          and     motion        study        of
+Apollo          15      and        16      activities.                This       study      compared                the     facility         for,        and     energy          cost     of
+performing                several         specific          activities            at one g during                  training       wearing           the       Apollo       space        suit
+with         one-sixth            g on the            lunar           surface.      One         of the observations                    of this study              was that          tasks
+were          completed                 more         rapidly            at one g than                  at one-sixth             g, but            that       greater       metabolic
+costs        were       involved           (Kubis           et al.,          1972a;        Kubis         et al.,      1972b).
+
+        In     addition            to      the        14 periods                 of lunar          surface          activity,          there        were        four      periods         of
+zero-g         EVA.            The        metabolic                   data       from       these        EVA          periods          are     summarized                 in table         5.
+During           the        Command                  Module              extravehicular                  activities        performed                during        the     Apollo          15
+through              17       missions,              the        Command                  Module           Pilot       retrieved          a film              canister       from         the
+Service          Module            while         the       Lunar             Module         Pilot        tended        his umbilical                in the doorway                of the
+Command                   Module            (figure             6).      During           the      Command                Module             extravehicular                activities,
+heart         rate     was        the     only         data       available           for estimating                metabolic            rate.         Because          the errors         in
+the     heart          rate     method               all tended               to increase             the     metabolic           rate       estimate,            these     rates       can
+be considered                   maximum                values.            Voice       contact            with      crewmen          during           these       periods         did not
+indicate             that      they        were         working               strenuously.               The        metabolic            rates         obtained          from       heart
+rate     data          were        not      used           to     constrain              extravehicular               activities;            in some           cases,      the    actual
+metabolic                 rates         were         much             lower        than         the      values        obtained              by     means          of     heart         rate
+calibration               data.         Elevation               of these         heart      rates        was attributed                more         to excitement                than     to
+exercise.
+
+
+                                                                                           Table         5
+
+                                                                          Metabolic               Expenditures
+                                                            During            Apollo        Zero-G            EVA         Periods
+
+
+                                          Mission                                              Metabolic Rate,                           Duration
+                                          Number                       Crewman              J/hr x 103 (kcal/hr)                          (min)
+
+                                                 9                      LMP                              634 (150)                                59
+                                               15                       CMP                           < 992 (235)                                 40
+                                                                        LMP*                          < 486 (115)                                 40
+                                               16                       CMP                        <2108          (500)                           85
+                                                                        LMP*                                                                      85
+                                               17                       CMP                        < 1267 (300)                                   67
+                                                                        LMP*                        <602 (145)                                    67
+
+                                                                                                                                  Total 443
+
+                                        *Standup            EVA
+                                   **Not         measured
+                                   LMP = Lunar Module Pilot
+                                   CMP = Command Module Pilot
+                   Metabolism and Heat Dissipation During Apollo E V A Periods                   127
+
+
+
+
+             Figure 6. Apollo 17 CMP retrieving film canister from the Service Module.
+
+
+                                     Concluding Remarks
+    The Apollo crewmen were able to perform planned extravehicular activities and to
+extend them to the maximum time allowable without medical problems. The metabolic
+rates experienced during the lunar surface extravehicular activities were lower than
+conscrative premission estimates.
+    A manually controlled liquid cooling garment was effectively used to minimize
+fatigue and water loss from sweating during lunar surface extravehicular activities.
+    Gas cooling was adequate during the short zero-g extravehicular activities performed
+from the Command Module.
+    The prediction of EVA workloads became more reliable as inflight data was
+accumulatcd. The prediction of the average metabolic cost of an EVA was more reliable
+than the cost of an individual short-term task.
+
+
+                                           References
+
+Kelley, G.F.; Coons, D.O.; and Carpentier, W.R.: Medical Aspects of Gemini Extravehicular Activities.
+    Aerosp. Med., vol. 39, June 1968, pp. 611-615.
+Kubis, J.F.; Elrod, J.T.; Rusnak, R.; and Barnes, J.E.: (Final Report) Apollo 15 Time and Motion
+   Study, NASA CR-128695, 1972a.
+Kubis, J.F.; Elrod, J.T.; Rusnak, R.; Barnes, J.E.; and Saxon, S.C.: (Final Mission Report) Apollo 1 6
+   Time and Motion Study, NASA CR-128696,1972b.
+i28                        Biomedical
+                                 Results
+                                      ofApollo
+
+Machel,R.M.,
+           ed:Summary ofGemini Extravehicular
+                                           Activity.
+                                                  NASA SP-149,I967.
+Margaria,
+        R.;andCavagna,G.A.:Human   Locomotion in Subgravity.
+                                                         Aerosp.Med.,
+                                                                    vol.35,Dec.
+  1964, pp.1140-1146.
+Roth,E.M.:Bioenergetics
+                    ofSpace Suits
+                                forLunar Exploration.
+                                                   NASA SP-84,
+                                                             1966,pp.83-87.
+Roth,E.M.,ed.:Compendium  ofLunarResponsestotheAerospaceEnvironment.
+                                                                  NASA CR-1205
+  (II),Nov.1968.
+Shavclson,
+         R.J.:LunarGravitySimulation
+                                   anditsEffectonHuman  Performance.
+                                                                  Human Factors,
+  vol.10,Aug.1968,
+                 pp.393-402.
+Shavelson,
+         RJ.;andSeminara,  J.L.:Effectof LunarGravityon Man'sPerformanceof Basic
+  MaintenanceTasks.
+                 J.Appl. Physiol.,
+                                vol52,1968, pp.177-183.
+Springer,
+        W.E.;
+            Stephens,
+                    T.L.;andStreimer,
+                                   I.: TheMetabolic
+                                                  CostofPerforming
+                                                                 aSpecific
+                                                                        Exercise
+  inaLow-Friction
+                Environment.Aerosp.Med.,vol.34,June
+                                                  1963,pp.486-488.
+Waligora,
+        J.M.;andMichel,E.L.:Application of ConductiveCooling
+                                                           for Working
+                                                                     Menin the
+  ThermallyIsolated
+                 Environment.Aerosp.Med.,vol.39,May1968,
+                                                       pp.485-487.
+Webb, P.:Work,Heat,andOxygen    Cost.Bioastronautics
+                                                   DataBook.NASASP_3006,  1973,
+  pp.847-879.
+Wortz,E.C.;
+          andPrescott,
+                     E.J.:EffectsofSubgravityTractionSimulation
+                                                             ontheEnergyCosts
+                                                                            of
+  Walking.Aerosp.
+                Med.,vol.37,Dec.1966,
+                                    pp.1217-1222.
+

@@ -1,0 +1,186 @@
+                                                          National Aeronautics and
+                                                              Space Administration
+
+
+
+
+                                          Human Mars Mission Surface
+                                           Power Impacts on Timeline
+                                            and Traverse Capabilities
+
+
+
+
+Michael Chappell, NASA ESDMD Mars Architecture Team
+2022 IEEE Aerospace Conference, Big Sky
+March 9, 2022
+2022 IEEE Aerospace Conference, Paper 8.0113
+Human Mars Mission Surface Power Impacts on Timeline and Traverse Capabilities
+
+
+                                              Michael B. Chappell
+                                              NASA Marshall Space Flight Center
+
+
+
+
+                      Stephen Hoffman                                 Omar Bekdash
+                      Aerospace Corporation                           Aerospace Corporation
+
+
+
+
+                                            Michelle Rucker
+               Presented by:                NASA Johnson Space Center
+
+
+
+
+                                     2022 IEEE Aerospace Conference                           2
+Mars Mission Background
+Parameters to conduct this study only, not to be interpreted as NASA “plan”
+
+• Minimal surface mission
+   ⎻ Two crew on surface
+   ⎻ Live/work in a pressurized rover only
+   ⎻ 30 Sol surface mission duration
+
+
+• Support assets
+   ⎻ Three 25mT landers for predeployed cargo, crew delivery, and base stations
+   ⎻ Pressurized rover (PR) for habitation, surface traverse, and operations
+   ⎻ Unpressurized rover for logistics operations
+   ⎻ Nuclear fission surface power (FSP) supply for primary power
+   ⎻ Crewed Mars ascent vehicle (MAV) for departure
+                                  2022 IEEE Aerospace Conference                  3
+                                                                          Three Lander
+                       This architecture is for                           Minimal Mars
+                   analysis purposes, and should
+                    not be misconstrued as “the                           Mission
+                                plan”
+                      Deep Space Transport
+                                                                                       Lander 3
+                                                                                       (PR Offloaded)
+Lander 1                                                    Pressurized
+                                  Lander 2                  Rover
+           Fission Surface
+           Power                                                            Two Crew
+                                  Mars
+                                  Ascent
+              Unpressurized       Vehicle
+              Rover
+
+
+
+
+                                                                                                    4
+                                  2022 IEEE Aerospace Conference
+Foundation
+Balance of three primary constraints
+
+1. Power
+   ⎻   How much power do I have? What all needs power?
+2. Operations
+   ⎻   How much time do I have or need to explore, recharge, and conduct other
+       necessary activities?
+3. Pressurized Rover Hardware
+   ⎻   How much energy can it store? How much energy does it consume when
+       idle/moving?
+
+
+Ultimate Question: How much exploring (time/distance) can be achieved
+within these constraints?
+                                                                                 5
+                                2022 IEEE Aerospace Conference
+Power
+• Single 10 kW Fission Surface Power (FSP) supply
+  ⎻ Backup 10 kW FSP unit only available in contingency
+  ⎻ Losses are ignored for simplicity, representative of capturing future technology maturity, design uncertainty, and
+    margin
+Total Supply = 10 kW
+
+• Margin
+  ⎻ 30% added to power needs for margin
+  ⎻ Taken out of the total power available to determine maximum usage capability
+Margin = 2.3 kW
+
+• Surface asset power
+  ⎻ Constant power for landers as base stations (communications, navigation, etc) and keep alive for MAV, remaining
+    can be used for recharge, unpressurized rover recharges non-interference schedule
+Surface assets = 2.85 kW
+
+Total available for PR = 4.85 kW
+                                                                                                                    6
+                                            2022 IEEE Aerospace Conference
+Operations
+Representative operations timeline for study purposes
+• Initial landing, adjustment, and preparation periods
+• Three exploration excursions
+  ⎻ 5 Sols continuous exploration, 1 Sol logistics resupply, 1 Sol rest day
+• Departure preparation and launch period
+Time available to recharge between excursions = 2 Sols
+Continuous exploration duration = 5 Sols
+
+
+
+
+                                                                                7
+                                               2022 IEEE Aerospace Conference
+Pressurized Rover
+• Power from internal battery
+  ⎻ 200 kW-hr battery selected to meet continuous operations objectives
+• Hotel load 1.85 kW
+Total recharge power = 3 kW
+Total recharge duration = 48 hrs
+
+• Integrating recharge capacity with battery capacity and desired operations durations results in the
+  distance and continuous remote operations capability of the rover
+
+
+
+
+                                                                                                        8
+                                           2022 IEEE Aerospace Conference
+Total Exploration
+• Integrating power, operations timeline, and rover capabilities, a resulting achievable
+  exploration capability is determined
+Total Exploration = 279 hrs away from recharge site with 112 hrs at exploration
+sites and cumulative traverse distance of 194 km
+
+
+
+
+                                                                                           9
+                                  2022 IEEE Aerospace Conference
+Alternate Opcons
+• As part of the study, the team assessed how alternative operations concepts
+  might work with in the bounds of the power and mobility constraints
+• While other concepts were achievable, the primary operations described in the
+  study achieved the maximum exploration capability without adding any
+  additional hardware (added mass) or impact to required operational constraints
+            Opscon Name                               General Opscon                                        Philosophy
+                               Drive to exploration site, stay as long as possible on large        Max duration with no additional
+          Long Stay/Recharge
+                               battery, return to FSP for full recharge                            hardware
+
+                               Daily (sol-ly?) drive to exploration site, perform exploration      Frequent recharge with no
+          Commuter
+                               activities, return to FSP each sol for full recharge                additional hardware
+
+
+                               Drive to exploration site, perform exploration activities, return
+                                                                                                   Add hardware to minimize
+          Battery Swap         to FSP, swap for fully charged battery, leaving behind depleted
+                                                                                                   battery turnaround
+                               battery to recharge and return to exploration site
+
+                               Drive both PR and PUP to exploration site, use the PUP
+                               to recharge the PR, PUP can return on its own to the FSP            Add hardware to maximize
+          Mobile PUP
+                               for recharge and return to the exploration site to serve            exploration capability
+                               PR
+                                                                                                                                     10
+                                                 2022 IEEE Aerospace Conference
+Questions?   11
+12
+

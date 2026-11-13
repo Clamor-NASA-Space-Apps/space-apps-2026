@@ -1,0 +1,498 @@
+Systems Maturity Assessment of the Lithium Ion Battery for
+          Extravehicular Mobility Unit Project
+                                                   Samuel P Russella
+                                               a
+                                              NASA Johnson Space Center
+                                                  Houston TX 77058
+                                        281-483-8721; samuel.p.russell@nasa.gov
+
+
+    Abstract. The Long Life (Lithium Ion) Battery (LLB/LIB) is designed to replace the current Extravehicular
+    Mobility Unit (EMU) Silver/Zinc (Ag/Zn) Increased Capacity Battery (ICB), which is used to provide power to the
+    Primary Life Support Subsystem (PLSS) during Extravehicular Activities (EVAs). The LLB (a battery based on
+    commercial lithium ion cell technology) is designed to have the same electrical and mechanical interfaces as the current
+    ICB. The EMU LIB Charger is designed to charge, discharge, and condition the LLB either in a charger-strapped
+    configuration or in an EMU-mounted configuration. This paper will retroactively apply the principles of Systems
+    Maturity Assessment to the LLB project through use of the Integration Readiness Level and Earned Readiness
+    Management. The viability of this methodology will be considered for application to new and existing technology
+    development projects.
+
+   Keywords: System Maturity Assessment, lithium ion, Systems Engineering, Technology Readiness Level, System
+   Readiness Level, Integration Readiness Level
+   PACS: 01.20.+x
+
+
+                                                   INTRODUCTION
+The Long Life (Lithium Ion) Battery (LLB/LIB) is designed to replace the current Extravehicular Mobility Unit
+(EMU) Silver/Zinc Increased Capacity Battery (ICB), which is used to provide power to the Primary Life Support
+Subsystem (PLSS) during Extravehicular Activities (EVAs). The resulting system includes a long-life rechargeable
+battery, a portable Intravehicular Activity (IVA) charger and an accessories kit for cable and fuse storage.
+
+The LLB is an important logistical endeavor by the International Space Station program to reduce the up mass
+requirements necessary to resupply ICBs, given their short useful life of one calendar year. While the stakeholders
+include ISS Program Office, EVA crew members, prime contractor, and EVA Program Office, the JSC Engineering
+Directorate has a principal stake in development of the flight product from design concept through maturation and
+certification. This paper summarizes the technology development and hardware build project and retroactively
+applies Systems Maturity Assessment as a means of assessing viability of the project management methodology in
+the development of critical NASA spaceflight systems.
+
+
+                                                   System Description
+
+This section provides an overview of the battery/charger system from the perspective of technology development.
+The LLB/LIB system is made up of three discrete elements: battery, charger and data logging software. The battery
+has been designed to interface with and power the Extravehicular Mobility Unit (EMU), or spacesuit and the
+charger. The charger has been developed to interface with the LLB and either International Space Station (ISS) or
+Space Transportation System, Orbiter (Shuttle) power systems. The software is installed on a Space Station
+Computer (SSC) and interfaces solely with the LIB Charger via a one-way Universal Serial Bus (USB) data
+interface. The software is not required for nominal operation of the LLB/LIB Charger. A definition of the nominal
+system interfaces is offered in Figure 1. The data logging software is not shown in this figure since it is not a
+portion of the nominal system; however, the logging code is designed to operate non-intrusively on the on-orbit
+laptop and connect directly to the LIB charger via a Universal Serial Bus cable.
+
+
+
+
+                                   SSP 52051, Vol 1                    Electrical
+
+                                                                       Mechanical
+                             ISS
+
+                                   SSP 52051, Vol 2                     Thermal
+
+
+
+                                                                                                                           NSTS-21000-IDD-ISS
+                                                                                                              Electrical
+                                                                                                              Electrical
+                                                                                                              Mechanical
+                                                                                                   EMU LIB                                      Orbiter
+                                                                                                    Charger   Thermal
+                                                                                                              Thermal
+
+
+                                                                                                                           NSTS-21000-IDD-MDK
+                                                                         Electrical
+                                                          Electrical
+
+
+
+
+                                       ICD-4-0012-0C-1
+                                                         Mechanical                   Electrical
+                                                                          EMU
+                            EMU
+                                                                          LLB
+                                                           Thermal
+
+
+
+
+FIGURE 1 – Nominal LLB/LIB Charger Interface Definition
+
+Although each system element functions in concert, the battery is mission critical and serves the EVA mission
+without the associated charger. The LIB Charger serves the IVA portion of the mission by providing the necessary
+battery servicing function. For this study, the development and certification of the firmware required for charger
+operation is considered an inherent portion of charger development and is not singled out for independent
+consideration herein. The data logging software was developed to aid in troubleshooting should anomalous battery
+or charger performance occur while on-orbit or during ground operation. The logging software is not required for
+charger operation nor can the software influence charger operation. Likewise, by design, the logging software is
+neither required for space station computer operation nor can it influence computer operation. The software does
+require a 32-bit Windows-based operating system and a USB data interface, facts which are considered in interface
+definition for off-nominal operation of the LLB/LIB Charger system.
+
+                                                                     Battery Technology Overview
+
+The battery design went through two iterations to achieve the final product. The initial build approached the
+challenge through modification of a commercial cell design with limited industrial use but which was based on
+pouch technology. The pouch design was pursued due to the low internal pressure required to relieve the cell should
+over-charging occur. Unfortunately, the resulting product was immature and failed to meet the life requirement
+levied on the long life battery as the project under-estimated the development effort necessary for a complex
+lithium-ion battery. When the failure was identified, the problem was studied and determined to be incurable with
+the available budget and schedule. Therefore, in 2007, the battery project was re-commissioned to use a
+Commercial Off-the-Shelf (COTS) lithium-ion electrochemical cell widely deployed in consumer electronics
+(laptops, digital cameras, etc). The second generation battery (designated the LLB to distinguish it from the original
+concept) retained the electrical architecture and hardware infrastructure developed during the first iteration to insure
+applicability of the LIB charger. In a further effort to minimize repeat failure, the second generation battery build
+was contracted to the industry leader in on-orbit operation of lithium-ion technology. This paper will discuss the
+technology and integration readiness development of both the first and second generation battery. A pictographic
+representation of the design evolution is shown in Figure 2 (note the battery housing is oriented differently in the
+two pictures).
+FIGURE 2 - Battery Design Evolution
+
+                                          Charger Technology Development
+
+The charger design progressed on a much more linear path due to the decision to maintain the existing control
+architecture and interfaces with the second generation lithium battery. Although steady, charger development was
+not without issue. The design employed the use of COTS microcontrollers in a serial fashion, each regulating
+voltage over a slightly increased range. In this fashion, three microcontrollers were able to provide the two fault
+tolerance required of human spaceflight hardware. Since the ISS program does not allow software (in this case,
+charger firmware) to provide every control, the charger was designed to use a power source incapable of over-
+charging the lithium ion battery. The resulting complexity of the charger design and the poor quality control of the
+initial vendor allowed for latent defects to progress undetected through the initial flight acceptance and qualification
+program. These defects were detected during fleet acceptance testing about the same time as the first generation
+battery failed the life cycle requirement (ironically, the defects were noted while troubleshooting the failed battery).
+As a result of this failure, the charger design was revisited, the defects identified, and rigorous methods developed to
+independently verify each critical charger function. The autonomous operation of the charger, especially when
+combined with the design requirement that inherent charger function be inaccessible by the user, made detection and
+verification of critical function operation a challenge. The accessory kit was combined with the charger
+development effort since it was to reside with the charger on-orbit. The accessory kit development was not without
+issue due to inappropriate labeling requirements and incorrect material selection. As a part of the charger
+refurbishment work, the flight kits were modified to satisfy specification requirements. The delivered kit is secured
+to the charger once on-orbit with a hook-and-loop-fastened strap which allows for securing of two batteries as
+shown in Figure 3.
+
+
+
+
+FIGURE 3 - LIB Charger with Accessory Kit and Two Batteries
+                                        Data Logging Software Development
+
+The laptop logging software matured on a more optimized path progressing from basic ground test function, to
+development of a user-friendly Graphical User Interface (GUI), to certification as flight software. The system
+requirement that LIB charger operational parameters be unchanged by the user resulted in a one-way data
+connection between the LIB Charger and the companion laptop. Operationally, the data logging software is only
+required for collection of engineering data should the need arise to troubleshoot an on-orbit or ground problem.
+Based on this usage scenario and the decision to maintain a stand-alone executable program, NASA classified the
+flight software as non-safety critical. The combination of classification, and the design decisions to utilize standard
+drivers in a stand-alone executable, drastically simplified the flight certification process. The use case for the data
+logging software (LIBSoft) is shown in Figure 4.
+
+
+
+
+FIGURE 4 - LIB Charger Data Logging Software Use Case Diagram
+
+                                                  System Operation
+
+Functional flow development is briefly discussed to foster an understanding of intended use of the system both on-
+orbit and in ground storage. Nominal battery utilization prepares a battery for EVA, performs a pre-EVA
+verification, performs the stated mission, and returns the battery to storage condition if necessary (short EVA).
+Should an anomaly be detected either during servicing or mission use, data logging software is available for us in
+conjunction with charger operations to assist the ground operations team in determining the nature and significance
+of the finding. It is assumed that trouble shooting operations will require charge and discharge operations of the
+charger with data logging enabled. The resulting data file will then be studied and additional ground or on-orbit
+testing utilized before a decision is made to continue usage of the on-orbit or ground hardware.
+
+                                            System Development Timeline
+
+The project timeline shown in Figure 5 maps systems development as a function of time and significant project
+milestone and illustrates the rigor required to develop this particular system. The project timeline is developed
+based on lifecycle review and significant program events as these are well-documented milestones. It may be
+interesting to note that significant events occurred after the design phase suggesting that there is no substitute for
+hardware when attempting to develop and mature a system.
+FIGURE 5 - Lithium Ion Battery for EMU System Development Timeline
+
+                                     System Maturation Assessment
+This paper retroactively applies the principles of System Maturation Assessment (SMA) (Whitfield, 2010) to the
+three principal components of the LIB/LLB system, the battery, the charger and the data logging software. To
+simply this assessment, each system element is considered a single technology as defined herein. SMA requires the
+use of both Technology Readiness Level (TRL) and Integration Readiness Level (IRL) to compute a composite
+Systems Readiness Level (SRL) (Sauser, 2008). While TRL focuses purely on technology readiness, IRL focuses
+on the integration readiness of developing technologies. Knowing these assessment levels, a composite SRL can be
+computed which provides a quantitative maturity assessment for the developing system. This section applies the
+principles of SMA to the LLB/LIB project at each project milestone indentified in Figure 5.
+
+                                           Readiness Level Definition
+
+In addition to the widely accepted Technology Readiness Level (TRL), the lesser known Integration Readiness
+Level (IRL) is required to complete SMA. Guidance for selection of the IRL metrics for developing technology
+integration is offered in Table 1.
+                            Table 1 - Integration Readiness Level Definition1
+                          IRL                            Definition
+                                     Integration is Mission Proven through successful mission
+                           9
+                                                                operations.
+                                  Actual integration is completed and Mission Qualified through
+                           8              test and demonstration, in the system environment.
+                                  The integration of technologies has been Verified and Validated
+                           7                     with sufficient detail to be actionable.
+                                      The integrating technologies can Accept, Translate, and
+                           6               Structure Information for its intended application.
+                                   There is sufficient Control between technologies necessary to
+                           5                establish, manage, and terminate the integration.
+                                   There is sufficient detail in the Quality and Assurance of the
+                           4                        integration between technologies.
+                                      There is Compatibility (i.e., common language) between
+                           3       technologies to orderly and efficiently integrate and interact.
+                                  There is some level of specificity to characterize the Interaction
+                           2       (i.e., ability to influence) between technologies through their
+                                                                 interface.
+                                    An Interface between technologies has been identified with
+                           1       sufficient detail to allow characterization of the relationship.
+                                                           1
+                                                            Sauser, 2008
+
+To test applicability of the methodology without undue burden, each system element is considered a single
+technology. This decision limits integration between elements as shown in Figure 6 with a common technology
+serving as the linkage for the other two. Figure 6 also depicts the directional nature of the technology interaction,
+although integration direction is not considered in this work.
+
+
+
+
+FIGURE 6 - Technology Interactions of the LLB/LIB System
+
+In order to compute SRL, a technology and integration assessment must be provided at each point of measurement.
+Derived from conventional definitions of Technology Readiness Level and Integration Readiness Level, readiness
+level is considered to generally progress through system development as shown in Table 2. However, when
+assigning integration assessment level, development of the integrated technologies must be considered in that the
+slowest developing technology will pace the corresponding integration readiness. Although slightly over-reaching
+for a true SMA, the definitions stated herein allow retroactive SMA evaluation given available data, for a system of
+three technologies and two integrations where development of each technology was largely pursued separately from
+the others.
+
+                            Table 2 - Readiness Level Progression with Project Phase
+                                    Project Phase                    TRL             IRL
+                              Requirements Definition                  1              0
+                               Concept of Operations*                  2              1
+                            Preliminary Design Complete                3              2
+                              Critical Design Complete                 4              3
+                          Manufacturing Readiness Complete             5              4
+                               Final Design Iteration*                 6              5
+                           Hardware Acceptance Complete                7              6
+                                  Mission Certified                    8              7
+                                  Mission Complete                     9              8
+                      *Note: These events were finalized out of the conventional sequence due to
+                      programmatic changes and events experienced during execution
+                                                          Readiness Level Assessment
+
+                                                                     TRL                               IRL                        SRL
+  Date                          Event                    Battery   Charger   Software   Charger-Battery Charger-Software Composite Normalized
+ Mar-02   Authorization to Proceed                          0         0          0            0                 0          0.00       0.00
+ Mar-02   System Readiness Review                           1         1          0            0                 0          0.06       0.05
+ Oct-03   System Contract Awarded                           2         1          1            0                 0          0.13       0.11
+ Dec-03   Preliminary Design Review                         3         2          1            1                 1          0.20       0.17
+ Sep-04   Critical Design Review                            4         3          2            2                 2          0.33       0.27
+ Dec-04   Manufacturing Readiness Review                    5         4          2            3                 2          0.42       0.35
+ Jul-05   Updated Battery Design                            6         4          2            3                 2          0.45       0.38
+ Aug-05   Replaced Charger Microcontroller & Firmware       6         4          3            3                 3          0.51       0.42
+ Oct-05   Updated Charger Firmware                          6         4          3            3                 3          0.51       0.42
+ Jan-06   Updated Charger Firmware                          6         4          3            3                 3          0.51       0.42
+ Apr-06   Charger Delta Critical Design Review              6         5          4            4                 3          0.61       0.51
+ May-06   Charger Fleet Failed Acceptance Testing           6         5          4            4                 3          0.61       0.51
+ Aug-06   Battery Failed Life Expectancy                    7         5          4            4                 3          0.64       0.54
+ Sep-06   Battery Delta Acceptance Test                     7         5          4            4                 3          0.64       0.54
+ Jan-07   Battery Design Failed                             7         5          4            4                 3          0.64       0.54
+ Apr-07   Charger 300 hr test initiated                     1         5          5            4                 4          0.48       0.40
+ May-07   Purchased New COTS Cells                          1         5          5            4                 4          0.48       0.40
+ Oct-07   Project Recommissioned                            1         5          5            4                 4          0.48       0.40
+ Mar-08   Battery Contract Released                         2         5          5            4                 4          0.52       0.43
+ Aug-08   System Readiness Review                           3         5          5            4                 4          0.55       0.46
+ Aug-08   Preliminary Design Review                         3         5          5            4                 4          0.55       0.46
+ Aug-08   Charger Refurbishment Review                      3         6          6            5                 5          0.69       0.58
+ Jan-09   PWB Production Readiness Review                   4         6          6            5                 5          0.73       0.61
+ May-09   Charger Project Transition                        5         6          6            5                 5          0.77       0.64
+ Jul-09   Battery Critical Design Review                    6         6          6            5                 5          0.80       0.67
+ Oct-09   Charger Project Transition                        6         7          6            5                 5          0.86       0.72
+ Nov-09   Logging Software Certification Start              6         7          7            5                 6          0.93       0.77
+ Mar-10   Charger Certification Complete                    6         8          7            5                 6          0.99       0.83
+ Apr-10   Battery Design Certification Review               7         8          7            6                 6          1.06       0.88
+ Jun-10   Logging Software Certification Complete           7         8          8            6                 7          1.13       0.94
+ Jun-10   Shipped Flight Units                              7         8          8            6                 7          1.13       0.94
+ Jul-10   Battery Certification Complete                    8         8          8            7                 7          1.20       1.00
+ Nov-10   Charger Fleet Delivery Complete                   8         8          8            7                 7          1.20       1.00
+ Dec-10   Battery Fleet Delivery Complete                   8         8          8            7                 7          1.20       1.00
+FIGURE 7 – Readiness Level Assessment for LLB/LIB System
+
+Applying readiness levels to each technology and integration at given project milestones allows computation of the
+composite SRL. Specifically, SRL is the vector product of normalized TRL and IRL values (Sauser, 2008). Per the
+guidelines established for SRL computation, technology integration with itself is given an IRL value of 9
+(normalized to 1) and technology integration where none exists is given an IRL value of 0 (Sauser, 2008). The
+composite SRL is computed by averaging the quotient of each technology SRL and the number of interactions
+associated the integration (Sauser, 2008). As is shown in Figure 6, the number of integrations for this system is 1
+for both the battery and software, and 2 for the charger. The assigned TRL and IRL assessment levels for each
+technology and project phase are shown in Figure 7 as is the resulting SRL value. Since the composite SRL
+exceeded unity, a normalized result is also provided to scale the resulting composite SRL from 0 to 1 since the
+composite value exceeded one. This decision is discussed in greater detail later in this work.
+
+                                                        Technology Readiness Progression
+
+For the project assessment provided in Figure 7, technology readiness largely progressed as expected based on the
+definitions previously developed. The definitions imposed in this study are reflected in the data, namely that the
+battery design, considered as a single technology, progressed more rapidly than the charger yet suffered from the
+long term capacity retention failure which necessitated a redesign. The redesigned battery rapidly progressed in
+technology development based on selection of mature lithium-ion technology, the corporate knowledge and
+experience of the selected battery vender, and the foundations laid by the initial development. Meanwhile, the
+charger technology advanced much more slowly. This should have been expected during the early project phases
+based on the dependence of the charger design on the evolving battery design and the complexity imposed on the
+charger. The moderate charger maturation rate slowed while the design became mired in fleet burn-in testing
+necessary to indentify latent design defects resulting from a combination of design shortcomings and poor
+workmanship standards of the equipment supplier. However, once solutions were identified, and after a short term
+responsibility transfer to the JSC on-site support contractor, design maturation accelerated and the technology
+progressed relatively quickly and efficiently through repair and certification of the charger fleet. Software
+technology development followed a similar subservient path as did the charger and battery; however, the software
+was dependent entirely on charger development. The software, as a sole technology, developed quickly in the initial
+phases albeit in machine language. Evolving the software into a more user-friendly form required several iterations
+involving a user representative, with the final cycle occurring after the project had gained traction on the charger
+refurbishment. Once the certification effort was commissioned, software development continued to move quickly
+with the threat of constant cancellation if code alteration was required. The code architecture and the non-safety-
+critical usage requirements supported this hard line approach and facilitate rapid maturation of the software
+technology in the final stages of the project.
+
+                                         Integration Readiness Assessment
+
+Assessing the integration readiness using the guidelines put forth previously requires additional consideration. For
+example, integration readiness between the battery and charger requires successful maturation of both technologies
+in order for the integration between the two to advance to the next highest level. For this study, technology
+definition has been simplified to only three and each is linked by the common charger technology. This results in
+only two integrations, battery-charger and charger-software. The battery-charger integration progress suffered as a
+result of the charger design issues experienced early in the project, second by the battery design issues experienced
+at roughly the same time, and third by charger design issues late in the project development cycle. As refurbishing
+the charger fleet occurred at roughly the same rate as the second battery design iteration, integration readiness
+between these two technologies progressed smoothly through the final stages of system development and
+certification. Charger-software integration readiness was paced by both technological and programmatic effects.
+Correction of the charger design and workmanship issues provided technological development pacing while the
+programmatic decision to post-pone software certification delayed software development. The decision to delay
+software readiness was due to a resource limitation and the fact that software deployment was not depending on a
+space vehicle launch. However, this programmatic decision to delay software certification was ultimately over-
+ridden as the result of a negotiation for additional funding to complete charger refurbishment. Based on the
+negotiation, the software was certified entirely on in-house funding, and to reduce cost, on a very compressed
+schedule. For these reasons, integration readiness of the charger-software largely mirrors that of the battery-charger
+integration readiness in final project stages. Charger-software integration readiness was achieved before that of the
+battery-charger due to the charger-battery integration dependence on battery certification which occurred after both
+the software and charger efforts were completed.
+
+                                           System Readiness Assessment
+
+The computed composite SRL provides an indication of how well the system is progressing to maturity as shown in
+Table 3 (Sauser, 2008). The assessment accurately conveys the lagging hardware development activity early in the
+charger and battery technology development activity but moves rapidly into the realm of system maturity. To
+constrain SRL to a maximum of 1, the composite SRL was normalized to the maximum calculated value shown in
+Figure 7. The composite SRL computed for the battery/charger/software system reflects the rise-and-fall-and-rise of
+the battery technology development, the slow rate of charger technology development, and the rapid closure of the
+software and battery technologies.
+                             Table 3 - System Readiness Level1
+       SRL              Acquisition Phase                                      Definition
+                                                 Execute a support program that meets operational support performance
+    0.90 to 1.00       Operations & Support      requirements and sustains the system in the most cost-effective manner
+                                                                         over its total lifecycle.
+    0.70 to 0.89            Production                      Achieve operational capability that satisfies mission needs.
+                                                  Develop system capability or (increments thereof); reduce integration and
+                        System Development          manufacturing risk; ensure operational supportability; reduce logistics
+    0.60 to 0.79          & Demonstration          footprint; implement human systems integration; design for production;
+                                                   ensure affordability and protection of critical program information; and
+                                                     demonstrate system integration, interoperability, safety and utility.
+                           Technology             Reduce technology risks and determine appropriate set of technologies to
+    0.40 to 0.59
+                           Development                                    integrate into a full system.
+
+    0.10 to 0.39        Concept Refinement                  Refine initial concept; develop system/technology strategy.
+
+                                                      1
+                                                       Sauser, 2008
+Review of the computed SRL values for each project phase of Figure 8 demonstrates a possible mismatch between
+the suggested values of Table 3 and certification of flight readiness for NASA spaceflight hardware, specifically in
+the areas of Operations and Support. This mismatch is likely caused by definition specific to NASA Johnson Space
+Center (JSC); specially, the separation of hardware acceptance and certification. If these two items were considered
+to occur simultaneously, maturation would indeed reach the final stage with hardware acceptance.
+
+                              Table 4 - SRL Comparison
+                    Acquisition Phase      Proposed SRL            Composite SRL         Normalized SRL
+
+                   Operations & Support       0.90 - 1.00                1.20                    1.0
+
+                        Production            0.70 - 0.89                0.77                   0.64
+                   System Development
+                                              0.60 - 0.79                0.64                   0.54
+                    & Demonstration
+                       Technology
+                                              0.40 - 0.59                0.51                   0.42
+                       Development
+
+                   Concept Refinement         0.10 - 0.39                0.33                   0.27
+
+
+To better understand the maturation of SRL for this project, the project composite and normalized values are
+displayed with the proposed SRL range per acquisition phase in Table 4. Although the project composite SRL
+appears to progress prematurely into the operations and support phase, the SRL values computed for earlier
+acquisition phases agrees well with the proposed SRL range. The normalized SRL value appears to be of less value
+as there is no theoretical basis for performing this computation and the resulting values appear to stifle the system
+development quantification. Based on this comparison, normalization offers no additional system insight and need
+not be considered in future studies. It is also worth noting, that for NASA JSC projects, a decision based solely on
+achieving a System Readiness Level of 1 may lead to premature system deployment. This finding is a result of the
+readiness level definitions provided previously which reflect the NASA culture and separates hardware acceptance
+and certification activities.
+                                                 Sensitivity Study
+
+                            Table 5 - SRL Sensitivity
+                             TRL        TRL         TRL             IRL                  IRL
+          Study Cases                                                                                   SRL
+                            Battery Charger Software          Battery-Charger      Charger-Software
+        Hold all but one      2.6        5.4        2.6              0.9                  0.9            1.0
+
+       Interaction Case 1     7.0        8.0        7.0              5.0                  5.0            1.0
+
+       Interaction Case 2     7.0        7.0        7.0              6.0                  6.0            1.0
+
+
+To facilitate an understanding of the relationship between technology readiness, integration readiness and composite
+system readiness for this simple system, a basic sensitivity study is performed, the results of which are shown in
+Table 5. The study answers two basic questions, a) could a mature system with one infantile element still achieve a
+high SRL, and b) what is the impact of interaction on the resulting IRL necessary to compute an SRL of 1.
+Although each violates the definitions established previously, the first question is answered by reducing a single
+project assessment from the final level to the lowest possible value to achieve a composite SRL of 1.0. The
+resulting minimum assessment value is shown in Table 5 for each technology and integration readiness level of the
+project. The second question was answered by holding the technologies with a single interaction at a modest TRL
+of 7 and changing the technology with the greatest number of interactions (Charger) between 7 and 8 and predicting
+consistent system integration readiness levels to deliver an SRL of 1. This study predictably shows that an early
+maturation of the technology with the highest interactions will allow a lower integration level for the same SRL. It
+is worth noting the previously established definitions of TRL and IRL were abandoned to complete this study.
+
+                                                  Conclusion
+The Long Life Battery, Lithium Ion Battery Charger and companion data logging software have been developed by
+NASA JSC to enable long term, reliable support of Extravehicular Activity from the International Space Station or
+Space Transportation System. The project has been summarized herein and a retroactive Systems Maturity
+Assessment performed based on major project milestones and established readiness level definition. The results of
+this assessment were performed to sufficient depth to understand applicability of SMA methodology to NASA
+system development programs.
+
+System Maturity Assessment is based on quantification of Technology and Integration Readiness Levels. The
+computation provides a single measure of systems maturity, the Systems Readiness Level. This study compared the
+predicted SRL to the typical range expected for hardware development demonstrating both applicability of the
+methodology and a possible disconnect in established definition. The over development of SRL during the final
+stages of this project may reflect the additional burden placed on critical NASA spaceflight hardware development
+as compared to maturation of conventional systems. Stated another way, very little hardware development occurs
+between acceptance and certification for NASA hardware as this final stage is largely based on documentation close
+out. Since this additional activity is a critical element in the NASA development culture, an over-representation of
+SRL in the final stages is warranted. Therefore, it is recommended that SMA application to NASA human
+spaceflight hardware either consider this finding and strive for an SRL greater than 1, or consider a more hardware-
+centric assessment level definition than that used in this work. Although academic, the simple sensitivity study
+serves as a reminder that strict adherence to the established assessment methodology is required to ensure a
+consistent maturation assessment, a fact especially true for systems with technologies of high interaction. Given
+these conclusions, SMA methodology appears to be a valuable tool worthy of consideration in development of
+complex systems.
+
+Future developments would benefit from application of this methodology at lower levels than employed in this
+study. Conversely, during each stage of hardware development, surveillance within each technology could serve
+useful in determining readiness for progressing through the next project milestone and achieve incremental
+maturation growth. Therefore, it is recommended that SRL assessment be considered as a Technical Performance
+Metric in new and existing projects responsible for developing and maturing a complex system.
+                                                     ACRONYMS
+COTS -      Commercial off the Shelf
+EMU -       Extravehicular Mobility Unit
+EVA -       Extravehicular Activity
+GUI -       Graphical User Interface
+ICB  -      Increased Capacity Battery
+IRL  -      Integration Readiness Level
+ISS  -      International Space Station
+IVA -       Intravehicular Activity
+JSC  -      Johnson Space Center
+LIB  -      Lithium Ion Battery
+LLB -       Long Life Battery
+NASA -      National Aeronautics and Space Administration
+PLSS -      Portable Life Support System
+PWB -       Printed Wiring Board
+SMA -       System Maturity Assessment
+SRL -       System Readiness Level
+SSC -       Space Station Computer
+TRL -       Technology Readiness Level
+USB -       Universal Serial Bus
+
+
+                                                    REFERENCES
+Sauser, B., “System Maturity Indices for Decision Support in the Defense Acquisition Process,” Fifth Annual Acquisition
+    Research Symposium. Monterrey CA: Naval Postgraduate School (2008).
+Whitfield, C., “System Maturity Assessment Guide,” Washington Navy Yard, DC: Littoral Combat Ship Mission Module
+    Program, (2010).
+

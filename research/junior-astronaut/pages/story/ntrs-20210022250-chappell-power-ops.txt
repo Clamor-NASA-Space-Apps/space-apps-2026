@@ -1,0 +1,571 @@
+ Human Mars Mission Surface Power Impacts on Timeline
+             and Traverse Capabilities
+        Michael B. Chappell                                       Stephen Hoffman                            Omar Bekdash
+  NASA Marshall Space Flight Center                             Aerospace Corporation                    Aerospace Corporation
+         Martin Road SW                                          2101 Nasa Parkway                        2101 Nasa Parkway
+       Huntsville, AL 35808                                      Houston, TX 77058                        Houston, TX 77058
+            256-544-8438                                            281-483-9264                              281-483-5433
+    michael.b.chappell@nasa.gov                              stephen.j.hoffman@nasa.gov                 omar.s.bekdash@nasa.gov
+
+
+
+
+Abstract—The       National     Aeronautics and         Aerospace
+Administration’s (NASA) Mars Architecture Team (MAT)                                                  1. INTRODUCTION
+developed a concept for power management operations to
+support a thirty-day, minimal infrastructure Mars surface                         The NASA Mars Architecture Team seeks to define the
+mission. The surface elements in this minimal surface mission                     available traverse distance and duration of crewed surface
+concept include three landers as platforms for surface                            exploration to inform the science community of the human
+operations, a crewed Mars ascent vehicle (MAV), an                                constraints of a Mars surface mission. This study is an
+unpressurized rover, and a pressurized rover where the crew                       attempt to balance three primary constraints levied on the
+will live for the duration of the thirty-day mission. In this
+                                                                                  study team to maximize the exploration capability: the
+analysis the power system is a ten kilowatt fission power system,
+which has been selected for its resiliency to dust storms, and will               schedule of activities for the crew, the available surface
+provide power for all aspects of the surface mission including                    power to recharge the pressurized rover, and the mobility and
+thermal management of propellant and electronic systems,                          life support hardware and capability. The primary
+communications, and battery recharge of mobile surface assets.                    requirement for the human Mars mission is to maintain the
+Developing a power management plan with the consideration of                      human life support and critical transportation systems for the
+the various elements and mission phases helps define the                          safe arrival, sustainment, and departure of the human crew.
+traverse and exploration capabilities for the crew in the                         Beyond these critical systems, any remaining capability can
+pressurized rover. Also, considerations need to be made for the                   be used to conduct exploration activities. The goal of this
+different power requirements for each phase of the surface
+                                                                                  study is to determine what time and mobility capacity are
+mission including arrival, offload, surface exploration, launch
+preparation, and departure. The described analysis aims to                        available within these remaining resources.
+achieve a balance of maintaining power to critical systems while
+enabling desired traverse and exploration range in the
+pressurized rover. Additionally, a few enhancing technologies                                         2. ASSUMPTIONS
+were explored that could expand the power capability if the
+additional capacity is necessary in the future. This study is used                Architecture Reference
+as a baseline to understand the constraints on all aspects of the                 The elements for the study are based on the architecture
+surface mission for a minimal surface infrastructure human
+                                                                                  defined by a set of ground rules and constraints designed to
+Mars campaign if a ten-kilowatt fission surface power system is
+available on the surface.                                                         explore an often overlooked portion of the architecture trade
+                                                                                  space. This mission is a minimum surface hardware, short-
+                                                                                  stay class (30 sol) mission. The crew will land and live in a
+                      TABLE OF CONTENTS                                           pressurized rover and depart on a preplaced crew ascent
+                                                                                  vehicle. Deep space transportation does not impact this study.
+1. INTRODUCTION ....................................................... 1
+2. ASSUMPTIONS ......................................................... 1        10kW Fission Surface Power
+3. METHODOLOGY ..................................................... 3            The surface power architecture is based around the 10
+4. RESULTS .................................................................. 6   kilowatt (kW) provided by a fission reactor. All of the surface
+5. ALTERNATE APPROACHES..................................... 7                    elements and equipment must be supplied power from this
+6. CONCLUSIONS ......................................................... 8        source. A second 10kW will be present on the surface, but
+ACKNOWLEDGEMENTS .............................................. 9                 only as a backup to be used in contingency scenarios.
+REFERENCES............................................................... 9       Crew Systems Power
+BIOGRAPHY .............................................................. 10
+                                                                                  The power determined to be necessary to maintain the
+                                                                                  pressurized rover as a habitable space without any mobility
+                                                                                  considerations is assumed to be 1.85kW.
+
+
+U.S. Government work not protected by U.S. copyright
+Power Margin
+                                                                      The PR provides multiple crew health and safety advantages.
+All surface elements requiring power must maintain a 30%
+                                                                      Since the crew is typically never more than 10 minutes away
+power growth margin. For the purpose of this study, the
+                                                                      from a pressurized safe haven, incidents such as suit
+margin of the available supplied power was reduced on the
+                                                                      malfunctions, solar storms, or injury during Extravehicular
+front end to use real power numbers throughout the
+                                                                      Activity (EVA) can be more quickly responded to.
+calculations. For the 10kW total available power, a margin of
+                                                                      Additionally, since EVAs are assumed to be performed via
+2.3kW was reserved to represent this assumption.
+                                                                      suitports with less overhead and gas losses than a traditional
+Surface Assets                                                        airlock, the PR enables rapid EVA on an as needed basis vs
+                                                                      planning long duration EVAs while not precluding the ability
+All of the other elements of the surface architecture will            to perform the latter. This rapid EVA ability results in less
+require power for communication, sensors, thermal                     time in the suits leading to improved nutrition, hydration,
+conditioning, and other electronics. Additionally, the Mars           lower risk of suit induced trauma, improved waste
+Ascent Vehicle (MAV) will require power to condition                  management, and lower wear time on the EVA suits [1].
+propellant and maintain an operational standby condition. All
+of these power needs will consume approximately 2.85kW.               Timeline Assumptions
+
+Power Losses/Recharge Efficiency                                      To build a realistic timeline, all the tasks the crew will
+                                                                      perform need to be properly accounted for and the
+For the purposes of this study, the losses from cables and            capabilities and limitations of a human crew need to be
+recharge inefficiencies are ignored. Whatever power that is           reflected in the assigned duration for these tasks. Lessons
+available after all other necessary systems have been                 learned from decades of International Space Station (ISS)
+accounted for will be available for use and applied at 100%           operations as well as surface mission analogs (e.g., NEEMO
+efficiency. The numbers estimated for the required loads are          [2], BASALT [3], D-RATS [4], etc.) provide guidance for the
+not at the fidelity where determining a more precise power            type and duration of non-science driven activities that are
+consumption would be more accurate or appropriate.                    likely to be independent of science driven activities (possibly
+Additionally, the whole system retains a 30% growth margin            constraining the science driven activities that can be
+where some ignored losses could be absorbed.                          accomplished). The primary source used for these guidelines
+                                                                      is SSP 50261-02 “ISS Generic Groundrules and Constraints
+Pressurized Rover Background                                          Part 2: Execute Planning” [5]; other sources are noted as they
+The pressurized rover (PR) concept is a crew transport                are applied.
+vehicle for two crewmembers on a planetary surface. It has
+the ability to support site-to-site traverses in a rover cabin,       The first planning assumption involves the length of a
+observations from inside comparable to those in a suit, rapid         Martian day (or sol). A Martian sol is 24 hours 39 minutes
+EVAs and dust mitigation via suit ports with an approximate           and 35 seconds in length [6]. This has been rounded to 24
+ingress time to the cabin of 20 minutes. It can also                  hours and 40 minutes in the timelines described in this paper.
+accommodate        different     payloads      (e.g.    science       It is assumed that the Mars crew – both in orbit and on the
+instrumentation, ice core and geology samples, etc.) in               surface – will operate on this length of a “workday.” Sleep
+support of exploration activities. This rover concept has been        shifting by the crew is assumed to begin several weeks prior
+under development at NASA for multiple years and has been             to arrival at Mars. Because the activity durations described in
+repeatedly tested in analog environments (Figure 1)                   SSP 50261-02 are based on a 24-hour day, the additional 40
+demonstrating its operational efficacy.                               minutes in the Martian sol is carried as timeline “reserve” for
+                                                                      the purpose of this analysis. This reserve time can be
+                                                                      considered for mission tasks (e.g., science operations, routine
+                                                                      maintenance, conferences, etc.) when necessary but is
+                                                                      otherwise allocated to crew evening/off-duty activities or
+                                                                      additional sleep.
+
+                                                                      Following SSP 50261-02 guidelines, the crew will have at
+                                                                      least 8.5 hours of sleep per sol. They will also have 1.5 hours
+                                                                      in the morning for breakfast and other personal activities
+                                                                      before beginning work activities (referred to as “post-sleep”),
+                                                                      2.0 hours in the evening for an evening meal and personal
+                                                                      activities before going to sleep (referred to as “pre-sleep”),
+                    Image Credit: NASA                                and 1.0 hour for a mid-day meal. Pending further analysis,
+                                                                      they are also assumed to follow the ISS protocol for 2.5 hours
+   Figure 1. Pressurized rover prototype testing at the               of exercise per person per sol on those sols when no
+     Black Point Lava Flow near Flagstaff, Arizona.                   Extravehicular Activity (EVA) is conducted and 1.0 hour of
+                                                                      exercise on any sol that includes EVA activity (planned to
+                                                                      occur after the EVA but before pre-sleep). Note that surface
+                                                                  2
+mission scenarios including just a pressurized rover (PR) as           EVA hours carried out by the crew, and for the logistics
+the primary habitable element will have limited habitable              needed to support this level of activity.
+volume, so these exercise periods must be performed serially.
+This leaves 8.5 hours per sol (plus the 40 minutes of “reserve”        The final significant crew care assumption used in planning
+time if needed) for “work” related activities. Figure 2                these timelines involves EVA frequency. EVA equipment for
+illustrates this allocation of time (not including the “reserve”       Mars surface missions is expected to build from experience
+time).                                                                 gained during Artemis Program lunar surface EVAs. Details
+
+
+
+
+                                        Figure 2. Example Crew Day Time Allocation
+
+                                                                       for Mars-specific EVA equipment are still conceptual,
+                                                                       meaning that impacts on the crew from its use are unknown.
+The crew is also assumed to follow the SSP 50261-02                    But experience from Apollo, Space Shuttle, and ISS missions
+guideline of an off-duty day following no more than six sols           indicates that EVAs are likely to be taxing on the crew
+that include “work” related activity. This on-duty / off-duty          regardless. Consequently, the timelines described below
+cadence is assumed to be sufficient for surface missions               assume that the crew will have at least one non-EVA sol
+measuring several weeks to a few months in duration; it has            between EVAs wherever possible. Where EVAs on
+proved satisfactory for ISS expeditions – with infrequent              consecutive sols are difficult to avoid, exceptions are made.
+EVAs – measuring four to six months in duration.                       But in these instances, the total EVA duration across
+                                                                       consecutive sols is reduced as much as possible
+The transit from Earth to Mars is assumed to last for several
+months and to take place in a microgravity environment.
+Extended durations in microgravity are known to cause                                    3. METHODOLOGY
+multiple changes in the human body that must be reversed
+after re-entering a gravity environment before the crew can            Power
+safely carry out many activities [7]. Experience gained from           The total available surface power is 10kW. With the margin
+decades of extended duration flights on ISS by scores of               of 2.3kW and other element needs of 2.85kW, the power
+astronauts has led to a better understanding of these effects as       remaining to be used for mobility recharge is 4.85kW. The
+well as countermeasures that can mitigate them during flight.          power draw for the life support and associated crew systems
+But some period of time is still required by the crew after            within the pressurized rover requires 1.85kW and will be
+returning to a gravity environment to reacclimate to the point         consumed during recharge, which leaves 3kW to be devoted
+where they can safely perform important tasks, such as                 to adding energy into the battery.
+working in an EVA suit or driving a pressurized rover. The
+medical community has provided a 3- to 7-sol range for crew            Timeline Description
+to readapt to a gravity environment as informal guidance;
+additional research into this topic is planned to provide more         The timeline described in the following sections begins with
+precise gravity re-adaptation protocols. For the purpose of            two crew arriving at their landing site and concludes when
+this analysis, a 3-sol gravity re-adaptation period is assumed         the crew leaves in their Mars Ascent Vehicle (MAV). Each
+for planning, as this represents the stressing case for total          of the following sections describes crew activities during a
+
+                                                                   3
+portion of the surface mission; a graphical representation of            descending from the deck of the MDS to the surface. This
+those activities is also provided.                                       will demonstrate the crews’ ability to transition between the
+                                                                         deck and the surface by EVA alone as well as conducting the
+It must be noted that no final decisions have been made                  first human exploration activities on the surface of Mars. The
+regarding the details described in these sections, and this              crew will return to the MDS deck and re-enter the PR cabin
+schedule of activities is likely to change as systems are                by way of the suitports for a mid-day meal. A second 4-hour
+refined, science objectives are better defined, and integrated           EVA will be conducted in the afternoon to continue with
+operations analyses are completed.                                       tasks in preparation for off-loading the PR and other deck
+                                                                         cargo such as science instruments and other utilization
+Mars Landing Day—Two crew descend inside a pressurized                   equipment. On Sol 5, crew perform another 2.5-hour EVA
+rover (PR) carried as payload on a Mars Descent System                   with the primary objective of off-loading the PR – an activity
+(MDS), landing no more than one kilometer away from two                  that is assumed to be carried out while the crew is outside of
+pre-deployed cargo landers. The crewed lander is robotically             the PR. A second 1.5-hour EVA is conducted following a
+connected to the pre-deployed surface power grid. After                  mid-day meal to complete off-loading other cargo from the
+allowing at least three sols for crew re-adaptation to Mars              MDS deck and any final PR preparations before extended
+gravity, the PR and science equipment are off-loaded from                traverses begin. An actual off-loading concept of operations
+the lander and the surface exploration mission begins.                   is not yet defined, pending better definition of cargo off-
+                                                                         loading systems the results of which could affect time
+Due to limited rescue options and contingency equipment                  allocations described here.
+assumed in this particular architecture and mission profile,
+crewed exploration around the landing zone is expected to                Sols 7-11—During Sol 7 the crew begin their first excursion
+extend to about 20 kilometers radius, though the crew may                away from the landing site, driving to Exploration Site 1 and
+deploy robotic assets to explore farther. Crew will collect              conducting a 2.5-hour EVA reconnaissance before preparing
+samples, take environmental readings, and conduct a host of              the PR for an overnight stay. On Sol 8 the crew will conduct
+experiments. An overview of surface activity is illustrated in           a 2-hour morning EVA, return to the PR for a mid-day meal,
+Figure 3.                                                                then conduct a 2.5-hour EVA in the afternoon. On Sol 9 the
+
+
+
+
+                                              Figure 3. Surface Activities Summary
+
+ Sols 1-6—As depicted in Figure 3, Sols 1-3 are nominally                crew will remain inside the PR and conduct Intravehicular
+reserved for crew re-adaptation to a gravity environment with            Activity (IVA) activities. On Sol 10, crew will conduct a 3.5-
+no scheduled EVA activity. But there is one potential                    hour morning EVA, then a second 2.5-hour EVA following
+contingency situation that must be protected for: if robotic             their mid-day meal. On the morning of Sol 11 crew will drive
+assets are unable to connect the MDS on which the crew                   the PR back to the landing site and connect the PR to the
+landed to the surface power grid, crew may have to conduct               surface power grid to recharge its energy storage system. The
+a contingency EVA to hook up the power before the lander’s               remainder of the day will be used for housekeeping and
+on-board power supply is depleted. During the gravity re-                routine maintenance on the PR and EVA systems.
+adaptation period crew will exercise, reconfigure the PR
+cabin as needed, inspect and prepare their EVA equipment,                Sols 12-21—On Sol 12 crew conduct their first logistics
+and telerobotically inspect their surface equipment.                     restocking and trash removal operation. During a 3-hour
+Following medical clearance, the first EVA occurs on Sol 4,              EVA the morning of Sol 12, crew will offload a Small
+when the PR cabin is depressurized and both crew egress                  Pressurized Logistics Container (SPLC) from the MDS deck
+through the PR side hatch. The crew conducts a 2.5-hour                  for repositioning onto a PR suitport. Fresh logistics will be
+EVA with a primary objective of testing suit functionality and           transferred from the SPLC into the PR, then the empty SPLC
+their ability to function in the suit. This first EVA will include       will be filled with trash. The now trash-filled SPLC will be
+                                                                     4
+placed at a location on the surface next to the MDS as its               crew launches in the MAV and spends the next 2.5 sols flying
+permanent disposal location. (Note: this disposal location               to the DST.
+reflects the current best guidance available, including
+planetary protection considerations. The approach to disposal            Transport Cost Equation Derivation and Calculation
+will be revisited as new guidance becomes available.) Sol 13             Constraints
+will be an off-duty day for the crew, remaining inside the PR
+for the entire sol.                                                      To understand if the proposed opscon could be achieved with
+                                                                         the pressurized rover, a simplified transport cost equation was
+Beginning on Sol 14 the crew will traverse to a second                   used to calculate the energy expenditure during each traverse
+exploration site. The pattern of activity and duration of EVAs           to understand achievable distances and recharge times at the
+will be the same as that described for the first exploration site        base camp fission power source. While this equation does not
+(Sols 7-11). The crew returns to the landing site on Sol 18              take into account all terramechanics properties (e.g., bull
+and connects to the surface power grid at the MDS on which               dozing or soil compression effects) it provides an overall
+they arrived. Sol 19 repeats the logistics restocking and trash          picture of power needed to complete the different traverse ops
+removal activities and EVA durations as described for Sol 12.            cons and what is achievable given the distance and power
+However, during this restocking event, the crew will take on             constraints.
+14 sols of logistics; sufficient for both the traverse to the next
+exploration site and supplies needed in the MAV for the                  In this simplified transport cost calculation, for flat terrain,
+return flight to the Deep Space Transport (DST). Sol 20 is               the interaction with soil can be modeled as a rolling resistance
+another off-duty day.                                                    where drag force is proportional to a simplified coefficient of
+                                                                         rolling resistance multiplied by the weight of the vehicle as
+Sol 22-27—Beginning on Sol 21, the crew traverses to a third             shown in equation (1).
+exploration site. The pattern of activity and EVA durations
+will be the same as that described for the first and second                      𝐷𝑟𝑎𝑔 𝐹𝑜𝑟𝑐𝑒 (𝐹 ) = 𝑟𝑜𝑙𝑙𝑖𝑛𝑔 𝑟𝑒𝑠𝑖𝑠𝑡𝑎𝑛𝑐𝑒 × 𝑚𝑎𝑠𝑠 ×
+exploration sites (Sols 7-11 and 14-18). The crew returns to                                        𝑔𝑟𝑎𝑣𝑖𝑡𝑦                 (1)
+the landing site on Sol 25. The PR connects to the power grid
+at the MDS on which they arrived and conducts housekeeping               The power to overcome this resistance is the drag force
+and other IVA activities for the remainder of this sol. On Sol           multiplied by the linear velocity:
+26 the crew conducts a morning and an afternoon EVA (3
+hours and 2.5 hours respectively) for final science and                   𝑃𝑜𝑤𝑒𝑟 𝑡𝑜 𝑂𝑣𝑒𝑟𝑐𝑜𝑚𝑒 𝐷𝑟𝑎𝑔 (𝑃 ) = 𝑟𝑜𝑙𝑙𝑖𝑛𝑔 𝑟𝑒𝑠𝑖𝑠𝑡𝑎𝑛𝑐𝑒 ×
+utilization tasks in the local landing site vicinity. Sol 27 is an                 𝑚𝑎𝑠𝑠 × 𝑔𝑟𝑎𝑣𝑖𝑡𝑦 × 𝑣𝑒𝑙𝑜𝑐𝑖𝑡𝑦              (2)
+off-duty day for the crew.
+                                                                         The integration of power as a function of time results in the
+Sol 28-30—On Sol 28 the crew drives the PR to the MDS                    energy consumption:
+carrying the MAV, connecting to the ground power grid via
+this lander as well as docking with the MAV using a                            𝐸𝑛𝑒𝑟𝑔𝑦 𝐶𝑜𝑛𝑠𝑢𝑚𝑝𝑡𝑖𝑜𝑛 (𝐸 ) = 𝑟𝑜𝑙𝑙𝑖𝑛𝑔 𝑟𝑒𝑠𝑖𝑠𝑡𝑎𝑛𝑐𝑒 ×
+pressurized tunnel to connect these two vehicles. A 3-hour                                 𝑚𝑎𝑠𝑠 × 𝑔𝑟𝑎𝑣𝑖𝑡𝑦 × ∫ 𝑣𝑒𝑙𝑜𝑐𝑖𝑡𝑦     (3)
+EVA is available for external preparation of the MAV for
+departure plus any other final EVA tasks required before
+                                                                         Finally, a general equation for transport cost in units of watt-
+departure. The remainder of Sol 28 plus all of Sol 29 are used
+                                                                         hours can be derived from equations 1-3:
+for IVA activities necessary for MAV departure, such as
+transferring returned samples and logistics for the return
+                                                                                  𝑇𝑟𝑎𝑛𝑠𝑝𝑜𝑟𝑡 𝐶𝑜𝑠𝑡 = 𝑟𝑜𝑙𝑙𝑖𝑛𝑔 𝑟𝑒𝑠𝑖𝑠𝑡𝑎𝑛𝑐𝑒 × 𝑚𝑎𝑠𝑠 ×
+flight, activation and checkout of MAV systems, closing
+                                                                                            𝑔𝑟𝑎𝑣𝑖𝑡𝑦 × 𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒              (4)
+down selected PR systems, such as the Environmental
+Control and Life Support System (ECLSS), to prepare this
+                                                                         Table 1 lists the various inputs and constraints used in the
+vehicle for uncrewed operations, etc. Prior to departure,
+                                                                         calculation of overall transport cost for each of the traverse
+return cargo and equipment that has been exposed to the
+                                                                         options.
+Martian surface environment will be prepared in accordance
+with applicable planetary protection requirements and
+guidelines being developed under purview of NASA's
+Planetary Protection Officer. The crew will be wearing their
+clean launch/entry suits to mitigate dust transfer back to
+Earth, in accordance with anticipated planetary protection
+best practices. EVA suits are left behind on the surface to
+further mitigate dust transfer. On the day of launch
+(nominally Sol 31) the PR and tunnel will be undocked from
+the MAV and the PR will be driven (without crew on board)
+a safe distance away from the MAV (nominally 1 kilometer)
+to a location where the MAV launch can be observed. The
+
+                                                                     5
+                                         Table 1. Transport Inputs and Constraints
+
+     Transport Cost Calculation Inputs and Constraints                                    Description
+                                                                  Base mass of PR with 60 kW-H of batteries. Some opscons
+  Base PR Mass                                       5193 kg      include additional batteries and mass is adjusted assuming
+                                                                  a 150 wh/kg energy density.
+                                                                  Power draw of rover for all non-driving systems (e.g.,
+  PR Hotel Load                                     1.85 kW
+                                                                  avionics, habitation, etc.).
+
+  PR Speed                                            8 kph       Speed is fixed at an assumed average rate
+
+                                                                  Dimensionless constant of lunar soil resistance to wheel
+  Rolling Resistance                                  0.15
+                                                                  motion. [8]
+                                                                  Single solar panel on rover and it is assumed that it operates
+  Solar Array Size                                   3.5 kW
+                                                                  at an 80% effectiveness rate.
+                                                                  Solar panel can be deployed while driving and will not
+  PR Solar Panel Power While Driving                  50%
+                                                                  always be pointed optimally to the sun while in motion
+
+  Solar Flux to Array Panel on Mars Surface           30%         Surface level solar flux that hits panel
+
+  Fission Power Available for Mobility Recharge 4.85 kW-h Balance of power available at the fission unit for PR
+
+                                                                  Length of day on Mars. Assumes 12hrs of continuous
+  Mars Day Length                                    24.65hr
+                                                                  sunlight for solar recharge.
+
+
+
+                        4. RESULTS
+Opscon Transport Cost Modeling
+The opscon for this calculation follows that described in
+section 3. The PR maintains 8hr per site, but distance driven
+is adjusted to ensure that full recharge is possible during the
+approximately 2.5 Sols when they are back at the lander in
+between excursion periods. Additionally, the traverse
+distance and power consumption allowed is constrained to
+always preserve enough power to perform up to a 20km drive
+back in the event of a contingency. Figure 4 shows the power
+consumption over the 3-week surface mission.
+
+
+
+
+                                                  Figure 4. Rover Energetics
+
+
+
+                                                                  6
+This simplified calculation of the transport cost indicates that       Each of these opscons was evaluated using the same transport
+in order to perform this opscons with the goal of remaining            cost equation to understand how the surface assets were able
+in the field for as long as possible between returns to the            to maximize their traverse capability.
+fission power. In this instance the traverse distances each day
+were adjusted to maximize the total distance in between                Long Stay/Long Recharge
+returns to the fission power to recharge, To accomplish this
+we added an additional 140kW-h (933kg) of batteries to the             For this opscon the PR battery capacity was increased to 200
+PR. Without the additional batteries the distances modeled             kW-h in order to spend a long duration away from the fission
+would not be achievable as the rover would need to be                  power. This opscon consisted of driving 12km to an
+continually returning to the fission power to recharge.                exploration site of interest and parking to perform local
+                                                                       EVAs. Each day the PR is then relocated 5km to an adjacent
+With this opscon the PR can achieve a total excursion time             site. This is repeated for 3-4 days until the PR reaches a 10km
+away from the fission power of 279 hr, spending 112 hrs at             drive back reserve limit before returning to the fission power
+exploration sites performing science, and traversing a unique          for recharge. This opscon provides ample time in the field,
+(i.e., does not retrace any previously driven terrain)                 however it results in a long time to recharge the PR
+cumulative distance of 194km. In order to repeat this opscon
+it would require 48hr of exploration stand-down for the PR to          Commuter
+recharge at the fission power to a full state. If adding
+                                                                       This opscon looked at a single Sol exploration and recharge
+additional batteries to the PR is not possible due to limits on
+                                                                       traverse plan with the PR having only 60kW-h of batteries on
+landed mass or impacts to PR layout, it is also possible to
+                                                                       board. In this instance the PR can only traverse far enough
+perform this opscon with the inclusion of a mobile power
+                                                                       away from the FSP before returning for recharging so that it
+source that follows the PR and has it’s own recharge
+                                                                       was available the next sol. The PR drives 12km to a traverse
+capability (i.e., an independent solar array). This concept has
+                                                                       site, where the crew can perform up to 8hrs of local EVA,
+been investigated in prior studies [9] and the inclusion of a
+                                                                       before driving back.
+portable utility pallet (PUP) which can provide recharge and
+act as a communications relay greatly improves exploration             Battery Swap
+capability and flexibility.
+                                                                       This opscon is similar to the commuter in that the PR is
+Reintegrating the PR battery usage with the overall timeline           available at the start of every sol in a fully charged state. The
+generates an integrated result shown in figure 5.                      only difference being that instead of waiting to recharge at
+
+
+
+
+                                     Figure 5. Integrated Timeline and Rover Energetics
+
+             5. ALTERNATE APPROACHES                                   the FSP, a second set of PR batteries is waiting for the crew
+                                                                       to perform an EVA swap when they return. While this opscon
+In addition to a baseline opscon, several alternate traverse           does add additional battery hardware and EVA time to the
+plans and surface asset combinations were explored in order            day, it does ensure that the PR is always fully charged at the
+to understand what the alternative options are for Mars                end of the day which may be deemed advantageous by
+surface exploration. A summary of these options is shown in            mission planners in the event of contingency.
+table 2 and a summary of the key figures of merit are in table
+3 at the end of this section.
+                                                                   7
+                                   Table 2. Pressurized Rover Operations Concept Options
+                 Opscon Name                                General Opscon                                         Philosophy
+                                    Drive to exploration site, stay as long as possible on large          Max duration with no additional
+              Long Stay/Recharge
+                                    battery, return to FSP for full recharge                              hardware
+
+                                    Daily (sol-ly?) drive to exploration site, perform exploration        Frequent recharge with no
+              Commuter
+                                    activities, return to FSP each sol for full recharge                  additional hardware
+
+
+                                    Drive to exploration site, perform exploration activities, return
+                                                                                                          Add hardware to minimize
+              Battery Swap          to FSP, swap for fully charged battery, leaving behind depleted
+                                                                                                          battery turnaround
+                                    battery to recharge and return to exploration site
+
+                                    Drive both PR and PUP to exploration site, use the PUP
+                                    to recharge the PR, PUP can return on its own to the FSP              Add hardware to maximize
+              Mobile PUP
+                                    for recharge and return to the exploration site to serve              exploration capability
+                                    PR
+
+Mobile PUP
+
+This opscon provides the most flexibility and range distance
+for the PR to perform exploration, however it requires
+additional mobile assets to move with the PR. A PUP which
+has 195kW-h of energy storage on board follows behind the
+PR to provide it with power while on the traverse. This allows
+the PR to remain out in the infield for multiple days before
+returning to the FSP to recharge.
+                                                    Table 3. Opscon Figures of Merit
+                                                                               Figure of Merit
+          OpsCon          Total Excursion Time Exploration EVA Time            Total Traverse           Total Unique Traverse Time to Full Recharge
+                                   (hr)                 (hr)                   Distance (km)                Distance (km)              (hr)
+
+     Long Stay/Recharge            109                      48                        49                         49                      64
+         Commuter                  11                        8                        24                         12                     13.65
+        Battery Swap               11                        8                        24                         12                      1.5
+        Mobile PUP                 113                      40                        60                         60                      72*
+
+
+
+
+                     6. CONCLUSIONS
+The balance achieved using the available power, human
+operations, and mobility hardware reveals the available
+exploration capability in time and distance for a human
+mission on the surface of Mars. The capability is maximized
+by taking advantage of the time during crew operations while
+the pressurized rover is idle to recharge the rover battery. The
+analysis both proves that a minimal surface hardware Mars
+mission is achievable and defines the constraints of the
+exploration that can be conducted.
+
+
+
+
+                                                                         8
+              ACKNOWLEDGEMENTS                             REFERENCES
+Michelle Rucker                      [1] Abercromby, A. F., Gernhardt, M. L., & Litaker, H. (2010).
+Doug Craig                               Desert Research and Technology Studies (DRATS) 2008:
+Pat Troutman                             Evaluation of small pressurized rover and unpressurized
+Kandyce Goodliff                         rover prototype vehicles in a Lunar analog environment.
+Mike Gernhardt                           National Aeronautics and Space Administration.
+Greg Chavers
+Marshall Smith                       [2] Reagan, M.L., et al, “NASA Extreme Environment
+Jeremy Trujillo                          Mission Operations (NEEMO),” LPI Contribution 8036,
+                                         Workshop on Terrestrial Analogs for Planetary
+                                         Exploration, June 16–18, 2021. Accessed from
+                                         https://www.hou.usra.edu/meetings/terrestrialanalogs2021
+                                         /pdf/8036.pdf
+
+                                     [3] Beaton, K.H., et al, “Strategies for Future Human Planetary
+                                         Exploration Missions Gleaned from the NASA BASALT
+                                         Research Program,” LPI Contribution 8071, Workshop on
+                                         Terrestrial Analogs for Planetary Exploration, June 16–18,
+                                         2021.                      Accessed                   from
+                                         https://www.hou.usra.edu/meetings/terrestrialanalogs2021
+                                         /pdf/8071.pdf
+
+                                     [4] Janoiko, B.A., et al, “Desert Research and Technology
+                                         Studies (D-RATS),” LPI Contribution 8095, Workshop on
+                                         Terrestrial Analogs for Planetary Exploration, June 16–18,
+                                         2021.                    Accessed                     from
+                                         https://www.hou.usra.edu/meetings/terrestrialanalogs2021
+                                         /pdf/8095.pdf
+
+                                     [5] NASA, SSP 50261-02 “ISS Generic Groundrules and
+                                         Constraints Part 2: Execute Planning,” Revision D, July
+                                         2019.
+
+                                     [6] NASA, “The Human Body in Space,” accessed on 22 July
+                                         2021 from https://www.nasa.gov/hrp/bodyinspace
+
+                                     [7] Allison, M., and M. McEwen, “A post-Pathfinder
+                                         evaluation of aerocentric solar coordinates with improved
+                                         timing recipes for Mars seasonal/diurnal climate studies”,
+                                         Planetary Space Science, 48 (Issue 2-3, 15 February 2000),
+                                         215-235.
+
+                                     [8] Costes, Nicholas C., John E. Farmer, and Edwin B. George.
+                                         Mobility Performance of the Lunar Roving Vehicle:
+                                         Terrestrial Studies, Apollo 15 Results. Vol. 401. NASA,
+                                         1972.
+
+                                     [9] Abercromby, Andrew FJ, Michael L. Gernhardt, and
+                                         Jennifer Jadwick. "Evaluation of dual multi-mission space
+                                         exploration vehicle operations during simulated planetary
+                                         surface exploration." Acta Astronautica 90.2 (2013): 203-
+                                         214.
+
+
+
+
+                                 9
+                     BIOGRAPHY
+                     Michael B. Chappell earned his
+                     undergraduate and graduate degrees
+                     in Electrical Engineering from
+                     Mercer University. He began his
+                     career at the Advanced Missile
+                     Signature Center at Arnold Air Force
+                     Base as a member of the
+                     measurements team. Continuing as a
+                     civilian with the United States Air
+                     Force, Michael moved to Robins AFB
+where he worked in several engineering roles including
+avionics sustainment, industrial controls and electrical
+infrastructure design, and electronic countermeasures.
+After many years serving the Air Force, Michael moved to
+a position as a guidance, navigation, and control (GN&C)
+integration engineer for NASA’s Space Launch System
+(SLS) at Marshall Space Flight Center (MSFC), eventually
+becoming the integration lead. Currently, Michael is the
+deputy lead of the Mars Architecture Team (MAT)
+developing crewed Mars mission concepts and project
+manager for the supporting activities at MSFC.
+                       Stephen J. Hoffman received a
+                       B.S., M.S., and Ph.D. in
+                       Aeronautical and Astronautical
+                       Engineering from the University of
+                       Illinois in 1978, 1980, and 1984
+                       respectively. Dr. Hoffman is a
+                       Senior Systems Engineer with over
+                       40 years of experience working in
+                       civilian      space     programs
+                       performing      tasks   involving
+program management, interplanetary mission planning,
+preliminary spacecraft design, orbit mechanics, and
+planetary analog missions. Dr. Hoffman is currently
+supporting the Exploration Mission Planning Office at the
+NASA Johnson Space Center. He supports a variety of
+mission studies and concept assessments associated with
+human exploration beyond low Earth orbit for this office.
+
+                        Omar Bekdash received his
+                        bachelor's and master’s degrees
+                        in bioengineering from the
+                        University of Maryland in 2010
+                        and 2012, respectively. He is
+                        currently working at the NASA
+                        Johnson       Space       Center
+                        supporting a variety of mission
+                        studies, analog research studies,
+                        and formulation of surface
+                        mobility concepts associated
+with human exploration beyond low Earth orbit.
+
+
+
+
+                                                            10
+

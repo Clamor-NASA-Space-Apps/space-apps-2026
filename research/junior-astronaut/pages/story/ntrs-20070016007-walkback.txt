@@ -1,0 +1,941 @@
+National Aeronautics and Space Administration
+Johnson Space Center
+Houston, TX 77058-3696
+
+
+
+
+     The Walkback Test: A Study to
+    Evaluate Suit and Life Support
+                 System Performance
+   Requirements for a 10 Kilometer
+       Traverse in a Planetary Suit
+
+                                   Jessica R. Vos
+            Integrated Test Manager, EVA & Spacesuit Systems (EC5)
+
+                            Michael L. Gernhardt, Ph.D.
+     Principal Investigator, EVA Physiology, Systems & Performance (SK3)
+
+                                 Lesley Lee, M.S.
+     Exercise Physiologist, EVA Physiology, Systems & Performance (SK3)
+
+
+
+                                   January 2007
+TABLE OF CONTENTS
+
+Abstract ................................................................................................................................4
+Introduction..........................................................................................................................5
+Test Objectives.....................................................................................................................5
+Test Hardware......................................................................................................................6
+Partial Gravity Simulator .....................................................................................................6
+Mark III Advanced Space Suit Technology Demonstrator & Spider-Gimbal System........6
+Challenger Treadmill ...........................................................................................................9
+Methods................................................................................................................................9
+Subject Selection..................................................................................................................9
+Partial Gravity System Characterization............................................................................10
+Testing Protocols ...............................................................................................................11
+VO2 Peak Test....................................................................................................................11
+Unsuited “Energy-Velocity” Tests ....................................................................................11
+Suited 10 km ‘Walkback’ Test ..........................................................................................14
+Data Collection Techniques...............................................................................................15
+Metabolic Data Collection .................................................................................................15
+Biomechanical Data Collection .........................................................................................15
+Subjective Data Collection ................................................................................................16
+Imaging ..............................................................................................................................16
+Summary of Preliminary Results .......................................................................................17
+Conclusions........................................................................................................................19
+Study Limitations...............................................................................................................19
+Appendix A: Submaximal Test Termination Criteria.......................................................21
+Appendix B: 10 km Ground Rules....................................................................................21
+Appendix C: Ratings Scales for Subjective Measures......................................................22
+        Modified Cooper-Harper Scale..............................................................................22
+        Borg Rating of Perceived Exertion Scale (RPE) ...................................................23
+        Corlett & Bishop Discomfort Scale .......................................................................23
+References..........................................................................................................................24
+
+
+
+
+                                                                         2
+List of Tables
+
+Number   Title                                                                  Page
+1        Summary of EVA Walkback Test subject characteristics                   7
+2        Measured versus theoretical downward accelerations                     8
+3        Determination of velocities used for the energy-velocity tests         10
+
+
+
+
+List of Figures
+
+Number   Title                                                                  Page
+1        MK III Advanced Space Suit Technology Demonstrator                     7
+2        MK Suit and Spider-Gimbal System Test Set Up                           8
+3        Shirt-Sleeve Test Set Up                                               12
+4        Subject Performing 10 km Translation in MK III Suit in Lunar Gravity   14
+5        10 km Walkback Strategy as Speed vs. Time for All Subjects             18
+
+
+
+
+                                              3
+      The Walkback Test: A Study to Evaluate Suit and Life
+      Support System Performance Requirements for a 10
+             Kilometer Traverse in a Planetary Suit
+                                        Paper #: 07ICES-9
+                                    FM 548/1676 Control # 12457
+
+
+
+
+                                            Abstract
+As planetary suit and planetary life support systems develop, specific design inputs for each
+system relate to a presently unanswered question concerning operational concepts: What
+distance can be considered a safe walking distance for a suited EVA crew member exploring the
+surface of the Moon to ‘walk-back’ to the habitat in the event of a rover breakdown, taking into
+consideration the planned EVA tasks as well as the possible traverse back to the habitat? It has
+been assumed, based on Apollo program experience, that 10 kilometers (6.2 mi) will be the
+maximum EVA excursion distance from the lander or habitat to ensure the crew member’s safe
+return to the habitat in the event of a rover failure. To investigate the feasibility of performing a
+suited 10 km Walkback, NASA-JSC assembled a multi-disciplinary team to design and
+implement the ‘Lunar Walkback Test’. The test was designed not only to determine the
+feasibility of a 10 km excursion, but also to collect human performance, biomedical, and
+biomechanical data relevant to optimizing space suit design and life support system sizing. These
+data will also be used to develop follow-on studies to understand interrelationships of such key
+parameters as suit mass, inertia, suit pressure, and center of gravity (CG), and the respective
+influences of each on human performance.
+
+
+
+
+                                                 4
+Introduction
+As planetary suit and planetary life support systems develop, specific design inputs for each
+system relate to a presently unanswered question concerning operational concepts: What
+distance can be considered a safe walking distance for a suited Extravehicular Activity (EVA)
+crew member exploring the surface of the Moon to ‘walk-back’ to the habitat in the event of a
+rover breakdown, taking into consideration the planned EVA tasks as well as the possible
+traverse back to the habitat? It has been assumed, based on Apollo program experience, that 10
+kilometers (6.2 mi) will be the maximum EVA excursion distance from the lander or habitat to
+ensure the crew member’s safe return to the habitat in the event of a rover failure.
+
+To investigate the feasibility of performing a suited 10 km traverse, NASA-JSC assembled a
+multi-disciplinary team to design and implement the ‘Lunar Walkback Test’. The test was
+designed not only to determine the feasibility of a 10 km excursion, but also to collect human
+performance, biomedical, and biomechanical data relevant to optimizing space suit design and
+life support system sizing for the targeted operational environment. These data will also be used
+to develop follow-on studies to understand interrelationships of such key parameters as suit
+mass, inertia, suit pressure, and center of gravity, and the respective influences of each on human
+performance.
+
+The basic approach was to have each test subject perform each test point both suited and ‘shirt
+sleeve’ to allow for the quantification of the specific biomedical, metabolic, and biomechanical
+costs attributed to the suit across a range of gravity levels and ambulation speeds.
+
+
+Test Objectives
+Primary Objective: To collect biomedical and human performance data on crew subjects
+conducting a suited planetary traverse and produce a crew consensus regarding the feasibility of
+performing a suited 10 km ‘Walkback’ in lunar gravity.
+
+Secondary Objectives:
+
+1) Understand the specific biomedical and human performance limitations of the suit by
+comparing the suited data to the matched unsuited controls
+2) Collect metabolic and ground-reaction force data to aid in the development of an EVA
+simulator to be used on future pre-breathe protocol verification tests
+3) Provide biomedical and human performance data for use in suit and portable life support
+system (PLSS) design
+4) Assess the cardiovascular and resistance exercise associated with partial-gravity EVA for
+planning and designing appropriate exploration exercise countermeasures.
+5) Collect data to support the development and execution of follow-on studies to understand
+interrelationships of such key parameters as suit mass, inertia, suit pressure, and center of
+gravity, and their respective influences on human performance.
+
+
+
+                                                 5
+Test Hardware
+Partial Gravity Simulator
+All data collection sessions were performed on the partial gravity simulator (also known as the
+‘POGO’) in the Space Vehicle Mock-up Facility (SVMF) at Johnson Space Center. The POGO
+uses a pneumatic cylinder servo mounted to a 40ft air baring (frictionless) rail to create a
+constant lift (or offloading) force to simulate a reduced-gravity environment throughout the
+subject’s range of motion in the forward, aft, up, and down directions. The vertical servo system
+consists of the vertical servo assembly, strain gauge, pneumatic cylinder assembly, and the piston
+rod assembly. A gimbal support structure attached to the end of the lifting actuator supports (or
+off-loads) a suited subject and allows for the pitch, roll, and yaw rotational degrees-of-freedom
+during movement. During unsuited (or shirt sleeve) testing, a separate spreader bar and harness
+assembly off-loads the suspended subjects.
+
+It should be noted that before the test trials began, an assessment of the dynamics of the
+pneumatic servo system was conducted to verify that for known initial forces and velocities, the
+resulting trajectories were consistent with the theoretical models for each gravity level (as
+described in the Partial Gravity Simulator Characterization section).
+
+During the shirt-sleeve (unsuited) trials, the POGO was adjusted to completely offset the weight
+of the harness and spreader bar, while the subject’s weight was offset to the appropriate gravity
+level. For the suited trials, the combined weight of the subject, liquid cooling garment (LCG),
+pressure garment (MKIII suit) and PLSS mockup, and gimbal support structure were offset to the
+appropriate gravity level. This was done because the 135-pound combined weight of the PLSS
+mock-up (40 lbs) and the gimbal support system (95 lbs) very closely simulates the actual weight
+of the current PLSS. These configurations were designed to create realistic lunar and martian
+weights for the respective unsuited and suited conditions.
+
+
+Mark III Advanced Space Suit Technology Demonstrator & Spider-Gimbal
+System
+For the suited trials, the subjects wore NASA’s Mark III Advanced Space Suit Technology
+Demonstrator (a.k.a. the MK III). The MK III suit is essentially a “test bed” for advanced space
+suit technologies. It is currently configured to represent a conceptual planetary suit design that
+accommodates the dynamic ranges of motion required to effectively perform a wide variety of
+planetary EVA tasks while minimizing any suit-induced changes to the crewmember’s natural
+movement patterns.
+
+The MK III is a hybrid suit, composed of some hard elements (e.g., upper torso and hips), and
+some soft elements (e.g., elbows and knees). The scye and hip bearing positions allow for
+optimal suited ranges of motion in multi-axial joints (like the shoulder and hip), which are
+important for planetary EVA. It also has bearings that allow for additional degrees of freedom in
+the upper arm, wrist, waist, upper thigh, and ankle. The MK III is a rear-entry suit, meaning it is
+donned in one piece (with the exception of the gloves) through a hatch on the backside of the
+
+
+
+
+                                                 6
+hard upper torso (HUT). The hatch also serves as the interface for the PLSS mock-up for test
+purposes.
+
+The suited test subjects are held in place inside the suit via a shoulder restraint system. The
+subjects also have the option of using a waist belt in concert with the harness system to transfer
+some of the weight of suit to the hips during 1-G ops. Foam padding can also be placed inside
+the HUT for comfort.
+
+The MK III weighs about 54 kg (120 lbs), and has modular leg, arm, and glove soft goods
+components and metal sizing rings that allow for individualized sizing adjustments. The boots
+on the MK III are modified commercial work boots with flexible soles for walking and a
+convoluted ankle for joint mobility. The large HUT and hip section provide for an acceptable
+suit-fit in most of male astronaut population, however a smaller HUT and hip sections would be
+necessary to accommodate proper suit-sizing for most of the female astronaut population.
+
+The MK III is designed for an optimal operating pressure of 4.3 psig. The maximum operating
+pressure for most of the suit components, including the HUT, is 8 psig. All suited tests were
+performed at 4.3 psig with certified breathing air at the standard flow rate of 6.0 acfm. Each
+subject wore a Liquid Cooling Garment (LCG) under the suit, through which chilled water
+mixture was continuously pumped a rate of approximately 120 lb/hr. Communication between
+the test team and the suited test subject was available via a system comprised of 9 wireless head
+sets and 2 hardwire head sets.
+
+
+
+
+                   Figure 1: MK III Advanced Space Suit Technology Demonstrator
+
+*Subsequent references in this report to the “MK III suit” include the pressure garment and
+combined mockup backpack and gimbal support structure.
+
+
+
+
+                                                 7
+                                                                    The Spider-Gimbal System provides
+                                                                    the interface between the suited subject
+                                                                    and the Partial Gravity Simulator.
+
+
+
+
+                       Figure 2: MK Suit and Spider-Gimbal System Test Set Up
+
+The Spider-Gimbal System (the large aluminum structure shown in image above) connects the
+MK III suit to the POGO. Its purpose is to offload weight from the suited subject in a manner
+that allows him to move in the roll, pitch, and yaw planes of motion while attached to the POGO
+(i.e., avoid the “marionette” effect of hanging from or being pulled upward by the POGO).
+
+The spider-gimbal system has some CG adjustment capability, in that the position of the main
+load-bearing components can be adjusted such that the suited subject’s total weight is perfectly
+balanced, slightly forward, or slightly aft when offloaded to a specific gravity level (e.g. lunar).
+However, the “dial-in” capability is somewhat limited because there is difficulty in determining
+the correct settings for each subject (due to cross-coupling of the dependent variables – subject
+weight, height, and body weight distribution - in the system), and the resulting CG for each
+setting is currently defined only by the subject’s interpretation (subjective), which is 1) difficult
+to measure or define with a small number of subjects, and 2) inconsistent between subjects. The
+entire Spider-Gimbal System weighs approximately 40.8 kgs (90 lbs).
+
+
+
+
+                                                  8
+It should be noted that, for this test, the CG adjustability was sufficient but less than ideal
+because the team was not able to know the exact location of the CG, or what effect the resulting
+weight distribution (forward, aft, etc.) may have had on each subject’s metabolic rate or
+biomechanics. For future tests, a model of the system will be developed (with height and weight
+inputs) and used to standardize the settings for a specific CG location for each suited subject.
+
+
+Challenger Treadmill
+The treadmill used for this test was a commercial off-the-shelf (COTS) Challenger model 5.0. It
+had a sufficient (although not optimal) walking surface area of 27”x 72”, and allowed for speeds
+ranging from 0.1 to 10.0 mph with resolutions of 0.1 mph. The test team outfitted the treadmill
+with four AMTI force plates positioned beneath each ‘leg’ of the treadmill (as described under
+Data Collection Techniques).
+
+It should be noted that although the Challenger treadmill offered a sufficient but less than ideal
+walking surface (tread width and length), speed control, and no incline/decline capability, using
+it allowed the test team to gain both data and experience to help define the treadmill
+specifications and capabilities required for future suited planetary traverse testing. Upon
+completion of the Walkback test, the team concluded that a much larger walking surface area is
+required to avoid suited gait alterations due to the tread width and length, as well as force plates
+imbedded in the deck to distinctly quantify the ground reaction forces of each foot strike. A
+stronger motor, a more user-friendly control/display panel, and incline/decline capability are also
+desired.
+
+
+Methods
+Subject Selection
+All subjects were recruited from either a pool of personnel who typically perform EVA-related
+suited studies for the Engineering Directorate or from a group of astronauts selected to support
+exploration EVA studies. Due to the projected completion time of the 10 km test and the
+potential medical safety issues associated with improper suit fit in an active long-duration test,
+only those with optimal suit fit in the MK III were selected for inclusion in this study. Once this
+distinction had been made, 6 male astronaut subjects (Table 1) participated in the data collection
+phases of the study, including the 10 km portion.
+
+
+   Table 1. Summary of AWT Subject Characteristics
+
+
+                                                Maximum     Mean ± STDEV   Minimum
+
+                Gender:           6 males
+                Subject Age (yrs)                     51     46.8 ± 4.3       40
+                Weight (lb)                          197    179.5 ± 17.3     157
+                Height (inches)                       74      71 ± 2.0        69
+                VO2peak (ml/kg/min)                  55.6    48.7 ± 5.7      40.8
+
+
+
+                                                     9
+All subjects successfully passed the modified Air Force Class III Physical or equivalent
+examination. Each subject was provided verbal and written explanations of the testing protocols
+and the potential risks and hazards involved in the testing and signed NASA JSC Human
+Research documentation indicating their understanding and consent. All testing protocols were
+reviewed and approved by NASA JSC’s Committee for the Protection of Human Subjects and
+the appropriate test readiness review boards.
+
+
+Partial Gravity System Characterization
+The POGO is essentially a servo control system that provides a relatively constant weight
+offloading (or lift) force to the subject as he ambulates while attached to the piston, which allows
+for the simulation of his ambulatory dynamics at lunar or martian gravity. Time series motion
+analysis and ground-reaction force (GRF) data were used to provide an independent assessment
+of the POGO system performance. Two subjects performed submaximal treadmill translation on
+a level treadmill (0% grade) at 1/6G and 3/8G in a shirt sleeve condition using the POGO
+system. The total-body center of mass (COM) trajectory was calculated from time series motion
+analysis for 3 different speeds for each subject in each gravity level. The measured downward
+acceleration was then derived from the maximum displacement of the COM until the point of
+foot-strike with the treadmill. Table 2 depicts the measured versus theoretical downward
+acceleration and the percent error for each subject. The percentage error between the theoretical
+and measured accelerations showed some variation with speed and gravity level, but averaged
+within 5% for both subjects. This suggested that the POGO was performing within acceptable
+limits and was appropriate for simulating lunar and martian gravity levels in this study.
+
+
+   Table 2. Measured versus theoretical downward accelerations
+
+     Subject   Speed      Speed      Gravity       Actual        Theoretical    % Error
+               (m/s)      (mph)       Level      Acceleration    Acceleration
+                                                    (m/s)           (m/s)
+
+
+       3       1.6765      3.75      Lunar           1.76           1.64           7
+       3       2.1236      4.75      Lunar           1.84           1.64          13
+       3       2.5662      5.74      Lunar           1.67           1.64           2
+       4       1.5692      3.51      Lunar           1.55           1.64           5
+       4       2.0118      4.5       Lunar           1.59           1.64           3
+       4       2.4499      5.48      Lunar           1.48           1.64          10
+       3       1.9939      4.46      Mars            3.65           3.68           1
+       3       2.4321      5.44      Mars            3.59           3.68           2
+       3       2.8791      6.44      Mars            3.58           3.68           3
+       4       2.1191      4.74      Mars            3.58           3.68           3
+       4       2.5796      5.77      Mars            3.43           3.68           7
+       4       3.0088      6.73      Mars            3.75           3.68           2
+
+
+
+
+                                                   10
+Testing Protocols
+
+VO2 Peak Test
+To compare energy expenditure across the different conditions planned for this test, subjects
+performed a graded treadmill exercise test to determine their aerobic capacity/peak oxygen
+consumption, or VO2pk. The test began with three stages lasting 3 minutes each on a level
+surface, with the speed increased 1 mph at the start of each new stage. After the third stage, the
+speed remained the same and the incline (or grade) on the treadmill surface was increased 3% at
+the start of each subsequent minute, per the protocols described by the following references:
+Lee, et al., 1997; Watenpaugh, et al., 2000. The subject continued exercising through these
+stages as long as possible, to maximal effort. VO2pk and peak heart rate were determined by
+standard exercise testing criteria. From the VO2pk, measured levels of energy expenditure
+during subsequent test sessions can be evaluated as percentages of VO2pk to ensure subject
+safety and allow valid relative comparisons among subjects.
+
+
+Unsuited “Energy-Velocity” Tests
+
+Part 1: Preferred Transition Speed Determination
+To establish accurate baseline metabolic and biomechanical data for a range of walking and
+running speeds, it was first necessary to determine the walk-to-run transition speed, or the
+Preferred Transition Speed (PTS), for each subject at both 1/6G and 3/8G. This was determined
+subjectively and confirmed quantitatively via the following protocol: The subject (wearing shirt-
+sleeve test attire), mounted the treadmill and the speed was set so the subject was clearly walking
+(i.e., at least one foot was in contact with the treadmill at all times). Once a steady gait was
+achieved, the treadmill speed was increased slightly. The subject would then achieve a steady
+gait at the new speed, and the preceding steps repeated until a speed was reached at which the
+subject freely chose to switch his gait from a walk to a run. Subsequently the treadmill speed
+was adjusted to find the exact speed where 1) the subject remained walking, but had to exert
+increased effort to do so 2) the subject exerted significant effort to avoid drifting rearward on the
+treadmill, and 3) the subject indicated that he would prefer to slowly jog at that speed if required
+to do so for an extended length of time. The speed at which all 3 criteria were met was noted as
+the subject’s PTS. Then, each subject would walk at a specified speed above and below the
+identified PTS while his or her metabolic data was collected. Because walking at a true running
+speed is more metabolically costly than running at that speed (and vise-versa), the met rate data
+could quantitatively confirm the subject’s PTS.
+
+Once the PTS for each subject was determined for each gravity level, 3 walking and 3 running
+velocities were assigned (per the protocol shown in Table 3) as the official data collection
+velocities to allow investigators to understand the shape of the metabolic curve in both the
+walking and running ranges. The PTS (and the immediate ranges above and below it) were
+intentionally avoided to ensure the subject would be able to maintain a steady gait during data
+collection at his or her assigned velocities and to avoid confounding influences on metabolic rate
+(a dependent variable in this study).
+
+
+
+
+                                                 11
+   Table 3. Determination of Velocities Used for the Energy-Velocity Tests
+
+     Speeds Used for the Energy-Velocity Tests:
+    Stage              Speed                                           Comments
+     1       X minus 1.1 mph             Subtract 0.3 mph per stage; need smaller increments for
+     2       X minus 0.8 mph             walking
+     3       X minus 0.5 mph             Subtract 0.5 mph to assure walking out of transition zone
+     PTS = X                                 No data collected in transition zone
+     4       X plus 0.5 mph              Add 0.5 mph to assure running out of transition zone
+     5       X plus 1.5 mph              Add 1.0 mph to distinguish metabolic/biomechanical
+     6       X plus 2.5 mph              differences at running speeds
+
+
+Part 2: Unsuited (Shirt-Sleeve) Energy-Velocity Testing
+During the subsequent unsuited energy velocity tests, each subject performed submaximal
+locomotion on a level treadmill (0% grade) for 3 minutes at each of the 6 different (assigned)
+velocities determined for each of the 3 gravity levels (1G, 1/6G, and 3/8G). Simulations of 1/6G
+and 3/8G were accomplished by having subjects wear a waist/hip harness that allowed the POGO
+to offload a percentage of the subject’s weight to simulate his weight at the desired gravity level.
+
+
+
+
+                                                                          Instrumented subject performs
+                                                                          unsuited energy-velocity test
+                                                                          while partially suspended from
+                                                                          POGO overhead.
+
+
+                                     Figure 3: Shirt-Sleeve Test Set Up
+
+
+                                                     12
+Subjects completed a total of 5 trials during this session, 3 trials using true ‘unsuited’ weight
+relief and 2 in which the subject’s weight was adjusted to match his total suited weight
+(including the MK III suit and the spider/gimbal interface with the POGO). This approach was
+used to provide weight-matched controls that, when compared to later suited tests, allowed for
+the assessment of the specific metabolic and biomechanical costs of the suit (i.e., the combined
+effects of inertial mass, pressure-volume work, and kinematic constraints). The trials are
+described below:
+
+Trial 1: Earth gravity (1-g), wearing harness
+Trial 2: Moon gravity (1/6-g), wearing harness          Referred to as the ‘unsuited’ condition
+Trial 3: Mars gravity (3/8-g), wearing harness
+Trial 4: Moon gravity (1/6-g), wearing harness with simulated weight      Referred to as the ‘weighted’
+Trial 5: Mars gravity (3/8-g), wearing harness with simulated weight      condition
+
+Each subject initially performed Trial 1 and then the order of subsequent trials was varied
+systematically such that half the subjects completed the 1/6G condition (Trial 2) first and half
+completed the 3/8G condition (Trial 3) first to address test order and learning bias.
+
+
+Suited Energy-Velocity Tests
+
+Each subject performed suited submaximal treadmill translation on a level treadmill (0% grade)
+in 1/6G and 3/8G. Translation speeds (3 walking, 3 running) and durations (3 minutes/stage) for
+each individual were set to be identical to those used during the unsuited tests for walking,
+however running velocity increments were set at half those of the unsuited trials (0.5 mph vs. 1.0
+mph, respectively) due to the difficulty of moving the MKIII suit at higher speeds. This practice
+ensured that 2 of the 3 running speeds would be identical to unsuited trials for comparison across
+gravity levels for each subject. Gravity levels were applied in the same manner as during the
+unsuited tests. At the end of the 1/6G trial, each subject was asked to identify the velocity at
+which they expected they would want to perform the 10 km Walkback session.
+
+Note: Suited or shirt sleeve “weighted” conditions for the 1G gravity level were not performed
+because the combined mass of the suit and the spider-gimbal system make traversing in 1G
+nearly impossible and most definitely unsafe to attempt.
+
+
+
+
+                                                13
+                                                                      Suited subject performs treadmill
+                                                                      locomotion while partially
+                                                                      suspended from Pogo overhead.
+
+
+            Figure 4: Subject Performing 10 km Translation in MK III Suit in Lunar Gravity
+
+
+
+Suited 10 km ‘Walkback’ Test
+On a later date (after completing the portions of the test described above), each subject again
+donned the LCG and MKIII suit for the full-up Walkback Test. In addition to the set-up for the
+suited energy-velocity tests (described above), subjects were outfitted with a wireless ECG
+system that delivered a 3-lead ECG signal to the medical monitor console, a core-temperature
+measuring device, and skin temperatures sensors. Subjects were also provided a low-profile 32
+oz in-suit drink bag from which water could be consumed as needed during the test.
+
+The testing scenario described the subject to be 10 km from a lunar habitat, having completed
+approximately 4 hours of surface activities when his or her rover breaks down. The subjects
+were reminded of the test termination criteria (Appendix A) and ground rules (Appendix B) and
+given the following basic instructions:
+
+
+
+
+                                                 14
+       1. Attempt to translate 10 km at any speed you desire. Speed can be increased or
+          decreased whenever you request; there is no time requirement. You may stop and
+          rest at any time you wish. You may also request the test be stopped at any time, for
+          any reason.
+       2. You will be prompted every 15 minutes for ratings of exertion, controllability, and
+          discomfort. If at any time you experience discomfort, please tell the test team
+          regardless whether it occurs at the designated interval.
+       3. Because of the potential for injury, do not press through excessive levels of
+          discomfort. Should you need to stop the test before reaching 10 km, calculations
+          based upon the completed portion of the test can allow the team to extrapolate
+          nominal expected time to completion and associated data.
+
+
+
+Data Collection Techniques
+
+Metabolic Data Collection
+During the VO2pk and unsuited tests, energy expenditure (ie, metabolic rate) was determined
+from the continuous measurement of VO2, carbon dioxide (CO2) production, and expiratory
+volume (VE) using a headset/mouthpiece connected to a True One 2400 metabolic cart (Parvo
+Medics, Provo, UT). Heart rate during the VO2pk test was monitored from 12-lead
+electrocardiogram (ECG) recordings, and during submaximal tests from a 3-lead ECG or Polar
+Heart Rate Monitor.
+
+During exercise in the MK III suit, energy expenditure was based on measured suit ventilation
+rate, expired CO2 concentration in the exhaust umbilical (CD-3A Infrared Carbon Dioxide
+Analyzer, AEI Technologies, Pittsburgh, PA) and the regression between VCO2 and VO2 as
+measured during the VO2 peak test. This technique and hardware were identical to those
+currently used during suited NBL tests.
+
+Thermoregulatory demand was measured only during the 10 km sessions from measures for
+body core and skin surface temperatures. Core temperature was determined using a radio
+frequency capsule while skin temperatures were measured using thermocouple sensors, all
+transmitted to a wireless VitalSense® physiological monitor (Mini Mitter Company, Inc., Bend,
+OR). Standardized equations were used to calculate body heat storage.
+
+Biomechanical Data Collection
+Biomechanical data were collected using a 12-camera motion analysis system (120 Hz; Vicon,
+Oxford, UK) and 4 strain gauge force plates then processed and analyzed using customized
+MATLAB computer programs. Data were sampled during 20 full, consistent strides during each
+stage of testing; however during the 10 km session, data were sampled for 20 strides every 5
+minutes. Ground reaction forces were collected using 46.2 x 50.8 cm force plates, mounted to
+each corner support structure of the treadmill. Ground reaction force variables of interest
+included the peak impact force during ground contact and loading rates. The motion analysis
+system was used to record 3-dimensional (3-D) trajectories of reflective markers, 51 in total,
+attached to each body segment of the subjects. Post-test analyses were performed on the
+
+
+
+                                              15
+kinematic variables of interest that included hip, knee, and ankle range of motion, stride
+frequency, and vertical excursion of the body during the exercise. The results of the time series
+motion analysis will be combined with suit engineering data on joint forces and torques (and
+published at later date) to estimate the magnitude and degree of resistive exercise associated with
+walking EVAs in partial-gravity.
+
+Subjective Data Collection
+For the unsuited and suited energy-velocity test sessions the Rating of Perceived Exertion (RPE;
+Borg, 1982) and Cooper-Harper (Cooper, 1957; Cooper & Harper, 1969) ratings were recorded
+at the end of each stage. The RPE is used to gauge how much effort a person feels they must
+exert to perform a task, particularly exercise, on a scale of 6 to 20. The scale roughly correlates
+with heart rate such that a subject’s RPE should be about 1/10 of his or her actual HR during
+exercise (e.g., if HR = 120, the subject’s RPE is expected to be ~12). The Cooper-Harper rating,
+on a scale of 1 to 10, is used to determine the level of compensation a person feels is necessary to
+maintain body control. The original Cooper-Harper scale was developed for pilot controllability
+of an aircraft, but was later modified to apply to control of the human body.
+
+Before beginning the 10 km test, subjects completed the first phase of the NASA Task Load
+Index (TLX) questionnaire (Hart and Staveland, 1988) that measures the perceived physical and
+mental workload necessary to perform a given task. The subject then donned the suit and, once
+operating pressure was reached, was asked to complete a target tracking task as quickly as
+possible. The task consisted of tracking targets on a touchpad and time to completion was
+measured to see if there was any degradation between the pre- and post-tests. During the test,
+subjects were prompted for RPE and Cooper-Harper ratings every 15 minutes. At the same
+interval, they used a discomfort (0 to 10) scale to rate discomfort on any and all portion(s) of the
+body (Corlett and Bishop, 1976). At the end of the 10 km Walkback session, subjects completed
+final RPE and NASA TLX workload ratings as well as a final target tracking task to measure any
+pre- to post-test degradations in task completion time. Scales used for these measurements are
+depicted in Appendix C.
+
+Imaging
+Photographic data also were collected after completion of each testing run if human-suit
+interactions were unfavorable or resulted in skin or musculoskeletal abnormalities. This
+information will be provided as feedback to Space Medicine and the suit designers. During all
+suited tests 2 Sony digital video cameras captured lateral (side) and anterior (front) video as well
+as auditory comments of the crewmember and test team, except during time periods declared to
+be private medical conferences by the medical officer.
+
+
+
+
+                                                 16
+Summary of Preliminary Results
+All subjects completed the 10 km “Walkback” translation without difficulty. The average time to
+completion was 95.8 minutes at an average velocity of 3.94 mph with an average metabolic rate
+of 2374 BTU/hr (or ~10 kcal/min) for the 6 subjects. Prior to the test, it was believed that suit fit
+issues, boot discomfort in particular, would limit the ability of crewmembers to withstand that
+much time or number of gait cycles in the suit. It was furthermore expected that subjects would
+need in excess of 3 hours to complete the task. Most subjects started at relatively slow pace (< 4
+mph) and worked up to slightly faster steady-state pace to perform the 10K translation. One
+subject performed it in a more “interval” type manner, as shown in Figure 1 below, most likely
+due to suit fit
+
+The maximum 15 minute average metabolic rate was 2617 BTU/hr. Both the average and 15
+minute peak metabolic rates exceed the Apollo and EMU cooling capabilities. All of the test
+subjects mentioned that they would have liked to ambulate at higher speeds, but were not able to
+because of cooling limitations. However, it should be noted that the suit’s portable cooling
+system was not capable of operating at the nominal flow rate for the LCG design worn by the
+subjects during the test.
+
+Preliminary data from the energy-velocity tests indicate that the transport costs (ml02/kg-km)
+become more efficient at higher ambulation speeds in Lunar Gravity, which may be inherent to
+the design of the hip and waist components as well as the inertial mass of the MK III suit. More
+testing and analysis is being performed to better understand how inertial mass, suit mobility, CG
+location, and gravity level affect the transport cost of the suit, but these preliminary data suggest
+that improvements to space suit cooling systems will be necessary to exploit the increased
+transport efficiency at higher ambulation speeds for various EVA contingencies ranging from
+emergency “Walkback” scenarios to suit leaks.
+
+Note: The above information is preliminary data as described in NASA’s EVA Walkback Test
+(EWT) Quicklook Report (released Jan 2007). Further analysis and discussion of the results
+with respect to the metabolic and transport costs of the suit as determined by the energy velocity
+tests, the biomechanics associated with Lunar translation in the MK III suit, and all associated
+subjective data will be published at a later date.
+
+
+
+
+                                                 17
+                6
+
+
+
+
+                5
+
+
+
+
+                4
+
+
+
+  Speed (mph)
+                3
+
+
+
+
+                2
+
+
+
+
+                1
+                    0               20            40            60           80            100   120
+                                                            Time (min)
+
+                        Figure 5: 10 km Walkback Strategy as Speed vs. Time for All Subjects
+
+
+
+Consumables are an important consideration for EVA excursions, and the 10 km Walkback
+provided some insight into hydration and nutritional requirements for a task of similar duration
+or intensity. All subjects were provided 32 oz of water in an in-suit drink bag affixed with
+Velcro to the sternum area of the inner suit torso, with a bite valve placed near the crew-
+member’s mouth. This configuration was a special accommodation for this test because of the
+expected duration of the exercise, as the MK III suit is not currently configured to contain a drink
+bag. As a result, the fit of the drink bag was better for some subjects than others. The subjects
+generally consumed between 50% to 100% of the water provided, and 1 subject would have
+preferred to have another 20% available.
+
+At the energy expenditure rates found in this study, caloric supplements may be desirable for
+lunar missions dependent upon the planned EVA operations. Under the assumptions of this test,
+subjects would have been on EVA for 4 hrs, driving the rover to the work site and performing
+the nominal tasks of the day, prior to a rover failure. Based upon Apollo surface EVA data, this
+would equate to the consumption of approximately 1000 kilocalories (kcal) before beginning the
+excursion back to the habitat (Waligora & Horrigan, 1977). The 10 km Walkback required an
+average of 944 kcal total, or 10 kcal/min. Thus the total energy needs for a sample EVA with
+this Walkback-type contingency would approach 2000 kcal, which is approximately 2/3 of the
+recommended daily energy intake (3000 kcal/day) for a 70 kg male on NASA Exploration
+missions (NASA-JSC, 2005), indicating a possible need for caloric supplements beyond the
+additional 50 kcal on EVA days currently advised. In addition, all subjects felt that a nutritional
+item, either food such as a bar or energy gel, or flavored electrolyte drink may improve
+performance and/or endurance.
+
+
+                                                                     18
+Conclusions
+This series of tests established the feasibility of performing a lunar 10 km Walkback, and
+provided objective data to support Constellation Program Lunar Architecture decisions.
+
+Analysis of transport costs identified that cooling system improvements will be required to
+exploit the increased transport efficiency associated with higher ambulation velocities. These
+data also provide the basis for sizing the PLSS and consumables usage in conjunction with
+evolving operational concepts. Another important product of this test was the development and
+refinement of data analysis methods that will form a set of ‘standard measures’ for future studies
+that look at effects of suit weight, mass, pressure, CG, and kinematic constraints for both
+ambulation and exploration tasks. Tools resulting from the Walkback test include analysis
+software to rapidly post-process motion data to determine the number of cycles on any joint of
+the suit as a function of time and velocity. These analysis tools will be effective for developing
+suit cycle requirements and will provide significant cost savings during suit certification
+compared the conventional methods of manual video tape review.
+
+The results of this study provided an initial assessment of the cardiovascular effort associated
+with ambulatory EVA in Lunar gravity. Future tests involving other suits and exercise
+conditions, including varying suit mass and CG location, will add to this data set and also will
+permit assessments of the resistive exercise associated with EVA. The resulting estimates of
+cardiovascular and resistive exercise associated with EVA will allow NASA to optimize their
+countermeasures in conjunction with EVA.
+
+In summary, the Walkback test not only answered the primary objective of the study, but
+provided an entry into the systematic assessment of the complex interrelationships of the human-
+suit system in a partial-gravity environment. All of the data, analysis tools and lessons learned
+from this study will be used to refine NASA’s understanding of the various parameters pertinent
+to performing suited exploration EVA tasks. Ultimately, these studies will provide information
+to the EVA community for making evidence-based recommendations to optimize suit design for
+the targeted operational environment and crew anthropometric range.
+
+
+
+Study Limitations
+This study was undertaken as a pilot experiment because of the complexity of integrating
+personnel and facilities from various JSC organizations and because the testing protocols were
+the first of their kind (i.e., different than methods employed during the Apollo era). As a result,
+caution must be used when interpreting and generalizing the findings of this study. Most
+notably, trials in this study were performed on a smooth, firm treadmill surface while a portion of
+the subject’s weight was lifted by a servo-controlled device which limited movement degrees of
+freedom. Development of simulators which permit more realistic ambulation on planetary
+surfaces is required.
+
+The key areas involving study limitations and lessons learned include hardware, test set up, and
+study design. As mentioned previously, the Challenger treadmill was used for this test despite
+known shortcomings. The team suspected the that treadmill belt was not wide enough for
+
+
+                                                19
+subjects to ambulate in 1/6G or suited conditions without stepping off the belt, but tests
+conducted during the Pogo characterization determined that this treadmill was acceptable for the
+test purposes. During the test, subjects only occasionally stepped off the belt with either a toe or
+heel, but this did not significantly impact their gait. However, several subjects did report that
+they consciously modified their gait with the belt width in mind. Having learned from the
+Walkback test, NASA has invested in a new treadmill with a much larger tread (5’x 8’) to ensure
+that true gait biomechanics are not compromised. The new treadmill also has 4 force plates (the
+same kind that were used with the Challenger treadmill in this test) imbedded in the treadmill
+deck, which is a much more optimal set up than what was used for this test (as previously
+described in the Test Equipment section).
+
+A significant limitation of the existing unsuited harness and the suited gimbal system was the
+inability to precisely control or accurately set the center of gravity. Standard procedures were
+used to configure the systems such that the subject was suspended in a neutral posture. Although
+these settings were recorded for future analysis, the analytical tools for determining the actual
+CG were not available at the time of this test and therefore the CG settings may have been
+inconsistent across test subjects and test conditions. NASA has begun to improve the designs of
+the harness and gimbal systems for future testing to allow for precise and consistent application
+and systematic variation of CG locations for each test activity.
+
+Several issues with study design, such as the insufficient thermal data during suited trials, will be
+addressed in future investigations. There is also the possibility of learning effects associated
+with ambulation using the Pogo system. The 10 km Walkback will be analyzed against the
+shorter energy velocity tests and as a function of time during the 10 km Walkback to assess the
+magnitude of any learning effects. If it is determined that there are significant learning effects,
+future tests will be designed to incorporate longer familiarization sessions.
+
+
+
+
+                                                 20
+Appendix A: Submaximal Test Termination Criteria
+       Test Termination Criteria for All Submaximal Testing –
+  1.   Subject request to stop at any time
+  2.   Subject’s heart rate or measured VO2 at level > 85% VO2pk for 2 min or more
+  3.   Failure of PGCS/Pogo hardware and/or treadmill system
+
+     ADDITIONAL Test Termination Criteria for Suited Submaximal and 10 km Testing -
+  1. Expired CO2 levels greater than 5%
+  2. If subject reports discomfort rating > 7 (on 10-point scale) for two consecutive recording
+     periods, subject will be asked to terminate the test. If subject asks to continue, they will
+     be allowed to continue until they meet condition 3
+  3. Discomfort rating > 7 for 3 recording periods (may be non-consecutive) or severe
+     pressure point
+  4. Engineering hardware failure such as in suit or suit environmental control (These
+     standard/approved engineering termination criteria were described in the detailed test
+     plan (CTSD_AHI_0009) and addressed in the test readiness review (TRR).
+
+
+
+
+Appendix B: 10 km Ground Rules
+       Ground Rules for the 10 km Walkback session:
+  1.   Operation of all engineering systems and equipment to record metabolic rate (met rate),          Formatted: Bullets and Numbering
+       ground-reaction force vectors (GRF), and motion analysis must be nominal to start each
+       test. Skin and core temperatures and LCVG delta temperature, heart rate (HR) and
+       electrocardiogram (ECG) are desired, but not required for test start.
+  2.   Up to 60 min into the test (excluding trouble shooting time), the operating procedure is to
+       stop the test and trouble shoot any required issue for up to 20 min. If the problem cannot
+       be fixed, then proceed to terminate the test.
+  3.   At any time beyond 60 min into the test (excluding trouble shooting time), the operating
+       procedure is to stop the test and trouble shoot up to an additional 20 minutes (total of 40
+       min for the entire test) for loss of critical engineering systems or met rate, GRF, or
+       motion analysis. If met rate, GRF or motion analysis is not fixable in that timeframe,
+       then continue the test until 10 km is achieved or other test termination criteria have been
+       met.
+  4.   Multiple critical systems are involved in this test, and failure of any of these may result in
+       termination of the test within the guidelines set forth in the previous paragraph. A test
+       termination condition may be initiated by the test director, test subject, medical officer,
+       test safety officer, suit technician, treadmill technician, facility representative, or test
+       team member. This is done to ensure the safety of the test subject and investigators,
+       minimize damage to hardware and facilities in use, and assure the quality of the scientific
+       data collected. Specific criteria for these systems are outlined in the detailed test plan.
+
+
+                                                21
+Appendix C: Ratings Scales for Subjective Measures
+Modified Cooper-Harper Scale
+
+
+
+                                              CONTROL
+
+
+
+
+                                              22
+Borg Rating of Perceived Exertion Scale (RPE)
+
+                                                    6       No exertion at all
+                                                    7       Extremely light
+                                                    8
+                                                    9       Very light
+                                                    10
+                                                    11      Light
+                                                    12
+                                                    13      Somewhat hard
+                                                    14
+                                                    15      Hard (heavy)
+                                                    16
+                                                    17      Very hard
+                                                    18
+                                                    19      Extremely hard
+                                                    20      Maximal exertion
+
+
+
+Corlett & Bishop Discomfort Scale
+                Front of Participant                                                          Back of Participant
+                               Z1
+                                                                  Discomfort Scale
+                                                                                                            Z
+                                                     0    Nothing at All
+                               A1                                                                           A
+                                                    0.5   Extremely Low Discomfort
+                     C1              B1                                                             B               C
+                                                     1    Very Low Discomfort
+                               D1                                                                           D
+                                                     2    Low Discomfort                           E                F
+                Q1                    R1             3    Moderate Discomfort                               G
+                               E1                                                                                       J
+                                                     4                                          H           I
+                               F1                    5    High Discomfort                                   K
+                S1                        T1                                                   L                        M
+                                                     6
+                      G1        H1
+                                                     7    Very High Discomfort
+                                                                                                        N       O
+                                                     8
+                          OF NF
+                                                     9
+                          I1    J1                  10    Extremely High Discomfort
+                                                                                                        P Q
+                K1                    L1                                         R
+           M1                                  N1                                                                            S
+                O1                    P1                                         T                                               U
+                                                                                      V                                  W
+                                                                                          X                             Y
+
+
+
+
+                                                                           23
+References
+NASA Internal Reports
+Gernhardt, M., Lee, L., Vos, J. (Jan 2007) Preliminary Report of the EVA Walkback Test
+
+Publications
+
+   Borg GA. (1982) Psychophysical bases of perceived exertion. Medicine and Science in
+   Sports and Exercise, 14(5), 377-381.
+
+   Cooper GE. (March 1957). Understanding and Interpreting Pilot Opinion. Aeronautical
+   Engineering Review, 16(3): 47-51.
+   Cooper GE., Harper RP., Jr. (1969). The Use of Pilot Rating in the Evaluation of Aircraft
+   Handling Qualities. NASA TN D-5153.
+   Corlett EN., Bishop RPA. (1976). A technique for assessing postural discomfort.
+   Ergonomics, 19(2), 175-182.
+   Conkin J., Powell MR. (2001) Lower body adynamia as a factor to reduce the risk of
+   hypobaric decompression sickness. Aviation, Space, and Environmental Medicine,
+   72(3):202-14.
+   Hart SG., Staveland LE. (1988). Development of NASA-TLX (Task Load Index): Results of
+   experimental and theoretical research. In P.A. Hancock & N. Meshkati (Eds.), Human
+   Mental Workload. Amsterdam: North Holland.
+   Lee SM., Bennett BS., Hargens AR., Watenpaugh DE., Ballard RE., Murthy G., Ford SR.,
+   and Fortney SM. (1997). Upright exercise or supine lower body negative pressure exercise
+   maintains exercise responses after bed rest. Medicine and Science in Sports and Exercise,
+   29(7): 892-900.
+   National Aeronautics and Space Administration-Johnson Space Center. 2005. Nutrition
+   Requirements, Standards, and Operating Bands for Exploration Missions, p.13. Houston,
+   Texas.
+   Vann RD., Gerth WA. (1995). Is the Risk of DCS in Microgravity Less Than on Earth?
+   [Abstract] Undersea and Hyperbaric Medicine, Volume 22 Suppl.:A8.
+   Waligora JM., Horrigan DJ., Jr. (1977). Metabolic Cost of Extravehicular Activities. In
+   Johnston RS., Dietlein LF. (Eds.), Biomedical Results from Skylab. Springfield,
+   VA:NTIS/NASA, Publ. No. NASA-SP-377.
+   Watenpaugh DE., Ballard RE., Schneider SM., Lee SM., Ertl AC., William JM., Boda WL.,
+   Hutchinson KJ., and Hargens AR. (2000). Supine lower body negative pressure exercise
+   during bed rest maintains upright exercise capacity. Journal of Applied Physiology,
+   89(7):218-27.
+
+
+
+
+                                              24
+25
+

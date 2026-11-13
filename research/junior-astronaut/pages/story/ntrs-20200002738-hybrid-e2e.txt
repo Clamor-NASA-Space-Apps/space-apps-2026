@@ -1,0 +1,489 @@
+                                                                            (Preprint) AAS 19-225
+
+
+
+              END TO END OPTIMIZATION OF A MARS HYBRID
+                   TRANSPORTATION ARCHITECTURE
+
+                      Min Qu,* Raymond G. Merrill† and Patrick Chai‡
+
+              NASA’s Mars Study Capability Team (MSCT) is developing a reusable Mars
+              hybrid transportation architecture in which both chemical and solar electric pro-
+              pulsion systems are used in a single vehicle design to send crew and cargo to
+              Mars. This paper presents a new integrated framework that combines Earth de-
+              parture/arrival, heliocentric trajectory, Mars orbit reorientation, and vehicle siz-
+              ing into a single environment and solves the entire mission from beginning to
+              end in an effort to find a globally optimized solution for the hybrid architecture.
+
+INTRODUCTION
+    NASA’s Mars Study Capability Team (MSCT) is continuing its architectural trade analyses to
+define the capabilities and elements required to field a sustainable human Mars campaign. 1 One
+of the architecture options currently in development is a reusable Mars hybrid transportation ar-
+chitecture in which both chemical and solar electric propulsion systems are combined in a single
+vehicle design to send crew and cargo to Mars. By using chemical propulsion near the planetary
+bodies and solar electric propulsion (SEP) elsewhere, the hybrid architecture has proven to be
+more fuel efficient than the traditional all chemical solutions, while also presenting many design
+challenges as the hybrid trajectories are much more complex and highly dependent on system
+power and payload requirements. Finding the balance between chemical and solar electric propul-
+sions is also nontrivial. In addition, finding an optimal Mars parking orbit for the transportation
+system alone is a difficult task as it involves solving a complicated geometry problem for a reori-
+entation “apotwist” in order to complete a roundtrip mission and the solution is highly dependent
+on the incoming and outgoing hyperbolic excess velocity vectors (V ∞) from the heliocentric tra-
+jectories.2,3,4 Previous analyses involved optimizing the heliocentric trajectories first, feeding the
+V∞ vectors into the Mars orbit reorientation solver, and then iterating the propellant masses with
+the vehicle sizing tool until a mass closure is found between sizing and trajectory tools. 5,6 The
+solutions found from the analyses are often times less optimal globally as the heliocentric trajec-
+tories are optimized independent of the Mars reorientation, resulting in costly reorientation ma-
+neuvers and higher overall system mass. This paper presents a new integrated framework that
+combines Earth departure/arrival, heliocentric trajectory, Mars orbit reorientation, and vehicle
+sizing into a single environment and solves the entire mission from beginning to end in an effort
+to find a globally optimized solution for the hybrid architecture. First, an integrated mid-fidelity
+
+
+* Staff Scientist, Analytical Mechanics Associates, Inc., 21 Enterprise Parkway, Suite 300, Hampton, Virginia 23666-
+
+6413, U.S.A.
+† Aerospace Engineer, NASA Langley Research Center, Hampton, Virginia 23681, U.S.A. AIAA Senior Member.
+‡ Aerospace Engineer, NASA Langley Research Center, Hampton, Virginia 23681, U.S.A. AIAA Member.
+
+
+
+
+                                                            1
+closure model is developed to optimize a single roundtrip Mars mission for the Hybrid transporta-
+tion system. The robustness of the closure model allows large trade studies to be performed in an
+automated fashion for different power and payload assumptions across all mission opportunities
+of the entire campaign. The solution from the closure model is then used as initial guesses to
+build the complete high fidelity end to end (E2E) trajectory for the optimized spacecraft configu-
+ration.
+
+THE HYBRID CLOSURE MODEL
+    For a crewed Mars mission, the transportation system is assumed to be launched and integrat-
+ed in cis-lunar space in an orbit such as the Near Rectilinear Halo Orbit (NRHO) before crew
+rendezvous in a lunar distance high elliptic orbit (LDHEO) for Earth departure. Earth departure is
+achieved through either lunar gravity assists (LGA, powered or unpowered), or an injection ma-
+neuver at perigee from LDHEO, depending on the Earth escape energy required for the trajectory.
+Electric propulsion (EP) is used during the heliocentric portion of the trajectory to continuously
+build up the orbit energy. Upon Mars arrival, a 3-burn bi-elliptic chemical maneuver sequence is
+performed to capture the spaceship in a highly elliptical Mars parking orbit. During the time when
+the crew are visiting Mars destinations, the spaceship performs an “apotwist” maneuver to reori-
+ent itself into another elliptic parking orbit that is positioned for Earth return maneuvers. For
+Earth return, another 3-burn bi-elliptic maneuver sequence is performed from the elliptical orbit
+to send the spaceship back on an Earth return trajectory, and the electric propulsion again thrusts
+along the heliocentric transit until the spaceship captures itself back to the LDHEO through a
+LGA. The crew then return to Earth from LDHEO while the transportation system returns to the
+NRHO.
+    The Hybrid closure model is built within a trajectory optimization tool (Copernicus), which al-
+lows additional modules to be developed by the end user and incorporated as pre-compiled
+plugins. The center piece of the closure model is optimization of the low thrust trajectories for
+both the outbound and inbound transfers. Input variables being optimized in the heliocentric tra-
+jectories include departure and arrival times, departure masses, as well as departure and arrival
+V∞ vectors. Major output variables are EP propellant usages during both the outbound and in-
+bound transfers.
+    While Copernicus is a high fidelity tool, the heliocentric trajectories in the closure model are
+being modeled at a medium fidelity, without planets’ gravities, so that the closure model can run
+robustly without user in the loop. Chemical propellant usages and ∆Vs are calculated analytically
+in a plugin based on the V∞ vectors coming in and out of the planets. For Earth departure and ar-
+rival, it is assumed that a V∞ magnitude of 1.4 km/s can be achieved with LGAs without a chemi-
+cal burn, whereas V∞ magnitude higher than 1.4 km/s can be achieved through either powered
+LGA or powered Earth close approach (ECA), whichever is cheaper. 7 Powered LGA can provide
+a slight boost in Earth departure/arrival V∞ with a small chemical burn at perilune during a LGA,
+but it is not effective for large energy boost due to Moon’s distance from Earth. A direct burn
+from LDHEO during its Earth close approach is needed for Earth departure/arrival V∞ greater
+than 2 km/s. The ∆Vs for powered LGA and powered ECA can be calculated based on Energy
+increases from Moon’s orbit and LDHEO respectively.
+   Mars arrival and departure V∞ vectors are used to calculate capture, reorient, and escape ∆Vs
+performed by the chemical propulsion of the hybrid system. Additional input variables such as
+incoming and outgoing hyperbolic b-plane angles, bi-elliptic plane change angles, and “apotwist”
+time are introduced in the plugin to optimize reorientation of the Mars parking orbit. Outputs
+
+
+
+
+                                                   2
+from the reorientation calculation include the ∆Vs from all the maneuvers and the orbital ele-
+ments of both arrival and departure hyperbolic, bi-elliptic transfer, and parking orbits.
+   Another piece of the closure model is the parametric sizing of the transportation system. Sys-
+tem dry mass, consumables, logistics and trash dumps can be calculated based on power, payload
+mass, time splits, as well as chemical and EP propellant usage. All of the pieces, Earth departure
+and arrival, roundtrip heliocentric low thrust trajectories, Mars parking orbit reorientation, and
+system sizing are integrated together in a single Copernicus model and optimized simultaneously
+using Copernicus’ built-in optimizer SNOPT to minimize the initial mass leaving NRHO. Addi-
+tional constraints can be imposed on the parking orbit targeting different Mars destinations such
+as orbital, Phobos, Deimos or a particular landing site on the Mars surface. Table 1 shows the
+crewed and cargo mission opportunities for MSCT’s Mars campaign between 2035 and 2048.
+   The solution obtained from the closure model can be used as initial guesses to build a com-
+plete high fidelity end to end trajectory of a round trip Mars mission leaving from cislunar space
+and eventually returning back to ciclunar space. The end to end trajectory can in turn serve to val-
+idate the mid-fidelity closure model. The components of the end to end model and a comparison
+between the mid and high fidelity trajectories for the 2035 crewed mission are presented in the
+upcoming sections.
+                        Table 1. MSCT’s Mars campaign between 2035 and 2048.
+
+    Crew Opportunity        ED_Date       MA_Date          MD_Date       EA_Date         Stay
+
+    2035                    05/22/2035    04/19/2036       04/10/2037    04/19/2038      356
+
+    2039                    08/05/2039    09/06/2040       07/03/2041    07/03/2042      300
+
+    2043                    10/18/2043    10/16/2044       08/12/2045    09/15/2046      300
+
+    2048                    01/27/2048    01/10/2049       01/07/2050    11/29/2050      362
+
+    Cargo Opportunity       ED_Date       MA_Date          MD_Date       EA_Date         Stay
+
+    2037                    06/01/2037    10/04/2038       06/15/2039    05/26/2040      254
+
+    2039                    08/05/2039    08/20/2040       06/27/2041    07/02/2042      311
+
+    2041                    09/10/2041    12/06/2042       06/12/2043    09/06/2044      188
+
+    2043                    10/18/2043    09/30/2044       06/25/2045    10/14/2046      268
+
+    2045                    11/22/2045    12/22/2046       09/25/2047    12/16/2048      277
+
+    2048                    01/27/2048    12/13/2048       12/16/2049    01/24/2051      368
+
+
+
+
+EARTH DEPARTURE
+    Most solutions from the closure model have Earth departure C3 of 2 km2/s2 for the hybrid sys-
+tems with sufficient array power as additional C3 requires chemical propulsion which is much
+more costly. Since C3 of 2 km2/s2 is achieved through LGA and the most energy boost can be
+obtained when the outgoing V∞ vector from the Moon is aligned closely along the Moon’s veloci-
+ty direction, a constraint is imposed in the closure model to find the Earth departure date such that
+the Moon is in the proper location for LGA. The Earth departure portion of the high fidelity end
+to end trajectory needs to be constructed to target the outgoing Earth departure V ∞ vector on the
+departure date via LGA. Since this final condition is known, the trajectory is built backwards
+starting with a hyperbolic orbit escaping the Moon. Hyperbolic b-plane angle and flyby altitude at
+the Moon are used to target another LGA one lunar cycle earlier. This Moon to Moon transfer is
+
+
+
+
+                                                       3
+called a “solar loop” that uses Sun’s gravity to perturb the orbit in order to increase the V ∞ magni-
+tude at LGA for an increased energy at Earth departure. Even though bigger solar loops of multi-
+ple lunar cycles are more effective, a single lunar cycle is used in the 2035 mission to reduce
+crew time. At the second LGA, the b-plane angle and flyby altitude at the Moon are solved and
+the trajectory is back-propagated to target a LDHEO with an inclination of 28.5 degrees and peri-
+gee altitude of 400 km that is suitable for crew rendezvous. The spaceship is staying in the
+LDHEO for 3 lunar cycles (82 days) to allow multiple launch opportunities for the crew to ren-
+dezvous with the hybrid system, and this turns out to be the most challenging part of Earth depar-
+ture trajectory to construct. A small burn at perigee is needed to phase the LDHEO to not only
+avoid large perturbation from the Moon during the 3 lunar cycles, but also to target another LGA
+at the end of the LDHEO stay. A small station-keeping burn at apogee sometime during the
+LDHEO stay is also necessary to keep the spacecraft from getting too close to the Earth surface.
+After the third LGA, the backward propagated trajectory is designed to go through a weak stabil-
+ity boundary (WSB) transfer and reach the NRHO, and this is achieved by finding an orbit in the
+unstable manifold of the NRHO and patching it up with the orbit coming out of the third LGA. A
+SEP thrust leg is inserted to patch up the two orbits and complete the transfer. Once the entire
+Earth departure maneuver sequence is built, the trajectory is then optimized to minimize the ini-
+tial mass leaving NRHO. One of the main parameters that determines the shape of the weak sta-
+bility boundary transfer orbit is the angle between the Sun Earth line and the Earth Moon line. For
+maximized Earth departure C3 via LGA, this angle is always small and has similar values at the
+final Earth escape LGA point across different mission opportunities, and therefore the same Earth
+departure sequence geometry can apply to different mission opportunities as long as the concept
+of operations is the same.
+
+
+
+
+                  Figure 1. Earth departure sequence from the end to end trajectory.
+
+
+   Figure 1 shows the high fidelity Earth departure trajectory of the 2035 mission. The spacecraft
+leaves NRHO on 9/29/2034 with a chemical burn of 4 m/s to get into a weak stability boundary
+transfer orbit. A 12-day SEP burn totaling 146 m/s takes the spacecraft to the first LGA on
+2/2/2035 before getting down to the LDHEO. The spacecraft stays in in LDHEO for 9 revs (82
+days) where 3 phasing and maintenance maneuvers totaling 84 m/s are performed using chemical
+
+
+
+
+                                                    4
+propulsion. The spacecraft leaves LDHEO via LGA on 4/25/2035 to get on a solar loop orbit be-
+fore hitting the final LGA on 5/23/2035 for Earth escape.
+
+MARS STAY
+    While the 2035 mission in the Mars campaign developed by MSCT is an orbital mission, the
+trajectory the transportation system is designed to fly is as if it is a surface mission (minus the
+landing and ascent). The planned landing site for the subsequent missions in the campaign is
+Jezero crater (18.8oN, 77.5oE) and it is required that the periapse of the Mars parking orbit must
+be directly above the landing site (for optimal landing) and the inclination of the parking orbit be
+the same as the landing site latitude (for due-east ascent) before Mars departure. The incoming
+and outgoing hyperbolic orbits, bi-elliptic transfer orbits and parking orbits have been solved by
+the mid fidelity closure model and the orbital elements of these orbits can be entered directly into
+the high fidelity trajectory model as initial guesses. The Mars arrival time must be re-adjusted
+within 1 day of the mid fidelity solution such that the right ascension of the arrival parking orbit
+periapse matches the longitude of the landing site. The parking orbit is propagated forward and a
+maintenance maneuver is added near apoapse of the parking orbit to keep the spacecraft from get-
+ting too close to the Mars surface. The “apotwist” maneuver is not needed in the 2035 trajectory
+since the maneuver ∆V is zero in the mid fidelity solution and that is the case for many of the so-
+lutions because often the plane changes can be pushed to either the arrival or departure bi-elliptic
+maneuver sequences where the maneuvers are performed at higher altitudes. The final Mars de-
+parture time is re-adjusted to account for the phasing of the parking orbit, and the entire trajectory
+for the Mars stay is optimized while holding the incoming and outgoing V∞ vectors to be the
+same as those from the closure model.
+
+
+
+
+                   Figure 2. Trajectory during Mars stay for the 2035 crewed mission.
+
+
+    Figure 2 shows the high fidelity trajectory of the Mars stay for the 2035 mission. The space-
+ship arrives Mars on 4/20/2036 and a 94 m/s chemical burn at 250 km altitude takes the spaceship
+to a 10-sol bi-elliptic transfer orbit and returns to the periapse for the Mars parking orbit insertion.
+The total ∆V for the bi-elliptic arrival is 122 m/s performed by the chemical propulsion and the
+spacecraft is in 5-sol parking orbit with its periapse directly above the Jezero crater. Using the
+electric propulsion, a 1-day maintenance maneuver near apoapse totaling 11 m/s keeps the park-
+
+
+
+
+                                                     5
+ing orbit at a safe distance from the Mars surface for the entire Mars stay. Near the end of the
+Mars stay, another SEP maneuver at apoapse lowers the periapse altitude down to 250 km for the
+final bi-elliptic departure. A 32 m/s burn raises the orbit to 10-sol for the bi-elliptic departure and
+the final Mars departure is on 4/11/2037 and the total bi-elliptic maneuver ∆V is 127 m/s using
+the chemical propulsion.
+
+EARTH ARRIVAL
+    The Earth arrival maneuver sequence is similar to the Earth departure sequence but in reverse
+order. The Earth arrival date and incoming V∞ vector for the 2035 mission are first solved for by
+the closure model to achieve the Earth arrival C3 of 2 km2/s2 and the Moon’s location is properly
+aligned for unpowered LGA. The high fidelity trajectory is built starting with a hyperbolic orbit
+arrival at the Moon, and by varying the incoming B-plane angle and flyby altitude the spacecraft
+goes to a solar loop and then targets a second LGA before dropping down into a LDHEO and
+rendezvous with a crewed capsule already in orbit. While the crew gets off the hybrid system and
+returns to Earth with the capsule, the hybrid system must perform phasing and maintenance ma-
+neuvers and target a third LGA. While the spacecraft could potentially get on a WSB transfer to
+return to NRHO after the third LGA, a more fuel efficient trajectory is found by going through a
+backflip orbit to the other side of Earth for a fourth LGA before getting onto the WSB transfer.
+An orbit in the NRHO’s stable manifold is found and a SEP thrust leg is added to patch up with
+the WSB transfer orbit to complete the last portion of the Earth arrival trajectory.
+
+
+
+
+                    Figure 3. Earth arrival sequence from the end to end trajectory.
+
+
+    Figure 3 shows the Earth arrival sequence of the 2035 mission. The spacecraft arrives at the
+Moon on 4/19/2038 for a LGA to get on the solar loop before coming back for the second LGA
+on 5/16/2038. The spacecraft drops into a 28.5-degree inclined LDHEO after the second LGA
+and stays for one lunar cycle. The spacecraft performs 3 phasing and maintenance maneuvers to-
+taling 56 m/s and then reaches the Moon for the third LGA on 6/12/2038. The backflip orbit after
+the third LGA takes the spacecraft out of the Earth Moon plane and reaches the Moon half a
+month later on 6/25/2038. After the 4th LGA the spacecraft goes into the WSB transfer orbit in
+
+
+
+
+                                                    6
+which it performs a 2.5-day SEP burn starting on 7/26/2038 totaling 54 m/s before arriving at
+NRHO on 10/15/2038. The final NRHO insertion burn is 0.99 m/s.
+
+CONNECTING THE LEGS
+    While the mid fidelity closure model is run in a single Copernicus model to ensure a globally
+optimized solution, the high fidelity trajectory is built leg by leg in different Copernicus models
+due to the complexity and sensitivity of the maneuvers in each leg. State vectors and masses are
+passed between the legs and some legs need to be re-converged to ensure a complete continuous
+trajectory from the beginning to the end. After the Earth departure and Mars stay legs are built,
+the state vectors at the last LGA and Mars arrival are used as initial and final conditions for the
+outbound heliocentric leg in which low thrust burns and engine switching are optimized. To ob-
+tain extra performance, instead of holding all six state variables fixed at the LGA departure, the
+hyperbolic B-plane angle towards the Moon is allowed to be free which adds an extra degree of
+freedom in the Heliocentric leg that may cause a very slight change in the Earth departure leg.
+Earth departure leg is then re-converged easily with the updated final state vectors. The final mass
+from the outbound heliocentric leg is passed to the Mars stay leg to ensure mass continuation and
+the leg is then re-converged. Similar to the outbound leg, the state vectors for Mars arrival and
+Earth arrival LGA are used as initial and final conditions for the inbound leg trajectory optimiza-
+tion. Finally the final mass from the inbound leg is passed to the Earth arrival leg and the trajecto-
+ry is then re-converged to complete the construction of the end to end trajectory.
+
+
+
+
+                             Figure 4. Heliocentric legs of the 2035 mission.
+
+
+    Figure 4 shows the heliocentric legs of the 2035 mission. The spacecraft leaves the Moon on
+5/23/2035 and the SEP system starts to thrust immediately and continues to thrust for the majority
+of the outbound trip. The spacecraft arrives Mars on 4/20/2036 after a short coast and the total
+outbound ∆V performed by the SEP system is 3615 m/s. The spacecraft leaves Mars on
+4/11/2037 and with a much lighter vehicle it has a much longer coast on the way back and arrives
+at the Moon for LGA on 4/19/2038. The total ∆V performed by the SEP system during the in-
+bound trip is 3834 m/s.
+
+
+
+
+                                                    7
+VALIDATION
+    The high fidelity end to end trajectory can be used to validate the mid fidelity closure model
+which is used to perform thousands of cases of trade and sensitivity analyses for MSCT. Some
+assumptions and simplifications are made in the closure model to ensure the entire mission is
+globally optimized within a single model, and can be run in an automated fashion without user
+interaction. At the same time the closure model must have enough fidelity and details to realisti-
+cally represent how a spacecraft would fly a mission from beginning to the end. Table 2 shows
+the time and mass comparisons between the mid and high fidelity models at critical events for the
+2035 mission. Notice that the Earth departure mass in the high fidelity model is set to match the
+mid fidelity model with the Earth departure leg propagated backwards and all other legs propa-
+gated forward. All dates at critical events are within 1 day of each other and the masses match
+very well.
+   Table 3 shows the ∆V comparisons between mid and high fidelity models. Since the WSB
+transfers from NRHO to LDHEO are not modeled in the mid fidelity model, a total SEP ∆V
+budget of 75 m/s is assumed based on past studies. The actual WSB transfer ∆V is 145 m/s for
+Earth departure and 54 m/s for Earth return. The 145 m/s is significantly higher than the 75 m/s
+budget, but it represents a very small increase for the entire SEP ∆V budget, and it is very likely
+that a better solution may exist. A 90 m/s LDHEO maintenance ∆V budget is assumed in the mid
+fidelity model, and the actual maintenance ∆Vs are 84 m/s for Earth departure and 56 m/s for
+Earth return. The heliocentric SEP ∆Vs and chemical Vs at Mars also match very well between
+the two models.
+              Table 2. Comparison at critical events between mid and high fidelity models.
+
+    2035 mission                        Closure model (Mid fidelity)           End to end model (High fidelity)
+    Event                               Date                 Mass (t)           Date                  Mass (t)
+    Leave NRHO                                               114.76           9/29/2034                115.19
+    Earth Departure                   5/22/2035              111.67           5/23/2035                111.67
+    Mars Arrival                      4/19/2036               95.87           4/19/2036                96.43
+    Mars Departure                    4/10/2037               78.72           4/10/2037                78.85
+    Earth Arrival                     4/19/2038               67.53           4/18/2038                67.83
+    NRHO Insert                                               59.15           10/12/2038               61.06
+
+
+
+                    Table 3. Maneuver Comparisons between mid and high fidelity models.
+
+                              Event                           Closure (m/s)   E2E (m/s)
+
+                              Leave NRHO                      0.00            4.40
+
+                              WSB Maneuver                    75.00           145.56
+
+                              HEO Maintenance                 90.00           84.29
+
+                              Outbound SEP                    3624.05         3615.80
+
+                              MOI                             121.31          122.04
+
+                              MPO maintenance                 20.00           21.63
+
+                              TEI                             121.37          127.21
+
+                              Inbound SEP                     3642.58         3834.09
+
+
+
+
+                                                               8
+                         HEO Maintenance               90.00          56.76
+
+                         WSB                           75.00          54.30
+
+                         Enter NRHO                    0.00           0.99
+
+
+
+
+LOW THRUST APOTWIST
+
+Various trade studies have been performed by MSCT to look at impacts of system power, thruster
+power, and payload on the overall mass of the hybrid system. Trades were also performed on
+Mars landing site latitudes and it is apparent that higher latitude landing sites require more
+propellant and/or higher power for the roundtrip mission. This is due to the fact that the Mars
+parking orbits must be of higher inclinations to satisfy the descent and ascent requirements of the
+higher latitude landings sites, resulting in costly reorientation maneuvers which are performed by
+the chemical propulsion. In an effort to reduce the overall system mass, MSCT investigated the
+feasibility of using the low thrust propulsion to perform the reorientation maneuvers during Mars
+stay and it was found that, despite of the operational complexity, the Apotwist maneuver can
+indeed be carried out by the low thrust engines using a series of 1-day plane change burns near
+apoapse to reorient the parking orbit to the desired state for Earth return.
+
+
+
+
+                            Figure 5. Apotwist using SEP in 2039 mission.
+               Table 4. Comparisons for Mars orbit Reorientation for 2039 mission.
+
+                         Event                              Closure   E2E
+
+                         Mars Orbit Insertion (m/s)         367.72    368.16
+
+                         MPO Maintenance (m/s)              20        4.29
+
+                         Apotwist (m/s)                     135.27    127.11
+
+                         PO Maintenance (m/s)               none      1.02
+
+                         Trans-Earth Injection (m/s)        279.35    281.16
+
+
+
+    Figure 5 shows a 2039 Mars surface mission targeting a 50o landing site latitude. After a bi-
+elliptic maneuver sequence using chemical propulsion to capture itself into a 5-sol parking orbit
+that passes over the landing site (for the descent stage), the spacecraft performs a 4 m/s mainte-
+nance burn near apoapse to keep it away from the Mars surface. 106 days after the Mars orbit in-
+sertion, the spacecraft starts the apotwist maneuver sequence in the next 11 revs by performing 1-
+
+
+
+
+                                                        9
+day burns per rev near apoapse that averages 4o plane changes per rev. In each rev during the
+Apotwist phase, the SEP thrust direction is optimized to maximize the plane change and at the
+same time target a 250 km altitude at the periapse passage. The inclination of the parking changes
+from 63o to 50o (for due-east ascent) after the 11 revs. The spacecraft later performs another 1 m/s
+maintenance maneuver to lower the periapse to 250 km before the final bi-elliptic maneuver se-
+quence for Earth return. Table 4 shows the general agreement between the mid-fidelity closure
+model and the high fidelity E2E trajectories for the 2039 mission targeting 50o landing site lati-
+tude. By switching from chemical to SEP propulsion for the apotwist maneuver, the Earth depar-
+ture mass is reduced from 126.9 metric tons to 124.5 metric tons targeting a 40 o landing site lati-
+tude. And with the same power and payload assumptions, the trajectory could not close with
+chemical propulsion performing apotwist targeting 50o landing site latitude but is able to close
+after switching to SEP performing the apotwist maneuver.
+
+CONCLUSION
+    NASA’s Mars hybrid architecture is a promising concept that combines chemical and solar
+electric propulsions in a single vehicle design. An integrated framework has been developed and
+it solves Earth departure and arrival, roundtrip heliocentric low thrust trajectories, Mars parking
+orbit reorientation, and system sizing in a single Copernicus model to find a globally optimized
+solution for the hybrid system. The mid-fidelity closure model provides a fast and robust solution
+that can be used to run through a large set of trade and sensitivity studies to analyze the impacts
+of power, payload, and landing sites on the overall design of the system, and the solution is then
+used as basis to build detailed, high fidelity end to end trajectories that leaves from cislunar space,
+reaches Mars destinations and eventually returns back to cislunar space.
+
+
+
+REFERENCES
+1 D. A. Craig, N. B. Herrmann, and P. A. Troutman, “The Evolvable Mars Campaign - Study Status,” IEEE Aerospace
+
+Conference, March 2015. 2015-8.0101.
+2 D. Landau, J. Longuski, and P. Penzo, “Method for Parking Orbit Reorientation for Human Missions to Mars,” Jour-
+
+nal of Spacecraft and Rockets, Vol. 42, No. 3, pp. 517–522, 2005.
+3 D. Landau, "Orbital Transfer Techniques for Round-Trip Mars Missions," Paper AAS13-449, AAS/AIAA Spaceflight
+
+Mechanics Meeting, Kauai, Hawaii, 2013.
+4 M. Qu, R. G. Merrill, P. R. Chai, and D. R. Komar, “Optimizing Parking Orbits for Roundtrip Mars Missions,” AAS
+
+Space Flight Mechanics Meeting, 2017.
+5 R.G. Merrill, P. Chai, and M. Qu, “An Integrated Hybrid Transportation Architecture for Human Mars Expeditions,”
+
+2015 AIAA SPACE Conference, Pasadena, CA, 2015, AIAA 2015-4442.
+6 P. Chai, R.G. Merrill, and M. Qu, “Mars Hybrid Propulsion System Trajectory Analysis Part I: Crew Missions,” 2015
+
+AIAA SPACE Conference, Pasadena, CA, 2015.
+7 M. Qu, R.G. Merrill, P. Chai, and D.R. Komar, “Trajectory Designs for a Mars Hybrid Transportation Architecture,”
+
+AAS Paper 15-522, 2015 AAS/AIAA Astrodynamics Specialist Conference, Vail, CO, August 2015.
+
+
+
+
+                                                           10
+

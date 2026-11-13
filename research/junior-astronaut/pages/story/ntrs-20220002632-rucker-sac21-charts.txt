@@ -1,0 +1,174 @@
+                                                           National Aeronautics and
+                                                               Space Administration
+
+
+
+
+                                           NASA’s Strategic Analysis
+                                             Cycle 2021 (SAC21)
+                                              Human Mars Architecture
+
+
+
+
+Michelle Rucker, NASA ESDMD Mars Architecture Team
+2022 IEEE Aerospace Conference, Big Sky
+March 7, 2022
+2022 IEEE Aerospace Conference, Paper 8.0108
+NASA’s Strategic Analysis Cycle 2021 (SAC21) Human Mars Architecture
+
+        Michelle A. Rucker                        Douglas A. Craig
+        NASA Johnson Space Center                 NASA Headquarters
+
+
+
+
+         Laura M. Burke                   Patrick R. Chai              Michael B. Chappell
+         NASA Glenn Research              NASA Langley Research        NASA Marshall Space
+         Center                           Center                       Flight Center
+
+
+
+         Bret G. Drake                    Stephen J. Edwards           Stephen Hoffman
+         Aerospace Corporation            NASA Marshall Space          Aerospace Corporation
+                                          Flight Center
+
+
+
+
+         Andrew C. McCrea                 Douglas J. Trent             Patrick A. Troutman
+         NASA Langley Research            NASA Marshall Space          NASA Langley Research
+         Center                           Flight Center                Center
+                                    2022 IEEE Aerospace Conference                             2
+                       Mars poses three
+                     unique problems for
+                      Human Spaceflight
+                             1. Distance
+
+                             2. Time Away from Earth
+                             3. Mars Entry, Descent,
+                                Landing – and Ascent
+
+                  NASA’s human Mars Architecture Team
+                   was challenged to further Explore #2
+2022 IEEE Aerospace Conference                            3
+Challenge Accepted:
+Explore Opposition Class Trade Space
+                               Long-Stay                       Short-Stay
+
+
+
+
+ Opposition-class missions are shorter duration—but require much more energy
+                                                                               4
+                              2022 IEEE Aerospace Conference
+High Energy Transits Require High Energy Transports
+Two nuclear-enabled options were assessed
+
+
+
+
+Analysis goal was to explore 2 year (730 day) round-trip missions. Relaxing transit duration cuts stack masses in
+                      half, which translates to fewer Earth-launched vehicle fueling flights
+                                                                                                                    5
+                                            2022 IEEE Aerospace Conference
+SAC21 Reference First Human Mars Mission Concept
+  WHO                                                               WHAT
+
+
+             Current analysis includes 4 crew
+              2 remain in Mars orbit while 2                                                                 Mars Ascent and
+                                                                         Nuclear           Landers and
+                 explore the Mars surface                                                                     Earth Return
+                                                                      Transportation     Surface Systems
+
+ WHERE                                          WHEN                                                 WHY
+
+
+
+  Cislunar, Deep Space                              2039         Crew away from        ~30 sols        Science, Exploration,
+                          Mars Surface           opportunity
+   and 5-sol Mars orbit                                          Earth ~2.5 years      on Mars         and U.S. leadership
+                                                  analyzed
+
+ HOW
+
+
+
+              1    Pre-Deployed Cargo Phase                          2    Crewed Surface Exploration Phase
+                                                                             “Light” Exploration Footprint
+                                                 2022 IEEE Aerospace Conference
+                                   SAC21 First Mars Reference Mission
+                   Reference architecture for analysis purposes only. Should not be considered “the plan”
+
+
+                                                      TRANSIT HABITAT (TH) AND HYBRID
+                                                      NUCLEAR ELECTRIC PROPULSION (NEP) /
+                                                      CHEMICAL STAGE
+                                                       • Supports four crew on the long mission to Mars
+                                                       • Two crew remain in orbit while two crew visit
+                                                         the Mars surface
+
+
+
+
+1   PRE-DEPLOYED CARGO
+    • 25-ton class payload Mars lander      2 PRE-DEPLOYED                                  3 CREW
+    • Ascent vehicle propellant, Fission      CREW ASCENT                                       • Two crew land/live in pressurized rover
+      Surface Power, and surface              VEHICLE                                           • Provides habitation and mobility for 30
+      mobility/propellant transfer system     • Partially-fueled                                  days
+                                                                                                • Supports science and exploration
+                                                                                                  operations
+                                                   2022 IEEE Aerospace Conference
+30-sol SAC21 Surface Mission Notional Timeline
+
+
+             Entry,
+           descent,                                                                                 Ascent       Ascent
+            landing;                                                                                vehicle      vehicle
+          connect to                                                                                 prep      launch and
+          power and                                                                                           transit to TH
+          crew adapt
+              time
+
+
+
+
+ This short-stay mission reference timeline was developed to anchor surface operations analysis, in particular to
+ understand how much time would be available for science and exploration after partitioning out anticipated crew
+         and equipment care allocations. Again, this timeline should not be misconstrued as “the plan.”
+
+                                             2022 IEEE Aerospace Conference                                                   8
+Click to Play
+
+
+
+
+                9
+                                Key Technical Risks Identified
+Transit propulsion system failures; transit habitat mass growth and integration with propulsion element;
+loss of habitable environment on Mars; ascent vehicle refueling on the martian surface; advanced EVA;
+    entry, descent and landing criticality; and long-duration spaceflight crew health and performance
+
+
+
+
+                                         2022 IEEE Aerospace Conference                                    10
+Conclusions
+• Shorter round-trip, “light” footprint Mars missions are
+  possible, but challenging
+• Reduces some risks: less time for equipment to break
+  or crew to develop health issues
+• But increases other risks, such as advanced technology
+  development, crew deep space exposure duration,
+  increased mission mass or launch cadence
+
+
+
+
+ Forward Work: SAC21 architecture will be used as a measuring
+ stick against which alternative approaches may be compared
+                                         2022 IEEE Aerospace Conference   11
+Questions?   12
+13
+

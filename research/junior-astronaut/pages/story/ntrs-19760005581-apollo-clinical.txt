@@ -1,0 +1,2220 @@
+                                                                                                                       N76                                12669
+
+                                                                            CHAPTER                           1
+
+                                           CLINICAL                 ASPECTS                        OF        CREW                HEALTH
+
+
+                                                                                              by
+
+                                                                 W. Royce                 Hawkins,                 M.D.
+                                                               John            F. Zieglschmid,                      M.D.
+
+                                                           Lyndon           B. Johnson                   Space         Center
+
+
+
+                                                                               Introduction
+
+        While            the        primary           goal     of     the        Apollo              Program            was        to     land       men       on         the     moon
+and      return           them          safely        to Earth,            there         were         other         very      important               medical         objectives.
+The      earlier          Mercury              and      Gemini           programs               bad        raised       some            concerns          about       the        health
+and      safety           of        future          crews.     For         example,                the      high       metabolic              energy          expenditure                of
+extravehicular                      activity          during        the        Gemini              missions             was        unexpected.                Before            Apollo
+astronauts               could             safely      explore           the      lunar            surface,           reliable          predictors           of     energy             cost
+and      real-time               monitoring                techniques             had         to     be developed.                  Physiological                 changes             were
+noted          in         individual                crewmen,               some           more              consistently                 than        others.          The             most
+important                 of          these          changes             was       in          cardiopulmonary                          status         demonstrated                      by
+decreased                exercise            capacity,         loss        of      red         blood           cell     mass,           and      cardiovascular                  decon-
+ditioning                demonstrated                   by     a      decrease                in      the         effectiveness               of      antigravity               cardio-
+vascular        responses                   during      postflight              stress         testing.
+        At     the        eIid        of     tile     Gemini        program,                  with       2000         man-hours               logged         in space,           it was
+clear        that        man         could          engage     in relatively                   long        space       flight       without            any        serious        threat
+to      health.            However,                  clarification              was       still          required           in      many            areas.         First        of      all,
+because             of     the         small         number         of      individuals                  who        flew      in space              and      because             of     the
+variability              of         their      responses,           it was         impossible                  to      distinguish              between            space-related
+physiological                       changes          and       individual             physiological                     variations.                Secondly,              for        those
+changes             which             were          directly        related              to        space          flight,        the      relatively              short         mission
+durations            precluded                 the     identification               of        trends.
+
+        In    view             of     the      foregoing            considerations,                        four       medical            objectives           were          specified
+for     the     Apollo               Program:
+
+        1.     Ensuring                crew         safety       from          a medical                 standpoint.               This objective                 required             that
+               every             effort         be      made          to       identify,              eliminate,              or        minimize             anything            which
+
+         _          osed        a potential             health        hazard             to     the        crew.
+
+
+
+
+                                                                                              43
+44                                                                   Biomedic',fl Results of Apollo
+
+
+
+       2.      Improving                  the          probability                   of      mission                success          by          ensuring            that        sufficient
+               medical            information                     was      available             for     management                      decisions.
+
+       3.      Preventing               back-contamination                                from         the         lunar      surface.
+
+       4.      Continuing                 to      further               the         understanding                     of     the      biomedical                  changes            incident
+               to         space         flight.             This         objective               was          formulated                   to      detect,          document,                  and
+               understand                 changes                occurring            during           space          flight.
+
+       The         program           to ensure               crew        safety           commenced                   long        before         the Apollo             Program              itself
+with         the      development                      and          implementation                       of         the      medical              selection             and      screening
+program             for     astronauts.                Apollo            astronauts               were             drawn          from          a pool         of individuals                who
+were         thoroughly                screened               to     preclude               any        physical              or     physiological                  problems             which
+would         jeopardize                either         the         mission           or the       astronaut                 candidate.              Later,         special       measures
+were         taken          to    further             protect            the        health        and         enhance              the      safety         of      those       astronauts
+chosen         for         specific        Apollo                missions.            These         included                preflight            medical            examinations,                     a
+health        stabilization                program,                  drug       sensitivity               testing            of     astronauts              for      all medications
+aboard        the         spacecraft,            and other              measures.
+
+       The          preflight           medical              program                was       designed                to     preclude,             as      far     as    possible,             the
+development                  of     any        clinical            medical           problems                 during          space         flight.        Since        no     preventive
+medicine             program,            however                 carefully           conceived,                can ever guarantee                        the      absence           of illness
+or disease,               medications                 were         carried          onboard            the         Apollo          spacecraft.             The       contents           of the
+medical             kit     were        revised             as      need       indicated               throughout                  the      Apollo             Program.             Onboard
+bioinstrumentation                         was          provided               to         monitor             vital         signs        for       rapid          diagnosis            of      any
+physiological                difficulty           in a crewmember                           and        to provide             medical             information                required           for
+mission            management.                   Additional                  information                 was         transmitted                 via voice          communication
+between             the      crew        and          the     ground-based                    flight          surgeons.             During          extravehicular                   activity,
+methods              were         added          to         provide           metabolic                rate        assessment.              In      addition            to     heart         rate,
+oxygen             consumption                   was         monitored                along        with            inlet/outlet             temperature                  of     the         liquid
+cooled        garment             worn         by the crewmen.
+
+       Opportunities                     for      inflight              medical             investigations                    were          severely             restricted            on      the
+Apollo         missions            because             of conflict             with         the principal                  operational              objectives.              Furtherance
+of     the    understanding                      of     the        effects          of space            flight         on human                 physiological                 functioning
+had      to rely            almost         exclusively                  on     comparison                     of     preflight           and       postflight            observations.
+These        were          carefully           selected             to focus              attention            on the         areas        which         appeared             most          likely
+to be        affected,            for      example,                 cardiovascular                 function.                Other          areas        were       also investigated
+for unforeseen                   changes          and        corroborative                   information.
+
+       The          sections            which           follow             describe            medical                procedures                 and       findings           for      Apollo
+astronauts            in the preflight,                     inflight,          and postflight                      phases         of the Apollo                  missions.
+
+
+                                                       Preflight               Procedures                     and Findings
+
+       The         procedures               implemented                        in     the     preflight               period         for        Apollo            missions          had        five
+major objectives.                   These         were:
+
+        1.     The         discovery             of latent              illnesses          during         the procc_                  of selection                of astronauts                and
+               preparation                for missions.
+                                     Clinical Aspects of Crew Health                                           45
+
+
+    2.    The implementation         of the health    stabilization      program      and other     preventive
+          measures.
+
+    3.    Determination       of individual   drug    sensitivity     to the    contents     of    the    Apollo
+          medical kits.
+
+    4.    Providing baseline data against       which      to compare       postflight     data for determi-
+          nation of space flight effects.
+
+    5.    Prevention      of any situations   which      might      delay   or otherwise      interfere      with
+          operational     aspects of the missions.
+
+     The procedures   performed     in the preflight period ensured improved performance
+of flight tasks and, with rare exceptions,       prevented  the outbreak  of illness inflight.
+This outcome     was, in part, the result of medical screening and selection        programs
+designed   to provide    physically    competent     crews. Observation  and semi-isolation
+programs      also helped to detect latent      ailments which might have produced     frank
+symptoms       during flight. Finally,  a training course was presented  to astronauts     to
+acquaint     them with      stresses of space flight and their effects upon    the human
+organism.
+
+
+Medical     Screening/Examinations
+     Preventive health care in a population     which has been chosen for a particular job
+begins with the medical     selection    of that population.  Rigorous astronaut   selection
+standards were established   to identify:
+
+     1. Individuals   who     were   physically       capable    of performing  astronaut       duties;
+specifically   those possessing the necessary         physical and psychomotor     capabilities     and
+not subject to incapacitating      physiological       disturbances  when exposed to the various
+stresses of space flight.
+
+    2. Individuals who were free of underlying                physical      defects   or disease     processes
+which could shorten their useful flight careers.
+     Apollo astronauts     were initially medically screened by techniques which varied only
+in minor degree from those applied to the first seven Mercury astronauts. The standards
+used closely     approximated        U.S. Air Force Flying Class I Standards,    except   in the
+selection of scientist-astronauts     where visual standards were relaxed to qualify a sufficient
+number of candidates.       These examinations    were performed at the U. S. Air Force School
+of Aerospace Medicine, with final review and medical acceptance of candidates by the
+NASA Lyndon B. Johnson Space Center medical staff. Listed below are the components
+of the examination     used for medical selection.
+
+     1. Medical history       and review of systems.
+     2. Physical examination.
+      3. Electrocardiographic     examinations, including routine electrocardiographic                    studies
+at rest, during hypervcntilation,     carotid massage, and breath holding, a double                       Master
+exercise tolerance test, a cold pressor test, and a precordial map.
+46                                             Biomedical
+                                                     Results
+                                                          of Apollo
+
+
+      4. Treadmill       exercise    tolerance      test.
+
+      5. Vectorcardiographic            study.
+      6. Phonocardiographic             study.
+      7. Tilt table studies.
+
+      8. Pulmonary        function      studies.
+      9. Radiographic    studies, including cholecystograms,                   upper     GI series,   lumbosacral
+spine, chest, cervical spine, and skull films.
+     10. Body composition             study, using tritium     dilution.
+     11. Laboratory     examinations, including   complete   hematology    workup, urinalysis,
+serologic test, glucose tolerance test, acid alkaline phosphatase,   BUN, sodium, potassium,
+bicarbonate,   chloride, calcium, phosphorus,    magnesium,    uric acid, bilirubin (direct and
+indirect),  thymol   turbidity, cephalin flocculation,     SGOT, SGPT, total protein       with
+albumin and globulin, separate determinations      of Alpha 1 and Alpha 2, Beta and Gamma
+globulins, protein bound iodine, creatinine,    cholesterol,  total lipids and phospholipids,
+hydroxyproline,    and RBC intracellular   sodium and potassium.        Stool specimens were
+examined for occult blood, and microscopically      for ova and parasites. A urine culture for
+bacterial growth was done,              and a 24-hour       specimen    analyzed   for    17-ketosteroids      and
+17-hydroxycorticosteroids.
+     12. Detailed       examination       of the sinuses, larynx,      and Eustachian     tubes.
+     13. Vestibular       studies.
+
+     14. Diagnostic       hearing     tests.
+     15. Visual fields and special eye examinations.
+     16. General surgical evaluation.
+     17. Procto-sigmoidoscopy.
+     18. Dental examination.
+
+     19. Neurological       examination.
+     20. Psychologic   summary,     including   Wechsler Adult Intelligence    Test, Bender
+Visual-Motor   Gestalt Test, Rorschach    Test, Thematic Apperception   Test, Draw-A-Person
+Test, Gordon Personal Profile, Edwards' Personal Preference Schedule, Miller Analogies
+Test, and Performance   Testing.
+     22.   Electroencephalographic               studies.
+     23.   Centrifuge     testing.
+     The preflight    medical examinations       for Apollo crewmembers     included   detailed
+physical examinations   and special studies. The physical examinations    commenced    30 days
+prior to launch and ended on the day of lift-off. The special studies involved collection of
+baseline data for comparison with postflight findings. The areas of particular interest were
+microbiology,   immuno-hematology,       clinical chemistry,  and cardiopulmonary    function.
+Baseline data collection in each of these areas, of course, had bearing on crew health, but
+was additionally obtained in order to answer the following critical questions:
+     1.    Did a change take place in a particular            dependent     variable?
+                                      Clinical Aspects of Crew Health                                                   47
+
+
+    2.   Was the change significantly          different    from that occurring           in a control    group?
+    3.   What was the extent        of the change?
+    4.   What was the time course           of the observed       change?
+    5.   Was it possible     to provide     causal interpretations?
+
+    The following sections provide            details   concerning        the preflight    physical      examinations
+and special baseline studies.
+
+    Physical Examinations.    The physical examinations    of Apollo crewmembers     were
+intended to document the crewmenbers' physical qualifications for the mission, to detect
+any medical problems which might require remedial or preventive intervention,      and to
+provide baseline data for postflight comparison. Physical examinations were conducted in
+the following manner:
+
+    1. Preliminary examination     at F-30 days. At this time, interval history,                            vital signs,
+and a general physical examination    were conducted.
+
+     2. Interim examination at F-15 days. General physical examination,                            dental examina-
+tion, and monitoring of vital signs were accomplished.
+
+    The preliminary     and interim examinations              included     the following procedures:
+
+    •    An interval    history and detailed review of systems,                   vital signs - to include         oral
+         temperature,    blood pressure, and pulse rate.
+
+    •    ENT examination     to include visual inspection of the external    ears, auditory
+         canals, and tympanic membranes,    the nose and nasal passages, transillumination
+         of the frontal and maxillary sinuses, and visual inspection of the anterior and
+         posterior middle pharynx.
+
+    •    Examination    of the eyes to include visual inspection and palpation     of the lids and
+         lacrimal apparatus,    visual inspection    of the conjunctiva, sclera, and cornea, and
+         ophthalmoscopic     examination    of the lens, media, and fundus.
+
+    •    Examination       of the heart to include         palpation,     percussion,     and auscultation.
+    •    Examination       of the lungs to include         palpation,     percussion,     and auscultation.
+
+    •    Examination       of the abdomen        to include      palpation,      percussion,     and auscultation.
+
+    •    Examination       of the genitalia     and anal regions.
+    •    Examination       of the extremities      for recent trauma          or limitation of function.
+
+    • " Neurological  examination  to include a brief examination                       of the cranial nerves and
+        motor, sensory and proprioceptive   modalities.
+
+         Skin, visual inspection.
+
+         Lymph nodes,       by palpation.
+
+         Dental examination        (interim     examination      only).
+
+     3. Comprehensive    examination     at F-5 days.                     The    comprehensive           examination
+consisted of the procedures   on the following page.
+48                                        Biomedical
+                                                Results of Apollo
+
+
+   •     Interval history, vital signs, including              height,   weight, oral temperature,            pulse rate,
+         and blood pressure.
+   •     ENT Examination:
+
+         a.   Ears: Visual inspection  of external ears,                       auditory        canals   and       tympanic
+              membranes, screening Rudmose audiometry.
+         b.   Nose:      Visual    inspection,        sinus    transillumination,         if    indicated     by      recent
+              history.
+         c.   Throat:    Direct    examination        of middle pharynx.
+
+         d.   Eyes: Same as for preliminary       examination,                    plus distant and near                visual
+              acuity, near-point of accommodation,    phorias,                  and visual fields.
+
+   •     Heart:   Palpation,      percussion,     and auscultation,        plus standard        twelve-lead       EKG.
+
+   •     Lungs: Palpation,        percussion,     and auscultation,        plus PA chest film.
+   •     Abdomen:        Palpation,     percussion,     and auscultation,       plus abdominal          scout film.
+
+   •     Genitalia    and anus: Inspection,           plus digital rectal examination.
+
+   •     Extremities:      Examination         for recent     trauma,    range of function.
+
+   •     Neurological   examination:              Detailed       examination        of    cranial       nerves,       motor,
+         sensory, and proprioceptive             modalities.
+
+     •   Skin: Visual inspection,          plus photographs         of any areas of significant           interest.
+
+    4. Cursory       examination    - F4 to F-O days. Brief physical examinations                            and histories
+were conducted        in the last four days before flight. These included recording                         of vital signs,
+oral temperature,   pulse, blood pressure, weight, plus a brief examination of the ears, nose,
+throat, heart, and lungs. Other signs and systems were examined as indicated            by the
+medical history.
+      The scheduled    physical  examinations   varied slightly with mission requirements.
+However, these had to commence not earlier than 30 and not later than 21 days prior to
+lift-off in order to provide sufficient time to diagnose and treat any illnesses of recent
+onset. Some of the significant medical findings that occurred during the 30-day preflight
+period are listed in table 1. The comprehensive   examination   performed five days prior to
+launch was intended to accurately   document    the physical status of each crewmember     at
+the outset of the mission. The final examination       prior to flight involved last minute
+recordings of critical parameters   to provide the most reliable basis that could be obtained
+for postflight comparisons.
+    The following paragraphs      provide some detail on various aspects of the physical
+examination.
+
+
+     Dental   Examinations.           Dental     care was provided          as a regular part           of the ongoing
+health care program    of astronauts.   However, special measures were taken prior to
+missions to preclude, wherever possible, dental problems during flight. All crewmen were
+evaluated at or about F-15. Because of the relatively short duration of the Apollo flights,
+emphasis was placed on general observation rather than definitive quantitative research.
+                                         Clinical     Aspects    of Crew    Health                             49
+
+
+
+
+                                                          Table       l
+
+              Preflight           Medical Findings                in Apollo     Mission Crews
+
+                                   Diagnosis                                         Number   of Occurrences
+
+
+ Pressure suit abrasions                                                                        2
+
+ Blister,     left toe                                                                          1
+
+ Pressure suit callouses,                  scapulae      and iliac crests                       1
+
+ Carious         lesion,      mesial                                                            1
+
+Cellulitis        of the hand secondary                  to laceration                          1
+
+Conjunctival               injection                                                            3
+ Dermatitis                                                                                     3
+ Dermatophytosis,                 feet                                                          2
+
+ Folliculitis,        abdomen                                                                   1
+ Furunculosis                                                                                   2
+
+Gastroenteritis                                                                                 7
+
+Gingival         burn                                                                           1
+
+Rematomas,               secondary         to trauma                                            3
+
+Inflammation,                medial       canthus,      right   eye                             1
+
+Influenza          syndrome                                                                     3
+
+Keratosic          plaque                                                                       1
+
+Traumatic            lesion     of the right         buccal     mucosa                          1
+
+Viral     lesion      of the buccal           mucosa                                            1
+
+Viral     lymphoid            hyperplasia           of the postpharynx                          3
+
+Pyuria                                                                                          4
+
+Papules/pustules                                                                                5
+
+Paronychia                                                                                      1
+
+Viral     pharyngitis                                                                           3
+
+Pulpitis,        tooth       No. 31                                                             1
+
+Prostatitis                                                                                     1
+
+minea crura                                                                                     1
+
+          pedis                                                                                 1
+
+Viral     tympanic            membrane          infection                                       1
+
+Seborrhea                                                                                       2
+
+Viral     rhinitis                                                                              3
+
+Ringworm,             arm                                                                       1
+
+Beta-hemolytic                pharyngitis                                                       1
+
+Sunburn,          face and torso                                                               2
+
+Ulcer,      aphthous                                                                           2
+
+Urinary       tract        infection                                                           8
+50                                 Biomedical Results of Apollo
+
+
+Again, because mission duration was short, no special inflight dental treatment capability
+was provided for Apollo. It was felt that the risk of a problem occurring was slight and,
+when weighed against limitations of weight, space, and training time, providing an inflight
+treatment    capability was not indicated. Analgesic and antibiotic drugs were provided for
+symptomatic      treatment     of any dental problems.     As a further precaution,    restorative
+dental treatment       was avoided in the three-month     period prior to launch. The object of
+this measure was to minimize the possibility of barodontalgia,        a sudden, severe toothache
+which can occur when barometric            pressure is reduced as a result of expansion      of air
+entrapped    in a dental restoration.    When a dental problem arose in the three-month     period
+prior to flight and a restoration          became necessary,    the astronaut   in question     was
+subjected to reduced barometric pressure to ascertain the condition of the tooth.
+     Dental problems       that occurred     among crewmembers      during the Apollo Program
+resulted in no appreciable       mission impact. During the 90-day preflight period, five of the
+thirty-three   Apollo crewmen had dental problems requiring treatment. One preflight and
+one postflight      occurrence   of pulpitis    could have caused significant      crewmember
+impairment    if the pulpitis had occurred during a flight. Pulpitis, an inflammation    of the
+dental pulp, causes severe pain that usually can be stopped only by root-canal therapy,
+performed    by a skilled dentist in a fully equipped          dental suite, or by extraction.
+Prediction  of such occurrences    is virtually impossible, although the preventive treatment
+of known causative factors can lower the risk of occurrence.          The only other preflight
+problems    were minor fractures of previously           placed restorations   or minor fractures of
+part of a crown of a tooth.              Inflight,  no problems     were experienced.      No case of
+barodontaigia     ever occurred,     although some astronauts had experienced         this discomfort
+during their flying careers.
+     Experience    with Apollo astronauts in an intensive preventive dentistry program led to
+the conclusion      that the probability        of a disabling dental emergency in the astronaut
+population     is one occurrence      in 9000 man-days. The probability        of dental problems of
+lesser severity, but associated with significant discomfort,         is one in 1500 man-days. These
+figures are comparable      to those recorded for Navy personnel on long submarine patrols.
+From these estimations,       it is obvious that a provision for emergency inflight dental care
+must be made only for very long-duration           missions.
+
+     Visual Function Testing. Visual function      testing was a part of the pre- and postflight
+physical examination   of Apollo astronauts.      Ten visual parameters were tested during the
+Apollo Program:
+     •   Unaided visual acuity, 7 m (20 ft)
+     •   Amplitude of accommodation
+     •   Near point of convergence
+     •   Fusional amplitudes, base-in and base-out
+     •   Horizontal phorias, 7 m and 33 cm (20 ft and 13 in.)
+     •   Refraction
+     •   Intraocular tension
+     •   Color perception
+     •   Depth perception
+     •   Visual fields
+                                                             Clinical Aspects of Crew Health                                                                                      51
+
+
+
+       One       of the           major       considerations                in flight        was          the amount             of harmful            ultraviolet           (UV)
+radiation           to which            the     crewmen             would         be subjected                   during       extravehicular               activity.         Prior
+to Apollo            missions,            the    UV threshold                 of the eye                  was unknown.                Over a three-year                 period,
+NASA-sponsored                       research           determined                these         levels.          The       problem        was,         however,          subse-
+quently          resolved            with        the      development                  and          use     of     Lexan         in the         extravehicular               visor
+assembly,                since      Lexan         was       opaque           to        UV       radiation.             A minimum                  of      2000      hours         of
+exposure            would   be required to produce    a corneal   "burn"                                               through this plastic.
+     Table          2 gives the data ascertained   for ocular   thresholds                                               to UV radiation.
+
+
+
+                                                                                  Table         2
+
+                                           Ocular         Thresholds              for Ultaviolet                 Radiation
+
+
+                         Waveband                      Solar Flux                                Relative                       Effective Flux
+                           (nm)                    (J/cm2/sec X 10 -4)                          Effectivity                   (J/cm2/sec X 10 -4)
+
+                         215 -- 225                          0.2644                                   0.40                             0.1058
+                         225-      235                       0.5288                                   0.31                             0.1639
+                         235 -- 245                          0.5288                                   0.53                             0.2803
+                         245 -- 255                          0.6610                                   0.50                             0.3305
+                         255 -- 265                          1.4542                                   0.53                             0.7707
+                         265 -- 275                          2.1152                                   1.00                             2.1152
+                         275 -- 285                          2.5118                                   0.68                             1.7080
+                         285 -- 295                          4.7592                                   0.57                             2.7127
+                         295 -- 305                          5.9490                                   0.57                             3.3909
+                         305 -- 315                          7.1388                                   0.29                             2.0703
+
+                    Total ultraviolet effective flux                                        13.6483 X 10"4j/cm2/sec
+                    Ocular burn threshold for ultraviolet                              :    40 X 10"4W/cm 2
+                    Ultraviolet band threshold time                                         2.93 seconds
+
+
+
+
+       The     harmful             effects       of UV radiation                   extend            over        an area      slightly         greater      than       the 215
+to     315    nanometer                 range       noted           above;        however,                 the     relative         effectivity            outside          these
+extremes            is     very     low.        Summating              these        slight          effects        into       the     flux       listed      above       could
+possibly lower                the total UV band                      threshold              time          to about         two       and one-half            seconds          in a
+Zero Air Mass                environment.
+
+
+       Special            Studiex          A number             of     special             preflight             examinations             were           conducted            and
+measurements                     made      to provide          a baseline              against            which        to compare            postflight           findings      in
+the         areas          of       microbiology,                    immuno-hematology                                 and          clinical        chemistry,                and
+cardiopulmonary                     function.             Details      of     each         of       these        studies       are provided                in the related
+chapters         in Section               III of       this book.            The preflight                  examination               procedures             required          for
+each      are discussed             only        briefly      here.
+       In    order          to     study        any       microflora              alterations               which          could      have       occurred            in space
+flight,       preflight             samples            were         taken         to       catalog           the       microorganisms                     found        on      the
+crewmembers                  and their          clothing,       and on spacecraft                          surfaces.         Samples           collected      for culture
+52                                   Biomedical Results of Apollo
+
+
+included swabs of various parts of the body, throat gargle, and urine and fecal samples.
+These were collected on four occasions in the month prior to flight. Blood samples were
+also collected on three occasions in this same time frame.
+     Baseline data were obtained    on the cellular elements of the blood, the chemical
+constituents     of the blood and urine, and the humoral and cellular factors involved in
+immunity.      The hematological   and chemical measurements      of various blood constituents
+were one portion         of comprehensive    examinations   designed to disclose the state of
+well-being or the presence of occult disease in the crews. Blood analyses furnished data
+which, when integrated        with facts obtained   from histories and physical examinations,
+permitted     an objective assessment of the physical status of the astronauts and allowed for
+remedial     action if required.   However,     no values outside of the normal range were
+observed.
+     Biochemical       and hematological           baseline   information     was obtained,    in part to
+quantitate     the effect of the stresses inherent in space flight, and in part to aid medical
+personnel in medical management               of crews in the postflight period.
+     Cardiopulmonary           evaluations     and findings are discussed at length in Section III,
+Chapter4       Apollo      Flight Crew, Cardiovascular           Evaluations,    and Chapter 5, Exercise
+Response. Preflight orthostatic           tolerance tests and exercise response tests were performed
+to provide baseline information            to facilitate assessment of space flight effects.
+     Cardiopulmonary          data were obtained          to develop heart rate versus metabolic rate
+calibration      curves that would be used for estimating                 real-time  work output during
+extra'.,ehicular    activity. Utilization       of Douglas bags, a Tissot spirometer,       and an oxygen
+consumption     computer        or metabolic         rate     meter    also made       determination      of
+cardiopulmonary       efficiency     possible.     Evaluation        of cardiopulmonary         data     was
+accomplished     by     observing      how     the    dependent        variables-workload,           oxygen
+consumption,    blood pressure response,           respiratory      response,    and EKG-      changed in
+response to the independent       variable, heart rate.
+     The extent     of cardiovascular        system       "deconditioning"        was assessed     also by
+comparison with preflight baseline responses to the application of negative pressure to the
+lower half of the body by means of the lower body negative pressure (LBNP) device.
+Preflight evaluations were made at least three times in the month preceding flight. The
+test procedures involved five minutes with the subject at supine rest in the LBNP device, a
+total    of fifteen  minutes  at negative   pressures  ranging   from    -40x 102N/m 2 to
+-67 x 102N/m 2 (-30 to -50mm Hg), and five minutes of recovery.            Because missions
+involving postflight quarantine      could not accommodate      the size of the LBNP device in
+the Mobile Quarantine      Facility, a static stand-type   of orthostatic  tolerance testing was
+substituted.  This involved obtaining five minutes of electrocardiographic         data while the
+crewman was standing still with his back to the wall and his feet apart. Test conditions
+were controlled    and standardized    to exclude unnecessary variables such as environmental
+temperature,    time of day, food intake,      physical   exertion,   or venipuncture.
+
+Health Stabilization
+
+    The problem of communicable        disease exposure prior to flight, with subsequent
+development   of symptoms    in flight, was recognized   as a potential  hazard from the
+beginning of the United States space program. Total isolation of flight crews for a period
+                                                                Clinical Aspects of Crew Health                                                                                  53
+
+
+
+ of    time     prior      to    launch               offered         indisputable             advantages            but        was initially              thought          to be
+ infeasible       because          of the             operational            difficulties           involved.             Flight         crews        were       required         to
+ be in contact            with         large      number_              of people          and       to move              from      place       to     place        during      the
+last    few weeks          of their            training         in preparation               for a space            flight.
+       When       clinical       illnesses             impacted           preflight          mission            operations             during        Apollo         9 and      13,
+ it    became           apparent               that      some           type      of      preflight             health          stabilization               program            was
+imperative.         Prior        to Apollo               14,     57 percent            of the Apollo                 crewmembers                    experienced             some
+illness       of varying        degrees           of severity            at some         time       during         the     21 days           before        launch.       Based
+on     observations              of       the         first     several         flights        and         on      the     observation                of     crewmember
+activities        during        earlier          manned              Mercury           and     Gemini            missions,             the    Flight            Crew    Health
+Stabilization             Program              was       developed             and      implemented                  for        the Apollo             14 mission              and
+subsequent              missions.          Such           a program,              rigorously               enforced,             can      result          in a significant
+reduction          of      infectious                  disease          hazard,         although             the         hazard          cannot            be     eliminated
+completely.
+       Table      3 lists the           illness        events        in Apollo          crewmen             and shows              the dramatic                 reduction         in
+illness      following          the implementation                        of the       health           stabilization           program.
+
+
+                                                                                  Table        3
+
+                           Effect         of Flight             Crew      Health        Stabilization               Program            (FCHSP)
+                                on the           Occurrence               of Illness         in Prime           Apollo          Crewmen
+
+
+
+               Mission                                          Illness                                   Crewmen                                Mission
+                                   I                                                                     Number
+                                                                                                          Involvedof                              Phase
+
+                                                              Before Implementation                     of FCHSP
+
+              Apollo       7              Upper respiratory infection                                                                   Preflight, inflight
+                           8              Viral gastroenteritis                                                                         Preflight, inflight
+                           9              Upper respiratory infection                                                                   Preflight
+                         10               Upper respiratory                  infection                                                  Preflgiht
+                         11               None
+                         12               Skin infection                                                                                 Inflight
+                         13               Rubella infection                                                                             Preflight
+
+                                                               After Implementation of FCHSP
+
+              Apollo 14
+                         15                                                                                                                           m
+
+
+                         16                                       m
+
+
+
+                         17               Skin infection                                                                                Preflight
+
+
+
+Drug Sensitivity               Testing
+
+       Drug       sensitivity              testing             was       performed                 to      determine               the        response             of    flight
+crewmembers               to each              item      in the         medical          kit       to     preclude          allergic         reactions            and    other
+undesirable         side        effects         in flight.            Each     Apollo          crewmember                   was tested              under         controlled
+54                                   Biomedical Results of Apollo
+
+
+conditions to determine his response to medical kit items carried onboard the spacecraft.
+(The medical kit is described   later in this chapter in the section concerning   Inflight
+Procedures and Findings.) After a medical history was obtained by a physician regarding
+the experience     of each crewmember      with each medication    under test, and it had been
+determined    that (1) no adverse reaction had been experienced,         and (2) there was no
+evidence of impaired health at the time of testing, the medication was administered        to the
+astronaut. The crewmember        was observed by the physician for an appropriate      period of
+time following administration       of the medication     and was queried about subjective
+responses. If positive subjective findings were reported, the test was either repeated with a
+double-blind    placebo method,     or an appropriate    drug was substituted    for which no
+undesirable  side effects had been reported. Individuals      were additionally  tested for any
+allergic reaction to the electrode paste.
+     Table 4 indicates   the drug administration  and                observation    constraints   applied.   All
+medications used were treated in a similar fashion.
+
+Medical Training
+    To perform their inflight tasks optimally, Apollo crewmen required an understanding
+of the interaction  of space flight stresses and their effects on the human organism,
+including the manner in which the body adapts to space flight factors. Further, these
+crewmen had to recognize any abnormalities      in their health status and understand  the
+therapeutic   measures which might have been prescribed    for inflight problems. Medical
+training began shortly after astronaut selection with a series of lectures concerned   with
+space flight physiology and therapeutics.  The curriculum encompassed     about 16 hours of
+didactic instruction   provided by experts in each area. The principal elements were as
+follows:
+
+     Cardiorascular     System.    Brief   outline     of    anatomy        and    physiology,    methods     of
+observing     and   monitoring    cardiac   activity,            system       response    to acceleration,
+weightlessness,   work and other stresses, functional            testing,    such as tilt table, lower body
+negative pressure, bicycle and treadmill systems.
+
+    Pulmonary System.    Brief outline of anatomy and physiology,  pulmonary    function,
+gas exchange, problems related to hypo- and hyperbaric environments, physiologic limits
+of spacecraft  atmospheres, contemplated    atmospheres for future vehicles, respiratory
+response to acceleration, weightlessness  and work, physical conditioning    and testing,
+respiratory capacity.
+
+     Hematology       and   Laboratory     Medicine.        Review     of   Mercury    and Gemini      findings
+involving blood elements and chemistries,   review of programs scheduled for Apollo                          and
+Skylab Programs, illustration   of the need to establish good baseline data, controls,                       and
+possible expansion of the present program.
+
+
+     The Role of Psychiatry    in Crew Selection.    Crew and dependents support, personal
+considerations   of long term confinement,      group dynamics, and responses to various
+stresses encountered in flight and on the ground.
+                                   Clinical       Aspects         of     Crew      Health                                        55
+
+
+
+
+                                                      Table 4
+
+                              Typical Pharmacological  Agent
+                        Administration and Observation Constraints
+
+
+                                                                   Frequency of
+                              Route of
+           !tem                                                     Observation                     Constraints
+                           Administration
+                                                                       by Physician
+
+Meperidine     HCI        I.M.   1/4 dose                   0-15 min; 2nd hour;              No flying,    driving,     or
+ (Demerol)                (25 mg)                           4th hour                         other hazardous      pursuit
+                                                                                             for 8 hours
+
+Hyoscine                  0.3 mg                            1 hour and 4 hours               Not within     4-6   hours of
+and D-amphetamine         (Hyoscine)        and             or immediately             on    planned sleep
+sulfate   (Dexedrine)     Oral 5.0 mg                       development           of
+                          (Dexedrine)                       any reaction
+
+Propoxyphene              Oral                              One time within             4    No flying or driving
+HCI (Darvon)              (65 mg)                           hours or immediate-              within 6 hours
+                                                            ly on development
+                                                            of any reaction
+
+Acetylsalicylic           Oral                              One time within             4    None
+acid (ASA)                (300 mg)                          hours or immediate-
+                                                            ly on development
+                                                            of any reaction
+
+Tetracycline              Oral                              Within       4 hours             Not within     24 hours of
+                          (250 mg)                          or immediately                   stool collection     for
+                                                            on development              of   microbiology
+                                                            any reaction
+
+Diphenoxylate             Oral                              One time within                  None
+HCI with atropine         (0.025     rag)                   4-8    hours or im-
+sulfate (Lomotil)                                           mediately          on de-
+                                                            velopment           of any
+                                                            reaction
+
+D-amphetamine             Oral                              2nd hour,          4th hour      Not within     4 to 6
+sulfate                   (5 rag)                           or immediately             on    hnurs of plann_l         sl_eep,-
+(Dexedrine)                                              development              of         Heart rate to be
+                                                        ' any reaction                       recorded
+
+Skin cream                Topical                           Within       4-6    hours        None
+                                                            or immediately
+                                                            on development
+                                                            of any reaction
+
+Methylcellulose           Topical                           On application                   None
+eye drops
+
+Polymycin                 Topical                           On application                   None
+B-bacitracin-neomycin
+sulfate (Neosporin)
+ointment)
+56                                                                  Biomedical                   Results        of Apollo
+
+
+
+
+                                                                           Table               4 (Continued)
+
+                                                                Typical          Pharmacological                        Agent
+                                             Administration                          and         Observation              Constraints
+
+
+
+                                                                                                        Frequency of
+                                                             Route         of
+                   Item                                                                                  Observation                                      Constraints
+                                                      Administration
+                                                                                                         by Physician
+
+      N-benzhydryl-                                 Oral                                          Within        4 hours or                    No flying,              driving,     etc.
+      N-methylpiperazine                            (50 mg)                                       immediately             on                  for 8 hours
+      monoHCI or lactate                                                                          development              of
+      (Marezine)                                                                                  any reaction
+
+      Proparecaine                                  Topical                                       On application                              None
+      HCI (Opthaine)
+
+      Simethicone                                   Oral                                         Within         4 hours                       None
+      (Mylicon)
+
+      Oxymetazoline                                 Topical                                       (1)    On application                       None
+      HCI (Afrin)                                                                                 (2)    8-12 hours or
+                                                                                                  immediately           on de-
+                                                                                                 velopment           of any
+                                                                                                 reaction
+
+      Electrode            paste                    TOpical                                       At 48 and 72 hours                          None
+                                                                                                  following
+                                                                                                  application
+
+      Ampicillin                                    Oral                                          0-15 min; within 4                          Not    within            24 hours
+                                                    (250 mg)                                      hours or immediate-                         of stool collection
+                                                                                                  ly on development                           for microbiology
+                                                                                                  of any reaction
+
+      Triprolidine           HCI                    Oral                                          One time within                4            No flying driving,                  etc.
+      and pseudo-                                   (60 mg)                                       hours or immediate-                         for 8 hours
+      ephedrine HCI                                                                               ly on development
+      (Actifed)                                                                                   of any reaction
+
+
+
+
+      Description                o[    Vestibular                 System.                  Its       function        and         equilibrium,                 and       testing          thereof,
+
+response         of        the     vestibular               system              to        acceleration,              weightlessness,                      flight         experiments                 in
+
+Gemini,         and        planning           for        Apollo           and        Skylab             Programs.
+
+
+       Visual         System.            Brief            description                     of     anatomy            and         physiology,              relationships                to     other
+
+sensory         organs,            effects           of         acceleration                     and        weightlessness                 on       eye         and       visual          system,
+
+problems              in     space,          such          as     light,         ultraviolet                  trauma,             high        closing           speeds,           and       depth
+
+perception            without           reference                points.
+
+      Refresher              courses              were      required                 of        each      astronaut              every      three         years          in the       technical
+
+and    practical            aspects          of     altitude         physiology                       and     the    medical             aspects         of     survival.
+      Before          each         mission,           a detailed                medical               briefing       was         provided           by        staff     members             of      the
+
+Johnson          Space             Center           approximately                              one      month           before            launch.             The       purpose            of       the
+
+briefing        was        as follows:
+                                       Clinical Aspects of Crew Health                                         57
+
+
+     1.   To acquaint the crewmembers              with the pre- and postflight        medical   procedures
+          planned for their mission.
+    2.    To discuss with the crew preventive medicine measures (related                   to diet, potential
+          sources of infection, and physical conditioning) recommended                      for their health
+          and comfort.
+    3.    To acquaint      the crew with the Apollo medical kit and its uses.
+    4.    To review     with the crew the flight food and hygienic              supplies selected       for their
+          flight.
+    5.    To demonstrate       the configuration    and operation      of the biomedical     harness.
+    6.    To achieve final coordination       of procedures       for logging or communicating          medical
+          data during flight.
+    7.    To familiarize     the crew with toxicological      considerations.
+
+The Astronaut     Health     Care Program
+    Once selected, retention  of space crewmen on flying status assumes great importance
+for a number of reasons, not the least of which is the cost of training such individuals.
+Consequently,   comprehensive   health care is provided all astronauts and their families
+through    a preventive,  diagnostic,  and therapeutic   program managed by the National
+Aeronautics     and Space Administration,       with aid from many civilian and military
+consultants.    Care of families by the same physicians      rendering care to the astronauts
+provides an understanding     of the total milieu in which the astronaut lives and functions.
+     Astronauts   must report any and all illnesses and injuries for evaluation and treatment.
+Once yearly, during the month           of their birth, a thorough      physical examination   is
+performed,   whether or not an astronaut remains on active duty status. Preventive dental
+care is also rendered.   All patients are seen by a dentist at least once every six months and
+their conditions    evaluated at that time. Emphasis is placed on a home care program.
+During these periodic examinations,      care is taken to minimize ionizing radiation exposure
+during the use of diagnostic X-rays. Astronauts       represent a unique population.  They have
+been exposed to some environmental          factors never before experienced by man and to
+others to which men have been exposed, but not in the same combination                        or sequence.
+As such, the astronaut        population  represents the opportunity           for a unique longitudinal
+,t,;dy which    _hallld yi,Ad  invnhlzhl_ infnrm_ficm     far a_l_ctic_n   ,_f f,,htr_ _n_c_, flight cr-,_s.
+
+      Listed in tables 5 through 11 are examples of significant medical problems detected
+during the annual physical examination.              These tables serve to highlight the types of
+medical findings contained in the past histories of the astronaut crews. The findings are
+invaluable    to the mission flight surgeon as background                information     in the real-time
+assessment of inflight medical problems and in pinpointing                potential problems that may
+arise. It is vital that all inflight signs and symptoms be evaluated in the context of past
+medical findings such as are enumerated in these tables.
+
+
+                                 Inflight   Procedures      and     Findings
+
+     During   the inflight   phase of Apollo    missions, medical care was limited      to
+long-distance   biotelemetry  monitoring, diagnosis, and treatment with the appropriate
+onboard drugs. This treatment was carried out by the space crewmen themselves under
+58                                   Biomedical         Results      of Apollo
+
+
+
+the direction   of ground-based    flight surgeons. The weightless    flight phase of Apollo
+missions was characterized    by certain transient adaptational difficulties, by a few clinical
+illnesses, and by a limited number of physiological phenomena       apparently related largely
+to space flight factors. The following sections                    describe      the clinical and medical aspects of
+the inflight portion of Apollo missions.
+
+                                                       Table 5
+                                             Infectious           Diseases
+
+                                                                                   Number of
+                                           Infection                                 Cases
+
+                                                                                      133
+                         Upper respiratory
+                         Influenza                                                     33
+
+                         Pneumonia                                                         7
+
+                         Sinusitis                                                     19
+
+                         Otitis     media                                                  1
+
+                         Otitis     externa                                                6
+
+                         Gastroenteritis                                               29
+
+                         Genitourinary                                                 30
+
+                         Bacterial        dermatitis                                       9
+
+                         Superficial        fungal      dermatitis                     20
+
+                         Conjunctivitis                                                    3
+
+                         Blepharitis                                                        1
+
+                         Chalazion                                                          3
+
+                          Herpes     zoster                                                 1
+
+                          Herpes     hominis,          recurrent                            1
+
+                          Cellulitis and lymphangitis                                       1
+
+                          Rubella                                                           1
+
+                          Tuberculin        skin test conversion                            2
+
+
+                                  Total                                                301
+
+
+
+
+                                                        Table 6
+
+                                                       Neoplasms
+
+                                                                                   Number of
+                                           Neoplasm                                  Cases
+
+                            Basal cell carcinoma                                       2
+                                                                                       2
+                            Epithelioma
+                            Polyp, colon                                               1
+
+                            Adenoma,         thyroid                                    1
+
+                            Fibroma                                                     1
+
+                            Squamous papilloma,             eyelid                      1
+
+                                   Total                                               8
+                          Clinical     Aspects         of Crew      Health                        59
+
+
+                                            Table 7
+
+                     Hereditary and Metabolic Diseases
+
+                                                                                      Number of
+                                  Disease
+                                                                                        Cases
+
+    Plasma thromboplastin               antecedent            deficiency
+    Gout
+
+    Abnormal         glucose tolerance
+
+    Hypercholesterolemia
+    Hyperlipemia
+    Idiopathic        hyperbilirubinemia
+
+             Total
+
+
+
+
+                                             Table 8
+
+                                 Degcnerative                Disorders
+
+                                                                             Number    of
+                           Disorder
+                                                                               Cases
+
+            Hearing loss                                                          6
+            Presbyopia                                                            6
+
+            Lenticular      opacities                                             3
+
+            Vertebral     degenerative       changes                              4
+            Cervical spondylosis-
+              Brown-Sequard syndrome                     *                        1
+
+            Degenerative         disc disease, early                              1
+
+                  Total                                                         21
+
+
+     • Not detected         during annual physical                 examination.
+
+
+
+
+                                             rll_   L. 1 _   13t
+
+
+
+
+                                    Allergic Problems
+
+                                                                                      Number of
+                      Allergic     Response                                             Cases
+
+
+Angioneurotic           edema                                                                1
+Urticaria                                                                                    7
+
+Asthma secondary to aspirin hypersensitiviW                                                  1
+
+Skin hypersensitivity,            ant bite                                                   1
+
+Allergic     vaseulitis and synovitis                                                        1
+Contact      dermatitis                                                                      3
+
+Drug rash                                                                                    2
+
+    Total                                                                                   16
+6O                                 Biomedical           Results     uf Apollo
+
+
+
+                                                Table         10
+
+                                        Traumatic             Injuries
+
+
+                                                                                   Number         of
+                                 Trauma
+                                                                                       Cases
+
+        Muscle strain                                                                       9
+
+        Sprains                                                                             9
+
+        Torn      meniscus        (kneel                                                    2
+
+        Fractures                                                                          11
+
+        Dislocation           - shoulder     and phalanges                                  2
+        Lacerations                                                                        10
+
+        Bursitis or synovitis              (elbow)                                          2
+
+        Burns                                                                               3
+
+        Contusions                                                                          3
+
+        Eye injuries                                                                        9
+
+        Dog bite                                                                            1
+
+        Peripheral         compression         neuropathy                                   1
+
+        Concussive          labyrinthitis                                                   1
+
+        Laryngitis          (excessive speaking)                                            1
+
+
+                  Total                                                                    64
+
+
+
+
+                                                Table         11
+
+              Miscellaneous            Problems          of    Medical      Significance
+
+
+                                                                                           Number       of
+                                                                                                Cases
+
+     Cholecystitis         or cholelithiasis                                                      2
+
+     Hernia                                                                                       2
+
+     Sperm granuloma                                                                              1
+
+     Hemorrhoids,            symptomatic                                                          5
+
+     Renal calculus                                                                               1
+
+     Meniere      s syndrome                                                                      1
+
+     Thrombophlebitis                                                                             1
+
+     Migraine       equivalent                                                                    1
+
+     Congestive          prostatitis                                                              2
+
+     Rectal fissure                                                                               1
+
+     Abdominal           pain, unknown            etiology,        severe                         1
+
+     Atrial     fibrillation                                                                      1
+
+     Dysbarism,          bends                                                                    1
+     Barotitis      media                                                                         5
+
+
+                 Total                                                                           25
+                                     Clinical Aspects of Crew Health                                     61
+
+
+ Monitoring
+
+     When     the United     States space program         first began, the concept of obtaining
+continuous     physiological  data by instrumenting       the human operator was a new one. No
+sufficiently reliable off-the-shelf   hardware  was available. Since that          time, sophisticated
+and highly reliable biotelemetry    devices have been developed.
+     Each Apollo crewman          wore a biosensor       harness   which provided    a means of
+transmitting    critical physiological    data to the ground. Through this system, medical
+personnel were able to evaluate physiological        status during such critical phases as launch
+and docking, extravehicular      activity, and lunar explorations.    This real-time telemetry of
+vital biomedical     information   was also available for monitoring Apollo crewmen in the
+event of inflight illness.
+     The operational    bioinstrumentation     system was designed as an individually adjustable
+unit worn under the flight clothing. The biobelt assembly was an electronic system that
+included     sensors, signal conditioners,    and telemetry     interfaces. The system returned
+electrocardiogram,    heart rate, and respiratory    pattern and rate data. A two-lead EKG with
+synchronous    phonocardiography       provided an index of cardiac activity. Cardiotachometer
+equipment made monitoring        of instantaneous  and average heart rate information   possible.
+Voice communications       and real-time television observations,   coupled with monitoring of
+the vital signs, provided the medical basis for an inflight clinical profile of the Apollo
+astronauts.
+     Data from the biotelemetry    of the spacecraft were displayed at consoles at the launch
+and mission    control    centers. The consoles     were manned continuously      by medical
+personnel during the course of each mission. Heart and respiration rates were displayed in
+digital form; electrocardiogram     and impedance    pneumogram    data were presented    on a
+cathode ray oscilloscope.
+    In general,    the   equipment    worked     well, although   some minor      losses of data were
+experienced  throughout    the program. Problems with breakage of bioharness leads and pin
+connectors  encountered    on the Apollo 7 mission were corrected for subsequent       flights.
+Some degradation    of physiological data was caused by loose biosensors, but restoration of
+good data was usually obtained by reapplication       of the sensors. Sponge pellet electrodes
+were used in the biosensor harness for the first time on the Apollo 15 mission. This
+modification    reduced skin irritation that had earlier resulted from continuous   wearing of
+the electrodes.
+    The quality    of the data obtained        with the new electrodes     was excellent.   Some data
+loss resulted because air became trapped      under         the electrodes during the Apollo         15
+mission, but this was easily corrected by modifying         the electrodes with small vents.
+     Additional  data were telemetered   during lunar surface extravehicular   activity to per-
+mit assessment of the portable life support system and, additionally, the determination      of
+the metabolic activity during lunar excursions. Metabolic rate was approximated        by moni-
+toring the inlet and the outlet temperatures     of the liquid cooled garment. Heart rate and
+oxygen usage were also monitored       as metabolic rate indices. Of the three methods, the
+thermal data and oxygen use methods proved to be reasonably accurate and significantly
+more reliable as a means for determining metabolic rate than did heart rate data.
+     Further    documentation     of the Apollo       bioinstrumentati0n      system is reported    in
+Section     VI,   Chapter 3,    Bioinstrumentation.         Additional     information   concerning
+62                             Biomedical Results of Apollo
+
+
+monitoring during extravehicular activity is contained in Section 11, Chapter 4,
+Metabolism and Heat Dissipation During Apollo Extravehicular Activity Periods.
+
+I n f l i t Medications
+    The initial philosophy regarding use of medication precluded usage except in a
+medical emergency. Additional experience and the confidence gained thereby permitted
+some alteration of this philosophy to the extent that certain drugs were prescribed during
+Apollo missions when indicated. For example, hypnotics were prescribed when adequate
+rest could not be obtained, particularly when sound sleep was important prior to critical
+mission phases.
+
+    Medico1 Kit. The contents of the Apollo medical kit (figure 1) were selected based on
+experience gained during earlier missions. The drugs were intended to treat the
+contingency situations most likely to arise. As noted previously, crewmembers were
+tested for sensitivity to all drugs in the medical kit and substitutions were made when
+necessary.
+
+
+
+
+                           Figure 1. Typical Apollo medical kit.
+
+
+
+    Table 12 lists drugs and drug stowage and usage aboard the Apollo Command Module.
+The contents of the medical kits were changed as more effective medications were
+identified. For example, the combination scopolamine/Dexedrine was substituted after
+Apollo 11 for the previously stowed Marezine after ground-based tests indicated it was
+more effective for the treatment of motion sickness. Likewise, a short-acting barbiturate,
+SeconaI, was added after reports of sleep difficulties by the Apollo 7 crew. The cardiac
+arrhythmias experienced during the Apollo 15 mission dictated the addition of Pronestyl,
+Lidocaine, atropine, and Demerol in missions subsequent to Apollo 15. Each Apollo
+vehicle also carried a medical accessory kit in a compartment behind the Lunar Module
+Pilot’s couch. Its contents are listed in table 13. An abbreviated version of the Command
+                                         Clinical   Aspects   of Crew       Health                                 63
+
+
+
+
+                  0   _   0   0,_"   0                                                                      0000
+      p..         _NNN_                                                                                     o_m
+
+
+
+
+                  0
+                          0o_                       0o000oo0_                     Io     I   0        _°°   00o0
+      ¢.O
+
+
+
+
+      It')                oooooo                    ooooooooo1_                              o        oo
+
+
+
+      _r                  000000                    000000              0     I   I _        0        000
+
+
+
+                                                                 0
+                          oo0ooo                    _oO_om           I oo         i _        _        o_
+
+             "0
+
+
+
+
+             0
+
+
+
+                          __                        ooo-o_              _            _
+
+                          ____,_                                                                 ,,
+      O
+
+
+
+
+                                                                             0
+
+
+                  _ _-___,_-_
+                           _ _ _                                                             _ ,
+      GO
+  o
+(.p
+
+
+      p_
+64             Biomedical       Results       of Apollo
+
+
+
+
+                                                          _0   CO
+                                                          z
+
+
+
+                                                          _0   _0
+                                                          Z
+
+
+
+
+                                                               CO
+
+           E
+
+
+
+
+                            I
+
+
+
+     "¢9                    I
+
+
+
+
+                            I
+
+
+
+
+                            I
+
+
+
+
+                            I
+
+
+
+
+                                                               >.
+
+
+
+                                                               E
+                                          E
+                                                               c
+                                                                             Clinical          Aspects            of Crew           Health                                                                                 65
+
+
+
+Module               medical            kit         was       carried              in the           Lunar             Module          (table           14).    The            adequacy                of      the        kits
+was        reviewed                 after           each          flight,          and         appropriate                      modifications                  were              made           for        the      next
+
+flight.           The        basic          contents                 of      the         medical                kits        remained             the      same            for         each      mission,                 but
+there        was        no        "standard"                  kit.
+
+
+
+                                                                                                          Table         14
+
+                                                                               Lunar               Module              Medical           Kit
+
+
+
+                                                      Medical             Package Assembly                                                                      Quantity
+
+                                       Rucksack                                                                                                                           1
+
+                                       Stimulant              pills (Dexedrine)                                                                                           4
+
+                                       Pain pills (Darvon)                                                                                                                4
+
+                                       Decongestant                   pills (Actifed)                                                                                     8
+                                       Diarrhea             pills (Lomotil)                                                                                          12
+
+                                       Aspirin                                                                                                                       12
+                                       Bandaids                                                                                                                           6
+
+                                       Compress               bandages                                                                                                    2
+
+                                       Eye Drops (methylcellulose)                                                                                                        1
+
+                                       Antibiotic              ointment              (Neosporin)                                                                          1
+                                       Sleeping             pills     (Seconal)                                                                                           6
+
+                                       Anesthetic                 eye drops                                                                                               1
+
+                                       Nose drops (Afrin)                                                                                                                 1
+
+                                       Urine collection                      and transfer                  assembly                                                       6
+                                        roll-on            cuffs
+
+                                       Pronestyl                                                                                                                     12
+
+                                                            Injectable             Drug Kit                                                                   Quantity
+
+                                       Injectable             drug kit rucksack                                                                                           1
+
+                                       Lidocaine               (cardiac)                                                                                                  8
+
+                                       Atropine              (cardiac)                                                                                                    4
+
+                                       Demerol              (pain)                                                                                                        2
+
+
+
+
+          Pills       and         tablets            in     the       medical                kit     were         packaged                 in such        a manner                     that     the        crewman
+
+had        easy         access         to      the         medication                 at all          times.            The      pills       were       sealed            individually                 in        cells      in
+strips          of      12    or       24      cells.        Midway                 through                 the        Apollo          Program,               the         number               of     pills       in the
+
+kit       was         increased.                   Pressure-related                          problems                  in     medication                 packaging                     were         resolved               by
+
+puncturing                   each           cell      with          a small           pin;           the        hole         made          it possible              for         the      air    to vent             when
+
+under             reduced-pressure                          conditions.
+
+          The          use        of        standard                 spray           bottles               in     a     weightless,                 reduced-pressure                            environment
+proved               unsatisfactory.                        Sprays            were           therefore                 replaced             by      dropper               bottles.             However,                   the
+
+likelihood                   of        overdosage                      from              a         dropper              bottle           and        the       need               for          more          uniform
+
+distribution                      of        decongestants                          than              is     possible                with         dropper              bottles                  makes              future
+development                       of    a zero-gravity                       spray           dispenser                 highly        desirable.
+66                                  Biomedical Results of Apollo
+
+
+General Adaptation
+    In general, Apollo astronauts adapted well to the world of zero gravity. It was, in
+many respects, a boon. Astronauts   were able to move effortlessly about the spacecraft,
+and this enhanced the perceived volume of the vehicle.
+     The most frequently         reported     subjective sensation    associated   with initial orbital
+insertion was a feeling of fullness in the head. This sensation, reported by all but two
+crewmen, persisted        for four hours to three days. Concomitantly,             crewmen noticed a
+roundness of the face in one another and engorgement               of the veins of the head and neck.
+One crewman reported that head fullness was similar to the feelings elicited by standing
+on one's head or hanging upside down.
+     Crews of the Apollo 7, 12, 14, and 15 missions reported some soreness of the back
+muscles. This condition        was relieved by exercise and hyperextension            of the back. No
+calibrated    inflight exercise program was planned for any of the Ilights; however, an
+exercise device was provided. The crewmen typically used the exerciser several times a
+day for periods of 15 to 30 minutes when they were in the Command Module.
+     Insomnia     was another    frequent crew complaint.        The principal reasons for insomnia
+were shifting the customary            sleep time, altering circadian        rhythm,    and combating
+operational    problems.     When one considers the unfamiliar environment            of space and the
+excitement      this generated,    as well as the onboard          noise and other mission-related
+disturbances,      it is not surprising     that the astronauts in some cases failed to obtain
+sufficient restful sleep. Some crewmen found it was possible to obtain restful sleep with
+the aid of hypnotics.
+     The first American space crews to report any symptoms of motion sickness were the
+Apollo astronauts.       The symptoms    ranged from so-called "stomach         awareness" to frank
+nausea and, in a few cases, vomiting. In most instances, the nausea appeared to be related
+to rapid body movement            before adaptation       to weightlessness    occurred.   Symptoms
+subsided    or were absent when crewmen              moved slowly during the initial period of
+weightlessness.     Moreover, no recurrence     of motion sickness symptoms was reported after
+this adaptation      period was completed.       Increased    susceptibility  to motion    sickness is
+thought     to be the result of the relatively           enhanced     effect of stimulation     of the
+acceleration-detecting      nerve ends in the semicircular canals that occurs during weightless-
+ness. The otolith, the gravity-sensing      component       of the inner ear, is thought to bias the
+input of the semicircular canals to the brain center that controls vomiting. The removal of
+this bias in the weightless condition results in an alteration of the input to the brain from
+the semicircular     canals. Then, in a susceptible individual, rapid head motions will result in
+motion sickness.
+     Adaptation    of the inner ear to weightlessness,        which occurs fairly rapidly in most
+individuals, can be hastened by appropriate head movements that produce a subthreshold
+stimulation    of the semicircular  canals. This technique was taught to all Apollo crewmen
+subsequent    to the Apollo 9 mission. Although not all crewmen have used this technique
+to assist their adaptation       to weightlessness,      those crewmen who have used it have
+achieved fairly good results.
+     Considerable    variation in susceptibility    to motion sickness exists among individuals,
+and a prediction of individual susceptibility        is not precise. A thorough understanding   of
+                                  Clinical Aspects of Crew Health                                  67
+
+
+the physiology   of the inner ear is needed    for better prediction    and prevention    of motion
+sickness.
+
+Crew Illness and Medications
+
+    Table 15 lists medical problems     experienced     by Apollo      crews in flight.   The more
+important of these are discussed below.
+
+    Apollo   7. Three   days   prior   to the Apollo 7 launch,      the Commander         and   Lunar
+Module Pilot experienced      slight nasal stuffiness and were successfully treated. They were
+medically certified fit for flight when launch day physical examinations      of the crew failed
+to demonstrate    any manifestations   of illness.
+    Approximately     15 hours after lift-off, the crew reported     that the Commander      had
+developed a bad head cold. The flight surgeon recommended             aspirin for symptomatic
+relief, and that one decongestant      tablet (Actifed) be taken every eight hours until the
+Commander      either felt better or had exhausted     the onboard supplies. The Commander
+reported    a normal temperature       and no symptoms        of sore throat,    cough, or lung
+congestion.   The Command        Module Pilot and Lunar Module Pilot also experienced        cold
+symptoms 24 hours later and the same treatment schedule was instituted.
+     The possibility of rupturing   the eardrums during entry caused some concern because
+it was considered necessary for the crew to wear pressure suits during entry. With helmets
+on, the crewmen would not be able to perform the Valsalva maneuver                   and equalize
+pressure within the middle ear cavities. Forty-eight      hours prior to entry, the crew made
+the decision not to wear helmets or gloves. The last nine decongestant        tablets were taken
+during the last 24 hours of flight. The times for taking the tablets were selected so as to
+obtain the maximum benefit at the time of the deorbit maneuver and entry.
+     During entry, none of the crewmen had any difficulty in ventilating the middle ear
+and the Valsalva maneuver was not required. In the postflight physical examinations,    the
+two crewmen who had experienced         the most distressing inflight symptoms  showed no
+residual evidence of their colds. The other crewman did exhibit a slight amount of fluid in
+the middle ear.
+     After the flight, the Commander stated that his cold symptoms began about one hour
+after lift-off (six hours after his prelaunch physical examination).       In the zero-gravity
+environment,   he reported,     tbc drainage of nasal and sinus secretions ceases. The body's
+normal means of eliminating        such secretions is lost because of the absence of gravity.
+There is no postnasal     drip, and, because secretions    do not reach the lower respiratory
+tract, they do not produce coughing. Forceful blowing is the only method available for
+purging nasal secretions, but blowing the nose is ineffective in removing mucoid material
+from the sinus cavities.
+
+    Apollo 8. After the Apollo 8 Commander's      symptoms of motion sickness dissipated,
+he experienced    additional symptoms of an inflight illness believed to be unrelated to the
+adaptation   syndrome. When the Commander      was unable to fall asleep two hours into his
+initial rest period, he took a sleeping tablet (Seconal) which induced approximately   five
+hours of sleep, described as "fitful."   Upon awakening,    he felt nauseated and he had a
+moderate     occipital headache. He took two aspirin tablets and then went from the sleep
+station to his couch to rest. The nausea, however, became progressively       worse and he
+68                                                          Biomedical     Rcsults      of Apollo
+
+
+
+vomited         twice. After               termination          of this first sleep period,                the Commander          also became
+aware        of some increased                     gastrointestinal        distress      and was concerned                that diarrhea   might
+occur.
+
+
+                                                                         Table 15
+
+                                             Inflight       Medical Problems             in Apollo Crews
+
+                                                                                                                                 Number of
+               Symptom/Finding                                                          Etiology                                   Cases
+
+
+         Barotitis                                                 Barotrauma
+
+         Cardiac arrhythmias                                       Undetermined,         possibly     linked       with
+                                                                      potassium       deficit
+
+         Eye irritation                                            Spacecraft      atmosphere
+
+                                                                   Fiberglass
+
+         Dehydration           (Apollo       13)                   Reduced      water     intake    during
+                                                                    emergency
+         Flatulence                                                Undetermined
+
+         Genitourinary           infection         with            Pseudomonas          aeruginosa
+           prostatic      congestion
+         Headache                                                  Spacecraft      environment
+
+         Head cold                                                 Undetermined
+
+         Nasal stuffiness                                          Zero gravity
+
+         Pharyngitis                                               Undetermined
+
+         Rhinitis                                                  Oxygen,      low relative       humidity
+
+         Respiratory       irritation                              Fiberglass
+
+         Rash, facial, recurrent              inguinal             Contact      dermatitis
+                                                                   Prolonged       wearing      of urine
+                                                                      collection      device    (Apollo      13)
+
+         Skin irritation                                           B iosensor sites                                                  11
+                                                                   Fiberglass                                                         2
+                                                                   Undetermined                                                       1
+
+         Seborrhea                                                 Activated       by spacecraft      environment                     2
+
+         Shoulder       strain                                     Lunar     core drilling                                            1
+
+         Subungual         hemorrhages                             Glove fit                                                          5
+
+         Stomach        awareness                                  Labyrinthine                                                       6
+
+         Nausea, vomiting                                          Labyrinthine                                                       1
+                                                                   Undetermined           (possibly    virus-related)                 1
+
+         Stomatitis                                                Aphthous        ulcers                                             1
+
+          Excoriation,          urethral     meatus                Prolonged         wearing    of urine collection                   2
+
+            (Apollo       13)                                        device
+
+          Urinary      tract     infection                         Undetermined
+
+          Dysbarism        (bends) *
+
+
+
+     * Also occurred            during       Gemini       10; later incidences       were reported         by the same crewman
+         five years after his Apollo                 11 mission.
+                                   Clinical Aspects of Crew Health                                69
+
+
+    As the mission     progressed,     the flight surgeon      had the impression        that   the
+Commander    was experiencing      an acute viral gastroenteritis.    This tentative     diagnosis
+was based upon      the delayed      transmission      of a recorded   voice report      that the
+Commander    had a headache,      a sore throat, loose bowels, and had vomited twice. A
+conversation  between   the Senior Flight Surgeon and the Commander                 verified that
+the previous report was correct, but that the Commander              was feeling much better.
+The Commander      also stated that he had not taken any medication              for his illness,
+which he described as a "24-hour         intestinal flu." (Just prior to the Apollo 8 launch,
+an epidemic   of acute viral gastroenteritis       lasting 24 hours was present in the Cape
+Canaveral area.)
+    The Commander's   temperature  was 309°K (97.5°F)        on two occasions subsequent
+to his nausea and vomiting. The Commander       was advised to take one Lomotil tablet
+and to use Marezine     if the nausea returned.     Complete    remission   of the illness,
+however, made the use of further medications     unnecessary.
+
+
+    Apollo     9. Three     days before   the scheduled     Apollo9     launch, the Commander
+reported   symptoms      of general malaise, nasal discharge, and stuffiness. These common
+cold symptoms        were not present      at the physical     examination     performed on the
+previous    day. The Commander          was treated     symptomatically     and his temperature
+remained     normal     throughout    the course     of the illness. Two days before          the
+scheduled    launch,    the Command      Module     Pilot and the Lunar Module Pilot also
+became ill with common          colds and were treated symptomatically.         However, because
+the symptoms     persisted, the launch was postponed         for three days. The crew responded
+rapidly   to rest and therapy     and were certified        fit for flight the day prior to the
+rescheduled launch.
+
+    The Lunar Module Pilot experienced           motion sickness and vomited twice, once while
+preparing for transfer to the Lunar Module, and again after transfer. After about 50 hours
+of flight, he was still not feeling well but had experienced no further vomiting.                 He
+reported   that his motion sickness symptoms           subsided when he remained      still. He was
+advised to take a Marezine           tablet one hour before donning his pressure             suit for
+extravehicular    operations    that were to be conducted       at approximately    73 hours. The
+nominal plan called for the Lunar Module Pilot to spend two hours a.d 15 ininutcs
+outside the spacecraft,      but, because of his symptoms,         the plan was revised so that
+only the tasks having         the highest priority       were to be performed.      The principal
+objectives    were successfully     accomplished     in approximately   45 minutes.     The Lunar
+Module Pilot took Seconal several times during the mission to induce sleep.
+
+
+    Apollo  10. All three crewmen experienced      irritation    of the skin, eyes, and upper
+respiratory passages when the fiberglass insulation         in the Command      Module tunnel
+became loosened     and particles of fiberglass became suspended in the cabin air. This
+was treated symptomatically     with good results. This crew complained  of abdominal
+rumblings   caused by the ingestion    of hydrogen   gas present in the potable  water.
+Since they were concerned     that diarrhea might develop, they decided on their own
+initiative to take Lomotil  tablets. Medically, the use of the drug was not indicated.
+70                                   Biomedical Result_ of Apollo
+
+
+Lomotil   decreases   the activity   of the lower intestinal    tract and reduces   the amount    of gas
+that can be expelled.    Aspirin was taken occasionally        by all crewmen.
+
+     Apollo  11. The Apollo 11 Commander       and Lunar Module Pilot each took one
+Lomotil tablet to retard bowel movements    before Lunar Module operations. They each
+carried extra Lomotil tablets into the Lunar Module but did not use them. Four hours
+before      entry,    and    again    after     splashdown,       the  three   crewmen      each    took
+scopolaminc/dextroamphetamine             (antimotion     sickness) tablets. Aspirin tablets were also
+taken, but the number of tablets per individual was not recorded. The Lunar Module Pilot
+recalled that he had taken two aspirin tablets almost every night to aid his sleep. One
+interesting    medical event that occurred on this flight was reported              by the Command
+Module Pilot in his account of the Apollo Program. _ He revealed that he had experienced
+dysbarism      (bends)    on his first space flight (Gemini 10) as well as on his second
+(Apollo 11). He described symptoms               involving the left knee as a sharp, throbbing ache
+which gradually worsened and leveled off at a moderate, but very uncomfortable                   level of
+pain. The symptomatology           was less painful on Apollo 11 than it had been on Gemini 10.
+Unfortunately      this information    was not made available to the medical team during either
+the Gemini or Apollo Programs.
+
+     Apollo 12. The Commander      developed a mild contact dermatitis    from the biosensor
+electrolyte  paste. An analysis performed    postflight on the batch of paste applied to the
+affected skin areas during the mission failed to identify any constituent       not present in
+nonoffending    batches of the electrolyte  paste. To avoid similar occurrences,   subsequent
+Apollo crewmen were tested with all materials     of known allergenic potential,     as has
+always been done with medical kit drugs. As a further precaution, the identical materials
+to be used in flight were used in training to provide for scrupulous     observation    and
+reporting of any skin reactions.
+     All three crewmen used Actifed decongestant       tablets to relieve nasal congestion   at
+various   times throughout     the flight. The Lunar Module        Pilot also took Seconal
+throughout    most of the mission to aid sleep. Aspirin was taken occasionally      by all the
+crewmen. No motion sickness medications      were taken prior to entry.
+
+     Apollo 13. The Lunar Module Pilot awoke on the second day of the mission with a
+moderately      severe headache.   He took two aspirin tablets with only fair results. After
+eating breakfast and engaging in physical activity, he became nauseated and vomited. His
+symptoms began to subside over the next 12 hours as adaptation           to weightlessness took
+place.    All     crewmen     took   seopolamine/dextroamphetamine        antimotion      sickness
+medication prior to entry.
+     A urinary tract infection      in one of the crewmen could have resulted in a serious
+inflight illness if the mission had lasted 24 hours longer. During the return flight following
+the inflight accident, the combined        stresses of cold, dehydration  (caused by voluntary
+rationing of water), and prolonged        wearing of the urine collecting device (UCD) were
+
+
+
+*Colhns, Michael: Carrying the Fire: An Astronaut's Journeys. Farrar,Straus and Giroux (New York),
+ 1974.
+                                    Clinical Aspects of Crew Health                                          71
+
+
+contributing    factors. The other two crewmen          had less serious problems, but the UCD was
+not designed    for prolonged wearing.
+
+    Apollo     14. No medications     were used during         the Apollo    14 mission     other   than nose
+drops to relieve nasal stuffiness caused by the spacecraft atmosphere. On the third day of
+flight, the Commander    and the Lunar Module Pilot used one drop in each nostril. Relief
+was prompt and lasted approximately       12 hours. The Command Module Pilot used the
+nose drops three hours prior to entry.
+
+    Apollo   15. The Commander         developed a dermatitis from the deerskin lining of a
+communication     carrier. This sensitivity was not recognized before the mission because a
+concomitant   skin disorder (seborrhic dermatitis)  existed.
+
+     Aspirin and nose drops were the only medications         used during Apollo 15. The
+Commander     took a total of 14 aspirin tablets over a period of days to relieve pain in his
+right shoulder that developed after difficult deep core-tube drilling on the lunar surface.
+The Command Module Pilot used nose drops just prior to Earth entry to prevent possible
+middle ear blockage.
+
+     Apollo 16. The Lunar Module Pilot used three Seconal capsules for sleep induction
+during the Apollo 16 mission. One capsule was taken on the night prior to lunar descent
+and the other two capsules were used for the first and second lunar surface sleep periods,
+respectively. In the postflight medical debriefing,  the Lunar Module Pilot reported that
+the Seconal was effective in producing a rapid onset of good sleep.
+
+     Apollo 17. More medications      were taken on Apollo 17 than on any of the previous
+missions. The intermittent   use of Seconal for sleep by all three crewmen and the daily use
+of simethicone   for symptomatic   relief of flatulence by the Commander were the principal
+factors contributing    to the high intake of medications.      The Commander   also took a
+scopolamme/dextroamphe_ammc              capsule   on    the    second      day of flight     for "stomach
+awareness."
+
+   The Command Module Pilot and the Lunar Module Pilot experienced one loose bowel
+movement   each, on the eleventh and twelfth days of flight, respectively. In each case,
+Lomotil was taken and was effective.
+
+Cardiac   Arrhythmias
+
+     Apollo 15 was the first manned space flight in which cardiac irregularities other than
+occasional benign premature ventricular    contractions were observed. A historical account
+precedes discussion of possible etiology and mechanisms.
+    An    isolated   premature   ventricular   contraction       was observed     on the Lunar        Module
+Pilot 41 minutes prior to launch. Subsequently,          while the Lunar Module Pilot was being
+monitored   during the translunar       coast phase of the mission, only infrequent    premature
+ventricular contractions   (approximate        rate one to two per hour) were observed. The_
+events were not considered       significant since the Lunar Module Pilot had demonstrated
+occasional  premature    ventricular     contractions   during all of his ground-based    altitude
+chamber tests and training sessions. The frequency of the Lunar Module Pilot's premature
+72                           Biomedical
+                                   Results
+                                        ofApollo
+
+ventricular contractionsremained  constantatthesame     ratethroughout   thethreeperiods
+of extravehicular activity,LunarModule ascent,  anddocking.
+    Shortlyafterdocking    withtheCommand     Module  at 178hoursgroundelapsed       time
+(GET),theLunarModule       Pilotexperienced fiveventricular  prematurities  ina30-second
+period.Approximately   onehourlaterat179:07GET,whilethecrewmen             wereobserving
+theLunarModuletunneleakratein theircouches,            theLunarModule       Pilotsuddenly
+converted  fromnormalsinusrhythmtoanodalbigeminal         rhythm.Duringthe14seconds
+in whichtheabnormal    rhythmpersisted,  a totalof eleven  coupled  beatswereobserved.
+The LunarModulePilot's heartrate preceding            andduringthe arrhythmiawas
+approximately   95beatsperminute.Oneandone-halfminutes             priorto onsetof the
+bigeminal  rhythm,hisheartratehadpeaked        at 120beatsperminutefor a 20-second
+period.Followingthis bigeminalepisode,the LunarModulePilot experienced
+approximately   ten additionalpremature   atrialcontractions    duringthe timehewas
+monitored    overthe next60hoursof themission.       Thelastatrial prematurity     in the
+LunarModulePilot wasobserved        at 240:24hoursGET.TheLunarModulePilot's
+premature   ventricular
+                      contractions,however,  persisted atthepreviously    citedrateof one
+totwoperhour.
+    The Commander      wascompletely  eurhythmic     until 286:22hours     GET,whenhe
+suddenly   bcgan toexperience occasional
+                                       supraventricular  prematurities.  Thefirstofthese
+occurred   whiletheCommander     wassoundasleep    andcontinued    throughthefirsthour
+afterawakening.   TheCommander's    heartrateat thetimeof onsetwasapproximately
+ 30beats perminute.  Approximately  30aberrant   beatsoccurred  duringaoneandone-half
+hourperiod.Nofurtherprematuritics     wereobserved    ontheCommander       after288hours
+GET.
+     Throughout  theentiremission, noectopic    heartbeatsor arrhythmias     wereobserved
+ontheCommand      Module  Pilot.
+     Whenquestioned   duringthepostflightmedical     debriefing, theLunarModulePilot
+ recollected experiencing the sensationof extreme    fatigueduringthetimewhenthe
+ bigeminal rhythmwasnoted.Infact,herequired       ashortperiodofrestbefore     hewasable
+ to carryonhisassigned   duties.Furthermore,  theLunarModule      Pilotstatedthathewas
+puzzledaboutthisfeelingof extreme       fatiguewhichhe experienced         andconsidered
+ inappropriate;however,  he did not express   his concernto the flight surgeon     in the
+Mission ControlCenter   duringtheflight.Throughout     theflight,theLunarModule      Pilot
+ did not experience  anysymptoms    referable  to hisheart,suchaspalpitations,     sternal
+ pressureorpain,andhewascompletely    unaware    thatanarrhythmia    hadoccurred.
+     TheCommander    alsowasunaware   hehadexperienced      ectopic heartbeats  duringthe
+ lastdayof the missionandwasunableto recallexperiencing           anycardiac    symptoms
+ inflight.
+     Theetiologyof episodicardiacarrhythmias        recorded  on the twoLunarModule
+ crewmen   duringthismission  is unclear;however,   a numberof possible      factors,
+                                                                                    acting
+ independently  or in concert,areconsidered     to havepredisposed    themyocardium     to
+ ectopicbehavior.  Of principalinterestis the magnitude     of thetotalbodypotassium
+ deficitandhypokalemia      measured postflight.Whether    the potassium    concentrations
+ recordedin the immediate      postmission examination    represented   the true stateof
+ potassium   balanceat the time of the episodes      of arrhythmias    inflightcannotbe
+                                    Clinical
+                                          Aspects of Crew Health                                      73
+
+
+determined.   However, salt-wasting mechanisms predictably    would have been at their peak
+during that period of the flight, thereby        suggesting a total body potassium    deficit
+considerably greater than that registered postflight.
+    While salt-wasting compensatory     mechanisms operate to reestablish fluid and osmotic
+equilibrium in the adapted crewman, several other factors probably were operative which
+could upset this balance and lead to transient states of decompensation.       For example,
+heavy workloads and the attendant     heat stress could easily exacerbate the electrolyte
+deficit experienced  by the lunar surface crewmen. Emotional     stress, altered work/rest
+cycles, and fatigue are known to increase adrenal medullary activity and liberate large
+quantities of epinephrine  which further aggravate the salt loss. Commensurate with the
+catecholamine-potentiated       electrolyte    loss, the resultant high epinephrine   blood levels
+would     exert a positive     inotropic     effect on the myocardium.       Furthermore,     these
+decompensating      factors probably occurred in the presence of a marginal dietary intake of
+mineral which resulted in a clinical deficit of total body electrolyte.
+     Therefore,   frank, yet transient      periods of hypokalemia     were considered    to be of
+prime importance      in the genesis of the observed arrhythmias.       These postulates  were
+further substantiated   by the greater postflight deficits in total body and serum potassium
+recorded in the lunar surface crewmen and by the absence of cardiac irritability in the
+Command Module Pilot.
+     Accordingly,     it is speculated    that the adaptive processes alone resulted in sufficient
+salt loss (principally    potassium)    to have predisposed   the crew to cardiac irritability, and
+that the additional       stress characteristic    of lunar surface operations   was sufficient to
+enhance the electrolyte       deficit and precipitate abnormal cardiac activity.
+     In order to prevent      potassium     deficits and to reduce the likelihood          of inflight
+arrhythmias,     both Apollo 16 and 17 crews were provided a high potassium                        diet
+commencing      72 hours prior to launch and continuing until 72 hours after recovery. As a
+precaution,    antiarrhythmic   medications     were included in the Apollo 16 medical kit for
+tile first time. As an added precaution,         daily, high-resolution   electrocardiograms      were
+obtained     for each crewman        and an accurate       metabolic    input/output      report   was
+maintained during flight.
+     No medically significant     arrhythmias   occurred   during either flight. The postflight
+exchangeable   body potassium      intake measurements     indicated that a norntal potassium
+balance had been maintained.         The absence of arrhythmias       in these last Apollo crews
+may be attributed       in part to high dietary potassium        intakes, but perhaps     the fact
+that the Apollo 16 and 17 crews maintained            a better fluid and electrolyte      balance,
+obtained   more adequate     sleep, and experienced      a lower level of fatigue is of equal
+or greater significance.
+     It must be noted         that one of the Apollo 15 crewmembers                who experienced     a
+cardiac    arrhythmia     had undetected        coronary     artery   disease at the time of the
+mission. Approximately         two years after space flight, this particular astronaut        suffered
+an acute myocardial        infarction   from which he completely          recovered. The undetected
+coronary      artery   disease     almost   certainly    interacted     negatively    with potassium
+deficiency     and fatigue to precipitate       the inflight     bigeminal arrhythmia     experienced
+by this astronaut.
+74                                      Biomedical
+                                              Results
+                                                   of Apollo
+
+
+Antihypotensive        Garment     Testing
+     While Apollo missions indicated    no need for an antihypotensive       garment during
+reentry into Earth's gravity or in the immediate    postflight  period, the effects of these
+garments were tested on the Apollo 16 and 17 missions in preparation       for the long-term
+Skylab flights. The Apollo 16 Command       Module Pilot and control subjects were fitted
+with waist-length  leotards designed to produce gradient positive pressure along the lower
+half of the body. The Apollo 17 Command        Module Pilot wore a lower body garment
+using the capstan principle to apply a gradient pressure to the lower limbs. Both garments
+appeared to furnish some protection   against orthostatic  hypotension  following weightless
+flight. The capstan-type   garment, however, proved to be considerably       easier to don in
+flight. Section 3, Chapter 4 presents details of the antihypotensive   garment experiment.
+
+
+                                 Postflight    Procedures   and Findings
+
+     Comprehensive     medical    examinations   similar to the preflight      F-5exam      were
+conducted   immediately     after recovery of the astronauts to document     the physiological
+changes resulting from space flight and to detect and treat any medical problems. These
+medical evaluations    included    physical examinations,   microbiology   and blood studies,
+orthostatic  tolerance tests, exercise response tests, urinalysis, and chest X-rays. Postflight
+testing was modified in those missions requiring postflight quarantine      because of limited
+space in the Mobile Quarantine           Facility.
+    Although all crewmen were in good health, they exhibited varying degrees of fatigue
+and weight      loss. Functional tests consistently showed  evidence of cardiovascular
+deconditioning.
+
+Physical Examinations
+   The postflight physical examination  involved obtaining a careful inflight history      and a
+complete review of body systems. Laboratory studies included the following:
+
+     1.   Urine culture and sensitivity
+     2.   Complete      blood count
+     3.   Urinalysis
+     4.   Serum electrolytes
+
+Characterization      of viral and mycoplasma        flora was initiated     with Apollo 14.
+State-of-the-art   procedures   were utilized.  These included   challenging   tissue cultures,
+embryonated      eggs, suckling mice, and mycoplasma      media with specimens obtained at
+various times in preflight and postflight periods.
+
+    The detailed results of microbiological   studies are presented in Section II, Chapter 2.
+In summary,      considerable   variation   in the microfloral        response was observed.
+Staphylococcus   aureus increased in number in some crewmen and transfers were effected
+between crewmen. The variables of host susceptibility,        external environmental  factors,
+and ecological    relationships   between    competing   species of microorganisms      were
+undoubtedly   responsible for these findings. In one mission, an increase in the number and
+                                   Clinical Aspects of Crew Health                                             75
+
+
+spread of Aspergillus fumigatus    and beta hemolytic streptococci    were found. Microbial
+analysis of samples obtained in the Command Module showed a loss of organisms during
+the course of the mission. Intracrew      transfer of microbes appeared to be a regular
+occurrence.   Finally,  there was a buildup of medically important species, particularly
+Proteus mirabilis on the urine collection    device. Contamination    of the urine collection
+devices with this organism represented  a significant medical hazard.
+
+
+Clinical Findings
+
+   Weight loss was a consistent postflight finding for all crewmen except the Apollo 14
+Commander and Lunar Module Pilot. These weight losses are shown in table 16. The
+major portion of these weight changes was attributed                to loss of total body water; the
+remainder, to tissue mass loss.
+
+    Table 17 presents postflight     medical        findings   and the following       chronological        list
+provides details concerning these findings.
+
+
+    Apollo 7. The residual effects of an inflight upper respiratory             infection     was definitely
+present in one of the Apollo 7 crewmembers     at recovery.
+
+    Apollo  8. Six days after recovery,             the Lunar Module Pilot developed    a mild
+pharyngitis which evolved into a common             cold and nonproductive cough. He recovered
+completely  after six days of symptomatic            therapy. The Commander   developed a cold
+twelve days after the flight.
+
+   Apollo    9. The Commander         suffered    from bilateral    barotitis   media.       This condition
+responded    rapidly to decongestant therapy and cleared after two days. Four days after
+recovery,   the Apollo 9 Lunar Module Pilot developed an upper respiratory infection with
+a secondary bacterial bronchitis.  He was treated with penicillin and was well seven days
+later. The Commander     developed a mild upper respiratory       syndrome eight days after
+recovery. He was treated symptomatically     and recovered four days later. The etiology of
+both of these cases was determined   to be type-B influenza virus.
+
+   Apollo    10.    The   Commander      and     Lunar   Module    Pilot   had mild         rashes   on   their
+forearms which were caused either by exposure to the Fiberglas insulation or to the Beta
+cloth in their flight suits. Four days after recovery, the Lunar Module Pilot developed a
+mild infection in his left nasal passage which was probably caused by a small piece of
+Fiberglas to which the crew was exposed in flight. This responded rapidly to symptomatic
+therapy.
+
+
+    Apollo 11. The Commander  had a mild barotitis media of the right ear; however,
+since he was able to clear the middle ear satisfactorily, no specific treatment was
+necessary.
+
+
+   Apollo    12. On initial   examination,       the Lunar     Module   Pilot had a small amount             of
+clear fluid with air bubbles in the middle ear bilaterally. This disappeared after 24 hours
+of decongestant   therapy. He also sustained a laceration over the right eye when a camera
+76                                              Biomedical     Results       of Apollo
+
+
+
+
+                     p_
+                                  I    I   I      I    I   I   I     I   I    I     I   I   I     I   I   I     I   I   i     I   I
+                     +-_
+                     tr
+
+                     Q0
+
+                     +-_
+                     rr
+
+
+
+                     +      -r
+
+                     fl:
+
+
+
+                     0
+
+                     +-_
+                     m
+
+
+
+
+             _             o
+                                 oo_             ooo           o_d            odd           o_d           doo           _do
+             ,._           +l
+
+
+
+
+       ",D
+
+
+
+
+        e_
+        e_
+
+
+                o      '"_
+
+
+
+                eL
+             -<
+
+
+
+                       u-a
+
+
+
+
+                            e-              E
+
+
+
+
+                           E
+
+
+
+
+     ORIGINAL              PA(_            IS
+     OF POOR QU_
+                                         Clinical Aspects of Crew Health                                   77
+
+
+
+
+                   I    I       I   d_             _d_         I   I   I
+
+
+
+
+    0,1
+
+    +
+    tr
+             -r   _ _       d        I     I   I   _ _     _ _ _
+                                                                           ,_         ___
+    0
+
+
+    tr
+                  _d                _d             _d      _
+
+                                                                           p.                   •
+
+                                                                           p_
+
+
+
+
+                  d_d               ddd            _dd     ddd
+                                                                                      _ '£ __
+
+
+
+
+                                                                                        e,i
+
+2
+
+0
+                                                                                 !o           u4
+
+
+
+                                                                                              e,i
+
+    o_                                                                     _4
+    u-O
+
+
+
+
+         0
+                  _i i_ _- ° -                                                    g_          _-6
+                                                                                                     t-
+
+
+                                                                                                    .._1
+
+
+
+                                                                                ,__
+78                                                                          Biomedical       Results        of Apollo
+
+
+
+broke           loose           from          the     impact           of    landing        and    struck          him.        The   cut       was    sutured        onboard        the
+
+recovery            ship             and      healed        normally.              On      the    day      after      recovery,         the      Commander              developed
+an      acute           left         maxillary            sinusitis             which       was      treated          successfully             with      decongestants              and
+antibiotics.
+
+
+        Apollo                 13.     Postflight,               all    three       crewmen             showed             extreme         fatigue       resulting       from       the
+_vere           environmental                         stresses          imposed            by     their         crippled         spacecraft.           The      Lunar      Module
+
+Pilot        suffered                 an     acute       pseudomonas                    urinary         tract      infection         which       required        two     weeks        of
+
+antibiotic               therapy              to     resolve.
+
+
+                                                                                           Table 17
+                                              Postflight            Medical Findings                      in Apollo Mission Crews
+
+                                                                                                                                                             Number of
+                                 Diagnosis                                                                Etiology                                             Cases
+
+
+             Barotitis               media                                         Eustachian           tube blockage
+
+             Folliculitis,                 right anterior                          Bacterial
+                 chest
+
+             Gastroenteritis                                                       Bacterial
+
+             Herpetic                lesion, lip                                   Herpes virus
+
+             Influenza                syndrome                                     Influenza       B virus
+                                                                                   Undetermined
+
+                                                                                   Influenza       A 2 virus
+             Laceration                of the forehead                             Trauma
+
+             Rhinorrhea,                    mild                                   Fiberglass particle
+
+             Papular             lesions, parasacral                               Bacterial
+
+             Prostatitis                                                           Undetermined
+
+             Pulpitis,           tooth         No. 7
+
+             Pustules,               eyelids
+             Rhinitis                                                              Viral
+
+             Acute         maxillary                sinusitis                      Bacterial
+
+             Ligamentous                     strain, right
+               shoulder
+
+             Urinary             tract infection                                   Pseudomonas
+
+             Vestibular                dysfunction,             mild
+
+             Rhinitis            and pharyngitis                                   Influenza       B virus
+                                                                                   Beta-streptococcus                (not group         A)
+
+             Rhinitis            & secondary                                       Influenza       B virus
+                 bronchitis
+
+             Contact             dermatitis                                        Fiberglas
+                                                                                   Beta cloth
+                                                                                   Micropore         tape
+
+             Subungual                 hemorrhages,                                Trauma
+                 finger          nails
+
+
+                   Total                                                                                                                                         41
+                                Clinical Aspects of Crew Health                           79
+
+    A dlo I C The Commander and Command Module Pilot each exhibited a small
+amount of clear, bubbly fluid in the left middle ear cavity with slight reddening of the
+tympanic membrane. These findings disappeared in 24 hours without treatment. The
+Lunar Module Pilot had moderate eyelid irritation in addition to slight redness of the
+tympanic membranes. All crewmen showed a mild transient irritation from the micropore
+tape covering their biomedical sensors (figure 2).
+
+
+
+
+          I
+
+
+
+
+                        Figure 2. Example of skin irritation caused by
+                      the micropore tape covering the biomedical sensors.
+
+    Apollo 25. The Commander had subungual hemorrhages of both hands and a painful
+right shoulder. These hemorrhages were caused by an insufficient arm length of the
+pressure suit forcing the fingertips too far into the gloves during pressurized suit
+operation. The Commander purposely had the arm length of his pressure suit shortened
+preflight to permit better tactile sensation and manual dexterity during mission EVA
+operations. Pain in the Commander’s right shoulder was due to a muscle/ligament strain
+which responsed rapidly to heat therapy.
+
+   APOIIO26. All three crewmen suffered varying degrees of skin irritation a t the
+biosensor sites. This skin irritation resulted principally from the crew’s desire to wear the
+80                                    Biomedical
+                                            Results
+                                                 of Apollo
+
+
+biosensor harnesses     continuously     in order to save the 15 to 20 minutes required to apply
+these bioharnesses.     The irritation    subsided in 48 hours without medical treatment.    The
+Commander       had some sinus congestion       which       responded   to medication,   and also a slight
+reddening    and retraction    of the right tympanic    membrane.
+
+    Apollo 17. The two lunar surface crewmen developed subungual hematomas of both
+hands because of insufficient   arm length of their pressure suits as in Apollo 15. The
+Commander    also had a herpetic lesion on the right side of the upper lip, which was
+approximately     72 hours     old at the time of recovery.
+
+
+Postflight   Visual Findings
+
+     Although numerous trends were noted, statistically   significant changes between pre-
+and postflight testing were found only in the superior, superior-nasal, and temporal visual
+fields, each of which were constricted postflight. Only one other parameter     approached
+significance:   the unaided seven-meter   (20-ft) visual acuity, which also was decreased
+postflight. Etiology of these changes is unknown at this time.
+     An additional   point of interest is the result of a longitudinal        study of changes in
+intraocular   tension for Apollo astronauts    and astronauts     participating    in the Mercury
+and Gemini missions.       In the immediate      postflight   period,     and for a short time
+thereafter, a statistically significant    decrease in intraocular tension was found in all
+astronauts,  when compared        with their preflight   tension. The postflight intraocular
+tension reverted    to its preflight    value at a much slower rate than expected.        The
+reason for this slow return is unknown.
+    After    Apollo     11, all crewmen except one observed bright flashes of light while
+in orbit.    Retinal   photography   was considered to determine  whether the high energy
+particles believed to be responsible         for the phenomenon        produced   retinal lesions.
+     Photographs      were first made of the Apollo 15 crew. Preflight photographs                 were
+taken as part of the F-30 physical               examination,     and postflight   photographs     were
+made three        days after splashdown.         Although     no lesions were noted         in the eye
+grounds, some decrease was observed in the size of the retinal vessels. No statistical
+comparison       could be conducted,        however,     due to the low resolution         of the film
+used.
+     Retinal photography        was again conducted         on the Apollo 16 crewmen using high
+resolution    film. Comparison      of the pre- and postflight        films of this crew showed no
+change for the Lunar Module Pilot in the size of either retinal veins or arteries at
+approximately        three   hours   postflight.     The Command         Module    Pilot exhibited      a
+significant    decrease    in the size of both the veins and arteries                about    three and
+one-half hours after flight, and the Commander                 showed a decrease in only the veins
+after four hours. The degree of constriction               of retinal vasculature    in this crew was
+greater   and persisted         for a longer     time than   could be accounted    for by the
+vasoconstrictive  effect       of atmospheric     oxygen alone. The reason for this finding in
+the crew of Apollo 16 is unknown.
+    Retinal photographs were not taken              after     the Apollo   17 flight because    no lesions
+had been found on previous missions.
+                                 Clinical
+                                       Aspects
+                                           of Crew Health                                      81
+
+
+Special   Studies
+     The results of the special studies conducted     in the pre- and postflight  periods are
+detailed in Section III of this text. Only a brief summary of the significant findings in the
+postflight examination    are presented here.
+     The cardiovascular   system showed the most significant     and consistent   changes   in the
+Apollo crews. Resting and stressed heart rates were elevated in most all crewmen when
+compared to their preflight baseline tests. Blood pressures were labile; and the heart size
+as measured by the cardiothoracic      ratio was decreased by 1.02 (approximately           five
+percent). All crewmen demonstrated    some degree of cardiovascular deconditioning       during
+the lower body negative pressure tests in the immediate postflight period as compared to
+preflight measurements.   They likewise showed a poorer work response on the bicycle
+ergometer.   In both instances, the time required       for return to preflight baselines was
+usually three days, but ranged from two days to one week. The Apollo 15 Commander
+and Lunar Module Pilot demonstrated         a different response to exercise on the bicycle
+ergometer than observed in previous or subsequent       flight crews. Their response at low
+heart rate levels of work was comparable to their preflight baseline tests; but at the higher
+heart rate levels of work on the ergometer,      they showed the typical degraded work
+performance   capability.
+
+
+                                Summary     and   Conclusions
+
+      In summary,     the twenty-nine   Apollo astronauts accumulated   7506 hours of space
+flight experience     without encountering    any major medical problems. Perhaps the most
+significant   postflight   medical finding of Apollo was the absence of any pathology
+attributable   to space flight exposure. Those physiological   changes which did occur were
+all reversible within a two- to three-day period, with the exception of the Apollo 15 crew
+which required two weeks for complete return to preflight baselines. The most important
+physiological changes observed    were cardiovascular  deconditioning,  reduction  of red
+blood cell mass, and musculoskeletal   deterioration. Since all medical objectives of thc
+Apollo Program were successfully achieved, a sound medical basis existed          for committing
+man to the prolonged space flight exposure of Skylab.
+

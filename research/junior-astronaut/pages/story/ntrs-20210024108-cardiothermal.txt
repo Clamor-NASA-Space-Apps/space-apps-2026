@@ -1,0 +1,1318 @@
+CHAPTER 6. EVALUATION OF CARDIOTHERMAL MODEL PREDICTION
+OF SIMULATED LUNAR EXTRAVEHICULAR ACTIVITY
+
+   6.1 Summary
+
+   Fewer than 20 extravehicular activities were completed during the Apollo program. The lunar
+
+environment has consistent unknowns to address particularly that of suited performance in partial
+
+gravity. The moon has altered gravity that is 1/6th that of Earth’s. This study is focused to
+
+investigate validation of the regression techniques identified in subsequent chapters and look to
+
+improve predictive outcomes during simulated lunar EVA tasks. Heart rate predictions of
+
+metabolic energy expenditure are investigated from Chapter 5 to predict workload throughout
+
+simulated lunar EVA conducted in the active response gravity offload system (ARGOS) within
+
+the NASA Mark III space suit. Heart rate variability metrics developed from Chapter 3 are utilized
+
+to identify periods of high workload. Continually, the lunar offload capacity is further
+
+characterized to aid in improving the cardiothermal prediction models including predictions of
+
+core temperature, skin temperature and heat storage using heart rate, metabolic rates and suit
+
+thermal data during the simulated EVA. The outcome of this model provides an application for
+
+future use in contingency predictions of energy expenditure during Lunar EVAs and provide a
+
+suite of instrumentation to predict workload during training scenarios.
+
+   6.2 Background
+
+   Spaceflight is a limited environment with less than 600 people who have currently been to
+
+space and of those only 12 people have walked on the moon. Due to this limited availability, many
+
+analogs have been developed to test capabilities for exploration. Most of these analogs focus on
+
+low Earth orbit (LEO) for training and suited operations in microgravity [87], [88], [171], [214],
+
+[215]. However, as NASA and other space agencies prepare for exploration missions beyond LEO
+
+(e.g., the moon and Mars), there are immediate needs to establish ground-based high-fidelity
+facilities to support simulated partial-gravity operations. While there is no replacement for the
+
+partial gravity effects of spaceflight, NASA has developed several simulation environments, such
+
+as, the Partial-Gravity Simulator (POGO), Neutral Buoyancy Laboratory (NBL), parabolic flights
+
+and the active response gravity offload system (ARGOS) [216], [217]. Each of these simulation
+
+environments have limitations such as work volume, method to reduce gravity offloading and
+
+degrees of freedom. The POGO directly impacted participant task performance by only allowing
+
+(DOF) in the Y and Z axis while also creating significant overhead inertia and passive horizontal
+
+translation [218]. Parabolic flight environment allows for more DOF while providing offloading,
+
+though the work volume and duration are limitations (30 seconds per parabola) [219]. The NBL
+
+provides a large working volume incorporating International Space Station (ISS) mockup training
+
+while allowing full DOF. However, water drag is present effecting the participant during
+
+translation and movements [220].
+
+   Lastly, the ARGOS provides translational DOF in the horizontal X, Y axis and vertical Z axis
+
+(Figure 6.1). In addition to the full DOF the ARGOS also provides robotic active control of
+
+offloading, while also providing active control of translational axes movements removing the
+
+inertial effects of the system. The ARGOS uses a gimbal design to attach to the human or suit.
+
+Specifically, the active robotic components provide three translational DOF and the passive gimble
+
+designs provide three rotational DOF. Two different gimbal designs have been used, both have the
+
+ability to attach to the NASA Mark III (MK III) waist-ring interface and have customized
+
+adjustable center of gravity alignments for the operator [221], [222]. NASA’s JSC Human
+
+Performance, Physiology, Protection, and Operations (H-3PO) laboratory have used ARGOS to
+
+conduct a characterization of EVA metabolic rates simulating planetary exploration-class
+
+operations using spacesuit prototypes such as the MK III. [216]
+   The MK III is a planetary spacesuit assembly used to further assess EVA planetary exploration
+
+operations, such as, simulated lunar gravity (Figure 6.1). Historically, Lunar EVA exploration
+
+capabilities were tested Apollo A7L. The bioinformatics and portable life support systems (PLSS)
+
+for the A7L were designed from previous observations learned from earlier Gemini missions.
+
+Specifically, metabolic rates were collected using three different techniques, such as, differential
+
+pressure of the PLSS oxygen, heart rate estimations and heat balance of the liquid cooling garment
+
+(LCG). The Apollo missions were a huge success but there is room for improvement for future
+
+exploration suited operations.
+
+
+
+
+               Figure 6.1: NASA MK III within the ARGOS simulated EVA environment.
+
+   The MK III has been developed and utilized to evaluate technologies that can further extend
+
+planetary EVA capabilities beyond that of the A7L. One large change of the MK III prototype
+
+spacesuit compared to other spacesuits is the rear-entry donning/doffing capability. The MK III is
+also designed utilizing both hard and soft components. Main elements of the MK III prototype
+
+consist of a hard upper torso (HUT), rolling convolute shoulder design, brief and hip translation
+
+components, hip and waste abduction/adduction joints, and bearings incorporated in the upper arm,
+
+shoulder, hip, ankle and waist [223]–[225]. Also, the MK III neck ring allows for the coupling of
+
+a circular removable 13-inch helmet. The suit operates at a nominal 4.3 psig pressure allowing for
+
+gas flow rates of 6 ACFM. Breathing gas enters at the rear of the suit helmet via an inlet vent then
+
+the gas flows over the top of the head and over the front of the face for CO2 washout. Then the
+
+gas flows throughout the body and exits out the suit through an outlet at the lower back plate of
+
+the MK III. Main cooling of the suit operator is through a liquid cooling garment (LCG).
+
+   While, the MK III and ARGOS provide an environment to test partial-gravity EVA operations
+
+there are still unknowns as to how this simulated gravity offloading effects energy expenditure,
+
+cardiovascular workload and thermal strain within the suit. One of the limitations to monitor these
+
+objective measures is biomedical informatics and instrumentation. The first limitation is focused
+
+on the space suit, the limited space within the space suit and around the ARGOS gimble attachment
+
+leads to limited availability for space of instrumentation. This study identifies instrumentation to
+
+measure thermal loading of space suit operators within the MK III and ARGOS simulated EVAs,
+
+then drawing upon previous chapters correlated cardiovascular metrics and metabolic activity
+
+metrics are identified to help in predicting accurate physiologic responses to increasing workload.
+
+The correlations and predictive models aid in helping reduce the amount of instrumentation needed
+
+during training environments increasing fidelity during spaceflight EVA training.
+6.3 Methodology
+
+       6.3.1 Simulated Gravity Environment and MK III Space suit
+
+   The Active Response Gravity Offload System (ARGOS) was used to simulate the effects of
+
+offloading during data collection of a Lunar Metabolic Rate Characterization study. Within the
+
+simulated environment suit operators donned the rear-entry MK III space suit and were offloaded
+
+1/6th G offloading. Metabolic rate during the study was collected through CO2 calculated using a
+
+sensor (Vaisala GMP252) in the exhaust stream of the MK III suit REFERENCE. Heart rate for
+
+the study is collected from an H-10 Polar heart rate monitor. These measurements were collected
+
+every one second recorded via Raspberry PI 3B+. The above mentioned Lunar Metabolic Rate
+
+Characterization study was approved by the NASA Johnson Space Center IRB office as not human
+
+subject research as part of Human Health and Performance in Spacesuits During Exploration Task
+
+Simulations. Two suit operator (S1 and S2) performed two separate ARGOS simulations called
+
+Run 1 (R1) and Run 2 (R2) lasting three to five hours performing various metabolically demanding
+
+tasks. These tasks included EVA walkback to simulate walking to and from a lunar crater site.
+
+This walkback consisted of different walking grades on a treadmill to simulate going up and down
+
+lunar crater terrain. Tasks also included geology sampling, cognitive task loads and object
+
+relocation.
+
+       6.3.2 Suited Thermal Sensor Suite
+
+   A suited thermal sensor suite was developed to collect suited performance and human thermal
+
+regulation metrics during ARGOS MK-III testing. The thermal sensors were chosen to measure
+
+physiologic data of core temperature and skin temperature. Additionally, sensors were selected to
+
+measure suited thermal data including liquid cooling garment inlet and outlet temperature, in-suit
+
+gas inlet and outlet temperature as well as in-suit inlet and outlet humidity. Further below is a
+description of each sensor selected and the location during ARGOS MK-III testing. The controller
+
+for data storage and collection was a Raspberry PI model 3B+ and code that was written for data
+
+collection was Python.
+
+           6.3.2.1 Skin Temperature
+
+   Sensors to measure skin temperature were selected for minimizing space within the MK III.
+
+These sensors consisted of iButton DS1923 Hygrochron Temperature and Humidity Sensor. The
+
+hygrochron iButton sensor sampling rate was every one minute to conserve battery life. Each of
+
+the sensors collected localized temperature and humidity and were positioned directly on the skin
+
+underneath the LCG on the lower forearm, upper bicep, leg quadricep, leg calf, mid chest, and
+
+upper back secured with medical tape (Figure 6.2). From the six locations across the body, mean
+
+skin temperature was calculated from weighted average using the Ramanathan method (Eq 6.1)
+
+[226], [227]. The mean skin temperature calculation was used in comparisons of the cardiothermal
+
+regression model and METMAN thermal outputs.
+
+
+
+
+Figure 6.2: Local skin temperature measurements were taken via iButton DS1923 Hygrochron at six
+locations on the body. Measurements are used to calculated weighted mean skin temperature.
+
+
+
+                         𝑻𝒔 = 𝟎. 𝟑 ∗ (𝑻𝟏 + 𝑻𝟐) + 𝟎. 𝟐 ∗ (𝑻𝟑 + 𝑻𝟓)                      Eq. 6.1
+            6.3.2.2 Core Temperature
+
+    Core temperature was collected via the BodyCap eCelsius Performance ingestible pill (Figure
+
+6.3). The pill was ingested three to four hours before the participant donned the MK-III suit and
+
+started the EVA. The eCelsius Performance pill transmits in real-time to the eCelsius Viewer by
+
+RF transmission (433-434 Hz) and can also store data locally on the pill if connection is lost. The
+
+data that is stored is then offloaded onto the eCelsius Viewer upon re-established wireless
+
+connection. In this study it was chosen to store the data locally and offload the data after the EVA.
+
+The sampling rate was set to 30 seconds to allow for the total amount of data to be stored during
+
+the duration of the simulated EVA.
+
+
+
+
+Figure 6.3: Core temperature during the simulated EVA was collected via an ingestible pill three to four
+hours before the test start to ensure correct location was reached for accurate measurements.
+
+            6.3.2.3 Suit LCG Inlet and Outlet Temperatures
+
+    LCG inlet temperature provides an input to the human thermal model METMAN for accurate
+
+suit thermal regulation. In this study both inlet and outlet temperature were collected to not only
+
+provide input into the human thermal model but also to the cardiothermal regression to improve
+
+the prediction accuracty of metabolic rate, core temperature and skin temperature. LCG inlet and
+
+outlet temperatures were collected via 100 Ohm resistive temperature detectors (RTDs) that were
+
+inset into NPT pipe fittings. The RTD was connected to a resistance to digital converter
+
+MAX31865 breakout board for input to the Raspberry PI. A pipe fitting tree was designed to
+couple between with the ARGOS coolant supply and the MK-III LCG inlet/outlet ports (Figure
+
+6.4). This pipe fitting tree was also designed for quick disconnect to allow removal quickly in case
+
+of emergencies. The LCG temperature was sampled every one second and stored on the Raspberry
+
+PI.
+
+
+
+
+Figure 6.4: Liquid cooling garment inlet and outlet temperatures were gathered via two resistive temperature
+detectors located in a fittings tree coupled to the back of the MK III.
+
+             6.3.2.4 Suit Gas Temperature and Humidity
+
+      Similar to LCG inlet temperature, suit gas inlet humidity and temperature are expected inputs
+
+to the human thermal model METMAN for accurate thermal regulation characteristics of the suit.
+
+In this study the gas inlet and outlet temperatures and humidity are collected for the METMAN
+
+model but also to continue to improve the cardiothermal regression model correlations. The inlet
+
+suit gas temperature and humidity were collected using the iButton DS1923 Hygrochron
+
+Temperature and Humidity sensor located on the inside of the helmet (Figure 6.5). This was chosen
+
+due to its small size and location directly inline to the gas flow stream into the helmet for accurate
+
+readings. This inlet sensor was collected every one minute to conserve battery life of the iButton
+
+Hygrochron. The outlet temperature and humidity were collected via a Vaisala HMP7 Temperature
+
+and Humidity sensor located downstream of the suit exhaust. This sensor location is coupled to
+the exhaust a Vaisala GMP252 CO2 sensor used to calculate metabolic rate for the study (Figure
+
+6.6). This exact location was chosen to not interfere with the CO2 sensor as the main part of the
+
+
+
+
+Figure 6.5: Suit gas inlet temperature and humidity collected via an iButton Hygrochron positioned at the
+inlet of the helmet of the MK III.
+
+Lunar Metabolic Rate Characterization study by H-3PO. The Vaisala HMP7 connects to the
+
+Raspberry PI via a M12 to RS485 USB and collects by Modbus serial communication. The outlet
+
+temperature and humidity are collected every one second with the LCG inlet and outlet
+
+temperatures.
+
+
+
+
+Figure 6.6: Suit gas outlet temperature and humidity is collected using a Vaisala HMP7 temperature and
+humidity probe located downstream of the exhaust gas of the MK III suit.
+       6.3.3 Cardiothermal Correlations and Model Evaluation
+
+   The first cardiovascular and energy expenditure model tested was utilizing the technique
+
+developed from EVA datasets in Chapter 5. Linear regression modeling was fit using Python
+
+statsmodels regression linear model. An individualized linear regression was built from each
+
+subject R1 using metabolic Rate (BTU/hr) as the dependent variable of interest and heart rate as
+
+the independent variable. The regression model was then tested in each subject R2 using root mean
+
+square error as the determining factor of success from previous Apollo data [207]. Further, the
+
+simple metabolic regression model was improved by adding in corresponding MK III suit thermal
+
+independent terms creating a multiple regression including LCG inlet temperature, LCG outlet
+
+temperature, delta LCG temperature, inlet suit gas temperature, outlet suit gas temperature, delta
+
+suit gas temperature, inlet suit humidity, outlet suit humidity, and finally delta suit humidity. Single
+
+variable and multivariable models were compared to determine the most linear fit for predicting
+
+metabolic rate.
+
+   As a continuation the similar technique was used to determine a cardiothermal regression
+
+model to predict both core temperature and mean skin temperature during the subject R1 ARGOS
+
+simulations. First a simple regression was built for both core temperature and mean skin
+
+temperature as the dependent variables and independent terms of heart rate and metabolic rate were
+
+used. The regression model was then tested in each subject R2 utilizing root mean square error as
+
+the factor for success. The model for core temperature and mean skin temperature regressions were
+
+improved for multiple regressions using the same MK III suit terms of LCG temperature, suit gas
+
+temperature, and suit humidity. The simple and multiple regression models were compared to
+
+determine most linear fit for predicting core temperature and mean skin temperature. Further, the
+regression models were compared with outputs from a commonly used human thermal model
+
+METMAN.
+
+   HRV metrics were collected from the same techniques utilized in Chapter 3 using r-r intervals
+
+collected from the polar H-10 and computed using Kubios HRV 3.4.3 for further evaluation and
+
+artifact removal. Fast Fourier Transformation (FFT) was used with a 256 s window width and 50%
+
+overlap. Time domain features of standard deviation of normal-to-normal sinus beats (SDNN) and
+
+root mean square of successive difference (RMSSD) were compiled across R1 and R2 tasks for
+
+each suited operator. The low frequency power (LFnu) and high frequency power (HFnu) were
+
+calculated from the low frequency band (0.04-0.14 Hz) and the HF band (0.15-0.4 Hz)
+
+respectively. The LF/HF ratio was determined from the corresponding values. Additionally, HRV
+
+workload status outputs were manually investigated to observe whether high HRV determined
+
+workloads corresponded to high metabolic workload and thermal strain (i.e., increased core
+
+temperature, modeled heat storage).
+
+       6.3.3 Human Thermal Modeling
+
+   Considerable work has been conducted by engineers and physiologists to develop and simulate
+
+extreme thermal environments through mathematical models. The limited availability and access
+
+to these thermal environments (e.g., suited EVA and spaceflight) necessitates continual
+
+advancement of simulated human thermal regulation. Particularly with increased movement for
+
+planetary exploration operations and long duration spaceflight human thermal regulation during
+
+these scenarios will be close to impossible to conduct human based analog testing. Therefore,
+
+human thermal models such as METMAN (Metabolic Man), Wissler Model, TAITherm, and Fiala
+
+allow physiologic simulated responses to develop equipment requirements to encapsulate extreme
+
+contingency scenarios [46], [228]–[232].
+   Particularly, METMAN and Wissler models incorporate environmental thermal parameters
+
+associated with suited thermal dynamics. Used in this study is the 41-node transient metabolic man
+
+(METMAN). The model separates the body into ten segments consisting of head, arms, legs,
+
+hands, feet and torso. Each segment is further separated into four corresponding inner
+
+compartments or nodes consisting of skin, fat, muscle and core (Figure 6.7 A). The last node
+
+corresponds to a central blood node. Each compartment is described by mathematical
+
+representations of heat transfer between each node with the central blood node representing heat
+
+convection through the body segments (Figure 6.7 B).
+
+   In this study subject suited MK III thermal data was input into the METMAN model including
+
+LCG inlet temperature, in suit gas temperature, in suit gas humidity, external ARGOS
+
+                         A
+                                     B
+
+
+
+
+Figure 6.7: Adapted from Bue et al., 41-Node METMAN represented as 10 segments separating head, arms,
+legs, hands feet and torso further separated into skin, fat, muscle, core (A). Heat balance relation showing heat
+transfer between segment nodes of skin, fat, muscle and core including convective heat transfer due to blood
+flow (B).
+
+ambient air temperature and humidity. The inputs are used in the model to build the simulated
+
+mathematical representations of the suited environment. Outputs of the model include heat transfer
+
+metrics of the suit, such as, LCG heat transfer, suit heat transfer, evaporative, respiration and
+
+diffusion heat transfer values. Further, heat storage rate, heat storage total, core temperature, mean
+
+skin temperature, heat transfer due to shivering, sweat run off rates, latent heat and evaporative
+
+heat transfer are outputs that are used in correlation with collected ARGOS thermal data.
+
+    6.4 Results
+
+    Metabolic rate predicted from heart rate provided minute by minute evaluation of energy
+
+expenditure during simulated EVA. The predicted metabolic rate during the ARGOS simulated
+
+lunar EVA was less than the 200 BTU/hr RMSE threshold corresponding to the accuracy of the
+
+model technique from Chapter 5 and values determined during Apollo Lunar EVA. The accuracy
+
+of the metabolic linear model was improved lowering the RMSE values < 132 BTU/hr and
+
+increasing linearity R2 (> 0.72). This was done by increasing the input of independent terms
+through multiple regressions including MK III suit thermal data not previously collected during
+
+simulated training. The suited operator values core temperature, heart rate and metabolic rate for
+
+each ARGOS simulation can be shown in Table 6.1. Values for core temperature, heart rate and
+
+metabolic rates are less during R1 as higher metabolic tasks were planned in R2. Similarly, MK
+
+III suited thermal environment values can be found in Table 6.2 for the subsequent ARGOS
+
+simulations.
+
+Table 6. 1: Suited Operator Thermal and Cardiovascular Outputs
+
+                            Mean Skin Temp     Core Temp       Heart Rate     Metabolic Rate
+                 Operator
+                                  (°C)            (°C)           (bpm)           (BTU/hr)
+                  S1 R1       28.1 ± 1.19      36.7 ± 0.6        56 ± 8        597.4 ± 156.7
+                  S1 R2       27.2 ± 0.69      37.4 ± 0.5       84 ± 17        883.9 ± 364.0
+                  S2 R1       28.5 ± 0.55      37.4 ± 0.3       138 ± 18       859.3 ± 239.5
+                  S2 R2       29.4 ± 1.83      37.6 ± 0.3       143 ± 19      923.46 ± 305.2
+
+
+Table 6.2: MK III Thermal Environment Outputs
+
+                    LCG Inlet    LCG Outlet      Suit Inlet   Suit Outlet    Suit Inlet     Suit Outlet
+      Operator
+                    Temp (°C)    Temp (°C)      Temp (°C)     Temp (°C)     Humidity (%)   Humidity (%)
+       S1 R1       16.8 ± 2.20        -        23.0 ± 0.62    23.1 ± 0.25   22.5 ± 13.05    21.3 ± 4.48
+       S1 R2       14.8 ± 0.92   16.9 ± 0.90   22.1 ± 0.30    22.7 ± 0.19    11.1 ± 4.70   24.1 ± 10.50
+       S2 R1       14.5 ± 0.06   16.4 ± 0.21   22.2 ± 0.20    22.5 ± 0.12    22.7 ± 7.98    28.1 ± 6.52
+       S2 R2       15.2 ± 1.30   17.2 ± 1.15   22.2 ± 1.18    22.7 ± 0.27     9.9 ± 2.34    28.6 ± 9.65
+
+   Significant regression equations were found to predict metabolic rate first with the similar
+
+techniques identified in Chapter 5 (Table 6.3). Relationships between metabolic rate from heart
+
+rate showed linear trends during R1 with regression responses less than 200 BTU/hr shown in
+
+(Figure 6.8A & B). Subsequent significant multiple regressions were found improving the
+
+predictive characteristics of the model. The highest accuracy for S1 consisted of heart rate, LCG
+
+and suit outlet humidity (RH). LCG parameters for S1 had shown to be less likely to be correlated
+
+with metabolic rates while heart rate and outlet humidity showed increased correlations. The model
+
+with highest accuracy found for S2, allowed inputs of heart rate, LCG inlet temperature, delta LCG
+
+temperature and suit outlet RH (Table 6.3). In comparison to S1, S2 LCG components showed
+higher correlations to metabolic rates in the regression model. As a corollary, predicted metabolic
+
+rate signals for both S1 and S2 ARGOS simulation during R2 using the multiple regressions
+
+showed improved response accuracy, RMSE 175.37 BTU/hr and 177.16 BTU/hr respectively
+
+(Figure 6.9A & B).
+
+Table 6.3: Metabolic Rate Regression Model Predictors and Coefficients
+
+          PREDICTOR         TEST       COEFFICIENTS      SE       numDf   denDf   T-STAT    PVALUE
+
+
+    S1
+
+                           Intercept     344.0590       5056                      67.931
+             HR2                                                     1    10042             <0.0001
+                            Slope         0.0756       0.002                      44.791
+                           Intercept     335.9230      10.876                     30.887    <0.0001
+           HR2+LCG            X1          0.0761       0.002         2    10042   42.317    <0.0001
+                              X2          0.3932       0.465                      0.845      0.398
+                           Intercept     284.4705      11.466                     24.809    <0.0001
+                              X1          0.0748       0.002                      41.874    <0.0001
+          HR2+LCG+RH                                                 3    10042
+                              X2          0.0888       0.462                      0.192      0.847
+                              X3          2.8352       0.215                      13.199    <0.0001
+
+    S2
+
+                           Intercept      42.3454       6.674                      6.344
+             HR2                                                     1    7147              <0.0001
+                             Slope         0.0415      < 0.001                    128.585
+                           Intercept       12270       511.797                     23.971
+           HR2+LCG            X1           0.0452      < 0.001       2    7147    130.250   <0.0001
+                              X2         -849.3019     35.550                     -23.891
+                           Intecept        18490       674.452                     27.417
+                              X1           0.0455      < 0.001                    132.652
+         HR2+LCG+ΔLCG         X2         -1215.8689     43.863       3    7147    -27.720   <0.0001
+                             X3           -526.7327     37.837                    -13.921
+                           Intercept        16440      755.483                     21.766
+                              X1            0.0452     < 0.001                    130.706
+    HR+LCG+ΔLCG+RH            X2         -1070.2644     50.115       4    7147    -21.356   <0.0001
+                              X3          -475.4377     38.715                    -12.281
+                              X4           -6.2176      1.043                      -5.960
+      A                                                       B
+
+
+
+
+Figure 6.8: Predicted regression responses of the first run for both suited operators. Suited operator one R1
+metabolic rate regression built from only heart rate inputs column (A). Suited operator two R1 metabolic
+regression built from only heart rate inputs column (B). Both responses yield RMSE < 150 BTU/hr.
+
+      A                                                        B
+
+
+
+
+Figure 6.9: ARGOS R2 lunar EVA simulations predicted metabolic rate outputs from regression model for
+both suit operator S1 (A) and suit operator S2 (B) ARGOS R2 simulations. Both RMSE < 200 BTU/hr.
+
+    Predicting core temperature and mean skin temperature was found utilizing the same linear
+
+regression observations that were used to determine metabolic rate. It was found that for simple
+
+single linear regressions a significant regression equation was found for both heart rate and
+metabolic rate as the independent predictors for core temperature and mean skin temperature
+
+(Table 6.4, Table 6.5). Additionally, the metric developed in chapter 5 of MR/HR as a BTU/beat
+
+showed correlations through a significant regression equation with core temperature. Additionally,
+
+delta LCG temperature and suit outlet RH also showed significant regression equations in
+
+predicting core temperature. However, LCG inlet temperature alone did not have a high correlation
+
+in the predictions of core temperature regressions.
+
+   While these regression equations were significant, the accuracy and linearity of the model was
+
+lower for the single input models. The core temperature and mean skin temperature linear models
+
+were improved by adding multiple regression terms using the highest correlated single terms such
+
+as, MK III thermal suited metrics of delta LCG inlet temperature, suit gas outlet RH values,
+
+metabolic rate and MR/HR values (Table 6.4, Table 6.5). For S1 the core temperature model with
+
+the most accuracy consisted of the terms metabolic rate (MR), MR/HR and outlet RH, RMSE 0.46
+
+C. While for S2 the most accuracy was attained using MR, MR/HR, Δ LCG, and suit outlet RH,
+
+RMSE 0.12 C. In comparison, the thermal model METMAN outputs of core temperature showed
+
+similar correlations to the regression models. The METMAN output of core temperature for S1
+
+R2 resulted in higher accuracy with RMSE 0.29 C (Figure 6.10 A, Figure 6.11 A). While the S2
+
+core temperature regression model outperformed the METMAN output, RMSE 0.12 and 0.23 C
+
+respectively (Table 6.6).
+
+   Conversely to core temperature, mean skin temperature had shown more reactive responses to
+
+changes in LCG while lowest responses were attributed to HR, MR, and RH values. The highest
+
+mean skin temperature regression consisted of values of MR/HR and LCG inlet for S1 RMSE 0.67
+
+C and MR/HR, LCG and Δ LCG for S2, RMSE 0.74 C. The regression model for mean skin
+
+temperature outperformed the METMAN predicted mean skin temperature (Table 6.6). Values in
+comparison for mean skin temperature were S1 (0.67 C) and S2 (0.74 C) compared to METMAN
+
+mean skin temp RMSE 1.02 C and 1.12 C respectively (Figure 6.10 B, Figure 6.11 B).
+
+Table 6. 4: Core Temp Regression Model Predictors and Coefficients
+
+        PREDICTOR         TEST        COEFFICIENTS       SE          numDf   denDf   T-Stat    PVALUE
+
+  S1
+                        Intercept       37.3254         0.245                        152.239   < 0.0001
+            HR                                                         1     210
+                          Slope         -0.0110         0.005                         -2.397     0.017
+                        Intercept       37.6897         0.112                        335.885
+            MR                                                         1     210               < 0.0001
+                          Slope         -0.0016        < 0.001                        -8.590
+                        Intercept       37.6799         0.125                        302.553
+          MR/HR                                                        1     210               <0.0001
+                          Slope         -0.0858         0.011                         -7.643
+                        Intercept       36.5797         0.174                        210.144   < 0.0001
+            LCG                                                        1     210
+                          Slope          0.0093         0.010                          0.929     0.354
+                        Intercept       36.4892         0.097                        377.635   < 0.0001
+       Suit Outlet RH                                                  1     210
+                          Slope          0.0116         0.004                          2.669     0.008
+                        Intercept       37.4842         0.143                        262.291
+                            X1          -0.0013        < 0.001                        -3.515
+   MR+MR/HR+RH                                                         3     210               < 0.0001
+                            X2          -0.0223         0.021                         -1.052
+                            X3           0.0118         0.004                          3.159
+  S2
+                        Intercept        36.7886        0.122                        301.553
+            HR                                                         1     303               < 0.0001
+                          Slope           0.0042        0.001                          4.715
+                        Intercept        37.3873        0.062                        600.442   < 0.0001
+            MR                                                         1     303
+                          Slope         -0.00003       <0.001                         -0.472     0.637
+                        Intercept        37.7094        0.085                        445.873
+          MR/HR                                                        1     303               <0.0001
+                          Slope          -0.0572        0.014                         -4.221
+                        Intercept         2.6477        3.767                          0.703     0.483
+            LCG                                                        1     303
+                          Slope           2.3900        0.259                          9.214   < 0.0001
+                        Intercept        34.9333        0.106                        330.843
+           Δ LCG                                                       1     303               < 0.0001
+                          Slope           1.2986        0.056                         23.074
+                        Intercept        36.1141        0.060                        605.313
+       Suit Outlet RH                                                  1     303               < 0.0001
+                          Slope           0.0489        0.002                         21.192
+                        Intercept        34.8380        0.107                        324.745
+                            X1            0.0042        0.001                          4.865
+  MR+MR/HR+ΔLCG                                                        3     303               < 0.0001
+                            X2           -0.0004       < 0.001                        -6.751
+                            X3            1.2352        0.057                         21.592
+                        Intercept        35.1998        0.103                        340.818   < 0.0001
+                           X1            0.0001        < 0.001                        1.874     0.062
+       MR+MR/HR+
+                           X2            -0.0396        0.014          4     303     -2.840    < 0.0001
+        +ΔLCG+RH
+                           X3             0.8563        0.056                        15.163    < 0.0001
+                           X4             0.0272        0.002                        12.095    < 0.0001
+Table 6.5: Mean Skin Temperature Regression Model Predictors and Coefficients
+
+        PREDICTOR         TEST       COEFFICIENTS       SE       numDf   denDf   T-Stat    PVALUE
+
+  S1
+                        Intercept       27.8335        0.577                     48.219    < 0.0001
+            HR                                                     1      151
+                          Slope         0.0122         0.010                     1.210       0.228
+                        Intercept       28.0063        0.345                     81.281    < 0.0001
+            MR                                                     1      151
+                          Slope         0.0008         0.001                     1.554       0.122
+                        Intercept       27.7478        0.525                     52.898    < 0.0001
+          MR/HR                                                    1      151
+                          Slope         0.0698         0.047                     1.501       0.136
+                        Intercept       22.7698        0.506                     44.987
+            LCG                                                    1      151              < 0.0001
+                          Slope         0.3329         0.029                     11.464
+                        Intercept       28.3995        0.398                     71.406    < 0.0001
+       Suit Outlet RH                                              1      151
+                          Slope         0.0058         0.018                     0.320       0.749
+                        Intercept       20.6448        0.658                     31.370
+       MR/HR+LCG            X1          0.1520         0.033       3      151    4.658     < 0.0001
+                            X2          0.3581         0.028                     12.908
+  S2
+                        Intercept       26.9176        0.336                      80.074
+            HR                                                     1      151              < 0.0001
+                          Slope          0.011         0.002                       4.519
+                        Intercept       28.1315        0.171                     164.323   < 0.0001
+            MR                                                     1      151
+                          Slope          0.0003       < 0.001                      1.773     0.078
+                        Intercept       28.5896        0.240                     119.305   < 0.0001
+          MR/HR                                                    1      151
+                          Slope         -0.0273        0.039                      -0.704     0.482
+                        Intercept      -33.1389       10.169                      -3.259     0.001
+            LCG                                                    1      151
+                          Slope          4.2398        0.700                       6.054   < 0.0001
+                        Intercept       23.2180        0.248                      93.711
+           Δ LCG                                                   1      151              < 0.0001
+                          Slope          2.7874        0.132                      21.105
+                        Intercept       26.5024        0.124                     214.385
+       Suit Outlet RH                                              1      151              < 0.0001
+                          Slope          0.0685        0.004                      15.964
+                        Intercept       25.1136        6.458                       3.889
+                            X1          -0.0552        0.019                      -2.883
+  MR/HR+LCG+ΔLCG                                                   3      151              < 0.0001
+                            X2          -0.1134        0.456                      -0.249
+                            X3           2.8337        0.153                      18.527
+                 A
+
+
+
+
+                 B
+
+
+
+
+Figure 6.10: Core temperature and mean skin temperature predicted outputs compared to original measured
+values for S1 ARGOS EVA simulation R2. Core temperature predictions using the multiple regression model
+of physiologic inputs with suit thermal inputs showed prediction results similar to that of METMAN thermal
+outputs (A). Mean skin temperature prediction showed that the regression model performed at higher
+accuracy than METMAN simulated outputs (B).
+
+
+                A
+
+
+
+
+                B
+
+
+
+
+Figure 6. 11: Core temperature and mean skin temperature predicted outputs compared to original measured
+values for S2 ARGOS EVA simulation R2 first two hours. Core temperature predictions using the multiple
+regression model of physiologic inputs with suit thermal inputs showed to have better accuracy compared to
+results of METMAN thermal outputs (A). Mean skin temperature prediction showed that the regression
+model also performed at higher accuracy than METMAN simulated outputs (B).
+Table 6.6: Thermal measured values compared to METMAN and cardiothermal regression predictions.
+
+                                                                   Core       Mean                                                       Skin
+                                      METMAN                                                METMAN          METMAN       Regression     Temp
+              Core     METMAN                     Regression      Temp         Skin
+ Operator                               RMSE                                                Skin Temp         RMSE       Skin Temp      RMSE
+              (°C)     Core (°C)                  Core (°C)       RMSE        Temp
+                                       Core (C)                                                (°C)          Skin (C)       (°C)         (C)
+                                                                   (C)         (°C)
+              37.5                                                            27.2 ±
+  S1 R2                37.4 ± 0.3          0.29   37.6 ± 0.2          0.46                  28.4 ± 0.5           1.02     27.4 ± 0.4     0.67
+              ± 0.5                                                             0.7
+              37.6                                                            27.4 ±                             1.15                    0.74
+  S2 R2                37.3 ± 0.2          0.23   37.5 ± 0.2          0.12                  29.3 ± 0.4                    26.5 ± 0.7
+              ± 0.3                                                             0.5
+
+
+    HRV metrics of were obtained utilizing the same techniques on Chapter 3. During increased
+
+metabolically demanding tasks LF values were shown to increase while HF values were shown to
+
+decrease for both S1 and S2 (Table 6.7 and Table 6.8). As a result, LF/HF values were shown to
+
+also increase due to metabolically demanding tasks. HF values showed more sensitivity during R2
+
+tasks than LF values compared to R1 simulated EVAs.
+
+    Time domain features of RMSSD and SDNN values were higher during tasks with higher
+
+metabolic rates and decreased with decreasing metabolic demand (Table 6.9, Table 6.10). This
+
+corresponds directly to increased maximum and minimum heart rates during increased metabolic
+
+loading. Non-linear metrics of SD1 showed to decrease with lowering metabolic demand while
+
+SD2 showed to increase with increasing metabolic rates. The ratio of SD2/SD1 showed to increase
+
+with higher metabolic demanding tasks. DFA Alpha-2 had shown to increase with tasks requiring
+
+higher metabolic loads (Table 11, Table 12).
+
+Table 6.7: Task based metabolic rates and HRV frequency domain metrics of S1 and S2 R1 simulated EVA.
+
+                 Metabolic Rate (BTU/hr)                  LF (n.u.)                         HF (n.u.)                          LF/HF
+    Task
+                      S1              S2           S1                  S2              S1                 S2            S1              S2
+
+    Suit          478.54 ±          679.13 ±
+                                                  42.13               56.90        57.86                 43.04          0.73           1.32
+  Settings         52.22             159.36
+
+  Primus          660.94 ±          752.84 ±
+                                                  79.31               83.90        20.68                 16.07          3.84           5.22
+ Movement          79.55             101.21
+
+  Object          904.33 ±      1093.22 ±
+                                                  81.65               85.51        18.34                 14.46          4.45           5.91
+ Relocation        246.98         227.75
+
+                  781.34 ±          539.69 ±
+   “Rest”                                         62.95               71.51        37.03                 28.48          1.70           2.511
+                   244.10            75.75
+Table 6.8: Task based metabolic rates and HRV frequency domain metrics of S1 and S2 R2 simulated EVA.
+
+                        Metabolic Rate (BTU/hr)                       LF                         HF                           LF/HF
+      Task
+                            S1               S2             S1              S2            S1            S2              S1            S2
+
+    Up/Down             732.16 ±         601.83 ±
+                                                           87.86           82.48         12.11         17.49           7.25           4.72
+     Ladder              64.92            62.18
+
+                        1114.59 ±        931.72 ±
+   1.5 Km walk                                             78.56           79.93         21.41         20.05           3.67           3.99
+                         130.70           120.66
+
+                        798.75 ±         872.31 ±
+      Geo 1                                                81.65           74.83         18.31         25.15           4.46           2.98
+                         120.93           130.65
+
+                        1328.01 ±        1413.37 ±
+   30% 500m                                                88.94           89.98         11.03         10.09           8.06           8.91
+                         311.62           239.75
+
+                        770.20 ±         879.53 ±
+      Geo 2                                                84.60           60.85         15.38         39.09           5.50           1.56
+                         126.23           185.04
+
+                        1203.18 ±        1201.40 ±
+   20% 500m                                                86.95           85.68         13.02         14.30           6.68           5.99
+                         273.13           161.52
+
+                        945.88 ±         1092.32 ±
+  Obj Relocation                                           71.71           80.47         28.22         19.50           2.54           4.13
+                         176.45           216.04
+
+   10 % Grade           1116.78 ±        1212.31 ±
+                                                           77.28           78.70         22.70         21.24           3.40           3.71
+      500m               183.01           183.95
+
+                        629.63 ±         564.37 ±
+     “Rest”                                                70.18           72.18         29.76         27.80           2.36           2.60
+                         12.98            48.09
+
+   2 Km walk            1321.11 ±        1231.48 ±
+                                                           89.92           82.75         10.06         17.19           8.94           4.81
+      back               271.57           242.08
+
+
+
+Table 6.9: Task based metabolic rates and HRV Time Domain metrics of S1 and S2 R1 simulated EVA.
+
+                     Metabolic Rate
+                                                     Mean RR               Max HR          Min HR              RMSSD                SDNN
+                       (BTU/hr)
+   Task
+                   S1               S2              S1           S2        S1      S2     S1     S2       S1       S2          S1            S2
+
+    Suit         478.54 ±        679.13 ±
+                                                  1213.0    538.90         75      156    41     62      133.3    56.21       99.33        59.0
+  Settings        52.22           159.36
+
+  Primus         660.94 ±        752.84 ±
+                                                  1197.2    508.16         76      155    41     89      43.61    31.28       51.53     48.78
+ Movement         79.55           101.21
+
+  Object         904.33 ±        1093.22 ±
+                                                  848.7     397.31         92      170    50     116     25.61    3.81        37.30        7.06
+ Relocation       246.98          227.75
+
+                 781.34 ±        539.69 ±
+   “Rest”                                         1085.7    430.82         67      169    48     83      31.06    14.39       30.09     20.22
+                  244.10          75.75
+Table 6.10: Task based metabolic rates and HRV Time Domain metrics of S1 and S2 R2 simulated EVA.
+
+                 Metabolic Rate
+                                            Mean RR              Max HR             Min HR             RMSSD                    SDNN
+                   (BTU/hr)
+   Task
+                 S1           S2        S1             S2       S1          S2      S1    S2      S1           S2          S1           S2
+
+  Up/Down     732.16 ±     601.83 ±
+                                      802.03         622.82     91      127         60    64     23.91     43.50         35.86         59.54
+   Ladder      64.92        62.18
+
+  1.5 Km      1114.59 ±    931.72 ±
+                                      712.72         488.89     119     136         57    74     22.89     13.87         26.12         18.68
+   walk        130.70       120.66
+
+              798.75 ±     872.31 ±
+   Geo 1                              689.27         479.25     136     142         62    80     17.69     12.49         25.50         19.79
+               120.93       130.65
+
+   30%        1328.01 ±    1413.37
+                                      701.81         393.69     109     197         65    97     19.09     8.29          30.94         11.83
+   500m        311.62      ± 239.75
+
+              770.20 ±     879.53 ±
+   Geo 2                              893.25         443.66     80      155         59    89     27.70     7.59          39.18         14.99
+               126.23       185.04
+
+   20%        1203.18 ±    1201.40
+                                      945.21         398.05     79      162         55    128    32.60     3.16          48.46         5.83
+   500m        273.13      ± 161.52
+
+  Object      945.88 ±     1092.32
+                                      992.74         380.20     105     168         54    136    40.56     2.15          51.95         4.44
+ Relocation    176.45      ± 216.04
+
+   10 %
+              1116.78 ±    1212.31
+   Grade                              1002.95        391.66     78      172         52    95     30.66     7.93          38.86         12.03
+               183.01      ± 183.95
+   500m
+
+              629.63 ±     564.37 ±
+   “Rest”                             778.91         534.92     115     130         50    74     32.76     29.59         31.22         47.31
+               12.98        48.09
+
+  2 Km        1321.11 ±    1231.48
+                                      682.66         394.99     113     171         62    82     15.27     6.60          26.13         11.00
+ walk back     271.57      ± 242.08
+
+
+
+Table 6.11: Task based metabolic rates and HRV non-linear metrics of S1 and S2 R1 simulated EVA.
+
+                 Metabolic Rate
+                                              SD1                     SD2                   SD2/SD1            Alpha-1            Alpha-2
+                   (BTU/hr)
+   Task
+                S1           S2        S1            S2        S1            S2           S1       S2      S1       S2           S1      S2
+
+    Suit      478.54 ±    679.13
+                                      94.85         40.02     140.8     138.80           1.48     3.47     0.91     1.12        0.96    0.86
+  Settings     52.22      ± 159.36
+
+  Primus      660.94 ±    752.84
+                                      31.75         22.52     182.5     106.53           5.75     4.73     1.40     1.35        1.04    0.91
+ Movement      79.55      ± 101.21
+
+  Object      904.33 ±    1093.22
+                                      18.80         2.75      239.3         55.65        12.73    20.24    1.40     1.52        1.25    1.13
+ Relocation    246.98     ± 227.75
+
+              781.34 ±    539.69
+   “Rest”                             21.56         10.28     21.56         77.08        4.96     7.50     1.32     1.07        1.30    0.92
+               244.10     ± 75.75
+Table 6.12: Task based metabolic rates and HRV non-linear metrics of S1 and S2 R2 simulated EVA.
+
+                 Metabolic Rate
+                                              SD1                    SD2               SD2/SD1       Alpha-1       Alpha-2
+                   (BTU/hr)
+   Task
+                 S1          S2        S1            S2      S1             S2       S1      S2     S1     S2     S1     S2
+
+  Up/Down     732.16 ±    601.83 ±
+                                      17.31         31.14   115.77         131.95   6.69     4.24   1.47   1.34   1.11   0.89
+   Ladder      64.92       62.18
+
+  1.5 Km      1114.59 ±   931.72 ±
+                                      16.44         8.97    217.38         52.23    13.22    5.82   1.41   1.43   1.24   0.88
+   walk        130.70      120.66
+
+              798.75 ±    872.31 ±
+   Geo 1                              12.85         9.91    140.46         47.22    10.93    4.76   1.62   1.49   1.27   1.04
+               120.93      130.65
+
+   30%        1328.01 ±   1413.37 ±
+                                      13.76         5.99    155.24         54.67    11.28    9.13   1.57   1.51   1.13   0.98
+   500m        311.62      239.75
+
+              770.20 ±    879.53 ±
+   Geo 2                              19.93         5.47    79.21          49.28    3.97     9.00   1.45   1.68   0.92   1.07
+               126.23      185.04
+
+   20%        1203.18 ±   1201.40 ±
+                                      23.49         2.28    90.85          28.24    3.87    12.34   1.51   1.63   0.76   1.31
+   500m        273.13      161.52
+
+    Obj       945.88 ±    1092.32 ±
+                                      29.02         1.57    97.98          19.37    3.37    12.30   1.41   1.56   0.94   1.28
+ Relocation    176.45      216.04
+
+   10 %
+              1116.78 ±   1212.31 ±
+   Grade                              22.12         5.67    111.09         43.73    5.02     7.71   1.43   1.46   1.07   1.20
+               183.01      183.95
+   500m
+
+              629.63 ±    564.37 ±
+   “Rest”                             23.45         21.25   298.70         76.30    12.74    3.60   1.20   1.39   1.43   0.87
+               12.98       48.09
+
+  2 Km        1321.11 ±   1231.48 ±
+                                      11.03         4.74    148.30         42.32    13.45    8.92   1.46   1.52   1.02   1.20
+ walk back     271.57      242.08
+
+
+    6.5 Discussion
+
+    The first objective of this chapter was to determine if the techniques developed in subsequent
+
+chapters could predict metabolic and workload rates. Metabolic rates and demand were predicted
+
+using a simple linear regression from heart rates for simulated Lunar EVA in the ARGOS. These
+
+simple linear regressions were comparable to RMSE error values determined during Apollo Lunar
+
+EVAs, the threshold being less than 200 BTU/hr. Utilizing the additional factors of thermal
+
+instrumentation on the MK III the metabolic rate regression model accuracy was increased by
+
+adding more terms. These thermal suit parameters of inlet LCG temperature, outlet LCG
+
+temperature, suit inlet/outlet temperature as well as suit inlet/outlet humidity provided extra
+
+environmental factors that attribute to human thermal regulation and ultimately effect metabolic
+
+energy expenditure. The final accuracy for suited operator predicted outputs decreased RMSE to
+< 180 BTU/hr while also capturing increased R2 of greater than 0.72. During the S1 R1 simulated
+
+EVA the outlet LCG values were not capture due to technical error. As a result, the regression for
+
+S1 R2 did not include ∆LCG temperature which caused a slightly higher RMSE compared to the
+
+S1 R2 model.
+
+   As the general metabolic regression models increases in linearity with increased term inputs,
+
+there are still some pitfalls that occur with this technique. The model is only as good as the input
+
+values of metabolic rates and thermal parameters. Due to this fact, the regression model does lose
+
+resolution when attempting to predict high peak metabolic values greater than 1400 BTU/hr. In
+
+turn, the model also loses resolution when predicting absolute minimum values of < 400 BTU/hr
+
+(Figure 6.9A and B). However, the heart rate determinations of metabolic energy expenditure can
+
+provide an accurate prediction in a minute-by-minute real-time environment. This factor can be
+
+improved by incorporating individual crew responses of a range of metabolic activity with
+
+correlated cardiovascular function.
+
+   The second objective for this chapter was to build upon those techniques to determine thermal
+
+loading with the simulated lunar EVA environment. Simulations were completed using the
+
+METMAN model. The model provides a representation of the suited environment during EVA.
+
+Incorporated in this representation is the outer suit environment. In this situation the outer suit
+
+environment consisted of the lab ambient metrics. Additionally, the added thermal sensor suite
+
+allowed for a higher accurate representation of the inner MK III suited environment during Lunar
+
+simulated EVA tasks. These higher accurate inputs allowed for better representation of suited
+
+operator thermal regulation and changes of metabolic activity. Corresponding outputs yielded
+
+simulated core temperature and mean skin temperature responses over time for various thermal
+
+loading. The simulated predictions of core temperature had shown to have general correlations for
+accurate predictions, however for S1 the METMAN outputs did not respond quickly to
+
+temperature inflections (Figure 6.10 A). However, simulated predictions of S2 provided a more
+
+stable response to core temperature (Figure 6.11 A). The variability in the core temperature
+
+inflections during the R2 simulated EVAs could be attributed to the physiologic efficiency of the
+
+cardiovascular response to activity loads. The mean heart rate for suited operator S1 was
+
+significantly lower than that of suited operator S2 during rest and high metabolic loading (Table
+
+6.1). The responses of quick increases and decreases of core temperature could be due to the
+
+efficiency of S1 expelling heat to the periphery. In the METMAN simulations the physiology of
+
+blood flow and cardiovascular changes is hard set to a general orientation that may not capture the
+
+variation of subject variability and cardiovascular fitness.
+
+   As a comparison to METMAN and to provide a quicker minute by minute determination of
+
+thermal loading, the similar technique of linear regressions was built for core temperature
+
+regressions. These regressions were built using heart rates, metabolic rates and suit thermal
+
+parameters. The predictions for S1 had shown to be comparable to the METMAN simulated core
+
+temperature and within 0.5 °C RMSE of original core temperature (Table 6.6). The thermal
+
+regression model for S1 had also shown a slight delay during quick decreases in core temperature
+
+(Figure 6.9 A). This factor for the regression model could be attributed to the use of only inlet
+
+LCG instead of the ∆LCG due to the S1 R1, attributed to technical error, to which the regression
+
+was built. Additionally, it was noted that during the S1 R1 simulated EVA the suit operator turned
+
+off the flow to the LCG at various times. However, from this regression model it was determined
+
+that the metric of MR/HR developed in Chapter 5 provided a good linear response incorporating
+
+both heart rate and metabolic rate components. This attributed to an added metric for multiple
+regression terms and could provide a conversion factor if heart rate or metabolic rate
+
+instrumentation fails.
+
+   The thermal responses for S2 R2 was separated into two segments. This was due to a built-in
+
+break for the suited operator that had affected the core temperature values during this duration. For
+
+both segments the METMAN model predicted the total core temperature accurately with an RMSE
+
+output of 0.23 °C. As mentioned earlier the S2 suited operator had high heart rates that could be
+
+attributed with higher metabolic demand and less thermal efficiency. The core temperature in
+
+general for S2 R2 run did not have drastic inflection points but rather stayed constant in subtle
+
+slope changes at high core temperature values. During the S2 R2 regression predictions the core
+
+temperature had outperformed the METMAN modeling outputs. The regression for core
+
+temperature had term inputs for ∆LCG which added to that accuracy leading to a 0.12 °C RMSE.
+
+It was also noted that during the S2 R1 simulated EVA the suited operator did not turn off the LCG
+
+allowing for more consistent cooling and less inflections in the built regression model.
+
+   In addition to core temperature outputs the mean skin temperature was predicted using both
+
+the METMAN model and the regression techniques. The mean skin temperature regression model
+
+outperformed the METMAN model attributed to mean skin temperature. The METMAN model
+
+lagged the starting signal of mean skin temperature compared to both the original signal and the
+
+regression model. It could be attributed to heat transfer lags and heat storage thresholds within the
+
+model. The RMSE for both S1 and S2 predictions had shown to be relatively high with greater
+
+than 1 °C RMSE. The regression model showed slightly more accurate results during S1
+
+predictions versus S2 predictions. This could be attributed to S1 turning off LCG flow at various
+
+times through out the R1 simulated EVA whereas S2 did not turn off LCG flow. The temperature
+values then would result in higher range of mean skin temperatures in the regression for S1 leading
+
+to more accurate predictions during the R2 simulated EVA.
+
+   A basis for heat generation within the body has a dependency on workload and energy
+
+expenditure. As workload was shown to increase for the EVA task metabolic rates in turn increased
+
+as a result for both suit operators during both ARGOS simulations. As a correlated response
+
+cardiovascular metrics shown through also shifted with increasing and decreasing metabolic
+
+demand. It was found through the same techniques used in Chapter 3, HRV metrics could be used
+
+to view cardiovascular responses to increased energy expenditure. The main metrics in a flight
+
+environment that determined stress responses were that of frequency domain metrics LF, HF and
+
+LF/HF. In this study as metabolic demand increased LF/HF values also increased suggesting
+
+sympathetic dominance. As a corollary, it was also seen that LF values increased while HF values
+
+decreased also solidifying the observation of sympathetic response to increased energy expenditure
+
+and resultant increased workload. Further, short-term metrics of RMSSD and SDNN had shown
+
+to decrease with increased metabolic activity corresponding to increases in maximum and
+
+minimum heart rates as well as mean RR intervals.
+
+   Additionally, non-linear metrics corresponding to Poincare plot designators SD1 and SD2
+
+show to have inverse shifts depicting interrelation of short-term and long-term autonomic
+
+responses to changing workloads. SD1 decreased more drastically with increased metabolic
+
+demand suggesting that with higher metabolic costing tasks short-term stress responses of the
+
+sympathetic nervous system increase. This is further seen when SD2 increases at those high
+
+metabolic tasks. Continually, Alpha-1 term for detrended fluctuation analysis shows decreased
+
+values of signal complexity at low metabolic loads while increasing in complexity for high
+
+metabolic demand. This further points to the short-term stress responses of sympathetic dominance
+for increased workload. However, Alpha-2 term also does show decreased values at low workloads
+
+with slightly higher values for high metabolic tasks suggesting a connection to long-term stress
+
+responses. These HRV values show similar stress response in those seen in Chapter 3 with
+
+increased stress responses attributed to short-term HRV metrics. Pointing to the use of HRV to
+
+determine metabolic increased workload and increased stress responses on task.
+
+   6.6 Conclusions
+
+   In this chapter techniques were validated and further utilized to predict energy expenditure and
+
+thermal loading during simulated Lunar EVA in the MK III space suit. A thermal sensor suite was
+
+developed to gather suit operator core temperature and mean skin temperature while also gathering
+
+suit thermal data of liquid cooling garment temperature, suit temperature and suit humidity
+
+changes. The thermal data in tandem with cardiovascular metrics and metabolic rates were used to
+
+develop linear regression models to predict thermal loading. Techniques of metabolic prediction
+
+using heart rates were used from Chapter 5 to build upon improved prediction models for suited
+
+training. These same techniques were used to develop a cardiothermal regression model to predict
+
+core temperature and mean skin temperature of the suit operator during training scenarios. The
+
+regression models were comparable to outputs from a popular human thermal regulation model
+
+METMAN and at times outperforming predictions of mean skin temperature. Additionally, HRV
+
+metrics identified from Chapter 3 were used to further define high metabolic demanding tasks
+
+corresponding to increased sympathetic dominance and short-term stress responses. Ultimately,
+
+these techniques can further space suit development by adding elements of predictive human
+
+performance for improved training scenarios during simulated gravity EVA.
+References
+[87]  J. R. Braden and D. L. Akin, “Development and Testing of a Space Suit Analogue for Neutral
+      Buoyancy EVA Research,” Jul. 2002, pp. 2002-01–2364. doi: 10.4271/2002-01-2364.
+[88] I. L. Schlacht et al., “Space Analog Survey: Review of Existing and New Proposal of Space
+      Habitats with Earth Applications,” Jul. 2016, Accessed: Aug. 02, 2019. [Online]. Available:
+      https://ttu-ir.tdl.org/handle/2346/67692
+[171] D. E. Watenpaugh, “Analogs of microgravity: head-down tilt and water immersion,” Journal of
+      Applied Physiology, vol. 120, no. 8, pp. 904–914, Feb. 2016, doi:
+      10.1152/japplphysiol.00986.2015.
+[207] M. Wuligoru, R. Huwkins, G. F. Humbert, and L. H. KEcznetz, “APOLLO EXPERIENCE
+      REPORT - ASSESSMENT OF METABOLIC EXPENDITURES,” Tech Rep NASA TN D-7883,
+      1975.
+[214] M. Reagan, B. Janoiko, J. Johnson, S. Chappell, Ph.D., and A. Abercromby, “NASA’s Analog
+      Missions: Driving Exploration Through Innovative Testing,” presented at the AIAA SPACE 2012
+      Conference & Exposition, Pasadena, California, Sep. 2012. doi: 10.2514/6.2012-5238.
+[215] D. Eppler, “Desert Research and Technology Studies (DRATS) 2010 Science Operations:
+      Operational Approaches and Lessons Learned for Managing Science during Human Planetary
+      Surface Missions,” Acta Astronautica, pp. 224–241, Mar. 2012.
+[216] O. S. Bekdash et al., “Development and Evaluation of the Active Response Gravity Offload
+      System as a Lunar and Martian EVA Simulation Environment,” p. 12.
+[217] A. F. J. Abercromby et al., “Crew Health and Performance Extravehicular Activity Roadmap:
+      2020,” p. 74, 2020.
+[218] D. C. E. Larsen, “NASA Experience with Pogo in Human Spaceflight Vehicles,” p. 23.
+[219] J. Norcross et al., “Characterization of Partial-Gravity Analog Environments for Extravehicular
+      Activity Suit Testing,” NASA/TM-2010-216139, Dec. 2010.
+[220] J. Norcross, S. Chappell, and M. Gernhardt, “Lessons Learned from Performance Testing of
+      Humans in Spacesuits in Simulated Reduced Gravity,” NASA Technical Report, NASA/TP-2010-
+      00005154, 2010.
+[221] J. Norcross, S. Jarvis, O. Bekdash, S. Cupples, and A. Andrew, “EVA Human Health and
+      Performance Benchmarking Study Overview and Development of a Microgravity Protocol,”
+      NASA Technical Report, NASA/TP-2017-0000796, 2017.
+[222] P. Valle, “Reduced Gravity Testing of Robots (and Humans) Using the Active Response Gravity
+      Offload System,” NASA technical Report, NASA/TP-2017-0008856, 2017.
+[223] C. R. Cullinane, R. A. Rhodes, and L. A. Stirling, “Mobility and Agility During Locomotion in the
+      Mark III Space Suit,” Aerospace Medicine and Human Performance, vol. 88, no. 6, pp. 589–596,
+      Jun. 2017, doi: 10.3357/AMHP.4650.2017.
+[224] F. A. Korona, J. Norcross, B. Conger, and M. Navarro, Carbon Dioxide Washout Testing Using
+      Various Inlet Vent Configurations in the Mark-III Space Suit. 44th International Conference on
+      Environmental Systems, 2014. Accessed: Oct. 24, 2021. [Online]. Available: https://ttu-
+      ir.tdl.org/handle/2346/59676
+[225] A. Abercromby, S. S. Thaxton, E. A. Onady, and S. L. Rajulu, “Reach Envelope and Field of
+      Vision Quantification in Mark III Space Suit using Delaunay Triangulation,” NASA/TP-2006-
+      213729, Jan. 2006.
+

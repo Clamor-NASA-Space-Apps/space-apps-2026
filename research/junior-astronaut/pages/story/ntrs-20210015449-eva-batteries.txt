@@ -1,0 +1,358 @@
+Recent Developments in Safe Lithium Ion Battery Design
+              for Human Space Flight
+                  UCSD NANO/CENG Seminar
+                          May 19, 2021
+             S. Russell, NASA Johnson Space Center
+
+
+              Approved for public release per STRIVES/NF-1676 20210015449
+     Lithium Ion Power on NASA’s Spacesuit
+                                 LLB2
+                                                                                                      LPGT
+Spacesuit
+Power
+Supply
+(LLB2)
+
+                                                                   LREBA
+
+
+                            Battery Characteristic               LLB2                LREBA               LPGT
+                      Cell Type                                    18650               18650             18650
+Accessory   Pistol    Cell Rated Capacity (Ah)                       2.60                2.60             2.60
+
+Power       Grip      Battery Topology                            14P-5S               9P-5S             2P-5S
+                      Battery Operating Voltage Range (V)        15.5 - 20.5      15.5 - 20.5, 13.5    15.5 - 20.5
+(LREBA)     Tool      Battery Capacity (Ah)                         36.40           23.4, 16.38           5.20
+            (LPGT)    Battery Specific Energy (Wh/kg)               98.88               96.20            85.13
+                      Battery Energy Density (Wh/L)                182.99              111.86            79.50
+                      Operating Temperature Range (oC)      0 to 45oC discharge      3 to 56oC        EVA sink 234F
+ EVA Battery Concept of Operation
+ConOps is common for EVA Batteries
+- Designed to survive abuse
+- Receive charge from dedicated charger
+- Charger is designed to prevent abuse
+- Service in pressurized environment
+- Installed in thermally managed location
+- Discharge at vacuum conditions
+- Removed and stowed when not in use
+
+Allocating charge protection functions to the
+charger, and manifesting spare batteries,
+maximizes mission reliability
+
+Rigorously managing stowage SOC has
+enabled 7+ years of continued use with
+>95% capacity retention when operating
+between 3.1-4.1V per cell over ~25 cycles
+   Initiating Thermal Runaway in a Li-Ion Battery
+Initiating TR requires separator failure.
+Internal Short Circuit device improves failure fidelity
+and reduces thermal bias compared to a patch heater.
+
+
+
+
+          Iannello, C., et al, Assessment of ISS/EVA Li-Ion Battery TR Severity Reduction Measures, NASA/TM-2017-219649, July 2017
+Preventing Propagation Improves Battery Safety
+                                    LREBA    Conventional battery design methods failed catastrophically
+                                             due to single cell thermal runaway event.
+                                             Failure event continued for up to 20 minutes, resulting in
+                                             uncontrolled release of combustion products and case
+                                             temperatures in excess of 250oC.
+
+                                                                             PGT
+                                                                                                                                LLB
+     DESIGN STRATEGY
+        RISK MATRIX
+L
+I   5
+K   4
+E
+L    3
+I
+H    2
+O                                  Screening reduces failure probability.
+     1
+O
+         1   2    3    4       5   Preventing propagation reduces
+D
+         CONSEQUENCES              failure consequence.
+    Risk values are notional                                  Failure images from: Iannello, C., et al, NASA/TM-2017-219649, July 2017
+Passive Propagation Resistance Design Guidelines
+
+
+
+
+   Darcy, E., Safe, High Performing Battery Designs, Battery Technology and Safety for Crewed Space Applications, Mar 2017
+Redesigned to Prevent Propagation, LREBA
+
+                                                                         Propagation Resistant EVA Battery Pathfinder
+                                                                         - Separating cells reduced direct thermal
+                                                                            transfer
+                                                                         - Fusing cell interconnect prevents circulating
+                                                                            current between parallel cells
+                                                                         - Overboard vent prevents direct exposure to
+                                                                            high energy ejecta
+                                                                         - Reinforced garment direct effluent over
+                                                                            large housing surfaces
+
+                                                                         -    Max Adjacent Cell Temp: 120oC
+                                                                         -    Max case temp: ~60oC
+                                                                         -    Max garment external temp: 21oC
+
+
+   Iannello, C., et al, Assessment of ISS/EVA Li-Ion Battery TR Severity Reduction Measures, NASA/TM-2017-219649, July 2017
+Redesigned to Prevent Propagation, LPGT
+
+                                                                         Lowest Volume EVA Battery
+                                                                         - Separating cells reduced direct thermal
+                                                                            transfer
+                                                                         - Fusing cell interconnect prevents circulating
+                                                                            current between parallel cells
+                                                                         - Ejecta flow path tortuosity reduces thermal
+                                                                            and kinetic energy
+                                                                         - Screened vents prevent spark/flame release
+
+                                                                         -   Max Adjacent Cell Temp: 110oC
+                                                                         -   Max case temp: ~50oC
+
+
+
+   Iannello, C., et al, Assessment of ISS/EVA Li-Ion Battery TR Severity Reduction Measures, NASA/TM-2017-219649, July 2017
+Redesigned to Prevent Propagation, LLB
+                                                                         Most Dense EVA Battery
+                                                                         - Separating cells reduced direct thermal
+                                                                           transfer
+                                                                         - Rate limited heat spreader dispersed heat
+                                                                           across all cells
+                                                                         - Fusing cell interconnect prevents circulating
+                                                                           current between parallel cells
+                                                                         - Ejecta flow path tortuosity reduces thermal
+                                                                           and kinetic energy
+                                                                         - Screened vents prevent spark/flame release
+                                                                         - Filtered vents reduce particulate release
+
+                                                                         -   Max Adjacent Cell Temp: 80oC
+                                                                         -   Max case temp: 40oC
+
+   Iannello, C., et al, Assessment of ISS/EVA Li-Ion Battery TR Severity Reduction Measures, NASA/TM-2017-219649, July 2017
+  Non-Propagating Batteries Designed by NASA JSC
+                                                            Plot compares volumetric
+                                                            efficiency and energy density of
+                                                            propagation resistant batteries.
+
+                                                            Unlike the EVA batteries, the open
+                                                            symbol designs have a much
+                                                            greater specific energy density,
+                                                            but are significantly larger
+                                                            resulting in more void volume for
+                                                            ejecta management but a greater
+                                                            demand for active cooling.
+Accessory
+Power                                                       The xEMU battery is pushing the
+                                                            limit on void volume.
+                                               𝑉𝑉𝑜𝑖𝑑
+            Volume Efficiency = 𝜂𝑉 = 1 −
+                                           𝑉𝑉𝑜𝑖𝑑 +𝑉𝑀𝑜𝑑𝑢𝑙𝑒
+xEMU Cell Selection
+Cell selected based on energy available at mission rate, cycle life, and heat release during TR.
+
+    CANDIDATE CELLS AT BEGINNING OF LIFE (BOL)                                  MISSION RATE CONSTANT CURRENT DISCHARGE PERFORMANCE
+                            Datasheet       C/8 Discharge         TR
+ Cell
+                            (Ah/Wh)           (Ah/Wh)         Energy (kJ)
+ LG Chem INR18650 MJ1        3.5/12.7          3.1/11.2         75/62
+ LG Chem INR18650 M36T       3.4/12.5          3.1/11.3           65
+ Panasonic NCR-18650GA       3.4/12.4          3.2/11.6           ~65
+ Samsung INR18650-35E        3.4/12.4          3.3/12.1           ~55
+
+
+        FRACTIONAL TR CALORIMETER SAMPLE DATA
+
+
+
+
+                    Walker, W., et al. Journal of Power Sources 2019: 207-218
+Low Cost, Quick Turn TR Test System
+A nail pin test rig was designed and assembled to reduce ISC consumption and improve test turn-around time.
+Final design will be tested with ISC-implanted trigger cell.
+
+
+
+
+Credit: David Petrushenko, Spring/Summer 2020
+Considered Location of Flow Resistance
+ Design has survived multiple sidewall ruptures and over 20 TR events without propagation, but
+ expelling particulate could be problematic in the intended application.
+
+POSITIVE SIDE RESISTANCE          CELL ORIENTED FOR LONGEST VENT             NEGATIVE SIDE RESISTANCE
+                                             FLOW PATH
+
+
+
+
+Options Considered:                                                          Options Considered:
+- Baffle                                                                     - Baffle with Filler
+- No Baffle                                                                  - Baffle without Filler
+                           While some analysis has been performed, results   - Two Foam Materials
+                           are primarily evaluated qualitatively             - Various Foam Density
+Effect of Upstream Resistance
+Including upstream resistance reduces filtering efficiency of the foam, some sparks exit the housing.
+     NEGATIVE FOAM, NO POSITIVE BAFFLE                               NEGATIVE FOAM, POSITIVE BAFFLE
+
+
+
+
+                                                                                                                    Ejecta Density
+
+                              Ejecta Density                                                       Ejecta Density
+Effect of Downstream Resistance
+Increasing downstream resistance improves spark retention but releases particulate.
+  NEGATIVE FOAM, NO POSITIVE BAFFLE                              NEGATIVE BAFFLE, NO POSITIVE BAFFLE
+
+
+
+
+                           Ejecta Density
+                                                                                             Ejecta Density
+Interim Findings and Forward Work
+Interim Findings
+Finding 1. Allocating resistance over path length reduces particle retention
+Finding 2. Filter media needs to tolerate ejecta exposure without melting
+
+
+     Sum R*        Neg Baffle      Neg Foam
+                                                  Selected material needs to
+    Pos Baffle     1.82x1010        2.72x108      tolerate high temperature
+  Pos No Baffle    1.80x1010        3.54x107      and provide R*>107
+
+
+
+Forward Work / Results
+• Develop a high temperature tolerant, light weight ‘depth filter’
+• Establish upper limit for TR impulse for chosen material
+• Ceramic material appears promising but requires impact protection
+Acknowledgements and Questions?
+Work is performed in support of the ISS Program, EVA and xEVA Project Offices.
+
+Special thanks to Eric Darcy, James Rogers, Bob Bohot, and the EVA Battery GFE Team/NASA JSC, David
+Petrushenko/Univ. South Carolina, Zoran Bilc/NASA JSC, and the ESTA Test Team, including Yaramy Trevino,
+Dereck Lenoir, Nhi Hua, Tony Randall, Oscar Huerta, Adan Garza, and many others. Thanks also to Chris
+Iannello, Gary Bales, Steve Rickman and the PPR Development Team/NASA NESC, Jacob Darst and David
+Delafuente/NASA JSC, the xEMU PLSS leadership team, Colin Campbell, Carly Meginnis, and Erika
+Jimenez/NASA JSC.
+Positive Side Resistance Estimation
+Effective resistance, with baffle                                                           Assuming smooth pipe, turbulent flow:
+                                        "3" hole inlet section resistance diagram
+
+
+
+
+                                                        C
+
+
+
+
+                                        contract K2
+                                    A                   B                               Z
+                                Inlet
+
+
+
+
+                                                        C
+                                                                                                      For simple flow,
+                                                                                                                           )
+Effective resistance, without baffle
+                                                                                                                  𝜌
+                                                                                                        𝑅∗=𝐾
+                                                                                                                 2𝐴2
+                                                                                    Z           Effective resistance, assuming
+                                    A
+                                Inlet
+                                                                                                flow into each branch is equal,
+                                                                                                   R* Baffle = 2.65x108 kg/m7
+                                                                                                 R* No Baffle = 2.80x107 kg/m7
+High Negative Side Resistance Estimation
+Effective resistance, negative baffle plate
+
+                                                                                                            x2 of these paths
+                                                                                                            in parallel
+                                                                                              Path A
+
+
+                                                             K1             K2
+                                                                                                   Path B
+                                                   A                                      B                                                                  Z
+                                                         11x in parallel 11x in parallel               x2 of these paths
+                                                                                                                                                            exit
+                                                 Inlet                                   cavity
+                                                         sudden          sudden                        in parallel
+                                                                                         prior
+                                                         contractions expansions                  Path C
+                                                                                         to
+                                                                                         tortuous
+                                                                                         paths
+
+                                                                                                            x2 of these paths
+                                                                                                            in parallel
+
+
+
+                                              Loss Factor          value      Area (m2)       R*                         density (kg/m3)   Source   assumption
+
+
+                                                                                                   Effective resistance, assuming
+                                                                                                   flow into each branch is equal,
+                                                                                                              R* = 1.79x1010 kg/m7
+Low Negative Side Resistance Estimation
+Effective resistance, exit filter (aluminum foam)   Assuming max flow rate and air at STP
+
+                                                                               2 ∗ ∆𝑃
+                                                                       𝐾=
+                                                                                𝜌𝑣 2
+
+                                                          foam thickness (in)                     0.12
+                                                          foam thickness (m)                  0.003048
+                                                          gas velocity assumed (ft/s)               38
+                                                          gas velocity assumed (m/s)             11.58
+                                                          density assumed air STD (kg/m3)         1.22
+                                                          Pressure drop at given velicty (Pa)      330
+                                                          Calculated K factor for foam        4.034289
+
+
+
+                                                    Effective resistance for 0.12in thick foam
+              http://ergaerospace.com/
+
+                                                               R* = 7.43x106 kg/m7
+Resistance Estimate Summary
+
+
+
+   Sum R*        Neg Baffle   Neg Foam
+                                         Selected material needs to
+  Pos Baffle     1.82x1010    2.72x108   tolerate high temperature
+                                         and provide R*>107
+ Pos No Baffle   1.80x1010    3.54x107
+    Test Videos
+-   LREBA, Run 1 – Baseline design, prior to implementing propagation prevention measures
+-   LLB2, Run 2 – flight design, ISC trigger cell
+-   xEMU, Run 3 – Restrictive Positive Side Baffle, Negative Side Foam Only
+-   xEMU, Run 8 – No Positive Restriction, Negative Side Foam Only, Ultem2300 Housing
+-   xEMU, Run 6 – No Positive Restriction, Negative Baffle Only
+-   xEMU, Run 9 - No Positive Restriction, Slightly thinner Negative Baffle Only
+LREBA Baseline Design, Patch Heater, Run 1
+This snippet was taken ~20min after trigger cell failure.
+LLB-2 Flight Design, ISC Run 2
+Flight design confirmation test.
+Nail Pin Campaign, Test 3
+Restrictive Positive Side Baffle, Negative Side Foam Only.   Sum R* = ~108 kg/m7
+Nail Pin Campaign, Test 8
+No Positive Restriction, Negative Side Foam Only, Ultem2300 Housing.   Sum R* = ~107 kg/m7
+Nail Pin Campaign, Test 6
+No Positive Restriction, Negative Baffle Only.   Sum R* = ~1010 kg/m7
+Nail Pin Campaign, Test 9
+No Positive Restriction, Slightly thinner Negative Baffle Only.   Sum R* = ~1010 kg/m7
+
