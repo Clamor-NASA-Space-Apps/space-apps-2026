@@ -13,9 +13,9 @@
 - **Plan:** `plan.md`. **Checklist:** `roadmap.md`. Tick roadmap items when done.
 
 ## Hard rules (breaking these can disqualify us or mislead kids)
-1. **At the event: the storyline and the flow. Everything else may be prepared before 14 Nov.** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." The local organisers then told the team, in meetings reported by Ravindu, that assets may be prepared in advance (12 Nov 2026) and that preparing the game at home is allowed (13 Nov 2026).
+1. **Everything may be prepared before 14 Nov, the story included; at the event we wire the flow, playtest and submit.** 2026 FAQ: "Teams are not allowed to begin working on the challenges prior to the hackathon." The local organisers then told the team, in meetings reported by Ravindu, that assets may be prepared in advance (12 Nov 2026) and that preparing the game at home is allowed (13 Nov 2026).
    - Before 14 Nov: research, docs, tooling, the look, every model, the world and map, the HUD, the sandbox, and the game's systems: `sim/` rules (O2, power, water, food, radiation), meters, the sol clock, PIP's guiding, use spots, the machinery for cinematics and tutorials. Systems are tested on their own, with placeholder values where the story will decide.
-   - At the event: the storyline (what happens, PIP's lines, the words on cards), the mission flow (which beat follows which, win and lose), and wiring the systems into it.
+   - The story is drafted before the event too (Ravindu, 13 Nov 2026: a crowded venue would cost us the plot, and the local organisers said preparing is fine): `design/story.md` in the game repo, read and changed by the team, fact-checked. At the event: wire the story into the flow (beats order, win and lose), playtest, polish, submit.
    - Both permissions were verbal, and the global FAQ above says otherwise. Ask the Colombo Local Lead to confirm in writing and save the reply in `research/junior-astronaut/`. Tag each repo when the event starts, so judges can see what came before.
 2. **Never copy anything from `tooling/projects/one-night-stray/` into the hackathon repo.** Only `tooling/` (agent-forge-3d) is shared.
 3. **Every number shown to players has a source** in `research/junior-astronaut/factcheck.md`. ❌ claims never ship.
