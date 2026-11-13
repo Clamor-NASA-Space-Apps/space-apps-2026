@@ -13,3 +13,5 @@ assets-cache/kenney/*/Models/FBX format/
 assets-cache/kenney/*/Models/OBJ format/
 assets-cache/kenney/*/Models/STL format/
 
+# raw marketplace files (royalty-free licence: use in a game, never redistribute the source files)
+assets-cache/cat-candidates/

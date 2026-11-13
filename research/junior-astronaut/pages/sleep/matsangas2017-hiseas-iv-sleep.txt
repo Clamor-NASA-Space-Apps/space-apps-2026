@@ -1,0 +1,443 @@
+Proceedings of the Human Factors and Ergonomics Society 2017 Annual Meeting
+
+73
+
+Sleep Patterns of Crewmembers in Mission IV of the Hawaii Space
+Exploration Analog and Simulation (HI-SEAS): A Pilot Study
+Panagiotis Matsangas1, Nita Lewis Shattuck1, Christiane Heinicke2, and Jocelyn Dunn3
+1
+Operations Research Department, Naval Postgraduate School, Monterey, CA
+2
+Department of Earth and Life Sciences, Vrije Universiteit, Amsterdam, NL and International
+Lunar Exploration Working Group (ILEWG), NL
+3
+School of Industrial Engineering, Purdue University, West Lafayette, IN
+The Hawaii Space Exploration Analog and Simulation (HI-SEAS) conducts simulated Mars
+missions to study the biopsychosocial impacts of isolated and confined living conditions and to
+assess space-flight crew dynamics, behaviors, roles and performance. This pilot study assessed
+the sleep-related behaviors of crewmembers during one month of Mission IV. Participants (N=4)
+wore actigraphs and completed activity logs. We identified substantive individual differences in
+sleep-related behaviors, physical activity and exposure to light between the crewmembers. These
+factors are important determinants of human alertness, stress, and mood. Due to the small crew of
+astronauts on a Mars mission and the conditions in which they will have to live for extended
+periods of time, the effect of these stressors on team performance, cohesion, and resilience may
+be exacerbated. Recommendations are provided for the holistic sleep-related assessment of the
+crewmembers participating in the 8-month Mission V.
+INTRODUCTION
+
+Not subject to U.S. copyright restrictions. DOI 10.1177/1541931213601484
+
+Background
+Put forth in 2004, one of the goals of the “Vision for
+Space Exploration” is to “extend human presence across
+the solar system, starting with a human return to the
+Moon by the year 2020, in preparation for human
+exploration of Mars and other destinations” (NASA,
+2004). In many ways, however, long-duration space
+exploration missions like the one to Mars remain a terra
+incognita with important questions yet to be answered.
+The mission of human exploration of Mars faces
+unprecedented technological and human challenges (Ad
+Hoc Committee of Members of the Space Medicine
+Association and the Society of NASA Flight Surgeons,
+2008). The humans, both the crewmembers and ground
+control, will operate in physiologically and
+psychologically challenging conditions (Salas et al.,
+2015).
+In particular, the team of astronauts on such a
+mission will be required to endure and sustain team
+performance never seen before (Salas et al., 2015). The
+environment in which the astronauts will live and work
+during the 6-month transit will be characterized by
+limited space and extreme isolation. During the
+approximately 3-year mission, astronauts will be
+required to operate as efficiently as possible and to
+function more autonomously than ever before due to a 3to 22-minute one-way delay in communications.
+
+As part of the overall effort of the journey to Mars,
+the National Aeronautics and Space Administration
+(NASA), as well as international agencies, has funded a
+number of simulations to assess team adaptation and
+resilience, and to explore the requirements to survive on
+Mars (Anglin & Kring, 2016; Basner et al., 2014). In
+general, these simulations are conducted in isolated
+environments with terrain characteristics similar to those
+of Mars. Such analogs include the Desert Research and
+Technology Study (D-RATS), the NASA Extreme
+Environment Mission Operations (NEEMO) (Anglin &
+Kring, 2016), and the Hawaii Space Exploration Analog
+and Simulation – HI-SEAS (www.nasa.gov/analogs).
+HI-SEAS has previously completed four missions,
+two 4-months long, one 8-months long, and Mission IV
+which was 12 months long. The focus of the HI-SEAS
+project is to assess space-flight crew dynamics,
+behaviors, roles and performance, especially for longduration missions (Binsted et al., 2016; Caldwell, Roma,
+& Binsted, 2016). The research goals of Missions I to IV
+were to study crew cohesion and crew performance.
+Beginning with Mission V, the focus shifted from crew
+cohesion and performance to crew selection and
+composition.
+The HI-SEAS habitat
+The HI-SEAS crews live and work in a solarpowered geodesic dome (i.e., the habitat) on the slopes
+the Mauna Loa volcano in Hawaii. The crews are
+isolated during their missions with only e-mail
+
+Proceedings of the Human Factors and Ergonomics Society 2017 Annual Meeting
+
+communication with a Mars-like 20-minute delay with
+the outside world. Communication with mission support
+also has this deliberate delay of 20 minutes. Without
+capability for real-time guidance from Earth, this Marslike delay in communication simulates the requirement
+of crew autonomy and self-sufficiency.
+Located at 8,200 feet above sea level, the dome is
+compised of an aluminum frame with a white vinyl
+covering. During most of the mission’s duration, the
+dome is covered with a reddish camouflage. With 1200
+fsquare feet of floor space and 13000 cubic feet of
+habitable volume, the habitat is divided into two levels.
+The common areas (kitchen, lab, work area, and
+bathroom) are located on the first level of approximately
+900 square feet. The staterooms, one for each
+participant, and a half-bath are located on the 424 square
+foot upper level. The habitat also includes an attached
+workshop made from a converted shipping container.
+The space and amenities provided to the crewmembers
+of the habitat are an approximation of what a crew on
+Mars is likely to have. Crewmembers have a limited
+water supply and can shower only for a total of 6-8
+minutes per week. When outside the habitat for
+extravehicular activities (EVAs), the crewmembers wear
+mock space suits. These EVAs are for exploring the
+geology of the surrounding volcanic terrain, collecting
+resources, adjusting the communication antenna, or for
+performing other habitat maintenance tasks.
+The photographs in Figure 1 and 2 show an outside
+view of the habitat, and an inside view of the second
+level, respectively.
+
+74
+
+Figure 2. The inside of the berthing compartments
+(http://hi-seas.org/)
+Study goals
+The Mission IV pilot study had two objectives. First,
+we sought to assess the quantity, quality, and sleeprelated behaviors of the crew of the HI-SEAS mission
+IV. Second, we wanted provide recommendations for
+how best to conduct a holistic assessment of
+crewmember sleep during Mission V.
+METHOD
+Participants
+A team of six scientists and engineers participated in
+the 12-month mission IV of the HI-SEAS project. Four
+of the crewmembers volunteered to participate in the
+pilot sleep study (24 to 33 years of age, two males).
+Equipment and Instruments
+
+Figure 1. The HI-SEAS habitat (http://hi-seas.org/)
+
+At the beginning of the sleep study, participants had
+been living and working for six months in the HI-SEAS
+habitat. Hence, there were restrictions for introducing
+extra workload in the crewmembers daily schedule. For
+this reason, our research approach in this pilot study was
+limited to using wrist-worn actigraphy as a non-invasive
+method to assess sleep patterns. The Philips Respironics
+Spectrum actiwatch was used to assess sleep. Data were
+collected in 1-minute epochs, and were scored using
+Actiware software version 6.0.0 (Phillips Respironics,
+Bend, Oregon). The medium sensitivity threshold (40
+counts per epoch) was used, with 10 immobile minutes
+as the criterion for sleep onset and sleep end (all values
+are default for this software). The light detector was set
+to collect white, red, green, and blue light data.
+We also used activity information from a log that the
+crew had been completing each day of the mission. Age,
+gender, typical bed time/wake up times, and typical daily
+
+Proceedings of the Human Factors and Ergonomics Society 2017 Annual Meeting
+
+sleep duration were used in our pilot study. The activity
+log also included questions about sleep/wake times,
+napping, the adequacy of sleep quantity (sufficient,
+insufficient), sleep quality (satisfactory, unsatisfactory),
+whether the participants felt sleepy during the day (yes,
+no), sleep habits, and the activities the participants were
+involved in prior to their sleep.
+Procedures
+This study was longitudinal and quasi-experimental
+in nature. During the 365-day HI-SEAS mission IV,
+participants resided in the habitat from August 28, 2015
+to August 28, 2016. This study is based on data collected
+between 25 May and 30 June 2016. The Naval
+Postgraduate School (NPS) Institutional Review Board
+(IRB) determined that the analysis of the de-identified
+data provided to the NPS team did not constitute human
+subject research (IRB determination 2016.0017). In
+order to collect reliable light data from the actiwatches,
+participants were asked to roll their sleeves up to expose
+the light sensor to any light sources as much as possible.
+During their stay in the HI-SEAS habitat, participants
+did not have a set schedule to sleep or wake up.
+Analysis
+Statistical analysis was conducted with a statistical
+software package (JMP Pro 12; SAS Institute; Cary,
+NC). Data are presented as mean (M) ± standard
+deviation (SD). Sleep analysis was based on the
+actigraphy data, assisted by the activity logs to
+determine the start and end times of sleep intervals.
+RESULTS
+Behavioral Patterns
+With the exception of Participant 4446, all
+participants showed good compliance in completing
+their activity logs. Participants reported that they did not
+use sleep promoting medications or eye masks.
+Participant 4583 reported using ear plugs in
+approximately 80% of his/her sleep episodes. None of
+the participants reported drinking coffee before bedtime.
+Participants reported having dinner between 1830 and
+2000.
+In terms of physical activities, Participant 4583 and
+Participant 5007 were physically active in 88% and 97%
+of days, respectively. Both crewmembers worked out
+frequently (using the treadmill, biking, etc.) and
+participated in EVAs. Participant 4583 engaged in 11
+EVAs with an average duration of 172 minutes ranging
+from 39 to 351 minutes. Participant 5007 engaged in 8
+
+75
+
+EVAs with an average duration of 103 minutes ranging
+from 39 to 339 minutes. In contrast, Participant 7339
+was physically active for 35% of the study days,
+participating in 13 EVAs (n=13, with an average
+duration of 44 minutes ranging from 15 to 79 minutes).
+Participant 4446 participated in 11 EVAs with an
+average duration of 107 minutes (41 - 341 minutes).
+Even though Participant 4446 did not complete any
+physical activity information in the activity log, data
+collected in another part of the study suggested that
+Participant 4446 worked out on average 2.5 hours per
+day and was the most physically active crewmember.
+Participant 4583 and Participant 5007 reported 8.7
+hours of screen time per day, ranging from 2 to 14 hours
+(no data for Participant 4446 and Participant 7339).
+Sleep
+During the entire period of the study, participants
+spent on average 8.6 ± 1.5 hours time in bed (TIB) and
+slept for 7.8 ± 1.4 hours. Daily sleep was distributed in
+1.2 ± 0.4 sleep episodes per day; some naps were
+evident. In terms of daily sleep duration, Participant
+7339 slept substantively less than the rest of the
+participants. These results are shown in Table 1.
+Participant 4446 and Participant 7339 have the largest
+difference between their rest and sleep duration,
+approximately one hour. No statistically significant time
+trends were identified.
+Table 1. Sleep metrics, M±SD
+Daily sleep
+Part4446
+metrics
+28 yrs
+TIB, hrs
+8.4±0.9
+Sleep, hrs
+7.4±0.7
+Sleep episodes, # 1.1±0.2
+
+Part4583 Part5007 Part7339
+30 yrs
+24 yrs
+33 yrs
+9.5±1.4 8.7±0.9 7.7±1.9
+8.8±1.3 8.2±0.8 6.7±1.6
+1.2±0.5 1.2±0.4 1.1±0.3
+
+The daily sleep duration by participant is shown in
+Figure 3. The horizontal dotted line represents the
+average daily sleep duration for all participants. From
+lower to upper, the horizontal lines in each box represent
+the 25th, the 50th, and the 75th percentiles respectively.
+Participants with the highest and lowest daily sleep
+amount had the largest variability in their daily sleep.
+Specifically, Participant 4583 had a range of 5.3 hours,
+from 6.68 to 12 hours of sleep per day. Participant 7339
+had a range of 6.52 hours, from 2.88 to 9.4 hours of
+sleep per day.
+
+Proceedings of the Human Factors and Ergonomics Society 2017 Annual Meeting
+
+76
+
+in the room while sleeping. These results are shown in
+Figure 4.
+
+Figure 3. Daily sleep duration by participant. Each dot
+represents one day.
+Notably, our data suggest that crewmembers did not
+change their general pattern of pre-mission bed times
+during the data collection period. Participant 4446
+continued to go to bed at approximately 11 pm, whereas
+Participant 4583 and Participant 7339 were awake until
+after midnight. Their wake up times, however, shifted to
+the right; that is, those crewmembers woke up later.
+Consequently, sleep duration increased on average by
+approximately one hour compared to the sleep duration
+crewmembers reported they received before the mission.
+Next, we assessed crewmembers’ opinion about
+sleep quantity, sleep quality, and whether they felt
+sleepy. Our results showed an interesting pattern. Even
+though having slept less than the other crewmembers
+(~6.7 hours per day), Participant 7339 felt satisfied with
+sleep in terms of quantity (91% “sufficient” responses)
+and quality (97% “satisfactory” responses). Participant
+7339 also reported feeling sleepy on only 9% of the
+days. In contrast, Participant 4583 and Participant 5007
+were less content with their sleep. Even though both
+crewmembers slept on average more than eight hours per
+day, they felt their sleep amount was insufficient, their
+sleep quality was unsatisfactory, and reported feeling
+sleepy for two-thirds of the study days.
+In terms of exposure to light, our analysis showed
+the differences in behavioral patterns between
+participants, with Participant 4446 resting and waking up
+earlier than the other participants. Participant 4446 was
+also exposed to more white light between 1100 and 1700
+hours compared to the other crewmembers. In contrast,
+Participant 7339 was exposed to less daylight.
+Interestingly, Participant 7339 had a source of blue light
+
+Figure 4. White and blue light exposure by time of day
+(in lux per minutes).
+DISCUSSION
+Overall, our results showed important behavioral
+differences between the four crewmembers who
+participated in this pilot study. These differences were
+obvious in daily sleep duration, in the variability of daily
+sleep between days, and in the timing of sleep. In
+general, three of the four crewmembers slept on average
+close to eight hours per day or more, which is the
+physiological recommended sleep amount for their age
+group. Two findings were interesting. First, the two
+participants sleeping on average 8.2 and 8.8 hours per
+day were less satisfied with their sleep both in terms of
+quantity and quality. Second, the participant with the
+least, and most variable, daily sleep duration was also
+less physically active compared to the other
+crewmembers in the study.
+
+Proceedings of the Human Factors and Ergonomics Society 2017 Annual Meeting
+
+Even though definitive answers cannot be provided
+from the data from this pilot study, we postulate that
+light exposure may have contributed to the mixed results
+of sleep duration, timing, and satisfaction, as well as in
+the physical activity. The participants were exposed to
+sunlight during their EVAs, and were also using light
+emitting devices for many hours every day.
+In conclusion, findings from this pilot study
+identified substantive individual differences in sleeprelated behaviors, physical activity and exposure to light
+between the crewmembers. These factors have been
+shown to be important determinants of human alertness,
+stress, mood, and other aspects of behavioral health
+(Buckley, 2006; Salas, Cooke, & Rosen, 2008). Due to
+the small crew of astronauts on a Mars mission and the
+conditions in which they will have to live for extended
+periods of time, the effect of these stressors on team
+performance, cohesion, and resilience may be
+exacerbated (Maynard & Kennedy, 2016).
+Based on our findings in this pilot study, our
+assessment during the ongoing 8-month Mission V of
+the HI-SEAS project will focus on the following topics
+of interest:
+•
+
+•
+
+•
+•
+
+To assess mood and sleep quality attributes using
+standardized questionnaires (Bastien, Vallieres, &
+Morin, 2001; Buysse, Reynolds III, Monk, Berman,
+& Kupfer, 1989; Johns, 1991; McNair, Lorr, &
+Droppelman, 1971).
+To explore the association between morningnesseveningness tendency (Terman, Rifkin, Jacobs, &
+White, 2001) and sleep patterns, sleep-related
+behaviors, and mood.
+To assess changes in behavioral patterns, mood,
+sleep attributes, and physical activity during the
+course of the 8-month mission.
+To explore further the effect of ambient light and
+light emitted from hand-held devices on the
+behavioral patterns of the crewmembers.
+
+Study limitations
+This pilot study had a number of limitations. We did
+not have information about participant behavioral
+patterns before the study. Standardized mood and sleep
+quality questionnaires were not incorporated. The period
+during which sleep data were collected, approximately
+one month, was not enough to assess longitudinal
+changes in sleep patterns.
+LIST OF REFERENCES
+Ad Hoc Committee of Members of the Space Medicine Association
+and the Society of NASA Flight Surgeons. (2008). Human
+
+77
+
+health and performance for long-duration spaceflight. Aviation
+Space and Environmental Medicine, 79(6), 629-635.
+Anglin, K. M., & Kring, J. P. (2016). Lessons from a space analog on
+adaptation for long-duration exploration missions. Aerospace
+Medicine and Human Performance, 87(4), 406-410. doi:
+10.3357/AMHP.4489.2016
+Basner, M., Dinges, D. F., Mollicone, D., Savelev, I., Ecker, A. J., Di
+Antonio, A., . . . Sutton, J. P. (2014). Psychological and
+behavioral changes during confinement in a 520-day simulated
+interplanetary mission to Mars. PLoS ONE, 9(3), e93298. doi:
+10.1371/journal.pone.0093298
+Bastien, C. H., Vallieres, A., & Morin, C. M. (2001). Validation of
+the Insomnia Severity Index as an outcome measure for
+insomnia research. Sleep Medicine, 2(4), 297-307.
+Binsted, K. A., Basner, M., Bedwell, W., Caldwell, B., Chang, D.,
+Hunter, J. E., . . . Wu, P. (2016). Investigations at HI-SEAS into
+team function and performance on long duration exploration
+missions. Paper presented at the NASA Human Research
+Program Investigators Meeting, Galveston, TX.
+Buckley, J. C. (2006). Psychosocial support: Maintaining an effective
+team Space physiology (pp. 34-52). New York, NY: Oxford
+University Press.
+Buysse, D. J., Reynolds III, C. F., Monk, T. H., Berman, S. R., &
+Kupfer, D. J. (1989). The Pittsburgh Sleep Quality Index: A
+New Instrument for Psychiatric Practice and Research. Journal
+of Psychiatric Research, 28(2), 193–213.
+Caldwell, B. J., Roma, P. G., & Binsted, K. A. (2016). Team
+cohesion, performance, and biopsychosocial adaptation
+research at the Hawai'i Space Exploration Analog and
+Simulation (HI SEAS). Paper presented at the 31st Annual
+Conference of the Society for Industrial and Organizational
+Psychology, Anaheim, California.
+Johns, M. W. (1991). A new method for measuring daytime
+sleepiness: The Epworth Sleepiness Scale. Sleep, 14, 540–545.
+Maynard, M. T., & Kennedy, D. M. (2016). Team adaptation and
+resilience: What do we know and what can be applied to longduration isolated, confined, and extreme contexts (Report No.
+NASA/TM-2016-218597). Johnson Space Center, Houston,
+Texas: National Aeronautics and Space Administration.
+McNair, D. M., Lorr, M., & Droppelman, L. F. (1971). Manual of the
+profile of mood states. San Diego, CA: Educational and
+Industrial Testing Service.
+NASA. (2004). The vision for space exploration. Washington, DC:
+National Aeronautics and Space Administration.
+Salas, E., Cooke, N. J., & Rosen, M. A. (2008). On teams, teamwork,
+and team performance: Discoveries and developments. Human
+Factors, 50(3), 540-547.
+Salas, E., Tannenbaum, S. I., Kozlowski, W. J., Miller, C. A.,
+Mathieu, J., & Vessey, W. B. (2015). Teams in space
+exploration: A new frontier for the science of team
+effectiveness. Current Directions in Psychological Science,
+24(3), 200-207.
+Terman, M., Rifkin, J. B., Jacobs, J., & White, T. M. (2001).
+Morningness-Eveningness Questionnaire (Revised). New York,
+NY: State Psychiatric Institute.
+
+

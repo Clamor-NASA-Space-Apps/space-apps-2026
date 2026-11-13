@@ -70,3 +70,19 @@
 | (agent) | agent-food sources: see files and NTRS ids in factcheck rows 101–143 | pages/agent-food/ |
 | (agent) | agent-oxygen sources: see files and NTRS ids in factcheck rows 101–143 | pages/agent-oxygen/ |
 | (agent) | agent-habitat sources: see files and NTRS ids in factcheck rows 101–143 | pages/agent-habitat/ |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC4188436/ | Barger et al. 2014, Lancet Neurology, astronaut sleep deficiency | pages/sleep/barger2014-lancet-pmc4188436.html |
+| https://ntrs.nasa.gov/citations/20240002094 | Jansen et al. 2024, ISS sleep shifting (HRP IWS) | pages/sleep/ntrs-20240002094-jansen.pdf, .json |
+| https://outpost42.esa.int/blog/the-astronaut-daily-schedule/ | ESA Outpost 42, the ISS crew day (2014) | pages/sleep/esa-outpost42-daily-schedule.html |
+| https://www.nasa.gov/centers/johnson/pdf/167746main_FS_LivingandWorkinginSpace508c.pdf | NASA JSC fact sheet, Living and Working in Space (2006) | pages/sleep/nasa-jsc-living-working-factsheet.pdf |
+| https://www.nasa.gov/humans-in-space/seven-ways-astronauts-improve-sleep-may-help-you-snooze-better-on-earth/ | NASA, Seven Ways Astronauts Improve Sleep (15 Dec 2016) | pages/sleep/nasa-seven-ways-sleep.html |
+| https://www.nasa.gov/wp-content/uploads/2023/03/sleep-accomodations-technical-brief-ochmo.pdf | OCHMO sleep accommodations brief (NASA-STD-3001 V2 7070, 7073, 8049), Rev A 2021 | pages/sleep/ochmo-sleep-accommodations-tb.pdf |
+| https://ntrs.nasa.gov/citations/20160003864 | HRP Evidence Report: sleep loss, circadian desynchronization, work overload (2016) | pages/sleep/hrp-sleep-evidence-2016.pdf |
+| https://ntrs.nasa.gov/citations/19950006379 | Rosekind et al., NASA TM 108839, planned cockpit rest (naps) | pages/sleep/ntrs-19950006379-rosekind-nap.pdf |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC3443769/ | Barger et al. 2012, Sleep, Phoenix team on a Mars day | pages/sleep/barger2012-phoenix-pmc3443769.html |
+| https://ntrs.nasa.gov/citations/20050019531 | Bass et al. 2005, Choosing Mars-Time (MER) | pages/sleep/ntrs-20050019531.pdf |
+| https://www.sciencedaily.com/releases/2012/11/121107103037.htm | JPL release reprint: Curiosity team switches back to Earth time (7 Nov 2012) | pages/sleep/sciencedaily-curiosity-back-to-earth-time.html |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC3574912/ | Basner et al. 2013, PNAS, Mars-500 sleep | pages/sleep/basner2013-mars500-pmc3574912.html |
+| https://faculty.nps.edu/nlshattuck/docs/ (Matsangas et al. 2017) | HI-SEAS Mission IV sleep pilot study, HFES 2017 | pages/sleep/matsangas2017-hiseas-iv-sleep.pdf |
+| https://www.nasa.gov/humans-in-space/nasas-final-hera-campaign-4-crew-lands-safely-back-on-earth-well-sort-of | NASA HERA Campaign 4, sleep restriction (25 Jun 2018) | pages/sleep/nasa-hera-c4-final.html |
+| https://ntrs.nasa.gov/citations/20220000589 | HEOMD-415, Reference Surface Activities for Crewed Mars (24 Jan 2022): crew day | pages/sleep/ntrs-20220000589-sac21-surface-ops.pdf |
+| https://www.nasa.gov/wp-content/uploads/static/history/alsj/WOTM/WOTM-Sleep.html | NASA ALSJ, Working on the Moon: Sleep (Apollo suits) | pages/sleep/alsj-wotm-sleep.html |

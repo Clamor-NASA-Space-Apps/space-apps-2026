@@ -1,0 +1,235 @@
+IMPACT OF SLEEP SHIFTING
+STRATEGIES ON THE
+INTERNATIONAL SPACE STATION
+RACHEL JANSEN PHD
+FATIGUE COUNTERMEASURES LABORATORY
+NASA AMES RESEARCH CENTER
+
+
+                                     Human Research Program
+                                      Investigators’ Workshop
+                                             February 15, 2024
+Sleep on the ISS
+Sleep on the ISS
+
+• Crew average ~6h of sleep in space per night
+
+
+• ISS schedules have become more stable: consistent
+  bed and wake times (2130 to 0600)
+
+
+• Schedules sometimes disrupted by uncontrollable
+  operational events
+
+
+
+
+                     Sleep Strategies Study
+            Background Methods Results Conclusions
+                                                [Preliminary data]
+
+
+
+
+Characterize sleep             Determine when
+shifting strategies            strategies took place
+
+
+
+
+               Compare sleep outcomes
+               on nights surrounding
+               operational events to all
+               other nights
+
+
+             Sleep Strategies Study
+      Background Methods Results Conclusions
+                                               [Preliminary data]
+
+
+
+
+                  • Variable effects of splitting sleep on
+                    alertness and performance:
+
+Sleep Shifting      • higher latency & more arousals, but
+                      lower WASO (Roach 2015)
+Strategy:           • same PVT lapses, differences in peak
+                      performance times (Short et al. 2015)
+                    • more sleep inertia (Hilditch 2016)
+
+splitting sleep
+n = 28 crewmembers on the ISS                                      [Preliminary data]
+(Spaceflight Standard Measures)
+                                              • Continuous: first 9 crew
+                                                collected actigraphy every day
+Measures
+                                                in space
+ • Actigraphy
+ • Sleep logs (every day on the ground,       • Intermittent: most recent crew
+   monthly inflight)                            wears for 2-week period every 2
+                                                months
+
+
+
+
+                                          Actigraphy
+  L-270 days            L-180 days                            R+0 days
+
+
+
+                       Sleep Strategies Study
+               Background Methods Results Conclusions
+                                                     [Preliminary data]
+     Split sleep.               vs.   Phase delay
+• = Splitting the daily sleep
+  opportunity in two
+  surrounding nominal sleep
+  episode
+
+
+
+
+           Nominal sleep
+            opportunity
+
+                      Sleep Strategies Study
+            Background Methods Results Conclusions
+                                                [Preliminary data]
+Crew shift together
+
+
+
+
+             Sleep Strategies Study
+       Background Methods Results Conclusions
+                                                         [Preliminary data]
+Split sleep
+
+ • 12 crew
+ • 17 total episodes of split sleep
+ • All surrounding 8 Visiting Vehicle events (Docking,
+  Undocking, Relocation)
+  • VV events occurred between 2330 and 1000 GMT
+
+
+
+
+                    Sleep Strategies Study
+             Background Methods Results Conclusions
+                                                                      [Preliminary data]
+
+Sleep Outcomes: split sleep
+Difference between rest phases 1 and 2
+                                             Phase 1          Phase 2          Total
+  Phase 1         Phase 2
+                             Time in Bed (h) 3.69 (1.05)      5.06 (1.91)     8.75 (1.98)
+
+                                Efficiency % 74.53 (13.06)    81.85 (8.81)    78.19 (8.94)
+
+
+                                     WASO     19.82 (12.90)   25.41 (18.87)   45.24 (27.96)
+
+                                   Latency    22.18 (29.21)   11.35 (14.03)   30.26 (14.16)
+
+
+
+
+                  Sleep Strategies Study
+            Background Methods Results Conclusions
+                                                                              [Preliminary data]
+
+Sleep Outcomes: all nights                                             Other
+Nights after visiting vehicles                                         nights
+                                                       Split         following       All other
+                                                       sleep             VV           nights
+  VV nights        No VV nights
+                                      N (#nights)    17              178             2216
+
+                                  Time in Bed (h)    8.75 (1.98)     7.81 (0.81)     7.96 (0.58)
+
+                                    Efficiency (%)   78.19 (8.94)    82.93 (6.23)    82.38 (4.28)
+
+                                    WASO (min)       45.24 (27.96)   37.46 (18.20)   36.03 (10.69)
+
+                                         Latency     33.53 (35.54)   24.19 (20.45)   30.26 (14.16)
+
+
+
+
+                     Sleep Strategies Study
+              Background Methods Results Conclusions
+                                                                 [Preliminary data]
+
+Sleep Outcomes: all nights
+Nights after visiting vehicles                 Other nights        All other
+                                               following VVs        nights
+
+                                 N (#nights)      178              2216
+
+                             Time in Bed (h)      7.81 (0.81)      7.96 (0.58)
+
+                                 Start Time       23.59 (2.08)     23.12 (0.86)
+
+                                  End Time        7.47 (1.51)      7.11 (0.83)
+
+
+
+
+                 Sleep Strategies Study
+         Background Methods Results Conclusions
+                            SLEEP DURATION IS MAINTAINED
+                             • Taking a nap before and after a visiting
+                               vehicle arrival during the nominal sleep
+                               opportunity did not result in reduced sleep
+
+Conclusions                  • Nights following VV events had later sleep
+                               and wake times
+
+                            LIMITATIONS
+                             • Only 17 split sleep episodes
+                             • Relying on limited data – because of current
+                               intermittent actigraphy, less sleep data from
+  [Preliminary data]
+                               nights of events
+
+
+                       Sleep Strategies Study
+          Background Methods Results Conclusions
+                                                           [Preliminary data]
+                  ASSESS EVENTS
+                   • Timing of VV dock and undock
+                   • Whole period VV is docked
+                   • Location of sleep (e.g., when excess crew are on
+
+Future               station)
+
+
+
+directions        COUNTERMEASURES
+                  • Use of hypnotics
+                  • Quantify impact of sleep stations
+
+                  EVAs
+                  • Limited caffeine
+                  • IVA role also important
+
+
+
+           Sleep Strategies Study
+     Background Methods Results Conclusions
+NASA AMES
+
+Zach Glaros, MA                      NASA JSC
+Alisa Braun                             Pam Baskin
+Erin Flynn-Evans                     Scott Humbert
+PHD MPH                            BHP lab (Sheena
+                                  Dev, Suzanne Bell,
+                                Alaa Khader, Sydney
+                                        Begerowski)
+
+
+                   THANK YOU!
+

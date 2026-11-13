@@ -1,0 +1,3210 @@
+Exploration Systems Development
+Mission Directorate (ESDMD)
+HEOMD-415 Version 1
+National Aeronautics and
+Space Administration
+
+JANUARY 24, 2022
+
+REFERENCE SURFACE ACTIVITIES FOR CREWED
+MARS MISSION SYSTEMS AND UTILIZATION
+
+This document has been reviewed for Proprietary, CUI, and Export Control
+(ITAR/EAR) and has been determined to be non-sensitive. It has been released
+to the public via the NASA Scientific and Technical Information (STI) Process
+DAA #20220000589
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 2 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+REVISION AND HISTORY PAGE
+Version
+No.
+
+1
+
+Description
+
+Initial Release (Released by Office of Primary
+Responsibility, Exploration Systems Development
+Mission Directorate (ESDMD) Systems Engineering
+and Integration (SE&I) Strategy and Architecture,
+dated 1/24/2022)
+
+Release
+Date
+
+1/24/2022
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 3 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+TABLE OF CONTENTS
+SECTION
+1.1
+1.2
+1.3
+
+PAGE
+
+PURPOSE AND SCOPE ....................................................................................................... 5
+BACKGROUND ................................................................................................................... 5
+CHANGE AUTHORITY/RESPONSIBILITY ............................................................................... 5
+
+2.0
+
+DOCUMENTS ................................................................................................................. 6
+
+3.0
+
+MISSION PROFILE......................................................................................................... 6
+
+3.1
+3.2
+4.0
+4.1
+4.2
+4.3
+
+SAC21 MISSION GOALS AND OBJECTIVES ........................................................................ 7
+SAC21 MISSION OVERVIEW .............................................................................................. 7
+ASSUMPTIONS .............................................................................................................. 9
+TIMELINE PLANNING ASSUMPTIONS ................................................................................. 11
+CREW CARE ASSUMPTIONS............................................................................................. 12
+EQUIPMENT CARE ASSUMPTIONS .................................................................................... 13
+Surface Power Infrastructure ................................................................................................. 13
+EVA Systems ......................................................................................................................... 14
+Mobility Systems Used by the Crew ...................................................................................... 15
+Habitable Volume ................................................................................................................... 15
+Trash and Waste Management .............................................................................................. 16
+Crew Health and Performance Systems ................................................................................ 16
+
+4.4
+
+ADDITIONAL CONSIDERATIONS ........................................................................................ 16
+Communication Outage due to Solar Conjunction................................................................. 16
+Dust Storms............................................................................................................................ 17
+
+5.0
+5.1
+5.2
+5.3
+5.4
+5.5
+5.6
+5.7
+
+SAC21 SHORT (30 SOL) SURFACE EXPLORATION TIMELINE ............................. 18
+MARS LANDING DAY........................................................................................................ 18
+SOLS 1 –6 ....................................................................................................................... 19
+SOLS 7 – 11 .................................................................................................................... 20
+SOLS 12 – 21 .................................................................................................................. 20
+SOLS 21 – 27 .................................................................................................................. 20
+SOLS 28 – 30 .................................................................................................................. 21
+SUMMARY OF CREW TIME USAGE AND EVA CADENCE .................................................... 21
+
+6.0
+
+CONCLUSION .............................................................................................................. 24
+
+7.0
+
+REFERENCES .............................................................................................................. 24
+
+APPENDIX A ACRONYMS AND ABBREVIATIONS AND GLOSSARY OF TERMS .............. 26
+APPENDIX B OPEN WORK ........................................................................................................ 31
+APPENDIX C A LONG SURFACE STAY MISSION COMPARISON......................................... 32
+APPENDIX D MARS SURFACE MISSION WASTE MANAGEMENT OPERATIONS CONCEPT
+....................................................................................................................................................... 42
+APPENDIX E COMMUNICATION OUTAGE ............................................................................... 45
+APPENDIX F DUST STORMS ..................................................................................................... 49
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 4 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+TABLE
+TABLE 2.-1 APPLICABLE/REFERENCE DOCUMENTS........................................................................ 6
+TABLE 4-1. SUMMARY OF ASSUMPTIONS APPLIED TO TIMELINE DEVELOPMENT ............................. 9
+TABLE 5.7-1. NOTIONAL EVA SCHEDULE FOR A 30-SOL SURFACE MISSION................................. 23
+TABLE A-1.
+ACRONYMS AND ABBREVIATIONS ........................................................................ 26
+TABLE A-2.
+GLOSSARY OF TERMS ......................................................................................... 28
+TABLE B1-1. TO BE DETERMINED ITEMS ..................................................................................... 31
+TABLE B2-1. TO BE RESOLVED ISSUES ....................................................................................... 31
+TABLE C7-1. SUMMARY OF EVA HOURS DURING AN EXAMPLE 300-SOL SURFACE MISSION ........ 40
+TABLE E-1. EARTH-MARS SUPERIOR SOLAR CONJUNCTION DATES AND MINIMUM S-E-M ANGLES
+....................................................................................................................................... 46
+TABLE F-1. GLOBAL-SCALE DUST STORMS OBSERVED SINCE 1924 [14] .................................... 52
+FIGURE
+FIGURE 3.2-1. NOTIONAL END-TO-END SAC21 MARS MISSION PROFILE ....................................... 8
+FIGURE 4.1-1. EXAMPLE CREW DAY TIME ALLOCATION ............................................................... 12
+FIGURE 4.4-1. SUPERIOR SOLAR CONJUNCTION OF EARTH AND MARS. THE IMAGE ON THE RIGHT
+SHOWS A REPRESENTATIVE VIEW OF MARS AS SEEN FROM EARTH DURING CONJUNCTION
+....................................................................................................................................... 17
+FIGURE 5.1-1. DAILY SURFACE SCHEDULE OVERVIEW ................................................................ 19
+FIGURE 5.7-1. SUMMARY OF CREW HOURS USED DURING THE 30-SOL MARS SURFACE MISSION 22
+FIGURE C2-1. EXAMPLE 300-SOL SURFACE MISSION TIMELINE DIVIDED INTO DISCRETE BLOCKS OF
+ACTIVITIES ...................................................................................................................... 34
+FIGURE C3-1. EXAMPLE 300-SOL SURFACE MISSION TIMELINE: CREW LANDING SOL AND CARGO
+OFF-LOADING PLUS FIRST THREE WEEKS OF “HIGH TEMPO” EXPLORATION .................... 35
+FIGURE C5-1. EXAMPLE 300-SOL SURFACE MISSION TIMELINE DIVIDED: FIRST “LOW TEMPO”
+BLOCK OF ACTIVITIES ...................................................................................................... 36
+FIGURE C6-1. EXAMPLE 300-SOL SURFACE MISSION TIMELINE: FINAL THREE WEEKS OF “HIGH
+TEMPO” EXPLORATION PLUS PREPARATIONS FOR CREW DEPARTURE. ............................ 37
+FIGURE C7-1. SUMMARY OF CREW HOURS USED DURING THE EXAMPLE 300-SOL MARS SURFACE
+MISSION .......................................................................................................................... 39
+FIGURE D-1. SMALL PRESSURIZED LOGISTICS CARRIER (SPLC) ................................................. 43
+FIGURE E-1. POSITIONS OF EARTH AND MARS AT SUPERIOR SOLAR CONJUNCTION. ................... 45
+FIGURE E-2. EXAMPLE OF EXPECTED COMMUNICATION OUTAGE DURATION DURING 2030-2041
+FOR DIFFERENT COMMUNICATION LINKS [13]. ................................................................. 47
+FIGURE F-1. TYPICAL MARTIAN DUST DEVIL (NASA IMAGE) ........................................................ 49
+FIGURE F-2. EXAMPLE REGIONAL DUST STORM (IMAGE: ESA/DLR/FU BERLIN - G. NEUKUM) .... 50
+FIGURE F-3. 2018 GLOBAL MARTIAN DUST STORM (NASA IMAGE) ............................................. 51
+FIGURE F-4. SIMULATED TIME LAPSE PHOTO OF THE MAY-SEPTEMBER 2018 GLOBAL DUST
+STORM AS IT WOULD HAVE BEEN SEEN BY THE OPPORTUNITY ROVER (NASA/JPLCALTECH/TAMU IMAGE). ................................................................................................ 52
+FIGURE F-5. A PLOT OF REGIONAL DUST STORMS DURING MARS YEARS 24-30 (1999-2011) [11]
+....................................................................................................................................... 53
+FIGURE F-6. LOCATION OF HIGHER PROBABILITY OF REGIONAL DUST STORMS AND OCCURRENCE
+OF GLOBAL STORMS ....................................................................................................... 54
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 5 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+OVERVIEW
+1.1
+
+PURPOSE AND SCOPE
+
+This document details constraints and considerations in planning daily activity timelines for
+crewed exploration on Mars. This work was done for the purpose of estimating how much time
+during each martian day (hereafter referred to as a sol) might be available for exploration
+activities, (also referred to as utilization activities in this document), after accounting for crew
+and equipment care. These results become part of the factors taken into consideration as
+specific goals and objectives are assembled into a mission plan.
+Daily activity planning will be highly dependent on mission goals, the number of crew (and their
+unique expertise) available to perform specialized exploration activities, the types of equipment
+available for crew and exploration activity support—and maintenance or support time required to
+keep those systems operating properly. Therefore, the timeline estimates in this document
+should be considered examples of key considerations for the given assumptions, and cannot be
+extrapolated to other types of missions, mission durations, or surface architectures without
+careful analysis.
+1.2
+
+BACKGROUND
+
+The Mars Architecture Team (MAT), which resides within the Exploration Systems Development
+Mission Directorate’s (ESDMD’s) Systems Engineering and Integration (SE&I) Office, is
+chartered with developing architectures and mission profiles for eventual human missions to
+Mars. The last Mars reference architecture [1], published in 2009, outlined a 4 to 6 crew, long
+(~500 sol) stay on Mars scenario, maximizing use of infrastructure such as in situ resource
+utilization (ISRU) to manufacture propellant for a crew ascent vehicle. In 2019 MAT was
+challenged by senior NASA leadership to develop a much different architecture and mission
+profile, this one designed for a very short round-trip duration, with only a 30-sol surface stay for
+two crew, and minimal surface infrastructure for the first human mission. There were several
+motivations for this shorter duration mission, including emerging nuclear transportation
+technologies that could make a short round-trip mission possible, as well as a risk assessment
+that indicated shorter missions could reduce crew health risk [2]. This document focuses on the
+30-sol surface mission, anchoring the shorter end of possible surface stay durations. It is
+important to note that no decisions have been made regarding human Mars mission objectives,
+durations, or architectures, and this document is intended to aid in analysis of options.
+1.3
+
+CHANGE AUTHORITY/RESPONSIBILITY
+
+The appropriate NASA Office of Primary Responsibility (OPR) identified for this document is
+Exploration Systems Development Mission Directorate, Systems Engineering and Integration
+(SE&I) Strategy and Architecture.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 6 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+2.0
+
+DOCUMENTS
+
+The following documents, of the issue and revision shown, form a part of this Reference Mission
+to the extent specified herein.
+TABLE 2-1 APPLICABLE/REFERENCE DOCUMENTS
+Document Number
+
+Revision/Release Date
+
+Document Title
+
+HEO-DM-1002
+
+28 September 2020
+
+Mars Mission Duration Guidance for
+Human Risk Assessment and
+Research Planning Purposes
+
+M-QA-2021-089
+
+8 November 2021
+
+Crewmember Deconditioning
+Considerations for Artemis EVA
+Availability
+
+NID 8715.129
+
+9 July 2020
+
+Biological Planetary Protection for
+Human Missions to Mars
+
+3.0
+
+MISSION PROFILE
+
+The timeline described in this document is based on a particular mission profile known internally
+within ESDMD’s SE&I Office as the Strategic Analysis Cycle 2021 (SAC21) architecture. For
+SAC21, emphasis was placed on the Point of Departure scenario described in the HEO-DM1002 decision memo, in which the surface exploration mission duration is limited to 30 sols by a
+surface crew of two astronauts. However, this SAC21 architecture is just one of several being
+traded and no architecture decisions have been made. To illustrate these alternate surface
+mission timelines and their use, Appendix C describes a timeline analyzed for the limited
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 7 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+purpose of understanding risk sensitivity to surface mission duration (i.e., the Appendix C
+timeline was constructed solely for this comparative analysis and is not considered an
+alternative to the timeline described here). Other alternate timelines will continue to be
+developed and analyzed as specific question and issues arise.
+3.1
+
+SAC21 MISSION GOALS AND OBJECTIVES
+
+The Agency-level human Mars mission goal for the SAC21 mission is to land humans on the
+surface of Mars to search for signs of extant life (i.e., life that still exists today). At the ESDMDlevel, the first Mars mission objective is to land humans on the surface of Mars and return them,
+and their return cargo, safely to Earth. The landing site for this first mission will be driven by
+crew safety, available capabilities, knowledge of the Mars environment, and science priorities.
+ESDMD’s top priority for the crew once they land and validate habitation/exploration/ascent
+capabilities will be to perform high priority utilization tasks, the details of which will be
+established by the Science Mission Directorate (SMD), the Space Technology Mission
+Directorate (STMD), and other science/research organizations such as the Human Research
+Program (HRP) and other partnering Agencies, using systems and processes provided by those
+organizations and approved by relevant authorities across the Agency. The process for
+selecting and prioritizing these utilization tasks has yet to be defined, so this timeline only
+indicates blocks of time available for EVA or IVA utilization activities.
+3.2
+
+SAC21 MISSION OVERVIEW
+
+For this analysis, the end-to-end SAC21 mission profile, depicted in Figure 3.2-1, is assumed.
+This overall mission profile sets the context for, and defines certain criteria used in, the surface
+mission timeline described below. The specific portion of this overall mission described in this
+document begins with the arrival of the crew in their Deep Space Transport (DST) at Mars and
+concludes once the surface crew returns to the DST and it departs for Earth.
+Upon arrival at Mars, the DST enters a 5-sol Mars orbit for a 50-Earth day loiter, which allows a
+30-Earth day surface stay period plus up to 10 Earth days on either end to account for vehicle
+staging and phasing. After rendezvous with their Mars Descent System (MDS), carrying a lunarexperience-derived Pressurized Rover (PR) as part of its payload, two of the four crew
+members transfer to the PR via a pressurized mating adapter (PMA) for descent to the martian
+surface. Prior to initiation of the surface mission, the crew will have verified that surface power
+infrastructure is functioning and their Mars Ascent Vehicle (MAV), which was pre-deployed to
+the surface, is ready for use. The two remaining crew tend the DST, which serves as a
+communications relay back to Earth during the surface mission. The orbital crew can aid the
+surface crew by handling remote tasks, such as telerobotic operation or monitoring of surface
+assets, or data analysis to support next-day planning and coordination with subject matter
+experts on Earth. The orbital crew may also use their vantage point for Mars surface or
+Phobos/Deimos observations.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Release Date: 1/24/2022
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Document No: HEOMD-415
+Page: 8 of 54
+
+FIGURE 3.2-1. NOTIONAL END-TO-END SAC21 MARS MISSION PROFILE
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 9 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+4.0
+
+ASSUMPTIONS
+
+To build a realistic timeline, all of the tasks the crew will perform – of which utilization-driven
+tasks (e.g., planetary science, human performance research, technology demonstrations, etc.)
+are only one part – need to be properly accounted for and the capabilities and limitations of a
+human crew need to be reflected in the assigned duration for these tasks. Lessons learned from
+decades of International Space Station (ISS) operations as well as surface mission analogs
+(e.g., NEEMO [3], BASALT [4], D-RATS [5], etc.) provide guidance for the type and duration of
+non-utilization driven activities that are likely to be independent of utilization driven activities
+(possibly constraining the utilization driven activities that can be accomplished). The primary
+source used for these guidelines is SSP 50261-02 “ISS Generic Groundrules and Constraints
+Part 2: Execute Planning” [9]; other sources are noted as they are applied. These documents
+were used as a starting point, with timeline-related information anchored in actual human
+spaceflight activities. While these activities are representative of future human Mars missions, it
+was recognized that portions of this information are likely to change as research targeting Mars
+mission-specific aspects is completed. But no attempt has been made to prejudge the nature of
+these changes; as results from various projects focused more specifically on planetary surface
+missions (e.g., NASA’s Human Research Program [HRP] research or Human-In-The-Loop
+[HITL] analogs) become available, this timeline will be adjusted to account for them.
+This section describes key assumptions from currently available sources that are used to
+develop the timelines described in following sections. Table 4-1 summarizes these assumptions
+and points to the section where additional detail and rationale can be found for a particular
+assumption.
+TABLE 4-1. SUMMARY OF ASSUMPTIONS APPLIED TO TIMELINE DEVELOPMENT
+Detailed
+Assumption
+Narrative
+Category
+Short Title
+Short Description
+Section
+Length of
+Timelines use martian sol – 24 hr 40 min duration.
+4.1
+martian sol
+Both orbital crew and surface crew will operate on the
+martian sol.
+Typical work sol ISS crew schedule planning guidelines used as initial
+4.1
+General
+basis for daily activities and durations.
+Timeline
+SSP 50261-02 is the source document.
+Off-duty sol Crew will observe an off-duty sol after no more than six
+4.1
+on-duty sols.
+SSP 50261-02 is the source document.
+Time to
+Extended flight time in micro-g environment is known
+reacclimate to to require a period of re-acclimatization when retuning
+gravity
+to Earth.
+Crew Care
+environment
+For this analysis, a 3-sol gravity re-adaptation period is
+assumed when crew land on Mars.
+
+4.2
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 10 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Assumption
+Category
+
+Short Title
+
+Short Description
+
+EVA frequency Crew will have at least one non-EVA sol between
+EVAs wherever possible.
+Where EVAs on consecutive sols are difficult to avoid,
+exceptions are made, but total EVA time is reduced as
+much as possible.
+Surface Power Surface power infrastructure elements are not
+Infrastructure expected to be maintained by the crew.
+Radiation keep out zones may affect traverse time, but
+there is insufficient surface site data at this time for this
+to affect timelines.
+Extravehicular Simple, more frequent EVA maintenance is assumed
+Activity (EVA) to require no more than the time available during
+Systems
+“morning prep work” and “evening prep work.”
+
+Mobility
+Systems
+
+More extensive, less frequent EVA maintenance will be
+included when sufficient data is available.
+Both a pressurized and unpressurized rover are
+assumed.
+
+Detailed
+Narrative
+Section
+4.2
+
+4.3.1
+
+4.3.2
+
+4.3.3
+
+Computer-based simulations of current mobility
+systems indicate an endurance of five sols on a
+traverse before they must be connected to surface
+power infrastructure.
+
+Equipment
+Care
+
+Two sols are assumed to fully recharge both mobility
+systems.
+The pressurized rover includes the capacity to stow as
+much as 14 sols of logistics for two crew.
+
+Habitable
+Volumes
+
+Trash and
+Waste
+Management
+
+Maintenance intervals for the mobility systems are still
+being developed as vehicles designs mature.
+Routine maintenance and housekeeping are assumed
+to occur on at least a weekly basis.
+Maintenance intervals are still being developed as the
+design of habitation systems matures.
+All trash containers will be placed at the same landingsite-specific long-term storage location.
+
+4.3.4
+
+4.3.5
+
+Trash containers will be placed on or above the terrain
+surface at the disposal location.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 11 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Assumption
+Category
+
+Short Title
+
+Short Description
+
+Trash containers will be designed to prevent release of
+contaminants for TBD Earth years.
+Additional Communication A communication outage caused by solar conjunction
+ConsiderOutages
+will not occur during the surface mission due to
+ations
+appropriate selection of trajectory dates.
+Dust Storms Curtail most exploration activities and, if serious
+enough, leave the surface for the relative safety of the
+DST.
+Planetary
+Constraints to accommodate planetary protection
+Protection requirements (forward or backward) could affect
+timeline element durations.
+4.1
+
+Detailed
+Narrative
+Section
+
+4.4.1
+
+4.4.2
+
+4.4.3
+
+TIMELINE PLANNING ASSUMPTIONS
+
+The first planning assumption involves the length of a martian day (or sol). A martian sol is 24
+hours 39 minutes and 35 seconds in length [10]. This has been rounded to 24 hours and 40
+minutes in the timelines described in this document. It is assumed in SAC21 that the Mars crew
+– both in orbit and on the surface – will operate on this length of a “workday.” Sleep shifting by
+the crew is assumed to begin several weeks prior to arrival at Mars. Because the activity
+durations described in SSP 50261-02 are based on a 24-hour day, the additional 40 minutes in
+the martian sol is carried as timeline “reserve” for the purpose of this analysis. This reserve time
+can be considered for mission tasks (e.g., science operations, routine maintenance,
+conferences, etc.) when necessary but is otherwise allocated to crew evening/off-duty activities
+or additional sleep.
+Following SSP 50261-02 guidelines, the crew will have at least 8.5 hours of sleep per sol. They
+will also have 1.5 hours in the morning for breakfast and other personal activities before
+beginning work activities (referred to as “post-sleep”), 2.0 hours in the evening for an evening
+meal and personal activities before going to sleep (referred to as “pre-sleep”), and 1.0 hour for a
+mid-day meal. Pending further research or direction from the Health and Medical Technical
+Authority (HMTA), crew are also assumed to follow the ISS protocol for 2.5 hours of exercise
+per person per sol on those sols when no Extravehicular Activity (EVA) is conducted and 1.0
+hour of exercise on any sol that includes EVA activity (planned to occur after the EVA but before
+pre-sleep). Note that those surface mission scenarios including just a pressurized rover (PR) as
+the primary habitable element will have limited habitable volume, so these exercise periods
+must be performed serially. This leaves 8.5 hours per sol (plus the 40 minutes of “reserve” time
+if needed) for “work” related activities. Figure 4.1-1 illustrates this allocation of time (not
+including the “reserve” time).
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 12 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+FIGURE 4.1-1. EXAMPLE CREW DAY TIME ALLOCATION
+
+The crew is also assumed to follow the SSP 50261-02 guideline of an off-duty day following no
+more than six sols that include “work” related activity. This on-duty / off-duty cadence is
+assumed to be sufficient for surface missions measuring several weeks to a few months in
+duration; it has proved satisfactory for ISS expeditions – with infrequent EVAs – measuring four
+to six months in duration.
+4.2
+
+CREW CARE ASSUMPTIONS
+
+Timeline planning assumptions below also incorporate several features intended to maintain
+crew health. In addition to the previously described assumptions involving regular exercise and
+off-duty sols, additional assumptions involve time for the crew to reacclimate to a gravity
+environment and the pace of EVA activity are described.
+The transit from Earth to Mars is assumed to last for several months and to take place in a
+microgravity environment. Extended durations in microgravity are known to cause multiple
+changes in the human body that must be addressed after re-entering a gravity environment
+before the crew can safely carry out many activities [6]. Experience gained from decades of
+extended duration flights on ISS by scores of astronauts has led to a better understanding of
+these effects as well as countermeasures that can mitigate them during flight. But some period
+of time is still required by the crew after returning to a gravity environment to readapt to the point
+where they can safely perform important tasks, such as working in an EVA suit or driving a
+pressurized rover. The medical community has provided a 3- to 7-sol range for crew to readapt
+to a gravity environment as informal guidance (Health and Medical Technical Authority [HMTA]
+memo M-QA-2021-089); additional research into this topic is planned to provide more precise
+gravity re-adaptation protocols. For the purpose of this analysis, a 3-sol gravity re-adaptation
+period is assumed for planning, as this represents the stressing case for total EVA hours carried
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 13 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+out by the crew, and for the logistics needed to support this level of activity. During an actual
+mission this re-adaptation period will be extended until the crew is considered fit to carry out the
+more challenging surface mission activities with the associated reduction in planned demand on
+logistics and EVA system utilization. Crew fitness will continue to be monitored throughout the
+surface mission and activities will progress from simple / less strenuous to more complex / more
+strenuous based on their observed readaptation to the martian surface environment.
+The final significant crew care assumption used in planning these timelines involves EVA
+frequency. EVA equipment for Mars surface missions is expected to build from experience
+gained during Artemis Program lunar surface EVAs. Details for Mars-specific EVA equipment
+are still conceptual, meaning that impacts on the crew from its use are unknown. But experience
+from Apollo, Space Shuttle, and ISS missions indicates that EVAs are likely to be taxing on the
+crew regardless. Consequently, the timelines described below assume that the crew will have at
+least one non-EVA sol between EVAs wherever possible. Where EVAs on consecutive sols are
+difficult to avoid, exceptions are made. But in these instances, the total EVA duration across
+consecutive sols is reduced as much as possible.
+4.3
+
+EQUIPMENT CARE ASSUMPTIONS
+
+In addition to assumptions regarding crew capabilities, timeline planning needs several
+assumptions regarding the hardware elements that will be used by the crew. The hardware
+elements relevant for these assumptions include surface power infrastructure, EVA equipment,
+mobility (i.e., rover) systems, and habitation systems. All these hardware elements have
+assumptions regarding logistics restocking and waste disposal that affect the timeline.
+Surface Power Infrastructure
+Power for all surface systems in this scenario is assumed to be supplied by a fission surface
+power (FSP) system. For SAC21, a single 10 kWe FSP is delivered to the landing site before
+the arrival of the crew and is used to support preparatory activities such as transferring
+propellant to the Mars Ascent Vehicle (MAV) and supplying power to other predeployed landers
+carrying critical payloads. Power is supplied to these dispersed elements by means of cables
+that are deployed and connected using an unpressurized rover supervised by operators on
+Earth. (This unpressurized rover has additional uses once the crew arrives that are described
+below.) Crew will be able to plug mobile or portable equipment into the surface power grid via a
+stand-alone access point located at a radiation-safe distance from the FSP or at one of the
+landers. Because this FSP will have been designed to operate for periods of time significantly
+longer than the 30 sol surface mission, and must be functioning before the crew attempts to
+land, it is assumed that no maintenance or repair by the crew will be needed, therefore there is
+no reason for the crew to approach the FSP. Shielding onboard the FSP combined with locating
+the FSP at a sufficiently remote location will be the primary means of protecting the crew and
+other sensitive equipment from radiation. A spare FSP will be available in the event of a
+problem with the primary unit; in the current conceptual design the spare is inert until deployed
+and activated by the crew. Once activated, there will be a keep out zone that the crew must
+avoid during EVA activities or rover traverses. A specific landing site has not been selected at
+this time, so timeline impacts caused by specific EVA or rover paths planned to avoid this
+radiation keep out zone have yet to be incorporated. The keep-out zone may also be reduced
+by placement to take advantage of the shielding benefits of natural terrain features (again,
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 14 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+dependent on landing site), or supplemental shielding that might be provided through careful
+placement of equipment (such as trash containers or spent lander components).
+EVA Systems
+Even though details for Mars EVA equipment are still conceptual, experience with past and
+current EVA systems indicates that there will be simple, more frequent maintenance tasks (e.g.,
+following each EVA or after a few EVAs) and more extensive, less frequent maintenance tasks
+(e.g., following many cumulative hours of EVA time or after a certain amount of calendar time)
+that can be described now and an estimate made for their likely duration and rate of occurrence.
+For the purpose of this analysis, the use of suitport-compatible EVA suits is assumed, as use of
+suitports can reduce dust migration into habitable crew cabins and improve the safety of rapid
+and frequent EVA excursions.
+Simple, more frequent maintenance includes cleaning/drying internal surfaces of the EVA suit
+as well as checkout and preventative maintenance of portable life support system (PLSS)
+components that are accessible while the EVA system is attached to a suitport. Although an
+exact duration for these tasks is not being specified, they are considered to require no more
+time than that available on a daily basis for activities that SSP 50261-02 describes as “morning
+prep work” and “evening prep work,” described above in Figure 4.1-1.
+More extensive, less frequent maintenance includes replacement of suit components known to
+wear out with repeated use. Examples include EVA gloves and boots. There are also items,
+such as joints, rotating bearings, and seals that are likely to wear out under Mars surface
+conditions, but the replacement frequency is unknown (and may be unknowable until testing
+experience is obtained). This implies that until enough observational data is available from
+which a prediction for deterioration or failure of these items can be made, a program of periodic
+inspection and repair will be incorporated into surface mission timelines. Currently, an
+assumption of no more than 24 cumulative EVA hours will pass before replacement of gloves
+and possibly boots, filters, or batteries. Other wear-susceptible items, mentioned previously, will
+be inspected then repaired or replaced if necessary. Due to the amount of time spent in
+microgravity, the crew may need to perform a suit resize as their bodies acclimate to Mars
+gravity. For short duration surface missions where only a pressurized rover is available to the
+crew, this type of maintenance must be carried out inside the rover cabin. To accomplish this,
+the cabin must be depressurized to allow the crew to enter through the side hatch, and EVA
+equipment doffed in the repressurized cabin while maintenance tasks are accomplished. When
+maintenance is complete, the crew don their EVA equipment before a second depressurization
+of the cabin is made to allow the crew to exit through the side hatch and dock their EVA
+equipment to the suitports. An entire sol is anticipated to accomplish all these activities. Dust
+mitigation and planetary protection will be a concern when the suit is brought inside for
+maintenance and will need to be an integrated mitigation protocol between all martian assets.
+As currently envisioned, the pressurized rover has no means to mitigate the intrusion of dust
+and martian regolith into the cabin when the side hatch is used for EVA ingress and no means
+to prevent cabin organic material from being transported to the external environment when the
+side hatch is used for EVA ingress or egress. This may or may not be permissible for crew
+health and/or planetary protection reasons and will need to be an area of forward work.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 15 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+Mobility Systems Used by the Crew
+Two mobility systems are assumed to be available to the crew during the surface missions
+described below. The first is a pressurized rover (PR) capable of carrying two crew in nominal
+usage. The second is an unpressurized rover, initially used for preparatory tasks in advance of
+crew arrival (as described previously), but that is also capable of carrying two EVA-suited crew
+across terrain, and for distances, comparable to the PR. Both mobility systems are currently
+assumed to have a finite amount of on-board energy storage that must be replenished from the
+FSP; no on-board capability to replenish stored energy – such as solar arrays – is assumed.
+Because of anticipated limits on the range that crew will be able to walk in Mars EVA suits, it is
+assumed in these timelines that the unpressurized rover accompanies the pressurized rover on
+any extended range traverse. Current assumptions regarding crew capability in an EVA suit call
+for an extended range traverse to be limited to no more than 20 kilometers radial distance from
+the landing site (note: built into this range limit is an allowance for terrain-caused deviations
+from a straight line return to the landing site).
+Computer-based simulations of the current reference concept mobility systems indicate that the
+PR has an endurance of five sols on a traverse before it must be connected to the FSP [7].
+These simulations also indicate that the single 10 kW FSP can recharge the PR’s energy
+storage system, while also supporting other surface infrastructure power needs, in
+approximately two sols. This amount of time for recharging the PR is assumed in the timelines
+described below.
+The current reference conceptual design for the PR includes the capacity to stow as much as 14
+sols of logistics (e.g., food, water, filters, etc.) for two crew. For timeline planning purposes, this
+becomes the upper bound for intervals between restocking logistics and trash/waste removal.
+For those cases where the PR is attached to the FSP for recharging following a five-sol
+traverse, a timeline planning assumption is made to restock logistics and remove trash/waste
+while recharging is underway. (Additional detail regarding waste management assumptions can
+be found in Appendix D.)
+Maintenance intervals for the PR and unpressurized rover are still being developed as the
+design of these two vehicle concepts mature. Consequently, no specific assumptions or
+allocations are currently made in these timelines for maintenance of external components or
+other mobility subsystems. However, routine maintenance and housekeeping of the PR cabin
+are assumed to occur on the same sol as logistics restocking and trash removal.
+Habitable Volume
+As with the mobility systems, maintenance intervals are still being developed as the designs of
+habitation systems mature. Consequently, no specific assumptions or allocations are currently
+made in these timelines for maintenance of habitable spaces. However, routine maintenance
+and housekeeping of the PR cabin is assumed to occur on at least a weekly basis. Guidelines
+for the frequency and duration of housekeeping and routine maintenance contained in SSP
+50261-02 are assumed and are embedded in timeline planning described below. It remains
+forward work to trade the efficiency of carrying all crew support equipment in the PR habitable
+volume during exploration traverses (with implications to mobility system power usage and
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 16 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+range) versus stowing some equipment at a central surface location for retrieval as needed to
+maximize available habitable volume during excursions.
+Trash and Waste Management
+Aspects of trash and waste management have been mentioned in previous sections and are
+described in more detail in Appendix D. There are several additional assumptions that pertain to
+planning for all surface missions:
+•
+
+All trash containers will be placed at the same landing-site-specific long-term storage
+location, likely near the lander that delivers the crew and their logistics.
+
+•
+
+Trash containers will be placed on or above the terrain surface at the disposal location.
+
+•
+
+Trash containers will be designed to prevent release of active and inactive biological
+contaminants for TBD Earth years [8]. (Consideration is being given to release of nonbiologically active gases and compounds into the Mars environment through filters or
+other controls that mitigate active and inactive biological particle release [8].)
+
+All these trash and waste management assumptions are incorporated into the time allocated for
+logistics restocking and trash removal events in the timelines described below.
+Crew Health and Performance Systems
+For the purpose of this analysis, it is assumed that crew health care items, such as exercise
+equipment and a medical kit are available, though these items are not yet well-defined.
+4.4
+
+ADDITIONAL CONSIDERATIONS
+
+In addition to the previously described assumptions that are within the control of those planning
+these missions, there are other factors that are known to occur with differing degrees of
+predictability that will affect mission timelines and therefore should be given due consideration.
+Two of these factors – communication outages and dust storms – will be described in more
+detail in this section. As more is learned about the environment of Mars and as details of the
+surface mission evolve, there are likely other considerations that will emerge.
+Communication Outage due to Solar Conjunction
+As the Earth and Mars orbit the Sun, there is a point in time when these two planets are on
+opposites sides of the Sun from each other. In Astronomy, this phenomenon is known as
+superior solar conjunction and is illustrated in Figure 4.4-1.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 17 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+FIGURE 4.4-1. SUPERIOR SOLAR CONJUNCTION OF EARTH AND MARS. THE IMAGE
+ON THE RIGHT SHOWS A REPRESENTATIVE VIEW OF MARS AS SEEN FROM EARTH
+DURING CONJUNCTION
+
+Solar conjunction can result in an inability to communicate with crews on Mars, due to the
+possibility of the communication link passing through the solar disk, as illustrated by the image
+on the right of Figure 4.4-1. Current robotic missions routinely suspend operations at Mars
+during several days or weeks before and after the precise instant when Mars and Earth are on
+opposite sides of the Sun due to this communication outage.
+Suspending operations during a human Mars mission is an undesirable situation, so the
+occurrence and duration of this event becomes an important consideration for planning activities
+to be carried out by these crews. This phenomenon is entirely predictable but specific dates,
+durations, and communication link impacts vary from one solar conjunction event to the next
+(additional detail and discussion can be found in Appendix E).
+The 30-sol surface mission timeline described in this document assumes that a communication
+outage caused by solar conjunction will not occur during the surface mission. However, solar
+conjunction will become an important consideration when actual dates for the human Mars
+mission – and specifically, the time when the crew will be on the surface – is selected.
+Dust Storms
+Dust storms are another phenomenon of concern when planning activities to be carried out by
+Mars mission crews. Dust storms are assumed to be a reason to curtail most surface
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 18 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+exploration activities and, if serious enough, cause the crew to leave the surface for the relative
+safety of the DST.
+Martian dust storms have been observed to occur at any time during the martian year. These
+storms have been observed in sizes ranging from local (and small) dust devils, regional scale
+storms and global storms. There is currently no means to predict more than a few sols in
+advance when or where any of these storms will occur nor how large any storm will be.
+However, surveys of observational data [11] have shown that regional and global storms (those
+of greatest concern to a surface mission) have a higher probability of occurring during certain
+times of the martian year and to form in certain regions on the surface. Appendix F provides
+additional background and discussion related to these dust storms.
+In this document, a dust storm is considered a contingency event and specific impacts to crew
+activities are not reflected in timeline. However, because of the unpredictability of these storms
+and severity of consequences, this is one contingency that will require explicit plans to be taken
+into consideration when specific utilization activities are considered for a 30-sol surface mission.
+Planetary Protection
+Planetary protection considerations (forward: the avoidance of harmful terrestrial biological
+contamination of Mars, and backward: the avoidance of uncontrolled exposure of the terrestrial
+biosphere to potentially harmful extraterrestrial material) may impact the timeline.
+At the present time, requirements are poorly defined for crewed missions to Mars. However,
+based on historic precedent, it can reasonably be expected that some level of constraint on
+forward and backward contamination will need to be applied, especially in the areas of pristine
+sample acquisition, containment of waste materials/contaminants, and restricting the
+amount/type of uncontained Mars material returned to Earth. This may imply extra
+steps/duration in e.g., prep. work and maintenance activities.
+
+5.0
+
+SAC21 SHORT (30 SOL) SURFACE EXPLORATION TIMELINE
+
+The timeline described in the following sections begins with two crew arriving at their landing
+site and concludes when the crew leaves in their MAV. Timelines describing activities outside of
+this period will be described in other documents. Each of the following sections describes crew
+activities during a portion of the surface mission; a graphical representation of those activities is
+also provided. This section concludes with a summary of the time spent by the crew conducting
+EVA activities.
+It must be noted that no final decisions have been made regarding the details described in these
+sections, and this schedule of activities is likely to change as systems are refined, utilization
+objectives are better defined, and integrated operations analyses are completed. The following
+information should be used solely for analysis purposes and operational assessments.
+5.1
+
+MARS LANDING DAY
+
+Two crew descend inside a pressurized rover carried as payload on an MDS, landing no more
+than one kilometer away from two previously deployed MDS cargo landers. The crewed lander
+is robotically connected to the pre-deployed surface power grid. After allowing at least three sols
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 19 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+for crew re-adaptation to Mars gravity (reference M-QA-2021-089), the PR and utilization
+equipment are off-loaded from the lander and the surface exploration mission begins.
+Due to limited rescue options and contingency equipment assumed in the SAC21 architecture
+and mission profile, crewed exploration around the landing zone is expected to extend to about
+20 kilometers radius, though the crew may deploy robotic assets to explore farther. Crew will
+collect samples, take environmental readings, and conduct a host of experiments. An overview
+of surface activity is illustrated in Figure 5.1-1.
+
+FIGURE 5.1-1. DAILY SURFACE SCHEDULE OVERVIEW
+
+5.2
+
+SOLS 1 –6
+
+As depicted in Figure 5.1-1, Sols 1-3 are nominally reserved for crew re-adaptation to a gravity
+environment with no scheduled EVA activity, but there is one potential contingency situation that
+must be protected for: if robotic assets are unable to connect the MDS on which the crew
+landed to the surface power grid, crew may have to conduct a contingency EVA to hook up the
+power before the lander’s on-board power supply is depleted. During the gravity re-adaptation
+period crew will exercise, reconfigure the PR cabin as needed, inspect and prepare their EVA
+equipment, and telerobotically inspect their surface equipment. Logistics for descent to the
+surface plus the first 14 sols of surface exploration, along with the EVA suits, are stowed in the
+PMA used to connect the PR with the Transit habitat (TH) while in orbit (logistics for the
+remainder of the surface mission are stowed in Small Pressurized Logistics Container (SPLCs)
+carried as deck cargo). This provides valuable volume in the PR cabin for crew re-adaptation
+activities. When the crew is deemed medically fit for exploration activities (such as EVAs), the
+crew transfers remaining logistics and the EVA suits from the PMA to the PR cabin and moves
+trash plus any equipment no longer needed into the PMA where it will be sealed when the PR is
+offloaded from the lander deck.
+Following medical clearance, the first EVA occurs on Sol 4, when the PR cabin is depressurized
+and both crew egress through the PR side hatch. The crew conducts a 2.5-hour EVA with a
+primary objective of testing suit functionality and their ability to function in the suit. This first EVA
+will include descending from the deck of the MDS to the surface. This will demonstrate the
+crews’ ability to transition between the deck and the surface by EVA alone as well as conducting
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 20 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+the first human exploration activities on the surface of Mars. The crew will return to the MDS
+deck and re-enter the PR cabin by way of the suitports for a mid-day meal. A second 4-hour
+EVA will be conducted in the afternoon to continue with tasks in preparation for off-loading the
+PR and other deck cargo, such as science instruments and equipment for other utilization tasks
+(logistics containers remain on the deck until needed).
+On Sol 5, crew perform another 2.5-hour EVA with the primary objective of off-loading the PR –
+an activity that is assumed to be carried out while the crew is outside of the PR. A second 1.5hour EVA is conducted following a mid-day meal to complete off-loading other cargo from the
+MDS deck and any final PR preparations before extended traverses begin. An actual off-loading
+concept of operations is not yet defined, pending better definition of cargo off-loading systems
+the results of which could affect time allocations described here.
+5.3
+
+SOLS 7 – 11
+
+During Sol 7 the crew begin their first excursion away from the landing site, driving to
+Exploration Site 1 and conducting a 2.5-hour EVA reconnaissance before preparing the PR for
+an overnight stay. On Sol 8 the crew will conduct a 2-hour morning EVA, return to the PR for a
+mid-day meal, then conduct a 2.5-hour EVA in the afternoon. On Sol 9 the crew will remain
+inside the PR and conduct Intravehicular Activity (IVA) activities. On Sol 10, crew will conduct a
+3.5-hour morning EVA, then a second 2.5-hour EVA following their mid-day meal. On the
+morning of Sol 11 crew will drive the PR back to the landing site and connect the PR to the
+surface power grid to recharge its energy storage system. The remainder of the day will be used
+for housekeeping and routine maintenance on the PR and EVA systems.
+5.4
+
+SOLS 12 – 21
+
+On Sol 12 crew conduct their first logistics restocking and trash removal operation. During a 3hour EVA the morning of Sol 12, crew will offload an SPLC from the MDS deck for repositioning
+onto a PR suitport. Fresh logistics will be transferred from the SPLC into the PR, then the empty
+SPLC will be filled with trash. The now trash filled SPLC will then be placed at a location on the
+surface next to the MDS as its permanent disposal location. (Note: this disposal location reflects
+the current best guidance available, including planetary protection considerations. The approach
+to disposal will be revisited as new guidance becomes available.) Sol 13 will be an off-duty day
+for the crew, remaining inside the PR for the entire sol.
+Beginning on Sol 14 the crew will traverse to a second exploration site. The pattern of activity
+and duration of EVAs will be the same as that described for the first exploration site (Sols 7-11).
+The crew returns to the landing site on Sol 18 and connects to the surface power grid at the
+MDS on which they arrived. Sol 19 repeats the logistics restocking and trash removal activities
+and EVA durations as described for Sol 12. However, during this restocking event, the crew will
+take on 14 sols of logistics; sufficient for both the traverse to the next exploration site and
+supplies needed in the MAV for the return flight to the DST. Sol 20 is another off-duty day.
+5.5
+
+SOLS 21 – 27
+
+Beginning on Sol 21, the crew traverses to a third exploration site. The pattern of activity and
+EVA durations will be the same as that described for the first and second exploration sites (Sols
+7-11 and 14-18). The crew returns to the landing site on Sol 25. The PR connects to the power
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 21 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+grid at the MDS on which they arrived and conducts housekeeping and other IVA activities for
+the remainder of this sol. On Sol 26 the crew conducts a morning and an afternoon EVA (3
+hours and 2.5 hours respectively) for final utilization tasks in the local landing site vicinity,
+including gathering any materials from deployed utilization experiments that is to be returned
+with the crew. Sol 27 is an off-duty day for the crew.
+5.6
+
+SOLS 28 – 30
+
+On Sol 28 the crew drives the PR to the MDS carrying the MAV, connecting to the ground
+power grid via this lander as well as docking with the MAV using a pressurized tunnel to connect
+these two vehicles. A 3-hour EVA is available for external preparation of the MAV for departure
+plus any other final EVA tasks required before departure. The remainder of Sol 28 plus all of Sol
+29 are used for IVA activities necessary for MAV departure, such as transferring returned
+samples from utilization experiments and logistics for the return flight, activation and checkout of
+MAV systems, closing down selected PR systems, such as the Environmental Control and Life
+Support System (ECLSS), to prepare this vehicle for uncrewed operations, etc. Prior to
+departure, return cargo and equipment that has been exposed to the martian surface
+environment will be prepared in accordance with applicable planetary protection requirements
+and guidelines being developed under purview of NASA's Planetary Protection Officer. The
+crew will be wearing their clean launch/entry suits to mitigate dust transfer back to Earth, in
+accordance with anticipated planetary protection best practices. EVA suits are left behind on the
+surface to further mitigate dust transfer. On the day of launch (nominally Sol 31) the PR and
+tunnel will be undocked from the MAV and the PR will be driven (without crew on board) a safe
+distance away from the MAV (nominally 1 kilometer) to a location where the MAV launch can be
+observed. The crew launches in the MAV and spends the next 2.5 sols flying to the DST.
+5.7
+
+SUMMARY OF CREW TIME USAGE AND EVA CADENCE
+
+For reference, a summary of the number of hours used by the crew in certain activities is shown
+in Figure 5.7-1 and Table 5.7-1 summarizes the crew EVA schedule.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Release Date: 1/24/2022
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Document No: HEOMD-415
+Page: 22 of 54
+
+FIGURE 5.7-1. SUMMARY OF CREW HOURS USED DURING THE 30-SOL MARS SURFACE MISSION
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 23 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+TABLE 5.7-1. NOTIONAL EVA SCHEDULE FOR A 30-SOL SURFACE MISSION
+Number of EVAs
+Sol
+Number
+
+EVA Hours
+(Morning / Afternoon)
+
+Crew 1
+
+Crew 2
+
+Crew 1
+
+Crew 2
+
+Total
+EVA
+Hours
+
+1-3
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Crew acclimate
+
+4
+
+2
+
+2
+
+2.5 / 4
+
+2.5 / 4
+
+13
+
+First EVA, PR depress and crew egress through
+side hatch
+
+5
+
+2
+
+2
+
+2.5 / 1.5
+
+2.5 / 1.5
+
+8
+
+Off-load PR and deck cargo
+
+6
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Off-duty
+
+7
+
+1
+
+1
+
+0 / 2.5
+
+0 / 2.5
+
+5
+
+Traverse to Site 1; field exploration/initial recon
+
+8
+
+2
+
+2
+
+2 / 2.5
+
+2 / 2.5
+
+9
+
+Field exploration
+
+9
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Field exploration; IVA only
+
+10
+
+2
+
+2
+
+3.5 / 2.5
+
+3.5 / 2.5
+
+12
+
+Field exploration
+
+11
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Return to cargo lander; housekeeping
+
+12
+
+1
+
+1
+
+2/0
+
+3/0
+
+5
+
+Logistics restocking and trash removal
+
+13
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Off-duty
+
+14
+
+1
+
+1
+
+0 / 2.5
+
+0 / 2.5
+
+5
+
+Traverse to site 2; field exploration/initial recon
+
+15
+
+2
+
+2
+
+3.5 / 3
+
+3.5 / 3
+
+13
+
+Field exploration
+
+16
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Field exploration; IVA only
+
+17
+
+2
+
+2
+
+3.5 / 2.5
+
+3.5 / 2.5
+
+12
+
+Field exploration
+
+18
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Return to cargo lander; housekeeping
+
+19
+
+1
+
+1
+
+2/0
+
+3/0
+
+5
+
+Logistics restocking and trash removal
+
+20
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Off Duty
+
+21
+
+1
+
+1
+
+0 / 2.5
+
+0 / 2.5
+
+5
+
+Traverse to site 3; field exploration/initial recon
+
+22
+
+2
+
+2
+
+3.5 / 3
+
+3.5 / 3
+
+13
+
+Field exploration
+
+23
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Field exploration; IVA only, no EVA
+
+24
+
+2
+
+2
+
+3.5 / 2.5
+
+3.5 / 2.5
+
+12
+
+Field exploration
+
+25
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Return to cargo lander; housekeeping
+
+26
+
+2
+
+2
+
+3.5 / 3
+
+3.5 / 3
+
+13
+
+Local EVA at landing site
+
+27
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Off Duty
+
+28
+
+1
+
+1
+
+3/0
+
+3/0
+
+6
+
+Utilization EVA: sample packaging, external
+MAV prep, etc.
+
+29 - 30
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Traverse to MAV location and dock; prep MAV
+for launch
+
+Conting.
+
+1
+
+1
+
+4/0
+
+4/0
+
+8
+
+Contingency EVA
+
+Total
+
+25
+
+25
+
+39 / 32
+
+41 / 32
+
+144
+
+Description
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 24 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+6.0
+
+CONCLUSION
+
+To summarize, the concept of operation and timeline described in this document are based on a
+particular mission profile known internally within ESDMD’s SE&I Office as the Strategic Analysis
+Cycle 2021 (SAC21) architecture. This SAC21 architecture focuses on a Mars surface
+exploration mission in which the duration is limited to 30 sols and is carried out by a surface
+crew of two astronauts. Assumptions related to timeline planning, crew care, and equipment
+care sufficient to complete this timeline development are described, but it must be emphasized
+that these assumptions could change as other related analyses – improving our understanding
+of the capabilities and limitations of crew and their equipment – are completed. Alternate
+timelines will continue to be developed and analyzed as specific question and issues arise.
+This SAC21 architecture is just one of several being traded and no final architecture decisions
+have been made. This document will be periodically updated to reflect analysis findings and
+evolving mission goals and objectives resulting from tradeoffs among architecture options.
+
+7.0
+
+REFERENCES
+1
+
+Mars Architecture Steering Group. Human Exploration of Mars Design Reference
+Architecture 5.0 Addendum. Houston, TX: NASA; 2009 Jul. Report No.: NASA/SP2009-566-ADD.
+
+2
+
+Antonsen, E. and M. Van Baalen, Comparison of Health and Performance Risk for
+Accelerated Mars Mission Scenarios, Houston, TX; 2021 Feb. Report No.: NASA/TM20210009779.
+
+3
+
+Reagan, M.L., et al, “NASA Extreme Environment Mission Operations (NEEMO),” LPI
+Contribution 8036, Workshop on Terrestrial Analogs for Planetary Exploration, June
+16–18, 2021. Accessed from
+https://www.hou.usra.edu/meetings/terrestrialanalogs2021/pdf/8036.pdf
+
+4
+
+Beaton, K.H., et al, “Strategies for Future Human Planetary Exploration Missions
+Gleaned from the NASA BASALT Research Program,” LPI Contribution 8071,
+Workshop on Terrestrial Analogs for Planetary Exploration, June 16–18, 2021.
+Accessed from
+https://www.hou.usra.edu/meetings/terrestrialanalogs2021/pdf/8071.pdf
+
+5
+
+Janoiko, B.A., et al, “Desert Research and Technology Studies (D-RATS),” LPI
+Contribution 8095, Workshop on Terrestrial Analogs for Planetary Exploration, June
+16–18, 2021. Accessed from
+https://www.hou.usra.edu/meetings/terrestrialanalogs2021/pdf/8095.pdf
+
+6
+
+NASA, “The Human Body in Space,” accessed on 22 July 2021 from
+https://www.nasa.gov/hrp/bodyinspace
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 25 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+7
+
+Chappell, M.B., et al, “Human Mars Mission Surface Power Impacts on Timeline and
+Traverse Capabilities,” IEEE Aerospace Conference, Big Sky, Montana, March 5 - 12,
+2022, in preparation.
+
+8
+
+Spry, J.A., et al, A report of the December 2020 COSPAR and ESA/NASA virtual
+meeting on the Planetary Protection for Human Missions to Mars. Accessed from
+https://sma.nasa.gov/docs/default-source/sma-disciplines-and-programs/planetaryprotection/2020-cospar-pp-for-human-missions-meeting-report-v1-0508.pdf?sfvrsn=e855c1f8_0..
+
+9
+
+NASA, SSP 50261-02 “ISS Generic Groundrules and Constraints Part 2: Execute
+Planning”
+
+10 Allison, M. and McEwen, M., “A post-Pathfinder evaluation of aerocentric solar
+coordinates with improved timing recipes for Mars seasonal/diurnal climate studies”,
+Planetary Space Science, 48 (Issue 2-3, 15 February 2000), 215-235.
+11 Wang, H. and Richardson, M., “The origin, evolution, and trajectory of large dust
+storms on Mars during Mars years 24-30 (1999-2011),” Icarus, 251, 112–127.
+12 Morabito, D. and Hastrup, R, "Communications with Mars During Periods of Solar
+Conjunction: Initial Study Results," IPN PR 42-147, July-September 2001, pp. 1-16,
+November 15, 2001.
+13 Seibert, M., Morabito, D., Breidenthal, J., and Schier, J., “Mars Telecommunication –
+Earth-Sun-Mars Conjunction Outages,” internal NASA presentation, November 10,
+2018.
+14 Shirley, J., “Solar System dynamics and global-scale dust storms on Mars,” Icarus,
+251, 128-144.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 26 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+APPENDIX A
+ACRONYMS AND ABBREVIATIONS
+AND GLOSSARY OF TERMS
+TABLE A-1.
+
+ACRONYMS AND ABBREVIATIONS
+
+AMM
+
+Accelerated Mars Mission
+
+BASALT
+
+Biologic Analog Science Associated with Lava Terrains
+
+CWC
+
+Contingency Water Carrier
+
+D-RATS
+
+Desert Research and Technology Studies
+
+DRM
+
+Design Reference Mission
+
+DSN
+
+Deep Space Network
+
+DST
+
+Deep Space Transport
+
+ECLS
+
+Environmental Control and Life Support
+
+ECLSS
+
+Environmental Control and Life Support System
+
+ESDMD
+
+Exploration Systems Development Mission Directorate
+
+EVA
+
+Extravehicular Activity
+
+FSP
+
+Fission Surface Power
+
+HEO
+
+Human Exploration and Operations
+
+HEOMD
+
+Human Exploration and Operations Mission Directorate
+
+HITL
+
+Human-In-The-Loop
+
+HMTA
+
+Health and Medical Technical Authority
+
+HRP
+
+Human Research Program
+
+ISS
+
+International Space Station
+
+ISRU
+
+In Situ Resource Utilization
+
+IVA
+
+Intravehicular Activity
+
+JSC
+
+Johnson Space Center
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 27 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+kWe
+
+Kilowatt electric
+
+LEO
+
+Low Earth Orbit
+
+MAT
+
+Mars Architecture Team
+
+MAV
+
+Mars Ascent Vehicle
+
+MDS
+
+Mars Descent System
+
+NEEMO
+
+NASA Extreme Environment Mission Operations
+
+OPR
+
+Office of Primary Responsibility
+
+PLSS
+
+Portable Life Support System
+
+PMA
+
+Pressurized Mating Adapter
+
+PR
+
+Pressurized Rover
+
+SAC21
+
+Strategic Analysis Cycle 2021
+
+SE&I
+
+Systems Engineering and Integration
+
+SEM
+
+Sun-Earth-Mars
+
+SPLC
+
+Small Pressurized Logistics Carrier
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 28 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+TABLE A-2.
+Term
+Airlock
+
+GLOSSARY OF TERMS
+
+Description
+A compartment with doors which can be sealed against
+pressure which permits the passage of people and objects
+between environments of differing pressure or
+atmospheric composition while minimizing the change of
+pressure in the adjoining spaces and mixing of
+environments. The lock consists of a relatively small
+chamber with two airtight doors in series which do not
+open simultaneously.
+
+Deep Space Transport (DST)
+
+The Deep Space Transport (DST), also called Mars
+Transit Vehicle, is a crewed interplanetary spacecraft
+concept by NASA to support science exploration missions
+to Mars of up to 1,000 days. The DST vehicle would
+depart and return from the Lunar Gateway to be serviced
+and reused for a new Mars mission.
+
+Extravehicular Activity (EVA)
+
+EVA is any activity performed by a pressure-suited
+crewmember in unpressurized or space environment. EVA
+begins with depressurization of the airlock or exit of a
+pressurized module such as the rover or habitat through a
+suitport and ends with crewmember ingress through an
+airlock or suitport. This includes any internal activities
+where a pressure-suited crewmember may be operating in
+normal modes of operation (e.g., airlocks, passageways,
+unpressurized work areas, donning/doffing areas) and
+abnormal modes of operation (e.g., unpressurized
+modules).
+
+Fission Surface Power
+
+A fission surface power system works by splitting uranium
+atoms inside a reactor to generate heat that is then
+converted to electricity.
+
+ISRU
+
+In Situ Resource Utilization (ISRU) is the use of locally
+obtained material – such as gases, liquids, and solid
+materials – at a planetary destination, saving the
+transportation cost of bringing those same materials from
+Earth, to accomplish certain mission objectives. This could
+include processing raw materials gathered at these
+destinations into a more useful form. For Mars missions,
+two examples include gathering CO2 from the atmosphere
+and processing this into oxygen for use as breathing
+gases or rocket propellant, as well as gathering water
+from a variety of sources for use as drinking water or
+processing into rocket propellant.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 29 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Intravehicular Activity (IVA)
+
+The activity by an astronaut within a spacecraft or other
+pressurized module, such as a pressurized rover or
+surface habitat. IVA includes scientific experiments,
+maintenance procedures, and preparatory and planning
+activities.
+
+Logistics
+
+Food, clothing, water, gases, spares, and other
+consumable items required to sustain the crew and
+equipment for the duration of the mission.
+
+Mars Ascent Vehicle (MAV)
+
+A two-stage vehicle that transports the crew from the
+surface of Mars to orbit for rendezvous with the Mars
+Transportation System.
+
+Mars Descent System (MDS)
+
+An 8.4m class entry, descent, and landing system
+designed to land up to 25 mt of usable payload on the
+surface of Mars at inclinations up to 90 degrees.
+
+Pressurized Mating Adapter
+(PMA)
+
+The Pressurized Mating Adapter is a minimal functionality
+element with the primary purpose of (1) providing a
+mechanical connection between the Transit Habitat (TH)
+and the Mars Descent System (MDS) that carries the crew
+and surface systems to the landing site, and (2) providing
+a pressurized passageway between the TH and the
+Pressurized Rover (PR). The PMA is available for limited
+stowage of consumables and equipment in a conditioned
+environment from the time the MDS undocks from the TH
+until the PR is offloaded from the MDS after landing.
+
+Pressurized Rover (PR)
+
+The PR is a pressurized crew transport vehicle for two
+crewmembers. It can support site-to-site traverses in a
+rover cabin, observations from inside comparable to those
+in a suit, rapid EVAs (<30 min) and dust mitigation via
+suitports with a ~20 min ingress time to cabin. Also
+accommodates different payloads (e.g., utilization
+instrumentation, ice core and geology samples, etc.).
+
+Pressurized Tunnel
+
+The minimum-functionality Pressurized Tunnel is a
+hypothetical “one job, one time” device permitting
+intravehicular activity (IVA) crew transfer between a
+pressurized surface rover and the Mars Ascent Vehicle
+(MAV). Such a device would facilitate planetary protection
+compliance by allowing crew to access the MAV without
+going outside; this also minimizes MAV cabin volume by
+eliminating the need for EVA suit don/doff and stowage. A
+rover-mounted robotic arm guides the tunnel into position
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 30 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+with the rover’s hatch. Inflation pressure is provided by the
+Lander (not the MAV).
+Sol
+
+The length of a martian day. A martian sol is 24 hours 39
+minutes and 35 seconds in length. This has been rounded
+to 24 hours and 40 minutes in the timelines described in
+this document.
+
+Suitport
+
+A suitport replaces or augments the traditional airlock
+function by providing a bulkhead opening, capture
+mechanism, and sealing system to allow ingress and
+egress of a spacesuit while the spacesuit remains outside
+of the pressurized volume of the spacecraft.
+
+Transit Habitat (TH)
+
+Transit Habitat (TH) is a long duration habitat sized for up
+to ~1100-day missions, providing all the equipment to
+support crew. TH is capable of transferring power, data,
+and limited fluids to all attached elements through the
+docking interface and is capable of independent power
+generation from 0.6-1.0 AU. It is also capable of operating
+with independent ECLSS, thermal control, etc. for the full
+solar operating range of 0.6-1.6 AU.
+
+Utilization
+
+Science and research activities performed by the crew.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 31 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+APPENDIX B
+OPEN WORK
+B1.0 TO BE DETERMINED
+The table To Be Determined Items lists the specific To Be Determined (TBD) items in the
+document that are not yet known. The TBD is inserted as a placeholder wherever the required
+data is needed and is formatted in bold type within carets. The TBD item is numbered based on
+the document number, including the annex, volume, and book number, as applicable (i.e.,
+<TBD-XXXXX-001> is the first undetermined item assigned in the document). As each TBD is
+resolved, the updated text is inserted in each place that the TBD appears in the document and
+the item is removed from this table. As new TBD items are assigned, they will be added to this
+list in accordance with the above described numbering scheme. Original TBDs will not be
+renumbered.
+TABLE B1-1. TO BE DETERMINED ITEMS
+TBD
+
+Section
+
+Description
+
+TBD-XXXXX-001
+B2.0 TO BE RESOLVED
+The table To Be Resolved Issues lists the specific To Be Resolved (TBR) issues in the
+document that are not yet known. The TBR is inserted as a placeholder wherever the required
+data is needed and is formatted in bold type within carets. The TBR issue is numbered based
+on the document number, including the annex, volume, and book number, as applicable (i.e.,
+<TBR-XXXXX-001> is the first unresolved issue assigned in the document). As each TBR is
+resolved, the updated text is inserted in each place that the TBR appears in the document and
+the issue is removed from this table. As new TBR issues are assigned, they will be added to this
+list in accordance with the above described numbering scheme. Original TBRs will not be
+renumbered.
+TABLE B2-1. TO BE RESOLVED ISSUES
+TBR
+
+Section
+
+Description
+
+TBR-XXXXX-001
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 32 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+APPENDIX C
+
+A LONG SURFACE STAY MISSION COMPARISON
+C1.0 INTRODUCTION
+The 30-sol timeline estimates described above were developed for the SAC21 architecture and
+mission profile, just one of many being traded by NASA. For limited analysis purposes solely to
+understand risk sensitivity to surface mission duration, this section examines a 300-sol timeline
+developed using blocks of activities, and the associated amount of time for these activities, from
+the 30-sol timeline along with additional blocks of activities, developed to a lesser degree of
+fidelity, to create an internally consistent representation of this longer surface mission.
+A 300-sol stay timeline would fall into the more traditional “conjunction class” mission profile,
+though actual surface stays for such a “conjunction class” architecture could range from a few
+months to over a year, depending on transportation system and other mission parameters.
+However, there is currently no architecture being studied for which a 300-sol surface mission
+would be used as the baseline. In addition, there are several important aspects of this long
+surface stay example that require considerably more detailed analysis than was possible at the
+time of this example’s development. For example, additional surface infrastructure elements –
+such as a fixed habitat – are included but sufficient detail is lacking to understand crew time
+requirements for regular operations or maintenance over this time period. Additional analysis is
+also needed to understand the crew time impacts for extended operation of equipment such as
+the two mobility systems and EVA equipment. These refinements will be carried out as the need
+for a surface mission of this duration emerges and as additional resources become available.
+C2.0 BACKGROUND AND ADDITIONAL ASSUMPTIONS
+As an extrapolation, several features of the 300-sol surface mission timeline will remain the
+same as those of the previously described 30-sol surface mission timeline and will be noted as
+part of the following descriptions. Primary among these common features are:
+•
+
+A total crew size of four.
+
+•
+
+Delivery of surface infrastructure elements prior to the arrival of the crew (this is required
+regardless of whether the crew is landing at a new surface site or returning to a
+previously occupied surface site).
+
+•
+
+Availability of a PR and an unpressurized rover for crew traverses to sites of interest.
+
+•
+
+Arrival in and departure from a 5-sol elliptical parking orbit where the crew’s DST is
+located.
+
+However, there are also several differences built into this example that will affect timeline details
+beyond the mere extension of time on the surface. Among these differences are:
+•
+
+All four crew will land on the surface and remain for the full 300-sol duration of this
+mission.
+
+•
+
+The crew will land in a small, fixed habitat that will be equipped with an airlock.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 33 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+•
+
+The habitat and PR are configured to allow a pressurized connection between them (i.e.,
+shirt-sleeve crew transfer) allowing crew and equipment to be transferred between these
+two elements without requiring EVA.
+
+•
+
+Maintenance of EVA equipment takes place in the airlock, eliminating the need to
+depressurize the PR cabin as assumed for the 30-sol surface mission case.
+
+•
+
+Routine maintenance and housekeeping of the habitat is assumed to occur on at least a
+weekly basis.
+
+•
+
+Because the additional infrastructure in this example will require power, a second 10
+kWe FSP will be available to support the expanded power needs.
+
+•
+
+Logistics and spares for the entire 300-sol surface mission will be co-located with the
+habitat. (Note: it is recognized that a single MDS lander of the type currently envisioned
+for these missions will likely not have sufficient payload capacity to land a habitat plus all
+the logistics and spares. But details regarding the magnitude of logistics and spares for a
+mission of this duration have not been determined, and without this knowledge an
+efficient means to deliver them is also not possible to establish. As these details are
+determined, their impact to this timeline will be incorporated.)
+
+Unless noted otherwise, all the assumptions described in Section 4 are assumed to apply for
+this 300-sol surface mission example.
+Finally, for this longer surface mission duration, it is assumed that a 5-6 sol work week, featuring
+extended duration rover traverses and many EVAs followed by an off-duty sol, is not sustainable
+for the entire surface mission due to crew exhaustion and the need for more extensive
+maintenance of both mobility and EVA systems resulting from this pace. Consequently, it is
+assumed that the 6 sols on-duty followed by an off-duty sol will be maintained for several weeks
+at a high activity tempo and will then be followed by a shorter number of weeks at a low activity
+tempo. During this low tempo period, EVAs and rover traverses will be curtailed or halted to
+allow the crew to recuperate and focus on more extensive maintenance of their exploration
+equipment. The SSP 50261-02 guideline of an off-duty day following no more than six sols that
+include “work” related activity will also be maintained during this low tempo period.
+The duration of these high/low tempo periods is not fixed to any specific duration but is
+assumed to be tailored to the specific mission scenario. In the case of this 300-sol surface
+mission, a choice was made to establish a pattern of approximately five-week (35- or 36-sols)
+duration high tempo periods separated by low tempo periods measuring 15- or 16-sols in
+duration. (The difference is caused by the need to insert mission specific activities at the
+beginning and end of the surface mission while maintaining the overall 300-sol duration). Figure
+C2-1 illustrates this pattern of high and low tempo activity periods with mission-specific activities
+at the beginning and end of the 300-sol surface mission.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 34 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+FIGURE C2-1. EXAMPLE 300-SOL SURFACE MISSION TIMELINE DIVIDED INTO
+DISCRETE BLOCKS OF ACTIVITIES
+
+C3.0 MARS LANDING DAY
+Activities during the first several sols of the 300-sol surface mission will be the same as those of
+the 30-sol surface mission. The crew lands in a small habitat that remains fixed to its MDS
+lander. This MDS will land within one kilometer of two pre-deployed cargo landers and is
+robotically connected to the pre-deployed surface power grid. After allowing at least three sols
+for crew adaptation to Mars gravity, the PR and utilization equipment are off-loaded from one of
+the previously deployed landers and the surface exploration mission begins. Figure C3-1
+illustrates these initial activities as well as the first three weeks of high tempo surface
+exploration.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 35 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+FIGURE C3-1. EXAMPLE 300-SOL SURFACE MISSION TIMELINE: CREW LANDING SOL
+AND CARGO OFF-LOADING PLUS FIRST THREE WEEKS OF “HIGH TEMPO”
+EXPLORATION
+
+C4.0 EXPLORATION AND UTILIZATION (HIGH TEMPO) PERIODS
+Activities in the first high tempo period – as well as subsequent high tempo periods (labeled
+Blocks 1,3,5,7,9,and 11 in Figure C2-1) – are built up from a series of short, 7-sol traverse
+sorties comparable to those described for the 30-sol surface mission. Each of these sorties
+consists of a 5-sol traverse by two of the crew in the PR to an exploration site, accompanied by
+the unpressurized rover. This sortie duration is set by the current estimate of on-board energy
+storage in the PR matched with a traverse path across representative terrain. Afterwards, the
+crew returns to the landing site, docks with the habitat, and connects the PR to the surface
+power grid. Current estimates for power available to recharge this rover indicate that the
+process will last approximately two sols. During this recharging period the crew will remove
+trash from the rover and restock logistics for the next deployment, as well as carrying out routine
+housekeeping and maintenance. The crew’s prescribed off duty sol also coincides with this
+rover recharge period.
+The two crew not deployed with the PR will provide oversight support for the deployed crew as
+well as carrying out utilization activities in the habitat and around the landing site.
+The four crew will alternate deployed activities in the PR and activities in and around the habitat.
+Pairings among the four crew for rover activities and habitat activities are not assumed to be
+fixed, allowing the crew members with the most appropriate skill sets to be matched with
+scheduled activities in the rover or in the habitat.
+C5.0 LOCAL ACTIVITY (LOW TEMPO) PERIODS
+Separating each of the high tempo activity periods are blocks of time during which all four crew
+remain in the vicinity of the habitat and the pace of activity is reduced. These low tempo activity
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 36 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+periods are indicated as B2, B4, B6, B8, and B10 in Figure C2-1 and are assumed to have
+durations of 15 sols (for B2 only) or 16 sols (all remaining blocks).
+One of the objectives for these low tempo activity periods is to give the crew time to recover
+from what is anticipated to be periods of high physical and mental exertion (i.e., the high tempo
+activity periods). This is accomplished in part by curtailing the number of EVA hours performed
+by the crew and by limiting traverse activities to those that can be accomplished during a single
+sol (i.e., no overnight deployments away from the habitat). In addition, the number of off-duty
+days during any period is increased over what is typical during the high tempo activity periods.
+Low tempo periods also offer time for the crew to perform more extensive maintenance or repair
+activities that may require extended time to accomplish. The heavily used rovers and EVA
+equipment are most likely to require this kind of maintenance, but all surface infrastructure
+elements will be monitored and periodically inspected during the course of the surface mission
+so that maintenance or repair activities can be prioritized during these periods.
+Figure C5-1 illustrates how these activities and attributes are manifested in a representative
+timeline for one of these low tempo activity periods. One of these periods begins after the
+pressurized rover returns from a traverse and has been fully restocked and recharged. The
+rover then remains attached to the habitat and surface power system for the next 15 sols (in this
+example). The first three sols are used for a combination of IVA activities in the habitat or
+pressurized rover and for EVA activities (limited to two of the three sols) carried out in the
+vicinity of the habitat. These activities include a variety of utilization tasks that can be
+accomplished in or near the habitat. They are also likely to include maintenance and repair
+activities as described above. This is followed by two consecutive off-duty sols allocated to
+assist crew recuperation. The crew returns to IVA and local EVA activities during the next four
+sols followed by a second allocation of two consecutive off-duty sols. This low tempo period
+concludes with five sols of IVA and local EVA activity, including any needed preparations for the
+next traverse by the pressurized rover at the beginning of next high tempo period of activity.
+
+FIGURE C5-1. EXAMPLE 300-SOL SURFACE MISSION TIMELINE DIVIDED: FIRST “LOW
+TEMPO” BLOCK OF ACTIVITIES
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 37 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+C6.0 PREPARATION FOR DEPARTURE
+Five sols are allocated at the end of this 300-sol surface mission example for the crew to
+prepare for departure. The first three sols of this period are allocated for habitat close-out and
+final utilization activities in the landing site vicinity. The last two sols are allocated for
+pressurized rover close-out, to prepare the MAV for launch, and to perform any other final
+activities requiring the physical presence of crew at the landing site. These events are depicted
+in Figure C6-1.
+
+FIGURE C6-1. EXAMPLE 300-SOL SURFACE MISSION TIMELINE: FINAL THREE WEEKS
+OF “HIGH TEMPO” EXPLORATION PLUS PREPARATIONS FOR CREW DEPARTURE.
+The surface power system, habitat, and rovers will likely be fully functional at the time of crew
+departure, with significant remaining service life anticipated. Science and other utilization
+(including technology demonstrations) plans will be in place to take advantage of this capability
+without crew being present. Consequently, habitat and rover closeout activities will focus on
+gathering material that will be returned to the DST and configuring these elements for uncrewed
+operations. Because no decision has been made at this time regarding subsequent crews
+returning to any particular Mars landing site, uncrewed operations could mean permanently
+decommissioning those subsystems needed for crew support and configuring these elements
+for long term containment of biological material, consistent with planetary protection guidelines.
+If crew reuse of these elements is anticipated during a subsequent mission, then uncrewed
+operations mean placing crew support subsystems in a dormant state but in a manner that also
+provides for biological containment during this dormant period.
+Two of the three sols allocated for habitat close-out also include EVA time for any final utilization
+tasks at the landing site and for any external tasks associated with configuring the habitat for
+uncrewed operations.
+During the two sols allocated for MAV preparations and pressurized rover close-out, a 3-hour
+EVA is available on the first sol for external preparation of the MAV for departure, for PR
+external close-out tasks, and any other final EVA tasks required before departure. The
+remainder of Sol 299 plus all of Sol 300 are used for IVA activities necessary for rover close-out
+and MAV departure, such as transferring returned samples and logistics into the MAV,
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 38 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+activation and checkout of MAV systems, closing down selected PR systems (such as ECLSS)
+to prepare this vehicle for uncrewed operations, etc. Prior to departure, return cargo and
+equipment (i.e., carried inside the MAV) that has been exposed to the martian surface
+environment will be prepared in accordance with applicable planetary protection requirements
+and guidelines being developed under purview of NASA's Planetary Protection Officer. The
+crew will be wearing their clean launch/entry suits to mitigate dust transfer back to Earth, in
+accordance with anticipated planetary protection best practices. EVA suits are left behind on the
+surface to further mitigate dust transfer. On the day of launch (nominally Sol 301) the PR and
+tunnel will be undocked from the MAV and the PR will be driven (without crew on board) a safe
+distance away from the MAV (nominally 1 kilometer) to a location where the MAV launch can be
+observed. The crew launches in the MAV and spends the next 2.5 sols flying to the DST.
+C7.0 SUMMARY OF CREW TIME USAGE AND EVA CADENCE
+Using the typical number of hours available on a daily basis, as described in Section 4.1, and the
+activities described for each of the blocks of time in this 300-sol timeline example, a representative
+number of hours for each of the four crew was determined. Figure C7-1 summarizes the number
+of hours used by activity while the crew is on the surface. Table C7-1 EVA describes how EVA
+hours by each crew member during the entire 300-sol surface mission. Much of the sol-by-sol
+details for the high tempo blocks of time follows the pattern described above in Section 5 for those
+2-crew traverse deployments; less effort has been put into the details for the low tempo to date.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Release Date: 1/24/2022
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Document No: HEOMD-415
+Page: 39 of 54
+
+FIGURE C7-1. SUMMARY OF CREW HOURS USED DURING THE EXAMPLE 300-SOL MARS SURFACE MISSION
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Release Date: 1/24/2022
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Document No: HEOMD-415
+Page: 40 of 54
+
+TABLE C7-1. SUMMARY OF EVA HOURS DURING AN EXAMPLE 300-SOL SURFACE MISSION
+Number of EVAs
+EVA Hours
+Total
+Mission
+Phase Crew 1 Crew 2 Crew 3 Crew 4 Crew 1 Crew 2 Crew 3 Crew 4 EVA Hours
+
+Description
+
+Landing
+and
+Cargo
+
+2
+
+2
+
+2
+
+2
+
+9
+
+9
+
+10.5
+
+10.5
+
+39
+
+Crew adaptation to gravity environment;
+first EVAs; offload cargo and test
+Pressurized Rover
+
+Block 1
+
+13
+
+13
+
+12
+
+12
+
+61.5
+
+61.5
+
+56
+
+56
+
+235
+
+Traverse to Exploration Site(s). Exploration
+and utilization tasks at remote site and
+landing site. Higher tempo EVA
+
+Block 2
+
+3
+
+3
+
+3
+
+3
+
+18
+
+18
+
+15
+
+15
+
+66
+
+Exploration and utilization in the landing
+site vicinity. Priority on maintenance and
+repair; low tempo EVA
+
+Block 3
+
+12
+
+12
+
+13
+
+13
+
+56
+
+56
+
+61.5
+
+61.5
+
+235
+
+Traverse to Exploration Site(s). Exploration
+and utilization tasks at remote site and
+landing site. Higher tempo EVA
+
+Block 4
+
+3
+
+3
+
+3
+
+3
+
+15
+
+15
+
+18
+
+18
+
+66
+
+Exploration and utilization in the landing
+site vicinity. Priority on maintenance and
+repair; low tempo EVA
+
+Block 5
+
+13
+
+13
+
+12
+
+12
+
+61.5
+
+61.5
+
+56
+
+56
+
+235
+
+Traverse to Exploration Site(s). Exploration
+and utilization tasks at remote site and
+landing site. Higher tempo EVA
+
+Block 6
+
+3
+
+3
+
+3
+
+3
+
+18
+
+18
+
+15
+
+15
+
+66
+
+Exploration and utilization in the landing
+site vicinity. Priority on maintenance and
+repair; low tempo EVA
+
+Block 7
+
+12
+
+12
+
+13
+
+13
+
+56
+
+56
+
+61.5
+
+61.5
+
+235
+
+Traverse to Exploration Site(s). Exploration
+and utilization tasks at remote site and
+landing site. Higher tempo EVA
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Release Date: 1/24/2022
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Document No: HEOMD-415
+Page: 41 of 54
+
+Number of EVAs
+EVA Hours
+Total
+Mission
+Phase Crew 1 Crew 2 Crew 3 Crew 4 Crew 1 Crew 2 Crew 3 Crew 4 EVA Hours
+
+Description
+
+Block 8
+
+3
+
+3
+
+3
+
+3
+
+15
+
+15
+
+18
+
+18
+
+66
+
+Exploration and utilization in the landing
+site vicinity. Priority on maintenance and
+repair; low tempo EVA
+
+Block 9
+
+13
+
+13
+
+12
+
+12
+
+61.5
+
+61.5
+
+56
+
+56
+
+235
+
+Traverse to Exploration Site(s). Exploration
+and utilization tasks at remote site and
+landing site. Higher tempo EVA
+
+Block
+10
+
+3
+
+3
+
+3
+
+3
+
+18
+
+18
+
+15
+
+15
+
+66
+
+Exploration and utilization in the landing
+site vicinity. Priority on maintenance and
+repair; low tempo EVA
+
+Block
+11
+
+12
+
+12
+
+13
+
+13
+
+56
+
+56
+
+61.5
+
+61.5
+
+235
+
+Traverse to Exploration Site(s). Exploration
+and utilization tasks at remote site and
+landing site. Higher tempo EVA
+
+Hab
+Closeout;
+MAV
+
+2
+
+2
+
+2
+
+2
+
+10.5
+
+10.5
+
+10.5
+
+10.5
+
+42
+
+Close-out tasks for Habitat; EVA as
+necessary
+Final MAV preparation
+
+Total
+
+94
+
+94
+
+94
+
+94
+
+456
+
+456
+
+454.5
+
+454.5
+
+1821
+
+Approximately 455 EVA hours per
+crewmember during 300 sols
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 42 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+APPENDIX D
+
+MARS SURFACE MISSION WASTE MANAGEMENT OPERATIONS CONCEPT
+Although internationally agreed planetary protection protocols for human Mars missions are not
+yet complete, current planning efforts for these missions reflect the paradigm described in the
+NASA Interim Directive NID 8715.129 “Biological Planetary Protection for Human Missions to
+Mars.” In addition, a December 2020 COSPAR/NASA/ESA sponsored workshop on planetary
+protection and harmful contamination provided key guidance that is also reflected in these
+plans. The guiding principles used in these current human Mars surface missions include the
+following:
+1. Waste storage on the planetary surface is an acceptable approach, as opposed to
+removing all waste from the surface at the end of the mission;
+2. A single dedicated disposal site is preferred for initial short duration missions;
+3. Surface storage is preferred, as opposed to burial;
+4. Storage containers should provide containment for an extended period of time, likely to
+be measured in many 10’s of Earth years; a specific period of time for this containment
+will require additional analysis and discussion of risks (recent discussions [8] indicate a
+disposal container with a controlled and biologically filtered vent is preferable to a
+completely pressure sealed container that could have an uncontrolled and unfiltered leak
+at some time post disposal);
+5. Containment needs to prevent interaction of terrestrial biota with the martian
+environment and;
+6. The ability to assess the initial microbial load of the waste material at time of disposal will
+be necessary.
+In addition to planetary protection guidelines, informal input from the science community
+indicated that while planetary protection requirements are likely to be largely sufficient, there
+may also be a preference to limit, or even prohibit, the release of viable and non-viable cells, as
+well as any organic compounds including biocides, into the environment until the search for life
+is complete.
+Trash and waste that collects on board the pressurized rover will be transferred into an empty
+storage container, such as a Small Pressurized Logistics Carrier (SPLC – discussed below),
+through the rover cabin suitport during periodic logistics restocking operations. This includes
+metabolic waste, humidity condensate, wet trash, and dry trash. Metabolic and other biologically
+active waste materials will be collected in primary storage containers designed to prevent
+release of contamination. Urine will be pretreated at the time of collection to stabilize biologic
+activity. Feces will be collected in separate canisters that may be sealed or vented (TBD), if
+vented they will be equipped with appropriate filters to prevent release of contaminants and
+odors. When loaded long-term storage containers, which are also designed to prevent the
+release of contaminants, are then sealed and placed on the surface. Waste containers will all be
+placed at the same location, which will be site-specific but assumed to be very near the landing
+site.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 43 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+The Small Pressurized Logistics Carrier (SPLC) is currently one possible container that could be
+used for long-term trash and waste storage on the surface. The SPLC is a relatively small
+pressure vessel intended for delivering logistics to the planetary surface. It can provide a
+conditioned environment for cargo and includes a suitport interface for transferring contents into
+and out of the pressurized rover.
+
+FIGURE D-1. SMALL PRESSURIZED LOGISTICS CARRIER (SPLC)
+As designs of surface elements mature, and planetary protection protocols are finalized, there
+are some components of the current waste management concept that also require further
+refinement. Examples include:
+1. The selection of pre-treatment agents for urine and other wastewater collected in the
+Pressurized Rover; when a fixed habitat is present in the mission architecture, it is
+assumed to recycle these wastewater sources and any pre-treatment must be
+compatible with the habitat ECLS system.
+2. The ongoing discussion for lunar operations pertaining to fluid transfers between a
+pressurized rover and surface habitat so that these wastewater streams can be recycled
+by the assumed life support system in the habitat. Both the pressurized rover and habitat
+used on the Moon are likely precursors for Mars-specific hardware and operations.
+Specifically, more study is required regarding the possibility of pumping urine and
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 44 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+condensate through an umbilical rather than using contingency water carrier (CWC)-type
+bags for transfer.
+3. Improved understanding of how the liquid components of trash and waste will behave
+when the storage container is deposited at the disposal site and conditions inside
+transition from the rover cabin environment to martian ambient surface temperature and
+pressure.
+4. Performance of primary liquid waste containers within the larger secondary container,
+and the overall performance of the secondary container with respect to planetary
+protection leak avoidance requirements.
+The goal is to understand the venting and filtering capabilities the containers will need in order
+to prevent the escape of contamination during initial freeze and depressurization, as well as
+during long-term surface storage for an extended period of time, likely to be measured in many
+10’s of Earth years. A specific period of containment has yet to be determined and will require
+additional analyses and consideration of the risks involved.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 45 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+APPENDIX E
+
+COMMUNICATION OUTAGE
+Solar conjunction is entirely predictable, and for Earth and Mars, this event occurs
+approximately every 778 days. Because the orbit of Mars is slightly elliptical (as illustrated in
+Figure E-1), the length of time between solar conjunction events varies by several days when
+compared with this 778-day average.
+
+FIGURE E-1. POSITIONS OF EARTH AND MARS AT SUPERIOR SOLAR CONJUNCTION.
+
+Table E-1 lists the dates and Sun-Earth-Mars (SEM) angles for the ten Earth-Mars superior
+solar conjunction events during the 2030s and 2040s.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 46 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+TABLE E-1. EARTH-MARS SUPERIOR SOLAR CONJUNCTION DATES AND MINIMUM
+S-E-M ANGLES
+Date
+
+Minimum Sun-Earth-Mars Angle
+(Deg)
+
+25 May 2030
+
+0.295
+
+11 July 2032
+
+0.980
+
+19 August 2034
+
+1.145
+
+24 September 2036
+
+0.869
+
+1 November 2038
+
+0.236
+
+17 December 2040
+
+0.667
+
+21 February 2043
+
+1.055
+
+2 May 2045
+
+0.180
+
+25 June 2047
+
+0.776
+
+5 August 2049
+
+1.143
+
+The duration of the outage will vary from one solar conjunction event to the next because (1) the
+orbit of Mars is not only slightly elliptical but is also slightly inclined relative Earth’s orbit (and
+therefore Mars may not appear to go through the center of the Sun’s disk as seen from Earth),
+and (2) the type of communication link used is affected differently by the proximity of the Sun in
+the communication system’s field of view. Figure E-2 shows the results of a recent analysis [13]
+of the duration of this Earth-Mars communication outage during the five Earth-Mars solar
+conjunction events that occur during the decade of the 2030s and one event during the year
+2040.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+17 Dec 2040
+
+1 Nov 2038
+
+24 Sep 2036
+
+19 Aug 2034
+
+11 Jul 2032
+
+25 May 2030
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 47 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+FIGURE E-2. EXAMPLE OF EXPECTED COMMUNICATION OUTAGE DURATION DURING
+2030-2041 FOR DIFFERENT COMMUNICATION LINKS [13].
+
+For this study, three communication links – Ka-band (32 GHz), X-band (8.4 GHz), and various
+proposed optical links – were assessed for their ability to maintain a reliable downlink (i.e., from
+Mars to Earth) given the proximity of the Sun in the field of view of an Earth-based or cis-lunar
+based antenna looking at Mars. X-band is the current frequency used by the Deep Space
+Network (DSN) for robotic spacecraft in various solar system exploration missions. Reliable Xband communication is expected to be possible whenever SEM is greater than 3 degrees [12].
+Ka-band is becoming more prevalent for DSN communications because of its higher available
+bandwidth and it is more resilient to solar effects. Reliable Ka-band communication is expected
+to be possible whenever SEM is greater than 1 degree [12]. Optical communication for solar
+system missions is still in development, but experiments with candidate systems indicate that
+reliable downlink is possible when SEM is greater than 2 degrees but a more realistic
+expectation is for a reliable downlink when SEM is greater than 10 degrees; this is the result
+shown in Figure E-2.
+The concern for future human missions is the possible lack of a communication link with Earth
+for periods of days to weeks. Results in Figure E-2 indicate that outages for the current DSN Xband link could last for essentially the entire duration of the 30-sol surface mission described in
+this document. Ka-band improves but does not eliminate this situation and optical
+communication – for all its potential for extremely high data rates – has the potential to be
+significantly impacted during solar conjunction.
+While this concern presents a significant risk for future human missions, the specific trajectory
+used for any of these missions is another factor that must be considered. It is possible that the
+trajectory selected as “optimal” for a human Mars mission (e.g., lowest total delta V or lowest
+round trip flight time, or some other mission level criteria) results in the crew being at Mars
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 48 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+during a time not affected by a solar conjunction. However, should the “optimal” trajectory cause
+the crew to be at Mars during a solar conjunction, it may be possible to shift the trajectory away
+from the “optimal” solution in such a way to remove this situation without significant cost to the
+transportation portion of the architecture. In addition, the communication architecture itself could
+be structured in such a way to remove this outage. Placing a communication relay satellite at a
+location in interplanetary space – for example, a Sun-Earth or Sun-Mars Lagrange point –
+where Earth and Mars are visible to the relay satellite when these planets experience a solar
+conjunction is such an option.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 49 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+APPENDIX F
+
+DUST STORMS
+Martian dust storms have been observed in sizes ranging from local (and small) dust devils to
+regional scale storms and up to global storms. Some of the distinguishing characteristics
+include:
+Dust Devils. Martian dust devils form by the same atmospheric mechanism as their terrestrial
+counterparts. Because part of this formation mechanism involves daily heating of the
+atmosphere, these storms tend to form during the day and disappear at night. Beyond this, the
+appearance, duration, and movement of these dust devils are random.
+
+FIGURE F-1. TYPICAL MARTIAN DUST DEVIL (NASA IMAGE)
+Regional Storms. Regional-scale dust storms come in a variety of sizes, strengths, and
+durations. These storms tend to both grow in size and move from their point of origin – storm
+movement can be influenced by both atmospheric conditions (e.g., atmospheric pressure
+gradients) or terrain features. These storms can cover many thousands of square kilometers
+and can last from days to weeks. And because of the formation mechanism, the dust raised by
+these storms tends to be at or near ground level.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 50 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+FIGURE F-2. EXAMPLE REGIONAL DUST STORM (IMAGE: ESA/DLR/FU BERLIN - G.
+NEUKUM)
+Global Storms. As the name implies, these storms circle the entire globe and can last for
+several weeks or months. These storms can evolve from a local phenomenon to a global event
+in just a few sols. Because the martian atmosphere is so thin, only very small particles – a few
+microns in diameter (roughly the size of smoke particles) – can be lofted to the high altitudes
+where upper atmospheric winds distribute these particles on a global scale. And because the
+atmosphere is so thin and dry, it takes much longer for this dust to settle out of the atmosphere
+(on Earth, dust is typically washed out of the atmosphere by rain). This high altitude, persistent
+dust places solar array powered devices at particular risk: a global dust storm in 2007 caused
+the demise of the Spirit rover and severely weakened the Opportunity rover; a different global
+dust storm in 2018 caused the demise of the Opportunity rover.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 51 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+FIGURE F-3. 2018 GLOBAL MARTIAN DUST STORM (NASA IMAGE)
+The impact of these storms on surface mission activities will depend on several of these
+distinguishing characteristics, primarily the severity and duration.
+Dust devils will likely have minimal impact on surface mission activities. These storms form
+during daylight hours due to solar heating and they disappear at night. The only likely impact will
+be for the crew to avoid interacting with these dust devils while on EVA and minimize interaction
+with the pressurized rover. (There is a concern that a static electric charge could build up in
+these dust devils, but there has been no direct measurements thus far to confirm that such a
+charge does form or the magnitude of that charge should it exist.)
+Regional and global storms will be of greatest concern for surface mission activities and timeline
+planning. There is currently no means to predict, more than a few sols in advance, when or
+where any of these storms will occur nor how large any storm will be. However, surveys of
+observational data [11] have shown that regional and global storms have a higher probability of
+occurring during certain times of the martian year and to form in certain regions on the surface.
+The most significant impact of global storms will be decreased sunlight at the surface and an
+increase in the rate of dust raining out of the atmosphere. As mentioned earlier, two of these
+storms were severe enough to cause the loss of the solar array powered Spirit and Opportunity
+rovers. Figure F-4 shows the progress of the 2018 global storm as seen from Opportunity.
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 52 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+
+Late May 2018
+
+Early July 2018
+
+FIGURE F-4. SIMULATED TIME LAPSE PHOTO OF THE MAY-SEPTEMBER 2018 GLOBAL
+DUST STORM AS IT WOULD HAVE BEEN SEEN BY THE OPPORTUNITY ROVER
+(NASA/JPL-CALTECH/TAMU IMAGE).
+But global dust storms are relatively rare compared with regional dust storms. Table F.1 lists all
+the global dust storms observed since 1924 except for the 2018 storm mentioned above.
+TABLE F-1. GLOBAL-SCALE DUST STORMS OBSERVED SINCE 1924 [14]
+
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 53 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+This table indicates that, although global dust storms cannot be ignored, they are relatively
+infrequent events. But should a global dust storm occur before a crew lands on the surface, this
+would be sufficient reason to at least delay, and possibly cancel, the surface portion of that
+mission. Development of a storm that shows signs of expanding into a global storm could be
+sufficient reason to cause an early termination of the surface mission and return of the crew to
+the DST.
+Regional dust storms, on the other hand, occur every year but with varying degrees of
+frequency, severity, and area of coverage. A survey of regional storms by Wang and
+Richardson over a period of several Martian years [11] revealed several trends that are of value
+for planning surface mission activities and timelines.
+First, the circles in Figure F-5 indicates the approximate location and relative size (not the
+absolute size) of optically thick regional storms that persisted for a few hours to more than five
+sols during the time period of this survey. Some of these storms remained relatively stationary
+over the location where they formed while others moved significant distances across the
+surface, sometimes 100’s of kilometers. From a surface mission planning perspective, these
+results indicate that regional scale storms tend to form (and move across) lower elevation
+regions of Mars. This could become a site selection consideration before the crew ever arrives
+as well as being part of a risk posture assessment and contingency planning efforts when a
+timeline is prepared once the site is selected.
+
+FIGURE F-5. A PLOT OF REGIONAL DUST STORMS DURING MARS YEARS 24-30 (19992011) [11]
+Second, previous studies have considered the period between Mars solar longitude (Ls) from
+approximately 250 degrees to approximately 305 degrees to be the middle of the martian “dust
+storm season.” But results from the Wang-Richardson survey indicate the “dust storm season”
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+Version: 1 (Initial Release)
+Document No: HEOMD-415
+Release Date: 1/24/2022
+Page: 54 of 54
+Title: Mars Surface Activities for Crewed Mission Systems and Utilization Reference Mission
+to be more complex [11]. Wang and Richardson tracked dust storm sequences “that last for 5 or
+more sols, travel long distances, and affect multiple regions” – the type of regional storm that
+would be of particular concern for a human surface mission. Their results indicate that there are
+several distinct regional storm seasons:
+•
+
+Sequences originating from the northern hemisphere (northern sequences) are mainly
+concentrated in two seasonal windows during the northern fall (Ls ~180–250 deg) and
+winter (Ls ~305–350 deg).
+
+•
+
+All but two sequences originating from the southern hemisphere (southern sequences)
+are observed during Ls ~135–245 deg and most of them are concentrated in the period
+of Ls ~135–185 deg.
+
+•
+
+The interval between Ls ~250–305 deg, which had typically been considered to be in the
+middle of the ‘‘dust storm season’’ exhibits only one sequence during the study period:
+the 2007 global storm in Mars year 28.
+
+From a surface mission planning perspective, the entire period from mid (northern) summer to
+late (northern) winter (i.e., Ls from ~130 deg to ~350 deg.) is a period when regional or global
+scale dust storms have a higher probability of occurring, and should be a consideration for risk
+posture assessments and contingency planning efforts. Figure F-6 indicates these regions of
+elevated regional storm probability and the occurrence of global dust storms.
+
+FIGURE F-6. LOCATION OF HIGHER PROBABILITY OF REGIONAL DUST STORMS AND
+OCCURRENCE OF GLOBAL STORMS
+This document has been approved for public release per DAA #20220000589
+ESDMD SE&I
+
+January 2022
+
+

@@ -1,0 +1,1042 @@
+Choosing Mars-Time: Analysis of the
+Mars Exploration Rover Experience
+Deborah S. Bass
+NASA Jet Propulsion Laboratory
+California Institute of Technology
+Mail Stop T1718
+4800 Oak Grove Drive
+Pasadena, CA 91 109
+818-393-5189
+Deborah.Bass @jpl.nasa.gov
+Roxana C. Wales, SAIC NASA Ames Research Center
+Valerie L. Shah. Wright State University
+Abstract-This
+paper focuses on the Mars Exploration
+Rover @ER) mission decision to work on Mars Time and
+the implications of that decision on the tactical surface
+operations process as personnel planned activities and
+created a new command load for work on each Martian sol.
+The paper also looks at tools that supported the complexities
+of Mars Time work, and makes some comparisons between
+Earth and Mars time scheduling.
+
+Martian day, or “sol”,is thmy-nine minutes longer than an
+Earth day. Mission planners chose a Mars Time staffing
+concept to optimize the work of the solar powered rovers
+and IIliixirnize precious rover time in the Martian
+environment. Each day surface operations personnel
+produced a planned set of activities and associated
+commands that were sent to the rovers so that they could do
+their work of data collection beginning on tbe following
+morning at rover wake-up.
+
+TABLE OF CONTENTS
+
+Figure 1 (below) shows the Mars Exploration Rover mission
+1 . I ” I ’ R O D U ~ o ~ w f u T I S ~ ~ ? ~ 1
+timeline that begins with the receipt of data from the
+2. M A R S T I M E T R A D E ~ 2 Y ~
+spacecraft and completes with a set of commands approved
+Considered Staffing Options ............................................
+3
+and radiated to the spacecraft for execution the following
+Evaluation Metrics ...........................................................
+3
+morning. The time system portrayed in this figure is Mars
+Earth Time -Prime Shift ................................................. 3
+Local Solar Time (MLST), approximately 40 minutes longer
+Other Components ofthe Trade Study.............................
+4
+than an earth day. In the chart, action steps are represented
+Trade Study Conclusions and Recommendations ............ 4
+by royal blue bars, and meetings and handovers are
+3.MISSIONEXPERIENCE O F MARS TIME
+.-. 4
+represented by green bars. The grey bar indicates the time
+Local personnel vs. Remote personnel.............................
+4
+when the rovers execute commands on the Martian surface.
+Orbiting Spacecraft and Data Return Complexity............6
+In the Mars time scenario, the Earth-based team works while
+4. KEEPING TRACK OF TIME
+6
+the rovers sleep. Light blue represents the window in which
+5. EXTENDED
+MISSIONOPERATIONS,.,.
+8
+data will be returned from Mars. While the light blue bar
+Compressed Planning.......................................................
+9
+appears long, it represents a window in which a 30-minUte
+Chasing the downlink data return.....................................
+9
+transfer of data will occur. The time that data is returned
+6. CONCLUSIONS
+9
+varies witbin the window, and is predictable several days in
+9
+Implications for Mission Management............................
+advance.
+
+....... .....
+
+..........................
+..............
+
+..--_______.,...
+
+7.REFERENmI.I---I
+
+8. BIOGRAPHY
+
+..lo
+
+....-.-__.__
+--._ 10
+
+Figure 1 allows for the worst-case scenario with regard to
+late data arrival leaving enough time to ensure that the
+Earth-based team can produce the ~ecessaryresults in the
+shortest time possible. Data can return to Earth either
+directly from the rovers on the planet surface or from
+spacecraft currently orbiting Mars. The four vertical bars at
+the top represent all options for returning relayed data
+through orbiting spacecraft; the light blue bar represents
+data returned directly from the planet’s surface. Four relay
+possibilities are described but not all are routinely used each
+sol. The 10-hour ‘‘dwdnlc shift” staff analyze the receiyed
+data and make recommendations for rover activity
+execution, while the two 10-hour ‘Uplink shifts” turn
+the
+_ _
+
+1. INTRODUCTION WHAT IS MARS-TIME?
+NASA‘s Mars Exploration Rover (MER) Project
+successfully landed two spacecraft carrying identical rovers
+on opposite sides of the surface of Mars in January and
+February 2004 and conducted two nominal surface missions
+staffed on ‘’hhrs Time” for 90 Martian days each [l]. A
+0-7803-81556/04/s17.00020@4 IEEE
+
+1
+
+-
+
+r
+
+recommendations into commands the spacecraft can
+understand. The process, as planned, originally took 19
+hours to complete; by the beginning of extended mission
+operations, with improvements in automation, increased
+staff trahhg md expertise developaent, tbe process took ar!
+average of 8 hours.
+
+This paper focuses on the MER mission decision to work on
+Mars time, the implications of that decision on the tactical
+surface Mars time work, the support needed from related
+tools and the impact that Mars time had on the work of
+personnel as they planned activities and created a new
+command load for each Martian sol.
+
+Figure 1. Mission Timeline detailing steps between receiving data from the spacecraft
+and sending a complete set of instructions to the rover (Courtesy J. Callas)
+Because the Martian day is thirty-nine minutes longer than
+an Earth day, participants who worked on Mars Time
+reported to work later each Earth day in order to remain
+synchronized with the solar powered work of the rovers
+were doing. For example, a participant might report to work
+at 12 noon on one day, 12:39 the next day, 1:18 the next day
+and so on. In addition to the daily, or “soly,” tactical
+process of planning and commanding on Mars, other
+mission work, known as the strategic process, focused on
+planning over longer periods of time and was responsible for
+long term mission activities and resource allocations. The
+strategic processes included coordination of the work of the
+two missions, coordination and allocation of Deep Space
+Network and orbital communication coverage within and
+across missions, determination of overall rover resource
+situations and public outreach activities. Tactical work on
+MER was done on Mars Time, while strategic work was
+done on Earth Time.
+
+2. MARSTIMETRADESTUDY
+The case for Mars Time centers on the following argument:
+a landed spacecraft operated on solar power is a dying asset.
+The mission duration is limited by the amount of sunlight
+the solar panels receive. Further, the spacecraft may fail to
+respond on any given day, and therefore it is critical to
+maximize the use of that asset. Arguably, Mars-Time
+optimizes that usage. However. maintaining Mars-Time in
+an Earth-Time world poses some problems including some
+typical of shiftwork [2] and some that were a somewhat
+more surprising.
+Early in the development of the mission, in response to a
+design review, MER management launched a study to help
+determine whether to use Mars time staffing. They were
+looking for an optimal operations schedule for wordhating
+the work of two hundred and fifty mission personnel on
+
+2
+
+-.
+
+I
+
+Other components of the Trade Study
+
+carry that forever.” (Andy Mishkin, personal comm.)
+Indeed, it was recogmzed that working on Mars Time is a
+matter of scale and longevity. Therefore, in the long term,
+the strain on the team would be evaluated, and the switch to
+an Earth Time schedule would be considered.
+
+MER mission designers also made an effort to gather data
+on the effectiveness of operating on Mars Time from
+members of the 1997 Mars Pathfinder mission. Personnel
+worked on “Mars Time” for roughly 87 days during that
+mission and it was the only reference mission for such
+staffing activity. Although there was some variation in
+recollection among participants, overall most Pathfinder
+operations personnel, when questioned informally, agreed
+that the 1997 Mars Time schedule had advantages and
+disadvantages and the trade-off decisions were difficult.
+NASA Ames Human Factorspersonnel made two studies for
+the mission; one was a &
+‘onfor work based on a
+review of the physiological factors that contribute to
+alertness and performance among shift workers and another
+was a questionnaire filled out by Mars Pathfinder personnel
+who had gone through the Mars Time staffing experience in
+1997 [3,4].
+Trade Study Conclusionsand Recommendations
+Mars Time staffing plans consistently scored better than
+Earth Time for:
+0
+Ability to cormnand every sol
+0
+Optimal time utilization,conservation of margin
+0
+Response to off-nominal situations
+Maximized potential mission return
+Little or no cross training tequired
+However, Mars Time staffing plans scored lower in
+sustainability:
+0
+Mars Time staffing requires more crews to sustain
+extended duration operations
+Straight Mars Time can be sustained for short
+duration (e30sols) [5].
+With respect to short-term mission concerns, Mars-Time
+appeared to be the most efficient staffing solution: the
+operations schedule is fixed to Mars Time, which creates the
+most margin in the day by maximizing the available time.
+With respect to short-term mission concerns, Mars-Time
+appears to be the most efficient staffing solution: the
+operations schedule is ked to Mars time, which creates the
+most margin in the day by maximizing the available tine.
+Margin was recognized as a critical component early in the
+mission, when the team was still learning some of the quirks
+of the vehicles and tools and processes were still being finetuned. Therefore, the decision was made to operate on Mars
+Time at least for the short term.
+It was recognized that Mars time would not be sustainable
+indefinitely due to the need for people to interact with
+families and duties outside of the mission environment; it is
+not possible to isolate people indefinitely from their broader
+responsibilities and personal commitments. ‘?n the
+beginning, the adrenaline is going and everyone is pretty
+focused. External stresses can be pushed off. But you can’t
+4
+
+,
+
+The Arnes Human Factors reports recommended that
+strategies be developed by the MER project to maximize
+performance and minimize risk to mission success and
+personnel health. In particular, they recommended that staff
+members work no more than 4 shifts on Mars Time in a row,
+followed by several days off to allow enough time to recover
+from Mars Time operational shifts [3].
+Other recommendations from the Human Factors studies
+included fitting all windows in the mission support area with
+black out curtains and providing available in-house meal
+service and nap areas. While these recommendations were
+instituted, others, such as controlled transportation to and
+from sleep quarters, proved impractical to implement during
+the short duration (120 days) of nominal surface operations.
+
+3. MISSION EXPERIENCE
+OF MARS TIME
+The Mars Exploration Rover mission made a conscious
+decision to operate on Mars Time, and the resulting
+experience of the teams varied considerably. Of course, with
+approximately 250 MER operators working on Mars-Time
+schedules, not all personnel will respond to the schedule in
+the same manner. For some, Mars Time was easy to
+maintain, while others found it to be a very challenging way
+to live. Many of the experiences we report here are
+consistent with literature regarding the impact of shift work
+on daily life [e.g.. 2, 61. Studies show that social-cultural
+issues are at least as problematic as physiological and
+cognitive considerations. Therefore, mission risk must be
+described by both the complexity of resulting operational
+processes and procedures, and the impact to personnel. We
+discuss these concerns in light of the MER mission
+experience of Mars Time.
+Local personnel vs. Remote personnel
+
+“Staff with childless, unmarried orphans.” (Kevin P. Talley,
+personal comm.)
+In general, the Mars Time experience of personnel who
+lived all year long in the JPL vicinity (hereafter referred to
+as local personnel) was different than that of personnel who
+moved to JPL for the sole purpose of operating the rovers
+(hereafter referred to as remote personnel). Notably, one of
+this paper’s authors was local, while the other two were
+remote personnel who moved to JPL for the nominal
+mission. The experience of the authors is factored into this
+
+Earth who would be operating dual rovers on Mars. The
+main question was whether operations processes should be
+conducted on an Earth-Time schedule or a Mars-Time
+schedule. The MER staffing options had to consider the
+following criteria:
+Allow for personnel to be fully trained for surface
+operations before landing day,
+Acknowledge that personnel would take longer to
+do their work early in the mission while they
+developed expertise,
+Provide the capability to command every Martin
+day,
+Provide margin for dealing with contingencies
+within the nominal timeline,
+Minimize the impact of scheduling on personal
+lives,
+Be sustainable over the life of the nominal mission.
+Ensure communication of key information across
+shift boundaries,
+Possess resiliency in the face of anomalies,
+Support operations of two rover missions
+simultaneQusly,
+Maximize the use of shared facilities, such as
+meeting rooms and the engineering surface support
+area,
+. .
+Maxlrmze the potential for science return,
+Minimize the risk to the spacecraft
+Considered Staffing Options
+The mission considered a variety of staffing options. We
+present here an analysis of the two extreme cases.
+Evaluation Metrics
+
+Five functional areas for metrics were identified, and a
+relative weighting for each area was applied
+NumberofPersonnel
+Impact on Facilities
+Impact on Personnel Morale
+ComplexityofF’mces
+Achieve full Mission Return
+Impact of other Human Factors
+
+length a person or crew is expected to work, fixed to Earth
+time. “Shzp,frosting refers to the time period and length a
+person or crew is expected to work, floating with respect to
+Earth Time. ‘‘Shzft, rotating” defines the minimum number
+of people who can evaluate a downlink, receive additional
+input from the strategic process, and generate an uplink with
+a 15-hour period. “Members of a squad”, by definition,
+require training in only one key task.
+”
+
+baseline Mars Time option
+Baseline Mars Time-The
+f o c y staffing resources both in Time and with regard to
+tasking. On an assigned workday, each person comes to
+work at approximately the same Mars local time and does
+whatever she does best. Key characteristics of this option
+include: at least one opportunity to uplink commands to the
+spacecraft each day, 4 hours of margin in the schedule,
+personnel work the same functional position each duty
+cycle, shift start moves 39 minutes later each day while the
+operations tasks stay synchronized with the Mars clock, as
+do individual work schedules. Shift overlap from downlink
+to first uplink shift (Uplinkl) was approximately one hour,
+overlaps from Uplinkl to Uplink2 was 1 hour, whereas
+Uplink2 to Downlink shift did not overlap. (Note that this
+absence of overlap was ultimately deemed unacceptable to
+MER management, and key operations staff were placed so
+that there was always face-to-face handovers of information
+between all shifts.) Shift handovers always occurred at the
+same point in the process. This option did not necessitate
+“split shifts’’ where an operator finished the second part of
+his or her shift the following morning. Calculations
+indicated that this schedule would include one third night
+shifts over the duration of the 90 day mission, Because the
+operations area would be continuously staffed in this option,
+the ability to respond to off-nominal situations and respond
+to ad-hoc science team requests was maximized.
+Earth Time - Prime Shift
+
+This option employs a single long shift each day (up to 8
+hours), so that the rover lacks a ground team ‘’babysitter“ for
+as many as 16 hours per day. People keep the same time
+schedules each day and stop at the end of the shift,
+independent of Mars Time. Only eight hours between the
+Mars afternoon downlink and the uplink the following Mars
+morning can be populated with rover activities, in general,
+and sometimes as little as 3 hours. Shifts are fixed times,
+and work flows over to next day, whatever its status. Cross
+training is essential for this option, as personnel duties must
+support the schedule of the rover on Mars Time,and staff
+must be capable of some productive activity during any
+phase of mission operations. The ability to command every
+sol is precluded because a shift may not be able to prepare
+an uplink plan within the available Earth-based work
+window. This option is based on the concept that the process
+will allow commanding as often as possible but that
+commanding will be limited to the ability to complete work
+within the Earth time schedule.
+
+150
+100
+100
+150
+400
+100
+
+A perfect score for a particular staffing option would total
+10oO points.
+We examine the possible staffhg options using the
+following set of common terms. “Commanding every sol”
+describes the ability to affect the plans for sol-n+l using the
+results &om sol-n. The term “core sleep” refers to a set of
+Earth hours in the middle of the night preserved for human
+sleep every day. This start time of the core sleep hours does
+not have to be the same for all shifts, but each shift must
+have a minimum number of hours off in the middle of the
+Earth night. “Shz#, fired” suggests the time period and
+
+3
+
+analysis as the authors were both observers and
+experimental subjects in the topic of Mars Time operations.
+Personnel who moved temporarily to Pasadena from
+remotely located institutions, most specifically the science
+team, generally had less difficulty working the Mars Time
+schedule. Special housing arrangements at local apartment
+complexes provided furnished apartments with black-out
+shades and flexibly scheduled cleaning services. However,
+as one team member commented, “It was difficult for
+housekeeping to understand that I really didn’t want to be
+disturbed from 8 am to 4pm every day.” (Pancam team
+member, personal c o r n )
+The experience of JPL local personnel differed from person
+to person, but overall, they found that Mars Time
+significantly impacted their personal lives. Because local
+personnel also had to manage time with their families, the
+added personal stress and conflict lead to a greater level of
+fatigue. For personnel who were married and both partners
+working MER,the situation was extremely stressful, as often
+there was no one left at home to manage daily tasks such as
+child and/or pet or parent care. At least one MER operator
+rented an apartment close to JPL and lived apart from his
+family when he worked MER shifts. He spent his days off in
+his home with his family, much like individuals who
+commute and live between two cities.
+The fatigue of Mars-Time may create risk and slow mission
+work and activity in daily life. One of the primary
+consequences of mental fatigue is that judgment is impaired,
+and affected individuals are not capable of making sound
+choices for their own well-being [6]. One local team
+member was injured after a series of Mars time shifts when
+he mistakenly walked into a wall. Another local team
+member reported falling asleep at the onramp to the
+freeway. Fortunately, the authors know of no significant or
+long-lasting injuries resulting from the MER Mars Time
+experience. Arguably, these kinds of issues are regularly
+seen in professions that employ overnight and long shift
+work, and cannot be attributed to the Mars Time staffing
+plan alone.
+
+Local personnel also had to continue to fill out time cards.
+However, JPL time-keeping systems were not flexible
+enough to schedule more than 40 hours of work time,with
+8-hour days. The time-keeping system could also not
+respond to the problem of operators working 4 days on, 3
+days off, without a 2 day break for weekends. Negotiations
+were held, and this problem was eventually surmounted on a
+case-by-case basis.
+Concesswns and Aahptations
+Working on Mars-Time carried with it a notion that it was a
+‘badge of honor”. People who were not ready to sign up for
+Mars-Time were not truly committed to the project. This
+social status made working Mars-Time hard to resist. “I’m
+working Mars time all the time” was interpreted as staff
+members who had committed completely to the project.
+However, concessions were required, creating a number of
+special cases.
+Some operations teams scheduled “discretionary” work time
+where staff was expected to be at work but not necessarily
+operating a rover. In some cases, particular staff members’
+needs were accommodated, such as the preference of one
+member to start and end his shift at as close to the same
+times of day as possible. This staff member rotated between
+spacecraft when the start and end times moved too far out of
+an acceptable range. Another staff member was
+uncomfortable working nights, so accommodations were
+made so that he worked as many day shifts as possible.
+A schedule that mandated multiple, consecutive rest days
+was implemented to facilitate recovery from Mars Time
+operational shifts [e.g., 31. However, the various operations
+teams implemented the schedule differently. One team chose
+to work 4 days on shift, 3 days off shift Another team
+worked 7 days on, 7 days off. Some personnel stayed on
+Mars time on their days off (Brian Chafin, personal comm.)
+while others moved back to Earth Time on their days off.
+Some personnel attempted live both Mars and Earth lives
+with limited success.
+It is because of the variation in implementation of Mars time
+that it is difficult to provide a single coherent story regarding
+the effects of this staffing option.
+
+In contrast to remote personnel who temporarily relocated,
+local JPL personnel were sometimes allocated to a second
+task along with working operations for MER. Local
+personnel had to continue to attend institutional meetings.
+Personnel often ended up staying long after a shift to attend
+Earth time meetings related to other aspects of their work
+life. Operations staff also came in on their “days off in
+order to attend to these kinds of tasks. Finally, professional
+travel, to conferences for instance, during MER Mars time
+operations was difficult to schedule at best. Travel planning
+was challenging for all team members, as they were living
+on Mars time but had to insert themselves in established
+Earth time flight schedules.
+
+Gastric distress is a main symptom of shift work, but it may
+very well be a side effect of this work, because it is difficult
+to know what meal to eat and when to eat it when starting a
+2:30 AM shift. Eating times were personal and there were
+limited opportunities to share meals. Fresh, healthy food was
+not as readily available in the middle of the night. JPL meal
+services had to be modified significantly to accommodate
+Mars Time work, as there were few food resources in the
+nearby area around the clock. Many operations staff brought
+large amounts of food with them and stored snacks and
+frozen foods in project-provided kitchen facilities. Free ice
+5
+
+cream was also available to the team at all. Because the ice
+cream was easily available, operations personnel ate more of
+it than they would have normally (3-5 ice cream badday
+was not unusual). Some people gained weight. There is
+anecdotal evidence that team members relied on the ice
+cream as both a reward and a pick me up to push through the
+harder parts of their shift work.
+The majority of issues described thus far reflect issues
+currently in the shift work literature. We turn now to a set of
+issues unique to Mars time and the shifting asynchrony
+between Earth time and Mars time.
+
+opportunity, Mars time staffing could not decrease the
+complexity introduced by these transmission latencies. For
+example, on each sol data was examined when the
+operations staff came to work on their Mars Time shift. This
+might be hours after the actual receipt of the data by the
+mission. If the time differential between receipt of data and
+data analysis was particularly extensive, it could draw down
+margins in the daily planning and command load cycle
+causing pressure on the timeline. Latency made it much
+more difficult to optimize data return events.
+
+In section 5 , we discuss the relationship between Earth Time
+staffing (during MER extended mission operations) and data
+
+Orbiting Spacecraft and Data Return Complexiry
+In some respects, Mars time appears to have simplified the
+complexity of the operational processes. Mars time reduced
+risk by maximizing the time available to generate a complete
+command cycle. Mars time allowed for more frequent direct
+communication interactions between the ground operations
+team and the spacecraft When rovers exhibited anomalous
+behavior, Mars time simplified the team’s ability to respond.
+Key personnel could extend their shifts to resolve problems.
+Finally, both the clock and direct communication passes
+@E)
+were in synch with the work
+
+Mars time also made it possible for personnel to understand
+what was currently (taking into account the one-way light
+time travel delay for returned information from Mars)
+occurring on the spacecraft. It remains to be seen whether
+this state knowledge is always necessary to the successful
+operation of a spacecraft, but working in synch did help the
+operations team establish a bond with the vehicles on Mars.
+The original MER mission timeline was designed to utilize
+direct to Earth @TE) communications, which was expected
+to provide the data necessary to make each sol’s decisions.
+However, most data for MER was relayed to the Earth team
+through orbiting Martian satellites rather than D E , The
+satellites had to be in accurate orbital positions to capture
+the data from the Maman surface as well as to transmit it to
+Earth. Transmission latency occurred as the satellitesorbited
+to re-position themselves for each of these tasks.
+On Mars Time. the assumption was that the DTE data would
+be available to make decisions for each sol. While the team
+was not supposed to hold decision processes for the return
+of particular data, the natural inclination was to hold off on
+decision-making where possible so that the most recent
+information could be incorporated. Because most data were
+returned by relay, the team often waited for this data to be
+returned before making decisions. This had the effect of
+sometimes delaying the process, resulting in last minute
+decision making and pressuring the team to complete tasks
+in shorter than planned times.
+
+return latency.
+Mars Time personnel worked schedules that were difficult to
+remember and predict beyond a day or two in advance
+without the aid of carefully prepared electronic schedules.
+We will address in detail the issue of keeping track of
+schedules as well as several different times in Section 4.
+
+4. KEEPING TRACK OF TIME
+MER mission personnel working on Mars Time had to keep
+track of several different kinds of time and coordinate those
+times with work staffing schedules. Some of the different
+time and coordination issues were:
+Tracking Mars time within a mission in order to
+plan rover activities relative to Martian daylight
+and send commands to the rovers in a timely
+fashion.
+Tracking both Mars Time and the equivalent Earth
+Time in each mission so that personnel could keep
+track of events inside and outside the mission while
+they were working.
+Coordination of time between the two missions for
+sharing Mars communication infrastructures and
+sharing mission facilities.
+Scheduling of work within a sol so that participants
+completed each phase of work and handed over to
+the next team within the mission timeline of events.
+Scheduling of work to identify both the consistent
+Mars start time for shifts as well as the constantly
+rotating Earth start times for the same shift so that
+personnel knew when to show up for work.
+Identification of long term staff schedules so that
+personnel could keep track of their schedules
+relative to both Earth and Mars Time over extended
+time periods and when planning for days off.
+Working on Mars time, personnel had to track both the
+Martian local solar time (LST) as well as the Martiau dateer
+(Sol number) and coordinate those times with Earth Pacific
+Standard Time (PST), the Universal Time (VTC) also
+
+During operations, data return times were not set on precise
+schedules but rather occurred during ‘’widows” of
+
+6
+
+known as Greenwich Mean Time (GMT) and the current
+Julian calendar Earth day and date.
+The two rovers were working on opposite sides of Mars, at
+the Meridiani Planum and Gusev Crater sites. While this
+difference facilitated easier recollection of rover-specific
+issues, it doubled the time challenges as the work of the two
+rovers took place in different Martian time zones. MER A,
+the Spirit mission at Gusev Crater, and MER B, the
+Opportunity mission at Meridiani Planum, had different
+times known as MERA LST and MERB LST. Whether
+personnel were working on the Spirit or Opportunity
+missions, they bad to know what time it was on their
+particular area of Mars and make translations between Mars
+and Earth time with ease. While daylight and darkness
+helped staff keep track of Earth time to some degree. there
+were no environmental clues to help track Mars time.
+
+Figure 2. CIP clock tracks LSTA, LSTB, PST and CTC
+
+times.
+Additionally, science team personnel who had moved to
+Pasadena for the duration of the mission from an institution
+in another time zone had to keep track of the time in relation
+to their “home” time zone. A mission tool, the Collaborative
+Information Portal [7] had clocks that were designed
+specifically to allow personnel to configure and track all of
+these times as needed. For instance, participants could track
+and compare LST A andor LST B, track and compare Mars
+Time with PST or with time in another Earth time zone, and
+track UTC (universal time coordinated). images one and two
+below show two such configurations of the CIP ciocks
+displayed on another mission tool the MERBoard [8]. The
+large display of these configurable clocks on the MERBoard
+became an essential work practice, facilitating work on the
+mission time line (Figure 2 and 3).
+
+Figure 3. Software clock tracks LST and PST with other
+Earth time zones.
+Staffing schedules had to indicate both Earth and Mars shift
+start times. While the start of Mars time work might always
+be 1400 hrs LST, the fact that the related Earth time start of
+work “walked forward” by thirty nine minutes each day,
+forced teams to create elaborate schedules to coordinate
+work. While it was intuitive to personnel that they needed to
+report approximately forty minutes later for work tomorrow,
+it was not intuitive or easy to track a thirty nine minute
+change over even short periods or when planning events
+several days or weeks ahead. It was also extremely easy to
+lose track of the time rotation when taking days off between
+work periods. Even just a few days off made it difficult to
+project ahead and determine Earth time relevant to a
+particular time on the Martian clock. For example, to ensure
+getting to work on time, two of the authors felt compelled to
+write start times for every Mars day on their Earth calendars
+and consider the changing traffic patterns in deciding on
+when to leave for work. Further, updates to schedules were
+difficult to track. Often, email was used to distribute
+versions of the staffing schedules, which suggests that staff
+members must check their email at the right time (either at
+home or at work) to ensure that they were aware of schedule
+changes.
+Many operations team members worked more than one
+position and thus had schedules from more than one position
+manager. It was difficult for personnel to coordinate these
+schedules across positions.
+Although team members
+recognized the need to create an integrated scheduling and
+staffing tool, higher priority concurrent hindered the
+impleaentation.
+
+While some analog wall clocks displayed both military and
+PST (Fig 3,they did not indicate whether the Earth time of
+day was morning or evening, 0700 or 1900 hrs, or whether it
+was day or night on Mars. The number of necessary,
+relevant time conversions at each point of work in the Earth
+day and Marttan sol was complex.
+Approx. Sol I
+3
+1 4 1
+PancarnPELl JBe
+JBe
+Pancarn PDLl MLe I MLe I
+PancamPDAI JSo
+FSe I
+PancamPDAZI MWo
+WFa 1
+Pancam PULI JPr I JPr
+PancarnPUL2I EMc I M B M I
+
+I
+I
+I
+
+5
+
+1
+
+RMo
+
+I WFa
+
+5. EXTENDED
+MSSION OPERATIONS
+
+I JSD
+
+The MER mission moved from nominal to extended mission
+operations after successfully working for ninety daydsols
+(the definition of mission success) with each rover. At this
+time, the teams also transitioned to “Earth Time schedules”.
+With the onset of extended mission, many science team
+members also returned to their home institutions creating
+distributed work and teams. Based on the switch to Earth
+Time and the nature of extended operations, we can look at
+the operational effects of Mars Time from yet another
+perspective.
+
+6
+
+I JJo I JJo
+
+I
+
+~
+
+FSe
+MJo
+HAr
+JPr
+
+I MJo
+
+f HAr
+I MBM
+
+Figure 4. Section from one of the science team schedules
+showing mission (MER A), staff position, Earth Time
+and date as well as Martian Sol when shift starts.
+(Courtesy of Jim Bell and the MER Pancam team)
+Many mission participants invested in special analog
+watches, called “Mars watches,” that were adjusted to keep
+Mars Time. The watches were extremely helpful, because a
+glance told personnel that they had three Mars hours before
+they had to show up at a 1400 LST meeting or start of shift.
+The limitation of the watches was that if one went off Mars
+Time for several days and did not pay attention to mission
+events, it was impossible to know if the analog watch,
+without a 24 hour time display, was indicating morning or
+evening times, One could not just look out the window and
+tell if it was dark or light on Mars. In general, use of Mars
+time reduced the cognitive load on mission personnel
+because the team did not have to translate task completion
+times into rover need times. But participants still had to
+translate time differences because alarm clocks run on Earth
+time and the analog Mars watches did not have alarms.
+
+During the nominal mission, science and engineering
+participants could refer to a paper schedule that, once
+determined, rarely, if ever changed unpredictably. With the
+shift to Earth Time operations, MER teams still had to work
+in relation to the timing of pre-existing Mars events,
+including uplink and downlink opportunities. This precluded
+simply moving to permanent, regularly scheduled Earth
+business hours. Instead it required the mission to create
+shifting schedules that allowed people to work in Earth time
+but still maximize synchrony between Earth and Mars Time.
+Because the shifting schedules were unpredictable, local and
+remote participants had to check an e-mail schedule to
+confirm meeting times. However, participants could not be
+sure that they had received the most recent update in their email, creating substantial opportunity for confusion. Shifts
+started later over time, but it was not clear on what day the
+shift would move to a later time.
+Science teams consolidated the work of both rover
+operations within a single daytime schedule, offering them
+the opportunity to unite in a joint meeting. However, on
+occasion, managing the asynchrony for both rovers made it
+impossible to identify a feasible joint meeting time, again
+contributing to schedule uncertainty.
+In order to coordinate the drifting Earth and Mars times, at
+some point in the shifiing schedu!e process, a dramatic resynch was required. Instead of starting the day later,
+participants would start the day much earlier. These days
+were called “transition days”, and potentially reversed the
+order of activities. Prior to transition, downlink may have
+occurred at the end of the shift. When modest shifting could
+no longer keep the downlink in the window of one workday,
+transition days restored the downlink event to the beginning
+of the shift. If the timing of the communication even? varies
+within the workday, the organization of the related work will
+
+Figure 5. Since mission Earth Time was kept in military
+time, workers also had to translate PST to military time.
+A few clocks in the mission support facility helped with
+this coordination.
+8
+
+.
+also vary. A new type of (sol) also emerged. So-called
+“restricted sols” are those in which downlink is not available
+before planning so planning had to occur two sols ahead.
+Compressed Planning
+
+The shift from Mars Time to earth Time also required a
+compressed science planning process. This affected the
+planning process in many ways.
+Chasing the downlink data return
+
+When staffimg to Earth Time, the issues related to data
+latency take on a different character. On Earth T h e , there
+was no expectation that the downIinked data would arrive in
+time to influence the decision process. Therefore science
+planning was less dependent upon immediately-returned
+data and instead relied on the data already in hand. We
+argue that Earth Time staffing makes the planning more
+realistic by not expecting the team to perform “ll* hour
+miracles” that require the completion of tasks in far less time
+than called for in the process.
+When the vehicles first began operating on Earth Time, the
+Opportunity science team appeared to be chasing the
+downlinks, postponing the refinement of a single plan until
+after a crucial planning meeting (the SOWG) in an attempt
+to continue the practice begun in the nominal mission of
+waiting for downlink information. As the time of downlinks
+continued to diverge from the work of Eartb time operations,
+however, this strategy was not sustainable. Adaptaiions in
+response to late arriving data could not be incorporated into
+the planning process with sufficient speed to meet the uplink
+so participants began to move from reactive planning to
+predefined, relatively context independent, multi-sol plans.
+Planning began before the arrival of new data, resulting in
+more generic plans. However, during periods of heightened
+interest, the science team reverted to semi-Mars Time in
+order to react to the latest data.
+
+6. CONCLUSIONS
+The MER mission’s desire for complete flexibility in
+sequencing the rovers on Mars, as well as the ability to
+maximize the availability of co-located operations personnel
+led to the decision to staff on Mars Time. The nature of
+future missions however, will dictate different assumptions
+about the nature of tele-operations, including the length of
+the mission, the particular software tools being used, and the
+nature and amount of autonomy being used. It is likely that
+each mission will consider these assumptions relative to any
+possible staffing options when deciding on the nature of
+tele-operations of remote spacecraft. Depending on each
+missions design, it may not be necessary to work on Mars
+Time,despite the obvious mission advantages to MER.
+
+We suggest that if MER had had the resources @nmarily
+time) to significantly cross-train the operations team on both
+uplink and downlink tasks,then much of the need for Mars
+Time staffing could be eliminated. Without cross training,
+the schedule determines the nature of work available to a
+particular operations staff. Operations might still require 24
+hourdday staffing, but personnel could maintain a regular
+shift schedule and perform whichever task was required on
+Mars when they came to work on their Earth Time schedule.
+In future longduration, extended (1 year and more)
+missions, the staff cross-training should be possible.
+Additionally, we suggest that deficiencies in automation,
+tool integration and process optimization show their impact
+in staffing. That is, if the process and tools do not support a
+short turn-around, then it falls to Mars Time staffing to
+maximize the time available to move from data-receipt to
+command-upload. If the process for a complete turn around
+were shorter, the staffing profile would not be the issue; the
+team could accomplish what is necessary on an Earth Time
+schedule.
+Implicationsfor Mission Management
+
+A number of institutional challenges should be addressed
+when considering Mars Time staffing.
+Institutional time keeping policies and food
+services must be negotiated to accommodate the
+%hour, 7 days per week staffing.
+While schedule personalization is a significant
+challenge faced by management in charge of
+scheduling, it is unlikely that all customization can
+be eliminated. Mechanisms such as scheduling
+tools should be considered to help address this
+issue.
+Better mechanisms for schedule distribution should
+be considered. Email distribution is limited by
+issues of server latency, versioning, and
+intermittent participant access to emailed
+notifications.
+Management should also consider scheduling
+“discretionary” time as part of the mission work
+time so that personnel have Earth daytime hours to
+complete other non-operations work such as
+attending staff meetings and seminars.
+
+9
+
+f
+
+7.REFERENCES
+
+8. BIOGRAPHY
+
+[l] Steven W. Squyres, Ray E. Arvidson, J. F. Bell III,
+Johannes Bruckner, Natalie A. Cabrol, Wendy Calvin,
+Michael H. !hi,
+zid t!!e A ! e m Scieiice Team, ‘The
+Spirit Rover’s Athena Science Investigation at Gusev
+Crater, Mars”, Science, August 6,2004.
+
+121 Donald I. Tepas, Michael J. Paley and Stephen M. Popkin,
+‘Work schedules and sustained performance.” in G.
+Salvendy (ed.) Handbook of Human Factors and
+Ergonomics (pp. 1021-1058),New York: J.Wiley, 1997.
+[3] Charles A. Czeisler, Mary A. Carskadon, Claude Gronfier,
+Thomas Roth, Melissa M. Mallis, and Kenneth Wright,
+“Consultant Report: Mars Exploration Rover Surface
+Operations Human Factors Workshop”, NAS.4 Ames
+Research Center commissioned for NASA Jet Propulsion
+Laboratory, California Institute of Technology, January
+10,2001.
+[4] Bonny Parke. Michael Shafto, Jay Trimble and Roxana
+
+Wales, Mars Pathfinder FatigudStress Questionnaire
+Report, NASA Ames Research Center, August, 2001.
+[5] Arthur Thompson, Deborah Bass, Charles Budney, Karen
+Deutch, Robert Gounley, Kenneth Herkenhoff, Paul
+Herrera, Jan Ludwinski, Justin Maki, and Kevin Talley,
+“Mars vs. Earth Time Final Report”, JPL MER internal
+document, September, 2001.
+[6] B O M ~Park, “Best Practices in Shift Handover:
+Applications to MER Surface Operations.” Ames
+Research Center, NASA,MS 2624, Moffett Field, C,4
+94035-1000.
+[7] Joan D. Walton, Ronald J. Mak, and Leslie F. Keely.
+“Collaborative Information Portal: MER and Beyond’,
+2003 Space Mission Challenges for Information
+Technology Conference, 2003.
+
+[8] Jay Trimble, Roxana Wales, Rich Gossweiler, “NASA’s
+MERBoard: An Interactive Collaborative Workspace
+Platform”. In O’Hara, Perry, Churchill and Russell (eds),
+Public and Situated Displays: Social and Interactional
+Aspects of Shared Display Technologies. Dordrecht:
+Kluwer, 2003.
+
+Deborah S. Bass, Ph.D. currently works at the NASA Jet
+Propulsion Laboratory, where she
+:vas t!!e _np_ty Science - r e m
+Chief for the Mars Exploration
+Rover (MER) Project. Dr. Bass is
+now the Project Science Systems
+Engineer for the 2007 Mars
+Lander, Phoenix. She received her
+PhD from the University of
+California at Los Angeles, and her
+science expertise focuses on Mars
+polar geology, with an emphasis on water transport in and
+out of the polar regions.
+
+Roxana C. Wales, Ph.D. is a human-centered computing
+research scientist at the NASA
+Ames Research Center. As an
+ethnographer focused on work
+system design and evaluation, she
+is especially interested in
+revealing explicit as well as
+implicit
+information
+in
+technological settings that is
+essential for creating better work
+systems
+and
+supporting
+technology use within expert domains. At NASA, she has
+worked on projects in Mission Control at Johnson Space
+Center for both the International Space Station and the
+Space Shuttle. She also conducted a two and a half year
+study of airline operations and airline delays at a major
+airline for NASA.
+Valerie L. Shalin Ph.D. is
+currently an Associate Professor in
+the Department of Psychology at
+Wright State University, and has
+held positions at S U N Y Buffalo
+Department
+of
+Industrial
+Engineering
+and
+Honeywell
+Systems and Research Center. She
+has seventeen journal articles and
+book chapters, and numerous
+proceedings papers in the area of
+human workplace expertise and associated empirical and
+analytic methods to support the design and evaluation of
+workplace aiding and training technolcgy.
+The research described in this (publication or paper) was
+carried out at the Jet Propulsion Laboratory, California
+Institute of Technology, under a contract with the National
+Aeronautics and Space Administration.
+
+10
+
+
